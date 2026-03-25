@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_36.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_35B19D34B208E77E_28;
+
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0xA60F3E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_GET_SKILLPARAM_OFFSET UNITYSDK_OFFSET(0xA60F3C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_GET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0xA60F3A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0xA60F3F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SET_SKILLPARAM_OFFSET UNITYSDK_OFFSET(0xA60F3D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0xA60F3B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA6044D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA60F390)
+
+namespace RPG::Client::TrainParty
+{
+	inline static constexpr unsigned int TrainPartySkillAnimInfo_TypeDefinitionIndex = 61120;
+
+	class TrainPartySkillAnimInfo : public ::System::Object
+	{
+	public:
+		::System::UInt32 _SkillParam_k__BackingField; // 0x10
+		::System::UInt32 _SkillId_k__BackingField; // 0x14
+		::Enum_3_4608E37A1B3D374A_36 _SkillType_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_35B19D34B208E77E_28* skillBrief)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_35B19D34B208E77E_28*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SYNC_OFFSET))(this, skillBrief);
+		}
+
+		::Enum_3_4608E37A1B3D374A_36 get_SkillType()
+		{
+			return ((::Enum_3_4608E37A1B3D374A_36(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_GET_SKILLTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_SkillType(::Enum_3_4608E37A1B3D374A_36 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_4608E37A1B3D374A_36))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SET_SKILLTYPE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_SkillParam()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_GET_SKILLPARAM_OFFSET))(this);
+		}
+
+		::System::Void set_SkillParam(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SET_SKILLPARAM_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_SkillId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_GET_SKILLID_OFFSET))(this);
+		}
+
+		::System::Void set_SkillId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSKILLANIMINFO_SET_SKILLID_OFFSET))(this, value);
+		}
+	};
+}

@@ -1,0 +1,278 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_99BD961747420BEB_10;
+namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
+namespace RPG::Client { class RogueNousDiceSlotDataItem; }
+namespace RPG::GameCore { class RogueNousDiceBranchRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA34AEA0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GETEDITMODEUNDERLINEIDS_OFFSET UNITYSDK_OFFSET(0xA34B560)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GETENTERMODEUNDERLINEIDS_OFFSET UNITYSDK_OFFSET(0xA34B800)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BESTCOMPLEVELRECORD_OFFSET UNITYSDK_OFFSET(0xA34CA20)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BESTLEVELPASSRECORD_OFFSET UNITYSDK_OFFSET(0xA34CA00)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHCORELARGEPREFAB_OFFSET UNITYSDK_OFFSET(0xA34C430)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHCORESMALLPREFAB_OFFSET UNITYSDK_OFFSET(0xA34C4E0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHICONPATH_OFFSET UNITYSDK_OFFSET(0xA34C590)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHID_OFFSET UNITYSDK_OFFSET(0xA34BB10)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHNAME_OFFSET UNITYSDK_OFFSET(0xA34C290)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRIEFINTRO_OFFSET UNITYSDK_OFFSET(0xA34C360)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DESCPARAMVALUE1_OFFSET UNITYSDK_OFFSET(0xA34BE70)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DESCPARAMVALUE2_OFFSET UNITYSDK_OFFSET(0xA34BFE0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DESCPARAMVALUE3_OFFSET UNITYSDK_OFFSET(0xA34C150)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DICEICONPATH_OFFSET UNITYSDK_OFFSET(0xA34C640)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESCPARAM1_OFFSET UNITYSDK_OFFSET(0xA34BDA0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESCPARAM2_OFFSET UNITYSDK_OFFSET(0xA34BF10)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESCPARAM3_OFFSET UNITYSDK_OFFSET(0xA34C080)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0xA34BB30)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTEXTRADESC_OFFSET UNITYSDK_OFFSET(0xA34B6C0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_GENRETAGVALUE_OFFSET UNITYSDK_OFFSET(0xA34C1F0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_ISANYLEVELPASSED_OFFSET UNITYSDK_OFFSET(0xA34CA40)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_ISFIRSTTIMEUNLOCK_OFFSET UNITYSDK_OFFSET(0xA34C8A0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_ISHARDESTLEVELPASSED_OFFSET UNITYSDK_OFFSET(0xA34CA50)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_PASSIVEEFFECTDESC_OFFSET UNITYSDK_OFFSET(0xA34BC00)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_PASSIVEEFFECTEXTRADESC_OFFSET UNITYSDK_OFFSET(0xA34B760)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_PASSIVEEXTRADESC_OFFSET UNITYSDK_OFFSET(0xA34B960)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_RECOMMENDHASHSET_OFFSET UNITYSDK_OFFSET(0xA34C8C0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_SLOTLIST_OFFSET UNITYSDK_OFFSET(0xA34C810)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_STARTINGEFFECTDESCTOAST_OFFSET UNITYSDK_OFFSET(0xA34BCD0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_UNLOCKCONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xA34C6F0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA34BA10)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_INIT_OFFSET UNITYSDK_OFFSET(0xA34A950)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_REFRESHFIRSTTIMEUNLOCKSTATUS_OFFSET UNITYSDK_OFFSET(0xA34B480)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_BESTCOMPLEVELRECORD_OFFSET UNITYSDK_OFFSET(0xA34CA30)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_BESTLEVELPASSRECORD_OFFSET UNITYSDK_OFFSET(0xA34CA10)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_BRANCHID_OFFSET UNITYSDK_OFFSET(0xA34BB20)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_ISFIRSTTIMEUNLOCK_OFFSET UNITYSDK_OFFSET(0xA34C8B0)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SYNCSLOT_OFFSET UNITYSDK_OFFSET(0xA34AF50)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA34A940)
+#define RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM__INITSLOTS_OFFSET UNITYSDK_OFFSET(0xA34A9A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueNousDiceBranchDataItem_TypeDefinitionIndex = 54470;
+
+	class RogueNousDiceBranchDataItem : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueNousDiceSlotDataItem*>* SlotDataDict; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _RecommendSurfaceIDs; // 0x18
+		::System::Boolean _IsFirstTimeUnlock_k__BackingField; // 0x20
+		::System::Boolean IsUnlocked; // 0x21
+		::System::UInt32 _BestLevelPassRecord_k__BackingField; // 0x24
+		::System::UInt32 _BranchID_k__BackingField; // 0x28
+		::System::UInt32 _BestCompLevelRecord_k__BackingField; // 0x2C
+
+		::System::Void _ctor(::System::UInt32 branchID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM__CTOR_OFFSET))(this, branchID);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void SyncSlot(::Class_1_99BD961747420BEB_10* info, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::Boolean>* slotUnlockStatus)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_10*, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SYNCSLOT_OFFSET))(this, info, slotUnlockStatus);
+		}
+
+		::System::Void RefreshFirstTimeUnlockStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_REFRESHFIRSTTIMEUNLOCKSTATUS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* GetEditModeUnderLineIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GETEDITMODEUNDERLINEIDS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* GetEnterModeUnderlineIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GETENTERMODEUNDERLINEIDS_OFFSET))(this);
+		}
+
+		::System::Void _InitSlots()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM__INITSLOTS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueNousDiceBranchRow* get__Row()
+		{
+			return ((::RPG::GameCore::RogueNousDiceBranchRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET__ROW_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BranchID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHID_OFFSET))(this);
+		}
+
+		::System::Void set_BranchID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_BRANCHID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_EffectDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_EffectExtraDesc()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTEXTRADESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_PassiveEffectDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_PASSIVEEFFECTDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_PassiveExtraDesc()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_PASSIVEEXTRADESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_PassiveEffectExtraDesc()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_PASSIVEEFFECTEXTRADESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StartingEffectDescToast()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_STARTINGEFFECTDESCTOAST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EffectDescParam1()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESCPARAM1_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_DescParamValue1()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DESCPARAMVALUE1_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EffectDescParam2()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESCPARAM2_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_DescParamValue2()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DESCPARAMVALUE2_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EffectDescParam3()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_EFFECTDESCPARAM3_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_DescParamValue3()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DESCPARAMVALUE3_OFFSET))(this);
+		}
+
+		::System::UInt32 get_GenreTagValue()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_GENRETAGVALUE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BranchName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BriefIntro()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRIEFINTRO_OFFSET))(this);
+		}
+
+		::System::String* get_BranchCoreLargePrefab()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHCORELARGEPREFAB_OFFSET))(this);
+		}
+
+		::System::String* get_BranchCoreSmallPrefab()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHCORESMALLPREFAB_OFFSET))(this);
+		}
+
+		::System::String* get_BranchIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BRANCHICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_DiceIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_DICEICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_UnlockConditionDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_UNLOCKCONDITIONDESC_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::RogueNousDiceSlotDataItem*>* get_SlotList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueNousDiceSlotDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_SLOTLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFirstTimeUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_ISFIRSTTIMEUNLOCK_OFFSET))(this);
+		}
+
+		::System::Void set_IsFirstTimeUnlock(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_ISFIRSTTIMEUNLOCK_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* get_RecommendHashSet()
+		{
+			return ((::System::Collections::Generic::HashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_RECOMMENDHASHSET_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BestLevelPassRecord()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BESTLEVELPASSRECORD_OFFSET))(this);
+		}
+
+		::System::Void set_BestLevelPassRecord(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_BESTLEVELPASSRECORD_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_BestCompLevelRecord()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_BESTCOMPLEVELRECORD_OFFSET))(this);
+		}
+
+		::System::Void set_BestCompLevelRecord(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_SET_BESTCOMPLEVELRECORD_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsAnyLevelPassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_ISANYLEVELPASSED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsHardestLevelPassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEBRANCHDATAITEM_GET_ISHARDESTLEVELPASSED_OFFSET))(this);
+		}
+	};
+}

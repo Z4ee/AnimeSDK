@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_AE2EBF12D2D8D8EB.h"
+#include "unitysdk/RPG/Client/CompilerFramework/LocationKind.h"
+#include "unitysdk/Struct_2_799D06E49FEC1820.h"
+
+class Class_1_03012F75E773046C;
+class Class_1_E750E5E5D854E770;
+namespace System { class Object; }
+
+#define CLASS_2_61C4C797CC4BD57E_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x165A6C00)
+#define CLASS_2_61C4C797CC4BD57E_EQUALS_OFFSET UNITYSDK_OFFSET(0x165A6B70)
+#define CLASS_2_61C4C797CC4BD57E_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x165A6CF0)
+#define CLASS_2_61C4C797CC4BD57E_METHOD_2_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x165A6E40)
+#define CLASS_2_61C4C797CC4BD57E_METHOD_2_3D78D2E0F9F95F07_OFFSET UNITYSDK_OFFSET(0x165A6E50)
+#define CLASS_2_61C4C797CC4BD57E_METHOD_2_CACC9BD5AF29E635_OFFSET UNITYSDK_OFFSET(0x165A6E30)
+#define CLASS_2_61C4C797CC4BD57E__CTOR_1_OFFSET UNITYSDK_OFFSET(0x165A6A80)
+#define CLASS_2_61C4C797CC4BD57E__CTOR_OFFSET UNITYSDK_OFFSET(0x165A6A70)
+#define CLASS_2_61C4C797CC4BD57E___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x165A6E60)
+#define CLASS_2_61C4C797CC4BD57E___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x165A6E70)
+
+inline static constexpr unsigned int Class_2_61C4C797CC4BD57E_TypeDefinitionIndex = 32181;
+
+class Class_2_61C4C797CC4BD57E : public ::Class_1_AE2EBF12D2D8D8EB
+{
+public:
+	::Class_1_03012F75E773046C* Field_2_0; // 0x10
+	::Struct_2_799D06E49FEC1820 Field_2_1; // 0x18
+
+	::System::Void _ctor(::Class_1_03012F75E773046C* a1, ::Struct_2_799D06E49FEC1820 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_03012F75E773046C*, ::Struct_2_799D06E49FEC1820))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void _ctor_1(::Class_1_E750E5E5D854E770* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_E750E5E5D854E770*))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E__CTOR_1_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Boolean Equals_1(::Class_2_61C4C797CC4BD57E* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_61C4C797CC4BD57E*))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E_EQUALS_1_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::CompilerFramework::LocationKind Method_2_CACC9BD5AF29E635()
+	{
+		return ((::RPG::Client::CompilerFramework::LocationKind(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E_METHOD_2_CACC9BD5AF29E635_OFFSET))(this);
+	}
+
+	::Class_1_03012F75E773046C* Method_2_24748FC20F375725()
+	{
+		return ((::Class_1_03012F75E773046C*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E_METHOD_2_24748FC20F375725_OFFSET))(this);
+	}
+
+	::Struct_2_799D06E49FEC1820 Method_2_3D78D2E0F9F95F07()
+	{
+		return ((::Struct_2_799D06E49FEC1820(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E_METHOD_2_3D78D2E0F9F95F07_OFFSET))(this);
+	}
+
+	::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+	}
+
+	::System::Int32 __iFixBaseProxy_GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61C4C797CC4BD57E___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
+	}
+};

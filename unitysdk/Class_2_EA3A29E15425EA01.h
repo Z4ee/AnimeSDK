@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+
+class Class_1_ECA6A21F0048224D;
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define CLASS_2_EA3A29E15425EA01_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x89E86E0)
+#define CLASS_2_EA3A29E15425EA01_METHOD_2_4418D0C08F01D8CD_OFFSET UNITYSDK_OFFSET(0x89E8820)
+#define CLASS_2_EA3A29E15425EA01_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x89E8690)
+#define CLASS_2_EA3A29E15425EA01_METHOD_2_E2CDB6B22CCEBA97_OFFSET UNITYSDK_OFFSET(0x89E8BA0)
+#define CLASS_2_EA3A29E15425EA01_PREUPDATEDONE_OFFSET UNITYSDK_OFFSET(0x89E88B0)
+#define CLASS_2_EA3A29E15425EA01_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0x89E8790)
+#define CLASS_2_EA3A29E15425EA01_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x89E8730)
+#define CLASS_2_EA3A29E15425EA01_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x89E8620)
+#define CLASS_2_EA3A29E15425EA01__CTOR_OFFSET UNITYSDK_OFFSET(0x89E89E0)
+#define CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x89E8A50)
+#define CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_PREUPDATEDONE_OFFSET UNITYSDK_OFFSET(0x89E8C10)
+#define CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0x89E8B30)
+#define CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x89E8AC0)
+#define CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x89E89F0)
+
+inline static constexpr unsigned int Class_2_EA3A29E15425EA01_TypeDefinitionIndex = 52748;
+
+class Class_2_EA3A29E15425EA01 : public ::Class_1_41E07A9DDAB7FC78
+{
+public:
+	::System::Boolean Field_2_2; // 0x10
+	::System::Boolean Field_2_0; // 0x11
+	::System::Boolean Field_2_1; // 0x12
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01__CTOR_OFFSET))(this);
+	}
+
+	::System::Void UpdateStart()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_UPDATESTART_OFFSET))(this);
+	}
+
+	::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_ISCONCERNEDWITH_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_UPDATEBEFORE_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void UpdateAddItem(::Class_1_ECA6A21F0048224D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_UPDATEADDITEM_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_4418D0C08F01D8CD(::Class_1_ECA6A21F0048224D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_METHOD_2_4418D0C08F01D8CD_OFFSET))(this, a1);
+	}
+
+	::System::Void PreUpdateDone()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_PREUPDATEDONE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateStart()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_UPDATESTART_OFFSET))(this);
+	}
+
+	::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 P0)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 P0, ::System::Collections::Generic::IList_1<::System::UInt32>* P1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_UPDATEBEFORE_OFFSET))(this, P0, P1);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateAddItem(::Class_1_ECA6A21F0048224D* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_UPDATEADDITEM_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_2_E2CDB6B22CCEBA97(::Class_1_ECA6A21F0048224D* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01_METHOD_2_E2CDB6B22CCEBA97_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_PreUpdateDone()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA3A29E15425EA01___IFIXBASEPROXY_PREUPDATEDONE_OFFSET))(this);
+	}
+};

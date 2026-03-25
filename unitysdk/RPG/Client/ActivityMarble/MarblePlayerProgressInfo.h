@@ -1,0 +1,158 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/MarblePhaseType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class MainMissionData; }
+namespace RPG::Client::ActivityMarble { class IMarbleTournamentStage; }
+namespace RPG::Client::ActivityMarble { class MarbleMatchContext; }
+namespace RPG::Client::ActivityMarble { class MarblePvePlayer; }
+namespace RPG::GameCore { class MarbleMatchInfoConfigRow; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_CREATEMATCHCONTEXT_OFFSET UNITYSDK_OFFSET(0x8F68400)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_FETCHDEPENDANTSUBMISSIONIDS_OFFSET UNITYSDK_OFFSET(0x8F67C00)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GETCURMAINMISSIONDATA_OFFSET UNITYSDK_OFFSET(0x8F68800)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_CANSTART_OFFSET UNITYSDK_OFFSET(0x8F68DC0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_CURRENTSTAGETYPE_OFFSET UNITYSDK_OFFSET(0x8F68C90)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_CURRENTSTAGE_OFFSET UNITYSDK_OFFSET(0x8F68C70)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_ENEMYPLAYER_OFFSET UNITYSDK_OFFSET(0x8F685A0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x8F68DA0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_PROGRESSID_OFFSET UNITYSDK_OFFSET(0x8F67880)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8F67350)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_ISFINALMATCHOFSTAGE_OFFSET UNITYSDK_OFFSET(0x8F68650)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_ISPVPUNLOCKMISSIONFINISH_OFFSET UNITYSDK_OFFSET(0x8F61EF0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_OPENSETTLEMENTRANKVIEW_OFFSET UNITYSDK_OFFSET(0x8F68070)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_OPENSTAGEINFOVIEW_OFFSET UNITYSDK_OFFSET(0x8F67D70)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_SET_CURRENTSTAGE_OFFSET UNITYSDK_OFFSET(0x8F68C80)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x8F68DB0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_STARTPVEMATCH_OFFSET UNITYSDK_OFFSET(0x8F68180)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x8F67420)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__CREATESTAGEDATA_OFFSET UNITYSDK_OFFSET(0x8F68B10)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F68E70)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__GETCURRENTPROGRESSID_OFFSET UNITYSDK_OFFSET(0x8F67500)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__UPDATESTAGE_OFFSET UNITYSDK_OFFSET(0x8F678D0)
+
+namespace RPG::Client::ActivityMarble
+{
+	inline static constexpr unsigned int MarblePlayerProgressInfo_TypeDefinitionIndex = 61444;
+
+	class MarblePlayerProgressInfo : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::MarbleMatchInfoConfigRow* _ProgressRow; // 0x10
+		::RPG::Client::ActivityMarble::IMarbleTournamentStage* _CurrentStage_k__BackingField; // 0x18
+		::System::UInt32 _PVP_Unlock_SubMission_ID; // 0x20
+		::System::Boolean _IsFinished_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_INIT_OFFSET))(this);
+		}
+
+		::System::Void UpdateProgress()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_UPDATEPROGRESS_OFFSET))(this);
+		}
+
+		::System::Void FetchDependantSubMissionIDs(::System::Collections::Generic::HashSet_1<::System::UInt32>* subMissionIDs)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_FETCHDEPENDANTSUBMISSIONIDS_OFFSET))(this, subMissionIDs);
+		}
+
+		::System::Boolean IsPVPUnlockMissionFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_ISPVPUNLOCKMISSIONFINISH_OFFSET))(this);
+		}
+
+		::System::Void OpenStageInfoView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_OPENSTAGEINFOVIEW_OFFSET))(this);
+		}
+
+		::System::Void OpenSettlementRankView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_OPENSETTLEMENTRANKVIEW_OFFSET))(this);
+		}
+
+		::System::Void StartPVEMatch()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_STARTPVEMATCH_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityMarble::MarbleMatchContext* CreateMatchContext()
+		{
+			return ((::RPG::Client::ActivityMarble::MarbleMatchContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_CREATEMATCHCONTEXT_OFFSET))(this);
+		}
+
+		::System::Boolean IsFinalMatchOfStage()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_ISFINALMATCHOFSTAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::MainMissionData* GetCurMainMissionData()
+		{
+			return ((::RPG::Client::MainMissionData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GETCURMAINMISSIONDATA_OFFSET))(this);
+		}
+
+		::System::Void _UpdateStage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__UPDATESTAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityMarble::IMarbleTournamentStage* _CreateStageData(::RPG::GameCore::MarblePhaseType stageID)
+		{
+			return ((::RPG::Client::ActivityMarble::IMarbleTournamentStage*(*)(::PVOID, ::RPG::GameCore::MarblePhaseType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__CREATESTAGEDATA_OFFSET))(this, stageID);
+		}
+
+		::System::UInt32 _GetCurrentProgressID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO__GETCURRENTPROGRESSID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ProgressID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_PROGRESSID_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityMarble::MarblePvePlayer* get_EnemyPlayer()
+		{
+			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_ENEMYPLAYER_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityMarble::IMarbleTournamentStage* get_CurrentStage()
+		{
+			return ((::RPG::Client::ActivityMarble::IMarbleTournamentStage*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_CURRENTSTAGE_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentStage(::RPG::Client::ActivityMarble::IMarbleTournamentStage* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityMarble::IMarbleTournamentStage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_SET_CURRENTSTAGE_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::MarblePhaseType get_CurrentStageType()
+		{
+			return ((::RPG::GameCore::MarblePhaseType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_CURRENTSTAGETYPE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_ISFINISHED_OFFSET))(this);
+		}
+
+		::System::Void set_IsFinished(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_SET_ISFINISHED_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CanStart()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO_GET_CANSTART_OFFSET))(this);
+		}
+	};
+}

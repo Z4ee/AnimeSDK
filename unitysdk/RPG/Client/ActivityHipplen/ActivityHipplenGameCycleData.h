@@ -1,0 +1,174 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1B66C84A9C208210;
+class Class_1_5810BA24C6F51B99;
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenStatusData; }
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
+namespace RPG::GameCore { class ActivityHipplenGrowthPhaseRow; }
+namespace RPG::GameCore { class ActivityHipplenPhaseRow; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_CHECKTRAITISINCURTRAITLIST_OFFSET UNITYSDK_OFFSET(0x8F18C60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8F183F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GETSORTEDTRAITLIST_OFFSET UNITYSDK_OFFSET(0x8F18AB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_CYCLEGAMETIMES_OFFSET UNITYSDK_OFFSET(0x8F18E60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_HIPPLENBODYSIZE_OFFSET UNITYSDK_OFFSET(0x8F18EB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASENAME_OFFSET UNITYSDK_OFFSET(0x8F18E80)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASEROW_OFFSET UNITYSDK_OFFSET(0x8F18DE0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASETRIALTARGETTEXT_OFFSET UNITYSDK_OFFSET(0x8F18ED0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASETYPE_OFFSET UNITYSDK_OFFSET(0x8F18DC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_SPEEDRATIOMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x8F18F00)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_STATUSDATA_OFFSET UNITYSDK_OFFSET(0x8F18E00)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_TOTALACTIONPOINTS_OFFSET UNITYSDK_OFFSET(0x8F18F60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_TRAILLEFTDAYS_OFFSET UNITYSDK_OFFSET(0x8F18E40)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_TRAITLIST_OFFSET UNITYSDK_OFFSET(0x8F18E20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_INIT_OFFSET UNITYSDK_OFFSET(0x8F182D0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_REFRESHDATABYSETTLERSP_OFFSET UNITYSDK_OFFSET(0x8F189F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x8F184B0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_CYCLEGAMETIMES_OFFSET UNITYSDK_OFFSET(0x8F18E70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_PHASEROW_OFFSET UNITYSDK_OFFSET(0x8F18DF0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_PHASETYPE_OFFSET UNITYSDK_OFFSET(0x8F18DD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_STATUSDATA_OFFSET UNITYSDK_OFFSET(0x8F18E10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_TRAILLEFTDAYS_OFFSET UNITYSDK_OFFSET(0x8F18E50)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_TRAITLIST_OFFSET UNITYSDK_OFFSET(0x8F18E30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8F18F80)
+
+namespace RPG::Client::ActivityHipplen
+{
+	inline static constexpr unsigned int ActivityHipplenGameCycleData_TypeDefinitionIndex = 61650;
+
+	class ActivityHipplenGameCycleData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* _TraitList_k__BackingField; // 0x10
+		::RPG::GameCore::ActivityHipplenPhaseRow* _PhaseRow_k__BackingField; // 0x18
+		::RPG::GameCore::ActivityHipplenGrowthPhaseRow* _GrowthPhaseRow; // 0x20
+		::RPG::Client::ActivityHipplen::ActivityHipplenStatusData* _StatusData_k__BackingField; // 0x28
+		::System::UInt32 _TrailLeftDays_k__BackingField; // 0x30
+		::System::UInt32 _PhaseType_k__BackingField; // 0x34
+		::System::UInt32 _CycleGameTimes_k__BackingField; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void RefreshData(::Class_1_1B66C84A9C208210* cycleData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_1B66C84A9C208210*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_REFRESHDATA_OFFSET))(this, cycleData);
+		}
+
+		::System::Void RefreshDataBySettleRsp(::Class_1_5810BA24C6F51B99* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_5810BA24C6F51B99*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_REFRESHDATABYSETTLERSP_OFFSET))(this, rsp);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* GetSortedTraitList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GETSORTEDTRAITLIST_OFFSET))(this);
+		}
+
+		::System::Boolean CheckTraitIsInCurTraitList(::System::UInt32 traitID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_CHECKTRAITISINCURTRAITLIST_OFFSET))(this, traitID);
+		}
+
+		::System::UInt32 get_PhaseType()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASETYPE_OFFSET))(this);
+		}
+
+		::System::Void set_PhaseType(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_PHASETYPE_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::ActivityHipplenPhaseRow* get_PhaseRow()
+		{
+			return ((::RPG::GameCore::ActivityHipplenPhaseRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASEROW_OFFSET))(this);
+		}
+
+		::System::Void set_PhaseRow(::RPG::GameCore::ActivityHipplenPhaseRow* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityHipplenPhaseRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_PHASEROW_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ActivityHipplen::ActivityHipplenStatusData* get_StatusData()
+		{
+			return ((::RPG::Client::ActivityHipplen::ActivityHipplenStatusData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_STATUSDATA_OFFSET))(this);
+		}
+
+		::System::Void set_StatusData(::RPG::Client::ActivityHipplen::ActivityHipplenStatusData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenStatusData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_STATUSDATA_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* get_TraitList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_TRAITLIST_OFFSET))(this);
+		}
+
+		::System::Void set_TraitList(::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_TRAITLIST_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_TrailLeftDays()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_TRAILLEFTDAYS_OFFSET))(this);
+		}
+
+		::System::Void set_TrailLeftDays(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_TRAILLEFTDAYS_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_CycleGameTimes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_CYCLEGAMETIMES_OFFSET))(this);
+		}
+
+		::System::Void set_CycleGameTimes(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_SET_CYCLEGAMETIMES_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_PhaseName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASENAME_OFFSET))(this);
+		}
+
+		::System::Single get_HipplenBodySize()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_HIPPLENBODYSIZE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_PhaseTrialTargetText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_PHASETRIALTARGETTEXT_OFFSET))(this);
+		}
+
+		::System::Single get_SpeedRatioMultiplier()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_SPEEDRATIOMULTIPLIER_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TotalActionPoints()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA_GET_TOTALACTIONPOINTS_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_493;
+namespace RPG::GameCore { class StoryLineFloorDataRow; }
+
+#define CLASS_1_1AF243935D06EF67_METHOD_1_218F2836DA51D562_OFFSET UNITYSDK_OFFSET(0x8DB1600)
+#define CLASS_1_1AF243935D06EF67_METHOD_1_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x8DB1640)
+#define CLASS_1_1AF243935D06EF67_METHOD_1_AA2D3E889C8A52CA_1_OFFSET UNITYSDK_OFFSET(0x8DB1530)
+#define CLASS_1_1AF243935D06EF67_METHOD_1_AA2D3E889C8A52CA_2_OFFSET UNITYSDK_OFFSET(0x8DB1580)
+#define CLASS_1_1AF243935D06EF67_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x8DB14E0)
+#define CLASS_1_1AF243935D06EF67__CTOR_OFFSET UNITYSDK_OFFSET(0x8DB15D0)
+
+inline static constexpr unsigned int Class_1_1AF243935D06EF67_TypeDefinitionIndex = 55485;
+
+class Class_1_1AF243935D06EF67 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_493* Field_1_0; // 0x10
+	::RPG::GameCore::StoryLineFloorDataRow* Field_1_1; // 0x18
+
+	::System::Void _ctor(::RPG::GameCore::StoryLineFloorDataRow* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StoryLineFloorDataRow*))((::PBYTE)hIl2Cpp + CLASS_1_1AF243935D06EF67__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AF243935D06EF67_METHOD_1_AA2D3E889C8A52CA_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AF243935D06EF67_METHOD_1_AA2D3E889C8A52CA_1_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA_2()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AF243935D06EF67_METHOD_1_AA2D3E889C8A52CA_2_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_493* Method_1_218F2836DA51D562()
+	{
+		return ((::Class_0_16E4307DCC419505_493*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AF243935D06EF67_METHOD_1_218F2836DA51D562_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_70589F89E4D22649()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AF243935D06EF67_METHOD_1_70589F89E4D22649_OFFSET))(this);
+	}
+};

@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_4_D4571C3006E08EAC.h"
+#include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
+
+class Class_1_9E4EA1938DE3A3E4;
+
+#define CLASS_5_85B22C064D50E12F_METHOD_5_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0x108F9790)
+#define CLASS_5_85B22C064D50E12F_METHOD_5_2752E87A41F178AD_OFFSET UNITYSDK_OFFSET(0x108F9860)
+#define CLASS_5_85B22C064D50E12F_METHOD_5_F48B6E9D83D3B226_OFFSET UNITYSDK_OFFSET(0x108F9830)
+#define CLASS_5_85B22C064D50E12F__CTOR_OFFSET UNITYSDK_OFFSET(0x108F9840)
+
+inline static constexpr unsigned int Class_5_85B22C064D50E12F_TypeDefinitionIndex = 62674;
+
+class Class_5_85B22C064D50E12F : public ::Class_4_D4571C3006E08EAC
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_85B22C064D50E12F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_5_0AB718BEE9EA06D7(::Class_1_9E4EA1938DE3A3E4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9E4EA1938DE3A3E4*))((::PBYTE)hIl2Cpp + CLASS_5_85B22C064D50E12F_METHOD_5_0AB718BEE9EA06D7_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGame::Move::MoveState Method_5_F48B6E9D83D3B226()
+	{
+		return ((::RPG::Client::LittleGame::Move::MoveState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_85B22C064D50E12F_METHOD_5_F48B6E9D83D3B226_OFFSET))(this);
+	}
+
+	::System::Void Method_5_2752E87A41F178AD(::Class_1_9E4EA1938DE3A3E4* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9E4EA1938DE3A3E4*))((::PBYTE)hIl2Cpp + CLASS_5_85B22C064D50E12F_METHOD_5_2752E87A41F178AD_OFFSET))(this, P0);
+	}
+};

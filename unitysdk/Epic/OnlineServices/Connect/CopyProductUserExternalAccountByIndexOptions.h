@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace Epic::OnlineServices { class ProductUserId; }
+
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_GET_EXTERNALACCOUNTINFOINDEX_OFFSET UNITYSDK_OFFSET(0x8618EE0)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8618EC0)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_SET_EXTERNALACCOUNTINFOINDEX_OFFSET UNITYSDK_OFFSET(0x8618EF0)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8618ED0)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8618F00)
+
+namespace Epic::OnlineServices::Connect
+{
+	inline static constexpr unsigned int CopyProductUserExternalAccountByIndexOptions_TypeDefinitionIndex = 36442;
+
+	class CopyProductUserExternalAccountByIndexOptions : public ::System::Object
+	{
+	public:
+		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x10
+		::System::UInt32 _ExternalAccountInfoIndex_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS__CTOR_OFFSET))(this);
+		}
+
+		::Epic::OnlineServices::ProductUserId* get_TargetUserId()
+		{
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_GET_TARGETUSERID_OFFSET))(this);
+		}
+
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ExternalAccountInfoIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_GET_EXTERNALACCOUNTINFOINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_ExternalAccountInfoIndex(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEXOPTIONS_SET_EXTERNALACCOUNTINFOINDEX_OFFSET))(this, value);
+		}
+	};
+}

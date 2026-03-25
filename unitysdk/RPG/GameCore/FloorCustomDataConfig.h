@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FloorCustomValueConfig; }
+namespace RPG::GameCore { class FloorSavedValueConfig; }
+
+#define RPG_GAMECORE_FLOORCUSTOMDATACONFIG_METHOD_2_C579DC864547EC8D_OFFSET UNITYSDK_OFFSET(0x17214060)
+#define RPG_GAMECORE_FLOORCUSTOMDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17214220)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FloorCustomDataConfig_TypeDefinitionIndex = 16782;
+
+	class FloorCustomDataConfig : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::FloorCustomValueConfig*>* CustomValues; // 0x10
+		::Il2CppArray<::RPG::GameCore::FloorSavedValueConfig*>* SavedValues; // 0x18
+		::Il2CppArray<::RPG::GameCore::FloorCustomValueConfig*>* ConstValues; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCUSTOMDATACONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_C579DC864547EC8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloorCustomDataConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloorCustomDataConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCUSTOMDATACONFIG_METHOD_2_C579DC864547EC8D_OFFSET))(a1, a2);
+		}
+	};
+}

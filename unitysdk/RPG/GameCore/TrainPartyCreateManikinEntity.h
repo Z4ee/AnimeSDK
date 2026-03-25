@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+#include "unitysdk/RPG/MVector3.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_TRAINPARTYCREATEMANIKINENTITY_METHOD_3_758EA812D4A4FDCA_OFFSET UNITYSDK_OFFSET(0x178AAC30)
+#define RPG_GAMECORE_TRAINPARTYCREATEMANIKINENTITY_METHOD_3_E9A5F062D89F5484_OFFSET UNITYSDK_OFFSET(0x178AACF0)
+#define RPG_GAMECORE_TRAINPARTYCREATEMANIKINENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x178AACA0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TrainPartyCreateManikinEntity_TypeDefinitionIndex = 20563;
+
+	class TrainPartyCreateManikinEntity : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::String* PrefabPath; // 0x18
+		::System::String* ManikinJsonPath; // 0x20
+		::System::String* EntityUniqueName; // 0x28
+		::RPG::MVector3 Position; // 0x30
+		::RPG::MVector3 Rotation; // 0x3C
+		::RPG::MVector3 Scale; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEMANIKINENTITY__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_758EA812D4A4FDCA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateManikinEntity*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateManikinEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEMANIKINENTITY_METHOD_3_758EA812D4A4FDCA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_E9A5F062D89F5484(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateManikinEntity* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateManikinEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEMANIKINENTITY_METHOD_3_E9A5F062D89F5484_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_3B2914FE013091B4_OFFSET UNITYSDK_OFFSET(0x17200810)
+#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_64C15A810288E0F1_OFFSET UNITYSDK_OFFSET(0x172008D0)
+#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x172008B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FiveDimPauseMusicAction_TypeDefinitionIndex = 17164;
+
+	class FiveDimPauseMusicAction : public ::RPG::GameCore::FiveDimBaseEventAction
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_3B2914FE013091B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPauseMusicAction*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPauseMusicAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_3B2914FE013091B4_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_64C15A810288E0F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPauseMusicAction* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPauseMusicAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_64C15A810288E0F1_OFFSET))(a1, a2);
+		}
+	};
+}

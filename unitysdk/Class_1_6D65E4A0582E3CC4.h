@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BattleSkillSpecialAvatarType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_859;
+class Class_1_F8D4E2BAA9A57E44;
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_1_6D65E4A0582E3CC4_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x1165E7F0)
+#define CLASS_1_6D65E4A0582E3CC4_METHOD_1_528BD4865C714C5C_OFFSET UNITYSDK_OFFSET(0x1165E830)
+#define CLASS_1_6D65E4A0582E3CC4_METHOD_1_80FE5793C3B79107_OFFSET UNITYSDK_OFFSET(0x1165E800)
+#define CLASS_1_6D65E4A0582E3CC4_METHOD_1_89AE3FDE25BEC3FA_OFFSET UNITYSDK_OFFSET(0x1165E790)
+#define CLASS_1_6D65E4A0582E3CC4_METHOD_1_BD2985FAEB7CF7D6_OFFSET UNITYSDK_OFFSET(0x1165E7E0)
+#define CLASS_1_6D65E4A0582E3CC4_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1165E750)
+#define CLASS_1_6D65E4A0582E3CC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1165E870)
+#define CLASS_1_6D65E4A0582E3CC4__CTOR_OFFSET UNITYSDK_OFFSET(0x1165E860)
+
+inline static constexpr unsigned int Class_1_6D65E4A0582E3CC4_TypeDefinitionIndex = 58936;
+
+class Class_1_6D65E4A0582E3CC4 : public ::System::Object
+{
+public:
+	static ::Class_1_F8D4E2BAA9A57E44** StaticGet_Field_1_0()
+	{
+		return (::Class_1_F8D4E2BAA9A57E44**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6D65E4A0582E3CC4_TypeDefinitionIndex)->GetStaticField(0x1E220);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4__CCTOR_OFFSET))();
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_89AE3FDE25BEC3FA(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4_METHOD_1_89AE3FDE25BEC3FA_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::BattleSkillSpecialAvatarType Method_1_BD2985FAEB7CF7D6()
+	{
+		return ((::RPG::Client::BattleSkillSpecialAvatarType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4_METHOD_1_BD2985FAEB7CF7D6_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_02A3D10A9D535169()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4_METHOD_1_02A3D10A9D535169_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_859* Method_1_80FE5793C3B79107()
+	{
+		return ((::Class_0_16E4307DCC419505_859*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4_METHOD_1_80FE5793C3B79107_OFFSET))(this);
+	}
+
+	static ::Class_1_F8D4E2BAA9A57E44* Method_1_528BD4865C714C5C()
+	{
+		return ((::Class_1_F8D4E2BAA9A57E44*(*)())((::PBYTE)hIl2Cpp + CLASS_1_6D65E4A0582E3CC4_METHOD_1_528BD4865C714C5C_OFFSET))();
+	}
+};

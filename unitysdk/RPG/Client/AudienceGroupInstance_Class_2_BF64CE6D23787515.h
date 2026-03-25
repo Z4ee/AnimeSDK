@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AudienceGroupInstance_Class_1_9A90CD018E72DF20_7.h"
+
+namespace RPG::Client { class AudienceLayoutConfig; }
+namespace RPG::GameCore { class LevelCurveInstance; }
+
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515_METHOD_2_2AD1F749AB39833A_OFFSET UNITYSDK_OFFSET(0x90EECD0)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515__CTOR_OFFSET UNITYSDK_OFFSET(0x90EECA0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AudienceGroupInstance_Class_2_BF64CE6D23787515_TypeDefinitionIndex = 56504;
+
+	class AudienceGroupInstance_Class_2_BF64CE6D23787515 : public ::RPG::Client::AudienceGroupInstance_Class_1_9A90CD018E72DF20_7
+	{
+	public:
+		::RPG::Client::AudienceLayoutConfig* Field_2_0; // 0x10
+		::System::Single Field_2_3; // 0x18
+		::System::Single Field_2_1; // 0x1C
+		::System::Single Field_2_2; // 0x20
+
+		::System::Void _ctor(::RPG::Client::AudienceLayoutConfig* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AudienceLayoutConfig*, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_2_2AD1F749AB39833A(::RPG::GameCore::LevelCurveInstance* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelCurveInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515_METHOD_2_2AD1F749AB39833A_OFFSET))(this, a1);
+		}
+	};
+}

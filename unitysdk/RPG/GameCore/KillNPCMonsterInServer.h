@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_KILLNPCMONSTERINSERVER_METHOD_3_0D47B74A18A95FAC_OFFSET UNITYSDK_OFFSET(0x1732C220)
+#define RPG_GAMECORE_KILLNPCMONSTERINSERVER_METHOD_3_F9693CA833D692AC_OFFSET UNITYSDK_OFFSET(0x1732C190)
+#define RPG_GAMECORE_KILLNPCMONSTERINSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1732C1F0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int KillNPCMonsterInServer_TypeDefinitionIndex = 18607;
+
+	class KillNPCMonsterInServer : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KILLNPCMONSTERINSERVER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_F9693CA833D692AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::KillNPCMonsterInServer*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::KillNPCMonsterInServer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KILLNPCMONSTERINSERVER_METHOD_3_F9693CA833D692AC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_0D47B74A18A95FAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::KillNPCMonsterInServer* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::KillNPCMonsterInServer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_KILLNPCMONSTERINSERVER_METHOD_3_0D47B74A18A95FAC_OFFSET))(a1, a2);
+		}
+	};
+}

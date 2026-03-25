@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_87628FCB42228F8B.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+
+class Class_2_118359CD98107FEA;
+namespace UnityEngine::UI { class Image; }
+
+#define CLASS_3_8A64FFB566BAE921_METHOD_3_2069D94416C21FBC_OFFSET UNITYSDK_OFFSET(0x10A0F9A0)
+#define CLASS_3_8A64FFB566BAE921_METHOD_3_53874052B78521C2_OFFSET UNITYSDK_OFFSET(0x10A0FA40)
+#define CLASS_3_8A64FFB566BAE921_METHOD_3_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x10A0FAA0)
+#define CLASS_3_8A64FFB566BAE921_METHOD_3_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0x10A0FF80)
+#define CLASS_3_8A64FFB566BAE921__CTOR_OFFSET UNITYSDK_OFFSET(0x10A0FF40)
+#define CLASS_3_8A64FFB566BAE921__ONBIND_OFFSET UNITYSDK_OFFSET(0x10A0F760)
+#define CLASS_3_8A64FFB566BAE921___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x10A0FF70)
+
+inline static constexpr unsigned int Class_3_8A64FFB566BAE921_TypeDefinitionIndex = 58908;
+
+class Class_3_8A64FFB566BAE921 : public ::Class_2_87628FCB42228F8B
+{
+public:
+	::Class_2_118359CD98107FEA* Field_3_1; // 0xA0
+	::UnityEngine::UI::Image* Field_3_0; // 0xA8
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_3_749948B663FCCCEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921_METHOD_3_749948B663FCCCEF_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_3_2069D94416C21FBC()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921_METHOD_3_2069D94416C21FBC_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_3_53874052B78521C2()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921_METHOD_3_53874052B78521C2_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_3_E727F9956B5BD78B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8A64FFB566BAE921_METHOD_3_E727F9956B5BD78B_OFFSET))(this);
+	}
+};

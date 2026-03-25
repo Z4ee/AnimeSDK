@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_2_54AE1C44DE8123D2;
+class Class_3_C8286A8B8116F211;
+
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_GET_TIMELINELENGTH_OFFSET UNITYSDK_OFFSET(0xA5DABE0)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_GET_UPDATESYSTEMS_OFFSET UNITYSDK_OFFSET(0xA5DAAE0)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONACTIONPROTECTTIMEOVER_OFFSET UNITYSDK_OFFSET(0xA5DAB90)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONACTIONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xA5DAB00)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONPLAYERFAIL_OFFSET UNITYSDK_OFFSET(0xA5DACF0)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONPLAYFINISH_OFFSET UNITYSDK_OFFSET(0xA5DAD70)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONRESTOREMOVEMENTFAILED_OFFSET UNITYSDK_OFFSET(0xA5DAC90)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONTIMELINEPOINTCHANGE_OFFSET UNITYSDK_OFFSET(0xA5DAC00)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_SET_TIMELINELENGTH_OFFSET UNITYSDK_OFFSET(0xA5DABF0)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_SET_UPDATESYSTEMS_OFFSET UNITYSDK_OFFSET(0xA5DAAF0)
+#define RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA5DADC0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int TimelineControlGameController_TypeDefinitionIndex = 48946;
+
+	class TimelineControlGameController : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_3_C8286A8B8116F211* _UpdateSystems_k__BackingField; // 0x18
+		::System::Single _TimelineLength_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_3_C8286A8B8116F211* get_UpdateSystems()
+		{
+			return ((::Class_3_C8286A8B8116F211*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_GET_UPDATESYSTEMS_OFFSET))(this);
+		}
+
+		::System::Void set_UpdateSystems(::Class_3_C8286A8B8116F211* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_C8286A8B8116F211*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_SET_UPDATESYSTEMS_OFFSET))(this, value);
+		}
+
+		::System::Void OnActionTriggered(::Class_2_54AE1C44DE8123D2* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_54AE1C44DE8123D2*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONACTIONTRIGGERED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnActionProtectTimeOver()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONACTIONPROTECTTIMEOVER_OFFSET))(this);
+		}
+
+		::System::Single get_TimelineLength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_GET_TIMELINELENGTH_OFFSET))(this);
+		}
+
+		::System::Void set_TimelineLength(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_SET_TIMELINELENGTH_OFFSET))(this, value);
+		}
+
+		::System::Void OnTimelinePointChange(::System::Boolean a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONTIMELINEPOINTCHANGE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnRestoreMovementFailed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONRESTOREMOVEMENTFAILED_OFFSET))(this);
+		}
+
+		::System::Void OnPlayerFail(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONPLAYERFAIL_OFFSET))(this, a1);
+		}
+
+		::System::Void OnPlayFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINECONTROLGAMECONTROLLER_ONPLAYFINISH_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/MapRotationVolumeSlotConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class TargetEvaluator; }
+
+#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGATTACHPOINT_METHOD_3_15E302665DA1583A_OFFSET UNITYSDK_OFFSET(0x173814C0)
+#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGATTACHPOINT_METHOD_3_898241944C77FC1C_OFFSET UNITYSDK_OFFSET(0x17381460)
+#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x173814B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int MapRotationVolumeSlotConfigAttachPoint_TypeDefinitionIndex = 15611;
+
+	class MapRotationVolumeSlotConfigAttachPoint : public ::RPG::GameCore::MapRotationVolumeSlotConfigBase
+	{
+	public:
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
+		::RPG::GameCore::DynamicString* AttachPoint; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGATTACHPOINT__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_898241944C77FC1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationVolumeSlotConfigAttachPoint*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationVolumeSlotConfigAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGATTACHPOINT_METHOD_3_898241944C77FC1C_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_15E302665DA1583A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationVolumeSlotConfigAttachPoint* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationVolumeSlotConfigAttachPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGATTACHPOINT_METHOD_3_15E302665DA1583A_OFFSET))(a1, a2);
+		}
+	};
+}

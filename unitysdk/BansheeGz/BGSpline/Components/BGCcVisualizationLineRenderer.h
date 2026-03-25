@@ -1,0 +1,133 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BansheeGz/BGSpline/Components/BGCcSplitterPolyline.h"
+
+namespace System { class EventArgs; }
+namespace System { class EventHandler; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class LineRenderer; }
+namespace UnityEngine { class MaterialPropertyBlock; }
+
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_ADDEDINEDITOR_OFFSET UNITYSDK_OFFSET(0x1656E2F0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_ADD_CHANGEDVISUALIZATION_OFFSET UNITYSDK_OFFSET(0x1656D950)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_APPLYAUTOSCALEWIDTH_OFFSET UNITYSDK_OFFSET(0x1656E300)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1656DA50)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1656DD30)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_LINERENDERER_OFFSET UNITYSDK_OFFSET(0x1656DCA0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_SUPPORTHANDLES_OFFSET UNITYSDK_OFFSET(0x1656DDE0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_UPDATEATSTART_OFFSET UNITYSDK_OFFSET(0x1656DA30)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_WARNING_OFFSET UNITYSDK_OFFSET(0x1656DB90)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_REMOVE_CHANGEDVISUALIZATION_OFFSET UNITYSDK_OFFSET(0x1656D9C0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_SET_UPDATEATSTART_OFFSET UNITYSDK_OFFSET(0x1656DA40)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_START_OFFSET UNITYSDK_OFFSET(0x1656DDF0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_UPDATEREQUESTED_OFFSET UNITYSDK_OFFSET(0x1656E450)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_UPDATEUI_OFFSET UNITYSDK_OFFSET(0x1656DEB0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1656E560)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1656E480)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER__GET_ERROR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1656E580)
+
+namespace BansheeGz::BGSpline::Components
+{
+	inline static constexpr unsigned int BGCcVisualizationLineRenderer_TypeDefinitionIndex = 28235;
+
+	class BGCcVisualizationLineRenderer : public ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline
+	{
+	public:
+		static ::System::Int32* StaticGet__MainTexST()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BGCcVisualizationLineRenderer_TypeDefinitionIndex)->GetStaticField(0x9370);
+		}
+		::System::EventHandler* ChangedVisualization; // 0xB0
+		::System::Boolean updateAtStart; // 0xB8
+		::System::Boolean _autoScaleWidth; // 0xB9
+		::UnityEngine::LineRenderer* lineRenderer; // 0xC0
+		::System::Single _originalWidthMultiplier; // 0xC8
+		::UnityEngine::MaterialPropertyBlock* lineMPB; // 0xD0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER__CCTOR_OFFSET))();
+		}
+
+		::System::Void add_ChangedVisualization(::System::EventHandler* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_ADD_CHANGEDVISUALIZATION_OFFSET))(this, value);
+		}
+
+		::System::Void remove_ChangedVisualization(::System::EventHandler* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_REMOVE_CHANGEDVISUALIZATION_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_UpdateAtStart()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_UPDATEATSTART_OFFSET))(this);
+		}
+
+		::System::Void set_UpdateAtStart(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_SET_UPDATEATSTART_OFFSET))(this, value);
+		}
+
+		::System::String* get_Error()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_ERROR_OFFSET))(this);
+		}
+
+		::System::String* get_Warning()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_WARNING_OFFSET))(this);
+		}
+
+		::System::String* get_Info()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_INFO_OFFSET))(this);
+		}
+
+		::System::Boolean get_SupportHandles()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_SUPPORTHANDLES_OFFSET))(this);
+		}
+
+		::UnityEngine::LineRenderer* get_LineRenderer()
+		{
+			return ((::UnityEngine::LineRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_GET_LINERENDERER_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_START_OFFSET))(this);
+		}
+
+		::System::Void AddedInEditor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_ADDEDINEDITOR_OFFSET))(this);
+		}
+
+		::System::Void UpdateUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_UPDATEUI_OFFSET))(this);
+		}
+
+		::System::Void ApplyAutoScaleWidth(::UnityEngine::LineRenderer* _lineRenderer)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LineRenderer*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_APPLYAUTOSCALEWIDTH_OFFSET))(this, _lineRenderer);
+		}
+
+		::System::Void UpdateRequested(::System::Object* sender, ::System::EventArgs* e)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::EventArgs*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER_UPDATEREQUESTED_OFFSET))(this, sender, e);
+		}
+
+		::System::String* _get_Error_b__9_0()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCVISUALIZATIONLINERENDERER__GET_ERROR_B__9_0_OFFSET))(this);
+		}
+	};
+}

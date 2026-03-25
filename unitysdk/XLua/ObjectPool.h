@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/XLua/ObjectPool_Slot.h"
+
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace XLua { class ObjectTranslator; }
+
+#define XLUA_OBJECTPOOL_ADD_OFFSET UNITYSDK_OFFSET(0xFF7B2D0)
+#define XLUA_OBJECTPOOL_CHECK_OFFSET UNITYSDK_OFFSET(0xFF6AC10)
+#define XLUA_OBJECTPOOL_CLEAR_OFFSET UNITYSDK_OFFSET(0xFF7B1C0)
+#define XLUA_OBJECTPOOL_EXTEND_CAPACITY_OFFSET UNITYSDK_OFFSET(0xFF7B200)
+#define XLUA_OBJECTPOOL_GET_ALLOCEDCOUNT_OFFSET UNITYSDK_OFFSET(0xFF7B150)
+#define XLUA_OBJECTPOOL_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xFF7B170)
+#define XLUA_OBJECTPOOL_GET_OFFSET UNITYSDK_OFFSET(0xFF7B410)
+#define XLUA_OBJECTPOOL_GET_SLOTSIZE_OFFSET UNITYSDK_OFFSET(0xFF7B130)
+#define XLUA_OBJECTPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0xFF7B460)
+#define XLUA_OBJECTPOOL_REPLACE_OFFSET UNITYSDK_OFFSET(0xFF7B4E0)
+#define XLUA_OBJECTPOOL_SET_ALLOCEDCOUNT_OFFSET UNITYSDK_OFFSET(0xFF7B160)
+#define XLUA_OBJECTPOOL_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0xFF7B3B0)
+#define XLUA_OBJECTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xFF7B530)
+
+namespace XLua
+{
+	inline static constexpr unsigned int ObjectPool_TypeDefinitionIndex = 40521;
+
+	class ObjectPool : public ::System::Object
+	{
+	public:
+		// static const ::System::Int32 LIST_END = 0xFFFFFFFF; // 0x0
+		// static const ::System::Int32 ALLOCED = 0xFFFFFFFE; // 0x0
+		::Il2CppArray<::XLua::ObjectPool_Slot>* list; // 0x10
+		::System::Int32 freelist; // 0x18
+		::System::Int32 _allocedCount; // 0x1C
+		::System::Int32 count; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_SlotSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_GET_SLOTSIZE_OFFSET))(this);
+		}
+
+		::System::Int32 get_AllocedCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_GET_ALLOCEDCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_AllocedCount(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_SET_ALLOCEDCOUNT_OFFSET))(this, value);
+		}
+
+		::System::Object* get_Item(::System::Int32 i)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_GET_ITEM_OFFSET))(this, i);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_CLEAR_OFFSET))(this);
+		}
+
+		::System::Void extend_capacity()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_EXTEND_CAPACITY_OFFSET))(this);
+		}
+
+		::System::Int32 Add(::System::Object* obj)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_ADD_OFFSET))(this, obj);
+		}
+
+		::System::Boolean TryGetValue(::System::Int32 index, ::System::Object*& obj)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Object*&))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_TRYGETVALUE_OFFSET))(this, index, obj);
+		}
+
+		::System::Object* Get(::System::Int32 index)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_GET_OFFSET))(this, index);
+		}
+
+		::System::Object* Remove(::System::Int32 index)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_REMOVE_OFFSET))(this, index);
+		}
+
+		::System::Object* Replace(::System::Int32 index, ::System::Object* o)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_REPLACE_OFFSET))(this, index, o);
+		}
+
+		::System::Int32 Check(::System::Int32 check_pos, ::System::Int32 max_check, ::System::Func_2<::System::Object*, ::System::Boolean>* checker, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>* reverse_map, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Func_2<::System::Object*, ::System::Boolean>*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_OBJECTPOOL_CHECK_OFFSET))(this, check_pos, max_check, checker, reverse_map, translator);
+		}
+	};
+}

@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x989A550)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x989A810)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x989A5A0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x989A870)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x989A880)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER___IFIXBASEPROXY_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x989A960)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x989A8F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightRoleShop_CyreneShopSUmmarizer_TypeDefinitionIndex = 52965;
+
+	class GridFightRoleShop_CyreneShopSUmmarizer : public ::Class_1_41E07A9DDAB7FC78
+	{
+	public:
+		::System::Boolean IsCyrene; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 srcType)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER_ISCONCERNEDWITH_OFFSET))(this, srcType);
+		}
+
+		::System::Void UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 srcType, ::System::Collections::Generic::IList_1<::System::UInt32>* srcParamList)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER_UPDATEBEFORE_OFFSET))(this, srcType, srcParamList);
+		}
+
+		::System::Void UpdateAfter(::Enum_3_75A5C8C4100A8E33_1 srcType)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER_UPDATEAFTER_OFFSET))(this, srcType);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy_UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 P0, ::System::Collections::Generic::IList_1<::System::UInt32>* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __iFixBaseProxy_UpdateAfter(::Enum_3_75A5C8C4100A8E33_1 P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_CYRENESHOPSUMMARIZER___IFIXBASEPROXY_UPDATEAFTER_OFFSET))(this, P0);
+		}
+	};
+}

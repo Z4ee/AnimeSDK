@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BattleGamePhase.h"
+
+class Class_1_3CB339EE9B90AB0A;
+class Class_1_A95A6B41A5C8A63D;
+class Class_1_F663F3A72F85007C;
+
+#define RPG_CLIENT_REPLAYGAMEPHASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA2DAA50)
+#define RPG_CLIENT_REPLAYGAMEPHASE_ENTER_OFFSET UNITYSDK_OFFSET(0xA2DAAC0)
+#define RPG_CLIENT_REPLAYGAMEPHASE_GET_ISREPLAYMODE_OFFSET UNITYSDK_OFFSET(0xA2DAD40)
+#define RPG_CLIENT_REPLAYGAMEPHASE_GET_ISREPLAYOPFINISH_OFFSET UNITYSDK_OFFSET(0xA2DADE0)
+#define RPG_CLIENT_REPLAYGAMEPHASE_GET__REPLAYOPEXECUTANT_OFFSET UNITYSDK_OFFSET(0xA2DAD80)
+#define RPG_CLIENT_REPLAYGAMEPHASE_ONLEVELSNAPSHOTCHECKAHEAD_OFFSET UNITYSDK_OFFSET(0xA2DACE0)
+#define RPG_CLIENT_REPLAYGAMEPHASE_TICK_OFFSET UNITYSDK_OFFSET(0xA2DAB90)
+#define RPG_CLIENT_REPLAYGAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2DA980)
+#define RPG_CLIENT_REPLAYGAMEPHASE__LEVELTURNENDPROCESS_OFFSET UNITYSDK_OFFSET(0xA2DAC40)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA2DAE60)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_ENTER_OFFSET UNITYSDK_OFFSET(0xA2DAE70)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_GET_ISREPLAYMODE_OFFSET UNITYSDK_OFFSET(0xA2DAF60)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_GET__REPLAYOPEXECUTANT_OFFSET UNITYSDK_OFFSET(0xA2DAFD0)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_ONLEVELSNAPSHOTCHECKAHEAD_OFFSET UNITYSDK_OFFSET(0xA2DAF00)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xA2DAE80)
+#define RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY__LEVELTURNENDPROCESS_OFFSET UNITYSDK_OFFSET(0xA2DAE90)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ReplayGamePhase_TypeDefinitionIndex = 49628;
+
+	class ReplayGamePhase : public ::RPG::Client::BattleGamePhase
+	{
+	public:
+		::Class_1_3CB339EE9B90AB0A* _BattleReplayInstance; // 0x158
+		::Class_1_A95A6B41A5C8A63D* _Param; // 0x160
+
+		::System::Void _ctor(::Class_1_A95A6B41A5C8A63D* param)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A95A6B41A5C8A63D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE__CTOR_OFFSET))(this, param);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean Enter()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_ENTER_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_TICK_OFFSET))(this, fElapsedTimeInSec);
+		}
+
+		::System::Void _LevelTurnEndProcess()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE__LEVELTURNENDPROCESS_OFFSET))(this);
+		}
+
+		::System::Void OnLevelSnapshotCheckAhead()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_ONLEVELSNAPSHOTCHECKAHEAD_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsReplayMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_GET_ISREPLAYMODE_OFFSET))(this);
+		}
+
+		::Class_1_F663F3A72F85007C* get__ReplayOpExecutant()
+		{
+			return ((::Class_1_F663F3A72F85007C*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_GET__REPLAYOPEXECUTANT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsReplayOpFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE_GET_ISREPLAYOPFINISH_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_Enter()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_ENTER_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy__LevelTurnEndProcess()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY__LEVELTURNENDPROCESS_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnLevelSnapshotCheckAhead()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_ONLEVELSNAPSHOTCHECKAHEAD_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_get_IsReplayMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_GET_ISREPLAYMODE_OFFSET))(this);
+		}
+
+		::Class_1_F663F3A72F85007C* __iFixBaseProxy_get__ReplayOpExecutant()
+		{
+			return ((::Class_1_F663F3A72F85007C*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYGAMEPHASE___IFIXBASEPROXY_GET__REPLAYOPEXECUTANT_OFFSET))(this);
+		}
+	};
+}

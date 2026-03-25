@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelDimensionFilterExprListCompareType_TypeDefinitionIndex = 15786;
+
+	enum class LevelDimensionFilterExprListCompareType : ::System::Int32
+	{
+		In = 0,
+		NotIn = 1,
+	};
+}

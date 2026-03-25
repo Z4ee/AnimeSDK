@@ -1,0 +1,263 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+namespace RPG::Client { class EnvWindReceiverMonoPlugin; }
+namespace RPG::Client { class EnvironmentSystem; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Renderer; }
+
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_AABB_OFFSET UNITYSDK_OFFSET(0x9605BF0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_CONTAINWINDTRIGGERSCOUNT_OFFSET UNITYSDK_OFFSET(0x9605C40)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_SELECTED_OFFSET UNITYSDK_OFFSET(0x9605BD0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_WINDVELOCITY_OFFSET UNITYSDK_OFFSET(0x9605C20)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x96079A0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_146E6E50FAF07D8F_OFFSET UNITYSDK_OFFSET(0x9609350)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0x9608D40)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_2F2B436D8A949630_OFFSET UNITYSDK_OFFSET(0x9609170)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x960A210)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x960A1A0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x96090C0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x960A3D0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x960A430)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x960A490)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x960A4F0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x960A560)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x960A370)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5BCE9210F4ACDD0B_1_OFFSET UNITYSDK_OFFSET(0x96098E0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x9605CB0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5FAD56E9E208220A_OFFSET UNITYSDK_OFFSET(0x9609D50)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_6041E775D6263614_OFFSET UNITYSDK_OFFSET(0x96091F0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_66CC9828DB1F478F_OFFSET UNITYSDK_OFFSET(0x960A070)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_89EF21CA0414B145_OFFSET UNITYSDK_OFFSET(0x9608A50)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_921C3C3E09D59CD4_OFFSET UNITYSDK_OFFSET(0x9609DD0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_B7CCB99AAB7A4C8B_OFFSET UNITYSDK_OFFSET(0x960A130)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_CFE6FB160FFF5938_OFFSET UNITYSDK_OFFSET(0x9605C60)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_E824431C22EF9361_OFFSET UNITYSDK_OFFSET(0x9609AC0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0x9605EB0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_AABB_OFFSET UNITYSDK_OFFSET(0x9605C10)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_CONTAINWINDTRIGGERSCOUNT_OFFSET UNITYSDK_OFFSET(0x9605C50)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_SELECTED_OFFSET UNITYSDK_OFFSET(0x9605BE0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_WINDVELOCITY_OFFSET UNITYSDK_OFFSET(0x9605C30)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x96092F0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x960A2A0)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x960A280)
+#define RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x960A300)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int EnvWindReceiverBehavior_TypeDefinitionIndex = 58204;
+
+	class EnvWindReceiverBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		static ::System::Int32* StaticGet__FlagWaveFrequencyID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnvWindReceiverBehavior_TypeDefinitionIndex)->GetStaticField(0x12800);
+		}
+		static ::System::Int32* StaticGet__AABBSizeID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnvWindReceiverBehavior_TypeDefinitionIndex)->GetStaticField(0x12804);
+		}
+		static ::System::Int32* StaticGet__WindVelocityID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnvWindReceiverBehavior_TypeDefinitionIndex)->GetStaticField(0x12808);
+		}
+		static ::System::Int32* StaticGet__FlagWaveAmplitudeID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnvWindReceiverBehavior_TypeDefinitionIndex)->GetStaticField(0x1280C);
+		}
+		::UnityEngine::Vector4 _WindVelocity; // 0x38
+		::UnityEngine::Vector3 _AABB; // 0x48
+		::RPG::Client::EnvironmentSystem* _EnvSys; // 0x58
+		::UnityEngine::Vector3 _GlobalWind; // 0x60
+		::System::Int32 _ContainWindTriggersCount; // 0x6C
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* _InstancedMaterialsList; // 0x70
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* _SharedMaterialsList; // 0x78
+		::System::Boolean _Selected; // 0x80
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR__CCTOR_OFFSET))();
+		}
+
+		::System::Boolean get_Selected()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_SELECTED_OFFSET))(this);
+		}
+
+		::System::Void set_Selected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_SELECTED_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 get_AABB()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_AABB_OFFSET))(this);
+		}
+
+		::System::Void set_AABB(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_AABB_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector4 get_WindVelocity()
+		{
+			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_WINDVELOCITY_OFFSET))(this);
+		}
+
+		::System::Void set_WindVelocity(::UnityEngine::Vector4 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_WINDVELOCITY_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_ContainWindTriggersCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET_CONTAINWINDTRIGGERSCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_ContainWindTriggersCount(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_SET_CONTAINWINDTRIGGERSCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_CFE6FB160FFF5938()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_CFE6FB160FFF5938_OFFSET))(this);
+		}
+
+		::System::Void Method_3_E876C8B6D3B840A6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_E876C8B6D3B840A6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_89EF21CA0414B145()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_89EF21CA0414B145_OFFSET))(this);
+		}
+
+		::System::Void Method_3_2CBE0B79DD36047E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_2CBE0B79DD36047E_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_4DA6D4A624E42CAB()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_4DA6D4A624E42CAB_OFFSET))(this);
+		}
+
+		::UnityEngine::GameObject* Method_3_2F2B436D8A949630()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_2F2B436D8A949630_OFFSET))(this);
+		}
+
+		::UnityEngine::Renderer* Method_3_6041E775D6263614()
+		{
+			return ((::UnityEngine::Renderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_6041E775D6263614_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_146E6E50FAF07D8F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_146E6E50FAF07D8F_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5BCE9210F4ACDD0B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5BCE9210F4ACDD0B_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5BCE9210F4ACDD0B_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5BCE9210F4ACDD0B_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_E824431C22EF9361()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_E824431C22EF9361_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5FAD56E9E208220A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5FAD56E9E208220A_OFFSET))(this);
+		}
+
+		::System::Void Method_3_921C3C3E09D59CD4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_921C3C3E09D59CD4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_66CC9828DB1F478F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_66CC9828DB1F478F_OFFSET))(this);
+		}
+
+		::System::Void Method_3_B7CCB99AAB7A4C8B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_B7CCB99AAB7A4C8B_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+		}
+
+		::RPG::Client::EnvWindReceiverMonoPlugin* get__OwnerMonoPlugin()
+		{
+			return ((::RPG::Client::EnvWindReceiverMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
+		}
+	};
+}

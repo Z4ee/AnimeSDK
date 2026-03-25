@@ -1,0 +1,9 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Enum_3_84F790F6B4BFF34E_3_TypeDefinitionIndex = 24469;
+
+enum class Enum_3_84F790F6B4BFF34E_3 : ::System::Int32
+{
+	Value_0 = 0,
+};

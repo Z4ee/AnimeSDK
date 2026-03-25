@@ -1,0 +1,258 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_895EBA3389065493;
+class Class_1_DBCFFD8B921CBC69;
+class Class_1_F0054AC3F0D34041;
+class Class_2_569DE47525C5FD32;
+class Class_3_6B9658F527402856;
+namespace RPG::Client { class PlayerPlatformInfo; }
+namespace RPG::Client::DiceCombat { class DiceCombatBattleAvatarInfo; }
+namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
+namespace RPG::Client::DiceCombat { class DiceCombatUpgradeLoadModelRequest; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ADDBUFF_OFFSET UNITYSDK_OFFSET(0x946FE90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ADDDICE_OFFSET UNITYSDK_OFFSET(0x94703A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_CHANGEDICE_OFFSET UNITYSDK_OFFSET(0x94706E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x946BE30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETALLLIMITEDDICEAVAILABLECOUNT_OFFSET UNITYSDK_OFFSET(0x9470990)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETDICEDISPLAYINFOS_OFFSET UNITYSDK_OFFSET(0x94707C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETDICELIST_OFFSET UNITYSDK_OFFSET(0x9470040)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETPLAYERPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x9470C50)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETSELECTEDDICECOUNT_OFFSET UNITYSDK_OFFSET(0x9470220)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETSKILLDESC_OFFSET UNITYSDK_OFFSET(0x946FF40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_CARDINFO_OFFSET UNITYSDK_OFFSET(0x9470ED0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_CURRENTROLLCOUNT_OFFSET UNITYSDK_OFFSET(0x9470F00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_DICECONTROLLER_OFFSET UNITYSDK_OFFSET(0x946D6A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x9470EF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_GLOSSARYTERMIDS_OFFSET UNITYSDK_OFFSET(0x9470EA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_HASUSELIMITDICECURRENTTURN_OFFSET UNITYSDK_OFFSET(0x94710E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9470E80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ISLIMITDICEUNLOCK_OFFSET UNITYSDK_OFFSET(0x9471300)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ISUNSELECTABLE_OFFSET UNITYSDK_OFFSET(0x9471220)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_LIMITDICEAVAILABLECOUNT_OFFSET UNITYSDK_OFFSET(0x9471020)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_LIMITDICEID_OFFSET UNITYSDK_OFFSET(0x9470F60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9470E60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_PVPSCORE_OFFSET UNITYSDK_OFFSET(0x9471450)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0x9470E40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_INITDICEANCHORS_OFFSET UNITYSDK_OFFSET(0x94702C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_INITDICEPHYSIMPARAM_OFFSET UNITYSDK_OFFSET(0x9470860)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ISSPECIALDICE_OFFSET UNITYSDK_OFFSET(0x9470660)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ISVISUALEVENTALLFINISHED_OFFSET UNITYSDK_OFFSET(0x9471470)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ONRESETDICES_OFFSET UNITYSDK_OFFSET(0x9470BB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_REFRESHHOLDDICEPOS_OFFSET UNITYSDK_OFFSET(0x9470B10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_REFRESHUIAPPEARDICEINFO_OFFSET UNITYSDK_OFFSET(0x9470A30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_REMOVEBUFF_OFFSET UNITYSDK_OFFSET(0x9470900)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SETDICESELECTEDCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x94700A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SET_CARDINFO_OFFSET UNITYSDK_OFFSET(0x9470EE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9470E90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x9470E70)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x946FE00)
+
+namespace RPG::Client::DiceCombat
+{
+	inline static constexpr unsigned int DiceCombatBattlePlayerInfo_TypeDefinitionIndex = 61898;
+
+	class DiceCombatBattlePlayerInfo : public ::System::Object
+	{
+	public:
+		::System::String* _Name_k__BackingField; // 0x10
+		::Class_1_DBCFFD8B921CBC69* _PlayerInfo; // 0x18
+		::Class_3_6B9658F527402856* _GameInstance; // 0x20
+		::System::String* _IconPath_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* _CachedSelectedDiceIndexes; // 0x30
+		::Class_2_569DE47525C5FD32* _Entity; // 0x38
+		::RPG::Client::DiceCombat::DiceCombatBattleAvatarInfo* _CardInfo_k__BackingField; // 0x40
+
+		::System::Void _ctor(::Class_1_DBCFFD8B921CBC69* playerInfo, ::Class_3_6B9658F527402856* gameInstance)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_DBCFFD8B921CBC69*, ::Class_3_6B9658F527402856*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO__CTOR_OFFSET))(this, playerInfo, gameInstance);
+		}
+
+		static ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* Create(::Class_2_569DE47525C5FD32* player, ::Class_3_6B9658F527402856* gameInstance)
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*(*)(::Class_2_569DE47525C5FD32*, ::Class_3_6B9658F527402856*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_CREATE_OFFSET))(player, gameInstance);
+		}
+
+		::System::String* GetSkillDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETSKILLDESC_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::Int32>* GetDiceList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETDICELIST_OFFSET))(this);
+		}
+
+		::System::Void SetDiceSelectedChangedCallback(::System::Action_3<::System::Int32, ::System::Int32, ::System::Int32>* onSelectChanged)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::Int32, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SETDICESELECTEDCHANGEDCALLBACK_OFFSET))(this, onSelectChanged);
+		}
+
+		::System::Int32 GetSelectedDiceCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETSELECTEDDICECOUNT_OFFSET))(this);
+		}
+
+		::System::Void InitDiceAnchors(::UnityEngine::Transform* rollRoot, ::UnityEngine::Transform* selectRoot, ::UnityEngine::Transform* holdRoot)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_INITDICEANCHORS_OFFSET))(this, rollRoot, selectRoot, holdRoot);
+		}
+
+		::System::Void AddDice(::System::Int32 index, ::System::UInt32 diceID, ::UnityEngine::GameObject* go, ::System::Boolean isPlayer)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ADDDICE_OFFSET))(this, index, diceID, go, isPlayer);
+		}
+
+		::System::Void ChangeDice(::RPG::Client::DiceCombat::DiceCombatUpgradeLoadModelRequest* request, ::UnityEngine::GameObject* go)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatUpgradeLoadModelRequest*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_CHANGEDICE_OFFSET))(this, request, go);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>* GetDiceDisplayInfos()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatBattleDiceDisplayInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETDICEDISPLAYINFOS_OFFSET))(this);
+		}
+
+		::System::Void InitDicePhySimParam(::UnityEngine::Transform* root)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_INITDICEPHYSIMPARAM_OFFSET))(this, root);
+		}
+
+		::System::Void AddBuff(::System::UInt32 buffID, ::Class_1_895EBA3389065493* modifier)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_895EBA3389065493*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ADDBUFF_OFFSET))(this, buffID, modifier);
+		}
+
+		::System::Void RemoveBuff(::System::UInt32 buffID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_REMOVEBUFF_OFFSET))(this, buffID);
+		}
+
+		::System::Int32 GetAllLimitedDiceAvailableCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETALLLIMITEDDICEAVAILABLECOUNT_OFFSET))(this);
+		}
+
+		::System::Void RefreshUIAppearDiceInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_REFRESHUIAPPEARDICEINFO_OFFSET))(this);
+		}
+
+		::System::Void RefreshHoldDicePos()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_REFRESHHOLDDICEPOS_OFFSET))(this);
+		}
+
+		::System::Void OnResetDices()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ONRESETDICES_OFFSET))(this);
+		}
+
+		::System::Boolean IsSpecialDice(::System::Int32 index)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ISSPECIALDICE_OFFSET))(this, index);
+		}
+
+		::RPG::Client::PlayerPlatformInfo* GetPlayerPlatformInfo()
+		{
+			return ((::RPG::Client::PlayerPlatformInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETPLAYERPLATFORMINFO_OFFSET))(this);
+		}
+
+		::System::UInt32 get_UID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_UID_OFFSET))(this);
+		}
+
+		::System::String* get_Name()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SET_NAME_OFFSET))(this, value);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SET_ICONPATH_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_GlossaryTermIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_GLOSSARYTERMIDS_OFFSET))(this);
+		}
+
+		::RPG::Client::DiceCombat::DiceCombatBattleAvatarInfo* get_CardInfo()
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatBattleAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_CARDINFO_OFFSET))(this);
+		}
+
+		::System::Void set_CardInfo(::RPG::Client::DiceCombat::DiceCombatBattleAvatarInfo* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatBattleAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SET_CARDINFO_OFFSET))(this, value);
+		}
+
+		::Class_1_F0054AC3F0D34041* get_DiceController()
+		{
+			return ((::Class_1_F0054AC3F0D34041*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_DICECONTROLLER_OFFSET))(this);
+		}
+
+		::Class_2_569DE47525C5FD32* get_Entity()
+		{
+			return ((::Class_2_569DE47525C5FD32*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ENTITY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CurrentRollCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_CURRENTROLLCOUNT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_LimitDiceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_LIMITDICEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_LimitDiceAvailableCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_LIMITDICEAVAILABLECOUNT_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasUseLimitDiceCurrentTurn()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_HASUSELIMITDICECURRENTTURN_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnselectable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ISUNSELECTABLE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLimitDiceUnLock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_ISLIMITDICEUNLOCK_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PvpScore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GET_PVPSCORE_OFFSET))(this);
+		}
+
+		::System::Boolean IsVisualEventAllFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_ISVISUALEVENTALLFINISHED_OFFSET))(this);
+		}
+	};
+}

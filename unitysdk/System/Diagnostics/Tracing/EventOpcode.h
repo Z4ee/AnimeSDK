@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace System::Diagnostics::Tracing
+{
+	inline static constexpr unsigned int EventOpcode_TypeDefinitionIndex = 1704;
+
+	enum class EventOpcode : ::System::Int32
+	{
+		Info = 0,
+		Start = 1,
+		Stop = 2,
+		DataCollectionStart = 3,
+		DataCollectionStop = 4,
+		Extension = 5,
+		Reply = 6,
+		Resume = 7,
+		Suspend = 8,
+		Send = 9,
+		Receive = 240,
+	};
+}

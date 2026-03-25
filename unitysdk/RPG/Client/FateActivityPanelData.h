@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_GET_ISDISPLAY_OFFSET UNITYSDK_OFFSET(0x966B980)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_GET__GUIDEMISSIONGROUPEVENT_OFFSET UNITYSDK_OFFSET(0x966B930)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_GET__GUIDEMISSIONGROUPID_OFFSET UNITYSDK_OFFSET(0x966B820)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_HASREWARDTOTAKE_OFFSET UNITYSDK_OFFSET(0x966BCC0)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_ISLOCKEDBYPRECONDITIONS_OFFSET UNITYSDK_OFFSET(0x966BB20)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x966B990)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA_TRYTRIGGERGUIDEMISSIONINTERACT_OFFSET UNITYSDK_OFFSET(0x966BD60)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x966B970)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA__HASRESIDENTREWARDTOTAKE_OFFSET UNITYSDK_OFFSET(0x966BA80)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x966BED0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateActivityPanelData_TypeDefinitionIndex = 49988;
+
+	class FateActivityPanelData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 panelID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA__CTOR_OFFSET))(this, panelID);
+		}
+
+		::System::UInt32 get__GuideMissionGroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_GET__GUIDEMISSIONGROUPID_OFFSET))(this);
+		}
+
+		::System::String* get__GuideMissionGroupEvent()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_GET__GUIDEMISSIONGROUPEVENT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDisplay()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_GET_ISDISPLAY_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsLockedByPreConditions()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_ISLOCKEDBYPRECONDITIONS_OFFSET))(this);
+		}
+
+		::System::Boolean HasRewardToTake()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_HASREWARDTOTAKE_OFFSET))(this);
+		}
+
+		::System::Boolean _HasResidentRewardToTake()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA__HASRESIDENTREWARDTOTAKE_OFFSET))(this);
+		}
+
+		::System::Boolean TryTriggerGuideMissionInteract()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA_TRYTRIGGERGUIDEMISSIONINTERACT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+	};
+}

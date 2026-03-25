@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/EWolfBroGunPlayTargetActionFlag.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_2BF31F3092BDFD9E;
+namespace RPG::Client { class WolfBroGunPlayTarget; }
+namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
+
+#define CLASS_1_482F3423DE650EAD_METHOD_1_25FEB790AAF32002_OFFSET UNITYSDK_OFFSET(0xDE3DD00)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xDE3DC60)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_5035C9FE40C27E5B_OFFSET UNITYSDK_OFFSET(0xDE3DCE0)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_528BD4865C714C5C_OFFSET UNITYSDK_OFFSET(0xDE3DD10)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_86EBE6A3F22C5E0E_OFFSET UNITYSDK_OFFSET(0xDE3D8E0)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xDE3DA40)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_B261BE7318917622_OFFSET UNITYSDK_OFFSET(0xDE3DD30)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xDE3DAC0)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xDE3DBE0)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0xDE3DC20)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDE3DA00)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0xDE3DB20)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_DECFD1E79B53E7BE_OFFSET UNITYSDK_OFFSET(0xDE3D930)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_EE0E17B17B97FAD3_OFFSET UNITYSDK_OFFSET(0xDE3D980)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0xDE3DCD0)
+#define CLASS_1_482F3423DE650EAD_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xDE3DCC0)
+#define CLASS_1_482F3423DE650EAD__CTOR_OFFSET UNITYSDK_OFFSET(0xDE3DD40)
+
+inline static constexpr unsigned int Class_1_482F3423DE650EAD_TypeDefinitionIndex = 56088;
+
+class Class_1_482F3423DE650EAD : public ::System::Object
+{
+public:
+	::RPG::Client::WolfBroGunPlayTarget* Field_1_0; // 0x10
+	::RPG::Client::WolfBroGunPlayTargetActionConfig* Field_1_1; // 0x18
+	::System::Boolean Field_1_4; // 0x20
+	::System::Boolean Field_1_2; // 0x21
+	::System::Boolean Field_1_3; // 0x22
+	::System::Single Field_1_5; // 0x24
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_86EBE6A3F22C5E0E(::RPG::Client::WolfBroGunPlayTargetActionConfig* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTargetActionConfig*))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_86EBE6A3F22C5E0E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_DECFD1E79B53E7BE(::RPG::Client::WolfBroGunPlayTarget* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_DECFD1E79B53E7BE_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_EE0E17B17B97FAD3(::RPG::Client::EWolfBroGunPlayTargetActionFlag a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EWolfBroGunPlayTargetActionFlag))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_EE0E17B17B97FAD3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA6BDDCC5F7CE11E(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_CA6BDDCC5F7CE11E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_F0088C88851A7DFB_1_OFFSET))(this);
+	}
+
+	::RPG::Client::EWolfBroGunPlayTargetActionFlag Method_1_5035C9FE40C27E5B()
+	{
+		return ((::RPG::Client::EWolfBroGunPlayTargetActionFlag(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_5035C9FE40C27E5B_OFFSET))(this);
+	}
+
+	::RPG::Client::WolfBroGunPlayTarget* Method_1_25FEB790AAF32002()
+	{
+		return ((::RPG::Client::WolfBroGunPlayTarget*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_25FEB790AAF32002_OFFSET))(this);
+	}
+
+	::Class_1_2BF31F3092BDFD9E* Method_1_528BD4865C714C5C()
+	{
+		return ((::Class_1_2BF31F3092BDFD9E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_528BD4865C714C5C_OFFSET))(this);
+	}
+
+	::RPG::Client::WolfBroGunPlayTargetActionConfig* Method_1_B261BE7318917622()
+	{
+		return ((::RPG::Client::WolfBroGunPlayTargetActionConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_482F3423DE650EAD_METHOD_1_B261BE7318917622_OFFSET))(this);
+	}
+};

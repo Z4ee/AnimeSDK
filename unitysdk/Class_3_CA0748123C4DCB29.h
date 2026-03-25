@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class EnableNPCMonsterAI; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_CA0748123C4DCB29_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x8DFB040)
+#define CLASS_3_CA0748123C4DCB29_METHOD_3_62D1BD926C7A660C_OFFSET UNITYSDK_OFFSET(0x8DFB0A0)
+#define CLASS_3_CA0748123C4DCB29_METHOD_3_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x8DFAB20)
+#define CLASS_3_CA0748123C4DCB29_ONSKIP_OFFSET UNITYSDK_OFFSET(0x8DFB050)
+#define CLASS_3_CA0748123C4DCB29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8DFAAD0)
+#define CLASS_3_CA0748123C4DCB29__CTOR_OFFSET UNITYSDK_OFFSET(0x8DFAAA0)
+
+inline static constexpr unsigned int Class_3_CA0748123C4DCB29_TypeDefinitionIndex = 46881;
+
+class Class_3_CA0748123C4DCB29 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableNPCMonsterAI*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableNPCMonsterAI* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnableNPCMonsterAI*))((::PBYTE)hIl2Cpp + CLASS_3_CA0748123C4DCB29__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA0748123C4DCB29_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Boolean get_ForceSkip()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA0748123C4DCB29_GET_FORCESKIP_OFFSET))(this);
+	}
+
+	::System::Void OnSkip()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA0748123C4DCB29_ONSKIP_OFFSET))(this);
+	}
+
+	::System::Void Method_3_EAD10B3E55E2C4C5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA0748123C4DCB29_METHOD_3_EAD10B3E55E2C4C5_OFFSET))(this);
+	}
+
+	::System::Void Method_3_62D1BD926C7A660C(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_CA0748123C4DCB29_METHOD_3_62D1BD926C7A660C_OFFSET))(this, a1, a2, a3, a4);
+	}
+};

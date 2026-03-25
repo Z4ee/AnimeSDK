@@ -1,0 +1,120 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Array; }
+namespace System::Collections { class ICollection; }
+namespace System::Collections { class IDictionaryEnumerator; }
+namespace System::Collections { class IEnumerator; }
+
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_ADD_OFFSET UNITYSDK_OFFSET(0x161C76A0)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_CLEAR_OFFSET UNITYSDK_OFFSET(0x161C7810)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_CONTAINS_OFFSET UNITYSDK_OFFSET(0x161C7690)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_COPYTO_OFFSET UNITYSDK_OFFSET(0x161C72E0)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x161C7890)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x161C7420)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ISFIXEDSIZE_OFFSET UNITYSDK_OFFSET(0x161C7880)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x161C7870)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x161C7440)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x161C7450)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x161C7630)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x161C7430)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x161C7660)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x161C78D0)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x161C74C0)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x161C7290)
+#define SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x161C7280)
+
+namespace System::Collections
+{
+	inline static constexpr unsigned int EmptyReadOnlyDictionaryInternal_TypeDefinitionIndex = 1459;
+
+	class EmptyReadOnlyDictionaryInternal : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL__CTOR_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Void CopyTo(::System::Array* array, ::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_COPYTO_OFFSET))(this, array, index);
+		}
+
+		::System::Int32 get_Count()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_COUNT_OFFSET))(this);
+		}
+
+		::System::Object* get_SyncRoot()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_SYNCROOT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSynchronized()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ISSYNCHRONIZED_OFFSET))(this);
+		}
+
+		::System::Object* get_Item(::System::Object* key)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ITEM_OFFSET))(this, key);
+		}
+
+		::System::Void set_Item(::System::Object* key, ::System::Object* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_SET_ITEM_OFFSET))(this, key, value);
+		}
+
+		::System::Collections::ICollection* get_Keys()
+		{
+			return ((::System::Collections::ICollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_KEYS_OFFSET))(this);
+		}
+
+		::System::Collections::ICollection* get_Values()
+		{
+			return ((::System::Collections::ICollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_VALUES_OFFSET))(this);
+		}
+
+		::System::Boolean Contains(::System::Object* key)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_CONTAINS_OFFSET))(this, key);
+		}
+
+		::System::Void Add(::System::Object* key, ::System::Object* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_ADD_OFFSET))(this, key, value);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_CLEAR_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsReadOnly()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ISREADONLY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFixedSize()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GET_ISFIXEDSIZE_OFFSET))(this);
+		}
+
+		::System::Collections::IDictionaryEnumerator* GetEnumerator()
+		{
+			return ((::System::Collections::IDictionaryEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Void Remove(::System::Object* key)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_EMPTYREADONLYDICTIONARYINTERNAL_REMOVE_OFFSET))(this, key);
+		}
+	};
+}

@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9CE416D6C625B711.h"
+#include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceCameraStateType.h"
+
+class Class_1_9C16BAF1B182B319;
+namespace UnityEngine { class Transform; }
+
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x8869140)
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_2607E225A39E6739_OFFSET UNITYSDK_OFFSET(0x8869020)
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_7900DB25C44BBC9B_OFFSET UNITYSDK_OFFSET(0x88690B0)
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_8CBF8D144D25F0F9_OFFSET UNITYSDK_OFFSET(0x8869030)
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_ABFE6A357B89C69A_OFFSET UNITYSDK_OFFSET(0x88692F0)
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x88693C0)
+#define CLASS_2_CBE6E584E76A56DA_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8869100)
+#define CLASS_2_CBE6E584E76A56DA__CTOR_OFFSET UNITYSDK_OFFSET(0x88690A0)
+
+inline static constexpr unsigned int Class_2_CBE6E584E76A56DA_TypeDefinitionIndex = 63481;
+
+class Class_2_CBE6E584E76A56DA : public ::Class_1_9CE416D6C625B711
+{
+public:
+	// static const ::System::Single Field_2_0; // 0x0
+	::UnityEngine::Transform* Field_2_1; // 0x28
+
+	::System::Void _ctor(::Class_1_9C16BAF1B182B319* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9C16BAF1B182B319*))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGame::CakeRace::CakeRaceCameraStateType Method_2_2607E225A39E6739()
+	{
+		return ((::RPG::Client::LittleGame::CakeRace::CakeRaceCameraStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_2607E225A39E6739_OFFSET))(this);
+	}
+
+	static ::Class_2_CBE6E584E76A56DA* Method_2_8CBF8D144D25F0F9(::Class_1_9C16BAF1B182B319* a1)
+	{
+		return ((::Class_2_CBE6E584E76A56DA*(*)(::Class_1_9C16BAF1B182B319*))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_8CBF8D144D25F0F9_OFFSET))(a1);
+	}
+
+	::System::Void Method_2_7900DB25C44BBC9B(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_7900DB25C44BBC9B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_18982EFD3B740683()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_18982EFD3B740683_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_ABFE6A357B89C69A()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CBE6E584E76A56DA_METHOD_2_ABFE6A357B89C69A_OFFSET))(this);
+	}
+};

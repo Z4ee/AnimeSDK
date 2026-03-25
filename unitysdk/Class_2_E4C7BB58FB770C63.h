@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5772346ACD452D08.h"
+
+namespace RPG::Client { class AetherDivideModule; }
+namespace RPG::Client { class AvatarData; }
+namespace RPG::Client { class ChestAndRaidInfo; }
+namespace RPG::Client { class IGamePhase; }
+namespace RPG::Client { class TeamData; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_32AD0D138F470D1D_OFFSET UNITYSDK_OFFSET(0x114C81F0)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x114C7AB0)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_56C94DFBE061EF3F_OFFSET UNITYSDK_OFFSET(0x114C8160)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_687471CAADFF1515_OFFSET UNITYSDK_OFFSET(0x114C7D20)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_A16448B7234D5E8B_OFFSET UNITYSDK_OFFSET(0x114C7EE0)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x114C78C0)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_C0ECAA3F3E199895_OFFSET UNITYSDK_OFFSET(0x114C7630)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_C90B3B31713FEDEA_OFFSET UNITYSDK_OFFSET(0x114C7B50)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_DB4AF9E239AF41F6_OFFSET UNITYSDK_OFFSET(0x114C7F40)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x114C79B0)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_E16846F6D6EF4D1B_OFFSET UNITYSDK_OFFSET(0x114C8170)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_EBACC0EAF2A48AD8_OFFSET UNITYSDK_OFFSET(0x114C7AF0)
+#define CLASS_2_E4C7BB58FB770C63_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x114C8180)
+#define CLASS_2_E4C7BB58FB770C63__CTOR_OFFSET UNITYSDK_OFFSET(0x114C7610)
+
+inline static constexpr unsigned int Class_2_E4C7BB58FB770C63_TypeDefinitionIndex = 49597;
+
+class Class_2_E4C7BB58FB770C63 : public ::Class_1_5772346ACD452D08
+{
+public:
+	::RPG::Client::TeamData* Field_2_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C0ECAA3F3E199895(::RPG::Client::IGamePhase* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::IGamePhase*))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_C0ECAA3F3E199895_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_DE52BD42C4B0B772()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_DE52BD42C4B0B772_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::RPG::Client::TeamData* Method_2_EBACC0EAF2A48AD8()
+	{
+		return ((::RPG::Client::TeamData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_EBACC0EAF2A48AD8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_687471CAADFF1515(::System::Collections::Generic::List_1<::RPG::Client::ChestAndRaidInfo*>* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChestAndRaidInfo*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_687471CAADFF1515_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::Client::AvatarData* Method_2_DB4AF9E239AF41F6()
+	{
+		return ((::RPG::Client::AvatarData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_DB4AF9E239AF41F6_OFFSET))(this);
+	}
+
+	::RPG::Client::TeamData* Method_2_C90B3B31713FEDEA()
+	{
+		return ((::RPG::Client::TeamData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_C90B3B31713FEDEA_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::RPG::Client::AetherDivideModule* Method_2_A16448B7234D5E8B()
+	{
+		return ((::RPG::Client::AetherDivideModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_A16448B7234D5E8B_OFFSET))(this);
+	}
+
+	::System::Void Method_2_56C94DFBE061EF3F(::RPG::Client::IGamePhase* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::IGamePhase*))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_56C94DFBE061EF3F_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_2_E16846F6D6EF4D1B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_E16846F6D6EF4D1B_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0E307B84478A272()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_F0E307B84478A272_OFFSET))(this);
+	}
+
+	::RPG::Client::TeamData* Method_2_32AD0D138F470D1D()
+	{
+		return ((::RPG::Client::TeamData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4C7BB58FB770C63_METHOD_2_32AD0D138F470D1D_OFFSET))(this);
+	}
+};

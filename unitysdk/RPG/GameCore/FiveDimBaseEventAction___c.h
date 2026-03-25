@@ -1,0 +1,771 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FiveDimBaseEventAction; }
+
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x171E51A0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x171E51D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x171E51E0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_100_OFFSET UNITYSDK_OFFSET(0x171EA050)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_101_OFFSET UNITYSDK_OFFSET(0x171EA0E0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_102_OFFSET UNITYSDK_OFFSET(0x171EA170)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_103_OFFSET UNITYSDK_OFFSET(0x171EA1C0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_104_OFFSET UNITYSDK_OFFSET(0x171EA210)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_105_OFFSET UNITYSDK_OFFSET(0x171EA260)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_106_OFFSET UNITYSDK_OFFSET(0x171EA2F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_107_OFFSET UNITYSDK_OFFSET(0x171EA380)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_108_OFFSET UNITYSDK_OFFSET(0x171EA3D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_109_OFFSET UNITYSDK_OFFSET(0x171EA460)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_10_OFFSET UNITYSDK_OFFSET(0x171E57F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_110_OFFSET UNITYSDK_OFFSET(0x171EA4F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_111_OFFSET UNITYSDK_OFFSET(0x171EA580)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_112_OFFSET UNITYSDK_OFFSET(0x171EA5D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_113_OFFSET UNITYSDK_OFFSET(0x171EA660)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_114_OFFSET UNITYSDK_OFFSET(0x171EA6B0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_115_OFFSET UNITYSDK_OFFSET(0x171EA700)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_116_OFFSET UNITYSDK_OFFSET(0x171EA750)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_117_OFFSET UNITYSDK_OFFSET(0x171EA7A0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_118_OFFSET UNITYSDK_OFFSET(0x171EA830)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_119_OFFSET UNITYSDK_OFFSET(0x171EA880)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_11_OFFSET UNITYSDK_OFFSET(0x171E5980)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_120_OFFSET UNITYSDK_OFFSET(0x171EA8D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_121_OFFSET UNITYSDK_OFFSET(0x171EA920)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_122_OFFSET UNITYSDK_OFFSET(0x171EA970)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_12_OFFSET UNITYSDK_OFFSET(0x171E5C60)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_13_OFFSET UNITYSDK_OFFSET(0x171E5DD0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_14_OFFSET UNITYSDK_OFFSET(0x171E5F60)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_15_OFFSET UNITYSDK_OFFSET(0x171E6070)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_16_OFFSET UNITYSDK_OFFSET(0x171E61E0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_17_OFFSET UNITYSDK_OFFSET(0x171E62F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_18_OFFSET UNITYSDK_OFFSET(0x171E6460)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_19_OFFSET UNITYSDK_OFFSET(0x171E6700)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_1_OFFSET UNITYSDK_OFFSET(0x171E5240)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_20_OFFSET UNITYSDK_OFFSET(0x171E6930)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_21_OFFSET UNITYSDK_OFFSET(0x171E6AF0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_22_OFFSET UNITYSDK_OFFSET(0x171E6C60)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_23_OFFSET UNITYSDK_OFFSET(0x171E6D70)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_24_OFFSET UNITYSDK_OFFSET(0x171E6F00)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_25_OFFSET UNITYSDK_OFFSET(0x171E7010)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_26_OFFSET UNITYSDK_OFFSET(0x171E71C0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_27_OFFSET UNITYSDK_OFFSET(0x171E73C0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_28_OFFSET UNITYSDK_OFFSET(0x171E75F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_29_OFFSET UNITYSDK_OFFSET(0x171E7700)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_2_OFFSET UNITYSDK_OFFSET(0x171E5340)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_30_OFFSET UNITYSDK_OFFSET(0x171E7810)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_31_OFFSET UNITYSDK_OFFSET(0x171E7980)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_32_OFFSET UNITYSDK_OFFSET(0x171E7AF0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_33_OFFSET UNITYSDK_OFFSET(0x171E7C00)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_34_OFFSET UNITYSDK_OFFSET(0x171E7D90)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_35_OFFSET UNITYSDK_OFFSET(0x171E7F10)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_36_OFFSET UNITYSDK_OFFSET(0x171E8090)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_37_OFFSET UNITYSDK_OFFSET(0x171E81C0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_38_OFFSET UNITYSDK_OFFSET(0x171E82D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_39_OFFSET UNITYSDK_OFFSET(0x171E83E0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_3_OFFSET UNITYSDK_OFFSET(0x171E5390)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_40_OFFSET UNITYSDK_OFFSET(0x171E84F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_41_OFFSET UNITYSDK_OFFSET(0x171E8680)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_42_OFFSET UNITYSDK_OFFSET(0x171E8860)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_43_OFFSET UNITYSDK_OFFSET(0x171E89B0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_44_OFFSET UNITYSDK_OFFSET(0x171E8B00)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_45_OFFSET UNITYSDK_OFFSET(0x171E8B50)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_46_OFFSET UNITYSDK_OFFSET(0x171E8BA0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_47_OFFSET UNITYSDK_OFFSET(0x171E8BF0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_48_OFFSET UNITYSDK_OFFSET(0x171E8C40)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_49_OFFSET UNITYSDK_OFFSET(0x171E8C90)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_4_OFFSET UNITYSDK_OFFSET(0x171E5450)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_50_OFFSET UNITYSDK_OFFSET(0x171E8D20)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_51_OFFSET UNITYSDK_OFFSET(0x171E8DB0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_52_OFFSET UNITYSDK_OFFSET(0x171E8E00)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_53_OFFSET UNITYSDK_OFFSET(0x171E8E50)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_54_OFFSET UNITYSDK_OFFSET(0x171E8EA0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_55_OFFSET UNITYSDK_OFFSET(0x171E8F30)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_56_OFFSET UNITYSDK_OFFSET(0x171E8FC0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_57_OFFSET UNITYSDK_OFFSET(0x171E9050)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_58_OFFSET UNITYSDK_OFFSET(0x171E90E0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_59_OFFSET UNITYSDK_OFFSET(0x171E9130)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_5_OFFSET UNITYSDK_OFFSET(0x171E54A0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_60_OFFSET UNITYSDK_OFFSET(0x171E9180)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_61_OFFSET UNITYSDK_OFFSET(0x171E9210)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_62_OFFSET UNITYSDK_OFFSET(0x171E9260)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_63_OFFSET UNITYSDK_OFFSET(0x171E92B0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_64_OFFSET UNITYSDK_OFFSET(0x171E9340)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_65_OFFSET UNITYSDK_OFFSET(0x171E93D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_66_OFFSET UNITYSDK_OFFSET(0x171E9420)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_67_OFFSET UNITYSDK_OFFSET(0x171E9470)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_68_OFFSET UNITYSDK_OFFSET(0x171E94C0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_69_OFFSET UNITYSDK_OFFSET(0x171E9510)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_6_OFFSET UNITYSDK_OFFSET(0x171E5530)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_70_OFFSET UNITYSDK_OFFSET(0x171E9560)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_71_OFFSET UNITYSDK_OFFSET(0x171E95F0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_72_OFFSET UNITYSDK_OFFSET(0x171E9640)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_73_OFFSET UNITYSDK_OFFSET(0x171E9690)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_74_OFFSET UNITYSDK_OFFSET(0x171E96E0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_75_OFFSET UNITYSDK_OFFSET(0x171E9730)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_76_OFFSET UNITYSDK_OFFSET(0x171E9780)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_77_OFFSET UNITYSDK_OFFSET(0x171E97D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_78_OFFSET UNITYSDK_OFFSET(0x171E9860)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_79_OFFSET UNITYSDK_OFFSET(0x171E98B0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_7_OFFSET UNITYSDK_OFFSET(0x171E5580)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_80_OFFSET UNITYSDK_OFFSET(0x171E9900)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_81_OFFSET UNITYSDK_OFFSET(0x171E9950)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_82_OFFSET UNITYSDK_OFFSET(0x171E99A0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_83_OFFSET UNITYSDK_OFFSET(0x171E9A00)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_84_OFFSET UNITYSDK_OFFSET(0x171E9A50)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_85_OFFSET UNITYSDK_OFFSET(0x171E9AA0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_86_OFFSET UNITYSDK_OFFSET(0x171E9B30)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_87_OFFSET UNITYSDK_OFFSET(0x171E9B80)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_88_OFFSET UNITYSDK_OFFSET(0x171E9BD0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_89_OFFSET UNITYSDK_OFFSET(0x171E9C20)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_8_OFFSET UNITYSDK_OFFSET(0x171E55D0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_90_OFFSET UNITYSDK_OFFSET(0x171E9C70)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_91_OFFSET UNITYSDK_OFFSET(0x171E9CC0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_92_OFFSET UNITYSDK_OFFSET(0x171E9D10)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_93_OFFSET UNITYSDK_OFFSET(0x171E9DA0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_94_OFFSET UNITYSDK_OFFSET(0x171E9DF0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_95_OFFSET UNITYSDK_OFFSET(0x171E9E40)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_96_OFFSET UNITYSDK_OFFSET(0x171E9E90)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_97_OFFSET UNITYSDK_OFFSET(0x171E9F20)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_98_OFFSET UNITYSDK_OFFSET(0x171E9FB0)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_99_OFFSET UNITYSDK_OFFSET(0x171EA000)
+#define RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_9_OFFSET UNITYSDK_OFFSET(0x171E56E0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FiveDimBaseEventAction___c_TypeDefinitionIndex = 17113;
+
+	class FiveDimBaseEventAction___c : public ::System::Object
+	{
+	public:
+		static ::RPG::GameCore::FiveDimBaseEventAction___c** StaticGet___9()
+		{
+			return (::RPG::GameCore::FiveDimBaseEventAction___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimBaseEventAction___c_TypeDefinitionIndex)->GetStaticField(0x2F2B0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_0(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_0_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_1(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_1_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_2(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_2_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_3(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_3_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_4(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_4_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_5(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_5_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_6(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_6_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_7(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_7_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_8(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_8_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_9(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_9_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_10(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_10_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_11(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_11_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_12(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_12_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_13(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_13_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_14(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_14_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_15(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_15_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_16(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_16_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_17(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_17_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_18(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_18_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_19(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_19_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_20(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_20_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_21(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_21_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_22(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_22_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_23(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_23_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_24(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_24_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_25(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_25_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_26(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_26_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_27(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_27_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_28(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_28_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_29(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_29_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_30(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_30_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_31(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_31_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_32(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_32_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_33(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_33_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_34(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_34_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_35(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_35_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_36(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_36_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_37(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_37_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_38(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_38_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_39(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_39_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_40(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_40_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_41(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_41_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_42(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_42_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_43(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_43_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_44(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_44_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_45(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_45_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_46(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_46_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_47(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_47_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_48(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_48_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_49(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_49_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_50(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_50_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_51(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_51_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_52(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_52_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_53(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_53_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_54(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_54_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_55(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_55_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_56(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_56_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_57(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_57_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_58(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_58_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_59(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_59_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_60(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_60_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_61(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_61_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_62(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_62_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_63(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_63_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_64(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_64_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_65(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_65_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_66(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_66_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_67(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_67_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_68(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_68_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_69(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_69_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_70(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_70_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_71(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_71_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_72(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_72_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_73(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_73_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_74(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_74_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_75(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_75_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_76(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_76_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_77(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_77_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_78(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_78_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_79(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_79_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_80(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_80_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_81(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_81_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_82(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_82_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_83(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_83_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_84(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_84_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_85(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_85_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_86(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_86_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_87(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_87_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_88(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_88_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_89(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_89_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_90(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_90_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_91(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_91_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_92(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_92_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_93(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_93_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_94(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_94_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_95(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_95_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_96(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_96_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_97(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_97_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_98(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_98_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_99(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_99_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_100(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_100_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_101(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_101_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_102(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_102_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_103(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_103_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_104(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_104_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_105(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_105_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_106(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_106_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_107(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_107_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_108(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_108_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_109(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_109_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_110(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_110_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_111(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_111_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_112(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_112_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_113(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_113_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_114(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_114_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_115(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_115_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_116(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_116_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_117(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_117_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_118(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_118_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_119(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_119_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_120(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_120_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_121(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_121_OFFSET))(this, array);
+		}
+
+		::RPG::GameCore::FiveDimBaseEventAction* __cctor_b__4_122(::Class_1_7A22A3DBEEDD1F80* array)
+		{
+			return ((::RPG::GameCore::FiveDimBaseEventAction*(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASEEVENTACTION___C___CCTOR_B__4_122_OFFSET))(this, array);
+		}
+	};
+}

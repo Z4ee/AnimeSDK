@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/MonopolyCellPeformanceType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17436C40)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17436DC0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 11067;
+
+	class MonopolyCellResourceRow : public ::System::Object
+	{
+	public:
+		::System::String* IconPath; // 0x10
+		::RPG::GameCore::MonopolyCellPeformanceType Type; // 0x18
+		::System::UInt32 ResourceID; // 0x1C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MonopolyCellResourceRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCellResourceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

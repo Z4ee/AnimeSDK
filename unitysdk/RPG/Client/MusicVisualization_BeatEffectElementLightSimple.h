@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MusicVisualization_BeatEffectElementLightSimple_ControlType.h"
+#include "unitysdk/RPG/Client/MusicVisualization_BeatEffectElementLightSimple_LightType.h"
+#include "unitysdk/RPG/Client/MusicVisualization_BeatEffectElementVisualBase.h"
+#include "unitysdk/UnityEngine/Color.h"
+
+class Class_1_159F4A26A6FBCACF;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace VLB { class VolumetricLightBeam; }
+
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x9DE2730)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0x9DE2390)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_9F9ED25754A7CAB9_OFFSET UNITYSDK_OFFSET(0x9DE2DC0)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_AA1AB263D4D04DE5_OFFSET UNITYSDK_OFFSET(0x9DE27D0)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9DE2D40)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_E5204C0EB6EBF361_1_OFFSET UNITYSDK_OFFSET(0x9DE2AB0)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_E5204C0EB6EBF361_OFFSET UNITYSDK_OFFSET(0x9DE2850)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE2CA0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementLightSimple_TypeDefinitionIndex = 58012;
+
+	class MusicVisualization_BeatEffectElementLightSimple : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
+	{
+	public:
+		::RPG::Client::MusicVisualization_BeatEffectElementLightSimple_LightType LightMode; // 0x30
+		::RPG::Client::MusicVisualization_BeatEffectElementLightSimple_ControlType ControlMode; // 0x34
+		::System::Boolean IncludeChilds; // 0x38
+		::Il2CppArray<::UnityEngine::Color>* Colors; // 0x40
+		::System::Collections::Generic::List_1<::VLB::VolumetricLightBeam*>* _volumetricLightBeams; // 0x48
+		::System::Int32 _ColorIndex; // 0x50
+		::System::Single _PerMusicVal; // 0x54
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_2_6D93101E4CE10A96()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_6D93101E4CE10A96_OFFSET))(this);
+		}
+
+		::System::Void Method_2_097468641FDED14E(::Class_1_159F4A26A6FBCACF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_097468641FDED14E_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_AA1AB263D4D04DE5(::Class_1_159F4A26A6FBCACF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_AA1AB263D4D04DE5_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_E5204C0EB6EBF361(::Class_1_159F4A26A6FBCACF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_E5204C0EB6EBF361_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_E5204C0EB6EBF361_1(::Class_1_159F4A26A6FBCACF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_E5204C0EB6EBF361_1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_2_9F9ED25754A7CAB9(::Class_1_159F4A26A6FBCACF* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTLIGHTSIMPLE_METHOD_2_9F9ED25754A7CAB9_OFFSET))(this, P0);
+		}
+	};
+}

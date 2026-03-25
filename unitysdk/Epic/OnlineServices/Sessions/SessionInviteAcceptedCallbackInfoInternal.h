@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices { class ProductUserId; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_CLIENTDATAADDRESS_OFFSET UNITYSDK_OFFSET(0x5580)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x166C0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_INVITEID_OFFSET UNITYSDK_OFFSET(0x16960)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x16880)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_SESSIONID_OFFSET UNITYSDK_OFFSET(0x167D0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x168F0)
+
+namespace Epic::OnlineServices::Sessions
+{
+	inline static constexpr unsigned int SessionInviteAcceptedCallbackInfoInternal_TypeDefinitionIndex = 35514;
+
+	struct alignas(8) SessionInviteAcceptedCallbackInfoInternal
+	{
+		::System::IntPtr m_ClientData; // 0x10
+		::System::IntPtr m_SessionId; // 0x18
+		::System::IntPtr m_LocalUserId; // 0x20
+		::System::IntPtr m_TargetUserId; // 0x28
+		::System::IntPtr m_InviteId; // 0x30
+
+		::System::Object* get_ClientData()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_CLIENTDATA_OFFSET))(this);
+		}
+
+		::System::IntPtr get_ClientDataAddress()
+		{
+			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_CLIENTDATAADDRESS_OFFSET))(this);
+		}
+
+		::System::String* get_SessionId()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_SESSIONID_OFFSET))(this);
+		}
+
+		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
+		{
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_LOCALUSERID_OFFSET))(this);
+		}
+
+		::Epic::OnlineServices::ProductUserId* get_TargetUserId()
+		{
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_TARGETUSERID_OFFSET))(this);
+		}
+
+		::System::String* get_InviteId()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONINVITEACCEPTEDCALLBACKINFOINTERNAL_GET_INVITEID_OFFSET))(this);
+		}
+	};
+}

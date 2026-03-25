@@ -1,0 +1,364 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/RPG/Client/ClientPunkLordShareType.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class Class_1_FA4F4A67B1C04320_9;
+namespace RPG::Client { class PunkLordData; }
+namespace RPG::Client { class PunkLordInstance; }
+namespace RPG::Client { class SettledPunkLordData; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHRECORDWITHPROMISE_OFFSET UNITYSDK_OFFSET(0xA23D540)
+#define RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHRECORD_OFFSET UNITYSDK_OFFSET(0xA2393F0)
+#define RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHSETTLEDPUNKLORDDATAWITHPROMISE_OFFSET UNITYSDK_OFFSET(0xA23D360)
+#define RPG_CLIENT_PUNKLORDMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA239B90)
+#define RPG_CLIENT_PUNKLORDMODULE_ENTERRAID_OFFSET UNITYSDK_OFFSET(0xA23D1E0)
+#define RPG_CLIENT_PUNKLORDMODULE_GETALLPUNKLORDTOTALSCORECANTAKE_OFFSET UNITYSDK_OFFSET(0xA23D6D0)
+#define RPG_CLIENT_PUNKLORDMODULE_GET_CURPUNKLORDINSTANCE_OFFSET UNITYSDK_OFFSET(0xA23DFD0)
+#define RPG_CLIENT_PUNKLORDMODULE_GET_PUNKLORDDATAS_OFFSET UNITYSDK_OFFSET(0xA23DBE0)
+#define RPG_CLIENT_PUNKLORDMODULE_GET_SETTLEDPUNKLORDDATALIST_OFFSET UNITYSDK_OFFSET(0xA23DC70)
+#define RPG_CLIENT_PUNKLORDMODULE_GET_SHOWREDDOTQUESTIDLIST_OFFSET UNITYSDK_OFFSET(0xA236F60)
+#define RPG_CLIENT_PUNKLORDMODULE_INIT_OFFSET UNITYSDK_OFFSET(0xA239680)
+#define RPG_CLIENT_PUNKLORDMODULE_REFRESHMONSTERLIST_OFFSET UNITYSDK_OFFSET(0xA23AE80)
+#define RPG_CLIENT_PUNKLORDMODULE_REFRESHPUNKLORDPOINT_OFFSET UNITYSDK_OFFSET(0xA23D5C0)
+#define RPG_CLIENT_PUNKLORDMODULE_SETAUTOSHOWONEXITPUNKLORD_OFFSET UNITYSDK_OFFSET(0xA23D840)
+#define RPG_CLIENT_PUNKLORDMODULE_SHARE_OFFSET UNITYSDK_OFFSET(0xA23D120)
+#define RPG_CLIENT_PUNKLORDMODULE_SUMMONMONSTER_OFFSET UNITYSDK_OFFSET(0xA23D010)
+#define RPG_CLIENT_PUNKLORDMODULE_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xA23D2A0)
+#define RPG_CLIENT_PUNKLORDMODULE_TRYAUTOSHOW_OFFSET UNITYSDK_OFFSET(0xA23DA60)
+#define RPG_CLIENT_PUNKLORDMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xA23CF10)
+#define RPG_CLIENT_PUNKLORDMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xA239E50)
+#define RPG_CLIENT_PUNKLORDMODULE__ADDPUNKLORDDATA_OFFSET UNITYSDK_OFFSET(0xA23A5A0)
+#define RPG_CLIENT_PUNKLORDMODULE__ADDSETTLEDPUNKLORDDATA_OFFSET UNITYSDK_OFFSET(0xA23C2B0)
+#define RPG_CLIENT_PUNKLORDMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xA23DFE0)
+#define RPG_CLIENT_PUNKLORDMODULE__GETPUNKLORDDATA_OFFSET UNITYSDK_OFFSET(0xA23A4A0)
+#define RPG_CLIENT_PUNKLORDMODULE__GETSETTLEDPUNKLORDDATA_OFFSET UNITYSDK_OFFSET(0xA23C390)
+#define RPG_CLIENT_PUNKLORDMODULE__ISCURINPROGRESSPUNKLORD_OFFSET UNITYSDK_OFFSET(0xA23BB50)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDGETKILLEDPUNKLORDMONSTERDATASCRSP_OFFSET UNITYSDK_OFFSET(0xA23C010)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDGETPUNKLORDBATTLERECORDSCRSP_OFFSET UNITYSDK_OFFSET(0xA23CBA0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDGETPUNKLORDDATASCRSP_OFFSET UNITYSDK_OFFSET(0xA23B7D0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDGETPUNKLORDMONSTERDATASCRSP_OFFSET UNITYSDK_OFFSET(0xA23A1B0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDLEAVERAIDSCRSP_OFFSET UNITYSDK_OFFSET(0xA23BD00)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDBATTLERESULTSCNOTIFY_OFFSET UNITYSDK_OFFSET(0xA23BE20)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDDATACHANGENOTIFY_OFFSET UNITYSDK_OFFSET(0xA23C920)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDMONSTERINFOSCNOTIFY_OFFSET UNITYSDK_OFFSET(0xA23B8F0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDMONSTERKILLEDNOTIFY_OFFSET UNITYSDK_OFFSET(0xA23C490)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDSHAREPUNKLORDMONSTERSCRSP_OFFSET UNITYSDK_OFFSET(0xA23AF90)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDSTARTPUNKLORDRAIDSCRSP_OFFSET UNITYSDK_OFFSET(0xA23A9B0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDSUMMONPUNKLORDMONSTERSCRSP_OFFSET UNITYSDK_OFFSET(0xA23B0F0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDTAKEKILLEDPUNKLORDMONSTERSCORESCRSP_OFFSET UNITYSDK_OFFSET(0xA23C7F0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONCMDTAKEPUNKLORDPOINTREWARDSCRSP_OFFSET UNITYSDK_OFFSET(0xA23B2F0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONGAMECONTEXTSTART_OFFSET UNITYSDK_OFFSET(0xA23CFC0)
+#define RPG_CLIENT_PUNKLORDMODULE__ONPUNKLORDRAIDTIMEOUTSCNOTIFY_OFFSET UNITYSDK_OFFSET(0xA23BBD0)
+#define RPG_CLIENT_PUNKLORDMODULE__PREPARERELATEDUSERINFO_OFFSET UNITYSDK_OFFSET(0xA23A680)
+#define RPG_CLIENT_PUNKLORDMODULE__REFRESHQUESTREDDOT_OFFSET UNITYSDK_OFFSET(0xA23DD00)
+#define RPG_CLIENT_PUNKLORDMODULE__REFRESHRECORDREDDOT_OFFSET UNITYSDK_OFFSET(0xA23C690)
+#define RPG_CLIENT_PUNKLORDMODULE__REFRESHREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0xA23B490)
+#define RPG_CLIENT_PUNKLORDMODULE__REFRESHSUMMONANDSUPPORTREDDOT_OFFSET UNITYSDK_OFFSET(0xA23CA40)
+#define RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA23E240)
+#define RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xA23E1B0)
+#define RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xA23E2B0)
+#define RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xA23E250)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PunkLordModule_TypeDefinitionIndex = 54308;
+
+	class PunkLordModule : public ::RPG::Client::BaseModule
+	{
+	public:
+		::Class_1_FA4F4A67B1C04320_9* _TempPunkLordMonsterKey; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _ShowRedDotQuestIDList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* DailyQuestList; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _GetBattleRecordPromise; // 0x28
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _GetSettledDataPromise; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* DeadMonsterRecord; // 0x38
+		::RPG::Client::PunkLordInstance* _CurPunkLordInstance; // 0x40
+		::System::Collections::Generic::List_1<::System::UInt32>* PunkLordRewardTakenList; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::PunkLordData*>* _PunkLordDatas; // 0x50
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* AppearedMonsterRecord; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::SettledPunkLordData*>* _SettledPunkLordDatas; // 0x60
+		::System::UInt32 OverBonusRewardPoint; // 0x68
+		::System::UInt32 SummonLeftCount; // 0x6C
+		::System::UInt32 SupportLeftTimes; // 0x70
+		::System::Boolean ShowRecordRedDot; // 0x74
+		::System::Boolean ShowRewardRedDot; // 0x75
+		::System::Boolean ShowSummonRedDot; // 0x76
+		::System::Boolean SettledPunkLordDataDirty; // 0x77
+		::System::UInt32 ConsumeStaminaCount; // 0x78
+		::System::UInt32 GMSummonPlayerUID; // 0x7C
+		::System::UInt32 OverBonusRewardTakenTime; // 0x80
+		::System::UInt32 RaidTimeLimit; // 0x84
+		::System::UInt32 PunkLordPoint; // 0x88
+		::System::UInt32 _OriginFloorID; // 0x8C
+		::System::UInt32 PunkLordSupportRecoverLimit; // 0x90
+		::System::Boolean ShowSupportRedDot; // 0x94
+		::System::Boolean _WaitAutoShow; // 0x95
+		::System::Int64 SupportRefreshTime; // 0x98
+		::System::UInt32 _OriginPlaneID; // 0xA0
+		::System::UInt32 PunkLordSupportItemConfigID; // 0xA4
+		::System::UInt32 OverBonusRewardLimit; // 0xA8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void _AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnCmdGetPunkLordMonsterDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDGETPUNKLORDMONSTERDATASCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdStartPunkLordRaidScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDSTARTPUNKLORDRAIDSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSharePunkLordMonsterScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDSHAREPUNKLORDMONSTERSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSummonPunkLordMonsterScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDSUMMONPUNKLORDMONSTERSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdTakePunkLordPointRewardScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDTAKEPUNKLORDPOINTREWARDSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdGetPunkLordDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDGETPUNKLORDDATASCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPunkLordMonsterInfoScNotify(::System::UInt16 cmd, ::System::Object* ntfObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDMONSTERINFOSCNOTIFY_OFFSET))(this, cmd, ntfObject);
+		}
+
+		::System::Void _OnPunkLordRaidTimeOutScNotify(::System::UInt16 cmd, ::System::Object* ntfObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONPUNKLORDRAIDTIMEOUTSCNOTIFY_OFFSET))(this, cmd, ntfObject);
+		}
+
+		::System::Void _OnCmdLeaveRaidScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDLEAVERAIDSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPunkLordBattleResultScNotify(::System::UInt16 cmd, ::System::Object* ntfObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDBATTLERESULTSCNOTIFY_OFFSET))(this, cmd, ntfObject);
+		}
+
+		::System::Void _OnCmdGetKilledPunkLordMonsterDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDGETKILLEDPUNKLORDMONSTERDATASCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPunkLordMonsterKilledNotify(::System::UInt16 cmd, ::System::Object* ntfObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDMONSTERKILLEDNOTIFY_OFFSET))(this, cmd, ntfObject);
+		}
+
+		::System::Void _OnCmdTakeKilledPunkLordMonsterScoreScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDTAKEKILLEDPUNKLORDMONSTERSCORESCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPunkLordDataChangeNotify(::System::UInt16 cmd, ::System::Object* ntfObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDPUNKLORDDATACHANGENOTIFY_OFFSET))(this, cmd, ntfObject);
+		}
+
+		::System::Void _OnCmdGetPunkLordBattleRecordScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONCMDGETPUNKLORDBATTLERECORDSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _AddNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnGameContextStart(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ONGAMECONTEXTSTART_OFFSET))(this, arg);
+		}
+
+		::System::Void SummonMonster()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_SUMMONMONSTER_OFFSET))(this);
+		}
+
+		::System::Void Share(::RPG::Client::PunkLordData* punkLordData, ::RPG::Client::ClientPunkLordShareType shareType)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PunkLordData*, ::RPG::Client::ClientPunkLordShareType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_SHARE_OFFSET))(this, punkLordData, shareType);
+		}
+
+		::System::Void RefreshMonsterList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_REFRESHMONSTERLIST_OFFSET))(this);
+		}
+
+		::System::Void EnterRaid(::RPG::Client::PunkLordData* punkLordData, ::System::Boolean isPowerAttack)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PunkLordData*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ENTERRAID_OFFSET))(this, punkLordData, isPowerAttack);
+		}
+
+		::System::Void TakeReward(::System::UInt32 level, ::System::Boolean isOverBonusReward)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_TAKEREWARD_OFFSET))(this, level, isOverBonusReward);
+		}
+
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* AsyncRefreshSettledPunkLordDataWithPromise()
+		{
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHSETTLEDPUNKLORDDATAWITHPROMISE_OFFSET))(this);
+		}
+
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* AsyncRefreshRecordWithPromise(::RPG::Client::PunkLordData* punkLordData)
+		{
+			return ((::RPG::Client::Promises::Promise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::PunkLordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHRECORDWITHPROMISE_OFFSET))(this, punkLordData);
+		}
+
+		::System::Void AsyncRefreshRecord(::RPG::Client::PunkLordData* punkLordData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PunkLordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHRECORD_OFFSET))(this, punkLordData);
+		}
+
+		::System::Void RefreshPunkLordPoint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_REFRESHPUNKLORDPOINT_OFFSET))(this);
+		}
+
+		::System::UInt32 GetAllPunkLordTotalScoreCanTake()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_GETALLPUNKLORDTOTALSCORECANTAKE_OFFSET))(this);
+		}
+
+		::System::Void SetAutoShowOnExitPunkLord()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_SETAUTOSHOWONEXITPUNKLORD_OFFSET))(this);
+		}
+
+		::System::Void TryAutoShow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_TRYAUTOSHOW_OFFSET))(this);
+		}
+
+		::RPG::Client::PunkLordData* _GetPunkLordData(::System::UInt32 serverID, ::System::UInt32 summonUID)
+		{
+			return ((::RPG::Client::PunkLordData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__GETPUNKLORDDATA_OFFSET))(this, serverID, summonUID);
+		}
+
+		::System::Void _AddSettledPunkLordData(::RPG::Client::SettledPunkLordData* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::SettledPunkLordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ADDSETTLEDPUNKLORDDATA_OFFSET))(this, data);
+		}
+
+		::RPG::Client::SettledPunkLordData* _GetSettledPunkLordData(::System::UInt32 serverID, ::System::UInt32 summonUID)
+		{
+			return ((::RPG::Client::SettledPunkLordData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__GETSETTLEDPUNKLORDDATA_OFFSET))(this, serverID, summonUID);
+		}
+
+		::System::Void _AddPunkLordData(::RPG::Client::PunkLordData* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PunkLordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ADDPUNKLORDDATA_OFFSET))(this, data);
+		}
+
+		::System::Boolean _IsCurInProgressPunkLord(::System::UInt32 serverID, ::System::UInt32 summonUID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__ISCURINPROGRESSPUNKLORD_OFFSET))(this, serverID, summonUID);
+		}
+
+		::System::Void _PrepareRelatedUserInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__PREPARERELATEDUSERINFO_OFFSET))(this);
+		}
+
+		::System::Void _RefreshRewardRedDot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__REFRESHREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Void _RefreshQuestRedDot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__REFRESHQUESTREDDOT_OFFSET))(this);
+		}
+
+		::System::Void _RefreshRecordRedDot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__REFRESHRECORDREDDOT_OFFSET))(this);
+		}
+
+		::System::Void _RefreshSummonAndSupportRedDot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE__REFRESHSUMMONANDSUPPORTREDDOT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::PunkLordData*>* get_PunkLordDatas()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::PunkLordData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_GET_PUNKLORDDATAS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::SettledPunkLordData*>* get_SettledPunkLordDataList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::SettledPunkLordData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_GET_SETTLEDPUNKLORDDATALIST_OFFSET))(this);
+		}
+
+		::RPG::Client::PunkLordInstance* get_CurPunkLordInstance()
+		{
+			return ((::RPG::Client::PunkLordInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_GET_CURPUNKLORDINSTANCE_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_ShowRedDotQuestIDList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_GET_SHOWREDDOTQUESTIDLIST_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY_INIT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__AddNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET))(this);
+		}
+	};
+}

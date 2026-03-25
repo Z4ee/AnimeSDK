@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_739F79CAD2286302.h"
+
+class Class_1_423695772F3F2AA9;
+class Class_3_558211F589F040CC;
+namespace RPG::GameCore { class StageVolumeComponentData; }
+
+#define CLASS_3_234E2B8E37C83D91_METHOD_3_196531198F48E395_OFFSET UNITYSDK_OFFSET(0xC4DF5D0)
+#define CLASS_3_234E2B8E37C83D91_METHOD_3_5F0036ED5CF109B4_OFFSET UNITYSDK_OFFSET(0xC4DF730)
+#define CLASS_3_234E2B8E37C83D91_METHOD_3_5FBAD89A54D9F070_OFFSET UNITYSDK_OFFSET(0xC4DF6A0)
+#define CLASS_3_234E2B8E37C83D91_METHOD_3_95C4AD39BA75D7F8_OFFSET UNITYSDK_OFFSET(0xC4DF810)
+#define CLASS_3_234E2B8E37C83D91_METHOD_3_E2CDB6B22CCEBA97_OFFSET UNITYSDK_OFFSET(0xC4DF880)
+#define CLASS_3_234E2B8E37C83D91__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DF550)
+
+inline static constexpr unsigned int Class_3_234E2B8E37C83D91_TypeDefinitionIndex = 60648;
+
+class Class_3_234E2B8E37C83D91 : public ::Class_2_739F79CAD2286302
+{
+public:
+	::Class_3_558211F589F040CC* Field_3_0; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_234E2B8E37C83D91__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_196531198F48E395(::RPG::GameCore::StageVolumeComponentData* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageVolumeComponentData*))((::PBYTE)hIl2Cpp + CLASS_3_234E2B8E37C83D91_METHOD_3_196531198F48E395_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_5FBAD89A54D9F070()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_234E2B8E37C83D91_METHOD_3_5FBAD89A54D9F070_OFFSET))(this);
+	}
+
+	::System::Void Method_3_5F0036ED5CF109B4(::Class_1_423695772F3F2AA9* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_423695772F3F2AA9*))((::PBYTE)hIl2Cpp + CLASS_3_234E2B8E37C83D91_METHOD_3_5F0036ED5CF109B4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_95C4AD39BA75D7F8(::RPG::GameCore::StageVolumeComponentData* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageVolumeComponentData*))((::PBYTE)hIl2Cpp + CLASS_3_234E2B8E37C83D91_METHOD_3_95C4AD39BA75D7F8_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_E2CDB6B22CCEBA97(::Class_1_423695772F3F2AA9* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_423695772F3F2AA9*))((::PBYTE)hIl2Cpp + CLASS_3_234E2B8E37C83D91_METHOD_3_E2CDB6B22CCEBA97_OFFSET))(this, P0);
+	}
+};

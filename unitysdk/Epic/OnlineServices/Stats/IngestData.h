@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Epic/OnlineServices/Stats/IngestDataInternal.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA_GET_INGESTAMOUNT_OFFSET UNITYSDK_OFFSET(0x83BA630)
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA_GET_STATNAME_OFFSET UNITYSDK_OFFSET(0x83BA610)
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_1_OFFSET UNITYSDK_OFFSET(0x83BA8B0)
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_INGESTAMOUNT_OFFSET UNITYSDK_OFFSET(0x83BA640)
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_OFFSET UNITYSDK_OFFSET(0x83BA650)
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_STATNAME_OFFSET UNITYSDK_OFFSET(0x83BA620)
+#define EPIC_ONLINESERVICES_STATS_INGESTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x83BA9C0)
+
+namespace Epic::OnlineServices::Stats
+{
+	inline static constexpr unsigned int IngestData_TypeDefinitionIndex = 35383;
+
+	class IngestData : public ::System::Object
+	{
+	public:
+		::System::String* _StatName_k__BackingField; // 0x10
+		::System::Int32 _IngestAmount_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_StatName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA_GET_STATNAME_OFFSET))(this);
+		}
+
+		::System::Void set_StatName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_STATNAME_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_IngestAmount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA_GET_INGESTAMOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_IngestAmount(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_INGESTAMOUNT_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Stats::IngestDataInternal> other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Stats::IngestDataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_INGESTDATA_SET_1_OFFSET))(this, other);
+		}
+	};
+}

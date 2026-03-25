@@ -1,0 +1,976 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/Client/UISkillIndex.h"
+#include "unitysdk/RPG/GameCore/AbilityCursorInfo.h"
+#include "unitysdk/RPG/GameCore/AbilityDynamicFloatInjection.h"
+#include "unitysdk/RPG/GameCore/AbilityDynamicStringInjection.h"
+#include "unitysdk/RPG/GameCore/AliveStateMask.h"
+#include "unitysdk/RPG/GameCore/ControlSkillType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/RPG/GameCore/RedirectSkillTargetAffectTeam.h"
+#include "unitysdk/RPG/GameCore/SelfSkillPerformState.h"
+#include "unitysdk/RPG/GameCore/SkillCharacterComponent_UseSkillErrorInfo.h"
+#include "unitysdk/RPG/GameCore/SkillLayoutKey.h"
+#include "unitysdk/RPG/GameCore/SkillPropertyModifyType.h"
+#include "unitysdk/RPG/GameCore/SkillPropertyType.h"
+#include "unitysdk/RPG/GameCore/SkillTextDialogType.h"
+#include "unitysdk/RPG/GameCore/SkillType.h"
+#include "unitysdk/Struct_2_8792219C039E2D7A.h"
+#include "unitysdk/Struct_2_C26D61ECD9375585.h"
+
+class Class_0_16E4307DCC419505_375;
+class Class_1_29327D508CD1E435;
+class Class_1_77E96ACE7A0E87CA;
+class Class_1_83D980B81C9B9AFA;
+class Class_1_B213EAEBAA108779;
+class Class_1_DA7AFD2A0834A588;
+class Class_1_EABAA0FA9B3BC305;
+class Class_1_F6CF5FB460BC6CBB;
+class Class_1_FA702C103FB59536;
+class Class_2_8F285BFA404E1032;
+namespace RPG::GameCore { class CharacterConfig; }
+namespace RPG::GameCore { class CharacterDataComponent; }
+namespace RPG::GameCore { class CommonSkillPool; }
+namespace RPG::GameCore { class ElationConfigList; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class ICharacterSkillRowData; }
+namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::GameCore { class SkillConfig; }
+namespace RPG::GameCore { class SkillData; }
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ADDSKILLFROMCOMMONSKILLPOOL_OFFSET UNITYSDK_OFFSET(0xAA2FE50)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ADDSKILLLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA281D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_CHECKSKILLUSABLEBYCONTROLTYPE_OFFSET UNITYSDK_OFFSET(0xAA32830)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_CLEARSKILLLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA28220)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTECURRENTSKILLMAINANDSUBTARGETENTITYLIST_OFFSET UNITYSDK_OFFSET(0xAA2E3D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTECURRENTSKILLSUBTARGETENTITYLIST_OFFSET UNITYSDK_OFFSET(0xAA2F800)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTECURRENTSKILLTARGETENTITYLIST_OFFSET UNITYSDK_OFFSET(0xAA2E650)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTESKILLMAINANDSUBTARGETENTITYLIST_OFFSET UNITYSDK_OFFSET(0xAA2E500)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTESKILLSUBTARGETENTITYLIST_OFFSET UNITYSDK_OFFSET(0xAA2D4B0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTESKILLTARGETENTITYLIST_OFFSET UNITYSDK_OFFSET(0xAA2C490)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_DEFAULTCONVERTCONTROLSKILLTYPETOUIINDEX_OFFSET UNITYSDK_OFFSET(0xAA28140)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_DEFAULTCONVERTUIINDEXTOCONTROLSKILLTYPE_OFFSET UNITYSDK_OFFSET(0xAA280E0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAA28A80)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_FILLALLSKILLDATABYTAG_OFFSET UNITYSDK_OFFSET(0xAA38DA0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_FILLALLSKILLDATA_OFFSET UNITYSDK_OFFSET(0xAA35A20)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETALLALLOWSKILLIDXLIST_OFFSET UNITYSDK_OFFSET(0xAA391A0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0xAA2FDC0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEBYSKILLINDEX_1_OFFSET UNITYSDK_OFFSET(0xAA2FC30)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEBYSKILLINDEX_OFFSET UNITYSDK_OFFSET(0xAA2FBD0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEBYUIINDEX_OFFSET UNITYSDK_OFFSET(0xAA28270)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEONCURLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA28590)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCOOLDOWN_OFFSET UNITYSDK_OFFSET(0xAA3A2A0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURLAYOUTKEYBYCONTROLSKILLTYPE_OFFSET UNITYSDK_OFFSET(0xAA28480)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTRECORDSKILLINDEX_OFFSET UNITYSDK_OFFSET(0xAA35520)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLCONFIG_OFFSET UNITYSDK_OFFSET(0xAA345C0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLDATA_OFFSET UNITYSDK_OFFSET(0xAA355D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLEXTRAUSEPARAM_OFFSET UNITYSDK_OFFSET(0xAA354D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLINDEX_OFFSET UNITYSDK_OFFSET(0xAA35480)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA28190)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURULTRASKILLDATA_OFFSET UNITYSDK_OFFSET(0xAA359D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETDEFAULTSKILLDATABYCONTROLTYPE_OFFSET UNITYSDK_OFFSET(0xAA35860)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETELATIONSKILLDATABYSKILLDATA_OFFSET UNITYSDK_OFFSET(0xAA27A90)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETELATIONSKILLDATABYTAG_OFFSET UNITYSDK_OFFSET(0xAA278D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETFIRSTALLOWUSESKILL_OFFSET UNITYSDK_OFFSET(0xAA37BD0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETFIRSTSKILLCONFIGBYSKILLTYPE_OFFSET UNITYSDK_OFFSET(0xAA351D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETLEFTCASTTIMES_OFFSET UNITYSDK_OFFSET(0xAA3A120)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETMAXCASTTIMES_OFFSET UNITYSDK_OFFSET(0xAA3A1E0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLACTUALATTACKERINCLUDEPRESHOWENTITY_OFFSET UNITYSDK_OFFSET(0xAA35000)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLACTUALATTACKER_OFFSET UNITYSDK_OFFSET(0xAA2E2B0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLCONFIGBYINDEX_OFFSET UNITYSDK_OFFSET(0xAA35280)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATABYCONTROLTYPE_OFFSET UNITYSDK_OFFSET(0xAA356C0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATABYTAG_OFFSET UNITYSDK_OFFSET(0xAA38C90)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATABYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xAA2FAA0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATAONCURLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA35960)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATA_OFFSET UNITYSDK_OFFSET(0xAA2E730)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLMAXHITCOUNT_OFFSET UNITYSDK_OFFSET(0xAA35350)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLTYPEDISABLETEXT_OFFSET UNITYSDK_OFFSET(0xAA37530)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLTYPEDISABLETIP_OFFSET UNITYSDK_OFFSET(0xAA3A3B0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSPNEEDBYSKILLINDEX_OFFSET UNITYSDK_OFFSET(0xAA3BD20)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETUISKILLINDEXBYCONTROLSKILLTYPE_OFFSET UNITYSDK_OFFSET(0xAA283D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_CURRENTSKILLSUBTARGETLIST_OFFSET UNITYSDK_OFFSET(0xAA3CEB0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_CURRENTSKILLTARGETLIST_OFFSET UNITYSDK_OFFSET(0xAA3CEA0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ELATIONCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xAA280B0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ELATIONSKILLDATALIST_OFFSET UNITYSDK_OFFSET(0xAA280D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISIGNORESLOTFIT_OFFSET UNITYSDK_OFFSET(0xAA3CF20)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOBPCOSTBYTASK_OFFSET UNITYSDK_OFFSET(0xAA3CEE0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOBPCOSTSPECIALAVATAR_OFFSET UNITYSDK_OFFSET(0xAA3CEC0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOBPCOST_OFFSET UNITYSDK_OFFSET(0xAA39140)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOSPCOST_OFFSET UNITYSDK_OFFSET(0xAA3CF00)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISULTRASKILLSKIPSPCHECK_OFFSET UNITYSDK_OFFSET(0xAA32DE0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_JSONCONFIG_OFFSET UNITYSDK_OFFSET(0xAA3CDA0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_JSONSKILLCOUNT_OFFSET UNITYSDK_OFFSET(0xAA3CDD0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_PASSIVEUSED_OFFSET UNITYSDK_OFFSET(0xAA3CF40)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SELFPERFORMSTATE_OFFSET UNITYSDK_OFFSET(0xAA3CDB0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SKILLACTUALATTACKER_OFFSET UNITYSDK_OFFSET(0xAA3CE60)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SKILLDATALIST_OFFSET UNITYSDK_OFFSET(0xAA3CDC0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SKILLPOINTENTITY_OFFSET UNITYSDK_OFFSET(0xAA3CE40)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xAA3CF60)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASNONPASSIVESKILL_OFFSET UNITYSDK_OFFSET(0xAA3AAB0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASOPINSKILL_OFFSET UNITYSDK_OFFSET(0xAA3B680)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASRECORDSKILL_OFFSET UNITYSDK_OFFSET(0xAA3B570)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASSKILLTAG_OFFSET UNITYSDK_OFFSET(0xAA3AC80)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASSKILLTYPE_OFFSET UNITYSDK_OFFSET(0xAA3ABF0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xAA28CD0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISALLOWUSESKILL_OFFSET UNITYSDK_OFFSET(0xAA39380)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISCURRENTSKILLFINISH_OFFSET UNITYSDK_OFFSET(0xAA369A0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSELFALLOWINSERTULTRA_OFFSET UNITYSDK_OFFSET(0xAA36D80)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSELFALLOWUSESKILL_OFFSET UNITYSDK_OFFSET(0xAA38020)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSKILLDISABLE_OFFSET UNITYSDK_OFFSET(0xAA37460)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSKILLINDEXVALID_OFFSET UNITYSDK_OFFSET(0xAA2E4A0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSKILLTYPEDISABLE_OFFSET UNITYSDK_OFFSET(0xAA3A330)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MAKESKILLPERFORMWORKING_OFFSET UNITYSDK_OFFSET(0xAA36D30)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MAYREDIRECTSKILLTARGET_OFFSET UNITYSDK_OFFSET(0xAA3B060)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLDATAPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xAA36910)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLDATAPROPERTY_OFFSET UNITYSDK_OFFSET(0xAA36480)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLSLOTPROPERTY_OFFSET UNITYSDK_OFFSET(0xAA35C00)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLTYPEPROPERTY_OFFSET UNITYSDK_OFFSET(0xAA36020)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ONAFTERSKILLPERFORM_OFFSET UNITYSDK_OFFSET(0xAA36A10)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ONREFRESHSELECTAIMATTARGETS_OFFSET UNITYSDK_OFFSET(0xAA3B780)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_OVERRIDEELATIONPOINTINSKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA27DA0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_POPSKILLTYPEDISABLE_OFFSET UNITYSDK_OFFSET(0xAA3A8F0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_PROCESSOPINSKILL_OFFSET UNITYSDK_OFFSET(0xAA3B730)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_PUSHSKILLTYPEDISABLE_OFFSET UNITYSDK_OFFSET(0xAA3A5F0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RECORDOPINSKILL_OFFSET UNITYSDK_OFFSET(0xAA3B6D0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RECORDUSESKILL_OFFSET UNITYSDK_OFFSET(0xAA3B330)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_REFRESHCURRENTSKILLPERFORM_OFFSET UNITYSDK_OFFSET(0xAA36AC0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RPG_GAMECORE_ISKILLCHARACTERCOMPONENT_GET_CURRENTSKILLSUBTARGETLIST_OFFSET UNITYSDK_OFFSET(0xAA3CE90)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RPG_GAMECORE_ISKILLCHARACTERCOMPONENT_GET_CURRENTSKILLTARGETLIST_OFFSET UNITYSDK_OFFSET(0xAA3CE80)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETCONTROLSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0xAA2F8A0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETCOOLDOWN_OFFSET UNITYSDK_OFFSET(0xAA346F0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETCURRENTSKILLINDEX_OFFSET UNITYSDK_OFFSET(0xAA35580)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETLEFTCASTTIMES_OFFSET UNITYSDK_OFFSET(0xAA3A030)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETSKILLCUSTOMTOASTPATH_OFFSET UNITYSDK_OFFSET(0xAA3B2C0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETSKILLPERFORMFINISH_OFFSET UNITYSDK_OFFSET(0xAA39CC0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETUPELATIONSKILLDATA_OFFSET UNITYSDK_OFFSET(0xAA27B50)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ELATIONCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xAA280C0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISIGNORESLOTFIT_OFFSET UNITYSDK_OFFSET(0xAA3CF30)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISNOBPCOSTBYTASK_OFFSET UNITYSDK_OFFSET(0xAA3CEF0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISNOBPCOSTSPECIALAVATAR_OFFSET UNITYSDK_OFFSET(0xAA3CED0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISNOSPCOST_OFFSET UNITYSDK_OFFSET(0xAA3CF10)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_PASSIVEUSED_OFFSET UNITYSDK_OFFSET(0xAA3CF50)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_SKILLACTUALATTACKER_OFFSET UNITYSDK_OFFSET(0xAA3CE70)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_SKILLPOINTENTITY_OFFSET UNITYSDK_OFFSET(0xAA3CE50)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xAA3CF70)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_STACKSKILLTARGETREDIRECT_OFFSET UNITYSDK_OFFSET(0xAA3ADD0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_TRYGETSKILLPRECOMPUTEDRESULT_OFFSET UNITYSDK_OFFSET(0xAA2B3F0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_TRYUSEPASSIVESKILL_OFFSET UNITYSDK_OFFSET(0xAA2B180)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_UNMODIFYSKILLSLOTPROPERTY_OFFSET UNITYSDK_OFFSET(0xAA35E10)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_UNMODIFYSKILLTYPEPROPERTY_OFFSET UNITYSDK_OFFSET(0xAA36250)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_UNSTACKSKILLTARGETREDIRECT_OFFSET UNITYSDK_OFFSET(0xAA3AF40)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_USERECORDSKILL_OFFSET UNITYSDK_OFFSET(0xAA3B5C0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT_USESKILL_OFFSET UNITYSDK_OFFSET(0xAA32E50)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDBPAFTERSKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA34B30)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDPREMODIFIERBEFOREENTRYABILITY_OFFSET UNITYSDK_OFFSET(0xAA34C90)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDSKILLFROMCOMMONSKILLPOOL_G___GETROWDATAFORCOMMONSKILL_40_0_OFFSET UNITYSDK_OFFSET(0xAA31C80)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDSPAFTERSKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA34900)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xAA28630)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__DECBPBEFORESKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA34420)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__DECCASTTIMEBEFORESKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA344E0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__DECSPBEFORESKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA34220)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__GETSKILLUSEBPPOINT_OFFSET UNITYSDK_OFFSET(0xAA34120)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__INITEVENT_OFFSET UNITYSDK_OFFSET(0xAA2B2E0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ISININSERTNORMALACTION_OFFSET UNITYSDK_OFFSET(0xAA38F20)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ONENTITYREVIVE_OFFSET UNITYSDK_OFFSET(0xAA3BFF0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ONLEVELTURNENDEVENT_OFFSET UNITYSDK_OFFSET(0xAA3BE80)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ONUSEACTIVESKILLSHOWUI_OFFSET UNITYSDK_OFFSET(0xAA34610)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__OVERRIDEELATIONPOINTAFTERSKILLUSE_OFFSET UNITYSDK_OFFSET(0xAA27DF0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__REDIRECTSKILLTARGET_OFFSET UNITYSDK_OFFSET(0xAA2E8A0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__REVERTOVERRIDEELATIONPOINT_OFFSET UNITYSDK_OFFSET(0xAA27EF0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__SETUPCHARACTERSKILL_OFFSET UNITYSDK_OFFSET(0xAA28D70)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__TRYLOADELATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xAA27CF0)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT__UNINITEVENT_OFFSET UNITYSDK_OFFSET(0xAA28BC0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int SkillCharacterComponent_TypeDefinitionIndex = 46476;
+
+	class SkillCharacterComponent : public ::RPG::GameCore::GameComponentBase
+	{
+	public:
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>** StaticGet__CachedSkillSubTargetList()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterComponent_TypeDefinitionIndex)->GetStaticField(0x45340);
+		}
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>** StaticGet__CachedSkillTargetList()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterComponent_TypeDefinitionIndex)->GetStaticField(0x45348);
+		}
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>** StaticGet__CachedSkillTargetListWithSub()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterComponent_TypeDefinitionIndex)->GetStaticField(0x45350);
+		}
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _CurrentSkillSubTargetList_k__BackingField; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext_k__BackingField; // 0x20
+		::Il2CppArray<::Class_1_EABAA0FA9B3BC305*>* _SkillSlots; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CurrentAimAtMainTargetList; // 0x30
+		::Il2CppArray<::System::Int32>* _SkillTypeDisableCountArr; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* CurrentSkillTargetCharacterId; // 0x40
+		::Class_1_F6CF5FB460BC6CBB* AutoUseUltraParams; // 0x48
+		::System::Collections::Generic::List_1<::Class_1_83D980B81C9B9AFA*>* _ElationSkillDataList; // 0x50
+		::System::Collections::Generic::List_1<::Class_1_DA7AFD2A0834A588*>* _SkillTargetRedirectEntries; // 0x58
+		::RPG::GameCore::GameEntity* _SkillActualAttacker_k__BackingField; // 0x60
+		::Class_1_FA702C103FB59536* _CurLayout; // 0x68
+		::RPG::GameCore::GameEntity* _SkillPointEntity_k__BackingField; // 0x70
+		::RPG::GameCore::CharacterDataComponent* _CharacterDataRef; // 0x78
+		::RPG::GameCore::TurnBasedAbilityComponent* _TBAbilityRef; // 0x80
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CurrentAimAtSubTargetList; // 0x88
+		::System::Collections::Generic::HashSet_1<::Class_1_29327D508CD1E435*>* _SkillTypeDisableSlots; // 0x90
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _CurrentSkillTargetList_k__BackingField; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* CurrentSkillTargetDamageHP; // 0xA0
+		::System::Collections::Generic::List_1<::System::Action_1<::RPG::GameCore::SkillData*>*>* OnSkillSetup; // 0xA8
+		::Il2CppArray<::Class_1_B213EAEBAA108779*>* _SkillTypeOverrideProperty; // 0xB0
+		::RPG::GameCore::ElationConfigList* _ElationConfigList_k__BackingField; // 0xB8
+		::RPG::GameCore::CharacterConfig* _JsonConfigRef; // 0xC0
+		::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* _SkillDataList; // 0xC8
+		::RPG::GameCore::AbilityCursorInfo _recordAbilityInfo; // 0xD0
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CurrentAimAtTargetList; // 0x100
+		::Class_1_77E96ACE7A0E87CA* _BattleSkillToastManager; // 0x108
+		::System::Int32 _CurrentSkillExtraUseParam; // 0x110
+		::RPG::GameCore::SelfSkillPerformState _SelfSkillPerformState; // 0x114
+		::System::Int32 CurrentSkillKilledCount; // 0x118
+		::System::Boolean _hasOpInSkill; // 0x11C
+		::System::Boolean _AutoStandbyOnCurSkillFinish; // 0x11D
+		::System::Int32 _actionSkillIndex; // 0x120
+		::System::Int32 SelfWaitActiveSkillIndex; // 0x124
+		::System::Int32 _RecordSkillExtraUseParam; // 0x128
+		::System::Single _TargetPerformTimeCounter; // 0x12C
+		::System::Boolean CharmAction; // 0x130
+		::System::Boolean CurrentSkillBreakStance; // 0x131
+		::System::Boolean _IsIgnoreSlotFit_k__BackingField; // 0x132
+		::System::Int32 _RedirectTargetIDIncr; // 0x134
+		::System::Int32 _OpIndexInSkill; // 0x138
+		::System::Boolean CurrentSkillHasTriggerEffect; // 0x13C
+		::System::Boolean _hasRecordSkill; // 0x13D
+		::System::Boolean _IsNoBpCostSpecialAvatar_k__BackingField; // 0x13E
+		::System::Boolean CurrentSkillKillAllOrBoss; // 0x13F
+		::RPG::GameCore::FixPoint _OverrideElationPointInSkillUse; // 0x140
+		::System::Int32 _CurrentSkillIndex; // 0x148
+		::System::Boolean _PassiveUsed_k__BackingField; // 0x14C
+		::System::Boolean _IsNoBpCostByTask_k__BackingField; // 0x14D
+		::System::Boolean _IsNoSpCost_k__BackingField; // 0x14E
+		::System::Boolean _isPassive; // 0x14F
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_8F285BFA404E1032* GetElationSkillDataByTag(::RPG::GameCore::JsonEnum* skillTag)
+		{
+			return ((::Class_2_8F285BFA404E1032*(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETELATIONSKILLDATABYTAG_OFFSET))(this, skillTag);
+		}
+
+		::Class_1_83D980B81C9B9AFA* GetElationSkillDataBySkillData(::RPG::GameCore::SkillData* targetSkillData)
+		{
+			return ((::Class_1_83D980B81C9B9AFA*(*)(::PVOID, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETELATIONSKILLDATABYSKILLDATA_OFFSET))(this, targetSkillData);
+		}
+
+		::System::Void SetupElationSkillData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETUPELATIONSKILLDATA_OFFSET))(this);
+		}
+
+		::System::Void OverrideElationPointInSkillUse(::RPG::GameCore::FixPoint elationPoint)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_OVERRIDEELATIONPOINTINSKILLUSE_OFFSET))(this, elationPoint);
+		}
+
+		::System::Void _TryLoadElationConfig()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__TRYLOADELATIONCONFIG_OFFSET))(this);
+		}
+
+		::System::Void _OverrideElationPointAfterSkillUse(::RPG::GameCore::SkillData* skillData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__OVERRIDEELATIONPOINTAFTERSKILLUSE_OFFSET))(this, skillData);
+		}
+
+		::System::Void _RevertOverrideElationPoint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__REVERTOVERRIDEELATIONPOINT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ElationConfigList* get_ElationConfigList()
+		{
+			return ((::RPG::GameCore::ElationConfigList*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ELATIONCONFIGLIST_OFFSET))(this);
+		}
+
+		::System::Void set_ElationConfigList(::RPG::GameCore::ElationConfigList* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ElationConfigList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ELATIONCONFIGLIST_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::List_1<::Class_1_83D980B81C9B9AFA*>* get_ElationSkillDataList()
+		{
+			return ((::System::Collections::Generic::List_1<::Class_1_83D980B81C9B9AFA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ELATIONSKILLDATALIST_OFFSET))(this);
+		}
+
+		static ::RPG::GameCore::ControlSkillType DefaultConvertUIIndexToControlSkillType(::RPG::Client::UISkillIndex uiIndex)
+		{
+			return ((::RPG::GameCore::ControlSkillType(*)(::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_DEFAULTCONVERTUIINDEXTOCONTROLSKILLTYPE_OFFSET))(uiIndex);
+		}
+
+		static ::RPG::Client::UISkillIndex DefaultConvertControlSkillTypeToUIIndex(::RPG::GameCore::ControlSkillType ctrlType)
+		{
+			return ((::RPG::Client::UISkillIndex(*)(::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_DEFAULTCONVERTCONTROLSKILLTYPETOUIINDEX_OFFSET))(ctrlType);
+		}
+
+		::Class_1_FA702C103FB59536* GetCurrentSkillLayout()
+		{
+			return ((::Class_1_FA702C103FB59536*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLLAYOUT_OFFSET))(this);
+		}
+
+		::System::Void AddSkillLayout(::Class_1_FA702C103FB59536* layout)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA702C103FB59536*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ADDSKILLLAYOUT_OFFSET))(this, layout);
+		}
+
+		::System::Void ClearSkillLayout()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_CLEARSKILLLAYOUT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ControlSkillType GetControlSkillTypeByUIIndex(::RPG::Client::UISkillIndex uiIndex)
+		{
+			return ((::RPG::GameCore::ControlSkillType(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEBYUIINDEX_OFFSET))(this, uiIndex);
+		}
+
+		::RPG::Client::UISkillIndex GetUISkillIndexByControlSkillType(::RPG::GameCore::ControlSkillType ctrlType)
+		{
+			return ((::RPG::Client::UISkillIndex(*)(::PVOID, ::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETUISKILLINDEXBYCONTROLSKILLTYPE_OFFSET))(this, ctrlType);
+		}
+
+		::RPG::GameCore::SkillLayoutKey GetCurLayoutKeyByControlSkillType(::RPG::GameCore::ControlSkillType ctrlType)
+		{
+			return ((::RPG::GameCore::SkillLayoutKey(*)(::PVOID, ::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURLAYOUTKEYBYCONTROLSKILLTYPE_OFFSET))(this, ctrlType);
+		}
+
+		::RPG::GameCore::ControlSkillType GetControlSkillTypeOnCurLayout(::RPG::GameCore::SkillLayoutKey eType)
+		{
+			return ((::RPG::GameCore::ControlSkillType(*)(::PVOID, ::RPG::GameCore::SkillLayoutKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEONCURLAYOUT_OFFSET))(this, eType);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void InitComponent(::RPG::GameCore::CharacterConfig* JsonConfig, ::RPG::GameCore::CharacterDataComponent* CharacterData, ::RPG::GameCore::TurnBasedAbilityComponent* turnBasedAbility, ::System::Boolean pForbidPassiveSkill)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterConfig*, ::RPG::GameCore::CharacterDataComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_INITCOMPONENT_OFFSET))(this, JsonConfig, CharacterData, turnBasedAbility, pForbidPassiveSkill);
+		}
+
+		::System::Boolean TryGetSkillPrecomputedResult(::System::UInt32 nTargetRuntimeID, ::System::Int32 nSkillIndex, ::System::Boolean isAI, ::Struct_2_C26D61ECD9375585& result)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Boolean, ::Struct_2_C26D61ECD9375585&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_TRYGETSKILLPRECOMPUTEDRESULT_OFFSET))(this, nTargetRuntimeID, nSkillIndex, isAI, result);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* ComputeCurrentSkillMainAndSubTargetEntityList()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTECURRENTSKILLMAINANDSUBTARGETENTITYLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* ComputeSkillMainAndSubTargetEntityList(::System::Int32 nSkillIndex, ::RPG::GameCore::AliveStateMask eAliveStateMask)
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID, ::System::Int32, ::RPG::GameCore::AliveStateMask))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTESKILLMAINANDSUBTARGETENTITYLIST_OFFSET))(this, nSkillIndex, eAliveStateMask);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* ComputeCurrentSkillTargetEntityList(::System::Boolean lockTargetAsSkillPoint)
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTECURRENTSKILLTARGETENTITYLIST_OFFSET))(this, lockTargetAsSkillPoint);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* ComputeSkillTargetEntityList(::System::Int32 nSkillIndex, ::RPG::GameCore::AliveStateMask eAliveStateMask, ::System::Boolean lockTargetAsSkillPoint)
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID, ::System::Int32, ::RPG::GameCore::AliveStateMask, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTESKILLTARGETENTITYLIST_OFFSET))(this, nSkillIndex, eAliveStateMask, lockTargetAsSkillPoint);
+		}
+
+		::Class_1_DA7AFD2A0834A588* _RedirectSkillTarget(::RPG::GameCore::GameEntity*& target, ::System::Int32 nSkillIndex, ::RPG::GameCore::AliveStateMask eAliveStateMask)
+		{
+			return ((::Class_1_DA7AFD2A0834A588*(*)(::PVOID, ::RPG::GameCore::GameEntity*&, ::System::Int32, ::RPG::GameCore::AliveStateMask))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__REDIRECTSKILLTARGET_OFFSET))(this, target, nSkillIndex, eAliveStateMask);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* ComputeCurrentSkillSubTargetEntityList(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* mainTargetList)
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTECURRENTSKILLSUBTARGETENTITYLIST_OFFSET))(this, mainTargetList);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* ComputeSkillSubTargetEntityList(::RPG::GameCore::GameEntity* pSkillTargetEntity, ::System::Int32 nSkillIndex, ::RPG::GameCore::AliveStateMask eAliveStateMask)
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::RPG::GameCore::AliveStateMask))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_COMPUTESKILLSUBTARGETENTITYLIST_OFFSET))(this, pSkillTargetEntity, nSkillIndex, eAliveStateMask);
+		}
+
+		::System::Void SetControlSkillMapping(::RPG::GameCore::ControlSkillType eControlSkillType, ::System::String* sSkillTriggerKey)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ControlSkillType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETCONTROLSKILLMAPPING_OFFSET))(this, eControlSkillType, sSkillTriggerKey);
+		}
+
+		::RPG::GameCore::ControlSkillType GetControlSkillTypeBySkillIndex(::System::Int32 nSkillIndex)
+		{
+			return ((::RPG::GameCore::ControlSkillType(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEBYSKILLINDEX_OFFSET))(this, nSkillIndex);
+		}
+
+		::RPG::GameCore::ControlSkillType GetControlSkillTypeBySkillIndex_1(::System::Int32 nSkillIndex, ::System::Int32& childIndex)
+		{
+			return ((::RPG::GameCore::ControlSkillType(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLTYPEBYSKILLINDEX_1_OFFSET))(this, nSkillIndex, childIndex);
+		}
+
+		::System::String* GetControlSkillMapping(::RPG::GameCore::ControlSkillType eControlSkillType)
+		{
+			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCONTROLSKILLMAPPING_OFFSET))(this, eControlSkillType);
+		}
+
+		::System::Void AddSkillFromCommonSkillPool(::RPG::GameCore::CommonSkillPool* commonSkillPool)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CommonSkillPool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ADDSKILLFROMCOMMONSKILLPOOL_OFFSET))(this, commonSkillPool);
+		}
+
+		::System::Boolean CheckSkillUsableByControlType(::RPG::GameCore::ControlSkillType eControlSkillType, ::System::Int32 nSkillIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ControlSkillType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_CHECKSKILLUSABLEBYCONTROLTYPE_OFFSET))(this, eControlSkillType, nSkillIndex);
+		}
+
+		::System::Boolean UseSkill(::System::Int32 SkillIndex, ::RPG::GameCore::AbilityCursorInfo CursorInfo, ::System::Boolean bIsPassive, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicFloatInjection>* dynamicValues, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicStringInjection>* dynamicStrings, ::System::Int32 extraUseParam)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::RPG::GameCore::AbilityCursorInfo, ::System::Boolean, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicFloatInjection>*, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicStringInjection>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_USESKILL_OFFSET))(this, SkillIndex, CursorInfo, bIsPassive, dynamicValues, dynamicStrings, extraUseParam);
+		}
+
+		::RPG::GameCore::GameEntity* GetSkillActualAttacker(::RPG::GameCore::SkillConfig* pUsingConfig)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLACTUALATTACKER_OFFSET))(this, pUsingConfig);
+		}
+
+		::RPG::GameCore::GameEntity* GetSkillActualAttackerIncludePreshowEntity(::RPG::GameCore::SkillConfig* pUsingConfig)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLACTUALATTACKERINCLUDEPRESHOWENTITY_OFFSET))(this, pUsingConfig);
+		}
+
+		::RPG::GameCore::SkillConfig* GetFirstSkillConfigBySkillType(::RPG::GameCore::SkillType eSkillType, ::System::Int32& nSkillIndex)
+		{
+			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID, ::RPG::GameCore::SkillType, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETFIRSTSKILLCONFIGBYSKILLTYPE_OFFSET))(this, eSkillType, nSkillIndex);
+		}
+
+		::System::Boolean IsSkillIndexValid(::System::Int32 skillIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSKILLINDEXVALID_OFFSET))(this, skillIndex);
+		}
+
+		::RPG::GameCore::SkillConfig* GetSkillConfigByIndex(::System::Int32 skillIndex)
+		{
+			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLCONFIGBYINDEX_OFFSET))(this, skillIndex);
+		}
+
+		::RPG::GameCore::SkillConfig* GetCurrentSkillConfig()
+		{
+			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLCONFIG_OFFSET))(this);
+		}
+
+		::System::Int32 GetSkillMaxHitCount(::System::String* skillName)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLMAXHITCOUNT_OFFSET))(this, skillName);
+		}
+
+		::System::Int32 GetCurrentSkillIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 GetCurrentSkillExtraUseParam()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLEXTRAUSEPARAM_OFFSET))(this);
+		}
+
+		::System::Int32 GetCurrentRecordSkillIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTRECORDSKILLINDEX_OFFSET))(this);
+		}
+
+		::System::Void SetCurrentSkillIndex(::System::Int32 iSkillIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETCURRENTSKILLINDEX_OFFSET))(this, iSkillIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetCurrentSkillData()
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURRENTSKILLDATA_OFFSET))(this);
+		}
+
+		::RPG::GameCore::SkillData* GetSkillData(::System::Int32 nSkillIndex, ::System::Int32 childIndex)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATA_OFFSET))(this, nSkillIndex, childIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetSkillDataByTriggerKey(::System::String* sTriggerKey, ::System::Int32 childIndex)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATABYTRIGGERKEY_OFFSET))(this, sTriggerKey, childIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetSkillDataByControlType(::RPG::GameCore::ControlSkillType eControlSkillType, ::System::Int32 childIndex)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::RPG::GameCore::ControlSkillType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATABYCONTROLTYPE_OFFSET))(this, eControlSkillType, childIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetDefaultSkillDataByControlType(::RPG::GameCore::ControlSkillType eControlSkillType, ::System::Int32 childIndex)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::RPG::GameCore::ControlSkillType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETDEFAULTSKILLDATABYCONTROLTYPE_OFFSET))(this, eControlSkillType, childIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetSkillDataOnCurLayout(::RPG::GameCore::SkillLayoutKey eType, ::System::Int32 childIndex)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::RPG::GameCore::SkillLayoutKey, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATAONCURLAYOUT_OFFSET))(this, eType, childIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetCurUltraSkillData()
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCURULTRASKILLDATA_OFFSET))(this);
+		}
+
+		::System::Void FillAllSkillData(::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* pContainer)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_FILLALLSKILLDATA_OFFSET))(this, pContainer);
+		}
+
+		::System::Void ModifySkillSlotProperty(::RPG::GameCore::ControlSkillType ctrlType, ::RPG::GameCore::SkillPropertyType propertyType, ::RPG::GameCore::SkillPropertyModifyType func, ::RPG::GameCore::FixPoint val)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ControlSkillType, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::SkillPropertyModifyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLSLOTPROPERTY_OFFSET))(this, ctrlType, propertyType, func, val);
+		}
+
+		::System::Void UnModifySkillSlotProperty(::RPG::GameCore::ControlSkillType ctrlType, ::RPG::GameCore::SkillPropertyType propertyType, ::RPG::GameCore::SkillPropertyModifyType func, ::RPG::GameCore::FixPoint val)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ControlSkillType, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::SkillPropertyModifyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_UNMODIFYSKILLSLOTPROPERTY_OFFSET))(this, ctrlType, propertyType, func, val);
+		}
+
+		::System::Void ModifySkillTypeProperty(::Struct_2_8792219C039E2D7A& property)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_8792219C039E2D7A&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLTYPEPROPERTY_OFFSET))(this, property);
+		}
+
+		::System::Void UnModifySkillTypeProperty(::Struct_2_8792219C039E2D7A& property)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_8792219C039E2D7A&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_UNMODIFYSKILLTYPEPROPERTY_OFFSET))(this, property);
+		}
+
+		::System::Boolean ModifySkillDataProperty(::Il2CppArray<::System::String*>* skillNames, ::RPG::GameCore::SkillPropertyType propertyType, ::RPG::GameCore::SkillPropertyModifyType func, ::RPG::GameCore::FixPoint val)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::SkillPropertyModifyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLDATAPROPERTY_OFFSET))(this, skillNames, propertyType, func, val);
+		}
+
+		::System::Boolean ModifySkillDataProperty_1(::System::String* skillName, ::RPG::GameCore::SkillPropertyType propertyType, ::RPG::GameCore::SkillPropertyModifyType func, ::RPG::GameCore::FixPoint val)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::SkillPropertyModifyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MODIFYSKILLDATAPROPERTY_1_OFFSET))(this, skillName, propertyType, func, val);
+		}
+
+		::System::Boolean IsCurrentSkillFinish(::System::Boolean bAllowReady)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISCURRENTSKILLFINISH_OFFSET))(this, bAllowReady);
+		}
+
+		::System::Void OnAfterSkillPerform()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ONAFTERSKILLPERFORM_OFFSET))(this);
+		}
+
+		::System::Void RefreshCurrentSkillPerform()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_REFRESHCURRENTSKILLPERFORM_OFFSET))(this);
+		}
+
+		::System::Void MakeSkillPerformWorking()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MAKESKILLPERFORMWORKING_OFFSET))(this);
+		}
+
+		::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo IsSelfAllowInsertUltra(::System::Int32 nSkillIndex)
+		{
+			return ((::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSELFALLOWINSERTULTRA_OFFSET))(this, nSkillIndex);
+		}
+
+		::RPG::GameCore::SkillData* GetFirstAllowUseSkill(::System::Boolean checkTarget, ::System::Boolean checkTurnState, ::System::Boolean includeNormal, ::System::Boolean includeUltra, ::System::Boolean includeChild)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETFIRSTALLOWUSESKILL_OFFSET))(this, checkTarget, checkTurnState, includeNormal, includeUltra, includeChild);
+		}
+
+		::RPG::GameCore::SkillData* GetSkillDataByTag(::RPG::GameCore::JsonEnum* skillTag)
+		{
+			return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLDATABYTAG_OFFSET))(this, skillTag);
+		}
+
+		::System::Void FillAllSkillDataByTag(::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* fillList, ::RPG::GameCore::JsonEnum* skillTag)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>*, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_FILLALLSKILLDATABYTAG_OFFSET))(this, fillList, skillTag);
+		}
+
+		::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo IsSelfAllowUseSkill(::System::Int32 SkillIndex, ::System::Boolean checkCaster, ::System::Boolean checkTarget, ::System::Boolean checkTurnState, ::System::Boolean checkBp, ::System::Boolean checkSkillPerformState, ::System::Boolean checkSlotFit)
+		{
+			return ((::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSELFALLOWUSESKILL_OFFSET))(this, SkillIndex, checkCaster, checkTarget, checkTurnState, checkBp, checkSkillPerformState, checkSlotFit);
+		}
+
+		::System::Collections::Generic::List_1<::System::Int32>* GetAllAllowSkillIdxList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETALLALLOWSKILLIDXLIST_OFFSET))(this);
+		}
+
+		::System::Boolean IsAllowUseSkill(::System::Int32 SkillIndex, ::RPG::GameCore::AbilityCursorInfo CursorInfo, ::System::String*& ErrorMsg)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::RPG::GameCore::AbilityCursorInfo, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISALLOWUSESKILL_OFFSET))(this, SkillIndex, CursorInfo, ErrorMsg);
+		}
+
+		::System::Void SetSkillPerformFinish(::System::Boolean bSkipAttackSettlement)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETSKILLPERFORMFINISH_OFFSET))(this, bSkipAttackSettlement);
+		}
+
+		::System::Void SetLeftCastTimes(::System::Int32 SkillIndex, ::System::Int32 castTimes)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETLEFTCASTTIMES_OFFSET))(this, SkillIndex, castTimes);
+		}
+
+		::System::Int32 GetLeftCastTimes(::System::Int32 SkillIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETLEFTCASTTIMES_OFFSET))(this, SkillIndex);
+		}
+
+		::System::Int32 GetMaxCastTimes(::System::Int32 SkillIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETMAXCASTTIMES_OFFSET))(this, SkillIndex);
+		}
+
+		::System::Void SetCoolDown(::System::Int32 SkillIndex, ::System::Int32 CoolDownValue)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETCOOLDOWN_OFFSET))(this, SkillIndex, CoolDownValue);
+		}
+
+		::System::Int32 GetCoolDown(::System::Int32 SkillIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETCOOLDOWN_OFFSET))(this, SkillIndex);
+		}
+
+		::System::Boolean IsSkillDisable(::RPG::GameCore::SkillType Type, ::RPG::GameCore::ControlSkillType ControlType)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SkillType, ::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSKILLDISABLE_OFFSET))(this, Type, ControlType);
+		}
+
+		::System::Boolean IsSkillTypeDisable(::RPG::GameCore::SkillType Type)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ISSKILLTYPEDISABLE_OFFSET))(this, Type);
+		}
+
+		::RPG::Client::TextID GetSkillTypeDisableText(::RPG::GameCore::SkillType Type, ::RPG::GameCore::ControlSkillType ControlType)
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID, ::RPG::GameCore::SkillType, ::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLTYPEDISABLETEXT_OFFSET))(this, Type, ControlType);
+		}
+
+		::RPG::Client::TextID GetSkillTypeDisableTip(::RPG::GameCore::SkillType Type, ::RPG::GameCore::ControlSkillType ControlType)
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID, ::RPG::GameCore::SkillType, ::RPG::GameCore::ControlSkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSKILLTYPEDISABLETIP_OFFSET))(this, Type, ControlType);
+		}
+
+		::System::Void PushSkillTypeDisable(::Class_1_29327D508CD1E435* slot)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_29327D508CD1E435*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_PUSHSKILLTYPEDISABLE_OFFSET))(this, slot);
+		}
+
+		::System::Void PopSkillTypeDisable(::Class_1_29327D508CD1E435* slot)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_29327D508CD1E435*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_POPSKILLTYPEDISABLE_OFFSET))(this, slot);
+		}
+
+		::System::Boolean HasNonPassiveSkill(::System::Boolean checkSkillTypeDisable)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASNONPASSIVESKILL_OFFSET))(this, checkSkillTypeDisable);
+		}
+
+		::System::Boolean HasSkillType(::RPG::GameCore::SkillType type)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASSKILLTYPE_OFFSET))(this, type);
+		}
+
+		::System::Boolean HasSkillTag(::RPG::GameCore::JsonEnum* skillTag)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASSKILLTAG_OFFSET))(this, skillTag);
+		}
+
+		::System::Void StackSkillTargetRedirect(::RPG::GameCore::TurnBasedModifierInstance* modifier, ::RPG::GameCore::FixPoint probability, ::RPG::GameCore::RedirectSkillTargetAffectTeam affectTeam, ::RPG::GameCore::GameEntity* redirectTarget, ::System::Int32 maxDistance, ::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* successCallback)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::RedirectSkillTargetAffectTeam, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_STACKSKILLTARGETREDIRECT_OFFSET))(this, modifier, probability, affectTeam, redirectTarget, maxDistance, successCallback);
+		}
+
+		::System::Void UnstackSkillTargetRedirect(::RPG::GameCore::TurnBasedModifierInstance* modifier)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_UNSTACKSKILLTARGETREDIRECT_OFFSET))(this, modifier);
+		}
+
+		::System::Boolean MayRedirectSkillTarget(::System::Int32 nSkillIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_MAYREDIRECTSKILLTARGET_OFFSET))(this, nSkillIndex);
+		}
+
+		::System::Void TryUsePassiveSkill(::System::Boolean bIsAfterRevive)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_TRYUSEPASSIVESKILL_OFFSET))(this, bIsAfterRevive);
+		}
+
+		::System::Void SetSkillCustomToastPath(::Il2CppArray<::RPG::GameCore::SkillType>* skillTypes, ::RPG::GameCore::SkillTextDialogType dialogType)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::SkillType>*, ::RPG::GameCore::SkillTextDialogType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SETSKILLCUSTOMTOASTPATH_OFFSET))(this, skillTypes, dialogType);
+		}
+
+		::System::Void RecordUseSkill(::System::Int32 skillIndex, ::RPG::GameCore::AbilityCursorInfo pCursorInfo, ::System::Boolean isPassive, ::System::Int32 extraUseParam)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::AbilityCursorInfo, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RECORDUSESKILL_OFFSET))(this, skillIndex, pCursorInfo, isPassive, extraUseParam);
+		}
+
+		::System::Boolean HasRecordSkill()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASRECORDSKILL_OFFSET))(this);
+		}
+
+		::System::Void UseRecordSkill(::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicFloatInjection>* dynamicValues, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicStringInjection>* dynamicStrings)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicFloatInjection>*, ::System::Collections::Generic::List_1<::RPG::GameCore::AbilityDynamicStringInjection>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_USERECORDSKILL_OFFSET))(this, dynamicValues, dynamicStrings);
+		}
+
+		::System::Boolean HasOpInSkill()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASOPINSKILL_OFFSET))(this);
+		}
+
+		::System::Void RecordOpInSkill(::System::Int32 iOpIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RECORDOPINSKILL_OFFSET))(this, iOpIndex);
+		}
+
+		::System::Void ProcessOpInSkill()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_PROCESSOPINSKILL_OFFSET))(this);
+		}
+
+		::System::Void OnRefreshSelectAimAtTargets(::System::Int32 activeSkillIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_ONREFRESHSELECTAIMATTARGETS_OFFSET))(this, activeSkillIndex);
+		}
+
+		::RPG::GameCore::FixPoint GetSPNeedBySkillIndex(::System::Int32 nSkillIndex)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GETSPNEEDBYSKILLINDEX_OFFSET))(this, nSkillIndex);
+		}
+
+		::System::Void _InitEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__INITEVENT_OFFSET))(this);
+		}
+
+		::System::Void _UnInitEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__UNINITEVENT_OFFSET))(this);
+		}
+
+		::System::Void _SetupCharacterSkill()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__SETUPCHARACTERSKILL_OFFSET))(this);
+		}
+
+		::System::Void _OnLevelTurnEndEvent(::Class_0_16E4307DCC419505_375* Evt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ONLEVELTURNENDEVENT_OFFSET))(this, Evt);
+		}
+
+		::System::Void _OnEntityRevive(::Class_0_16E4307DCC419505_375* Evt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ONENTITYREVIVE_OFFSET))(this, Evt);
+		}
+
+		::System::Boolean _IsInInsertNormalAction()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ISININSERTNORMALACTION_OFFSET))(this);
+		}
+
+		::System::Void _DecSPBeforeSkillUse(::System::Int32 SkillIndex, ::System::Boolean isUltra)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__DECSPBEFORESKILLUSE_OFFSET))(this, SkillIndex, isUltra);
+		}
+
+		::RPG::GameCore::FixPoint _GetSkillUseBPPoint(::System::Int32 SkillIndex)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__GETSKILLUSEBPPOINT_OFFSET))(this, SkillIndex);
+		}
+
+		::System::Void _DecBPBeforeSkillUse(::System::Int32 SkillIndex, ::RPG::GameCore::GameEntity* pTeamEntity)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__DECBPBEFORESKILLUSE_OFFSET))(this, SkillIndex, pTeamEntity);
+		}
+
+		::System::Void _DecCastTimeBeforeSkillUse(::System::Int32 SkillIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__DECCASTTIMEBEFORESKILLUSE_OFFSET))(this, SkillIndex);
+		}
+
+		::System::Void _AddSPAfterSkillUse(::System::Int32 SkillIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDSPAFTERSKILLUSE_OFFSET))(this, SkillIndex);
+		}
+
+		::System::Void _AddBPAfterSkillUse(::System::Int32 SkillIndex, ::RPG::GameCore::GameEntity* pTeamEntity)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDBPAFTERSKILLUSE_OFFSET))(this, SkillIndex, pTeamEntity);
+		}
+
+		::System::Void _AddPreModifierBeforeEntryAbility(::RPG::GameCore::SkillData* pSkillData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDPREMODIFIERBEFOREENTRYABILITY_OFFSET))(this, pSkillData);
+		}
+
+		::System::Void _OnUseActiveSkillShowUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ONUSEACTIVESKILLSHOWUI_OFFSET))(this);
+		}
+
+		::RPG::GameCore::CharacterConfig* get_JsonConfig()
+		{
+			return ((::RPG::GameCore::CharacterConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_JSONCONFIG_OFFSET))(this);
+		}
+
+		::RPG::GameCore::SelfSkillPerformState get_SelfPerformState()
+		{
+			return ((::RPG::GameCore::SelfSkillPerformState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SELFPERFORMSTATE_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* get_SkillDataList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SKILLDATALIST_OFFSET))(this);
+		}
+
+		::System::Int32 get_JsonSkillCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_JSONSKILLCOUNT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* get_SkillPointEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SKILLPOINTENTITY_OFFSET))(this);
+		}
+
+		::System::Void set_SkillPointEntity(::RPG::GameCore::GameEntity* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_SKILLPOINTENTITY_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::GameEntity* get_SkillActualAttacker()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_SKILLACTUALATTACKER_OFFSET))(this);
+		}
+
+		::System::Void set_SkillActualAttacker(::RPG::GameCore::GameEntity* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_SKILLACTUALATTACKER_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* RPG_GameCore_ISkillCharacterComponent_get_CurrentSkillTargetList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RPG_GAMECORE_ISKILLCHARACTERCOMPONENT_GET_CURRENTSKILLTARGETLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* RPG_GameCore_ISkillCharacterComponent_get_CurrentSkillSubTargetList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_RPG_GAMECORE_ISKILLCHARACTERCOMPONENT_GET_CURRENTSKILLSUBTARGETLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* get_CurrentSkillTargetList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_CURRENTSKILLTARGETLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* get_CurrentSkillSubTargetList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_CURRENTSKILLSUBTARGETLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUltraSkillSkipSpCheck()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISULTRASKILLSKIPSPCHECK_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNoBpCostSpecialAvatar()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOBPCOSTSPECIALAVATAR_OFFSET))(this);
+		}
+
+		::System::Void set_IsNoBpCostSpecialAvatar(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISNOBPCOSTSPECIALAVATAR_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsNoBpCostByTask()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOBPCOSTBYTASK_OFFSET))(this);
+		}
+
+		::System::Void set_IsNoBpCostByTask(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISNOBPCOSTBYTASK_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsNoBpCost()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOBPCOST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNoSpCost()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISNOSPCOST_OFFSET))(this);
+		}
+
+		::System::Void set_IsNoSpCost(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISNOSPCOST_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsIgnoreSlotFit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_ISIGNORESLOTFIT_OFFSET))(this);
+		}
+
+		::System::Void set_IsIgnoreSlotFit(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_ISIGNORESLOTFIT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_PassiveUsed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_PASSIVEUSED_OFFSET))(this);
+		}
+
+		::System::Void set_PassiveUsed(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_PASSIVEUSED_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::TaskContext* get_TaskContext()
+		{
+			return ((::RPG::GameCore::TaskContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_GET_TASKCONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set_TaskContext(::RPG::GameCore::TaskContext* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_SET_TASKCONTEXT_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::ICharacterSkillRowData* _AddSkillFromCommonSkillPool_g___GetRowDataForCommonSkill_40_0(::System::UInt32 skillID, ::RPG::GameCore::SkillConfig* skillConfig)
+		{
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT__ADDSKILLFROMCOMMONSKILLPOOL_G___GETROWDATAFORCOMMONSKILL_40_0_OFFSET))(this, skillID, skillConfig);
+		}
+	};
+}

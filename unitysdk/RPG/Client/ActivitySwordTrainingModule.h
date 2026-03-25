@@ -1,0 +1,346 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseModule.h"
+
+class Class_1_3154488472AD1163;
+class Class_1_5EFEE08E3E11BEF1;
+class Class_1_FB0633E85BD6CF8E_11;
+namespace RPG::Client { class ActivitySwordTrainingAvatarVOManager; }
+namespace RPG::Client { class SwordTrainingEndingInfo; }
+namespace RPG::Client { class SwordTrainingGameInstance; }
+namespace RPG::Client { class SwordTrainingGameSettleData; }
+namespace RPG::Client { class SwordTrainingStoryInfo; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8FBED70)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_CURRENTGAME_OFFSET UNITYSDK_OFFSET(0x8FBF300)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_ENDINGINFO_OFFSET UNITYSDK_OFFSET(0x8FBF320)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x8FBBC80)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_HISTORYMAXDAY_OFFSET UNITYSDK_OFFSET(0x8FBF340)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_ISENDINGVIEWED_OFFSET UNITYSDK_OFFSET(0x8FBF3E0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_ISSWORDTRAININGPREVBATTLEWIN_OFFSET UNITYSDK_OFFSET(0x8FBF3C0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_SETTLEDATA_OFFSET UNITYSDK_OFFSET(0x8FBF360)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x8FBEB20)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FBF060)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x8FBEEE0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGEXAMRESULTCONFIRMCSREQ_OFFSET UNITYSDK_OFFSET(0x8FBC680)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGLEARNSKILLCSREQ_OFFSET UNITYSDK_OFFSET(0x8FBE5B0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGSETSKILLTRACECSREQ_OFFSET UNITYSDK_OFFSET(0x8FBE720)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGSTORYCONFIRMCSREQ_OFFSET UNITYSDK_OFFSET(0x8FBDE30)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_CURRENTGAME_OFFSET UNITYSDK_OFFSET(0x8FBF310)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_ENDINGINFO_OFFSET UNITYSDK_OFFSET(0x8FBF330)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_HISTORYMAXDAY_OFFSET UNITYSDK_OFFSET(0x8FBF350)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_ISENDINGVIEWED_OFFSET UNITYSDK_OFFSET(0x8FBF3F0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_ISSWORDTRAININGPREVBATTLEWIN_OFFSET UNITYSDK_OFFSET(0x8FBF3D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_TRYAUTOSHOW_OFFSET UNITYSDK_OFFSET(0x8FBF0D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_TRYDISPOSEGAME_OFFSET UNITYSDK_OFFSET(0x8FBD280)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_UPDATEMAXDAY_OFFSET UNITYSDK_OFFSET(0x8FBD1C0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x8FBEFB0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x8FBC950)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x8FBF400)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONBATTLETOMAZE_OFFSET UNITYSDK_OFFSET(0x8FBF280)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGDAILYPHASECONFIRMSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBDB70)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGDIALOGUESELECTOPTIONSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBDC30)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGGAMESETTLESCNOTIFY_OFFSET UNITYSDK_OFFSET(0x8FBE250)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGGIVEUPGAMESCRSP_OFFSET UNITYSDK_OFFSET(0x8FBE460)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGLEARNSKILLSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBE660)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGMARKENDINGVIEWEDSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBEAB0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGSELECTENDINGSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBDF60)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGSETSKILLTRACESCRSP_OFFSET UNITYSDK_OFFSET(0x8FBE7D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGSTORYCONFIRMSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBDEC0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONGETSWORDTRAININGDATASCRSP_OFFSET UNITYSDK_OFFSET(0x8FBCD50)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONMODULEINITREQ_OFFSET UNITYSDK_OFFSET(0x8FBF170)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGACTIONTURNSETTLESCNOTIFY_OFFSET UNITYSDK_OFFSET(0x8FBDD00)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGEXAMRESULTCONFIRMSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBE8A0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGGAMESYNCCHANGESCNOTIFY_OFFSET UNITYSDK_OFFSET(0x8FBD2E0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGRESTOREGAMESCRSP_OFFSET UNITYSDK_OFFSET(0x8FBDAC0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGRESUMEGAMESCRSP_OFFSET UNITYSDK_OFFSET(0x8FBEA10)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGSTARTGAMESCRSP_OFFSET UNITYSDK_OFFSET(0x8FBD3D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGTURNACTIONSCRSP_OFFSET UNITYSDK_OFFSET(0x8FBDD80)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGUNLOCKSYNCSCNOTIFY_OFFSET UNITYSDK_OFFSET(0x8FBE960)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__SYNCGAME_OFFSET UNITYSDK_OFFSET(0x8FBD210)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8FBF510)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x8FBF480)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x8FBF520)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x8FBF580)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x8FBF420)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivitySwordTrainingModule_TypeDefinitionIndex = 50263;
+
+	class ActivitySwordTrainingModule : public ::RPG::Client::BaseModule
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _UnlockIdSet; // 0x10
+		::RPG::Client::SwordTrainingGameInstance* _CurrentGame_k__BackingField; // 0x18
+		::RPG::Client::SwordTrainingStoryInfo* StoryInfo; // 0x20
+		::Class_1_3154488472AD1163* PerformanceMgr; // 0x28
+		::RPG::Client::SwordTrainingEndingInfo* _EndingInfo_k__BackingField; // 0x30
+		::RPG::Client::ActivitySwordTrainingAvatarVOManager* VoManager; // 0x38
+		::System::UInt32 _HistoryMaxDay_k__BackingField; // 0x40
+		::System::Boolean _IsSwordTrainingPrevBattleWin_k__BackingField; // 0x44
+		::System::Boolean _IsEndingViewed_k__BackingField; // 0x45
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnGetSwordTrainingDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONGETSWORDTRAININGDATASCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingGameSyncChangeScNotify(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGGAMESYNCCHANGESCNOTIFY_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingStartGameScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGSTARTGAMESCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingRestoreGameScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGRESTOREGAMESCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSwordTrainingDailyPhaseConfirmScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGDAILYPHASECONFIRMSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnCmdSwordTrainingDialogueSelectOptionScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGDIALOGUESELECTOPTIONSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingActionTurnSettleScNotify(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGACTIONTURNSETTLESCNOTIFY_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingTurnActionScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGTURNACTIONSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void SendSwordTrainingStoryConfirmCsReq(::System::UInt32 storyID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGSTORYCONFIRMCSREQ_OFFSET))(this, storyID);
+		}
+
+		::System::Void _OnCmdSwordTrainingStoryConfirmScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGSTORYCONFIRMSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnCmdSwordTrainingSelectEndingScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGSELECTENDINGSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSwordTrainingGameSettleScNotify(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGGAMESETTLESCNOTIFY_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnCmdSwordTrainingGiveUpGameScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGGIVEUPGAMESCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void SendSwordTrainingLearnSkillCsReq(::System::UInt32 skillID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGLEARNSKILLCSREQ_OFFSET))(this, skillID);
+		}
+
+		::System::Void _OnCmdSwordTrainingLearnSkillScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGLEARNSKILLSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void SendSwordTrainingSetSkillTraceCsReq(::System::UInt32 skillID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGSETSKILLTRACECSREQ_OFFSET))(this, skillID);
+		}
+
+		::System::Void _OnCmdSwordTrainingSetSkillTraceScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGSETSKILLTRACESCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void SendSwordTrainingExamResultConfirmCsReq()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SENDSWORDTRAININGEXAMRESULTCONFIRMCSREQ_OFFSET))(this);
+		}
+
+		::System::Void _OnSwordTrainingExamResultConfirmScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGEXAMRESULTCONFIRMSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingUnlockSyncScNotify(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGUNLOCKSYNCSCNOTIFY_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnSwordTrainingResumeGameScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONSWORDTRAININGRESUMEGAMESCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void _OnCmdSwordTrainingMarkEndingViewedScRsp(::System::UInt16 cmdID, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONCMDSWORDTRAININGMARKENDINGVIEWEDSCRSP_OFFSET))(this, cmdID, rspObject);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnReconnect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_ONRECONNECT_OFFSET))(this);
+		}
+
+		::System::Void UpdateMaxDay(::System::UInt32 val)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_UPDATEMAXDAY_OFFSET))(this, val);
+		}
+
+		::System::Void _AddNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
+		}
+
+		::System::Boolean IsUnlock(::System::UInt32 unlockID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_ISUNLOCK_OFFSET))(this, unlockID);
+		}
+
+		::System::Void TryAutoShow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_TRYAUTOSHOW_OFFSET))(this);
+		}
+
+		::System::Void TryDisposeGame()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_TRYDISPOSEGAME_OFFSET))(this);
+		}
+
+		::System::Void _OnModuleInitReq()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONMODULEINITREQ_OFFSET))(this);
+		}
+
+		::System::Void _SyncGame(::Class_1_FB0633E85BD6CF8E_11* serverInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FB0633E85BD6CF8E_11*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__SYNCGAME_OFFSET))(this, serverInfo);
+		}
+
+		::System::Void _OnBattleToMaze(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE__ONBATTLETOMAZE_OFFSET))(this, arg);
+		}
+
+		::RPG::Client::SwordTrainingGameInstance* get_CurrentGame()
+		{
+			return ((::RPG::Client::SwordTrainingGameInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_CURRENTGAME_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentGame(::RPG::Client::SwordTrainingGameInstance* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::SwordTrainingGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_CURRENTGAME_OFFSET))(this, value);
+		}
+
+		::RPG::Client::SwordTrainingEndingInfo* get_EndingInfo()
+		{
+			return ((::RPG::Client::SwordTrainingEndingInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_ENDINGINFO_OFFSET))(this);
+		}
+
+		::System::Void set_EndingInfo(::RPG::Client::SwordTrainingEndingInfo* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::SwordTrainingEndingInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_ENDINGINFO_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_HistoryMaxDay()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_HISTORYMAXDAY_OFFSET))(this);
+		}
+
+		::System::Void set_HistoryMaxDay(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_HISTORYMAXDAY_OFFSET))(this, value);
+		}
+
+		::RPG::Client::SwordTrainingGameSettleData* get_SettleData()
+		{
+			return ((::RPG::Client::SwordTrainingGameSettleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_SETTLEDATA_OFFSET))(this);
+		}
+
+		::Class_1_5EFEE08E3E11BEF1* get_GameContext()
+		{
+			return ((::Class_1_5EFEE08E3E11BEF1*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_GAMECONTEXT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSwordTrainingPrevBattleWin()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_ISSWORDTRAININGPREVBATTLEWIN_OFFSET))(this);
+		}
+
+		::System::Void set_IsSwordTrainingPrevBattleWin(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_ISSWORDTRAININGPREVBATTLEWIN_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsEndingViewed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_GET_ISENDINGVIEWED_OFFSET))(this);
+		}
+
+		::System::Void set_IsEndingViewed(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE_SET_ISENDINGVIEWED_OFFSET))(this, value);
+		}
+
+		::System::Void __iFixBaseProxy__AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY_INIT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnReconnect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY_ONRECONNECT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__AddNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET))(this);
+		}
+	};
+}

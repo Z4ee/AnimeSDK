@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices::PlayerDataStorage { class FileMetadata; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5DA80)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x5D790)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_FILESIZEBYTES_OFFSET UNITYSDK_OFFSET(0x1DA90)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_LASTMODIFIEDTIME_OFFSET UNITYSDK_OFFSET(0x5D8F0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_MD5HASH_OFFSET UNITYSDK_OFFSET(0x5D630)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_UNENCRYPTEDDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x1CCC0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5DA10)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x5D840)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_FILESIZEBYTES_OFFSET UNITYSDK_OFFSET(0x1D50)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_LASTMODIFIEDTIME_OFFSET UNITYSDK_OFFSET(0x5D970)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_MD5HASH_OFFSET UNITYSDK_OFFSET(0x5D6E0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5DA00)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_UNENCRYPTEDDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0xAC20)
+
+namespace Epic::OnlineServices::PlayerDataStorage
+{
+	inline static constexpr unsigned int FileMetadataInternal_TypeDefinitionIndex = 35818;
+
+	struct alignas(8) FileMetadataInternal
+	{
+		::System::Int32 m_ApiVersion; // 0x10
+		::System::UInt32 m_FileSizeBytes; // 0x14
+		::System::IntPtr m_MD5Hash; // 0x18
+		::System::IntPtr m_Filename; // 0x20
+		::System::Int64 m_LastModifiedTime; // 0x28
+		::System::UInt32 m_UnencryptedDataSizeBytes; // 0x30
+
+		::System::UInt32 get_FileSizeBytes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_FILESIZEBYTES_OFFSET))(this);
+		}
+
+		::System::Void set_FileSizeBytes(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_FILESIZEBYTES_OFFSET))(this, value);
+		}
+
+		::System::String* get_MD5Hash()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_MD5HASH_OFFSET))(this);
+		}
+
+		::System::Void set_MD5Hash(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_MD5HASH_OFFSET))(this, value);
+		}
+
+		::System::String* get_Filename()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_FILENAME_OFFSET))(this);
+		}
+
+		::System::Void set_Filename(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_FILENAME_OFFSET))(this, value);
+		}
+
+		/*
+		::System::Nullable_1<::System::DateTimeOffset> get_LastModifiedTime()
+		{
+			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_LASTMODIFIEDTIME_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::System::Void set_LastModifiedTime(::System::Nullable_1<::System::DateTimeOffset> value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_LASTMODIFIEDTIME_OFFSET))(this, value);
+		}
+		*/
+
+		::System::UInt32 get_UnencryptedDataSizeBytes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_GET_UNENCRYPTEDDATASIZEBYTES_OFFSET))(this);
+		}
+
+		::System::Void set_UnencryptedDataSizeBytes(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_UNENCRYPTEDDATASIZEBYTES_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::Epic::OnlineServices::PlayerDataStorage::FileMetadata* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_SET_1_OFFSET))(this, other);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_FILEMETADATAINTERNAL_DISPOSE_OFFSET))(this);
+		}
+	};
+}

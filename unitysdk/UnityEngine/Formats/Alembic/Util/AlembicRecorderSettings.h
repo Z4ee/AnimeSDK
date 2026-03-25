@@ -1,0 +1,231 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Util/ExportScope.h"
+
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Formats::Alembic::Sdk { class AlembicExportOptions; }
+namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings_GetTargetBranch; }
+namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings_SetTargetBranch; }
+
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_ASSUMENONSKINNEDMESHESARECONSTANT_OFFSET UNITYSDK_OFFSET(0x187AF4F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTURECAMERA_OFFSET UNITYSDK_OFFSET(0x187AF570)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTUREMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x187AF510)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTUREPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x187AF550)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTURESKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x187AF530)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_DETAILEDLOG_OFFSET UNITYSDK_OFFSET(0x187AF630)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_EXPORTOPTIONS_OFFSET UNITYSDK_OFFSET(0x187AF1F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_FIXDELTATIME_OFFSET UNITYSDK_OFFSET(0x187AF4D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHCOLORS_OFFSET UNITYSDK_OFFSET(0x187AF5F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHNORMALS_OFFSET UNITYSDK_OFFSET(0x187AF590)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHSUBMESHES_OFFSET UNITYSDK_OFFSET(0x187AF610)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHUV0_OFFSET UNITYSDK_OFFSET(0x187AF5B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHUV1_OFFSET UNITYSDK_OFFSET(0x187AF5D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_OUTPUTPATH_OFFSET UNITYSDK_OFFSET(0x187AF1D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_SCOPE_OFFSET UNITYSDK_OFFSET(0x187AF200)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_TARGETBRANCH_OFFSET UNITYSDK_OFFSET(0x187A8BA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_ASSUMENONSKINNEDMESHESARECONSTANT_OFFSET UNITYSDK_OFFSET(0x187AF500)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTURECAMERA_OFFSET UNITYSDK_OFFSET(0x187AF580)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTUREMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x187AF520)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTUREPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x187AF560)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTURESKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x187AF540)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_DETAILEDLOG_OFFSET UNITYSDK_OFFSET(0x187AF640)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_FIXDELTATIME_OFFSET UNITYSDK_OFFSET(0x187AF4E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHCOLORS_OFFSET UNITYSDK_OFFSET(0x187AF600)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHNORMALS_OFFSET UNITYSDK_OFFSET(0x187AF5A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHSUBMESHES_OFFSET UNITYSDK_OFFSET(0x187AF620)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHUV0_OFFSET UNITYSDK_OFFSET(0x187AF5C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHUV1_OFFSET UNITYSDK_OFFSET(0x187AF5E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_OUTPUTPATH_OFFSET UNITYSDK_OFFSET(0x187AF1E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_SCOPE_OFFSET UNITYSDK_OFFSET(0x187AF210)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_TARGETBRANCH_OFFSET UNITYSDK_OFFSET(0x187A8BF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x187AA130)
+
+namespace UnityEngine::Formats::Alembic::Util
+{
+	inline static constexpr unsigned int AlembicRecorderSettings_TypeDefinitionIndex = 34921;
+
+	class AlembicRecorderSettings : public ::System::Object
+	{
+	public:
+		::System::String* outputPath; // 0x10
+		::UnityEngine::Formats::Alembic::Sdk::AlembicExportOptions* conf; // 0x18
+		::UnityEngine::Formats::Alembic::Util::ExportScope scope; // 0x20
+		::UnityEngine::GameObject* targetBranch; // 0x28
+		::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings_SetTargetBranch* setTargetBranch; // 0x30
+		::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings_GetTargetBranch* getTargetBranch; // 0x38
+		::System::Boolean fixDeltaTime; // 0x40
+		::System::Boolean assumeNonSkinnedMeshesAreConstant; // 0x41
+		::System::Boolean captureMeshRenderer; // 0x42
+		::System::Boolean captureSkinnedMeshRenderer; // 0x43
+		::System::Boolean captureParticleSystem; // 0x44
+		::System::Boolean captureCamera; // 0x45
+		::System::Boolean meshNormals; // 0x46
+		::System::Boolean meshUV0; // 0x47
+		::System::Boolean meshUV1; // 0x48
+		::System::Boolean meshColors; // 0x49
+		::System::Boolean meshSubmeshes; // 0x4A
+		::System::Boolean detailedLog; // 0x4B
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_OutputPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_OUTPUTPATH_OFFSET))(this);
+		}
+
+		::System::Void set_OutputPath(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_OUTPUTPATH_OFFSET))(this, value);
+		}
+
+		::UnityEngine::Formats::Alembic::Sdk::AlembicExportOptions* get_ExportOptions()
+		{
+			return ((::UnityEngine::Formats::Alembic::Sdk::AlembicExportOptions*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_EXPORTOPTIONS_OFFSET))(this);
+		}
+
+		::UnityEngine::Formats::Alembic::Util::ExportScope get_Scope()
+		{
+			return ((::UnityEngine::Formats::Alembic::Util::ExportScope(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_SCOPE_OFFSET))(this);
+		}
+
+		::System::Void set_Scope(::UnityEngine::Formats::Alembic::Util::ExportScope value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Util::ExportScope))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_SCOPE_OFFSET))(this, value);
+		}
+
+		::UnityEngine::GameObject* get_TargetBranch()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_TARGETBRANCH_OFFSET))(this);
+		}
+
+		::System::Void set_TargetBranch(::UnityEngine::GameObject* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_TARGETBRANCH_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_FixDeltaTime()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_FIXDELTATIME_OFFSET))(this);
+		}
+
+		::System::Void set_FixDeltaTime(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_FIXDELTATIME_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_AssumeNonSkinnedMeshesAreConstant()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_ASSUMENONSKINNEDMESHESARECONSTANT_OFFSET))(this);
+		}
+
+		::System::Void set_AssumeNonSkinnedMeshesAreConstant(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_ASSUMENONSKINNEDMESHESARECONSTANT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CaptureMeshRenderer()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTUREMESHRENDERER_OFFSET))(this);
+		}
+
+		::System::Void set_CaptureMeshRenderer(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTUREMESHRENDERER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CaptureSkinnedMeshRenderer()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTURESKINNEDMESHRENDERER_OFFSET))(this);
+		}
+
+		::System::Void set_CaptureSkinnedMeshRenderer(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTURESKINNEDMESHRENDERER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CaptureParticleSystem()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTUREPARTICLESYSTEM_OFFSET))(this);
+		}
+
+		::System::Void set_CaptureParticleSystem(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTUREPARTICLESYSTEM_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CaptureCamera()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_CAPTURECAMERA_OFFSET))(this);
+		}
+
+		::System::Void set_CaptureCamera(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_CAPTURECAMERA_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_MeshNormals()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHNORMALS_OFFSET))(this);
+		}
+
+		::System::Void set_MeshNormals(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHNORMALS_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_MeshUV0()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHUV0_OFFSET))(this);
+		}
+
+		::System::Void set_MeshUV0(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHUV0_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_MeshUV1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHUV1_OFFSET))(this);
+		}
+
+		::System::Void set_MeshUV1(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHUV1_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_MeshColors()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHCOLORS_OFFSET))(this);
+		}
+
+		::System::Void set_MeshColors(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHCOLORS_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_MeshSubmeshes()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_MESHSUBMESHES_OFFSET))(this);
+		}
+
+		::System::Void set_MeshSubmeshes(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_MESHSUBMESHES_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_DetailedLog()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_GET_DETAILEDLOG_OFFSET))(this);
+		}
+
+		::System::Void set_DetailedLog(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDERSETTINGS_SET_DETAILEDLOG_OFFSET))(this, value);
+		}
+	};
+}

@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_A44FCD13AEE81932;
+namespace UnityEngine::Networking { class UnityWebRequest; }
+
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10C5FF60)
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x10C606F0)
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x10C60750)
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x10C60700)
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C5FF00)
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x10C5F5C0)
+#define CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x10C5FF40)
+
+inline static constexpr unsigned int Class_1_A44FCD13AEE81932__SendErrorToDebugPlatform_d__19_TypeDefinitionIndex = 49458;
+
+class Class_1_A44FCD13AEE81932__SendErrorToDebugPlatform_d__19 : public ::System::Object
+{
+public:
+	::UnityEngine::Networking::UnityWebRequest* _request_5__2; // 0x10
+	::Class_1_A44FCD13AEE81932* __4__this; // 0x18
+	::System::Object* __2__current; // 0x20
+	::System::Int32 __1__state; // 0x28
+	::System::UInt32 battle_id; // 0x2C
+
+	::System::Void _ctor(::System::Int32 __1__state)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19__CTOR_OFFSET))(this, __1__state);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Void __m__Finally1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19___M__FINALLY1_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932__SENDERRORTODEBUGPLATFORM_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

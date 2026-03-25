@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/MatchThreePropType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_204;
+
+#define CLASS_1_9ADD1D872350330F_CLEAR_OFFSET UNITYSDK_OFFSET(0x167E59F0)
+#define CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_1_OFFSET UNITYSDK_OFFSET(0x167E5730)
+#define CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_2_OFFSET UNITYSDK_OFFSET(0x167E5890)
+#define CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_3_OFFSET UNITYSDK_OFFSET(0x167E5940)
+#define CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_OFFSET UNITYSDK_OFFSET(0x167E5680)
+#define CLASS_1_9ADD1D872350330F_METHOD_1_64436E09D80D3274_OFFSET UNITYSDK_OFFSET(0x167E57E0)
+#define CLASS_1_9ADD1D872350330F__CTOR_OFFSET UNITYSDK_OFFSET(0x167E5A50)
+
+inline static constexpr unsigned int Class_1_9ADD1D872350330F_TypeDefinitionIndex = 32757;
+
+class Class_1_9ADD1D872350330F : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_204* Field_1_0; // 0x10
+	::System::UInt32 Field_1_3; // 0x18
+	::System::Boolean Field_1_2; // 0x1C
+	::System::UInt32 Field_1_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F__CTOR_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_199DEE7C1A4E938A()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_199DEE7C1A4E938A_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::MatchThreePropType Method_1_64436E09D80D3274()
+	{
+		return ((::RPG::GameCore::MatchThreePropType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F_METHOD_1_64436E09D80D3274_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_199DEE7C1A4E938A_2()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_2_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_199DEE7C1A4E938A_3()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F_METHOD_1_199DEE7C1A4E938A_3_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9ADD1D872350330F_CLEAR_OFFSET))(this);
+	}
+};

@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/CRPCameraSmallWindowMeshUI_MeshUIOutlineType.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace UnityEngine { class Camera; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class MeshRenderer; }
+
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x89390)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_CENTERPOINT_OFFSET UNITYSDK_OFFSET(0x89300)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_MESH_OFFSET UNITYSDK_OFFSET(0x24F80)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_SWITCHDATA_OFFSET UNITYSDK_OFFSET(0x89450)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_WINDOWSIZE_OFFSET UNITYSDK_OFFSET(0x89310)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET__WIDTHHEIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x893F0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x895A0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0x89570)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x89580)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_6828C34A483313B0_OFFSET UNITYSDK_OFFSET(0x895B0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_874CF340A4638A06_OFFSET UNITYSDK_OFFSET(0x89590)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x89510)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_AA972BE565DAF9E3_OFFSET UNITYSDK_OFFSET(0x89500)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x895C0)
+
+namespace RPGTools::Timeline
+{
+	inline static constexpr unsigned int CRPCameraSmallWindowMeshUI_TypeDefinitionIndex = 38755;
+
+	struct alignas(8) CRPCameraSmallWindowMeshUI
+	{
+		// static const ::System::Single _MeshFixedDepth; // 0x0
+		// static const ::System::Single _TargetWidthHeightRatio; // 0x0
+		::RPGTools::Timeline::CRPCameraSmallWindowMeshUI_MeshUIOutlineType OutlineType; // 0x10
+		::UnityEngine::Vector2 Position; // 0x14
+		::System::Single Rotation; // 0x1C
+		::System::Single Scale; // 0x20
+		::UnityEngine::Color Color; // 0x24
+		::UnityEngine::MeshRenderer* _CachedMeshRenderer; // 0x38
+		::UnityEngine::GameObject* _CachedMeshGo; // 0x40
+		::UnityEngine::Camera* _CachedMainCamera; // 0x48
+
+		::UnityEngine::MeshRenderer* get_Mesh()
+		{
+			return ((::UnityEngine::MeshRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_MESH_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 get_CenterPoint()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_CENTERPOINT_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 get_WindowSize()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_WINDOWSIZE_OFFSET))(this);
+		}
+
+		::System::Boolean get_Active()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_ACTIVE_OFFSET))(this);
+		}
+
+		::System::Single get__WidthHeightRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET__WIDTHHEIGHTRATIO_OFFSET))(this);
+		}
+
+		/*
+		::RPGTools::Timeline::PerformanceLiveStreamMeshUISwitchData get_SwitchData()
+		{
+			return ((::RPGTools::Timeline::PerformanceLiveStreamMeshUISwitchData(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_GET_SWITCHDATA_OFFSET))(this);
+		}
+		*/
+
+		::System::Boolean Method_2_AA972BE565DAF9E3()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_AA972BE565DAF9E3_OFFSET))(this);
+		}
+
+		::System::Void Method_2_9681042564541CD6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_9681042564541CD6_OFFSET))(this);
+		}
+
+		::System::Void Method_2_3C56C1AF247AC1EC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_3C56C1AF247AC1EC_OFFSET))(this);
+		}
+
+		::System::Void Method_2_60E1F7F58CCF739F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_60E1F7F58CCF739F_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 Method_2_874CF340A4638A06(::UnityEngine::Vector2 a1)
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_874CF340A4638A06_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_10054BB010E03EDD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_10054BB010E03EDD_OFFSET))(this);
+		}
+
+		::System::Void Method_2_6828C34A483313B0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_6828C34A483313B0_OFFSET))(this);
+		}
+
+		::System::Void Method_2_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWMESHUI_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		}
+	};
+}

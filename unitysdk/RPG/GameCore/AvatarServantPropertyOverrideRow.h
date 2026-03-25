@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_GAMECORE_AVATARSERVANTPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FAE440)
+#define RPG_GAMECORE_AVATARSERVANTPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FAEC70)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int AvatarServantPropertyOverrideRow_TypeDefinitionIndex = 11694;
+
+	class AvatarServantPropertyOverrideRow : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackType, ::System::String*>* SkillPointIconSourceTriggerKey; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* HidePropertyInBattleList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* SecretPropertyList; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* HidePropertyList; // 0x28
+		::System::UInt32 ServantID; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSERVANTPROPERTYOVERRIDEROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AvatarServantPropertyOverrideRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarServantPropertyOverrideRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSERVANTPROPERTYOVERRIDEROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

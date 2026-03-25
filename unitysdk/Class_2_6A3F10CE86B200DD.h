@@ -1,0 +1,192 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
+#include "unitysdk/RPG/GameCore/ECharacterNavSteerMode.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/Struct_2_31CE9F74ED7EF316.h"
+#include "unitysdk/Struct_2_3FE5D7A869A0D526.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_C974D9B5A2874893_1;
+class Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0;
+namespace RPG::Client { class SpeciallyRootMotionBakedConfig; }
+namespace RPG::GameCore { class AdventureAIControllerConfig; }
+namespace RPG::GameCore { class AdventureCharacterController; }
+
+#define CLASS_2_6A3F10CE86B200DD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10CB7A10)
+#define CLASS_2_6A3F10CE86B200DD_GET_OWNERCONTROLLER_OFFSET UNITYSDK_OFFSET(0x10CB8EE0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_1587AA837BD4A1CE_OFFSET UNITYSDK_OFFSET(0x10CB8170)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_193E00E83BC3E6E8_OFFSET UNITYSDK_OFFSET(0x10CB81E0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_367CE0CDAB6EAEE5_OFFSET UNITYSDK_OFFSET(0x10CB89F0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_369BB5E7FA6A1768_OFFSET UNITYSDK_OFFSET(0x10CB7B40)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_4B277E4DB8C5A07D_OFFSET UNITYSDK_OFFSET(0x10CB8360)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_502C79AEAE77034A_OFFSET UNITYSDK_OFFSET(0x10CB8420)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_531B02ED4BE4AB01_OFFSET UNITYSDK_OFFSET(0x10CB8760)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_54FABFBB0F5E55D6_OFFSET UNITYSDK_OFFSET(0x10CB7D40)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_826F12190B14728A_OFFSET UNITYSDK_OFFSET(0x10CB86E0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10CB84D0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_9F59C088ACADFAC2_1_OFFSET UNITYSDK_OFFSET(0x10CB7ED0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_9F59C088ACADFAC2_OFFSET UNITYSDK_OFFSET(0x10CB7C20)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_A26846DB4A33CCED_OFFSET UNITYSDK_OFFSET(0x10CB8CF0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_A57C86A09D2407D2_OFFSET UNITYSDK_OFFSET(0x10CB7970)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_A6A9A8A2166D260F_OFFSET UNITYSDK_OFFSET(0x10CB8ED0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_AAE2768E79420046_OFFSET UNITYSDK_OFFSET(0x10CB7880)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_B57743E03EC47A30_OFFSET UNITYSDK_OFFSET(0x10CB8100)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_BFBA51320F50FFE4_OFFSET UNITYSDK_OFFSET(0x10CB8B60)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x10CB86D0)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_F4F1E7D1CC26024A_OFFSET UNITYSDK_OFFSET(0x10CB8570)
+#define CLASS_2_6A3F10CE86B200DD_METHOD_2_FE8E3837F9D1F029_OFFSET UNITYSDK_OFFSET(0x10CB88A0)
+#define CLASS_2_6A3F10CE86B200DD_SET_OWNERCONTROLLER_OFFSET UNITYSDK_OFFSET(0x10CB8EF0)
+#define CLASS_2_6A3F10CE86B200DD_TICK_OFFSET UNITYSDK_OFFSET(0x10CB7A90)
+#define CLASS_2_6A3F10CE86B200DD__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB7960)
+#define CLASS_2_6A3F10CE86B200DD___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x10CB8F00)
+
+inline static constexpr unsigned int Class_2_6A3F10CE86B200DD_TypeDefinitionIndex = 45863;
+
+class Class_2_6A3F10CE86B200DD : public ::RPG::GameCore::GameComponentBase
+{
+public:
+	::Class_1_C974D9B5A2874893_1* Field_2_4; // 0x18
+	::Class_2_6A3F10CE86B200DD* Field_2_5; // 0x20
+	::Class_2_6A3F10CE86B200DD* _OwnerController_k__BackingField; // 0x28
+	::RPG::Client::SpeciallyRootMotionBakedConfig* Field_2_3; // 0x30
+	::RPG::GameCore::AdventureCharacterController* Field_2_2; // 0x38
+	::RPG::GameCore::AdventureAIControllerConfig* Field_2_1; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD__CTOR_OFFSET))(this);
+	}
+
+	::Class_2_6A3F10CE86B200DD* Method_2_AAE2768E79420046()
+	{
+		return ((::Class_2_6A3F10CE86B200DD*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_AAE2768E79420046_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A57C86A09D2407D2(::RPG::GameCore::AdventureAIControllerConfig* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureAIControllerConfig*))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_A57C86A09D2407D2_OFFSET))(this, a1);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_TICK_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Vector3 Method_2_9F59C088ACADFAC2()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_9F59C088ACADFAC2_OFFSET))(this);
+	}
+
+	::UnityEngine::Quaternion Method_2_54FABFBB0F5E55D6()
+	{
+		return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_54FABFBB0F5E55D6_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 Method_2_9F59C088ACADFAC2_1()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_9F59C088ACADFAC2_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::ECharacterNavSteerMode Method_2_B57743E03EC47A30(::RPG::GameCore::CharacterMotionFlag a1)
+	{
+		return ((::RPG::GameCore::ECharacterNavSteerMode(*)(::PVOID, ::RPG::GameCore::CharacterMotionFlag))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_B57743E03EC47A30_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_1587AA837BD4A1CE(::RPG::GameCore::CharacterMotionFlag a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::CharacterMotionFlag))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_1587AA837BD4A1CE_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_193E00E83BC3E6E8(::UnityEngine::Vector3 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_193E00E83BC3E6E8_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::SpeciallyRootMotionBakedConfig* Method_2_4B277E4DB8C5A07D()
+	{
+		return ((::RPG::Client::SpeciallyRootMotionBakedConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_4B277E4DB8C5A07D_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_502C79AEAE77034A(::System::Single a1, ::RPG::GameCore::CharacterMotionFlag a2, ::System::Single& a3)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Single, ::RPG::GameCore::CharacterMotionFlag, ::System::Single&))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_502C79AEAE77034A_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F4F1E7D1CC26024A(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_F4F1E7D1CC26024A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_826F12190B14728A(::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_826F12190B14728A_OFFSET))(this, a1, a2);
+	}
+
+	::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* Method_2_531B02ED4BE4AB01(::Struct_2_3FE5D7A869A0D526 a1)
+	{
+		return ((::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0*(*)(::PVOID, ::Struct_2_3FE5D7A869A0D526))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_531B02ED4BE4AB01_OFFSET))(this, a1);
+	}
+
+	::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* Method_2_FE8E3837F9D1F029(::Struct_2_3FE5D7A869A0D526 a1, ::Struct_2_31CE9F74ED7EF316 a2)
+	{
+		return ((::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0*(*)(::PVOID, ::Struct_2_3FE5D7A869A0D526, ::Struct_2_31CE9F74ED7EF316))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_FE8E3837F9D1F029_OFFSET))(this, a1, a2);
+	}
+
+	::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* Method_2_367CE0CDAB6EAEE5()
+	{
+		return ((::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_367CE0CDAB6EAEE5_OFFSET))(this);
+	}
+
+	::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* Method_2_BFBA51320F50FFE4(::Struct_2_31CE9F74ED7EF316 a1)
+	{
+		return ((::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0*(*)(::PVOID, ::Struct_2_31CE9F74ED7EF316))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_BFBA51320F50FFE4_OFFSET))(this, a1);
+	}
+
+	::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* Method_2_A26846DB4A33CCED(::System::UInt32 a1, ::System::Boolean a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Quaternion> a5)
+	{
+		return ((::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_A26846DB4A33CCED_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::System::Void Method_2_369BB5E7FA6A1768(::Class_1_C974D9B5A2874893_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_C974D9B5A2874893_1*))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_369BB5E7FA6A1768_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::AdventureAIControllerConfig* Method_2_A6A9A8A2166D260F()
+	{
+		return ((::RPG::GameCore::AdventureAIControllerConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_A6A9A8A2166D260F_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::Class_2_6A3F10CE86B200DD* get_OwnerController()
+	{
+		return ((::Class_2_6A3F10CE86B200DD*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_GET_OWNERCONTROLLER_OFFSET))(this);
+	}
+
+	::System::Void set_OwnerController(::Class_2_6A3F10CE86B200DD* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_6A3F10CE86B200DD*))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD_SET_OWNERCONTROLLER_OFFSET))(this, value);
+	}
+
+	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_6A3F10CE86B200DD___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+	}
+};

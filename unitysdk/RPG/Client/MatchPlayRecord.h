@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_BB3B9C6F3C34D789_Enum_3_060898AA908AAA4E_10.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5FEFAED860528596_61;
+class Class_1_BB3B9C6F3C34D789;
+class Class_1_FA4F4A67B1C04320_594;
+
+#define RPG_CLIENT_MATCHPLAYRECORD_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0x9B21780)
+#define RPG_CLIENT_MATCHPLAYRECORD_GET_DATACASE_OFFSET UNITYSDK_OFFSET(0x9B217E0)
+#define RPG_CLIENT_MATCHPLAYRECORD_GET_MARBLECOMMONDATA_OFFSET UNITYSDK_OFFSET(0x9B217C0)
+#define RPG_CLIENT_MATCHPLAYRECORD_GET_MATCHTHREECOMMONDATA_OFFSET UNITYSDK_OFFSET(0x9B217A0)
+#define RPG_CLIENT_MATCHPLAYRECORD_GET_PLAYTYPE_OFFSET UNITYSDK_OFFSET(0x9B21760)
+#define RPG_CLIENT_MATCHPLAYRECORD_SET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0x9B21790)
+#define RPG_CLIENT_MATCHPLAYRECORD_SET_DATACASE_OFFSET UNITYSDK_OFFSET(0x9B217F0)
+#define RPG_CLIENT_MATCHPLAYRECORD_SET_MARBLECOMMONDATA_OFFSET UNITYSDK_OFFSET(0x9B217D0)
+#define RPG_CLIENT_MATCHPLAYRECORD_SET_MATCHTHREECOMMONDATA_OFFSET UNITYSDK_OFFSET(0x9B217B0)
+#define RPG_CLIENT_MATCHPLAYRECORD_SET_PLAYTYPE_OFFSET UNITYSDK_OFFSET(0x9B21770)
+#define RPG_CLIENT_MATCHPLAYRECORD_SYNC_OFFSET UNITYSDK_OFFSET(0x9B21800)
+#define RPG_CLIENT_MATCHPLAYRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x9B218B0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MatchPlayRecord_TypeDefinitionIndex = 53931;
+
+	class MatchPlayRecord : public ::System::Object
+	{
+	public:
+		::Class_1_5FEFAED860528596_61* _MatchThreeCommonData_k__BackingField; // 0x10
+		::Class_1_FA4F4A67B1C04320_594* _MarbleCommonData_k__BackingField; // 0x18
+		::System::UInt32 _ActivityId_k__BackingField; // 0x20
+		::Enum_3_F80BFD5B986D5503_3 _PlayType_k__BackingField; // 0x24
+		::Class_1_BB3B9C6F3C34D789_Enum_3_060898AA908AAA4E_10 _DataCase_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_F80BFD5B986D5503_3 get_PlayType()
+		{
+			return ((::Enum_3_F80BFD5B986D5503_3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_GET_PLAYTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_PlayType(::Enum_3_F80BFD5B986D5503_3 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_F80BFD5B986D5503_3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_SET_PLAYTYPE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ActivityId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_GET_ACTIVITYID_OFFSET))(this);
+		}
+
+		::System::Void set_ActivityId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_SET_ACTIVITYID_OFFSET))(this, value);
+		}
+
+		::Class_1_5FEFAED860528596_61* get_MatchThreeCommonData()
+		{
+			return ((::Class_1_5FEFAED860528596_61*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_GET_MATCHTHREECOMMONDATA_OFFSET))(this);
+		}
+
+		::System::Void set_MatchThreeCommonData(::Class_1_5FEFAED860528596_61* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_5FEFAED860528596_61*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_SET_MATCHTHREECOMMONDATA_OFFSET))(this, value);
+		}
+
+		::Class_1_FA4F4A67B1C04320_594* get_MarbleCommonData()
+		{
+			return ((::Class_1_FA4F4A67B1C04320_594*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_GET_MARBLECOMMONDATA_OFFSET))(this);
+		}
+
+		::System::Void set_MarbleCommonData(::Class_1_FA4F4A67B1C04320_594* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_594*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_SET_MARBLECOMMONDATA_OFFSET))(this, value);
+		}
+
+		::Class_1_BB3B9C6F3C34D789_Enum_3_060898AA908AAA4E_10 get_DataCase()
+		{
+			return ((::Class_1_BB3B9C6F3C34D789_Enum_3_060898AA908AAA4E_10(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_GET_DATACASE_OFFSET))(this);
+		}
+
+		::System::Void set_DataCase(::Class_1_BB3B9C6F3C34D789_Enum_3_060898AA908AAA4E_10 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_BB3B9C6F3C34D789_Enum_3_060898AA908AAA4E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_SET_DATACASE_OFFSET))(this, value);
+		}
+
+		::System::Void Sync(::Class_1_BB3B9C6F3C34D789* protoData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_BB3B9C6F3C34D789*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHPLAYRECORD_SYNC_OFFSET))(this, protoData);
+		}
+	};
+}

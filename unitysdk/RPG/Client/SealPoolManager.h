@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace RPG::Client { class SealPoolManager_Class_1_5268A629A666D630; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Rigidbody; }
+
+#define RPG_CLIENT_SEALPOOLMANAGER_CLEARALLSEALS_OFFSET UNITYSDK_OFFSET(0xA4221B0)
+#define RPG_CLIENT_SEALPOOLMANAGER_METHOD_5_1FD1221B75305432_OFFSET UNITYSDK_OFFSET(0xA421B60)
+#define RPG_CLIENT_SEALPOOLMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA422AA0)
+#define RPG_CLIENT_SEALPOOLMANAGER_START_OFFSET UNITYSDK_OFFSET(0xA4219F0)
+#define RPG_CLIENT_SEALPOOLMANAGER_TRYADDSEAL_OFFSET UNITYSDK_OFFSET(0xA421DD0)
+#define RPG_CLIENT_SEALPOOLMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xA422320)
+#define RPG_CLIENT_SEALPOOLMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA422CA0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int SealPoolManager_TypeDefinitionIndex = 48919;
+
+	class SealPoolManager : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Collections::Generic::List_1<::UnityEngine::Rigidbody*>* SealsRig; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* SealInitPos; // 0x20
+		::UnityEngine::Vector2 Offset; // 0x28
+		::System::Single Force; // 0x30
+		::System::Single Torque; // 0x34
+		::System::Collections::Generic::List_1<::RPG::Client::SealPoolManager_Class_1_5268A629A666D630*>* Field_5_5; // 0x38
+		::System::Boolean _AutoInit; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER_START_OFFSET))(this);
+		}
+
+		::System::Boolean TryAddSeal(::UnityEngine::GameObject* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER_TRYADDSEAL_OFFSET))(this, a1);
+		}
+
+		::System::Void ClearAllSeals()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER_CLEARALLSEALS_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Boolean Method_5_1FD1221B75305432(::UnityEngine::Rigidbody* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Vector3 a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rigidbody*, ::UnityEngine::GameObject*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEALPOOLMANAGER_METHOD_5_1FD1221B75305432_OFFSET))(this, a1, a2, a3);
+		}
+	};
+}

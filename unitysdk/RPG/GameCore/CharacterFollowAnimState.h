@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class TargetEvaluator; }
+namespace System { class String; }
+
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_2149400B6E9319C1_OFFSET UNITYSDK_OFFSET(0x1706C530)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_6E86EF8079227C5A_OFFSET UNITYSDK_OFFSET(0x1706C5C0)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1706C590)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int CharacterFollowAnimState_TypeDefinitionIndex = 20619;
+
+	class CharacterFollowAnimState : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
+		::System::String* AnimStateName; // 0x20
+		::RPG::GameCore::TargetEvaluator* FollowTargetType; // 0x28
+		::System::String* FollowTargetAnimStateName; // 0x30
+		::System::Single FollowDelay; // 0x38
+		::System::Single TransitionDuration; // 0x3C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_2149400B6E9319C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFollowAnimState*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFollowAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_2149400B6E9319C1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_6E86EF8079227C5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFollowAnimState* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFollowAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_6E86EF8079227C5A_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EnviromentSystemV2Space/LayoutPropertyData_1.h"
+
+class Class_1_EAF7984A8FAD6BE4;
+
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTBOOLPROPERTYDATA_METHOD_4_F2B94768004EB1C1_OFFSET UNITYSDK_OFFSET(0x10370210)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTBOOLPROPERTYDATA_METHOD_4_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x103702E0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTBOOLPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x103702C0)
+
+namespace EnviromentSystemV2Space
+{
+	inline static constexpr unsigned int LayoutBoolPropertyData_TypeDefinitionIndex = 40057;
+
+	class LayoutBoolPropertyData : public ::EnviromentSystemV2Space::LayoutPropertyData_1<::System::Boolean>
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTBOOLPROPERTYDATA__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_EAF7984A8FAD6BE4* Method_4_F2B94768004EB1C1()
+		{
+			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTBOOLPROPERTYDATA_METHOD_4_F2B94768004EB1C1_OFFSET))(this);
+		}
+
+		::Class_1_EAF7984A8FAD6BE4* Method_4_F8B73ECE7F883AC1()
+		{
+			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTBOOLPROPERTYDATA_METHOD_4_F8B73ECE7F883AC1_OFFSET))(this);
+		}
+	};
+}

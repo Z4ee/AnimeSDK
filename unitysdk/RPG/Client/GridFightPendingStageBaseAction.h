@@ -1,0 +1,92 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_FA4F4A67B1C04320_407;
+namespace System { class Action; }
+
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_FINISH_OFFSET UNITYSDK_OFFSET(0x987AE80)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GETACTIONID_OFFSET UNITYSDK_OFFSET(0x987AF30)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GETISHANDLED_OFFSET UNITYSDK_OFFSET(0x987AF70)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x987B0A0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GET_ISHANDLED_OFFSET UNITYSDK_OFFSET(0x987B080)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0x987AFF0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x987AEE0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x987B0B0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_SET_ISHANDLED_OFFSET UNITYSDK_OFFSET(0x987B090)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_START_OFFSET UNITYSDK_OFFSET(0x987AFB0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_SYNCHANDLERSP_OFFSET UNITYSDK_OFFSET(0x987B030)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x987AE70)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightPendingStageBaseAction_TypeDefinitionIndex = 52506;
+
+	class GridFightPendingStageBaseAction : public ::System::Object
+	{
+	public:
+		::System::Action* _FinishCallback; // 0x10
+		::System::UInt32 _ActionID_k__BackingField; // 0x18
+		::System::Boolean _IsHandled_k__BackingField; // 0x1C
+
+		::System::Void _ctor(::System::UInt32 actionID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION__CTOR_OFFSET))(this, actionID);
+		}
+
+		::System::Void Finish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_FINISH_OFFSET))(this);
+		}
+
+		::System::Void RegisterFinishCallback(::System::Action* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_REGISTERFINISHCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::UInt32 GetActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GETACTIONID_OFFSET))(this);
+		}
+
+		::System::Boolean GetIsHandled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GETISHANDLED_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_START_OFFSET))(this);
+		}
+
+		::System::Void Handle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_HANDLE_OFFSET))(this);
+		}
+
+		::System::Void SyncHandleRsp(::Class_1_FA4F4A67B1C04320_407* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_407*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_SYNCHANDLERSP_OFFSET))(this, rsp);
+		}
+
+		::System::Boolean get_IsHandled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GET_ISHANDLED_OFFSET))(this);
+		}
+
+		::System::Void set_IsHandled(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_SET_ISHANDLED_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_GET_ACTIONID_OFFSET))(this);
+		}
+
+		::System::Void set_ActionID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBASEACTION_SET_ACTIONID_OFFSET))(this, value);
+		}
+	};
+}

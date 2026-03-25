@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateAffixRarityType.h"
+
+namespace System { class String; }
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int IFateGameAffixItemPanelData_TypeDefinitionIndex = 52013;
+
+	class IFateGameAffixItemPanelData
+	{
+	public:
+	};
+}

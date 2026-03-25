@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define CLASS_1_D0ED0CDEA61AA610_STRUCT_2_225F2E4AC3763786_METHOD_2_4B6DEDB9FF4B740B_OFFSET UNITYSDK_OFFSET(0x1491730)
+#define CLASS_1_D0ED0CDEA61AA610_STRUCT_2_225F2E4AC3763786_METHOD_2_D6F0845231B577E8_OFFSET UNITYSDK_OFFSET(0x1491790)
+
+inline static constexpr unsigned int Class_1_D0ED0CDEA61AA610_Struct_2_225F2E4AC3763786_TypeDefinitionIndex = 57888;
+
+struct alignas(4) Class_1_D0ED0CDEA61AA610_Struct_2_225F2E4AC3763786
+{
+	::UnityEngine::Vector3 Field_2_0; // 0x10
+	::UnityEngine::Vector3 Field_2_1; // 0x1C
+	::System::Int32 Field_2_2; // 0x28
+	::System::Int32 Field_2_3; // 0x2C
+
+	::System::Boolean Method_2_4B6DEDB9FF4B740B(::System::Int32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D0ED0CDEA61AA610_STRUCT_2_225F2E4AC3763786_METHOD_2_4B6DEDB9FF4B740B_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_D6F0845231B577E8(::Class_1_D0ED0CDEA61AA610_Struct_2_225F2E4AC3763786 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_D0ED0CDEA61AA610_Struct_2_225F2E4AC3763786))((::PBYTE)hIl2Cpp + CLASS_1_D0ED0CDEA61AA610_STRUCT_2_225F2E4AC3763786_METHOD_2_D6F0845231B577E8_OFFSET))(this, a1);
+	}
+};

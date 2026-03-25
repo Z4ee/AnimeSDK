@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ComponentAssetLoader_AssetSyncResult.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class ComponentAssetLoader_ComponentLoadItem; }
+namespace System { class String; }
+namespace UnityEngine { class Component; }
+
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_15FCA09CA4828B90_OFFSET UNITYSDK_OFFSET(0x9413ED0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_1E11D4882EEDEE57_1_OFFSET UNITYSDK_OFFSET(0x9413FC0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_1E11D4882EEDEE57_OFFSET UNITYSDK_OFFSET(0x9413F70)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_C8553AEB07BE1FEF_OFFSET UNITYSDK_OFFSET(0x94127E0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_D0172DBC391B172D_OFFSET UNITYSDK_OFFSET(0x9412720)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_D31FB21DDC76978E_OFFSET UNITYSDK_OFFSET(0x9413F20)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B__CTOR_OFFSET UNITYSDK_OFFSET(0x94126B0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ComponentAssetLoader_Class_1_A733C3439371489B_TypeDefinitionIndex = 55827;
+
+	class ComponentAssetLoader_Class_1_A733C3439371489B : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::ComponentAssetLoader_AssetSyncResult Method_1_D0172DBC391B172D(::RPG::Client::ComponentAssetLoader_ComponentLoadItem* a1, ::Il2CppArray<::System::String*>* a2, ::System::Boolean a3)
+		{
+			return ((::RPG::Client::ComponentAssetLoader_AssetSyncResult(*)(::PVOID, ::RPG::Client::ComponentAssetLoader_ComponentLoadItem*, ::Il2CppArray<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_D0172DBC391B172D_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::Client::ComponentAssetLoader_AssetSyncResult Method_1_D31FB21DDC76978E(::RPG::Client::ComponentAssetLoader_ComponentLoadItem* a1, ::System::Int32 a2)
+		{
+			return ((::RPG::Client::ComponentAssetLoader_AssetSyncResult(*)(::PVOID, ::RPG::Client::ComponentAssetLoader_ComponentLoadItem*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_D31FB21DDC76978E_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_1E11D4882EEDEE57(::RPG::Client::ComponentAssetLoader_ComponentLoadItem* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComponentAssetLoader_ComponentLoadItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_1E11D4882EEDEE57_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_1_1E11D4882EEDEE57_1(::RPG::Client::ComponentAssetLoader_ComponentLoadItem* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComponentAssetLoader_ComponentLoadItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_1E11D4882EEDEE57_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 Method_1_15FCA09CA4828B90(::RPG::Client::ComponentAssetLoader_ComponentLoadItem* a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ComponentAssetLoader_ComponentLoadItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_15FCA09CA4828B90_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Component* Method_1_C8553AEB07BE1FEF(::RPG::Client::ComponentAssetLoader_ComponentLoadItem* a1)
+		{
+			return ((::UnityEngine::Component*(*)(::PVOID, ::RPG::Client::ComponentAssetLoader_ComponentLoadItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_A733C3439371489B_METHOD_1_C8553AEB07BE1FEF_OFFSET))(this, a1);
+		}
+	};
+}

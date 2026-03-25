@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_E8293664BB5E691F.h"
+
+class Class_1_A795842876E00DE4;
+class Class_2_01F4079471966D8C;
+namespace RPG::GameCore { class MunicipalChatActionPropAnimation; }
+
+#define CLASS_2_E6945A7903BB177C_METHOD_2_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0x10B47FC0)
+#define CLASS_2_E6945A7903BB177C_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x10B48270)
+#define CLASS_2_E6945A7903BB177C_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x10B48210)
+#define CLASS_2_E6945A7903BB177C_METHOD_2_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0x10B482D0)
+#define CLASS_2_E6945A7903BB177C_METHOD_2_808A56A256840289_OFFSET UNITYSDK_OFFSET(0x10B480F0)
+#define CLASS_2_E6945A7903BB177C_METHOD_2_BD75379DF80C1460_OFFSET UNITYSDK_OFFSET(0x10B47F20)
+#define CLASS_2_E6945A7903BB177C_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10B47F70)
+#define CLASS_2_E6945A7903BB177C__CTOR_OFFSET UNITYSDK_OFFSET(0x10B47F10)
+
+inline static constexpr unsigned int Class_2_E6945A7903BB177C_TypeDefinitionIndex = 56554;
+
+class Class_2_E6945A7903BB177C : public ::Class_1_E8293664BB5E691F
+{
+public:
+	::Class_2_01F4079471966D8C* Field_2_0; // 0x30
+
+	::System::Void _ctor(::Class_1_A795842876E00DE4* a1, ::RPG::GameCore::MunicipalChatActionPropAnimation* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A795842876E00DE4*, ::RPG::GameCore::MunicipalChatActionPropAnimation*))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::GameCore::MunicipalChatActionPropAnimation* Method_2_BD75379DF80C1460()
+	{
+		return ((::RPG::GameCore::MunicipalChatActionPropAnimation*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_BD75379DF80C1460_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_0D7638DBC93E5002()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_0D7638DBC93E5002_OFFSET))(this);
+	}
+
+	::System::Void Method_2_808A56A256840289(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_808A56A256840289_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_5790A55946AA509D_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_793FFA9A76FE6840(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_E6945A7903BB177C_METHOD_2_793FFA9A76FE6840_OFFSET))(this, P0);
+	}
+};

@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+#include "unitysdk/RPG/MVector3.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
+namespace RPG::GameCore { class LittleGameEvent; }
+namespace System { class String; }
+
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_4E6023DAF33388C1_OFFSET UNITYSDK_OFFSET(0x17205810)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_9AA320A21C18C300_OFFSET UNITYSDK_OFFSET(0x17205780)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172057E0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 17057;
+
+	class FiveDimPropSpawnerConfig : public ::RPG::GameCore::LittleGameComponentConfig
+	{
+	public:
+		::System::Boolean IsPropSpawner; // 0x10
+		::System::Boolean SpawnOnInit; // 0x11
+		::System::Boolean EnableIntervalSpawn; // 0x12
+		::System::Single SpawnInterval; // 0x14
+		::System::String* PresetName; // 0x18
+		::System::Boolean Unique; // 0x20
+		::System::Boolean SpawnAfterDestroy; // 0x21
+		::System::Single DelayDuration; // 0x24
+		::RPG::MVector3 CreationOffset; // 0x28
+		::RPG::GameCore::FiveDimPropSpawnerParam* SpawnParam; // 0x38
+		::System::Boolean SendEventOnInit; // 0x40
+		::RPG::GameCore::LittleGameEvent* SpawnEvent; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_9AA320A21C18C300(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPropSpawnerConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPropSpawnerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_9AA320A21C18C300_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_4E6023DAF33388C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPropSpawnerConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPropSpawnerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_4E6023DAF33388C1_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class BattleAssetPreload; }
+namespace RPG::Client { class BattleAssetPreload_AssetPreloadGroup; }
+namespace System { class String; }
+namespace System { class Type; }
+
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_28DA0572392B3263_1_OFFSET UNITYSDK_OFFSET(0xC4E6500)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_28DA0572392B3263_OFFSET UNITYSDK_OFFSET(0xC4E64B0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_3EACA5870CDCB012_OFFSET UNITYSDK_OFFSET(0xC4E66B0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_6424DA16BE1ACD1D_OFFSET UNITYSDK_OFFSET(0xC4E6460)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_7DE12EB209D367E0_OFFSET UNITYSDK_OFFSET(0xC4E6260)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_87A8E4CC7171087D_OFFSET UNITYSDK_OFFSET(0xC4E6160)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xC4E62D0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xC4E61C0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xC4E63A0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xC4E63E0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0xC4E6420)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC4E6360)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0xC4E66A0)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xC4E6690)
+#define CLASS_1_BF2B522AC5DB4E39_METHOD_1_FF63E816B4D956CD_OFFSET UNITYSDK_OFFSET(0xC4E6550)
+#define CLASS_1_BF2B522AC5DB4E39__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E66C0)
+
+inline static constexpr unsigned int Class_1_BF2B522AC5DB4E39_TypeDefinitionIndex = 48335;
+
+class Class_1_BF2B522AC5DB4E39 : public ::System::Object
+{
+public:
+	::RPG::Client::BattleAssetPreload* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x19
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_87A8E4CC7171087D(::RPG::Client::BattleAssetPreload* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleAssetPreload*))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_87A8E4CC7171087D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9681042564541CD6_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_9681042564541CD6_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6424DA16BE1ACD1D(::System::String* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_6424DA16BE1ACD1D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_28DA0572392B3263(::RPG::Client::BattleAssetPreload_AssetPreloadGroup* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleAssetPreload_AssetPreloadGroup*))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_28DA0572392B3263_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_28DA0572392B3263_1(::RPG::Client::BattleAssetPreload_AssetPreloadGroup* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleAssetPreload_AssetPreloadGroup*))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_28DA0572392B3263_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_FF63E816B4D956CD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_FF63E816B4D956CD_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_F0088C88851A7DFB_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7DE12EB209D367E0(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_7DE12EB209D367E0_OFFSET))(this, a1);
+	}
+
+	::Il2CppArray<::System::Type*>* Method_1_3EACA5870CDCB012()
+	{
+		return ((::Il2CppArray<::System::Type*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BF2B522AC5DB4E39_METHOD_1_3EACA5870CDCB012_OFFSET))(this);
+	}
+};

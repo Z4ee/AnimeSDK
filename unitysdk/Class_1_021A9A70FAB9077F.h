@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_97E659ED8D5D259C_9;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_021A9A70FAB9077F_METHOD_1_0EE0E75A50EA0EA8_OFFSET UNITYSDK_OFFSET(0xA9AFB90)
+#define CLASS_1_021A9A70FAB9077F_METHOD_1_6DFEF4918C679AF0_OFFSET UNITYSDK_OFFSET(0xA9AFD40)
+#define CLASS_1_021A9A70FAB9077F_METHOD_1_C6843992E5B2B49B_OFFSET UNITYSDK_OFFSET(0xA9AFC60)
+#define CLASS_1_021A9A70FAB9077F_METHOD_1_C8F236EDA5771098_OFFSET UNITYSDK_OFFSET(0xA9AFA60)
+#define CLASS_1_021A9A70FAB9077F__CTOR_OFFSET UNITYSDK_OFFSET(0xA9AFB10)
+
+inline static constexpr unsigned int Class_1_021A9A70FAB9077F_TypeDefinitionIndex = 62236;
+
+class Class_1_021A9A70FAB9077F : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_97E659ED8D5D259C_9*>* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_021A9A70FAB9077F__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_021A9A70FAB9077F* Method_1_C8F236EDA5771098()
+	{
+		return ((::Class_1_021A9A70FAB9077F*(*)())((::PBYTE)hIl2Cpp + CLASS_1_021A9A70FAB9077F_METHOD_1_C8F236EDA5771098_OFFSET))();
+	}
+
+	::Class_1_97E659ED8D5D259C_9* Method_1_0EE0E75A50EA0EA8(::System::UInt32 a1)
+	{
+		return ((::Class_1_97E659ED8D5D259C_9*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_021A9A70FAB9077F_METHOD_1_0EE0E75A50EA0EA8_OFFSET))(this, a1);
+	}
+
+	::Class_1_97E659ED8D5D259C_9* Method_1_C6843992E5B2B49B(::System::UInt32 a1)
+	{
+		return ((::Class_1_97E659ED8D5D259C_9*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_021A9A70FAB9077F_METHOD_1_C6843992E5B2B49B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6DFEF4918C679AF0(::Class_1_97E659ED8D5D259C_9* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_97E659ED8D5D259C_9*))((::PBYTE)hIl2Cpp + CLASS_1_021A9A70FAB9077F_METHOD_1_6DFEF4918C679AF0_OFFSET))(this, a1);
+	}
+};

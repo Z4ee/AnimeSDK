@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA841500)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA841550)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GET_ENTITYID_OFFSET UNITYSDK_OFFSET(0xA841590)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GET_TICKINTERVALNEW_OFFSET UNITYSDK_OFFSET(0xA8415D0)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GET_TICKINTERVALOLD_OFFSET UNITYSDK_OFFSET(0xA8415B0)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_INIT_OFFSET UNITYSDK_OFFSET(0xA8414A0)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_SET_ENTITYID_OFFSET UNITYSDK_OFFSET(0xA8415A0)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_SET_TICKINTERVALNEW_OFFSET UNITYSDK_OFFSET(0xA8415E0)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_SET_TICKINTERVALOLD_OFFSET UNITYSDK_OFFSET(0xA8415C0)
+#define RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0xA8415F0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int AdventureEntityTickIntervalChanged_TypeDefinitionIndex = 45513;
+
+	class AdventureEntityTickIntervalChanged : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::System::UInt32 _TickIntervalNew_k__BackingField; // 0x18
+		::System::UInt32 _TickIntervalOld_k__BackingField; // 0x1C
+		::System::UInt32 _EntityID_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AdventureEntityTickIntervalChanged* Init(::System::UInt32 eid, ::System::UInt32 tickIntervalOld, ::System::UInt32 tickIntervalNew)
+		{
+			return ((::RPG::GameCore::AdventureEntityTickIntervalChanged*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_INIT_OFFSET))(this, eid, tickIntervalOld, tickIntervalNew);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EntityID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GET_ENTITYID_OFFSET))(this);
+		}
+
+		::System::Void set_EntityID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_SET_ENTITYID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_TickIntervalOld()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GET_TICKINTERVALOLD_OFFSET))(this);
+		}
+
+		::System::Void set_TickIntervalOld(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_SET_TICKINTERVALOLD_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_TickIntervalNew()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_GET_TICKINTERVALNEW_OFFSET))(this);
+		}
+
+		::System::Void set_TickIntervalNew(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREENTITYTICKINTERVALCHANGED_SET_TICKINTERVALNEW_OFFSET))(this, value);
+		}
+	};
+}

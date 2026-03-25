@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace CriWare { class CriManaMovieMaterialBase; }
+
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x11A503A0)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11A506E0)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11A50740)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x11A506F0)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11A50390)
+#define CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4F800)
+
+namespace CriWare
+{
+	inline static constexpr unsigned int CriManaMovieMaterialBase__RestartPlayerRoutine_d__64_TypeDefinitionIndex = 31156;
+
+	class CriManaMovieMaterialBase__RestartPlayerRoutine_d__64 : public ::System::Object
+	{
+	public:
+		::CriWare::CriManaMovieMaterialBase* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Int32 __1__state; // 0x20
+
+		::System::Void _ctor(::System::Int32 __1__state)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64__CTOR_OFFSET))(this, __1__state);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAMOVIEMATERIALBASE__RESTARTPLAYERROUTINE_D__64_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

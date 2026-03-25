@@ -1,0 +1,407 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/BattleEventEntitySubType.h"
+#include "unitysdk/RPG/GameCore/CharacterDataComponent.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/Struct_2_65D7BE12F72F5758.h"
+
+class Class_0_16E4307DCC419505_375;
+class Class_1_312DDC926E545863;
+namespace RPG::GameCore { class AvatarEnergyBarState; }
+namespace RPG::GameCore { class BattleEventConfig; }
+namespace RPG::GameCore { class BattleEventRow; }
+namespace RPG::GameCore { class BattleEventRowData; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class GridFightRoleBackendRankConfigRow; }
+namespace RPG::GameCore { class ICharacterRowData; }
+namespace RPG::GameCore { class StageRow; }
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_CANHEALHP_OFFSET UNITYSDK_OFFSET(0xA87DC70)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA87E8D0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GETSUMMONERCHARACTERID_OFFSET UNITYSDK_OFFSET(0xA8808F0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_ACTIVEBACKENDRANKLIST_OFFSET UNITYSDK_OFFSET(0xA87DB70)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_BATTLEEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0xA8813A0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_BATTLEEVENTJSONCONFIG_OFFSET UNITYSDK_OFFSET(0xA87ED50)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_BATTLEEVENTSUBTYPE_OFFSET UNITYSDK_OFFSET(0xA8814E0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_CREATEPARAMS_OFFSET UNITYSDK_OFFSET(0xA881540)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_ENERGYBARSTATE_OFFSET UNITYSDK_OFFSET(0xA881600)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_HASLIFE_OFFSET UNITYSDK_OFFSET(0xA881480)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_HASMODELPREFAB_OFFSET UNITYSDK_OFFSET(0xA8813E0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_MUTEDARKTEAMMODIFIERADD_OFFSET UNITYSDK_OFFSET(0xA87DD90)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_ONLYALLOWHEALBYSELFORSUMMONER_OFFSET UNITYSDK_OFFSET(0xA87DDB0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_SOURCECASTER_OFFSET UNITYSDK_OFFSET(0xA8813C0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TREATASROLEWHENBYCOMPARECHARACTERID_OFFSET UNITYSDK_OFFSET(0xA87DDF0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TRIGGERALLBLOCKEDBECALLBACKS_OFFSET UNITYSDK_OFFSET(0xA87DD70)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TRIGGERREDBREAKCALLBACKS_OFFSET UNITYSDK_OFFSET(0xA87DDD0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TRIGGERULTRACUTIN_OFFSET UNITYSDK_OFFSET(0xA87DD00)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_INITBATTLECHARACTERDATA_OFFSET UNITYSDK_OFFSET(0xA87DEC0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_INITBATTLEEVENTCOMPONENT_OFFSET UNITYSDK_OFFSET(0xA87E5D0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_INITCOMPONENTBYCHARACTERROWDATA_OFFSET UNITYSDK_OFFSET(0xA87E1D0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_ONABILITYCHARACTERINITIALIZED_OFFSET UNITYSDK_OFFSET(0xA87EB50)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_RESETBATTLEEVENTPROPERTY_OFFSET UNITYSDK_OFFSET(0xA87ED90)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETACTIVITYPROPERTIES_OFFSET UNITYSDK_OFFSET(0xA880BD0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETPROPERTYVALUESFROMENTITY_OFFSET UNITYSDK_OFFSET(0xA87F020)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETPROPERTYVALUESFROMOVERRIDEPROPERTYCONFIG_OFFSET UNITYSDK_OFFSET(0xA880470)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETPROPERTYVALUESFROMSTAGE_OFFSET UNITYSDK_OFFSET(0xA87F1B0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETULTRACUTIN_OFFSET UNITYSDK_OFFSET(0xA87DBD0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_BATTLEEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0xA8813B0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_CREATEPARAMS_OFFSET UNITYSDK_OFFSET(0xA881550)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_MUTEDARKTEAMMODIFIERADD_OFFSET UNITYSDK_OFFSET(0xA87DDA0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_ONLYALLOWHEALBYSELFORSUMMONER_OFFSET UNITYSDK_OFFSET(0xA87DDC0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_ROWDATA_OFFSET UNITYSDK_OFFSET(0xA881560)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_SOURCECASTER_OFFSET UNITYSDK_OFFSET(0xA8813D0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_TREATASROLEWHENBYCOMPARECHARACTERID_OFFSET UNITYSDK_OFFSET(0xA87DE00)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_TRIGGERALLBLOCKEDBECALLBACKS_OFFSET UNITYSDK_OFFSET(0xA87DD80)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_TRIGGERREDBREAKCALLBACKS_OFFSET UNITYSDK_OFFSET(0xA87DDE0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_UPDATEENERGYBARSTATE_1_OFFSET UNITYSDK_OFFSET(0xA880810)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_UPDATEENERGYBARSTATE_OFFSET UNITYSDK_OFFSET(0xA8805E0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_UPDATEGRIDFIGHTENERGYBARSTATE_OFFSET UNITYSDK_OFFSET(0xA87DAF0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA881610)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__FULLROWDATA_OFFSET UNITYSDK_OFFSET(0xA87CE80)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__INITEVENT_OFFSET UNITYSDK_OFFSET(0xA87E700)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ISLIFEBINDINGTARGET_OFFSET UNITYSDK_OFFSET(0xA880CB0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONBATTLEEVENTDYING_OFFSET UNITYSDK_OFFSET(0xA881010)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONCHARACTERDYING_OFFSET UNITYSDK_OFFSET(0xA880D60)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONCHARACTERREVIVE_OFFSET UNITYSDK_OFFSET(0xA881160)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONCHARACTERSTAGESTATECHANGE_OFFSET UNITYSDK_OFFSET(0xA8812F0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONENTITYDIEEVENT_OFFSET UNITYSDK_OFFSET(0xA880DE0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xA87DE10)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONPREABILITYADD_OFFSET UNITYSDK_OFFSET(0xA880C10)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__SETGRIDFIGHTBEPROPERTY_OFFSET UNITYSDK_OFFSET(0xA87C6C0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__SETUPBESERVANTPROPERTIES_OFFSET UNITYSDK_OFFSET(0xA87D130)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__UNINITEVENT_OFFSET UNITYSDK_OFFSET(0xA87E9D0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA881780)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_GET_HASLIFE_OFFSET UNITYSDK_OFFSET(0xA881820)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_INITCOMPONENTBYCHARACTERROWDATA_OFFSET UNITYSDK_OFFSET(0xA881770)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_ONABILITYCHARACTERINITIALIZED_OFFSET UNITYSDK_OFFSET(0xA8817D0)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_SET_ROWDATA_OFFSET UNITYSDK_OFFSET(0xA881840)
+#define RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xA881710)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int BattleEventDataComponent_TypeDefinitionIndex = 45769;
+
+	class BattleEventDataComponent : public ::RPG::GameCore::CharacterDataComponent
+	{
+	public:
+		// static const ::System::String* CharacterBattleEventUnstageReasonKey; // 0x0
+		::RPG::GameCore::AvatarEnergyBarState* _EnergyBarState; // 0x110
+		::RPG::GameCore::TurnBasedAbilityComponent* _TBAbilityRef; // 0x118
+		::RPG::GameCore::GameEntity* _SourceCaster_k__BackingField; // 0x120
+		::Class_1_312DDC926E545863* _CreateParams_k__BackingField; // 0x128
+		::RPG::GameCore::BattleEventRowData* _BattleEventRowData; // 0x130
+		::RPG::GameCore::BattleEventRow* _BattleEventConfig_k__BackingField; // 0x138
+		::RPG::GameCore::TeamType BattleEventTotalDamageType; // 0x140
+		::System::UInt32 WarningChallengeTurnLeft; // 0x144
+		::System::Boolean _TriggerRedBreakCallbacks_k__BackingField; // 0x148
+		::System::Boolean _MuteDarkTeamModifierAdd_k__BackingField; // 0x149
+		::System::Boolean _OnlyAllowHealBySelfOrSummoner_k__BackingField; // 0x14A
+		::System::Boolean _TreatAsRoleWhenByCompareCharacterID_k__BackingField; // 0x14B
+		::System::Boolean _TriggerAllBlockedBECallbacks_k__BackingField; // 0x14C
+		::System::Boolean _TriggerUltraCutin; // 0x14D
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _SetGridFightBEProperty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__SETGRIDFIGHTBEPROPERTY_OFFSET))(this);
+		}
+
+		::System::Void _SetupBEServantProperties()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__SETUPBESERVANTPROPERTIES_OFFSET))(this);
+		}
+
+		::System::Void UpdateGridFightEnergyBarState(::Struct_2_65D7BE12F72F5758 rtData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_65D7BE12F72F5758))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_UPDATEGRIDFIGHTENERGYBARSTATE_OFFSET))(this, rtData);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::GridFightRoleBackendRankConfigRow*>* get_ActiveBackendRankList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GridFightRoleBackendRankConfigRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_ACTIVEBACKENDRANKLIST_OFFSET))(this);
+		}
+
+		::System::Void SetUltraCutin(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETULTRACUTIN_OFFSET))(this, value);
+		}
+
+		::System::Boolean CanHealHP(::RPG::GameCore::GameEntity* pHealer)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_CANHEALHP_OFFSET))(this, pHealer);
+		}
+
+		::System::Boolean get_TriggerUltraCutin()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TRIGGERULTRACUTIN_OFFSET))(this);
+		}
+
+		::System::Boolean get_TriggerAllBlockedBECallbacks()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TRIGGERALLBLOCKEDBECALLBACKS_OFFSET))(this);
+		}
+
+		::System::Void set_TriggerAllBlockedBECallbacks(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_TRIGGERALLBLOCKEDBECALLBACKS_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_MuteDarkTeamModifierAdd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_MUTEDARKTEAMMODIFIERADD_OFFSET))(this);
+		}
+
+		::System::Void set_MuteDarkTeamModifierAdd(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_MUTEDARKTEAMMODIFIERADD_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_OnlyAllowHealBySelfOrSummoner()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_ONLYALLOWHEALBYSELFORSUMMONER_OFFSET))(this);
+		}
+
+		::System::Void set_OnlyAllowHealBySelfOrSummoner(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_ONLYALLOWHEALBYSELFORSUMMONER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_TriggerRedBreakCallbacks()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TRIGGERREDBREAKCALLBACKS_OFFSET))(this);
+		}
+
+		::System::Void set_TriggerRedBreakCallbacks(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_TRIGGERREDBREAKCALLBACKS_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_TreatAsRoleWhenByCompareCharacterID()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_TREATASROLEWHENBYCOMPARECHARACTERID_OFFSET))(this);
+		}
+
+		::System::Void set_TreatAsRoleWhenByCompareCharacterID(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_TREATASROLEWHENBYCOMPARECHARACTERID_OFFSET))(this, value);
+		}
+
+		::System::Void _OnInitOwnerRef()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONINITOWNERREF_OFFSET))(this);
+		}
+
+		::System::Void InitBattleCharacterData(::Class_1_312DDC926E545863* createParam)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_312DDC926E545863*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_INITBATTLECHARACTERDATA_OFFSET))(this, createParam);
+		}
+
+		::System::Void InitComponentByCharacterRowData(::RPG::GameCore::ICharacterRowData* rowData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ICharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_INITCOMPONENTBYCHARACTERROWDATA_OFFSET))(this, rowData);
+		}
+
+		::System::Void InitBattleEventComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_INITBATTLEEVENTCOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnAbilityCharacterInitialized(::RPG::GameCore::TurnBasedAbilityComponent* pTurnBasedAbility)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_ONABILITYCHARACTERINITIALIZED_OFFSET))(this, pTurnBasedAbility);
+		}
+
+		::System::Void ResetBattleEventProperty(::RPG::GameCore::FixPoint InitSPRatio_Numerator, ::RPG::GameCore::FixPoint InitHPRatio_Denominator)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_RESETBATTLEEVENTPROPERTY_OFFSET))(this, InitSPRatio_Numerator, InitHPRatio_Denominator);
+		}
+
+		::System::Void UpdateEnergyBarState(::Struct_2_65D7BE12F72F5758 rtData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_65D7BE12F72F5758))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_UPDATEENERGYBARSTATE_OFFSET))(this, rtData);
+		}
+
+		::System::Void UpdateEnergyBarState_1(::RPG::GameCore::AvatarEnergyBarState* newState)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarEnergyBarState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_UPDATEENERGYBARSTATE_1_OFFSET))(this, newState);
+		}
+
+		::System::UInt32 GetSummonerCharacterId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GETSUMMONERCHARACTERID_OFFSET))(this);
+		}
+
+		::System::Void SetPropertyValuesFromEntity(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETPROPERTYVALUESFROMENTITY_OFFSET))(this, entity);
+		}
+
+		::System::Void SetPropertyValuesFromStage(::RPG::GameCore::StageRow* pCurWaveStageData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETPROPERTYVALUESFROMSTAGE_OFFSET))(this, pCurWaveStageData);
+		}
+
+		::System::Void SetPropertyValuesFromOverridePropertyConfig()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETPROPERTYVALUESFROMOVERRIDEPROPERTYCONFIG_OFFSET))(this);
+		}
+
+		::System::Void _FullRowData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__FULLROWDATA_OFFSET))(this);
+		}
+
+		::System::Void SetActivityProperties()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SETACTIVITYPROPERTIES_OFFSET))(this);
+		}
+
+		::System::Void _InitEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__INITEVENT_OFFSET))(this);
+		}
+
+		::System::Void _UnInitEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__UNINITEVENT_OFFSET))(this);
+		}
+
+		::System::Void _OnPreAbilityAdd(::Class_0_16E4307DCC419505_375* pEvtRef)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONPREABILITYADD_OFFSET))(this, pEvtRef);
+		}
+
+		::System::Boolean _IsLifeBindingTarget(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ISLIFEBINDINGTARGET_OFFSET))(this, entity);
+		}
+
+		::System::Void _OnCharacterDying(::Class_0_16E4307DCC419505_375* pRawEvt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONCHARACTERDYING_OFFSET))(this, pRawEvt);
+		}
+
+		::System::Void _OnBattleEventDying(::Class_0_16E4307DCC419505_375* pRawEvt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONBATTLEEVENTDYING_OFFSET))(this, pRawEvt);
+		}
+
+		::System::Void _OnEntityDieEvent(::RPG::GameCore::GameEntity* pTarget)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONENTITYDIEEVENT_OFFSET))(this, pTarget);
+		}
+
+		::System::Void _OnCharacterRevive(::Class_0_16E4307DCC419505_375* pRawEvt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONCHARACTERREVIVE_OFFSET))(this, pRawEvt);
+		}
+
+		::System::Void _OnCharacterStageStateChange(::RPG::GameCore::GameEntity* entity, ::System::Boolean state, ::System::String* reasonKey)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT__ONCHARACTERSTAGESTATECHANGE_OFFSET))(this, entity, state, reasonKey);
+		}
+
+		::RPG::GameCore::BattleEventRow* get_BattleEventConfig()
+		{
+			return ((::RPG::GameCore::BattleEventRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_BATTLEEVENTCONFIG_OFFSET))(this);
+		}
+
+		::System::Void set_BattleEventConfig(::RPG::GameCore::BattleEventRow* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleEventRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_BATTLEEVENTCONFIG_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::BattleEventConfig* get_BattleEventJsonConfig()
+		{
+			return ((::RPG::GameCore::BattleEventConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_BATTLEEVENTJSONCONFIG_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* get_SourceCaster()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_SOURCECASTER_OFFSET))(this);
+		}
+
+		::System::Void set_SourceCaster(::RPG::GameCore::GameEntity* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_SOURCECASTER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_HasModelPrefab()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_HASMODELPREFAB_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasLife()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_HASLIFE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::BattleEventEntitySubType get_BattleEventSubType()
+		{
+			return ((::RPG::GameCore::BattleEventEntitySubType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_BATTLEEVENTSUBTYPE_OFFSET))(this);
+		}
+
+		::Class_1_312DDC926E545863* get_CreateParams()
+		{
+			return ((::Class_1_312DDC926E545863*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_CREATEPARAMS_OFFSET))(this);
+		}
+
+		::System::Void set_CreateParams(::Class_1_312DDC926E545863* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_312DDC926E545863*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_CREATEPARAMS_OFFSET))(this, value);
+		}
+
+		::System::Void set_RowData(::RPG::GameCore::ICharacterRowData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ICharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_SET_ROWDATA_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::AvatarEnergyBarState* get_EnergyBarState()
+		{
+			return ((::RPG::GameCore::AvatarEnergyBarState*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT_GET_ENERGYBARSTATE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInitOwnerRef()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_InitComponentByCharacterRowData(::RPG::GameCore::ICharacterRowData* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ICharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_INITCOMPONENTBYCHARACTERROWDATA_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnAbilityCharacterInitialized(::RPG::GameCore::TurnBasedAbilityComponent* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_ONABILITYCHARACTERINITIALIZED_OFFSET))(this, P0);
+		}
+
+		::System::Boolean __iFixBaseProxy_get_HasLife()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_GET_HASLIFE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_set_RowData(::RPG::GameCore::ICharacterRowData* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ICharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATACOMPONENT___IFIXBASEPROXY_SET_ROWDATA_OFFSET))(this, P0);
+		}
+	};
+}

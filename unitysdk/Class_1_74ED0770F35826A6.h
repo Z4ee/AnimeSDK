@@ -1,0 +1,215 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AkCallbackType.h"
+#include "unitysdk/CriWare/CriMana/Player_Status.h"
+#include "unitysdk/System/Object.h"
+
+class AkCallbackInfo;
+namespace CriWare { class CriManaMovieController; }
+namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace RPG::GameCore { class PlayVideoSequence; }
+namespace RPG::GameCore { class VideoSequenceItem; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine { class Coroutine; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class MeshRenderer; }
+
+#define CLASS_1_74ED0770F35826A6_METHOD_1_102A1038C38883F3_OFFSET UNITYSDK_OFFSET(0x11615CC0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_18EAC247268E01AB_OFFSET UNITYSDK_OFFSET(0x11616A00)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_367A5F1ECD1BC1A2_OFFSET UNITYSDK_OFFSET(0x116162F0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_4021FBCAADF57CEB_OFFSET UNITYSDK_OFFSET(0x11616950)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x11615D10)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x11615790)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_58B017F75D97C8DF_OFFSET UNITYSDK_OFFSET(0x11617650)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_6173AF17811AED4B_OFFSET UNITYSDK_OFFSET(0x11615A00)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x11617090)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_67D41ACFEF39E84E_OFFSET UNITYSDK_OFFSET(0x11616AC0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_68DE647BC0AFC803_OFFSET UNITYSDK_OFFSET(0x11617300)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_6D71CC7A9DF62322_OFFSET UNITYSDK_OFFSET(0x11617110)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0x11615550)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_7F3E89315A1D1255_OFFSET UNITYSDK_OFFSET(0x11615F60)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_822A0A66070F4C91_OFFSET UNITYSDK_OFFSET(0x11616260)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_97965634D89B0F68_OFFSET UNITYSDK_OFFSET(0x116173A0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_9D9CF8F6C2342EE5_OFFSET UNITYSDK_OFFSET(0x11615FB0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_AA169839CB93802A_1_OFFSET UNITYSDK_OFFSET(0x11617550)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x11615900)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_ABE7715DB28B2DD1_OFFSET UNITYSDK_OFFSET(0x11616DC0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x11615E10)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_B12B4E4A39A083D2_OFFSET UNITYSDK_OFFSET(0x11615AA0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0x11615BD0)
+#define CLASS_1_74ED0770F35826A6_METHOD_1_B8A8F4F120B2F6D5_OFFSET UNITYSDK_OFFSET(0x11616140)
+#define CLASS_1_74ED0770F35826A6__CTOR_OFFSET UNITYSDK_OFFSET(0x116154A0)
+#define CLASS_1_74ED0770F35826A6__ONVIDEOBEGIN_B__46_0_OFFSET UNITYSDK_OFFSET(0x116178E0)
+#define CLASS_1_74ED0770F35826A6__ONVIDEOBEGIN_B__46_1_OFFSET UNITYSDK_OFFSET(0x116178F0)
+#define CLASS_1_74ED0770F35826A6__WAITRESTARTPLAYVIDEO_B__37_0_OFFSET UNITYSDK_OFFSET(0x116178C0)
+
+inline static constexpr unsigned int Class_1_74ED0770F35826A6_TypeDefinitionIndex = 60021;
+
+class Class_1_74ED0770F35826A6 : public ::System::Object
+{
+public:
+	// static const ::System::Int32 Field_1_0 = 0x2; // 0x0
+	::CriWare::CriManaMovieController* Field_1_21; // 0x10
+	::RPG::Client::OpenWorld::StreamingItemData* Field_1_3; // 0x18
+	::UnityEngine::Coroutine* Field_1_20; // 0x20
+	::UnityEngine::Coroutine* Field_1_22; // 0x28
+	::Il2CppArray<::CriWare::CriManaMovieController*>* Field_1_14; // 0x30
+	::UnityEngine::MeshRenderer* Field_1_5; // 0x38
+	::System::Action_3<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* Field_1_17; // 0x40
+	::System::Action_3<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::System::Boolean>* Field_1_18; // 0x48
+	::UnityEngine::GameObject* Field_1_4; // 0x50
+	::CriWare::CriManaMovieController* Field_1_6; // 0x58
+	::RPG::GameCore::PlayVideoSequence* Field_1_2; // 0x60
+	::System::UInt32 Field_1_11; // 0x68
+	::System::UInt32 Field_1_12; // 0x6C
+	::System::Boolean Field_1_16; // 0x70
+	::System::Boolean Field_1_9; // 0x71
+	::System::Boolean Field_1_19; // 0x72
+	::System::Int32 Field_1_8; // 0x74
+	::System::Int32 Field_1_7; // 0x78
+	::CriWare::CriMana::Player_Status Field_1_15; // 0x7C
+	::System::Int32 Field_1_1; // 0x80
+	::System::Int32 Field_1_10; // 0x84
+	::System::Int32 Field_1_13; // 0x88
+
+	::System::Void _ctor(::System::Int32 a1, ::RPG::GameCore::PlayVideoSequence* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::PlayVideoSequence*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_508D4DD02D3DB74E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_508D4DD02D3DB74E_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B12B4E4A39A083D2(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_B12B4E4A39A083D2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_102A1038C38883F3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_102A1038C38883F3_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7F3E89315A1D1255(::RPG::GameCore::PlayVideoSequence* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlayVideoSequence*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_7F3E89315A1D1255_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9D9CF8F6C2342EE5(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_9D9CF8F6C2342EE5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B8A8F4F120B2F6D5(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_B8A8F4F120B2F6D5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_735EE20B25F86BF4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_735EE20B25F86BF4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6173AF17811AED4B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_6173AF17811AED4B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_822A0A66070F4C91(::RPG::Client::OpenWorld::StreamingItemData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_822A0A66070F4C91_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_4021FBCAADF57CEB(::RPG::Client::OpenWorld::StreamingItemData* a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_4021FBCAADF57CEB_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_4307B2A4B4A12C1A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_4307B2A4B4A12C1A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_18EAC247268E01AB(::UnityEngine::MeshRenderer* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MeshRenderer*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_18EAC247268E01AB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_67D41ACFEF39E84E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_67D41ACFEF39E84E_OFFSET))(this);
+	}
+
+	::System::Void Method_1_AA169839CB93802A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_AA169839CB93802A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B09E78EE7EE4F8FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_B09E78EE7EE4F8FA_OFFSET))(this);
+	}
+
+	::System::Void Method_1_ABE7715DB28B2DD1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_ABE7715DB28B2DD1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6D71CC7A9DF62322()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_6D71CC7A9DF62322_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* Method_1_627C7524E98F4AC5()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_627C7524E98F4AC5_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* Method_1_68DE647BC0AFC803(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_68DE647BC0AFC803_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_97965634D89B0F68(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_97965634D89B0F68_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_B877181B6123B7F6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_B877181B6123B7F6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_367A5F1ECD1BC1A2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_367A5F1ECD1BC1A2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_58B017F75D97C8DF(::RPG::GameCore::VideoSequenceItem* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VideoSequenceItem*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_58B017F75D97C8DF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_AA169839CB93802A_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6_METHOD_1_AA169839CB93802A_1_OFFSET))(this);
+	}
+
+	::System::Boolean _WaitReStartPlayVideo_b__37_0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6__WAITRESTARTPLAYVIDEO_B__37_0_OFFSET))(this);
+	}
+
+	::System::Void _OnVideoBegin_b__46_0(::System::UInt32 x, ::AkCallbackType y, ::AkCallbackInfo* z)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6__ONVIDEOBEGIN_B__46_0_OFFSET))(this, x, y, z);
+	}
+
+	::System::Void _OnVideoBegin_b__46_1(::System::UInt32 x, ::AkCallbackType y, ::AkCallbackInfo* z)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + CLASS_1_74ED0770F35826A6__ONVIDEOBEGIN_B__46_1_OFFSET))(this, x, y, z);
+	}
+};

@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_GET_VAL_OFFSET UNITYSDK_OFFSET(0xCC60)
+#define CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_METHOD_2_4E140453C4B32F06_OFFSET UNITYSDK_OFFSET(0x14E5E00)
+#define CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14E5E70)
+#define CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_SET_VAL_OFFSET UNITYSDK_OFFSET(0xCC70)
+
+inline static constexpr unsigned int Class_2_F7958344C5B7C4AF_Struct_2_AD9C7534A8CF01E1_1_TypeDefinitionIndex = 45836;
+
+struct alignas(4) Class_2_F7958344C5B7C4AF_Struct_2_AD9C7534A8CF01E1_1
+{
+	::System::Single _Val_k__BackingField; // 0x10
+
+	::System::Single get_Val()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_GET_VAL_OFFSET))(this);
+	}
+
+	::System::Void set_Val(::System::Single value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_SET_VAL_OFFSET))(this, value);
+	}
+
+	::System::Boolean Method_2_4E140453C4B32F06(::System::Single a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_METHOD_2_4E140453C4B32F06_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F7958344C5B7C4AF_STRUCT_2_AD9C7534A8CF01E1_1_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+};

@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18CC3590)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18CC3600)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS_INVOKE_OFFSET UNITYSDK_OFFSET(0x18CC3220)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC3200)
+
+namespace ZenFulcrum::VR::OpenVRBinding
+{
+	inline static constexpr unsigned int IVROverlay__GetOverlayWidthInMeters_TypeDefinitionIndex = 30124;
+
+	class IVROverlay__GetOverlayWidthInMeters : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS__CTOR_OFFSET))(this, object, method);
+		}
+
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 ulOverlayHandle, ::System::Single& pfWidthInMeters)
+		{
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS_INVOKE_OFFSET))(this, ulOverlayHandle, pfWidthInMeters);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 ulOverlayHandle, ::System::Single& pfWidthInMeters, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Single&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS_BEGININVOKE_OFFSET))(this, ulOverlayHandle, pfWidthInMeters, callback, object);
+		}
+
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::Single& pfWidthInMeters, ::System::IAsyncResult* result)
+		{
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::Single&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYWIDTHINMETERS_ENDINVOKE_OFFSET))(this, pfWidthInMeters, result);
+		}
+	};
+}

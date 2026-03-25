@@ -1,0 +1,113 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { template <typename T> class Action_1; }
+
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETDATARAW_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A3AC10)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETDATARAW_OFFSET UNITYSDK_OFFSET(0x2115A70)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERCOUNT_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A3ABD0)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x2115A40)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERDATASIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A3ABE0)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERDATASIZE_OFFSET UNITYSDK_OFFSET(0x2115A50)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_DONE_OFFSET UNITYSDK_OFFSET(0x2115A20)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_HASERROR_OFFSET UNITYSDK_OFFSET(0x2115A30)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_LAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x2115A40)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_LAYERDATASIZE_OFFSET UNITYSDK_OFFSET(0x2115A50)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_HASERROR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A3ABC0)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_HASERROR_OFFSET UNITYSDK_OFFSET(0x2115A30)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_ISDONE_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A3ABB0)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_ISDONE_OFFSET UNITYSDK_OFFSET(0x2115A20)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A3ABF0)
+#define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x2115A60)
+
+namespace UnityEngine::Rendering
+{
+	inline static constexpr unsigned int AsyncGPUReadbackRequest_TypeDefinitionIndex = 4492;
+
+	struct alignas(8) AsyncGPUReadbackRequest
+	{
+		::System::IntPtr m_Ptr; // 0x10
+		::System::Int32 m_Version; // 0x18
+
+		::System::Boolean get_done()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_DONE_OFFSET))(this);
+		}
+
+		::System::Boolean get_hasError()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_HASERROR_OFFSET))(this);
+		}
+
+		::System::Int32 get_layerCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_LAYERCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 get_layerDataSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GET_LAYERDATASIZE_OFFSET))(this);
+		}
+
+		::System::Boolean IsDone()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_ISDONE_OFFSET))(this);
+		}
+
+		::System::Boolean HasError()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_HASERROR_OFFSET))(this);
+		}
+
+		::System::Int32 GetLayerCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 GetLayerDataSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERDATASIZE_OFFSET))(this);
+		}
+
+		::System::Void SetScriptingCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::IntPtr GetDataRaw(::System::Int32 layer)
+		{
+			return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETDATARAW_OFFSET))(this, layer);
+		}
+
+		static ::System::Boolean IsDone_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest& _unity_self)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_ISDONE_INJECTED_OFFSET))(_unity_self);
+		}
+
+		static ::System::Boolean HasError_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest& _unity_self)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_HASERROR_INJECTED_OFFSET))(_unity_self);
+		}
+
+		static ::System::Int32 GetLayerCount_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest& _unity_self)
+		{
+			return ((::System::Int32(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERCOUNT_INJECTED_OFFSET))(_unity_self);
+		}
+
+		static ::System::Int32 GetLayerDataSize_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest& _unity_self)
+		{
+			return ((::System::Int32(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETLAYERDATASIZE_INJECTED_OFFSET))(_unity_self);
+		}
+
+		static ::System::Void SetScriptingCallback_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest& _unity_self, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback)
+		{
+			return ((::System::Void(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest&, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_INJECTED_OFFSET))(_unity_self, callback);
+		}
+
+		static ::System::IntPtr GetDataRaw_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest& _unity_self, ::System::Int32 layer)
+		{
+			return ((::System::IntPtr(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETDATARAW_INJECTED_OFFSET))(_unity_self, layer);
+		}
+	};
+}

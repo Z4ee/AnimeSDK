@@ -1,0 +1,144 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_7AF1D57CA4301272;
+
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x93899D0)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_ATK_OFFSET UNITYSDK_OFFSET(0x9389930)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x9389870)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_DECREASEDATK_OFFSET UNITYSDK_OFFSET(0x93899B0)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_DECREASEDHP_OFFSET UNITYSDK_OFFSET(0x9389970)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_HP_OFFSET UNITYSDK_OFFSET(0x9389910)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_INCREASEDATK_OFFSET UNITYSDK_OFFSET(0x9389990)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_INCREASEDHP_OFFSET UNITYSDK_OFFSET(0x9389950)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_ISALIVE_OFFSET UNITYSDK_OFFSET(0x9389890)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_TEAMINDEX_OFFSET UNITYSDK_OFFSET(0x93898A0)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_ATK_OFFSET UNITYSDK_OFFSET(0x9389940)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x9389880)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_DECREASEDATK_OFFSET UNITYSDK_OFFSET(0x93899C0)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_DECREASEDHP_OFFSET UNITYSDK_OFFSET(0x9389980)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_HP_OFFSET UNITYSDK_OFFSET(0x9389920)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_INCREASEDATK_OFFSET UNITYSDK_OFFSET(0x93899A0)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_INCREASEDHP_OFFSET UNITYSDK_OFFSET(0x9389960)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_TEAMINDEX_OFFSET UNITYSDK_OFFSET(0x93898B0)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_UPDATE_OFFSET UNITYSDK_OFFSET(0x9389B80)
+#define RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9389B70)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ChimeraBattleChimeraRecordData_TypeDefinitionIndex = 51519;
+
+	class ChimeraBattleChimeraRecordData : public ::System::Object
+	{
+	public:
+		::System::Int32 _IncreasedHP_k__BackingField; // 0x10
+		::System::Int32 _ATK_k__BackingField; // 0x14
+		::System::UInt32 _ChimeraID_k__BackingField; // 0x18
+		::System::Int32 _IncreasedATK_k__BackingField; // 0x1C
+		::System::Int32 _TeamIndex; // 0x20
+		::System::Int32 _HP_k__BackingField; // 0x24
+		::System::Int32 _DecreasedATK_k__BackingField; // 0x28
+		::System::Int32 _DecreasedHP_k__BackingField; // 0x2C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ChimeraID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_CHIMERAID_OFFSET))(this);
+		}
+
+		::System::Void set_ChimeraID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_CHIMERAID_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsAlive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_ISALIVE_OFFSET))(this);
+		}
+
+		::System::Int32 get_TeamIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_TEAMINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_TeamIndex(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_TEAMINDEX_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_HP()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_HP_OFFSET))(this);
+		}
+
+		::System::Void set_HP(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_HP_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_ATK()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_ATK_OFFSET))(this);
+		}
+
+		::System::Void set_ATK(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_ATK_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_IncreasedHP()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_INCREASEDHP_OFFSET))(this);
+		}
+
+		::System::Void set_IncreasedHP(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_INCREASEDHP_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_DecreasedHP()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_DECREASEDHP_OFFSET))(this);
+		}
+
+		::System::Void set_DecreasedHP(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_DECREASEDHP_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_IncreasedATK()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_INCREASEDATK_OFFSET))(this);
+		}
+
+		::System::Void set_IncreasedATK(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_INCREASEDATK_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_DecreasedATK()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_GET_DECREASEDATK_OFFSET))(this);
+		}
+
+		::System::Void set_DecreasedATK(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_SET_DECREASEDATK_OFFSET))(this, value);
+		}
+
+		static ::RPG::Client::ChimeraBattleChimeraRecordData* Create(::System::UInt32 chimeraID, ::System::Int32 indexInTeam)
+		{
+			return ((::RPG::Client::ChimeraBattleChimeraRecordData*(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_CREATE_OFFSET))(chimeraID, indexInTeam);
+		}
+
+		::System::Void Update(::Class_2_7AF1D57CA4301272* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_7AF1D57CA4301272*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLECHIMERARECORDDATA_UPDATE_OFFSET))(this, entity);
+		}
+	};
+}

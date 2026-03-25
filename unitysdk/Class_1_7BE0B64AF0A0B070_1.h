@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_714;
+
+#define CLASS_1_7BE0B64AF0A0B070_1_GET_BLACKBOARD_OFFSET UNITYSDK_OFFSET(0x10BC26D0)
+#define CLASS_1_7BE0B64AF0A0B070_1_GET_GLOBALBLACKBOARD_OFFSET UNITYSDK_OFFSET(0x10BC26F0)
+#define CLASS_1_7BE0B64AF0A0B070_1_METHOD_1_068B7007D3FD83B2_OFFSET UNITYSDK_OFFSET(0x10BC2710)
+#define CLASS_1_7BE0B64AF0A0B070_1_SET_BLACKBOARD_OFFSET UNITYSDK_OFFSET(0x10BC26E0)
+#define CLASS_1_7BE0B64AF0A0B070_1_SET_GLOBALBLACKBOARD_OFFSET UNITYSDK_OFFSET(0x10BC2700)
+#define CLASS_1_7BE0B64AF0A0B070_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC28C0)
+
+inline static constexpr unsigned int Class_1_7BE0B64AF0A0B070_1_TypeDefinitionIndex = 54687;
+
+class Class_1_7BE0B64AF0A0B070_1 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_714* _Blackboard_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_714* _GlobalBlackboard_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7BE0B64AF0A0B070_1__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_714* get_Blackboard()
+	{
+		return ((::Class_0_16E4307DCC419505_714*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7BE0B64AF0A0B070_1_GET_BLACKBOARD_OFFSET))(this);
+	}
+
+	::System::Void set_Blackboard(::Class_0_16E4307DCC419505_714* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_714*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0B64AF0A0B070_1_SET_BLACKBOARD_OFFSET))(this, value);
+	}
+
+	::Class_0_16E4307DCC419505_714* get_GlobalBlackboard()
+	{
+		return ((::Class_0_16E4307DCC419505_714*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7BE0B64AF0A0B070_1_GET_GLOBALBLACKBOARD_OFFSET))(this);
+	}
+
+	::System::Void set_GlobalBlackboard(::Class_0_16E4307DCC419505_714* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_714*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0B64AF0A0B070_1_SET_GLOBALBLACKBOARD_OFFSET))(this, value);
+	}
+
+	::Class_1_7BE0B64AF0A0B070_1* Method_1_068B7007D3FD83B2()
+	{
+		return ((::Class_1_7BE0B64AF0A0B070_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7BE0B64AF0A0B070_1_METHOD_1_068B7007D3FD83B2_OFFSET))(this);
+	}
+};

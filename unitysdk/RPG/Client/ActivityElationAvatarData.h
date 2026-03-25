@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::GameCore { class ActivityElationModifiedAvatarRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x8EFFAB0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_BATTLEEVENTSKILLDESCSIMPLE_OFFSET UNITYSDK_OFFSET(0x8EFFC10)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_BATTLEEVENTSKILLDESC_OFFSET UNITYSDK_OFFSET(0x8EFFBE0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_BATTLEEVENTSKILLPARAMLIST_OFFSET UNITYSDK_OFFSET(0x8EFFC40)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ENERGYCOLLECTIONDESCSIMPLE_OFFSET UNITYSDK_OFFSET(0x8EFFB90)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ENERGYCOLLECTIONDESC_OFFSET UNITYSDK_OFFSET(0x8EFFB60)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ENERGYCOLLECTIONPARAMLIST_OFFSET UNITYSDK_OFFSET(0x8EFFBC0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_GIFTIMAGEPATH_OFFSET UNITYSDK_OFFSET(0x8EFFB40)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_GIFTNAME_OFFSET UNITYSDK_OFFSET(0x8EFFB10)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x8EFFAD0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_MODIFIEDSKILLDESCSIMPLE_OFFSET UNITYSDK_OFFSET(0x8EFFC90)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_MODIFIEDSKILLDESC_OFFSET UNITYSDK_OFFSET(0x8EFFC60)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_MODIFIEDSKILLPARAMLIST_OFFSET UNITYSDK_OFFSET(0x8EFFCC0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_SPECIALAVATARID_OFFSET UNITYSDK_OFFSET(0x8EFFAF0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_TAG_OFFSET UNITYSDK_OFFSET(0x8EFFCE0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA_SET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x8EFFAC0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8EFFD10)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityElationAvatarData_TypeDefinitionIndex = 49899;
+
+	class ActivityElationAvatarData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::ActivityElationModifiedAvatarRow* _Meta; // 0x10
+		::RPG::Client::IAvatarInfoProvider* _AvatarData_k__BackingField; // 0x18
+
+		::System::Void _ctor(::System::UInt32 activityElationAvatarID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA__CTOR_OFFSET))(this, activityElationAvatarID);
+		}
+
+		::RPG::Client::IAvatarInfoProvider* get_AvatarData()
+		{
+			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_AVATARDATA_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarData(::RPG::Client::IAvatarInfoProvider* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_SET_AVATARDATA_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SpecialAvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_SPECIALAVATARID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_GiftName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_GIFTNAME_OFFSET))(this);
+		}
+
+		::System::String* get_GiftImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_GIFTIMAGEPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EnergyCollectionDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ENERGYCOLLECTIONDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EnergyCollectionDescSimple()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ENERGYCOLLECTIONDESCSIMPLE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_EnergyCollectionParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_ENERGYCOLLECTIONPARAMLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BattleEventSkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_BATTLEEVENTSKILLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BattleEventSkillDescSimple()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_BATTLEEVENTSKILLDESCSIMPLE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_BattleEventSkillParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_BATTLEEVENTSKILLPARAMLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ModifiedSkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_MODIFIEDSKILLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ModifiedSkillDescSimple()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_MODIFIEDSKILLDESCSIMPLE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_ModifiedSkillParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_MODIFIEDSKILLPARAMLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Tag()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONAVATARDATA_GET_TAG_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,488 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/InControl/InputControlSource.h"
+#include "unitysdk/InControl/InputDeviceClass.h"
+#include "unitysdk/InControl/InputDeviceInfo.h"
+#include "unitysdk/InControl/InputDeviceMatcher.h"
+#include "unitysdk/InControl/InputDeviceProfileType.h"
+#include "unitysdk/InControl/InputDeviceStyle.h"
+#include "unitysdk/InControl/VersionInfo.h"
+#include "unitysdk/System/Object.h"
+
+namespace InControl { class InputControlMapping; }
+namespace System { class String; }
+namespace System { class Type; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define INCONTROL_INPUTDEVICEPROFILE_ANALOG_OFFSET UNITYSDK_OFFSET(0x15B78CF0)
+#define INCONTROL_INPUTDEVICEPROFILE_BUTTON_OFFSET UNITYSDK_OFFSET(0x15B78CE0)
+#define INCONTROL_INPUTDEVICEPROFILE_CREATEINSTANCEOFTYPE_1_OFFSET UNITYSDK_OFFSET(0x15B782E0)
+#define INCONTROL_INPUTDEVICEPROFILE_CREATEINSTANCEOFTYPE_OFFSET UNITYSDK_OFFSET(0x15B78280)
+#define INCONTROL_INPUTDEVICEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B78420)
+#define INCONTROL_INPUTDEVICEPROFILE_DPADDOWNMAPPING2_OFFSET UNITYSDK_OFFSET(0x15B798C0)
+#define INCONTROL_INPUTDEVICEPROFILE_DPADDOWNMAPPING_OFFSET UNITYSDK_OFFSET(0x15B79780)
+#define INCONTROL_INPUTDEVICEPROFILE_DPADLEFTMAPPING_OFFSET UNITYSDK_OFFSET(0x15B795A0)
+#define INCONTROL_INPUTDEVICEPROFILE_DPADRIGHTMAPPING_OFFSET UNITYSDK_OFFSET(0x15B79640)
+#define INCONTROL_INPUTDEVICEPROFILE_DPADUPMAPPING2_OFFSET UNITYSDK_OFFSET(0x15B79820)
+#define INCONTROL_INPUTDEVICEPROFILE_DPADUPMAPPING_OFFSET UNITYSDK_OFFSET(0x15B796E0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_ANALOGCOUNT_OFFSET UNITYSDK_OFFSET(0x15B78CA0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_ANALOGMAPPINGS_OFFSET UNITYSDK_OFFSET(0x15B78140)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_BUTTONCOUNT_OFFSET UNITYSDK_OFFSET(0x15B78CC0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_BUTTONMAPPINGS_OFFSET UNITYSDK_OFFSET(0x15B78160)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_DEVICECLASS_OFFSET UNITYSDK_OFFSET(0x15B78070)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_DEVICENAME_OFFSET UNITYSDK_OFFSET(0x15B78030)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_DEVICENOTES_OFFSET UNITYSDK_OFFSET(0x15B78050)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_DEVICESTYLE_OFFSET UNITYSDK_OFFSET(0x15B78090)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_EXCLUDEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x15B781A0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_INCLUDEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x15B78180)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_ISHIDDEN_OFFSET UNITYSDK_OFFSET(0x15B78B80)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_ISNOTHIDDEN_OFFSET UNITYSDK_OFFSET(0x15B78C10)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_ISSUPPORTEDONTHISPLATFORM_OFFSET UNITYSDK_OFFSET(0x15B786D0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_LASTRESORTMATCHERS_OFFSET UNITYSDK_OFFSET(0x15B78260)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x15B780E0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_MATCHERS_OFFSET UNITYSDK_OFFSET(0x15B78240)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_MAXSYSTEMBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x15B781E0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_MAXUNITYVERSION_OFFSET UNITYSDK_OFFSET(0x15B78220)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_MINSYSTEMBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x15B781C0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_MINUNITYVERSION_OFFSET UNITYSDK_OFFSET(0x15B78200)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x15B78010)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_SENSITIVITY_OFFSET UNITYSDK_OFFSET(0x15B780B0)
+#define INCONTROL_INPUTDEVICEPROFILE_GET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x15B78110)
+#define INCONTROL_INPUTDEVICEPROFILE_HIDE_OFFSET UNITYSDK_OFFSET(0x15B78AD0)
+#define INCONTROL_INPUTDEVICEPROFILE_LASTRESORTMATCHES_OFFSET UNITYSDK_OFFSET(0x15B78610)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKDOWNMAPPING2_OFFSET UNITYSDK_OFFSET(0x15B79020)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKDOWNMAPPING_OFFSET UNITYSDK_OFFSET(0x15B78EE0)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKLEFTMAPPING_OFFSET UNITYSDK_OFFSET(0x15B78D00)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKRIGHTMAPPING_OFFSET UNITYSDK_OFFSET(0x15B78DA0)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKUPMAPPING2_OFFSET UNITYSDK_OFFSET(0x15B78F80)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKUPMAPPING_OFFSET UNITYSDK_OFFSET(0x15B78E40)
+#define INCONTROL_INPUTDEVICEPROFILE_LEFTTRIGGERMAPPING_OFFSET UNITYSDK_OFFSET(0x15B79480)
+#define INCONTROL_INPUTDEVICEPROFILE_MATCHES_1_OFFSET UNITYSDK_OFFSET(0x15B78560)
+#define INCONTROL_INPUTDEVICEPROFILE_MATCHES_OFFSET UNITYSDK_OFFSET(0x15B784A0)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKDOWNMAPPING2_OFFSET UNITYSDK_OFFSET(0x15B793E0)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKDOWNMAPPING_OFFSET UNITYSDK_OFFSET(0x15B792A0)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKLEFTMAPPING_OFFSET UNITYSDK_OFFSET(0x15B790C0)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKRIGHTMAPPING_OFFSET UNITYSDK_OFFSET(0x15B79160)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKUPMAPPING2_OFFSET UNITYSDK_OFFSET(0x15B79340)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKUPMAPPING_OFFSET UNITYSDK_OFFSET(0x15B79200)
+#define INCONTROL_INPUTDEVICEPROFILE_RIGHTTRIGGERMAPPING_OFFSET UNITYSDK_OFFSET(0x15B79510)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_ANALOGMAPPINGS_OFFSET UNITYSDK_OFFSET(0x15B78150)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_BUTTONMAPPINGS_OFFSET UNITYSDK_OFFSET(0x15B78170)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_DEVICECLASS_OFFSET UNITYSDK_OFFSET(0x15B78080)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_DEVICENAME_OFFSET UNITYSDK_OFFSET(0x15B78040)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_DEVICENOTES_OFFSET UNITYSDK_OFFSET(0x15B78060)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_DEVICESTYLE_OFFSET UNITYSDK_OFFSET(0x15B780A0)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_EXCLUDEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x15B781B0)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_INCLUDEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x15B78190)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_LASTRESORTMATCHERS_OFFSET UNITYSDK_OFFSET(0x15B78270)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x15B780F0)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_MATCHERS_OFFSET UNITYSDK_OFFSET(0x15B78250)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_MAXSYSTEMBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x15B781F0)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_MAXUNITYVERSION_OFFSET UNITYSDK_OFFSET(0x15B78230)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_MINSYSTEMBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x15B781D0)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_MINUNITYVERSION_OFFSET UNITYSDK_OFFSET(0x15B78210)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x15B78020)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_SENSITIVITY_OFFSET UNITYSDK_OFFSET(0x15B780C0)
+#define INCONTROL_INPUTDEVICEPROFILE_SET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x15B78120)
+#define INCONTROL_INPUTDEVICEPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B79A30)
+#define INCONTROL_INPUTDEVICEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B79960)
+
+namespace InControl
+{
+	inline static constexpr unsigned int InputDeviceProfile_TypeDefinitionIndex = 31428;
+
+	class InputDeviceProfile : public ::System::Object
+	{
+	public:
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_hiddenProfiles()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(InputDeviceProfile_TypeDefinitionIndex)->GetStaticField(0x35EF0);
+		}
+		static ::InControl::InputControlSource* StaticGet_EscapeKey()
+		{
+			return (::InControl::InputControlSource*)Il2CppClass::FromTypeDefinitionIndex(InputDeviceProfile_TypeDefinitionIndex)->GetStaticField(0x10CF0);
+		}
+		static ::InControl::InputControlSource* StaticGet_MenuKey()
+		{
+			return (::InControl::InputControlSource*)Il2CppClass::FromTypeDefinitionIndex(InputDeviceProfile_TypeDefinitionIndex)->GetStaticField(0x10CF8);
+		}
+		::InControl::InputDeviceProfileType profileType; // 0x10
+		::System::String* deviceName; // 0x18
+		::System::String* deviceNotes; // 0x20
+		::InControl::InputDeviceClass deviceClass; // 0x28
+		::InControl::InputDeviceStyle deviceStyle; // 0x2C
+		::System::Single sensitivity; // 0x30
+		::System::Single lowerDeadZone; // 0x34
+		::System::Single upperDeadZone; // 0x38
+		::Il2CppArray<::System::String*>* includePlatforms; // 0x40
+		::Il2CppArray<::System::String*>* excludePlatforms; // 0x48
+		::System::Int32 minSystemBuildNumber; // 0x50
+		::System::Int32 maxSystemBuildNumber; // 0x54
+		::InControl::VersionInfo minUnityVersion; // 0x58
+		::InControl::VersionInfo maxUnityVersion; // 0x68
+		::Il2CppArray<::InControl::InputDeviceMatcher>* matchers; // 0x78
+		::Il2CppArray<::InControl::InputDeviceMatcher>* lastResortMatchers; // 0x80
+		::Il2CppArray<::InControl::InputControlMapping*>* analogMappings; // 0x88
+		::Il2CppArray<::InControl::InputControlMapping*>* buttonMappings; // 0x90
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE__CCTOR_OFFSET))();
+		}
+
+		::InControl::InputDeviceProfileType get_ProfileType()
+		{
+			return ((::InControl::InputDeviceProfileType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_PROFILETYPE_OFFSET))(this);
+		}
+
+		::System::Void set_ProfileType(::InControl::InputDeviceProfileType value)
+		{
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceProfileType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_PROFILETYPE_OFFSET))(this, value);
+		}
+
+		::System::String* get_DeviceName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_DEVICENAME_OFFSET))(this);
+		}
+
+		::System::Void set_DeviceName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_DEVICENAME_OFFSET))(this, value);
+		}
+
+		::System::String* get_DeviceNotes()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_DEVICENOTES_OFFSET))(this);
+		}
+
+		::System::Void set_DeviceNotes(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_DEVICENOTES_OFFSET))(this, value);
+		}
+
+		::InControl::InputDeviceClass get_DeviceClass()
+		{
+			return ((::InControl::InputDeviceClass(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_DEVICECLASS_OFFSET))(this);
+		}
+
+		::System::Void set_DeviceClass(::InControl::InputDeviceClass value)
+		{
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceClass))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_DEVICECLASS_OFFSET))(this, value);
+		}
+
+		::InControl::InputDeviceStyle get_DeviceStyle()
+		{
+			return ((::InControl::InputDeviceStyle(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_DEVICESTYLE_OFFSET))(this);
+		}
+
+		::System::Void set_DeviceStyle(::InControl::InputDeviceStyle value)
+		{
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceStyle))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_DEVICESTYLE_OFFSET))(this, value);
+		}
+
+		::System::Single get_Sensitivity()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_SENSITIVITY_OFFSET))(this);
+		}
+
+		::System::Void set_Sensitivity(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_SENSITIVITY_OFFSET))(this, value);
+		}
+
+		::System::Single get_LowerDeadZone()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_LOWERDEADZONE_OFFSET))(this);
+		}
+
+		::System::Void set_LowerDeadZone(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_LOWERDEADZONE_OFFSET))(this, value);
+		}
+
+		::System::Single get_UpperDeadZone()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_UPPERDEADZONE_OFFSET))(this);
+		}
+
+		::System::Void set_UpperDeadZone(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_UPPERDEADZONE_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::InControl::InputControlMapping*>* get_AnalogMappings()
+		{
+			return ((::Il2CppArray<::InControl::InputControlMapping*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_ANALOGMAPPINGS_OFFSET))(this);
+		}
+
+		::System::Void set_AnalogMappings(::Il2CppArray<::InControl::InputControlMapping*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::InputControlMapping*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_ANALOGMAPPINGS_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::InControl::InputControlMapping*>* get_ButtonMappings()
+		{
+			return ((::Il2CppArray<::InControl::InputControlMapping*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_BUTTONMAPPINGS_OFFSET))(this);
+		}
+
+		::System::Void set_ButtonMappings(::Il2CppArray<::InControl::InputControlMapping*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::InputControlMapping*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_BUTTONMAPPINGS_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::System::String*>* get_IncludePlatforms()
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_INCLUDEPLATFORMS_OFFSET))(this);
+		}
+
+		::System::Void set_IncludePlatforms(::Il2CppArray<::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_INCLUDEPLATFORMS_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::System::String*>* get_ExcludePlatforms()
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_EXCLUDEPLATFORMS_OFFSET))(this);
+		}
+
+		::System::Void set_ExcludePlatforms(::Il2CppArray<::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_EXCLUDEPLATFORMS_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_MinSystemBuildNumber()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_MINSYSTEMBUILDNUMBER_OFFSET))(this);
+		}
+
+		::System::Void set_MinSystemBuildNumber(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_MINSYSTEMBUILDNUMBER_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_MaxSystemBuildNumber()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_MAXSYSTEMBUILDNUMBER_OFFSET))(this);
+		}
+
+		::System::Void set_MaxSystemBuildNumber(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_MAXSYSTEMBUILDNUMBER_OFFSET))(this, value);
+		}
+
+		::InControl::VersionInfo get_MinUnityVersion()
+		{
+			return ((::InControl::VersionInfo(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_MINUNITYVERSION_OFFSET))(this);
+		}
+
+		::System::Void set_MinUnityVersion(::InControl::VersionInfo value)
+		{
+			return ((::System::Void(*)(::PVOID, ::InControl::VersionInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_MINUNITYVERSION_OFFSET))(this, value);
+		}
+
+		::InControl::VersionInfo get_MaxUnityVersion()
+		{
+			return ((::InControl::VersionInfo(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_MAXUNITYVERSION_OFFSET))(this);
+		}
+
+		::System::Void set_MaxUnityVersion(::InControl::VersionInfo value)
+		{
+			return ((::System::Void(*)(::PVOID, ::InControl::VersionInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_MAXUNITYVERSION_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::InControl::InputDeviceMatcher>* get_Matchers()
+		{
+			return ((::Il2CppArray<::InControl::InputDeviceMatcher>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_MATCHERS_OFFSET))(this);
+		}
+
+		::System::Void set_Matchers(::Il2CppArray<::InControl::InputDeviceMatcher>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::InputDeviceMatcher>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_MATCHERS_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::InControl::InputDeviceMatcher>* get_LastResortMatchers()
+		{
+			return ((::Il2CppArray<::InControl::InputDeviceMatcher>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_LASTRESORTMATCHERS_OFFSET))(this);
+		}
+
+		::System::Void set_LastResortMatchers(::Il2CppArray<::InControl::InputDeviceMatcher>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::InputDeviceMatcher>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_SET_LASTRESORTMATCHERS_OFFSET))(this, value);
+		}
+
+		static ::InControl::InputDeviceProfile* CreateInstanceOfType(::System::Type* type)
+		{
+			return ((::InControl::InputDeviceProfile*(*)(::System::Type*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_CREATEINSTANCEOFTYPE_OFFSET))(type);
+		}
+
+		static ::InControl::InputDeviceProfile* CreateInstanceOfType_1(::System::String* typeName)
+		{
+			return ((::InControl::InputDeviceProfile*(*)(::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_CREATEINSTANCEOFTYPE_1_OFFSET))(typeName);
+		}
+
+		::System::Void Define()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DEFINE_OFFSET))(this);
+		}
+
+		::System::Boolean Matches(::InControl::InputDeviceInfo deviceInfo)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_MATCHES_OFFSET))(this, deviceInfo);
+		}
+
+		::System::Boolean LastResortMatches(::InControl::InputDeviceInfo deviceInfo)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LASTRESORTMATCHES_OFFSET))(this, deviceInfo);
+		}
+
+		::System::Boolean Matches_1(::InControl::InputDeviceInfo deviceInfo, ::Il2CppArray<::InControl::InputDeviceMatcher>* matchers)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo, ::Il2CppArray<::InControl::InputDeviceMatcher>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_MATCHES_1_OFFSET))(this, deviceInfo, matchers);
+		}
+
+		::System::Boolean get_IsSupportedOnThisPlatform()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_ISSUPPORTEDONTHISPLATFORM_OFFSET))(this);
+		}
+
+		static ::System::Void Hide(::System::Type* type)
+		{
+			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_HIDE_OFFSET))(type);
+		}
+
+		::System::Boolean get_IsHidden()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_ISHIDDEN_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNotHidden()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_ISNOTHIDDEN_OFFSET))(this);
+		}
+
+		::System::Int32 get_AnalogCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_ANALOGCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 get_ButtonCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_GET_BUTTONCOUNT_OFFSET))(this);
+		}
+
+		static ::InControl::InputControlSource Button(::System::Int32 index)
+		{
+			return ((::InControl::InputControlSource(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_BUTTON_OFFSET))(index);
+		}
+
+		static ::InControl::InputControlSource Analog(::System::Int32 index)
+		{
+			return ((::InControl::InputControlSource(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_ANALOG_OFFSET))(index);
+		}
+
+		static ::InControl::InputControlMapping* LeftStickLeftMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKLEFTMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* LeftStickRightMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKRIGHTMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* LeftStickUpMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKUPMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* LeftStickDownMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKDOWNMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* LeftStickUpMapping2(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKUPMAPPING2_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* LeftStickDownMapping2(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTSTICKDOWNMAPPING2_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* RightStickLeftMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKLEFTMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* RightStickRightMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKRIGHTMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* RightStickUpMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKUPMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* RightStickDownMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKDOWNMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* RightStickUpMapping2(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKUPMAPPING2_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* RightStickDownMapping2(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTSTICKDOWNMAPPING2_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* LeftTriggerMapping(::System::Int32 analog, ::System::String* name)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_LEFTTRIGGERMAPPING_OFFSET))(analog, name);
+		}
+
+		static ::InControl::InputControlMapping* RightTriggerMapping(::System::Int32 analog, ::System::String* name)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_RIGHTTRIGGERMAPPING_OFFSET))(analog, name);
+		}
+
+		static ::InControl::InputControlMapping* DPadLeftMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DPADLEFTMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* DPadRightMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DPADRIGHTMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* DPadUpMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DPADUPMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* DPadDownMapping(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DPADDOWNMAPPING_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* DPadUpMapping2(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DPADUPMAPPING2_OFFSET))(analog);
+		}
+
+		static ::InControl::InputControlMapping* DPadDownMapping2(::System::Int32 analog)
+		{
+			return ((::InControl::InputControlMapping*(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEPROFILE_DPADDOWNMAPPING2_OFFSET))(analog);
+		}
+	};
+}

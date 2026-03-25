@@ -1,0 +1,212 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseRedDotFilter.h"
+
+namespace RPG::Client { class ActivityPanelData; }
+namespace RPG::Client { class AetherDivideLevelRewardData; }
+namespace RPG::Client { class AetherDivideModule; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x8ED5070)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8ED4EE0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_AETHERDIVIDELEVELREWARDDATA_OFFSET UNITYSDK_OFFSET(0x8ED3730)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_HASNEWCHALLENGE_OFFSET UNITYSDK_OFFSET(0x8ED36D0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_HASNEWGYM_OFFSET UNITYSDK_OFFSET(0x8ED3670)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_ISACTIVITYGOTOEVERYDAYACTIVE_OFFSET UNITYSDK_OFFSET(0x8ED3810)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET__AETHERDIVIDEMODULE_OFFSET UNITYSDK_OFFSET(0x8ED4760)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_INIT_OFFSET UNITYSDK_OFFSET(0x8ED4A20)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATECANTAKEREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x8ED4380)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATEISNEWREDDOT_OFFSET UNITYSDK_OFFSET(0x8ED3C50)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATENEWCHALLENGERANK_OFFSET UNITYSDK_OFFSET(0x8ED47C0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATENEWGYM_OFFSET UNITYSDK_OFFSET(0x8ED4570)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATEQUESTREWARD_OFFSET UNITYSDK_OFFSET(0x8ED49C0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED5940)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__GETACTIVITYPANELDATA_OFFSET UNITYSDK_OFFSET(0x8ED3E30)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__INITACTIVITYTYPE_OFFSET UNITYSDK_OFFSET(0x8ED4B30)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONFINISHMAINMISSION_OFFSET UNITYSDK_OFFSET(0x8ED5750)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONMISSIONSYNC_OFFSET UNITYSDK_OFFSET(0x8ED56F0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONQUESTUPDATED_OFFSET UNITYSDK_OFFSET(0x8ED5890)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONTERMINALREDDOTREFRESH_OFFSET UNITYSDK_OFFSET(0x8ED5830)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATEACTIVITYREWARDSEENREDDOT_OFFSET UNITYSDK_OFFSET(0x8ED55A0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATEALLREDDOT_OFFSET UNITYSDK_OFFSET(0x8ED5450)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATECANTAKEREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x8ED5550)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATEISNEWREDDOT_OFFSET UNITYSDK_OFFSET(0x8ED5500)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__RECONSTRUCTTYPEGROUPIDLIST_OFFSET UNITYSDK_OFFSET(0x8ED3EE0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__SETUNLOCKMISSIONLIST_OFFSET UNITYSDK_OFFSET(0x8ED4D80)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___IFIXBASEPROXY_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x8ED5DD0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8ED5D50)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x8ED5CD0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter_TypeDefinitionIndex = 54364;
+
+	class ActivityAetherDivideModuleRedDotFilter : public ::RPG::Client::BaseRedDotFilter
+	{
+	public:
+		// static const ::System::UInt32 _RewardSystemID = 0x1; // 0x0
+		// static const ::System::UInt32 _GetAvatarSystemID = 0x2; // 0x0
+		// static const ::System::UInt32 _AetherDividePanelID = 0xC355; // 0x0
+		// static const ::System::UInt32 _ResidentAetherDividePanelID = 0x249F5; // 0x0
+		::System::Collections::Generic::List_1<::System::UInt32>* RewardTypeCanTakeGroupIdList; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* NewActivityAetherDivideDataIdList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* NewChallengeRankIdList; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _GetAvatarTypeContainGroupIdList; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* GetAvatarTypeGroupIdList; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* GetAvatarTypeNewGroupIdList; // 0x38
+		::System::Collections::Generic::List_1<::System::UInt32>* CanTakeRewardActivityAetherDivideDataIdList; // 0x40
+		::System::Collections::Generic::List_1<::System::UInt32>* _RewardTypeContainGroupIdList; // 0x48
+		::System::Collections::Generic::List_1<::System::UInt32>* RewardTypeNewGroupIdList; // 0x50
+		::System::Collections::Generic::List_1<::System::UInt32>* _UnlockMissionIDList; // 0x58
+		::System::Collections::Generic::List_1<::System::UInt32>* NewGymIdList; // 0x60
+		::System::Boolean IsActivityRewardSeen; // 0x68
+		::System::UInt32 _FinalGetAvatarRewardTypeGroupID; // 0x6C
+		::System::UInt32 _AetherDivideGoToFinalMissionID; // 0x70
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasNewGym()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_HASNEWGYM_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasNewChallenge()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_HASNEWCHALLENGE_OFFSET))(this);
+		}
+
+		::RPG::Client::AetherDivideLevelRewardData* get_AetherDivideLevelRewardData()
+		{
+			return ((::RPG::Client::AetherDivideLevelRewardData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_AETHERDIVIDELEVELREWARDDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsActivityGoToEveryDayActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET_ISACTIVITYGOTOEVERYDAYACTIVE_OFFSET))(this);
+		}
+
+		::System::Void UpdateIsNewRedDot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATEISNEWREDDOT_OFFSET))(this);
+		}
+
+		::System::Void UpdateCanTakeRewardRedDot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATECANTAKEREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Void UpdateNewGym()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATENEWGYM_OFFSET))(this);
+		}
+
+		::System::Void UpdateNewChallengeRank()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATENEWCHALLENGERANK_OFFSET))(this);
+		}
+
+		::System::Void UpdateQuestReward()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_UPDATEQUESTREWARD_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void AddHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_ADDHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnUpdateAllRedDot(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATEALLREDDOT_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnUpdateIsNewRedDot(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATEISNEWREDDOT_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnUpdateCanTakeRewardRedDot(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATECANTAKEREWARDREDDOT_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnUpdateActivityRewardSeenRedDot(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONUPDATEACTIVITYREWARDSEENREDDOT_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnMissionSync(::System::Object* param)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONMISSIONSYNC_OFFSET))(this, param);
+		}
+
+		::System::Void _OnFinishMainMission(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONFINISHMAINMISSION_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnTerminalReddotRefresh(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONTERMINALREDDOTREFRESH_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnQuestUpdated(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__ONQUESTUPDATED_OFFSET))(this, arg);
+		}
+
+		::System::Void _InitActivityType()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__INITACTIVITYTYPE_OFFSET))(this);
+		}
+
+		::System::Void _SetUnlockMissionList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__SETUNLOCKMISSIONLIST_OFFSET))(this);
+		}
+
+		::System::Void _ReConstructTypeGroupIdList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__RECONSTRUCTTYPEGROUPIDLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityPanelData* _GetActivityPanelData()
+		{
+			return ((::RPG::Client::ActivityPanelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER__GETACTIVITYPANELDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::AetherDivideModule* get__AetherDivideModule()
+		{
+			return ((::RPG::Client::AetherDivideModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER_GET__AETHERDIVIDEMODULE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___IFIXBASEPROXY_INIT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_AddHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___IFIXBASEPROXY_ADDHANDLERS_OFFSET))(this);
+		}
+	};
+}

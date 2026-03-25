@@ -1,0 +1,231 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_10_OFFSET UNITYSDK_OFFSET(0x162DC560)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_11_OFFSET UNITYSDK_OFFSET(0x162B99C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_12_OFFSET UNITYSDK_OFFSET(0x162B8290)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_13_OFFSET UNITYSDK_OFFSET(0x162D5EC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_1_OFFSET UNITYSDK_OFFSET(0x162DC0D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_2_OFFSET UNITYSDK_OFFSET(0x162D62B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_3_OFFSET UNITYSDK_OFFSET(0x162DDA20)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_4_OFFSET UNITYSDK_OFFSET(0x162D67D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_5_OFFSET UNITYSDK_OFFSET(0x162DDAF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_6_OFFSET UNITYSDK_OFFSET(0x162D6C40)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_7_OFFSET UNITYSDK_OFFSET(0x162DDBC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_8_OFFSET UNITYSDK_OFFSET(0x162D6F90)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_9_OFFSET UNITYSDK_OFFSET(0x162DDC90)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_OFFSET UNITYSDK_OFFSET(0x162B7680)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDBINARY_1_OFFSET UNITYSDK_OFFSET(0x162B7E10)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDBINARY_OFFSET UNITYSDK_OFFSET(0x162DD3B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_10_OFFSET UNITYSDK_OFFSET(0x162DD980)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_11_OFFSET UNITYSDK_OFFSET(0x162DC7E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_12_OFFSET UNITYSDK_OFFSET(0x162B9780)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_13_OFFSET UNITYSDK_OFFSET(0x162B84C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_14_OFFSET UNITYSDK_OFFSET(0x162D60B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_1_OFFSET UNITYSDK_OFFSET(0x162DC300)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_2_OFFSET UNITYSDK_OFFSET(0x162B8040)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_3_OFFSET UNITYSDK_OFFSET(0x162D64E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_4_OFFSET UNITYSDK_OFFSET(0x162DD800)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_5_OFFSET UNITYSDK_OFFSET(0x162D6A50)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_6_OFFSET UNITYSDK_OFFSET(0x162DD880)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_7_OFFSET UNITYSDK_OFFSET(0x162B9450)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_8_OFFSET UNITYSDK_OFFSET(0x162DD900)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_9_OFFSET UNITYSDK_OFFSET(0x162D71D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x162B79C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_BEGINBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x162DD690)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ENDBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x162DD780)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x162DDDA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x162DD680)
+
+namespace System::Diagnostics::Tracing
+{
+	inline static constexpr unsigned int TraceLoggingDataCollector_TypeDefinitionIndex = 1650;
+
+	class TraceLoggingDataCollector : public ::System::Object
+	{
+	public:
+		static ::System::Diagnostics::Tracing::TraceLoggingDataCollector** StaticGet_Instance()
+		{
+			return (::System::Diagnostics::Tracing::TraceLoggingDataCollector**)Il2CppClass::FromTypeDefinitionIndex(TraceLoggingDataCollector_TypeDefinitionIndex)->GetStaticField(0x4D50);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR__CCTOR_OFFSET))();
+		}
+
+		::System::Int32 BeginBufferedArray()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_BEGINBUFFEREDARRAY_OFFSET))(this);
+		}
+
+		::System::Void EndBufferedArray(::System::Int32 bookmark, ::System::Int32 count)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ENDBUFFEREDARRAY_OFFSET))(this, bookmark, count);
+		}
+
+		::System::Void AddScalar(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_1(::System::SByte value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::SByte))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_1_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_2(::System::Byte value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_2_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_3(::System::Int16 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_3_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_4(::System::UInt16 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_4_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_5(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_5_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_6(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_6_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_7(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_7_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_8(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_8_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_9(::System::IntPtr value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_9_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_10(::System::UIntPtr value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_10_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_11(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_11_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_12(::System::Double value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_12_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_13(::System::Char value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_13_OFFSET))(this, value);
+		}
+
+		::System::Void AddScalar_14(::System::Guid value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDSCALAR_14_OFFSET))(this, value);
+		}
+
+		::System::Void AddBinary(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDBINARY_OFFSET))(this, value);
+		}
+
+		::System::Void AddBinary_1(::Il2CppArray<::System::Byte>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDBINARY_1_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray(::Il2CppArray<::System::Boolean>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_1(::Il2CppArray<::System::SByte>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::SByte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_1_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_2(::Il2CppArray<::System::Int16>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int16>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_2_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_3(::Il2CppArray<::System::UInt16>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt16>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_3_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_4(::Il2CppArray<::System::Int32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_4_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_5(::Il2CppArray<::System::UInt32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_5_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_6(::Il2CppArray<::System::Int64>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int64>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_6_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_7(::Il2CppArray<::System::UInt64>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt64>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_7_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_8(::Il2CppArray<::System::IntPtr>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_8_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_9(::Il2CppArray<::System::UIntPtr>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UIntPtr>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_9_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_10(::Il2CppArray<::System::Single>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_10_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_11(::Il2CppArray<::System::Double>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Double>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_11_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_12(::Il2CppArray<::System::Char>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_12_OFFSET))(this, value);
+		}
+
+		::System::Void AddArray_13(::Il2CppArray<::System::Guid>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Guid>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGDATACOLLECTOR_ADDARRAY_13_OFFSET))(this, value);
+		}
+	};
+}

@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/KibanaBaseModel.h"
+
+namespace System { class String; }
+
+#define MIHOYO_SDK_KIBANANETWORKMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15F1D660)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int KibanaNetworkModel_TypeDefinitionIndex = 6886;
+
+	class KibanaNetworkModel : public ::MiHoYo::SDK::KibanaBaseModel
+	{
+	public:
+		::System::String* network_url; // 0xD0
+		::System::Int32 network_status_code; // 0xD8
+		::System::String* network_data; // 0xE0
+		::System::String* net_request_body; // 0xE8
+		::System::String* network_response_region; // 0xF0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANANETWORKMODEL__CTOR_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace Newtonsoft::Json::Linq
+{
+	inline static constexpr unsigned int JToken__AfterSelf_d__42_TypeDefinitionIndex = 8385;
+
+	class JToken__AfterSelf_d__42 : public ::System::Object
+	{
+	public:
+	};
+}

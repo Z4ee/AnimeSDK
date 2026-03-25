@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class HideTopPage; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_9FC571354593E967_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105443F0)
+#define CLASS_3_9FC571354593E967__CTOR_OFFSET UNITYSDK_OFFSET(0x105443C0)
+
+inline static constexpr unsigned int Class_3_9FC571354593E967_TypeDefinitionIndex = 46925;
+
+class Class_3_9FC571354593E967 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideTopPage*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HideTopPage* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HideTopPage*))((::PBYTE)hIl2Cpp + CLASS_3_9FC571354593E967__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9FC571354593E967_ONTASKBEGIN_OFFSET))(this);
+	}
+};

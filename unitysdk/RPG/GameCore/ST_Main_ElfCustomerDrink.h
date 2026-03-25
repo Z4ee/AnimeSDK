@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/STTaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMERDRINK_METHOD_4_5F8F22129B7ABD0E_OFFSET UNITYSDK_OFFSET(0x17696270)
+#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMERDRINK_METHOD_4_D2999C1DAC264FB1_OFFSET UNITYSDK_OFFSET(0x17681F50)
+#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMERDRINK__CTOR_OFFSET UNITYSDK_OFFSET(0x17681F00)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ST_Main_ElfCustomerDrink_TypeDefinitionIndex = 19713;
+
+	class ST_Main_ElfCustomerDrink : public ::RPG::GameCore::STTaskConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMERDRINK__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_4_5F8F22129B7ABD0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfCustomerDrink*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfCustomerDrink*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMERDRINK_METHOD_4_5F8F22129B7ABD0E_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_D2999C1DAC264FB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfCustomerDrink* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfCustomerDrink*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMERDRINK_METHOD_4_D2999C1DAC264FB1_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Epic/OnlineServices/P2P/ConnectionEstablishedType.h"
+#include "unitysdk/Epic/OnlineServices/P2P/OnPeerConnectionEstablishedInfoInternal.h"
+#include "unitysdk/Epic/OnlineServices/Result.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace Epic::OnlineServices { class ProductUserId; }
+namespace Epic::OnlineServices::P2P { class SocketId; }
+
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x86AA530)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x86AA490)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_CONNECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x86AA510)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86AA4B0)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_REMOTEUSERID_OFFSET UNITYSDK_OFFSET(0x86AA4D0)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x86AA4F0)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x86AAC20)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x86AA4A0)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_CONNECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x86AA520)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86AA4C0)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_OFFSET UNITYSDK_OFFSET(0x86AA540)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_REMOTEUSERID_OFFSET UNITYSDK_OFFSET(0x86AA4E0)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x86AA500)
+#define EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x86AAD50)
+
+namespace Epic::OnlineServices::P2P
+{
+	inline static constexpr unsigned int OnPeerConnectionEstablishedInfo_TypeDefinitionIndex = 35906;
+
+	class OnPeerConnectionEstablishedInfo : public ::System::Object
+	{
+	public:
+		::Epic::OnlineServices::P2P::SocketId* _SocketId_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _RemoteUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x20
+		::System::Object* _ClientData_k__BackingField; // 0x28
+		::Epic::OnlineServices::P2P::ConnectionEstablishedType _ConnectionType_k__BackingField; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Object* get_ClientData()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_CLIENTDATA_OFFSET))(this);
+		}
+
+		::System::Void set_ClientData(::System::Object* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_CLIENTDATA_OFFSET))(this, value);
+		}
+
+		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
+		{
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_LOCALUSERID_OFFSET))(this);
+		}
+
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_LOCALUSERID_OFFSET))(this, value);
+		}
+
+		::Epic::OnlineServices::ProductUserId* get_RemoteUserId()
+		{
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_REMOTEUSERID_OFFSET))(this);
+		}
+
+		::System::Void set_RemoteUserId(::Epic::OnlineServices::ProductUserId* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_REMOTEUSERID_OFFSET))(this, value);
+		}
+
+		::Epic::OnlineServices::P2P::SocketId* get_SocketId()
+		{
+			return ((::Epic::OnlineServices::P2P::SocketId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_SOCKETID_OFFSET))(this);
+		}
+
+		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_SOCKETID_OFFSET))(this, value);
+		}
+
+		::Epic::OnlineServices::P2P::ConnectionEstablishedType get_ConnectionType()
+		{
+			return ((::Epic::OnlineServices::P2P::ConnectionEstablishedType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GET_CONNECTIONTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_ConnectionType(::Epic::OnlineServices::P2P::ConnectionEstablishedType value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::ConnectionEstablishedType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_CONNECTIONTYPE_OFFSET))(this, value);
+		}
+
+		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
+		{
+			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_GETRESULTCODE_OFFSET))(this);
+		}
+
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::P2P::OnPeerConnectionEstablishedInfoInternal> other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::P2P::OnPeerConnectionEstablishedInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ONPEERCONNECTIONESTABLISHEDINFO_SET_1_OFFSET))(this, other);
+		}
+	};
+}

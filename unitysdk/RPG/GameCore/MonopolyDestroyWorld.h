@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_MONOPOLYDESTROYWORLD_METHOD_3_1965D702B5318CE4_OFFSET UNITYSDK_OFFSET(0x17437AF0)
+#define RPG_GAMECORE_MONOPOLYDESTROYWORLD_METHOD_3_3E92E766875B9030_OFFSET UNITYSDK_OFFSET(0x17437C00)
+#define RPG_GAMECORE_MONOPOLYDESTROYWORLD__CTOR_OFFSET UNITYSDK_OFFSET(0x17437BD0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int MonopolyDestroyWorld_TypeDefinitionIndex = 19263;
+
+	class MonopolyDestroyWorld : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYDESTROYWORLD__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_1965D702B5318CE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyDestroyWorld*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyDestroyWorld*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYDESTROYWORLD_METHOD_3_1965D702B5318CE4_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_3E92E766875B9030(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyDestroyWorld* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyDestroyWorld*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYDESTROYWORLD_METHOD_3_3E92E766875B9030_OFFSET))(a1, a2);
+		}
+	};
+}

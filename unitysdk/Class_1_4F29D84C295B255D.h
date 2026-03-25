@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_7250B7BB9413AA62.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_C84A84118567060F;
+class Class_1_D8BF25BB97CB2B9D;
+namespace RPGTools::Octree::Generation { class OctreeAreaData; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define CLASS_1_4F29D84C295B255D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x114EFC30)
+#define CLASS_1_4F29D84C295B255D_METHOD_1_5115819E22315537_OFFSET UNITYSDK_OFFSET(0x114F0060)
+#define CLASS_1_4F29D84C295B255D_METHOD_1_903A8CA38EB171DB_OFFSET UNITYSDK_OFFSET(0x114EFCE0)
+#define CLASS_1_4F29D84C295B255D_METHOD_1_C1FE64DAEC64B939_OFFSET UNITYSDK_OFFSET(0x114F01A0)
+#define CLASS_1_4F29D84C295B255D_METHOD_1_FEA2223BFAF77F8B_OFFSET UNITYSDK_OFFSET(0x114EFE80)
+#define CLASS_1_4F29D84C295B255D__CTOR_OFFSET UNITYSDK_OFFSET(0x114EFAD0)
+
+inline static constexpr unsigned int Class_1_4F29D84C295B255D_TypeDefinitionIndex = 39624;
+
+class Class_1_4F29D84C295B255D : public ::System::Object
+{
+public:
+	::Il2CppArray<::Class_1_D8BF25BB97CB2B9D*>* Field_1_0; // 0x10
+
+	::System::Void _ctor(::Class_1_C84A84118567060F* a1, ::Il2CppArray<::RPGTools::Octree::Generation::OctreeAreaData*>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_C84A84118567060F*, ::Il2CppArray<::RPGTools::Octree::Generation::OctreeAreaData*>*))((::PBYTE)hIl2Cpp + CLASS_1_4F29D84C295B255D__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F29D84C295B255D_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_903A8CA38EB171DB(::Struct_2_7250B7BB9413AA62 a1, ::Struct_2_7250B7BB9413AA62 a2, ::System::Single& a3)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_7250B7BB9413AA62, ::Struct_2_7250B7BB9413AA62, ::System::Single&))((::PBYTE)hIl2Cpp + CLASS_1_4F29D84C295B255D_METHOD_1_903A8CA38EB171DB_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Boolean Method_1_FEA2223BFAF77F8B(::Struct_2_7250B7BB9413AA62 a1, ::Struct_2_7250B7BB9413AA62 a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_7250B7BB9413AA62, ::Struct_2_7250B7BB9413AA62, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_1_4F29D84C295B255D_METHOD_1_FEA2223BFAF77F8B_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Boolean Method_1_5115819E22315537(::Struct_2_7250B7BB9413AA62 a1, ::Struct_2_7250B7BB9413AA62 a2, ::Struct_2_7250B7BB9413AA62 a3)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_7250B7BB9413AA62, ::Struct_2_7250B7BB9413AA62, ::Struct_2_7250B7BB9413AA62))((::PBYTE)hIl2Cpp + CLASS_1_4F29D84C295B255D_METHOD_1_5115819E22315537_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::Struct_2_7250B7BB9413AA62>* Method_1_C1FE64DAEC64B939(::Struct_2_7250B7BB9413AA62 a1)
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::Struct_2_7250B7BB9413AA62>*(*)(::PVOID, ::Struct_2_7250B7BB9413AA62))((::PBYTE)hIl2Cpp + CLASS_1_4F29D84C295B255D_METHOD_1_C1FE64DAEC64B939_OFFSET))(this, a1);
+	}
+};

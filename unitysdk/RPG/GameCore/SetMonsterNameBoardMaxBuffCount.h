@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_SETMONSTERNAMEBOARDMAXBUFFCOUNT_METHOD_3_2BADAA0059901804_OFFSET UNITYSDK_OFFSET(0x176D7F80)
+#define RPG_GAMECORE_SETMONSTERNAMEBOARDMAXBUFFCOUNT_METHOD_3_F405D86277BDD325_OFFSET UNITYSDK_OFFSET(0x176D8000)
+#define RPG_GAMECORE_SETMONSTERNAMEBOARDMAXBUFFCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x176D7FD0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int SetMonsterNameBoardMaxBuffCount_TypeDefinitionIndex = 21689;
+
+	class SetMonsterNameBoardMaxBuffCount : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::UInt32 MaxBuffCount; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERNAMEBOARDMAXBUFFCOUNT__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_2BADAA0059901804(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterNameBoardMaxBuffCount*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterNameBoardMaxBuffCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERNAMEBOARDMAXBUFFCOUNT_METHOD_3_2BADAA0059901804_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_F405D86277BDD325(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterNameBoardMaxBuffCount* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterNameBoardMaxBuffCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERNAMEBOARDMAXBUFFCOUNT_METHOD_3_F405D86277BDD325_OFFSET))(a1, a2);
+		}
+	};
+}

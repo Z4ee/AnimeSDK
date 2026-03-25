@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Collider.h"
+
+namespace UnityEngine { class TerrainData; }
+
+#define UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET UNITYSDK_OFFSET(0x18ABEAE0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int TerrainCollider_TypeDefinitionIndex = 5524;
+
+	class TerrainCollider : public ::UnityEngine::Collider
+	{
+	public:
+		::System::Void set_terrainData(::UnityEngine::TerrainData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET))(this, value);
+		}
+	};
+}

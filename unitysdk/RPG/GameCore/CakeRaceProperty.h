@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int CakeRaceProperty_TypeDefinitionIndex = 16821;
+
+	enum class CakeRaceProperty : ::System::Int32
+	{
+		None = 0,
+		ChargedJumpHeight = 1,
+		MinAIWaitTime = 2,
+		MaxAIWaitTime = 3,
+		FrozenCounter = 4,
+		AIModWaitTime = 5,
+		ImmuneStun = 6,
+		TrapSpeedFactor = 7,
+		UseItemCdFactor = 8,
+		CatAbilityCdFactor = 9,
+		StunCounter = 10,
+		AIBaseWaitTimeAdd = 11,
+		GetWinCoinWhenVotedCatLast = 12,
+		TrashAddAIWaitTime = 13,
+		ModAddAIWaitTime = 14,
+		RobinDynamicRadius = 15,
+		RobinDrinkinWaitTime = 16,
+		TrapState = 17,
+		ImmuneTrashStun = 18,
+		LastCatBetOddFactor = 19,
+		OnlyAllowSpecialBet = 20,
+		TrashDynamicRadius = 21,
+		FoodAddAIWaitTime = 22,
+		LockCatAddAIWaitTime = 23,
+		ToiletTransferToCat = 24,
+		RocketChangedAIWaitTime = 25,
+		GravityDecCounter = 26,
+		SleepLockerCounter = 27,
+		FoodCounter = 28,
+		AllowFoodCounter = 29,
+		MoveCurveType = 52,
+		MoveReason = 53,
+		IsPathFindLookAside = 54,
+		BewitchedCounter = 56,
+		RouletteCounter = 57,
+		ImmuneFoodTemptation = 58,
+		WaitSleepTime = 59,
+		FoodSpiled = 60,
+		LockCatSpeedUp = 61,
+		IceSlideAdd = 62,
+		BounceAutoChangeDir = 63,
+		BubbleState = 64,
+		CellDropZ = 65,
+		SlienceCounter = 66,
+		ItemEffectCounter = 67,
+		ImmuneCellDebuff = 68,
+		StepOnCatID = 69,
+		GroundedCount = 70,
+		HitMute = 71,
+		SoftStopping = 72,
+	};
+}

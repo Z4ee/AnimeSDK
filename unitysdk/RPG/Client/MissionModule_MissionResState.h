@@ -1,0 +1,137 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class ICollection_1; }
+
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_DELETEFINISHEDMISSIONRES_OFFSET UNITYSDK_OFFSET(0x9BEC680)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_GETDELETESIZE_OFFSET UNITYSDK_OFFSET(0x9BEC5C0)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_GETDOWNLOADSIZE_OFFSET UNITYSDK_OFFSET(0x9BEC620)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_GETFINISHEDMISSIONIDS_OFFSET UNITYSDK_OFFSET(0x9BEC230)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ISAUTOCLEARMISSIONRES_OFFSET UNITYSDK_OFFSET(0x9BEC060)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ISFUNCTIONENABLED_OFFSET UNITYSDK_OFFSET(0x9BEBE60)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ISSHOWCLEARMISSIONRESREDDOT_OFFSET UNITYSDK_OFFSET(0x9BEC310)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_LOCKINFINISHEDMISSIONIDS_OFFSET UNITYSDK_OFFSET(0x9BEC270)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_MARKCLEARMISSIONRESSHOWN_OFFSET UNITYSDK_OFFSET(0x9BEC350)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ONMAINMISSIONFINISHED_OFFSET UNITYSDK_OFFSET(0x9BEAE40)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_RESTOREMISSIONRES_OFFSET UNITYSDK_OFFSET(0x9BEC430)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_SETAUTOCLEARMISSIONRES_OFFSET UNITYSDK_OFFSET(0x9BEC810)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_TRYAUTOSAVEFINISHEDMISSIONTOLOCAL_OFFSET UNITYSDK_OFFSET(0x9BEC130)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_UPDATESTATEBYFINISHEDMISSION_OFFSET UNITYSDK_OFFSET(0x9BD6200)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__CHECKMISSIONRESSIZE_OFFSET UNITYSDK_OFFSET(0x9BEBF00)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9BE2E90)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__RECOMMENDDELETESIZE_OFFSET UNITYSDK_OFFSET(0x9BECB00)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__RESETFINISHEDMISSIONTOLOCAL_OFFSET UNITYSDK_OFFSET(0x9BECAA0)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__SAVEFINISHEDMISSIONTOLOCAL_OFFSET UNITYSDK_OFFSET(0x9BEC1D0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MissionModule_MissionResState_TypeDefinitionIndex = 53765;
+
+	class MissionModule_MissionResState : public ::System::Object
+	{
+	public:
+		// static const ::System::String* _CLEAR_MISSION_RES_SIZE; // 0x0
+		// static const ::System::UInt32 _DEFAULT_CLEAR_MISSION_RES_SIZE = 0x40000000; // 0x0
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _ContainsResMissionIDs; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _FinishedMissionIDs; // 0x18
+		::System::Boolean _ShowClearMissionResReddot; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Boolean IsFunctionEnabled()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ISFUNCTIONENABLED_OFFSET))();
+		}
+
+		::System::Void UpdateStateByFinishedMission(::System::Collections::Generic::ICollection_1<::System::UInt32>* finishedMissionIDs)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_UPDATESTATEBYFINISHEDMISSION_OFFSET))(this, finishedMissionIDs);
+		}
+
+		::System::Void TryAutoSaveFinishedMissionToLocal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_TRYAUTOSAVEFINISHEDMISSIONTOLOCAL_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* GetFinishedMissionIDs()
+		{
+			return ((::System::Collections::Generic::HashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_GETFINISHEDMISSIONIDS_OFFSET))(this);
+		}
+
+		::System::Void LockInFinishedMissionIDs()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_LOCKINFINISHEDMISSIONIDS_OFFSET))(this);
+		}
+
+		::System::Void OnMainMissionFinished(::System::UInt32 missionID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ONMAINMISSIONFINISHED_OFFSET))(this, missionID);
+		}
+
+		::System::Boolean IsShowClearMissionResRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ISSHOWCLEARMISSIONRESREDDOT_OFFSET))(this);
+		}
+
+		::System::Void MarkClearMissionResShown()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_MARKCLEARMISSIONRESSHOWN_OFFSET))(this);
+		}
+
+		::System::Void RestoreMissionRes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_RESTOREMISSIONRES_OFFSET))(this);
+		}
+
+		::System::Int64 GetDeleteSize()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_GETDELETESIZE_OFFSET))(this);
+		}
+
+		::System::Int64 GetDownloadSize()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_GETDOWNLOADSIZE_OFFSET))(this);
+		}
+
+		::System::Void DeleteFinishedMissionRes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_DELETEFINISHEDMISSIONRES_OFFSET))(this);
+		}
+
+		::System::Void SetAutoClearMissionRes(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_SETAUTOCLEARMISSIONRES_OFFSET))(this, value);
+		}
+
+		::System::Boolean IsAutoClearMissionRes()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE_ISAUTOCLEARMISSIONRES_OFFSET))(this);
+		}
+
+		::System::Void _ResetFinishedMissionToLocal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__RESETFINISHEDMISSIONTOLOCAL_OFFSET))(this);
+		}
+
+		::System::Void _SaveFinishedMissionToLocal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__SAVEFINISHEDMISSIONTOLOCAL_OFFSET))(this);
+		}
+
+		::System::Void _CheckMissionResSize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__CHECKMISSIONRESSIZE_OFFSET))(this);
+		}
+
+		::System::UInt32 _RecommendDeleteSize()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONRESSTATE__RECOMMENDDELETESIZE_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class IMissionChroniclePathUnlockConditionData; }
+namespace System { class String; }
+
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9BBFE30)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_EQUALS_OFFSET UNITYSDK_OFFSET(0x9BBFD90)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9BBFF50)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_GET_CONDITIONTEXT_OFFSET UNITYSDK_OFFSET(0x9BBFFD0)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_GET_REQUIREDLEVEL_OFFSET UNITYSDK_OFFSET(0x9BBFFC0)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x9BBFD80)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x9BC0150)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9BC0160)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionData_PlayerLevel_TypeDefinitionIndex = 53745;
+
+	class MissionChroniclePathUnlockConditionData_PlayerLevel : public ::System::Object
+	{
+	public:
+		::System::UInt32 _RequiredLevel_k__BackingField; // 0x10
+
+		::System::Void _ctor(::System::UInt32 requiredLevel)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL__CTOR_OFFSET))(this, requiredLevel);
+		}
+
+		::System::Boolean Equals(::RPG::Client::IMissionChroniclePathUnlockConditionData* other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IMissionChroniclePathUnlockConditionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_EQUALS_OFFSET))(this, other);
+		}
+
+		::System::Boolean Equals_1(::System::Object* obj)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_EQUALS_1_OFFSET))(this, obj);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RequiredLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_GET_REQUIREDLEVEL_OFFSET))(this);
+		}
+
+		::System::String* get_ConditionText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL_GET_CONDITIONTEXT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+		}
+
+		::System::Int32 __iFixBaseProxy_GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONDATA_PLAYERLEVEL___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
+		}
+	};
+}

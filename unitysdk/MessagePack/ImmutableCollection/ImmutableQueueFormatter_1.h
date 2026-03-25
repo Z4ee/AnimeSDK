@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MessagePack/Formatters/CollectionFormatterBase_3.h"
+
+namespace MessagePack { class MessagePackSerializerOptions; }
+namespace MessagePack::ImmutableCollection { template <typename T> class ImmutableQueueBuilder_1; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableQueue_1; }
+
+namespace MessagePack::ImmutableCollection
+{
+	inline static constexpr unsigned int ImmutableQueueFormatter_1_TypeDefinitionIndex = 9214;
+
+	template <typename T>
+	class ImmutableQueueFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::MessagePack::ImmutableCollection::ImmutableQueueBuilder_1<T>*, ::System::Collections::Immutable::ImmutableQueue_1<T>*>
+	{
+	public:
+	};
+}

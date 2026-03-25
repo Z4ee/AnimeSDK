@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FateParameterConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class MiParameterConfigBase; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_METHOD_6_4D1480D58C5D18D4_OFFSET UNITYSDK_OFFSET(0x171CA380)
+#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_METHOD_6_B08999DDC038DBA5_OFFSET UNITYSDK_OFFSET(0x171CA190)
+#define RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171CA2C0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FateParamGetMapValueConfig_TypeDefinitionIndex = 15248;
+
+	class FateParamGetMapValueConfig : public ::RPG::GameCore::FateParameterConfigBase
+	{
+	public:
+		::RPG::GameCore::MiParameterConfigBase* Key; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ConfigMap; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_6_B08999DDC038DBA5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamGetMapValueConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamGetMapValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_METHOD_6_B08999DDC038DBA5_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_6_4D1480D58C5D18D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamGetMapValueConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamGetMapValueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMGETMAPVALUECONFIG_METHOD_6_4D1480D58C5D18D4_OFFSET))(a1, a2);
+		}
+	};
+}

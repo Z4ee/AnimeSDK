@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
+namespace System { class Object; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8F37AD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x8F378F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x8F372F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_1C4DCEC4A71E9244_OFFSET UNITYSDK_OFFSET(0x8F38330)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_2C95AFAD0256302F_1_OFFSET UNITYSDK_OFFSET(0x8F37780)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x8F37610)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_7C7377C794E8973C_1_OFFSET UNITYSDK_OFFSET(0x8F37CE0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_7C7377C794E8973C_OFFSET UNITYSDK_OFFSET(0x8F37BC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0x8F383D0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x8F373C0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_EA3847E5520B6A95_OFFSET UNITYSDK_OFFSET(0x8F38090)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_RESET_OFFSET UNITYSDK_OFFSET(0x8F37B60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8F38430)
+
+namespace RPG::Client::ActivityHipplen
+{
+	inline static constexpr unsigned int HipplenInteractCameraController_TypeDefinitionIndex = 61726;
+
+	class HipplenInteractCameraController : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Single Field_5_0; // 0x18
+		::System::Single Field_5_1; // 0x1C
+		::UnityEngine::Transform* Field_5_2; // 0x20
+		::System::Nullable_1<::UnityEngine::Vector2> Field_5_3; // 0x28
+		::UnityEngine::Quaternion Field_5_4; // 0x34
+		::UnityEngine::Vector2 _CamRotatorMin; // 0x44
+		::UnityEngine::Vector2 _CamRotatorMax; // 0x4C
+		::UnityEngine::Vector2 _Speed; // 0x54
+		::System::Single _Sensitivity; // 0x5C
+		::System::Single _ControllerSpeed; // 0x60
+		::System::Single _ControllerSensitivity; // 0x64
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void Init(::RPG::Client::ActivityHipplen::ActivityHipplenMainController* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenMainController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_INIT_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_RESET_OFFSET))(this);
+		}
+
+		::System::Void Method_5_2C95AFAD0256302F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_2C95AFAD0256302F_OFFSET))(this);
+		}
+
+		::System::Void Method_5_2C95AFAD0256302F_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_2C95AFAD0256302F_1_OFFSET))(this);
+		}
+
+		::System::Void Method_5_C638E91FC0D3A13A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_C638E91FC0D3A13A_OFFSET))(this);
+		}
+
+		::System::Void Method_5_7C7377C794E8973C(::UnityEngine::Vector2 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_7C7377C794E8973C_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_7C7377C794E8973C_1(::UnityEngine::Vector2 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_7C7377C794E8973C_1_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Quaternion Method_5_EA3847E5520B6A95(::UnityEngine::Quaternion a1)
+		{
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_EA3847E5520B6A95_OFFSET))(this, a1);
+		}
+
+		::System::Single Method_5_1C4DCEC4A71E9244(::System::Single a1)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_1C4DCEC4A71E9244_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_7DD84EAFF333A1E4(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTCAMERACONTROLLER_METHOD_5_7DD84EAFF333A1E4_OFFSET))(this, a1);
+		}
+	};
+}

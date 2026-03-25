@@ -1,0 +1,1100 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_45.h"
+#include "unitysdk/Enum_3_5AA38DC400740F29.h"
+#include "unitysdk/Enum_3_A35B38E5F9115A76.h"
+#include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/RPG/Client/ItemData_ProductPlatformType.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/InventorySortType.h"
+#include "unitysdk/RPG/GameCore/ItemMainType.h"
+#include "unitysdk/RPG/GameCore/ItemRarity.h"
+#include "unitysdk/RPG/GameCore/ItemSubType.h"
+
+class Class_1_2082E9EA190FF46D;
+class Class_1_674176EEAAE6CBB1;
+class Class_1_6BE2B761968BD3A4;
+class Class_1_732AF221927F3BE0_1;
+class Class_1_735612C94F558EAE_42;
+class Class_1_735612C94F558EAE_94;
+class Class_1_9F4DE0130D72755A_5;
+class Class_1_9F4DE0130D72755A_6;
+class Class_1_BD570EF86E624FB1_5;
+class Class_1_E14A0A1A8B1F847C_3;
+class Class_1_EBB10EC01CCC4716;
+class Class_1_EBB10EC01CCC4716_17;
+class Class_1_F0C489C2AF70EC4F;
+class Class_1_FA4F4A67B1C04320_459;
+class Class_1_FA4F4A67B1C04320_680;
+class Class_1_FA4F4A67B1C04320_911;
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace Proto { class ItemList; }
+namespace Proto { class PileItem; }
+namespace RPG::Client { class AetherSkillCoreItemData; }
+namespace RPG::Client { class ConvertibleItemData; }
+namespace RPG::Client { class EquipmentItemData; }
+namespace RPG::Client { class ItemAutoConversionRecord; }
+namespace RPG::Client { class ItemData; }
+namespace RPG::Client { class ItemDisplayData; }
+namespace RPG::Client { class RelicItemData; }
+namespace RPG::GameCore { class InventoryTabRow; }
+namespace RPG::GameCore { class ItemComefromRow; }
+namespace RPG::GameCore { class ItemRarityConfigRow; }
+namespace RPG::GameCore { class ItemRow; }
+namespace RPG::GameCore { class ItemUseDataRow; }
+namespace System { class Object; }
+namespace System { template <typename T> class Predicate_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_INVENTORYMODULE_CHECKISHEROAVATAREIDOLONITEMTYPE_OFFSET UNITYSDK_OFFSET(0x9956A70)
+#define RPG_CLIENT_INVENTORYMODULE_CHECKUSEITEM_OFFSET UNITYSDK_OFFSET(0x9953760)
+#define RPG_CLIENT_INVENTORYMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9952AB0)
+#define RPG_CLIENT_INVENTORYMODULE_ENABLESETFAVORITE_OFFSET UNITYSDK_OFFSET(0x994F630)
+#define RPG_CLIENT_INVENTORYMODULE_FINDALLEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x9954000)
+#define RPG_CLIENT_INVENTORYMODULE_FINDEQUIPMENT_OFFSET UNITYSDK_OFFSET(0x9953E90)
+#define RPG_CLIENT_INVENTORYMODULE_FINDTABIDBYITEMID_OFFSET UNITYSDK_OFFSET(0x9954F10)
+#define RPG_CLIENT_INVENTORYMODULE_GETAETHERSKILLCOREITEMDATABYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9956C00)
+#define RPG_CLIENT_INVENTORYMODULE_GETCONVERTIBLEITEMDATABYITEMID_OFFSET UNITYSDK_OFFSET(0x9957730)
+#define RPG_CLIENT_INVENTORYMODULE_GETCONVERTIBLEITEMDATABYITEMSUBTYPE_OFFSET UNITYSDK_OFFSET(0x9957650)
+#define RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTDATABYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9953D50)
+#define RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTDATABYUID_OFFSET UNITYSDK_OFFSET(0x99541E0)
+#define RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTMAXRANKANDCOUNTBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9953BD0)
+#define RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTMAXRANKBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9953A70)
+#define RPG_CLIENT_INVENTORYMODULE_GETFOODCOUNTBYCONSUMETYPEID_OFFSET UNITYSDK_OFFSET(0x994E620)
+#define RPG_CLIENT_INVENTORYMODULE_GETFOODITEMSBYCONSUMETYPE_OFFSET UNITYSDK_OFFSET(0x994EC40)
+#define RPG_CLIENT_INVENTORYMODULE_GETFOODITEMSBYMAZEBUFFPOOL_OFFSET UNITYSDK_OFFSET(0x99557B0)
+#define RPG_CLIENT_INVENTORYMODULE_GETHCOINCONFIGID_OFFSET UNITYSDK_OFFSET(0x9957B50)
+#define RPG_CLIENT_INVENTORYMODULE_GETINVENTORYTABITEMS_OFFSET UNITYSDK_OFFSET(0x99551D0)
+#define RPG_CLIENT_INVENTORYMODULE_GETISPILEBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x99575D0)
+#define RPG_CLIENT_INVENTORYMODULE_GETISPILEBYITEMMAINTYPE_OFFSET UNITYSDK_OFFSET(0x9957DD0)
+#define RPG_CLIENT_INVENTORYMODULE_GETISPILEBYITEMSUBTYPE_OFFSET UNITYSDK_OFFSET(0x9955BB0)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMAUTOCONVERSIONRECORDS_OFFSET UNITYSDK_OFFSET(0x99563B0)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMCOMEFROM_OFFSET UNITYSDK_OFFSET(0x9958190)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMCOUNTAFTERDELETEBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9953230)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMCOUNTBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x99531D0)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMDATABYCONFIGID_OFFSET UNITYSDK_OFFSET(0x994F430)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMDATABYUID_OFFSET UNITYSDK_OFFSET(0x99539B0)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMRARITYCONFIG_OFFSET UNITYSDK_OFFSET(0x9957940)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMROW_OFFSET UNITYSDK_OFFSET(0x9957810)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMSBYMAINTYPES_OFFSET UNITYSDK_OFFSET(0x994D910)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMSBYSUBTYPES_OFFSET UNITYSDK_OFFSET(0x994E330)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMSBYSUBTYPE_OFFSET UNITYSDK_OFFSET(0x9954460)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMSINTYPES_OFFSET UNITYSDK_OFFSET(0x9954510)
+#define RPG_CLIENT_INVENTORYMODULE_GETITEMUSEDATAROWBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9957E20)
+#define RPG_CLIENT_INVENTORYMODULE_GETLIGHTCONECOUNT_OFFSET UNITYSDK_OFFSET(0x9954940)
+#define RPG_CLIENT_INVENTORYMODULE_GETLIGHTCONEITEMSMAXNUM_OFFSET UNITYSDK_OFFSET(0x9957BD0)
+#define RPG_CLIENT_INVENTORYMODULE_GETMPITEMS_OFFSET UNITYSDK_OFFSET(0x994E390)
+#define RPG_CLIENT_INVENTORYMODULE_GETONETIMESYNCITEMAUTOCONVERSIONRECORD_OFFSET UNITYSDK_OFFSET(0x9956400)
+#define RPG_CLIENT_INVENTORYMODULE_GETPILEITEMS_OFFSET UNITYSDK_OFFSET(0x9955730)
+#define RPG_CLIENT_INVENTORYMODULE_GETQUICKCONSUMABLEITEMBYCONSUMETYPE_OFFSET UNITYSDK_OFFSET(0x994F2E0)
+#define RPG_CLIENT_INVENTORYMODULE_GETQUICKCONSUMABLEITEMIDBYCONSUMETYPE_OFFSET UNITYSDK_OFFSET(0x994F160)
+#define RPG_CLIENT_INVENTORYMODULE_GETQUICKCONSUMABLEITEMS_OFFSET UNITYSDK_OFFSET(0x994E880)
+#define RPG_CLIENT_INVENTORYMODULE_GETRELICDATABYUID_OFFSET UNITYSDK_OFFSET(0x9954320)
+#define RPG_CLIENT_INVENTORYMODULE_GETRELICITEMSMAXNUM_OFFSET UNITYSDK_OFFSET(0x9957CD0)
+#define RPG_CLIENT_INVENTORYMODULE_GETRESBARCOUNTBYCONFIGID_OFFSET UNITYSDK_OFFSET(0x9953460)
+#define RPG_CLIENT_INVENTORYMODULE_GETREVIVEITEMS_OFFSET UNITYSDK_OFFSET(0x994E0E0)
+#define RPG_CLIENT_INVENTORYMODULE_GETREWARDITEMDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0x9957E80)
+#define RPG_CLIENT_INVENTORYMODULE_GETSORTTYPENAME_OFFSET UNITYSDK_OFFSET(0x9957A00)
+#define RPG_CLIENT_INVENTORYMODULE_GETSUPERRARELIGHTCONECOUNT_OFFSET UNITYSDK_OFFSET(0x9954A00)
+#define RPG_CLIENT_INVENTORYMODULE_GETUNIQUEITEMSCOUNTBYMAINTYPE_OFFSET UNITYSDK_OFFSET(0x9955610)
+#define RPG_CLIENT_INVENTORYMODULE_GETUNIQUEITEMSCOUNT_OFFSET UNITYSDK_OFFSET(0x99555A0)
+#define RPG_CLIENT_INVENTORYMODULE_GETUNIQUEITEMS_OFFSET UNITYSDK_OFFSET(0x9955770)
+#define RPG_CLIENT_INVENTORYMODULE_GET_GOTOLOCATEITEMDATA_OFFSET UNITYSDK_OFFSET(0x9960110)
+#define RPG_CLIENT_INVENTORYMODULE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x9960090)
+#define RPG_CLIENT_INVENTORYMODULE_GET_ITEMVISIBALEPREDICATE_OFFSET UNITYSDK_OFFSET(0x99600F0)
+#define RPG_CLIENT_INVENTORYMODULE_GET_QUICKCONSUMABLEITEMS_OFFSET UNITYSDK_OFFSET(0x99506F0)
+#define RPG_CLIENT_INVENTORYMODULE_GET__QUICKCONSUMABLEFEATURECLOSED_OFFSET UNITYSDK_OFFSET(0x9950750)
+#define RPG_CLIENT_INVENTORYMODULE_HASITEMINSUBTYPE_OFFSET UNITYSDK_OFFSET(0x9955A40)
+#define RPG_CLIENT_INVENTORYMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x9950F90)
+#define RPG_CLIENT_INVENTORYMODULE_ISCOMEFROMVALID_OFFSET UNITYSDK_OFFSET(0x99585C0)
+#define RPG_CLIENT_INVENTORYMODULE_ISFAVORITEFOODREACHMAX_OFFSET UNITYSDK_OFFSET(0x994E080)
+#define RPG_CLIENT_INVENTORYMODULE_ISFAVORITENEW_OFFSET UNITYSDK_OFFSET(0x994F6E0)
+#define RPG_CLIENT_INVENTORYMODULE_ISITEMCONVERSIONED_OFFSET UNITYSDK_OFFSET(0x9956540)
+#define RPG_CLIENT_INVENTORYMODULE_ISITEMEXPIRED_OFFSET UNITYSDK_OFFSET(0x9956140)
+#define RPG_CLIENT_INVENTORYMODULE_ISITEMIMPORTHINTBYID_OFFSET UNITYSDK_OFFSET(0x9958140)
+#define RPG_CLIENT_INVENTORYMODULE_ISITEMIMPORTHINT_OFFSET UNITYSDK_OFFSET(0x9958070)
+#define RPG_CLIENT_INVENTORYMODULE_ISQUICKCONSUMABLETURNSWITCHOPEN_1_OFFSET UNITYSDK_OFFSET(0x994EF40)
+#define RPG_CLIENT_INVENTORYMODULE_ISQUICKCONSUMABLETURNSWITCHOPEN_OFFSET UNITYSDK_OFFSET(0x994EEA0)
+#define RPG_CLIENT_INVENTORYMODULE_ISREWARDITEMREACHPILELIMIT_OFFSET UNITYSDK_OFFSET(0x9956D50)
+#define RPG_CLIENT_INVENTORYMODULE_LOCKALLEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x994DDD0)
+#define RPG_CLIENT_INVENTORYMODULE_ONEXPIREDITEMSSHOWN_OFFSET UNITYSDK_OFFSET(0x9955C00)
+#define RPG_CLIENT_INVENTORYMODULE_RECORDEXPIREDITEMS_1_OFFSET UNITYSDK_OFFSET(0x995DFA0)
+#define RPG_CLIENT_INVENTORYMODULE_RECORDEXPIREDITEMS_OFFSET UNITYSDK_OFFSET(0x995DC30)
+#define RPG_CLIENT_INVENTORYMODULE_SENDCANCELAUTOCONVERSIONCACHECSREQ_OFFSET UNITYSDK_OFFSET(0x9956450)
+#define RPG_CLIENT_INVENTORYMODULE_SENDPACKETSAFTERLOGINFINISHED_OFFSET UNITYSDK_OFFSET(0x9952FF0)
+#define RPG_CLIENT_INVENTORYMODULE_SETITEMVISIBLEPREDICATE_OFFSET UNITYSDK_OFFSET(0x9956D00)
+#define RPG_CLIENT_INVENTORYMODULE_SETTURNFOODSWITCH_1_OFFSET UNITYSDK_OFFSET(0x994F030)
+#define RPG_CLIENT_INVENTORYMODULE_SETTURNFOODSWITCH_OFFSET UNITYSDK_OFFSET(0x994EFD0)
+#define RPG_CLIENT_INVENTORYMODULE_SET_GOTOLOCATEITEMDATA_OFFSET UNITYSDK_OFFSET(0x9960120)
+#define RPG_CLIENT_INVENTORYMODULE_SET_ITEMVISIBALEPREDICATE_OFFSET UNITYSDK_OFFSET(0x9960100)
+#define RPG_CLIENT_INVENTORYMODULE_SYNCVIRTUALITEMNUM_OFFSET UNITYSDK_OFFSET(0x9956AD0)
+#define RPG_CLIENT_INVENTORYMODULE_TRYGETEXPIREDDISPLAYITEMS_OFFSET UNITYSDK_OFFSET(0x9955D90)
+#define RPG_CLIENT_INVENTORYMODULE_TRYGETEXPIREDITEMS_OFFSET UNITYSDK_OFFSET(0x9955E20)
+#define RPG_CLIENT_INVENTORYMODULE_TRYGETEXPIREDTIMEBYITEMID_OFFSET UNITYSDK_OFFSET(0x9956330)
+#define RPG_CLIENT_INVENTORYMODULE_TRYHANDLEREBATEITEMS_OFFSET UNITYSDK_OFFSET(0x995D600)
+#define RPG_CLIENT_INVENTORYMODULE_TRYSETEXPIREDTIME_OFFSET UNITYSDK_OFFSET(0x995B760)
+#define RPG_CLIENT_INVENTORYMODULE_TRYSHOWEXPIREDITEMS_OFFSET UNITYSDK_OFFSET(0x9955FF0)
+#define RPG_CLIENT_INVENTORYMODULE_TRYSHOWUSEBPITEMHINT_OFFSET UNITYSDK_OFFSET(0x995D7F0)
+#define RPG_CLIENT_INVENTORYMODULE_TRYSHOWUSEMONTHCARDITEMHINT_OFFSET UNITYSDK_OFFSET(0x995D660)
+#define RPG_CLIENT_INVENTORYMODULE_UNLOCKALLEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x994D650)
+#define RPG_CLIENT_INVENTORYMODULE_UNLOCKALLRANKMAXEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x994D990)
+#define RPG_CLIENT_INVENTORYMODULE_UPDATEAETHERSKILLCORE_OFFSET UNITYSDK_OFFSET(0x9958B20)
+#define RPG_CLIENT_INVENTORYMODULE_UPDATEAETHERSPIRITFRAGMENT_OFFSET UNITYSDK_OFFSET(0x99595E0)
+#define RPG_CLIENT_INVENTORYMODULE_USEFOODITEM_OFFSET UNITYSDK_OFFSET(0x99537D0)
+#define RPG_CLIENT_INVENTORYMODULE_USEGIFTPACKITEM_OFFSET UNITYSDK_OFFSET(0x99538E0)
+#define RPG_CLIENT_INVENTORYMODULE_USEITEM_OFFSET UNITYSDK_OFFSET(0x99535F0)
+#define RPG_CLIENT_INVENTORYMODULE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x9958DF0)
+#define RPG_CLIENT_INVENTORYMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x995E360)
+#define RPG_CLIENT_INVENTORYMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x995E3A0)
+#define RPG_CLIENT_INVENTORYMODULE__ADDUNIQUEITEMS_OFFSET UNITYSDK_OFFSET(0x995ADE0)
+#define RPG_CLIENT_INVENTORYMODULE__CHECKPLATFORMBOUNDGIFT_OFFSET UNITYSDK_OFFSET(0x995D260)
+#define RPG_CLIENT_INVENTORYMODULE__CHECKUSEITEMBP_OFFSET UNITYSDK_OFFSET(0x995CF70)
+#define RPG_CLIENT_INVENTORYMODULE__CHECKUSEITEM_OFFSET UNITYSDK_OFFSET(0x9953710)
+#define RPG_CLIENT_INVENTORYMODULE__CLEAREXCEPTVIRTUALITEMS_OFFSET UNITYSDK_OFFSET(0x9959830)
+#define RPG_CLIENT_INVENTORYMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x9950830)
+#define RPG_CLIENT_INVENTORYMODULE__DEFAULTVISIBLEPREDICATE_OFFSET UNITYSDK_OFFSET(0x995E310)
+#define RPG_CLIENT_INVENTORYMODULE__DELETEEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x995C350)
+#define RPG_CLIENT_INVENTORYMODULE__DELETERELICS_OFFSET UNITYSDK_OFFSET(0x995C980)
+#define RPG_CLIENT_INVENTORYMODULE__GETCURRENTPLATFORMTYPE_OFFSET UNITYSDK_OFFSET(0x995D510)
+#define RPG_CLIENT_INVENTORYMODULE__INITCONVERTIBLEITEM_OFFSET UNITYSDK_OFFSET(0x99521E0)
+#define RPG_CLIENT_INVENTORYMODULE__INITHEROAVATAREIDOLONITEMIDLIST_OFFSET UNITYSDK_OFFSET(0x9952360)
+#define RPG_CLIENT_INVENTORYMODULE__INITMAINTYPEFILTER_OFFSET UNITYSDK_OFFSET(0x9951C50)
+#define RPG_CLIENT_INVENTORYMODULE__INITSUBTYPEFILTER_OFFSET UNITYSDK_OFFSET(0x99516C0)
+#define RPG_CLIENT_INVENTORYMODULE__INITVIRTUALITEM_OFFSET UNITYSDK_OFFSET(0x99511D0)
+#define RPG_CLIENT_INVENTORYMODULE__ISITEMREACHLIMIT_OFFSET UNITYSDK_OFFSET(0x9957480)
+#define RPG_CLIENT_INVENTORYMODULE__ONCANCELMARKITEMNOTIFY_OFFSET UNITYSDK_OFFSET(0x994F970)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDADDEQUIPMENTSCRSP_OFFSET UNITYSDK_OFFSET(0x995FF00)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDDESTROYITEMSCRSP_OFFSET UNITYSDK_OFFSET(0x995FDC0)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDEXPUPEQUIPMENTSCRSP_OFFSET UNITYSDK_OFFSET(0x995F640)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDEXPUPRELICSCRSP_OFFSET UNITYSDK_OFFSET(0x995F940)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDGETBAGSCRSP_OFFSET UNITYSDK_OFFSET(0x995E870)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDGETRECYLETIMESCRSP_OFFSET UNITYSDK_OFFSET(0x995EAB0)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDLOCKEQUIPMENTSCRSP_OFFSET UNITYSDK_OFFSET(0x995F8F0)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDLOCKRELICSCRSP_OFFSET UNITYSDK_OFFSET(0x995FBE0)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDPLAYERLOGINSCRSP_OFFSET UNITYSDK_OFFSET(0x995EA10)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDPLAYERSYNCSCNOTIFY_OFFSET UNITYSDK_OFFSET(0x995EE10)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDPROMOTEEQUIPMENTSCRSP_OFFSET UNITYSDK_OFFSET(0x995F830)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDRANKUPEQUIPMENTSCRSP_OFFSET UNITYSDK_OFFSET(0x995F890)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDSELLITEMSCRSP_OFFSET UNITYSDK_OFFSET(0x995FC30)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDSETTURNFOODSWITCHSCRSP_OFFSET UNITYSDK_OFFSET(0x994FF10)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDSYNCTURNFOODNOTIFY_OFFSET UNITYSDK_OFFSET(0x994FF60)
+#define RPG_CLIENT_INVENTORYMODULE__ONCMDUSEITEMSCRSP_OFFSET UNITYSDK_OFFSET(0x995F160)
+#define RPG_CLIENT_INVENTORYMODULE__ONDISCARDRELICSCRSP_OFFSET UNITYSDK_OFFSET(0x995FB30)
+#define RPG_CLIENT_INVENTORYMODULE__ONGENERALVIRTUALITEMDATANOTIFY_OFFSET UNITYSDK_OFFSET(0x995FFC0)
+#define RPG_CLIENT_INVENTORYMODULE__ONGETMARKITEMLISTSCRSP_OFFSET UNITYSDK_OFFSET(0x994FAF0)
+#define RPG_CLIENT_INVENTORYMODULE__ONGETPLAYERBOARDDATASCRSP_OFFSET UNITYSDK_OFFSET(0x995FE50)
+#define RPG_CLIENT_INVENTORYMODULE__ONMARKITEMSCRSP_OFFSET UNITYSDK_OFFSET(0x994F790)
+#define RPG_CLIENT_INVENTORYMODULE__ONSTAMINAINFOSCNOTIFY_OFFSET UNITYSDK_OFFSET(0x995EDA0)
+#define RPG_CLIENT_INVENTORYMODULE__PROCESSNEWMATERIALITEM_OFFSET UNITYSDK_OFFSET(0x995B630)
+#define RPG_CLIENT_INVENTORYMODULE__RECORDITEMAUTOCONVERSION_OFFSET UNITYSDK_OFFSET(0x99565B0)
+#define RPG_CLIENT_INVENTORYMODULE__RECORDONETIMESYNCITEMAUTOCONVERSION_OFFSET UNITYSDK_OFFSET(0x9956960)
+#define RPG_CLIENT_INVENTORYMODULE__REMOVEITEMBYSUBTYPE_OFFSET UNITYSDK_OFFSET(0x9959EE0)
+#define RPG_CLIENT_INVENTORYMODULE__REMOVEITEM_OFFSET UNITYSDK_OFFSET(0x9959240)
+#define RPG_CLIENT_INVENTORYMODULE__RESETMAINTYPEFILTER_OFFSET UNITYSDK_OFFSET(0x9954BC0)
+#define RPG_CLIENT_INVENTORYMODULE__RESETSUBTYPEFILTER_OFFSET UNITYSDK_OFFSET(0x9954D20)
+#define RPG_CLIENT_INVENTORYMODULE__SYNCGENERALVIRTUALITEMS_OFFSET UNITYSDK_OFFSET(0x995CDC0)
+#define RPG_CLIENT_INVENTORYMODULE__SYNCQUICKCONSUMABLEITEM_OFFSET UNITYSDK_OFFSET(0x9950030)
+#define RPG_CLIENT_INVENTORYMODULE__SYNCQUICKCONSUMABLETURNSWITCH_OFFSET UNITYSDK_OFFSET(0x9950370)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEBASICMODULE_OFFSET UNITYSDK_OFFSET(0x995A2C0)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEEQUIPMENTS_OFFSET UNITYSDK_OFFSET(0x995C0E0)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEHEADICONS_OFFSET UNITYSDK_OFFSET(0x995ABF0)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEMATERIALS_OFFSET UNITYSDK_OFFSET(0x995B360)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEPERSONALCARDS_OFFSET UNITYSDK_OFFSET(0x995CB50)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEPETSUMMONITEMS_OFFSET UNITYSDK_OFFSET(0x995B190)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEPILEITEMWITHCOUNT_OFFSET UNITYSDK_OFFSET(0x9959680)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEPLATFORMBOUNDGIFTS_OFFSET UNITYSDK_OFFSET(0x995B870)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEPLAYERBOARDMODULE_OFFSET UNITYSDK_OFFSET(0x995A3B0)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATERELICS_OFFSET UNITYSDK_OFFSET(0x995C520)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATESTAMINAINFO_OFFSET UNITYSDK_OFFSET(0x995A320)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEVIRTUALITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x995A1B0)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEVIRTUALITEMS_OFFSET UNITYSDK_OFFSET(0x995A110)
+#define RPG_CLIENT_INVENTORYMODULE__UPDATEWAITDELRESOUCE_OFFSET UNITYSDK_OFFSET(0x995CB90)
+#define RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9960250)
+#define RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x99601C0)
+#define RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x9960260)
+#define RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x99602C0)
+#define RPG_CLIENT_INVENTORYMODULE___SYNCQUICKCONSUMABLEITEM_B__22_0_OFFSET UNITYSDK_OFFSET(0x9960130)
+#define RPG_CLIENT_INVENTORYMODULE___SYNCQUICKCONSUMABLETURNSWITCH_B__23_0_OFFSET UNITYSDK_OFFSET(0x9960160)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int InventoryModule_TypeDefinitionIndex = 53351;
+
+	class InventoryModule : public ::RPG::Client::BaseModule
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::UInt32>* _FavoriteFoodItems; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ConvertibleItemData*>* _ConvertibleItems; // 0x18
+		::System::Collections::Generic::HashSet_1<::Enum_3_0A3761FE34514D6C_45>* _QuickConsumableSwitches; // 0x20
+		::System::Predicate_1<::System::UInt32>* _ItemVisibalePredicate_k__BackingField; // 0x28
+		::RPG::GameCore::InventoryTabRow* _ConsumableRow; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt64>* _ExpiredTimes; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* _FoundItemDatasCache; // 0x40
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ItemSubType, ::System::Boolean>* _SubTypeFilter; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemData*>* _UniqueItems; // 0x50
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::ItemSubType>* _UniqueItemSubTypes; // 0x58
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ItemMainType, ::System::Boolean>* _MainTypeFilter; // 0x60
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::ItemSubType>* _PileItemSubTypes; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemData*>* _PileItems; // 0x70
+		::System::Collections::Generic::List_1<::System::UInt32>* _HeroAvatarEidolonItemIdList; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemDisplayData*>* _ExpiredItems; // 0x80
+		::RPG::Client::ItemAutoConversionRecord* _OneTimeSyncItemAutoConversionRecord; // 0x88
+		::RPG::Client::ItemData* _GotoLocateItemData_k__BackingField; // 0x90
+		::System::Collections::Generic::List_1<::System::UInt32>* _QuickConsumbaleItems; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _UniqueItemCountDict; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _WaitDelItemCount; // 0xA8
+		::System::Collections::Generic::List_1<::System::UInt32>* _EmptyList; // 0xB0
+		::System::Collections::Generic::List_1<::RPG::Client::ItemAutoConversionRecord*>* _ItemAutoConversionRecords; // 0xB8
+		::System::UInt32 _FavoriteFoodMaxCount; // 0xC0
+		::System::Int32 LastOpenTabIndex; // 0xC4
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void UnlockAllEquipments(::RPG::GameCore::ItemRarity targetRarity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_UNLOCKALLEQUIPMENTS_OFFSET))(this, targetRarity);
+		}
+
+		::System::Void UnlockAllRankMaxEquipments(::RPG::GameCore::ItemRarity limitRarity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_UNLOCKALLRANKMAXEQUIPMENTS_OFFSET))(this, limitRarity);
+		}
+
+		::System::Void LockAllEquipments(::RPG::GameCore::ItemRarity limitRarity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_LOCKALLEQUIPMENTS_OFFSET))(this, limitRarity);
+		}
+
+		::System::Boolean IsFavoriteFoodReachMax()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISFAVORITEFOODREACHMAX_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetReviveItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETREVIVEITEMS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetMPItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETMPITEMS_OFFSET))(this);
+		}
+
+		::System::UInt32 GetFoodCountByConsumeTypeID(::System::UInt32 consumeTypeID, ::System::Boolean limitActivityCount, ::System::UInt32 activityCount)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETFOODCOUNTBYCONSUMETYPEID_OFFSET))(this, consumeTypeID, limitActivityCount, activityCount);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetQuickConsumableItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETQUICKCONSUMABLEITEMS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetFoodItemsByConsumeType(::System::UInt32 consumeType)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETFOODITEMSBYCONSUMETYPE_OFFSET))(this, consumeType);
+		}
+
+		::System::Boolean IsQuickConsumableTurnSwitchOpen(::System::UInt32 switchType)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISQUICKCONSUMABLETURNSWITCHOPEN_OFFSET))(this, switchType);
+		}
+
+		::System::Boolean IsQuickConsumableTurnSwitchOpen_1(::Enum_3_0A3761FE34514D6C_45 switchType)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_45))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISQUICKCONSUMABLETURNSWITCHOPEN_1_OFFSET))(this, switchType);
+		}
+
+		::System::Void SetTurnFoodSwitch(::System::UInt32 switchType, ::System::Boolean isOpen)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SETTURNFOODSWITCH_OFFSET))(this, switchType, isOpen);
+		}
+
+		::System::Void SetTurnFoodSwitch_1(::Enum_3_0A3761FE34514D6C_45 switchType, ::System::Boolean isOpen)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_45, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SETTURNFOODSWITCH_1_OFFSET))(this, switchType, isOpen);
+		}
+
+		::System::UInt32 GetQuickConsumableItemIDByConsumeType(::System::UInt32 consumeType)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETQUICKCONSUMABLEITEMIDBYCONSUMETYPE_OFFSET))(this, consumeType);
+		}
+
+		::RPG::Client::ItemData* GetQuickConsumableItemByConsumeType(::System::UInt32 consumeType)
+		{
+			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETQUICKCONSUMABLEITEMBYCONSUMETYPE_OFFSET))(this, consumeType);
+		}
+
+		::System::Boolean EnableSetFavorite(::RPG::GameCore::ItemSubType subtype)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemSubType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ENABLESETFAVORITE_OFFSET))(this, subtype);
+		}
+
+		::System::Boolean IsFavoriteNew(::System::UInt32 itemIDA, ::System::UInt32 itemIDB)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISFAVORITENEW_OFFSET))(this, itemIDA, itemIDB);
+		}
+
+		::System::Void _OnMarkItemScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONMARKITEMSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCancelMarkItemNotify(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCANCELMARKITEMNOTIFY_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnGetMarkItemListScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONGETMARKITEMLISTSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSetTurnFoodSwitchScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDSETTURNFOODSWITCHSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSyncTurnFoodNotify(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDSYNCTURNFOODNOTIFY_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Boolean _SyncQuickConsumableItem(::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* rspTurnFoodItemIdList)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__SYNCQUICKCONSUMABLEITEM_OFFSET))(this, rspTurnFoodItemIdList);
+		}
+
+		::System::Boolean _SyncQuickConsumableTurnSwitch(::Google::Protobuf::Collections::RepeatedField_1<::Enum_3_0A3761FE34514D6C_45>* openSlotList)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Enum_3_0A3761FE34514D6C_45>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__SYNCQUICKCONSUMABLETURNSWITCH_OFFSET))(this, openSlotList);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_QuickConsumableItems()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GET_QUICKCONSUMABLEITEMS_OFFSET))(this);
+		}
+
+		::System::Boolean get__QuickConsumableFeatureClosed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GET__QUICKCONSUMABLEFEATURECLOSED_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void SendPacketsAfterLoginFinished()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SENDPACKETSAFTERLOGINFINISHED_OFFSET))(this);
+		}
+
+		::System::UInt32 GetItemCountByConfigID(::System::UInt32 configID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMCOUNTBYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::System::Int64 GetItemCountAfterDeleteByConfigID(::System::UInt32 configID)
+		{
+			return ((::System::Int64(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMCOUNTAFTERDELETEBYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::System::Int64 GetResBarCountByConfigID(::System::UInt32 configID)
+		{
+			return ((::System::Int64(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETRESBARCOUNTBYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::System::Void UseItem(::System::UInt32 configID, ::System::UInt32 useItemCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_USEITEM_OFFSET))(this, configID, useItemCount);
+		}
+
+		::System::Boolean CheckUseItem(::System::UInt32 itemID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_CHECKUSEITEM_OFFSET))(this, itemID);
+		}
+
+		::System::Void UseFoodItem(::System::UInt32 itemID, ::System::UInt32 count, ::System::UInt32 useAvatarId, ::Enum_3_A35B38E5F9115A76 avatarType, ::System::Boolean openTurnFoodSwitch)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::Enum_3_A35B38E5F9115A76, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_USEFOODITEM_OFFSET))(this, itemID, count, useAvatarId, avatarType, openTurnFoodSwitch);
+		}
+
+		::System::Void UseGiftPackItem(::System::UInt32 itemID, ::System::UInt32 count, ::System::UInt32 optionalRewardID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_USEGIFTPACKITEM_OFFSET))(this, itemID, count, optionalRewardID);
+		}
+
+		::RPG::Client::ItemData* GetItemDataByConfigID(::System::UInt32 configID)
+		{
+			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMDATABYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::RPG::Client::ItemData* GetItemDataByUID(::System::UInt32 UID)
+		{
+			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMDATABYUID_OFFSET))(this, UID);
+		}
+
+		::System::UInt32 GetEquipmentMaxRankByConfigID(::System::UInt32 configID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTMAXRANKBYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::System::Void GetEquipmentMaxRankAndCountByConfigID(::System::UInt32 configID, ::System::UInt32& maxRank, ::System::UInt32& count)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTMAXRANKANDCOUNTBYCONFIGID_OFFSET))(this, configID, maxRank, count);
+		}
+
+		::RPG::Client::EquipmentItemData* GetEquipmentDataByConfigID(::System::UInt32 configID)
+		{
+			return ((::RPG::Client::EquipmentItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTDATABYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::RPG::Client::EquipmentItemData* FindEquipment(::System::Predicate_1<::RPG::Client::EquipmentItemData*>* predicate)
+		{
+			return ((::RPG::Client::EquipmentItemData*(*)(::PVOID, ::System::Predicate_1<::RPG::Client::EquipmentItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_FINDEQUIPMENT_OFFSET))(this, predicate);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::EquipmentItemData*>* FindAllEquipments(::System::Predicate_1<::RPG::Client::EquipmentItemData*>* predicate)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::EquipmentItemData*>*(*)(::PVOID, ::System::Predicate_1<::RPG::Client::EquipmentItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_FINDALLEQUIPMENTS_OFFSET))(this, predicate);
+		}
+
+		::RPG::Client::EquipmentItemData* GetEquipmentDataByUID(::System::UInt32 UID)
+		{
+			return ((::RPG::Client::EquipmentItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETEQUIPMENTDATABYUID_OFFSET))(this, UID);
+		}
+
+		::RPG::Client::RelicItemData* GetRelicDataByUID(::System::UInt32 UID)
+		{
+			return ((::RPG::Client::RelicItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETRELICDATABYUID_OFFSET))(this, UID);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetItemsBySubType(::RPG::GameCore::ItemSubType subType)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::RPG::GameCore::ItemSubType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMSBYSUBTYPE_OFFSET))(this, subType);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetItemsBySubTypes(::Il2CppArray<::RPG::GameCore::ItemSubType>* subTypes)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemSubType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMSBYSUBTYPES_OFFSET))(this, subTypes);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetItemsByMainTypes(::Il2CppArray<::RPG::GameCore::ItemMainType>* mainTypes)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemMainType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMSBYMAINTYPES_OFFSET))(this, mainTypes);
+		}
+
+		::System::Int32 GetLightConeCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETLIGHTCONECOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 GetSuperRareLightConeCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETSUPERRARELIGHTCONECOUNT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetItemsInTypes(::Il2CppArray<::RPG::GameCore::ItemMainType>* mainTypes, ::Il2CppArray<::RPG::GameCore::ItemSubType>* subTypes)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemMainType>*, ::Il2CppArray<::RPG::GameCore::ItemSubType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMSINTYPES_OFFSET))(this, mainTypes, subTypes);
+		}
+
+		::System::UInt32 FindTabIDByItemID(::System::UInt32 itemID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_FINDTABIDBYITEMID_OFFSET))(this, itemID);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetInventoryTabItems(::RPG::GameCore::InventoryTabRow* inventoryTabRow)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::RPG::GameCore::InventoryTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETINVENTORYTABITEMS_OFFSET))(this, inventoryTabRow);
+		}
+
+		::System::Int32 GetUniqueItemsCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETUNIQUEITEMSCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 GetUniqueItemsCountByMainType(::RPG::GameCore::ItemMainType mainType)
+		{
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::ItemMainType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETUNIQUEITEMSCOUNTBYMAINTYPE_OFFSET))(this, mainType);
+		}
+
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemData*>* GetPileItems()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETPILEITEMS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemData*>* GetUniqueItems()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETUNIQUEITEMS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetFoodItemsByMazeBuffPool(::System::UInt32 mazeBuffPool)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETFOODITEMSBYMAZEBUFFPOOL_OFFSET))(this, mazeBuffPool);
+		}
+
+		::System::Boolean HasItemInSubType(::System::UInt32 typeInt)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_HASITEMINSUBTYPE_OFFSET))(this, typeInt);
+		}
+
+		::System::Void OnExpiredItemsShown()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ONEXPIREDITEMSSHOWN_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* TryGetExpiredDisplayItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYGETEXPIREDDISPLAYITEMS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* TryGetExpiredItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYGETEXPIREDITEMS_OFFSET))(this);
+		}
+
+		::System::Void TryShowExpiredItems()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYSHOWEXPIREDITEMS_OFFSET))(this);
+		}
+
+		::System::Boolean IsItemExpired(::System::UInt32 id)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISITEMEXPIRED_OFFSET))(this, id);
+		}
+
+		::System::UInt64 TryGetExpiredTimeByItemID(::System::UInt32 id)
+		{
+			return ((::System::UInt64(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYGETEXPIREDTIMEBYITEMID_OFFSET))(this, id);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemAutoConversionRecord*>* GetItemAutoConversionRecords()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemAutoConversionRecord*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMAUTOCONVERSIONRECORDS_OFFSET))(this);
+		}
+
+		::RPG::Client::ItemAutoConversionRecord* GetOneTimeSyncItemAutoConversionRecord()
+		{
+			return ((::RPG::Client::ItemAutoConversionRecord*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETONETIMESYNCITEMAUTOCONVERSIONRECORD_OFFSET))(this);
+		}
+
+		::System::Void SendCancelAutoConversionCacheCsReq()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SENDCANCELAUTOCONVERSIONCACHECSREQ_OFFSET))(this);
+		}
+
+		::System::Boolean IsItemConversioned(::System::UInt32 configID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISITEMCONVERSIONED_OFFSET))(this, configID);
+		}
+
+		::System::Void _RecordItemAutoConversion(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_674176EEAAE6CBB1*>* conversionRecords)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_674176EEAAE6CBB1*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__RECORDITEMAUTOCONVERSION_OFFSET))(this, conversionRecords);
+		}
+
+		::System::Void _RecordOneTimeSyncItemAutoConversion(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_6BE2B761968BD3A4*>* conversionMappings)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_6BE2B761968BD3A4*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__RECORDONETIMESYNCITEMAUTOCONVERSION_OFFSET))(this, conversionMappings);
+		}
+
+		::System::Boolean CheckIsHeroAvatarEidolonItemType(::System::UInt32 eidolonID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_CHECKISHEROAVATAREIDOLONITEMTYPE_OFFSET))(this, eidolonID);
+		}
+
+		::System::Void SyncVirtualItemNum(::System::UInt32 itemID, ::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SYNCVIRTUALITEMNUM_OFFSET))(this, itemID, value);
+		}
+
+		::RPG::Client::AetherSkillCoreItemData* GetAetherSkillCoreItemDataByConfigID(::System::UInt32 configID)
+		{
+			return ((::RPG::Client::AetherSkillCoreItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETAETHERSKILLCOREITEMDATABYCONFIGID_OFFSET))(this, configID);
+		}
+
+		::System::Void SetItemVisiblePredicate(::System::Predicate_1<::System::UInt32>* predicate)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Predicate_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SETITEMVISIBLEPREDICATE_OFFSET))(this, predicate);
+		}
+
+		::System::Boolean IsRewardItemReachPileLimit(::System::Collections::Generic::List_1<::System::UInt32>* rewardIDList)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISREWARDITEMREACHPILELIMIT_OFFSET))(this, rewardIDList);
+		}
+
+		::System::Boolean _IsItemReachLimit(::RPG::Client::ItemDisplayData* item)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ItemDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ISITEMREACHLIMIT_OFFSET))(this, item);
+		}
+
+		::RPG::Client::ConvertibleItemData* GetConvertibleItemDataByitemSubType(::RPG::GameCore::ItemSubType itemSubType)
+		{
+			return ((::RPG::Client::ConvertibleItemData*(*)(::PVOID, ::RPG::GameCore::ItemSubType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETCONVERTIBLEITEMDATABYITEMSUBTYPE_OFFSET))(this, itemSubType);
+		}
+
+		::RPG::Client::ConvertibleItemData* GetConvertibleItemDataByItemID(::System::UInt32 itemID)
+		{
+			return ((::RPG::Client::ConvertibleItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETCONVERTIBLEITEMDATABYITEMID_OFFSET))(this, itemID);
+		}
+
+		static ::RPG::GameCore::ItemRow* GetItemRow(::System::UInt32 configID)
+		{
+			return ((::RPG::GameCore::ItemRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMROW_OFFSET))(configID);
+		}
+
+		static ::RPG::GameCore::ItemRarityConfigRow* GetItemRarityConfig(::RPG::GameCore::ItemRarity rarity)
+		{
+			return ((::RPG::GameCore::ItemRarityConfigRow*(*)(::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMRARITYCONFIG_OFFSET))(rarity);
+		}
+
+		static ::RPG::Client::TextID GetSortTypeName(::RPG::GameCore::InventorySortType sortType)
+		{
+			return ((::RPG::Client::TextID(*)(::RPG::GameCore::InventorySortType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETSORTTYPENAME_OFFSET))(sortType);
+		}
+
+		static ::System::UInt32 GetHCoinConfigID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETHCOINCONFIGID_OFFSET))();
+		}
+
+		static ::System::Int32 GetLightConeItemsMaxNum()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETLIGHTCONEITEMSMAXNUM_OFFSET))();
+		}
+
+		static ::System::Int32 GetRelicItemsMaxNum()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETRELICITEMSMAXNUM_OFFSET))();
+		}
+
+		static ::System::Boolean GetIsPileByConfigID(::System::UInt32 ConfigID)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETISPILEBYCONFIGID_OFFSET))(ConfigID);
+		}
+
+		static ::System::Boolean GetIsPileByItemMainType(::RPG::GameCore::ItemMainType type)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::ItemMainType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETISPILEBYITEMMAINTYPE_OFFSET))(type);
+		}
+
+		static ::System::Boolean GetIsPileByItemSubType(::RPG::GameCore::ItemSubType type)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::ItemSubType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETISPILEBYITEMSUBTYPE_OFFSET))(type);
+		}
+
+		static ::RPG::GameCore::ItemUseDataRow* GetItemUseDataRowByConfigID(::System::UInt32 configID)
+		{
+			return ((::RPG::GameCore::ItemUseDataRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMUSEDATAROWBYCONFIGID_OFFSET))(configID);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* GetRewardItemDisplayData(::Proto::ItemList* reward)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETREWARDITEMDISPLAYDATA_OFFSET))(reward);
+		}
+
+		static ::System::Boolean IsItemImportHint(::RPG::GameCore::ItemRow* itemRow)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::ItemRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISITEMIMPORTHINT_OFFSET))(itemRow);
+		}
+
+		static ::System::Boolean IsItemImportHintByID(::System::UInt32 configID)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISITEMIMPORTHINTBYID_OFFSET))(configID);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::ItemComefromRow*>* GetItemComeFrom(::System::UInt32 itemID)
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::ItemComefromRow*>*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GETITEMCOMEFROM_OFFSET))(itemID);
+		}
+
+		static ::System::Boolean IsComeFromValid(::RPG::GameCore::ItemComefromRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::ItemComefromRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_ISCOMEFROMVALID_OFFSET))(row);
+		}
+
+		::System::Void UpdateAetherSkillCore(::System::UInt32 itemID, ::System::UInt32 Count, ::System::Boolean isFromLogin, ::System::UInt32 belongSpiritID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_UPDATEAETHERSKILLCORE_OFFSET))(this, itemID, Count, isFromLogin, belongSpiritID);
+		}
+
+		::System::Void UpdateAetherSpiritFragment(::System::UInt32 spiritId, ::System::UInt32 Count, ::System::Boolean isFromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_UPDATEAETHERSPIRITFRAGMENT_OFFSET))(this, spiritId, Count, isFromLogin);
+		}
+
+		::System::Void _ClearExceptVirtualItems(::Class_1_732AF221927F3BE0_1* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_732AF221927F3BE0_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__CLEAREXCEPTVIRTUALITEMS_OFFSET))(this, rsp);
+		}
+
+		::System::Void _InitVirtualItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__INITVIRTUALITEM_OFFSET))(this);
+		}
+
+		::System::Void _InitSubTypeFilter()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__INITSUBTYPEFILTER_OFFSET))(this);
+		}
+
+		::System::Void _InitMainTypeFilter()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__INITMAINTYPEFILTER_OFFSET))(this);
+		}
+
+		::System::Void _InitConvertibleItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__INITCONVERTIBLEITEM_OFFSET))(this);
+		}
+
+		::System::Void _InitHeroAvatarEidolonItemIdList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__INITHEROAVATAREIDOLONITEMIDLIST_OFFSET))(this);
+		}
+
+		::System::Void _ResetSubTypeFilter(::Il2CppArray<::RPG::GameCore::ItemSubType>* subTypes)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemSubType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__RESETSUBTYPEFILTER_OFFSET))(this, subTypes);
+		}
+
+		::System::Void _ResetMainTypeFilter(::Il2CppArray<::RPG::GameCore::ItemMainType>* mainTypes)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemMainType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__RESETMAINTYPEFILTER_OFFSET))(this, mainTypes);
+		}
+
+		::System::Void _AddItem(::RPG::Client::ItemData* itemData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ADDITEM_OFFSET))(this, itemData);
+		}
+
+		::System::Void _RemoveItem(::RPG::Client::ItemData* itemData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__REMOVEITEM_OFFSET))(this, itemData);
+		}
+
+		::System::Void _RemoveItemBySubType(::RPG::GameCore::ItemSubType type)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemSubType))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__REMOVEITEMBYSUBTYPE_OFFSET))(this, type);
+		}
+
+		::System::Void _UpdateVirtualItems(::Class_1_EBB10EC01CCC4716* basicInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_EBB10EC01CCC4716*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEVIRTUALITEMS_OFFSET))(this, basicInfo);
+		}
+
+		::System::Void _UpdateBasicModule(::Class_1_FA4F4A67B1C04320_911* basicModuleSync)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_911*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEBASICMODULE_OFFSET))(this, basicModuleSync);
+		}
+
+		::System::Void _UpdateStaminaInfo(::Class_1_BD570EF86E624FB1_5* notify)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_BD570EF86E624FB1_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATESTAMINAINFO_OFFSET))(this, notify);
+		}
+
+		::System::Void _UpdatePlayerBoardModule(::Class_1_F0C489C2AF70EC4F* moduleSync)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F0C489C2AF70EC4F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEPLAYERBOARDMODULE_OFFSET))(this, moduleSync);
+		}
+
+		::System::Void _UpdateVirtualItemCount(::Enum_3_5AA38DC400740F29 virtualItemType, ::System::UInt32 count)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_5AA38DC400740F29, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEVIRTUALITEMCOUNT_OFFSET))(this, virtualItemType, count);
+		}
+
+		::System::Void _UpdatePetSummonItems(::Class_1_735612C94F558EAE_94* info, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_735612C94F558EAE_94*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEPETSUMMONITEMS_OFFSET))(this, info, fromLogin);
+		}
+
+		::System::Void _AddUniqueItems(::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* itemIDs, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ADDUNIQUEITEMS_OFFSET))(this, itemIDs, fromLogin);
+		}
+
+		::System::Void _UpdateMaterials(::Il2CppArray<::Class_1_9F4DE0130D72755A_5*>* materialList, ::System::Boolean& isRedDotItemChanged, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_9F4DE0130D72755A_5*>*, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEMATERIALS_OFFSET))(this, materialList, isRedDotItemChanged, fromLogin);
+		}
+
+		::System::Void _ProcessNewMaterialItem(::RPG::Client::ItemData* itemData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__PROCESSNEWMATERIALITEM_OFFSET))(this, itemData);
+		}
+
+		::System::Void _UpdatePlatformBoundGifts(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_735612C94F558EAE_42*>* giftList, ::System::Boolean& isRedDotItemChanged, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_735612C94F558EAE_42*>*, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEPLATFORMBOUNDGIFTS_OFFSET))(this, giftList, isRedDotItemChanged, fromLogin);
+		}
+
+		::System::Void _UpdateEquipments(::System::Collections::Generic::IList_1<::Class_1_EBB10EC01CCC4716_17*>* equipmentList, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_EBB10EC01CCC4716_17*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEEQUIPMENTS_OFFSET))(this, equipmentList, fromLogin);
+		}
+
+		::System::Void _DeleteEquipments(::System::Collections::Generic::IList_1<::System::UInt32>* equipmentList)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__DELETEEQUIPMENTS_OFFSET))(this, equipmentList);
+		}
+
+		::System::Void _UpdateRelics(::System::Collections::Generic::IList_1<::Class_1_E14A0A1A8B1F847C_3*>* relicList, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_E14A0A1A8B1F847C_3*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATERELICS_OFFSET))(this, relicList, fromLogin);
+		}
+
+		::System::Void _DeleteRelics(::System::Collections::Generic::IList_1<::System::UInt32>* relicUIDList)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__DELETERELICS_OFFSET))(this, relicUIDList);
+		}
+
+		::System::Void _UpdateHeadIcons(::Il2CppArray<::Class_1_FA4F4A67B1C04320_680*>* headIconIDList, ::System::Boolean fromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_FA4F4A67B1C04320_680*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEHEADICONS_OFFSET))(this, headIconIDList, fromLogin);
+		}
+
+		::System::Void _UpdatePersonalCards()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEPERSONALCARDS_OFFSET))(this);
+		}
+
+		::System::Void _UpdateWaitDelResouce(::Il2CppArray<::Class_1_FA4F4A67B1C04320_459*>* waitDelResourceList)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_FA4F4A67B1C04320_459*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEWAITDELRESOUCE_OFFSET))(this, waitDelResourceList);
+		}
+
+		::System::Void _SyncGeneralVirtualItems(::System::Collections::Generic::IReadOnlyList_1<::Proto::PileItem*>* virtualItems)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Proto::PileItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__SYNCGENERALVIRTUALITEMS_OFFSET))(this, virtualItems);
+		}
+
+		::System::Boolean _CheckUseItem(::System::UInt32 itemID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__CHECKUSEITEM_OFFSET))(this, itemID);
+		}
+
+		::System::Boolean _CheckUseItemBP(::System::UInt32 itemID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__CHECKUSEITEMBP_OFFSET))(this, itemID);
+		}
+
+		::System::Boolean _CheckPlatformBoundGift(::System::UInt32 itemID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__CHECKPLATFORMBOUNDGIFT_OFFSET))(this, itemID);
+		}
+
+		::RPG::Client::ItemData_ProductPlatformType _GetCurrentPlatformType()
+		{
+			return ((::RPG::Client::ItemData_ProductPlatformType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__GETCURRENTPLATFORMTYPE_OFFSET))(this);
+		}
+
+		::System::Void TryhandleRebateItems(::Class_1_2082E9EA190FF46D* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2082E9EA190FF46D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYHANDLEREBATEITEMS_OFFSET))(this, rsp);
+		}
+
+		::System::Void TryShowUseMonthCardItemHint(::Class_1_2082E9EA190FF46D* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2082E9EA190FF46D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYSHOWUSEMONTHCARDITEMHINT_OFFSET))(this, rsp);
+		}
+
+		::System::Void TryShowUseBPItemHint(::Class_1_2082E9EA190FF46D* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2082E9EA190FF46D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYSHOWUSEBPITEMHINT_OFFSET))(this, rsp);
+		}
+
+		::System::Void RecordExpiredItems(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_9F4DE0130D72755A_6*>* materials, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemDisplayData*>* targetDict)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_9F4DE0130D72755A_6*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_RECORDEXPIREDITEMS_OFFSET))(this, materials, targetDict);
+		}
+
+		::System::Void RecordExpiredItems_1(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_9F4DE0130D72755A_5*>* materials, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemDisplayData*>* targetDict)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_9F4DE0130D72755A_5*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_RECORDEXPIREDITEMS_1_OFFSET))(this, materials, targetDict);
+		}
+
+		::System::Void TrySetExpiredTime(::RPG::Client::ItemData* data, ::Class_1_9F4DE0130D72755A_5* material)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*, ::Class_1_9F4DE0130D72755A_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_TRYSETEXPIREDTIME_OFFSET))(this, data, material);
+		}
+
+		::System::Void _UpdatePileItemWithCount(::System::UInt32 configID, ::System::UInt32 Count, ::System::Boolean isFromLogin)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__UPDATEPILEITEMWITHCOUNT_OFFSET))(this, configID, Count, isFromLogin);
+		}
+
+		::System::Boolean _DefaultVisiblePredicate(::System::UInt32 id)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__DEFAULTVISIBLEPREDICATE_OFFSET))(this, id);
+		}
+
+		::System::Void _AddNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnCmdGetBagScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDGETBAGSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPlayerLoginScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDPLAYERLOGINSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdGetRecyleTimeScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDGETRECYLETIMESCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnStaminaInfoScNotify(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONSTAMINAINFOSCNOTIFY_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPlayerSyncScNotify(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDPLAYERSYNCSCNOTIFY_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdUseItemScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDUSEITEMSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdExpUpEquipmentScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDEXPUPEQUIPMENTSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdPromoteEquipmentScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDPROMOTEEQUIPMENTSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdRankUpEquipmentScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDRANKUPEQUIPMENTSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdLockEquipmentScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDLOCKEQUIPMENTSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdExpUpRelicScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDEXPUPRELICSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnDiscardRelicScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONDISCARDRELICSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdLockRelicScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDLOCKRELICSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdSellItemScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDSELLITEMSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdDestroyItemScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDDESTROYITEMSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnGetPlayerBoardDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONGETPLAYERBOARDDATASCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnCmdAddEquipmentScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONCMDADDEQUIPMENTSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _OnGeneralVirtualItemDataNotify(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE__ONGENERALVIRTUALITEMDATANOTIFY_OFFSET))(this, cmd, rspObject);
+		}
+
+		static ::RPG::Client::InventoryModule* get_Instance()
+		{
+			return ((::RPG::Client::InventoryModule*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GET_INSTANCE_OFFSET))();
+		}
+
+		::System::Predicate_1<::System::UInt32>* get_ItemVisibalePredicate()
+		{
+			return ((::System::Predicate_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GET_ITEMVISIBALEPREDICATE_OFFSET))(this);
+		}
+
+		::System::Void set_ItemVisibalePredicate(::System::Predicate_1<::System::UInt32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Predicate_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SET_ITEMVISIBALEPREDICATE_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ItemData* get_GotoLocateItemData()
+		{
+			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_GET_GOTOLOCATEITEMDATA_OFFSET))(this);
+		}
+
+		::System::Void set_GotoLocateItemData(::RPG::Client::ItemData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE_SET_GOTOLOCATEITEMDATA_OFFSET))(this, value);
+		}
+
+		::System::Boolean __SyncQuickConsumableItem_b__22_0(::System::UInt32 itemID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___SYNCQUICKCONSUMABLEITEM_B__22_0_OFFSET))(this, itemID);
+		}
+
+		::System::Boolean __SyncQuickConsumableTurnSwitch_b__23_0(::Enum_3_0A3761FE34514D6C_45 slot)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_45))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___SYNCQUICKCONSUMABLETURNSWITCH_B__23_0_OFFSET))(this, slot);
+		}
+
+		::System::Void __iFixBaseProxy_Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY_INIT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__AddNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+	};
+}

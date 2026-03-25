@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_5_TypeDefinitionIndex = 53909;
+
+struct alignas(8) Struct_2_52A902145F5BE513_5
+{
+	::System::UInt32 Field_2_0; // 0x10
+	::System::UInt32 Field_2_1; // 0x14
+	::System::UInt32 Field_2_2; // 0x18
+	::System::UInt32 Field_2_3; // 0x1C
+	::System::UInt32 Field_2_4; // 0x20
+	::System::UInt32 Field_2_5; // 0x24
+	::System::UInt32 Field_2_6; // 0x28
+	::System::UInt32 Field_2_7; // 0x2C
+	::System::UInt32 Field_2_8; // 0x30
+	::System::UInt32 Field_2_9; // 0x34
+	::System::UInt32 Field_2_10; // 0x38
+	::System::Int32 Field_2_11; // 0x3C
+	::System::Int32 Field_2_12; // 0x40
+	::System::Int32 Field_2_13; // 0x44
+	::System::Int32 Field_2_14; // 0x48
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_15; // 0x50
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_16; // 0x58
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_17; // 0x60
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_18; // 0x68
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_19; // 0x70
+};

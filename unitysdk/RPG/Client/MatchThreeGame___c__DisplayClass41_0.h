@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_352A8B3482C80E7D_23;
+namespace RPG::Client { class MatchThreeGameOpponent; }
+
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B395E0)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0___UPDATEROYALEPLAYERREALTIMEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B3FB80)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass41_0_TypeDefinitionIndex = 53560;
+
+	class MatchThreeGame___c__DisplayClass41_0 : public ::System::Object
+	{
+	public:
+		::Class_1_352A8B3482C80E7D_23* playerData; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean __UpdateRoyalePlayerRealTimeData_b__0(::RPG::Client::MatchThreeGameOpponent* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0___UPDATEROYALEPLAYERREALTIMEDATA_B__0_OFFSET))(this, x);
+		}
+	};
+}

@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_257D2AB33833F46E_METHOD_1_5CEC4607322705E5_1_OFFSET UNITYSDK_OFFSET(0x16896E30)
+#define CLASS_1_257D2AB33833F46E_METHOD_1_5CEC4607322705E5_2_OFFSET UNITYSDK_OFFSET(0x16896F70)
+#define CLASS_1_257D2AB33833F46E_METHOD_1_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0x16896DF0)
+#define CLASS_1_257D2AB33833F46E_METHOD_1_BE18C04CD91E0748_OFFSET UNITYSDK_OFFSET(0x16896E70)
+#define CLASS_1_257D2AB33833F46E_METHOD_1_E29D671E35F6F43F_OFFSET UNITYSDK_OFFSET(0x16896ED0)
+#define CLASS_1_257D2AB33833F46E__CTOR_OFFSET UNITYSDK_OFFSET(0x16896DE0)
+
+inline static constexpr unsigned int Class_1_257D2AB33833F46E_TypeDefinitionIndex = 33093;
+
+class Class_1_257D2AB33833F46E : public ::System::Object
+{
+public:
+	::System::UInt32 Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x14
+
+	::System::Void _ctor(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_257D2AB33833F46E__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_5CEC4607322705E5()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_257D2AB33833F46E_METHOD_1_5CEC4607322705E5_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_5CEC4607322705E5_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_257D2AB33833F46E_METHOD_1_5CEC4607322705E5_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BE18C04CD91E0748(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_257D2AB33833F46E_METHOD_1_BE18C04CD91E0748_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 Method_1_E29D671E35F6F43F(::System::UInt32 a1)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_257D2AB33833F46E_METHOD_1_E29D671E35F6F43F_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_5CEC4607322705E5_2()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_257D2AB33833F46E_METHOD_1_5CEC4607322705E5_2_OFFSET))(this);
+	}
+};

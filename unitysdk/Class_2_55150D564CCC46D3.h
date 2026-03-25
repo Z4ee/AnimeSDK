@@ -1,0 +1,178 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UIController.h"
+#include "unitysdk/RPG/Client/UILayer.h"
+#include "unitysdk/RPG/GameCore/FrameCaptureFadeoutType.h"
+
+class Class_1_2A8F67D376A2BFDB;
+class Class_1_52769F6D26C20191;
+class Class_2_4432DBC0FB214C3F;
+namespace System { class Object; }
+namespace UnityEngine { class RenderTexture; }
+
+#define CLASS_2_55150D564CCC46D3_GET_ACTIVEPAGE_OFFSET UNITYSDK_OFFSET(0xD156E90)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_091B1F0E0E06E7DD_OFFSET UNITYSDK_OFFSET(0xD157A90)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xD157540)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD1574D0)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_64B6514CFF8F8D76_OFFSET UNITYSDK_OFFSET(0xD1576D0)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD1578C0)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_B2D9320AA7823C96_OFFSET UNITYSDK_OFFSET(0xD157260)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD157480)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_E69F3DFB7CDFE412_OFFSET UNITYSDK_OFFSET(0xD157390)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_EDC2DAFF79E1DC9E_OFFSET UNITYSDK_OFFSET(0xD156FA0)
+#define CLASS_2_55150D564CCC46D3_METHOD_2_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0xD157A20)
+#define CLASS_2_55150D564CCC46D3_SET_ACTIVEPAGE_OFFSET UNITYSDK_OFFSET(0xD156EA0)
+#define CLASS_2_55150D564CCC46D3__ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0xD157760)
+#define CLASS_2_55150D564CCC46D3__CTOR_OFFSET UNITYSDK_OFFSET(0xD156EB0)
+#define CLASS_2_55150D564CCC46D3__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xD1575A0)
+#define CLASS_2_55150D564CCC46D3__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xD157950)
+#define CLASS_2_55150D564CCC46D3__ONTICK_OFFSET UNITYSDK_OFFSET(0xD157840)
+#define CLASS_2_55150D564CCC46D3__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xD157700)
+#define CLASS_2_55150D564CCC46D3__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xD1577D0)
+#define CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0xD157BA0)
+#define CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xD157AE0)
+#define CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xD157CD0)
+#define CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__ONTICK_OFFSET UNITYSDK_OFFSET(0xD157C60)
+#define CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xD157B40)
+#define CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xD157C00)
+
+inline static constexpr unsigned int Class_2_55150D564CCC46D3_TypeDefinitionIndex = 59653;
+
+class Class_2_55150D564CCC46D3 : public ::RPG::Client::UIController
+{
+public:
+	static ::Class_2_55150D564CCC46D3** StaticGet__ActivePage_k__BackingField()
+	{
+		return (::Class_2_55150D564CCC46D3**)Il2CppClass::FromTypeDefinitionIndex(Class_2_55150D564CCC46D3_TypeDefinitionIndex)->GetStaticField(0x12E90);
+	}
+	// static const ::System::Int32 Field_2_4 = 0x2; // 0x0
+	::Class_1_52769F6D26C20191* Field_2_3; // 0x180
+	::Class_1_2A8F67D376A2BFDB* Field_2_2; // 0x188
+	::System::Int32 Field_2_5; // 0x190
+	::System::Boolean Field_2_1; // 0x194
+
+	::System::Void _ctor(::RPG::Client::UILayer a1, ::UnityEngine::RenderTexture* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::UILayer, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	static ::Class_2_55150D564CCC46D3* get_ActivePage()
+	{
+		return ((::Class_2_55150D564CCC46D3*(*)())((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_GET_ACTIVEPAGE_OFFSET))();
+	}
+
+	static ::System::Void set_ActivePage(::Class_2_55150D564CCC46D3* value)
+	{
+		return ((::System::Void(*)(::Class_2_55150D564CCC46D3*))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_SET_ACTIVEPAGE_OFFSET))(value);
+	}
+
+	::System::Void Method_2_B2D9320AA7823C96(::System::Single a1, ::System::Single a2, ::RPG::GameCore::FrameCaptureFadeoutType a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::GameCore::FrameCaptureFadeoutType))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_B2D9320AA7823C96_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Void _CustomBindView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__CUSTOMBINDVIEW_OFFSET))(this);
+	}
+
+	::System::Void _SetupView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__SETUPVIEW_OFFSET))(this);
+	}
+
+	::System::Void _AddHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__ADDHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void _UnBindView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__UNBINDVIEW_OFFSET))(this);
+	}
+
+	::System::Void _OnTick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__ONTICK_OFFSET))(this, a1);
+	}
+
+	::System::Void _OnExitFinalStep()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3__ONEXITFINALSTEP_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E69F3DFB7CDFE412()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_E69F3DFB7CDFE412_OFFSET))(this);
+	}
+
+	::UnityEngine::RenderTexture* Method_2_EDC2DAFF79E1DC9E()
+	{
+		return ((::UnityEngine::RenderTexture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_EDC2DAFF79E1DC9E_OFFSET))(this);
+	}
+
+	::System::Single Method_2_FF7B2911BBACA4A9()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_FF7B2911BBACA4A9_OFFSET))(this);
+	}
+
+	::System::Void Method_2_091B1F0E0E06E7DD(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_091B1F0E0E06E7DD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::Class_2_4432DBC0FB214C3F* Method_2_64B6514CFF8F8D76()
+	{
+		return ((::Class_2_4432DBC0FB214C3F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3_METHOD_2_64B6514CFF8F8D76_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__CustomBindView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__CUSTOMBINDVIEW_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__SetupView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__SETUPVIEW_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__AddHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__ADDHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__UnBindView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__UNBINDVIEW_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnTick(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__ONTICK_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy__OnExitFinalStep()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_55150D564CCC46D3___IFIXBASEPROXY__ONEXITFINALSTEP_OFFSET))(this);
+	}
+};

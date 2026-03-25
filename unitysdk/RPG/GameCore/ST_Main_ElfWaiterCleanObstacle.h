@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/STTaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANOBSTACLE_METHOD_4_7F086B4821A6BFA9_OFFSET UNITYSDK_OFFSET(0x176840F0)
+#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANOBSTACLE_METHOD_4_EBCB5A4B777E0306_OFFSET UNITYSDK_OFFSET(0x17697210)
+#define RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x176840A0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ST_Main_ElfWaiterCleanObstacle_TypeDefinitionIndex = 19700;
+
+	class ST_Main_ElfWaiterCleanObstacle : public ::RPG::GameCore::STTaskConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANOBSTACLE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_4_EBCB5A4B777E0306(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanObstacle*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfWaiterCleanObstacle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANOBSTACLE_METHOD_4_EBCB5A4B777E0306_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_7F086B4821A6BFA9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanObstacle* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfWaiterCleanObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFWAITERCLEANOBSTACLE_METHOD_4_7F086B4821A6BFA9_OFFSET))(a1, a2);
+		}
+	};
+}

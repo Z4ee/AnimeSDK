@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PredicateConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ST_BYHASPATROLPATH_METHOD_4_4EF75EE25923E29B_OFFSET UNITYSDK_OFFSET(0x17693B30)
+#define RPG_GAMECORE_ST_BYHASPATROLPATH_METHOD_4_EEA1B1E98F2EBAF1_OFFSET UNITYSDK_OFFSET(0x17693C00)
+#define RPG_GAMECORE_ST_BYHASPATROLPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x17693BB0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ST_ByHasPatrolPath_TypeDefinitionIndex = 18347;
+
+	class ST_ByHasPatrolPath : public ::RPG::GameCore::PredicateConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYHASPATROLPATH__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_4_4EF75EE25923E29B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByHasPatrolPath*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByHasPatrolPath*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYHASPATROLPATH_METHOD_4_4EF75EE25923E29B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_EEA1B1E98F2EBAF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByHasPatrolPath* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByHasPatrolPath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYHASPATROLPATH_METHOD_4_EEA1B1E98F2EBAF1_OFFSET))(a1, a2);
+		}
+	};
+}

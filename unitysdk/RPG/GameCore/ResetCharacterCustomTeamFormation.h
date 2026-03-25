@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class TargetEvaluator; }
+
+#define RPG_GAMECORE_RESETCHARACTERCUSTOMTEAMFORMATION_METHOD_3_094DFF8477650635_OFFSET UNITYSDK_OFFSET(0x1759E360)
+#define RPG_GAMECORE_RESETCHARACTERCUSTOMTEAMFORMATION_METHOD_3_5B5C2486BBFC2169_OFFSET UNITYSDK_OFFSET(0x1759E3E0)
+#define RPG_GAMECORE_RESETCHARACTERCUSTOMTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1759E3B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ResetCharacterCustomTeamFormation_TypeDefinitionIndex = 20827;
+
+	class ResetCharacterCustomTeamFormation : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
+		::System::Boolean DelyRefresh; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETCHARACTERCUSTOMTEAMFORMATION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_094DFF8477650635(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetCharacterCustomTeamFormation*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetCharacterCustomTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETCHARACTERCUSTOMTEAMFORMATION_METHOD_3_094DFF8477650635_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_5B5C2486BBFC2169(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetCharacterCustomTeamFormation* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetCharacterCustomTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETCHARACTERCUSTOMTEAMFORMATION_METHOD_3_5B5C2486BBFC2169_OFFSET))(a1, a2);
+		}
+	};
+}

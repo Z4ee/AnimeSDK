@@ -1,0 +1,123 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_120319518E6F6581_119;
+namespace RPG::GameCore { class TrainPartySkillConfigRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_CLONE_OFFSET UNITYSDK_OFFSET(0xA60AD60)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_CREATEDEFAULTSKILL_OFFSET UNITYSDK_OFFSET(0xA60ACD0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_CREATESKILLWITHLEVEL_OFFSET UNITYSDK_OFFSET(0xA609270)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GETDESCTEXT_OFFSET UNITYSDK_OFFSET(0xA60ADE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_EFFECTIDARR_OFFSET UNITYSDK_OFFSET(0xA6024E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_ISLEVELMAX_OFFSET UNITYSDK_OFFSET(0xA60B060)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA60B020)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0xA60B040)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0xA60B000)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_SKILLROW_OFFSET UNITYSDK_OFFSET(0xA602FF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA60B030)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0xA60B050)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0xA60B010)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA608FD0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_UPDATESKILL_OFFSET UNITYSDK_OFFSET(0xA609040)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA60ACC0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA608FC0)
+
+namespace RPG::Client::TrainParty
+{
+	inline static constexpr unsigned int TrainPartyPassengerSkillInfo_TypeDefinitionIndex = 61133;
+
+	class TrainPartyPassengerSkillInfo : public ::System::Object
+	{
+	public:
+		::System::UInt32 _SkillID_k__BackingField; // 0x10
+		::System::UInt32 _MaxLevel_k__BackingField; // 0x14
+		::System::UInt32 _Level_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::System::UInt32 skillID, ::System::UInt32 level, ::System::UInt32 maxLevel)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO__CTOR_1_OFFSET))(this, skillID, level, maxLevel);
+		}
+
+		static ::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* CreateDefaultSkill(::System::UInt32 skillID)
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_CREATEDEFAULTSKILL_OFFSET))(skillID);
+		}
+
+		static ::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* CreateSkillWithLevel(::System::UInt32 skillID, ::System::UInt32 level)
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_CREATESKILLWITHLEVEL_OFFSET))(skillID, level);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* Clone()
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_CLONE_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_120319518E6F6581_119* serverInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_120319518E6F6581_119*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SYNC_OFFSET))(this, serverInfo);
+		}
+
+		::System::Void UpdateSkill(::Class_1_120319518E6F6581_119* serverInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_120319518E6F6581_119*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_UPDATESKILL_OFFSET))(this, serverInfo);
+		}
+
+		::System::String* GetDescText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GETDESCTEXT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SkillID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_SKILLID_OFFSET))(this);
+		}
+
+		::System::Void set_SkillID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SET_SKILLID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SET_LEVEL_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MaxLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_MAXLEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_MaxLevel(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_SET_MAXLEVEL_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsLevelMax()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_ISLEVELMAX_OFFSET))(this);
+		}
+
+		::RPG::GameCore::TrainPartySkillConfigRow* get_SkillRow()
+		{
+			return ((::RPG::GameCore::TrainPartySkillConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_SKILLROW_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_EffectIDArr()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLINFO_GET_EFFECTIDARR_OFFSET))(this);
+		}
+	};
+}

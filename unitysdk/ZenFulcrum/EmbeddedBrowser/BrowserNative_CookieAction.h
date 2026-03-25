@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace ZenFulcrum::EmbeddedBrowser
+{
+	inline static constexpr unsigned int BrowserNative_CookieAction_TypeDefinitionIndex = 30436;
+
+	enum class BrowserNative_CookieAction : ::System::Int32
+	{
+		Delete = 0,
+		Create = 1,
+	};
+}

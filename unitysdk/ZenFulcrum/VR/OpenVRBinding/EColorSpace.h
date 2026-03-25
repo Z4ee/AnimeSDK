@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace ZenFulcrum::VR::OpenVRBinding
+{
+	inline static constexpr unsigned int EColorSpace_TypeDefinitionIndex = 30258;
+
+	enum class EColorSpace : ::System::Int32
+	{
+		Auto = 0,
+		Gamma = 1,
+		Linear = 2,
+	};
+}

@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices::Sessions { class ActiveSessionCopyInfoOptions; }
+namespace System { class Object; }
+
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONCOPYINFOOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONCOPYINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x71110)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONCOPYINFOOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
+
+namespace Epic::OnlineServices::Sessions
+{
+	inline static constexpr unsigned int ActiveSessionCopyInfoOptionsInternal_TypeDefinitionIndex = 35402;
+
+	struct alignas(4) ActiveSessionCopyInfoOptionsInternal
+	{
+		::System::Int32 m_ApiVersion; // 0x10
+
+		::System::Void Set(::Epic::OnlineServices::Sessions::ActiveSessionCopyInfoOptions* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionCopyInfoOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONCOPYINFOOPTIONSINTERNAL_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONCOPYINFOOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONCOPYINFOOPTIONSINTERNAL_DISPOSE_OFFSET))(this);
+		}
+	};
+}

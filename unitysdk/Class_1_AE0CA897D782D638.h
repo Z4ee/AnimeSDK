@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LightConeRecommendType.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_AE0CA897D782D638__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D2D50)
+
+inline static constexpr unsigned int Class_1_AE0CA897D782D638_TypeDefinitionIndex = 54355;
+
+class Class_1_AE0CA897D782D638 : public ::System::Object
+{
+public:
+	::System::Single Field_1_1; // 0x10
+	::System::UInt32 Field_1_0; // 0x14
+	::RPG::Client::LightConeRecommendType Field_1_2; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE0CA897D782D638__CTOR_OFFSET))(this);
+	}
+};

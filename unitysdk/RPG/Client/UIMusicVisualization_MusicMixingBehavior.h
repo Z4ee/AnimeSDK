@@ -1,0 +1,185 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+namespace RPG::Client { class UIMusicVisualization_MusicMixingMonoPlugin; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Material; }
+
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xA70CB30)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_GET_MATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0xA70D630)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_GET_ORIGINMATERIALS_OFFSET UNITYSDK_OFFSET(0xA70D860)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xA70D7F0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_3A599F23178B2776_OFFSET UNITYSDK_OFFSET(0xA70C750)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xA70CA10)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xA70CA70)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xA70CAD0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA70BFD0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_48441CA44C0D59F4_OFFSET UNITYSDK_OFFSET(0xA70CB90)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_494D01CAE2C9CF5C_OFFSET UNITYSDK_OFFSET(0xA70D3A0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xA70DBD0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xA70DC30)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0xA70DC90)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0xA70DCF0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0xA70DD60)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA70DB70)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_777C630B90A28EF1_OFFSET UNITYSDK_OFFSET(0xA70C030)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_B1EA412ACAE87C15_OFFSET UNITYSDK_OFFSET(0xA70C080)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_B2AF81294D9C69C7_OFFSET UNITYSDK_OFFSET(0xA70C700)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xA70DAE0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA70DA20)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR___IFIXBASEPROXY_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xA70DDD0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex = 58030;
+
+	class UIMusicVisualization_MusicMixingBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		static ::System::Int32* StaticGet__UVNoiseTexStShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex)->GetStaticField(0x10DB0);
+		}
+		static ::System::Int32* StaticGet__BarWidthShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex)->GetStaticField(0x10DB4);
+		}
+		static ::System::Int32* StaticGet__ChunkEdgeShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex)->GetStaticField(0x10DB8);
+		}
+		static ::System::Int32* StaticGet__MusicMixingChannelShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex)->GetStaticField(0x10DBC);
+		}
+		static ::System::Int32* StaticGet__BarIntervalShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex)->GetStaticField(0x10DC0);
+		}
+		::UnityEngine::Vector4 _LastMusicMixingChannel; // 0x38
+		::UnityEngine::Vector4 _CurrentMusicMixingChannel; // 0x48
+		::UnityEngine::Vector4 _NextMusicMixingChannel; // 0x58
+		::System::Single _MusicMixingTransitionTime; // 0x68
+		::Il2CppArray<::UnityEngine::Material*>* _OriginMaterials; // 0x70
+		::Il2CppArray<::UnityEngine::Material*>* _MaterialInstances; // 0x78
+		::System::Collections::Generic::List_1<::System::Single>* _OriginMaterialBarWidth; // 0x80
+		::System::Collections::Generic::List_1<::System::Single>* _OriginMaterialBarInterval; // 0x88
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR__CCTOR_OFFSET))();
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_777C630B90A28EF1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_777C630B90A28EF1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_B2AF81294D9C69C7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_B2AF81294D9C69C7_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+		}
+
+		::System::Void EndOfLateTick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_ENDOFLATETICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_494D01CAE2C9CF5C(::UnityEngine::Material* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_494D01CAE2C9CF5C_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_B1EA412ACAE87C15()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_B1EA412ACAE87C15_OFFSET))(this);
+		}
+
+		::System::Void Method_3_3A599F23178B2776()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_3A599F23178B2776_OFFSET))(this);
+		}
+
+		::System::Void Method_3_48441CA44C0D59F4(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_48441CA44C0D59F4_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::UnityEngine::Material*>* get_OriginMaterials()
+		{
+			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_GET_ORIGINMATERIALS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::UnityEngine::Material*>* get_MaterialInstances()
+		{
+			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_GET_MATERIALINSTANCES_OFFSET))(this);
+		}
+
+		::RPG::Client::UIMusicVisualization_MusicMixingMonoPlugin* get__Owner()
+		{
+			return ((::RPG::Client::UIMusicVisualization_MusicMixingMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_GET__OWNER_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_EndOfLateTick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGBEHAVIOR___IFIXBASEPROXY_ENDOFLATETICK_OFFSET))(this, P0);
+		}
+	};
+}

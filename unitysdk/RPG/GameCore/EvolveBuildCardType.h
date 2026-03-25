@@ -1,0 +1,15 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int EvolveBuildCardType_TypeDefinitionIndex = 10685;
+
+	enum class EvolveBuildCardType : ::System::Int32
+	{
+		Survival = 0,
+		Growth = 1,
+		Power = 2,
+		DemonKing = 3,
+	};
+}

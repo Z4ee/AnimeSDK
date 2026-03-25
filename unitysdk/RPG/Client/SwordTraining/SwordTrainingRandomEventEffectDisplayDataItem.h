@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xA50E4D0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA50E470)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA50E490)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA50E4B0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA50E480)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA50E4A0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA50E4C0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA50E570)
+
+namespace RPG::Client::SwordTraining
+{
+	inline static constexpr unsigned int SwordTrainingRandomEventEffectDisplayDataItem_TypeDefinitionIndex = 61591;
+
+	class SwordTrainingRandomEventEffectDisplayDataItem : public ::System::Object
+	{
+	public:
+		::System::String* _IconPath_k__BackingField; // 0x10
+		::System::Int32 _Value_k__BackingField; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_SET_ICONPATH_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_SET_NAME_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_Value()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::Void set_Value(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET))(this, value);
+		}
+
+		static ::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem* Create(::System::String* iconPath, ::System::Int32 value, ::RPG::Client::TextID name)
+		{
+			return ((::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*(*)(::System::String*, ::System::Int32, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTEFFECTDISPLAYDATAITEM_CREATE_OFFSET))(iconPath, value, name);
+		}
+	};
+}

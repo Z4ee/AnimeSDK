@@ -1,0 +1,107 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_FA4F4A67B1C04320_181;
+namespace RPG::GameCore { class RogueDLCSubStoryGroupRow; }
+namespace RPG::GameCore { class RogueDLCSubStoryRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x9381F10)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9381DE0)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_GROUPNAME_OFFSET UNITYSDK_OFFSET(0x93837E0)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_ID_OFFSET UNITYSDK_OFFSET(0x9381EC0)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x9383860)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_LEVELGRAPHPATH_OFFSET UNITYSDK_OFFSET(0x93836A0)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_OPTIONJSONPATH_OFFSET UNITYSDK_OFFSET(0x9383700)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_SHOWGROUP_OFFSET UNITYSDK_OFFSET(0x9381350)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_STORYNAME_OFFSET UNITYSDK_OFFSET(0x9383760)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_UNLOCKED_OFFSET UNITYSDK_OFFSET(0x93838C0)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_PLAY_OFFSET UNITYSDK_OFFSET(0x9383530)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_SET_UNLOCKED_OFFSET UNITYSDK_OFFSET(0x93838D0)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x9381E30)
+#define RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9383520)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ChessRogueSubMissionReplayDataItem_TypeDefinitionIndex = 54490;
+
+	class ChessRogueSubMissionReplayDataItem : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::RogueDLCSubStoryRow* _Row; // 0x10
+		::RPG::GameCore::RogueDLCSubStoryGroupRow* _GroupRow; // 0x18
+		::System::Boolean _Unlocked_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ChessRogueSubMissionReplayDataItem* Create(::RPG::GameCore::RogueDLCSubStoryGroupRow* groupRow, ::RPG::GameCore::RogueDLCSubStoryRow* row)
+		{
+			return ((::RPG::Client::ChessRogueSubMissionReplayDataItem*(*)(::RPG::GameCore::RogueDLCSubStoryGroupRow*, ::RPG::GameCore::RogueDLCSubStoryRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_CREATE_OFFSET))(groupRow, row);
+		}
+
+		::System::Void Sync(::Class_1_FA4F4A67B1C04320_181* info)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_181*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_SYNC_OFFSET))(this, info);
+		}
+
+		::System::Void Play()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_PLAY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_ID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_GroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_GROUPID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ShowGroup()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_SHOWGROUP_OFFSET))(this);
+		}
+
+		::System::String* get_LevelGraphPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_LEVELGRAPHPATH_OFFSET))(this);
+		}
+
+		::System::String* get_OptionJsonPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_OPTIONJSONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StoryName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_STORYNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_GroupName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_GROUPNAME_OFFSET))(this);
+		}
+
+		::System::String* get_ImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_IMAGEPATH_OFFSET))(this);
+		}
+
+		::System::Boolean get_Unlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_GET_UNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_Unlocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUESUBMISSIONREPLAYDATAITEM_SET_UNLOCKED_OFFSET))(this, value);
+		}
+	};
+}

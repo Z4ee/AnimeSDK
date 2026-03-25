@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+namespace XLua
+{
+	inline static constexpr unsigned int ObjectTranslator_PushAction_1_TypeDefinitionIndex = 40401;
+
+	template <typename T>
+	class ObjectTranslator_PushAction_1 : public ::System::MulticastDelegate
+	{
+	public:
+	};
+}

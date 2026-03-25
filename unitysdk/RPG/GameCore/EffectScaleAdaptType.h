@@ -1,0 +1,15 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int EffectScaleAdaptType_TypeDefinitionIndex = 18549;
+
+	enum class EffectScaleAdaptType : ::System::Int32
+	{
+		None = 0,
+		AdaptBattleEffectInMaze = 1,
+		AdaptBattleEffectInActivity = 2,
+		AdaptAttachPoint = 3,
+	};
+}

@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/GridFightPreset.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class AvatarRow; }
+namespace RPG::GameCore { class GridFightOldRoleConfigRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x9811F70)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0x9811F50)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0x9812140)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x9811F10)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_ISEXPERT_OFFSET UNITYSDK_OFFSET(0x9811F90)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_MINIROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x9812220)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x98123E0)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x9811F30)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x9812300)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_SHOPICONPATH_OFFSET UNITYSDK_OFFSET(0x9811FC0)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_TRAITIDS_OFFSET UNITYSDK_OFFSET(0x9811FA0)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9811EA0)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETEXPIREDHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x9812150)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETEXPIREDNAMETEXTID_OFFSET UNITYSDK_OFFSET(0x9812450)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETEXPIREDSHOPICONPATH_OFFSET UNITYSDK_OFFSET(0x9811FD0)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETMINIROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x9812230)
+#define RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x9812310)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightExpiredRoleConfig_TypeDefinitionIndex = 52855;
+
+	class GridFightExpiredRoleConfig : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::AvatarRow* _AvatarRow; // 0x10
+		::RPG::GameCore::GridFightOldRoleConfigRow* _Row; // 0x18
+
+		::System::Void _ctor(::RPG::GameCore::GridFightOldRoleConfigRow* row)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightOldRoleConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__CTOR_OFFSET))(this, row);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_ID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Rarity()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_RARITY_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GridFightPreset get_FrontBackType()
+		{
+			return ((::RPG::GameCore::GridFightPreset(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_FRONTBACKTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_AvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_AVATARID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsExpert()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_ISEXPERT_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_TraitIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_TRAITIDS_OFFSET))(this);
+		}
+
+		::System::String* get_ShopIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_SHOPICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_HeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_HEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_MiniRoundIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_MINIROUNDICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_RoundIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_ROUNDICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_NameTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG_GET_NAMETEXTID_OFFSET))(this);
+		}
+
+		::System::String* _GetMiniRoundIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETMINIROUNDICONPATH_OFFSET))(this);
+		}
+
+		::System::String* _GetRoundIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETROUNDICONPATH_OFFSET))(this);
+		}
+
+		::System::String* _GetExpiredShopIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETEXPIREDSHOPICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID _GetExpiredNameTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETEXPIREDNAMETEXTID_OFFSET))(this);
+		}
+
+		::System::String* _GetExpiredHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEXPIREDROLECONFIG__GETEXPIREDHEADICONPATH_OFFSET))(this);
+		}
+	};
+}

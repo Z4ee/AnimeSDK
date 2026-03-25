@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
+
+#define INCONTROL_NATIVEDEVICEPROFILES_INJUSTICEFIGHTSTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B9C390)
+#define INCONTROL_NATIVEDEVICEPROFILES_INJUSTICEFIGHTSTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9C420)
+
+namespace InControl::NativeDeviceProfiles
+{
+	inline static constexpr unsigned int InjusticeFightStickMacNativeProfile_TypeDefinitionIndex = 31733;
+
+	class InjusticeFightStickMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_INJUSTICEFIGHTSTICKMACNATIVEPROFILE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Define()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_INJUSTICEFIGHTSTICKMACNATIVEPROFILE_DEFINE_OFFSET))(this);
+		}
+	};
+}

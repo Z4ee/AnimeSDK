@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_CLIENTDATAADDRESS_OFFSET UNITYSDK_OFFSET(0x5580)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xCAE0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_CLIENTHANDLE_OFFSET UNITYSDK_OFFSET(0x5AF0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_MESSAGEDATA_OFFSET UNITYSDK_OFFSET(0xCBF0)
+
+namespace Epic::OnlineServices::AntiCheatCommon
+{
+	inline static constexpr unsigned int OnMessageToClientCallbackInfoInternal_TypeDefinitionIndex = 36675;
+
+	struct alignas(8) OnMessageToClientCallbackInfoInternal
+	{
+		::System::IntPtr m_ClientData; // 0x10
+		::System::IntPtr m_ClientHandle; // 0x18
+		::System::IntPtr m_MessageData; // 0x20
+		::System::UInt32 m_MessageDataSizeBytes; // 0x28
+
+		::System::Object* get_ClientData()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_CLIENTDATA_OFFSET))(this);
+		}
+
+		::System::IntPtr get_ClientDataAddress()
+		{
+			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_CLIENTDATAADDRESS_OFFSET))(this);
+		}
+
+		::System::IntPtr get_ClientHandle()
+		{
+			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_CLIENTHANDLE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Byte>* get_MessageData()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_ONMESSAGETOCLIENTCALLBACKINFOINTERNAL_GET_MESSAGEDATA_OFFSET))(this);
+		}
+	};
+}

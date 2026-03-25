@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_3.h"
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int IRogueModifier_TypeDefinitionIndex = 54807;
+
+	class IRogueModifier
+	{
+	public:
+	};
+}

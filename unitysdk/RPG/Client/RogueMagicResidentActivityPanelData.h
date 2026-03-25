@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/RogueResidentActivityPanelData.h"
+
+class Class_1_355D5C2B1D92981B;
+class Class_1_D4B4346A5EB96462;
+namespace RPG::GameCore { class IntroDataRow; }
+namespace RPG::GameCore { class RogueActivityResidentConfigRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_CREATEBYROW_OFFSET UNITYSDK_OFFSET(0xA328820)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_GET_LOCKEDREASON_OFFSET UNITYSDK_OFFSET(0xA328F90)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISHIDEALLREDDOT_OFFSET UNITYSDK_OFFSET(0xA328F50)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISSHOWNEWREDDOT_OFFSET UNITYSDK_OFFSET(0xA328F10)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISSHOWNOPASSNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xA328ED0)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xA328910)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA328810)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__ISSHOWHANDBOOKREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0xA328AC0)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__ISSHOWQUESTREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0xA328A20)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__ISSHOWSTORYARCHIVEREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0xA328E30)
+#define RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA___IFIXBASEPROXY_GET_LOCKEDREASON_OFFSET UNITYSDK_OFFSET(0xA329050)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueMagicResidentActivityPanelData_TypeDefinitionIndex = 50135;
+
+	class RogueMagicResidentActivityPanelData : public ::RPG::Client::RogueResidentActivityPanelData
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::RogueMagicResidentActivityPanelData* CreateByRow(::RPG::GameCore::RogueActivityResidentConfigRow* row, ::RPG::GameCore::IntroDataRow* introRow, ::Class_1_D4B4346A5EB96462* scheduleProxyFactory, ::Class_1_355D5C2B1D92981B* rewardCountProxyFactory)
+		{
+			return ((::RPG::Client::RogueMagicResidentActivityPanelData*(*)(::RPG::GameCore::RogueActivityResidentConfigRow*, ::RPG::GameCore::IntroDataRow*, ::Class_1_D4B4346A5EB96462*, ::Class_1_355D5C2B1D92981B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_CREATEBYROW_OFFSET))(row, introRow, scheduleProxyFactory, rewardCountProxyFactory);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNoPassNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISSHOWNOPASSNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNewRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISSHOWNEWREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsHideAllRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_ISHIDEALLREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsShowQuestRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__ISSHOWQUESTREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsShowHandbookRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__ISSHOWHANDBOOKREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsShowStoryArchiveRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA__ISSHOWSTORYARCHIVEREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::String* get_LockedReason()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA_GET_LOCKEDREASON_OFFSET))(this);
+		}
+
+		::System::String* __iFixBaseProxy_get_LockedReason()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICRESIDENTACTIVITYPANELDATA___IFIXBASEPROXY_GET_LOCKEDREASON_OFFSET))(this);
+		}
+	};
+}

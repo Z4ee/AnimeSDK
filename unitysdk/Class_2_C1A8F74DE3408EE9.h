@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGameShare/AComponentUpdateHandler_1.h"
+
+class Class_0_16E4307DCC419505_30;
+class Class_1_AEDED6B377F2000F;
+namespace Entitas { class IEntity; }
+
+#define CLASS_2_C1A8F74DE3408EE9_ONADD_OFFSET UNITYSDK_OFFSET(0x113F3040)
+#define CLASS_2_C1A8F74DE3408EE9_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x113F32D0)
+#define CLASS_2_C1A8F74DE3408EE9_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x113F30A0)
+#define CLASS_2_C1A8F74DE3408EE9__CTOR_OFFSET UNITYSDK_OFFSET(0x113F3330)
+
+inline static constexpr unsigned int Class_2_C1A8F74DE3408EE9_TypeDefinitionIndex = 62243;
+
+class Class_2_C1A8F74DE3408EE9 : public ::RPG::Client::LittleGameShare::AComponentUpdateHandler_1<::Class_1_AEDED6B377F2000F*>
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C1A8F74DE3408EE9__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnAdd(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_30* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_2_C1A8F74DE3408EE9_ONADD_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void OnUpdate(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_30* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_2_C1A8F74DE3408EE9_ONUPDATE_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void OnRemove(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_30* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_2_C1A8F74DE3408EE9_ONREMOVE_OFFSET))(this, a1, a2, a3);
+	}
+};

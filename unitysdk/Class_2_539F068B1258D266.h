@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TargetSeqOperationImpl_1.h"
+
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TargetMapPartOwnerEntity; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_539F068B1258D266_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xD7D5D40)
+#define CLASS_2_539F068B1258D266__CTOR_OFFSET UNITYSDK_OFFSET(0xD7D5D20)
+
+inline static constexpr unsigned int Class_2_539F068B1258D266_TypeDefinitionIndex = 47801;
+
+class Class_2_539F068B1258D266 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapPartOwnerEntity*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TargetMapPartOwnerEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetMapPartOwnerEntity*))((::PBYTE)hIl2Cpp + CLASS_2_539F068B1258D266__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Transform(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_2_539F068B1258D266_TRANSFORM_OFFSET))(this, a1, a2);
+	}
+};

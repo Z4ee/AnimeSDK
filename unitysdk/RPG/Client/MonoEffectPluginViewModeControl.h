@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
+
+namespace System { class Object; }
+namespace UnityEngine { class Component; }
+
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CE2A80)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_MANUALLYINVOKE_OFFSET UNITYSDK_OFFSET(0x9CE2B60)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_352B61CD747EF90A_1_OFFSET UNITYSDK_OFFSET(0x9CE2DA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_352B61CD747EF90A_OFFSET UNITYSDK_OFFSET(0x9CE2D40)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x9CE2E00)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_FF9358EE342FB1E1_OFFSET UNITYSDK_OFFSET(0x9CE2BB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CE29A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9CE3030)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoEffectPluginViewModeControl_TypeDefinitionIndex = 57292;
+
+	class MonoEffectPluginViewModeControl : public ::RPG::Client::MonoEffectPluginBase
+	{
+	public:
+		::System::Boolean Field_6_0; // 0x28
+		::Il2CppArray<::UnityEngine::Component*>* _PluginList; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void ResetPlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_RESETPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void DisposePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_DISPOSEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void ManuallyInvoke()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_MANUALLYINVOKE_OFFSET))(this);
+		}
+
+		::System::Void Method_6_352B61CD747EF90A(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_352B61CD747EF90A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_352B61CD747EF90A_1(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_352B61CD747EF90A_1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_FF9358EE342FB1E1(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_FF9358EE342FB1E1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_D78B51BFDA4B8B32()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINVIEWMODECONTROL_METHOD_6_D78B51BFDA4B8B32_OFFSET))(this);
+		}
+	};
+}

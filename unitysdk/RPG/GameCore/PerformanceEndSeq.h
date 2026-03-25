@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class PerformanceResultCase; }
+
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_327A7C26DDD14D37_OFFSET UNITYSDK_OFFSET(0x17497720)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_7A1287D3ED1ABB19_OFFSET UNITYSDK_OFFSET(0x174976A0)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ__CTOR_OFFSET UNITYSDK_OFFSET(0x174976F0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int PerformanceEndSeq_TypeDefinitionIndex = 19543;
+
+	class PerformanceEndSeq : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::PerformanceResultCase*>* Cases; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BeforeCases; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEENDSEQ__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_7A1287D3ED1ABB19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceEndSeq*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceEndSeq*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_7A1287D3ED1ABB19_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_327A7C26DDD14D37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceEndSeq* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceEndSeq*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_327A7C26DDD14D37_OFFSET))(a1, a2);
+		}
+	};
+}

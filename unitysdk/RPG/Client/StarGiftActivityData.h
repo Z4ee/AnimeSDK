@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_STARGIFTACTIVITYDATA_CHECKCANCLAIMREWARD_OFFSET UNITYSDK_OFFSET(0xA4D7BF0)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0xA4D7DB0)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xA4D7B70)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xA4D7CF0)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D7B60)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA__ONACTIVITYENDEDCUSTOM_OFFSET UNITYSDK_OFFSET(0xA4D7CA0)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xA4D7EB0)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA___IFIXBASEPROXY_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xA4D7F80)
+#define RPG_CLIENT_STARGIFTACTIVITYDATA___IFIXBASEPROXY__ONACTIVITYENDEDCUSTOM_OFFSET UNITYSDK_OFFSET(0xA4D7F20)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int StarGiftActivityData_TypeDefinitionIndex = 50028;
+
+	class StarGiftActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::UInt32 _QuestID; // 0xA0
+
+		::System::Void _ctor(::System::UInt32 panelID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA__CTOR_OFFSET))(this, panelID);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Void _OnActivityEndedCustom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA__ONACTIVITYENDEDCUSTOM_OFFSET))(this);
+		}
+
+		::System::Void UpdateFullCompleteStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean CheckCanClaimReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA_CHECKCANCLAIMREWARD_OFFSET))(this);
+		}
+
+		::System::UInt32 get_QuestID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA_GET_QUESTID_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnActivityEndedCustom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA___IFIXBASEPROXY__ONACTIVITYENDEDCUSTOM_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_UpdateFullCompleteStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARGIFTACTIVITYDATA___IFIXBASEPROXY_UPDATEFULLCOMPLETESTATUS_OFFSET))(this);
+		}
+	};
+}

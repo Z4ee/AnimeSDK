@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices::Presence { class PresenceModificationDataRecordId; }
+namespace Epic::OnlineServices::Presence { class PresenceModificationDeleteDataOptions; }
+namespace System { class Object; }
+
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x63020)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x63010)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x62F80)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0x62F10)
+
+namespace Epic::OnlineServices::Presence
+{
+	inline static constexpr unsigned int PresenceModificationDeleteDataOptionsInternal_TypeDefinitionIndex = 35781;
+
+	struct alignas(8) PresenceModificationDeleteDataOptionsInternal
+	{
+		::System::Int32 m_ApiVersion; // 0x10
+		::System::Int32 m_RecordsCount; // 0x14
+		::System::IntPtr m_Records; // 0x18
+
+		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_SET_RECORDS_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::Epic::OnlineServices::Presence::PresenceModificationDeleteDataOptions* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationDeleteDataOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONSINTERNAL_DISPOSE_OFFSET))(this);
+		}
+	};
+}

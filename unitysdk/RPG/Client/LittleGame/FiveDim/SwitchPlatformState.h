@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::Client::LittleGame::FiveDim
+{
+	inline static constexpr unsigned int SwitchPlatformState_TypeDefinitionIndex = 33489;
+
+	enum class SwitchPlatformState : ::System::Int32
+	{
+		Inactive = 0,
+		Active = 1,
+		DelayActive = 2,
+	};
+}

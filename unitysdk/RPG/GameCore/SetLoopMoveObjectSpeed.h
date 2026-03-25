@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_9A950ACF6965387E_OFFSET UNITYSDK_OFFSET(0x176D3F90)
+#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_D8BAC9E2F2A2E73D_OFFSET UNITYSDK_OFFSET(0x176D4010)
+#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x176D3FE0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int SetLoopMoveObjectSpeed_TypeDefinitionIndex = 18730;
+
+	class SetLoopMoveObjectSpeed : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::String* UniqueName; // 0x18
+		::System::Single MoveSpeed; // 0x20
+		::System::Single Duration; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_9A950ACF6965387E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLoopMoveObjectSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_9A950ACF6965387E_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_D8BAC9E2F2A2E73D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLoopMoveObjectSpeed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_D8BAC9E2F2A2E73D_OFFSET))(a1, a2);
+		}
+	};
+}

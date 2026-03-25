@@ -1,0 +1,135 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+
+class Class_2_0196198926CA698F_Class_1_4C86660476EF2E56;
+namespace RPG::Client { class RPGAnimationEvent; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class Text; }
+
+#define CLASS_2_0196198926CA698F_GET_ISDISABLED_OFFSET UNITYSDK_OFFSET(0x11337170)
+#define CLASS_2_0196198926CA698F_METHOD_2_08FA9F2CA66691B4_1_OFFSET UNITYSDK_OFFSET(0x11336A90)
+#define CLASS_2_0196198926CA698F_METHOD_2_08FA9F2CA66691B4_OFFSET UNITYSDK_OFFSET(0x11336F60)
+#define CLASS_2_0196198926CA698F_METHOD_2_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0x11337050)
+#define CLASS_2_0196198926CA698F_METHOD_2_218124418542E081_OFFSET UNITYSDK_OFFSET(0x113369A0)
+#define CLASS_2_0196198926CA698F_METHOD_2_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x11336880)
+#define CLASS_2_0196198926CA698F_METHOD_2_295B0FA1282F1A6E_OFFSET UNITYSDK_OFFSET(0x11336B80)
+#define CLASS_2_0196198926CA698F_METHOD_2_3722B9C057698E14_OFFSET UNITYSDK_OFFSET(0x11336750)
+#define CLASS_2_0196198926CA698F_METHOD_2_41145AA5EA656E9C_OFFSET UNITYSDK_OFFSET(0x11336C50)
+#define CLASS_2_0196198926CA698F_METHOD_2_6597F9D2D4A0542F_OFFSET UNITYSDK_OFFSET(0x11337100)
+#define CLASS_2_0196198926CA698F_METHOD_2_97428D6179B1CFD2_OFFSET UNITYSDK_OFFSET(0x11336E10)
+#define CLASS_2_0196198926CA698F_METHOD_2_98060E4D16CBDFE4_OFFSET UNITYSDK_OFFSET(0x11336F00)
+#define CLASS_2_0196198926CA698F_SET_ISDISABLED_OFFSET UNITYSDK_OFFSET(0x11337180)
+#define CLASS_2_0196198926CA698F__CTOR_OFFSET UNITYSDK_OFFSET(0x11337190)
+#define CLASS_2_0196198926CA698F__ONBIND_OFFSET UNITYSDK_OFFSET(0x11336500)
+#define CLASS_2_0196198926CA698F__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x11336C00)
+#define CLASS_2_0196198926CA698F___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x113371C0)
+#define CLASS_2_0196198926CA698F___IFIXBASEPROXY__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x11337220)
+
+inline static constexpr unsigned int Class_2_0196198926CA698F_TypeDefinitionIndex = 59077;
+
+class Class_2_0196198926CA698F : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	// static const ::System::String* Field_2_0; // 0x0
+	::UnityEngine::UI::Text* Field_2_2; // 0x60
+	::UnityEngine::Transform* Field_2_4; // 0x68
+	::UnityEngine::UI::Image* Field_2_1; // 0x70
+	::Class_2_0196198926CA698F_Class_1_4C86660476EF2E56* Field_2_7; // 0x78
+	::RPG::Client::RPGAnimationEvent* Field_2_5; // 0x80
+	::UnityEngine::Animation* Field_2_3; // 0x88
+	::System::Boolean _IsDisabled_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3722B9C057698E14(::Class_2_0196198926CA698F_Class_1_4C86660476EF2E56* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_0196198926CA698F_Class_1_4C86660476EF2E56*))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_3722B9C057698E14_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_218124418542E081()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_218124418542E081_OFFSET))(this);
+	}
+
+	::System::Void _OnDispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F__ONDISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2450CFC043E97F54()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_2450CFC043E97F54_OFFSET))(this);
+	}
+
+	::System::Void Method_2_41145AA5EA656E9C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_41145AA5EA656E9C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_97428D6179B1CFD2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_97428D6179B1CFD2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_98060E4D16CBDFE4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_98060E4D16CBDFE4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_295B0FA1282F1A6E(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_295B0FA1282F1A6E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_0D372435D9CAE4BC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_0D372435D9CAE4BC_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6597F9D2D4A0542F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_6597F9D2D4A0542F_OFFSET))(this);
+	}
+
+	::System::Boolean get_IsDisabled()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_GET_ISDISABLED_OFFSET))(this);
+	}
+
+	::System::Void set_IsDisabled(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_SET_ISDISABLED_OFFSET))(this, value);
+	}
+
+	::System::String* Method_2_08FA9F2CA66691B4()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_08FA9F2CA66691B4_OFFSET))(this);
+	}
+
+	::System::String* Method_2_08FA9F2CA66691B4_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F_METHOD_2_08FA9F2CA66691B4_1_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnDispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0196198926CA698F___IFIXBASEPROXY__ONDISPOSE_OFFSET))(this);
+	}
+};

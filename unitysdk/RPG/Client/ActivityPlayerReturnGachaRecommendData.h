@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPlayerReturnRecommendData.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+namespace RPG::Client { class BaseGachaPoolData; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GETUPAVATARID_OFFSET UNITYSDK_OFFSET(0x8F97740)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_GACHAID_OFFSET UNITYSDK_OFFSET(0x8F977F0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_GACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0x8F97690)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x8F97810)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x8F978A0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x8F97610)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8F97590)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA___IFIXBASEPROXY_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x8F97960)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityPlayerReturnGachaRecommendData_TypeDefinitionIndex = 50231;
+
+	class ActivityPlayerReturnGachaRecommendData : public ::RPG::Client::ActivityPlayerReturnRecommendData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 recommendID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA__CTOR_OFFSET))(this, recommendID);
+		}
+
+		::System::Boolean IsAvailable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_ISAVAILABLE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetUpAvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GETUPAVATARID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_GachaID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_GACHAID_OFFSET))(this);
+		}
+
+		::RPG::Client::BaseGachaPoolData* get_GachaPoolData()
+		{
+			return ((::RPG::Client::BaseGachaPoolData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_GACHAPOOLDATA_OFFSET))(this);
+		}
+
+		::System::String* get_ImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_IMAGEPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Title()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA_GET_TITLE_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsAvailable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNGACHARECOMMENDDATA___IFIXBASEPROXY_ISAVAILABLE_OFFSET))(this);
+		}
+	};
+}

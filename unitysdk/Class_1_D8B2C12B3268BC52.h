@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_07A84DB83EA70B3E.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define CLASS_1_D8B2C12B3268BC52_METHOD_1_04F6F470892C49A9_OFFSET UNITYSDK_OFFSET(0x10601A20)
+#define CLASS_1_D8B2C12B3268BC52_METHOD_1_139DC97ED1A24790_OFFSET UNITYSDK_OFFSET(0x106019C0)
+#define CLASS_1_D8B2C12B3268BC52_METHOD_1_5ED1D095E6A0210E_OFFSET UNITYSDK_OFFSET(0x106016E0)
+#define CLASS_1_D8B2C12B3268BC52_METHOD_1_87130B57CF907EDB_OFFSET UNITYSDK_OFFSET(0x10601620)
+#define CLASS_1_D8B2C12B3268BC52_METHOD_1_DDB9535639A01056_OFFSET UNITYSDK_OFFSET(0x106018C0)
+
+inline static constexpr unsigned int Class_1_D8B2C12B3268BC52_TypeDefinitionIndex = 64573;
+
+class Class_1_D8B2C12B3268BC52 : public ::System::Object
+{
+public:
+	static ::Struct_2_07A84DB83EA70B3E Method_1_87130B57CF907EDB(::Il2CppArray<::System::Byte>* a1)
+	{
+		return ((::Struct_2_07A84DB83EA70B3E(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CLASS_1_D8B2C12B3268BC52_METHOD_1_87130B57CF907EDB_OFFSET))(a1);
+	}
+
+	static ::Struct_2_07A84DB83EA70B3E Method_1_5ED1D095E6A0210E(::System::String* a1)
+	{
+		return ((::Struct_2_07A84DB83EA70B3E(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_D8B2C12B3268BC52_METHOD_1_5ED1D095E6A0210E_OFFSET))(a1);
+	}
+
+	static ::System::String* Method_1_DDB9535639A01056(::Il2CppArray<::System::Byte>* a1)
+	{
+		return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CLASS_1_D8B2C12B3268BC52_METHOD_1_DDB9535639A01056_OFFSET))(a1);
+	}
+
+	static ::Il2CppArray<::System::Byte>* Method_1_139DC97ED1A24790(::Struct_2_07A84DB83EA70B3E a1)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::Struct_2_07A84DB83EA70B3E))((::PBYTE)hIl2Cpp + CLASS_1_D8B2C12B3268BC52_METHOD_1_139DC97ED1A24790_OFFSET))(a1);
+	}
+
+	static ::System::String* Method_1_04F6F470892C49A9(::Struct_2_07A84DB83EA70B3E a1)
+	{
+		return ((::System::String*(*)(::Struct_2_07A84DB83EA70B3E))((::PBYTE)hIl2Cpp + CLASS_1_D8B2C12B3268BC52_METHOD_1_04F6F470892C49A9_OFFSET))(a1);
+	}
+};

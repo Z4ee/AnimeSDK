@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_3DE15EA7F53A0550.h"
+
+namespace RPG::Client { class OfferingRewardData; }
+namespace RPG::Client::MVVM::Service { class LimaoNewsOfferingService; }
+
+#define CLASS_3_C86DFAA9896E7844_METHOD_3_1808E1CF7A125519_1_OFFSET UNITYSDK_OFFSET(0xBEECB50)
+#define CLASS_3_C86DFAA9896E7844_METHOD_3_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xBEECA80)
+#define CLASS_3_C86DFAA9896E7844_METHOD_3_4EE744AE4735EE0A_OFFSET UNITYSDK_OFFSET(0xBEECBC0)
+#define CLASS_3_C86DFAA9896E7844_METHOD_3_55B393D44D9358E3_OFFSET UNITYSDK_OFFSET(0xBEECB00)
+#define CLASS_3_C86DFAA9896E7844_METHOD_3_D978819B0A4871A0_OFFSET UNITYSDK_OFFSET(0xBEECC30)
+#define CLASS_3_C86DFAA9896E7844_METHOD_3_D9C7CE38124CA6E8_OFFSET UNITYSDK_OFFSET(0xBEECBE0)
+#define CLASS_3_C86DFAA9896E7844__CTOR_OFFSET UNITYSDK_OFFSET(0xBEEC9F0)
+
+inline static constexpr unsigned int Class_3_C86DFAA9896E7844_TypeDefinitionIndex = 60965;
+
+class Class_3_C86DFAA9896E7844 : public ::Class_2_3DE15EA7F53A0550
+{
+public:
+	::RPG::Client::MVVM::Service::LimaoNewsOfferingService* Field_3_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_3_1808E1CF7A125519()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844_METHOD_3_1808E1CF7A125519_OFFSET))(this);
+	}
+
+	::System::Boolean Method_3_1808E1CF7A125519_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844_METHOD_3_1808E1CF7A125519_1_OFFSET))(this);
+	}
+
+	::RPG::Client::OfferingRewardData* Method_3_4EE744AE4735EE0A()
+	{
+		return ((::RPG::Client::OfferingRewardData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844_METHOD_3_4EE744AE4735EE0A_OFFSET))(this);
+	}
+
+	::RPG::Client::OfferingRewardData* Method_3_D9C7CE38124CA6E8()
+	{
+		return ((::RPG::Client::OfferingRewardData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844_METHOD_3_D9C7CE38124CA6E8_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_3_55B393D44D9358E3()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844_METHOD_3_55B393D44D9358E3_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_3_D978819B0A4871A0()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C86DFAA9896E7844_METHOD_3_D978819B0A4871A0_OFFSET))(this);
+	}
+};

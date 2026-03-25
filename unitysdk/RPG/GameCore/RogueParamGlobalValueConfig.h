@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ROGUEPARAMGLOBALVALUECONFIG_METHOD_6_7779E3F109231B5B_OFFSET UNITYSDK_OFFSET(0x1764B3A0)
+#define RPG_GAMECORE_ROGUEPARAMGLOBALVALUECONFIG_METHOD_6_EC50A70739F5B675_OFFSET UNITYSDK_OFFSET(0x1764B0F0)
+#define RPG_GAMECORE_ROGUEPARAMGLOBALVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1764B270)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int RogueParamGlobalValueConfig_TypeDefinitionIndex = 18174;
+
+	class RogueParamGlobalValueConfig : public ::RPG::GameCore::RogueParameterConfigBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMGLOBALVALUECONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_6_EC50A70739F5B675(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamGlobalValueConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamGlobalValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMGLOBALVALUECONFIG_METHOD_6_EC50A70739F5B675_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_6_7779E3F109231B5B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamGlobalValueConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamGlobalValueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMGLOBALVALUECONFIG_METHOD_6_7779E3F109231B5B_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_PERFORMANCECAPTURENPC_METHOD_2_9877D25189163954_OFFSET UNITYSDK_OFFSET(0x17493A80)
+#define RPG_GAMECORE_PERFORMANCECAPTURENPC__CTOR_OFFSET UNITYSDK_OFFSET(0x17493C60)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int PerformanceCaptureNPC_TypeDefinitionIndex = 20024;
+
+	class PerformanceCaptureNPC : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::System::String* CharacterUniqueName; // 0x10
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 NpcID; // 0x1C
+		::System::Boolean DisableEmoGraph; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCECAPTURENPC__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_9877D25189163954(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceCaptureNPC*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceCaptureNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCECAPTURENPC_METHOD_2_9877D25189163954_OFFSET))(a1, a2);
+		}
+	};
+}

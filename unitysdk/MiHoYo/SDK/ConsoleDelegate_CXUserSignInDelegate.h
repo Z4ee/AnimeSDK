@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x15EC82C0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15EC82F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15EC8020)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15EC8000)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int ConsoleDelegate_CXUserSignInDelegate_TypeDefinitionIndex = 6681;
+
+	class ConsoleDelegate_CXUserSignInDelegate : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE__CTOR_OFFSET))(this, object, method);
+		}
+
+		::System::Void Invoke()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE_INVOKE_OFFSET))(this);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+		}
+
+		::System::Void EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXUSERSIGNINDELEGATE_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

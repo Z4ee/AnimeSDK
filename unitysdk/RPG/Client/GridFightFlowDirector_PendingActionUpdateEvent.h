@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightFlowDirector_FlowStateEventBase_1.h"
+
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_HASFORBIDMONSTERREVEAL_OFFSET UNITYSDK_OFFSET(0x9817150)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_HASINITIALSUPPLYBONUS_OFFSET UNITYSDK_OFFSET(0x9817480)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_HASPORTALBUFFSELECTION_OFFSET UNITYSDK_OFFSET(0x9817070)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_NEEDSHOWSTAGEHINT_OFFSET UNITYSDK_OFFSET(0x98172A0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9818EC0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightFlowDirector_PendingActionUpdateEvent_TypeDefinitionIndex = 52470;
+
+	class GridFightFlowDirector_PendingActionUpdateEvent : public ::RPG::Client::GridFightFlowDirector_FlowStateEventBase_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasPortalBuffSelection()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_HASPORTALBUFFSELECTION_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasForbidMonsterReveal()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_HASFORBIDMONSTERREVEAL_OFFSET))(this);
+		}
+
+		::System::Boolean get_NeedShowStageHint()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_NEEDSHOWSTAGEHINT_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasInitialSupplyBonus()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PENDINGACTIONUPDATEEVENT_GET_HASINITIALSUPPLYBONUS_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TrainPartyActionConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_TRAINPARTYACTIONMODIFYSPECIFYGRIDCONFIG_METHOD_5_889E8A09A1DAA2A6_OFFSET UNITYSDK_OFFSET(0x178A79A0)
+#define RPG_GAMECORE_TRAINPARTYACTIONMODIFYSPECIFYGRIDCONFIG_METHOD_5_DC0F365764D36BCF_OFFSET UNITYSDK_OFFSET(0x178A7B70)
+#define RPG_GAMECORE_TRAINPARTYACTIONMODIFYSPECIFYGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178A7950)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TrainPartyActionModifySpecifyGridConfig_TypeDefinitionIndex = 16592;
+
+	class TrainPartyActionModifySpecifyGridConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYACTIONMODIFYSPECIFYGRIDCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_5_DC0F365764D36BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyActionModifySpecifyGridConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyActionModifySpecifyGridConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYACTIONMODIFYSPECIFYGRIDCONFIG_METHOD_5_DC0F365764D36BCF_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_5_889E8A09A1DAA2A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyActionModifySpecifyGridConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyActionModifySpecifyGridConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYACTIONMODIFYSPECIFYGRIDCONFIG_METHOD_5_889E8A09A1DAA2A6_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,144 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_B940C10EDDC383AC;
+
+#define CLASS_1_7998D4236814422C_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8D93780)
+#define CLASS_1_7998D4236814422C_EQUALS_OFFSET UNITYSDK_OFFSET(0x8D93640)
+#define CLASS_1_7998D4236814422C_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8D93800)
+#define CLASS_1_7998D4236814422C_GET_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x8D93950)
+#define CLASS_1_7998D4236814422C_GET_CURRENTBP_OFFSET UNITYSDK_OFFSET(0x8D93910)
+#define CLASS_1_7998D4236814422C_GET_DIRTYBPCOUNT_OFFSET UNITYSDK_OFFSET(0x8D93970)
+#define CLASS_1_7998D4236814422C_GET_NEGATIVEBPDISPLAYCOUNT_OFFSET UNITYSDK_OFFSET(0x8D93990)
+#define CLASS_1_7998D4236814422C_GET_POSITIVEBPDISPLAYCOUNT_OFFSET UNITYSDK_OFFSET(0x8D93930)
+#define CLASS_1_7998D4236814422C_METHOD_1_09C3DBB624A973FC_OFFSET UNITYSDK_OFFSET(0x8D93890)
+#define CLASS_1_7998D4236814422C_METHOD_1_1EA69281E8D84A35_OFFSET UNITYSDK_OFFSET(0x8D93330)
+#define CLASS_1_7998D4236814422C_METHOD_1_45CD880F5CC9C078_OFFSET UNITYSDK_OFFSET(0x8D93500)
+#define CLASS_1_7998D4236814422C_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0x8D93590)
+#define CLASS_1_7998D4236814422C_METHOD_1_E85CA50D622B92B5_OFFSET UNITYSDK_OFFSET(0x8D93700)
+#define CLASS_1_7998D4236814422C_SET_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x8D93960)
+#define CLASS_1_7998D4236814422C_SET_CURRENTBP_OFFSET UNITYSDK_OFFSET(0x8D93920)
+#define CLASS_1_7998D4236814422C_SET_DIRTYBPCOUNT_OFFSET UNITYSDK_OFFSET(0x8D93980)
+#define CLASS_1_7998D4236814422C_SET_NEGATIVEBPDISPLAYCOUNT_OFFSET UNITYSDK_OFFSET(0x8D939A0)
+#define CLASS_1_7998D4236814422C_SET_POSITIVEBPDISPLAYCOUNT_OFFSET UNITYSDK_OFFSET(0x8D93940)
+#define CLASS_1_7998D4236814422C__CTOR_OFFSET UNITYSDK_OFFSET(0x8D93630)
+#define CLASS_1_7998D4236814422C___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x8D939B0)
+#define CLASS_1_7998D4236814422C___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8D939C0)
+
+inline static constexpr unsigned int Class_1_7998D4236814422C_TypeDefinitionIndex = 58526;
+
+class Class_1_7998D4236814422C : public ::System::Object
+{
+public:
+	::System::Int32 _NegativeBPDisplayCount_k__BackingField; // 0x10
+	::System::Int32 _ChangeValue_k__BackingField; // 0x14
+	::System::Int32 _DirtyBPCount_k__BackingField; // 0x18
+	::System::Int32 _PositiveBPDisplayCount_k__BackingField; // 0x1C
+	::System::Int32 _CurrentBP_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_7998D4236814422C* Method_1_1EA69281E8D84A35(::Class_1_B940C10EDDC383AC* a1, ::System::Int32 a2, ::System::Int32 a3)
+	{
+		return ((::Class_1_7998D4236814422C*(*)(::Class_1_B940C10EDDC383AC*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_METHOD_1_1EA69281E8D84A35_OFFSET))(a1, a2, a3);
+	}
+
+	static ::Class_1_7998D4236814422C* Method_1_C4BFBB1BE6C0430A()
+	{
+		return ((::Class_1_7998D4236814422C*(*)())((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_METHOD_1_C4BFBB1BE6C0430A_OFFSET))();
+	}
+
+	static ::Class_1_7998D4236814422C* Method_1_45CD880F5CC9C078(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
+	{
+		return ((::Class_1_7998D4236814422C*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_METHOD_1_45CD880F5CC9C078_OFFSET))(a1, a2, a3, a4, a5);
+	}
+
+	::System::Boolean Equals(::Class_1_7998D4236814422C* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_7998D4236814422C*))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals_1(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_EQUALS_1_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_GETHASHCODE_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_1_E85CA50D622B92B5(::Class_1_7998D4236814422C* a1, ::Class_1_7998D4236814422C* a2)
+	{
+		return ((::System::Boolean(*)(::Class_1_7998D4236814422C*, ::Class_1_7998D4236814422C*))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_METHOD_1_E85CA50D622B92B5_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_1_09C3DBB624A973FC(::Class_1_7998D4236814422C* a1, ::Class_1_7998D4236814422C* a2)
+	{
+		return ((::System::Boolean(*)(::Class_1_7998D4236814422C*, ::Class_1_7998D4236814422C*))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_METHOD_1_09C3DBB624A973FC_OFFSET))(a1, a2);
+	}
+
+	::System::Int32 get_CurrentBP()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_GET_CURRENTBP_OFFSET))(this);
+	}
+
+	::System::Void set_CurrentBP(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_SET_CURRENTBP_OFFSET))(this, value);
+	}
+
+	::System::Int32 get_PositiveBPDisplayCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_GET_POSITIVEBPDISPLAYCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_PositiveBPDisplayCount(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_SET_POSITIVEBPDISPLAYCOUNT_OFFSET))(this, value);
+	}
+
+	::System::Int32 get_ChangeValue()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_GET_CHANGEVALUE_OFFSET))(this);
+	}
+
+	::System::Void set_ChangeValue(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_SET_CHANGEVALUE_OFFSET))(this, value);
+	}
+
+	::System::Int32 get_DirtyBPCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_GET_DIRTYBPCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_DirtyBPCount(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_SET_DIRTYBPCOUNT_OFFSET))(this, value);
+	}
+
+	::System::Int32 get_NegativeBPDisplayCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_GET_NEGATIVEBPDISPLAYCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_NegativeBPDisplayCount(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C_SET_NEGATIVEBPDISPLAYCOUNT_OFFSET))(this, value);
+	}
+
+	::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+	}
+
+	::System::Int32 __iFixBaseProxy_GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7998D4236814422C___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
+	}
+};

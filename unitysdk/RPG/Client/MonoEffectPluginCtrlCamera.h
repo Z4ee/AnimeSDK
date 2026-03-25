@@ -1,0 +1,118 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginCtrlCamera_CtrlCameraMask.h"
+
+class Class_2_3F58177185FBF2E0;
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_ALIGNTOCAMERA_OFFSET UNITYSDK_OFFSET(0x9CC5360)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5030)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5180)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_DISABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5250)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5110)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_ENABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5200)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0x9CC4F90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC4FD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_TICK_OFFSET UNITYSDK_OFFSET(0x9CC52D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x9CC53B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5400)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5440)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_DISABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC54C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_ENABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CC5480)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0x9CC53C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x9CC5500)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoEffectPluginCtrlCamera_TypeDefinitionIndex = 57321;
+
+	class MonoEffectPluginCtrlCamera : public ::RPG::Client::MonoEffectPluginBase
+	{
+	public:
+		::System::Boolean AlignToCameraOnStart; // 0x28
+		::RPG::Client::MonoEffectPluginCtrlCamera_CtrlCameraMask CtrlMask; // 0x2C
+		::UnityEngine::Transform* CtrlNode; // 0x30
+		::Class_2_3F58177185FBF2E0* Field_6_3; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IgnoreInEditor()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_IGNOREINEDITOR_OFFSET))(this);
+		}
+
+		::System::Void ResetPlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_RESETPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void AwakePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_AWAKEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void DisposePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_DISPOSEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void DestroyPlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_DESTROYPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void EnablePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_ENABLEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void DisablePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_DISABLEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void AlignToCamera()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA_ALIGNTOCAMERA_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IgnoreInEditor()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_IGNOREINEDITOR_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_AwakePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_AWAKEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_DestroyPlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_DESTROYPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_EnablePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_ENABLEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_DisablePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_DISABLEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCTRLCAMERA___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		}
+	};
+}

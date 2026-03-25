@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int MappingInfoType_TypeDefinitionIndex = 11449;
+
+	enum class MappingInfoType : ::System::Int32
+	{
+		NONE = 0,
+		CHALLENGE_ENTRANCE = 1,
+		ROGUE_ENTRANCE = 2,
+		RAID_ENTRANCE = 3,
+		WORLD_SHOP_ENTRANCE = 4,
+		ACTIVITY_ENTRANCE = 5,
+		FARM_ENTRANCE = 6,
+		HELIOBUS_CHALLENGE = 7,
+		HELIOBUS_RAID = 8,
+		DRONE_ENTRANCE = 9,
+		CHALLENGE_STORY = 13,
+		SUB_MAP_ENTRANCE = 10,
+		REWARD_COLLECTION = 11,
+		OFFERING_REWARD = 12,
+		ACTIVITY_TELEVISION = 14,
+		MAZZ_PUZZLE_MOVIE = 15,
+		ChallengeBossEntrance = 16,
+		ACTIVITY_SUMMON = 17,
+		ACTIVITY_MUSIC_RHYTHM = 18,
+		FIGHT_FEST = 19,
+		TITAN_ATLAS = 20,
+		REWARD_COLLECTION_BUG = 21,
+		SWITCH_HAND = 22,
+		Local_Legend = 23,
+		TRAVEL_SHIP = 24,
+		PAM = 25,
+		SWITCH_MASCOT = 26,
+		CHALLENGE_PEAK = 27,
+		FIVE_DIM_MINI_GAME = 28,
+		REWARD_COLLECTION_GOLDEN_CHENLING = 29,
+		FOUR_ROTATE_VOXEL_GAME = 30,
+	};
+}

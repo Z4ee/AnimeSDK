@@ -1,0 +1,312 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/OtherSettings_FastRunSwitchMode.h"
+#include "unitysdk/RPG/Client/PrefGroup.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_OTHERSETTINGS_GET_AUTOBATTLEOPEN_OFFSET UNITYSDK_OFFSET(0x9EB8750)
+#define RPG_CLIENT_OTHERSETTINGS_GET_BOTTOMSHORTCUTHINTFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8B30)
+#define RPG_CLIENT_OTHERSETTINGS_GET_BOTTOMSHORTCUTHINT_OFFSET UNITYSDK_OFFSET(0x9EB8A40)
+#define RPG_CLIENT_OTHERSETTINGS_GET_CAMERAROTATIONSPEEDRATIOGEARFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8660)
+#define RPG_CLIENT_OTHERSETTINGS_GET_CAMERAROTATIONSPEEDRATIOGEARFORPC_OFFSET UNITYSDK_OFFSET(0x9EB8480)
+#define RPG_CLIENT_OTHERSETTINGS_GET_CAMERAROTATIONSPEEDRATIOGEARFORPHONE_OFFSET UNITYSDK_OFFSET(0x9EB8570)
+#define RPG_CLIENT_OTHERSETTINGS_GET_CAMERAXAXISINVERSIONSWITCH_OFFSET UNITYSDK_OFFSET(0x9EB8940)
+#define RPG_CLIENT_OTHERSETTINGS_GET_CAMERAYAXISINVERSIONSWITCH_OFFSET UNITYSDK_OFFSET(0x9EB8840)
+#define RPG_CLIENT_OTHERSETTINGS_GET_DRAGDISTANCEGEARFORCHANGETARGET_OFFSET UNITYSDK_OFFSET(0x9EB80C0)
+#define RPG_CLIENT_OTHERSETTINGS_GET_FASTRUNSWITCHFORPC_OFFSET UNITYSDK_OFFSET(0x9EB7F10)
+#define RPG_CLIENT_OTHERSETTINGS_GET_FIVEDIMPHONEMOVEINPUTTYPE_OFFSET UNITYSDK_OFFSET(0x9EB8D10)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISAICONSIDERULTRASKILL_OFFSET UNITYSDK_OFFSET(0x9EB7760)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISFORBIDBATTLELOG_OFFSET UNITYSDK_OFFSET(0x9EB7A60)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISFORBIDUNITYLOG_OFFSET UNITYSDK_OFFSET(0x9EB7970)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISREPLAYTALKDEFAULTAUTOSELECT_OFFSET UNITYSDK_OFFSET(0x9EB7D30)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISREPLAYTALKDEFAULTAUTO_OFFSET UNITYSDK_OFFSET(0x9EB7C40)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISSAVEBATTLESPEED_OFFSET UNITYSDK_OFFSET(0x9EB7880)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ISTALKDEFAULTAUTO_OFFSET UNITYSDK_OFFSET(0x9EB7B50)
+#define RPG_CLIENT_OTHERSETTINGS_GET_SHOWBATTLEACTIONDELAY_OFFSET UNITYSDK_OFFSET(0x9EB7E20)
+#define RPG_CLIENT_OTHERSETTINGS_GET_USEDEFAULTPAMSKININSTORYPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x9EB8C20)
+#define RPG_CLIENT_OTHERSETTINGS_GET_VIBRATIONINTENSITYFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8E00)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ZOOMSPEEDRATIOGEARFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8390)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ZOOMSPEEDRATIOGEARFORPC_OFFSET UNITYSDK_OFFSET(0x9EB82A0)
+#define RPG_CLIENT_OTHERSETTINGS_GET_ZOOMSPEEDRATIOGEARFORPHONE_OFFSET UNITYSDK_OFFSET(0x9EB81B0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_AUTOBATTLEOPEN_OFFSET UNITYSDK_OFFSET(0x9EB87C0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_BOTTOMSHORTCUTHINTFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8BA0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_BOTTOMSHORTCUTHINT_OFFSET UNITYSDK_OFFSET(0x9EB8AB0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_CAMERAROTATIONSPEEDRATIOGEARFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB86D0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_CAMERAROTATIONSPEEDRATIOGEARFORPC_OFFSET UNITYSDK_OFFSET(0x9EB84F0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_CAMERAROTATIONSPEEDRATIOGEARFORPHONE_OFFSET UNITYSDK_OFFSET(0x9EB85E0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_CAMERAXAXISINVERSIONSWITCH_OFFSET UNITYSDK_OFFSET(0x9EB89B0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_CAMERAYAXISINVERSIONSWITCH_OFFSET UNITYSDK_OFFSET(0x9EB88B0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_DRAGDISTANCEGEARFORCHANGETARGET_OFFSET UNITYSDK_OFFSET(0x9EB8130)
+#define RPG_CLIENT_OTHERSETTINGS_SET_FASTRUNSWITCHFORPC_OFFSET UNITYSDK_OFFSET(0x9EB7FD0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_FIVEDIMPHONEMOVEINPUTTYPE_OFFSET UNITYSDK_OFFSET(0x9EB8D80)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISAICONSIDERULTRASKILL_OFFSET UNITYSDK_OFFSET(0x9EB77D0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISFORBIDBATTLELOG_OFFSET UNITYSDK_OFFSET(0x9EB7AD0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISFORBIDUNITYLOG_OFFSET UNITYSDK_OFFSET(0x9EB79E0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISREPLAYTALKDEFAULTAUTOSELECT_OFFSET UNITYSDK_OFFSET(0x9EB7DA0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISREPLAYTALKDEFAULTAUTO_OFFSET UNITYSDK_OFFSET(0x9EB7CB0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISSAVEBATTLESPEED_OFFSET UNITYSDK_OFFSET(0x9EB78F0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ISTALKDEFAULTAUTO_OFFSET UNITYSDK_OFFSET(0x9EB7BC0)
+#define RPG_CLIENT_OTHERSETTINGS_SET_SHOWBATTLEACTIONDELAY_OFFSET UNITYSDK_OFFSET(0x9EB7E90)
+#define RPG_CLIENT_OTHERSETTINGS_SET_USEDEFAULTPAMSKININSTORYPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x9EB8C90)
+#define RPG_CLIENT_OTHERSETTINGS_SET_VIBRATIONINTENSITYFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8E70)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ZOOMSPEEDRATIOGEARFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x9EB8400)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ZOOMSPEEDRATIOGEARFORPC_OFFSET UNITYSDK_OFFSET(0x9EB8310)
+#define RPG_CLIENT_OTHERSETTINGS_SET_ZOOMSPEEDRATIOGEARFORPHONE_OFFSET UNITYSDK_OFFSET(0x9EB8220)
+#define RPG_CLIENT_OTHERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB76E0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int OtherSettings_TypeDefinitionIndex = 48012;
+
+	class OtherSettings : public ::RPG::Client::PrefGroup
+	{
+	public:
+		// static const ::System::Int32 _DEFAULT_GEAR = 0x3; // 0x0
+
+		::System::Void _ctor(::System::String* name)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS__CTOR_OFFSET))(this, name);
+		}
+
+		::System::Boolean get_IsAIConsiderUltraSkill()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISAICONSIDERULTRASKILL_OFFSET))(this);
+		}
+
+		::System::Void set_IsAIConsiderUltraSkill(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISAICONSIDERULTRASKILL_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsSaveBattleSpeed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISSAVEBATTLESPEED_OFFSET))(this);
+		}
+
+		::System::Void set_IsSaveBattleSpeed(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISSAVEBATTLESPEED_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsForbidUnityLog()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISFORBIDUNITYLOG_OFFSET))(this);
+		}
+
+		::System::Void set_IsForbidUnityLog(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISFORBIDUNITYLOG_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsForbidBattleLog()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISFORBIDBATTLELOG_OFFSET))(this);
+		}
+
+		::System::Void set_IsForbidBattleLog(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISFORBIDBATTLELOG_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsTalkDefaultAuto()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISTALKDEFAULTAUTO_OFFSET))(this);
+		}
+
+		::System::Void set_IsTalkDefaultAuto(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISTALKDEFAULTAUTO_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsReplayTalkDefaultAuto()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISREPLAYTALKDEFAULTAUTO_OFFSET))(this);
+		}
+
+		::System::Void set_IsReplayTalkDefaultAuto(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISREPLAYTALKDEFAULTAUTO_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsReplayTalkDefaultAutoSelect()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ISREPLAYTALKDEFAULTAUTOSELECT_OFFSET))(this);
+		}
+
+		::System::Void set_IsReplayTalkDefaultAutoSelect(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ISREPLAYTALKDEFAULTAUTOSELECT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_ShowBattleActionDelay()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_SHOWBATTLEACTIONDELAY_OFFSET))(this);
+		}
+
+		::System::Void set_ShowBattleActionDelay(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_SHOWBATTLEACTIONDELAY_OFFSET))(this, value);
+		}
+
+		::RPG::Client::OtherSettings_FastRunSwitchMode get_FastRunSwitchForPC()
+		{
+			return ((::RPG::Client::OtherSettings_FastRunSwitchMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_FASTRUNSWITCHFORPC_OFFSET))(this);
+		}
+
+		::System::Void set_FastRunSwitchForPC(::RPG::Client::OtherSettings_FastRunSwitchMode value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OtherSettings_FastRunSwitchMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_FASTRUNSWITCHFORPC_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_DragDistanceGearForChangeTarget()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_DRAGDISTANCEGEARFORCHANGETARGET_OFFSET))(this);
+		}
+
+		::System::Void set_DragDistanceGearForChangeTarget(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_DRAGDISTANCEGEARFORCHANGETARGET_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_ZoomSpeedRatioGearForPhone()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ZOOMSPEEDRATIOGEARFORPHONE_OFFSET))(this);
+		}
+
+		::System::Void set_ZoomSpeedRatioGearForPhone(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ZOOMSPEEDRATIOGEARFORPHONE_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_ZoomSpeedRatioGearForPC()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ZOOMSPEEDRATIOGEARFORPC_OFFSET))(this);
+		}
+
+		::System::Void set_ZoomSpeedRatioGearForPC(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ZOOMSPEEDRATIOGEARFORPC_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_ZoomSpeedRatioGearForController()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_ZOOMSPEEDRATIOGEARFORCONTROLLER_OFFSET))(this);
+		}
+
+		::System::Void set_ZoomSpeedRatioGearForController(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_ZOOMSPEEDRATIOGEARFORCONTROLLER_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_CameraRotationSpeedRatioGearForPC()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_CAMERAROTATIONSPEEDRATIOGEARFORPC_OFFSET))(this);
+		}
+
+		::System::Void set_CameraRotationSpeedRatioGearForPC(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_CAMERAROTATIONSPEEDRATIOGEARFORPC_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_CameraRotationSpeedRatioGearForPhone()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_CAMERAROTATIONSPEEDRATIOGEARFORPHONE_OFFSET))(this);
+		}
+
+		::System::Void set_CameraRotationSpeedRatioGearForPhone(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_CAMERAROTATIONSPEEDRATIOGEARFORPHONE_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_CameraRotationSpeedRatioGearForController()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_CAMERAROTATIONSPEEDRATIOGEARFORCONTROLLER_OFFSET))(this);
+		}
+
+		::System::Void set_CameraRotationSpeedRatioGearForController(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_CAMERAROTATIONSPEEDRATIOGEARFORCONTROLLER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_AutoBattleOpen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_AUTOBATTLEOPEN_OFFSET))(this);
+		}
+
+		::System::Void set_AutoBattleOpen(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_AUTOBATTLEOPEN_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CameraYAxisInversionSwitch()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_CAMERAYAXISINVERSIONSWITCH_OFFSET))(this);
+		}
+
+		::System::Void set_CameraYAxisInversionSwitch(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_CAMERAYAXISINVERSIONSWITCH_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CameraXAxisInversionSwitch()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_CAMERAXAXISINVERSIONSWITCH_OFFSET))(this);
+		}
+
+		::System::Void set_CameraXAxisInversionSwitch(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_CAMERAXAXISINVERSIONSWITCH_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_BottomShortCutHint()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_BOTTOMSHORTCUTHINT_OFFSET))(this);
+		}
+
+		::System::Void set_BottomShortCutHint(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_BOTTOMSHORTCUTHINT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_BottomShortCutHintForController()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_BOTTOMSHORTCUTHINTFORCONTROLLER_OFFSET))(this);
+		}
+
+		::System::Void set_BottomShortCutHintForController(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_BOTTOMSHORTCUTHINTFORCONTROLLER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_UseDefaultPamSkinInStoryPerformance()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_USEDEFAULTPAMSKININSTORYPERFORMANCE_OFFSET))(this);
+		}
+
+		::System::Void set_UseDefaultPamSkinInStoryPerformance(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_USEDEFAULTPAMSKININSTORYPERFORMANCE_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_FiveDimPhoneMoveInputType()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_FIVEDIMPHONEMOVEINPUTTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_FiveDimPhoneMoveInputType(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_FIVEDIMPHONEMOVEINPUTTYPE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_VibrationIntensityForController()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_GET_VIBRATIONINTENSITYFORCONTROLLER_OFFSET))(this);
+		}
+
+		::System::Void set_VibrationIntensityForController(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OTHERSETTINGS_SET_VIBRATIONINTENSITYFORCONTROLLER_OFFSET))(this, value);
+		}
+	};
+}

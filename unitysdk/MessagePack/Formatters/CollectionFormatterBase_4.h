@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace MessagePack { class MessagePackSerializerOptions; }
+
+namespace MessagePack::Formatters
+{
+	inline static constexpr unsigned int CollectionFormatterBase_4_TypeDefinitionIndex = 9237;
+
+	template <typename TElement, typename TIntermediate, typename TEnumerator, typename TCollection>
+	class CollectionFormatterBase_4 : public ::System::Object
+	{
+	public:
+	};
+}

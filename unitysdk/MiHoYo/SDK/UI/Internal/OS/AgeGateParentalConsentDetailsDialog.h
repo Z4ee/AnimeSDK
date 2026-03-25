@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_GET_ONBACK_OFFSET UNITYSDK_OFFSET(0x160145D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x16014670)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_SET_ONBACK_OFFSET UNITYSDK_OFFSET(0x160145E0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x160145F0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x16014700)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG__SHOW_B__4_0_OFFSET UNITYSDK_OFFSET(0x16014710)
+
+namespace MiHoYo::SDK::UI::Internal::OS
+{
+	inline static constexpr unsigned int AgeGateParentalConsentDetailsDialog_TypeDefinitionIndex = 7370;
+
+	class AgeGateParentalConsentDetailsDialog : public ::System::Object
+	{
+	public:
+		::System::Action* _OnBack_k__BackingField; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Action* get_OnBack()
+		{
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_GET_ONBACK_OFFSET))(this);
+		}
+
+		::System::Void set_OnBack(::System::Action* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_SET_ONBACK_OFFSET))(this, value);
+		}
+
+		::System::Void Show()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_SHOW_OFFSET))(this);
+		}
+
+		::System::Void Hide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG_HIDE_OFFSET))(this);
+		}
+
+		::System::Void _Show_b__4_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDETAILSDIALOG__SHOW_B__4_0_OFFSET))(this);
+		}
+	};
+}

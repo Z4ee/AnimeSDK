@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_CC24432B670B2718;
+
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9D55200)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_CURCOINNUM_OFFSET UNITYSDK_OFFSET(0x9D552D0)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_CURSERVERPROGRESS_OFFSET UNITYSDK_OFFSET(0x9D55370)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYADDCOIN_OFFSET UNITYSDK_OFFSET(0x9D552F0)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYMOVESTEP_OFFSET UNITYSDK_OFFSET(0x9D55350)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYROLLDICENUM_OFFSET UNITYSDK_OFFSET(0x9D55330)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYSUBCOIN_OFFSET UNITYSDK_OFFSET(0x9D55310)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_CURCOINNUM_OFFSET UNITYSDK_OFFSET(0x9D552E0)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_CURSERVERPROGRESS_OFFSET UNITYSDK_OFFSET(0x9D55380)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYADDCOIN_OFFSET UNITYSDK_OFFSET(0x9D55300)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYMOVESTEP_OFFSET UNITYSDK_OFFSET(0x9D55360)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYROLLDICENUM_OFFSET UNITYSDK_OFFSET(0x9D55340)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYSUBCOIN_OFFSET UNITYSDK_OFFSET(0x9D55320)
+#define RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D552C0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonopolyDailySettleDisplayData_TypeDefinitionIndex = 53894;
+
+	class MonopolyDailySettleDisplayData : public ::System::Object
+	{
+	public:
+		::System::UInt32 _DailyRollDiceNum_k__BackingField; // 0x10
+		::System::UInt32 _DailySubCoin_k__BackingField; // 0x14
+		::System::UInt32 _CurCoinNum_k__BackingField; // 0x18
+		::System::UInt32 _DailyMoveStep_k__BackingField; // 0x1C
+		::System::UInt32 _CurServerProgress_k__BackingField; // 0x20
+		::System::UInt32 _DailyAddCoin_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::MonopolyDailySettleDisplayData* Create(::Class_1_CC24432B670B2718* notifyObject)
+		{
+			return ((::RPG::Client::MonopolyDailySettleDisplayData*(*)(::Class_1_CC24432B670B2718*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_CREATE_OFFSET))(notifyObject);
+		}
+
+		::System::UInt32 get_CurCoinNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_CURCOINNUM_OFFSET))(this);
+		}
+
+		::System::Void set_CurCoinNum(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_CURCOINNUM_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_DailyAddCoin()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYADDCOIN_OFFSET))(this);
+		}
+
+		::System::Void set_DailyAddCoin(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYADDCOIN_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_DailySubCoin()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYSUBCOIN_OFFSET))(this);
+		}
+
+		::System::Void set_DailySubCoin(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYSUBCOIN_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_DailyRollDiceNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYROLLDICENUM_OFFSET))(this);
+		}
+
+		::System::Void set_DailyRollDiceNum(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYROLLDICENUM_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_DailyMoveStep()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_DAILYMOVESTEP_OFFSET))(this);
+		}
+
+		::System::Void set_DailyMoveStep(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_DAILYMOVESTEP_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_CurServerProgress()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_GET_CURSERVERPROGRESS_OFFSET))(this);
+		}
+
+		::System::Void set_CurServerProgress(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDAILYSETTLEDISPLAYDATA_SET_CURSERVERPROGRESS_OFFSET))(this, value);
+		}
+	};
+}

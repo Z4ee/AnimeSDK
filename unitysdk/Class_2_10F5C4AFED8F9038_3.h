@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_6A1DFE1822B872F8.h"
+#include "unitysdk/RPG/GameCore/LogSamplerType.h"
+#include "unitysdk/Struct_2_9E453D160BF69F98.h"
+
+namespace System { class String; }
+
+#define CLASS_2_10F5C4AFED8F9038_3_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x114F0B60)
+#define CLASS_2_10F5C4AFED8F9038_3_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x114F0EE0)
+#define CLASS_2_10F5C4AFED8F9038_3_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x114F0E60)
+#define CLASS_2_10F5C4AFED8F9038_3_METHOD_2_630A3B9C63A23882_OFFSET UNITYSDK_OFFSET(0x114F0B70)
+#define CLASS_2_10F5C4AFED8F9038_3_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x114F0D90)
+#define CLASS_2_10F5C4AFED8F9038_3_METHOD_2_BB2928BEC244DEB7_OFFSET UNITYSDK_OFFSET(0x114F0E50)
+#define CLASS_2_10F5C4AFED8F9038_3_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x114F0D50)
+#define CLASS_2_10F5C4AFED8F9038_3__CTOR_OFFSET UNITYSDK_OFFSET(0x114F0E40)
+
+inline static constexpr unsigned int Class_2_10F5C4AFED8F9038_3_TypeDefinitionIndex = 44989;
+
+class Class_2_10F5C4AFED8F9038_3 : public ::Class_1_6A1DFE1822B872F8
+{
+public:
+	::System::String* Field_2_0; // 0x10
+	::Struct_2_9E453D160BF69F98 Field_2_1; // 0x18
+	::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::LogSamplerType get_Type()
+	{
+		return ((::RPG::GameCore::LogSamplerType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_GET_TYPE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_630A3B9C63A23882()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_METHOD_2_630A3B9C63A23882_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BB2928BEC244DEB7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_METHOD_2_BB2928BEC244DEB7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10F5C4AFED8F9038_3_METHOD_2_5790A55946AA509D_1_OFFSET))(this);
+	}
+};

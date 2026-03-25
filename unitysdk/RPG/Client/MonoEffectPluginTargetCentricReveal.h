@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
+
+class Class_2_FD5E27D79F54FDEE;
+namespace RPG::GameCore { class GameEntity; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CDEE70)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CDEFB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_ENABLE_OFFSET UNITYSDK_OFFSET(0x9CDEE00)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x9CDEE10)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_SOFTNESS_OFFSET UNITYSDK_OFFSET(0x9CDEE20)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_TARGETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x9CDEDF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0x9CDEE30)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CDEF60)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_SETREVEALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x9CDF040)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL__CTOR_OFFSET UNITYSDK_OFFSET(0x9CDF0F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL___IFIXBASEPROXY_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0x9CDF180)
+#define RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL___IFIXBASEPROXY_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0x9CDF110)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoEffectPluginTargetCentricReveal_TypeDefinitionIndex = 57381;
+
+	class MonoEffectPluginTargetCentricReveal : public ::RPG::Client::MonoEffectPluginBase
+	{
+	public:
+		::System::Boolean Field_6_0; // 0x28
+		::System::Single Field_6_1; // 0x2C
+		::System::Single Field_6_2; // 0x30
+		::UnityEngine::Transform* Field_6_3; // 0x38
+		::Class_2_FD5E27D79F54FDEE* Field_6_4; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* get_TargetTransform()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_TARGETTRANSFORM_OFFSET))(this);
+		}
+
+		::System::Boolean get_Enable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_ENABLE_OFFSET))(this);
+		}
+
+		::System::Single get_Radius()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_RADIUS_OFFSET))(this);
+		}
+
+		::System::Single get_Softness()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_GET_SOFTNESS_OFFSET))(this);
+		}
+
+		::System::Boolean IgnoreInEditor()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_IGNOREINEDITOR_OFFSET))(this);
+		}
+
+		::System::Void AwakePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_AWAKEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void ResetPlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_RESETPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void DisposePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_DISPOSEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void SetRevealProperties(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::System::Single a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL_SETREVEALPROPERTIES_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Boolean __iFixBaseProxy_IgnoreInEditor()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL___IFIXBASEPROXY_IGNOREINEDITOR_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_AwakePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTARGETCENTRICREVEAL___IFIXBASEPROXY_AWAKEPLUGIN_OFFSET))(this);
+		}
+	};
+}

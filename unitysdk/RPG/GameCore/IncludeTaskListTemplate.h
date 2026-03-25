@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class SequenceConfig; }
+namespace RPG::GameCore { class TargetEvaluator; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_6A3620DBDAE982A1_OFFSET UNITYSDK_OFFSET(0x172B9890)
+#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_C671ECC815C8E09E_OFFSET UNITYSDK_OFFSET(0x172B9910)
+#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x172B98E0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int IncludeTaskListTemplate_TypeDefinitionIndex = 22104;
+
+	class IncludeTaskListTemplate : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::String* Name; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* DynamicValues; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* DynamicStrings; // 0x28
+		::RPG::GameCore::TargetEvaluator* ParamTarget; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::SequenceConfig*>* TemplateParamSequences; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDETASKLISTTEMPLATE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_6A3620DBDAE982A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeTaskListTemplate*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_6A3620DBDAE982A1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_C671ECC815C8E09E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeTaskListTemplate* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeTaskListTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_C671ECC815C8E09E_OFFSET))(a1, a2);
+		}
+	};
+}

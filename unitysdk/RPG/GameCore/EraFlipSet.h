@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class EraFlipGroupConfig; }
+
+#define RPG_GAMECORE_ERAFLIPSET_METHOD_2_647A3D62B7DAAA99_OFFSET UNITYSDK_OFFSET(0x171A9C80)
+#define RPG_GAMECORE_ERAFLIPSET__CTOR_OFFSET UNITYSDK_OFFSET(0x171A9DD0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int EraFlipSet_TypeDefinitionIndex = 15221;
+
+	class EraFlipSet : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::System::UInt32 ID; // 0x10
+		::Il2CppArray<::RPG::GameCore::EraFlipGroupConfig*>* Groups; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPSET__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_647A3D62B7DAAA99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EraFlipSet*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EraFlipSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPSET_METHOD_2_647A3D62B7DAAA99_OFFSET))(a1, a2);
+		}
+	};
+}

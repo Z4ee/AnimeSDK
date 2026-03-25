@@ -1,0 +1,165 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_60E68713ABBD21D4_ValueModifyType.h"
+#include "unitysdk/RPG/Client/ParkourGame/EModifyEngineFlags.h"
+#include "unitysdk/RPG/Client/ParkourGame/Engine.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T> class Class_1_60E68713ABBD21D4_ValueStack_1;
+
+#define CLASS_1_60E68713ABBD21D4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1140CF60)
+#define CLASS_1_60E68713ABBD21D4_GET_DEFAULTLEVEL_OFFSET UNITYSDK_OFFSET(0x1140DAD0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_0C44FB644D25C1C2_1_OFFSET UNITYSDK_OFFSET(0x1140DA30)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_0C44FB644D25C1C2_OFFSET UNITYSDK_OFFSET(0x1140D990)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_0C65243341F1EFB1_OFFSET UNITYSDK_OFFSET(0x1140CFA0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_4E6FC4595236E4FA_OFFSET UNITYSDK_OFFSET(0x1140D830)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_6B47CDE3B34D5A39_OFFSET UNITYSDK_OFFSET(0x1140D520)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_8BC6021020D15A44_OFFSET UNITYSDK_OFFSET(0x1140D5A0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1140DB00)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x1140DB50)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_A583248D0B8C6672_OFFSET UNITYSDK_OFFSET(0x1140D5F0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_BADDA70ED68283AE_OFFSET UNITYSDK_OFFSET(0x1140D160)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1140DAF0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D137F2A14B82BCD6_OFFSET UNITYSDK_OFFSET(0x1140CD50)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_1_OFFSET UNITYSDK_OFFSET(0x1140D2F0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_2_OFFSET UNITYSDK_OFFSET(0x1140D360)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_3_OFFSET UNITYSDK_OFFSET(0x1140D3D0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_4_OFFSET UNITYSDK_OFFSET(0x1140D440)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_5_OFFSET UNITYSDK_OFFSET(0x1140D4B0)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x1140D280)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D9F999D488F5ADA6_1_OFFSET UNITYSDK_OFFSET(0x1140D770)
+#define CLASS_1_60E68713ABBD21D4_METHOD_1_D9F999D488F5ADA6_OFFSET UNITYSDK_OFFSET(0x1140D6B0)
+#define CLASS_1_60E68713ABBD21D4_SET_DEFAULTLEVEL_OFFSET UNITYSDK_OFFSET(0x1140DAE0)
+#define CLASS_1_60E68713ABBD21D4__CTOR_OFFSET UNITYSDK_OFFSET(0x1140CCC0)
+
+inline static constexpr unsigned int Class_1_60E68713ABBD21D4_TypeDefinitionIndex = 60849;
+
+class Class_1_60E68713ABBD21D4 : public ::System::Object
+{
+public:
+	::RPG::Client::ParkourGame::Engine Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_60E68713ABBD21D4_ValueStack_1<::System::Int32>*>* Field_1_3; // 0x20
+	::System::Int32 Field_1_1; // 0x28
+	::System::Int32 _DefaultLevel_k__BackingField; // 0x2C
+
+	::System::Void _ctor(::RPG::Client::ParkourGame::Engine& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::Engine&))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0C65243341F1EFB1(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_0C65243341F1EFB1_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_OFFSET))(this);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0_1()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_1_OFFSET))(this);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0_2()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_2_OFFSET))(this);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0_3()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_3_OFFSET))(this);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0_4()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_4_OFFSET))(this);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0_5()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D64FD9A228A1C4E0_5_OFFSET))(this);
+	}
+
+	::System::Single Method_1_6B47CDE3B34D5A39(::System::Int32 a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_6B47CDE3B34D5A39_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_1_8BC6021020D15A44()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_8BC6021020D15A44_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_A583248D0B8C6672(::System::Int32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_A583248D0B8C6672_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_D9F999D488F5ADA6(::RPG::Client::ParkourGame::EModifyEngineFlags a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ParkourGame::EModifyEngineFlags))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D9F999D488F5ADA6_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_D9F999D488F5ADA6_1(::RPG::Client::ParkourGame::EModifyEngineFlags a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ParkourGame::EModifyEngineFlags))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D9F999D488F5ADA6_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_D137F2A14B82BCD6(::Class_1_60E68713ABBD21D4_ValueModifyType a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::RPG::Client::ParkourGame::EModifyEngineFlags a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_60E68713ABBD21D4_ValueModifyType, ::System::Int32, ::System::Int32, ::System::Single, ::RPG::Client::ParkourGame::EModifyEngineFlags))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_D137F2A14B82BCD6_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::System::Void Method_1_4E6FC4595236E4FA(::RPG::Client::ParkourGame::EModifyEngineFlags a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::EModifyEngineFlags))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_4E6FC4595236E4FA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_0C44FB644D25C1C2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_0C44FB644D25C1C2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0C44FB644D25C1C2_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_0C44FB644D25C1C2_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BADDA70ED68283AE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_BADDA70ED68283AE_OFFSET))(this);
+	}
+
+	::System::Int32 get_DefaultLevel()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_GET_DEFAULTLEVEL_OFFSET))(this);
+	}
+
+	::System::Void set_DefaultLevel(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_SET_DEFAULTLEVEL_OFFSET))(this, value);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_95780ED94B90ED36_OFFSET))(this);
+	}
+
+	::System::Single Method_1_A36150C5DCC8409E()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60E68713ABBD21D4_METHOD_1_A36150C5DCC8409E_OFFSET))(this);
+	}
+};

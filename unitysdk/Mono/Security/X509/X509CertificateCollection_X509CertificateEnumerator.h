@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace Mono::Security::X509 { class X509Certificate; }
+namespace Mono::Security::X509 { class X509CertificateCollection; }
+namespace System::Collections { class IEnumerator; }
+
+#define MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1614F3F0)
+#define MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1614F8D0)
+#define MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16159D50)
+#define MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16159E00)
+#define MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16159EB0)
+#define MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16159BD0)
+
+namespace Mono::Security::X509
+{
+	inline static constexpr unsigned int X509CertificateCollection_X509CertificateEnumerator_TypeDefinitionIndex = 2257;
+
+	class X509CertificateCollection_X509CertificateEnumerator : public ::System::Object
+	{
+	public:
+		::System::Collections::IEnumerator* enumerator; // 0x10
+
+		::System::Void _ctor(::Mono::Security::X509::X509CertificateCollection* mappings)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::X509::X509CertificateCollection*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR__CTOR_OFFSET))(this, mappings);
+		}
+
+		::Mono::Security::X509::X509Certificate* get_Current()
+		{
+			return ((::Mono::Security::X509::X509Certificate*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Boolean System_Collections_IEnumerator_MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509CERTIFICATECOLLECTION_X509CERTIFICATEENUMERATOR_MOVENEXT_OFFSET))(this);
+		}
+	};
+}

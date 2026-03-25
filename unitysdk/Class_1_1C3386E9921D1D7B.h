@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_662;
+namespace RPG::Client { class MainMissionData; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_1C3386E9921D1D7B_METHOD_1_98688B4AEFDD010E_OFFSET UNITYSDK_OFFSET(0x8B73290)
+#define CLASS_1_1C3386E9921D1D7B_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8B733F0)
+#define CLASS_1_1C3386E9921D1D7B__CTOR_OFFSET UNITYSDK_OFFSET(0x8B73240)
+
+inline static constexpr unsigned int Class_1_1C3386E9921D1D7B_TypeDefinitionIndex = 53784;
+
+class Class_1_1C3386E9921D1D7B : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_662*>* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1C3386E9921D1D7B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_98688B4AEFDD010E(::RPG::Client::MainMissionData* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + CLASS_1_1C3386E9921D1D7B_METHOD_1_98688B4AEFDD010E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1C3386E9921D1D7B_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+};

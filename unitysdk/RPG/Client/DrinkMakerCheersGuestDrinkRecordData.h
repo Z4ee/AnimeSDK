@@ -1,0 +1,138 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class DrinkMakerCheersBartendDrinkDataExtend; }
+namespace System { class String; }
+
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKDATA_OFFSET UNITYSDK_OFFSET(0x950BBF0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKID_OFFSET UNITYSDK_OFFSET(0x9512410)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKNAME_OFFSET UNITYSDK_OFFSET(0x9512390)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKTAG_OFFSET UNITYSDK_OFFSET(0x95123B0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9512430)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_HASOTHERGUESTMAKE_OFFSET UNITYSDK_OFFSET(0x9512570)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_HASSEENUNLOCKSTATE_OFFSET UNITYSDK_OFFSET(0x95124B0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_ISMAINSTORYDRINK_OFFSET UNITYSDK_OFFSET(0x95123F0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9512280)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_PERFORMANCEIDAFTERSUMMARY_OFFSET UNITYSDK_OFFSET(0x9512490)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_PERFORMANCEIDGIVEDRINKNAME_OFFSET UNITYSDK_OFFSET(0x9512470)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_PERFORMANCEIDLISTAFTERGIVEDRINK_OFFSET UNITYSDK_OFFSET(0x9512450)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_DRINKID_OFFSET UNITYSDK_OFFSET(0x9512420)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9512440)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_ISMAINSTORYDRINK_OFFSET UNITYSDK_OFFSET(0x9512400)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_PERFORMANCEIDAFTERSUMMARY_OFFSET UNITYSDK_OFFSET(0x95124A0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_PERFORMANCEIDGIVEDRINKNAME_OFFSET UNITYSDK_OFFSET(0x9512480)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_PERFORMANCEIDLISTAFTERGIVEDRINK_OFFSET UNITYSDK_OFFSET(0x9512460)
+#define RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x950D6A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int DrinkMakerCheersGuestDrinkRecordData_TypeDefinitionIndex = 51669;
+
+	class DrinkMakerCheersGuestDrinkRecordData : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::UInt32>* _PerformanceIDListAfterGiveDrink_k__BackingField; // 0x10
+		::System::UInt32 _PerformanceIDAfterSummary_k__BackingField; // 0x18
+		::System::UInt32 _PerformanceIDGiveDrinkName_k__BackingField; // 0x1C
+		::System::UInt32 _DrinkID_k__BackingField; // 0x20
+		::System::Boolean _IsMainStoryDrink_k__BackingField; // 0x24
+		::System::UInt32 _GroupID_k__BackingField; // 0x28
+
+		::System::Void _ctor(::System::UInt32 drinkId, ::System::UInt32 groupId, ::System::Boolean isMainStoryDrink, ::Il2CppArray<::System::UInt32>* performanceIDListAfterGiveDrink, ::System::UInt32 performanceIDGiveDrinkName)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::Il2CppArray<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA__CTOR_OFFSET))(this, drinkId, groupId, isMainStoryDrink, performanceIDListAfterGiveDrink, performanceIDGiveDrinkName);
+		}
+
+		::System::String* get_DrinkName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_DrinkTag()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKTAG_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsMainStoryDrink()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_ISMAINSTORYDRINK_OFFSET))(this);
+		}
+
+		::System::Void set_IsMainStoryDrink(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_ISMAINSTORYDRINK_OFFSET))(this, value);
+		}
+
+		::RPG::Client::DrinkMakerCheersBartendDrinkDataExtend* get_DrinkData()
+		{
+			return ((::RPG::Client::DrinkMakerCheersBartendDrinkDataExtend*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKDATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DrinkID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_DRINKID_OFFSET))(this);
+		}
+
+		::System::Void set_DrinkID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_DRINKID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_GroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_GROUPID_OFFSET))(this);
+		}
+
+		::System::Void set_GroupID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_GROUPID_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_PerformanceIDListAfterGiveDrink()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_PERFORMANCEIDLISTAFTERGIVEDRINK_OFFSET))(this);
+		}
+
+		::System::Void set_PerformanceIDListAfterGiveDrink(::Il2CppArray<::System::UInt32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_PERFORMANCEIDLISTAFTERGIVEDRINK_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_PerformanceIDGiveDrinkName()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_PERFORMANCEIDGIVEDRINKNAME_OFFSET))(this);
+		}
+
+		::System::Void set_PerformanceIDGiveDrinkName(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_PERFORMANCEIDGIVEDRINKNAME_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_PerformanceIDAfterSummary()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_PERFORMANCEIDAFTERSUMMARY_OFFSET))(this);
+		}
+
+		::System::Void set_PerformanceIDAfterSummary(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_SET_PERFORMANCEIDAFTERSUMMARY_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_HasSeenUnlockState()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_HASSEENUNLOCKSTATE_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasOtherGuestMake()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGUESTDRINKRECORDDATA_GET_HASOTHERGUESTMAKE_OFFSET))(this);
+		}
+	};
+}

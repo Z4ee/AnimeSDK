@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices::AntiCheatCommon { class LogPlayerUseWeaponData; }
+namespace Epic::OnlineServices::AntiCheatCommon { class Quat; }
+namespace Epic::OnlineServices::AntiCheatCommon { class Vec3f; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC440)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_ISMELEEATTACK_OFFSET UNITYSDK_OFFSET(0xC100)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_ISPLAYERVIEWZOOMED_OFFSET UNITYSDK_OFFSET(0xBFA0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_PLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x5580)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_PLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0xBDE0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_PLAYERVIEWROTATION_OFFSET UNITYSDK_OFFSET(0xBEC0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_WEAPONNAME_OFFSET UNITYSDK_OFFSET(0xC260)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xC3D0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_ISMELEEATTACK_OFFSET UNITYSDK_OFFSET(0xC1B0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_ISPLAYERVIEWZOOMED_OFFSET UNITYSDK_OFFSET(0xC050)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xC3C0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_PLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0xBDD0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_PLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0xBE50)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_PLAYERVIEWROTATION_OFFSET UNITYSDK_OFFSET(0xBF30)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_WEAPONNAME_OFFSET UNITYSDK_OFFSET(0xC310)
+
+namespace Epic::OnlineServices::AntiCheatCommon
+{
+	inline static constexpr unsigned int LogPlayerUseWeaponDataInternal_TypeDefinitionIndex = 36667;
+
+	struct alignas(8) LogPlayerUseWeaponDataInternal
+	{
+		::System::IntPtr m_PlayerHandle; // 0x10
+		::System::IntPtr m_PlayerPosition; // 0x18
+		::System::IntPtr m_PlayerViewRotation; // 0x20
+		::System::Int32 m_IsPlayerViewZoomed; // 0x28
+		::System::Int32 m_IsMeleeAttack; // 0x2C
+		::System::IntPtr m_WeaponName; // 0x30
+
+		::System::IntPtr get_PlayerHandle()
+		{
+			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_PLAYERHANDLE_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerHandle(::System::IntPtr value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_PLAYERHANDLE_OFFSET))(this, value);
+		}
+
+		::Epic::OnlineServices::AntiCheatCommon::Vec3f* get_PlayerPosition()
+		{
+			return ((::Epic::OnlineServices::AntiCheatCommon::Vec3f*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_PLAYERPOSITION_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerPosition(::Epic::OnlineServices::AntiCheatCommon::Vec3f* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Vec3f*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_PLAYERPOSITION_OFFSET))(this, value);
+		}
+
+		::Epic::OnlineServices::AntiCheatCommon::Quat* get_PlayerViewRotation()
+		{
+			return ((::Epic::OnlineServices::AntiCheatCommon::Quat*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_PLAYERVIEWROTATION_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerViewRotation(::Epic::OnlineServices::AntiCheatCommon::Quat* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Quat*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_PLAYERVIEWROTATION_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsPlayerViewZoomed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_ISPLAYERVIEWZOOMED_OFFSET))(this);
+		}
+
+		::System::Void set_IsPlayerViewZoomed(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_ISPLAYERVIEWZOOMED_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsMeleeAttack()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_ISMELEEATTACK_OFFSET))(this);
+		}
+
+		::System::Void set_IsMeleeAttack(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_ISMELEEATTACK_OFFSET))(this, value);
+		}
+
+		::System::String* get_WeaponName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_GET_WEAPONNAME_OFFSET))(this);
+		}
+
+		::System::Void set_WeaponName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_WEAPONNAME_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_SET_1_OFFSET))(this, other);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONDATAINTERNAL_DISPOSE_OFFSET))(this);
+		}
+	};
+}

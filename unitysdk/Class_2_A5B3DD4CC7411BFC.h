@@ -1,0 +1,135 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/RPG/Client/UISkillIndex.h"
+#include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
+
+namespace RPG::GameCore { class BattleInstance; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelUIComponent; }
+namespace RPG::GameCore { class SkillData; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+
+#define CLASS_2_A5B3DD4CC7411BFC_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x10C04980)
+#define CLASS_2_A5B3DD4CC7411BFC_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x10C04A40)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x10C04240)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x10C04C40)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x10C04BE0)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_7A2DB6C2ED8E8BBA_OFFSET UNITYSDK_OFFSET(0x10C043F0)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0x10C041D0)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_941C72F2E2B055F5_OFFSET UNITYSDK_OFFSET(0x10C048C0)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_A27D06F9481FAFDB_OFFSET UNITYSDK_OFFSET(0x10C048D0)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_C89A41A14F7CCD91_OFFSET UNITYSDK_OFFSET(0x10C04B70)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10C043B0)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_DF2A78D8DB25ED05_OFFSET UNITYSDK_OFFSET(0x10C04440)
+#define CLASS_2_A5B3DD4CC7411BFC_METHOD_2_E2959E26CE30F85A_OFFSET UNITYSDK_OFFSET(0x10C044B0)
+#define CLASS_2_A5B3DD4CC7411BFC__CTOR_OFFSET UNITYSDK_OFFSET(0x10C04AE0)
+#define CLASS_2_A5B3DD4CC7411BFC__ONBIND_OFFSET UNITYSDK_OFFSET(0x10C040B0)
+#define CLASS_2_A5B3DD4CC7411BFC___IFIXBASEPROXY_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x10C04CA0)
+#define CLASS_2_A5B3DD4CC7411BFC___IFIXBASEPROXY_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x10C04D00)
+#define CLASS_2_A5B3DD4CC7411BFC___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x10C04B10)
+
+inline static constexpr unsigned int Class_2_A5B3DD4CC7411BFC_TypeDefinitionIndex = 58513;
+
+class Class_2_A5B3DD4CC7411BFC : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	// static const ::System::String* Field_2_2; // 0x0
+	::RPG::GameCore::BattleInstance* Field_2_4; // 0x60
+	::UnityEngine::Transform* Field_2_1; // 0x68
+	::RPG::GameCore::LevelUIComponent* Field_2_5; // 0x70
+	::UnityEngine::Transform* Field_2_0; // 0x78
+	::RPG::Client::UISkillIndex Field_2_3; // 0x80
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_8CE0803574BB66D7(::Struct_2_96F8F0A04B900A9E a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_8CE0803574BB66D7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_4307B2A4B4A12C1A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_4307B2A4B4A12C1A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7A2DB6C2ED8E8BBA(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::SkillData* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_7A2DB6C2ED8E8BBA_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_DF2A78D8DB25ED05()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_DF2A78D8DB25ED05_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_E2959E26CE30F85A()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_E2959E26CE30F85A_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_941C72F2E2B055F5()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_941C72F2E2B055F5_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_A27D06F9481FAFDB_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C89A41A14F7CCD91(::Struct_2_96F8F0A04B900A9E P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_C89A41A14F7CCD91_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC_METHOD_2_5790A55946AA509D_1_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC___IFIXBASEPROXY_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A5B3DD4CC7411BFC___IFIXBASEPROXY_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

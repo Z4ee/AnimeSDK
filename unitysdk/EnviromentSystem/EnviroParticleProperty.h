@@ -1,0 +1,278 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EnviromentSystem/EnviroAssetProperty.h"
+#include "unitysdk/EnviromentSystem/EnviroParticleProperty_EnviroParticleSystem.h"
+#include "unitysdk/UnityEngine/ParticleSystem_Particle.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+namespace EnviromentSystem { class EnviroProperty; }
+namespace EnviromentSystem { class EnviromentProfile; }
+namespace System { class String; }
+namespace System { class Type; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_0414B7E68ABA5085_OFFSET UNITYSDK_OFFSET(0xFBAC460)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0xFBAA0C0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_0A17961F2C7839AC_OFFSET UNITYSDK_OFFSET(0xFBAB690)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_0ED2EEE19D10A0A7_OFFSET UNITYSDK_OFFSET(0xFBA9380)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_1CDA0051FD244886_OFFSET UNITYSDK_OFFSET(0xFBAB3A0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_221AD7CB52B41597_1_OFFSET UNITYSDK_OFFSET(0xFBAC390)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_221AD7CB52B41597_OFFSET UNITYSDK_OFFSET(0xFBAC2B0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_289256236CBF6273_OFFSET UNITYSDK_OFFSET(0xFBAC3F0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_29495CE3AC6B252C_OFFSET UNITYSDK_OFFSET(0xFBAB4A0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_367B828F03288F81_OFFSET UNITYSDK_OFFSET(0xFBABD30)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_3B142DD188989577_OFFSET UNITYSDK_OFFSET(0xFBAC540)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_42B2BB88AE2FB02E_OFFSET UNITYSDK_OFFSET(0xFBA94A0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_4329D8CC8C08D0C1_OFFSET UNITYSDK_OFFSET(0xFBAC5E0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_46821F7F37665DC0_OFFSET UNITYSDK_OFFSET(0xFBAB0A0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_46B69F9383394A79_OFFSET UNITYSDK_OFFSET(0xFBA8210)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_4943DAC3440896B0_OFFSET UNITYSDK_OFFSET(0xFBAA3F0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_617412338D2072E4_OFFSET UNITYSDK_OFFSET(0xFBA9AE0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_6265C7118C397180_OFFSET UNITYSDK_OFFSET(0xFBA9E60)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xFBAB1D0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_772D67C1BB94E51A_OFFSET UNITYSDK_OFFSET(0xFBA8990)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_7B3B6B7B6E9F2516_OFFSET UNITYSDK_OFFSET(0xFBA9520)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_87318FF00D6BC7EB_OFFSET UNITYSDK_OFFSET(0xFBA9C90)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_8C5640BC001B297D_OFFSET UNITYSDK_OFFSET(0xFBABC40)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_96E1416E964F2CB5_OFFSET UNITYSDK_OFFSET(0xFBA7960)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_A1181F48E2FBC750_OFFSET UNITYSDK_OFFSET(0xFBABB70)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_B61816188D411E7A_OFFSET UNITYSDK_OFFSET(0xFBABE10)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_C6A2F37261C7C003_OFFSET UNITYSDK_OFFSET(0xFBAB5D0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xFBAC270)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xFBAC310)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0xFBAC350)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0xFBAC4C0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_5_OFFSET UNITYSDK_OFFSET(0xFBAC500)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_6_OFFSET UNITYSDK_OFFSET(0xFBAC5A0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_7_OFFSET UNITYSDK_OFFSET(0xFBAC630)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_8_OFFSET UNITYSDK_OFFSET(0xFBAC670)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xFBAC230)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0xFBA7C10)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_E05012375B3FEA38_OFFSET UNITYSDK_OFFSET(0xFBABA60)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_EC90937CEA9AFCA9_OFFSET UNITYSDK_OFFSET(0xFBAC590)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_F34777B9BFBE881C_OFFSET UNITYSDK_OFFSET(0xFBAB760)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0xFBA76D0)
+#define ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xFBA7550)
+
+namespace EnviromentSystem
+{
+	inline static constexpr unsigned int EnviroParticleProperty_TypeDefinitionIndex = 40294;
+
+	class EnviroParticleProperty : public ::EnviromentSystem::EnviroAssetProperty
+	{
+	public:
+		::System::Collections::Generic::List_1<::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem>* m_particleSystem; // 0x50
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tmpCustomData; // 0x58
+		::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* tmpparticles; // 0x60
+
+		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void _ctor_1(::EnviromentSystem::EnviroParticleProperty* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY__CTOR_1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_96E1416E964F2CB5(::EnviromentSystem::EnviroProperty* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_96E1416E964F2CB5_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_CD9F3CEFB366C27A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CD9F3CEFB366C27A_OFFSET))(this);
+		}
+
+		::System::Void Method_3_0ED2EEE19D10A0A7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_0ED2EEE19D10A0A7_OFFSET))(this);
+		}
+
+		::System::Void Method_3_42B2BB88AE2FB02E(::EnviromentSystem::EnviroProperty* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_42B2BB88AE2FB02E_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_7B3B6B7B6E9F2516(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_7B3B6B7B6E9F2516_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_6265C7118C397180(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_6265C7118C397180_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_04F02FC65FAA2E0C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_04F02FC65FAA2E0C_OFFSET))(this);
+		}
+
+		::System::Void Method_3_46821F7F37665DC0(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_46821F7F37665DC0_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_6B72D4EE8C6E907F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_6B72D4EE8C6E907F_OFFSET))(this);
+		}
+
+		::System::Void Method_3_1CDA0051FD244886()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_1CDA0051FD244886_OFFSET))(this);
+		}
+
+		::System::Void Method_3_29495CE3AC6B252C(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Type*>*& a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Type*>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_29495CE3AC6B252C_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_3_C6A2F37261C7C003()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_C6A2F37261C7C003_OFFSET))(this);
+		}
+
+		::System::Void Method_3_0A17961F2C7839AC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_0A17961F2C7839AC_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_F34777B9BFBE881C(::EnviromentSystem::EnviroProperty* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_F34777B9BFBE881C_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_617412338D2072E4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_617412338D2072E4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_87318FF00D6BC7EB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_87318FF00D6BC7EB_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* Method_3_E05012375B3FEA38(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector4>*(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_E05012375B3FEA38_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_A1181F48E2FBC750(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_A1181F48E2FBC750_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_3_8C5640BC001B297D(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1, ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*& a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem, ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_8C5640BC001B297D_OFFSET))(this, a1, a2);
+		}
+
+		::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* Method_3_367B828F03288F81(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_367B828F03288F81_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_46B69F9383394A79(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_46B69F9383394A79_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_B61816188D411E7A(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_B61816188D411E7A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_3_772D67C1BB94E51A(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_772D67C1BB94E51A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_4943DAC3440896B0(::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroParticleProperty_EnviroParticleSystem))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_4943DAC3440896B0_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_221AD7CB52B41597(::EnviromentSystem::EnviroProperty* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_221AD7CB52B41597_OFFSET))(this, P0);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_221AD7CB52B41597_1(::EnviromentSystem::EnviroProperty* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_221AD7CB52B41597_1_OFFSET))(this, P0);
+		}
+
+		::System::Void Method_3_289256236CBF6273(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_289256236CBF6273_OFFSET))(this, P0);
+		}
+
+		::System::Void Method_3_0414B7E68ABA5085(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_0414B7E68ABA5085_OFFSET))(this, P0);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_5_OFFSET))(this);
+		}
+
+		::System::Void Method_3_3B142DD188989577(::System::Collections::Generic::List_1<::System::String*>*& P0, ::System::Collections::Generic::List_1<::System::Type*>*& P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Type*>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_3B142DD188989577_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void Method_3_EC90937CEA9AFCA9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_EC90937CEA9AFCA9_OFFSET))(this);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_6_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_4329D8CC8C08D0C1(::EnviromentSystem::EnviroProperty* P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_4329D8CC8C08D0C1_OFFSET))(this, P0);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_7_OFFSET))(this);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598_8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROPARTICLEPROPERTY_METHOD_3_CA373AA1C7054598_8_OFFSET))(this);
+		}
+	};
+}

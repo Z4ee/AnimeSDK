@@ -1,0 +1,165 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/SwordTrainingStoryType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class SwordTrainingStoryRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_CLEARSERVERSTATE_OFFSET UNITYSDK_OFFSET(0xA525E00)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA525D90)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xA526640)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_CONDITIONID_OFFSET UNITYSDK_OFFSET(0xA525FE0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0xA526710)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_EFFECTIDARR_OFFSET UNITYSDK_OFFSET(0xA5257E0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_EXAMID_OFFSET UNITYSDK_OFFSET(0xA526170)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISENDING_OFFSET UNITYSDK_OFFSET(0xA5269B0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xA526050)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISSTORY_OFFSET UNITYSDK_OFFSET(0xA526950)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xA525E90)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_MISSIONID_OFFSET UNITYSDK_OFFSET(0xA5262B0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_PARTNERID_OFFSET UNITYSDK_OFFSET(0xA5268B0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0xA526210)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_REPEATPERFORMANCEID_OFFSET UNITYSDK_OFFSET(0xA526350)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYDESC_OFFSET UNITYSDK_OFFSET(0xA526570)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYHINT_OFFSET UNITYSDK_OFFSET(0xA5267E0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYIMAGE_OFFSET UNITYSDK_OFFSET(0xA5263F0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYTITLE_OFFSET UNITYSDK_OFFSET(0xA5264A0)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYTYPE_OFFSET UNITYSDK_OFFSET(0xA526070)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA526110)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_SETSTORYFINISH_OFFSET UNITYSDK_OFFSET(0xA525E40)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xA526060)
+#define RPG_CLIENT_SWORDTRAININGSTORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA525DF0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int SwordTrainingStoryData_TypeDefinitionIndex = 50325;
+
+	class SwordTrainingStoryData : public ::System::Object
+	{
+	public:
+		::System::Boolean _IsFinish_k__BackingField; // 0x10
+		::System::UInt32 StoryID; // 0x14
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::SwordTrainingStoryData* Create(::System::UInt32 storyID)
+		{
+			return ((::RPG::Client::SwordTrainingStoryData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_CREATE_OFFSET))(storyID);
+		}
+
+		::System::Void ClearServerState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_CLEARSERVERSTATE_OFFSET))(this);
+		}
+
+		::System::Void SetStoryFinish(::System::Boolean isFinish)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_SETSTORYFINISH_OFFSET))(this, isFinish);
+		}
+
+		::System::Boolean get_IsUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISUNLOCK_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISFINISH_OFFSET))(this);
+		}
+
+		::System::Void set_IsFinish(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_SET_ISFINISH_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::SwordTrainingStoryType get_StoryType()
+		{
+			return ((::RPG::GameCore::SwordTrainingStoryType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ExamID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_EXAMID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PerformanceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_PERFORMANCEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MissionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_MISSIONID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RepeatPerformanceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_REPEATPERFORMANCEID_OFFSET))(this);
+		}
+
+		::System::String* get_StoryImage()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYIMAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StoryTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYTITLE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StoryDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ConditionDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_CONDITIONDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EffectDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_EFFECTDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StoryHint()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_STORYHINT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PartnerID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_PARTNERID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsStory()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISSTORY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEnding()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_ISENDING_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ConditionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_CONDITIONID_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_EffectIDArr()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET_EFFECTIDARR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::SwordTrainingStoryRow* get__Row()
+		{
+			return ((::RPG::GameCore::SwordTrainingStoryRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTORYDATA_GET__ROW_OFFSET))(this);
+		}
+	};
+}

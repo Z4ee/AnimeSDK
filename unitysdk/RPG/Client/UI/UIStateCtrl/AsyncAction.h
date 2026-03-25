@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UI/UIStateCtrl/BaseAction.h"
+
+namespace RPG::Client { class UIStateCtrl; }
+namespace System { class String; }
+
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_GET_CURRENTCOSTTIME_OFFSET UNITYSDK_OFFSET(0xA64C920)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_16480B1867AF51ED_OFFSET UNITYSDK_OFFSET(0xA64C4C0)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xA64C8E0)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_39590AB2089F9F4D_OFFSET UNITYSDK_OFFSET(0xA64C680)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA64C5A0)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_45CCDE687DEEF3B6_OFFSET UNITYSDK_OFFSET(0xA64C7C0)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_9906DCA5239E8E32_OFFSET UNITYSDK_OFFSET(0xA64C960)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA64C760)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_SET_CURRENTCOSTTIME_OFFSET UNITYSDK_OFFSET(0xA64C930)
+#define RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA64C940)
+
+namespace RPG::Client::UI::UIStateCtrl
+{
+	inline static constexpr unsigned int AsyncAction_TypeDefinitionIndex = 60727;
+
+	class AsyncAction : public ::RPG::Client::UI::UIStateCtrl::BaseAction
+	{
+	public:
+		::System::Single Duration; // 0x20
+		::System::Single _CurrentCostTime_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_2_16480B1867AF51ED(::RPG::Client::UIStateCtrl* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_16480B1867AF51ED_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_2_39590AB2089F9F4D(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_39590AB2089F9F4D_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::String* Method_2_45CCDE687DEEF3B6()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_45CCDE687DEEF3B6_OFFSET))(this);
+		}
+
+		::System::Boolean Method_2_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Single get_CurrentCostTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_GET_CURRENTCOSTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentCostTime(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_SET_CURRENTCOSTTIME_OFFSET))(this, value);
+		}
+
+		::System::Void Method_2_9906DCA5239E8E32(::RPG::Client::UIStateCtrl* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_ASYNCACTION_METHOD_2_9906DCA5239E8E32_OFFSET))(this, P0);
+		}
+	};
+}

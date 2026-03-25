@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+
+#define STRUCT_2_FF0280B3BA43345E_METHOD_2_38723D5F2F740E51_1_OFFSET UNITYSDK_OFFSET(0x17A59320)
+#define STRUCT_2_FF0280B3BA43345E_METHOD_2_38723D5F2F740E51_OFFSET UNITYSDK_OFFSET(0x17A591C0)
+#define STRUCT_2_FF0280B3BA43345E_METHOD_2_5E745A1F5CCD5842_OFFSET UNITYSDK_OFFSET(0x20F6300)
+#define STRUCT_2_FF0280B3BA43345E_METHOD_2_7EE0E10F8E41DBD5_OFFSET UNITYSDK_OFFSET(0x20F6550)
+#define STRUCT_2_FF0280B3BA43345E_METHOD_2_EA294CDE6692CF13_OFFSET UNITYSDK_OFFSET(0x20F6450)
+#define STRUCT_2_FF0280B3BA43345E_METHOD_2_EEB95CFE1E27DD81_OFFSET UNITYSDK_OFFSET(0x20F1AA0)
+#define STRUCT_2_FF0280B3BA43345E_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20F6610)
+#define STRUCT_2_FF0280B3BA43345E__CTOR_1_OFFSET UNITYSDK_OFFSET(0x24510)
+#define STRUCT_2_FF0280B3BA43345E__CTOR_OFFSET UNITYSDK_OFFSET(0x20F3820)
+
+inline static constexpr unsigned int Struct_2_FF0280B3BA43345E_TypeDefinitionIndex = 8591;
+
+struct alignas(4) Struct_2_FF0280B3BA43345E
+{
+	::RPG::MVector3 Field_2_0; // 0x10
+	::RPG::MVector3 Field_2_1; // 0x1C
+
+	::System::Void _ctor(::RPG::MVector3& a1, ::RPG::MVector3& a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector3&, ::RPG::MVector3&))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void _ctor_1(::RPG::MVector3 a1, ::RPG::MVector3 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E__CTOR_1_OFFSET))(this, a1, a2);
+	}
+
+	static ::Struct_2_FF0280B3BA43345E Method_2_38723D5F2F740E51(::RPG::MVector3& a1, ::RPG::MVector3& a2)
+	{
+		return ((::Struct_2_FF0280B3BA43345E(*)(::RPG::MVector3&, ::RPG::MVector3&))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_METHOD_2_38723D5F2F740E51_OFFSET))(a1, a2);
+	}
+
+	static ::Struct_2_FF0280B3BA43345E Method_2_38723D5F2F740E51_1(::RPG::MVector3 a1, ::RPG::MVector3 a2)
+	{
+		return ((::Struct_2_FF0280B3BA43345E(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_METHOD_2_38723D5F2F740E51_1_OFFSET))(a1, a2);
+	}
+
+	::RPG::MVector3 Method_2_EEB95CFE1E27DD81(::System::Single a1)
+	{
+		return ((::RPG::MVector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_METHOD_2_EEB95CFE1E27DD81_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_2_5E745A1F5CCD5842(::RPG::MVector3 a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_METHOD_2_5E745A1F5CCD5842_OFFSET))(this, a1);
+	}
+
+	::RPG::MVector3 Method_2_EA294CDE6692CF13(::RPG::MVector3 a1)
+	{
+		return ((::RPG::MVector3(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_METHOD_2_EA294CDE6692CF13_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_2_7EE0E10F8E41DBD5(::Struct_2_FF0280B3BA43345E a1, ::System::Boolean a2)
+	{
+		return ((::System::Single(*)(::PVOID, ::Struct_2_FF0280B3BA43345E, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_METHOD_2_7EE0E10F8E41DBD5_OFFSET))(this, a1, a2);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FF0280B3BA43345E_TOSTRING_OFFSET))(this);
+	}
+};

@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x16014760)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONENDEDIT_OFFSET UNITYSDK_OFFSET(0x16014780)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x16014720)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x16014740)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x160148F0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x16014770)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONENDEDIT_OFFSET UNITYSDK_OFFSET(0x16014790)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x16014730)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x16014750)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x160147A0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x16014980)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_0_OFFSET UNITYSDK_OFFSET(0x16014990)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_1_OFFSET UNITYSDK_OFFSET(0x160149B0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_2_OFFSET UNITYSDK_OFFSET(0x160149C0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_3_OFFSET UNITYSDK_OFFSET(0x160149D0)
+
+namespace MiHoYo::SDK::UI::Internal::OS
+{
+	inline static constexpr unsigned int AgeGateParentalConsentDialog_TypeDefinitionIndex = 7371;
+
+	class AgeGateParentalConsentDialog : public ::System::Object
+	{
+	public:
+		::System::Action* _onEndEdit_k__BackingField; // 0x10
+		::System::Action* _onCloseBtnClicked_k__BackingField; // 0x18
+		::System::Action_1<::System::String*>* _OnNextButtonClicked_k__BackingField; // 0x20
+		::System::Action* _OnShowParentalControlProcessButtonPressed_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Action_1<::System::String*>* get_OnNextButtonClicked()
+		{
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET))(this);
+		}
+
+		::System::Void set_OnNextButtonClicked(::System::Action_1<::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET))(this, value);
+		}
+
+		::System::Action* get_OnShowParentalControlProcessButtonPressed()
+		{
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET))(this);
+		}
+
+		::System::Void set_OnShowParentalControlProcessButtonPressed(::System::Action* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET))(this, value);
+		}
+
+		::System::Action* get_onCloseBtnClicked()
+		{
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET))(this);
+		}
+
+		::System::Void set_onCloseBtnClicked(::System::Action* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, value);
+		}
+
+		::System::Action* get_onEndEdit()
+		{
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONENDEDIT_OFFSET))(this);
+		}
+
+		::System::Void set_onEndEdit(::System::Action* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONENDEDIT_OFFSET))(this, value);
+		}
+
+		::System::Void Show()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SHOW_OFFSET))(this);
+		}
+
+		::System::Void Hide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_HIDE_OFFSET))(this);
+		}
+
+		::System::Void _Show_b__16_0(::System::String* email)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_0_OFFSET))(this, email);
+		}
+
+		::System::Void _Show_b__16_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_1_OFFSET))(this);
+		}
+
+		::System::Void _Show_b__16_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_2_OFFSET))(this);
+		}
+
+		::System::Void _Show_b__16_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG__SHOW_B__16_3_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Entitas/EntitasException.h"
+
+namespace System { class String; }
+
+#define ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11A86D30)
+
+namespace Entitas
+{
+	inline static constexpr unsigned int EntityIsNotDestroyedException_TypeDefinitionIndex = 9684;
+
+	class EntityIsNotDestroyedException : public ::Entitas::EntitasException
+	{
+	public:
+		::System::Void _ctor(::System::String* message)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION__CTOR_OFFSET))(this, message);
+		}
+	};
+}

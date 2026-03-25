@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+namespace RPG::Client { class ActivityPhotoExhibitionModule; }
+
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_GET__MODULE_OFFSET UNITYSDK_OFFSET(0x9F3B3D0)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_ISSHOWDAILYREDDOT_OFFSET UNITYSDK_OFFSET(0x9F3B320)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0x9F3B1B0)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9F3B110)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F3B100)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWDAILYREDDOT_OFFSET UNITYSDK_OFFSET(0x9F3B4A0)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0x9F3B4B0)
+#define RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9F3B430)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PhotoExhibitionActivityPanelData_TypeDefinitionIndex = 50068;
+
+	class PhotoExhibitionActivityPanelData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 panelID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA__CTOR_OFFSET))(this, panelID);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowDailyRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_ISSHOWDAILYREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityPhotoExhibitionModule* get__Module()
+		{
+			return ((::RPG::Client::ActivityPhotoExhibitionModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA_GET__MODULE_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowDailyRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWDAILYREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOEXHIBITIONACTIVITYPANELDATA___IFIXBASEPROXY_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+	};
+}

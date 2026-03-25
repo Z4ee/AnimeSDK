@@ -1,0 +1,134 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
+namespace MiHoYo::SDK::UI::OS { class IWinAgeGateParentalConsentDialog; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONCLOSED_OFFSET UNITYSDK_OFFSET(0x16103C70)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONINPUTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x16103BF0)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x16103C10)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONNEXTBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x16103C30)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x16103C50)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_HIDEDIALOG_OFFSET UNITYSDK_OFFSET(0x16103C90)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x16103D60)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SETPARENTSEMAILWITHININPUTFIELD_OFFSET UNITYSDK_OFFSET(0x16102D60)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONCLOSED_OFFSET UNITYSDK_OFFSET(0x16103C80)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONINPUTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x16103C00)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x16103C20)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONNEXTBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x16103C40)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET UNITYSDK_OFFSET(0x16103C60)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16102C20)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x16103D70)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_1_OFFSET UNITYSDK_OFFSET(0x16103D90)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_2_OFFSET UNITYSDK_OFFSET(0x16103DB0)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_3_OFFSET UNITYSDK_OFFSET(0x16103DD0)
+
+namespace MiHoYo::SDK::Win::OS
+{
+	inline static constexpr unsigned int AgeGatePayValidationManager_AgeGateParentalConsentDialogBridge_TypeDefinitionIndex = 8163;
+
+	class AgeGatePayValidationManager_AgeGateParentalConsentDialogBridge : public ::System::Object
+	{
+	public:
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>* _OnShowParentalControlProcessButtonPressed_k__BackingField; // 0x10
+		::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentDialog* bridge; // 0x18
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* _OnNextButtonPressed_k__BackingField; // 0x20
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>* _OnClosed_k__BackingField; // 0x28
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* _OnInputCompleted_k__BackingField; // 0x30
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* _OnInputValueChanged_k__BackingField; // 0x38
+
+		::System::Void _ctor(::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentDialog* dialog)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE__CTOR_OFFSET))(this, dialog);
+		}
+
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* get_OnInputCompleted()
+		{
+			return ((::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONINPUTCOMPLETED_OFFSET))(this);
+		}
+
+		::System::Void set_OnInputCompleted(::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONINPUTCOMPLETED_OFFSET))(this, value);
+		}
+
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* get_OnInputValueChanged()
+		{
+			return ((::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONINPUTVALUECHANGED_OFFSET))(this);
+		}
+
+		::System::Void set_OnInputValueChanged(::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONINPUTVALUECHANGED_OFFSET))(this, value);
+		}
+
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* get_OnNextButtonPressed()
+		{
+			return ((::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONNEXTBUTTONPRESSED_OFFSET))(this);
+		}
+
+		::System::Void set_OnNextButtonPressed(::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONNEXTBUTTONPRESSED_OFFSET))(this, value);
+		}
+
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>* get_OnShowParentalControlProcessButtonPressed()
+		{
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET))(this);
+		}
+
+		::System::Void set_OnShowParentalControlProcessButtonPressed(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_OFFSET))(this, value);
+		}
+
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>* get_OnClosed()
+		{
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_GET_ONCLOSED_OFFSET))(this);
+		}
+
+		::System::Void set_OnClosed(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SET_ONCLOSED_OFFSET))(this, value);
+		}
+
+		::System::Void HideDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_HIDEDIALOG_OFFSET))(this);
+		}
+
+		::System::Void SetInteractable(::System::Boolean interact)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SETINTERACTABLE_OFFSET))(this, interact);
+		}
+
+		::System::Void SetParentsEmailWithinInputField(::System::String* email)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE_SETPARENTSEMAILWITHININPUTFIELD_OFFSET))(this, email);
+		}
+
+		::System::Void __ctor_b__21_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_0_OFFSET))(this);
+		}
+
+		::System::Void __ctor_b__21_1(::System::String* email)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_1_OFFSET))(this, email);
+		}
+
+		::System::Void __ctor_b__21_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_2_OFFSET))(this);
+		}
+
+		::System::Void __ctor_b__21_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTDIALOGBRIDGE___CTOR_B__21_3_OFFSET))(this);
+		}
+	};
+}

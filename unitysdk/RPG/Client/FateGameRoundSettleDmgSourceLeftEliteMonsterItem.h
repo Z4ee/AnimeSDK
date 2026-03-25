@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0x968AB00)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x968A6A0)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET__DMGMAXLIMIT_OFFSET UNITYSDK_OFFSET(0x968A9A0)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET__DMGPERLEFTMONSTER_OFFSET UNITYSDK_OFFSET(0x968A840)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x968A690)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourceLeftEliteMonsterItem_TypeDefinitionIndex = 51971;
+
+	class FateGameRoundSettleDmgSourceLeftEliteMonsterItem : public ::System::Object
+	{
+	public:
+		::System::UInt32 _LeftMonsterCount; // 0x10
+
+		::System::Void _ctor(::System::UInt32 leftMonsterCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM__CTOR_OFFSET))(this, leftMonsterCount);
+		}
+
+		::System::String* get_Value()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET_DESC_OFFSET))(this);
+		}
+
+		::System::UInt32 get__DmgPerLeftMonster()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET__DMGPERLEFTMONSTER_OFFSET))(this);
+		}
+
+		::System::UInt32 get__DmgMaxLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTELITEMONSTERITEM_GET__DMGMAXLIMIT_OFFSET))(this);
+		}
+	};
+}

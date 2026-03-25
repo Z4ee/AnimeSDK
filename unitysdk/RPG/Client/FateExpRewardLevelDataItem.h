@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_ADE34076259CCCF7;
+
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_CREATEBYROW_OFFSET UNITYSDK_OFFSET(0x9678DD0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_EXPREQUIREDTOTAL_OFFSET UNITYSDK_OFFSET(0x967A090)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_ISCLAIMEDLIMITEDTIME_OFFSET UNITYSDK_OFFSET(0x967AED0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_ISCLAIMEDPERMANENT_OFFSET UNITYSDK_OFFSET(0x967AEC0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x967ADE0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_REWARDIDLIMITEDTIME_OFFSET UNITYSDK_OFFSET(0x967AD70)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_REWARDIDPERMANENT_OFFSET UNITYSDK_OFFSET(0x967AE50)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0x967ADF0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_ISCLAIMABLEIFLEVELREACHED_OFFSET UNITYSDK_OFFSET(0x967A4B0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_SYNCLIMITEDTIMECLAIMEDSTATUS_OFFSET UNITYSDK_OFFSET(0x9679800)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_SYNCPERMANENTCLAIMEDSTATUS_OFFSET UNITYSDK_OFFSET(0x96797B0)
+#define RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x967AD60)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateExpRewardLevelDataItem_TypeDefinitionIndex = 51933;
+
+	class FateExpRewardLevelDataItem : public ::System::Object
+	{
+	public:
+		::System::UInt32 _Level; // 0x10
+		::System::Boolean _IsClaimedPermanent; // 0x14
+		::System::Boolean _IsClaimedLimitedTime; // 0x15
+
+		::System::Void _ctor(::System::UInt32 level)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM__CTOR_OFFSET))(this, level);
+		}
+
+		static ::RPG::Client::FateExpRewardLevelDataItem* CreateByRow(::Class_1_ADE34076259CCCF7* row)
+		{
+			return ((::RPG::Client::FateExpRewardLevelDataItem*(*)(::Class_1_ADE34076259CCCF7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_CREATEBYROW_OFFSET))(row);
+		}
+
+		::System::Void SyncPermanentClaimedStatus(::System::Boolean permanentClaimed)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_SYNCPERMANENTCLAIMEDSTATUS_OFFSET))(this, permanentClaimed);
+		}
+
+		::System::Void SyncLimitedTimeClaimedStatus(::System::Boolean limitedTimeClaimed)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_SYNCLIMITEDTIMECLAIMEDSTATUS_OFFSET))(this, limitedTimeClaimed);
+		}
+
+		::System::Boolean IsClaimableIfLevelReached(::System::Boolean isInLimitedTime)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_ISCLAIMABLEIFLEVELREACHED_OFFSET))(this, isInLimitedTime);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ExpRequiredTotal()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_EXPREQUIREDTOTAL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RewardIDPermanent()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_REWARDIDPERMANENT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RewardIDLimitedTime()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_REWARDIDLIMITEDTIME_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsClaimedPermanent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_ISCLAIMEDPERMANENT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsClaimedLimitedTime()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET_ISCLAIMEDLIMITEDTIME_OFFSET))(this);
+		}
+
+		::Class_1_ADE34076259CCCF7* get__Row()
+		{
+			return ((::Class_1_ADE34076259CCCF7*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDLEVELDATAITEM_GET__ROW_OFFSET))(this);
+		}
+	};
+}

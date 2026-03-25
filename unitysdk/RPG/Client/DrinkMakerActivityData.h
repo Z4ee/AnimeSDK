@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+namespace RPG::Client { class DrinkMakerModule; }
+
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWDAILYGOTOREDDOT_OFFSET UNITYSDK_OFFSET(0x94A67D0)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET UNITYSDK_OFFSET(0x94A6A00)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x94A69B0)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x94A6770)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x94A6700)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA__HASREWARDTOTAKE_OFFSET UNITYSDK_OFFSET(0x94A6890)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET UNITYSDK_OFFSET(0x94A6B40)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x94A6AD0)
+#define RPG_CLIENT_DRINKMAKERACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x94A6A60)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int DrinkMakerActivityData_TypeDefinitionIndex = 51633;
+
+	class DrinkMakerActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::RPG::Client::DrinkMakerModule* _Module; // 0xA0
+
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowMappingInfoNewContentRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowDailyGotoRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA_ISSHOWDAILYGOTOREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _HasRewardToTake()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA__HASREWARDTOTAKE_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowMappingInfoNewContentRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class AlleyDeskTalkRow; }
+namespace System { class String; }
+
+#define CLASS_1_0310A59B36D21030_METHOD_1_31FF01A41125028C_1_OFFSET UNITYSDK_OFFSET(0x11185390)
+#define CLASS_1_0310A59B36D21030_METHOD_1_31FF01A41125028C_OFFSET UNITYSDK_OFFSET(0x111851F0)
+#define CLASS_1_0310A59B36D21030_METHOD_1_97D8D3FC69B40DB3_OFFSET UNITYSDK_OFFSET(0x111855F0)
+#define CLASS_1_0310A59B36D21030_METHOD_1_9C72894CB5D45A5A_OFFSET UNITYSDK_OFFSET(0x111858E0)
+#define CLASS_1_0310A59B36D21030_METHOD_1_E7A48DEBC5ECCAF8_OFFSET UNITYSDK_OFFSET(0x111850D0)
+#define CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_1_OFFSET UNITYSDK_OFFSET(0x11185570)
+#define CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_2_OFFSET UNITYSDK_OFFSET(0x111855B0)
+#define CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_3_OFFSET UNITYSDK_OFFSET(0x11185970)
+#define CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x11185530)
+
+inline static constexpr unsigned int Class_1_0310A59B36D21030_TypeDefinitionIndex = 50577;
+
+class Class_1_0310A59B36D21030 : public ::System::Object
+{
+public:
+	static ::System::Boolean Method_1_E7A48DEBC5ECCAF8(::RPG::GameCore::AlleyDeskTalkRow* a1)
+	{
+		return ((::System::Boolean(*)(::RPG::GameCore::AlleyDeskTalkRow*))((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_E7A48DEBC5ECCAF8_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_31FF01A41125028C(::System::String* a1)
+	{
+		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_31FF01A41125028C_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_31FF01A41125028C_1(::System::String* a1)
+	{
+		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_31FF01A41125028C_1_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_F0E307B84478A272()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_F0E307B84478A272_1()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_1_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_F0E307B84478A272_2()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_2_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_F0E307B84478A272_3()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_F0E307B84478A272_3_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_97D8D3FC69B40DB3(::System::String* a1)
+	{
+		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_97D8D3FC69B40DB3_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_9C72894CB5D45A5A()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_0310A59B36D21030_METHOD_1_9C72894CB5D45A5A_OFFSET))();
+	}
+};

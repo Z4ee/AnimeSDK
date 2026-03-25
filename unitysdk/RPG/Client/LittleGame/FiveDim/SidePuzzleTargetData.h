@@ -1,0 +1,117 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class FiveDimPuzzleChallengeRow; }
+
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_CLEARDIRTY_OFFSET UNITYSDK_OFFSET(0x9A1E490)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x9A1E3C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9A1E2E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x9A1E730)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9A1E760)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_NEEDSHOWPANEL_OFFSET UNITYSDK_OFFSET(0x9A1E7D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_PROGRESSLIMIT_OFFSET UNITYSDK_OFFSET(0x9A1E7B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x9A1E790)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_PUZZLEID_OFFSET UNITYSDK_OFFSET(0x9A1E710)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_ISTRACKINGTARGET_OFFSET UNITYSDK_OFFSET(0x9A1E650)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_REFRESHPROGRESS_OFFSET UNITYSDK_OFFSET(0x9A1E4D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0x9A1E440)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x9A1E7A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_SET_PUZZLEID_OFFSET UNITYSDK_OFFSET(0x9A1E720)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9A1E430)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A1E380)
+
+namespace RPG::Client::LittleGame::FiveDim
+{
+	inline static constexpr unsigned int SidePuzzleTargetData_TypeDefinitionIndex = 62903;
+
+	class SidePuzzleTargetData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FiveDimPuzzleChallengeRow* _Meta; // 0x10
+		::System::UInt32 _PuzzleID_k__BackingField; // 0x18
+		::System::Boolean IsDirty; // 0x1C
+		::System::Int16 _Progress_k__BackingField; // 0x1E
+
+		::System::Void _ctor(::System::UInt32 puzzleID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA__CTOR_OFFSET))(this, puzzleID);
+		}
+
+		::System::Void _ctor_1(::RPG::GameCore::FiveDimPuzzleChallengeRow* meta)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FiveDimPuzzleChallengeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA__CTOR_1_OFFSET))(this, meta);
+		}
+
+		static ::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData* Create(::System::UInt32 puzzleID)
+		{
+			return ((::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_CREATE_OFFSET))(puzzleID);
+		}
+
+		static ::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData* Create_1(::RPG::GameCore::FiveDimPuzzleChallengeRow* meta)
+		{
+			return ((::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData*(*)(::RPG::GameCore::FiveDimPuzzleChallengeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_CREATE_1_OFFSET))(meta);
+		}
+
+		::System::Void SetProgress(::System::Int16 progress)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_SETPROGRESS_OFFSET))(this, progress);
+		}
+
+		::System::Void ClearDirty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_CLEARDIRTY_OFFSET))(this);
+		}
+
+		::System::Void RefreshProgress()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_REFRESHPROGRESS_OFFSET))(this);
+		}
+
+		::System::Boolean IsTrackingTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_ISTRACKINGTARGET_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PuzzleID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_PUZZLEID_OFFSET))(this);
+		}
+
+		::System::Void set_PuzzleID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_SET_PUZZLEID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_Desc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_DESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Int16 get_Progress()
+		{
+			return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_PROGRESS_OFFSET))(this);
+		}
+
+		::System::Void set_Progress(::System::Int16 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_SET_PROGRESS_OFFSET))(this, value);
+		}
+
+		::System::Int16 get_ProgressLimit()
+		{
+			return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_PROGRESSLIMIT_OFFSET))(this);
+		}
+
+		::System::Boolean get_NeedShowPanel()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_SIDEPUZZLETARGETDATA_GET_NEEDSHOWPANEL_OFFSET))(this);
+		}
+	};
+}

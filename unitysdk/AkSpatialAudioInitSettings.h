@@ -1,0 +1,187 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define AKSPATIALAUDIOINITSETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x18C20670)
+#define AKSPATIALAUDIOINITSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C20580)
+#define AKSPATIALAUDIOINITSETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x18C20600)
+#define AKSPATIALAUDIOINITSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x18C20470)
+#define AKSPATIALAUDIOINITSETTINGS_GET_BENABLEDIFFRACTIONONREFLECTION_OFFSET UNITYSDK_OFFSET(0x18C21780)
+#define AKSPATIALAUDIOINITSETTINGS_GET_BENABLEDIRECTPATHDIFFRACTION_OFFSET UNITYSDK_OFFSET(0x18C21A40)
+#define AKSPATIALAUDIOINITSETTINGS_GET_BENABLETRANSMISSION_OFFSET UNITYSDK_OFFSET(0x18C21BB0)
+#define AKSPATIALAUDIOINITSETTINGS_GET_FDIFFRACTIONSHADOWATTENFACTOR_OFFSET UNITYSDK_OFFSET(0x18C20D90)
+#define AKSPATIALAUDIOINITSETTINGS_GET_FDIFFRACTIONSHADOWDEGREES_OFFSET UNITYSDK_OFFSET(0x18C21050)
+#define AKSPATIALAUDIOINITSETTINGS_GET_FMAXPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x18C21610)
+#define AKSPATIALAUDIOINITSETTINGS_GET_FMOVEMENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x18C211C0)
+#define AKSPATIALAUDIOINITSETTINGS_GET_UDIFFRACTIONFLAGS_OFFSET UNITYSDK_OFFSET(0x18C20AC0)
+#define AKSPATIALAUDIOINITSETTINGS_GET_UMAXREFLECTIONORDER_OFFSET UNITYSDK_OFFSET(0x18C214A0)
+#define AKSPATIALAUDIOINITSETTINGS_GET_UMAXSOUNDPROPAGATIONDEPTH_OFFSET UNITYSDK_OFFSET(0x18C20950)
+#define AKSPATIALAUDIOINITSETTINGS_GET_UNUMBEROFPRIMARYRAYS_OFFSET UNITYSDK_OFFSET(0x18C21330)
+#define AKSPATIALAUDIOINITSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x18C204C0)
+#define AKSPATIALAUDIOINITSETTINGS_SET_BENABLEDIFFRACTIONONREFLECTION_OFFSET UNITYSDK_OFFSET(0x18C216C0)
+#define AKSPATIALAUDIOINITSETTINGS_SET_BENABLEDIRECTPATHDIFFRACTION_OFFSET UNITYSDK_OFFSET(0x18C21980)
+#define AKSPATIALAUDIOINITSETTINGS_SET_BENABLETRANSMISSION_OFFSET UNITYSDK_OFFSET(0x18C21AF0)
+#define AKSPATIALAUDIOINITSETTINGS_SET_FDIFFRACTIONSHADOWATTENFACTOR_OFFSET UNITYSDK_OFFSET(0x18C20B70)
+#define AKSPATIALAUDIOINITSETTINGS_SET_FDIFFRACTIONSHADOWDEGREES_OFFSET UNITYSDK_OFFSET(0x18C20F90)
+#define AKSPATIALAUDIOINITSETTINGS_SET_FMAXPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x18C21550)
+#define AKSPATIALAUDIOINITSETTINGS_SET_FMOVEMENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x18C21100)
+#define AKSPATIALAUDIOINITSETTINGS_SET_UDIFFRACTIONFLAGS_OFFSET UNITYSDK_OFFSET(0x18C20A00)
+#define AKSPATIALAUDIOINITSETTINGS_SET_UMAXREFLECTIONORDER_OFFSET UNITYSDK_OFFSET(0x18C213E0)
+#define AKSPATIALAUDIOINITSETTINGS_SET_UMAXSOUNDPROPAGATIONDEPTH_OFFSET UNITYSDK_OFFSET(0x18C20890)
+#define AKSPATIALAUDIOINITSETTINGS_SET_UNUMBEROFPRIMARYRAYS_OFFSET UNITYSDK_OFFSET(0x18C21270)
+#define AKSPATIALAUDIOINITSETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18C20810)
+#define AKSPATIALAUDIOINITSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18C20460)
+
+inline static constexpr unsigned int AkSpatialAudioInitSettings_TypeDefinitionIndex = 34525;
+
+class AkSpatialAudioInitSettings : public ::System::Object
+{
+public:
+	::System::IntPtr swigCPtr; // 0x10
+	::System::Boolean swigCMemOwn; // 0x18
+
+	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+	}
+
+	::System::Void _ctor_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS__CTOR_1_OFFSET))(this);
+	}
+
+	static ::System::IntPtr getCPtr(::AkSpatialAudioInitSettings* obj)
+	{
+		return ((::System::IntPtr(*)(::AkSpatialAudioInitSettings*))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GETCPTR_OFFSET))(obj);
+	}
+
+	::System::Void setCPtr(::System::IntPtr cPtr)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SETCPTR_OFFSET))(this, cPtr);
+	}
+
+	::System::Void Finalize()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_FINALIZE_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Dispose_1(::System::Boolean disposing)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_DISPOSE_1_OFFSET))(this, disposing);
+	}
+
+	::System::Void set_uMaxSoundPropagationDepth(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_UMAXSOUNDPROPAGATIONDEPTH_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_uMaxSoundPropagationDepth()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_UMAXSOUNDPROPAGATIONDEPTH_OFFSET))(this);
+	}
+
+	::System::Void set_uDiffractionFlags(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_UDIFFRACTIONFLAGS_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_uDiffractionFlags()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_UDIFFRACTIONFLAGS_OFFSET))(this);
+	}
+
+	::System::Void set_fDiffractionShadowAttenFactor(::System::Single value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_FDIFFRACTIONSHADOWATTENFACTOR_OFFSET))(this, value);
+	}
+
+	::System::Single get_fDiffractionShadowAttenFactor()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_FDIFFRACTIONSHADOWATTENFACTOR_OFFSET))(this);
+	}
+
+	::System::Void set_fDiffractionShadowDegrees(::System::Single value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_FDIFFRACTIONSHADOWDEGREES_OFFSET))(this, value);
+	}
+
+	::System::Single get_fDiffractionShadowDegrees()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_FDIFFRACTIONSHADOWDEGREES_OFFSET))(this);
+	}
+
+	::System::Void set_fMovementThreshold(::System::Single value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_FMOVEMENTTHRESHOLD_OFFSET))(this, value);
+	}
+
+	::System::Single get_fMovementThreshold()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_FMOVEMENTTHRESHOLD_OFFSET))(this);
+	}
+
+	::System::Void set_uNumberOfPrimaryRays(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_UNUMBEROFPRIMARYRAYS_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_uNumberOfPrimaryRays()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_UNUMBEROFPRIMARYRAYS_OFFSET))(this);
+	}
+
+	::System::Void set_uMaxReflectionOrder(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_UMAXREFLECTIONORDER_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_uMaxReflectionOrder()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_UMAXREFLECTIONORDER_OFFSET))(this);
+	}
+
+	::System::Void set_fMaxPathLength(::System::Single value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_FMAXPATHLENGTH_OFFSET))(this, value);
+	}
+
+	::System::Single get_fMaxPathLength()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_FMAXPATHLENGTH_OFFSET))(this);
+	}
+
+	::System::Void set_bEnableDiffractionOnReflection(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_BENABLEDIFFRACTIONONREFLECTION_OFFSET))(this, value);
+	}
+
+	::System::Boolean get_bEnableDiffractionOnReflection()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_BENABLEDIFFRACTIONONREFLECTION_OFFSET))(this);
+	}
+
+	::System::Void set_bEnableDirectPathDiffraction(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_BENABLEDIRECTPATHDIFFRACTION_OFFSET))(this, value);
+	}
+
+	::System::Boolean get_bEnableDirectPathDiffraction()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_BENABLEDIRECTPATHDIFFRACTION_OFFSET))(this);
+	}
+
+	::System::Void set_bEnableTransmission(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_SET_BENABLETRANSMISSION_OFFSET))(this, value);
+	}
+
+	::System::Boolean get_bEnableTransmission()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSPATIALAUDIOINITSETTINGS_GET_BENABLETRANSMISSION_OFFSET))(this);
+	}
+};

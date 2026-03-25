@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class IAvatarInfoProvider; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xA37BBD0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA37BC20)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0xA37C000)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_ISVALIDFORRECOM_OFFSET UNITYSDK_OFFSET(0xA37BC90)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0xA37C010)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA37BAD0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA37BAC0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA__ISAVATARCANTRIAL_OFFSET UNITYSDK_OFFSET(0xA37BF10)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA__ISAVATAROBTAINED_OFFSET UNITYSDK_OFFSET(0xA37BE00)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA37C020)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournBuildRefTeamAvatarMemberData_TypeDefinitionIndex = 55046;
+
+	class RogueTournBuildRefTeamAvatarMemberData : public ::System::Object
+	{
+	public:
+		::RPG::Client::IAvatarInfoProvider* _Avatar_k__BackingField; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_CLEAR_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean IsValidForRecom()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_ISVALIDFORRECOM_OFFSET))(this);
+		}
+
+		::System::Boolean _IsAvatarObtained(::System::UInt32 avatarID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA__ISAVATAROBTAINED_OFFSET))(this, avatarID);
+		}
+
+		::System::Boolean _IsAvatarCanTrial(::System::UInt32 avatarID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA__ISAVATARCANTRIAL_OFFSET))(this, avatarID);
+		}
+
+		::RPG::Client::IAvatarInfoProvider* get_Avatar()
+		{
+			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_GET_AVATAR_OFFSET))(this);
+		}
+
+		::System::Void set_Avatar(::RPG::Client::IAvatarInfoProvider* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA_SET_AVATAR_OFFSET))(this, value);
+		}
+
+		::System::String* __iFixBaseProxy_ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMAVATARMEMBERDATA___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
+		}
+	};
+}

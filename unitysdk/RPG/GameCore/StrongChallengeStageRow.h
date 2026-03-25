@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/StrongChallengeBattleType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_STRONGCHALLENGESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17784F80)
+#define RPG_GAMECORE_STRONGCHALLENGESTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17785BB0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int StrongChallengeStageRow_TypeDefinitionIndex = 11322;
+
+	class StrongChallengeStageRow : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::UInt32>* RecommendAvatar; // 0x10
+		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* BossDetailList; // 0x20
+		::System::String* MonsterFigurePath; // 0x28
+		::Il2CppArray<::System::UInt32>* ScoreInterval; // 0x30
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x38
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendNature; // 0x40
+		::Il2CppArray<::System::UInt32>* AvailableBuffList; // 0x48
+		::System::String* MonsterGrayFigurePath; // 0x50
+		::System::String* MonsterBgFigurePath; // 0x58
+		::System::UInt32 BattleAreaID; // 0x60
+		::System::UInt32 BattleAreaGroupID; // 0x64
+		::System::UInt32 PlaneID; // 0x68
+		::System::UInt32 EventID; // 0x6C
+		::RPG::Client::TextID Name; // 0x70
+		::System::UInt32 FloorID; // 0x80
+		::System::UInt32 StrongChallengeStageID; // 0x84
+		::System::UInt32 ClearScoreLine; // 0x88
+		::RPG::GameCore::StrongChallengeBattleType BattleType; // 0x8C
+		::System::UInt32 QuestGroupID; // 0x90
+		::System::UInt32 PreStageID; // 0x94
+		::System::UInt32 CostLimit; // 0x98
+		::System::UInt32 ActivityModuleID; // 0x9C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRONGCHALLENGESTAGEROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::StrongChallengeStageRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StrongChallengeStageRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRONGCHALLENGESTAGEROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

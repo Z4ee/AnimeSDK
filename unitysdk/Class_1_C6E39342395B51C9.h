@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ActivitySubModeType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1EAF63C0E6A8FF1E;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TurnBasedGameMode; }
+
+#define CLASS_1_C6E39342395B51C9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8E11E20)
+#define CLASS_1_C6E39342395B51C9_GET_SUBMODETYPE_OFFSET UNITYSDK_OFFSET(0x8E11F00)
+#define CLASS_1_C6E39342395B51C9_GET_UPPERGROUPMAP_OFFSET UNITYSDK_OFFSET(0x8E11EE0)
+#define CLASS_1_C6E39342395B51C9_METHOD_1_7A1C8A35C4C85BF7_OFFSET UNITYSDK_OFFSET(0x8E11E70)
+#define CLASS_1_C6E39342395B51C9_SET_SUBMODETYPE_OFFSET UNITYSDK_OFFSET(0x8E11F10)
+#define CLASS_1_C6E39342395B51C9_SET_UPPERGROUPMAP_OFFSET UNITYSDK_OFFSET(0x8E11EF0)
+#define CLASS_1_C6E39342395B51C9__CTOR_OFFSET UNITYSDK_OFFSET(0x8E11D70)
+
+inline static constexpr unsigned int Class_1_C6E39342395B51C9_TypeDefinitionIndex = 44881;
+
+class Class_1_C6E39342395B51C9 : public ::System::Object
+{
+public:
+	::Class_1_1EAF63C0E6A8FF1E* _UpperGroupMap_k__BackingField; // 0x10
+	::RPG::GameCore::ActivitySubModeType _SubModeType_k__BackingField; // 0x18
+
+	::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedGameMode*))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7A1C8A35C4C85BF7(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9_METHOD_1_7A1C8A35C4C85BF7_OFFSET))(this, a1);
+	}
+
+	::Class_1_1EAF63C0E6A8FF1E* get_UpperGroupMap()
+	{
+		return ((::Class_1_1EAF63C0E6A8FF1E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9_GET_UPPERGROUPMAP_OFFSET))(this);
+	}
+
+	::System::Void set_UpperGroupMap(::Class_1_1EAF63C0E6A8FF1E* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_1EAF63C0E6A8FF1E*))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9_SET_UPPERGROUPMAP_OFFSET))(this, value);
+	}
+
+	::RPG::GameCore::ActivitySubModeType get_SubModeType()
+	{
+		return ((::RPG::GameCore::ActivitySubModeType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9_GET_SUBMODETYPE_OFFSET))(this);
+	}
+
+	::System::Void set_SubModeType(::RPG::GameCore::ActivitySubModeType value)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivitySubModeType))((::PBYTE)hIl2Cpp + CLASS_1_C6E39342395B51C9_SET_SUBMODETYPE_OFFSET))(this, value);
+	}
+};

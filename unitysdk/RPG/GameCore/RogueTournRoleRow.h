@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1766DF40)
+#define RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1766E030)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int RogueTournRoleRow_TypeDefinitionIndex = 13738;
+
+	class RogueTournRoleRow : public ::System::Object
+	{
+	public:
+		::System::UInt32 AvatarID; // 0x10
+		::System::UInt32 BuffID; // 0x14
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournRoleRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournRoleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

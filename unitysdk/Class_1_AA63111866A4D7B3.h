@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChimeraTurnBasedStage.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_089A987C8F835F31;
+class Class_1_3B1EA953A4067E26_1;
+class Class_2_7AF1D57CA4301272;
+class Class_3_1ACADD354F8A3264;
+namespace Entitas { template <typename T> class IGroup_1; }
+
+#define CLASS_1_AA63111866A4D7B3_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0x8C219F0)
+#define CLASS_1_AA63111866A4D7B3_METHOD_1_8DC652D916C182B2_OFFSET UNITYSDK_OFFSET(0x8C21670)
+#define CLASS_1_AA63111866A4D7B3_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x8C219A0)
+#define CLASS_1_AA63111866A4D7B3_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8C21960)
+#define CLASS_1_AA63111866A4D7B3_METHOD_1_E19A49118612F48B_OFFSET UNITYSDK_OFFSET(0x8C21AB0)
+#define CLASS_1_AA63111866A4D7B3__CTOR_OFFSET UNITYSDK_OFFSET(0x8C21660)
+
+inline static constexpr unsigned int Class_1_AA63111866A4D7B3_TypeDefinitionIndex = 61799;
+
+class Class_1_AA63111866A4D7B3 : public ::System::Object
+{
+public:
+	::Class_1_3B1EA953A4067E26_1* Field_1_1; // 0x10
+	::Class_1_089A987C8F835F31* Field_1_0; // 0x18
+	::Class_3_1ACADD354F8A3264* Field_1_2; // 0x20
+
+	::System::Void _ctor(::Class_1_089A987C8F835F31* a1, ::Class_1_3B1EA953A4067E26_1* a2, ::Class_3_1ACADD354F8A3264* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_089A987C8F835F31*, ::Class_1_3B1EA953A4067E26_1*, ::Class_3_1ACADD354F8A3264*))((::PBYTE)hIl2Cpp + CLASS_1_AA63111866A4D7B3__CTOR_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_8DC652D916C182B2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA63111866A4D7B3_METHOD_1_8DC652D916C182B2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA63111866A4D7B3_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA63111866A4D7B3_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_568AE7A1499723FD()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA63111866A4D7B3_METHOD_1_568AE7A1499723FD_OFFSET))(this);
+	}
+
+	::Entitas::IGroup_1<::Class_2_7AF1D57CA4301272*>* Method_1_E19A49118612F48B()
+	{
+		return ((::Entitas::IGroup_1<::Class_2_7AF1D57CA4301272*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA63111866A4D7B3_METHOD_1_E19A49118612F48B_OFFSET))(this);
+	}
+};

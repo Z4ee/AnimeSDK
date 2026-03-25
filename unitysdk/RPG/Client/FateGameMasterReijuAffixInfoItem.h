@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateAffixRarityType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_09E0962946DC82E9_1;
+class Class_1_1244640A944D6EC9;
+class Class_1_E336D98DD86E4ECB;
+class Class_1_F9FBCC956DFCF137_9;
+namespace System { class String; }
+
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x9685C60)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0x96867F0)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_EXTRAEFFECTIDS_OFFSET UNITYSDK_OFFSET(0x9686900)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_IDFORSORT_OFFSET UNITYSDK_OFFSET(0x9686670)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9686680)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x9686750)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_REIJUAFFIXID_OFFSET UNITYSDK_OFFSET(0x9686650)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x9686660)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9686430)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x96861A0)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9686420)
+#define RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM__GETTEXTPARAMLIST_OFFSET UNITYSDK_OFFSET(0x9686490)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateGameMasterReijuAffixInfoItem_TypeDefinitionIndex = 52012;
+
+	class FateGameMasterReijuAffixInfoItem : public ::System::Object
+	{
+	public:
+		::Class_1_1244640A944D6EC9* _DynamicParamTextData; // 0x10
+		::System::UInt32 _UniqueID; // 0x18
+		::System::UInt32 _ReijuAffixID; // 0x1C
+
+		::System::Void _ctor(::System::UInt32 reijuAffixID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM__CTOR_OFFSET))(this, reijuAffixID);
+		}
+
+		static ::RPG::Client::FateGameMasterReijuAffixInfoItem* Create(::System::UInt32 reijuAffixID, ::System::UInt32 uniqueID, ::Class_1_F9FBCC956DFCF137_9* factory)
+		{
+			return ((::RPG::Client::FateGameMasterReijuAffixInfoItem*(*)(::System::UInt32, ::System::UInt32, ::Class_1_F9FBCC956DFCF137_9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_CREATE_OFFSET))(reijuAffixID, uniqueID, factory);
+		}
+
+		::System::Void Sync(::Class_1_E336D98DD86E4ECB* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E336D98DD86E4ECB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_SYNC_OFFSET))(this, proto);
+		}
+
+		::Il2CppArray<::System::Object*>* _GetTextParamList()
+		{
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM__GETTEXTPARAMLIST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ReijuAffixID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_REIJUAFFIXID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_UniqueID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_UNIQUEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_IDForSort()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_IDFORSORT_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FateAffixRarityType get_Rarity()
+		{
+			return ((::RPG::GameCore::FateAffixRarityType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_RARITY_OFFSET))(this);
+		}
+
+		::System::String* get_EffectDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_EFFECTDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ExtraEffectIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET_EXTRAEFFECTIDS_OFFSET))(this);
+		}
+
+		::Class_1_09E0962946DC82E9_1* get__Row()
+		{
+			return ((::Class_1_09E0962946DC82E9_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERREIJUAFFIXINFOITEM_GET__ROW_OFFSET))(this);
+		}
+	};
+}

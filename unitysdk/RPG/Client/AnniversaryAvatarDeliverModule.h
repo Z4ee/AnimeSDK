@@ -1,0 +1,267 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/RPG/Client/DateTimePro.h"
+
+namespace RPG::Client { class AnniversaryAvatarDeliverModule_DelivererData; }
+namespace RPG::Client { class ItemDisplayData; }
+namespace RPG::Client { class ScheduleData; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_CHOOSEDELIVERER_OFFSET UNITYSDK_OFFSET(0x90C95B0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_CANDIDATEDELIVERERS_OFFSET UNITYSDK_OFFSET(0x90C8D90)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_CHOSENCANDIDATEINDEX_OFFSET UNITYSDK_OFFSET(0x90C8DB0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_CHOSENDELIVERER_OFFSET UNITYSDK_OFFSET(0x90C87B0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_DELIVERYDATETIME_OFFSET UNITYSDK_OFFSET(0x90C8DD0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ENDDATETIME_OFFSET UNITYSDK_OFFSET(0x90C8C80)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x90C8BF0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ISDELIVERED_OFFSET UNITYSDK_OFFSET(0x90C8B40)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ISREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x90C8DF0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0x90C8E10)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_SHOULDBEDELIVERED_OFFSET UNITYSDK_OFFSET(0x90C88D0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET__ISDATAVALID_OFFSET UNITYSDK_OFFSET(0x90C8A40)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET__ISINSCHEDULE_OFFSET UNITYSDK_OFFSET(0x90C8750)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x90C8E30)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0x90C8F40)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_REDDOTHASREWARDNOTTAKENYET_OFFSET UNITYSDK_OFFSET(0x90C8830)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_REDDOTISAVATARNOTSELECTEDYET_OFFSET UNITYSDK_OFFSET(0x90C8660)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x90C9500)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_CANDIDATEDELIVERERS_OFFSET UNITYSDK_OFFSET(0x90C8DA0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_CHOSENCANDIDATEINDEX_OFFSET UNITYSDK_OFFSET(0x90C8DC0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_DELIVERYDATETIME_OFFSET UNITYSDK_OFFSET(0x90C8DE0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_ISREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x90C8E00)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0x90C8E20)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0x90C9660)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x90C7BC0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x90C96F0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__INITCANDIDATEDELIVERERS_OFFSET UNITYSDK_OFFSET(0x90C90C0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__INITDELIVERYDATETIME_OFFSET UNITYSDK_OFFSET(0x90C9380)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__INITREWARDITEMS_OFFSET UNITYSDK_OFFSET(0x90C9310)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONCHOOSEAVATARSCRSP_OFFSET UNITYSDK_OFFSET(0x90C8270)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONGETDATASCRSP_OFFSET UNITYSDK_OFFSET(0x90C7EE0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONMODULEINITREQ_OFFSET UNITYSDK_OFFSET(0x90C94B0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONTAKEREWARDSCRSP_OFFSET UNITYSDK_OFFSET(0x90C85B0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SENDCHOOSEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0x90C8090)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SENDGETDATACSREQ_OFFSET UNITYSDK_OFFSET(0x90C7CA0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SENDTAKEREWARDCSREQ_OFFSET UNITYSDK_OFFSET(0x90C8370)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SYNCCHOSENCANDIDATE_OFFSET UNITYSDK_OFFSET(0x90C7FF0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x90C9830)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE___IFIXBASEPROXY_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0x90C98C0)
+#define RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x90C97D0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AnniversaryAvatarDeliverModule_TypeDefinitionIndex = 50694;
+
+	class AnniversaryAvatarDeliverModule : public ::RPG::Client::BaseModule
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems_k__BackingField; // 0x10
+		::RPG::Client::ScheduleData* _ScheduleData; // 0x18
+		::Il2CppArray<::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*>* _CandidateDeliverers_k__BackingField; // 0x20
+		::System::Int32 _ChosenCandidateIndex_k__BackingField; // 0x28
+		::System::Boolean _IsRewardTaken_k__BackingField; // 0x2C
+		::RPG::Client::DateTimePro _DeliveryDateTime_k__BackingField; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _SendGetDataCsReq()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SENDGETDATACSREQ_OFFSET))(this);
+		}
+
+		::System::Void _OnGetDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONGETDATASCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _SendChooseAvatarCsReq(::System::UInt32 avatarID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SENDCHOOSEAVATARCSREQ_OFFSET))(this, avatarID);
+		}
+
+		::System::Void _OnChooseAvatarScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONCHOOSEAVATARSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Void _SendTakeRewardCsReq()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SENDTAKEREWARDCSREQ_OFFSET))(this);
+		}
+
+		::System::Void _OnTakeRewardScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONTAKEREWARDSCRSP_OFFSET))(this, cmd, rspObject);
+		}
+
+		::System::Boolean ReddotIsAvatarNotSelectedYet()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_REDDOTISAVATARNOTSELECTEDYET_OFFSET))(this);
+		}
+
+		::System::Boolean ReddotHasRewardNotTakenYet()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_REDDOTHASREWARDNOTTAKENYET_OFFSET))(this);
+		}
+
+		::System::Boolean get__IsInSchedule()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET__ISINSCHEDULE_OFFSET))(this);
+		}
+
+		::System::Boolean get__IsDataValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET__ISDATAVALID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ISACTIVE_OFFSET))(this);
+		}
+
+		::RPG::Client::DateTimePro get_EndDateTime()
+		{
+			return ((::RPG::Client::DateTimePro(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ENDDATETIME_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*>* get_CandidateDeliverers()
+		{
+			return ((::Il2CppArray<::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_CANDIDATEDELIVERERS_OFFSET))(this);
+		}
+
+		::System::Void set_CandidateDeliverers(::Il2CppArray<::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_CANDIDATEDELIVERERS_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_ChosenCandidateIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_CHOSENCANDIDATEINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_ChosenCandidateIndex(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_CHOSENCANDIDATEINDEX_OFFSET))(this, value);
+		}
+
+		::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData* get_ChosenDeliverer()
+		{
+			return ((::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_CHOSENDELIVERER_OFFSET))(this);
+		}
+
+		::RPG::Client::DateTimePro get_DeliveryDateTime()
+		{
+			return ((::RPG::Client::DateTimePro(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_DELIVERYDATETIME_OFFSET))(this);
+		}
+
+		::System::Void set_DeliveryDateTime(::RPG::Client::DateTimePro value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_DELIVERYDATETIME_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_ShouldBeDelivered()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_SHOULDBEDELIVERED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDelivered()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ISDELIVERED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsRewardTaken()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_ISREWARDTAKEN_OFFSET))(this);
+		}
+
+		::System::Void set_IsRewardTaken(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_ISREWARDTAKEN_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* get_RewardItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_GET_REWARDITEMS_OFFSET))(this);
+		}
+
+		::System::Void set_RewardItems(::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_SET_REWARDITEMS_OFFSET))(this, value);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_INIT_OFFSET))(this);
+		}
+
+		::System::Void OnLoginFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_ONLOGINFINISH_OFFSET))(this);
+		}
+
+		::System::Void _OnModuleInitReq()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__ONMODULEINITREQ_OFFSET))(this);
+		}
+
+		::System::Void _InitCandidateDeliverers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__INITCANDIDATEDELIVERERS_OFFSET))(this);
+		}
+
+		::System::Void _InitRewardItems()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__INITREWARDITEMS_OFFSET))(this);
+		}
+
+		::System::Void _InitDeliveryDateTime()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__INITDELIVERYDATETIME_OFFSET))(this);
+		}
+
+		::System::Void _SyncChosenCandidate(::System::UInt32 avatarID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE__SYNCCHOSENCANDIDATE_OFFSET))(this, avatarID);
+		}
+
+		::System::Void RefreshData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_REFRESHDATA_OFFSET))(this);
+		}
+
+		::System::Void ChooseDeliverer(::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData* candidate)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AnniversaryAvatarDeliverModule_DelivererData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_CHOOSEDELIVERER_OFFSET))(this, candidate);
+		}
+
+		::System::Void TakeReward()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE_TAKEREWARD_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__AddPacketHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE___IFIXBASEPROXY_INIT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnLoginFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYAVATARDELIVERMODULE___IFIXBASEPROXY_ONLOGINFINISH_OFFSET))(this);
+		}
+	};
+}

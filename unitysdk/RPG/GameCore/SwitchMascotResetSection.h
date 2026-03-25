@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/SwitchMascotSection.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_SWITCHMASCOTRESETSECTION_METHOD_3_21AC624F591F3BC9_OFFSET UNITYSDK_OFFSET(0x177970C0)
+#define RPG_GAMECORE_SWITCHMASCOTRESETSECTION_METHOD_3_EAA8342E83D699AA_OFFSET UNITYSDK_OFFSET(0x17797140)
+#define RPG_GAMECORE_SWITCHMASCOTRESETSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17797110)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int SwitchMascotResetSection_TypeDefinitionIndex = 20177;
+
+	class SwitchMascotResetSection : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::SwitchMascotSection Section; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTRESETSECTION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_21AC624F591F3BC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotResetSection*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchMascotResetSection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTRESETSECTION_METHOD_3_21AC624F591F3BC9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_EAA8342E83D699AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotResetSection* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchMascotResetSection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTRESETSECTION_METHOD_3_EAA8342E83D699AA_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_847;
+class Class_1_D877D08219FBA993;
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_1_B5E07CA82E577D5E_METHOD_1_106B8A5E374159DE_OFFSET UNITYSDK_OFFSET(0x10A70ED0)
+
+inline static constexpr unsigned int Class_1_B5E07CA82E577D5E_TypeDefinitionIndex = 58739;
+
+class Class_1_B5E07CA82E577D5E : public ::System::Object
+{
+public:
+	static ::Class_0_16E4307DCC419505_847* Method_1_106B8A5E374159DE(::Class_1_D877D08219FBA993* a1, ::System::Action_1<::Class_0_16E4307DCC419505_847*>* a2, ::System::Action_1<::Class_0_16E4307DCC419505_847*>* a3)
+	{
+		return ((::Class_0_16E4307DCC419505_847*(*)(::Class_1_D877D08219FBA993*, ::System::Action_1<::Class_0_16E4307DCC419505_847*>*, ::System::Action_1<::Class_0_16E4307DCC419505_847*>*))((::PBYTE)hIl2Cpp + CLASS_1_B5E07CA82E577D5E_METHOD_1_106B8A5E374159DE_OFFSET))(a1, a2, a3);
+	}
+};

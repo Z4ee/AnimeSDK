@@ -1,0 +1,11 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+inline static constexpr unsigned int Class_1_935D0792DEEE92DB_Struct_2_FD8E1D4014EE315F_TypeDefinitionIndex = 48437;
+
+struct alignas(4) Class_1_935D0792DEEE92DB_Struct_2_FD8E1D4014EE315F
+{
+	::System::Single Field_2_0; // 0x10
+	::System::Single Field_2_1; // 0x14
+};

@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+namespace RPG::Client::Promises
+{
+	inline static constexpr unsigned int Promise_1___c__DisplayClass47_0_1_TypeDefinitionIndex = 9582;
+
+	template <typename PromisedT, typename ConvertedT>
+	class Promise_1___c__DisplayClass47_0_1 : public ::System::Object
+	{
+	public:
+		::System::Func_2<PromisedT, ConvertedT>* transform; // 0x0
+	};
+}

@@ -1,0 +1,142 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+class Class_1_4FE0A7F4356B7F01;
+namespace RPG::Client::CrowdAnimator { class CrowdPrototype; }
+namespace RPG::Client::CrowdAnimator { class CrowdVariant; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GETCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x9429910)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_CURRENTPLAYINGCLIPINDEX_OFFSET UNITYSDK_OFFSET(0x94299D0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_CURRENTPLAYINGCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x9429BB0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_CUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x9428310)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_INSTANCED_OFFSET UNITYSDK_OFFSET(0x9427EC0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_VISIBLESTATE_OFFSET UNITYSDK_OFFSET(0x9427DE0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_03E2B9212B4B6EAF_OFFSET UNITYSDK_OFFSET(0x9428590)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x9428550)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x9429020)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9429070)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x9428FD0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x9428510)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9428F80)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x94290C0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_REGISTER_OFFSET UNITYSDK_OFFSET(0x94285E0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_SET_CUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x9428320)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_SET_VISIBLESTATE_OFFSET UNITYSDK_OFFSET(0x9427DF0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x9428A10)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x9429D60)
+
+namespace RPG::Client::CrowdAnimator
+{
+	inline static constexpr unsigned int CrowdInstance_TypeDefinitionIndex = 60430;
+
+	class CrowdInstance : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::RPG::Client::CrowdAnimator::CrowdVariant* Variant; // 0x18
+		::RPG::Client::CrowdAnimator::CrowdPrototype* Prototype; // 0x20
+		::System::Int32 DefaultClipIndex; // 0x28
+		::Class_1_4FE0A7F4356B7F01* Field_5_3; // 0x30
+		::System::Int32 Field_5_4; // 0x38
+		::System::Boolean Field_5_5; // 0x3C
+		::System::Boolean Field_5_6; // 0x3D
+		::UnityEngine::Vector4 Field_5_7; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_VisibleState()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_VISIBLESTATE_OFFSET))(this);
+		}
+
+		::System::Void set_VisibleState(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_SET_VISIBLESTATE_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector4 get_CustomData()
+		{
+			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_CUSTOMDATA_OFFSET))(this);
+		}
+
+		::System::Void set_CustomData(::UnityEngine::Vector4 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_SET_CUSTOMDATA_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_Instanced()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_INSTANCED_OFFSET))(this);
+		}
+
+		::Class_1_4FE0A7F4356B7F01* Method_5_F8B73ECE7F883AC1()
+		{
+			return ((::Class_1_4FE0A7F4356B7F01*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_F8B73ECE7F883AC1_OFFSET))(this);
+		}
+
+		::System::Int32 Method_5_A1D8CD775DEC3C21()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_A1D8CD775DEC3C21_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* Method_5_03E2B9212B4B6EAF()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_03E2B9212B4B6EAF_OFFSET))(this);
+		}
+
+		::System::Void Register()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_REGISTER_OFFSET))(this);
+		}
+
+		::System::Void Unregister()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_UNREGISTER_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void Method_5_E9A575D18A0748D9(::Class_1_4FE0A7F4356B7F01* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4FE0A7F4356B7F01*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_E9A575D18A0748D9_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_ADF4AD3331B4D7AD(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_ADF4AD3331B4D7AD_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void PlayAnimation(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_PLAYANIMATION_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Single GetClipLength(::System::Int32 a1)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GETCLIPLENGTH_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_CurrentPlayingClipIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_CURRENTPLAYINGCLIPINDEX_OFFSET))(this);
+		}
+
+		::System::Single get_CurrentPlayingClipLength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDINSTANCE_GET_CURRENTPLAYINGCLIPLENGTH_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+namespace RPG::GameCore { class LevelAudioState; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA97C260)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA97C2A0)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA97C720)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET UNITYSDK_OFFSET(0xA97C770)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA97C250)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelAudioStateTask_TypeDefinitionIndex = 46933;
+
+	class LevelAudioStateTask : public ::Class_1_5F51D4049EA87B7B
+	{
+	public:
+		::RPG::GameCore::LevelAudioState* _ConfigRef; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
+
+		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::LevelAudioState* Config)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET))(this, Context, Config);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+		}
+	};
+}

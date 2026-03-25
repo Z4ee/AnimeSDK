@@ -1,0 +1,166 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+namespace System { class Object; }
+namespace System { template <typename T> class Func_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8FA6AF0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETACTIVITYQUESTTIMELIMITGROUPS_OFFSET UNITYSDK_OFFSET(0x8FA6BA0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETCLOSEQUESTCOUNT_OFFSET UNITYSDK_OFFSET(0x8FA6D20)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETFINISHEDQUESTCOUNT_OFFSET UNITYSDK_OFFSET(0x8FA6BF0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETGOTOWORLDID_OFFSET UNITYSDK_OFFSET(0x8FA7060)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETTORWARDQUESTCOUNT_OFFSET UNITYSDK_OFFSET(0x8FA6DF0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETTOTALHCOINREWARD_OFFSET UNITYSDK_OFFSET(0x8FA6EC0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISFINISHCONDITIONSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x8FA7230)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISSHOWDAILYREDDOT_OFFSET UNITYSDK_OFFSET(0x8FA74C0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0x8FA7500)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x8FA70E0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_TRYTRACKQUESTMONSTER_OFFSET UNITYSDK_OFFSET(0x8FA73E0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__CHECKHASFINISHQUEST_OFFSET UNITYSDK_OFFSET(0x8FA79A0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__CHECKISALLQUESTAWARDGOT_OFFSET UNITYSDK_OFFSET(0x8FA7290)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8FA66C0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ISCUSTOMREDDOTSHOW200_OFFSET UNITYSDK_OFFSET(0x8FA7AF0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ISCUSTOMREDDOTSHOW300_OFFSET UNITYSDK_OFFSET(0x8FA7900)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ONINIT_OFFSET UNITYSDK_OFFSET(0x8FA68C0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ONQUESTUPDATED_OFFSET UNITYSDK_OFFSET(0x8FA7540)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISFINISHCONDITIONSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x8FA7FC0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISSHOWDAILYREDDOT_OFFSET UNITYSDK_OFFSET(0x8FA7FD0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0x8FA7FE0)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x8FA7F50)
+#define RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0x8FA7EF0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityQuestTimeLimitData_TypeDefinitionIndex = 49961;
+
+	class ActivityQuestTimeLimitData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_1<::System::Boolean>*>* _ReddotHandlerMap; // 0xA0
+		::System::Collections::Generic::List_1<::System::UInt32>* _QuestTimeLimitGroupID; // 0xA8
+		::System::UInt32 _TrackMonsterQuestID; // 0xB0
+
+		::System::Void _ctor(::System::UInt32 id)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__CTOR_OFFSET))(this, id);
+		}
+
+		::System::Void _OnInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ONINIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetActivityQuestTimeLimitGroups()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETACTIVITYQUESTTIMELIMITGROUPS_OFFSET))(this);
+		}
+
+		::System::UInt32 GetFinishedQuestCount(::System::UInt32 questGroupID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETFINISHEDQUESTCOUNT_OFFSET))(this, questGroupID);
+		}
+
+		::System::UInt32 GetCloseQuestCount(::System::UInt32 questGroupID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETCLOSEQUESTCOUNT_OFFSET))(this, questGroupID);
+		}
+
+		::System::UInt32 GetToRwardQuestCount(::System::UInt32 questGroupID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETTORWARDQUESTCOUNT_OFFSET))(this, questGroupID);
+		}
+
+		::System::UInt32 GetTotalHcoinReward(::System::UInt32 questGroupID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETTOTALHCOINREWARD_OFFSET))(this, questGroupID);
+		}
+
+		::System::UInt32 GetGotoWorldID(::System::UInt32 questID)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_GETGOTOWORLDID_OFFSET))(this, questID);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsFinishConditionsCompleted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISFINISHCONDITIONSCOMPLETED_OFFSET))(this);
+		}
+
+		::System::Void TryTrackQuestMonster(::System::UInt32 questID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_TRYTRACKQUESTMONSTER_OFFSET))(this, questID);
+		}
+
+		::System::Boolean IsShowDailyRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISSHOWDAILYREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+
+		::System::Void _OnQuestUpdated(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ONQUESTUPDATED_OFFSET))(this, arg);
+		}
+
+		::System::Boolean _IsCustomRedDotShow300()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ISCUSTOMREDDOTSHOW300_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCustomRedDotShow200()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__ISCUSTOMREDDOTSHOW200_OFFSET))(this);
+		}
+
+		::System::Boolean _CheckHasFinishQuest()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__CHECKHASFINISHQUEST_OFFSET))(this);
+		}
+
+		::System::Boolean _CheckIsAllQuestAwardGot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA__CHECKISALLQUESTAWARDGOT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY__ONINIT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsFinishConditionsCompleted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISFINISHCONDITIONSCOMPLETED_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowDailyRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISSHOWDAILYREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYQUESTTIMELIMITDATA___IFIXBASEPROXY_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+	};
+}

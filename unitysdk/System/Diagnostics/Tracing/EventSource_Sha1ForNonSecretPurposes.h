@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_APPEND_1_OFFSET UNITYSDK_OFFSET(0x20D5A70)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_APPEND_OFFSET UNITYSDK_OFFSET(0x20D5A00)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_DRAIN_OFFSET UNITYSDK_OFFSET(0x20D5A90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_FINISH_OFFSET UNITYSDK_OFFSET(0x20D5A80)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_ROL1_OFFSET UNITYSDK_OFFSET(0x162D5080)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_ROL30_OFFSET UNITYSDK_OFFSET(0x162D50A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_ROL5_OFFSET UNITYSDK_OFFSET(0x162D5090)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_START_OFFSET UNITYSDK_OFFSET(0x20D59F0)
+
+namespace System::Diagnostics::Tracing
+{
+	inline static constexpr unsigned int EventSource_Sha1ForNonSecretPurposes_TypeDefinitionIndex = 1654;
+
+	struct alignas(8) EventSource_Sha1ForNonSecretPurposes
+	{
+		::System::Int64 length; // 0x10
+		::Il2CppArray<::System::UInt32>* w; // 0x18
+		::System::Int32 pos; // 0x20
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_START_OFFSET))(this);
+		}
+
+		::System::Void Append(::System::Byte input)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_APPEND_OFFSET))(this, input);
+		}
+
+		::System::Void Append_1(::Il2CppArray<::System::Byte>* input)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_APPEND_1_OFFSET))(this, input);
+		}
+
+		::System::Void Finish(::Il2CppArray<::System::Byte>* output)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_FINISH_OFFSET))(this, output);
+		}
+
+		::System::Void Drain()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_DRAIN_OFFSET))(this);
+		}
+
+		static ::System::UInt32 Rol1(::System::UInt32 input)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_ROL1_OFFSET))(input);
+		}
+
+		static ::System::UInt32 Rol5(::System::UInt32 input)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_ROL5_OFFSET))(input);
+		}
+
+		static ::System::UInt32 Rol30(::System::UInt32 input)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SHA1FORNONSECRETPURPOSES_ROL30_OFFSET))(input);
+		}
+	};
+}

@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TrainPartyActionConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_TRAINPARTYACTIONTRIGERADDMTSKILLCONFIG_METHOD_5_E4179F3750ECAB58_OFFSET UNITYSDK_OFFSET(0x178A7CF0)
+#define RPG_GAMECORE_TRAINPARTYACTIONTRIGERADDMTSKILLCONFIG_METHOD_5_EA33756B6252EC71_OFFSET UNITYSDK_OFFSET(0x178A7DC0)
+#define RPG_GAMECORE_TRAINPARTYACTIONTRIGERADDMTSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178A7D70)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TrainPartyActionTrigerAddMtSkillConfig_TypeDefinitionIndex = 16590;
+
+	class TrainPartyActionTrigerAddMtSkillConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYACTIONTRIGERADDMTSKILLCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_5_E4179F3750ECAB58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyActionTrigerAddMtSkillConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyActionTrigerAddMtSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYACTIONTRIGERADDMTSKILLCONFIG_METHOD_5_E4179F3750ECAB58_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_5_EA33756B6252EC71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyActionTrigerAddMtSkillConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyActionTrigerAddMtSkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYACTIONTRIGERADDMTSKILLCONFIG_METHOD_5_EA33756B6252EC71_OFFSET))(a1, a2);
+		}
+	};
+}

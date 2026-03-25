@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int PropState_TypeDefinitionIndex = 10065;
+
+	enum class PropState : ::System::Int32
+	{
+		Closed = 0,
+		Open = 1,
+		Locked = 2,
+		BridgeState1 = 3,
+		BridgeState2 = 4,
+		BridgeState3 = 5,
+		BridgeState4 = 6,
+		CheckPointDisable = 7,
+		CheckPointEnable = 8,
+		TriggerDisable = 9,
+		TriggerEnable = 10,
+		ChestLocked = 11,
+		ChestClosed = 12,
+		ChestUsed = 13,
+		Elevator1 = 14,
+		Elevator2 = 15,
+		Elevator3 = 16,
+		WaitActive = 17,
+		EventClose = 18,
+		EventOpen = 19,
+		Hidden = 20,
+		TeleportGate0 = 21,
+		TeleportGate1 = 22,
+		TeleportGate2 = 23,
+		TeleportGate3 = 24,
+		CustomState01 = 101,
+		CustomState02 = 102,
+		CustomState03 = 103,
+		CustomState04 = 104,
+		CustomState05 = 105,
+		CustomState06 = 106,
+		CustomState07 = 107,
+		CustomState08 = 108,
+		CustomState09 = 109,
+	};
+}

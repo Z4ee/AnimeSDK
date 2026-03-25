@@ -1,0 +1,96 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_863;
+namespace RPG::GameCore { class AbilityCurrentHPChange; }
+namespace RPG::GameCore { class AbilityCurrentShieldChange; }
+namespace System { class String; }
+
+#define CLASS_1_824086E13BCFFEC7_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8C7360)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_1F46A648CF073D05_OFFSET UNITYSDK_OFFSET(0xB8C7B80)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_2EE5451A8927066E_OFFSET UNITYSDK_OFFSET(0xB8C7DA0)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB8C7460)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0xB8C7740)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_8567163545CAF181_OFFSET UNITYSDK_OFFSET(0xB8C78B0)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0xB8C72F0)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_B160F9645705E0E4_OFFSET UNITYSDK_OFFSET(0xB8C7830)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_C19086960A1B88E8_OFFSET UNITYSDK_OFFSET(0xB8C7C00)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB8C73B0)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0xB8C7EC0)
+#define CLASS_1_824086E13BCFFEC7_METHOD_1_DC438113B279DD45_OFFSET UNITYSDK_OFFSET(0xB8C7520)
+#define CLASS_1_824086E13BCFFEC7__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C7350)
+
+inline static constexpr unsigned int Class_1_824086E13BCFFEC7_TypeDefinitionIndex = 59119;
+
+class Class_1_824086E13BCFFEC7 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_863* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_824086E13BCFFEC7* Method_1_9B39F7D7C1FF70D6()
+	{
+		return ((::Class_1_824086E13BCFFEC7*(*)())((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_9B39F7D7C1FF70D6_OFFSET))();
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::String* Method_1_DC438113B279DD45()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_DC438113B279DD45_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7744894CEC41BF06()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_7744894CEC41BF06_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B160F9645705E0E4(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_B160F9645705E0E4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_1F46A648CF073D05(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_1F46A648CF073D05_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_8567163545CAF181(::RPG::GameCore::AbilityCurrentHPChange* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityCurrentHPChange*))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_8567163545CAF181_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_2EE5451A8927066E(::RPG::GameCore::AbilityCurrentHPChange* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AbilityCurrentHPChange*))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_2EE5451A8927066E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C19086960A1B88E8(::RPG::GameCore::AbilityCurrentShieldChange* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityCurrentShieldChange*))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_C19086960A1B88E8_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_1_CD5C08A2521794A0()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_824086E13BCFFEC7_METHOD_1_CD5C08A2521794A0_OFFSET))(this);
+	}
+};

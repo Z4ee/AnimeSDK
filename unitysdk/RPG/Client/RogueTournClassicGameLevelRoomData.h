@@ -1,0 +1,92 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_56.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/RogueTournMarkType.h"
+#include "unitysdk/RPG/GameCore/RogueTournRoomType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_36039D62266A61A1;
+namespace RPG::Client { class RogueTournClassicRoomTypeData; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0xA3846F0)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA3847E0)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_MARKTYPE_OFFSET UNITYSDK_OFFSET(0xA384780)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA3847B0)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ROOMID_OFFSET UNITYSDK_OFFSET(0xA384740)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ROOMINDEX_OFFSET UNITYSDK_OFFSET(0xA384750)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ROOMTYPE_OFFSET UNITYSDK_OFFSET(0xA384760)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xA3847A0)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_TOASTICONPATH_OFFSET UNITYSDK_OFFSET(0xA384800)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xA384570)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA384270)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournClassicGameLevelRoomData_TypeDefinitionIndex = 55148;
+
+	class RogueTournClassicGameLevelRoomData : public ::System::Object
+	{
+	public:
+		::RPG::Client::RogueTournClassicRoomTypeData* _RoomType; // 0x10
+		::System::UInt32 _RoomID; // 0x18
+		::System::UInt32 _RoomIndex; // 0x1C
+		::Enum_3_DB663931210BBC27_56 _Status; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_36039D62266A61A1* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_36039D62266A61A1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_SYNC_OFFSET))(this, proto);
+		}
+
+		::System::String* GetDebugInfo()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GETDEBUGINFO_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RoomID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ROOMID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RoomIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ROOMINDEX_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTournRoomType get_RoomType()
+		{
+			return ((::RPG::GameCore::RogueTournRoomType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ROOMTYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTournMarkType get_MarkType()
+		{
+			return ((::RPG::GameCore::RogueTournMarkType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_MARKTYPE_OFFSET))(this);
+		}
+
+		::Enum_3_DB663931210BBC27_56 get_Status()
+		{
+			return ((::Enum_3_DB663931210BBC27_56(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_STATUS_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_ToastIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELROOMDATA_GET_TOASTICONPATH_OFFSET))(this);
+		}
+	};
+}

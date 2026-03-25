@@ -1,0 +1,283 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_2C2DA62D5BBB20B1_PreloadType.h"
+#include "unitysdk/RPG/Client/BattleAssetPreload_AssetPreloadGroup.h"
+#include "unitysdk/RPG/Client/PreloadItemFlag.h"
+#include "unitysdk/RPG/GameCore/SkillResPreloadRule.h"
+
+class Class_1_2C2DA62D5BBB20B1;
+namespace RPG::GameCore { class CharacterPreloadConfigBase; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class SkillConfig; }
+namespace RPG::GameCore { class SkillData; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Text::RegularExpressions { class Regex; }
+
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GETDEFAULTSKILLPRELOADTYPE_OFFSET UNITYSDK_OFFSET(0x9189DB0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GETSKILLCONFIG_OFFSET UNITYSDK_OFFSET(0x9189920)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ADVMODELITEMNAME_OFFSET UNITYSDK_OFFSET(0x9189750)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ADVMODELPATH_OFFSET UNITYSDK_OFFSET(0x9189730)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_BATTLEINSLOTSKILLS_OFFSET UNITYSDK_OFFSET(0x9189770)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_BATTLEMODELITEMNAME_OFFSET UNITYSDK_OFFSET(0x9189740)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_BATTLEMODELPATH_OFFSET UNITYSDK_OFFSET(0x9189720)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_CURRENTULTRPRELOADTYPE_OFFSET UNITYSDK_OFFSET(0x918A7A0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_DISABLEALLPRELOAD_OFFSET UNITYSDK_OFFSET(0x918AC70)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_DISABLEULTRAPRELOAD_OFFSET UNITYSDK_OFFSET(0x918AF20)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x9188020)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ULTRAPRELOADTYPE_OFFSET UNITYSDK_OFFSET(0x9189760)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_INITBATTLENORMALSKILLPRELOADTYPE_OFFSET UNITYSDK_OFFSET(0x9187370)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_INITBATTLESKILLCONFIG_OFFSET UNITYSDK_OFFSET(0x91843C0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_REFRESHBATTLEINSLOTSKILLS_OFFSET UNITYSDK_OFFSET(0x9187150)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_RELEASEEFFECTINSTANCEOFTYPE_OFFSET UNITYSDK_OFFSET(0x918A480)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_RELEASEULTRAEFFECTINSTANCE_OFFSET UNITYSDK_OFFSET(0x918A5E0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_RESETNOTINSLOTBATTLENORMALSKILLPRELOADTYPE_OFFSET UNITYSDK_OFFSET(0x9189B10)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_SET_DISABLEALLPRELOAD_OFFSET UNITYSDK_OFFSET(0x918ACB0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_SET_DISABLEULTRAPRELOAD_OFFSET UNITYSDK_OFFSET(0x918AF60)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEADVMODEL_OFFSET UNITYSDK_OFFSET(0x9189F30)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEBATTLEMODEL_OFFSET UNITYSDK_OFFSET(0x91865B0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEEFFECTOFTYPES_OFFSET UNITYSDK_OFFSET(0x918A140)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEULTRAEFFECTPRELOAD_OFFSET UNITYSDK_OFFSET(0x918A640)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x918B1E0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__COMPUTEPRELOADITEMFLAG_OFFSET UNITYSDK_OFFSET(0x918A890)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x9187F00)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__GETDEFAULTADVMODELPATH_OFFSET UNITYSDK_OFFSET(0x91886D0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__GETDEFAULTBATTLEMODELPATH_OFFSET UNITYSDK_OFFSET(0x9188650)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ISHITEFFECT_OFFSET UNITYSDK_OFFSET(0x918AB80)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ISIGNOREITEMNAME_OFFSET UNITYSDK_OFFSET(0x918A7B0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ISVALIDINSSLOTSKILL_OFFSET UNITYSDK_OFFSET(0x91899F0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x9184680)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__PRELOADTIMELINE_OFFSET UNITYSDK_OFFSET(0x9187550)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__REGISTERALLPRELOADEFFECTS_OFFSET UNITYSDK_OFFSET(0x9186090)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__RELEASERESOURCEIMPL_OFFSET UNITYSDK_OFFSET(0x9186530)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__RELEASETIMELINE_OFFSET UNITYSDK_OFFSET(0x9189780)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE___IFIXBASEPROXY__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x918B250)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE___IFIXBASEPROXY__RELEASERESOURCEIMPL_OFFSET UNITYSDK_OFFSET(0x918B290)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int BattleAssetPreload_CharacterPreloadGroupBase_TypeDefinitionIndex = 48290;
+
+	class BattleAssetPreload_CharacterPreloadGroupBase : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroup
+	{
+	public:
+		static ::System::Text::RegularExpressions::Regex** StaticGet__HitEffectCheckRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload_CharacterPreloadGroupBase_TypeDefinitionIndex)->GetStaticField(0x379E0);
+		}
+		static ::System::Boolean* StaticGet__DisableUltraPreload()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload_CharacterPreloadGroupBase_TypeDefinitionIndex)->GetStaticField(0x111E0);
+		}
+		static ::System::Boolean* StaticGet__DisableAllPreload()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload_CharacterPreloadGroupBase_TypeDefinitionIndex)->GetStaticField(0x111E1);
+		}
+		::System::String* _UltraPreloadType; // 0x58
+		::System::String* _AdvModelPath; // 0x60
+		::RPG::GameCore::CharacterPreloadConfigBase* _PreloadConfig; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::SkillConfig*>* _BattleSkillConfigDict; // 0x70
+		::System::Collections::Generic::List_1<::System::String*>* _BattleInSlotSkills; // 0x78
+		::System::String* _BattleModelItemName; // 0x80
+		::System::String* _AdvModelItemName; // 0x88
+		::System::String* _BattleModelPath; // 0x90
+		::System::Collections::Generic::List_1<::System::String*>* _TimelinePaths; // 0x98
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__CCTOR_OFFSET))();
+		}
+
+		::System::Boolean get_IsEnable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ISENABLE_OFFSET))(this);
+		}
+
+		::System::String* get_BattleModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_BATTLEMODELPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AdvModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ADVMODELPATH_OFFSET))(this);
+		}
+
+		::System::String* get_BattleModelItemName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_BATTLEMODELITEMNAME_OFFSET))(this);
+		}
+
+		::System::String* get_AdvModelItemName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ADVMODELITEMNAME_OFFSET))(this);
+		}
+
+		::System::String* get_UltraPreloadType()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_ULTRAPRELOADTYPE_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::String*>* get_BattleInSlotSkills()
+		{
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_BATTLEINSLOTSKILLS_OFFSET))(this);
+		}
+
+		::System::Void _OnDispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ONDISPOSE_OFFSET))(this);
+		}
+
+		::System::Void InitBattleSkillConfig(::Il2CppArray<::RPG::GameCore::SkillConfig*>* skillCfgs)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::SkillConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_INITBATTLESKILLCONFIG_OFFSET))(this, skillCfgs);
+		}
+
+		::RPG::GameCore::SkillConfig* GetSkillConfig(::System::String* skillName)
+		{
+			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GETSKILLCONFIG_OFFSET))(this, skillName);
+		}
+
+		::System::Void RefreshBattleInSlotSkills(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_REFRESHBATTLEINSLOTSKILLS_OFFSET))(this, entity);
+		}
+
+		::System::Boolean _IsValidInsSlotSkill(::RPG::GameCore::SkillData* skillData)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ISVALIDINSSLOTSKILL_OFFSET))(this, skillData);
+		}
+
+		::System::Void ResetNotInSlotBattleNormalSkillPreloadType()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_RESETNOTINSLOTBATTLENORMALSKILLPRELOADTYPE_OFFSET))(this);
+		}
+
+		::System::Void InitBattleNormalSkillPreloadType()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_INITBATTLENORMALSKILLPRELOADTYPE_OFFSET))(this);
+		}
+
+		::Class_1_2C2DA62D5BBB20B1_PreloadType GetDefaultSkillPreloadType(::Class_1_2C2DA62D5BBB20B1* item, ::RPG::GameCore::SkillResPreloadRule preloadRule)
+		{
+			return ((::Class_1_2C2DA62D5BBB20B1_PreloadType(*)(::PVOID, ::Class_1_2C2DA62D5BBB20B1*, ::RPG::GameCore::SkillResPreloadRule))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GETDEFAULTSKILLPRELOADTYPE_OFFSET))(this, item, preloadRule);
+		}
+
+		::System::Void UpdateBattleModel(::System::String* modelPath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEBATTLEMODEL_OFFSET))(this, modelPath);
+		}
+
+		::System::Void UpdateAdvModel(::System::String* modelPath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEADVMODEL_OFFSET))(this, modelPath);
+		}
+
+		::System::String* _GetDefaultBattleModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__GETDEFAULTBATTLEMODELPATH_OFFSET))(this);
+		}
+
+		::System::String* _GetDefaultAdvModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__GETDEFAULTADVMODELPATH_OFFSET))(this);
+		}
+
+		::System::Void UpdateEffectOfTypes(::System::Collections::Generic::IList_1<::System::String*>* removeTypes, ::System::Collections::Generic::IList_1<::System::String*>* addTypes, ::System::Int32 targetCnt)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::String*>*, ::System::Collections::Generic::IList_1<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEEFFECTOFTYPES_OFFSET))(this, removeTypes, addTypes, targetCnt);
+		}
+
+		::System::Void ReleaseEffectInstanceOfType(::System::String* effectType)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_RELEASEEFFECTINSTANCEOFTYPE_OFFSET))(this, effectType);
+		}
+
+		::System::Void ReleaseUltraEffectInstance()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_RELEASEULTRAEFFECTINSTANCE_OFFSET))(this);
+		}
+
+		::System::Void UpdateUltraEffectPreload(::System::String* effectType, ::System::Int32 targetCnt, ::System::Boolean isNeeded, ::System::Boolean isAsyncLoad)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_UPDATEULTRAEFFECTPRELOAD_OFFSET))(this, effectType, targetCnt, isNeeded, isAsyncLoad);
+		}
+
+		::System::String* get_CurrentUltrPreloadType()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_CURRENTULTRPRELOADTYPE_OFFSET))(this);
+		}
+
+		::System::Void _RegisterAllPreloadEffects()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__REGISTERALLPRELOADEFFECTS_OFFSET))(this);
+		}
+
+		::System::Void _PreloadTimeLine()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__PRELOADTIMELINE_OFFSET))(this);
+		}
+
+		::System::Void _ReleaseTimeline()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__RELEASETIMELINE_OFFSET))(this);
+		}
+
+		::System::Void _ReleaseResourceImpl()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__RELEASERESOURCEIMPL_OFFSET))(this);
+		}
+
+		::System::Boolean _IsHitEffect(::System::String* effectPath)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ISHITEFFECT_OFFSET))(this, effectPath);
+		}
+
+		::System::Boolean _IsIgnoreItemName(::System::String* key)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__ISIGNOREITEMNAME_OFFSET))(this, key);
+		}
+
+		::RPG::Client::PreloadItemFlag _ComputePreloadItemFlag(::System::String* key)
+		{
+			return ((::RPG::Client::PreloadItemFlag(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE__COMPUTEPRELOADITEMFLAG_OFFSET))(this, key);
+		}
+
+		static ::System::Boolean get_DisableAllPreload()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_DISABLEALLPRELOAD_OFFSET))();
+		}
+
+		static ::System::Void set_DisableAllPreload(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_SET_DISABLEALLPRELOAD_OFFSET))(value);
+		}
+
+		static ::System::Boolean get_DisableUltraPreload()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_GET_DISABLEULTRAPRELOAD_OFFSET))();
+		}
+
+		static ::System::Void set_DisableUltraPreload(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE_SET_DISABLEULTRAPRELOAD_OFFSET))(value);
+		}
+
+		::System::Void __iFixBaseProxy__OnDispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE___IFIXBASEPROXY__ONDISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__ReleaseResourceImpl()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE___IFIXBASEPROXY__RELEASERESOURCEIMPL_OFFSET))(this);
+		}
+	};
+}

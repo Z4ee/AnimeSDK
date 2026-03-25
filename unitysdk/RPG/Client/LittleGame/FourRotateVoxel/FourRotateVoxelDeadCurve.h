@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FouRotateVoxelSimpleCameraCurveBase.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_8385F95FFA7FAA1C;
+class Class_1_867B6CE75953535A_1;
+class Class_3_D6E9A038FA23103A;
+namespace Cinemachine { class CinemachineVirtualCamera; }
+namespace System { class Action; }
+namespace UnityEngine { class AnimationCurve; }
+
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_0414B7E68ABA5085_OFFSET UNITYSDK_OFFSET(0x9A20140)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9A1FF00)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_459C79521BFE514E_OFFSET UNITYSDK_OFFSET(0x9A1FF60)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x9A1FE70)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x9A20120)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0x9A20130)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_STARTCURVE_OFFSET UNITYSDK_OFFSET(0x9A1FD70)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9A20100)
+
+namespace RPG::Client::LittleGame::FourRotateVoxel
+{
+	inline static constexpr unsigned int FourRotateVoxelDeadCurve_TypeDefinitionIndex = 62534;
+
+	class FourRotateVoxelDeadCurve : public ::RPG::Client::LittleGame::FourRotateVoxel::FouRotateVoxelSimpleCameraCurveBase
+	{
+	public:
+		::System::Single DelayStartTime; // 0x50
+		::System::Single BlendToPlayerDuration; // 0x54
+		::UnityEngine::AnimationCurve* BlendToPlayerCurve; // 0x58
+		::Cinemachine::CinemachineVirtualCamera* Field_6_3; // 0x60
+		::System::Action* Field_6_4; // 0x68
+		::UnityEngine::Vector3 Field_6_5; // 0x70
+		::UnityEngine::Vector3 Field_6_6; // 0x7C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void StartCurve(::Class_1_867B6CE75953535A_1* a1, ::Class_3_D6E9A038FA23103A* a2, ::Class_1_8385F95FFA7FAA1C* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Action* a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_D6E9A038FA23103A*, ::Class_1_8385F95FFA7FAA1C*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_STARTCURVE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void Method_6_89D1F247B9D324EE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_89D1F247B9D324EE_OFFSET))(this);
+		}
+
+		::System::Void Method_6_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_6_459C79521BFE514E(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_459C79521BFE514E_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_D3129FE8DF635B48()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_D3129FE8DF635B48_OFFSET))(this);
+		}
+
+		::System::Void Method_6_F7300E87EC49A206()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_F7300E87EC49A206_OFFSET))(this);
+		}
+
+		::System::Void Method_6_0414B7E68ABA5085(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELDEADCURVE_METHOD_6_0414B7E68ABA5085_OFFSET))(this, P0);
+		}
+	};
+}

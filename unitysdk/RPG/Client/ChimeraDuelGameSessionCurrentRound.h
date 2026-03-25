@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_2135BD0826D34A80;
+class Class_1_97E659ED8D5D259C_4;
+
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0x939A410)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_CREATE_OFFSET UNITYSDK_OFFSET(0x939A050)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_DISPOSE_OFFSET UNITYSDK_OFFSET(0x939A730)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_GET_ROUNDDATA_OFFSET UNITYSDK_OFFSET(0x939FF90)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_GET_ROUNDID_OFFSET UNITYSDK_OFFSET(0x939FF50)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_GET_ROUNDINDEX_OFFSET UNITYSDK_OFFSET(0x939FF70)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_SET_ROUNDID_OFFSET UNITYSDK_OFFSET(0x939FF60)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_SET_ROUNDINDEX_OFFSET UNITYSDK_OFFSET(0x939FF80)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_UPDATE_OFFSET UNITYSDK_OFFSET(0x939AD60)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x93A00A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ChimeraDuelGameSessionCurrentRound_TypeDefinitionIndex = 51388;
+
+	class ChimeraDuelGameSessionCurrentRound : public ::System::Object
+	{
+	public:
+		::System::Int32 _RoundIndex_k__BackingField; // 0x10
+		::System::UInt32 _RoundID_k__BackingField; // 0x14
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RoundID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_GET_ROUNDID_OFFSET))(this);
+		}
+
+		::System::Void set_RoundID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_SET_ROUNDID_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_RoundIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_GET_ROUNDINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_RoundIndex(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_SET_ROUNDINDEX_OFFSET))(this, value);
+		}
+
+		::Class_1_97E659ED8D5D259C_4* get_RoundData()
+		{
+			return ((::Class_1_97E659ED8D5D259C_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_GET_ROUNDDATA_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ChimeraDuelGameSessionCurrentRound* CreateFake()
+		{
+			return ((::RPG::Client::ChimeraDuelGameSessionCurrentRound*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_CREATEFAKE_OFFSET))();
+		}
+
+		static ::RPG::Client::ChimeraDuelGameSessionCurrentRound* Create(::System::UInt32 roundID, ::System::Int32 roundIndex)
+		{
+			return ((::RPG::Client::ChimeraDuelGameSessionCurrentRound*(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_CREATE_OFFSET))(roundID, roundIndex);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void Update(::Class_1_2135BD0826D34A80* gameInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2135BD0826D34A80*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCURRENTROUND_UPDATE_OFFSET))(this, gameInfo);
+		}
+	};
+}

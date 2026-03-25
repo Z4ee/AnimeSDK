@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/RogueTitanCategory.h"
+#include "unitysdk/RPG/GameCore/RogueTitanType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class RogueTournTitanBless; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xA398F70)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0xA399200)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_EXTRAEFFECTIDS_OFFSET UNITYSDK_OFFSET(0xA399220)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA3991E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA3992E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_LOCKEDDESC_OFFSET UNITYSDK_OFFSET(0xA399240)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_NAMEWITHAVATAR_OFFSET UNITYSDK_OFFSET(0xA3991C0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA399120)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANBLESSID_OFFSET UNITYSDK_OFFSET(0xA3990A0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANBLESSLEVEL_OFFSET UNITYSDK_OFFSET(0xA3990E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANCATEGORY_OFFSET UNITYSDK_OFFSET(0xA399100)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANTYPE_OFFSET UNITYSDK_OFFSET(0xA3990C0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA3992F0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_SYNCUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA399050)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA398F60)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournHandbookTitanBlessDataItem_TypeDefinitionIndex = 55183;
+
+	class RogueTournHandbookTitanBlessDataItem : public ::System::Object
+	{
+	public:
+		::RPG::Client::RogueTournTitanBless* _TitanBlessData; // 0x10
+		::System::Boolean _IsUnlocked_k__BackingField; // 0x18
+
+		::System::Void _ctor(::RPG::Client::RogueTournTitanBless* titanBlessData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournTitanBless*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM__CTOR_OFFSET))(this, titanBlessData);
+		}
+
+		static ::RPG::Client::RogueTournHandbookTitanBlessDataItem* Create(::System::UInt32 id)
+		{
+			return ((::RPG::Client::RogueTournHandbookTitanBlessDataItem*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_CREATE_OFFSET))(id);
+		}
+
+		::System::Void SyncUnlocked(::System::Boolean isUnlocked)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_SYNCUNLOCKED_OFFSET))(this, isUnlocked);
+		}
+
+		::System::UInt32 get_TitanBlessID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANBLESSID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTitanType get_TitanType()
+		{
+			return ((::RPG::GameCore::RogueTitanType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TitanBlessLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANBLESSLEVEL_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTitanCategory get_TitanCategory()
+		{
+			return ((::RPG::GameCore::RogueTitanCategory(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_TITANCATEGORY_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_NameWithAvatar()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_NAMEWITHAVATAR_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_DESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ExtraEffectIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_EXTRAEFFECTIDS_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_LockedDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_LOCKEDDESC_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSDATAITEM_SET_ISUNLOCKED_OFFSET))(this, value);
+		}
+	};
+}

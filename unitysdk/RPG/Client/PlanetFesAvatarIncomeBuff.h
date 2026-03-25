@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BasePlanetFesBuff.h"
+
+namespace RPG::Client { class PlanetFesAvatarData; }
+namespace System { class String; }
+
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_GETTARGETAVATARID_OFFSET UNITYSDK_OFFSET(0x9F860B0)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_GET_PERCENTINCREASE_OFFSET UNITYSDK_OFFSET(0x9F85B90)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_ISAVATARBUFF_OFFSET UNITYSDK_OFFSET(0x9F85BA0)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_ISEFFECTIVEONAVATAR_OFFSET UNITYSDK_OFFSET(0x9F85D70)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_ISTRIGGERED_OFFSET UNITYSDK_OFFSET(0x9F85DD0)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x9F86310)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__GETDESC_OFFSET UNITYSDK_OFFSET(0x9F860F0)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__GETICONPATH_OFFSET UNITYSDK_OFFSET(0x9F85C70)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__GETLARGEICONPATH_OFFSET UNITYSDK_OFFSET(0x9F85CF0)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__ONINITPARAM_OFFSET UNITYSDK_OFFSET(0x9F85BE0)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY_ISAVATARBUFF_OFFSET UNITYSDK_OFFSET(0x9F86320)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY__GETDESC_OFFSET UNITYSDK_OFFSET(0x9F86490)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY__GETICONPATH_OFFSET UNITYSDK_OFFSET(0x9F86390)
+#define RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY__GETLARGEICONPATH_OFFSET UNITYSDK_OFFSET(0x9F86410)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PlanetFesAvatarIncomeBuff_TypeDefinitionIndex = 54129;
+
+	class PlanetFesAvatarIncomeBuff : public ::RPG::Client::BasePlanetFesBuff
+	{
+	public:
+		::System::UInt32 _TargetAvatarID; // 0x30
+		::System::UInt32 _PercentIncrease; // 0x34
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PercentIncrease()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_GET_PERCENTINCREASE_OFFSET))(this);
+		}
+
+		::System::Boolean IsAvatarBuff()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_ISAVATARBUFF_OFFSET))(this);
+		}
+
+		::System::Void _OnInitParam(::Il2CppArray<::System::UInt32>* param)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__ONINITPARAM_OFFSET))(this, param);
+		}
+
+		::System::String* _GetIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__GETICONPATH_OFFSET))(this);
+		}
+
+		::System::String* _GetLargeIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__GETLARGEICONPATH_OFFSET))(this);
+		}
+
+		::System::Boolean IsEffectiveOnAvatar(::RPG::Client::PlanetFesAvatarData* avatar)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_ISEFFECTIVEONAVATAR_OFFSET))(this, avatar);
+		}
+
+		::System::Boolean IsTriggered()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_ISTRIGGERED_OFFSET))(this);
+		}
+
+		::System::UInt32 GetTargetAvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF_GETTARGETAVATARID_OFFSET))(this);
+		}
+
+		::System::String* _GetDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF__GETDESC_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsAvatarBuff()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY_ISAVATARBUFF_OFFSET))(this);
+		}
+
+		::System::String* __iFixBaseProxy__GetIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY__GETICONPATH_OFFSET))(this);
+		}
+
+		::System::String* __iFixBaseProxy__GetLargeIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY__GETLARGEICONPATH_OFFSET))(this);
+		}
+
+		::System::String* __iFixBaseProxy__GetDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARINCOMEBUFF___IFIXBASEPROXY__GETDESC_OFFSET))(this);
+		}
+	};
+}

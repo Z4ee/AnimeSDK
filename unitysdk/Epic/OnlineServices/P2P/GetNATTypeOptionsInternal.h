@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices::P2P { class GetNATTypeOptions; }
+namespace System { class Object; }
+
+#define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57370)
+#define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
+
+namespace Epic::OnlineServices::P2P
+{
+	inline static constexpr unsigned int GetNATTypeOptionsInternal_TypeDefinitionIndex = 35886;
+
+	struct alignas(4) GetNATTypeOptionsInternal
+	{
+		::System::Int32 m_ApiVersion; // 0x10
+
+		::System::Void Set(::Epic::OnlineServices::P2P::GetNATTypeOptions* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::GetNATTypeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_DISPOSE_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class AudioManager; }
+namespace System { class String; }
+
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x8CF1A20)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x8CF17F0)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_3D9D7F249A4577C0_OFFSET UNITYSDK_OFFSET(0x8CF1CA0)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_73FB9DE4849AF1B5_OFFSET UNITYSDK_OFFSET(0x8CF1D10)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x8CF16D0)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_813A31D1CB31A44D_OFFSET UNITYSDK_OFFSET(0x8CF1C10)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_9094A96EEEB7AD9B_OFFSET UNITYSDK_OFFSET(0x8CF18A0)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x8CF1AD0)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x8CF1720)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_BB7A1049F84E8127_OFFSET UNITYSDK_OFFSET(0x8CF1650)
+#define CLASS_1_F235AB02FC4665F5_METHOD_1_FB1C56FCE4ABD259_OFFSET UNITYSDK_OFFSET(0x8CF19A0)
+#define CLASS_1_F235AB02FC4665F5__CTOR_OFFSET UNITYSDK_OFFSET(0x8CF16C0)
+
+inline static constexpr unsigned int Class_1_F235AB02FC4665F5_TypeDefinitionIndex = 62189;
+
+class Class_1_F235AB02FC4665F5 : public ::System::Object
+{
+public:
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* Field_1_3; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_F235AB02FC4665F5* Method_1_BB7A1049F84E8127()
+	{
+		return ((::Class_1_F235AB02FC4665F5*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_BB7A1049F84E8127_OFFSET))();
+	}
+
+	::System::Void Method_1_7744894CEC41BF06()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_7744894CEC41BF06_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2C95AFAD0256302F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_2C95AFAD0256302F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_06330CD58CB602B6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_06330CD58CB602B6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_813A31D1CB31A44D(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_813A31D1CB31A44D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9094A96EEEB7AD9B(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_9094A96EEEB7AD9B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_FB1C56FCE4ABD259(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_FB1C56FCE4ABD259_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_1_AA169839CB93802A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_AA169839CB93802A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_73FB9DE4849AF1B5(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_73FB9DE4849AF1B5_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::AudioManager* Method_1_3D9D7F249A4577C0()
+	{
+		return ((::RPG::Client::AudioManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F235AB02FC4665F5_METHOD_1_3D9D7F249A4577C0_OFFSET))(this);
+	}
+};

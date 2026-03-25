@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace RPG::Client { class DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Graphic; }
+
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_CHANGEUIRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x94A5900)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_METHOD_5_C83BBF5FEFAF50C9_OFFSET UNITYSDK_OFFSET(0x94A5F00)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x94A5B80)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x94A58A0)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_REVERTUIRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x94A5BD0)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x94A6220)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int DisableUIPostProcessBehaviour_TypeDefinitionIndex = 59630;
+
+	class DisableUIPostProcessBehaviour : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::Graphic*, ::RPG::Client::DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2*>* Field_5_0; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2*>* Field_5_1; // 0x20
+		::System::Boolean Field_5_2; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void ChangeUIRenderQueue(::UnityEngine::Transform* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_CHANGEUIRENDERQUEUE_OFFSET))(this, a1);
+		}
+
+		::System::Void RevertUIRenderQueue()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_REVERTUIRENDERQUEUE_OFFSET))(this);
+		}
+
+		::RPG::Client::DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2* Method_5_C83BBF5FEFAF50C9(::UnityEngine::Material* a1)
+		{
+			return ((::RPG::Client::DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2*(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_METHOD_5_C83BBF5FEFAF50C9_OFFSET))(this, a1);
+		}
+	};
+}

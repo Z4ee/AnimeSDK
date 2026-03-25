@@ -1,0 +1,169 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RogueNousSurfaceTag.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class RogueNousDiceSurfaceRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA34D3A0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_BRANCHLIMITATIONS_OFFSET UNITYSDK_OFFSET(0xA34E3F0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_DESCPARAM_OFFSET UNITYSDK_OFFSET(0xA34FB50)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_DICEACTIVESTAGE_OFFSET UNITYSDK_OFFSET(0xA34FD30)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_EXTRADESC_OFFSET UNITYSDK_OFFSET(0xA34FE70)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ICON_OFFSET UNITYSDK_OFFSET(0xA34F3F0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ISFIRSTTIMEUNLOCK_OFFSET UNITYSDK_OFFSET(0xA3500D0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA34F990)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xA34E670)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xA34FBF0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SLOTLIST_OFFSET UNITYSDK_OFFSET(0xA34FC90)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SORT_OFFSET UNITYSDK_OFFSET(0xA34FDD0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SURFACEDESC_OFFSET UNITYSDK_OFFSET(0xA34FA80)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SURFACEID_OFFSET UNITYSDK_OFFSET(0xA34F970)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SURFACENAME_OFFSET UNITYSDK_OFFSET(0xA34F9B0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_TAGLIST_OFFSET UNITYSDK_OFFSET(0xA34FF10)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_UNLOCKCONDITION_OFFSET UNITYSDK_OFFSET(0xA34FFB0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA34F910)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SET_ISFIRSTTIMEUNLOCK_OFFSET UNITYSDK_OFFSET(0xA3500E0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA34F9A0)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SET_SURFACEID_OFFSET UNITYSDK_OFFSET(0xA34F980)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SYNCUNLOCKEDSTATUS_OFFSET UNITYSDK_OFFSET(0xA34DB00)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_UPDATENEWSTATUS_OFFSET UNITYSDK_OFFSET(0xA34F830)
+#define RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA34E660)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueNousDiceSurfaceDataItem_TypeDefinitionIndex = 54474;
+
+	class RogueNousDiceSurfaceDataItem : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _BranchLimitations; // 0x10
+		::System::Boolean _IsUnlocked_k__BackingField; // 0x18
+		::System::Boolean _IsFirstTimeUnlock_k__BackingField; // 0x19
+		::System::UInt32 _SurfaceID_k__BackingField; // 0x1C
+
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void SyncUnlockedStatus(::System::Boolean isUnlocked)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SYNCUNLOCKEDSTATUS_OFFSET))(this, isUnlocked);
+		}
+
+		::System::Void UpdateNewStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_UPDATENEWSTATUS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueNousDiceSurfaceRow* get__Row()
+		{
+			return ((::RPG::GameCore::RogueNousDiceSurfaceRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET__ROW_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SurfaceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SURFACEID_OFFSET))(this);
+		}
+
+		::System::Void set_SurfaceID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SET_SURFACEID_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SET_ISUNLOCKED_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_SurfaceName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SURFACENAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SurfaceDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SURFACEDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_DescParam()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_DESCPARAM_OFFSET))(this);
+		}
+
+		::System::String* get_Icon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ICON_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Rarity()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_RARITY_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_SlotList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SLOTLIST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DiceActiveStage()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_DICEACTIVESTAGE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Sort()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_SORT_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ExtraDesc()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_EXTRADESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::RogueNousSurfaceTag>* get_TagList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::RogueNousSurfaceTag>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_TAGLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_UnlockCondition()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_UNLOCKCONDITION_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFirstTimeUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ISFIRSTTIMEUNLOCK_OFFSET))(this);
+		}
+
+		::System::Void set_IsFirstTimeUnlock(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_SET_ISFIRSTTIMEUNLOCK_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ItemID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_ITEMID_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* get_BranchLimitations()
+		{
+			return ((::System::Collections::Generic::HashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESURFACEDATAITEM_GET_BRANCHLIMITATIONS_OFFSET))(this);
+		}
+	};
+}

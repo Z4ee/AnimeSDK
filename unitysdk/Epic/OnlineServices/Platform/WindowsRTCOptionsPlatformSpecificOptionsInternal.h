@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace Epic::OnlineServices::Platform { class WindowsRTCOptionsPlatformSpecificOptions; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5C0A0)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_GET_XAUDIO29DLLPATH_OFFSET UNITYSDK_OFFSET(0x5BD50)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5BF80)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5BEB0)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_SET_XAUDIO29DLLPATH_OFFSET UNITYSDK_OFFSET(0x5BE00)
+
+namespace Epic::OnlineServices::Platform
+{
+	inline static constexpr unsigned int WindowsRTCOptionsPlatformSpecificOptionsInternal_TypeDefinitionIndex = 36755;
+
+	struct alignas(8) WindowsRTCOptionsPlatformSpecificOptionsInternal
+	{
+		::System::Int32 m_ApiVersion; // 0x10
+		::System::IntPtr m_XAudio29DllPath; // 0x18
+
+		::System::String* get_XAudio29DllPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_GET_XAUDIO29DLLPATH_OFFSET))(this);
+		}
+
+		::System::Void set_XAudio29DllPath(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_SET_XAUDIO29DLLPATH_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONSPLATFORMSPECIFICOPTIONSINTERNAL_DISPOSE_OFFSET))(this);
+		}
+	};
+}

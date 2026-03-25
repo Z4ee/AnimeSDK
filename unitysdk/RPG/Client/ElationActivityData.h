@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWDAILYGOTOREDDOT_OFFSET UNITYSDK_OFFSET(0x9590860)
+#define RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET UNITYSDK_OFFSET(0x9590AC0)
+#define RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x9590980)
+#define RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9590790)
+#define RPG_CLIENT_ELATIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9590780)
+#define RPG_CLIENT_ELATIONACTIVITYDATA__HASNEWSTAGE_OFFSET UNITYSDK_OFFSET(0x9590A20)
+#define RPG_CLIENT_ELATIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET UNITYSDK_OFFSET(0x9590BF0)
+#define RPG_CLIENT_ELATIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x9590B80)
+#define RPG_CLIENT_ELATIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9590B10)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ElationActivityData_TypeDefinitionIndex = 49986;
+
+	class ElationActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowDailyGotoRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWDAILYGOTOREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowMappingInfoNewContentRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _HasNewStage()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA__HASNEWSTAGE_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowMappingInfoNewContentRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWMAPPINGINFONEWCONTENTREDDOT_OFFSET))(this);
+		}
+	};
+}

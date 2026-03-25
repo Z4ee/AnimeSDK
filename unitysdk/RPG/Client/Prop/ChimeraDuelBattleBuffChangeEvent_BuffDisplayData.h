@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_PROP_CHIMERADUELBATTLEBUFFCHANGEEVENT_BUFFDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA03EBD0)
+
+namespace RPG::Client::Prop
+{
+	inline static constexpr unsigned int ChimeraDuelBattleBuffChangeEvent_BuffDisplayData_TypeDefinitionIndex = 63721;
+
+	class ChimeraDuelBattleBuffChangeEvent_BuffDisplayData : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::Int32>* DescParams; // 0x10
+		::System::String* UniqueName; // 0x18
+		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Desc; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELBATTLEBUFFCHANGEEVENT_BUFFDISPLAYDATA__CTOR_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_CDEA1ED4A67DB3B8.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
+
+class Class_1_4382DA7CF2A7A8AA;
+
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_17967D01F9938624_OFFSET UNITYSDK_OFFSET(0x89E91B0)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_1C409C2CC83887DC_OFFSET UNITYSDK_OFFSET(0x89E92D0)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_1E01B0A97CB45672_1_OFFSET UNITYSDK_OFFSET(0x89E98C0)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_1E01B0A97CB45672_OFFSET UNITYSDK_OFFSET(0x89E9850)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_70603E2AE56EBD6B_OFFSET UNITYSDK_OFFSET(0x89E8C70)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_A5399A0D57CB1550_OFFSET UNITYSDK_OFFSET(0x89E97D0)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_CC11D045CAA14F48_OFFSET UNITYSDK_OFFSET(0x89E9050)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_E1C781B015372A64_OFFSET UNITYSDK_OFFSET(0x89E9840)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_E2374908D4C1015C_OFFSET UNITYSDK_OFFSET(0x89E8D80)
+#define CLASS_3_DBFA4E4D029EABDF_METHOD_3_E94C1B36431016E2_OFFSET UNITYSDK_OFFSET(0x89E9930)
+#define CLASS_3_DBFA4E4D029EABDF__CTOR_OFFSET UNITYSDK_OFFSET(0x89E9820)
+
+inline static constexpr unsigned int Class_3_DBFA4E4D029EABDF_TypeDefinitionIndex = 62715;
+
+class Class_3_DBFA4E4D029EABDF : public ::Class_2_CDEA1ED4A67DB3B8
+{
+public:
+	::System::Single Field_3_0; // 0x30
+	::System::Single Field_3_1; // 0x34
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_70603E2AE56EBD6B(::Class_1_4382DA7CF2A7A8AA* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4382DA7CF2A7A8AA*))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_70603E2AE56EBD6B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_E2374908D4C1015C(::RPG::Client::LittleGame::FiveDim::PropMoveState a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_E2374908D4C1015C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_17967D01F9938624(::RPG::Client::LittleGame::FiveDim::PropMoveState a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_17967D01F9938624_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_1C409C2CC83887DC(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_1C409C2CC83887DC_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_3_CC11D045CAA14F48()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_CC11D045CAA14F48_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGame::FiveDim::PropMoveState Method_3_A5399A0D57CB1550()
+	{
+		return ((::RPG::Client::LittleGame::FiveDim::PropMoveState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_A5399A0D57CB1550_OFFSET))(this);
+	}
+
+	::System::Void Method_3_E1C781B015372A64(::Class_1_4382DA7CF2A7A8AA* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4382DA7CF2A7A8AA*))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_E1C781B015372A64_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_1E01B0A97CB45672(::RPG::Client::LittleGame::FiveDim::PropMoveState P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_1E01B0A97CB45672_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_1E01B0A97CB45672_1(::RPG::Client::LittleGame::FiveDim::PropMoveState P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_1E01B0A97CB45672_1_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_E94C1B36431016E2(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_DBFA4E4D029EABDF_METHOD_3_E94C1B36431016E2_OFFSET))(this, P0);
+	}
+};

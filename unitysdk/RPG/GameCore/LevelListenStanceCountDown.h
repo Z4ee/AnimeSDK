@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_CLEAR_OFFSET UNITYSDK_OFFSET(0xA98F2B0)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA98F350)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA98F300)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_INIT_OFFSET UNITYSDK_OFFSET(0xA98F240)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0xA98F3A0)
+#define RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xA98F3B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelListenStanceCountDown_TypeDefinitionIndex = 45680;
+
+	class LevelListenStanceCountDown : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::RPG::GameCore::GameEntity* Source; // 0x18
+		::RPG::GameCore::GameEntity* Target; // 0x20
+		::System::Boolean IsExtraStance; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LevelListenStanceCountDown* Init(::RPG::GameCore::GameEntity* pSource, ::RPG::GameCore::GameEntity* pTarget, ::System::Boolean isExtraStance)
+		{
+			return ((::RPG::GameCore::LevelListenStanceCountDown*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_INIT_OFFSET))(this, pSource, pTarget, isExtraStance);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_CLEAR_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLISTENSTANCECOUNTDOWN___IFIXBASEPROXY_CLEAR_OFFSET))(this);
+		}
+	};
+}

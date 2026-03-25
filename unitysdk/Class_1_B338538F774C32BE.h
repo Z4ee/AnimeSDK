@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateGameMasterTalkRandomContext.h"
+#include "unitysdk/RPG/Client/FateGameMasterTalkUIType.h"
+#include "unitysdk/RPG/GameCore/FateMasterTalkSituation.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_B338538F774C32BE_METHOD_1_53399E8486F503A6_OFFSET UNITYSDK_OFFSET(0x10A9CB10)
+#define CLASS_1_B338538F774C32BE_METHOD_1_60ABAFBC9F3F9DAE_OFFSET UNITYSDK_OFFSET(0x10A9CE20)
+#define CLASS_1_B338538F774C32BE_METHOD_1_7C4B2399C2D09E2A_OFFSET UNITYSDK_OFFSET(0x10A9CD10)
+#define CLASS_1_B338538F774C32BE_METHOD_1_CDF4867E50613ACA_OFFSET UNITYSDK_OFFSET(0x10A9CDB0)
+
+inline static constexpr unsigned int Class_1_B338538F774C32BE_TypeDefinitionIndex = 52026;
+
+class Class_1_B338538F774C32BE : public ::System::Object
+{
+public:
+	static ::System::Boolean Method_1_53399E8486F503A6(::RPG::GameCore::FateMasterTalkSituation a1, ::RPG::Client::FateGameMasterTalkRandomContext a2)
+	{
+		return ((::System::Boolean(*)(::RPG::GameCore::FateMasterTalkSituation, ::RPG::Client::FateGameMasterTalkRandomContext))((::PBYTE)hIl2Cpp + CLASS_1_B338538F774C32BE_METHOD_1_53399E8486F503A6_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_1_7C4B2399C2D09E2A(::RPG::GameCore::FateMasterTalkSituation a1, ::RPG::Client::FateGameMasterTalkUIType a2)
+	{
+		return ((::System::Boolean(*)(::RPG::GameCore::FateMasterTalkSituation, ::RPG::Client::FateGameMasterTalkUIType))((::PBYTE)hIl2Cpp + CLASS_1_B338538F774C32BE_METHOD_1_7C4B2399C2D09E2A_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_1_CDF4867E50613ACA(::RPG::GameCore::FateMasterTalkSituation a1, ::System::Boolean a2)
+	{
+		return ((::System::Boolean(*)(::RPG::GameCore::FateMasterTalkSituation, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B338538F774C32BE_METHOD_1_CDF4867E50613ACA_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_1_60ABAFBC9F3F9DAE(::RPG::GameCore::FateMasterTalkSituation a1, ::System::Boolean a2, ::System::Boolean a3)
+	{
+		return ((::System::Boolean(*)(::RPG::GameCore::FateMasterTalkSituation, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B338538F774C32BE_METHOD_1_60ABAFBC9F3F9DAE_OFFSET))(a1, a2, a3);
+	}
+};

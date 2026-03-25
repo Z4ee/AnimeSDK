@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ENERGYBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1719BF60)
+#define RPG_GAMECORE_ENERGYBARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1719C580)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int EnergyBarConfigRow_TypeDefinitionIndex = 12072;
+
+	class EnergyBarConfigRow : public ::System::Object
+	{
+	public:
+		::System::UInt32 EnergyBarID; // 0x10
+		::RPG::Client::TextID EnergyBarDesc; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENERGYBARCONFIGROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EnergyBarConfigRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnergyBarConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENERGYBARCONFIGROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

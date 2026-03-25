@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ConsoleKeyInfo.h"
+
+namespace System
+{
+	inline static constexpr unsigned int IConsoleDriver_TypeDefinitionIndex = 399;
+
+	class IConsoleDriver
+	{
+	public:
+	};
+}

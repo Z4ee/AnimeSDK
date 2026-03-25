@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int NotificationDefine_LoginFlowClientErrorCode_TypeDefinitionIndex = 6602;
+
+	enum class NotificationDefine_LoginFlowClientErrorCode : ::System::Int32
+	{
+		BILIBILI_INIT_FAILED = -1000,
+		ACCOUNT_PLAT_DLL_NOT_FOUND = -1001,
+		TAPTAP_HTML_RESOURCE_NOT_FOUND = -1002,
+		GEETEST_HTML_RESOURCE_NOT_FOUND = -1003,
+		LOAD_CURRENT_ENV_CLIENT_CONFIG_FAILED = -1004,
+		LOAD_CURRENT_ENV_SERVER_CONFIG_FAILED = -1005,
+		LOAD_TAPTAP_WEBPAGE_FAILED = -1006,
+		LOAD_GEETEST_WEBPAGE_FAILED = -1007,
+		LOAD_SECOND_REAL_NAME_WEBPAGE_FAILED = -1008,
+		LOAD_RISK_WEBPAGE_FAILED = -1009,
+		GEETEST_OPERATE_FAILED = -1010,
+		RECEIVED_RISK_WEBPAGE_ERROR = -1011,
+		RECEIVED_SECOND_REALNAME_ERROR = -1012,
+	};
+}

@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define SPINE_ATTACHMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18398DE0)
+#define SPINE_ATTACHMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18398E60)
+#define SPINE_ATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18398E40)
+#define SPINE_ATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18398DF0)
+
+namespace Spine
+{
+	inline static constexpr unsigned int Attachment_TypeDefinitionIndex = 30692;
+
+	class Attachment : public ::System::Object
+	{
+	public:
+		::System::String* _Name_k__BackingField; // 0x10
+
+		::System::Void _ctor(::System::String* name)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT__CTOR_OFFSET))(this, name);
+		}
+
+		::System::Void _ctor_1(::Spine::Attachment* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT__CTOR_1_OFFSET))(this, other);
+		}
+
+		::System::String* get_Name()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT_TOSTRING_OFFSET))(this);
+		}
+	};
+}

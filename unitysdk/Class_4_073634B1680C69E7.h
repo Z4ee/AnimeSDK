@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceBaseNtfMessage_1.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceSyncReason.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/LevelStateType.h"
+
+class Class_1_0E9EED74A778662A_2;
+class Class_1_1DC52A0BEDF50632_2;
+class Class_1_735612C94F558EAE_27;
+class Class_1_8AC8221DC4178532_1;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define CLASS_4_073634B1680C69E7_METHOD_4_1E33B4930A393443_OFFSET UNITYSDK_OFFSET(0x874DB90)
+#define CLASS_4_073634B1680C69E7_METHOD_4_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x874D540)
+#define CLASS_4_073634B1680C69E7_METHOD_4_4E0CCFC7E8FEF732_OFFSET UNITYSDK_OFFSET(0x874D5F0)
+#define CLASS_4_073634B1680C69E7_METHOD_4_AA2D3E889C8A52CA_1_OFFSET UNITYSDK_OFFSET(0x874DAD0)
+#define CLASS_4_073634B1680C69E7_METHOD_4_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x874DA70)
+#define CLASS_4_073634B1680C69E7_METHOD_4_B42A26BAB4EABC9F_OFFSET UNITYSDK_OFFSET(0x874D640)
+#define CLASS_4_073634B1680C69E7_METHOD_4_BF4D9E2C96B4A31E_OFFSET UNITYSDK_OFFSET(0x874D5A0)
+#define CLASS_4_073634B1680C69E7_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x874DCB0)
+#define CLASS_4_073634B1680C69E7_METHOD_4_CD4A10985A35B369_OFFSET UNITYSDK_OFFSET(0x874D550)
+#define CLASS_4_073634B1680C69E7_METHOD_4_D2EDCCCF37B5B6E5_OFFSET UNITYSDK_OFFSET(0x874D530)
+#define CLASS_4_073634B1680C69E7_METHOD_4_E47658D7D9D82A19_OFFSET UNITYSDK_OFFSET(0x874D920)
+#define CLASS_4_073634B1680C69E7_METHOD_4_F5D02CB63424FC5A_OFFSET UNITYSDK_OFFSET(0x874DB30)
+#define CLASS_4_073634B1680C69E7__CTOR_OFFSET UNITYSDK_OFFSET(0x874DC70)
+
+inline static constexpr unsigned int Class_4_073634B1680C69E7_TypeDefinitionIndex = 63525;
+
+class Class_4_073634B1680C69E7 : public ::RPG::Client::LittleGame::CakeRace::CakeRaceBaseNtfMessage_1<::Class_1_8AC8221DC4178532_1*>
+{
+public:
+	::System::Void _ctor(::Class_1_0E9EED74A778662A_2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_0E9EED74A778662A_2*))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId Method_4_D2EDCCCF37B5B6E5()
+	{
+		return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_D2EDCCCF37B5B6E5_OFFSET))(this);
+	}
+
+	::Class_1_8AC8221DC4178532_1* Method_4_24748FC20F375725()
+	{
+		return ((::Class_1_8AC8221DC4178532_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_24748FC20F375725_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceSyncReason Method_4_CD4A10985A35B369()
+	{
+		return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceSyncReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_CD4A10985A35B369_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType Method_4_BF4D9E2C96B4A31E()
+	{
+		return ((::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_BF4D9E2C96B4A31E_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IReadOnlyList_1<::Class_1_1DC52A0BEDF50632_2*>* Method_4_4E0CCFC7E8FEF732()
+	{
+		return ((::System::Collections::Generic::IReadOnlyList_1<::Class_1_1DC52A0BEDF50632_2*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_4E0CCFC7E8FEF732_OFFSET))(this);
+	}
+
+	::Class_1_1DC52A0BEDF50632_2* Method_4_B42A26BAB4EABC9F()
+	{
+		return ((::Class_1_1DC52A0BEDF50632_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_B42A26BAB4EABC9F_OFFSET))(this);
+	}
+
+	::System::Int32 Method_4_E47658D7D9D82A19()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_E47658D7D9D82A19_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_4_AA2D3E889C8A52CA()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_AA2D3E889C8A52CA_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_4_AA2D3E889C8A52CA_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_AA2D3E889C8A52CA_1_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_27*>* Method_4_F5D02CB63424FC5A()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_27*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_F5D02CB63424FC5A_OFFSET))(this);
+	}
+
+	static ::Class_4_073634B1680C69E7* Method_4_1E33B4930A393443(::Class_1_0E9EED74A778662A_2* a1)
+	{
+		return ((::Class_4_073634B1680C69E7*(*)(::Class_1_0E9EED74A778662A_2*))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_1E33B4930A393443_OFFSET))(a1);
+	}
+
+	::System::Void Method_4_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_073634B1680C69E7_METHOD_4_CA373AA1C7054598_OFFSET))(this);
+	}
+};

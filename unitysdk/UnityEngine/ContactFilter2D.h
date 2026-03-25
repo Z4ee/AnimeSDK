@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
+
+#define UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A9AA90)
+#define UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_OFFSET UNITYSDK_OFFSET(0x2124C30)
+#define UNITYENGINE_CONTACTFILTER2D_CREATELEGACYFILTER_OFFSET UNITYSDK_OFFSET(0x18A9AAD0)
+#define UNITYENGINE_CONTACTFILTER2D_NOFILTER_OFFSET UNITYSDK_OFFSET(0x2124BE0)
+#define UNITYENGINE_CONTACTFILTER2D_SETDEPTH_OFFSET UNITYSDK_OFFSET(0x2124C50)
+#define UNITYENGINE_CONTACTFILTER2D_SETLAYERMASK_OFFSET UNITYSDK_OFFSET(0x2124C40)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int ContactFilter2D_TypeDefinitionIndex = 5186;
+
+	struct alignas(4) ContactFilter2D
+	{
+		::System::Boolean useTriggers; // 0x10
+		::System::Boolean useLayerMask; // 0x11
+		::System::Boolean useDepth; // 0x12
+		::System::Boolean useOutsideDepth; // 0x13
+		::System::Boolean useNormalAngle; // 0x14
+		::System::Boolean useOutsideNormalAngle; // 0x15
+		::UnityEngine::LayerMask layerMask; // 0x18
+		::System::Single minDepth; // 0x1C
+		::System::Single maxDepth; // 0x20
+		::System::Single minNormalAngle; // 0x24
+		::System::Single maxNormalAngle; // 0x28
+
+		::UnityEngine::ContactFilter2D NoFilter()
+		{
+			return ((::UnityEngine::ContactFilter2D(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_NOFILTER_OFFSET))(this);
+		}
+
+		::System::Void CheckConsistency()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_OFFSET))(this);
+		}
+
+		::System::Void SetLayerMask(::UnityEngine::LayerMask layerMask)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_SETLAYERMASK_OFFSET))(this, layerMask);
+		}
+
+		::System::Void SetDepth(::System::Single minDepth, ::System::Single maxDepth)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_SETDEPTH_OFFSET))(this, minDepth, maxDepth);
+		}
+
+		static ::UnityEngine::ContactFilter2D CreateLegacyFilter(::System::Int32 layerMask, ::System::Single minDepth, ::System::Single maxDepth)
+		{
+			return ((::UnityEngine::ContactFilter2D(*)(::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CREATELEGACYFILTER_OFFSET))(layerMask, minDepth, maxDepth);
+		}
+
+		static ::System::Void CheckConsistency_Injected(::UnityEngine::ContactFilter2D& _unity_self)
+		{
+			return ((::System::Void(*)(::UnityEngine::ContactFilter2D&))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_INJECTED_OFFSET))(_unity_self);
+		}
+	};
+}

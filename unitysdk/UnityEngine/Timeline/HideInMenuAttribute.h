@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+
+#define UNITYENGINE_TIMELINE_HIDEINMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189AC8F0)
+
+namespace UnityEngine::Timeline
+{
+	inline static constexpr unsigned int HideInMenuAttribute_TypeDefinitionIndex = 29907;
+
+	class HideInMenuAttribute : public ::System::Attribute
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HIDEINMENUATTRIBUTE__CTOR_OFFSET))(this);
+		}
+	};
+}

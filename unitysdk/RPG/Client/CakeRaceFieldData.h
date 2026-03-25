@@ -1,0 +1,221 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_3A3D56D4D49D35CE;
+class Class_1_A88C3AAF0DD46F4C;
+namespace RPG::GameCore { class CakeRaceFieldRow; }
+namespace RPG::GameCore { class CakeRaceFieldScoreRow; }
+
+#define RPG_CLIENT_CAKERACEFIELDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9235390)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GETCAKERACEFIELDROW_OFFSET UNITYSDK_OFFSET(0x9235550)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_BETBASESCORE_OFFSET UNITYSDK_OFFSET(0x9235C70)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDBATTLEITEMLIST_OFFSET UNITYSDK_OFFSET(0x9235670)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDBETCOST_OFFSET UNITYSDK_OFFSET(0x92359F0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDCATNUM_OFFSET UNITYSDK_OFFSET(0x9235A90)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDCATWEIGHT_OFFSET UNITYSDK_OFFSET(0x9235A70)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDCOST_OFFSET UNITYSDK_OFFSET(0x9235610)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDDESC_OFFSET UNITYSDK_OFFSET(0x92355E0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDEFFECTLIST_OFFSET UNITYSDK_OFFSET(0x92356D0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDEFFECTWEIGHT_OFFSET UNITYSDK_OFFSET(0x92356B0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDID_OFFSET UNITYSDK_OFFSET(0x9235D20)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDNAME_OFFSET UNITYSDK_OFFSET(0x92355B0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSCORERATE_OFFSET UNITYSDK_OFFSET(0x9235630)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSECTIONNUM_OFFSET UNITYSDK_OFFSET(0x9235A50)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSECTIONWEIGHT_OFFSET UNITYSDK_OFFSET(0x9235A30)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSPECIALBETCOST_OFFSET UNITYSDK_OFFSET(0x9235A10)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDUNLOCKCONDITIONLIST_OFFSET UNITYSDK_OFFSET(0x92359A0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDUNLOCKDESC_OFFSET UNITYSDK_OFFSET(0x92359C0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x9235D00)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_ISMULTIPLAYSUPPORTED_OFFSET UNITYSDK_OFFSET(0x9235690)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9235CE0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_REWARDID_OFFSET UNITYSDK_OFFSET(0x9235650)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_SINGLESCOREMAXLIMIT_OFFSET UNITYSDK_OFFSET(0x9235B90)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_SINGLESCOREMINLIMIT_OFFSET UNITYSDK_OFFSET(0x9235C00)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_TOTALSCOREMAXLIMIT_OFFSET UNITYSDK_OFFSET(0x9235AB0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET_TOTALSCOREMINLIMIT_OFFSET UNITYSDK_OFFSET(0x9235B20)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9235460)
+#define RPG_CLIENT_CAKERACEFIELDDATA_GET__SCOREROW_OFFSET UNITYSDK_OFFSET(0x92354F0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x9235D10)
+#define RPG_CLIENT_CAKERACEFIELDDATA_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9235CF0)
+#define RPG_CLIENT_CAKERACEFIELDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9235D30)
+#define RPG_CLIENT_CAKERACEFIELDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9235450)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CakeRaceFieldData_TypeDefinitionIndex = 51131;
+
+	class CakeRaceFieldData : public ::System::Object
+	{
+	public:
+		::System::Boolean _IsUnlocked_k__BackingField; // 0x10
+		::System::Boolean _IsFinished_k__BackingField; // 0x11
+		::System::UInt32 _FieldID_k__BackingField; // 0x14
+
+		::System::Void _ctor(::System::UInt32 fieldID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA__CTOR_OFFSET))(this, fieldID);
+		}
+
+		static ::RPG::Client::CakeRaceFieldData* Create(::System::UInt32 fieldID)
+		{
+			return ((::RPG::Client::CakeRaceFieldData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_CREATE_OFFSET))(fieldID);
+		}
+
+		static ::RPG::GameCore::CakeRaceFieldRow* GetCakeRaceFieldRow(::System::UInt32 fieldID)
+		{
+			return ((::RPG::GameCore::CakeRaceFieldRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GETCAKERACEFIELDROW_OFFSET))(fieldID);
+		}
+
+		::RPG::Client::TextID get_FieldName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_FieldDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDDESC_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FieldCost()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDCOST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FieldScoreRate()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSCORERATE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RewardID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_REWARDID_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_FieldBattleItemList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDBATTLEITEMLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsMultiPlaySupported()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_ISMULTIPLAYSUPPORTED_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* get_FieldEffectWeight()
+		{
+			return ((::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDEFFECTWEIGHT_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_FieldEffectList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDEFFECTLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_3A3D56D4D49D35CE*>* get_FieldUnlockConditionList()
+		{
+			return ((::Il2CppArray<::Class_1_3A3D56D4D49D35CE*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDUNLOCKCONDITIONLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_FieldUnlockDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDUNLOCKDESC_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FieldBetCost()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDBETCOST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FieldSpecialBetCost()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSPECIALBETCOST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* get_FieldSectionWeight()
+		{
+			return ((::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSECTIONWEIGHT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FieldSectionNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDSECTIONNUM_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* get_FieldCatWeight()
+		{
+			return ((::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDCATWEIGHT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FieldCatNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDCATNUM_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TotalScoreMaxLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_TOTALSCOREMAXLIMIT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TotalScoreMinLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_TOTALSCOREMINLIMIT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SingleScoreMaxLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_SINGLESCOREMAXLIMIT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SingleScoreMinLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_SINGLESCOREMINLIMIT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BetBaseScore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_BETBASESCORE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_SET_ISUNLOCKED_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_ISFINISHED_OFFSET))(this);
+		}
+
+		::System::Void set_IsFinished(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_SET_ISFINISHED_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_FieldID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET_FIELDID_OFFSET))(this);
+		}
+
+		::System::Void Sync(::System::Boolean isUnlocked, ::System::Boolean isFinished, ::System::Boolean isInited)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_SYNC_OFFSET))(this, isUnlocked, isFinished, isInited);
+		}
+
+		::RPG::GameCore::CakeRaceFieldRow* get__Row()
+		{
+			return ((::RPG::GameCore::CakeRaceFieldRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET__ROW_OFFSET))(this);
+		}
+
+		::RPG::GameCore::CakeRaceFieldScoreRow* get__ScoreRow()
+		{
+			return ((::RPG::GameCore::CakeRaceFieldScoreRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDDATA_GET__SCOREROW_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,203 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_64.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_6BD0193F0940D760;
+class Class_1_A21ACB7E0A72D3E4_5;
+namespace RPG::GameCore { class ItemConfig; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_CREATEDATA_OFFSET UNITYSDK_OFFSET(0xA3CA080)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_COSTITEM_OFFSET UNITYSDK_OFFSET(0xA3CB450)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xA3CB4B0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xA3CB410)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_HASSTORY_OFFSET UNITYSDK_OFFSET(0xA3CB560)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA3CB490)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xA3CB3D0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0xA3CB640)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA3CB3F0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA3CB470)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_PREID_OFFSET UNITYSDK_OFFSET(0xA3CB430)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xA3CB620)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_STORYJSONPATH_OFFSET UNITYSDK_OFFSET(0xA3CB5E0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_STORYTITLE_OFFSET UNITYSDK_OFFSET(0xA3CB5C0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xA3CB600)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_COSTITEM_OFFSET UNITYSDK_OFFSET(0xA3CB460)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xA3CB420)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA3CB4A0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xA3CB3E0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA3CB400)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA3CB480)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_PREID_OFFSET UNITYSDK_OFFSET(0xA3CB440)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xA3CB630)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_STORYJSONPATH_OFFSET UNITYSDK_OFFSET(0xA3CB5F0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_STORYTITLE_OFFSET UNITYSDK_OFFSET(0xA3CB5D0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xA3CB610)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xA3CAB20)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA3CB350)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournPersonaTalentNodeData_TypeDefinitionIndex = 55269;
+
+	class RogueTournPersonaTalentNodeData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::ItemConfig* _CostItem_k__BackingField; // 0x10
+		::System::String* _IconPath_k__BackingField; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParams; // 0x20
+		::System::String* _StoryJsonPath_k__BackingField; // 0x28
+		::RPG::Client::TextID _StoryTitle_k__BackingField; // 0x30
+		::RPG::Client::TextID _UnlockHint_k__BackingField; // 0x40
+		::System::UInt32 _Level_k__BackingField; // 0x50
+		::Enum_3_0A3761FE34514D6C_64 _Status_k__BackingField; // 0x54
+		::System::UInt32 _ID_k__BackingField; // 0x58
+		::RPG::Client::TextID _Name_k__BackingField; // 0x60
+		::System::UInt32 _GroupID_k__BackingField; // 0x70
+		::System::UInt32 _PreID_k__BackingField; // 0x74
+		::RPG::Client::TextID _DescTextID; // 0x78
+
+		::System::Void _ctor(::Class_1_6BD0193F0940D760* row)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_6BD0193F0940D760*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA__CTOR_OFFSET))(this, row);
+		}
+
+		static ::RPG::Client::RogueTournPersonaTalentNodeData* CreateData(::Class_1_6BD0193F0940D760* row)
+		{
+			return ((::RPG::Client::RogueTournPersonaTalentNodeData*(*)(::Class_1_6BD0193F0940D760*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_CREATEDATA_OFFSET))(row);
+		}
+
+		::System::Void Sync(::Class_1_A21ACB7E0A72D3E4_5* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A21ACB7E0A72D3E4_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SYNC_OFFSET))(this, proto);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_ID_OFFSET))(this);
+		}
+
+		::System::Void set_ID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_ID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_LEVEL_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_GroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_GROUPID_OFFSET))(this);
+		}
+
+		::System::Void set_GroupID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_GROUPID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_PreID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_PREID_OFFSET))(this);
+		}
+
+		::System::Void set_PreID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_PREID_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::ItemConfig* get_CostItem()
+		{
+			return ((::RPG::GameCore::ItemConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_COSTITEM_OFFSET))(this);
+		}
+
+		::System::Void set_CostItem(::RPG::GameCore::ItemConfig* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_COSTITEM_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_NAME_OFFSET))(this, value);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_ICONPATH_OFFSET))(this, value);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_DESC_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasStory()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_HASSTORY_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StoryTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_STORYTITLE_OFFSET))(this);
+		}
+
+		::System::Void set_StoryTitle(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_STORYTITLE_OFFSET))(this, value);
+		}
+
+		::System::String* get_StoryJsonPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_STORYJSONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_StoryJsonPath(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_STORYJSONPATH_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_UnlockHint()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_UNLOCKHINT_OFFSET))(this);
+		}
+
+		::System::Void set_UnlockHint(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_UNLOCKHINT_OFFSET))(this, value);
+		}
+
+		::Enum_3_0A3761FE34514D6C_64 get_Status()
+		{
+			return ((::Enum_3_0A3761FE34514D6C_64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_STATUS_OFFSET))(this);
+		}
+
+		::System::Void set_Status(::Enum_3_0A3761FE34514D6C_64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_64))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_SET_STATUS_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsEnabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONATALENTNODEDATA_GET_ISENABLED_OFFSET))(this);
+		}
+	};
+}

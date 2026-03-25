@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
+namespace System { class Action; }
+
+#define CLASS_1_26FC96B4784846EC_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE481740)
+#define CLASS_1_26FC96B4784846EC_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xE4816D0)
+#define CLASS_1_26FC96B4784846EC_METHOD_1_CB74603E77CF9AD9_OFFSET UNITYSDK_OFFSET(0xE480B00)
+#define CLASS_1_26FC96B4784846EC_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE481750)
+#define CLASS_1_26FC96B4784846EC__CTOR_OFFSET UNITYSDK_OFFSET(0xE480AE0)
+
+inline static constexpr unsigned int Class_1_26FC96B4784846EC_TypeDefinitionIndex = 63889;
+
+class Class_1_26FC96B4784846EC : public ::System::Object
+{
+public:
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_3; // 0x10
+	::System::Action* Field_1_4; // 0x18
+	::System::Single Field_1_1; // 0x20
+	::System::Int32 Field_1_5; // 0x24
+	::System::Single Field_1_2; // 0x28
+	::System::Boolean _IsFinished_k__BackingField; // 0x2C
+	::System::Int32 Field_1_6; // 0x30
+
+	::System::Void _ctor(::System::Single a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4, ::System::Action* a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Int32, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_26FC96B4784846EC__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::System::Void Method_1_CB74603E77CF9AD9(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_26FC96B4784846EC_METHOD_1_CB74603E77CF9AD9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26FC96B4784846EC_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Boolean get_IsFinished()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26FC96B4784846EC_GET_ISFINISHED_OFFSET))(this);
+	}
+
+	::System::Void set_IsFinished(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_26FC96B4784846EC_SET_ISFINISHED_OFFSET))(this, value);
+	}
+};

@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace HoudiniEngineUnity
+{
+	inline static constexpr unsigned int HAPI_EnvIntType_TypeDefinitionIndex = 37700;
+
+	enum class HAPI_EnvIntType : ::System::Int32
+	{
+		HAPI_ENVINT_INVALID = -1,
+		HAPI_ENVINT_VERSION_HOUDINI_MAJOR = 100,
+		HAPI_ENVINT_VERSION_HOUDINI_MINOR = 110,
+		HAPI_ENVINT_VERSION_HOUDINI_BUILD = 120,
+		HAPI_ENVINT_VERSION_HOUDINI_PATCH = 130,
+		HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MAJOR = 200,
+		HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR = 210,
+		HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API = 220,
+		HAPI_ENVINT_MAX = 221,
+	};
+}

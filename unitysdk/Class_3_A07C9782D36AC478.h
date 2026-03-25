@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class SetTimeRewindEntityDisableControl; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_A07C9782D36AC478_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x111E1720)
+#define CLASS_3_A07C9782D36AC478__CTOR_OFFSET UNITYSDK_OFFSET(0x111E16F0)
+
+inline static constexpr unsigned int Class_3_A07C9782D36AC478_TypeDefinitionIndex = 43228;
+
+class Class_3_A07C9782D36AC478 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTimeRewindEntityDisableControl*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTimeRewindEntityDisableControl* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetTimeRewindEntityDisableControl*))((::PBYTE)hIl2Cpp + CLASS_3_A07C9782D36AC478__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A07C9782D36AC478_ONTASKBEGIN_OFFSET))(this);
+	}
+};

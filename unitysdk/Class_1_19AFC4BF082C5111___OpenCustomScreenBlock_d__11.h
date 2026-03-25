@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_19AFC4BF082C5111;
+namespace RPG::Client { class FiveDimModule; }
+
+#define CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1186F540)
+#define CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1186F650)
+#define CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1186F6B0)
+#define CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1186F660)
+#define CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1186F530)
+#define CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11__CTOR_OFFSET UNITYSDK_OFFSET(0x1186F510)
+
+inline static constexpr unsigned int Class_1_19AFC4BF082C5111___OpenCustomScreenBlock_d__11_TypeDefinitionIndex = 49038;
+
+class Class_1_19AFC4BF082C5111___OpenCustomScreenBlock_d__11 : public ::System::Object
+{
+public:
+	::System::Object* __2__current; // 0x10
+	::RPG::Client::FiveDimModule* _fiveDimModule_5__2; // 0x18
+	::Class_1_19AFC4BF082C5111* __4__this; // 0x20
+	::System::Int32 __1__state; // 0x28
+
+	::System::Void _ctor(::System::Int32 __1__state)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11__CTOR_OFFSET))(this, __1__state);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_19AFC4BF082C5111___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

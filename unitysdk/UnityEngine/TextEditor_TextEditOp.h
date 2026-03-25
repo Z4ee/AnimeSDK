@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int TextEditor_TextEditOp_TypeDefinitionIndex = 5140;
+
+	enum class TextEditor_TextEditOp : ::System::Int32
+	{
+		MoveLeft = 0,
+		MoveRight = 1,
+		MoveUp = 2,
+		MoveDown = 3,
+		MoveLineStart = 4,
+		MoveLineEnd = 5,
+		MoveTextStart = 6,
+		MoveTextEnd = 7,
+		MovePageUp = 8,
+		MovePageDown = 9,
+		MoveGraphicalLineStart = 10,
+		MoveGraphicalLineEnd = 11,
+		MoveWordLeft = 12,
+		MoveWordRight = 13,
+		MoveParagraphForward = 14,
+		MoveParagraphBackward = 15,
+		MoveToStartOfNextWord = 16,
+		MoveToEndOfPreviousWord = 17,
+		SelectLeft = 18,
+		SelectRight = 19,
+		SelectUp = 20,
+		SelectDown = 21,
+		SelectTextStart = 22,
+		SelectTextEnd = 23,
+		SelectPageUp = 24,
+		SelectPageDown = 25,
+		ExpandSelectGraphicalLineStart = 26,
+		ExpandSelectGraphicalLineEnd = 27,
+		SelectGraphicalLineStart = 28,
+		SelectGraphicalLineEnd = 29,
+		SelectWordLeft = 30,
+		SelectWordRight = 31,
+		SelectToEndOfPreviousWord = 32,
+		SelectToStartOfNextWord = 33,
+		SelectParagraphBackward = 34,
+		SelectParagraphForward = 35,
+		Delete = 36,
+		Backspace = 37,
+		DeleteWordBack = 38,
+		DeleteWordForward = 39,
+		DeleteLineBack = 40,
+		Cut = 41,
+		Copy = 42,
+		Paste = 43,
+		SelectAll = 44,
+		SelectNone = 45,
+		ScrollStart = 46,
+		ScrollEnd = 47,
+		ScrollPageUp = 48,
+		ScrollPageDown = 49,
+	};
+}

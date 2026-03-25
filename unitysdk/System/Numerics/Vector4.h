@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class IFormatProvider; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define SYSTEM_NUMERICS_VECTOR4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x20FC440)
+#define SYSTEM_NUMERICS_VECTOR4_EQUALS_OFFSET UNITYSDK_OFFSET(0x20FCA20)
+#define SYSTEM_NUMERICS_VECTOR4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20FC940)
+#define SYSTEM_NUMERICS_VECTOR4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x20FCB40)
+#define SYSTEM_NUMERICS_VECTOR4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20FCAB0)
+#define SYSTEM_NUMERICS_VECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x20FCB50)
+
+namespace System::Numerics
+{
+	inline static constexpr unsigned int Vector4_TypeDefinitionIndex = 4878;
+
+	struct alignas(4) Vector4
+	{
+		::System::Single X; // 0x10
+		::System::Single Y; // 0x14
+		::System::Single Z; // 0x18
+		::System::Single W; // 0x1C
+
+		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z, ::System::Single w)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4__CTOR_OFFSET))(this, x, y, z, w);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::System::Object* obj)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_EQUALS_OFFSET))(this, obj);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_TOSTRING_OFFSET))(this);
+		}
+
+		::System::String* ToString_1(::System::String* format, ::System::IFormatProvider* formatProvider)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_TOSTRING_1_OFFSET))(this, format, formatProvider);
+		}
+
+		::System::Boolean Equals_1(::System::Numerics::Vector4 other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Vector4))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR4_EQUALS_1_OFFSET))(this, other);
+		}
+	};
+}

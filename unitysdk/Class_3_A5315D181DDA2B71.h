@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class SetMonsterNameBoardMaxBuffCount; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_A5315D181DDA2B71_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11406A10)
+#define CLASS_3_A5315D181DDA2B71__CTOR_OFFSET UNITYSDK_OFFSET(0x114069E0)
+
+inline static constexpr unsigned int Class_3_A5315D181DDA2B71_TypeDefinitionIndex = 44489;
+
+class Class_3_A5315D181DDA2B71 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMonsterNameBoardMaxBuffCount*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMonsterNameBoardMaxBuffCount* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetMonsterNameBoardMaxBuffCount*))((::PBYTE)hIl2Cpp + CLASS_3_A5315D181DDA2B71__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A5315D181DDA2B71_ONTASKBEGIN_OFFSET))(this);
+	}
+};

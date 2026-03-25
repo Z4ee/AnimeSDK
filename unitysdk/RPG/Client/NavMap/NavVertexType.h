@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::Client::NavMap
+{
+	inline static constexpr unsigned int NavVertexType_TypeDefinitionIndex = 61288;
+
+	enum class NavVertexType : ::System::Int32
+	{
+		Invalid = 0,
+		Normal = 1,
+		FiveDim = 2,
+	};
+}

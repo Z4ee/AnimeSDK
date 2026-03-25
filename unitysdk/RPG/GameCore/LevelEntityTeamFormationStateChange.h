@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA989960)
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA989910)
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_ISFOLLOWER_OFFSET UNITYSDK_OFFSET(0xA9899E0)
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_ISINTEAM_OFFSET UNITYSDK_OFFSET(0xA9899D0)
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_SOURCEENTITY_OFFSET UNITYSDK_OFFSET(0xA9899B0)
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_TEAM_OFFSET UNITYSDK_OFFSET(0xA9899C0)
+#define RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9898F0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelEntityTeamFormationStateChange_TypeDefinitionIndex = 45693;
+
+	class LevelEntityTeamFormationStateChange : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::GameEntity* _Entity; // 0x10
+		::System::Boolean _IsFollower; // 0x18
+		::System::Boolean _IsInTeam; // 0x19
+		::RPG::GameCore::TeamType _Team; // 0x1C
+
+		::System::Void _ctor(::RPG::GameCore::GameEntity* pEntity, ::RPG::GameCore::TeamType team, ::System::Boolean inTeam, ::System::Boolean isFollower)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamType, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE__CTOR_OFFSET))(this, pEntity, team, inTeam, isFollower);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* get_SourceEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_SOURCEENTITY_OFFSET))(this);
+		}
+
+		::RPG::GameCore::TeamType get_Team()
+		{
+			return ((::RPG::GameCore::TeamType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_TEAM_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInTeam()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_ISINTEAM_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFollower()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYTEAMFORMATIONSTATECHANGE_GET_ISFOLLOWER_OFFSET))(this);
+		}
+	};
+}

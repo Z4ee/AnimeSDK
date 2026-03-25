@@ -1,0 +1,177 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Numerics/BigInteger.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_867606D9C6217C6D_2;
+namespace RPG::Client { class PlanetFesMiniGameBingoData; }
+namespace RPG::Client { class PlanetFesModule; }
+namespace System { class String; }
+
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x9FA13E0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_COINITEMID_OFFSET UNITYSDK_OFFSET(0x9FA1E60)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_COINNUM_OFFSET UNITYSDK_OFFSET(0x9FA1A20)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_COINSTRING_OFFSET UNITYSDK_OFFSET(0x9FA1A40)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_CURRENTPOS_OFFSET UNITYSDK_OFFSET(0x9FA19C0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_DIAMONDICON_OFFSET UNITYSDK_OFFSET(0x9FA1D40)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_DIAMONDITEMID_OFFSET UNITYSDK_OFFSET(0x9FA1C80)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_DIAMONDNUM_OFFSET UNITYSDK_OFFSET(0x9FA1A00)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_GOLDICON_OFFSET UNITYSDK_OFFSET(0x9FA1EC0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ISGAMEOVER_OFFSET UNITYSDK_OFFSET(0x9FA1960)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ISMATCH_OFFSET UNITYSDK_OFFSET(0x9FA1980)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_LASTPOS_OFFSET UNITYSDK_OFFSET(0x9FA19A0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ORIGINCOINNUM_OFFSET UNITYSDK_OFFSET(0x9FA1AC0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ORIGINCOINSTRING_OFFSET UNITYSDK_OFFSET(0x9FA1BB0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ORIGINDIAMONDNUM_OFFSET UNITYSDK_OFFSET(0x9FA1C30)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_RATIO_OFFSET UNITYSDK_OFFSET(0x9FA19E0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET__MODULE_OFFSET UNITYSDK_OFFSET(0x9FA1CE0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_COINNUM_OFFSET UNITYSDK_OFFSET(0x9FA1A30)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_CURRENTPOS_OFFSET UNITYSDK_OFFSET(0x9FA19D0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_DIAMONDNUM_OFFSET UNITYSDK_OFFSET(0x9FA1A10)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_ISGAMEOVER_OFFSET UNITYSDK_OFFSET(0x9FA1970)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_ISMATCH_OFFSET UNITYSDK_OFFSET(0x9FA1990)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_LASTPOS_OFFSET UNITYSDK_OFFSET(0x9FA19B0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x9FA19F0)
+#define RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA1950)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PlanetFesMiniGameBingoFlipResult_TypeDefinitionIndex = 54203;
+
+	class PlanetFesMiniGameBingoFlipResult : public ::System::Object
+	{
+	public:
+		::System::Numerics::BigInteger _CoinNum_k__BackingField; // 0x10
+		::System::UInt32 _LastPos_k__BackingField; // 0x20
+		::System::UInt32 _CurrentPos_k__BackingField; // 0x24
+		::System::UInt32 _DiamondNum_k__BackingField; // 0x28
+		::System::Boolean _IsGameOver_k__BackingField; // 0x2C
+		::System::Boolean _IsMatch_k__BackingField; // 0x2D
+		::System::UInt32 _Ratio_k__BackingField; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::PlanetFesMiniGameBingoFlipResult* Create(::RPG::Client::PlanetFesMiniGameBingoData* bingoData, ::Class_1_867606D9C6217C6D_2* rsp, ::System::Boolean isMatch)
+		{
+			return ((::RPG::Client::PlanetFesMiniGameBingoFlipResult*(*)(::RPG::Client::PlanetFesMiniGameBingoData*, ::Class_1_867606D9C6217C6D_2*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_CREATE_OFFSET))(bingoData, rsp, isMatch);
+		}
+
+		::System::Boolean get_IsGameOver()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ISGAMEOVER_OFFSET))(this);
+		}
+
+		::System::Void set_IsGameOver(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_ISGAMEOVER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsMatch()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ISMATCH_OFFSET))(this);
+		}
+
+		::System::Void set_IsMatch(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_ISMATCH_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_LastPos()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_LASTPOS_OFFSET))(this);
+		}
+
+		::System::Void set_LastPos(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_LASTPOS_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_CurrentPos()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_CURRENTPOS_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentPos(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_CURRENTPOS_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Ratio()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_RATIO_OFFSET))(this);
+		}
+
+		::System::Void set_Ratio(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_RATIO_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_DiamondNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_DIAMONDNUM_OFFSET))(this);
+		}
+
+		::System::Void set_DiamondNum(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_DIAMONDNUM_OFFSET))(this, value);
+		}
+
+		::System::Numerics::BigInteger get_CoinNum()
+		{
+			return ((::System::Numerics::BigInteger(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_COINNUM_OFFSET))(this);
+		}
+
+		::System::Void set_CoinNum(::System::Numerics::BigInteger value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_SET_COINNUM_OFFSET))(this, value);
+		}
+
+		::System::String* get_CoinString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_COINSTRING_OFFSET))(this);
+		}
+
+		::System::Numerics::BigInteger get_OriginCoinNum()
+		{
+			return ((::System::Numerics::BigInteger(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ORIGINCOINNUM_OFFSET))(this);
+		}
+
+		::System::String* get_OriginCoinString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ORIGINCOINSTRING_OFFSET))(this);
+		}
+
+		::System::UInt32 get_OriginDiamondNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_ORIGINDIAMONDNUM_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DiamondItemID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_DIAMONDITEMID_OFFSET))(this);
+		}
+
+		::System::String* get_DiamondIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_DIAMONDICON_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CoinItemID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_COINITEMID_OFFSET))(this);
+		}
+
+		::System::String* get_GoldIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET_GOLDICON_OFFSET))(this);
+		}
+
+		::RPG::Client::PlanetFesModule* get__Module()
+		{
+			return ((::RPG::Client::PlanetFesModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMINIGAMEBINGOFLIPRESULT_GET__MODULE_OFFSET))(this);
+		}
+	};
+}

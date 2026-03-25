@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace Epic::OnlineServices::KWS { class PermissionsUpdateReceivedCallbackInfo; }
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8660EB0)
+#define EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8660EE0)
+#define EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x865F050)
+#define EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8660E90)
+
+namespace Epic::OnlineServices::KWS
+{
+	inline static constexpr unsigned int OnPermissionsUpdateReceivedCallback_TypeDefinitionIndex = 36240;
+
+	class OnPermissionsUpdateReceivedCallback : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK__CTOR_OFFSET))(this, object, method);
+		}
+
+		::System::Void Invoke(::Epic::OnlineServices::KWS::PermissionsUpdateReceivedCallbackInfo* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::PermissionsUpdateReceivedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK_INVOKE_OFFSET))(this, data);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::KWS::PermissionsUpdateReceivedCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::KWS::PermissionsUpdateReceivedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+		}
+
+		::System::Void EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_ONPERMISSIONSUPDATERECEIVEDCALLBACK_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

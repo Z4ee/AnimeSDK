@@ -1,0 +1,99 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
+
+namespace UnityEngine { class RectTransform; }
+
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_CALCULATELAYOUTINPUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0xA254D40)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_CALCULATELAYOUTINPUTVERTICAL_OFFSET UNITYSDK_OFFSET(0xA254D80)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_FLEXIBLEHEIGHT_OFFSET UNITYSDK_OFFSET(0xA254D00)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_FLEXIBLEWIDTH_OFFSET UNITYSDK_OFFSET(0xA254D10)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_LAYOUTPRIORITY_OFFSET UNITYSDK_OFFSET(0xA254CD0)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0xA254D20)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0xA254D30)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0xA254C10)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MINWIDTH_OFFSET UNITYSDK_OFFSET(0xA254A80)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_PREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0xA254CF0)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_PREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0xA254CE0)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_METHOD_6_C88F24B4C4F38CAF_OFFSET UNITYSDK_OFFSET(0xA254B40)
+#define RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED__CTOR_OFFSET UNITYSDK_OFFSET(0xA254DC0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RPGCopyMinByChildPreferred_TypeDefinitionIndex = 59533;
+
+	class RPGCopyMinByChildPreferred : public ::UnityEngine::EventSystems::UIBehaviour
+	{
+	public:
+		::System::Boolean CopyMinHeight; // 0x18
+		::System::Boolean CopyMinWidth; // 0x19
+		::System::Single PaddingHeight; // 0x1C
+		::System::Single PaddingWidth; // 0x20
+		::UnityEngine::RectTransform* Field_6_4; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED__CTOR_OFFSET))(this);
+		}
+
+		::System::Single get_minWidth()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MINWIDTH_OFFSET))(this);
+		}
+
+		::System::Single get_minHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MINHEIGHT_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* Method_6_C88F24B4C4F38CAF()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_METHOD_6_C88F24B4C4F38CAF_OFFSET))(this);
+		}
+
+		::System::Int32 get_layoutPriority()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_LAYOUTPRIORITY_OFFSET))(this);
+		}
+
+		::System::Single get_preferredWidth()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_PREFERREDWIDTH_OFFSET))(this);
+		}
+
+		::System::Single get_preferredHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_PREFERREDHEIGHT_OFFSET))(this);
+		}
+
+		::System::Single get_flexibleHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_FLEXIBLEHEIGHT_OFFSET))(this);
+		}
+
+		::System::Single get_flexibleWidth()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_FLEXIBLEWIDTH_OFFSET))(this);
+		}
+
+		::System::Single get_maxHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MAXHEIGHT_OFFSET))(this);
+		}
+
+		::System::Single get_maxWidth()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_GET_MAXWIDTH_OFFSET))(this);
+		}
+
+		::System::Void CalculateLayoutInputHorizontal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_CALCULATELAYOUTINPUTHORIZONTAL_OFFSET))(this);
+		}
+
+		::System::Void CalculateLayoutInputVertical()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCOPYMINBYCHILDPREFERRED_CALCULATELAYOUTINPUTVERTICAL_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,200 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatShopGoodType.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_491;
+class Class_1_8618BDA489390DBF;
+class Class_1_D311B9D517905070;
+namespace RPG::Client { class DiceCombatDiceConfigData; }
+namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
+namespace RPG::GameCore { class ActivityDiceCombatAvatarRow; }
+namespace RPG::GameCore { class ActivityDiceCombatShopGoodsRow; }
+namespace RPG::GameCore { class ItemConfig; }
+namespace RPG::GameCore { class ItemRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_CREATELOCKEDGOOD_OFFSET UNITYSDK_OFFSET(0x9484600)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_CREATEUNLOCKEDGOOD_OFFSET UNITYSDK_OFFSET(0x9484350)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_AVATARCONFIGINFO_OFFSET UNITYSDK_OFFSET(0x94858D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_CANBUY_OFFSET UNITYSDK_OFFSET(0x9485D30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_COSTCURRENCYVALUE_OFFSET UNITYSDK_OFFSET(0x9485250)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_COST_OFFSET UNITYSDK_OFFSET(0x9484D60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_DICECONFIGINFO_OFFSET UNITYSDK_OFFSET(0x9485AE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ISREACHLIMIT_OFFSET UNITYSDK_OFFSET(0x9485230)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x9485D10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ITEMCONFIG_OFFSET UNITYSDK_OFFSET(0x94856A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x9485210)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ITEMNAME_OFFSET UNITYSDK_OFFSET(0x94852D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_LOCKDESC_OFFSET UNITYSDK_OFFSET(0x94860F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_PRICEICONPATH_OFFSET UNITYSDK_OFFSET(0x94857C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_SHOPGOODID_OFFSET UNITYSDK_OFFSET(0x9480F40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x94851F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_SORTWEIGHT_OFFSET UNITYSDK_OFFSET(0x94858B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9484740)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET__AVATARROW_OFFSET UNITYSDK_OFFSET(0x94855C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET__DICEROW_OFFSET UNITYSDK_OFFSET(0x9485630)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SETISREACHLIMIT_OFFSET UNITYSDK_OFFSET(0x9484F40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_ISREACHLIMIT_OFFSET UNITYSDK_OFFSET(0x9485240)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x9485D20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_LOCKDESC_OFFSET UNITYSDK_OFFSET(0x9486100)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x9485200)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9484D80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA__GETLOCKDESC_OFFSET UNITYSDK_OFFSET(0x9484D90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA__GETUNLOCKTIPTEXTBYCONDITION_OFFSET UNITYSDK_OFFSET(0x9484F90)
+
+namespace RPG::Client::DiceCombat
+{
+	inline static constexpr unsigned int DiceCombatShopGoodData_TypeDefinitionIndex = 61924;
+
+	class DiceCombatShopGoodData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::ActivityDiceCombatShopGoodsRow* _ShopGoodRow; // 0x10
+		::System::String* _LockDesc_k__BackingField; // 0x18
+		::System::Boolean _IsReachLimit_k__BackingField; // 0x20
+		::System::Boolean _IsUnlock_k__BackingField; // 0x21
+		::System::UInt32 _ShopID_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::DiceCombat::DiceCombatShopGoodData* CreateUnlockedGood(::Class_1_8618BDA489390DBF* shopGood, ::System::UInt32 shopID)
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatShopGoodData*(*)(::Class_1_8618BDA489390DBF*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_CREATEUNLOCKEDGOOD_OFFSET))(shopGood, shopID);
+		}
+
+		static ::RPG::Client::DiceCombat::DiceCombatShopGoodData* CreateLockedGood(::System::UInt32 goodID, ::System::UInt32 shopID)
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatShopGoodData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_CREATELOCKEDGOOD_OFFSET))(goodID, shopID);
+		}
+
+		::System::Void SetIsReachLimit(::System::Boolean isReachLimit)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SETISREACHLIMIT_OFFSET))(this, isReachLimit);
+		}
+
+		::System::String* _GetLockDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA__GETLOCKDESC_OFFSET))(this);
+		}
+
+		::System::String* _GetUnlockTipTextByCondition(::Class_0_16E4307DCC419505_491* checkItem)
+		{
+			return ((::System::String*(*)(::PVOID, ::Class_0_16E4307DCC419505_491*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA__GETUNLOCKTIPTEXTBYCONDITION_OFFSET))(this, checkItem);
+		}
+
+		::System::UInt32 get_ShopID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_SHOPID_OFFSET))(this);
+		}
+
+		::System::Void set_ShopID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_SHOPID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ShopGoodID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_SHOPGOODID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ItemID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ITEMID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsReachLimit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ISREACHLIMIT_OFFSET))(this);
+		}
+
+		::System::Void set_IsReachLimit(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_ISREACHLIMIT_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* get_Cost()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::ItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_COST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CostCurrencyValue()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_COSTCURRENCYVALUE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ItemName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ITEMNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::DiceCombat::DiceCombatShopGoodType get_Type()
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatShopGoodType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_TYPE_OFFSET))(this);
+		}
+
+		::System::String* get_PriceIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_PRICEICONPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SortWeight()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_SORTWEIGHT_OFFSET))(this);
+		}
+
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* get_AvatarConfigInfo()
+		{
+			return ((::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_AVATARCONFIGINFO_OFFSET))(this);
+		}
+
+		::RPG::Client::DiceCombatDiceConfigData* get_DiceConfigInfo()
+		{
+			return ((::RPG::Client::DiceCombatDiceConfigData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_DICECONFIGINFO_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ISUNLOCK_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlock(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_ISUNLOCK_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CanBuy()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_CANBUY_OFFSET))(this);
+		}
+
+		::System::String* get_LockDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_LOCKDESC_OFFSET))(this);
+		}
+
+		::System::Void set_LockDesc(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_SET_LOCKDESC_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::ItemRow* get_ItemConfig()
+		{
+			return ((::RPG::GameCore::ItemRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET_ITEMCONFIG_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ActivityDiceCombatAvatarRow* get__AvatarRow()
+		{
+			return ((::RPG::GameCore::ActivityDiceCombatAvatarRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET__AVATARROW_OFFSET))(this);
+		}
+
+		::Class_1_D311B9D517905070* get__DiceRow()
+		{
+			return ((::Class_1_D311B9D517905070*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPGOODDATA_GET__DICEROW_OFFSET))(this);
+		}
+	};
+}

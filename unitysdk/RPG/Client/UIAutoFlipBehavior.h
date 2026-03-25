@@ -1,0 +1,200 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FlipMode.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+
+namespace RPG::Client { class UIAutoFlipMonoPlugin; }
+namespace RPG::Client { class UIPageTurnMonoPlugin; }
+namespace System { class Action; }
+
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xA674D80)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xA6749E0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xA674A40)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_119B32705B42FBD9_OFFSET UNITYSDK_OFFSET(0xA675540)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_228E3444D290BEE7_OFFSET UNITYSDK_OFFSET(0xA674210)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_3BFE3B9EF8374F61_OFFSET UNITYSDK_OFFSET(0xA6746A0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xA674520)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xA674580)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xA6745E0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA6744C0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xA675DC0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xA675E20)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0xA675E80)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0xA675EE0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0xA675F50)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA675D60)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5A50C1842B2C85AF_OFFSET UNITYSDK_OFFSET(0xA674FF0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0xA674280)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_84895CD37C104CC6_OFFSET UNITYSDK_OFFSET(0xA675810)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xA674140)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_C2F69B077374B167_OFFSET UNITYSDK_OFFSET(0xA674DF0)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xA674640)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA675D20)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR__FLIPLEFTPAGE_B__25_0_OFFSET UNITYSDK_OFFSET(0xA675D40)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR__FLIPRIGHTPAGE_B__24_0_OFFSET UNITYSDK_OFFSET(0xA675D30)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR__UPDATE_B__27_0_OFFSET UNITYSDK_OFFSET(0xA675D50)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR___IFIXBASEPROXY_LATETICK_OFFSET UNITYSDK_OFFSET(0xA676030)
+#define RPG_CLIENT_UIAUTOFLIPBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xA675FC0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int UIAutoFlipBehavior_TypeDefinitionIndex = 58196;
+
+	class UIAutoFlipBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		::System::Boolean flippingStarted; // 0x38
+		::System::Boolean isPageFlipping; // 0x39
+		::System::Single elapsedTime; // 0x3C
+		::System::Single nextPageCountDown; // 0x40
+		::System::Boolean isBookInteractable; // 0x44
+		::System::Single elapsedTime2; // 0x48
+		::System::Boolean isFlipping; // 0x4C
+		::System::Action* finish; // 0x50
+		::System::Single xc; // 0x58
+		::System::Single pageWidth; // 0x5C
+		::System::Single pageHeight; // 0x60
+		::RPG::Client::FlipMode flipMode; // 0x64
+		::System::Int32 targetPaper; // 0x68
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_3_B1936CE4DA97AA45()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET))(this);
+		}
+
+		::System::Void Method_3_228E3444D290BEE7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_228E3444D290BEE7_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void LateTick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_LATETICK_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::UIAutoFlipMonoPlugin* get__OwnerMonoPlugin()
+		{
+			return ((::RPG::Client::UIAutoFlipMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void Method_3_704FAC4600717444()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_704FAC4600717444_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5A50C1842B2C85AF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5A50C1842B2C85AF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_84895CD37C104CC6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_84895CD37C104CC6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_C2F69B077374B167(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_C2F69B077374B167_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_3BFE3B9EF8374F61()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_3BFE3B9EF8374F61_OFFSET))(this);
+		}
+
+		::System::Void Method_3_119B32705B42FBD9(::RPG::Client::UIPageTurnMonoPlugin* a1, ::System::Single a2, ::RPG::Client::FlipMode a3, ::System::Action* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIPageTurnMonoPlugin*, ::System::Single, ::RPG::Client::FlipMode, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_119B32705B42FBD9_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_3_06330CD58CB602B6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_06330CD58CB602B6_OFFSET))(this);
+		}
+
+		::System::Void _FlipRightPage_b__24_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR__FLIPRIGHTPAGE_B__24_0_OFFSET))(this);
+		}
+
+		::System::Void _FlipLeftPage_b__25_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR__FLIPLEFTPAGE_B__25_0_OFFSET))(this);
+		}
+
+		::System::Void _Update_b__27_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR__UPDATE_B__27_0_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy_LateTick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPBEHAVIOR___IFIXBASEPROXY_LATETICK_OFFSET))(this, P0);
+		}
+	};
+}

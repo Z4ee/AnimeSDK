@@ -1,0 +1,371 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/SwordTrainingEffectType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/RaycastHit.h"
+
+class Class_1_6E48A12B40FA04FD_1;
+namespace RPG::GameCore { class SwordTrainingConditionRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKACTIONCNTGREATEROREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC0490)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKACTIONCNTLESS_OFFSET UNITYSDK_OFFSET(0x8FC0980)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKASSISTPARTNERUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FC1D20)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCONDITION_OFFSET UNITYSDK_OFFSET(0x8FBF900)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURACTIONLEVELLESSOREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC03A0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURACTIONTYPE_OFFSET UNITYSDK_OFFSET(0x8FC02B0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURDAILYPHASETYPE_OFFSET UNITYSDK_OFFSET(0x8FC01A0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURSTORYLINE_OFFSET UNITYSDK_OFFSET(0x8FC0FC0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURTURNGREATEROREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC10B0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURTURN_OFFSET UNITYSDK_OFFSET(0x8FC0EE0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPARTNERASSISTTIME_OFFSET UNITYSDK_OFFSET(0x8FC00C0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPLANACTIONCNTGREATEROREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC0820)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPLANACTIONTYPEGREATEROREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC1190)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPLANACTIONTYPELESSOREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC0B30)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSIMPLEPERFORMANCEUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FC1FF0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSIMPLIFIEDCOMICANIMUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FC1F00)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSKILLENTRANCEUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FC1B50)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSPECIFICACTIONLASTTIMES_OFFSET UNITYSDK_OFFSET(0x8FC0BD0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSTATUESGREATEROREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC0130)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKTODAYACTIONCNTLESSOREQUAL_OFFSET UNITYSDK_OFFSET(0x8FC0670)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKTRAVELACTIONUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FC1E10)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_FILLSWORDTRAININGBATTLESTATISTICDATABYLASTBATTLERESULT_OFFSET UNITYSDK_OFFSET(0x8FC2810)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETACTIONCNTBEFORECURPHASE_OFFSET UNITYSDK_OFFSET(0x8FC21C0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETACTIVITYLIMITTIME_OFFSET UNITYSDK_OFFSET(0x8FC2340)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETCONSTUINTVALUE_OFFSET UNITYSDK_OFFSET(0x8FC1C40)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETCURPHASEACTIONCNT_OFFSET UNITYSDK_OFFSET(0x8FC2080)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x8FBF880)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETEIDOLONREWARDQUESTIDLIST_OFFSET UNITYSDK_OFFSET(0x8FC2E30)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETMAINCHARACTERID_OFFSET UNITYSDK_OFFSET(0x8FC24D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETPARTNERASSISTCOUNT_OFFSET UNITYSDK_OFFSET(0x8FC1230)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETPARTNERASSISTTARGETNUM_OFFSET UNITYSDK_OFFSET(0x8FC1310)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSKILLPOINTITEMID_OFFSET UNITYSDK_OFFSET(0x8FC26D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSPECIALCHARACTERID_OFFSET UNITYSDK_OFFSET(0x8FC25D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSTATUESGREATEROREQUALTARGETNUM_OFFSET UNITYSDK_OFFSET(0x8FC1650)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSTATUESGREATEROREQUALVALUE_OFFSET UNITYSDK_OFFSET(0x8FC1380)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSTATUSTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x8FC27D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETTIMELIMITREWARDID_OFFSET UNITYSDK_OFFSET(0x8FC36D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_HIDETRANSFERPAGE_OFFSET UNITYSDK_OFFSET(0x8FC3A10)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISACTIVITYOUTOFLIMITTIME_OFFSET UNITYSDK_OFFSET(0x8FC2430)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISALLEIDOLONREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x8FC3140)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISANYEIDOLONREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x8FC3340)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISANYENDINGREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x8FC3540)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISEIDOLONREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x8FC2C30)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISMARCHSEVENCLICKED_OFFSET UNITYSDK_OFFSET(0x8FC3D60)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISTUTORIALSKILLCANLEARN_OFFSET UNITYSDK_OFFSET(0x8FC3740)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ONENTERGAME_OFFSET UNITYSDK_OFFSET(0x8FBD6E0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_SHOWTRANSFERPAGEWITHTIME_OFFSET UNITYSDK_OFFSET(0x8FBD7D0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_STARTBGM_OFFSET UNITYSDK_OFFSET(0x8FBD8B0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_STARTSHOWTRAININGPAGEPROCESS_OFFSET UNITYSDK_OFFSET(0x8FC3860)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_STOPBGM_OFFSET UNITYSDK_OFFSET(0x8FBF670)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_TELEPORTTOACTIVITYENTRANCE_OFFSET UNITYSDK_OFFSET(0x8FC3AB0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x8FC4240)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__CHECKACTIONFLAG_OFFSET UNITYSDK_OFFSET(0x8FC22F0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__CHECKSINGLECONDITION_OFFSET UNITYSDK_OFFSET(0x8FBFB40)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__GETACTIONCNT_OFFSET UNITYSDK_OFFSET(0x8FC1710)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__GETPLANACTIONTYPECNT_OFFSET UNITYSDK_OFFSET(0x8FC18F0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__UNIONACTIONFLAG_OFFSET UNITYSDK_OFFSET(0x8FC16C0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivitySwordTrainingUtils_TypeDefinitionIndex = 50265;
+
+	class ActivitySwordTrainingUtils : public ::System::Object
+	{
+	public:
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet__MouseRayCastResult()
+		{
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(ActivitySwordTrainingUtils_TypeDefinitionIndex)->GetStaticField(0x30080);
+		}
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__EidolonRewardQuestDataIDList()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivitySwordTrainingUtils_TypeDefinitionIndex)->GetStaticField(0x30088);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__CCTOR_OFFSET))();
+		}
+
+		static ::RPG::GameCore::SwordTrainingEffectType GetEffectType(::System::UInt32 effectID)
+		{
+			return ((::RPG::GameCore::SwordTrainingEffectType(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETEFFECTTYPE_OFFSET))(effectID);
+		}
+
+		static ::System::Boolean CheckCondition(::System::UInt32 conditionID)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCONDITION_OFFSET))(conditionID);
+		}
+
+		static ::System::Boolean _CheckSingleCondition(::RPG::GameCore::SwordTrainingConditionRow* conditionRow)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__CHECKSINGLECONDITION_OFFSET))(conditionRow);
+		}
+
+		static ::System::Boolean CheckPartnerAssistTime(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPARTNERASSISTTIME_OFFSET))(row);
+		}
+
+		static ::System::UInt32 GetPartnerAssistCount(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::UInt32(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETPARTNERASSISTCOUNT_OFFSET))(row);
+		}
+
+		static ::System::UInt32 GetPartnerAssistTargetNum(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::UInt32(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETPARTNERASSISTTARGETNUM_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckStatuesGreaterOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSTATUESGREATEROREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckCurDailyPhaseType(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURDAILYPHASETYPE_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckCurActionType(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURACTIONTYPE_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckCurActionLevelLessOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURACTIONLEVELLESSOREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckActionCntGreaterOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKACTIONCNTGREATEROREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckTodayActionCntLessOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKTODAYACTIONCNTLESSOREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckPlanActionCntGreaterOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPLANACTIONCNTGREATEROREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckActionCntLess(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKACTIONCNTLESS_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckPlanActionTypeLessOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPLANACTIONTYPELESSOREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckSpecificActionLastTimes(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSPECIFICACTIONLASTTIMES_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckCurTurn(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURTURN_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckCurStoryLine(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURSTORYLINE_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckCurTurnGreaterOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKCURTURNGREATEROREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckPlanActionTypeGreaterOrEqual(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKPLANACTIONTYPEGREATEROREQUAL_OFFSET))(row);
+		}
+
+		static ::System::Boolean CheckSkillEntranceUnlock()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSKILLENTRANCEUNLOCK_OFFSET))();
+		}
+
+		static ::System::Boolean CheckAssistPartnerUnlock()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKASSISTPARTNERUNLOCK_OFFSET))();
+		}
+
+		static ::System::Boolean CheckTravelActionUnlock()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKTRAVELACTIONUNLOCK_OFFSET))();
+		}
+
+		static ::System::Boolean CheckSimplifiedComicAnimUnlock()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSIMPLIFIEDCOMICANIMUNLOCK_OFFSET))();
+		}
+
+		static ::System::Boolean CheckSimplePerformanceUnlock()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_CHECKSIMPLEPERFORMANCEUNLOCK_OFFSET))();
+		}
+
+		static ::System::UInt32 GetStatuesGreaterOrEqualValue(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::UInt32(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSTATUESGREATEROREQUALVALUE_OFFSET))(row);
+		}
+
+		static ::System::UInt32 GetStatuesGreaterOrEqualTargetNum(::RPG::GameCore::SwordTrainingConditionRow* row)
+		{
+			return ((::System::UInt32(*)(::RPG::GameCore::SwordTrainingConditionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSTATUESGREATEROREQUALTARGETNUM_OFFSET))(row);
+		}
+
+		static ::System::UInt32 GetCurPhaseActionCnt(::System::UInt32 targetActionID)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETCURPHASEACTIONCNT_OFFSET))(targetActionID);
+		}
+
+		static ::System::UInt32 GetActionCntBeforeCurPhase(::System::UInt32 targetActionID)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETACTIONCNTBEFORECURPHASE_OFFSET))(targetActionID);
+		}
+
+		static ::System::Int32 _UnionActionFlag(::System::Int32 sourceFlag, ::System::UInt32 actionID)
+		{
+			return ((::System::Int32(*)(::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__UNIONACTIONFLAG_OFFSET))(sourceFlag, actionID);
+		}
+
+		static ::System::Boolean _CheckActionFlag(::System::Int32 flag, ::System::UInt32 actionID)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__CHECKACTIONFLAG_OFFSET))(flag, actionID);
+		}
+
+		static ::System::UInt32 _GetPlanActionTypeCnt()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__GETPLANACTIONTYPECNT_OFFSET))();
+		}
+
+		static ::System::UInt32 _GetActionCnt(::System::Int32 actionFlag, ::System::UInt32 curPhaseType)
+		{
+			return ((::System::UInt32(*)(::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS__GETACTIONCNT_OFFSET))(actionFlag, curPhaseType);
+		}
+
+		static ::System::UInt32 GetActivityLimitTime()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETACTIVITYLIMITTIME_OFFSET))();
+		}
+
+		static ::System::Boolean IsActivityOutOfLimitTime()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISACTIVITYOUTOFLIMITTIME_OFFSET))();
+		}
+
+		static ::System::UInt32 GetMainCharacterID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETMAINCHARACTERID_OFFSET))();
+		}
+
+		static ::System::UInt32 GetSpecialCharacterID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSPECIALCHARACTERID_OFFSET))();
+		}
+
+		static ::System::UInt32 GetSkillPointItemID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSKILLPOINTITEMID_OFFSET))();
+		}
+
+		static ::System::UInt32 GetConstUintValue(::System::String* key)
+		{
+			return ((::System::UInt32(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETCONSTUINTVALUE_OFFSET))(key);
+		}
+
+		static ::System::Int32 GetStatusTypeCount()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETSTATUSTYPECOUNT_OFFSET))();
+		}
+
+		static ::System::Void FillSwordTrainingBattleStatisticDataByLastBattleResult(::Class_1_6E48A12B40FA04FD_1* sttData)
+		{
+			return ((::System::Void(*)(::Class_1_6E48A12B40FA04FD_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_FILLSWORDTRAININGBATTLESTATISTICDATABYLASTBATTLERESULT_OFFSET))(sttData);
+		}
+
+		static ::System::Boolean IsEidolonRewardCanTake()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISEIDOLONREWARDCANTAKE_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>* GetEidolonRewardQuestIDList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETEIDOLONREWARDQUESTIDLIST_OFFSET))();
+		}
+
+		static ::System::Boolean IsAllEidolonRewardTaken()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISALLEIDOLONREWARDTAKEN_OFFSET))();
+		}
+
+		static ::System::Boolean IsAnyEidolonRewardCanTake()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISANYEIDOLONREWARDCANTAKE_OFFSET))();
+		}
+
+		static ::System::Boolean IsAnyEndingRewardCanTake()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISANYENDINGREWARDCANTAKE_OFFSET))();
+		}
+
+		static ::System::UInt32 GetTimeLimitRewardID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_GETTIMELIMITREWARDID_OFFSET))();
+		}
+
+		static ::System::Boolean IsTutorialSkillCanLearn()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISTUTORIALSKILLCANLEARN_OFFSET))();
+		}
+
+		static ::System::Void StartShowTrainingPageProcess()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_STARTSHOWTRAININGPAGEPROCESS_OFFSET))();
+		}
+
+		static ::System::Void HideTransferPage(::System::Single time)
+		{
+			return ((::System::Void(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_HIDETRANSFERPAGE_OFFSET))(time);
+		}
+
+		static ::System::Void ShowTransferPageWithTime(::System::Single time)
+		{
+			return ((::System::Void(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_SHOWTRANSFERPAGEWITHTIME_OFFSET))(time);
+		}
+
+		static ::System::Void TeleportToActivityEntrance()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_TELEPORTTOACTIVITYENTRANCE_OFFSET))();
+		}
+
+		static ::System::Boolean IsMarchSevenClicked()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ISMARCHSEVENCLICKED_OFFSET))();
+		}
+
+		static ::System::Void OnEnterGame()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_ONENTERGAME_OFFSET))();
+		}
+
+		static ::System::Void StartBGM()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_STARTBGM_OFFSET))();
+		}
+
+		static ::System::Void StopBGM()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGUTILS_STOPBGM_OFFSET))();
+		}
+	};
+}

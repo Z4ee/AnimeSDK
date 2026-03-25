@@ -1,0 +1,188 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class ChestAndRaidInfo; }
+namespace RPG::Client { class MonsterData; }
+namespace RPG::Client { class ScheduleData; }
+namespace RPG::GameCore { class AetherDivideGymInfoRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_CLEARNEWSTATUS_OFFSET UNITYSDK_OFFSET(0x9074340)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9073B60)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETDISPLAYMONSTERDATAS_OFFSET UNITYSDK_OFFSET(0x9074640)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETSCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x9074180)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETSPIRITCOLLECTIONINFO_OFFSET UNITYSDK_OFFSET(0x9073D10)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETSTARCOUNT_OFFSET UNITYSDK_OFFSET(0x9074960)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETTRAINERCHALLENGEINFO_OFFSET UNITYSDK_OFFSET(0x9073E60)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_ACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0x9074500)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_BGPATH_OFFSET UNITYSDK_OFFSET(0x9075340)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0x9074F10)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_ENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9072F40)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x9075490)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_GYMINFOROW_OFFSET UNITYSDK_OFFSET(0x9073980)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x90751F0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9074DA0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_RULE_OFFSET UNITYSDK_OFFSET(0x9075080)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET__BADGEUNLOCKKEY_OFFSET UNITYSDK_OFFSET(0x9074C20)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET__FIRSTUNLOCKKEY_OFFSET UNITYSDK_OFFSET(0x9075560)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISALREADYUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9073CD0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISBADGEALREADYUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9073BC0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISBADGEUNLOCK_OFFSET UNITYSDK_OFFSET(0x9074450)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISNEW_OFFSET UNITYSDK_OFFSET(0x9074260)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x9073FB0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_RECORDBADGEUNLOCKEFFECTPLAYED_OFFSET UNITYSDK_OFFSET(0x9074C70)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_SHOULDPLAYBADGEUNLOCKEFFECT_OFFSET UNITYSDK_OFFSET(0x9074AE0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9073BB0)
+#define RPG_CLIENT_AETHERDIVIDEGYMDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x90739F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AetherDivideGymDataItem_TypeDefinitionIndex = 50527;
+
+	class AetherDivideGymDataItem : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::AetherDivideGymInfoRow* _Row; // 0x10
+		::System::UInt32 GymID; // 0x18
+		::System::Boolean _IsNew; // 0x1C
+		::System::Boolean _IsUnlcoked; // 0x1D
+
+		::System::Void _ctor(::RPG::GameCore::AetherDivideGymInfoRow* row)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AetherDivideGymInfoRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM__CTOR_OFFSET))(this, row);
+		}
+
+		::System::Void _ctor_1(::System::UInt32 gymID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM__CTOR_1_OFFSET))(this, gymID);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean IsBadgeAlreadyUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISBADGEALREADYUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean IsAlreadyUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISALREADYUNLOCKED_OFFSET))(this);
+		}
+
+		::RPG::Client::ChestAndRaidInfo* GetSpiritCollectionInfo()
+		{
+			return ((::RPG::Client::ChestAndRaidInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETSPIRITCOLLECTIONINFO_OFFSET))(this);
+		}
+
+		::RPG::Client::ChestAndRaidInfo* GetTrainerChallengeInfo()
+		{
+			return ((::RPG::Client::ChestAndRaidInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETTRAINERCHALLENGEINFO_OFFSET))(this);
+		}
+
+		::System::Boolean IsUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISUNLOCK_OFFSET))(this);
+		}
+
+		::System::Boolean IsNew()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISNEW_OFFSET))(this);
+		}
+
+		::System::Void ClearNewStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_CLEARNEWSTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean IsBadgeUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_ISBADGEUNLOCK_OFFSET))(this);
+		}
+
+		::RPG::Client::ScheduleData* GetScheduleData()
+		{
+			return ((::RPG::Client::ScheduleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETSCHEDULEDATA_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>* GetDisplayMonsterDatas()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETDISPLAYMONSTERDATAS_OFFSET))(this);
+		}
+
+		::System::UInt32 GetStarCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GETSTARCOUNT_OFFSET))(this);
+		}
+
+		::System::Boolean ShouldPlayBadgeUnlockEffect()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_SHOULDPLAYBADGEUNLOCKEFFECT_OFFSET))(this);
+		}
+
+		::System::Void RecordBadgeUnlockEffectPlayed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_RECORDBADGEUNLOCKEFFECTPLAYED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AetherDivideGymInfoRow* get_GymInfoRow()
+		{
+			return ((::RPG::GameCore::AetherDivideGymInfoRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_GYMINFOROW_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Desc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_DESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Rule()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_RULE_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_BgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_BGPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EntranceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_ENTRANCEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FloorID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_FLOORID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ActivityModuleID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET_ACTIVITYMODULEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get__FirstUnlockKey()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET__FIRSTUNLOCKKEY_OFFSET))(this);
+		}
+
+		::System::UInt32 get__BadgeUnlockKey()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDEGYMDATAITEM_GET__BADGEUNLOCKKEY_OFFSET))(this);
+		}
+	};
+}

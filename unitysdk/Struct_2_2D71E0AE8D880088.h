@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define STRUCT_2_2D71E0AE8D880088_METHOD_2_6EE7FC95AC68752A_OFFSET UNITYSDK_OFFSET(0x1425050)
+#define STRUCT_2_2D71E0AE8D880088_METHOD_2_ABE5738A0CCE8823_1_OFFSET UNITYSDK_OFFSET(0x10636B60)
+#define STRUCT_2_2D71E0AE8D880088_METHOD_2_ABE5738A0CCE8823_2_OFFSET UNITYSDK_OFFSET(0x10636BB0)
+#define STRUCT_2_2D71E0AE8D880088_METHOD_2_ABE5738A0CCE8823_OFFSET UNITYSDK_OFFSET(0x10636B10)
+
+inline static constexpr unsigned int Struct_2_2D71E0AE8D880088_TypeDefinitionIndex = 56990;
+
+struct alignas(4) Struct_2_2D71E0AE8D880088
+{
+	::System::Int32 Field_2_0; // 0x10
+
+	::System::Void Method_2_6EE7FC95AC68752A(::System::Boolean a1, ::System::Int32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_2D71E0AE8D880088_METHOD_2_6EE7FC95AC68752A_OFFSET))(this, a1, a2);
+	}
+
+	static ::System::Boolean Method_2_ABE5738A0CCE8823(::Struct_2_2D71E0AE8D880088& a1)
+	{
+		return ((::System::Boolean(*)(::Struct_2_2D71E0AE8D880088&))((::PBYTE)hIl2Cpp + STRUCT_2_2D71E0AE8D880088_METHOD_2_ABE5738A0CCE8823_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_2_ABE5738A0CCE8823_1(::Struct_2_2D71E0AE8D880088& a1)
+	{
+		return ((::System::Boolean(*)(::Struct_2_2D71E0AE8D880088&))((::PBYTE)hIl2Cpp + STRUCT_2_2D71E0AE8D880088_METHOD_2_ABE5738A0CCE8823_1_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_2_ABE5738A0CCE8823_2(::Struct_2_2D71E0AE8D880088& a1)
+	{
+		return ((::System::Boolean(*)(::Struct_2_2D71E0AE8D880088&))((::PBYTE)hIl2Cpp + STRUCT_2_2D71E0AE8D880088_METHOD_2_ABE5738A0CCE8823_2_OFFSET))(a1);
+	}
+};

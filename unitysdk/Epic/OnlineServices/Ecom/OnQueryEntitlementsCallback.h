@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace Epic::OnlineServices::Ecom { class QueryEntitlementsCallbackInfo; }
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x864B8C0)
+#define EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x864B8F0)
+#define EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x86450A0)
+#define EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x864B8A0)
+
+namespace Epic::OnlineServices::Ecom
+{
+	inline static constexpr unsigned int OnQueryEntitlementsCallback_TypeDefinitionIndex = 36370;
+
+	class OnQueryEntitlementsCallback : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK__CTOR_OFFSET))(this, object, method);
+		}
+
+		::System::Void Invoke(::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfo* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK_INVOKE_OFFSET))(this, data);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+		}
+
+		::System::Void EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ONQUERYENTITLEMENTSCALLBACK_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

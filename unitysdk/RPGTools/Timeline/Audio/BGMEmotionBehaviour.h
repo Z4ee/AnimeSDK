@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+
+namespace System { class String; }
+
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0xAB22040)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xAB22000)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xAB220F0)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xAB22090)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_57D5ED2C4C06D908_OFFSET UNITYSDK_OFFSET(0xAB21B90)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0xAB21D70)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xAB21FA0)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xAB22080)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xAB22150)
+
+namespace RPGTools::Timeline::Audio
+{
+	inline static constexpr unsigned int BGMEmotionBehaviour_TypeDefinitionIndex = 39593;
+
+	class BGMEmotionBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
+	{
+	public:
+		::System::Boolean IsUseStoryState; // 0x20
+		::System::String* StoryState; // 0x28
+		::System::String* EmotionState; // 0x30
+		::System::Boolean IsResetWhenClipExit; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_3_57D5ED2C4C06D908()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_57D5ED2C4C06D908_OFFSET))(this);
+		}
+
+		::System::Void Method_3_9E38127F40B34F1F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_9E38127F40B34F1F_OFFSET))(this);
+		}
+
+		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_3_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_391A84BCD9F51317_1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_391A84BCD9F51317_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, P0);
+		}
+	};
+}

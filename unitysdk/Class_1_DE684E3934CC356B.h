@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingSoldierTeamType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_181A7F9409C60DBC;
+class Class_2_E9C9AAD7C711B3E3;
+class Class_3_543326C044264182;
+
+#define CLASS_1_DE684E3934CC356B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10929390)
+#define CLASS_1_DE684E3934CC356B_METHOD_1_304E1F814D6DE3F4_OFFSET UNITYSDK_OFFSET(0x109293D0)
+#define CLASS_1_DE684E3934CC356B_METHOD_1_7E6BB7B50A2EB3C2_OFFSET UNITYSDK_OFFSET(0x10929460)
+#define CLASS_1_DE684E3934CC356B_METHOD_1_8A104A11225D4AF5_OFFSET UNITYSDK_OFFSET(0x109299B0)
+#define CLASS_1_DE684E3934CC356B_METHOD_1_94B25CAC09010F16_OFFSET UNITYSDK_OFFSET(0x109297A0)
+#define CLASS_1_DE684E3934CC356B_METHOD_1_9C814A85CBF45139_OFFSET UNITYSDK_OFFSET(0x109296D0)
+#define CLASS_1_DE684E3934CC356B__CTOR_OFFSET UNITYSDK_OFFSET(0x10929380)
+
+inline static constexpr unsigned int Class_1_DE684E3934CC356B_TypeDefinitionIndex = 63417;
+
+class Class_1_DE684E3934CC356B : public ::System::Object
+{
+public:
+	::Class_3_543326C044264182* Field_1_1; // 0x10
+	::Class_2_E9C9AAD7C711B3E3* Field_1_0; // 0x18
+
+	::System::Void _ctor(::Class_2_E9C9AAD7C711B3E3* a1, ::Class_3_543326C044264182* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_E9C9AAD7C711B3E3*, ::Class_3_543326C044264182*))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Execute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B_EXECUTE_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_304E1F814D6DE3F4(::Class_2_181A7F9409C60DBC* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_181A7F9409C60DBC*))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B_METHOD_1_304E1F814D6DE3F4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7E6BB7B50A2EB3C2(::Class_2_181A7F9409C60DBC* a1, ::Class_2_181A7F9409C60DBC* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_181A7F9409C60DBC*, ::Class_2_181A7F9409C60DBC*))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B_METHOD_1_7E6BB7B50A2EB3C2_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_9C814A85CBF45139(::Class_2_181A7F9409C60DBC* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_181A7F9409C60DBC*))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B_METHOD_1_9C814A85CBF45139_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_94B25CAC09010F16(::Class_2_181A7F9409C60DBC* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_181A7F9409C60DBC*))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B_METHOD_1_94B25CAC09010F16_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_8A104A11225D4AF5(::RPG::Client::LittleGame::ChenLing::ChenLingSoldierTeamType a1, ::System::Int32 a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingSoldierTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_DE684E3934CC356B_METHOD_1_8A104A11225D4AF5_OFFSET))(this, a1, a2);
+	}
+};

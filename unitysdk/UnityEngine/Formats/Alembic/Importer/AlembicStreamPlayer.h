@@ -1,0 +1,274 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Importer/AlembicStreamPlayer_AlembicStreamSource.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream; }
+namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamDescriptor; }
+namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamSettings; }
+namespace UnityEngine::Formats::Alembic::Importer { class EmbeddedAlembicStreamDescriptor; }
+namespace UnityEngine::Formats::Alembic::Importer { class IStreamDescriptor; }
+
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_CLAMPTIME_OFFSET UNITYSDK_OFFSET(0x187A12D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_CLOSESTREAM_OFFSET UNITYSDK_OFFSET(0x187A12A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_ABCSTREAM_OFFSET UNITYSDK_OFFSET(0x1879FC10)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x1879FFD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x187A0010)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1879FEB0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_MEDIADURATION_OFFSET UNITYSDK_OFFSET(0x187A0200)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_MEDIAENDTIME_OFFSET UNITYSDK_OFFSET(0x187A0120)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_MEDIASTARTTIME_OFFSET UNITYSDK_OFFSET(0x187A0040)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_PATHTOABC_OFFSET UNITYSDK_OFFSET(0x187A03B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x187A0490)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0x1879FCF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_STREAMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1879FC30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_STREAMSOURCE_OFFSET UNITYSDK_OFFSET(0x1879FBF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_VERTEXMOTIONSCALE_OFFSET UNITYSDK_OFFSET(0x187A0020)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_INITIALIZEAFTERLOAD_OFFSET UNITYSDK_OFFSET(0x187A0A70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x187A0850)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_LOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x187A08F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_LOADSTREAM_OFFSET UNITYSDK_OFFSET(0x187A0DD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x187A1770)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x187A1740)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x187A1720)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x187A1320)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_RELOADSTREAM_OFFSET UNITYSDK_OFFSET(0x187A0700)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_REMOVEOBSOLETEGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x187A0F30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_REMOVEOBSOLETEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x187A0F70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_ABCSTREAM_OFFSET UNITYSDK_OFFSET(0x1879FC20)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x1879FFE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1879FEC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x187A0570)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_STARTTIME_OFFSET UNITYSDK_OFFSET(0x1879FD00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_STREAMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1879FC40)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_STREAMSOURCE_OFFSET UNITYSDK_OFFSET(0x1879FC00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_VERTEXMOTIONSCALE_OFFSET UNITYSDK_OFFSET(0x187A0030)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_START_OFFSET UNITYSDK_OFFSET(0x187A1310)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x187A1880)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x187A1870)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UPDATEIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x187A0740)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x187A0780)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x187A18F0)
+
+namespace UnityEngine::Formats::Alembic::Importer
+{
+	inline static constexpr unsigned int AlembicStreamPlayer_TypeDefinitionIndex = 35035;
+
+	class AlembicStreamPlayer : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer_AlembicStreamSource streamSource; // 0x18
+		::UnityEngine::Formats::Alembic::Importer::AlembicStream* _abcStream_k__BackingField; // 0x20
+		::UnityEngine::Formats::Alembic::Importer::AlembicStreamDescriptor* streamDescriptor; // 0x28
+		::UnityEngine::Formats::Alembic::Importer::EmbeddedAlembicStreamDescriptor* embeddedStreamDescriptor; // 0x30
+		::System::Single startTime; // 0x38
+		::System::Single endTime; // 0x3C
+		::System::Single currentTime; // 0x40
+		::System::Single vertexMotionScale; // 0x44
+		::System::Single lastUpdateTime; // 0x48
+		::System::Boolean forceUpdate; // 0x4C
+		::System::Boolean updateStarted; // 0x4D
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer_AlembicStreamSource get_StreamSource()
+		{
+			return ((::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer_AlembicStreamSource(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_STREAMSOURCE_OFFSET))(this);
+		}
+
+		::System::Void set_StreamSource(::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer_AlembicStreamSource value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer_AlembicStreamSource))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_STREAMSOURCE_OFFSET))(this, value);
+		}
+
+		::UnityEngine::Formats::Alembic::Importer::AlembicStream* get_abcStream()
+		{
+			return ((::UnityEngine::Formats::Alembic::Importer::AlembicStream*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_ABCSTREAM_OFFSET))(this);
+		}
+
+		::System::Void set_abcStream(::UnityEngine::Formats::Alembic::Importer::AlembicStream* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStream*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_ABCSTREAM_OFFSET))(this, value);
+		}
+
+		::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* get_StreamDescriptor()
+		{
+			return ((::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_STREAMDESCRIPTOR_OFFSET))(this);
+		}
+
+		::System::Void set_StreamDescriptor(::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_STREAMDESCRIPTOR_OFFSET))(this, value);
+		}
+
+		::System::Single get_StartTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_STARTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_StartTime(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_STARTTIME_OFFSET))(this, value);
+		}
+
+		::System::Single get_EndTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_ENDTIME_OFFSET))(this);
+		}
+
+		::System::Void set_EndTime(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_ENDTIME_OFFSET))(this, value);
+		}
+
+		::System::Single get_CurrentTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_CURRENTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentTime(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_CURRENTTIME_OFFSET))(this, value);
+		}
+
+		::System::Single get_Duration()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_DURATION_OFFSET))(this);
+		}
+
+		::System::Single get_VertexMotionScale()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_VERTEXMOTIONSCALE_OFFSET))(this);
+		}
+
+		::System::Void set_VertexMotionScale(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_VERTEXMOTIONSCALE_OFFSET))(this, value);
+		}
+
+		::System::Single get_MediaStartTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_MEDIASTARTTIME_OFFSET))(this);
+		}
+
+		::System::Single get_MediaEndTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_MEDIAENDTIME_OFFSET))(this);
+		}
+
+		::System::Single get_MediaDuration()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_MEDIADURATION_OFFSET))(this);
+		}
+
+		::System::String* get_PathToAbc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_PATHTOABC_OFFSET))(this);
+		}
+
+		::UnityEngine::Formats::Alembic::Importer::AlembicStreamSettings* get_Settings()
+		{
+			return ((::UnityEngine::Formats::Alembic::Importer::AlembicStreamSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_GET_SETTINGS_OFFSET))(this);
+		}
+
+		::System::Void set_Settings(::UnityEngine::Formats::Alembic::Importer::AlembicStreamSettings* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStreamSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_SET_SETTINGS_OFFSET))(this, value);
+		}
+
+		::System::Void UpdateImmediately(::System::Single time)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UPDATEIMMEDIATELY_OFFSET))(this, time);
+		}
+
+		::System::Boolean LoadFromFile(::System::String* newPath)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_LOADFROMFILE_OFFSET))(this, newPath);
+		}
+
+		::System::Boolean ReloadStream(::System::Boolean createMissingNodes)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_RELOADSTREAM_OFFSET))(this, createMissingNodes);
+		}
+
+		::System::Void RemoveObsoleteGameObjects()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_REMOVEOBSOLETEGAMEOBJECTS_OFFSET))(this);
+		}
+
+		::System::Void RemoveObsoleteGameObject(::UnityEngine::GameObject* root)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_REMOVEOBSOLETEGAMEOBJECT_OFFSET))(this, root);
+		}
+
+		::System::Boolean InitializeAfterLoad()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_INITIALIZEAFTERLOAD_OFFSET))(this);
+		}
+
+		::System::Void CloseStream()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_CLOSESTREAM_OFFSET))(this);
+		}
+
+		::System::Void ClampTime()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_CLAMPTIME_OFFSET))(this);
+		}
+
+		::System::Boolean LoadStream(::System::Boolean createMissingNodes, ::System::Boolean serializeMesh)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_LOADSTREAM_OFFSET))(this, createMissingNodes, serializeMesh);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_START_OFFSET))(this);
+		}
+
+		::System::Void OnValidate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONVALIDATE_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void OnApplicationQuit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_ONAPPLICATIONQUIT_OFFSET))(this);
+		}
+
+		::System::Void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET))(this);
+		}
+
+		::System::Void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMPLAYER_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET))(this);
+		}
+	};
+}

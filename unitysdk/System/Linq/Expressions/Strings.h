@@ -1,0 +1,717 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_AMBIGUOUSJUMP_OFFSET UNITYSDK_OFFSET(0x18507B50)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_AMBIGUOUSMATCHINEXPANDOOBJECT_OFFSET UNITYSDK_OFFSET(0x18506140)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_ARGUMENTMEMBERNOTDECLONTYPE_OFFSET UNITYSDK_OFFSET(0x18506C70)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_ARGUMENTTYPEDOESNOTMATCHMEMBER_OFFSET UNITYSDK_OFFSET(0x18506BF0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_BINARYOPERATORNOTDEFINED_OFFSET UNITYSDK_OFFSET(0x18506610)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_CANNOTAUTOINITIALIZEVALUETYPEMEMBERTHROUGHPROPERTY_OFFSET UNITYSDK_OFFSET(0x18506A50)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_COERCIONOPERATORNOTDEFINED_OFFSET UNITYSDK_OFFSET(0x18506510)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_DUPLICATEVARIABLE_OFFSET UNITYSDK_OFFSET(0x18506290)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPECANNOTINITIALIZEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x18506B70)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHASSIGNMENT_OFFSET UNITYSDK_OFFSET(0x18506D70)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHCONSTRUCTORPARAMETER_OFFSET UNITYSDK_OFFSET(0x18507FA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHLABEL_OFFSET UNITYSDK_OFFSET(0x18506DF0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHMETHODPARAMETER_OFFSET UNITYSDK_OFFSET(0x18508240)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHPARAMETER_OFFSET UNITYSDK_OFFSET(0x185082C0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHRETURN_OFFSET UNITYSDK_OFFSET(0x18506CF0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPENOTINVOCABLE_OFFSET UNITYSDK_OFFSET(0x18506E70)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXTENSIONNODEMUSTOVERRIDEPROPERTY_OFFSET UNITYSDK_OFFSET(0x185063C0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_FIELDINFONOTDEFINEDFORTYPE_OFFSET UNITYSDK_OFFSET(0x18506F60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GENERICMETHODWITHARGSDOESNOTEXISTONTYPE_OFFSET UNITYSDK_OFFSET(0x185078B0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ACCESSORSCANNOTHAVEBYREFARGS_OFFSET UNITYSDK_OFFSET(0x18505C20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ACCESSORSCANNOTHAVEVARARGS_OFFSET UNITYSDK_OFFSET(0x18505BE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTCANNOTBEOFTYPEVOID_OFFSET UNITYSDK_OFFSET(0x185079B0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEARRAYINDEXTYPE_OFFSET UNITYSDK_OFFSET(0x18506990)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEARRAY_OFFSET UNITYSDK_OFFSET(0x18506850)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEBOOLEAN_OFFSET UNITYSDK_OFFSET(0x18506890)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEFIELDINFOORPROPERTYINFOORMETHOD_OFFSET UNITYSDK_OFFSET(0x185068D0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEINSTANCEMEMBER_OFFSET UNITYSDK_OFFSET(0x18506910)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEINTEGER_OFFSET UNITYSDK_OFFSET(0x18506950)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBESINGLEDIMENSIONALARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x185069D0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTNOTHAVEVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18505FA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTTYPESMUSTMATCH_OFFSET UNITYSDK_OFFSET(0x18506A10)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_BODYOFCATCHMUSTHAVESAMETYPEASBODYOFTRY_OFFSET UNITYSDK_OFFSET(0x18506380)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_BOTHACCESSORSMUSTBESTATIC_OFFSET UNITYSDK_OFFSET(0x18505DE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_BOUNDSCANNOTBELESSTHANONE_OFFSET UNITYSDK_OFFSET(0x18505C60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_COALESCEUSEDONNONNULLTYPE_OFFSET UNITYSDK_OFFSET(0x18506B30)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_COLLECTIONMODIFIEDWHILEENUMERATING_OFFSET UNITYSDK_OFFSET(0x185060A0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_COLLECTIONREADONLY_OFFSET UNITYSDK_OFFSET(0x18506130)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTENTEREXPRESSION_OFFSET UNITYSDK_OFFSET(0x18507C00)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTENTERTRY_OFFSET UNITYSDK_OFFSET(0x18507BC0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTLEAVEFILTERTEST_OFFSET UNITYSDK_OFFSET(0x18507B10)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTLEAVEFINALLY_OFFSET UNITYSDK_OFFSET(0x18507AD0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONVERSIONISNOTSUPPORTEDFORARITHMETICTYPES_OFFSET UNITYSDK_OFFSET(0x18506810)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ENUMERATIONISDONE_OFFSET UNITYSDK_OFFSET(0x18508020)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_EXPRESSIONMUSTBEREADABLE_OFFSET UNITYSDK_OFFSET(0x18507F60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_EXPRESSIONMUSTBEWRITEABLE_OFFSET UNITYSDK_OFFSET(0x18505F60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_FAULTCANNOTHAVECATCHORFINALLY_OFFSET UNITYSDK_OFFSET(0x18506300)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFARGUMENTSFORMEMBERS_OFFSET UNITYSDK_OFFSET(0x185070A0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFCONSTRUCTORARGUMENTS_OFFSET UNITYSDK_OFFSET(0x185083F0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFINDEXES_OFFSET UNITYSDK_OFFSET(0x18506FE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFLAMBDAARGUMENTS_OFFSET UNITYSDK_OFFSET(0x185083B0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFLAMBDADECLARATIONPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18507020)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFMEMBERSFORGIVENCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x18507060)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INDEXESOFSETGETMUSTMATCH_OFFSET UNITYSDK_OFFSET(0x18505BA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INVALIDARGUMENTVALUE_OFFSET UNITYSDK_OFFSET(0x18508110)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INVALIDUNBOXTYPE_OFFSET UNITYSDK_OFFSET(0x18505F20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_LABELMUSTBEVOIDORHAVEEXPRESSION_OFFSET UNITYSDK_OFFSET(0x18506020)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_LAMBDATYPEMUSTBEDERIVEDFROMSYSTEMDELEGATE_OFFSET UNITYSDK_OFFSET(0x185070E0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_MUSTBEREDUCIBLE_OFFSET UNITYSDK_OFFSET(0x18505FE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_MUSTREDUCETODIFFERENT_OFFSET UNITYSDK_OFFSET(0x18505AA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_NONABSTRACTCONSTRUCTORREQUIRED_OFFSET UNITYSDK_OFFSET(0x18507F20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_NONSTATICCONSTRUCTORREQUIRED_OFFSET UNITYSDK_OFFSET(0x18507EE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ONLYSTATICFIELDSHAVENULLINSTANCE_OFFSET UNITYSDK_OFFSET(0x18505E20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ONLYSTATICMETHODSHAVENULLINSTANCE_OFFSET UNITYSDK_OFFSET(0x18505EA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ONLYSTATICPROPERTIESHAVENULLINSTANCE_OFFSET UNITYSDK_OFFSET(0x18505E60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYCANNOTHAVEREFTYPE_OFFSET UNITYSDK_OFFSET(0x18505B60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYTYPECANNOTBEVOID_OFFSET UNITYSDK_OFFSET(0x18505EE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYTYPEMUSTMATCHGETTER_OFFSET UNITYSDK_OFFSET(0x18505D60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYTYPEMUSTMATCHSETTER_OFFSET UNITYSDK_OFFSET(0x18505DA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_QUOTEDEXPRESSIONMUSTBELAMBDA_OFFSET UNITYSDK_OFFSET(0x18506060)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_REDUCEDNOTCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x18505AE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_REDUCIBLEMUSTOVERRIDEREDUCE_OFFSET UNITYSDK_OFFSET(0x18505A60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_RETHROWREQUIRESCATCH_OFFSET UNITYSDK_OFFSET(0x18507D20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_SETTERHASNOPARAMS_OFFSET UNITYSDK_OFFSET(0x18505B20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_SETTERMUSTBEVOID_OFFSET UNITYSDK_OFFSET(0x18505D20)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_TRYMUSTHAVECATCHFINALLYORFAULT_OFFSET UNITYSDK_OFFSET(0x18506340)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_TYPEMUSTNOTBEBYREF_OFFSET UNITYSDK_OFFSET(0x18505CA0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_TYPEMUSTNOTBEPOINTER_OFFSET UNITYSDK_OFFSET(0x18505CE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INCORRECTNUMBEROFMETHODCALLARGUMENTS_OFFSET UNITYSDK_OFFSET(0x18508340)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INCORRECTTYPEFORTYPEAS_OFFSET UNITYSDK_OFFSET(0x18506AC0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INSTANCEANDMETHODTYPEMISMATCH_OFFSET UNITYSDK_OFFSET(0x18507550)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INSTANCEFIELDNOTDEFINEDFORTYPE_OFFSET UNITYSDK_OFFSET(0x18506EE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INSTANCEPROPERTYNOTDEFINEDFORTYPE_OFFSET UNITYSDK_OFFSET(0x185074D0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INVALIDLVALUE_OFFSET UNITYSDK_OFFSET(0x18507CB0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INVALIDNULLVALUE_OFFSET UNITYSDK_OFFSET(0x18508150)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_INVALIDOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x185081C0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_KEYDOESNOTEXISTINEXPANDO_OFFSET UNITYSDK_OFFSET(0x18506220)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_LABELTARGETALREADYDEFINED_OFFSET UNITYSDK_OFFSET(0x185079F0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_LABELTARGETUNDEFINED_OFFSET UNITYSDK_OFFSET(0x18507A60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_LOGICALOPERATORMUSTHAVEBOOLEANOPERATORS_OFFSET UNITYSDK_OFFSET(0x185077B0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_MEMBERNOTFIELDORPROPERTY_OFFSET UNITYSDK_OFFSET(0x18507120)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODCONTAINSGENERICPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18507190)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODISGENERIC_OFFSET UNITYSDK_OFFSET(0x18507200)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODNOTPROPERTYACCESSOR_OFFSET UNITYSDK_OFFSET(0x18507270)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODWITHARGSDOESNOTEXISTONTYPE_OFFSET UNITYSDK_OFFSET(0x18507830)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODWITHMORETHANONEMATCH_OFFSET UNITYSDK_OFFSET(0x18507930)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_MUSTREWRITECHILDTOSAMETYPE_OFFSET UNITYSDK_OFFSET(0x18507DE0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_MUSTREWRITETOSAMENODE_OFFSET UNITYSDK_OFFSET(0x18507D60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_MUSTREWRITEWITHOUTMETHOD_OFFSET UNITYSDK_OFFSET(0x18507E60)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_NONLOCALJUMPWITHVALUE_OFFSET UNITYSDK_OFFSET(0x18507C40)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_OPERANDTYPESDONOTMATCHPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18506710)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_OVERLOADOPERATORTYPEDOESNOTMATCHCONVERSIONTYPE_OFFSET UNITYSDK_OFFSET(0x18506790)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_PARAMETEREXPRESSIONNOTVALIDASDELEGATE_OFFSET UNITYSDK_OFFSET(0x185073D0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_PROPERTYDOESNOTHAVEACCESSOR_OFFSET UNITYSDK_OFFSET(0x18507360)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_PROPERTYDOESNOTHAVEGETTER_OFFSET UNITYSDK_OFFSET(0x185072F0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_PROPERTYNOTDEFINEDFORTYPE_OFFSET UNITYSDK_OFFSET(0x18507450)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_REFERENCEEQUALITYNOTDEFINED_OFFSET UNITYSDK_OFFSET(0x18506690)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_SAMEKEYEXISTSINEXPANDO_OFFSET UNITYSDK_OFFSET(0x185061B0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_TYPECONTAINSGENERICPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18508030)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_TYPEISGENERIC_OFFSET UNITYSDK_OFFSET(0x185080A0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_UNARYOPERATORNOTDEFINED_OFFSET UNITYSDK_OFFSET(0x18506590)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_UNHANDLEDBINARY_OFFSET UNITYSDK_OFFSET(0x185075D0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_UNHANDLEDUNARY_OFFSET UNITYSDK_OFFSET(0x18507640)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPERATORMUSTBESTATIC_OFFSET UNITYSDK_OFFSET(0x18506430)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPERATORMUSTNOTBEVOID_OFFSET UNITYSDK_OFFSET(0x185064A0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPMUSTHAVECONSISTENTTYPES_OFFSET UNITYSDK_OFFSET(0x185076B0)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPMUSTHAVEVALIDRETURNTYPE_OFFSET UNITYSDK_OFFSET(0x18507730)
+#define SYSTEM_LINQ_EXPRESSIONS_STRINGS_VARIABLEMUSTNOTBEBYREF_OFFSET UNITYSDK_OFFSET(0x185060B0)
+
+namespace System::Linq::Expressions
+{
+	inline static constexpr unsigned int Strings_TypeDefinitionIndex = 3259;
+
+	class Strings : public ::System::Object
+	{
+	public:
+		static ::System::String* get_ReducibleMustOverrideReduce()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_REDUCIBLEMUSTOVERRIDEREDUCE_OFFSET))();
+		}
+
+		static ::System::String* get_MustReduceToDifferent()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_MUSTREDUCETODIFFERENT_OFFSET))();
+		}
+
+		static ::System::String* get_ReducedNotCompatible()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_REDUCEDNOTCOMPATIBLE_OFFSET))();
+		}
+
+		static ::System::String* get_SetterHasNoParams()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_SETTERHASNOPARAMS_OFFSET))();
+		}
+
+		static ::System::String* get_PropertyCannotHaveRefType()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYCANNOTHAVEREFTYPE_OFFSET))();
+		}
+
+		static ::System::String* get_IndexesOfSetGetMustMatch()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INDEXESOFSETGETMUSTMATCH_OFFSET))();
+		}
+
+		static ::System::String* get_AccessorsCannotHaveVarArgs()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ACCESSORSCANNOTHAVEVARARGS_OFFSET))();
+		}
+
+		static ::System::String* get_AccessorsCannotHaveByRefArgs()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ACCESSORSCANNOTHAVEBYREFARGS_OFFSET))();
+		}
+
+		static ::System::String* get_BoundsCannotBeLessThanOne()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_BOUNDSCANNOTBELESSTHANONE_OFFSET))();
+		}
+
+		static ::System::String* get_TypeMustNotBeByRef()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_TYPEMUSTNOTBEBYREF_OFFSET))();
+		}
+
+		static ::System::String* get_TypeMustNotBePointer()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_TYPEMUSTNOTBEPOINTER_OFFSET))();
+		}
+
+		static ::System::String* get_SetterMustBeVoid()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_SETTERMUSTBEVOID_OFFSET))();
+		}
+
+		static ::System::String* get_PropertyTypeMustMatchGetter()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYTYPEMUSTMATCHGETTER_OFFSET))();
+		}
+
+		static ::System::String* get_PropertyTypeMustMatchSetter()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYTYPEMUSTMATCHSETTER_OFFSET))();
+		}
+
+		static ::System::String* get_BothAccessorsMustBeStatic()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_BOTHACCESSORSMUSTBESTATIC_OFFSET))();
+		}
+
+		static ::System::String* get_OnlyStaticFieldsHaveNullInstance()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ONLYSTATICFIELDSHAVENULLINSTANCE_OFFSET))();
+		}
+
+		static ::System::String* get_OnlyStaticPropertiesHaveNullInstance()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ONLYSTATICPROPERTIESHAVENULLINSTANCE_OFFSET))();
+		}
+
+		static ::System::String* get_OnlyStaticMethodsHaveNullInstance()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ONLYSTATICMETHODSHAVENULLINSTANCE_OFFSET))();
+		}
+
+		static ::System::String* get_PropertyTypeCannotBeVoid()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_PROPERTYTYPECANNOTBEVOID_OFFSET))();
+		}
+
+		static ::System::String* get_InvalidUnboxType()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INVALIDUNBOXTYPE_OFFSET))();
+		}
+
+		static ::System::String* get_ExpressionMustBeWriteable()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_EXPRESSIONMUSTBEWRITEABLE_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustNotHaveValueType()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTNOTHAVEVALUETYPE_OFFSET))();
+		}
+
+		static ::System::String* get_MustBeReducible()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_MUSTBEREDUCIBLE_OFFSET))();
+		}
+
+		static ::System::String* get_LabelMustBeVoidOrHaveExpression()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_LABELMUSTBEVOIDORHAVEEXPRESSION_OFFSET))();
+		}
+
+		static ::System::String* get_QuotedExpressionMustBeLambda()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_QUOTEDEXPRESSIONMUSTBELAMBDA_OFFSET))();
+		}
+
+		static ::System::String* get_CollectionModifiedWhileEnumerating()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_COLLECTIONMODIFIEDWHILEENUMERATING_OFFSET))();
+		}
+
+		static ::System::String* VariableMustNotBeByRef(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_VARIABLEMUSTNOTBEBYREF_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* get_CollectionReadOnly()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_COLLECTIONREADONLY_OFFSET))();
+		}
+
+		static ::System::String* AmbiguousMatchInExpandoObject(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_AMBIGUOUSMATCHINEXPANDOOBJECT_OFFSET))(p0);
+		}
+
+		static ::System::String* SameKeyExistsInExpando(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_SAMEKEYEXISTSINEXPANDO_OFFSET))(p0);
+		}
+
+		static ::System::String* KeyDoesNotExistInExpando(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_KEYDOESNOTEXISTINEXPANDO_OFFSET))(p0);
+		}
+
+		static ::System::String* DuplicateVariable(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_DUPLICATEVARIABLE_OFFSET))(p0);
+		}
+
+		static ::System::String* get_FaultCannotHaveCatchOrFinally()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_FAULTCANNOTHAVECATCHORFINALLY_OFFSET))();
+		}
+
+		static ::System::String* get_TryMustHaveCatchFinallyOrFault()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_TRYMUSTHAVECATCHFINALLYORFAULT_OFFSET))();
+		}
+
+		static ::System::String* get_BodyOfCatchMustHaveSameTypeAsBodyOfTry()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_BODYOFCATCHMUSTHAVESAMETYPEASBODYOFTRY_OFFSET))();
+		}
+
+		static ::System::String* ExtensionNodeMustOverrideProperty(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXTENSIONNODEMUSTOVERRIDEPROPERTY_OFFSET))(p0);
+		}
+
+		static ::System::String* UserDefinedOperatorMustBeStatic(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPERATORMUSTBESTATIC_OFFSET))(p0);
+		}
+
+		static ::System::String* UserDefinedOperatorMustNotBeVoid(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPERATORMUSTNOTBEVOID_OFFSET))(p0);
+		}
+
+		static ::System::String* CoercionOperatorNotDefined(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_COERCIONOPERATORNOTDEFINED_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* UnaryOperatorNotDefined(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_UNARYOPERATORNOTDEFINED_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* BinaryOperatorNotDefined(::System::Object* p0, ::System::Object* p1, ::System::Object* p2)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_BINARYOPERATORNOTDEFINED_OFFSET))(p0, p1, p2);
+		}
+
+		static ::System::String* ReferenceEqualityNotDefined(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_REFERENCEEQUALITYNOTDEFINED_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* OperandTypesDoNotMatchParameters(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_OPERANDTYPESDONOTMATCHPARAMETERS_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* OverloadOperatorTypeDoesNotMatchConversionType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_OVERLOADOPERATORTYPEDOESNOTMATCHCONVERSIONTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* get_ConversionIsNotSupportedForArithmeticTypes()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONVERSIONISNOTSUPPORTEDFORARITHMETICTYPES_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeArray()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEARRAY_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeBoolean()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEBOOLEAN_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeFieldInfoOrPropertyInfoOrMethod()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEFIELDINFOORPROPERTYINFOORMETHOD_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeInstanceMember()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEINSTANCEMEMBER_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeInteger()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEINTEGER_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeArrayIndexType()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBEARRAYINDEXTYPE_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentMustBeSingleDimensionalArrayType()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTMUSTBESINGLEDIMENSIONALARRAYTYPE_OFFSET))();
+		}
+
+		static ::System::String* get_ArgumentTypesMustMatch()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTTYPESMUSTMATCH_OFFSET))();
+		}
+
+		static ::System::String* CannotAutoInitializeValueTypeMemberThroughProperty(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_CANNOTAUTOINITIALIZEVALUETYPEMEMBERTHROUGHPROPERTY_OFFSET))(p0);
+		}
+
+		static ::System::String* IncorrectTypeForTypeAs(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INCORRECTTYPEFORTYPEAS_OFFSET))(p0);
+		}
+
+		static ::System::String* get_CoalesceUsedOnNonNullType()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_COALESCEUSEDONNONNULLTYPE_OFFSET))();
+		}
+
+		static ::System::String* ExpressionTypeCannotInitializeArrayType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPECANNOTINITIALIZEARRAYTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ArgumentTypeDoesNotMatchMember(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_ARGUMENTTYPEDOESNOTMATCHMEMBER_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ArgumentMemberNotDeclOnType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_ARGUMENTMEMBERNOTDECLONTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ExpressionTypeDoesNotMatchReturn(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHRETURN_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ExpressionTypeDoesNotMatchAssignment(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHASSIGNMENT_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ExpressionTypeDoesNotMatchLabel(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHLABEL_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ExpressionTypeNotInvocable(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPENOTINVOCABLE_OFFSET))(p0);
+		}
+
+		static ::System::String* InstanceFieldNotDefinedForType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INSTANCEFIELDNOTDEFINEDFORTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* FieldInfoNotDefinedForType(::System::Object* p0, ::System::Object* p1, ::System::Object* p2)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_FIELDINFONOTDEFINEDFORTYPE_OFFSET))(p0, p1, p2);
+		}
+
+		static ::System::String* get_IncorrectNumberOfIndexes()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFINDEXES_OFFSET))();
+		}
+
+		static ::System::String* get_IncorrectNumberOfLambdaDeclarationParameters()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFLAMBDADECLARATIONPARAMETERS_OFFSET))();
+		}
+
+		static ::System::String* get_IncorrectNumberOfMembersForGivenConstructor()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFMEMBERSFORGIVENCONSTRUCTOR_OFFSET))();
+		}
+
+		static ::System::String* get_IncorrectNumberOfArgumentsForMembers()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFARGUMENTSFORMEMBERS_OFFSET))();
+		}
+
+		static ::System::String* get_LambdaTypeMustBeDerivedFromSystemDelegate()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_LAMBDATYPEMUSTBEDERIVEDFROMSYSTEMDELEGATE_OFFSET))();
+		}
+
+		static ::System::String* MemberNotFieldOrProperty(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_MEMBERNOTFIELDORPROPERTY_OFFSET))(p0);
+		}
+
+		static ::System::String* MethodContainsGenericParameters(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODCONTAINSGENERICPARAMETERS_OFFSET))(p0);
+		}
+
+		static ::System::String* MethodIsGeneric(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODISGENERIC_OFFSET))(p0);
+		}
+
+		static ::System::String* MethodNotPropertyAccessor(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODNOTPROPERTYACCESSOR_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* PropertyDoesNotHaveGetter(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_PROPERTYDOESNOTHAVEGETTER_OFFSET))(p0);
+		}
+
+		static ::System::String* PropertyDoesNotHaveAccessor(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_PROPERTYDOESNOTHAVEACCESSOR_OFFSET))(p0);
+		}
+
+		static ::System::String* ParameterExpressionNotValidAsDelegate(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_PARAMETEREXPRESSIONNOTVALIDASDELEGATE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* PropertyNotDefinedForType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_PROPERTYNOTDEFINEDFORTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* InstancePropertyNotDefinedForType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INSTANCEPROPERTYNOTDEFINEDFORTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* InstanceAndMethodTypeMismatch(::System::Object* p0, ::System::Object* p1, ::System::Object* p2)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INSTANCEANDMETHODTYPEMISMATCH_OFFSET))(p0, p1, p2);
+		}
+
+		static ::System::String* UnhandledBinary(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_UNHANDLEDBINARY_OFFSET))(p0);
+		}
+
+		static ::System::String* UnhandledUnary(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_UNHANDLEDUNARY_OFFSET))(p0);
+		}
+
+		static ::System::String* UserDefinedOpMustHaveConsistentTypes(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPMUSTHAVECONSISTENTTYPES_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* UserDefinedOpMustHaveValidReturnType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_USERDEFINEDOPMUSTHAVEVALIDRETURNTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* LogicalOperatorMustHaveBooleanOperators(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_LOGICALOPERATORMUSTHAVEBOOLEANOPERATORS_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* MethodWithArgsDoesNotExistOnType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODWITHARGSDOESNOTEXISTONTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* GenericMethodWithArgsDoesNotExistOnType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GENERICMETHODWITHARGSDOESNOTEXISTONTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* MethodWithMoreThanOneMatch(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_METHODWITHMORETHANONEMATCH_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* get_ArgumentCannotBeOfTypeVoid()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ARGUMENTCANNOTBEOFTYPEVOID_OFFSET))();
+		}
+
+		static ::System::String* LabelTargetAlreadyDefined(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_LABELTARGETALREADYDEFINED_OFFSET))(p0);
+		}
+
+		static ::System::String* LabelTargetUndefined(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_LABELTARGETUNDEFINED_OFFSET))(p0);
+		}
+
+		static ::System::String* get_ControlCannotLeaveFinally()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTLEAVEFINALLY_OFFSET))();
+		}
+
+		static ::System::String* get_ControlCannotLeaveFilterTest()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTLEAVEFILTERTEST_OFFSET))();
+		}
+
+		static ::System::String* AmbiguousJump(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_AMBIGUOUSJUMP_OFFSET))(p0);
+		}
+
+		static ::System::String* get_ControlCannotEnterTry()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTENTERTRY_OFFSET))();
+		}
+
+		static ::System::String* get_ControlCannotEnterExpression()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_CONTROLCANNOTENTEREXPRESSION_OFFSET))();
+		}
+
+		static ::System::String* NonLocalJumpWithValue(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_NONLOCALJUMPWITHVALUE_OFFSET))(p0);
+		}
+
+		static ::System::String* InvalidLvalue(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INVALIDLVALUE_OFFSET))(p0);
+		}
+
+		static ::System::String* get_RethrowRequiresCatch()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_RETHROWREQUIRESCATCH_OFFSET))();
+		}
+
+		static ::System::String* MustRewriteToSameNode(::System::Object* p0, ::System::Object* p1, ::System::Object* p2)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_MUSTREWRITETOSAMENODE_OFFSET))(p0, p1, p2);
+		}
+
+		static ::System::String* MustRewriteChildToSameType(::System::Object* p0, ::System::Object* p1, ::System::Object* p2)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_MUSTREWRITECHILDTOSAMETYPE_OFFSET))(p0, p1, p2);
+		}
+
+		static ::System::String* MustRewriteWithoutMethod(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_MUSTREWRITEWITHOUTMETHOD_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* get_NonStaticConstructorRequired()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_NONSTATICCONSTRUCTORREQUIRED_OFFSET))();
+		}
+
+		static ::System::String* get_NonAbstractConstructorRequired()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_NONABSTRACTCONSTRUCTORREQUIRED_OFFSET))();
+		}
+
+		static ::System::String* get_ExpressionMustBeReadable()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_EXPRESSIONMUSTBEREADABLE_OFFSET))();
+		}
+
+		static ::System::String* ExpressionTypeDoesNotMatchConstructorParameter(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHCONSTRUCTORPARAMETER_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* get_EnumerationIsDone()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_ENUMERATIONISDONE_OFFSET))();
+		}
+
+		static ::System::String* TypeContainsGenericParameters(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_TYPECONTAINSGENERICPARAMETERS_OFFSET))(p0);
+		}
+
+		static ::System::String* TypeIsGeneric(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_TYPEISGENERIC_OFFSET))(p0);
+		}
+
+		static ::System::String* get_InvalidArgumentValue()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INVALIDARGUMENTVALUE_OFFSET))();
+		}
+
+		static ::System::String* InvalidNullValue(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INVALIDNULLVALUE_OFFSET))(p0);
+		}
+
+		static ::System::String* InvalidObjectType(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INVALIDOBJECTTYPE_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* ExpressionTypeDoesNotMatchMethodParameter(::System::Object* p0, ::System::Object* p1, ::System::Object* p2)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHMETHODPARAMETER_OFFSET))(p0, p1, p2);
+		}
+
+		static ::System::String* ExpressionTypeDoesNotMatchParameter(::System::Object* p0, ::System::Object* p1)
+		{
+			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_EXPRESSIONTYPEDOESNOTMATCHPARAMETER_OFFSET))(p0, p1);
+		}
+
+		static ::System::String* IncorrectNumberOfMethodCallArguments(::System::Object* p0)
+		{
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_INCORRECTNUMBEROFMETHODCALLARGUMENTS_OFFSET))(p0);
+		}
+
+		static ::System::String* get_IncorrectNumberOfLambdaArguments()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFLAMBDAARGUMENTS_OFFSET))();
+		}
+
+		static ::System::String* get_IncorrectNumberOfConstructorArguments()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_STRINGS_GET_INCORRECTNUMBEROFCONSTRUCTORARGUMENTS_OFFSET))();
+		}
+	};
+}

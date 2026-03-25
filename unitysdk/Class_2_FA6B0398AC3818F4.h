@@ -1,0 +1,146 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+
+class Class_1_99BD961747420BEB_30;
+class Class_1_B1FF62FAE312BC49_7;
+class Class_1_ECA6A21F0048224D;
+class Class_1_FA4F4A67B1C04320_373;
+namespace RPG::Client { class GridFightPortalEffectData; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define CLASS_2_FA6B0398AC3818F4_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xA9EA7C0)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEADDFORGE_OFFSET UNITYSDK_OFFSET(0xA9EAC60)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xA9EAB80)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEADDROLE_OFFSET UNITYSDK_OFFSET(0xA9EAAA0)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xA9EACD0)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xA9EA810)
+#define CLASS_2_FA6B0398AC3818F4_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0xA9EA9B0)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEITEM_OFFSET UNITYSDK_OFFSET(0xA9EABF0)
+#define CLASS_2_FA6B0398AC3818F4_UPDATELEVELANDEXP_OFFSET UNITYSDK_OFFSET(0xA9EAA20)
+#define CLASS_2_FA6B0398AC3818F4_UPDATEORB_OFFSET UNITYSDK_OFFSET(0xA9EAB10)
+#define CLASS_2_FA6B0398AC3818F4__CTOR_OFFSET UNITYSDK_OFFSET(0xA9EAD60)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xA9EAD70)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEADDFORGE_OFFSET UNITYSDK_OFFSET(0xA9EB0F0)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xA9EB010)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEADDROLE_OFFSET UNITYSDK_OFFSET(0xA9EAF30)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xA9EB160)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xA9EADE0)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0xA9EAE50)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEITEM_OFFSET UNITYSDK_OFFSET(0xA9EB080)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATELEVELANDEXP_OFFSET UNITYSDK_OFFSET(0xA9EAEC0)
+#define CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEORB_OFFSET UNITYSDK_OFFSET(0xA9EAFA0)
+
+inline static constexpr unsigned int Class_2_FA6B0398AC3818F4_TypeDefinitionIndex = 52295;
+
+class Class_2_FA6B0398AC3818F4 : public ::Class_1_41E07A9DDAB7FC78
+{
+public:
+	::RPG::Client::GridFightPortalEffectData* Field_2_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_ISCONCERNEDWITH_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEBEFORE_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void UpdateCoin(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATECOIN_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateLevelAndExp(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATELEVELANDEXP_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void UpdateAddRole(::Class_1_B1FF62FAE312BC49_7* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_B1FF62FAE312BC49_7*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEADDROLE_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateOrb(::Class_1_FA4F4A67B1C04320_373* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_373*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEORB_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateAddItem(::Class_1_ECA6A21F0048224D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEADDITEM_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateItem(::Class_1_ECA6A21F0048224D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEITEM_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateAddForge(::Class_1_99BD961747420BEB_30* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_30*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEADDFORGE_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateAfter(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4_UPDATEAFTER_OFFSET))(this, a1);
+	}
+
+	::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 P0)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 P0, ::System::Collections::Generic::IList_1<::System::UInt32>* P1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEBEFORE_OFFSET))(this, P0, P1);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateCoin(::System::UInt32 P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATECOIN_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateLevelAndExp(::System::UInt32 P0, ::System::UInt32 P1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATELEVELANDEXP_OFFSET))(this, P0, P1);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateAddRole(::Class_1_B1FF62FAE312BC49_7* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_B1FF62FAE312BC49_7*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEADDROLE_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateOrb(::Class_1_FA4F4A67B1C04320_373* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_373*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEORB_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateAddItem(::Class_1_ECA6A21F0048224D* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEADDITEM_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateItem(::Class_1_ECA6A21F0048224D* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_ECA6A21F0048224D*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEITEM_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateAddForge(::Class_1_99BD961747420BEB_30* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_30*))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEADDFORGE_OFFSET))(this, P0);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateAfter(::Enum_3_75A5C8C4100A8E33_1 P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_FA6B0398AC3818F4___IFIXBASEPROXY_UPDATEAFTER_OFFSET))(this, P0);
+	}
+};

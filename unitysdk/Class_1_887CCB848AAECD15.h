@@ -1,0 +1,123 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FormationPriorityType.h"
+#include "unitysdk/Struct_2_0347AE3FB0036865.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace RPG::GameCore { class FormationAssetConfig; }
+namespace RPG::GameCore { class FormationData; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class GameEntityList; }
+namespace RPG::GameCore { class GameWorld; }
+namespace RPG::GameCore { class LocationData; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_887CCB848AAECD15_DISPOSE_OFFSET UNITYSDK_OFFSET(0x104FE5B0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_1980616306940A88_OFFSET UNITYSDK_OFFSET(0x10502180)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_2849C4BE5E07C923_OFFSET UNITYSDK_OFFSET(0x10501CF0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_476A0C9A76106F66_OFFSET UNITYSDK_OFFSET(0x10501110)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_49ADA46607FD0232_OFFSET UNITYSDK_OFFSET(0x10501EC0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_4D8F822218F30546_OFFSET UNITYSDK_OFFSET(0x10501B30)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_546C265D27DB384D_OFFSET UNITYSDK_OFFSET(0x10501FD0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_86143FF46EAE82B7_OFFSET UNITYSDK_OFFSET(0x104FEBB0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_875B5A2C484EB12F_OFFSET UNITYSDK_OFFSET(0x104FED70)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_9C2F115C90B3A631_OFFSET UNITYSDK_OFFSET(0x10502460)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_BD80C6357E7F49AB_OFFSET UNITYSDK_OFFSET(0x104FEA10)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_E59814C03DDCB2BD_OFFSET UNITYSDK_OFFSET(0x104FECA0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_EB313FC0143FF24A_OFFSET UNITYSDK_OFFSET(0x10501450)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_F0459A000D3888AC_OFFSET UNITYSDK_OFFSET(0x104FEE60)
+#define CLASS_1_887CCB848AAECD15__CTOR_OFFSET UNITYSDK_OFFSET(0x104FE690)
+
+inline static constexpr unsigned int Class_1_887CCB848AAECD15_TypeDefinitionIndex = 47954;
+
+class Class_1_887CCB848AAECD15 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::RPG::GameCore::FormationAssetConfig*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::Struct_2_0347AE3FB0036865>* Field_1_4; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::GameEntityList*>* Field_1_5; // 0x20
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_2; // 0x28
+	::System::String* Field_1_6; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FormationData*>* Field_1_3; // 0x38
+	::RPG::GameCore::GameWorld* Field_1_0; // 0x40
+
+	::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_DISPOSE_OFFSET))(this);
+	}
+
+	::RPG::GameCore::GameEntityList* Method_1_BD80C6357E7F49AB(::System::String* a1)
+	{
+		return ((::RPG::GameCore::GameEntityList*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_BD80C6357E7F49AB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_86143FF46EAE82B7(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_86143FF46EAE82B7_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::GameEntityList* Method_1_E59814C03DDCB2BD(::System::String* a1)
+	{
+		return ((::RPG::GameCore::GameEntityList*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_E59814C03DDCB2BD_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FormationData* Method_1_875B5A2C484EB12F(::System::String* a1)
+	{
+		return ((::RPG::GameCore::FormationData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_875B5A2C484EB12F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_F0459A000D3888AC(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a3, ::System::String* a4, ::System::Boolean a5, ::RPG::GameCore::TaskContext* a6, ::System::Boolean a7)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::String*, ::System::Boolean, ::RPG::GameCore::TaskContext*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_F0459A000D3888AC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+	}
+
+	::System::Void Method_1_EB313FC0143FF24A(::RPG::GameCore::TaskContext* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Quaternion a4, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a5, ::RPG::GameCore::FormationData* a6)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Int32, ::System::Int32, ::UnityEngine::Quaternion, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::FormationData*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_EB313FC0143FF24A_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+	}
+
+	::System::Void Method_1_4D8F822218F30546(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_4D8F822218F30546_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::RPG::GameCore::GameEntity* Method_1_476A0C9A76106F66(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::RPG::GameCore::LocationData* a3, ::RPG::GameCore::TaskContext* a4)
+	{
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::LocationData*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_476A0C9A76106F66_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Int32 Method_1_2849C4BE5E07C923(::RPG::GameCore::FormationPriorityType a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::FormationPriorityType, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_2849C4BE5E07C923_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 Method_1_49ADA46607FD0232(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_49ADA46607FD0232_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_546C265D27DB384D(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::RPG::GameCore::TaskContext* a3)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_546C265D27DB384D_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Int32 Method_1_1980616306940A88(::System::Int32 a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a3, ::RPG::GameCore::TaskContext* a4)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_1980616306940A88_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Int32 Method_1_9C2F115C90B3A631(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::RPG::GameCore::TaskContext* a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_9C2F115C90B3A631_OFFSET))(this, a1, a2);
+	}
+};

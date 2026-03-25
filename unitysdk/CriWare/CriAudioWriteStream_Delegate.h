@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11A32580)
+#define CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11A325E0)
+#define CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x11A32000)
+#define CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A32560)
+
+namespace CriWare
+{
+	inline static constexpr unsigned int CriAudioWriteStream_Delegate_TypeDefinitionIndex = 31117;
+
+	class CriAudioWriteStream_Delegate : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE__CTOR_OFFSET))(this, object, method);
+		}
+
+		::System::UInt32 Invoke(::Il2CppArray<::Il2CppArray<::System::Single>*>* buffer, ::System::UInt32 numSamples)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::Il2CppArray<::System::Single>*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE_INVOKE_OFFSET))(this, buffer, numSamples);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::Il2CppArray<::System::Single>*>* buffer, ::System::UInt32 numSamples, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::Il2CppArray<::System::Single>*>*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE_BEGININVOKE_OFFSET))(this, buffer, numSamples, callback, object);
+		}
+
+		::System::UInt32 EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOWRITESTREAM_DELEGATE_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

@@ -1,0 +1,141 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_CAKERACESTATIC_GETACTIVITYREWARDID_OFFSET UNITYSDK_OFFSET(0x924E480)
+#define RPG_CLIENT_CAKERACESTATIC_GETCURLOANPERFORMENCEID_OFFSET UNITYSDK_OFFSET(0x924EE20)
+#define RPG_CLIENT_CAKERACESTATIC_GETSCORERANKRATIO_OFFSET UNITYSDK_OFFSET(0x924EFC0)
+#define RPG_CLIENT_CAKERACESTATIC_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0x924E470)
+#define RPG_CLIENT_CAKERACESTATIC_GET_BETRATIOSHOWSPECIAL_OFFSET UNITYSDK_OFFSET(0x924ED10)
+#define RPG_CLIENT_CAKERACESTATIC_GET_CAMERACHANGEFOLLOWTIME_OFFSET UNITYSDK_OFFSET(0x924E8D0)
+#define RPG_CLIENT_CAKERACESTATIC_GET_CHAMPIONCAMERACHANGETIME_OFFSET UNITYSDK_OFFSET(0x924EC00)
+#define RPG_CLIENT_CAKERACESTATIC_GET_CHAMPIONCAMERASHOWTIME_OFFSET UNITYSDK_OFFSET(0x924EAF0)
+#define RPG_CLIENT_CAKERACESTATIC_GET_COINITEMICON128SIZEPATH_OFFSET UNITYSDK_OFFSET(0x924E210)
+#define RPG_CLIENT_CAKERACESTATIC_GET_COINITEMICONPATH_OFFSET UNITYSDK_OFFSET(0x924E160)
+#define RPG_CLIENT_CAKERACESTATIC_GET_COINITEMID_OFFSET UNITYSDK_OFFSET(0x9248D10)
+#define RPG_CLIENT_CAKERACESTATIC_GET_COINITEMLIMIT_OFFSET UNITYSDK_OFFSET(0x924E550)
+#define RPG_CLIENT_CAKERACESTATIC_GET_ENTRANCEID_OFFSET UNITYSDK_OFFSET(0x924E850)
+#define RPG_CLIENT_CAKERACESTATIC_GET_ENTRANCEMAPINFOID_OFFSET UNITYSDK_OFFSET(0x924E770)
+#define RPG_CLIENT_CAKERACESTATIC_GET_HIGHWINRATETHRESHOLD_OFFSET UNITYSDK_OFFSET(0x923E140)
+#define RPG_CLIENT_CAKERACESTATIC_GET_LOWWINRATETHRESHOLD_OFFSET UNITYSDK_OFFSET(0x923E2A0)
+#define RPG_CLIENT_CAKERACESTATIC_GET_SCOREITEMICONPATH_OFFSET UNITYSDK_OFFSET(0x924E2C0)
+#define RPG_CLIENT_CAKERACESTATIC_GET_SCOREITEMID_OFFSET UNITYSDK_OFFSET(0x924A880)
+#define RPG_CLIENT_CAKERACESTATIC_GET_SCOREITEMLIMIT_OFFSET UNITYSDK_OFFSET(0x924E660)
+#define RPG_CLIENT_CAKERACESTATIC_GET_SHOWSECTIONENDTOASTTIME_OFFSET UNITYSDK_OFFSET(0x924E9E0)
+#define RPG_CLIENT_CAKERACESTATIC_GET_SPECIALBETRATIO_OFFSET UNITYSDK_OFFSET(0x924E370)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CakeRaceStatic_TypeDefinitionIndex = 51125;
+
+	class CakeRaceStatic : public ::System::Object
+	{
+	public:
+		static ::System::UInt32 get_CoinItemID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_COINITEMID_OFFSET))();
+		}
+
+		static ::System::UInt32 get_ScoreItemID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_SCOREITEMID_OFFSET))();
+		}
+
+		static ::System::String* get_CoinItemIconPath()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_COINITEMICONPATH_OFFSET))();
+		}
+
+		static ::System::String* get_CoinItemIcon128SizePath()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_COINITEMICON128SIZEPATH_OFFSET))();
+		}
+
+		static ::System::String* get_ScoreItemIconPath()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_SCOREITEMICONPATH_OFFSET))();
+		}
+
+		static ::System::UInt32 get_SpecialBetRatio()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_SPECIALBETRATIO_OFFSET))();
+		}
+
+		static ::System::UInt32 get_ActivityID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_ACTIVITYID_OFFSET))();
+		}
+
+		static ::System::UInt32 GetActivityRewardID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GETACTIVITYREWARDID_OFFSET))();
+		}
+
+		static ::System::UInt32 get_CoinItemLimit()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_COINITEMLIMIT_OFFSET))();
+		}
+
+		static ::System::UInt32 get_ScoreItemLimit()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_SCOREITEMLIMIT_OFFSET))();
+		}
+
+		static ::System::UInt32 get_EntranceMapInfoID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_ENTRANCEMAPINFOID_OFFSET))();
+		}
+
+		static ::System::UInt32 get_EntranceID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_ENTRANCEID_OFFSET))();
+		}
+
+		static ::System::Single get_CameraChangeFollowTime()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_CAMERACHANGEFOLLOWTIME_OFFSET))();
+		}
+
+		static ::System::UInt32 get_ShowSectionEndToastTime()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_SHOWSECTIONENDTOASTTIME_OFFSET))();
+		}
+
+		static ::System::UInt32 get_ChampionCameraShowTime()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_CHAMPIONCAMERASHOWTIME_OFFSET))();
+		}
+
+		static ::System::UInt32 get_ChampionCameraChangeTime()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_CHAMPIONCAMERACHANGETIME_OFFSET))();
+		}
+
+		static ::System::Single get_BetRatioShowSpecial()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_BETRATIOSHOWSPECIAL_OFFSET))();
+		}
+
+		static ::System::Single get_HighWinRateThreshold()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_HIGHWINRATETHRESHOLD_OFFSET))();
+		}
+
+		static ::System::Single get_LowWinRateThreshold()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GET_LOWWINRATETHRESHOLD_OFFSET))();
+		}
+
+		static ::System::UInt32 GetCurLoanPerformenceID(::System::UInt32 takenCount)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GETCURLOANPERFORMENCEID_OFFSET))(takenCount);
+		}
+
+		static ::System::Single GetScoreRankRatio(::System::UInt32 rank)
+		{
+			return ((::System::Single(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTATIC_GETSCORERANKRATIO_OFFSET))(rank);
+		}
+	};
+}

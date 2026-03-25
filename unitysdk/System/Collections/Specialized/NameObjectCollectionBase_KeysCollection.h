@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Array; }
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Specialized { class NameObjectCollectionBase; }
+
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1867B630)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1867B690)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_SYSTEM_COLLECTIONS_ICOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1867B6C0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_SYSTEM_COLLECTIONS_ICOLLECTION_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1867BAF0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_SYSTEM_COLLECTIONS_ICOLLECTION_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1867BA40)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1867BB00)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1867B5D0)
+
+namespace System::Collections::Specialized
+{
+	inline static constexpr unsigned int NameObjectCollectionBase_KeysCollection_TypeDefinitionIndex = 2985;
+
+	class NameObjectCollectionBase_KeysCollection : public ::System::Object
+	{
+	public:
+		::System::Collections::Specialized::NameObjectCollectionBase* _coll; // 0x10
+
+		::System::Void _ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Specialized::NameObjectCollectionBase*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION__CTOR_OFFSET))(this, coll);
+		}
+
+		::System::Void _ctor_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION__CTOR_1_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_Count()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_GET_COUNT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_ICollection_CopyTo(::System::Array* array, ::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_SYSTEM_COLLECTIONS_ICOLLECTION_COPYTO_OFFSET))(this, array, index);
+		}
+
+		::System::Object* System_Collections_ICollection_get_SyncRoot()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_SYSTEM_COLLECTIONS_ICOLLECTION_GET_SYNCROOT_OFFSET))(this);
+		}
+
+		::System::Boolean System_Collections_ICollection_get_IsSynchronized()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_KEYSCOLLECTION_SYSTEM_COLLECTIONS_ICOLLECTION_GET_ISSYNCHRONIZED_OFFSET))(this);
+		}
+	};
+}

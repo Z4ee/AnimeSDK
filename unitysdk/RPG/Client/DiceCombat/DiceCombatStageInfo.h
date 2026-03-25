@@ -1,0 +1,249 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/DiceCombatStageFirstType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_A490049D11FC7AE7;
+namespace RPG::Client { class DiceCombatModule; }
+namespace RPG::Client::DiceCombat { class DiceCombatConfigAvatarInfo; }
+namespace RPG::Client::DiceCombat { class DiceCombatSpecialRuleGroupData; }
+namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
+namespace RPG::GameCore { class ActivityDiceCombatStageRow; }
+namespace RPG::GameCore { class DiceCombatCampaignConfigRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_CHECKPRESETSTAGESKIP_OFFSET UNITYSDK_OFFSET(0x9487200)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x9486990)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_CAMPAIGNPROGRESSTITLE_OFFSET UNITYSDK_OFFSET(0x9487590)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_CAMPAIGNPROGRESS_OFFSET UNITYSDK_OFFSET(0x9487540)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYAVATARID_OFFSET UNITYSDK_OFFSET(0x9487370)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9487030)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYAVATARLEVEL_OFFSET UNITYSDK_OFFSET(0x9487390)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYICONPATH_OFFSET UNITYSDK_OFFSET(0x9486ED0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYMAINPAGEIMGPATH_OFFSET UNITYSDK_OFFSET(0x9487480)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYMAINPAGESILHOUETTEPATH_OFFSET UNITYSDK_OFFSET(0x94874E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYNAME_OFFSET UNITYSDK_OFFSET(0x9478DF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYPROGRESSICONPATH_OFFSET UNITYSDK_OFFSET(0x9486FD0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENTERPROGRESSBOAST_OFFSET UNITYSDK_OFFSET(0x9487610)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_EXITMAINPAGEONFINISH_OFFSET UNITYSDK_OFFSET(0x9487810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_EXITPROGRESSBOAST_OFFSET UNITYSDK_OFFSET(0x9487790)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_FIRSTTYPE_OFFSET UNITYSDK_OFFSET(0x94873F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_GROUPENTITYID_OFFSET UNITYSDK_OFFSET(0x9487430)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_HARDLEVEL_OFFSET UNITYSDK_OFFSET(0x94873D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_HASSPECIALRULE_OFFSET UNITYSDK_OFFSET(0x9487050)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISCAMPAIGN_OFFSET UNITYSDK_OFFSET(0x9486CF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x947FD20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISPRESETSTAGE_OFFSET UNITYSDK_OFFSET(0x94871F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x9487120)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_LOSEBATTLEBOAST_OFFSET UNITYSDK_OFFSET(0x9487690)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_MUSTLOSE_OFFSET UNITYSDK_OFFSET(0x9487870)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_PLAYERINITAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9486BB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_RECOMMENDAVATARLIST_OFFSET UNITYSDK_OFFSET(0x9487410)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_REWARDID_OFFSET UNITYSDK_OFFSET(0x94873B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_SPECIALRULEGROUPDATAS_OFFSET UNITYSDK_OFFSET(0x94870B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x94871D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_SUBMISSONID_OFFSET UNITYSDK_OFFSET(0x94870C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_WINBATTLEBOAST_OFFSET UNITYSDK_OFFSET(0x9487710)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET__DICECOMBATMODULE_OFFSET UNITYSDK_OFFSET(0x9486D00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_SETNOTINACTIVITYENEMYNAME_OFFSET UNITYSDK_OFFSET(0x9487310)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_SET_ENEMYAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9487040)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9486B80)
+
+namespace RPG::Client::DiceCombat
+{
+	inline static constexpr unsigned int DiceCombatStageInfo_TypeDefinitionIndex = 61929;
+
+	class DiceCombatStageInfo : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::DiceCombatCampaignConfigRow* _CampaignRow; // 0x10
+		::RPG::Client::DiceCombat::DiceCombatConfigAvatarInfo* _EnemyAvatarInfo_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>* _SpecialRuleGroupDatas; // 0x20
+		::RPG::Client::DiceCombat::DiceCombatConfigAvatarInfo* _PresetPlayerAvatarInfo; // 0x28
+		::Class_1_A490049D11FC7AE7* _PresetRow; // 0x30
+		::RPG::GameCore::ActivityDiceCombatStageRow* _StageRow; // 0x38
+		::RPG::Client::TextID _NotInActivityEnemyName; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::DiceCombat::DiceCombatStageInfo* Create(::System::UInt32 stageID)
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatStageInfo*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_CREATE_OFFSET))(stageID);
+		}
+
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* get_PlayerInitAvatarInfo()
+		{
+			return ((::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_PLAYERINITAVATARINFO_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EnemyName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYNAME_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyProgressIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYPROGRESSICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::DiceCombat::DiceCombatConfigAvatarInfo* get_EnemyAvatarInfo()
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatConfigAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYAVATARINFO_OFFSET))(this);
+		}
+
+		::System::Void set_EnemyAvatarInfo(::RPG::Client::DiceCombat::DiceCombatConfigAvatarInfo* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatConfigAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_SET_ENEMYAVATARINFO_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_HasSpecialRule()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_HASSPECIALRULE_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>* get_SpecialRuleGroupDatas()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_SPECIALRULEGROUPDATAS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDone()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISDONE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsRewardTaken()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISREWARDTAKEN_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPresetStage()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISPRESETSTAGE_OFFSET))(this);
+		}
+
+		::System::Boolean CheckPresetStageSkip()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_CHECKPRESETSTAGESKIP_OFFSET))(this);
+		}
+
+		::System::Void SetNotInActivityEnemyName(::RPG::Client::TextID name)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_SETNOTINACTIVITYENEMYNAME_OFFSET))(this, name);
+		}
+
+		::System::UInt32 get_StageID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_STAGEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EnemyAvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYAVATARID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EnemyAvatarLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYAVATARLEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RewardID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_REWARDID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_HardLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_HARDLEVEL_OFFSET))(this);
+		}
+
+		::RPG::GameCore::DiceCombatStageFirstType get_FirstType()
+		{
+			return ((::RPG::GameCore::DiceCombatStageFirstType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_FIRSTTYPE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_RecommendAvatarList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_RECOMMENDAVATARLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsCampaign()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ISCAMPAIGN_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SubMissonID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_SUBMISSONID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_GroupEntityID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_GROUPENTITYID_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyMainPageImgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYMAINPAGEIMGPATH_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyMainPageSilhouettePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENEMYMAINPAGESILHOUETTEPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CampaignProgress()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_CAMPAIGNPROGRESS_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_CampaignProgressTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_CAMPAIGNPROGRESSTITLE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_EnterProgressBoast()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_ENTERPROGRESSBOAST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_LoseBattleBoast()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_LOSEBATTLEBOAST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_WinBattleBoast()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_WINBATTLEBOAST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ExitProgressBoast()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_EXITPROGRESSBOAST_OFFSET))(this);
+		}
+
+		::System::Boolean get_ExitMainPageOnFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_EXITMAINPAGEONFINISH_OFFSET))(this);
+		}
+
+		::System::Boolean get_MustLose()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET_MUSTLOSE_OFFSET))(this);
+		}
+
+		::RPG::Client::DiceCombatModule* get__DiceCombatModule()
+		{
+			return ((::RPG::Client::DiceCombatModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTAGEINFO_GET__DICECOMBATMODULE_OFFSET))(this);
+		}
+	};
+}

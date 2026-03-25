@@ -1,0 +1,120 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/Resources/UltimateResourceFallbackLocation.h"
+
+namespace System { class String; }
+namespace System { class Type; }
+namespace System { class Version; }
+namespace System::Globalization { class CultureInfo; }
+namespace System::Reflection { class Assembly; }
+namespace System::Reflection { class RuntimeAssembly; }
+namespace System::Resources { class ResourceManager; }
+
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GETRESOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0x16382AE0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_BASENAMEFIELD_OFFSET UNITYSDK_OFFSET(0x16382C60)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_BASENAME_OFFSET UNITYSDK_OFFSET(0x16385E80)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_CALLINGASSEMBLY_OFFSET UNITYSDK_OFFSET(0x163855B0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_FALLBACKLOC_OFFSET UNITYSDK_OFFSET(0x16383800)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_LOCATIONINFO_OFFSET UNITYSDK_OFFSET(0x16382C80)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_LOOKEDFORSATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x16385A00)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_MAINASSEMBLY_OFFSET UNITYSDK_OFFSET(0x16383820)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_MODULEDIR_OFFSET UNITYSDK_OFFSET(0x16382FD0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_NEUTRALRESOURCESCULTURE_OFFSET UNITYSDK_OFFSET(0x16385050)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_SATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x16385BB0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_USERRESOURCESET_OFFSET UNITYSDK_OFFSET(0x16382FF0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_OBTAINSATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x16385A20)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_SET_LOOKEDFORSATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x16385AA0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_SET_SATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x16385A80)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x163866F0)
+
+namespace System::Resources
+{
+	inline static constexpr unsigned int ResourceManager_ResourceManagerMediator_TypeDefinitionIndex = 526;
+
+	class ResourceManager_ResourceManagerMediator : public ::System::Object
+	{
+	public:
+		::System::Resources::ResourceManager* _rm; // 0x10
+
+		::System::Void _ctor(::System::Resources::ResourceManager* rm)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Resources::ResourceManager*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR__CTOR_OFFSET))(this, rm);
+		}
+
+		::System::String* get_ModuleDir()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_MODULEDIR_OFFSET))(this);
+		}
+
+		::System::Type* get_LocationInfo()
+		{
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_LOCATIONINFO_OFFSET))(this);
+		}
+
+		::System::Type* get_UserResourceSet()
+		{
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_USERRESOURCESET_OFFSET))(this);
+		}
+
+		::System::String* get_BaseNameField()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_BASENAMEFIELD_OFFSET))(this);
+		}
+
+		::System::Globalization::CultureInfo* get_NeutralResourcesCulture()
+		{
+			return ((::System::Globalization::CultureInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_NEUTRALRESOURCESCULTURE_OFFSET))(this);
+		}
+
+		::System::String* GetResourceFileName(::System::Globalization::CultureInfo* culture)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GETRESOURCEFILENAME_OFFSET))(this, culture);
+		}
+
+		::System::Boolean get_LookedForSatelliteContractVersion()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_LOOKEDFORSATELLITECONTRACTVERSION_OFFSET))(this);
+		}
+
+		::System::Void set_LookedForSatelliteContractVersion(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_SET_LOOKEDFORSATELLITECONTRACTVERSION_OFFSET))(this, value);
+		}
+
+		::System::Version* get_SatelliteContractVersion()
+		{
+			return ((::System::Version*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_SATELLITECONTRACTVERSION_OFFSET))(this);
+		}
+
+		::System::Void set_SatelliteContractVersion(::System::Version* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Version*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_SET_SATELLITECONTRACTVERSION_OFFSET))(this, value);
+		}
+
+		::System::Version* ObtainSatelliteContractVersion(::System::Reflection::Assembly* a)
+		{
+			return ((::System::Version*(*)(::PVOID, ::System::Reflection::Assembly*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_OBTAINSATELLITECONTRACTVERSION_OFFSET))(this, a);
+		}
+
+		::System::Resources::UltimateResourceFallbackLocation get_FallbackLoc()
+		{
+			return ((::System::Resources::UltimateResourceFallbackLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_FALLBACKLOC_OFFSET))(this);
+		}
+
+		::System::Reflection::RuntimeAssembly* get_CallingAssembly()
+		{
+			return ((::System::Reflection::RuntimeAssembly*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_CALLINGASSEMBLY_OFFSET))(this);
+		}
+
+		::System::Reflection::RuntimeAssembly* get_MainAssembly()
+		{
+			return ((::System::Reflection::RuntimeAssembly*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_MAINASSEMBLY_OFFSET))(this);
+		}
+
+		::System::String* get_BaseName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCEMANAGER_RESOURCEMANAGERMEDIATOR_GET_BASENAME_OFFSET))(this);
+		}
+	};
+}

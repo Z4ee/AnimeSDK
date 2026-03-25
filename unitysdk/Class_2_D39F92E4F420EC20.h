@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_6A1DFE1822B872F8.h"
+#include "unitysdk/RPG/GameCore/LogSamplerType.h"
+
+#define CLASS_2_D39F92E4F420EC20_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1058B4C0)
+#define CLASS_2_D39F92E4F420EC20_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1058B6D0)
+#define CLASS_2_D39F92E4F420EC20_METHOD_2_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x1058B4D0)
+#define CLASS_2_D39F92E4F420EC20_METHOD_2_BB2928BEC244DEB7_OFFSET UNITYSDK_OFFSET(0x1058B6C0)
+#define CLASS_2_D39F92E4F420EC20_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1058B670)
+#define CLASS_2_D39F92E4F420EC20__CTOR_OFFSET UNITYSDK_OFFSET(0x1058B6B0)
+
+inline static constexpr unsigned int Class_2_D39F92E4F420EC20_TypeDefinitionIndex = 44950;
+
+class Class_2_D39F92E4F420EC20 : public ::Class_1_6A1DFE1822B872F8
+{
+public:
+	::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D39F92E4F420EC20__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::LogSamplerType get_Type()
+	{
+		return ((::RPG::GameCore::LogSamplerType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D39F92E4F420EC20_GET_TYPE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_739DB9F245C7FAD0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D39F92E4F420EC20_METHOD_2_739DB9F245C7FAD0_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D39F92E4F420EC20_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BB2928BEC244DEB7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D39F92E4F420EC20_METHOD_2_BB2928BEC244DEB7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D39F92E4F420EC20_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+};

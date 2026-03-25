@@ -1,0 +1,329 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_2BF31F3092BDFD9E_Struct_2_F144AC9BD4891DDE_1.h"
+#include "unitysdk/RPG/Client/WolfBroGunPlayPuzzleBoard_RoadTimeline.h"
+#include "unitysdk/RPG/Client/WolfBroGunPlayRoadMapConfig_PlayTarget.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0;
+class Class_1_E2DB55406F63CF97;
+namespace RPG::Client { class WolfBroGunPlayPuzzleBoard; }
+namespace RPG::Client { class WolfBroGunPlayRoadMapConfig; }
+namespace RPG::Client { class WolfBroGunPlayTarget; }
+namespace RPG::Client { class WolfBroGunPlayTarget_Boss; }
+namespace RPG::Client { class WolfBroGunPlayTarget_Group; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define CLASS_1_2BF31F3092BDFD9E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1196FE80)
+#define CLASS_1_2BF31F3092BDFD9E_GET_PUZZLE_OFFSET UNITYSDK_OFFSET(0x11974900)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_0A436F54AAF5210F_OFFSET UNITYSDK_OFFSET(0x11974750)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_0BBE2136512B11B4_OFFSET UNITYSDK_OFFSET(0x119724D0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_0DA2366A4A7DBAA7_OFFSET UNITYSDK_OFFSET(0x11972E50)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_1D1F86A03D88378D_OFFSET UNITYSDK_OFFSET(0x119741E0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x11972470)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_1DCB45E3BB2ED80C_OFFSET UNITYSDK_OFFSET(0x11972AB0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_1E1682ED7A213B64_OFFSET UNITYSDK_OFFSET(0x11972DC0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x11974910)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_4D81F2D510970A8C_OFFSET UNITYSDK_OFFSET(0x119711E0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x11974B50)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_4EBC89FFEAA19397_OFFSET UNITYSDK_OFFSET(0x119722E0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_5323F2DF46A044DA_1_OFFSET UNITYSDK_OFFSET(0x11974BE0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x11974AD0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_5C0DA799972EDE04_OFFSET UNITYSDK_OFFSET(0x11973780)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_6B695103503D6B59_OFFSET UNITYSDK_OFFSET(0x11972810)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_7206DC8F66A4D2A8_OFFSET UNITYSDK_OFFSET(0x11972FE0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_7636575511335C61_OFFSET UNITYSDK_OFFSET(0x11974CA0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_77FD543600E00498_OFFSET UNITYSDK_OFFSET(0x11974920)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0x11974170)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_79037097DB9DD1AC_OFFSET UNITYSDK_OFFSET(0x119708F0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_7DFDCAA6B86436FB_OFFSET UNITYSDK_OFFSET(0x119732B0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_7FA7EB9208E4EFA8_OFFSET UNITYSDK_OFFSET(0x11970AB0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_89FADE33F34E4AE0_OFFSET UNITYSDK_OFFSET(0x11974260)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x11973130)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_95ADE8ED590C5559_OFFSET UNITYSDK_OFFSET(0x11974CE0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_991D3A6C2E5AD139_OFFSET UNITYSDK_OFFSET(0x119715F0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_B48C98A332C402B9_OFFSET UNITYSDK_OFFSET(0x11970370)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_1_OFFSET UNITYSDK_OFFSET(0x11974C60)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_2_OFFSET UNITYSDK_OFFSET(0x11974C70)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_3_OFFSET UNITYSDK_OFFSET(0x11974C80)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_4_OFFSET UNITYSDK_OFFSET(0x11974C90)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x11974C50)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x11974130)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x119740F0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_DB7583FAC47D3EFF_OFFSET UNITYSDK_OFFSET(0x119721E0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_DECFD1E79B53E7BE_OFFSET UNITYSDK_OFFSET(0x11972D70)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_E0BD02B70C53E704_OFFSET UNITYSDK_OFFSET(0x11970B50)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_E7957416C82BE15E_OFFSET UNITYSDK_OFFSET(0x11971380)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_EBBC2DBEFDDF619A_OFFSET UNITYSDK_OFFSET(0x11970750)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x11974B40)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_FE80A606D8DA140E_1_OFFSET UNITYSDK_OFFSET(0x11973E50)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_FE80A606D8DA140E_OFFSET UNITYSDK_OFFSET(0x11973BB0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_FF7B2911BBACA4A9_1_OFFSET UNITYSDK_OFFSET(0x11974BF0)
+#define CLASS_1_2BF31F3092BDFD9E_METHOD_1_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x11974AE0)
+#define CLASS_1_2BF31F3092BDFD9E__CTOR_OFFSET UNITYSDK_OFFSET(0x119701E0)
+
+inline static constexpr unsigned int Class_1_2BF31F3092BDFD9E_TypeDefinitionIndex = 56148;
+
+class Class_1_2BF31F3092BDFD9E : public ::System::Object
+{
+public:
+	::Il2CppArray<::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*>* Field_1_9; // 0x10
+	::RPG::Client::WolfBroGunPlayPuzzleBoard* _Puzzle_k__BackingField; // 0x18
+	::UnityEngine::Transform* Field_1_1; // 0x20
+	::Class_1_E2DB55406F63CF97* Field_1_18; // 0x28
+	::RPG::Client::WolfBroGunPlayRoadMapConfig* Field_1_2; // 0x30
+	::Il2CppArray<::Class_1_2BF31F3092BDFD9E_Struct_2_F144AC9BD4891DDE_1>* Field_1_8; // 0x38
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::WolfBroGunPlayTarget*, ::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*>* Field_1_17; // 0x40
+	::System::Collections::Generic::List_1<::System::Single>* Field_1_15; // 0x48
+	::System::Collections::Generic::List_1<::RPG::Client::WolfBroGunPlayTarget*>* Field_1_16; // 0x50
+	::System::Int32 Field_1_12; // 0x58
+	::System::Single Field_1_7; // 0x5C
+	::System::Int32 Field_1_10; // 0x60
+	::System::Int32 Field_1_11; // 0x64
+	::System::Int32 Field_1_13; // 0x68
+	::System::Boolean Field_1_3; // 0x6C
+	::System::Boolean Field_1_5; // 0x6D
+	::System::Single Field_1_6; // 0x70
+	::System::Single Field_1_4; // 0x74
+	::System::Int32 Field_1_14; // 0x78
+
+	::System::Void _ctor(::RPG::Client::WolfBroGunPlayPuzzleBoard* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayPuzzleBoard*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B48C98A332C402B9(::UnityEngine::Transform* a1, ::RPG::Client::WolfBroGunPlayRoadMapConfig* a2, ::Il2CppArray<::RPG::Client::WolfBroGunPlayPuzzleBoard_RoadTimeline>* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::WolfBroGunPlayRoadMapConfig*, ::Il2CppArray<::RPG::Client::WolfBroGunPlayPuzzleBoard_RoadTimeline>*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_B48C98A332C402B9_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_EBBC2DBEFDDF619A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_EBBC2DBEFDDF619A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E0BD02B70C53E704(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_E0BD02B70C53E704_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_991D3A6C2E5AD139(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_991D3A6C2E5AD139_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_4EBC89FFEAA19397(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_4EBC89FFEAA19397_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Single Method_1_0BBE2136512B11B4(::RPG::Client::WolfBroGunPlayTarget* a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_0BBE2136512B11B4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6B695103503D6B59(::RPG::Client::WolfBroGunPlayTarget_Boss* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget_Boss*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_6B695103503D6B59_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_DECFD1E79B53E7BE(::RPG::Client::WolfBroGunPlayTarget* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_DECFD1E79B53E7BE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_1E1682ED7A213B64(::RPG::Client::WolfBroGunPlayTarget* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_1E1682ED7A213B64_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_0DA2366A4A7DBAA7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_0DA2366A4A7DBAA7_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7206DC8F66A4D2A8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_7206DC8F66A4D2A8_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8C4AEC0BC1CA0CB4(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Vector3 Method_1_7DFDCAA6B86436FB(::UnityEngine::Vector2 a1, ::System::Boolean a2, ::System::Boolean a3)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector2, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_7DFDCAA6B86436FB_OFFSET))(this, a1, a2, a3);
+	}
+
+	::UnityEngine::Vector3 Method_1_5C0DA799972EDE04(::UnityEngine::Vector2 a1, ::System::Boolean a2, ::System::Boolean a3)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector2, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_5C0DA799972EDE04_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Int32 Method_1_FE80A606D8DA140E(::UnityEngine::Vector3 a1, ::System::Single a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_FE80A606D8DA140E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 Method_1_FE80A606D8DA140E_1(::UnityEngine::Vector3 a1, ::System::Single a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_FE80A606D8DA140E_1_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 Method_1_1DCB45E3BB2ED80C(::UnityEngine::Vector3 a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_1DCB45E3BB2ED80C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7889E856344009E9(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_7889E856344009E9_OFFSET))(this, a1, a2);
+	}
+
+	::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0* Method_1_1D1F86A03D88378D()
+	{
+		return ((::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_1D1F86A03D88378D_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_79037097DB9DD1AC(::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*& a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*&))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_79037097DB9DD1AC_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_1_89FADE33F34E4AE0(::System::Single a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_89FADE33F34E4AE0_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7FA7EB9208E4EFA8(::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_7FA7EB9208E4EFA8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_DB7583FAC47D3EFF(::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_DB7583FAC47D3EFF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_4D81F2D510970A8C(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_4D81F2D510970A8C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E7957416C82BE15E(::RPG::Client::WolfBroGunPlayRoadMapConfig_PlayTarget a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayRoadMapConfig_PlayTarget))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_E7957416C82BE15E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_0A436F54AAF5210F(::RPG::Client::WolfBroGunPlayTarget_Group* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget_Group*))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_0A436F54AAF5210F_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::WolfBroGunPlayPuzzleBoard* get_Puzzle()
+	{
+		return ((::RPG::Client::WolfBroGunPlayPuzzleBoard*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_GET_PUZZLE_OFFSET))(this);
+	}
+
+	::Class_1_E2DB55406F63CF97* Method_1_24748FC20F375725()
+	{
+		return ((::Class_1_E2DB55406F63CF97*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_24748FC20F375725_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 Method_1_77FD543600E00498()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_77FD543600E00498_OFFSET))(this);
+	}
+
+	::System::Single Method_1_5323F2DF46A044DA()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_5323F2DF46A044DA_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_FF7B2911BBACA4A9_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_4DA6D4A624E42CAB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_4DA6D4A624E42CAB_OFFSET))(this);
+	}
+
+	::System::Single Method_1_5323F2DF46A044DA_1()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_5323F2DF46A044DA_1_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_1()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_FF7B2911BBACA4A9_1_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_1_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_2()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_2_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_3()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_3_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_4()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_C74CF020AA42ED85_4_OFFSET))(this);
+	}
+
+	::Il2CppArray<::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*>* Method_1_7636575511335C61()
+	{
+		return ((::Il2CppArray<::Class_1_2BF31F3092BDFD9E_Class_1_7B8F533C570540F0*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_7636575511335C61_OFFSET))(this);
+	}
+
+	::System::Void Method_1_95ADE8ED590C5559(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_METHOD_1_95ADE8ED590C5559_OFFSET))(this, a1);
+	}
+};

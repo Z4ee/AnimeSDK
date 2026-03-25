@@ -1,0 +1,90 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Spine/Unity/SkeletonUtilityBone_Mode.h"
+#include "unitysdk/Spine/Unity/SkeletonUtilityBone_UpdatePhase.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace Spine { class Bone; }
+namespace Spine::Unity { class SkeletonUtility; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+
+#define SPINE_UNITY_SKELETONUTILITYBONE_ADDBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x1842CBF0)
+#define SPINE_UNITY_SKELETONUTILITYBONE_BONETRANSFORMMODEINCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1842CBC0)
+#define SPINE_UNITY_SKELETONUTILITYBONE_DOUPDATE_OFFSET UNITYSDK_OFFSET(0x1842B080)
+#define SPINE_UNITY_SKELETONUTILITYBONE_GET_INCOMPATIBLETRANSFORMMODE_OFFSET UNITYSDK_OFFSET(0x1842C8B0)
+#define SPINE_UNITY_SKELETONUTILITYBONE_HANDLEONRESET_OFFSET UNITYSDK_OFFSET(0x1842CA70)
+#define SPINE_UNITY_SKELETONUTILITYBONE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1842CA80)
+#define SPINE_UNITY_SKELETONUTILITYBONE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1842C8C0)
+#define SPINE_UNITY_SKELETONUTILITYBONE_RESET_OFFSET UNITYSDK_OFFSET(0x1842C5B0)
+#define SPINE_UNITY_SKELETONUTILITYBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1842CC80)
+
+namespace Spine::Unity
+{
+	inline static constexpr unsigned int SkeletonUtilityBone_TypeDefinitionIndex = 34798;
+
+	class SkeletonUtilityBone : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::String* boneName; // 0x18
+		::UnityEngine::Transform* parentReference; // 0x20
+		::Spine::Unity::SkeletonUtilityBone_Mode mode; // 0x28
+		::System::Boolean position; // 0x2C
+		::System::Boolean rotation; // 0x2D
+		::System::Boolean scale; // 0x2E
+		::System::Boolean zPosition; // 0x2F
+		::System::Single overrideAlpha; // 0x30
+		::Spine::Unity::SkeletonUtility* hierarchy; // 0x38
+		::Spine::Bone* bone; // 0x40
+		::System::Boolean transformLerpComplete; // 0x48
+		::System::Boolean valid; // 0x49
+		::UnityEngine::Transform* cachedTransform; // 0x50
+		::UnityEngine::Transform* skeletonTransform; // 0x58
+		::System::Boolean incompatibleTransformMode; // 0x60
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_IncompatibleTransformMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_GET_INCOMPATIBLETRANSFORMMODE_OFFSET))(this);
+		}
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_RESET_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void HandleOnReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_HANDLEONRESET_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void DoUpdate(::Spine::Unity::SkeletonUtilityBone_UpdatePhase phase)
+		{
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonUtilityBone_UpdatePhase))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_DOUPDATE_OFFSET))(this, phase);
+		}
+
+		static ::System::Boolean BoneTransformModeIncompatible(::Spine::Bone* bone)
+		{
+			return ((::System::Boolean(*)(::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_BONETRANSFORMMODEINCOMPATIBLE_OFFSET))(bone);
+		}
+
+		::System::Void AddBoundingBox(::System::String* skinName, ::System::String* slotName, ::System::String* attachmentName)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYBONE_ADDBOUNDINGBOX_OFFSET))(this, skinName, slotName, attachmentName);
+		}
+	};
+}

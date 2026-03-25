@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/RPG/GameCore/InsertAbilityFinishSource.h"
+
+class Class_1_E3A8B05AA1BBEE81;
+
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_CLEAR_OFFSET UNITYSDK_OFFSET(0xA9914D0)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA991520)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA991570)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GET_FINISHSOURCE_OFFSET UNITYSDK_OFFSET(0xA9915E0)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GET_SILENCE_OFFSET UNITYSDK_OFFSET(0xA991600)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GET_TURNINSERTABILITYINSTANCE_OFFSET UNITYSDK_OFFSET(0xA9915C0)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_INIT_OFFSET UNITYSDK_OFFSET(0xA991470)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_SET_FINISHSOURCE_OFFSET UNITYSDK_OFFSET(0xA9915F0)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_SET_SILENCE_OFFSET UNITYSDK_OFFSET(0xA991610)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_SET_TURNINSERTABILITYINSTANCE_OFFSET UNITYSDK_OFFSET(0xA9915D0)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT__CTOR_OFFSET UNITYSDK_OFFSET(0xA991620)
+#define RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xA991630)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelSingleInsertAbilityFinishOrAbort_TypeDefinitionIndex = 45641;
+
+	class LevelSingleInsertAbilityFinishOrAbort : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::Class_1_E3A8B05AA1BBEE81* _TurnInsertAbilityInstance_k__BackingField; // 0x18
+		::RPG::GameCore::InsertAbilityFinishSource _FinishSource_k__BackingField; // 0x20
+		::System::Boolean _Silence_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LevelSingleInsertAbilityFinishOrAbort* Init(::Class_1_E3A8B05AA1BBEE81* pAbilityInstance, ::RPG::GameCore::InsertAbilityFinishSource finishSource, ::System::Boolean silence)
+		{
+			return ((::RPG::GameCore::LevelSingleInsertAbilityFinishOrAbort*(*)(::PVOID, ::Class_1_E3A8B05AA1BBEE81*, ::RPG::GameCore::InsertAbilityFinishSource, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_INIT_OFFSET))(this, pAbilityInstance, finishSource, silence);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_CLEAR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::Class_1_E3A8B05AA1BBEE81* get_TurnInsertAbilityInstance()
+		{
+			return ((::Class_1_E3A8B05AA1BBEE81*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GET_TURNINSERTABILITYINSTANCE_OFFSET))(this);
+		}
+
+		::System::Void set_TurnInsertAbilityInstance(::Class_1_E3A8B05AA1BBEE81* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E3A8B05AA1BBEE81*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_SET_TURNINSERTABILITYINSTANCE_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::InsertAbilityFinishSource get_FinishSource()
+		{
+			return ((::RPG::GameCore::InsertAbilityFinishSource(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GET_FINISHSOURCE_OFFSET))(this);
+		}
+
+		::System::Void set_FinishSource(::RPG::GameCore::InsertAbilityFinishSource value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::InsertAbilityFinishSource))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_SET_FINISHSOURCE_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_Silence()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_GET_SILENCE_OFFSET))(this);
+		}
+
+		::System::Void set_Silence(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT_SET_SILENCE_OFFSET))(this, value);
+		}
+
+		::System::Void __iFixBaseProxy_Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSINGLEINSERTABILITYFINISHORABORT___IFIXBASEPROXY_CLEAR_OFFSET))(this);
+		}
+	};
+}

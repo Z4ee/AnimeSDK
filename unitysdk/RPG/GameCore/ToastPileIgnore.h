@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_TOASTPILEIGNORE_METHOD_3_9E712F000A7714BA_OFFSET UNITYSDK_OFFSET(0x178A2420)
+#define RPG_GAMECORE_TOASTPILEIGNORE_METHOD_3_A65C15B1B979C243_OFFSET UNITYSDK_OFFSET(0x1788A6F0)
+#define RPG_GAMECORE_TOASTPILEIGNORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1788A6C0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ToastPileIgnore_TypeDefinitionIndex = 18589;
+
+	class ToastPileIgnore : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::Boolean IsIgnore; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPILEIGNORE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_9E712F000A7714BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastPileIgnore*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastPileIgnore*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPILEIGNORE_METHOD_3_9E712F000A7714BA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_A65C15B1B979C243(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastPileIgnore* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastPileIgnore*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPILEIGNORE_METHOD_3_A65C15B1B979C243_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GamePhaseType.h"
+#include "unitysdk/RPG/Client/LoginPhase.h"
+
+class Class_1_6B41D5D37BA0605F;
+namespace System { class Object; }
+
+#define CLASS_3_CA807220C14CD3E3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x110C3F80)
+#define CLASS_3_CA807220C14CD3E3_ENTER_OFFSET UNITYSDK_OFFSET(0x110C4070)
+#define CLASS_3_CA807220C14CD3E3_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0x110C48D0)
+#define CLASS_3_CA807220C14CD3E3_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x110C4650)
+#define CLASS_3_CA807220C14CD3E3_LEAVE_OFFSET UNITYSDK_OFFSET(0x110C46F0)
+#define CLASS_3_CA807220C14CD3E3_METHOD_3_8C68E2CDEEC884A6_OFFSET UNITYSDK_OFFSET(0x110C4410)
+#define CLASS_3_CA807220C14CD3E3_METHOD_3_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x110C4280)
+#define CLASS_3_CA807220C14CD3E3_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x110C46B0)
+#define CLASS_3_CA807220C14CD3E3_TICK_OFFSET UNITYSDK_OFFSET(0x110C4010)
+#define CLASS_3_CA807220C14CD3E3__CTOR_OFFSET UNITYSDK_OFFSET(0x110C3CD0)
+
+inline static constexpr unsigned int Class_3_CA807220C14CD3E3_TypeDefinitionIndex = 49580;
+
+class Class_3_CA807220C14CD3E3 : public ::RPG::Client::LoginPhase
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Enter()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_ENTER_OFFSET))(this);
+	}
+
+	::System::Void Method_3_8C68E2CDEEC884A6(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_METHOD_3_8C68E2CDEEC884A6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_B09E78EE7EE4F8FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_METHOD_3_B09E78EE7EE4F8FA_OFFSET))(this);
+	}
+
+	::System::Void LateUpdate(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_LATEUPDATE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Boolean Leave(::Class_1_6B41D5D37BA0605F* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6B41D5D37BA0605F*))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_LEAVE_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::GamePhaseType GetGamePhaseType()
+	{
+		return ((::RPG::Client::GamePhaseType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA807220C14CD3E3_GETGAMEPHASETYPE_OFFSET))(this);
+	}
+};

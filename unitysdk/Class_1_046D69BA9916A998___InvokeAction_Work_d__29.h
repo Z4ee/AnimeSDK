@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_260;
+namespace System { class Action; }
+
+#define CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1834F440)
+#define CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1834F480)
+#define CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1834F4E0)
+#define CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1834F490)
+#define CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1834F430)
+#define CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29__CTOR_OFFSET UNITYSDK_OFFSET(0x1834D530)
+
+inline static constexpr unsigned int Class_1_046D69BA9916A998___InvokeAction_Work_d__29_TypeDefinitionIndex = 33948;
+
+class Class_1_046D69BA9916A998___InvokeAction_Work_d__29 : public ::System::Object
+{
+public:
+	::System::Action* action; // 0x10
+	::Class_0_16E4307DCC419505_260* __2__current; // 0x18
+	::System::Int32 __1__state; // 0x20
+
+	::System::Void _ctor(::System::Int32 __1__state)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29__CTOR_OFFSET))(this, __1__state);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_MOVENEXT_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_260* System_Collections_Generic_IEnumerator_RPG_Work_IAsyncWorkStepResult__get_Current()
+	{
+		return ((::Class_0_16E4307DCC419505_260*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_046D69BA9916A998___INVOKEACTION_WORK_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

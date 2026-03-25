@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class MeshRenderer; }
+
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0x9D4C860)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9D4C930)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x9D4C710)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4C980)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x9D4C7B0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoUIMaterialSwitcher_TypeDefinitionIndex = 56340;
+
+	class MonoUIMaterialSwitcher : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Il2CppArray<::UnityEngine::Material*>* _Materials; // 0x18
+		::UnityEngine::MeshRenderer* _TargetMeshRenderer; // 0x20
+		::System::UInt32 _CurMaterialIndex; // 0x28
+		::UnityEngine::Material* _DefaultMaterial; // 0x30
+		::UnityEngine::Material* _CurMaterial; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void SwitchMaterial(::System::UInt32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET))(this, index);
+		}
+
+		::System::Void _SwitchMaterial(::UnityEngine::Material* material)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET))(this, material);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET))(this);
+		}
+	};
+}

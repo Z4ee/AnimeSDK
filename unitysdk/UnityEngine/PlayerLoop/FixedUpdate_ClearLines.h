@@ -1,0 +1,12 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace UnityEngine::PlayerLoop
+{
+	inline static constexpr unsigned int FixedUpdate_ClearLines_TypeDefinitionIndex = 4389;
+
+	struct alignas(1) FixedUpdate_ClearLines
+	{
+	};
+}

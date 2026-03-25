@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class GoodsClass; }
+namespace System { class String; }
+
+#define RPG_GAMECORE_ALLEYORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F77EA0)
+#define RPG_GAMECORE_ALLEYORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F785D0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int AlleyOrderRow_TypeDefinitionIndex = 11515;
+
+	class AlleyOrderRow : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::UInt32>* OrderGoodList; // 0x10
+		::System::String* OrderTips; // 0x18
+		::Il2CppArray<::RPG::GameCore::GoodsClass*>* OrderContent; // 0x20
+		::Il2CppArray<::System::UInt32>* OrderTipsTime; // 0x28
+		::System::UInt32 OrderProfit; // 0x30
+		::System::UInt32 OrderShip; // 0x34
+		::System::UInt32 UnlockMission; // 0x38
+		::System::UInt32 OrderID; // 0x3C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYORDERROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AlleyOrderRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyOrderRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYORDERROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

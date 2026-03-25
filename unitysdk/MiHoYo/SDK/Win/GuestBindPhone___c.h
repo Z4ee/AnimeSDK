@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK::Win { class GuestBindPhone; }
+namespace System { template <typename T> class Action_1; }
+
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x160AFD00)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x160AFD40)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE___C__SHOW_B__35_0_OFFSET UNITYSDK_OFFSET(0x160AFD50)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int GuestBindPhone___c_TypeDefinitionIndex = 8102;
+
+	class GuestBindPhone___c : public ::System::Object
+	{
+	public:
+		static ::MiHoYo::SDK::Win::GuestBindPhone___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Win::GuestBindPhone___c**)Il2CppClass::FromTypeDefinitionIndex(GuestBindPhone___c_TypeDefinitionIndex)->GetStaticField(0x14050);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::Win::GuestBindPhone*>** StaticGet___9__35_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::GuestBindPhone*>**)Il2CppClass::FromTypeDefinitionIndex(GuestBindPhone___c_TypeDefinitionIndex)->GetStaticField(0x14058);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDPHONE___C__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDPHONE___C__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _Show_b__35_0(::MiHoYo::SDK::Win::GuestBindPhone* dialog)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::GuestBindPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDPHONE___C__SHOW_B__35_0_OFFSET))(this, dialog);
+		}
+	};
+}

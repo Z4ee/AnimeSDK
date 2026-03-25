@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_BC950E36747FB4C9.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_16D8E68BCE885505;
+class Class_1_6869ECCA5B46F302;
+class Class_1_6869ECCA5B46F302_1;
+
+#define CLASS_1_ED3EE411CAE2A27E_GET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0x1058A520)
+#define CLASS_1_ED3EE411CAE2A27E_GET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0x1058A500)
+#define CLASS_1_ED3EE411CAE2A27E_METHOD_1_2AA424DD7E4D6675_OFFSET UNITYSDK_OFFSET(0x1058A540)
+#define CLASS_1_ED3EE411CAE2A27E_SET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0x1058A530)
+#define CLASS_1_ED3EE411CAE2A27E_SET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0x1058A510)
+#define CLASS_1_ED3EE411CAE2A27E__CTOR_OFFSET UNITYSDK_OFFSET(0x1058B110)
+
+inline static constexpr unsigned int Class_1_ED3EE411CAE2A27E_TypeDefinitionIndex = 50881;
+
+class Class_1_ED3EE411CAE2A27E : public ::System::Object
+{
+public:
+	::Class_1_6869ECCA5B46F302_1* _DamageTypeFactory_k__BackingField; // 0x10
+	::Class_1_6869ECCA5B46F302* _PathFactory_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3EE411CAE2A27E__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_6869ECCA5B46F302* get_PathFactory()
+	{
+		return ((::Class_1_6869ECCA5B46F302*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3EE411CAE2A27E_GET_PATHFACTORY_OFFSET))(this);
+	}
+
+	::System::Void set_PathFactory(::Class_1_6869ECCA5B46F302* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_6869ECCA5B46F302*))((::PBYTE)hIl2Cpp + CLASS_1_ED3EE411CAE2A27E_SET_PATHFACTORY_OFFSET))(this, value);
+	}
+
+	::Class_1_6869ECCA5B46F302_1* get_DamageTypeFactory()
+	{
+		return ((::Class_1_6869ECCA5B46F302_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3EE411CAE2A27E_GET_DAMAGETYPEFACTORY_OFFSET))(this);
+	}
+
+	::System::Void set_DamageTypeFactory(::Class_1_6869ECCA5B46F302_1* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_6869ECCA5B46F302_1*))((::PBYTE)hIl2Cpp + CLASS_1_ED3EE411CAE2A27E_SET_DAMAGETYPEFACTORY_OFFSET))(this, value);
+	}
+
+	::Class_1_16D8E68BCE885505* Method_1_2AA424DD7E4D6675(::Struct_2_BC950E36747FB4C9& a1)
+	{
+		return ((::Class_1_16D8E68BCE885505*(*)(::PVOID, ::Struct_2_BC950E36747FB4C9&))((::PBYTE)hIl2Cpp + CLASS_1_ED3EE411CAE2A27E_METHOD_1_2AA424DD7E4D6675_OFFSET))(this, a1);
+	}
+};

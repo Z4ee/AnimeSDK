@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class SwitchCharacterAnchor; }
+
+#define RPG_GAMECORE_LOCKMAINSTREAMSOURCETOSWITCHANCHORPOS_METHOD_3_17113080BFFFADC9_OFFSET UNITYSDK_OFFSET(0x1736B4C0)
+#define RPG_GAMECORE_LOCKMAINSTREAMSOURCETOSWITCHANCHORPOS_METHOD_3_BFADA00C46FE4810_OFFSET UNITYSDK_OFFSET(0x1736B440)
+#define RPG_GAMECORE_LOCKMAINSTREAMSOURCETOSWITCHANCHORPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1736B490)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LockMainStreamSourceToSwitchAnchorPos_TypeDefinitionIndex = 18800;
+
+	class LockMainStreamSourceToSwitchAnchorPos : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::SwitchCharacterAnchor* AnchorConfig; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKMAINSTREAMSOURCETOSWITCHANCHORPOS__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_BFADA00C46FE4810(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockMainStreamSourceToSwitchAnchorPos*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockMainStreamSourceToSwitchAnchorPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKMAINSTREAMSOURCETOSWITCHANCHORPOS_METHOD_3_BFADA00C46FE4810_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_17113080BFFFADC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockMainStreamSourceToSwitchAnchorPos* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockMainStreamSourceToSwitchAnchorPos*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKMAINSTREAMSOURCETOSWITCHANCHORPOS_METHOD_3_17113080BFFFADC9_OFFSET))(a1, a2);
+		}
+	};
+}

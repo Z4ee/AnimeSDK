@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK::Win { class OverseaAccountList; }
+namespace System { template <typename T> class Action_1; }
+
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16106940)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16106980)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__SHOW_B__41_0_OFFSET UNITYSDK_OFFSET(0x16106990)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int OverseaAccountList___c_TypeDefinitionIndex = 7913;
+
+	class OverseaAccountList___c : public ::System::Object
+	{
+	public:
+		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountList*>** StaticGet___9__41_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountList*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountList___c_TypeDefinitionIndex)->GetStaticField(0x15B60);
+		}
+		static ::MiHoYo::SDK::Win::OverseaAccountList___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Win::OverseaAccountList___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountList___c_TypeDefinitionIndex)->GetStaticField(0x15B68);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _Show_b__41_0(::MiHoYo::SDK::Win::OverseaAccountList* dialog)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::OverseaAccountList*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__SHOW_B__41_0_OFFSET))(this, dialog);
+		}
+	};
+}

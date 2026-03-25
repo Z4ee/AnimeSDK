@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_C7CA2190EE47EB08;
+namespace RPG::Client { class FateGameData; }
+
+#define CLASS_1_129E8AF30182E162_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x8950C60)
+#define CLASS_1_129E8AF30182E162_METHOD_1_3F2742B0A4846020_OFFSET UNITYSDK_OFFSET(0x8950930)
+#define CLASS_1_129E8AF30182E162_METHOD_1_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x89507F0)
+#define CLASS_1_129E8AF30182E162_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8950C10)
+#define CLASS_1_129E8AF30182E162_METHOD_1_E7EF6BC52B28648C_1_OFFSET UNITYSDK_OFFSET(0x8950AD0)
+#define CLASS_1_129E8AF30182E162_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x8950990)
+#define CLASS_1_129E8AF30182E162__CTOR_OFFSET UNITYSDK_OFFSET(0x89507E0)
+
+inline static constexpr unsigned int Class_1_129E8AF30182E162_TypeDefinitionIndex = 51908;
+
+class Class_1_129E8AF30182E162 : public ::System::Object
+{
+public:
+	::RPG::Client::FateGameData* Field_1_3; // 0x10
+	::System::Boolean Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x19
+	::System::UInt32 Field_1_0; // 0x1C
+
+	::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::FateGameData* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::FateGameData*))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_70589F89E4D22649()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162_METHOD_1_70589F89E4D22649_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E7EF6BC52B28648C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162_METHOD_1_E7EF6BC52B28648C_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E7EF6BC52B28648C_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162_METHOD_1_E7EF6BC52B28648C_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_02A3D10A9D535169()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162_METHOD_1_02A3D10A9D535169_OFFSET))(this);
+	}
+
+	::Class_1_C7CA2190EE47EB08* Method_1_3F2742B0A4846020()
+	{
+		return ((::Class_1_C7CA2190EE47EB08*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_129E8AF30182E162_METHOD_1_3F2742B0A4846020_OFFSET))(this);
+	}
+};

@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace IFix { class ILFixDynamicMethodWrapper; }
+namespace IFix::Core { class AnonymousStorey; }
+namespace IFix::Core { class VirtualMachine; }
+namespace System { class Delegate; }
+namespace System { class Type; }
+
+#define IFIX_WRAPPERSMANAGERIMPL_CREATEBRIDGE_OFFSET UNITYSDK_OFFSET(0x110B7510)
+#define IFIX_WRAPPERSMANAGERIMPL_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x110B7420)
+#define IFIX_WRAPPERSMANAGERIMPL_CREATEWRAPPER_OFFSET UNITYSDK_OFFSET(0x110B74B0)
+#define IFIX_WRAPPERSMANAGERIMPL_GETPATCH_OFFSET UNITYSDK_OFFSET(0x110B7390)
+#define IFIX_WRAPPERSMANAGERIMPL_INITWRAPPERARRAY_OFFSET UNITYSDK_OFFSET(0x110B74E0)
+#define IFIX_WRAPPERSMANAGERIMPL_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x110B73D0)
+#define IFIX_WRAPPERSMANAGERIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x110B7380)
+
+namespace IFix
+{
+	inline static constexpr unsigned int WrappersManagerImpl_TypeDefinitionIndex = 64647;
+
+	class WrappersManagerImpl : public ::System::Object
+	{
+	public:
+		::IFix::Core::VirtualMachine* virtualMachine; // 0x10
+
+		::System::Void _ctor(::IFix::Core::VirtualMachine* virtualMachine)
+		{
+			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL__CTOR_OFFSET))(this, virtualMachine);
+		}
+
+		static ::IFix::ILFixDynamicMethodWrapper* GetPatch(::System::Int32 id)
+		{
+			return ((::IFix::ILFixDynamicMethodWrapper*(*)(::System::Int32))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_GETPATCH_OFFSET))(id);
+		}
+
+		static ::System::Boolean IsPatched(::System::Int32 id)
+		{
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_ISPATCHED_OFFSET))(id);
+		}
+
+		::System::Delegate* CreateDelegate(::System::Type* type, ::System::Int32 id, ::System::Object* anon)
+		{
+			return ((::System::Delegate*(*)(::PVOID, ::System::Type*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_CREATEDELEGATE_OFFSET))(this, type, id, anon);
+		}
+
+		::System::Object* CreateWrapper(::System::Int32 id)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_CREATEWRAPPER_OFFSET))(this, id);
+		}
+
+		::System::Object* InitWrapperArray(::System::Int32 len)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_INITWRAPPERARRAY_OFFSET))(this, len);
+		}
+
+		::IFix::Core::AnonymousStorey* CreateBridge(::System::Int32 fieldNum, ::Il2CppArray<::System::Int32>* fieldTypes, ::System::Int32 typeIndex, ::Il2CppArray<::System::Int32>* vTable, ::Il2CppArray<::System::Int32>* slots, ::IFix::Core::VirtualMachine* virtualMachine)
+		{
+			return ((::IFix::Core::AnonymousStorey*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_WRAPPERSMANAGERIMPL_CREATEBRIDGE_OFFSET))(this, fieldNum, fieldTypes, typeIndex, vTable, slots, virtualMachine);
+		}
+	};
+}

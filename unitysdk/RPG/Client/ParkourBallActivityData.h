@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0x9EC9310)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9EC9210)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9EC91C0)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA__ISSHOWLIMITREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0x9EC9270)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA__ONINIT_OFFSET UNITYSDK_OFFSET(0x9EC91D0)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA___IFIXBASEPROXY_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0x9EC9430)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9EC93C0)
+#define RPG_CLIENT_PARKOURBALLACTIVITYDATA___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0x9EC9360)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ParkourBallActivityData_TypeDefinitionIndex = 50011;
+
+	class ParkourBallActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Void _OnInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA__ONINIT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsShowLimitRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA__ISSHOWLIMITREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA___IFIXBASEPROXY__ONINIT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBALLACTIVITYDATA___IFIXBASEPROXY_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+	};
+}

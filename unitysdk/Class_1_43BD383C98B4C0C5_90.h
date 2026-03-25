@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_43BD383C98B4C0C5_90__CTOR_OFFSET UNITYSDK_OFFSET(0x16896760)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_90_TypeDefinitionIndex = 32921;
+
+class Class_1_43BD383C98B4C0C5_90 : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_90__CTOR_OFFSET))(this);
+	}
+};

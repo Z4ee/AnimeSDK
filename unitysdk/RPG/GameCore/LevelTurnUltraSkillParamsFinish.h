@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+
+class Class_1_152140BAFD2DB102;
+
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA993990)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_GETINSERTULTRASKILLPARAMS_OFFSET UNITYSDK_OFFSET(0xA9939E0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA993940)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xA9938F0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xA993A20)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelTurnUltraSkillParamsFinish_TypeDefinitionIndex = 45618;
+
+	class LevelTurnUltraSkillParamsFinish : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::Class_1_152140BAFD2DB102* _InsertUltraSkillParams; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LevelTurnUltraSkillParamsFinish* Init(::Class_1_152140BAFD2DB102* insertUltraSkillParams)
+		{
+			return ((::RPG::GameCore::LevelTurnUltraSkillParamsFinish*(*)(::PVOID, ::Class_1_152140BAFD2DB102*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_INIT_OFFSET))(this, insertUltraSkillParams);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::Class_1_152140BAFD2DB102* GetInsertUltraSkillParams()
+		{
+			return ((::Class_1_152140BAFD2DB102*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPARAMSFINISH_GETINSERTULTRASKILLPARAMS_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,178 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class FantasticStoryChapterData; }
+namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::Client { class ScheduleData; }
+namespace RPG::GameCore { class FantasticStoryBattleRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_AVAILABLEBUFFSLOTID_OFFSET UNITYSDK_OFFSET(0x9667DA0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_BOOKCONTEXTINREWRITTING_OFFSET UNITYSDK_OFFSET(0x9667C40)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_BOOKCONTEXT_OFFSET UNITYSDK_OFFSET(0x9667C10)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_BOOKTITLE_OFFSET UNITYSDK_OFFSET(0x9667C70)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_DEFAULTAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0x9667DC0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_DISPLAYMONSTERLIST_OFFSET UNITYSDK_OFFSET(0x9667D80)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ENVBUFFID_OFFSET UNITYSDK_OFFSET(0x9667CC0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_FIGHTEVENTID_OFFSET UNITYSDK_OFFSET(0x9667CA0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_FIGUREPATH_OFFSET UNITYSDK_OFFSET(0x9667D40)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_FINISHQUESTID_OFFSET UNITYSDK_OFFSET(0x9667CE0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_HASREWARDAVAIL_OFFSET UNITYSDK_OFFSET(0x9664950)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x96633E0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISPRECHAPTERFINISH_OFFSET UNITYSDK_OFFSET(0x9667B40)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISPREPARAGRAPHFINISH_OFFSET UNITYSDK_OFFSET(0x9667A20)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISQUESTALLCLOSE_OFFSET UNITYSDK_OFFSET(0x96678C0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x965C830)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9667BE0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0x9667A00)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_RECOMMENDAVATAR_OFFSET UNITYSDK_OFFSET(0x9667D20)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_RECOMMENDNATURE_OFFSET UNITYSDK_OFFSET(0x9667D00)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x965D660)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_TRIVIALAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x9666F70)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_TURNLIMIT_OFFSET UNITYSDK_OFFSET(0x9667D60)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_UNLOCKCHAPTERID_OFFSET UNITYSDK_OFFSET(0x96678A0)
+#define RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9663E40)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FantasticStoryParagraphData_TypeDefinitionIndex = 51896;
+
+	class FantasticStoryParagraphData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* _DefaultAvatarDataList; // 0x10
+		::RPG::GameCore::FantasticStoryBattleRow* Row; // 0x18
+		::RPG::Client::FantasticStoryChapterData* PreChapterData; // 0x20
+		::System::UInt32 HistoryRecordScore; // 0x28
+		::System::UInt32 ParagraphID; // 0x2C
+
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::RPG::Client::ScheduleData* get_ScheduleData()
+		{
+			return ((::RPG::Client::ScheduleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_SCHEDULEDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISFINISH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsQuestAllClose()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISQUESTALLCLOSE_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasRewardAvail()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_HASREWARDAVAIL_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISUNLOCK_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPreChapterFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISPRECHAPTERFINISH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPreParagraphFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ISPREPARAGRAPHFINISH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_UnlockChapterID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_UNLOCKCHAPTERID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BookContext()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_BOOKCONTEXT_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BookContextInRewritting()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_BOOKCONTEXTINREWRITTING_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BookTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_BOOKTITLE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_QuestList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_QUESTLIST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FightEventID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_FIGHTEVENTID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EnvBuffID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_ENVBUFFID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FinishQuestID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_FINISHQUESTID_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* get_RecommendNature()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::AttackDamageType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_RECOMMENDNATURE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_RecommendAvatar()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_RECOMMENDAVATAR_OFFSET))(this);
+		}
+
+		::System::String* get_FigurePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_FIGUREPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TurnLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_TURNLIMIT_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_TrivialAvatarIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_TRIVIALAVATARIDLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_DisplayMonsterList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_DISPLAYMONSTERLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_AvailableBuffSlotID()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_AVAILABLEBUFFSLOTID_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* get_DefaultAvatarDataList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYPARAGRAPHDATA_GET_DEFAULTAVATARDATALIST_OFFSET))(this);
+		}
+	};
+}

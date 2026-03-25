@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_1_019CEE530B4DEB2A_TypeDefinitionIndex = 33594;
+
+class Class_1_019CEE530B4DEB2A : public ::System::Object
+{
+public:
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::UInt32 Field_1_1 = 0x3DB8D5; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::UInt32 Field_1_3 = 0x3DB8CE; // 0x0
+	// static const ::System::UInt32 Field_1_4 = 0x3DB8D3; // 0x0
+	// static const ::System::UInt32 Field_1_5 = 0x3DB8D4; // 0x0
+	// static const ::System::UInt32 Field_1_6 = 0x3DB8FF; // 0x0
+	// static const ::System::UInt32 Field_1_7 = 0x3DB8CB; // 0x0
+};

@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace Epic::OnlineServices { class ProductUserId; }
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86652F0)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_GET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x8665310)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8665300)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x8665320)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8665330)
+
+namespace Epic::OnlineServices::KWS
+{
+	inline static constexpr unsigned int UpdateParentEmailOptions_TypeDefinitionIndex = 36268;
+
+	class UpdateParentEmailOptions : public ::System::Object
+	{
+	public:
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
+		::System::String* _ParentEmail_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS__CTOR_OFFSET))(this);
+		}
+
+		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
+		{
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_GET_LOCALUSERID_OFFSET))(this);
+		}
+
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+		}
+
+		::System::String* get_ParentEmail()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_GET_PARENTEMAIL_OFFSET))(this);
+		}
+
+		::System::Void set_ParentEmail(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONS_SET_PARENTEMAIL_OFFSET))(this, value);
+		}
+	};
+}

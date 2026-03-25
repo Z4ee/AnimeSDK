@@ -1,0 +1,138 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/RecoverablePlayableBehaviour.h"
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+
+namespace EnviromentSystem { class EnviromentProfile; }
+namespace RPG::Client { class EnvironmentSystem; }
+namespace RPGTools::Timeline::EnvironmentSyetem { class EnviroSysTransitionBehaviour_Class_1_44B94E282D7AD5BD; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_54D96652D3FC94F2_OFFSET UNITYSDK_OFFSET(0xAB66770)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xAB661E0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_7033EFB970A18315_OFFSET UNITYSDK_OFFSET(0xAB66BE0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_8CA88D55ECEFAD59_OFFSET UNITYSDK_OFFSET(0xAB663C0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xAB66150)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xAB66090)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_BB2928BEC244DEB7_OFFSET UNITYSDK_OFFSET(0xAB66EC0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_DAE8DBED9D81F8BB_OFFSET UNITYSDK_OFFSET(0xAB66A60)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_DD784213055292FB_OFFSET UNITYSDK_OFFSET(0xAB66D80)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xAB65E80)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xAB66250)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xAB662C0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB66E80)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xAB66E60)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xAB66E90)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xAB66EA0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xAB66EB0)
+
+namespace RPGTools::Timeline::EnvironmentSyetem
+{
+	inline static constexpr unsigned int EnviroSysTransitionBehaviour_TypeDefinitionIndex = 39444;
+
+	class EnviroSysTransitionBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
+	{
+	public:
+		static ::RPGTools::Timeline::EnvironmentSyetem::EnviroSysTransitionBehaviour** StaticGet_Current()
+		{
+			return (::RPGTools::Timeline::EnvironmentSyetem::EnviroSysTransitionBehaviour**)Il2CppClass::FromTypeDefinitionIndex(EnviroSysTransitionBehaviour_TypeDefinitionIndex)->GetStaticField(0x47BF0);
+		}
+		static ::System::Int32* StaticGet__LastEnvTransitionHandle()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroSysTransitionBehaviour_TypeDefinitionIndex)->GetStaticField(0x12AE0);
+		}
+		::System::Single TransRate; // 0x18
+		::System::Boolean UseStoryPriority; // 0x1C
+		::System::String* ProfilePath; // 0x20
+		::System::Int32 _EnvTransitionHandle; // 0x28
+		::RPGTools::Timeline::EnvironmentSyetem::EnviroSysTransitionBehaviour_Class_1_44B94E282D7AD5BD* _EnvParamSource; // 0x30
+		::RPG::Client::EnvironmentSystem* _EnvSystem; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR__CCTOR_OFFSET))();
+		}
+
+		::System::Void OnGraphStart(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_ONGRAPHSTART_OFFSET))(this, a1);
+		}
+
+		::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
+		}
+
+		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Method_3_6B72D4EE8C6E907F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_6B72D4EE8C6E907F_OFFSET))(this);
+		}
+
+		::System::Void Method_3_54D96652D3FC94F2(::EnviromentSystem::EnviromentProfile* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_54D96652D3FC94F2_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_DAE8DBED9D81F8BB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_DAE8DBED9D81F8BB_OFFSET))(this);
+		}
+
+		::System::Void Method_3_7033EFB970A18315()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_7033EFB970A18315_OFFSET))(this);
+		}
+
+		::System::Void Method_3_8CA88D55ECEFAD59()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_8CA88D55ECEFAD59_OFFSET))(this);
+		}
+
+		::System::Void Method_3_9681042564541CD6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_9681042564541CD6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_9681042564541CD6_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_9681042564541CD6_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_DD784213055292FB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_DD784213055292FB_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnGraphStart(::UnityEngine::Playables::Playable P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTART_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void Method_3_BB2928BEC244DEB7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONBEHAVIOUR_METHOD_3_BB2928BEC244DEB7_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/GUILayoutGroup.h"
+
+namespace UnityEngine { class GUIStyle; }
+
+#define UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x18A7AC80)
+#define UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x18A7AA80)
+#define UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x18A7AB20)
+#define UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x18A7ADD0)
+#define UNITYENGINE_GUISCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18A7AA40)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int GUIScrollGroup_TypeDefinitionIndex = 5131;
+
+	class GUIScrollGroup : public ::UnityEngine::GUILayoutGroup
+	{
+	public:
+		::System::Single calcMinWidth; // 0x90
+		::System::Single calcMaxWidth; // 0x94
+		::System::Single calcMinHeight; // 0x98
+		::System::Single calcMaxHeight; // 0x9C
+		::System::Single clientWidth; // 0xA0
+		::System::Single clientHeight; // 0xA4
+		::System::Boolean allowHorizontalScroll; // 0xA8
+		::System::Boolean allowVerticalScroll; // 0xA9
+		::System::Boolean needsHorizontalScrollbar; // 0xAA
+		::System::Boolean needsVerticalScrollbar; // 0xAB
+		::UnityEngine::GUIStyle* horizontalScrollbar; // 0xB0
+		::UnityEngine::GUIStyle* verticalScrollbar; // 0xB8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP__CTOR_OFFSET))(this);
+		}
+
+		::System::Void CalcWidth()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET))(this);
+		}
+
+		::System::Void SetHorizontal(::System::Single x, ::System::Single width)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET))(this, x, width);
+		}
+
+		::System::Void CalcHeight()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET))(this);
+		}
+
+		::System::Void SetVertical(::System::Single y, ::System::Single height)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET))(this, y, height);
+		}
+	};
+}

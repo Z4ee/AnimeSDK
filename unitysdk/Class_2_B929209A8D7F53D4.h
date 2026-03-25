@@ -1,0 +1,100 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+namespace RPG::GameCore { class PlayPenaconyChroniclePerformance; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_2_B929209A8D7F53D4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C2DB60)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_72BA0E058C7272B4_1_OFFSET UNITYSDK_OFFSET(0x10C2E470)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_72BA0E058C7272B4_OFFSET UNITYSDK_OFFSET(0x10C2E380)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0x10C2E1B0)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10C2E670)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_AD4F6DA9E13A593D_OFFSET UNITYSDK_OFFSET(0x10C2DD20)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_C0A7E61A3A5041D1_OFFSET UNITYSDK_OFFSET(0x10C2DF30)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10C2E710)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_E485EFDA49608F09_1_OFFSET UNITYSDK_OFFSET(0x10C2E560)
+#define CLASS_2_B929209A8D7F53D4_METHOD_2_E485EFDA49608F09_OFFSET UNITYSDK_OFFSET(0x10C2E0A0)
+#define CLASS_2_B929209A8D7F53D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C2DBA0)
+#define CLASS_2_B929209A8D7F53D4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10C2E760)
+#define CLASS_2_B929209A8D7F53D4_TICK_OFFSET UNITYSDK_OFFSET(0x10C2E7B0)
+#define CLASS_2_B929209A8D7F53D4__CTOR_OFFSET UNITYSDK_OFFSET(0x10C2DB50)
+
+inline static constexpr unsigned int Class_2_B929209A8D7F53D4_TypeDefinitionIndex = 42951;
+
+class Class_2_B929209A8D7F53D4 : public ::Class_1_5F51D4049EA87B7B
+{
+public:
+	::RPG::GameCore::PlayPenaconyChroniclePerformance* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayPenaconyChroniclePerformance* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PlayPenaconyChroniclePerformance*))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void Method_2_AD4F6DA9E13A593D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_AD4F6DA9E13A593D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C0A7E61A3A5041D1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_C0A7E61A3A5041D1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E485EFDA49608F09()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_E485EFDA49608F09_OFFSET))(this);
+	}
+
+	::System::Void Method_2_82E992240300FB30()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_82E992240300FB30_OFFSET))(this);
+	}
+
+	::System::Void Method_2_72BA0E058C7272B4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_72BA0E058C7272B4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_72BA0E058C7272B4_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_72BA0E058C7272B4_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E485EFDA49608F09_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_E485EFDA49608F09_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_ONTASKRESET_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_B929209A8D7F53D4_TICK_OFFSET))(this, a1);
+	}
+};

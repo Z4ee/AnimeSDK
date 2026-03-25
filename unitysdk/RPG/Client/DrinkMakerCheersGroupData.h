@@ -1,0 +1,104 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class DrinkMakerCheersBartendDrinkDataExtend; }
+namespace RPG::GameCore { class DrinkMakerCheersGroupRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_AVATARNAME_OFFSET UNITYSDK_OFFSET(0x9510EF0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_AVATARREQUESTHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x9510EA0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_DAYSTARTTOASTDESC_OFFSET UNITYSDK_OFFSET(0x9510E70)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9507F90)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_GUESTHEADICON_OFFSET UNITYSDK_OFFSET(0x9510F40)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_INTRODUCEID_OFFSET UNITYSDK_OFFSET(0x9510F20)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_ISSHOWINHANDBOOK_OFFSET UNITYSDK_OFFSET(0x95082F0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_MADEDRINKCOUNT_OFFSET UNITYSDK_OFFSET(0x9508800)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_NEGATIVEDRINKDATA_OFFSET UNITYSDK_OFFSET(0x95078C0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_NEXTGROUPID_OFFSET UNITYSDK_OFFSET(0x9507F70)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_POSITIVEDRINKDATA_OFFSET UNITYSDK_OFFSET(0x95077F0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_ROLEREQUIREMENT_OFFSET UNITYSDK_OFFSET(0x9510EC0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_TOTALDRINKCOUNT_OFFSET UNITYSDK_OFFSET(0x95085F0)
+#define RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x950D510)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int DrinkMakerCheersGroupData_TypeDefinitionIndex = 51665;
+
+	class DrinkMakerCheersGroupData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::DrinkMakerCheersGroupRow* _GroupRow; // 0x10
+
+		::System::Void _ctor(::System::UInt32 groupId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA__CTOR_OFFSET))(this, groupId);
+		}
+
+		::RPG::Client::TextID get_DayStartToastDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_DAYSTARTTOASTDESC_OFFSET))(this);
+		}
+
+		::System::String* get_AvatarRequestHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_AVATARREQUESTHEADICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::DrinkMakerCheersBartendDrinkDataExtend* get_PositiveDrinkData()
+		{
+			return ((::RPG::Client::DrinkMakerCheersBartendDrinkDataExtend*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_POSITIVEDRINKDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::DrinkMakerCheersBartendDrinkDataExtend* get_NegativeDrinkData()
+		{
+			return ((::RPG::Client::DrinkMakerCheersBartendDrinkDataExtend*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_NEGATIVEDRINKDATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MadeDrinkCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_MADEDRINKCOUNT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TotalDrinkCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_TOTALDRINKCOUNT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_GroupId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_GROUPID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_NextGroupId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_NEXTGROUPID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsShowInHandBook()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_ISSHOWINHANDBOOK_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_RoleRequirement()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_ROLEREQUIREMENT_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_AvatarName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_AVATARNAME_OFFSET))(this);
+		}
+
+		::System::UInt32 get_IntroduceId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_INTRODUCEID_OFFSET))(this);
+		}
+
+		::System::String* get_GuestHeadIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSGROUPDATA_GET_GUESTHEADICON_OFFSET))(this);
+		}
+	};
+}

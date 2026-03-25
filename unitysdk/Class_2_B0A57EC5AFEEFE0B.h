@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_A170EEF84D06CBD4.h"
+#include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
+
+class Class_2_15E317187C4E8254;
+
+#define CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_03A81715BD2AFEF3_OFFSET UNITYSDK_OFFSET(0xB8AAFE0)
+#define CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xB8AB480)
+#define CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xB8AB5F0)
+#define CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_8FF354B64B657510_OFFSET UNITYSDK_OFFSET(0xB8AB2C0)
+#define CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_9A6C904A5C8D7167_OFFSET UNITYSDK_OFFSET(0xB8AAEE0)
+#define CLASS_2_B0A57EC5AFEEFE0B__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AB5E0)
+
+inline static constexpr unsigned int Class_2_B0A57EC5AFEEFE0B_TypeDefinitionIndex = 63454;
+
+class Class_2_B0A57EC5AFEEFE0B : public ::Class_1_A170EEF84D06CBD4
+{
+public:
+	::System::Int32 Field_2_1; // 0x28
+	::RPG::GameCore::CakeRaceProperty Field_2_0; // 0x2C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B0A57EC5AFEEFE0B__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_2_B0A57EC5AFEEFE0B* Method_2_9A6C904A5C8D7167(::Class_2_15E317187C4E8254* a1, ::System::UInt64 a2, ::RPG::GameCore::CakeRaceProperty a3, ::System::Int32 a4)
+	{
+		return ((::Class_2_B0A57EC5AFEEFE0B*(*)(::Class_2_15E317187C4E8254*, ::System::UInt64, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_9A6C904A5C8D7167_OFFSET))(a1, a2, a3, a4);
+	}
+
+	::System::Void Method_2_03A81715BD2AFEF3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_03A81715BD2AFEF3_OFFSET))(this);
+	}
+
+	::System::Void Method_2_8FF354B64B657510(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_8FF354B64B657510_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_41A074549EF25F63()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_41A074549EF25F63_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B0A57EC5AFEEFE0B_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+};

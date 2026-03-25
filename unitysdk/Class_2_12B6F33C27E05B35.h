@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BehaviorBase.h"
+
+namespace RPG::Client { class MonoDBBridgeControl; }
+namespace RPG::Client { class MonoDBBridgeManager; }
+namespace UnityEngine { class MonoBehaviour; }
+
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_1713F44301AA802F_1_OFFSET UNITYSDK_OFFSET(0xA2127A0)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_1713F44301AA802F_OFFSET UNITYSDK_OFFSET(0xA20C710)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_37CF7377CBA6E635_OFFSET UNITYSDK_OFFSET(0xA20C760)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_3D2B77EBCAE390AB_OFFSET UNITYSDK_OFFSET(0xA212A90)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_7E495C3F6C568910_OFFSET UNITYSDK_OFFSET(0xA212730)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_866D0979717F6B36_OFFSET UNITYSDK_OFFSET(0xA20BB10)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_8D9882D9EBFFF895_OFFSET UNITYSDK_OFFSET(0xA20BA80)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_90D019D81149A8BA_OFFSET UNITYSDK_OFFSET(0xA212D80)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA2126F0)
+#define CLASS_2_12B6F33C27E05B35_METHOD_2_E44A8E4E3318F2F0_OFFSET UNITYSDK_OFFSET(0xA20C1C0)
+#define CLASS_2_12B6F33C27E05B35__CTOR_OFFSET UNITYSDK_OFFSET(0xA212D70)
+
+inline static constexpr unsigned int Class_2_12B6F33C27E05B35_TypeDefinitionIndex = 57608;
+
+class Class_2_12B6F33C27E05B35 : public ::RPG::Client::BehaviorBase
+{
+public:
+	::Il2CppArray<::System::Single>* Field_2_1; // 0x18
+	::Il2CppArray<::RPG::Client::MonoDBBridgeControl*>* Field_2_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_8D9882D9EBFFF895(::UnityEngine::MonoBehaviour* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_8D9882D9EBFFF895_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_1713F44301AA802F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_1713F44301AA802F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_866D0979717F6B36()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_866D0979717F6B36_OFFSET))(this);
+	}
+
+	::System::Void Method_2_37CF7377CBA6E635()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_37CF7377CBA6E635_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3D2B77EBCAE390AB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_3D2B77EBCAE390AB_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1713F44301AA802F_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_1713F44301AA802F_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E44A8E4E3318F2F0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_E44A8E4E3318F2F0_OFFSET))(this);
+	}
+
+	::RPG::Client::MonoDBBridgeManager* Method_2_7E495C3F6C568910()
+	{
+		return ((::RPG::Client::MonoDBBridgeManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_7E495C3F6C568910_OFFSET))(this);
+	}
+
+	::System::Void Method_2_90D019D81149A8BA(::UnityEngine::MonoBehaviour* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_12B6F33C27E05B35_METHOD_2_90D019D81149A8BA_OFFSET))(this, P0);
+	}
+};

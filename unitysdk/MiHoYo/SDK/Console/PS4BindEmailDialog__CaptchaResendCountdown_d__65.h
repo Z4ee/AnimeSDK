@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK::Console { class PS4BindEmailDialog; }
+
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15E78F00)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15E79000)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15E79060)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15E79010)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E78EF0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65__CTOR_OFFSET UNITYSDK_OFFSET(0x15E786D0)
+
+namespace MiHoYo::SDK::Console
+{
+	inline static constexpr unsigned int PS4BindEmailDialog__CaptchaResendCountdown_d__65_TypeDefinitionIndex = 7635;
+
+	class PS4BindEmailDialog__CaptchaResendCountdown_d__65 : public ::System::Object
+	{
+	public:
+		::System::Object* __2__current; // 0x10
+		::MiHoYo::SDK::Console::PS4BindEmailDialog* __4__this; // 0x18
+		::System::Single _startTime_5__1; // 0x20
+		::System::Int32 __1__state; // 0x24
+
+		::System::Void _ctor(::System::Int32 __1__state)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65__CTOR_OFFSET))(this, __1__state);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CAPTCHARESENDCOUNTDOWN_D__65_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,133 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BattleRecordDisplayType.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_4C5FA33230DE3480;
+
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_ADVANCEDDIFFICULTY_OFFSET UNITYSDK_OFFSET(0x9FEE080)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x9FEE040)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_DIFFICULTY_OFFSET UNITYSDK_OFFSET(0x9FEE100)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_DISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0x9FEE0C0)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_DLCID_OFFSET UNITYSDK_OFFSET(0x9FEE020)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_HASRECORD_OFFSET UNITYSDK_OFFSET(0x9FEE0D0)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9FEE0E0)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_PRIMARYDIFFICULT_OFFSET UNITYSDK_OFFSET(0x9FEE060)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_PROCESS_OFFSET UNITYSDK_OFFSET(0x9FEE0A0)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_ADVANCEDDIFFICULTY_OFFSET UNITYSDK_OFFSET(0x9FEE090)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_AREAID_OFFSET UNITYSDK_OFFSET(0x9FEE050)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_DIFFICULTY_OFFSET UNITYSDK_OFFSET(0x9FEE110)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_DLCID_OFFSET UNITYSDK_OFFSET(0x9FEE030)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x9FEE0F0)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_PRIMARYDIFFICULT_OFFSET UNITYSDK_OFFSET(0x9FEE070)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_PROCESS_OFFSET UNITYSDK_OFFSET(0x9FEE0B0)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9FEE120)
+#define RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FEE220)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PlayerNousChessRogueRecordData_TypeDefinitionIndex = 52199;
+
+	class PlayerNousChessRogueRecordData : public ::System::Object
+	{
+	public:
+		::System::UInt32 _Difficulty_k__BackingField; // 0x10
+		::System::UInt32 _AdvancedDifficulty_k__BackingField; // 0x14
+		::System::UInt32 _DlcID_k__BackingField; // 0x18
+		::System::UInt32 _PrimaryDifficult_k__BackingField; // 0x1C
+		::System::UInt32 _Process_k__BackingField; // 0x20
+		::System::UInt32 _AreaID_k__BackingField; // 0x24
+		::RPG::Client::TextID _Name_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DlcID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_DLCID_OFFSET))(this);
+		}
+
+		::System::Void set_DlcID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_DLCID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AreaID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_AREAID_OFFSET))(this);
+		}
+
+		::System::Void set_AreaID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_AREAID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_PrimaryDifficult()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_PRIMARYDIFFICULT_OFFSET))(this);
+		}
+
+		::System::Void set_PrimaryDifficult(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_PRIMARYDIFFICULT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AdvancedDifficulty()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_ADVANCEDDIFFICULTY_OFFSET))(this);
+		}
+
+		::System::Void set_AdvancedDifficulty(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_ADVANCEDDIFFICULTY_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Process()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_PROCESS_OFFSET))(this);
+		}
+
+		::System::Void set_Process(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_PROCESS_OFFSET))(this, value);
+		}
+
+		::RPG::Client::BattleRecordDisplayType get_DisplayType()
+		{
+			return ((::RPG::Client::BattleRecordDisplayType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_DISPLAYTYPE_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasRecord()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_HASRECORD_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_NAME_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Difficulty()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_GET_DIFFICULTY_OFFSET))(this);
+		}
+
+		::System::Void set_Difficulty(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SET_DIFFICULTY_OFFSET))(this, value);
+		}
+
+		::System::Void Sync(::Class_1_4C5FA33230DE3480* info)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4C5FA33230DE3480*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERNOUSCHESSROGUERECORDDATA_SYNC_OFFSET))(this, info);
+		}
+	};
+}

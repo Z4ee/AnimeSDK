@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EnviromentControlPriority.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_293;
+class Class_0_16E4307DCC419505_310;
+namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
+namespace System { template <typename T> class Action_1; }
+
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1036AE20)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x1036DE50)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0x1036E140)
+
+namespace EnviromentSystemV2Space
+{
+	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass54_0_TypeDefinitionIndex = 40159;
+
+	class EnvironmentSystemV2___c__DisplayClass54_0 : public ::System::Object
+	{
+	public:
+		::Class_0_16E4307DCC419505_293* targetProfile; // 0x10
+		::Class_0_16E4307DCC419505_310* h; // 0x18
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x20
+		::System::Action_1<::System::Boolean>* __9__2; // 0x28
+		::RPG::GameCore::EnviromentControlPriority priority; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _SetActiveProfileAfterAsyncResLoading_b__0(::System::Boolean v)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET))(this, v);
+		}
+
+		::System::Void _SetActiveProfileAfterAsyncResLoading_b__2(::System::Boolean val)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET))(this, val);
+		}
+	};
+}

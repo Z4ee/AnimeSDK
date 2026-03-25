@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Epic/OnlineServices/P2P/PacketQueueInfoInternal.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_INCOMINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET UNITYSDK_OFFSET(0x86AF7B0)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_INCOMINGPACKETQUEUECURRENTSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF790)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_INCOMINGPACKETQUEUEMAXSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF770)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_OUTGOINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET UNITYSDK_OFFSET(0x86AF810)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_OUTGOINGPACKETQUEUECURRENTSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF7F0)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_OUTGOINGPACKETQUEUEMAXSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF7D0)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x86AF970)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_INCOMINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET UNITYSDK_OFFSET(0x86AF7C0)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_INCOMINGPACKETQUEUECURRENTSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF7A0)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_INCOMINGPACKETQUEUEMAXSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF780)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OFFSET UNITYSDK_OFFSET(0x86AF830)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OUTGOINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET UNITYSDK_OFFSET(0x86AF820)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OUTGOINGPACKETQUEUECURRENTSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF800)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OUTGOINGPACKETQUEUEMAXSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x86AF7E0)
+#define EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x86AFAB0)
+
+namespace Epic::OnlineServices::P2P
+{
+	inline static constexpr unsigned int PacketQueueInfo_TypeDefinitionIndex = 35917;
+
+	class PacketQueueInfo : public ::System::Object
+	{
+	public:
+		::System::UInt64 _IncomingPacketQueueCurrentPacketCount_k__BackingField; // 0x10
+		::System::UInt64 _IncomingPacketQueueMaxSizeBytes_k__BackingField; // 0x18
+		::System::UInt64 _IncomingPacketQueueCurrentSizeBytes_k__BackingField; // 0x20
+		::System::UInt64 _OutgoingPacketQueueMaxSizeBytes_k__BackingField; // 0x28
+		::System::UInt64 _OutgoingPacketQueueCurrentPacketCount_k__BackingField; // 0x30
+		::System::UInt64 _OutgoingPacketQueueCurrentSizeBytes_k__BackingField; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt64 get_IncomingPacketQueueMaxSizeBytes()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_INCOMINGPACKETQUEUEMAXSIZEBYTES_OFFSET))(this);
+		}
+
+		::System::Void set_IncomingPacketQueueMaxSizeBytes(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_INCOMINGPACKETQUEUEMAXSIZEBYTES_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_IncomingPacketQueueCurrentSizeBytes()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_INCOMINGPACKETQUEUECURRENTSIZEBYTES_OFFSET))(this);
+		}
+
+		::System::Void set_IncomingPacketQueueCurrentSizeBytes(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_INCOMINGPACKETQUEUECURRENTSIZEBYTES_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_IncomingPacketQueueCurrentPacketCount()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_INCOMINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_IncomingPacketQueueCurrentPacketCount(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_INCOMINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_OutgoingPacketQueueMaxSizeBytes()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_OUTGOINGPACKETQUEUEMAXSIZEBYTES_OFFSET))(this);
+		}
+
+		::System::Void set_OutgoingPacketQueueMaxSizeBytes(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OUTGOINGPACKETQUEUEMAXSIZEBYTES_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_OutgoingPacketQueueCurrentSizeBytes()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_OUTGOINGPACKETQUEUECURRENTSIZEBYTES_OFFSET))(this);
+		}
+
+		::System::Void set_OutgoingPacketQueueCurrentSizeBytes(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OUTGOINGPACKETQUEUECURRENTSIZEBYTES_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_OutgoingPacketQueueCurrentPacketCount()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_GET_OUTGOINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_OutgoingPacketQueueCurrentPacketCount(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OUTGOINGPACKETQUEUECURRENTPACKETCOUNT_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::P2P::PacketQueueInfoInternal> other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::P2P::PacketQueueInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_PACKETQUEUEINFO_SET_1_OFFSET))(this, other);
+		}
+	};
+}

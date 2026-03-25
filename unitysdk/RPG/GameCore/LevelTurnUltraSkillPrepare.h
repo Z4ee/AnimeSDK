@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/RPG/GameCore/InsertActionType.h"
+
+class Class_1_152140BAFD2DB102;
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xA993D20)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETDISABLEREADYCAMERA_OFFSET UNITYSDK_OFFSET(0xA993E00)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA993C90)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETINSERTULTRASKILLPARAMS_OFFSET UNITYSDK_OFFSET(0xA993CE0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETSKILLINDEX_OFFSET UNITYSDK_OFFSET(0xA993D70)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA993C40)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GET_ACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xA993EA0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_HASPREPAREABILITY_OFFSET UNITYSDK_OFFSET(0xA993E40)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_INIT_OFFSET UNITYSDK_OFFSET(0xA993BD0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE__CTOR_OFFSET UNITYSDK_OFFSET(0xA993EC0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelTurnUltraSkillPrepare_TypeDefinitionIndex = 45617;
+
+	class LevelTurnUltraSkillPrepare : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::Class_1_152140BAFD2DB102* _InsertUltraSkillParams; // 0x18
+		::System::Boolean _DisableReadyCamera; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LevelTurnUltraSkillPrepare* Init(::Class_1_152140BAFD2DB102* InsertUltraSkillParams)
+		{
+			return ((::RPG::GameCore::LevelTurnUltraSkillPrepare*(*)(::PVOID, ::Class_1_152140BAFD2DB102*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_INIT_OFFSET))(this, InsertUltraSkillParams);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::Class_1_152140BAFD2DB102* GetInsertUltraSkillParams()
+		{
+			return ((::Class_1_152140BAFD2DB102*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETINSERTULTRASKILLPARAMS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* GetActiveEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETACTIVEENTITY_OFFSET))(this);
+		}
+
+		::System::Int32 GetSkillIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETSKILLINDEX_OFFSET))(this);
+		}
+
+		::System::Boolean GetDisableReadyCamera()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GETDISABLEREADYCAMERA_OFFSET))(this);
+		}
+
+		::System::Boolean HasPrepareAbility()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_HASPREPAREABILITY_OFFSET))(this);
+		}
+
+		::RPG::GameCore::InsertActionType get_ActionType()
+		{
+			return ((::RPG::GameCore::InsertActionType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLPREPARE_GET_ACTIONTYPE_OFFSET))(this);
+		}
+	};
+}

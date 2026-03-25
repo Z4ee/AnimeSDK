@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_6303FAC302C29AF3_6;
+class Class_1_7AC0C6607BF1C342;
+
+#define CLASS_1_535F870B1E025E7A_GET_BATTLERESULTENCRYPTKEY_OFFSET UNITYSDK_OFFSET(0x10583ED0)
+#define CLASS_1_535F870B1E025E7A_METHOD_1_4D395DE7080248C4_OFFSET UNITYSDK_OFFSET(0x10583780)
+#define CLASS_1_535F870B1E025E7A_METHOD_1_5DA6C7E185F312FF_OFFSET UNITYSDK_OFFSET(0x105836B0)
+#define CLASS_1_535F870B1E025E7A_METHOD_1_62D75ADFFEE4BD8B_OFFSET UNITYSDK_OFFSET(0x10583D80)
+#define CLASS_1_535F870B1E025E7A_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x10583EC0)
+#define CLASS_1_535F870B1E025E7A_SET_BATTLERESULTENCRYPTKEY_OFFSET UNITYSDK_OFFSET(0x10583EE0)
+#define CLASS_1_535F870B1E025E7A__CTOR_OFFSET UNITYSDK_OFFSET(0x10583EF0)
+
+inline static constexpr unsigned int Class_1_535F870B1E025E7A_TypeDefinitionIndex = 54285;
+
+class Class_1_535F870B1E025E7A : public ::System::Object
+{
+public:
+	::Il2CppArray<::System::Byte>* Field_1_2; // 0x10
+	::System::UInt32 _BattleResultEncryptKey_k__BackingField; // 0x18
+	::System::Boolean Field_1_1; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A__CTOR_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::Byte>* Method_1_5DA6C7E185F312FF()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A_METHOD_1_5DA6C7E185F312FF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4D395DE7080248C4(::Class_1_7AC0C6607BF1C342* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_7AC0C6607BF1C342*))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A_METHOD_1_4D395DE7080248C4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_62D75ADFFEE4BD8B(::Class_1_6303FAC302C29AF3_6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_6303FAC302C29AF3_6*))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A_METHOD_1_62D75ADFFEE4BD8B_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::UInt32 get_BattleResultEncryptKey()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A_GET_BATTLERESULTENCRYPTKEY_OFFSET))(this);
+	}
+
+	::System::Void set_BattleResultEncryptKey(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_535F870B1E025E7A_SET_BATTLERESULTENCRYPTKEY_OFFSET))(this, value);
+	}
+};

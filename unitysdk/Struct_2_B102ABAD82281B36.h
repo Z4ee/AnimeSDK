@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_10C68D9D7310E257_OFFSET UNITYSDK_OFFSET(0x20EC980)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_19FEE9758EDB3C9D_OFFSET UNITYSDK_OFFSET(0x20ECD20)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x20ECAD0)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_602A336CBD30C930_OFFSET UNITYSDK_OFFSET(0x20ECD30)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_682B7BF19723A546_OFFSET UNITYSDK_OFFSET(0x20ECAB0)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_6D73EA9BEE886FE6_OFFSET UNITYSDK_OFFSET(0x179F8050)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_A164F05E77E7E477_OFFSET UNITYSDK_OFFSET(0x20ECB30)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_A6FD93BB51AF2E81_OFFSET UNITYSDK_OFFSET(0x20ECAF0)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_C4BDE09AEF4EF7AE_OFFSET UNITYSDK_OFFSET(0x20ECAC0)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_DC7939294C5DED1A_OFFSET UNITYSDK_OFFSET(0x20EC9D0)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_FD4239B33F73ED49_1_OFFSET UNITYSDK_OFFSET(0x20ECC40)
+#define STRUCT_2_B102ABAD82281B36_METHOD_2_FD4239B33F73ED49_OFFSET UNITYSDK_OFFSET(0x20ECB70)
+#define STRUCT_2_B102ABAD82281B36_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20ECD60)
+#define STRUCT_2_B102ABAD82281B36__CTOR_1_OFFSET UNITYSDK_OFFSET(0x88F80)
+#define STRUCT_2_B102ABAD82281B36__CTOR_2_OFFSET UNITYSDK_OFFSET(0x20EC8A0)
+#define STRUCT_2_B102ABAD82281B36__CTOR_3_OFFSET UNITYSDK_OFFSET(0x20EC910)
+#define STRUCT_2_B102ABAD82281B36__CTOR_OFFSET UNITYSDK_OFFSET(0x20EC870)
+
+inline static constexpr unsigned int Struct_2_B102ABAD82281B36_TypeDefinitionIndex = 8579;
+
+struct alignas(4) Struct_2_B102ABAD82281B36
+{
+	::RPG::MVector2 Field_2_0; // 0x10
+	::RPG::MVector2 Field_2_1; // 0x18
+	::RPG::MVector2 Field_2_2; // 0x20
+	::RPG::MVector2 Field_2_3; // 0x28
+
+	::System::Void _ctor(::RPG::MVector2& a1, ::RPG::MVector2& a2, ::RPG::MVector2& a3, ::RPG::MVector2& a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector2&, ::RPG::MVector2&, ::RPG::MVector2&, ::RPG::MVector2&))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36__CTOR_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void _ctor_1(::RPG::MVector2 a1, ::RPG::MVector2 a2, ::RPG::MVector2 a3, ::RPG::MVector2 a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector2, ::RPG::MVector2, ::RPG::MVector2, ::RPG::MVector2))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	/*
+	::System::Void _ctor_2(::Struct_2_097D65E85B32E0F5& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_097D65E85B32E0F5&))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36__CTOR_2_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::System::Void _ctor_3(::Struct_2_097D65E85B32E0F5 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_097D65E85B32E0F5))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36__CTOR_3_OFFSET))(this, a1);
+	}
+	*/
+
+	static ::Struct_2_B102ABAD82281B36 Method_2_6D73EA9BEE886FE6(::System::Collections::Generic::IList_1<::RPG::MVector2>* a1)
+	{
+		return ((::Struct_2_B102ABAD82281B36(*)(::System::Collections::Generic::IList_1<::RPG::MVector2>*))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_6D73EA9BEE886FE6_OFFSET))(a1);
+	}
+
+	::RPG::MVector2 Method_2_10C68D9D7310E257(::System::Int32 a1)
+	{
+		return ((::RPG::MVector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_10C68D9D7310E257_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_DC7939294C5DED1A(::RPG::MVector2& a1, ::RPG::MVector2& a2, ::RPG::MVector2& a3, ::RPG::MVector2& a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector2&, ::RPG::MVector2&, ::RPG::MVector2&, ::RPG::MVector2&))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_DC7939294C5DED1A_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::Il2CppArray<::RPG::MVector2>* Method_2_682B7BF19723A546()
+	{
+		return ((::Il2CppArray<::RPG::MVector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_682B7BF19723A546_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C4BDE09AEF4EF7AE(::Il2CppArray<::RPG::MVector2>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::MVector2>*))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_C4BDE09AEF4EF7AE_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_2_5323F2DF46A044DA()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_5323F2DF46A044DA_OFFSET))(this);
+	}
+
+	::System::Single Method_2_A6FD93BB51AF2E81(::RPG::MVector2 a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::RPG::MVector2))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_A6FD93BB51AF2E81_OFFSET))(this, a1);
+	}
+
+	::RPG::MVector2 Method_2_A164F05E77E7E477(::RPG::MVector2 a1)
+	{
+		return ((::RPG::MVector2(*)(::PVOID, ::RPG::MVector2))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_A164F05E77E7E477_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_FD4239B33F73ED49(::RPG::MVector2& a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::MVector2&))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_FD4239B33F73ED49_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_FD4239B33F73ED49_1(::RPG::MVector2 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::MVector2))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_FD4239B33F73ED49_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_19FEE9758EDB3C9D(::Struct_2_B102ABAD82281B36& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_B102ABAD82281B36&))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_19FEE9758EDB3C9D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_602A336CBD30C930(::Struct_2_B102ABAD82281B36 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_B102ABAD82281B36))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_METHOD_2_602A336CBD30C930_OFFSET))(this, a1);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_B102ABAD82281B36_TOSTRING_OFFSET))(this);
+	}
+};

@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_4CF8088A158DCE25_83;
+namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
+
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xA3D53B0)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_ISREACHLIMIT_OFFSET UNITYSDK_OFFSET(0xA3D4E00)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_TOTALVALUEBEFORE_OFFSET UNITYSDK_OFFSET(0xA3D5230)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_TOTALVALUE_OFFSET UNITYSDK_OFFSET(0xA3D5210)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_VALUEEXTRA_OFFSET UNITYSDK_OFFSET(0xA3D5160)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA3D50B0)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_SET_TOTALVALUE_OFFSET UNITYSDK_OFFSET(0xA3D5220)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_SYNCTOURNEXP_OFFSET UNITYSDK_OFFSET(0xA3D4000)
+#define RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA3D2280)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournSettleTournExpInfoItem_TypeDefinitionIndex = 55333;
+
+	class RogueTournSettleTournExpInfoItem : public ::System::Object
+	{
+	public:
+		::RPG::Client::IRogueTournGameScoreSettleResult* _ScoreInfoItem; // 0x10
+		::System::UInt32 _TotalValue_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Value()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ValueExtra()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_VALUEEXTRA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsReachLimit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_ISREACHLIMIT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TotalValue()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_TOTALVALUE_OFFSET))(this);
+		}
+
+		::System::Void set_TotalValue(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_SET_TOTALVALUE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_TotalValueBefore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_TOTALVALUEBEFORE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEmpty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_GET_ISEMPTY_OFFSET))(this);
+		}
+
+		::System::Void SyncTournExp(::Class_1_4CF8088A158DCE25_83* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4CF8088A158DCE25_83*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNSETTLETOURNEXPINFOITEM_SYNCTOURNEXP_OFFSET))(this, proto);
+		}
+	};
+}

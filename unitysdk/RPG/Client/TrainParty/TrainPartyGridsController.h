@@ -1,0 +1,281 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_0A1329B6B19F70B0_7;
+class Class_1_5FEFAED860528596_107;
+class Class_1_EF0E638FDA49C9A1_6;
+class Class_1_FA4F4A67B1C04320_928;
+namespace RPG::Client::TrainParty { class TrainPartyGameInstance; }
+namespace RPG::Client::TrainParty { class TrainPartyGridData; }
+namespace RPG::Client::TrainParty { template <typename T> class TrainPartyCacheDataList_1; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA5F93B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_FINISHREPLACEGRID_OFFSET UNITYSDK_OFFSET(0xA5FEB50)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETDISPLAYGRIDNUM_OFFSET UNITYSDK_OFFSET(0xA5FE770)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETGRIDDATABYSTEP_OFFSET UNITYSDK_OFFSET(0xA5FF210)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETGRIDDATABYUNIQUEID_OFFSET UNITYSDK_OFFSET(0xA5FF350)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETGRIDLIST_OFFSET UNITYSDK_OFFSET(0xA5FF310)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETNEXTMEETINGGRIDICONPATH_OFFSET UNITYSDK_OFFSET(0xA5FF400)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETSTOPGRIDDATABYSTEP_OFFSET UNITYSDK_OFFSET(0xA5FF070)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_ALLMEETINGTIMES_OFFSET UNITYSDK_OFFSET(0xA5FF550)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_CURGRIDDATA_OFFSET UNITYSDK_OFFSET(0xA5FF4A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_CURGRIDUNIQUEID_OFFSET UNITYSDK_OFFSET(0xA5FF480)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_GAPGRIDNUM_OFFSET UNITYSDK_OFFSET(0xA5FF570)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_ISONFIRSTGRID_OFFSET UNITYSDK_OFFSET(0xA5FF590)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_MEETINGTIMES_OFFSET UNITYSDK_OFFSET(0xA5FF530)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_MOVESTEPNUM_OFFSET UNITYSDK_OFFSET(0xA5FF510)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_STEPSTONEXTMEETING_OFFSET UNITYSDK_OFFSET(0xA5FF4F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xA5F8EA0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ISGRIDMUSTSTOP_OFFSET UNITYSDK_OFFSET(0xA5FE540)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ISGRIDNEEDREPLACE_OFFSET UNITYSDK_OFFSET(0xA5FEBC0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_MARKCARDWILLUSED_OFFSET UNITYSDK_OFFSET(0xA5FB710)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ONEXITGAME_OFFSET UNITYSDK_OFFSET(0xA5FB280)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ONMOVEFINISH_OFFSET UNITYSDK_OFFSET(0xA5FF2A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ONMOVENOTIFY_OFFSET UNITYSDK_OFFSET(0xA5FEC70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_ALLMEETINGTIMES_OFFSET UNITYSDK_OFFSET(0xA5FF560)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_CURGRIDUNIQUEID_OFFSET UNITYSDK_OFFSET(0xA5FF490)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_GAPGRIDNUM_OFFSET UNITYSDK_OFFSET(0xA5FF580)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_MEETINGTIMES_OFFSET UNITYSDK_OFFSET(0xA5FF540)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_MOVESTEPNUM_OFFSET UNITYSDK_OFFSET(0xA5FF520)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_STEPSTONEXTMEETING_OFFSET UNITYSDK_OFFSET(0xA5FF500)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SYNCMEETINGTIMES_OFFSET UNITYSDK_OFFSET(0xA5F89B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SYNC_OFFSET UNITYSDK_OFFSET(0xA5F7CB0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_TRYDOMOVE_OFFSET UNITYSDK_OFFSET(0xA5FEF90)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_UNREGISTERMOVEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xA5FEF00)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_UPDATEGRIDS_OFFSET UNITYSDK_OFFSET(0xA5F8AB0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_UPDATESTEPSNUMTOMEETING_OFFSET UNITYSDK_OFFSET(0xA5FEC20)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F8E90)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__GETINDEXBYUNIQUEID_OFFSET UNITYSDK_OFFSET(0xA5FEA90)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__INITMUSTSTOPGRIDFLAG_OFFSET UNITYSDK_OFFSET(0xA5FE600)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__PREPAREGRIDMOVEDATA_OFFSET UNITYSDK_OFFSET(0xA5FECC0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__SYNCGRIDS_OFFSET UNITYSDK_OFFSET(0xA5FE850)
+
+namespace RPG::Client::TrainParty
+{
+	inline static constexpr unsigned int TrainPartyGridsController_TypeDefinitionIndex = 61109;
+
+	class TrainPartyGridsController : public ::System::Object
+	{
+	public:
+		// static const ::System::UInt32 _First_Grid_Unique_ID = 0x1; // 0x0
+		::System::Collections::Generic::List_1<::System::UInt32>* _ReplaceGridUniqueIDList; // 0x10
+		::RPG::Client::TrainParty::TrainPartyGameInstance* _OwnerGame; // 0x18
+		::System::Action* _MoveFinishCallback; // 0x20
+		::RPG::Client::TrainParty::TrainPartyCacheDataList_1<::RPG::Client::TrainParty::TrainPartyGridData*>* _GridCacheDataList; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyGridData*>* _GridList; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* MeetingScoreList; // 0x38
+		::System::UInt32 _MoveStepNum_k__BackingField; // 0x40
+		::System::UInt32 _MeetingTimes_k__BackingField; // 0x44
+		::System::UInt32 _GapGridNum_k__BackingField; // 0x48
+		::System::UInt32 _CurGridUniqueID_k__BackingField; // 0x4C
+		::System::UInt32 _StepsToNextMeeting_k__BackingField; // 0x50
+		::System::UInt32 _AllMeetingTimes_k__BackingField; // 0x54
+		::System::Int32 _MustStopGridFlag; // 0x58
+		::System::UInt32 _NextMeetingGridID; // 0x5C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init(::RPG::Client::TrainParty::TrainPartyGameInstance* owner)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_INIT_OFFSET))(this, owner);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnExitGame()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ONEXITGAME_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_EF0E638FDA49C9A1_6* serverInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_EF0E638FDA49C9A1_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SYNC_OFFSET))(this, serverInfo);
+		}
+
+		::System::Void SyncMeetingTimes(::Class_1_0A1329B6B19F70B0_7* meetingCountInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_0A1329B6B19F70B0_7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SYNCMEETINGTIMES_OFFSET))(this, meetingCountInfo);
+		}
+
+		::System::Void UpdateGrids(::System::Collections::Generic::IList_1<::Class_1_FA4F4A67B1C04320_928*>* serverGrids)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_FA4F4A67B1C04320_928*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_UPDATEGRIDS_OFFSET))(this, serverGrids);
+		}
+
+		::System::Void MarkCardWillUsed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_MARKCARDWILLUSED_OFFSET))(this);
+		}
+
+		::System::Void FinishReplaceGrid()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_FINISHREPLACEGRID_OFFSET))(this);
+		}
+
+		::System::Boolean IsGridNeedReplace(::System::UInt32 gridUniqueID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ISGRIDNEEDREPLACE_OFFSET))(this, gridUniqueID);
+		}
+
+		::System::Void UpdateStepsNumToMeeting(::System::UInt32 num)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_UPDATESTEPSNUMTOMEETING_OFFSET))(this, num);
+		}
+
+		::System::Void OnMoveNotify(::Class_1_5FEFAED860528596_107* notify)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_5FEFAED860528596_107*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ONMOVENOTIFY_OFFSET))(this, notify);
+		}
+
+		::System::Void UnregisterMoveFinishCallback(::System::Action* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_UNREGISTERMOVEFINISHCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::Void TryDoMove(::System::Action* moveEndCallback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_TRYDOMOVE_OFFSET))(this, moveEndCallback);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyGridData* GetStopGridDataByStep(::System::UInt32 stepNum, ::System::UInt32& realMoveStep)
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyGridData*(*)(::PVOID, ::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETSTOPGRIDDATABYSTEP_OFFSET))(this, stepNum, realMoveStep);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyGridData* GetGridDataByStep(::System::UInt32 stepNum)
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyGridData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETGRIDDATABYSTEP_OFFSET))(this, stepNum);
+		}
+
+		::System::Boolean IsGridMustStop(::RPG::Client::TrainParty::TrainPartyGridData* gridData)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyGridData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ISGRIDMUSTSTOP_OFFSET))(this, gridData);
+		}
+
+		::System::Void OnMoveFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_ONMOVEFINISH_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyGridData*>* GetGridList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyGridData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETGRIDLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyGridData* GetGridDataByUniqueID(::System::UInt32 uniqueID)
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyGridData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETGRIDDATABYUNIQUEID_OFFSET))(this, uniqueID);
+		}
+
+		::System::String* GetNextMeetingGridIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETNEXTMEETINGGRIDICONPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 GetDisplayGridNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GETDISPLAYGRIDNUM_OFFSET))(this);
+		}
+
+		::System::Void _InitMustStopGridFlag()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__INITMUSTSTOPGRIDFLAG_OFFSET))(this);
+		}
+
+		::System::Void _PrepareGridMoveData(::Class_1_5FEFAED860528596_107* notify)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_5FEFAED860528596_107*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__PREPAREGRIDMOVEDATA_OFFSET))(this, notify);
+		}
+
+		::System::Void _SyncGrids(::System::Collections::Generic::IList_1<::Class_1_FA4F4A67B1C04320_928*>* serverGrids)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_FA4F4A67B1C04320_928*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__SYNCGRIDS_OFFSET))(this, serverGrids);
+		}
+
+		::System::Int32 _GetIndexByUniqueID(::System::UInt32 uniqueID)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER__GETINDEXBYUNIQUEID_OFFSET))(this, uniqueID);
+		}
+
+		::System::UInt32 get_CurGridUniqueID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_CURGRIDUNIQUEID_OFFSET))(this);
+		}
+
+		::System::Void set_CurGridUniqueID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_CURGRIDUNIQUEID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyGridData* get_CurGridData()
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyGridData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_CURGRIDDATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_StepsToNextMeeting()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_STEPSTONEXTMEETING_OFFSET))(this);
+		}
+
+		::System::Void set_StepsToNextMeeting(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_STEPSTONEXTMEETING_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MoveStepNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_MOVESTEPNUM_OFFSET))(this);
+		}
+
+		::System::Void set_MoveStepNum(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_MOVESTEPNUM_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MeetingTimes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_MEETINGTIMES_OFFSET))(this);
+		}
+
+		::System::Void set_MeetingTimes(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_MEETINGTIMES_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AllMeetingTimes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_ALLMEETINGTIMES_OFFSET))(this);
+		}
+
+		::System::Void set_AllMeetingTimes(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_ALLMEETINGTIMES_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_GapGridNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_GAPGRIDNUM_OFFSET))(this);
+		}
+
+		::System::Void set_GapGridNum(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_SET_GAPGRIDNUM_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsOnFirstGrid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYGRIDSCONTROLLER_GET_ISONFIRSTGRID_OFFSET))(this);
+		}
+	};
+}

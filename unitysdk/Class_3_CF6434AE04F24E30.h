@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
+
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TargetFetchActionDelayExceed; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_3_CF6434AE04F24E30_EVALUATE_OFFSET UNITYSDK_OFFSET(0x116DC5B0)
+#define CLASS_3_CF6434AE04F24E30__CTOR_OFFSET UNITYSDK_OFFSET(0x116DC530)
+
+inline static constexpr unsigned int Class_3_CF6434AE04F24E30_TypeDefinitionIndex = 47806;
+
+class Class_3_CF6434AE04F24E30 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchActionDelayExceed*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TargetFetchActionDelayExceed* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + CLASS_3_CF6434AE04F24E30__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_3_CF6434AE04F24E30_EVALUATE_OFFSET))(this, a1, a2);
+	}
+};

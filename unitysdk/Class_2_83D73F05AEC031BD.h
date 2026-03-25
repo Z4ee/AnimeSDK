@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/RPG/Client/BattleSkillSpecialAvatarType.h"
+
+class Class_0_16E4307DCC419505_859;
+class Class_1_F8D4E2BAA9A57E44;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
+
+#define CLASS_2_83D73F05AEC031BD_METHOD_2_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0xA4440C0)
+#define CLASS_2_83D73F05AEC031BD_METHOD_2_528BD4865C714C5C_OFFSET UNITYSDK_OFFSET(0xA444160)
+#define CLASS_2_83D73F05AEC031BD_METHOD_2_89AE3FDE25BEC3FA_OFFSET UNITYSDK_OFFSET(0xA444060)
+#define CLASS_2_83D73F05AEC031BD_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xA443FC0)
+#define CLASS_2_83D73F05AEC031BD_METHOD_2_BD2985FAEB7CF7D6_OFFSET UNITYSDK_OFFSET(0xA4440B0)
+#define CLASS_2_83D73F05AEC031BD_METHOD_2_D41F2EAAA87E2BFD_OFFSET UNITYSDK_OFFSET(0xA4440D0)
+#define CLASS_2_83D73F05AEC031BD__CTOR_OFFSET UNITYSDK_OFFSET(0xA4441B0)
+
+inline static constexpr unsigned int Class_2_83D73F05AEC031BD_TypeDefinitionIndex = 58937;
+
+class Class_2_83D73F05AEC031BD : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	// static const ::System::UInt32 Field_2_1 = 0x580; // 0x0
+	// static const ::System::String* Field_2_2; // 0x0
+	::Class_0_16E4307DCC419505_859* Field_2_0; // 0x60
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_89AE3FDE25BEC3FA(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD_METHOD_2_89AE3FDE25BEC3FA_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::BattleSkillSpecialAvatarType Method_2_BD2985FAEB7CF7D6()
+	{
+		return ((::RPG::Client::BattleSkillSpecialAvatarType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD_METHOD_2_BD2985FAEB7CF7D6_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_2_02A3D10A9D535169()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD_METHOD_2_02A3D10A9D535169_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_859* Method_2_D41F2EAAA87E2BFD()
+	{
+		return ((::Class_0_16E4307DCC419505_859*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD_METHOD_2_D41F2EAAA87E2BFD_OFFSET))(this);
+	}
+
+	::Class_1_F8D4E2BAA9A57E44* Method_2_528BD4865C714C5C()
+	{
+		return ((::Class_1_F8D4E2BAA9A57E44*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_83D73F05AEC031BD_METHOD_2_528BD4865C714C5C_OFFSET))(this);
+	}
+};

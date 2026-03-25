@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_9BF8902D61AE1796.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_2_9DD8A46984F1AFFD;
+
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_INIT_OFFSET UNITYSDK_OFFSET(0x9C11650)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x9C118A0)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_METHOD_5_F783C72ABA154251_OFFSET UNITYSDK_OFFSET(0x9C116D0)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9C11820)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9C11A30)
+
+namespace RPG::Client::Mono
+{
+	inline static constexpr unsigned int FiveDimTriggerRegionPlugin_TypeDefinitionIndex = 61878;
+
+	class FiveDimTriggerRegionPlugin : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_2_9DD8A46984F1AFFD* Field_5_0; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init(::Class_2_9DD8A46984F1AFFD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_9DD8A46984F1AFFD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_INIT_OFFSET))(this, a1);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void Method_5_1290EA767C459179()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_METHOD_5_1290EA767C459179_OFFSET))(this);
+		}
+
+		::Struct_2_9BF8902D61AE1796 Method_5_F783C72ABA154251()
+		{
+			return ((::Struct_2_9BF8902D61AE1796(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN_METHOD_5_F783C72ABA154251_OFFSET))(this);
+		}
+	};
+}

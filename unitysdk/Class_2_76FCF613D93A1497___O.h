@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5F51D4049EA87B7B;
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+inline static constexpr unsigned int Class_2_76FCF613D93A1497___O_TypeDefinitionIndex = 57318;
+
+class Class_2_76FCF613D93A1497___O : public ::System::Object
+{
+public:
+	static ::System::Action_2<::Class_1_5F51D4049EA87B7B*, ::System::Object*>** StaticGet__0____RefreshAttachPointFromAnimEvent()
+	{
+		return (::System::Action_2<::Class_1_5F51D4049EA87B7B*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_76FCF613D93A1497___O_TypeDefinitionIndex)->GetStaticField(0x36900);
+	}
+};

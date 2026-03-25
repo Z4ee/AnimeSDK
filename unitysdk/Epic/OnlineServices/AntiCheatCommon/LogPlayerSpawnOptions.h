@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_GET_CHARACTERID_OFFSET UNITYSDK_OFFSET(0x8388D40)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_GET_SPAWNEDPLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x8388D00)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_GET_TEAMID_OFFSET UNITYSDK_OFFSET(0x8388D20)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_SET_CHARACTERID_OFFSET UNITYSDK_OFFSET(0x8388D50)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_SET_SPAWNEDPLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x8388D10)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_SET_TEAMID_OFFSET UNITYSDK_OFFSET(0x8388D30)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8388D60)
+
+namespace Epic::OnlineServices::AntiCheatCommon
+{
+	inline static constexpr unsigned int LogPlayerSpawnOptions_TypeDefinitionIndex = 36658;
+
+	class LogPlayerSpawnOptions : public ::System::Object
+	{
+	public:
+		::System::UInt32 _CharacterId_k__BackingField; // 0x10
+		::System::UInt32 _TeamId_k__BackingField; // 0x14
+		::System::IntPtr _SpawnedPlayerHandle_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS__CTOR_OFFSET))(this);
+		}
+
+		::System::IntPtr get_SpawnedPlayerHandle()
+		{
+			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_GET_SPAWNEDPLAYERHANDLE_OFFSET))(this);
+		}
+
+		::System::Void set_SpawnedPlayerHandle(::System::IntPtr value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_SET_SPAWNEDPLAYERHANDLE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_TeamId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_GET_TEAMID_OFFSET))(this);
+		}
+
+		::System::Void set_TeamId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_SET_TEAMID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_CharacterId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_GET_CHARACTERID_OFFSET))(this);
+		}
+
+		::System::Void set_CharacterId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERSPAWNOPTIONS_SET_CHARACTERID_OFFSET))(this, value);
+		}
+	};
+}

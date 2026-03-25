@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class TargetEvaluator; }
+
+#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_0C387A365781197D_OFFSET UNITYSDK_OFFSET(0x16F1BD30)
+#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_D5B9D6EB323108EC_OFFSET UNITYSDK_OFFSET(0x16F1BCB0)
+#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1BD00)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int AddEntityToTeamFormation_TypeDefinitionIndex = 20818;
+
+	class AddEntityToTeamFormation : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_D5B9D6EB323108EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddEntityToTeamFormation*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddEntityToTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_D5B9D6EB323108EC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_0C387A365781197D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddEntityToTeamFormation* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddEntityToTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_0C387A365781197D_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,164 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RogueFormulaCategory.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class IRogueFormulaBuffCountItem; }
+namespace RPG::Client { class RogueFormulaData; }
+namespace RPG::GameCore { class RogueTournContentDisplayRow; }
+namespace RPG::GameCore { class RogueTournFormulaDisplayRow; }
+namespace RPG::GameCore { class RogueTournFormulaRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xA395D80)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0xA3966E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_DESCPARAMS_OFFSET UNITYSDK_OFFSET(0xA396960)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0xA396760)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_EXTRAEFFECTIDS_OFFSET UNITYSDK_OFFSET(0xA3969C0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_FORMULADATA_OFFSET UNITYSDK_OFFSET(0xA396630)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_FORMULAID_OFFSET UNITYSDK_OFFSET(0xA395DF0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_ISSUBBUFFTYPEREQUIRED_OFFSET UNITYSDK_OFFSET(0xA396AE0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA396B70)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_LOCKEDDESC_OFFSET UNITYSDK_OFFSET(0xA3967F0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_MAINAEONICONPATH_OFFSET UNITYSDK_OFFSET(0xA396590)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_MAINBUFFCOUNTITEM_OFFSET UNITYSDK_OFFSET(0xA396A40)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_MAINBUFFTYPE_OFFSET UNITYSDK_OFFSET(0xA3969E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA396640)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_SUBAEONICONPATH_OFFSET UNITYSDK_OFFSET(0xA3965B0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_SUBBUFFCOUNTITEM_OFFSET UNITYSDK_OFFSET(0xA396AC0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_SUBBUFFTYPE_OFFSET UNITYSDK_OFFSET(0xA396A60)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET__DISPLAYROW_OFFSET UNITYSDK_OFFSET(0xA396C00)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET__LOCKEDDESCDISPLAYROW_OFFSET UNITYSDK_OFFSET(0xA3968E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA396B90)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA396B80)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_SYNCUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA3965E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA3965D0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournHandbookFormulaDataItem_TypeDefinitionIndex = 55178;
+
+	class RogueTournHandbookFormulaDataItem : public ::System::Object
+	{
+	public:
+		::RPG::Client::RogueFormulaData* _FormulaData_k__BackingField; // 0x10
+		::System::Boolean _IsUnlocked_k__BackingField; // 0x18
+
+		::System::Void _ctor(::RPG::Client::RogueFormulaData* formulaData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM__CTOR_OFFSET))(this, formulaData);
+		}
+
+		::System::String* get_MainAeonIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_MAINAEONICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_SubAeonIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_SUBAEONICONPATH_OFFSET))(this);
+		}
+
+		static ::RPG::Client::RogueTournHandbookFormulaDataItem* Create(::RPG::GameCore::RogueTournFormulaRow* row)
+		{
+			return ((::RPG::Client::RogueTournHandbookFormulaDataItem*(*)(::RPG::GameCore::RogueTournFormulaRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_CREATE_OFFSET))(row);
+		}
+
+		::System::Void SyncUnlocked(::System::Boolean isUnlocked)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_SYNCUNLOCKED_OFFSET))(this, isUnlocked);
+		}
+
+		::RPG::Client::RogueFormulaData* get_FormulaData()
+		{
+			return ((::RPG::Client::RogueFormulaData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_FORMULADATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FormulaID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_FORMULAID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueFormulaCategory get_Category()
+		{
+			return ((::RPG::GameCore::RogueFormulaCategory(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_CATEGORY_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Desc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_DESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_LockedDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_LOCKEDDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_DescParams()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_DESCPARAMS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ExtraEffectIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_EXTRAEFFECTIDS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MainBuffType()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_MAINBUFFTYPE_OFFSET))(this);
+		}
+
+		::RPG::Client::IRogueFormulaBuffCountItem* get_MainBuffCountItem()
+		{
+			return ((::RPG::Client::IRogueFormulaBuffCountItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_MAINBUFFCOUNTITEM_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SubBuffType()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_SUBBUFFTYPE_OFFSET))(this);
+		}
+
+		::RPG::Client::IRogueFormulaBuffCountItem* get_SubBuffCountItem()
+		{
+			return ((::RPG::Client::IRogueFormulaBuffCountItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_SUBBUFFCOUNTITEM_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSubBuffTypeRequired()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_ISSUBBUFFTYPEREQUIRED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_SET_ISUNLOCKED_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::RogueTournFormulaRow* get__Row()
+		{
+			return ((::RPG::GameCore::RogueTournFormulaRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET__ROW_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTournFormulaDisplayRow* get__DisplayRow()
+		{
+			return ((::RPG::GameCore::RogueTournFormulaDisplayRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET__DISPLAYROW_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTournContentDisplayRow* get__LockedDescDisplayRow()
+		{
+			return ((::RPG::GameCore::RogueTournContentDisplayRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKFORMULADATAITEM_GET__LOCKEDDESCDISPLAYROW_OFFSET))(this);
+		}
+	};
+}

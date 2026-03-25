@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_9873749414EE17E7_OFFSET UNITYSDK_OFFSET(0x1769B7C0)
+#define RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_CAA4EE924E1D9B09_OFFSET UNITYSDK_OFFSET(0x1769B740)
+#define RPG_GAMECORE_SCENEGACHALISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1769B790)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int SceneGachaListener_TypeDefinitionIndex = 18637;
+
+	class SceneGachaListener : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GrandRewardCallback; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* SmallRewardCallback; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_CAA4EE924E1D9B09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SceneGachaListener*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SceneGachaListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_CAA4EE924E1D9B09_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_9873749414EE17E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SceneGachaListener* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SceneGachaListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_9873749414EE17E7_OFFSET))(a1, a2);
+		}
+	};
+}

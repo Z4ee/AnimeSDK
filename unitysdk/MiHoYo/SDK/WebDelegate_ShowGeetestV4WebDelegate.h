@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x160437E0)
+#define MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16043850)
+#define MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x160431A0)
+#define MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16043180)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int WebDelegate_ShowGeetestV4WebDelegate_TypeDefinitionIndex = 6863;
+
+	class WebDelegate_ShowGeetestV4WebDelegate : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE__CTOR_OFFSET))(this, object, method);
+		}
+
+		::System::Void Invoke(::System::Object* web, ::System::String* url, ::System::Boolean enableScale)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE_INVOKE_OFFSET))(this, web, url, enableScale);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::System::Object* web, ::System::String* url, ::System::Boolean enableScale, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE_BEGININVOKE_OFFSET))(this, web, url, enableScale, callback, object);
+		}
+
+		::System::Void EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SHOWGEETESTV4WEBDELEGATE_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

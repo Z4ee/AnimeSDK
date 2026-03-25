@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17054A60)
+#define RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17055080)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int CeilingCharacterInfoRow_TypeDefinitionIndex = 12199;
+
+	class CeilingCharacterInfoRow : public ::System::Object
+	{
+	public:
+		::System::UInt32 CharacterID; // 0x10
+		::RPG::Client::TextID CeilingDesc; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CeilingCharacterInfoRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CeilingCharacterInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

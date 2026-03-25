@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/RPG/GameCore/InsertActionType.h"
+#include "unitysdk/RPG/GameCore/TurnState.h"
+
+class Class_1_152140BAFD2DB102;
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xA994030)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETDISABLEREADYCAMERA_OFFSET UNITYSDK_OFFSET(0xA994100)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA993FA0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETINSERTULTRASKILLPARAMS_OFFSET UNITYSDK_OFFSET(0xA993FF0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA993F50)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0xA994080)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETTURNSTATE_OFFSET UNITYSDK_OFFSET(0xA9940C0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GET_ACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xA994140)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_INIT_OFFSET UNITYSDK_OFFSET(0xA993ED0)
+#define RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER__CTOR_OFFSET UNITYSDK_OFFSET(0xA994160)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelTurnUltraSkillWaitOrder_TypeDefinitionIndex = 45620;
+
+	class LevelTurnUltraSkillWaitOrder : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::Class_1_152140BAFD2DB102* _InsertUltraSkillParams; // 0x18
+		::System::Boolean _DisableReadyCamera; // 0x20
+		::RPG::GameCore::TurnState _TurnState; // 0x24
+		::System::UInt32 _TurnCounter; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LevelTurnUltraSkillWaitOrder* Init(::Class_1_152140BAFD2DB102* InsertUltraSkillParams, ::System::UInt32 TurnCounter, ::RPG::GameCore::TurnState eTurnState)
+		{
+			return ((::RPG::GameCore::LevelTurnUltraSkillWaitOrder*(*)(::PVOID, ::Class_1_152140BAFD2DB102*, ::System::UInt32, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_INIT_OFFSET))(this, InsertUltraSkillParams, TurnCounter, eTurnState);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::Class_1_152140BAFD2DB102* GetInsertUltraSkillParams()
+		{
+			return ((::Class_1_152140BAFD2DB102*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETINSERTULTRASKILLPARAMS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* GetActiveEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETACTIVEENTITY_OFFSET))(this);
+		}
+
+		::System::UInt32 GetTurnCounter()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETTURNCOUNTER_OFFSET))(this);
+		}
+
+		::RPG::GameCore::TurnState GetTurnState()
+		{
+			return ((::RPG::GameCore::TurnState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETTURNSTATE_OFFSET))(this);
+		}
+
+		::System::Boolean GetDisableReadyCamera()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GETDISABLEREADYCAMERA_OFFSET))(this);
+		}
+
+		::RPG::GameCore::InsertActionType get_ActionType()
+		{
+			return ((::RPG::GameCore::InsertActionType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNULTRASKILLWAITORDER_GET_ACTIONTYPE_OFFSET))(this);
+		}
+	};
+}

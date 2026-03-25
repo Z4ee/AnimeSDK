@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine::UIElements
+{
+	inline static constexpr unsigned int Overflow_TypeDefinitionIndex = 5859;
+
+	enum class Overflow : ::System::Int32
+	{
+		Visible = 0,
+		Hidden = 1,
+	};
+}

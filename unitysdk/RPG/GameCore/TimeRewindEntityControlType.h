@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TimeRewindEntityControlType_TypeDefinitionIndex = 46301;
+
+	enum class TimeRewindEntityControlType : ::System::Int32
+	{
+		Normal = 0,
+		Special = 1,
+	};
+}

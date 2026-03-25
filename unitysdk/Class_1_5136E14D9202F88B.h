@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UI3DGame/MonopolyPlayerActionState.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_867B6CE75953535A;
+class Class_1_A4F0FA6F81B0B135;
+
+#define CLASS_1_5136E14D9202F88B_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x10926660)
+#define CLASS_1_5136E14D9202F88B_METHOD_1_36ECDB710637F79D_OFFSET UNITYSDK_OFFSET(0x109266C0)
+#define CLASS_1_5136E14D9202F88B_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10926790)
+#define CLASS_1_5136E14D9202F88B_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10926750)
+#define CLASS_1_5136E14D9202F88B_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x10926700)
+#define CLASS_1_5136E14D9202F88B__CTOR_OFFSET UNITYSDK_OFFSET(0x10926650)
+
+inline static constexpr unsigned int Class_1_5136E14D9202F88B_TypeDefinitionIndex = 61825;
+
+class Class_1_5136E14D9202F88B : public ::System::Object
+{
+public:
+	::Class_1_A4F0FA6F81B0B135* Field_1_2; // 0x10
+	::Class_1_867B6CE75953535A* Field_1_1; // 0x18
+	::RPG::Client::UI3DGame::MonopolyPlayerActionState Field_1_0; // 0x20
+
+	::System::Void _ctor(::Class_1_A4F0FA6F81B0B135* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A4F0FA6F81B0B135*))((::PBYTE)hIl2Cpp + CLASS_1_5136E14D9202F88B__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_5136E14D9202F88B_METHOD_1_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::UI3DGame::MonopolyPlayerActionState Method_1_36ECDB710637F79D()
+	{
+		return ((::RPG::Client::UI3DGame::MonopolyPlayerActionState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5136E14D9202F88B_METHOD_1_36ECDB710637F79D_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9(::Class_1_867B6CE75953535A* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + CLASS_1_5136E14D9202F88B_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5136E14D9202F88B_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5136E14D9202F88B_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+};

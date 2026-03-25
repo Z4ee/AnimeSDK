@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_019938BC9C50B169_1.h"
+#include "unitysdk/Struct_2_348CBB7ABE9A08CE.h"
+#include "unitysdk/Struct_2_BC950E36747FB4C9.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+
+#define STRUCT_2_AAD4F4215611A944_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8E3470)
+#define STRUCT_2_AAD4F4215611A944_EQUALS_OFFSET UNITYSDK_OFFSET(0x8E3440)
+#define STRUCT_2_AAD4F4215611A944_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8E3540)
+#define STRUCT_2_AAD4F4215611A944_GET_INSTANCEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x25490)
+#define STRUCT_2_AAD4F4215611A944_GET_PROTOTYPEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x89300)
+#define STRUCT_2_AAD4F4215611A944_GET_ROLEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x59D0)
+#define STRUCT_2_AAD4F4215611A944_METHOD_2_57A8E11FECF10345_1_OFFSET UNITYSDK_OFFSET(0xCB37D00)
+#define STRUCT_2_AAD4F4215611A944_METHOD_2_57A8E11FECF10345_OFFSET UNITYSDK_OFFSET(0xCB37C80)
+#define STRUCT_2_AAD4F4215611A944__CTOR_OFFSET UNITYSDK_OFFSET(0x8E3430)
+#define STRUCT_2_AAD4F4215611A944___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x8E35C0)
+#define STRUCT_2_AAD4F4215611A944___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8E3630)
+
+inline static constexpr unsigned int Struct_2_AAD4F4215611A944_TypeDefinitionIndex = 41944;
+
+struct alignas(4) Struct_2_AAD4F4215611A944
+{
+	::Struct_2_019938BC9C50B169_1 _RoleIdentifier_k__BackingField; // 0x10
+	::Struct_2_BC950E36747FB4C9 _PrototypeIdentifier_k__BackingField; // 0x14
+	::Struct_2_348CBB7ABE9A08CE _InstanceIdentifier_k__BackingField; // 0x1C
+
+	::System::Void _ctor(::Struct_2_019938BC9C50B169_1 a1, ::Struct_2_BC950E36747FB4C9 a2, ::Struct_2_348CBB7ABE9A08CE a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_019938BC9C50B169_1, ::Struct_2_BC950E36747FB4C9, ::Struct_2_348CBB7ABE9A08CE))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944__CTOR_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Struct_2_019938BC9C50B169_1 get_RoleIdentifier()
+	{
+		return ((::Struct_2_019938BC9C50B169_1(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_GET_ROLEIDENTIFIER_OFFSET))(this);
+	}
+
+	::Struct_2_BC950E36747FB4C9 get_PrototypeIdentifier()
+	{
+		return ((::Struct_2_BC950E36747FB4C9(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_GET_PROTOTYPEIDENTIFIER_OFFSET))(this);
+	}
+
+	::Struct_2_348CBB7ABE9A08CE get_InstanceIdentifier()
+	{
+		return ((::Struct_2_348CBB7ABE9A08CE(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_GET_INSTANCEIDENTIFIER_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::Struct_2_AAD4F4215611A944 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_AAD4F4215611A944))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals_1(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_EQUALS_1_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_GETHASHCODE_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_2_57A8E11FECF10345(::Struct_2_AAD4F4215611A944 a1, ::Struct_2_AAD4F4215611A944 a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_AAD4F4215611A944, ::Struct_2_AAD4F4215611A944))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_METHOD_2_57A8E11FECF10345_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_2_57A8E11FECF10345_1(::Struct_2_AAD4F4215611A944 a1, ::Struct_2_AAD4F4215611A944 a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_AAD4F4215611A944, ::Struct_2_AAD4F4215611A944))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944_METHOD_2_57A8E11FECF10345_1_OFFSET))(a1, a2);
+	}
+
+	::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+	}
+
+	::System::Int32 __iFixBaseProxy_GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AAD4F4215611A944___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
+	}
+};

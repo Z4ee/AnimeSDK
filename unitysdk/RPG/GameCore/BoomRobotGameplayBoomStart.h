@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_BOOMROBOTGAMEPLAYBOOMSTART_METHOD_3_95B7E39B63788349_OFFSET UNITYSDK_OFFSET(0x16FEF0C0)
+#define RPG_GAMECORE_BOOMROBOTGAMEPLAYBOOMSTART_METHOD_3_FCE773B6BD0251D5_OFFSET UNITYSDK_OFFSET(0x16FEEFB0)
+#define RPG_GAMECORE_BOOMROBOTGAMEPLAYBOOMSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x16FEF090)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int BoomRobotGameplayBoomStart_TypeDefinitionIndex = 18514;
+
+	class BoomRobotGameplayBoomStart : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOMROBOTGAMEPLAYBOOMSTART__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_FCE773B6BD0251D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoomRobotGameplayBoomStart*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoomRobotGameplayBoomStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOMROBOTGAMEPLAYBOOMSTART_METHOD_3_FCE773B6BD0251D5_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_95B7E39B63788349(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoomRobotGameplayBoomStart* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoomRobotGameplayBoomStart*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOMROBOTGAMEPLAYBOOMSTART_METHOD_3_95B7E39B63788349_OFFSET))(a1, a2);
+		}
+	};
+}

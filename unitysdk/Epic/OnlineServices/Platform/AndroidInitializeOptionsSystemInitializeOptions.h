@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Epic/OnlineServices/Platform/AndroidInitializeOptionsSystemInitializeOptionsInternal.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_GET_OPTIONALEXTERNALDIRECTORY_OFFSET UNITYSDK_OFFSET(0x86B2BA0)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_GET_OPTIONALINTERNALDIRECTORY_OFFSET UNITYSDK_OFFSET(0x86B2B80)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_GET_RESERVED_OFFSET UNITYSDK_OFFSET(0x86B2B60)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_1_OFFSET UNITYSDK_OFFSET(0x86B2FB0)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_OFFSET UNITYSDK_OFFSET(0x86B2BC0)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_OPTIONALEXTERNALDIRECTORY_OFFSET UNITYSDK_OFFSET(0x86B2BB0)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_OPTIONALINTERNALDIRECTORY_OFFSET UNITYSDK_OFFSET(0x86B2B90)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_RESERVED_OFFSET UNITYSDK_OFFSET(0x86B2B70)
+#define EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x86B30E0)
+
+namespace Epic::OnlineServices::Platform
+{
+	inline static constexpr unsigned int AndroidInitializeOptionsSystemInitializeOptions_TypeDefinitionIndex = 36733;
+
+	class AndroidInitializeOptionsSystemInitializeOptions : public ::System::Object
+	{
+	public:
+		::System::String* _OptionalInternalDirectory_k__BackingField; // 0x10
+		::System::String* _OptionalExternalDirectory_k__BackingField; // 0x18
+		::System::IntPtr _Reserved_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS__CTOR_OFFSET))(this);
+		}
+
+		::System::IntPtr get_Reserved()
+		{
+			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_GET_RESERVED_OFFSET))(this);
+		}
+
+		::System::Void set_Reserved(::System::IntPtr value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_RESERVED_OFFSET))(this, value);
+		}
+
+		::System::String* get_OptionalInternalDirectory()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_GET_OPTIONALINTERNALDIRECTORY_OFFSET))(this);
+		}
+
+		::System::Void set_OptionalInternalDirectory(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_OPTIONALINTERNALDIRECTORY_OFFSET))(this, value);
+		}
+
+		::System::String* get_OptionalExternalDirectory()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_GET_OPTIONALEXTERNALDIRECTORY_OFFSET))(this);
+		}
+
+		::System::Void set_OptionalExternalDirectory(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_OPTIONALEXTERNALDIRECTORY_OFFSET))(this, value);
+		}
+
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Platform::AndroidInitializeOptionsSystemInitializeOptionsInternal> other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Platform::AndroidInitializeOptionsSystemInitializeOptionsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_OFFSET))(this, other);
+		}
+
+		::System::Void Set_1(::System::Object* other)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_ANDROIDINITIALIZEOPTIONSSYSTEMINITIALIZEOPTIONS_SET_1_OFFSET))(this, other);
+		}
+	};
+}

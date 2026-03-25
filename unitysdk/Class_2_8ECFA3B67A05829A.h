@@ -1,0 +1,119 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+
+class Class_1_9CC5524EA4301EAE;
+namespace RPG::Client { class MonoAtlasMouthTalk; }
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_2_8ECFA3B67A05829A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8C2D560)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x8C2D4C0)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_32B2A595205BF85E_OFFSET UNITYSDK_OFFSET(0x8C2D7A0)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_42B981DECA125271_OFFSET UNITYSDK_OFFSET(0x8C2D2A0)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_72DE97951083FCD8_OFFSET UNITYSDK_OFFSET(0x8C2D4A0)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_776272FEED5AE92B_OFFSET UNITYSDK_OFFSET(0x8C2D3E0)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_7E876EE9E5D4C0FD_OFFSET UNITYSDK_OFFSET(0x8C2D810)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_9126C9C94FC0FA6A_OFFSET UNITYSDK_OFFSET(0x8C2D860)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0x8C2D370)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x8C2D300)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_A5544268D28E0A8E_OFFSET UNITYSDK_OFFSET(0x8C2D740)
+#define CLASS_2_8ECFA3B67A05829A_METHOD_2_D840647051E3DA9E_OFFSET UNITYSDK_OFFSET(0x8C2D440)
+#define CLASS_2_8ECFA3B67A05829A_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0x8C2D5C0)
+#define CLASS_2_8ECFA3B67A05829A_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0x8C2D650)
+#define CLASS_2_8ECFA3B67A05829A_TICK_OFFSET UNITYSDK_OFFSET(0x8C2D6A0)
+#define CLASS_2_8ECFA3B67A05829A__CTOR_OFFSET UNITYSDK_OFFSET(0x8C2D4E0)
+#define CLASS_2_8ECFA3B67A05829A___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x8C2D8B0)
+
+inline static constexpr unsigned int Class_2_8ECFA3B67A05829A_TypeDefinitionIndex = 46019;
+
+class Class_2_8ECFA3B67A05829A : public ::RPG::GameCore::GameComponentBase
+{
+public:
+	::Class_1_9CC5524EA4301EAE* Field_2_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_42B981DECA125271(::RPG::Client::MonoAtlasMouthTalk* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoAtlasMouthTalk*))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_42B981DECA125271_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_9681042564541CD6_1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_776272FEED5AE92B()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_776272FEED5AE92B_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* Method_2_D840647051E3DA9E()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_D840647051E3DA9E_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* Method_2_72DE97951083FCD8()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_72DE97951083FCD8_OFFSET))(this);
+	}
+
+	::System::String* Method_2_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_128774387667156B_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void OnModelArtLoaded()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_ONMODELARTLOADED_OFFSET))(this);
+	}
+
+	::System::Void OnModelArtUnloaded()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_ONMODELARTUNLOADED_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A5544268D28E0A8E(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_A5544268D28E0A8E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_32B2A595205BF85E(::System::String* a1, ::System::Int32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_32B2A595205BF85E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_7E876EE9E5D4C0FD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_7E876EE9E5D4C0FD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9126C9C94FC0FA6A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A_METHOD_2_9126C9C94FC0FA6A_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_8ECFA3B67A05829A___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+	}
+};

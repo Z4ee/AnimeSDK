@@ -1,0 +1,146 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class AetherDivideSpiritSkillRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x907F660)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_BELONGSPIRITAVATARID_OFFSET UNITYSDK_OFFSET(0x907F8E0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x907F8C0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x907F970)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_PARAMARRAY_OFFSET UNITYSDK_OFFSET(0x907FD30)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x907F900)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SIMPLEPARAMARRAY_OFFSET UNITYSDK_OFFSET(0x907FCB0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SIMPLESKILLDESC_OFFSET UNITYSDK_OFFSET(0x907FB90)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLATTACKTYPE_OFFSET UNITYSDK_OFFSET(0x907FA00)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLDESC_OFFSET UNITYSDK_OFFSET(0x907FC20)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLICONPATH_OFFSET UNITYSDK_OFFSET(0x907FA80)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0x907F8A0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLTAG_OFFSET UNITYSDK_OFFSET(0x907FDB0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x907F820)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLTYPEDESC_OFFSET UNITYSDK_OFFSET(0x907FB00)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_ISSHOW_OFFSET UNITYSDK_OFFSET(0x907F790)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_SET_BELONGSPIRITAVATARID_OFFSET UNITYSDK_OFFSET(0x907F8F0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x907F8D0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x907F8B0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x907F6F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AetherMonsterAvatarSkillSingleData_TypeDefinitionIndex = 50536;
+
+	class AetherMonsterAvatarSkillSingleData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::AetherDivideSpiritSkillRow* _Row; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* _FilterSkillTriggerKeyList; // 0x18
+		::System::UInt32 _SkillID_k__BackingField; // 0x20
+		::System::UInt32 _Level_k__BackingField; // 0x24
+		::System::UInt32 _BelongSpiritAvatarID_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::AetherMonsterAvatarSkillSingleData* Create(::System::UInt32 skillID, ::System::UInt32 belongSpiritAvatarID)
+		{
+			return ((::RPG::Client::AetherMonsterAvatarSkillSingleData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_CREATE_OFFSET))(skillID, belongSpiritAvatarID);
+		}
+
+		::System::Boolean IsShow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_ISSHOW_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SkillID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLID_OFFSET))(this);
+		}
+
+		::System::Void set_SkillID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_SET_SKILLID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_SET_LEVEL_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_BelongSpiritAvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_BELONGSPIRITAVATARID_OFFSET))(this);
+		}
+
+		::System::Void set_BelongSpiritAvatarID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_SET_BELONGSPIRITAVATARID_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::AetherDivideSpiritSkillRow* get_Row()
+		{
+			return ((::RPG::GameCore::AetherDivideSpiritSkillRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_ROW_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackType get_SkillAttackType()
+		{
+			return ((::RPG::GameCore::AttackType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLATTACKTYPE_OFFSET))(this);
+		}
+
+		::System::String* get_SkillIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillTypeDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLTYPEDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SimpleSkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SIMPLESKILLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_SimpleParamArray()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SIMPLEPARAMARRAY_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_ParamArray()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_PARAMARRAY_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillTag()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLTAG_OFFSET))(this);
+		}
+
+		::System::String* get_SkillTriggerKey()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERMONSTERAVATARSKILLSINGLEDATA_GET_SKILLTRIGGERKEY_OFFSET))(this);
+		}
+	};
+}

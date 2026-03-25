@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Net { class IPAddress; }
+
+#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x186F6F80)
+#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x186F6F50)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x186F6F90)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x186F6F70)
+#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x186F6F60)
+#define SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x186C8600)
+
+namespace System::Net
+{
+	inline static constexpr unsigned int IPHostEntry_TypeDefinitionIndex = 2733;
+
+	class IPHostEntry : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::String*>* aliases; // 0x10
+		::Il2CppArray<::System::Net::IPAddress*>* addressList; // 0x18
+		::System::String* hostName; // 0x20
+		::System::Boolean isTrustedHost; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_HostName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET))(this);
+		}
+
+		::System::Void set_HostName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET))(this, value);
+		}
+
+		::System::Void set_Aliases(::Il2CppArray<::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET))(this, value);
+		}
+
+		::Il2CppArray<::System::Net::IPAddress*>* get_AddressList()
+		{
+			return ((::Il2CppArray<::System::Net::IPAddress*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET))(this);
+		}
+
+		::System::Void set_AddressList(::Il2CppArray<::System::Net::IPAddress*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Net::IPAddress*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET))(this, value);
+		}
+	};
+}

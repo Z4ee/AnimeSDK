@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_1_0A45C1E7E3B8E4B0;
+class Class_1_8632A9A99C579E84;
+
+#define STRUCT_2_CC45B4503679E14E_GET_ID_OFFSET UNITYSDK_OFFSET(0x59D0)
+#define STRUCT_2_CC45B4503679E14E_METHOD_2_39E82D6C49AAD1CF_OFFSET UNITYSDK_OFFSET(0x1490300)
+#define STRUCT_2_CC45B4503679E14E_METHOD_2_59779CE445A59A8E_OFFSET UNITYSDK_OFFSET(0x1490360)
+#define STRUCT_2_CC45B4503679E14E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1490250)
+#define STRUCT_2_CC45B4503679E14E_METHOD_2_E639AC66E23A9DAF_OFFSET UNITYSDK_OFFSET(0x14902A0)
+#define STRUCT_2_CC45B4503679E14E_SET_ID_OFFSET UNITYSDK_OFFSET(0x29130)
+#define STRUCT_2_CC45B4503679E14E__CTOR_OFFSET UNITYSDK_OFFSET(0x1490240)
+
+inline static constexpr unsigned int Struct_2_CC45B4503679E14E_TypeDefinitionIndex = 44848;
+
+struct alignas(8) Struct_2_CC45B4503679E14E
+{
+	::System::UInt32 _ID_k__BackingField; // 0x10
+	::Class_1_0A45C1E7E3B8E4B0* Field_2_1; // 0x18
+
+	::System::Void _ctor(::Class_1_0A45C1E7E3B8E4B0* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_0A45C1E7E3B8E4B0*, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_E639AC66E23A9DAF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_METHOD_2_E639AC66E23A9DAF_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_39E82D6C49AAD1CF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_METHOD_2_39E82D6C49AAD1CF_OFFSET))(this);
+	}
+
+	::Class_1_8632A9A99C579E84* Method_2_59779CE445A59A8E()
+	{
+		return ((::Class_1_8632A9A99C579E84*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_METHOD_2_59779CE445A59A8E_OFFSET))(this);
+	}
+
+	::System::UInt32 get_ID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_GET_ID_OFFSET))(this);
+	}
+
+	::System::Void set_ID(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_SET_ID_OFFSET))(this, value);
+	}
+};

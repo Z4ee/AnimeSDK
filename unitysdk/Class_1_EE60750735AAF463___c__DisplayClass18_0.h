@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class BAPartVariantRes; }
+namespace UnityEngine::Rendering { class BatchAnimationInstance; }
+
+#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE39A0)
+#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x8DE3E50)
+
+inline static constexpr unsigned int Class_1_EE60750735AAF463___c__DisplayClass18_0_TypeDefinitionIndex = 64527;
+
+class Class_1_EE60750735AAF463___c__DisplayClass18_0 : public ::System::Object
+{
+public:
+	::RPG::Client::BAPartVariantRes* handler; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void __LoadMembers_b__0(::UnityEngine::Rendering::BatchAnimationInstance* loadedInstance)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimationInstance*))((::PBYTE)hIl2Cpp + CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET))(this, loadedInstance);
+	}
+};

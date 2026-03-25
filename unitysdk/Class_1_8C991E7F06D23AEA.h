@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class Text; }
+
+#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0x10A917C0)
+#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0x10A918C0)
+
+inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 58707;
+
+class Class_1_8C991E7F06D23AEA : public ::System::Object
+{
+public:
+	// static const ::System::String* Field_1_0; // 0x0
+	::UnityEngine::UI::Text* Field_1_4; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x18
+	::UnityEngine::UI::Text* Field_1_5; // 0x20
+	::UnityEngine::UI::Image* Field_1_2; // 0x28
+	::UnityEngine::UI::Text* Field_1_3; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_ECA72114536D14FE(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET))(this, a1);
+	}
+};

@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
+#include "unitysdk/RPG/GameCore/AvatarBaseTypeKind.h"
+#include "unitysdk/RPG/GameCore/CompareType.h"
+#include "unitysdk/RPG/GameCore/PredicateConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class TargetEvaluator; }
+
+#define RPG_GAMECORE_BYCOMPARECOUNTOFBASETYPE_METHOD_4_C4D067DC607AA33F_OFFSET UNITYSDK_OFFSET(0x170058B0)
+#define RPG_GAMECORE_BYCOMPARECOUNTOFBASETYPE_METHOD_4_D50BB2BEDA45B218_OFFSET UNITYSDK_OFFSET(0x170057D0)
+#define RPG_GAMECORE_BYCOMPARECOUNTOFBASETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x17005850)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ByCompareCountOfBaseType_TypeDefinitionIndex = 21828;
+
+	class ByCompareCountOfBaseType : public ::RPG::GameCore::PredicateConfig
+	{
+	public:
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* BaseTypeList; // 0x28
+		::RPG::GameCore::AvatarBaseTypeKind BaseTypeKind; // 0x30
+		::RPG::GameCore::TargetEvaluator* BaseTypeSourceTarget; // 0x38
+		::RPG::GameCore::AvatarBaseTypeKind SourceBaseTypeKind; // 0x40
+		::RPG::GameCore::CompareType CompareType; // 0x44
+		::RPG::GameCore::DynamicFloat* CompareValue; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECOUNTOFBASETYPE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_4_D50BB2BEDA45B218(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCountOfBaseType*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCountOfBaseType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECOUNTOFBASETYPE_METHOD_4_D50BB2BEDA45B218_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C4D067DC607AA33F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCountOfBaseType* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCountOfBaseType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECOUNTOFBASETYPE_METHOD_4_C4D067DC607AA33F_OFFSET))(a1, a2);
+		}
+	};
+}

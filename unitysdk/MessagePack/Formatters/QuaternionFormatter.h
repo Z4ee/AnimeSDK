@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
+#include "unitysdk/System/Numerics/Quaternion.h"
+#include "unitysdk/System/Object.h"
+
+namespace MessagePack { class MessagePackSerializerOptions; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
+
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D3B8D0)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D3B860)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D3BBB0)
+#define MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D3B850)
+
+namespace MessagePack::Formatters
+{
+	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 9354;
+
+	class QuaternionFormatter : public ::System::Object
+	{
+	public:
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Quaternion>** StaticGet_Instance()
+		{
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(QuaternionFormatter_TypeDefinitionIndex)->GetStaticField(0x21380);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER__CCTOR_OFFSET))();
+		}
+
+		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::System::Numerics::Quaternion value, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::System::Numerics::Quaternion, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+		}
+
+		::System::Numerics::Quaternion Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Numerics::Quaternion(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_QUATERNIONFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+		}
+	};
+}

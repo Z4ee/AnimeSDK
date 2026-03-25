@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_D7003CCDED916330;
+class Class_3_5775A4FEC79026BC;
+namespace RPG::GameCore { class TaskConfig; }
+
+#define CLASS_1_ABE2ECBA196667F3_METHOD_1_6B9DD89BA6FC1BAA_OFFSET UNITYSDK_OFFSET(0x10C46EF0)
+
+inline static constexpr unsigned int Class_1_ABE2ECBA196667F3_TypeDefinitionIndex = 46116;
+
+class Class_1_ABE2ECBA196667F3 : public ::System::Object
+{
+public:
+	static ::System::Void Method_1_6B9DD89BA6FC1BAA(::Class_3_5775A4FEC79026BC* a1, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a2, ::Class_1_D7003CCDED916330* a3)
+	{
+		return ((::System::Void(*)(::Class_3_5775A4FEC79026BC*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*, ::Class_1_D7003CCDED916330*))((::PBYTE)hIl2Cpp + CLASS_1_ABE2ECBA196667F3_METHOD_1_6B9DD89BA6FC1BAA_OFFSET))(a1, a2, a3);
+	}
+};

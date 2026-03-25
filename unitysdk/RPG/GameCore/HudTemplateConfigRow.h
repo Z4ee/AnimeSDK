@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GotoType.h"
+#include "unitysdk/RPG/GameCore/HudType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172B4C90)
+#define RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172B5380)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int HudTemplateConfigRow_TypeDefinitionIndex = 12606;
+
+	class HudTemplateConfigRow : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::GotoType>* LockGotoTypeList; // 0x10
+		::Il2CppArray<::RPG::GameCore::HudType>* HideHudUINodeList; // 0x18
+		::Il2CppArray<::System::String*>* LockInputActionName; // 0x20
+		::System::UInt32 ActionOperationSetID; // 0x28
+		::System::UInt32 ID; // 0x2C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::HudTemplateConfigRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HudTemplateConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

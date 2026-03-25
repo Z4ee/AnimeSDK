@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GameObjectSpawnPriority.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class PropCableLine; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_1_DCACF1A724007C54_CLEAR_OFFSET UNITYSDK_OFFSET(0x11758B40)
+#define CLASS_1_DCACF1A724007C54_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11758A50)
+#define CLASS_1_DCACF1A724007C54_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0x11758AC0)
+#define CLASS_1_DCACF1A724007C54_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0x11758A60)
+#define CLASS_1_DCACF1A724007C54_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x11758B00)
+#define CLASS_1_DCACF1A724007C54__CTOR_OFFSET UNITYSDK_OFFSET(0x11758B90)
+
+inline static constexpr unsigned int Class_1_DCACF1A724007C54_TypeDefinitionIndex = 56165;
+
+class Class_1_DCACF1A724007C54 : public ::System::Object
+{
+public:
+	::RPG::Client::PropCableLine* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DCACF1A724007C54__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::GameObjectSpawnPriority get_Priority()
+	{
+		return ((::RPG::Client::GameObjectSpawnPriority(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DCACF1A724007C54_GET_PRIORITY_OFFSET))(this);
+	}
+
+	::System::Void OnSpawnAsync(::UnityEngine::GameObject* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_DCACF1A724007C54_ONSPAWNASYNC_OFFSET))(this, a1);
+	}
+
+	::System::Void OnCancelSpawn()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DCACF1A724007C54_ONCANCELSPAWN_OFFSET))(this);
+	}
+
+	::System::Boolean UseLightWeightDeactive()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DCACF1A724007C54_USELIGHTWEIGHTDEACTIVE_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DCACF1A724007C54_CLEAR_OFFSET))(this);
+	}
+};

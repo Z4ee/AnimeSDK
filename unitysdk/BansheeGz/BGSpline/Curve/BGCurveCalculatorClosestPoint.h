@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
+namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
+
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x16585BE0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1658AEF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1658AE80)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16585BD0)
+
+namespace BansheeGz::BGSpline::Curve
+{
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 28181;
+
+	class BGCurveCalculatorClosestPoint : public ::System::Object
+	{
+	public:
+		static ::Il2CppArray<::System::Int32>** StaticGet_TransitionsForPartitions()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x23E00);
+		}
+		::Il2CppArray<::System::Single>* minSectionDistances; // 0x10
+		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x18
+		::Il2CppArray<::System::Boolean>* excludedSections; // 0x20
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor(::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math)
+		{
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET))(this, math);
+		}
+
+		::UnityEngine::Vector3 CalcPositionByClosestPoint(::UnityEngine::Vector3 targetPoint, ::System::Single& distance, ::UnityEngine::Vector3& tangent, ::System::Boolean skipSectionsOptimization, ::System::Boolean skipPointsOptimization)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single&, ::UnityEngine::Vector3&, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET))(this, targetPoint, distance, tangent, skipSectionsOptimization, skipPointsOptimization);
+		}
+
+		static ::System::Single MaxDistance(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::UnityEngine::Vector3 position)
+		{
+			return ((::System::Single(*)(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET))(section, position);
+		}
+	};
+}

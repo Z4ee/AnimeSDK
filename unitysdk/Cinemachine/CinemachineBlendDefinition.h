@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cinemachine/CinemachineBlendDefinition_Style.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace UnityEngine { class AnimationCurve; }
+
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_CREATESTANDARDCURVES_OFFSET UNITYSDK_OFFSET(0x14EC5C0)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_GET_BLENDCURVE_OFFSET UNITYSDK_OFFSET(0x14EC5D0)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC5A0)
+
+namespace Cinemachine
+{
+	inline static constexpr unsigned int CinemachineBlendDefinition_TypeDefinitionIndex = 30845;
+
+	struct alignas(8) CinemachineBlendDefinition
+	{
+		static ::Il2CppArray<::UnityEngine::AnimationCurve*>** StaticGet_sStandardCurves()
+		{
+			return (::Il2CppArray<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x311C0);
+		}
+		::Cinemachine::CinemachineBlendDefinition_Style m_Style; // 0x10
+		::System::Single m_Time; // 0x14
+		::UnityEngine::AnimationCurve* m_CustomCurve; // 0x18
+
+		::System::Void _ctor(::Cinemachine::CinemachineBlendDefinition_Style style, ::System::Single time)
+		{
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBlendDefinition_Style, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBLENDDEFINITION__CTOR_OFFSET))(this, style, time);
+		}
+
+		::System::Void CreateStandardCurves()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBLENDDEFINITION_CREATESTANDARDCURVES_OFFSET))(this);
+		}
+
+		::UnityEngine::AnimationCurve* get_BlendCurve()
+		{
+			return ((::UnityEngine::AnimationCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBLENDDEFINITION_GET_BLENDCURVE_OFFSET))(this);
+		}
+	};
+}

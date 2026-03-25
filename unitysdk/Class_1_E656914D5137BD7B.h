@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChessAnimStateType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_B229BC73065D28E3_1;
+class Class_2_13661480B6BE936D;
+namespace RPG::Client { class MockAnimator; }
+
+#define CLASS_1_E656914D5137BD7B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C97030)
+#define CLASS_1_E656914D5137BD7B_METHOD_1_13116DC1F48B6F4F_OFFSET UNITYSDK_OFFSET(0x10C970C0)
+#define CLASS_1_E656914D5137BD7B_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x10C97150)
+#define CLASS_1_E656914D5137BD7B_METHOD_1_B9EC3F44C1BFC5EF_OFFSET UNITYSDK_OFFSET(0x10C96F80)
+#define CLASS_1_E656914D5137BD7B_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x10C97110)
+#define CLASS_1_E656914D5137BD7B_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10C96FF0)
+#define CLASS_1_E656914D5137BD7B_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x10C97070)
+#define CLASS_1_E656914D5137BD7B__CTOR_OFFSET UNITYSDK_OFFSET(0x10C971B0)
+
+inline static constexpr unsigned int Class_1_E656914D5137BD7B_TypeDefinitionIndex = 45218;
+
+class Class_1_E656914D5137BD7B : public ::System::Object
+{
+public:
+	::Class_2_13661480B6BE936D* Field_1_0; // 0x10
+	::RPG::Client::MockAnimator* Field_1_1; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B9EC3F44C1BFC5EF(::Class_2_13661480B6BE936D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_13661480B6BE936D*))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_METHOD_1_B9EC3F44C1BFC5EF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9(::Class_1_B229BC73065D28E3_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_B229BC73065D28E3_1*))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_13116DC1F48B6F4F(::RPG::GameCore::ChessAnimStateType a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChessAnimStateType))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_METHOD_1_13116DC1F48B6F4F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E656914D5137BD7B_METHOD_1_2685B6183E614529_OFFSET))(this, a1);
+	}
+};

@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_334;
+namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
+namespace System::Collections::Generic { template <typename T> class Queue_1; }
+
+#define CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0x106713E0)
+#define CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x106716D0)
+#define CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_2AB13275EFEAA30C_OFFSET UNITYSDK_OFFSET(0x10671520)
+#define CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_73FD5BBE218B4242_OFFSET UNITYSDK_OFFSET(0x10671640)
+#define CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_8733738E0E834C59_OFFSET UNITYSDK_OFFSET(0x10671350)
+#define CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_BBD6422EB89BE42C_OFFSET UNITYSDK_OFFSET(0x106715C0)
+#define CLASS_1_CBB89C7DD8FEA4EE__CTOR_OFFSET UNITYSDK_OFFSET(0x106712D0)
+
+inline static constexpr unsigned int Class_1_CBB89C7DD8FEA4EE_TypeDefinitionIndex = 62383;
+
+class Class_1_CBB89C7DD8FEA4EE : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Queue_1<::Class_0_16E4307DCC419505_334*>* Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8733738E0E834C59(::Class_0_16E4307DCC419505_334* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_334*))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_8733738E0E834C59_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_0F30679B05E70FC1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_0F30679B05E70FC1_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_334* Method_1_BBD6422EB89BE42C()
+	{
+		return ((::Class_0_16E4307DCC419505_334*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_BBD6422EB89BE42C_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_334* Method_1_73FD5BBE218B4242()
+	{
+		return ((::Class_0_16E4307DCC419505_334*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_73FD5BBE218B4242_OFFSET))(this);
+	}
+
+	::System::Void Method_1_151E25A63D14DDB0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_151E25A63D14DDB0_OFFSET))(this);
+	}
+
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Method_1_2AB13275EFEAA30C()
+	{
+		return ((::RPG::Client::Prop::ChimeraBattlePuzzleBoard*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBB89C7DD8FEA4EE_METHOD_1_2AB13275EFEAA30C_OFFSET))(this);
+	}
+};

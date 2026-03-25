@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceCameraStateType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_044382BF73D8EA3B;
+class Class_1_9C16BAF1B182B319;
+class Class_3_626F93E2306641CC;
+namespace Cinemachine { class CinemachineDollyCart; }
+namespace Cinemachine { class CinemachineSmoothPath; }
+namespace RPG::Client::LittleGame::CakeRace { class CakeRaceFieldMonoView; }
+
+#define CLASS_1_9CE416D6C625B711_ENTER_OFFSET UNITYSDK_OFFSET(0x8D575A0)
+#define CLASS_1_9CE416D6C625B711_EXIT_OFFSET UNITYSDK_OFFSET(0x8D57EC0)
+#define CLASS_1_9CE416D6C625B711_GET_STATEMACHINE_OFFSET UNITYSDK_OFFSET(0x8D57300)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_03DE2D8804CE82F7_OFFSET UNITYSDK_OFFSET(0x8D57450)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_358A144584A5DBFC_OFFSET UNITYSDK_OFFSET(0x8D57360)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x8D572C0)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x8D57940)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_C3CD621FE895B79A_OFFSET UNITYSDK_OFFSET(0x8D57670)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_C604BCC30C65E767_OFFSET UNITYSDK_OFFSET(0x8D574F0)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_CCBE730AF445BBD4_OFFSET UNITYSDK_OFFSET(0x8D57310)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_D4514A5A8DE2CDEF_OFFSET UNITYSDK_OFFSET(0x8D573F0)
+#define CLASS_1_9CE416D6C625B711_METHOD_1_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x8D57D10)
+#define CLASS_1_9CE416D6C625B711_TICK_OFFSET UNITYSDK_OFFSET(0x8D57600)
+#define CLASS_1_9CE416D6C625B711__CTOR_OFFSET UNITYSDK_OFFSET(0x8D57590)
+
+inline static constexpr unsigned int Class_1_9CE416D6C625B711_TypeDefinitionIndex = 63470;
+
+class Class_1_9CE416D6C625B711 : public ::System::Object
+{
+public:
+	// static const ::System::Single Field_1_0; // 0x0
+	::Class_1_9C16BAF1B182B319* _StateMachine_k__BackingField; // 0x10
+	::System::Single Field_1_3; // 0x18
+	::System::Single Field_1_1; // 0x1C
+	::System::Single Field_1_2; // 0x20
+
+	::System::Void _ctor(::Class_1_9C16BAF1B182B319* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9C16BAF1B182B319*))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::Class_1_9C16BAF1B182B319* get_StateMachine()
+	{
+		return ((::Class_1_9C16BAF1B182B319*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_GET_STATEMACHINE_OFFSET))(this);
+	}
+
+	::Class_3_626F93E2306641CC* Method_1_CCBE730AF445BBD4()
+	{
+		return ((::Class_3_626F93E2306641CC*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_CCBE730AF445BBD4_OFFSET))(this);
+	}
+
+	::Class_1_044382BF73D8EA3B* Method_1_358A144584A5DBFC()
+	{
+		return ((::Class_1_044382BF73D8EA3B*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_358A144584A5DBFC_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGame::CakeRace::CakeRaceFieldMonoView* Method_1_D4514A5A8DE2CDEF()
+	{
+		return ((::RPG::Client::LittleGame::CakeRace::CakeRaceFieldMonoView*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_D4514A5A8DE2CDEF_OFFSET))(this);
+	}
+
+	::Cinemachine::CinemachineSmoothPath* Method_1_03DE2D8804CE82F7()
+	{
+		return ((::Cinemachine::CinemachineSmoothPath*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_03DE2D8804CE82F7_OFFSET))(this);
+	}
+
+	::Cinemachine::CinemachineDollyCart* Method_1_C604BCC30C65E767()
+	{
+		return ((::Cinemachine::CinemachineDollyCart*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_C604BCC30C65E767_OFFSET))(this);
+	}
+
+	::System::Void Enter(::Class_1_044382BF73D8EA3B* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_044382BF73D8EA3B*))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_ENTER_OFFSET))(this, a1);
+	}
+
+	::System::Void Tick(::Class_1_044382BF73D8EA3B* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_044382BF73D8EA3B*))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Exit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_EXIT_OFFSET))(this);
+	}
+
+	::System::Void Method_1_497833CF065C1894()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_497833CF065C1894_OFFSET))(this);
+	}
+
+	::System::Void Method_1_C3CD621FE895B79A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_C3CD621FE895B79A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_D7852DE078ACC1F1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9CE416D6C625B711_METHOD_1_D7852DE078ACC1F1_OFFSET))(this);
+	}
+};

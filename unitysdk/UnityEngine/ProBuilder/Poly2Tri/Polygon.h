@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/ProBuilder/Poly2Tri/TriangulationMode.h"
+
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine::ProBuilder::Poly2Tri { class DelaunayTriangle; }
+namespace UnityEngine::ProBuilder::Poly2Tri { class PolygonPoint; }
+namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationContext; }
+namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
+
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDHOLE_OFFSET UNITYSDK_OFFSET(0x187BA520)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x187BA620)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x187BA5C0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x187BA5B0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGULATIONMODE_OFFSET UNITYSDK_OFFSET(0x187BA510)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_PREPARE_OFFSET UNITYSDK_OFFSET(0x187BA6A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187BA4A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0x187B9FE0)
+
+namespace UnityEngine::ProBuilder::Poly2Tri
+{
+	inline static constexpr unsigned int Polygon_TypeDefinitionIndex = 29777;
+
+	class Polygon : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _triangles; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _points; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _steinerPoints; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _holes; // 0x28
+
+		::System::Void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON__CTOR_OFFSET))(this, points);
+		}
+
+		::System::Void _ctor_1(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON__CTOR_1_OFFSET))(this, points);
+		}
+
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode()
+		{
+			return ((::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGULATIONMODE_OFFSET))(this);
+		}
+
+		::System::Void AddHole(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::Polygon*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDHOLE_OFFSET))(this, poly);
+		}
+
+		::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles()
+		{
+			return ((::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_GET_TRIANGLES_OFFSET))(this);
+		}
+
+		::System::Void AddTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLE_OFFSET))(this, t);
+		}
+
+		::System::Void AddTriangles(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_ADDTRIANGLES_OFFSET))(this, list);
+		}
+
+		::System::Void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POLYGON_PREPARE_OFFSET))(this, tcx);
+		}
+	};
+}

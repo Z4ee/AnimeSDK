@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TableLRUCache_2_CacheOperation_TypeDefinitionIndex = 22606;
+
+	template <typename TKey, typename TValue>
+	class TableLRUCache_2_CacheOperation : public ::System::MulticastDelegate
+	{
+	public:
+	};
+}

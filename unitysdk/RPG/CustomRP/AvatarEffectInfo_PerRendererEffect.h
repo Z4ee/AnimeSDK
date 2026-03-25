@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/CustomRP/AvatarEffectInfo_EExecutionOrder.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Renderer; }
+
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x16A5FB30)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_SETSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x16A5FB60)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_UNSETSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x16A5FBE0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5FC60)
+
+namespace RPG::CustomRP
+{
+	inline static constexpr unsigned int AvatarEffectInfo_PerRendererEffect_TypeDefinitionIndex = 29203;
+
+	class AvatarEffectInfo_PerRendererEffect : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::UInt32>* renderingLayerMasks; // 0x10
+		::Il2CppArray<::System::Int32>* passIDs; // 0x18
+		::Il2CppArray<::System::Int32>* subMeshIndexMasks; // 0x20
+		::Il2CppArray<::Il2CppArray<::UnityEngine::Material*>*>* rendererMaterials; // 0x28
+		::Il2CppArray<::UnityEngine::Renderer*>* renderers; // 0x30
+		::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder passesExecutionOrder; // 0x38
+		::System::Boolean afterTransparent; // 0x3C
+		::System::Boolean ignoreMpb; // 0x3D
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_RESET_OFFSET))(this);
+		}
+
+		::System::Void SetSubMeshIndex(::System::Int32 renderIndex, ::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_SETSUBMESHINDEX_OFFSET))(this, renderIndex, index);
+		}
+
+		::System::Void UnsetSubMeshIndex(::System::Int32 renderIndex, ::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_UNSETSUBMESHINDEX_OFFSET))(this, renderIndex, index);
+		}
+	};
+}

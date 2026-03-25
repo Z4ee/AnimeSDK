@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_E408E6D7F3D1822C.h"
+
+class Class_1_A043D803AC652E6E;
+namespace RPG::Client { class MatchThreeBoard; }
+
+#define CLASS_3_3058301FA7412EAA_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA1FFCA0)
+#define CLASS_3_3058301FA7412EAA_METHOD_3_61929A3103595552_OFFSET UNITYSDK_OFFSET(0xA1FFBE0)
+#define CLASS_3_3058301FA7412EAA_METHOD_3_998E122F46014853_OFFSET UNITYSDK_OFFSET(0xA1FFB20)
+#define CLASS_3_3058301FA7412EAA_METHOD_3_9D0CF92250557C23_OFFSET UNITYSDK_OFFSET(0xA1FF920)
+#define CLASS_3_3058301FA7412EAA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xA1FF9A0)
+#define CLASS_3_3058301FA7412EAA__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FFC30)
+#define CLASS_3_3058301FA7412EAA___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xA1FFC40)
+
+inline static constexpr unsigned int Class_3_3058301FA7412EAA_TypeDefinitionIndex = 53476;
+
+class Class_3_3058301FA7412EAA : public ::Class_2_E408E6D7F3D1822C
+{
+public:
+	::Class_1_A043D803AC652E6E* Field_3_1; // 0x28
+	::System::Single Field_3_0; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_3_3058301FA7412EAA* Method_3_9D0CF92250557C23(::RPG::Client::MatchThreeBoard* a1)
+	{
+		return ((::Class_3_3058301FA7412EAA*(*)(::RPG::Client::MatchThreeBoard*))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA_METHOD_3_9D0CF92250557C23_OFFSET))(a1);
+	}
+
+	::System::Void OnExecute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA_ONEXECUTE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_998E122F46014853()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA_METHOD_3_998E122F46014853_OFFSET))(this);
+	}
+
+	::System::Void Method_3_61929A3103595552()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA_METHOD_3_61929A3103595552_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnExecute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3058301FA7412EAA_METHOD_3_5790A55946AA509D_OFFSET))(this);
+	}
+};

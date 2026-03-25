@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MusicVisualization_BeatEffectElementVisualBase.h"
+
+class Class_1_159F4A26A6FBCACF;
+namespace System { class String; }
+
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9DE2F30)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_44196695CAF284A8_OFFSET UNITYSDK_OFFSET(0x9DE2E10)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_697CEBDDAD44641A_OFFSET UNITYSDK_OFFSET(0x9DE2E60)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_7CDD8E0732AB7384_OFFSET UNITYSDK_OFFSET(0x9DE2FB0)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_9F9ED25754A7CAB9_OFFSET UNITYSDK_OFFSET(0x9DE4150)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE40F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementMatBlendTex_TypeDefinitionIndex = 58015;
+
+	class MusicVisualization_BeatEffectElementMatBlendTex : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
+	{
+	public:
+		::System::Int32 MaterialIndex; // 0x30
+		::System::String* PropertyName; // 0x38
+		::System::Boolean IsSetStateTex; // 0x40
+		::System::String* StateTexPropertyName; // 0x48
+		::System::String* StateTex2PropertyName; // 0x50
+		::System::String* StateTexLerpValPropertyName; // 0x58
+		::System::Boolean _IsInitPropertyID; // 0x60
+		::System::Int32 CustomPropertyID; // 0x64
+		::System::Int32 StateTexLerpValPropertyID; // 0x68
+		::System::Int32 StateTexPropertyID; // 0x6C
+		::System::Int32 StateTex2PropertyID; // 0x70
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_2_44196695CAF284A8(::Class_1_159F4A26A6FBCACF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_44196695CAF284A8_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_2_697CEBDDAD44641A(::Class_1_159F4A26A6FBCACF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_697CEBDDAD44641A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_7CDD8E0732AB7384(::Class_1_159F4A26A6FBCACF* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_7CDD8E0732AB7384_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_9F9ED25754A7CAB9(::Class_1_159F4A26A6FBCACF* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_159F4A26A6FBCACF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTMATBLENDTEX_METHOD_2_9F9ED25754A7CAB9_OFFSET))(this, P0);
+		}
+	};
+}

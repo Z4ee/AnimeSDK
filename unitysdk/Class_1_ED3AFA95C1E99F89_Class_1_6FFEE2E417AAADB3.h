@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class TextJoinConditionalItemRow; }
+namespace System { class String; }
+
+#define CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x10AFCA10)
+#define CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3_METHOD_1_954377725B5ED074_OFFSET UNITYSDK_OFFSET(0x10AFC980)
+#define CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3_METHOD_1_D5A1928FC4FF3961_OFFSET UNITYSDK_OFFSET(0x10AFC640)
+#define CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3__CTOR_OFFSET UNITYSDK_OFFSET(0x10AFCA90)
+
+inline static constexpr unsigned int Class_1_ED3AFA95C1E99F89_Class_1_6FFEE2E417AAADB3_TypeDefinitionIndex = 61152;
+
+class Class_1_ED3AFA95C1E99F89_Class_1_6FFEE2E417AAADB3 : public ::System::Object
+{
+public:
+	::RPG::Client::TextID Field_1_1; // 0x10
+	::System::UInt32 Field_1_0; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::TextJoinConditionalItemRow* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TextJoinConditionalItemRow*))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3__CTOR_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_ED3AFA95C1E99F89_Class_1_6FFEE2E417AAADB3* Method_1_D5A1928FC4FF3961(::System::UInt32 a1)
+	{
+		return ((::Class_1_ED3AFA95C1E99F89_Class_1_6FFEE2E417AAADB3*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3_METHOD_1_D5A1928FC4FF3961_OFFSET))(a1);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3_METHOD_1_88B60F3B95FAA4F1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_954377725B5ED074()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_CLASS_1_6FFEE2E417AAADB3_METHOD_1_954377725B5ED074_OFFSET))(this);
+	}
+};

@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_E6D3D1A13E2F765C_Class_1_9A90CD018E72DF20_8;
+class Class_1_E6D3D1A13E2F765C_Class_2_9DA6891B709865B6;
+namespace RPG::Client { class NetPacket; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_268846EC77691035_OFFSET UNITYSDK_OFFSET(0x8BFB810)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_419A6F45ACD52360_OFFSET UNITYSDK_OFFSET(0x8BFB420)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x8BFB3D0)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_5F3C8DADF357C586_OFFSET UNITYSDK_OFFSET(0x8BFB320)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_7CAD5269067F546C_OFFSET UNITYSDK_OFFSET(0x8BFB650)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x8BFB5D0)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x8BFB250)
+#define CLASS_1_E6D3D1A13E2F765C_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8BFB960)
+#define CLASS_1_E6D3D1A13E2F765C__CTOR_OFFSET UNITYSDK_OFFSET(0x8BFB9A0)
+
+inline static constexpr unsigned int Class_1_E6D3D1A13E2F765C_TypeDefinitionIndex = 56704;
+
+class Class_1_E6D3D1A13E2F765C : public ::System::Object
+{
+public:
+	::Class_1_E6D3D1A13E2F765C_Class_2_9DA6891B709865B6* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_E6D3D1A13E2F765C_Class_1_9A90CD018E72DF20_8*>* Field_1_2; // 0x18
+	::System::UInt64 Field_1_4; // 0x20
+	::System::Boolean Field_1_0; // 0x28
+	::System::Boolean Field_1_3; // 0x29
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B09E78EE7EE4F8FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_B09E78EE7EE4F8FA_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_419A6F45ACD52360(::RPG::Client::NetPacket* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::NetPacket*))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_419A6F45ACD52360_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7CAD5269067F546C(::RPG::Client::NetPacket* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::NetPacket*))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_7CAD5269067F546C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_268846EC77691035(::RPG::Client::NetPacket* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::NetPacket*))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_268846EC77691035_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Single Method_1_A36150C5DCC8409E()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_A36150C5DCC8409E_OFFSET))(this);
+	}
+
+	::System::UInt64 Method_1_5F3C8DADF357C586()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D3D1A13E2F765C_METHOD_1_5F3C8DADF357C586_OFFSET))(this);
+	}
+};

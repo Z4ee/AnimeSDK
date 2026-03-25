@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_933A280C4012CA3C;
+namespace RPG::Client { class FiveDimGameInstance; }
+
+#define CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1191FE50)
+#define CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1191FFC0)
+#define CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11920020)
+#define CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1191FFD0)
+#define CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1191FE40)
+#define CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0x1191EC70)
+
+inline static constexpr unsigned int Class_1_933A280C4012CA3C___WaitSameGameInstanceLoading_d__20_TypeDefinitionIndex = 49041;
+
+class Class_1_933A280C4012CA3C___WaitSameGameInstanceLoading_d__20 : public ::System::Object
+{
+public:
+	::RPG::Client::FiveDimGameInstance* _targetInstance_5__2; // 0x10
+	::Class_1_933A280C4012CA3C* __4__this; // 0x18
+	::System::Object* __2__current; // 0x20
+	::System::Int32 __1__state; // 0x28
+
+	::System::Void _ctor(::System::Int32 __1__state)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20__CTOR_OFFSET))(this, __1__state);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_933A280C4012CA3C___WAITSAMEGAMEINSTANCELOADING_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

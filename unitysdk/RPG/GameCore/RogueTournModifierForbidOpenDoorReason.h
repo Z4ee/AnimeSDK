@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int RogueTournModifierForbidOpenDoorReason_TypeDefinitionIndex = 20291;
+
+	enum class RogueTournModifierForbidOpenDoorReason : ::System::Int32
+	{
+		None = 0,
+		ShopGoods = 1,
+		Chest = 2,
+	};
+}

@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EOverlayDirection.h"
+#include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18CCA3A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18CCA450)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x18CCA000)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC9FE0)
+
+namespace ZenFulcrum::VR::OpenVRBinding
+{
+	inline static constexpr unsigned int IVROverlay__SetOverlayNeighbor_TypeDefinitionIndex = 30156;
+
+	class IVROverlay__SetOverlayNeighbor : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR__CTOR_OFFSET))(this, object, method);
+		}
+
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::ZenFulcrum::VR::OpenVRBinding::EOverlayDirection eDirection, ::System::UInt64 ulFrom, ::System::UInt64 ulTo)
+		{
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EOverlayDirection, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_INVOKE_OFFSET))(this, eDirection, ulFrom, ulTo);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::EOverlayDirection eDirection, ::System::UInt64 ulFrom, ::System::UInt64 ulTo, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EOverlayDirection, ::System::UInt64, ::System::UInt64, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_BEGININVOKE_OFFSET))(this, eDirection, ulFrom, ulTo, callback, object);
+		}
+
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYNEIGHBOR_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

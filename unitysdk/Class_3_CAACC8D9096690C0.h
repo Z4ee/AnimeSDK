@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_637AE238D4A35C0D.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
+
+class Class_1_3F2088DC1442FBF8_1;
+
+#define CLASS_3_CAACC8D9096690C0_METHOD_3_D2EDCCCF37B5B6E5_OFFSET UNITYSDK_OFFSET(0x8DE3E80)
+#define CLASS_3_CAACC8D9096690C0_METHOD_3_EEF493A950D075E1_OFFSET UNITYSDK_OFFSET(0x8DE3E90)
+#define CLASS_3_CAACC8D9096690C0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE3F10)
+
+inline static constexpr unsigned int Class_3_CAACC8D9096690C0_TypeDefinitionIndex = 63524;
+
+class Class_3_CAACC8D9096690C0 : public ::Class_2_637AE238D4A35C0D
+{
+public:
+	::System::Void _ctor(::Class_1_3F2088DC1442FBF8_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3F2088DC1442FBF8_1*))((::PBYTE)hIl2Cpp + CLASS_3_CAACC8D9096690C0__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId Method_3_D2EDCCCF37B5B6E5()
+	{
+		return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CAACC8D9096690C0_METHOD_3_D2EDCCCF37B5B6E5_OFFSET))(this);
+	}
+
+	static ::Class_3_CAACC8D9096690C0* Method_3_EEF493A950D075E1(::Class_1_3F2088DC1442FBF8_1* a1)
+	{
+		return ((::Class_3_CAACC8D9096690C0*(*)(::Class_1_3F2088DC1442FBF8_1*))((::PBYTE)hIl2Cpp + CLASS_3_CAACC8D9096690C0_METHOD_3_EEF493A950D075E1_OFFSET))(a1);
+	}
+};

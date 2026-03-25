@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_TARGETMAPALLOFFTEAMMEMBER_METHOD_3_26421B0B83F1A6CA_OFFSET UNITYSDK_OFFSET(0x177C1B30)
+#define RPG_GAMECORE_TARGETMAPALLOFFTEAMMEMBER_METHOD_3_8BB250EA873004F8_OFFSET UNITYSDK_OFFSET(0x177C1C10)
+#define RPG_GAMECORE_TARGETMAPALLOFFTEAMMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x177C1BF0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TargetMapAllOffTeamMember_TypeDefinitionIndex = 22226;
+
+	class TargetMapAllOffTeamMember : public ::RPG::GameCore::TargetSeqOperation
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPALLOFFTEAMMEMBER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_26421B0B83F1A6CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapAllOffTeamMember*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapAllOffTeamMember*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPALLOFFTEAMMEMBER_METHOD_3_26421B0B83F1A6CA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_8BB250EA873004F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapAllOffTeamMember* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapAllOffTeamMember*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPALLOFFTEAMMEMBER_METHOD_3_8BB250EA873004F8_OFFSET))(a1, a2);
+		}
+	};
+}

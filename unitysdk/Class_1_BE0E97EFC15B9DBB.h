@@ -1,0 +1,135 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PlaneType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_940;
+class Class_0_16E4307DCC419505_942;
+class Class_0_16E4307DCC419505_943;
+class Class_1_2AFC1F1EF2B59DFF;
+class Class_1_303BB5ABBF9BD474;
+class Class_1_B29D74C19351AA14;
+namespace RPG::Client::NavMap { class IMapDataSource; }
+namespace RPG::Client::NavMap { class MapFloorInfo; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_BE0E97EFC15B9DBB_GET_EDGEMANAGER_OFFSET UNITYSDK_OFFSET(0xAC6B8E0)
+#define CLASS_1_BE0E97EFC15B9DBB_GET_MAPDATA_OFFSET UNITYSDK_OFFSET(0xAC6B8A0)
+#define CLASS_1_BE0E97EFC15B9DBB_GET_PLANETYPE_OFFSET UNITYSDK_OFFSET(0xAC6B8B0)
+#define CLASS_1_BE0E97EFC15B9DBB_GET_VERTEXMANAGER_OFFSET UNITYSDK_OFFSET(0xAC6B8C0)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_02F462C6DA22DCE0_OFFSET UNITYSDK_OFFSET(0xAC6BCA0)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_169C5280D338BD7B_OFFSET UNITYSDK_OFFSET(0xAC6C330)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_2F0F99A12DB93F30_OFFSET UNITYSDK_OFFSET(0xAC6C100)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_3A3504A9D1BBC589_OFFSET UNITYSDK_OFFSET(0xAC6BD60)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_5E72177157101308_OFFSET UNITYSDK_OFFSET(0xAC6BFD0)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_5EBE23180774F4D5_OFFSET UNITYSDK_OFFSET(0xAC6C2E0)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_9C1F668AC136A1A1_OFFSET UNITYSDK_OFFSET(0xAC6C3A0)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_A2F2007C167C4D52_OFFSET UNITYSDK_OFFSET(0xAC6BEF0)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_BEAC1FAD4B182C4F_OFFSET UNITYSDK_OFFSET(0xAC6C430)
+#define CLASS_1_BE0E97EFC15B9DBB_METHOD_1_F4C8B018D655630D_OFFSET UNITYSDK_OFFSET(0xAC6C030)
+#define CLASS_1_BE0E97EFC15B9DBB_SET_EDGEMANAGER_OFFSET UNITYSDK_OFFSET(0xAC6B8F0)
+#define CLASS_1_BE0E97EFC15B9DBB_SET_VERTEXMANAGER_OFFSET UNITYSDK_OFFSET(0xAC6B8D0)
+#define CLASS_1_BE0E97EFC15B9DBB_TRYGETNEIGHBOUREDGES_OFFSET UNITYSDK_OFFSET(0xAC6B900)
+#define CLASS_1_BE0E97EFC15B9DBB__CTOR_OFFSET UNITYSDK_OFFSET(0xAC6BF50)
+
+inline static constexpr unsigned int Class_1_BE0E97EFC15B9DBB_TypeDefinitionIndex = 61342;
+
+class Class_1_BE0E97EFC15B9DBB : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_942*>* Field_1_0; // 0x10
+	::Class_1_303BB5ABBF9BD474* _EdgeManager_k__BackingField; // 0x18
+	::RPG::Client::NavMap::IMapDataSource* _MapData_k__BackingField; // 0x20
+	::Class_1_2AFC1F1EF2B59DFF* _VertexManager_k__BackingField; // 0x28
+	::RPG::GameCore::PlaneType _PlaneType_k__BackingField; // 0x30
+
+	::System::Void _ctor(::RPG::Client::NavMap::IMapDataSource* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::IMapDataSource*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::NavMap::IMapDataSource* get_MapData()
+	{
+		return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_GET_MAPDATA_OFFSET))(this);
+	}
+
+	::RPG::GameCore::PlaneType get_PlaneType()
+	{
+		return ((::RPG::GameCore::PlaneType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_GET_PLANETYPE_OFFSET))(this);
+	}
+
+	::Class_1_2AFC1F1EF2B59DFF* get_VertexManager()
+	{
+		return ((::Class_1_2AFC1F1EF2B59DFF*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_GET_VERTEXMANAGER_OFFSET))(this);
+	}
+
+	::System::Void set_VertexManager(::Class_1_2AFC1F1EF2B59DFF* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2AFC1F1EF2B59DFF*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_SET_VERTEXMANAGER_OFFSET))(this, value);
+	}
+
+	::Class_1_303BB5ABBF9BD474* get_EdgeManager()
+	{
+		return ((::Class_1_303BB5ABBF9BD474*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_GET_EDGEMANAGER_OFFSET))(this);
+	}
+
+	::System::Void set_EdgeManager(::Class_1_303BB5ABBF9BD474* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_303BB5ABBF9BD474*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_SET_EDGEMANAGER_OFFSET))(this, value);
+	}
+
+	::System::Collections::Generic::List_1<::Class_1_B29D74C19351AA14*>* TryGetNeighbourEdges(::System::UInt32 a1)
+	{
+		return ((::System::Collections::Generic::List_1<::Class_1_B29D74C19351AA14*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_TRYGETNEIGHBOUREDGES_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_BE0E97EFC15B9DBB* Method_1_02F462C6DA22DCE0(::RPG::Client::NavMap::MapFloorInfo* a1)
+	{
+		return ((::Class_1_BE0E97EFC15B9DBB*(*)(::RPG::Client::NavMap::MapFloorInfo*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_02F462C6DA22DCE0_OFFSET))(a1);
+	}
+
+	static ::Class_1_BE0E97EFC15B9DBB* Method_1_3A3504A9D1BBC589(::RPG::Client::NavMap::IMapDataSource* a1)
+	{
+		return ((::Class_1_BE0E97EFC15B9DBB*(*)(::RPG::Client::NavMap::IMapDataSource*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_3A3504A9D1BBC589_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_A2F2007C167C4D52(::RPG::Client::NavMap::IMapDataSource* a1)
+	{
+		return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_A2F2007C167C4D52_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_5E72177157101308()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_5E72177157101308_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2F0F99A12DB93F30()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_2F0F99A12DB93F30_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F4C8B018D655630D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_F4C8B018D655630D_OFFSET))(this);
+	}
+
+	::System::Void Method_1_5EBE23180774F4D5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_5EBE23180774F4D5_OFFSET))(this);
+	}
+
+	::System::Void Method_1_169C5280D338BD7B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_169C5280D338BD7B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9C1F668AC136A1A1(::Class_0_16E4307DCC419505_942* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_942*))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_9C1F668AC136A1A1_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_BEAC1FAD4B182C4F(::Class_0_16E4307DCC419505_943* a1, ::Class_0_16E4307DCC419505_940*& a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_943*, ::Class_0_16E4307DCC419505_940*&))((::PBYTE)hIl2Cpp + CLASS_1_BE0E97EFC15B9DBB_METHOD_1_BEAC1FAD4B182C4F_OFFSET))(this, a1, a2);
+	}
+};

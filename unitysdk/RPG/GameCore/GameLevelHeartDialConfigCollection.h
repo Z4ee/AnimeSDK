@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class GameLevelHeartDialNPCConfig; }
+
+#define RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION_METHOD_2_A5E961C04D382CE4_OFFSET UNITYSDK_OFFSET(0x17238A00)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17240B70)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int GameLevelHeartDialConfigCollection_TypeDefinitionIndex = 16001;
+
+	class GameLevelHeartDialConfigCollection : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::GameLevelHeartDialNPCConfig*>* NPCConfigList; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_A5E961C04D382CE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameLevelHeartDialConfigCollection*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameLevelHeartDialConfigCollection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION_METHOD_2_A5E961C04D382CE4_OFFSET))(a1, a2);
+		}
+	};
+}

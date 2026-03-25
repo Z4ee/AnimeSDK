@@ -1,0 +1,119 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_A509A996D269C6F2_2;
+class Class_1_BB62CC0FD1E45ADE_10;
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8F97AB0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_BOUNDINVITATIONCODE_OFFSET UNITYSDK_OFFSET(0x8F97C60)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_INVITATIONCODE_OFFSET UNITYSDK_OFFSET(0x8F97BE0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_INVITEDPLAYERCOUNTMAX_OFFSET UNITYSDK_OFFSET(0x8F97C20)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_INVITEDPLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x8F97C00)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_ISINVITATIONCODEBOUND_OFFSET UNITYSDK_OFFSET(0x8F97C40)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_INIT_OFFSET UNITYSDK_OFFSET(0x8F979E0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_BOUNDINVITATIONCODE_OFFSET UNITYSDK_OFFSET(0x8F97C70)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_INVITATIONCODE_OFFSET UNITYSDK_OFFSET(0x8F97BF0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_INVITEDPLAYERCOUNTMAX_OFFSET UNITYSDK_OFFSET(0x8F97C30)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_INVITEDPLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x8F97C10)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_ISINVITATIONCODEBOUND_OFFSET UNITYSDK_OFFSET(0x8F97C50)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SYNCINVITEEDATA_OFFSET UNITYSDK_OFFSET(0x8F97B80)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SYNCINVITERDATA_OFFSET UNITYSDK_OFFSET(0x8F97B20)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA__CLEARDATA_OFFSET UNITYSDK_OFFSET(0x8F97A50)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8F97C80)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityPlayerReturnInviteData_TypeDefinitionIndex = 50221;
+
+	class ActivityPlayerReturnInviteData : public ::System::Object
+	{
+	public:
+		::System::String* _InvitationCode_k__BackingField; // 0x10
+		::System::String* _BoundInvitationCode_k__BackingField; // 0x18
+		::System::UInt32 _InvitedPlayerCount_k__BackingField; // 0x20
+		::System::Boolean _IsInvitationCodeBound_k__BackingField; // 0x24
+		::System::UInt32 _InvitedPlayerCountMax_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_INIT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void SyncInviterData(::Class_1_A509A996D269C6F2_2* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A509A996D269C6F2_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SYNCINVITERDATA_OFFSET))(this, rsp);
+		}
+
+		::System::Void SyncInviteeData(::Class_1_BB62CC0FD1E45ADE_10* rsp)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_BB62CC0FD1E45ADE_10*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SYNCINVITEEDATA_OFFSET))(this, rsp);
+		}
+
+		::System::Void _ClearData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA__CLEARDATA_OFFSET))(this);
+		}
+
+		::System::String* get_InvitationCode()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_INVITATIONCODE_OFFSET))(this);
+		}
+
+		::System::Void set_InvitationCode(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_INVITATIONCODE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_InvitedPlayerCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_INVITEDPLAYERCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_InvitedPlayerCount(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_INVITEDPLAYERCOUNT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_InvitedPlayerCountMax()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_INVITEDPLAYERCOUNTMAX_OFFSET))(this);
+		}
+
+		::System::Void set_InvitedPlayerCountMax(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_INVITEDPLAYERCOUNTMAX_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsInvitationCodeBound()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_ISINVITATIONCODEBOUND_OFFSET))(this);
+		}
+
+		::System::Void set_IsInvitationCodeBound(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_ISINVITATIONCODEBOUND_OFFSET))(this, value);
+		}
+
+		::System::String* get_BoundInvitationCode()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_GET_BOUNDINVITATIONCODE_OFFSET))(this);
+		}
+
+		::System::Void set_BoundInvitationCode(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNINVITEDATA_SET_BOUNDINVITATIONCODE_OFFSET))(this, value);
+		}
+	};
+}

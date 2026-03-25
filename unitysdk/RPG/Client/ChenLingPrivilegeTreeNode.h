@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class ChenLingPrivilege; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x935C660)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE_ADDPARENT_OFFSET UNITYSDK_OFFSET(0x935C840)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x935C5E0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ChenLingPrivilegeTreeNode_TypeDefinitionIndex = 49847;
+
+	class ChenLingPrivilegeTreeNode : public ::System::Object
+	{
+	public:
+		::RPG::Client::ChenLingPrivilege* Config; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingPrivilegeTreeNode*>* Children; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingPrivilegeTreeNode*>* Parents; // 0x20
+		::System::UInt32 Height; // 0x28
+
+		::System::Void _ctor(::RPG::Client::ChenLingPrivilege* config)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingPrivilege*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGPRIVILEGETREENODE__CTOR_OFFSET))(this, config);
+		}
+
+		::System::Void AddParent(::RPG::Client::ChenLingPrivilegeTreeNode* node)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingPrivilegeTreeNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGPRIVILEGETREENODE_ADDPARENT_OFFSET))(this, node);
+		}
+
+		::System::Void AddChild(::RPG::Client::ChenLingPrivilegeTreeNode* node)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingPrivilegeTreeNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGPRIVILEGETREENODE_ADDCHILD_OFFSET))(this, node);
+		}
+	};
+}

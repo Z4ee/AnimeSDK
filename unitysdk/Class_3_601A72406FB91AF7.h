@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class RemoveTimelineEntity; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_601A72406FB91AF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8861170)
+#define CLASS_3_601A72406FB91AF7__CTOR_OFFSET UNITYSDK_OFFSET(0x8861140)
+
+inline static constexpr unsigned int Class_3_601A72406FB91AF7_TypeDefinitionIndex = 43220;
+
+class Class_3_601A72406FB91AF7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveTimelineEntity*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RemoveTimelineEntity* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RemoveTimelineEntity*))((::PBYTE)hIl2Cpp + CLASS_3_601A72406FB91AF7__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_601A72406FB91AF7_ONTASKBEGIN_OFFSET))(this);
+	}
+};

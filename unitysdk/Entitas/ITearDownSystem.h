@@ -1,0 +1,12 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace Entitas
+{
+	inline static constexpr unsigned int ITearDownSystem_TypeDefinitionIndex = 9739;
+
+	class ITearDownSystem
+	{
+	public:
+	};
+}

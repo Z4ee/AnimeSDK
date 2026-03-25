@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_49AFAF7E1EDC93F8;
+
+#define CLASS_1_D589767D15DAFD9B_GET_MODIFIERID_OFFSET UNITYSDK_OFFSET(0x8A23150)
+#define CLASS_1_D589767D15DAFD9B_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x8A23170)
+#define CLASS_1_D589767D15DAFD9B_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x8A23070)
+#define CLASS_1_D589767D15DAFD9B_METHOD_1_A85A5A4F484E8E77_OFFSET UNITYSDK_OFFSET(0x8A22FC0)
+#define CLASS_1_D589767D15DAFD9B_SET_MODIFIERID_OFFSET UNITYSDK_OFFSET(0x8A23160)
+#define CLASS_1_D589767D15DAFD9B_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x8A23180)
+#define CLASS_1_D589767D15DAFD9B_UPDATE_OFFSET UNITYSDK_OFFSET(0x8A230D0)
+#define CLASS_1_D589767D15DAFD9B__CTOR_OFFSET UNITYSDK_OFFSET(0x8A23060)
+
+inline static constexpr unsigned int Class_1_D589767D15DAFD9B_TypeDefinitionIndex = 55207;
+
+class Class_1_D589767D15DAFD9B : public ::System::Object
+{
+public:
+	::System::UInt64 _ModifierID_k__BackingField; // 0x10
+	::Enum_3_0F1B992870941C13_3 _SourceType_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_D589767D15DAFD9B* Method_1_A85A5A4F484E8E77(::Class_1_49AFAF7E1EDC93F8* a1)
+	{
+		return ((::Class_1_D589767D15DAFD9B*(*)(::Class_1_49AFAF7E1EDC93F8*))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_METHOD_1_A85A5A4F484E8E77_OFFSET))(a1);
+	}
+
+	::System::Void Update(::Class_1_49AFAF7E1EDC93F8* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_49AFAF7E1EDC93F8*))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_UPDATE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_097468641FDED14E(::Class_1_49AFAF7E1EDC93F8* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_49AFAF7E1EDC93F8*))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_METHOD_1_097468641FDED14E_OFFSET))(this, a1);
+	}
+
+	::System::UInt64 get_ModifierID()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_GET_MODIFIERID_OFFSET))(this);
+	}
+
+	::System::Void set_ModifierID(::System::UInt64 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_SET_MODIFIERID_OFFSET))(this, value);
+	}
+
+	::Enum_3_0F1B992870941C13_3 get_SourceType()
+	{
+		return ((::Enum_3_0F1B992870941C13_3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_GET_SOURCETYPE_OFFSET))(this);
+	}
+
+	::System::Void set_SourceType(::Enum_3_0F1B992870941C13_3 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_0F1B992870941C13_3))((::PBYTE)hIl2Cpp + CLASS_1_D589767D15DAFD9B_SET_SOURCETYPE_OFFSET))(this, value);
+	}
+};

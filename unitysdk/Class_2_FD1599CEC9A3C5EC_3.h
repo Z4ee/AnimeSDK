@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_AA63111866A4D7B3.h"
+#include "unitysdk/RPG/GameCore/ChimeraTurnBasedStage.h"
+
+class Class_1_089A987C8F835F31;
+class Class_1_3B1EA953A4067E26_1;
+class Class_3_1ACADD354F8A3264;
+
+#define CLASS_2_FD1599CEC9A3C5EC_3_METHOD_2_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x89307C0)
+#define CLASS_2_FD1599CEC9A3C5EC_3_METHOD_2_EFAC10A70883A5A8_OFFSET UNITYSDK_OFFSET(0x8930880)
+#define CLASS_2_FD1599CEC9A3C5EC_3_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x8930890)
+#define CLASS_2_FD1599CEC9A3C5EC_3__CTOR_OFFSET UNITYSDK_OFFSET(0x89307B0)
+
+inline static constexpr unsigned int Class_2_FD1599CEC9A3C5EC_3_TypeDefinitionIndex = 61797;
+
+class Class_2_FD1599CEC9A3C5EC_3 : public ::Class_1_AA63111866A4D7B3
+{
+public:
+	::System::Void _ctor(::Class_1_089A987C8F835F31* a1, ::Class_1_3B1EA953A4067E26_1* a2, ::Class_3_1ACADD354F8A3264* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_089A987C8F835F31*, ::Class_1_3B1EA953A4067E26_1*, ::Class_3_1ACADD354F8A3264*))((::PBYTE)hIl2Cpp + CLASS_2_FD1599CEC9A3C5EC_3__CTOR_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_7DB49B5407C8FD68()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FD1599CEC9A3C5EC_3_METHOD_2_7DB49B5407C8FD68_OFFSET))(this);
+	}
+
+	::RPG::GameCore::ChimeraTurnBasedStage Method_2_EFAC10A70883A5A8()
+	{
+		return ((::RPG::GameCore::ChimeraTurnBasedStage(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FD1599CEC9A3C5EC_3_METHOD_2_EFAC10A70883A5A8_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FD1599CEC9A3C5EC_3_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
+	}
+};

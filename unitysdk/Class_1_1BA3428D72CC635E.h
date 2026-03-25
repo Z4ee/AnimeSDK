@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1BA3428D72CC635E_Class_3_8F5B7FD3EC83C653;
+class Class_1_43BD383C98B4C0C5_9;
+class Class_1_B1A7D8EBAB39D13D;
+namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig; }
+namespace System { class Type; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_10_OFFSET UNITYSDK_OFFSET(0x16649350)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_1_OFFSET UNITYSDK_OFFSET(0x16648920)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_2_OFFSET UNITYSDK_OFFSET(0x16648A40)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_3_OFFSET UNITYSDK_OFFSET(0x16648B60)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_4_OFFSET UNITYSDK_OFFSET(0x16648C90)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_5_OFFSET UNITYSDK_OFFSET(0x16648DB0)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_6_OFFSET UNITYSDK_OFFSET(0x16648ED0)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_7_OFFSET UNITYSDK_OFFSET(0x16648FF0)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_8_OFFSET UNITYSDK_OFFSET(0x16649110)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_9_OFFSET UNITYSDK_OFFSET(0x16649230)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_OFFSET UNITYSDK_OFFSET(0x16648800)
+#define CLASS_1_1BA3428D72CC635E_METHOD_1_FC62F74F70E31F35_OFFSET UNITYSDK_OFFSET(0x16649470)
+#define CLASS_1_1BA3428D72CC635E__CCTOR_OFFSET UNITYSDK_OFFSET(0x16649BB0)
+#define CLASS_1_1BA3428D72CC635E__CTOR_OFFSET UNITYSDK_OFFSET(0x16649BA0)
+
+inline static constexpr unsigned int Class_1_1BA3428D72CC635E_TypeDefinitionIndex = 28363;
+
+class Class_1_1BA3428D72CC635E : public ::System::Object
+{
+public:
+	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_1BA3428D72CC635E_Class_3_8F5B7FD3EC83C653*>** StaticGet_Field_1_0()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_1BA3428D72CC635E_Class_3_8F5B7FD3EC83C653*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1BA3428D72CC635E_TypeDefinitionIndex)->GetStaticField(0x28630);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E__CCTOR_OFFSET))();
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_1(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_1_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_2(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_2_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_3(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_3_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_4(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_4_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_5(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_5_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_6(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_6_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_7(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_7_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_8(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_8_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_9(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_9_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_546B4D28536E2379_10(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_546B4D28536E2379_10_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_43BD383C98B4C0C5_9* Method_1_FC62F74F70E31F35(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig* a1, ::Class_1_B1A7D8EBAB39D13D* a2)
+	{
+		return ((::Class_1_43BD383C98B4C0C5_9*(*)(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig*, ::Class_1_B1A7D8EBAB39D13D*))((::PBYTE)hIl2Cpp + CLASS_1_1BA3428D72CC635E_METHOD_1_FC62F74F70E31F35_OFFSET))(a1, a2);
+	}
+};

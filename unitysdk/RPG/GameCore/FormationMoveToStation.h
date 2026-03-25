@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_FORMATIONMOVETOSTATION_METHOD_3_855633FAC4AC36A2_OFFSET UNITYSDK_OFFSET(0x17219290)
+#define RPG_GAMECORE_FORMATIONMOVETOSTATION_METHOD_3_D95EEE923115B0B5_OFFSET UNITYSDK_OFFSET(0x17219310)
+#define RPG_GAMECORE_FORMATIONMOVETOSTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x172192E0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FormationMoveToStation_TypeDefinitionIndex = 19559;
+
+	class FormationMoveToStation : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::UInt32 StreamId; // 0x18
+		::System::UInt32 GroupId; // 0x1C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVETOSTATION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_855633FAC4AC36A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveToStation*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveToStation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVETOSTATION_METHOD_3_855633FAC4AC36A2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_D95EEE923115B0B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveToStation* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveToStation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVETOSTATION_METHOD_3_D95EEE923115B0B5_OFFSET))(a1, a2);
+		}
+	};
+}

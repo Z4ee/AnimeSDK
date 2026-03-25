@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Behaviour.h"
+
+namespace System { class String; }
+
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x18A49340)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_INVALIDSORTINGGROUPID_OFFSET UNITYSDK_OFFSET(0x18A492A0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGGROUPID_OFFSET UNITYSDK_OFFSET(0x18A49320)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGGROUPORDER_OFFSET UNITYSDK_OFFSET(0x18A49330)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGLAYERID_OFFSET UNITYSDK_OFFSET(0x18A492E0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGLAYERNAME_OFFSET UNITYSDK_OFFSET(0x18A492C0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGORDER_OFFSET UNITYSDK_OFFSET(0x18A49300)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_SET_SORTINGLAYERID_OFFSET UNITYSDK_OFFSET(0x18A492F0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_SET_SORTINGLAYERNAME_OFFSET UNITYSDK_OFFSET(0x18A492D0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_SET_SORTINGORDER_OFFSET UNITYSDK_OFFSET(0x18A49310)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_UPDATEALLSORTINGGROUPS_OFFSET UNITYSDK_OFFSET(0x18A492B0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18A49350)
+
+namespace UnityEngine::Rendering
+{
+	inline static constexpr unsigned int SortingGroup_TypeDefinitionIndex = 4695;
+
+	class SortingGroup : public ::UnityEngine::Behaviour
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Int32 get_invalidSortingGroupID()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_INVALIDSORTINGGROUPID_OFFSET))();
+		}
+
+		static ::System::Void UpdateAllSortingGroups()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_UPDATEALLSORTINGGROUPS_OFFSET))();
+		}
+
+		::System::String* get_sortingLayerName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGLAYERNAME_OFFSET))(this);
+		}
+
+		::System::Void set_sortingLayerName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_SET_SORTINGLAYERNAME_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_sortingLayerID()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGLAYERID_OFFSET))(this);
+		}
+
+		::System::Void set_sortingLayerID(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_SET_SORTINGLAYERID_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_sortingOrder()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGORDER_OFFSET))(this);
+		}
+
+		::System::Void set_sortingOrder(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_SET_SORTINGORDER_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_sortingGroupID()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGGROUPID_OFFSET))(this);
+		}
+
+		::System::Int32 get_sortingGroupOrder()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_SORTINGGROUPORDER_OFFSET))(this);
+		}
+
+		::System::Int32 get_index()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_GET_INDEX_OFFSET))(this);
+		}
+	};
+}

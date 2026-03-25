@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+
+class Class_1_8632A9A99C579E84;
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_2_365CB08A18B010B5_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x108F9D10)
+#define CLASS_2_365CB08A18B010B5_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x108F9CC0)
+#define CLASS_2_365CB08A18B010B5_METHOD_2_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x108F9D70)
+#define CLASS_2_365CB08A18B010B5_METHOD_2_760782DDE7FEA086_OFFSET UNITYSDK_OFFSET(0x108F9C60)
+#define CLASS_2_365CB08A18B010B5_METHOD_2_B1445E8504415D4D_OFFSET UNITYSDK_OFFSET(0x108F9D60)
+#define CLASS_2_365CB08A18B010B5__CTOR_OFFSET UNITYSDK_OFFSET(0x108F9D80)
+
+inline static constexpr unsigned int Class_2_365CB08A18B010B5_TypeDefinitionIndex = 45586;
+
+class Class_2_365CB08A18B010B5 : public ::Class_1_9988289E7F8AA214
+{
+public:
+	::Class_1_8632A9A99C579E84* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_365CB08A18B010B5__CTOR_OFFSET))(this);
+	}
+
+	::Class_2_365CB08A18B010B5* Method_2_760782DDE7FEA086(::RPG::GameCore::GameEntity* a1, ::Class_1_8632A9A99C579E84* a2)
+	{
+		return ((::Class_2_365CB08A18B010B5*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_8632A9A99C579E84*))((::PBYTE)hIl2Cpp + CLASS_2_365CB08A18B010B5_METHOD_2_760782DDE7FEA086_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 GetSourceRuntimeID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_365CB08A18B010B5_GETSOURCERUNTIMEID_OFFSET))(this);
+	}
+
+	::RPG::GameCore::EventType GetEventType()
+	{
+		return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_365CB08A18B010B5_GETEVENTTYPE_OFFSET))(this);
+	}
+
+	::RPG::GameCore::GameEntity* Method_2_B1445E8504415D4D()
+	{
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_365CB08A18B010B5_METHOD_2_B1445E8504415D4D_OFFSET))(this);
+	}
+
+	::Class_1_8632A9A99C579E84* Method_2_24748FC20F375725()
+	{
+		return ((::Class_1_8632A9A99C579E84*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_365CB08A18B010B5_METHOD_2_24748FC20F375725_OFFSET))(this);
+	}
+};

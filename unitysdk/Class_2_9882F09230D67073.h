@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TargetSeqOperationImpl_1.h"
+
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class GridFightManager; }
+namespace RPG::GameCore { class TargetSortByGridFightPower; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_9882F09230D67073_COMPARE_OFFSET UNITYSDK_OFFSET(0x8EA6E50)
+#define CLASS_2_9882F09230D67073_METHOD_2_688EEA270D1BFF7B_OFFSET UNITYSDK_OFFSET(0x8EA6C80)
+#define CLASS_2_9882F09230D67073_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x8EA6D40)
+#define CLASS_2_9882F09230D67073__CTOR_OFFSET UNITYSDK_OFFSET(0x8EA6C60)
+
+inline static constexpr unsigned int Class_2_9882F09230D67073_TypeDefinitionIndex = 47836;
+
+class Class_2_9882F09230D67073 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByGridFightPower*>
+{
+public:
+	::RPG::GameCore::GridFightManager* Field_2_0; // 0x18
+
+	::System::Void _ctor(::RPG::GameCore::TargetSortByGridFightPower* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetSortByGridFightPower*))((::PBYTE)hIl2Cpp + CLASS_2_9882F09230D67073__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_688EEA270D1BFF7B(::RPG::GameCore::TaskContext* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_2_9882F09230D67073_METHOD_2_688EEA270D1BFF7B_OFFSET))(this, a1);
+	}
+
+	::System::Void Transform(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_2_9882F09230D67073_TRANSFORM_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 Compare(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_9882F09230D67073_COMPARE_OFFSET))(this, a1, a2);
+	}
+};

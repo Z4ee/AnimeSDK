@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA_ISALLREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x97B7110)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA_ISSHOWBTNGOTOEVERYDAYREDDOT_OFFSET UNITYSDK_OFFSET(0x97B7080)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x97B6FC0)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0x97B6F00)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x97B6EA0)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA__ONACTIVITYENDEDCUSTOM_OFFSET UNITYSDK_OFFSET(0x97B6EB0)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x97B7220)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA___IFIXBASEPROXY_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0x97B71C0)
+#define RPG_CLIENT_GIFTSROLEACTIVITYDATA___IFIXBASEPROXY__ONACTIVITYENDEDCUSTOM_OFFSET UNITYSDK_OFFSET(0x97B7160)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GiftsRoleActivityData_TypeDefinitionIndex = 49994;
+
+	class GiftsRoleActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		// static const ::System::UInt32 GIFTS_ROLE_QUEST_ID = 0x5C0059; // 0x0
+
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Void _OnActivityEndedCustom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA__ONACTIVITYENDEDCUSTOM_OFFSET))(this);
+		}
+
+		::System::Void UpdateFullCompleteStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowBtnGotoEveryDayRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA_ISSHOWBTNGOTOEVERYDAYREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsAllRewardTaken()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA_ISALLREWARDTAKEN_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnActivityEndedCustom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA___IFIXBASEPROXY__ONACTIVITYENDEDCUSTOM_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_UpdateFullCompleteStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA___IFIXBASEPROXY_UPDATEFULLCOMPLETESTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GIFTSROLEACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+	};
+}

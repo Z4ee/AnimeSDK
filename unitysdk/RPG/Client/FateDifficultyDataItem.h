@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_CF41AF33C0521E1E;
+namespace System { class String; }
+
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETDIFFTEXTBYLEVEL_OFFSET UNITYSDK_OFFSET(0x9677A60)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETMAXSCORE_OFFSET UNITYSDK_OFFSET(0x9677C60)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETMINSCORE_OFFSET UNITYSDK_OFFSET(0x9678070)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETPLAYERTITLEBYLEVEL_OFFSET UNITYSDK_OFFSET(0x9677BD0)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETSCORERULETEXT_OFFSET UNITYSDK_OFFSET(0x9678420)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_DIFFID_OFFSET UNITYSDK_OFFSET(0x9678590)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0x9678600)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_EFFECTENEMYDESC_OFFSET UNITYSDK_OFFSET(0x9678820)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_FIRSTPASSREWARD_OFFSET UNITYSDK_OFFSET(0x9678A40)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_TEXTLEVEL_OFFSET UNITYSDK_OFFSET(0x96785B0)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9678010)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM_SET_DIFFID_OFFSET UNITYSDK_OFFSET(0x96785A0)
+#define RPG_CLIENT_FATEDIFFICULTYDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9677A40)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateDifficultyDataItem_TypeDefinitionIndex = 51905;
+
+	class FateDifficultyDataItem : public ::System::Object
+	{
+	public:
+		::System::UInt32 _DiffID_k__BackingField; // 0x10
+
+		::System::Void _ctor(::Class_1_CF41AF33C0521E1E* row)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_CF41AF33C0521E1E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM__CTOR_OFFSET))(this, row);
+		}
+
+		static ::System::String* GetDiffTextByLevel(::System::UInt32 level)
+		{
+			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETDIFFTEXTBYLEVEL_OFFSET))(level);
+		}
+
+		static ::RPG::Client::TextID GetPlayerTitleByLevel(::System::UInt32 level)
+		{
+			return ((::RPG::Client::TextID(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETPLAYERTITLEBYLEVEL_OFFSET))(level);
+		}
+
+		::System::UInt32 GetMaxScore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETMAXSCORE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetMinScore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETMINSCORE_OFFSET))(this);
+		}
+
+		::System::String* GetScoreRuleText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GETSCORERULETEXT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DiffID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_DIFFID_OFFSET))(this);
+		}
+
+		::System::Void set_DiffID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_SET_DIFFID_OFFSET))(this, value);
+		}
+
+		::System::String* get_TextLevel()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_TEXTLEVEL_OFFSET))(this);
+		}
+
+		::System::String* get_EffectDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_EFFECTDESC_OFFSET))(this);
+		}
+
+		::System::String* get_EffectEnemyDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_EFFECTENEMYDESC_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FirstPassReward()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET_FIRSTPASSREWARD_OFFSET))(this);
+		}
+
+		::Class_1_CF41AF33C0521E1E* get__Row()
+		{
+			return ((::Class_1_CF41AF33C0521E1E*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEDIFFICULTYDATAITEM_GET__ROW_OFFSET))(this);
+		}
+	};
+}

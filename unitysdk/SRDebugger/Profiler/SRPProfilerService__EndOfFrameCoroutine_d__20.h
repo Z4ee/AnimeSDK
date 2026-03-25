@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace SRDebugger::Profiler { class SRPProfilerService; }
+
+#define SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18436A60)
+#define SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18436AF0)
+#define SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18436B50)
+#define SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18436B00)
+#define SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18436A50)
+#define SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0x18436900)
+
+namespace SRDebugger::Profiler
+{
+	inline static constexpr unsigned int SRPProfilerService__EndOfFrameCoroutine_d__20_TypeDefinitionIndex = 29741;
+
+	class SRPProfilerService__EndOfFrameCoroutine_d__20 : public ::System::Object
+	{
+	public:
+		::SRDebugger::Profiler::SRPProfilerService* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Int32 __1__state; // 0x20
+
+		::System::Void _ctor(::System::Int32 __1__state)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20__CTOR_OFFSET))(this, __1__state);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_PROFILER_SRPPROFILERSERVICE__ENDOFFRAMECOROUTINE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

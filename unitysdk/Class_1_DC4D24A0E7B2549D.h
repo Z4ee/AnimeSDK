@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/BattleModelResultType.h"
+#include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_DC4D24A0E7B2549D__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AF110)
+
+inline static constexpr unsigned int Class_1_DC4D24A0E7B2549D_TypeDefinitionIndex = 45169;
+
+class Class_1_DC4D24A0E7B2549D : public ::System::Object
+{
+public:
+	::RPG::GameCore::BattleModelResultType Field_1_1; // 0x10
+	::RPG::GameCore::TeamType Field_1_0; // 0x14
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DC4D24A0E7B2549D__CTOR_OFFSET))(this);
+	}
+};

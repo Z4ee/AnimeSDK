@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+
+#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xABADD70)
+#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xABADF10)
+#define RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xABADF20)
+
+namespace RPGTools::Timeline
+{
+	inline static constexpr unsigned int TimeScaleBehaviour_TypeDefinitionIndex = 39318;
+
+	class TimeScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
+	{
+	public:
+		::System::Single timeScale; // 0x10
+		::System::Single duration; // 0x14
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TIMESCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+		}
+	};
+}

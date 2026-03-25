@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace CriWare
+{
+	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfig_TypeDefinitionIndex = 31066;
+
+	struct alignas(1) CriAtomExAsrRack_PlatformConfig
+	{
+		::System::Byte reserved; // 0x10
+	};
+}

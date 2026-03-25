@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_FD611945730E269E.h"
+
+class Class_0_16E4307DCC419505_1012;
+class Class_2_D41B3B8D4D2B16E7;
+
+#define CLASS_2_2308CF7EC5CE179A_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x89E3B30)
+#define CLASS_2_2308CF7EC5CE179A_METHOD_2_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0x89E3B90)
+#define CLASS_2_2308CF7EC5CE179A_METHOD_2_ACE888BF6F5BC5FD_OFFSET UNITYSDK_OFFSET(0x89E2E60)
+#define CLASS_2_2308CF7EC5CE179A_METHOD_2_CB47EF435F4257BC_OFFSET UNITYSDK_OFFSET(0x89E3480)
+#define CLASS_2_2308CF7EC5CE179A__CTOR_OFFSET UNITYSDK_OFFSET(0x89E2E50)
+
+inline static constexpr unsigned int Class_2_2308CF7EC5CE179A_TypeDefinitionIndex = 63690;
+
+class Class_2_2308CF7EC5CE179A : public ::Class_1_FD611945730E269E
+{
+public:
+	::Class_2_D41B3B8D4D2B16E7* Field_2_0; // 0x18
+	::Class_0_16E4307DCC419505_1012* Field_2_1; // 0x20
+	::System::Single Field_2_3; // 0x28
+	::System::Boolean Field_2_2; // 0x2C
+
+	::System::Void _ctor(::Class_2_D41B3B8D4D2B16E7* a1, ::Class_0_16E4307DCC419505_1012* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_D41B3B8D4D2B16E7*, ::Class_0_16E4307DCC419505_1012*))((::PBYTE)hIl2Cpp + CLASS_2_2308CF7EC5CE179A__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_ACE888BF6F5BC5FD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2308CF7EC5CE179A_METHOD_2_ACE888BF6F5BC5FD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CB47EF435F4257BC(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_2308CF7EC5CE179A_METHOD_2_CB47EF435F4257BC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2308CF7EC5CE179A_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_793FFA9A76FE6840(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_2308CF7EC5CE179A_METHOD_2_793FFA9A76FE6840_OFFSET))(this, P0);
+	}
+};

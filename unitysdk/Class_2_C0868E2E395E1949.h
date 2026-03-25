@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_3467D1B5E152C2CB.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+
+class Class_0_16E4307DCC419505_375;
+namespace RPG::GameCore { class OnEventCallBack; }
+
+#define CLASS_2_C0868E2E395E1949_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x114E73D0)
+#define CLASS_2_C0868E2E395E1949_METHOD_2_8594010D6A57C9BB_OFFSET UNITYSDK_OFFSET(0x114E7780)
+#define CLASS_2_C0868E2E395E1949_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x114E7610)
+#define CLASS_2_C0868E2E395E1949_METHOD_2_D1305BC17A89C222_OFFSET UNITYSDK_OFFSET(0x114E7650)
+#define CLASS_2_C0868E2E395E1949_METHOD_2_D3E49EC6A755A19A_OFFSET UNITYSDK_OFFSET(0x114E7870)
+#define CLASS_2_C0868E2E395E1949__CTOR_OFFSET UNITYSDK_OFFSET(0x114E78C0)
+
+inline static constexpr unsigned int Class_2_C0868E2E395E1949_TypeDefinitionIndex = 47530;
+
+class Class_2_C0868E2E395E1949 : public ::Class_1_3467D1B5E152C2CB
+{
+public:
+	::RPG::GameCore::OnEventCallBack* Field_2_1; // 0x40
+	::RPG::GameCore::EventType Field_2_0; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C0868E2E395E1949__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_508D4DD02D3DB74E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C0868E2E395E1949_METHOD_2_508D4DD02D3DB74E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C0868E2E395E1949_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D1305BC17A89C222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C0868E2E395E1949_METHOD_2_D1305BC17A89C222_OFFSET))(this);
+	}
+
+	::System::Void Method_2_8594010D6A57C9BB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C0868E2E395E1949_METHOD_2_8594010D6A57C9BB_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D3E49EC6A755A19A(::Class_0_16E4307DCC419505_375* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_2_C0868E2E395E1949_METHOD_2_D3E49EC6A755A19A_OFFSET))(this, a1);
+	}
+};

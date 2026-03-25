@@ -1,0 +1,148 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseMonoTriggerRegion.h"
+#include "unitysdk/RPG/GameCore/GeometryRegionTargetType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_0_16E4307DCC419505_783;
+class Class_1_B9DA9FA7666C65CE;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TriggerValidGuestConfig; }
+
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_CASTSINGLETARGET_OFFSET UNITYSDK_OFFSET(0x9D04E80)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_GET_TARGETGROUPID_OFFSET UNITYSDK_OFFSET(0x9D057B0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_GET_TARGETINSTANCEID_OFFSET UNITYSDK_OFFSET(0x9D057C0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x9D057A0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_00A4B38C951C5BD5_OFFSET UNITYSDK_OFFSET(0x9D046F0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0x9D04B60)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x9D047C0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_5022DB1DC5AA8CB4_OFFSET UNITYSDK_OFFSET(0x9D04A70)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x9D04CF0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_8422ABC65E83BF12_OFFSET UNITYSDK_OFFSET(0x9D048D0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_AB389C69D231955F_OFFSET UNITYSDK_OFFSET(0x9D04C50)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_C2B13F505CA2DA54_OFFSET UNITYSDK_OFFSET(0x9D054B0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_CEA992B6DEFDAF0A_OFFSET UNITYSDK_OFFSET(0x9D04820)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_E30A0CB4AE5808EA_OFFSET UNITYSDK_OFFSET(0x9D05350)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9D05750)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_OVERLAPPOINT_OFFSET UNITYSDK_OFFSET(0x9D05230)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_SETUPGEOMETRYREGION_OFFSET UNITYSDK_OFFSET(0x9D04630)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER_TICK_OFFSET UNITYSDK_OFFSET(0x9D04DC0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D057D0)
+#define RPG_CLIENT_MONOGEOMETRYTRIGGER___IFIXBASEPROXY_OVERLAPPOINT_OFFSET UNITYSDK_OFFSET(0x9D057E0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoGeometryTrigger_TypeDefinitionIndex = 56299;
+
+	class MonoGeometryTrigger : public ::RPG::Client::BaseMonoTriggerRegion
+	{
+	public:
+		::Class_0_16E4307DCC419505_783* Field_6_0; // 0x20
+		::RPG::GameCore::GameEntity* Field_6_1; // 0x28
+		::System::Single Field_6_2; // 0x30
+		::System::Single Field_6_3; // 0x34
+		::RPG::GameCore::GeometryRegionTargetType Field_6_4; // 0x38
+		::System::UInt32 Field_6_5; // 0x3C
+		::System::UInt32 Field_6_6; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void SetupGeometryRegion(::Class_1_B9DA9FA7666C65CE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B9DA9FA7666C65CE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_SETUPGEOMETRYREGION_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_00A4B38C951C5BD5(::Class_1_B9DA9FA7666C65CE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B9DA9FA7666C65CE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_00A4B38C951C5BD5_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_8422ABC65E83BF12(::Class_1_B9DA9FA7666C65CE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B9DA9FA7666C65CE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_8422ABC65E83BF12_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_5022DB1DC5AA8CB4(::Class_1_B9DA9FA7666C65CE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B9DA9FA7666C65CE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_5022DB1DC5AA8CB4_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_0AB718BEE9EA06D7(::Class_1_B9DA9FA7666C65CE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B9DA9FA7666C65CE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_0AB718BEE9EA06D7_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_2685B6183E614529(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_2685B6183E614529_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::GeometryRegionTargetType Method_6_AB389C69D231955F(::RPG::GameCore::TriggerValidGuestConfig* a1)
+		{
+			return ((::RPG::GameCore::GeometryRegionTargetType(*)(::PVOID, ::RPG::GameCore::TriggerValidGuestConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_AB389C69D231955F_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_CEA992B6DEFDAF0A(::RPG::GameCore::TriggerValidGuestConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TriggerValidGuestConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_CEA992B6DEFDAF0A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_508D4DD02D3DB74E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_508D4DD02D3DB74E_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Boolean OverlapPoint(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_OVERLAPPOINT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_E30A0CB4AE5808EA(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_E30A0CB4AE5808EA_OFFSET))(this, a1);
+		}
+
+		::System::Void CastSingleTarget()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_CASTSINGLETARGET_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_ONDISABLE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* Method_6_C2B13F505CA2DA54()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_METHOD_6_C2B13F505CA2DA54_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GeometryRegionTargetType get_TargetType()
+		{
+			return ((::RPG::GameCore::GeometryRegionTargetType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_GET_TARGETTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TargetGroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_GET_TARGETGROUPID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TargetInstanceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER_GET_TARGETINSTANCEID_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_OverlapPoint(::UnityEngine::Vector3 P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOGEOMETRYTRIGGER___IFIXBASEPROXY_OVERLAPPOINT_OFFSET))(this, P0);
+		}
+	};
+}

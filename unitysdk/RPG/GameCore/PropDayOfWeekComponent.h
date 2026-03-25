@@ -1,0 +1,111 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/RPG/GameCore/PropDayOfWeekAction.h"
+#include "unitysdk/RPG/GameCore/PropState.h"
+#include "unitysdk/RPG/GameCore/PropType.h"
+#include "unitysdk/Struct_2_83C56BD9A06FA6EA_1.h"
+#include "unitysdk/System/Nullable_1.h"
+
+namespace RPG::GameCore { class CocoonRow; }
+namespace RPG::GameCore { class PropComponent; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAA12840)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_GETCOCOONPROPOPENSTATE_OFFSET UNITYSDK_OFFSET(0xAA19050)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xAA1B3E0)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xAA13980)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_ISACTIVESTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0xAA1ADA0)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_ISCOCOONDAYOFWEEKACTIVE_OFFSET UNITYSDK_OFFSET(0xAA18D90)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_ISCOCOONDAYOFWEEKPROP_OFFSET UNITYSDK_OFFSET(0xAA1A7E0)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_SETANIMATIONACTIONPARAM_OFFSET UNITYSDK_OFFSET(0xAA1AEC0)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_SOLVEACTIVESTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0xAA1B0D0)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xAA1B430)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xAA1B420)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__GETCOCOONDAYOFWEEKCONFIG_OFFSET UNITYSDK_OFFSET(0xAA1B2D0)
+#define RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__ONREFRESHDAILYPROP_OFFSET UNITYSDK_OFFSET(0xAA1B360)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int PropDayOfWeekComponent_TypeDefinitionIndex = 46234;
+
+	class PropDayOfWeekComponent : public ::RPG::GameCore::GameComponentBase
+	{
+	public:
+		static ::System::String** StaticGet_IS_DORMANT_PARAM()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PropDayOfWeekComponent_TypeDefinitionIndex)->GetStaticField(0x44ED0);
+		}
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropDayOfWeekAction, ::Struct_2_83C56BD9A06FA6EA_1>* _AnimActionParamDict; // 0x18
+		::RPG::GameCore::PropComponent* _parentCmptRef; // 0x20
+		::RPG::GameCore::PropType _PropType; // 0x28
+		::System::Nullable_1<::System::Boolean> _IsActive; // 0x2C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__CCTOR_OFFSET))();
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void InitComponent(::RPG::GameCore::PropComponent* parentCmpt)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_INITCOMPONENT_OFFSET))(this, parentCmpt);
+		}
+
+		::System::Boolean IsActiveStatusChange()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_ISACTIVESTATUSCHANGE_OFFSET))(this);
+		}
+
+		::System::Void SetAnimationActionParam(::RPG::GameCore::PropDayOfWeekAction action, ::System::String* animatorStateName, ::System::Single offset, ::System::Single transitionDuration, ::System::Boolean fixedTransition)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropDayOfWeekAction, ::System::String*, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_SETANIMATIONACTIONPARAM_OFFSET))(this, action, animatorStateName, offset, transitionDuration, fixedTransition);
+		}
+
+		::System::Void SolveActiveStatusChange()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_SOLVEACTIVESTATUSCHANGE_OFFSET))(this);
+		}
+
+		static ::System::Boolean IsCocoonDayOfWeekActive(::System::UInt32 cocoonID)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_ISCOCOONDAYOFWEEKACTIVE_OFFSET))(cocoonID);
+		}
+
+		static ::System::Boolean IsCocoonDayOfWeekProp(::System::UInt32 cocoonID, ::System::UInt32 worldLevel)
+		{
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_ISCOCOONDAYOFWEEKPROP_OFFSET))(cocoonID, worldLevel);
+		}
+
+		static ::RPG::GameCore::PropState GetCocoonPropOpenState(::System::UInt32 cocoonID)
+		{
+			return ((::RPG::GameCore::PropState(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_GETCOCOONPROPOPENSTATE_OFFSET))(cocoonID);
+		}
+
+		static ::RPG::GameCore::CocoonRow* _GetCocoonDayOfWeekConfig(::System::UInt32 cocoonID)
+		{
+			return ((::RPG::GameCore::CocoonRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__GETCOCOONDAYOFWEEKCONFIG_OFFSET))(cocoonID);
+		}
+
+		::System::Void _OnRefreshDailyProp(::System::Object* param)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT__ONREFRESHDAILYPROP_OFFSET))(this, param);
+		}
+
+		::System::Boolean get_IsActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAYOFWEEKCOMPONENT_GET_ISACTIVE_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,199 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace RPG::UINavigation { class UINavigation; }
+namespace RPG::UINavigation { class UINavigationButton; }
+namespace RPG::UINavigation { class UINavigationZone; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ADDNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xAB0B430)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_AWAKE_OFFSET UNITYSDK_OFFSET(0xAB0B7F0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_BELONGTONAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xAB0B530)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_GETACTIONHINTNAME_OFFSET UNITYSDK_OFFSET(0xAB0BE50)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_GET_NAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xAB0AD00)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_GET_NAVIGATION_OFFSET UNITYSDK_OFFSET(0xAB0B020)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAB0B9A0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAB0BC10)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xAB0BB50)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONINCONTROLACTIONSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0xAB0BE00)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONNAVIGATIONPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0xAB05CA0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0xAB0BDA0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_REFRESHINCONTROLHINT_OFFSET UNITYSDK_OFFSET(0xAB0B660)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_RESETNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xAB0B4B0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SETACTIONHINTNAME_OFFSET UNITYSDK_OFFSET(0xAB0B5E0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SETCONTROLLEDBYBUTTON_OFFSET UNITYSDK_OFFSET(0xAB099B0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SETNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xAB0B090)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SHOULDSHOWINCONTROLACTIONHINT_OFFSET UNITYSDK_OFFSET(0xAB0BEA0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_UPDATEINCONTROLACTIONSTATUS_OFFSET UNITYSDK_OFFSET(0xAB0AAA0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__ADDTONAVIGATION_OFFSET UNITYSDK_OFFSET(0xAB0B840)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB0C310)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0C2C0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__FINDVALIDSPECIFIEDZONE_OFFSET UNITYSDK_OFFSET(0xAB0AEB0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__ISBOUNDZONEATTOP_OFFSET UNITYSDK_OFFSET(0xAB0BF60)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__MARKZONESHOULDREBUILDINCONTROLACTIONS_OFFSET UNITYSDK_OFFSET(0xAB0B6B0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__MARKZONESHOULDUPDATEINCONTROLHINTS_OFFSET UNITYSDK_OFFSET(0xAB0B250)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__REMOVEFROMNAVIGATION_OFFSET UNITYSDK_OFFSET(0xAB0B9F0)
+#define RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__UPDATEINCONTROLACTIONSTATUS_OFFSET UNITYSDK_OFFSET(0xAB0B1A0)
+
+namespace RPG::UINavigation
+{
+	inline static constexpr unsigned int UINavigationInControlAction_TypeDefinitionIndex = 41830;
+
+	class UINavigationInControlAction : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		static ::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigationInControlAction*>** StaticGet_AllInControlActions()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigationInControlAction*>**)Il2CppClass::FromTypeDefinitionIndex(UINavigationInControlAction_TypeDefinitionIndex)->GetStaticField(0x47040);
+		}
+		::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigationZone*>* _SpecifiedNavigationZones; // 0x18
+		::System::String* _ActionHintName; // 0x20
+		::RPG::UINavigation::UINavigation* _Navigation; // 0x28
+		::RPG::UINavigation::UINavigationButton* _ControlledButton; // 0x30
+		::System::Boolean _NavigationDirty; // 0x38
+		::System::Int32 _CurrentIndex; // 0x3C
+		::System::Boolean _EnableCalled; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__CCTOR_OFFSET))();
+		}
+
+		::RPG::UINavigation::UINavigationZone* get_NavigationZone()
+		{
+			return ((::RPG::UINavigation::UINavigationZone*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_GET_NAVIGATIONZONE_OFFSET))(this);
+		}
+
+		::RPG::UINavigation::UINavigation* get_Navigation()
+		{
+			return ((::RPG::UINavigation::UINavigation*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_GET_NAVIGATION_OFFSET))(this);
+		}
+
+		::System::Void SetNavigationZone(::Il2CppArray<::RPG::UINavigation::UINavigationZone*>* navigationZones)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::UINavigation::UINavigationZone*>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SETNAVIGATIONZONE_OFFSET))(this, navigationZones);
+		}
+
+		::System::Void AddNavigationZone(::RPG::UINavigation::UINavigationZone* navigationZone)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::UINavigation::UINavigationZone*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ADDNAVIGATIONZONE_OFFSET))(this, navigationZone);
+		}
+
+		::System::Void ResetNavigationZone()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_RESETNAVIGATIONZONE_OFFSET))(this);
+		}
+
+		::System::Void SetControlledByButton(::RPG::UINavigation::UINavigationButton* button)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::UINavigation::UINavigationButton*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SETCONTROLLEDBYBUTTON_OFFSET))(this, button);
+		}
+
+		::System::Void UpdateInControlActionStatus(::System::Boolean active)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_UPDATEINCONTROLACTIONSTATUS_OFFSET))(this, active);
+		}
+
+		::System::Boolean BelongToNavigationZone(::RPG::UINavigation::UINavigationZone* zone)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::UINavigation::UINavigationZone*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_BELONGTONAVIGATIONZONE_OFFSET))(this, zone);
+		}
+
+		::System::Void SetActionHintName(::System::String* hintName)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SETACTIONHINTNAME_OFFSET))(this, hintName);
+		}
+
+		::System::Void RefreshInControlHint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_REFRESHINCONTROLHINT_OFFSET))(this);
+		}
+
+		::System::Void OnNavigationParentChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONNAVIGATIONPARENTCHANGED_OFFSET))(this);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void OnTransformParentChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
+		}
+
+		::System::Void OnInControlActionStatusChange(::System::Boolean active)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_ONINCONTROLACTIONSTATUSCHANGE_OFFSET))(this, active);
+		}
+
+		::System::String* GetActionHintName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_GETACTIONHINTNAME_OFFSET))(this);
+		}
+
+		::System::Boolean ShouldShowInControlActionHint()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION_SHOULDSHOWINCONTROLACTIONHINT_OFFSET))(this);
+		}
+
+		::RPG::UINavigation::UINavigationZone* _FindValidSpecifiedZone()
+		{
+			return ((::RPG::UINavigation::UINavigationZone*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__FINDVALIDSPECIFIEDZONE_OFFSET))(this);
+		}
+
+		::System::Void _MarkZoneShouldRebuildInControlActions()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__MARKZONESHOULDREBUILDINCONTROLACTIONS_OFFSET))(this);
+		}
+
+		::System::Void _MarkZoneShouldUpdateInControlHints()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__MARKZONESHOULDUPDATEINCONTROLHINTS_OFFSET))(this);
+		}
+
+		::System::Void _AddToNavigation()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__ADDTONAVIGATION_OFFSET))(this);
+		}
+
+		::System::Void _RemoveFromNavigation()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__REMOVEFROMNAVIGATION_OFFSET))(this);
+		}
+
+		::System::Void _UpdateInControlActionStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__UPDATEINCONTROLACTIONSTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean _IsBoundZoneAtTop()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONINCONTROLACTION__ISBOUNDZONEATTOP_OFFSET))(this);
+		}
+	};
+}

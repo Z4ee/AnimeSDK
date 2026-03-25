@@ -1,0 +1,195 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_35661FB1E71DC198;
+namespace RPG::Client { class IMapIconTrackSnapshot; }
+namespace RPG::Client::NavMap { class ICartographerIdentifier; }
+namespace RPG::Client::NavMap::FiveDim { class EntityIcon; }
+
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_CREATE_OFFSET UNITYSDK_OFFSET(0x9DFE820)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9E018F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x9E017A0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GETWAYPOINTCONNECTINFO_OFFSET UNITYSDK_OFFSET(0x9E015F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_CARTOGRAPHERIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x9E01490)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x9E01430)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_CREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x9E015C0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x9E01470)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x9E01450)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ISAUTOCANCELTRACK_OFFSET UNITYSDK_OFFSET(0x9E015E0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ISINCURRENTSCENE_OFFSET UNITYSDK_OFFSET(0x9E014F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ISSHOWINCURRENTSCENE_OFFSET UNITYSDK_OFFSET(0x9E01540)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_MAPICONCOLOR_OFFSET UNITYSDK_OFFSET(0x9E014D0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_MAPICONTYPE_OFFSET UNITYSDK_OFFSET(0x9E014B0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_MAPPOSITION_OFFSET UNITYSDK_OFFSET(0x9E01590)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x9E01410)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_CARTOGRAPHERIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x9E014A0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x9E01440)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_CREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x9E015D0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x9E01480)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x9E01460)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_MAPICONCOLOR_OFFSET UNITYSDK_OFFSET(0x9E014E0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_MAPICONTYPE_OFFSET UNITYSDK_OFFSET(0x9E014C0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_MAPPOSITION_OFFSET UNITYSDK_OFFSET(0x9E015B0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x9E01420)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x9E012F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT__INITCARTOGRAPHERIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x9E01300)
+
+namespace RPG::Client::NavMap::FiveDim
+{
+	inline static constexpr unsigned int FiveDimIconTrackSnapshot_TypeDefinitionIndex = 61395;
+
+	class FiveDimIconTrackSnapshot : public ::System::Object
+	{
+	public:
+		::RPG::Client::NavMap::ICartographerIdentifier* _CartographerIdentifier_k__BackingField; // 0x10
+		::System::UInt32 _FloorID_k__BackingField; // 0x18
+		::System::UInt32 _MapIconType_k__BackingField; // 0x1C
+		::UnityEngine::Color _MapIconColor_k__BackingField; // 0x20
+		::System::UInt32 _StoryLineID_k__BackingField; // 0x30
+		::System::UInt32 _ContainerInstanceID; // 0x34
+		::System::UInt32 _ContentID_k__BackingField; // 0x38
+		::UnityEngine::Vector3 _MapPosition_k__BackingField; // 0x3C
+		::System::UInt32 _EntityID_k__BackingField; // 0x48
+		::System::UInt32 _ContainerGroupID; // 0x4C
+		::System::UInt32 _SubMapID; // 0x50
+		::System::UInt64 _CreateTimeStamp_k__BackingField; // 0x58
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::NavMap::FiveDim::FiveDimIconTrackSnapshot* Create(::RPG::Client::NavMap::FiveDim::EntityIcon* entityIcon)
+		{
+			return ((::RPG::Client::NavMap::FiveDim::FiveDimIconTrackSnapshot*(*)(::RPG::Client::NavMap::FiveDim::EntityIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_CREATE_OFFSET))(entityIcon);
+		}
+
+		::System::Void _InitCartographerIdentifier()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT__INITCARTOGRAPHERIDENTIFIER_OFFSET))(this);
+		}
+
+		::System::UInt32 get_StoryLineID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_STORYLINEID_OFFSET))(this);
+		}
+
+		::System::Void set_StoryLineID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_STORYLINEID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ContentID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_CONTENTID_OFFSET))(this);
+		}
+
+		::System::Void set_ContentID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_CONTENTID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_FloorID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_FLOORID_OFFSET))(this);
+		}
+
+		::System::Void set_FloorID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_FLOORID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_EntityID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ENTITYID_OFFSET))(this);
+		}
+
+		::System::Void set_EntityID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_ENTITYID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::NavMap::ICartographerIdentifier* get_CartographerIdentifier()
+		{
+			return ((::RPG::Client::NavMap::ICartographerIdentifier*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_CARTOGRAPHERIDENTIFIER_OFFSET))(this);
+		}
+
+		::System::Void set_CartographerIdentifier(::RPG::Client::NavMap::ICartographerIdentifier* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_CARTOGRAPHERIDENTIFIER_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MapIconType()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_MAPICONTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_MapIconType(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_MAPICONTYPE_OFFSET))(this, value);
+		}
+
+		::UnityEngine::Color get_MapIconColor()
+		{
+			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_MAPICONCOLOR_OFFSET))(this);
+		}
+
+		::System::Void set_MapIconColor(::UnityEngine::Color value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_MAPICONCOLOR_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsInCurrentScene()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ISINCURRENTSCENE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsShowInCurrentScene()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ISSHOWINCURRENTSCENE_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 get_MapPosition()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_MAPPOSITION_OFFSET))(this);
+		}
+
+		::System::Void set_MapPosition(::UnityEngine::Vector3 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_MAPPOSITION_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_CreateTimeStamp()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_CREATETIMESTAMP_OFFSET))(this);
+		}
+
+		::System::Void set_CreateTimeStamp(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_SET_CREATETIMESTAMP_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsAutoCancelTrack()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GET_ISAUTOCANCELTRACK_OFFSET))(this);
+		}
+
+		::Class_1_35661FB1E71DC198* GetWaypointConnectInfo()
+		{
+			return ((::Class_1_35661FB1E71DC198*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_GETWAYPOINTCONNECTINFO_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::RPG::Client::NavMap::FiveDim::FiveDimIconTrackSnapshot* other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::FiveDim::FiveDimIconTrackSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_EQUALS_OFFSET))(this, other);
+		}
+
+		::System::Boolean Equals_1(::RPG::Client::IMapIconTrackSnapshot* other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IMapIconTrackSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FIVEDIMICONTRACKSNAPSHOT_EQUALS_1_OFFSET))(this, other);
+		}
+	};
+}

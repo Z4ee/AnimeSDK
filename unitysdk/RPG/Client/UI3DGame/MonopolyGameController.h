@@ -1,0 +1,392 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_169.h"
+#include "unitysdk/RPG/Client/LittleGame/MonopolyGameState.h"
+
+class Class_1_217BBF64891C4D7A;
+class Class_1_867B6CE75953535A;
+class Class_1_96419F04F23BCC39;
+class Class_2_1792A4214A514F27;
+class Class_2_40B4F44059E8FC53;
+class Class_2_9850514C0F89B91A;
+namespace RPG::Client { class MonopolyMovePathData; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelGraphComponent; }
+namespace RPG::GameCore { class MonopolyMapCell; }
+namespace RPG::GameCore { class MonopolyMapConfig; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDCELLEVENTTRIGGERIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xA657D40)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDCELLEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xA659740)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDVISUALEFFECTTOPATH_OFFSET UNITYSDK_OFFSET(0xA65AD00)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDVISUALEFFECT_OFFSET UNITYSDK_OFFSET(0xA65A480)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_CHANGEASSETLEVEL_OFFSET UNITYSDK_OFFSET(0xA659F50)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_CREATEBARRIER_OFFSET UNITYSDK_OFFSET(0xA65B7A0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_CREATECLICKITEM_OFFSET UNITYSDK_OFFSET(0xA65B910)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DELETEBARRIER_OFFSET UNITYSDK_OFFSET(0xA65B6E0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DESTROYCLICKITEM_OFFSET UNITYSDK_OFFSET(0xA65BA70)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DESTROYENTITY_OFFSET UNITYSDK_OFFSET(0xA6567E0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DISPOSELEVELGRAPH_OFFSET UNITYSDK_OFFSET(0xA65A420)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA658260)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETCURCELLCONFIG_OFFSET UNITYSDK_OFFSET(0xA659C70)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETCURMAP_OFFSET UNITYSDK_OFFSET(0xA6591B0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETCURWORLD_OFFSET UNITYSDK_OFFSET(0xA6567A0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETMAPCONFIG_OFFSET UNITYSDK_OFFSET(0xA659DA0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETMAPDICT_OFFSET UNITYSDK_OFFSET(0xA659DF0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETPLAYERENTITY_OFFSET UNITYSDK_OFFSET(0xA65B4B0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETREMAINSTEP_OFFSET UNITYSDK_OFFSET(0xA659E50)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_INITGAMECONTEXT_OFFSET UNITYSDK_OFFSET(0xA655100)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ISSWITCHINGWORLD_OFFSET UNITYSDK_OFFSET(0xA65A300)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_LOADWORLDBG_OFFSET UNITYSDK_OFFSET(0xA656EF0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_LOADWORLD_OFFSET UNITYSDK_OFFSET(0xA656890)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_MOVEBYPATH_OFFSET UNITYSDK_OFFSET(0xA659430)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ONUIENTERTRIGGER_OFFSET UNITYSDK_OFFSET(0xA658460)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_OVERRIDESTARTCELLID_OFFSET UNITYSDK_OFFSET(0xA659280)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_PLAYCLICKITEMFINALANIM_OFFSET UNITYSDK_OFFSET(0xA65BB00)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_PLAYSPINEANIM_OFFSET UNITYSDK_OFFSET(0xA65B510)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_RECOVERINFOAFTERSWITCHMAP_OFFSET UNITYSDK_OFFSET(0xA657190)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_RECOVERSTATE_OFFSET UNITYSDK_OFFSET(0xA656F40)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_REFRESHACTIVESTATE_OFFSET UNITYSDK_OFFSET(0xA65A3C0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_SETGAMEPAUSE_OFFSET UNITYSDK_OFFSET(0xA6587C0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_SETPLAYERANIMATION_OFFSET UNITYSDK_OFFSET(0xA6592D0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_TELEPORTTOCELL_OFFSET UNITYSDK_OFFSET(0xA659620)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_TRIGGERCLICKABLEFINALANIM_OFFSET UNITYSDK_OFFSET(0xA6599D0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_UNLOADWORLD_OFFSET UNITYSDK_OFFSET(0xA656520)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_UPDATEBARRIERS_OFFSET UNITYSDK_OFFSET(0xA659B10)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEENTITYS_OFFSET UNITYSDK_OFFSET(0xA6581D0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEGAMEINPUT_OFFSET UNITYSDK_OFFSET(0xA658AB0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEMAP_OFFSET UNITYSDK_OFFSET(0xA6590B0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEMONOPOLYGAMECONFIG_OFFSET UNITYSDK_OFFSET(0xA658B60)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEMONOPOLYGAMESTATE_OFFSET UNITYSDK_OFFSET(0xA658C30)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEPLAYER_OFFSET UNITYSDK_OFFSET(0xA658D30)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATESERVICES_OFFSET UNITYSDK_OFFSET(0xA657FD0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATESYSTEMS_OFFSET UNITYSDK_OFFSET(0xA658130)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA654CE0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__FETCHVISUALEFFECTENTITY_OFFSET UNITYSDK_OFFSET(0xA65A840)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETASSETICONPATH_OFFSET UNITYSDK_OFFSET(0xA65A250)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETCURCELL_OFFSET UNITYSDK_OFFSET(0xA657000)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETNEXTMAP_OFFSET UNITYSDK_OFFSET(0xA656AC0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETOWNEDENTITY_OFFSET UNITYSDK_OFFSET(0xA658950)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETTARGETMAP_OFFSET UNITYSDK_OFFSET(0xA656C10)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__LOADWORLD_OFFSET UNITYSDK_OFFSET(0xA656D00)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__MOVEPLAYER_OFFSET UNITYSDK_OFFSET(0xA657430)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__RECOVERTRIGGERONSWITCHMAP_OFFSET UNITYSDK_OFFSET(0xA657370)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__RECOVERTRIGGER_OFFSET UNITYSDK_OFFSET(0xA657940)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA65BB80)
+
+namespace RPG::Client::UI3DGame
+{
+	inline static constexpr unsigned int MonopolyGameController_TypeDefinitionIndex = 61821;
+
+	class MonopolyGameController : public ::Class_1_43BD383C98B4C0C5_169
+	{
+	public:
+		// static const ::System::String* _BGPath; // 0x0
+		// static const ::System::String* _LoadPathTarget; // 0x0
+		// static const ::System::String* _SWITCH_END_PARAM; // 0x0
+		// static const ::System::Single MovingSpeed; // 0x0
+		// static const ::System::String* TriggerLevelGraph; // 0x0
+		// static const ::System::String* AssetIconPath; // 0x0
+		// static const ::System::String* _EffectLoadPath; // 0x0
+		// static const ::System::String* _BarrierFadeOutEffectPath; // 0x0
+		// static const ::System::String* _BarrierFadeInEffectPath; // 0x0
+		::Class_1_867B6CE75953535A* _Contexts; // 0x10
+		::UnityEngine::Transform* _RootTrans; // 0x18
+		::Class_2_9850514C0F89B91A* _WorldBgEntity; // 0x20
+		::Class_2_40B4F44059E8FC53* _Services; // 0x28
+		::RPG::GameCore::LevelGraphComponent* _ActGraphComponent; // 0x30
+		::Class_2_1792A4214A514F27* _UpdateSystems; // 0x38
+		::Class_1_96419F04F23BCC39* _MapWrapper; // 0x40
+		::System::UInt32 _MonopolyStartCellID; // 0x48
+		::System::Boolean _RestartLevelGraphOnFinished; // 0x4C
+		::System::UInt32 _MonopolyStartMapID; // 0x50
+		::RPG::Client::LittleGame::MonopolyGameState _PrevState; // 0x54
+
+		::System::Void _ctor(::UnityEngine::Transform* root, ::Class_1_217BBF64891C4D7A* initParam)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::Class_1_217BBF64891C4D7A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CTOR_OFFSET))(this, root, initParam);
+		}
+
+		::System::Void UnloadWorld()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_UNLOADWORLD_OFFSET))(this);
+		}
+
+		::Class_2_9850514C0F89B91A* GetCurWorld()
+		{
+			return ((::Class_2_9850514C0F89B91A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETCURWORLD_OFFSET))(this);
+		}
+
+		::System::Void DestroyEntity(::Class_2_9850514C0F89B91A* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DESTROYENTITY_OFFSET))(this, entity);
+		}
+
+		::System::Void LoadWorld(::System::Boolean useTargetWorld, ::System::UInt32 worldID, ::System::Boolean isLoadBg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_LOADWORLD_OFFSET))(this, useTargetWorld, worldID, isLoadBg);
+		}
+
+		::System::Void LoadWorldBg()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_LOADWORLDBG_OFFSET))(this);
+		}
+
+		::System::Void RecoverState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_RECOVERSTATE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::MonopolyMapConfig* _GetNextMap()
+		{
+			return ((::RPG::GameCore::MonopolyMapConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETNEXTMAP_OFFSET))(this);
+		}
+
+		::RPG::GameCore::MonopolyMapConfig* _GetTargetMap(::System::UInt32 worldID)
+		{
+			return ((::RPG::GameCore::MonopolyMapConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETTARGETMAP_OFFSET))(this, worldID);
+		}
+
+		::Class_2_9850514C0F89B91A* _GetCurCell()
+		{
+			return ((::Class_2_9850514C0F89B91A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETCURCELL_OFFSET))(this);
+		}
+
+		::System::Void _LoadWorld()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__LOADWORLD_OFFSET))(this);
+		}
+
+		::System::Void RecoverInfoAfterSwitchMap()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_RECOVERINFOAFTERSWITCHMAP_OFFSET))(this);
+		}
+
+		::System::Void _MovePlayer()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__MOVEPLAYER_OFFSET))(this);
+		}
+
+		::System::Void _RecoverTrigger()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__RECOVERTRIGGER_OFFSET))(this);
+		}
+
+		::System::Void _RecoverTriggerOnSwitchMap()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__RECOVERTRIGGERONSWITCHMAP_OFFSET))(this);
+		}
+
+		::Class_2_1792A4214A514F27* InitGameContext(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::Class_2_1792A4214A514F27*(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_INITGAMECONTEXT_OFFSET))(this, contexts);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnUIEnterTrigger(::Class_2_9850514C0F89B91A* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ONUIENTERTRIGGER_OFFSET))(this, entity);
+		}
+
+		::System::Void _CreateServices(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATESERVICES_OFFSET))(this, contexts);
+		}
+
+		::RPG::GameCore::GameEntity* _GetOwnedEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETOWNEDENTITY_OFFSET))(this);
+		}
+
+		::System::Void _CreateSystems(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATESYSTEMS_OFFSET))(this, contexts);
+		}
+
+		::System::Void _CreateEntitys(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEENTITYS_OFFSET))(this, contexts);
+		}
+
+		::System::Void _CreateGameInput(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEGAMEINPUT_OFFSET))(this, contexts);
+		}
+
+		::System::Void _CreateMonopolyGameConfig(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEMONOPOLYGAMECONFIG_OFFSET))(this, contexts);
+		}
+
+		::System::Void _CreateMonopolyGameState(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEMONOPOLYGAMESTATE_OFFSET))(this, contexts);
+		}
+
+		::System::Void _CreatePlayer(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEPLAYER_OFFSET))(this, contexts);
+		}
+
+		::RPG::GameCore::MonopolyMapConfig* GetCurMap()
+		{
+			return ((::RPG::GameCore::MonopolyMapConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETCURMAP_OFFSET))(this);
+		}
+
+		::System::Void _CreateMap(::Class_1_867B6CE75953535A* contexts)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__CREATEMAP_OFFSET))(this, contexts);
+		}
+
+		::System::Void OverrideStartCellID(::System::UInt32 id)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_OVERRIDESTARTCELLID_OFFSET))(this, id);
+		}
+
+		::System::Void SetPlayerAnimation(::System::String* name, ::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_SETPLAYERANIMATION_OFFSET))(this, name, value);
+		}
+
+		::System::Void MoveByPath(::RPG::Client::MonopolyMovePathData* path)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonopolyMovePathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_MOVEBYPATH_OFFSET))(this, path);
+		}
+
+		::System::Void TeleportToCell(::System::UInt32 cellID, ::System::UInt32 mapID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_TELEPORTTOCELL_OFFSET))(this, cellID, mapID);
+		}
+
+		::System::Void AddCellEventTrigger(::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDCELLEVENTTRIGGER_OFFSET))(this, cellID);
+		}
+
+		::System::Void AddCellEventTriggerImmediately(::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDCELLEVENTTRIGGERIMMEDIATELY_OFFSET))(this, cellID);
+		}
+
+		::System::Void TriggerClickableFinalAnim(::System::UInt32 cellID, ::System::UInt32 mapID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_TRIGGERCLICKABLEFINALANIM_OFFSET))(this, cellID, mapID);
+		}
+
+		::System::Void UpdateBarriers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_UPDATEBARRIERS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::MonopolyMapCell* GetCurCellConfig()
+		{
+			return ((::RPG::GameCore::MonopolyMapCell*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETCURCELLCONFIG_OFFSET))(this);
+		}
+
+		::RPG::GameCore::MonopolyMapConfig* GetMapConfig()
+		{
+			return ((::RPG::GameCore::MonopolyMapConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETMAPCONFIG_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::MonopolyMapConfig*>* GetMapDict()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::MonopolyMapConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETMAPDICT_OFFSET))(this);
+		}
+
+		::System::Void SetGamePause(::System::Boolean isPause)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_SETGAMEPAUSE_OFFSET))(this, isPause);
+		}
+
+		::System::UInt32 GetRemainStep()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETREMAINSTEP_OFFSET))(this);
+		}
+
+		::System::Void ChangeAssetLevel(::System::UInt32 assetID, ::System::UInt32 newLevel)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_CHANGEASSETLEVEL_OFFSET))(this, assetID, newLevel);
+		}
+
+		::System::Boolean IsSwitchingWorld()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ISSWITCHINGWORLD_OFFSET))(this);
+		}
+
+		::System::String* _GetAssetIconPath(::System::UInt32 newLevel)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__GETASSETICONPATH_OFFSET))(this, newLevel);
+		}
+
+		::System::Void RefreshActiveState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_REFRESHACTIVESTATE_OFFSET))(this);
+		}
+
+		::System::Void DisposeLevelGraph()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DISPOSELEVELGRAPH_OFFSET))(this);
+		}
+
+		::System::Void AddVisualEffect(::System::UInt32 cellID, ::System::String* effectPath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDVISUALEFFECT_OFFSET))(this, cellID, effectPath);
+		}
+
+		::System::Void AddVisualEffectToPath(::System::String* effectPath, ::System::String* effectTargetPath, ::System::String* posAndRotPath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_ADDVISUALEFFECTTOPATH_OFFSET))(this, effectPath, effectTargetPath, posAndRotPath);
+		}
+
+		::Class_2_9850514C0F89B91A* GetPlayerEntity()
+		{
+			return ((::Class_2_9850514C0F89B91A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_GETPLAYERENTITY_OFFSET))(this);
+		}
+
+		::Class_2_9850514C0F89B91A* _FetchVisualEffectEntity(::System::String* effectPath, ::System::String* effectLoadTargetPath)
+		{
+			return ((::Class_2_9850514C0F89B91A*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER__FETCHVISUALEFFECTENTITY_OFFSET))(this, effectPath, effectLoadTargetPath);
+		}
+
+		::System::Void PlaySpineAnim(::System::String* trigger)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_PLAYSPINEANIM_OFFSET))(this, trigger);
+		}
+
+		::System::Void DeleteBarrier(::System::UInt32 mapID, ::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DELETEBARRIER_OFFSET))(this, mapID, cellID);
+		}
+
+		::System::Void CreateBarrier(::System::UInt32 mapID, ::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_CREATEBARRIER_OFFSET))(this, mapID, cellID);
+		}
+
+		::System::Void CreateClickItem(::System::UInt32 mapID, ::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_CREATECLICKITEM_OFFSET))(this, mapID, cellID);
+		}
+
+		::System::Void DestroyClickItem(::System::UInt32 mapID, ::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_DESTROYCLICKITEM_OFFSET))(this, mapID, cellID);
+		}
+
+		::System::Void PlayClickItemFinalAnim(::System::UInt32 mapID, ::System::UInt32 cellID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER_PLAYCLICKITEMFINALANIM_OFFSET))(this, mapID, cellID);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+	};
+}

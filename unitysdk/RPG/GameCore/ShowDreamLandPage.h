@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_SHOWDREAMLANDPAGE_GET_PUZZLEITEMRESULT_OFFSET UNITYSDK_OFFSET(0x176F87C0)
+#define RPG_GAMECORE_SHOWDREAMLANDPAGE_METHOD_3_1FCF73B96BC2C7E9_OFFSET UNITYSDK_OFFSET(0x176F8560)
+#define RPG_GAMECORE_SHOWDREAMLANDPAGE_METHOD_3_4D2EA0A1DE8C9502_OFFSET UNITYSDK_OFFSET(0x176F85E0)
+#define RPG_GAMECORE_SHOWDREAMLANDPAGE_SET_PUZZLEITEMRESULT_OFFSET UNITYSDK_OFFSET(0x176F87D0)
+#define RPG_GAMECORE_SHOWDREAMLANDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x176F85B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ShowDreamLandPage_TypeDefinitionIndex = 19439;
+
+	class ShowDreamLandPage : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::System::UInt32 PuzzleID; // 0x18
+		::System::Boolean IsShowRewardPage; // 0x1C
+		::System::Boolean CloseAfterCheck; // 0x1D
+		::System::UInt32 _PuzzleItemResult_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDREAMLANDPAGE__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_1FCF73B96BC2C7E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowDreamLandPage*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowDreamLandPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDREAMLANDPAGE_METHOD_3_1FCF73B96BC2C7E9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_4D2EA0A1DE8C9502(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowDreamLandPage* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowDreamLandPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDREAMLANDPAGE_METHOD_3_4D2EA0A1DE8C9502_OFFSET))(a1, a2);
+		}
+
+		::System::UInt32 get_PuzzleItemResult()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDREAMLANDPAGE_GET_PUZZLEITEMRESULT_OFFSET))(this);
+		}
+
+		::System::Void set_PuzzleItemResult(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDREAMLANDPAGE_SET_PUZZLEITEMRESULT_OFFSET))(this, value);
+		}
+	};
+}

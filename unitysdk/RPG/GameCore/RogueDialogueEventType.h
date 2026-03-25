@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int RogueDialogueEventType_TypeDefinitionIndex = 11988;
+
+	enum class RogueDialogueEventType : ::System::Int32
+	{
+		None = 0,
+		GetItem = 1,
+		GetItemByPercent = 2,
+		ChangeLineupData = 3,
+		ChangeLineupDataByCurrent = 4,
+		ReviveAvatar = 5,
+		TriggerDialogueEventList = 6,
+		TriggerRandomEventList = 7,
+		RepeatableGamble = 8,
+		DisposableGamble = 9,
+		TriggerBattle = 10,
+		TriggerDialogueEventListByCondition = 11,
+		ChangeRogueNpcWeight = 12,
+		GetCoinByLoseCoin = 13,
+		TriggerRogueBuffSelect = 101,
+		TriggerRogueBuffEnhance = 102,
+		TriggerRogueBuffDrop = 103,
+		GetRogueBuff = 104,
+		EnhanceRogueBuff = 105,
+		RemoveRogueBuff = 106,
+		GetAllRogueBuffInGroup = 107,
+		ReplaceRogueBuff = 108,
+		ReplaceRogueBuffKeepLevel = 109,
+		GetRogueBuffByMiracleCount = 110,
+		TriggerRogueBuffReforge = 111,
+		GetAllRogueBuffInGroupAndGetItem = 112,
+		TriggerRogueMiracleSelect = 201,
+		TriggerRogueMiracleDestroy = 202,
+		TriggerRogueMiracleRepair = 203,
+		TriggerRogueMiracleDrop = 204,
+		TriggerDestroyedRogueMiracleSelect = 205,
+		GetRogueMiracle = 206,
+		DestroyRogueMiracle = 207,
+		RemoveRogueMiracle = 208,
+		RepairRogueMiracle = 209,
+		GetDestroyedRogueMiracle = 210,
+		ChangeRogueMiracleToRogueCoin = 211,
+		ChangeRogueMiracleToRogueMiracle = 212,
+		ChangeRogueMiracleToRogueBuff = 213,
+		ChangeDestroyedRogueMiracleToRogueBuff = 214,
+		DestroyRogueMiracleThenGetRogueMiracle = 215,
+		TriggerRogueMiracleTrade = 216,
+		TriggerRogueMiracleDropWithEvent = 217,
+		ChangeDestroyedRogueMiracleToRogueMiracle = 218,
+		FinishChessRogue = 301,
+		GetChessRogueCheatDice = 302,
+		GetChessRogueRerollDice = 303,
+		ChangeChessRogueActionPoint = 304,
+		SetChessRogueNextStartCellAdventureRoomType = 305,
+		ChangeNousValue = 306,
+	};
+}

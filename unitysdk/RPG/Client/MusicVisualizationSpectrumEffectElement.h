@@ -1,0 +1,216 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/Span_1.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+class Class_1_34601470C357B61B;
+namespace RPG::Client { class MusicVisualization_SpectrumEffectElementVisualBase; }
+namespace RPG::Client { class PerMusicParameterSpectrum; }
+namespace RPG::Client { class PerStateParamSpectrum; }
+namespace RPG::Client { class PolymerPropertyLinkMaterial; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class AnimationCurve; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_00A968F776BCC204_OFFSET UNITYSDK_OFFSET(0x9DDE4C0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_224BCAB043AC8B27_OFFSET UNITYSDK_OFFSET(0x9DDEA00)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_25EC451C0EA68F53_1_OFFSET UNITYSDK_OFFSET(0x9DDDB40)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0x9DDD970)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x9DDE8B0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_314BF8EF46C5FD93_OFFSET UNITYSDK_OFFSET(0x9DDF570)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_3200429A74A84938_OFFSET UNITYSDK_OFFSET(0x9DDF780)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x9DDE040)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_52CA0F45BC3414DC_OFFSET UNITYSDK_OFFSET(0x9DDDDF0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_558C6AE12602A241_OFFSET UNITYSDK_OFFSET(0x9DDD910)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_71D239EC67769A2B_OFFSET UNITYSDK_OFFSET(0x9DDF690)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_8594010D6A57C9BB_OFFSET UNITYSDK_OFFSET(0x9DDDD10)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_89ECADC0D3C7C373_OFFSET UNITYSDK_OFFSET(0x9DDF3A0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_941E84C8EA8C3EAE_OFFSET UNITYSDK_OFFSET(0x9DDEB80)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0x9DDE250)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_B7F8E0B4AF22DEA3_1_OFFSET UNITYSDK_OFFSET(0x9DDE380)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x9DDE0C0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_C8D6B29192F288ED_OFFSET UNITYSDK_OFFSET(0x9DDD580)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x9DDD8C0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x9DDE200)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0x9DDF320)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0x9DDF360)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9DDD880)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CEE72EAC18ECC163_1_OFFSET UNITYSDK_OFFSET(0x9DDE9A0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CEE72EAC18ECC163_OFFSET UNITYSDK_OFFSET(0x9DDE940)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_EA6181D1E7BCBCB3_OFFSET UNITYSDK_OFFSET(0x9DDECA0)
+#define RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9DDFAF0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MusicVisualizationSpectrumEffectElement_TypeDefinitionIndex = 58028;
+
+	class MusicVisualizationSpectrumEffectElement : public ::System::Object
+	{
+	public:
+		// static const ::System::Single _InMinFrequency; // 0x0
+		// static const ::System::Single _InMaxFrequency; // 0x0
+		::System::Single LerpTime; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::PerMusicParameterSpectrum*>* PerMusicParametersList_Spectrum; // 0x18
+		::UnityEngine::Transform* MVTarget; // 0x20
+		::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase* ElementVisual; // 0x28
+		::RPG::Client::PolymerPropertyLinkMaterial* Linker; // 0x30
+		::System::Int32 _TargetMusicBuffer; // 0x38
+		::System::Int32 _TargetStateBuffer; // 0x3C
+		::Il2CppArray<::System::Single>* SpectrumArray; // 0x40
+		::RPG::Client::PerMusicParameterSpectrum* _OldMusic; // 0x48
+		::RPG::Client::PerMusicParameterSpectrum* _NewMusic; // 0x50
+		::RPG::Client::PerStateParamSpectrum* _OldStateParam; // 0x58
+		::RPG::Client::PerStateParamSpectrum* _NewStateParam; // 0x60
+		::Class_1_34601470C357B61B* _DataForVisual; // 0x68
+		::Class_1_34601470C357B61B* _DataForVisualPause; // 0x70
+		::System::Boolean _IsStateChanging; // 0x78
+		::System::Single _LerpTimer; // 0x7C
+		::Il2CppArray<::System::Single>* _OldSpectrumArray; // 0x80
+		::Il2CppArray<::System::Single>* _LastSpectrumArray; // 0x88
+		::System::Int32 _CopiedMusicTarget; // 0x90
+		::System::Int32 _CopiedStateTarget; // 0x94
+		::System::Boolean _AllowCopySwapOnce; // 0x98
+		::System::Boolean _IsMusicChange; // 0x99
+		::System::Boolean _IsMusicStateChange; // 0x9A
+		::System::Boolean _IsMusicStateChangeImmediate; // 0x9B
+		::Il2CppArray<::System::Single>* _LastFrameInArray; // 0xA0
+		::System::Single _TempSpecVal; // 0xA8
+		::System::Boolean _IsPlayingVisualEffect; // 0xAC
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_1_C8D6B29192F288ED()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_C8D6B29192F288ED_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+		}
+
+		::System::Void Method_1_558C6AE12602A241()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_558C6AE12602A241_OFFSET))(this);
+		}
+
+		::System::Void Method_1_25EC451C0EA68F53()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_25EC451C0EA68F53_OFFSET))(this);
+		}
+
+		::System::Void Method_1_25EC451C0EA68F53_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_25EC451C0EA68F53_1_OFFSET))(this);
+		}
+
+		::System::Void Method_1_8594010D6A57C9BB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_8594010D6A57C9BB_OFFSET))(this);
+		}
+
+		::System::Void Method_1_52CA0F45BC3414DC(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_52CA0F45BC3414DC_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_1_CEE72EAC18ECC163(::System::Int32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CEE72EAC18ECC163_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_CEE72EAC18ECC163_1(::System::Int32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CEE72EAC18ECC163_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_224BCAB043AC8B27(::Il2CppArray<::System::Single>* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_224BCAB043AC8B27_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Method_1_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+		}
+
+		::System::Void Method_1_B768DA94E3FD91D9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_B768DA94E3FD91D9_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_CA373AA1C7054598_4_OFFSET))(this);
+		}
+
+		::System::Void Method_1_EA6181D1E7BCBCB3(::System::Span_1<::System::Single> a1, ::Il2CppArray<::System::Single>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Span_1<::System::Single>, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_EA6181D1E7BCBCB3_OFFSET))(this, a1, a2);
+		}
+
+		::System::Span_1<::System::Single> Method_1_941E84C8EA8C3EAE(::Il2CppArray<::System::Single>* a1, ::UnityEngine::Vector2 a2)
+		{
+			return ((::System::Span_1<::System::Single>(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_941E84C8EA8C3EAE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_89ECADC0D3C7C373(::Il2CppArray<::System::Single>* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_89ECADC0D3C7C373_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_314BF8EF46C5FD93(::Il2CppArray<::System::Single>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_314BF8EF46C5FD93_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_1_71D239EC67769A2B(::Il2CppArray<::System::Single>* a1, ::UnityEngine::AnimationCurve* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_71D239EC67769A2B_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_3200429A74A84938(::Il2CppArray<::System::Single>* a1, ::RPG::Client::PerStateParamSpectrum* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::RPG::Client::PerStateParamSpectrum*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_3200429A74A84938_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_1_B7F8E0B4AF22DEA3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_B7F8E0B4AF22DEA3_OFFSET))(this);
+		}
+
+		::System::Void Method_1_B7F8E0B4AF22DEA3_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_B7F8E0B4AF22DEA3_1_OFFSET))(this);
+		}
+
+		::System::Void Method_1_00A968F776BCC204(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_00A968F776BCC204_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_1_30D1209326FA87FC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICVISUALIZATIONSPECTRUMEFFECTELEMENT_METHOD_1_30D1209326FA87FC_OFFSET))(this);
+		}
+	};
+}

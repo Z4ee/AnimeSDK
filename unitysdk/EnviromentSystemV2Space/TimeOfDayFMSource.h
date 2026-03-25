@@ -1,0 +1,131 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EnviromentSystemV2Space/TimeOfDayFMSource_SignalMode.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_0_16E4307DCC419505_327;
+namespace System { class String; }
+namespace UnityEngine { class AnimationCurve; }
+
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x10373690)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_AUTOACTIVE_OFFSET UNITYSDK_OFFSET(0x10373770)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_CHANNELNAME_OFFSET UNITYSDK_OFFSET(0x103737B0)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0x103736F0)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_GET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0x10373750)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_METHOD_5_D2A08F3D951A0C1D_OFFSET UNITYSDK_OFFSET(0x103735A0)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONCHANNELACTIVE_OFFSET UNITYSDK_OFFSET(0x103737F0)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONCHANNELDEACTIVE_OFFSET UNITYSDK_OFFSET(0x10373840)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONCHANNELUPDATE_OFFSET UNITYSDK_OFFSET(0x10373880)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x10373400)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10373270)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_REGISTERSOURCE_OFFSET UNITYSDK_OFFSET(0x103732C0)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_SAMPLE_OFFSET UNITYSDK_OFFSET(0x103738E0)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0x10373760)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_UNREGISTERSOURCE_OFFSET UNITYSDK_OFFSET(0x10373450)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10373540)
+#define ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x103739D0)
+
+namespace EnviromentSystemV2Space
+{
+	inline static constexpr unsigned int TimeOfDayFMSource_TypeDefinitionIndex = 40245;
+
+	class TimeOfDayFMSource : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::String* _channelName; // 0x18
+		::EnviromentSystemV2Space::TimeOfDayFMSource_SignalMode _signalMode; // 0x20
+		::System::Single _manualValue; // 0x24
+		::System::Single _cycleDuration; // 0x28
+		::System::Single _speedMultiplier; // 0x2C
+		::UnityEngine::AnimationCurve* _signalCurve; // 0x30
+		::System::Boolean _autoActivate; // 0x38
+		::System::Single _currentTime; // 0x3C
+		::System::Single _currentValue; // 0x40
+		::Class_0_16E4307DCC419505_327* _OwnerFMSystem_k__BackingField; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void RegisterSource()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_REGISTERSOURCE_OFFSET))(this);
+		}
+
+		::System::Void UnregisterSource()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_UNREGISTERSOURCE_OFFSET))(this);
+		}
+
+		::System::Void Activate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ACTIVATE_OFFSET))(this);
+		}
+
+		::System::Void Deactivate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_DEACTIVATE_OFFSET))(this);
+		}
+
+		::System::Void Method_5_D2A08F3D951A0C1D(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_METHOD_5_D2A08F3D951A0C1D_OFFSET))(this, a1);
+		}
+
+		::Class_0_16E4307DCC419505_327* get_OwnerFMSystem()
+		{
+			return ((::Class_0_16E4307DCC419505_327*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_GET_OWNERFMSYSTEM_OFFSET))(this);
+		}
+
+		::System::Void set_OwnerFMSystem(::Class_0_16E4307DCC419505_327* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_327*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_SET_OWNERFMSYSTEM_OFFSET))(this, value);
+		}
+
+		::System::Boolean AutoActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_AUTOACTIVE_OFFSET))(this);
+		}
+
+		::System::String* ChannelName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_CHANNELNAME_OFFSET))(this);
+		}
+
+		::System::Void OnChannelActive()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONCHANNELACTIVE_OFFSET))(this);
+		}
+
+		::System::Void OnChannelDeactive()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONCHANNELDEACTIVE_OFFSET))(this);
+		}
+
+		::System::Void OnChannelUpdate(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_ONCHANNELUPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Single Sample(::System::Single a1)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_TIMEOFDAYFMSOURCE_SAMPLE_OFFSET))(this, a1);
+		}
+	};
+}

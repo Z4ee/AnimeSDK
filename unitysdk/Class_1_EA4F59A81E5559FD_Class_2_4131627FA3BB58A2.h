@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_EA4F59A81E5559FD.h"
+
+namespace RPG::Client { class ActivityModule; }
+namespace RPG::Client { class ActivityPanelData; }
+
+#define CLASS_1_EA4F59A81E5559FD_CLASS_2_4131627FA3BB58A2_METHOD_2_FB464648B8E2B471_OFFSET UNITYSDK_OFFSET(0x8AB8830)
+#define CLASS_1_EA4F59A81E5559FD_CLASS_2_4131627FA3BB58A2__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB86D0)
+
+inline static constexpr unsigned int Class_1_EA4F59A81E5559FD_Class_2_4131627FA3BB58A2_TypeDefinitionIndex = 50061;
+
+class Class_1_EA4F59A81E5559FD_Class_2_4131627FA3BB58A2 : public ::Class_1_EA4F59A81E5559FD
+{
+public:
+	::System::UInt32 Field_2_0; // 0x18
+
+	::System::Void _ctor(::RPG::Client::ActivityModule* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityModule*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_EA4F59A81E5559FD_CLASS_2_4131627FA3BB58A2__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::Client::ActivityPanelData* Method_2_FB464648B8E2B471()
+	{
+		return ((::RPG::Client::ActivityPanelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EA4F59A81E5559FD_CLASS_2_4131627FA3BB58A2_METHOD_2_FB464648B8E2B471_OFFSET))(this);
+	}
+};

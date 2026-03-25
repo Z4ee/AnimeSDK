@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Linq/Expressions/MemberExpression.h"
+
+namespace System { class Type; }
+namespace System::Linq::Expressions { class Expression; }
+namespace System::Reflection { class MemberInfo; }
+namespace System::Reflection { class PropertyInfo; }
+
+#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GETMEMBER_OFFSET UNITYSDK_OFFSET(0x18505030)
+#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18505040)
+#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18502700)
+
+namespace System::Linq::Expressions
+{
+	inline static constexpr unsigned int PropertyExpression_TypeDefinitionIndex = 3230;
+
+	class PropertyExpression : public ::System::Linq::Expressions::MemberExpression
+	{
+	public:
+		::System::Reflection::PropertyInfo* _property; // 0x18
+
+		::System::Void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* member)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION__CTOR_OFFSET))(this, expression, member);
+		}
+
+		::System::Reflection::MemberInfo* GetMember()
+		{
+			return ((::System::Reflection::MemberInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GETMEMBER_OFFSET))(this);
+		}
+
+		::System::Type* get_Type()
+		{
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GET_TYPE_OFFSET))(this);
+		}
+	};
+}

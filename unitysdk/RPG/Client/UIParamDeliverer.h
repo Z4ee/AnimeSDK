@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace RPG::Client { class UIParamDeliverer_UIParamDataItem; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_UIPARAMDELIVERER_HASKEY_OFFSET UNITYSDK_OFFSET(0xA722650)
+#define RPG_CLIENT_UIPARAMDELIVERER_TRYGETFLOATVALUE_OFFSET UNITYSDK_OFFSET(0xA722960)
+#define RPG_CLIENT_UIPARAMDELIVERER_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0xA7227D0)
+#define RPG_CLIENT_UIPARAMDELIVERER__CTOR_OFFSET UNITYSDK_OFFSET(0xA7229E0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int UIParamDeliverer_TypeDefinitionIndex = 56469;
+
+	class UIParamDeliverer : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::UIParamDeliverer_UIParamDataItem*>* _UIParamDataItemList; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean HasKey(::System::String* key)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_HASKEY_OFFSET))(this, key);
+		}
+
+		::System::String* TryGetValue(::System::String* key)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_TRYGETVALUE_OFFSET))(this, key);
+		}
+
+		::System::Single TryGetFloatValue(::System::String* key)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_TRYGETFLOATVALUE_OFFSET))(this, key);
+		}
+	};
+}

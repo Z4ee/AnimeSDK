@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
+
+namespace System { class String; }
+
+#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAB68150)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR_METHOD_3_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xAB68020)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xAB68140)
+
+namespace RPGTools::Timeline
+{
+	inline static constexpr unsigned int FireNotifyWithIntArgBehaviour_TypeDefinitionIndex = 39217;
+
+	class FireNotifyWithIntArgBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
+	{
+	public:
+		::System::String* NotifyTypeName; // 0x20
+		::System::String* IntArg; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_3_E3DE31A03057E055()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR_METHOD_3_E3DE31A03057E055_OFFSET))(this);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+		}
+	};
+}

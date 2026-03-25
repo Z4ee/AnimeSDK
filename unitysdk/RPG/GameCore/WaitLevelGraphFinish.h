@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+#include "unitysdk/RPG/GameCore/WaitLevelGraphFinishMode.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_6C8578269E41A10A_OFFSET UNITYSDK_OFFSET(0x178FC990)
+#define RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_CEA3541F965C655D_OFFSET UNITYSDK_OFFSET(0x178FC910)
+#define RPG_GAMECORE_WAITLEVELGRAPHFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x178FC960)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int WaitLevelGraphFinish_TypeDefinitionIndex = 21620;
+
+	class WaitLevelGraphFinish : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::WaitLevelGraphFinishMode WaitMode; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnFinish; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLEVELGRAPHFINISH__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_3_CEA3541F965C655D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLevelGraphFinish*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLevelGraphFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_CEA3541F965C655D_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_6C8578269E41A10A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLevelGraphFinish* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLevelGraphFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_6C8578269E41A10A_OFFSET))(a1, a2);
+		}
+	};
+}

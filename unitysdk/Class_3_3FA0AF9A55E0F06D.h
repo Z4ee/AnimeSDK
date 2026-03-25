@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_A41300C729BF3C51.h"
+#include "unitysdk/RPG/GameCore/AdvPauseMovementFloatingAndRotationReason.h"
+#include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
+#include "unitysdk/RPG/GameCore/AnimatorSpeedMultiplyReason.h"
+#include "unitysdk/RPG/GameCore/FreezeMovementReason.h"
+#include "unitysdk/RPG/GameCore/PauseAbilityReason.h"
+
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_3_3FA0AF9A55E0F06D_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x116F4430)
+#define CLASS_3_3FA0AF9A55E0F06D_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0x116F4440)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_65A8C1B579AAAE11_OFFSET UNITYSDK_OFFSET(0x116F4390)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_A957C08C2E904AE3_OFFSET UNITYSDK_OFFSET(0x116F4340)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_C059A8AD92ECC6C2_OFFSET UNITYSDK_OFFSET(0x116F4460)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F6EA0C48C8320224_OFFSET UNITYSDK_OFFSET(0x116F4470)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F8582760D7ADEF4C_OFFSET UNITYSDK_OFFSET(0x116F4450)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_FAF19B947CCA348B_OFFSET UNITYSDK_OFFSET(0x116F43E0)
+#define CLASS_3_3FA0AF9A55E0F06D__CTOR_OFFSET UNITYSDK_OFFSET(0x116F42D0)
+
+inline static constexpr unsigned int Class_3_3FA0AF9A55E0F06D_TypeDefinitionIndex = 45905;
+
+class Class_3_3FA0AF9A55E0F06D : public ::Class_2_A41300C729BF3C51
+{
+public:
+	::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x80
+	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x84
+
+	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::AnimatorSpeedMultiplyReason Method_3_A957C08C2E904AE3()
+	{
+		return ((::RPG::GameCore::AnimatorSpeedMultiplyReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_A957C08C2E904AE3_OFFSET))(this);
+	}
+
+	::RPG::GameCore::PauseAbilityReason Method_3_65A8C1B579AAAE11()
+	{
+		return ((::RPG::GameCore::PauseAbilityReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_65A8C1B579AAAE11_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FreezeMovementReason Method_3_FAF19B947CCA348B()
+	{
+		return ((::RPG::GameCore::FreezeMovementReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_FAF19B947CCA348B_OFFSET))(this);
+	}
+
+	::RPG::GameCore::AdventureModifierBehaviorFlag get_Flag()
+	{
+		return ((::RPG::GameCore::AdventureModifierBehaviorFlag(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_GET_FLAG_OFFSET))(this);
+	}
+
+	::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason get__PauseMovementReason()
+	{
+		return ((::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_GET__PAUSEMOVEMENTREASON_OFFSET))(this);
+	}
+
+	::RPG::GameCore::AnimatorSpeedMultiplyReason Method_3_F8582760D7ADEF4C()
+	{
+		return ((::RPG::GameCore::AnimatorSpeedMultiplyReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F8582760D7ADEF4C_OFFSET))(this);
+	}
+
+	::RPG::GameCore::PauseAbilityReason Method_3_C059A8AD92ECC6C2()
+	{
+		return ((::RPG::GameCore::PauseAbilityReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_C059A8AD92ECC6C2_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FreezeMovementReason Method_3_F6EA0C48C8320224()
+	{
+		return ((::RPG::GameCore::FreezeMovementReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F6EA0C48C8320224_OFFSET))(this);
+	}
+};

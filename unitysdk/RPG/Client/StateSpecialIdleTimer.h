@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/StateCommonIdleTimer.h"
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
+
+namespace UnityEngine { class Animator; }
+
+#define RPG_CLIENT_STATESPECIALIDLETIMER_METHOD_5_00B48D91709955E0_OFFSET UNITYSDK_OFFSET(0xA4DF450)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA4DF2C0)
+#define RPG_CLIENT_STATESPECIALIDLETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xA4DF4E0)
+#define RPG_CLIENT_STATESPECIALIDLETIMER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA4DF4F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int StateSpecialIdleTimer_TypeDefinitionIndex = 56241;
+
+	class StateSpecialIdleTimer : public ::RPG::Client::StateCommonIdleTimer
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Boolean Method_5_00B48D91709955E0(::UnityEngine::Animator* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER_METHOD_5_00B48D91709955E0_OFFSET))(this, a1);
+		}
+
+		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+	};
+}

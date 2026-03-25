@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
+#include "unitysdk/System/Text/DecoderNLS.h"
+
+namespace System::Runtime::Serialization { class SerializationInfo; }
+namespace System::Text { class UTF8Encoding; }
+
+#define SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1622A3A0)
+#define SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1622A380)
+#define SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1622A090)
+#define SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16229DE0)
+#define SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x16229980)
+
+namespace System::Text
+{
+	inline static constexpr unsigned int UTF8Encoding_UTF8Decoder_TypeDefinitionIndex = 509;
+
+	class UTF8Encoding_UTF8Decoder : public ::System::Text::DecoderNLS
+	{
+	public:
+		::System::Int32 bits; // 0x30
+
+		::System::Void _ctor(::System::Text::UTF8Encoding* encoding)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Text::UTF8Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER__CTOR_OFFSET))(this, encoding);
+		}
+
+		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER__CTOR_1_OFFSET))(this, info, context);
+		}
+
+		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, info, context);
+		}
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER_RESET_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasState()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF8ENCODING_UTF8DECODER_GET_HASSTATE_OFFSET))(this);
+		}
+	};
+}

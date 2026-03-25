@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_3.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/ModifierEffectType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_49AFAF7E1EDC93F8;
+namespace RPG::Client { class ChessRogueModifierSelectData; }
+
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x93760A0)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETRANDOMRESULTID_OFFSET UNITYSDK_OFFSET(0x93762A0)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETRANDOMRESULTTEXT_OFFSET UNITYSDK_OFFSET(0x9376300)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETROGUEMODIFIEREFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x9376240)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETROGUEMODIFIERSELECTDATA_OFFSET UNITYSDK_OFFSET(0x93760F0)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GET_MODIFIERID_OFFSET UNITYSDK_OFFSET(0x9376040)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GET_MODIFIERSOURCETYPE_OFFSET UNITYSDK_OFFSET(0x93763F0)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_REFRESH_OFFSET UNITYSDK_OFFSET(0x9375FA0)
+#define RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9375F90)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ChessRogueModifierDataItem_TypeDefinitionIndex = 54485;
+
+	class ChessRogueModifierDataItem : public ::System::Object
+	{
+	public:
+		::Class_1_49AFAF7E1EDC93F8* _Proto; // 0x10
+
+		::System::Void _ctor(::Class_1_49AFAF7E1EDC93F8* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_49AFAF7E1EDC93F8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM__CTOR_OFFSET))(this, proto);
+		}
+
+		::System::Void Refresh(::Class_1_49AFAF7E1EDC93F8* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_49AFAF7E1EDC93F8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_REFRESH_OFFSET))(this, proto);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_DISPOSE_OFFSET))(this);
+		}
+
+		::RPG::Client::ChessRogueModifierSelectData* GetRogueModifierSelectData()
+		{
+			return ((::RPG::Client::ChessRogueModifierSelectData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETROGUEMODIFIERSELECTDATA_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ModifierEffectType GetRogueModifierEffectType()
+		{
+			return ((::RPG::GameCore::ModifierEffectType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETROGUEMODIFIEREFFECTTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetRandomResultID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETRANDOMRESULTID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID GetRandomResultText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GETRANDOMRESULTTEXT_OFFSET))(this);
+		}
+
+		::System::UInt64 get_ModifierID()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GET_MODIFIERID_OFFSET))(this);
+		}
+
+		::Enum_3_0F1B992870941C13_3 get_ModifierSourceType()
+		{
+			return ((::Enum_3_0F1B992870941C13_3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEMODIFIERDATAITEM_GET_MODIFIERSOURCETYPE_OFFSET))(this);
+		}
+	};
+}

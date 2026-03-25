@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+
+namespace UnityEngine { class Collider; }
+
+#define CLASS_1_FD8B369F468924DD_CLEAR_OFFSET UNITYSDK_OFFSET(0x16822C90)
+#define CLASS_1_FD8B369F468924DD_METHOD_1_6D8F87EA6158F503_OFFSET UNITYSDK_OFFSET(0x16822BF0)
+#define CLASS_1_FD8B369F468924DD_METHOD_1_DBF9C2D2D859D90D_OFFSET UNITYSDK_OFFSET(0x16822BA0)
+#define CLASS_1_FD8B369F468924DD__CTOR_OFFSET UNITYSDK_OFFSET(0x16822CE0)
+
+inline static constexpr unsigned int Class_1_FD8B369F468924DD_TypeDefinitionIndex = 33291;
+
+class Class_1_FD8B369F468924DD : public ::System::Object
+{
+public:
+	::UnityEngine::Collider* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD8B369F468924DD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_DBF9C2D2D859D90D(::UnityEngine::Collider* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_1_FD8B369F468924DD_METHOD_1_DBF9C2D2D859D90D_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Bounds Method_1_6D8F87EA6158F503()
+	{
+		return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD8B369F468924DD_METHOD_1_6D8F87EA6158F503_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD8B369F468924DD_CLEAR_OFFSET))(this);
+	}
+};

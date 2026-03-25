@@ -1,0 +1,100 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/RPG/GameCore/GridFightOrbType.h"
+
+class Class_2_6989D8E0F722330D;
+namespace RPG::Client { class GridFightOrbData; }
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_078D85152011B919_OFFSET UNITYSDK_OFFSET(0x881F4E0)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x881F230)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_1724616537E36B8E_OFFSET UNITYSDK_OFFSET(0x881F0D0)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_1F5AA60F16F2FE5B_OFFSET UNITYSDK_OFFSET(0x881EDF0)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_46D941683E8716C0_OFFSET UNITYSDK_OFFSET(0x881F120)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_78E5D10876D30BCC_OFFSET UNITYSDK_OFFSET(0x881EFF0)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_937F8473216A3162_OFFSET UNITYSDK_OFFSET(0x881F300)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_B48C2915E1815CAC_OFFSET UNITYSDK_OFFSET(0x881EF60)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_D09831639F615812_OFFSET UNITYSDK_OFFSET(0x881F070)
+#define CLASS_2_DBF482F9F6F56036_METHOD_2_DFD8FD4BA7D3ACA8_OFFSET UNITYSDK_OFFSET(0x881F3C0)
+#define CLASS_2_DBF482F9F6F56036__CTOR_OFFSET UNITYSDK_OFFSET(0x881F590)
+#define CLASS_2_DBF482F9F6F56036__ONBIND_OFFSET UNITYSDK_OFFSET(0x881EC10)
+#define CLASS_2_DBF482F9F6F56036___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x881F5C0)
+
+inline static constexpr unsigned int Class_2_DBF482F9F6F56036_TypeDefinitionIndex = 59203;
+
+class Class_2_DBF482F9F6F56036 : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	// static const ::System::UInt32 Field_2_5 = 0x1; // 0x0
+	::RPG::Client::GridFightOrbData* Field_2_1; // 0x60
+	::System::Action_1<::Class_2_DBF482F9F6F56036*>* Field_2_2; // 0x68
+	::Class_2_6989D8E0F722330D* Field_2_0; // 0x70
+	::System::UInt32 Field_2_3; // 0x78
+	::System::Boolean Field_2_4; // 0x7C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1F5AA60F16F2FE5B(::RPG::Client::GridFightOrbData* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightOrbData*))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_1F5AA60F16F2FE5B_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::GridFightOrbType Method_2_B48C2915E1815CAC()
+	{
+		return ((::RPG::GameCore::GridFightOrbType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_B48C2915E1815CAC_OFFSET))(this);
+	}
+
+	::System::Void Method_2_78E5D10876D30BCC(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_78E5D10876D30BCC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D09831639F615812(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_D09831639F615812_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_1724616537E36B8E(::System::Action_1<::Class_2_DBF482F9F6F56036*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_2_DBF482F9F6F56036*>*))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_1724616537E36B8E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_46D941683E8716C0(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_46D941683E8716C0_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_937F8473216A3162()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_937F8473216A3162_OFFSET))(this);
+	}
+
+	::System::Void Method_2_DFD8FD4BA7D3ACA8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_DFD8FD4BA7D3ACA8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_0865E94460F11643()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_0865E94460F11643_OFFSET))(this);
+	}
+
+	::System::Void Method_2_078D85152011B919()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036_METHOD_2_078D85152011B919_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DBF482F9F6F56036___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+	}
+};

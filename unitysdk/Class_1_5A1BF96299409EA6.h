@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_82A1455F3BBBFC10.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_896;
+class Class_2_29E838C92FC61B7A;
+namespace RPG::Client { class UIController; }
+
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_183E11F32D86E8F5_OFFSET UNITYSDK_OFFSET(0xE465E40)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_3367E5959E1803C2_OFFSET UNITYSDK_OFFSET(0xE4658C0)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_89CF6CE41C2D210B_OFFSET UNITYSDK_OFFSET(0xE465A90)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_AE8FBDC4AF019762_OFFSET UNITYSDK_OFFSET(0xE465B80)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_E54535402198D6A7_1_OFFSET UNITYSDK_OFFSET(0xE4657C0)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_E54535402198D6A7_OFFSET UNITYSDK_OFFSET(0xE465650)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_EC6E6BF20863415B_OFFSET UNITYSDK_OFFSET(0xE465980)
+#define CLASS_1_5A1BF96299409EA6_METHOD_1_F750ABE53D7D368E_OFFSET UNITYSDK_OFFSET(0xE465580)
+#define CLASS_1_5A1BF96299409EA6__CTOR_OFFSET UNITYSDK_OFFSET(0xE4660E0)
+
+inline static constexpr unsigned int Class_1_5A1BF96299409EA6_TypeDefinitionIndex = 59934;
+
+class Class_1_5A1BF96299409EA6 : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_896* Method_1_F750ABE53D7D368E(::Struct_2_82A1455F3BBBFC10 a1, ::RPG::Client::UIController* a2, ::RPG::Client::UIController* a3)
+	{
+		return ((::Class_0_16E4307DCC419505_896*(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_F750ABE53D7D368E_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Class_0_16E4307DCC419505_896* Method_1_E54535402198D6A7(::Struct_2_82A1455F3BBBFC10 a1, ::RPG::Client::UIController* a2, ::RPG::Client::UIController* a3)
+	{
+		return ((::Class_0_16E4307DCC419505_896*(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_E54535402198D6A7_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Class_0_16E4307DCC419505_896* Method_1_E54535402198D6A7_1(::Struct_2_82A1455F3BBBFC10 a1, ::RPG::Client::UIController* a2, ::RPG::Client::UIController* a3)
+	{
+		return ((::Class_0_16E4307DCC419505_896*(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_E54535402198D6A7_1_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_3367E5959E1803C2(::Class_2_29E838C92FC61B7A* a1, ::RPG::Client::UIController* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_29E838C92FC61B7A*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_3367E5959E1803C2_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_EC6E6BF20863415B(::Struct_2_82A1455F3BBBFC10 a1, ::Class_2_29E838C92FC61B7A* a2, ::RPG::Client::UIController* a3, ::RPG::Client::UIController* a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::Class_2_29E838C92FC61B7A*, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_EC6E6BF20863415B_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_1_89CF6CE41C2D210B(::Struct_2_82A1455F3BBBFC10 a1, ::Class_2_29E838C92FC61B7A* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::Class_2_29E838C92FC61B7A*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_89CF6CE41C2D210B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_AE8FBDC4AF019762(::Struct_2_82A1455F3BBBFC10 a1, ::Class_2_29E838C92FC61B7A* a2, ::RPG::Client::UIController* a3, ::RPG::Client::UIController* a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::Class_2_29E838C92FC61B7A*, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_AE8FBDC4AF019762_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_1_183E11F32D86E8F5(::Struct_2_82A1455F3BBBFC10 a1, ::Class_2_29E838C92FC61B7A* a2, ::RPG::Client::UIController* a3, ::RPG::Client::UIController* a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_82A1455F3BBBFC10, ::Class_2_29E838C92FC61B7A*, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_1_5A1BF96299409EA6_METHOD_1_183E11F32D86E8F5_OFFSET))(this, a1, a2, a3, a4);
+	}
+};

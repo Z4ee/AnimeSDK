@@ -1,0 +1,207 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseShaderPropertyTransition.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+namespace System { class Object; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine { class SkinnedMeshRenderer; }
+
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x930C710)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_DISSOLVETO_OFFSET UNITYSDK_OFFSET(0x930C800)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_GETCHARWPOS_OFFSET UNITYSDK_OFFSET(0x930BE90)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_GETCURRENTDISSOLVERATE_OFFSET UNITYSDK_OFFSET(0x930D050)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_LATETICK_OFFSET UNITYSDK_OFFSET(0x930CED0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_3363D89E03193669_OFFSET UNITYSDK_OFFSET(0x930CFF0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_442C4EFC0D686CFB_1_OFFSET UNITYSDK_OFFSET(0x930CFA0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_442C4EFC0D686CFB_OFFSET UNITYSDK_OFFSET(0x930CF50)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_4AADAF19CDCB660E_1_OFFSET UNITYSDK_OFFSET(0x930C4E0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_4AADAF19CDCB660E_OFFSET UNITYSDK_OFFSET(0x930C5F0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_C561FF611C07A44C_OFFSET UNITYSDK_OFFSET(0x930C3E0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_D17B49CABC597E3E_OFFSET UNITYSDK_OFFSET(0x930C930)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_DDA8A2337932DF10_OFFSET UNITYSDK_OFFSET(0x930C260)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x930CC70)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_ONREFRESHMATERIALS_OFFSET UNITYSDK_OFFSET(0x930CD50)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_RESET_OFFSET UNITYSDK_OFFSET(0x930BF70)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETCHARACTEROUTLINESCALE_OFFSET UNITYSDK_OFFSET(0x930C9C0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETCHARHEIGHT_OFFSET UNITYSDK_OFFSET(0x930BC90)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETCHARWPOS_OFFSET UNITYSDK_OFFSET(0x930BD30)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETSCENECONTRASTENABLE_OFFSET UNITYSDK_OFFSET(0x930BC00)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETUPDATECHARWPOSBYSMRBOUNDS_OFFSET UNITYSDK_OFFSET(0x930BF10)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_START_OFFSET UNITYSDK_OFFSET(0x930CB70)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x930D0F0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x930D0A0)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x930D150)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_LATETICK_OFFSET UNITYSDK_OFFSET(0x930D170)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_ONREFRESHMATERIALS_OFFSET UNITYSDK_OFFSET(0x930D160)
+#define RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_RESET_OFFSET UNITYSDK_OFFSET(0x930D140)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CharacterShaderPropertyTransition_TypeDefinitionIndex = 56251;
+
+	class CharacterShaderPropertyTransition : public ::RPG::Client::BaseShaderPropertyTransition
+	{
+	public:
+		static ::System::Int32* StaticGet_PropertyIDCharHeight()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterShaderPropertyTransition_TypeDefinitionIndex)->GetStaticField(0x12030);
+		}
+		static ::System::Int32* StaticGet_PropertyIDIsMonster()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterShaderPropertyTransition_TypeDefinitionIndex)->GetStaticField(0x12034);
+		}
+		static ::System::Int32* StaticGet_PropertyIDCharaWorldSpaceOffset()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterShaderPropertyTransition_TypeDefinitionIndex)->GetStaticField(0x12038);
+		}
+		::UnityEngine::Vector4 _CharPos; // 0x78
+		::System::Single Field_6_1; // 0x88
+		::System::Single Field_6_2; // 0x8C
+		::System::Collections::IEnumerator* Field_6_3; // 0x90
+		::System::Boolean Field_6_4; // 0x98
+		::UnityEngine::SkinnedMeshRenderer* Field_6_5; // 0xA0
+		::System::Single Field_6_6; // 0xA8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION__CCTOR_OFFSET))();
+		}
+
+		::System::Void SetSceneContrastEnable(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETSCENECONTRASTENABLE_OFFSET))(this, a1);
+		}
+
+		::System::Void SetCharHeight(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETCHARHEIGHT_OFFSET))(this, a1);
+		}
+
+		::System::Void SetCharWPos(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETCHARWPOS_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 GetCharWPos()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_GETCHARWPOS_OFFSET))(this);
+		}
+
+		::System::Void SetUpdateCharWPosBySMRBounds(::System::Boolean a1, ::UnityEngine::SkinnedMeshRenderer* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETUPDATECHARWPOSBYSMRBOUNDS_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_RESET_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void DissolveTo(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_DISSOLVETO_OFFSET))(this, a1);
+		}
+
+		::System::Void SetCharacterOutlineScale(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_SETCHARACTEROUTLINESCALE_OFFSET))(this, a1);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_START_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnRefreshMaterials()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_ONREFRESHMATERIALS_OFFSET))(this);
+		}
+
+		::System::Void LateTick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_LATETICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_442C4EFC0D686CFB(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_442C4EFC0D686CFB_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_442C4EFC0D686CFB_1(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_442C4EFC0D686CFB_1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_3363D89E03193669()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_3363D89E03193669_OFFSET))(this);
+		}
+
+		::System::Void Method_6_C561FF611C07A44C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_C561FF611C07A44C_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_4AADAF19CDCB660E()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_4AADAF19CDCB660E_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_4AADAF19CDCB660E_1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_4AADAF19CDCB660E_1_OFFSET))(this);
+		}
+
+		::System::Void Method_6_DDA8A2337932DF10()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_DDA8A2337932DF10_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* Method_6_D17B49CABC597E3E(::System::Single a1)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_METHOD_6_D17B49CABC597E3E_OFFSET))(this, a1);
+		}
+
+		::System::Single GetCurrentDissolveRate()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION_GETCURRENTDISSOLVERATE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_RESET_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnRefreshMaterials()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_ONREFRESHMATERIALS_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_LateTick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERSHADERPROPERTYTRANSITION___IFIXBASEPROXY_LATETICK_OFFSET))(this, P0);
+		}
+	};
+}

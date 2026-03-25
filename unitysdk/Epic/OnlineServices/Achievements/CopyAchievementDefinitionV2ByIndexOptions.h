@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEXOPTIONS_GET_ACHIEVEMENTINDEX_OFFSET UNITYSDK_OFFSET(0x836DB30)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEXOPTIONS_SET_ACHIEVEMENTINDEX_OFFSET UNITYSDK_OFFSET(0x836DB40)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEXOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x836DB50)
+
+namespace Epic::OnlineServices::Achievements
+{
+	inline static constexpr unsigned int CopyAchievementDefinitionV2ByIndexOptions_TypeDefinitionIndex = 36767;
+
+	class CopyAchievementDefinitionV2ByIndexOptions : public ::System::Object
+	{
+	public:
+		::System::UInt32 _AchievementIndex_k__BackingField; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEXOPTIONS__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_AchievementIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEXOPTIONS_GET_ACHIEVEMENTINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_AchievementIndex(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEXOPTIONS_SET_ACHIEVEMENTINDEX_OFFSET))(this, value);
+		}
+	};
+}

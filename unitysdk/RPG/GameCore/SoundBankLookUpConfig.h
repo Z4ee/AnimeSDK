@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class EventLookUpConfig; }
+
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_DBA7D4A6D49C74E4_OFFSET UNITYSDK_OFFSET(0x17711020)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17711120)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 15001;
+
+	class SoundBankLookUpConfig : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::EventLookUpConfig*>* Events; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_DBA7D4A6D49C74E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SoundBankLookUpConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SoundBankLookUpConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_DBA7D4A6D49C74E4_OFFSET))(a1, a2);
+		}
+	};
+}

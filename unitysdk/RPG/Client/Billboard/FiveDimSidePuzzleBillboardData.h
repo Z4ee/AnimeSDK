@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Billboard { class IBillboardTypeData; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x91F0C00)
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_GET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET UNITYSDK_OFFSET(0x91F0B90)
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_GET_ISSHOWFIVEDIMSIDEPUZZLECHEST_OFFSET UNITYSDK_OFFSET(0x91F0B70)
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x91F0BB0)
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET UNITYSDK_OFFSET(0x91F0BA0)
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_ISSHOWFIVEDIMSIDEPUZZLECHEST_OFFSET UNITYSDK_OFFSET(0x91F0B80)
+#define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x91EEA40)
+
+namespace RPG::Client::Billboard
+{
+	inline static constexpr unsigned int FiveDimSidePuzzleBillboardData_TypeDefinitionIndex = 61541;
+
+	class FiveDimSidePuzzleBillboardData : public ::System::Object
+	{
+	public:
+		::System::Tuple_2<::System::String*, ::System::String*>* _FiveDimSidePuzzlePanelPaths_k__BackingField; // 0x10
+		::System::Boolean _IsShowFiveDimSidePuzzleChest_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsShowFiveDimSidePuzzleChest()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_GET_ISSHOWFIVEDIMSIDEPUZZLECHEST_OFFSET))(this);
+		}
+
+		::System::Void set_IsShowFiveDimSidePuzzleChest(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_ISSHOWFIVEDIMSIDEPUZZLECHEST_OFFSET))(this, value);
+		}
+
+		::System::Tuple_2<::System::String*, ::System::String*>* get_FiveDimSidePuzzlePanelPaths()
+		{
+			return ((::System::Tuple_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_GET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this);
+		}
+
+		::System::Void set_FiveDimSidePuzzlePanelPaths(::System::Tuple_2<::System::String*, ::System::String*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this, value);
+		}
+
+		::System::Boolean IsValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_ISVALID_OFFSET))(this);
+		}
+
+		::RPG::Client::Billboard::IBillboardTypeData* Clone()
+		{
+			return ((::RPG::Client::Billboard::IBillboardTypeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_CLONE_OFFSET))(this);
+		}
+	};
+}
