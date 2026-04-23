@@ -8,7 +8,7 @@ namespace Entitas { template <typename T> class IGroup_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int GroupExtension_TypeDefinitionIndex = 9718;
+	inline static constexpr unsigned int GroupExtension_TypeDefinitionIndex = 9851;
 
 	class GroupExtension : public ::System::Object
 	{

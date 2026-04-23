@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIValueChangeMode_TypeDefinitionIndex = 56476;
+	inline static constexpr unsigned int UIValueChangeMode_TypeDefinitionIndex = 63720;
 
 	enum class UIValueChangeMode : ::System::Int32
 	{

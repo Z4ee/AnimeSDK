@@ -10,37 +10,37 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define CLASS_1_B202CD093058243F_CLEAR_OFFSET UNITYSDK_OFFSET(0x87FDE90)
-#define CLASS_1_B202CD093058243F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x87FE120)
-#define CLASS_1_B202CD093058243F_METHOD_1_084D68472B7EC95D_1_OFFSET UNITYSDK_OFFSET(0x87FE350)
-#define CLASS_1_B202CD093058243F_METHOD_1_084D68472B7EC95D_OFFSET UNITYSDK_OFFSET(0x87FE2E0)
-#define CLASS_1_B202CD093058243F_METHOD_1_50CC210EDFE9B04E_1_OFFSET UNITYSDK_OFFSET(0x87FE3E0)
-#define CLASS_1_B202CD093058243F_METHOD_1_50CC210EDFE9B04E_OFFSET UNITYSDK_OFFSET(0x87FE3D0)
-#define CLASS_1_B202CD093058243F_METHOD_1_7012F7834504FD43_1_OFFSET UNITYSDK_OFFSET(0x87FE400)
-#define CLASS_1_B202CD093058243F_METHOD_1_7012F7834504FD43_OFFSET UNITYSDK_OFFSET(0x87FE3F0)
-#define CLASS_1_B202CD093058243F_METHOD_1_84D819F0D7BEF378_1_OFFSET UNITYSDK_OFFSET(0x87FE270)
-#define CLASS_1_B202CD093058243F_METHOD_1_84D819F0D7BEF378_OFFSET UNITYSDK_OFFSET(0x87FE200)
-#define CLASS_1_B202CD093058243F_METHOD_1_C2F8771CBCB46B32_OFFSET UNITYSDK_OFFSET(0x87FE190)
-#define CLASS_1_B202CD093058243F_METHOD_1_C76FF4CAC9BB09E4_OFFSET UNITYSDK_OFFSET(0x87FE3C0)
-#define CLASS_1_B202CD093058243F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x87FD120)
-#define CLASS_1_B202CD093058243F__CTOR_OFFSET UNITYSDK_OFFSET(0x87FCFC0)
-#define CLASS_1_B202CD093058243F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x87FE410)
+#define CLASS_1_B202CD093058243F_CLEAR_OFFSET UNITYSDK_OFFSET(0x1238DE60)
+#define CLASS_1_B202CD093058243F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1238E0F0)
+#define CLASS_1_B202CD093058243F_METHOD_1_084D68472B7EC95D_1_OFFSET UNITYSDK_OFFSET(0x1238E320)
+#define CLASS_1_B202CD093058243F_METHOD_1_084D68472B7EC95D_OFFSET UNITYSDK_OFFSET(0x1238E2B0)
+#define CLASS_1_B202CD093058243F_METHOD_1_50CC210EDFE9B04E_1_OFFSET UNITYSDK_OFFSET(0x1238E3B0)
+#define CLASS_1_B202CD093058243F_METHOD_1_50CC210EDFE9B04E_OFFSET UNITYSDK_OFFSET(0x1238E3A0)
+#define CLASS_1_B202CD093058243F_METHOD_1_7012F7834504FD43_1_OFFSET UNITYSDK_OFFSET(0x1238E3D0)
+#define CLASS_1_B202CD093058243F_METHOD_1_7012F7834504FD43_OFFSET UNITYSDK_OFFSET(0x1238E3C0)
+#define CLASS_1_B202CD093058243F_METHOD_1_84D819F0D7BEF378_1_OFFSET UNITYSDK_OFFSET(0x1238E240)
+#define CLASS_1_B202CD093058243F_METHOD_1_84D819F0D7BEF378_OFFSET UNITYSDK_OFFSET(0x1238E1D0)
+#define CLASS_1_B202CD093058243F_METHOD_1_C2F8771CBCB46B32_OFFSET UNITYSDK_OFFSET(0x1238E160)
+#define CLASS_1_B202CD093058243F_METHOD_1_C76FF4CAC9BB09E4_OFFSET UNITYSDK_OFFSET(0x1238E390)
+#define CLASS_1_B202CD093058243F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1238D0F0)
+#define CLASS_1_B202CD093058243F__CTOR_OFFSET UNITYSDK_OFFSET(0x1238CF90)
+#define CLASS_1_B202CD093058243F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1238E3E0)
 
-inline static constexpr unsigned int Class_1_B202CD093058243F_TypeDefinitionIndex = 55033;
+inline static constexpr unsigned int Class_1_B202CD093058243F_TypeDefinitionIndex = 62221;
 
 class Class_1_B202CD093058243F : public ::System::Object
 {
 public:
 	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* Field_1_8; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* Field_1_4; // 0x18
-	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* Field_1_9; // 0x20
-	::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* Field_1_2; // 0x28
-	::System::Collections::Generic::List_1<::RPG::Client::RogueTournBuildRefTeamData*>* Field_1_0; // 0x30
-	::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* Field_1_3; // 0x38
-	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournBuildRefTeamData*>* Field_1_5; // 0x40
-	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* Field_1_6; // 0x48
-	::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* Field_1_1; // 0x50
-	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* Field_1_7; // 0x58
+	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournBuildRefTeamData*>* Field_1_5; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* Field_1_3; // 0x20
+	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* Field_1_7; // 0x28
+	::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* Field_1_1; // 0x30
+	::System::Collections::Generic::List_1<::RPG::Client::RogueTournHexData*>* Field_1_4; // 0x38
+	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueFormulaData*>* Field_1_6; // 0x40
+	::System::Collections::Generic::List_1<::RPG::Client::RogueFormulaData*>* Field_1_2; // 0x48
+	::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournHexData*>* Field_1_9; // 0x50
+	::System::Collections::Generic::List_1<::RPG::Client::RogueTournBuildRefTeamData*>* Field_1_0; // 0x58
 
 	::System::Void _ctor()
 	{

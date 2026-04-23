@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchMonsterByID; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_7AE755AC98891878_EVALUATE_OFFSET UNITYSDK_OFFSET(0x87FA560)
-#define CLASS_3_7AE755AC98891878__CTOR_OFFSET UNITYSDK_OFFSET(0x87FA4E0)
+#define CLASS_3_7AE755AC98891878_EVALUATE_OFFSET UNITYSDK_OFFSET(0x935B4C0)
+#define CLASS_3_7AE755AC98891878__CTOR_OFFSET UNITYSDK_OFFSET(0x935B440)
 
-inline static constexpr unsigned int Class_3_7AE755AC98891878_TypeDefinitionIndex = 47893;
+inline static constexpr unsigned int Class_3_7AE755AC98891878_TypeDefinitionIndex = 54634;
 
 class Class_3_7AE755AC98891878 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchMonsterByID*>
 {

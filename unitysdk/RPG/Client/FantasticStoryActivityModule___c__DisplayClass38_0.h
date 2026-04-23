@@ -5,12 +5,12 @@
 namespace RPG::Client { class FantasticStoryActivityModule; }
 namespace RPG::Client { class FantasticStoryBuffData; }
 
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x965F830)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET UNITYSDK_OFFSET(0x96643E0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA31E9B0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA3234F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 51891;
+	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 58840;
 
 	class FantasticStoryActivityModule___c__DisplayClass38_0 : public ::System::Object
 	{

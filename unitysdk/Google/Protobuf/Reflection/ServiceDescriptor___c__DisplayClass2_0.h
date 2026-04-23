@@ -7,12 +7,12 @@ namespace Google::Protobuf::Reflection { class MethodDescriptor; }
 namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1D960)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x15B1DDC0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1711B1A0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1711B600)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 6360;
+	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 6370;
 
 	class ServiceDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{

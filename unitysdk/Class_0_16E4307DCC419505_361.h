@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_019938BC9C50B169_3.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_1_D4714BA97EC5BBC2;
+namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyContext_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_361_TypeDefinitionIndex = 41971;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_361_TypeDefinitionIndex = 47934;
 
 class Class_0_16E4307DCC419505_361
 {

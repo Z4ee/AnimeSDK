@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightShadowResolution_TypeDefinitionIndex = 4513;
+	inline static constexpr unsigned int LightShadowResolution_TypeDefinitionIndex = 4515;
 
 	enum class LightShadowResolution : ::System::Int32
 	{

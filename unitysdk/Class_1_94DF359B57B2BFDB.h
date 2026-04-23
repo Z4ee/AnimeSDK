@@ -5,17 +5,17 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_94DF359B57B2BFDB__CTOR_OFFSET UNITYSDK_OFFSET(0x16855A30)
+#define CLASS_1_94DF359B57B2BFDB__CTOR_OFFSET UNITYSDK_OFFSET(0x17F60EF0)
 
-inline static constexpr unsigned int Class_1_94DF359B57B2BFDB_TypeDefinitionIndex = 33716;
+inline static constexpr unsigned int Class_1_94DF359B57B2BFDB_TypeDefinitionIndex = 39517;
 
 class Class_1_94DF359B57B2BFDB : public ::System::Object
 {
 public:
-	::RPG::GameCore::FixPoint Field_1_1; // 0x10
-	::RPG::GameCore::FixPoint Field_1_3; // 0x18
-	::UnityEngine::Vector3 Field_1_2; // 0x20
-	::UnityEngine::Quaternion Field_1_0; // 0x2C
+	::RPG::GameCore::FixPoint Field_1_3; // 0x10
+	::UnityEngine::Vector3 Field_1_2; // 0x18
+	::UnityEngine::Quaternion Field_1_0; // 0x24
+	::RPG::GameCore::FixPoint Field_1_1; // 0x38
 
 	::System::Void _ctor()
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE_SET_THROWSEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18AB7CE0)
-#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB7CF0)
+#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE_SET_THROWSEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A4F3760)
+#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3770)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeThrowsAttribute_TypeDefinitionIndex = 3714;
+	inline static constexpr unsigned int NativeThrowsAttribute_TypeDefinitionIndex = 3716;
 
 	class NativeThrowsAttribute : public ::System::Attribute
 	{

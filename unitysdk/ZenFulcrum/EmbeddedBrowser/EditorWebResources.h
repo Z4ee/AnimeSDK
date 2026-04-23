@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x18C80CA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x18C80BE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1A6BC190)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EDITORWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6BC0D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int EditorWebResources_TypeDefinitionIndex = 30542;
+	inline static constexpr unsigned int EditorWebResources_TypeDefinitionIndex = 36262;
 
 	class EditorWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{
 	public:
-		::System::Text::RegularExpressions::Regex* matchDots; // 0x10
-		::System::String* basePath; // 0x18
+		::System::String* basePath; // 0x10
+		::System::Text::RegularExpressions::Regex* matchDots; // 0x18
 
 		::System::Void _ctor()
 		{

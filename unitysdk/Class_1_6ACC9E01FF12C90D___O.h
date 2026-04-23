@@ -4,3893 +4,4069 @@
 
 class Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3;
 
-inline static constexpr unsigned int Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex = 40578;
+inline static constexpr unsigned int Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex = 46491;
 
 class Class_1_6ACC9E01FF12C90D___O : public ::System::Object
 {
 public:
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__341___SendGetGachaCeilingCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__76___SendCakeRaceGetDailyLikeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__699___SendRogueTournGetArchiveRepositoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__733___SendRogueTournConfirmSettleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__932___SetUploadData()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__942___SendTravelBrochureGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__129___SendChimeraDuelSetFriendDefendLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__955___SendUpdateAiPamSettingsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__653___SendRogueFormulaReforgeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__157___SendClockParkWaitSelectStartChapterID()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__398___SendGetRogueScoreRewardInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__954___SendUnlockTutorialGuideCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__664___SendRogueMagicQueryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__152___SendClockParkHandleWaitSlotMachine()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__456___SendGridFightResetPermanentTalent()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__809___SendSetClientRaidTargetCountCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x324F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__308___SendGetChessRogueStoryAeonTalkInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__907___SendTakeLoginActivityRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32500);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__407___SendGetStarFightDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__939___SendTeleportToMissionResetPointCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32508);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__210___SendEnterEraFlipperDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__953___SendUnlockTutorialCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32510);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__442___SendGridFightHandlePortalBuffSelect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__933___SendTarotBookGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32518);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E6F8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__945___SendTravelBrochureSelectMessageCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E700);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__638___SendPlayerReturnSignCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E708);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__415___SendGetSummonActivityDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E710);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__795___SendSelectPhoneCaseCSReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E718);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__481___SendGridFightUpdatePosCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E720);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__237___SendEvolveBuildShopAbilityDownCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E728);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__724___SendRogueMiracleDropReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E730);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__330___SendGetExpeditionDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E738);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__634___SendPlayerLoginCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E740);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__762___SendRogueTournStartCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E748);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__835___SendSharePunkLordMonsterCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E750);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__245___SendExchangeRogueRewardKeyCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E758);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__308___SendGetBoxingClubInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E760);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__360___SendGetMainMissionCustomValueCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E768);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__995___ForbidSendDuringLogin()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E770);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__642___SendPreCheckEnterRoomReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E778);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__489___SendHeadFrameDisplayStateChangeReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E780);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__944___SendTravelBrochureRemovePasterCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E788);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__903___SendTakeCollectRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E790);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__978___StartNetworkDiagnostic()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E798);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__238___SendEvolveBuildShopAbilityResetCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7A0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__839___SendSpaceZooExchangeItemCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7A8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__622___SendPlanetFesLargeBonusInteractCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7B0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__253___SendFateReijuSelectConfirmReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7B8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__651___SendQuitTrackPhotoStageCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7C0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__230___SendEnterSummonActivityStageCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7C8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__811___SendSetElfRestaurantPlayRecipeCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7D0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__69___SendBatchRankUpEquipmentCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7D8);
 	}
 	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1___AddEnqueueCMDMapKey()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32520);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__906___SendTravelBrochureUpdatePasterPosCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__170___SendCycleScoreRewardGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32528);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__223___SendEnterTelevisionActivityStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__722___SendRogueMiracleComposeSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32530);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__412___SendGetTalkEventRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__902___SendTakeCityShopRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32538);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E7F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__96___SendChenLingGameBoyChangeSettingsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__262___SendFightGameStateCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32540);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E800);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__17___GetServerLatency()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__435___SendGridFightEnablePermanentTalent()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32548);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E808);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__20___GetWolfBroShootingDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__455___SendGridFightHandleSelectSupplyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32550);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E810);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__888___SendTakeTrialActivityRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1001___ServerLoginRandomNum()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32558);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E818);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__202___SendEndDrinkMakerSequenceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__43___RefreshServerDispatchInfo()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32560);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E820);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__460___SendGridFightSelectExpertInForgeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__548___SendLockRelicCSReqByList()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32568);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E828);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__390___SendGetReplayTokenCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__173___SendDeactivateFarmElementCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32570);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E830);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__742___SendSceneEntityMoveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__89___SendCancelSyncExpiredItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32578);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E838);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__268___SendFinishStoryMissionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__182___SendDiceCombatBuyShopGoodReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32580);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E840);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__6___ConnectServer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__467___SendGridFightSelectAugment()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32588);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E848);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__515___SendMarkModifyRelicFilterPlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__204___SendElfRestaurantPlantSeedCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32590);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E850);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__558___SendPacketsWhenReconnect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__240___SendEvolveBuildSkipTeachLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32598);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E858);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__288___SendGetAllSaveRaid()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__572___SendMonopolyGameRaiseRatioCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E860);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__780___SendSetNickNameRsp()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__81___SendCakeRaceLoanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E868);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__613___SendRaidCollectionDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__340___SendGetFiveDimMiniGameDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E870);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__567___SendPlanetFesChooseAvatarEventOptionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__28___InitSessionTimer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E878);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__686___SendRogueNousStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__654___SendRaidCollectionEnterNextRaidCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E880);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__480___SendHeliobusActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__697___SendRogueFormulaReforgeReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E888);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__763___SendSetChenLingGameBoyCheatCodeInputStatusCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__62___SendAllowEnterOnlinePlayRoomReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E890);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__277___SendGetActivityRewardCountDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__726___SendRogueMiracleRepairReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E898);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__876___SendTakePunkLordPointRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__165___SendComposeItem()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__290___SendGetArchiveDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__422___SendGetTreasureDungeonActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__87___SendChangeScriptEmotionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__397___SendGetRelicFilterPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__830___SendSwitchHandDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__664___SendRelicPresetGetPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x325F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__946___GlobalDispathErrorCode()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__364___SendGetMaterialSubmitActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32600);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__897___SendTeleportToMissionResetPointCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__604___SendPlanetFesBuyLandCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32608);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__130___SendChimeraDuelUnlockMasterCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__969___SendUseTreasureDungeonItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32610);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__963___ServerDispatchTimeout()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__644___SendPrestigeLevelUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32618);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__29___LocalIPAddress()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__605___SendPlanetFesChangeCardPieceApplyPermissionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32620);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__230___SendEvolveBuildShopAbilityResetCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__921___SendTakeRechargeGiftRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32628);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__172___SendDeployRotatorCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__484___SendGridFightUseConsumableCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32630);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__191___SendElfRestaurantBuyFieldCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__440___SendGridFightFavourArchive()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32638);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E8F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__250___SendFateShopRefreshGoodsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__530___SendIsEquipmentUpCostPileChangeReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32640);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E900);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__148___SendClockParkQuitScriptCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__34___MannualReconnectIfNeed()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32648);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E908);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__565___SendPlanetFesBuyLandCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__931___SendTarotBookFinishInteractionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32650);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E910);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__954___ServerDispatchErrorCode()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__29___InitSyncTimeTimer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32658);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E918);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__90___SendChenLingBuyShopItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__827___SendSetRogueExhibitionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32660);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E920);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__923___SendUseFiveDimFluteCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__542___SendLobbyGetInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32668);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E928);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__309___SendGetChessRogueStoryInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__259___SendFateShopSellBuffCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32670);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E930);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__726___SendRogueWorkbenchBuyMagicUnitReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__24___GetWolfBroShootingDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32678);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E938);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__912___SendUnlockTutorialGuideCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__438___SendGridFightEquipCraftCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32680);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E940);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__429___SendGridFightEnablePermanentTalent()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__570___SendMonopolyGameBingoFlipCardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32688);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E948);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__853___SendTakeAllRogueScoreReward()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__537___SendLeaveMapRotationRegionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32690);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E950);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__821___SendSubmitMaterialSubmitActivityMaterialCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__339___SendGetFiveDimGameDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32698);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E958);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__378___SendGetPreAvatarGrowthInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__976___ShowReconnectLoadingWheel()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E960);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__748___SendSelectChatBubbleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1010___InBackSyncTime()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E968);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__590___SendPlanetFesUpgradeFesLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__239___SendEvolveBuildShopAbilityUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E970);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__155___SendCmdFinishQuestCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__295___SendGetAllSaveRaid()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E978);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__501___SendLeaveTrialActivityCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__6___CheckTextForbiddenWord()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E980);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__296___SendGetBattleCollegeDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__487___SendGroupStateChangeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E988);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__802___SendStartAetherDivideChallengeBattleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__826___SendSetRogueCollectionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E990);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__765___SendSetClientRaidTargetCountCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__328___SendGetEnteredSceneCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E998);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__317___SendGetDailyActiveInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__130___SendChessRogueStartCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__434___SendGridFightFavourArchive()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__947___SendTravelBrochureSetPageDescStatusCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__572___SendPlanetFesDeliverPamCargoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__304___SendGetBenefitActivityInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__323___SendGetFantasticStoryActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__500___SendIdleLiveCollectIncomeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x326F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__249___SendFateShopLockGoodsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__543___SendLobbyInviteCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32700);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__176___SendDiceCombatMainPageRollDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__421___SendGetTrainVisitorRegisterCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32708);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__457___SendGridFightResetSeasonTalent()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__338___SendGetFiveDimFluteDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32710);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__553___SendMuseumRandomEventSelectCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__571___SendMonopolyGameGachaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32718);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__161___SendComposeSelectedRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__564___SendMonopolyBuyGoodsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32720);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__265___SendFinishFiveDimMiniGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__416___SendGetSwitchMascotDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32728);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__824___SendSummonPetCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__590___SendMTPInformation()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32730);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__564___SendPlanetFesBusinessDayRefreshEventCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__650___SendQuitRogueCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32738);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1E9F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__307___SendGetChessRogueNousStoryInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__892___SendSyncTaskCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32740);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__521___SendMatchThreeSetBirdPosCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__802___SendSetAssistAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32748);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__596___SendPlayerLoginLastKeyPacket()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__124___SendChessRogueQueryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32750);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__32___OnClientDisconnected()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__393___SendGetRaidInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32758);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__401___SendGetSaveLogisticsMapCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__314___SendGetChessRogueNousStoryInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32760);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__556___SendOpenTreasureDungeonGridCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__556___SendMarkRelicFilterPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32768);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__61___SendApplyFriendCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__719___SendRogueMagicUnitDropReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32770);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__147___SendClockParkHandleWaitSlotMachine()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__831___SendSettleTrackPhotoStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32778);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__735___SendRogueWorkbenchReforgeMagicUnitReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__277___SendFinishTutorialCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32780);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__355___SendGetMarkItemListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__594___SendOpenRogueChestCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32788);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__889___SendTarotBookFinishInteractionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__649___SendQuitLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32790);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__198___SendElfRestaurantTakeVillagerRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__442___SendGridFightGetArchiveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32798);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__405___SendGetShopListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__221___SendEnterFiveDimGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__469___SendGridFightUpdateEquipTrackCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__14___EnableKeepAlive()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__344___SendGetKilledPunkLordMonsterDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__505___SendIdleLiveFinishNodeBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__283___SendGetAiPamNextQuestionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__413___SendGetStarFightDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__85___SendChangeEraFlipperDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__723___SendRogueMiracleDestoryReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__502___SendLightConeRarity4AutoLockReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__38___OnFirstLoadingFinish()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__205___SendEnterAetherDivideSceneCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__779___SendRogueWorkbenchReforgeMagicUnitReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__563___SendPlanetFesBonusEventInteractCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__147___SendClockParkHandleWaitFinishStoryOperationCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EA98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__578___SendPlanetFesGetFriendCardPieceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__356___SendGetLocalLegendDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__937___StartReconnectTimer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__754___SendRogueTournPersonaStyleGiftSelectRollReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__295___SendGetBasicInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__865___SendSubmitOfferingItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__491___SendIsEquipmentUpCostPileChangeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__577___SendMonopolyGiveUpCurContentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x327F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__656___SendRogueGetGambleInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__196___SendDressAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32800);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__297___SendGetBenefitActivityInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__346___SendGetFriendDevelopmentInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32808);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__806___SendStartBattleCollegeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__131___SendChimeraDoFinalRoundCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32810);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__404___SendGetShareDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__613___SendPlanetFesEnterNextBusinessDayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32818);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__375___SendGetPlayerDetailInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__533___SendJoinLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32820);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__655___SendRogueFormulaSelectRollReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__334___SendGetFightActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32828);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__76___SendCakeRaceLoanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__94___SendChenLingActivatedPrivilegeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32830);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__458___SendGridFightResumeGamePlayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__555___SendMarkReadMailCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32838);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EAF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__38___RefreshLocalIP()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__462___SendGridFightRefreshShopCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32840);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__517___SendMarkRelicFilterPlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__222___SendEnterMapRotationRegionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32848);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__489___SendInteractPropCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__156___SendClockParkUseBuffCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32850);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__300___SendGetBigDataRecommendForRelicSuitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__457___SendGridFightLockShopCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32858);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__533___SendMonopolyGameRaiseRatioCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__229___SendEnterStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32860);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__459___SendGridFightSelectAugment()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__285___SendGetActivityRewardCountDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32868);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__516___SendMarkReadMailCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__332___SendGetFarmStageGachaInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32870);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__852___SendTakeAllRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__255___SendFateShopBuyGoodsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32878);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__370___SendGetPetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__636___SendPlayerLogoutCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32880);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__275___SendGetActivityElationDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__468___SendGridFightSelectExpertInForgeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32888);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__843___SendSwordTrainingRestoreGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__794___SendSelectPamSkinCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32890);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__764___SendSetChenLingGameBoyCheatStatusCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__784___SendSceneCastSkillCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32898);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__657___SendRogueMagicAutoDressInUnitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__66___SendApplyFriendCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__846___SendSwordTrainingStartGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__418___SendGetTalkEventRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__242___SendFateChangeLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__718___SendRogueMagicUnitCopyReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__51___SendActivityRaidPlacingResult()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__44___RequestGetAuthKey()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__227___SendEvolveBuildQueryInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__877___SendSwitchHandResetTransformCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__865___SendTakeLoginActivityRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__767___SendRogueTournTriggerRoomSelectCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__209___SendEnterElfRestaurantNextDayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__19___GetMovieRacingDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__50___SendActiveFarmElementCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__325___SendGetDailyActiveInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EB98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__63___SendBatchMarkChatEmojiCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__117___SendChessRogueEnterCellCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__570___SendPlanetFesCollectIncomeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__112___SendChenLingStartStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__775___SendSetHeadIconCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__472___SendGridFightSetMonsterHpRatio()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__179___SendDiscardRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__54___SendActiveFarmElementCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x328F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__709___SendRogueTournPersonaStyleGiftSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__624___SendPlanetFesSetAvatarWorkCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32900);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__261___SendFinishEmotionDialoguePerformanceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__247___SendExpUpEquipmentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32908);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__785___SendSetSignatureCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__129___SendChessRogueSkipTeachingLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32910);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__609___SendQuitLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__32___IsProcessPacketsFrameBudgetWork()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32918);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__136___SendChimeraStartEndlessCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__751___SendRogueTournPersonaRoomSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32920);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__599___SendPlayerReturnSignCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__92___SendChangeScriptEmotionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32928);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__573___SendPlanetFesDoGachaCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__110___SendChenLingSelectPolicyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32930);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__845___SendSwordTrainingSelectEndingCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__374___SendGetMuseumInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32938);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EBF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__944___UpdateWolfBroShootingDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__623___SendPlanetfesSendMsgCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32940);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__875___SendTakePromotionRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__136___SendChimeraFinishEndlessRoundCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32948);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__585___SendPlanetFesSetAvatarWorkCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__887___SendSwordTrainingResumeGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32950);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__271___SendFiveDimGameTransferCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__88___SendCancelRechargeItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32958);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__470___SendGridFightUpdateEquipTrackPriorityCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__551___SendMarkAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32960);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__532___SendMonopolyGameGachaCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__219___SendEnterFeverTimeActivityStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32968);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__916___SendUpdateMainMissionCustomValueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__922___SendTakeReturnExtraHcoinRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32970);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__381___SendGetPunkLordDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__721___SendRogueMagicUnitUpgradeReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32978);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__132___SendChimeraFinishRoundCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__199___SendElfRestaurantBuyFieldCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32980);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__285___SendGetAlleyInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1011___Instance()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32988);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__766___SendSetDisplayAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__13___Dispose()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32990);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__914___SendUpdateFiveDimGameDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__276___SendFinishStoryMissionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32998);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__915___SendUpdateGroupPropertyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__657___SendRecallPetCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__938___TextJoinBatchSaveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__52___SendAcceptMultipleExpeditionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__815___SendStartStarFightLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__747___SendRogueTournGetSeasonTalentInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__386___SendGetReceivedTalkEventsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__632___SendPlayerGetFightGateCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__92___SendChenLingClientStatusChangeCsNotify()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__918___SendTakePunkLordPointRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__350___SendGetLoginChatInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__929___SendTakeTrainVisitorBehaviorRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__683___SendRogueMiracleSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__419___SendGetTelevisionActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__909___SendUnlockAvatarPathCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__979___StartReconnectTimer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EC98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__70___SendCakeRaceFinishPveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__869___SendSwapLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__46___SendAcceptedPamMissionExpireCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__293___SendGetAllLineupDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__667___SendRogueMagicScepterReplaceReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__905___SendTakeFightActivityRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__171___SendDelMailCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__808___SendSetChenLingGameBoyCheatStatusCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x329F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__487___SendHeliobusUpgradeLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__93___SendChangeTimeRewindInfoReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__920___SendUpdateTrackMainMissionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__15___EnableUserRetryReconnect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__357___SendGetMazeInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__964___SendUpgradeAreaStatCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__551___SendMTPInformation()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__105___SendChenLingQuitStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__507___SendLobbyModifyPlayerInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__306___SendGetBigDataRecommendForLightConeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__270___SendFinishTutorialGuideCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__872___SendSwitchHandCoinUpdateCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__781___SendSetPersonalCardCSReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__378___SendGetPetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__837___SendSwitchLineupIndexCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__695___SendRogueDoGambleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ECF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__9___Disconnect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__445___SendGridFightHandleBattleBonus()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__569___SendPlanetFesCollectAllIncomeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__193___SendDisplayRecordReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__847___SendSwordTrainingStoryConfirmCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__256___SendFateShopLeaveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__546___SendMonopolyScrachRaffleTicketCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__400___SendGetRogueAeonInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__767___SendSetElfRestaurantPlayRecipeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__844___SendStarPerformanceRelayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__571___SendPlanetFesDealAvatarEventOptionItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__179___SendDelMailCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__337___SendGetFriendBattleRecordDetailCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__205___SendElfRestaurantRecycleSeedCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__696___SendRogueTournEnterRoomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__496___SendHeliobusSnsReadCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__840___SendSwordTrainingGiveUpGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__833___SendSetTurnFoodSwitchCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__617___SendRecallPetCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__326___SendGetDiceCombatShopDataReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__286___SendGetAllLineupDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__934___SendTarotBookMultiOpenPackAndUnlockStoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__962___ServerDispatchRetryCount()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__679___SendReserveStaminaExchangeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32A98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__688___SendRoguePersonaCastRoomCardReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__436___SendGridFightEnableSeasonTalent()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__943___UpdateMovieRacingDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__825___SendSetPlayerInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__194___SendElfRestaurantFinishTradeOrderCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__798___SendSelectRogueCommonDialogueOptionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__940___Tick()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__852___SendStartLocalLegendLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__907___SendTriggerAiPamSpeakCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__510___SendIdleLiveGetFriendDungeonInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__724___SendRogueTournUseSuperRewardKeyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__700___SendRogueGetGambleInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__240___SendExpUpRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__420___SendGetTrackPhotoActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__519___SendMatchThreeGetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__516___SendIdleLiveReplaceTeamCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1ED98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__919___SendUpdateServerPrefsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__793___SendSelectChessRogueSubStoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__368___SendGetOrigamiPropInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__838___SendSpaceZooDeleteCatCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__576___SendPlanetFesGetBusinessDayInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__40___OnPacket()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__213___SendEnterFiveDimGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__890___SendSwordTrainingStoryConfirmCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32AF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__601___SendPlayerReturnTakeRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__271___SendFinishFirstTalkNpcCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__605___SendPromoteAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__492___SendHeliobusEnterBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__672___SendRogueMagicStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__608___SendPlanetFesCollectAllIncomeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__397___SendGetRogueInitialScoreCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__192___SendDisplayOnlineStatusReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__100___SendChenLingQuitStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__961___SendUpdateServerPrefsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__782___SendSetPlayerInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__557___SendMatchBoxingClubOpponentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__291___SendGetAssistHistoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__511___SendIdleLiveGetPendingEquipCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__592___SendPlanetFesUseItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__967___SendUseItemFoodCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EDF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__951___ForbidSendDuringLogin()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__149___SendClockParkHandleWaitInCheckPointOperationCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__666___SendRogueMagicScepterDressInUnitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__290___SendGetAiPamChatInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__105___SendChenLingSelectPolicyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__893___SendTakeActiveActivityRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__681___SendRogueMiracleReforgeSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__297___SendGetArchiveDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__157___SendCmdLockRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__698___SendRogueFormulaSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__77___SendCakeRaceStartPveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__889___SendSwordTrainingStartGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__877___SendTakeQuestOptionalRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__426___SendGetUnlockTeleportCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__597___SendPlayerLogoutCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__611___SendPlanetFesDeliverPamCargoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__893___SendTarotBookOpenPackCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__469___SendGridFightSelectRecommendEquipCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__13___FetchServerDispatchInfo()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1007___ServerDispatchTimeout()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__529___SendMonopolyConfirmRandomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__615___SendPlanetFesGetBusinessDayInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__41___RequestGlobalDispatch()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__597___SendPacketsWhenReconnect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32B98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__318___SendGetDiceCombatShopDataReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__384___SendGetPlayerReturnMultiDropInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__374___SendGetPlayerBoardDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__610___SendPlanetFesDealAvatarEventOptionItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__126___SendChimeraDoFinalRoundCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__371___SendGetMonopolyInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__89___SendChenLingActivatedPrivilegeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__417___SendGetSwordTrainingDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__281___SendGetAiPamChatHistoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__899___SendTakeBpRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__528___SendMonopolyClickMbtiReportCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__742___SendRogueTournGetAllBuildRefCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__958___PacketMonitor()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__763___SendRogueTournStartCsReqWeekChallenge()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__241___SendFarmElementSweepCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__806___SendSetBoxingClubResonanceLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EE98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__970___PerformanceStandaloneWhiteListCmd()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__620___SendPlanetFesGiveCardPieceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__376___SendGetPlayerReturnMultiDropInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__488___SendHandleFriendCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__577___SendPlanetFesGetExtraCardPieceInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__628___SendPlanetFesTakeRegionPhaseRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__60___SendAllowRecordTeamReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__286___SendGetActivityScheduleConfigCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32BF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__332___SendGetFiveDimMiniGameDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__950___SendTriggerVoiceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__208___SendEnterElationActivityStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__499___SendIdleLiveChangeTechTreeNodeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__445___SendGridFightHandleRoundBegin()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__412___SendGetSocialEventServerCacheCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EED0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__149___SendClockParkStartScriptCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__565___SendMonopolyCheatDiceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EED8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__133___SendChimeraGetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__215___SendEnterChessRogueAeonRoomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__15___GetMovieRacingDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__778___SendRogueWorkbenchReforgeFormulaReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__861___SendTakeCollectRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__635___SendPlayerLoginLastKeyPacket()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__472___SendGridFightUpdatePosCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__886___SendSwordTrainingRestoreGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EEF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__45___SaveLogisticsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__501___SendIdleLiveDoGachaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__463___SendGridFightSelectUpgradeEquipCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__989___Client()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__475___SendGridFightUseForgeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__450___SendGridFightHandlePortalBuffSelect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__289___SendGetAllServerPrefsDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__982___Tick()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__882___SendTakeRogueEndlessActivityPointRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__335___SendGetFightFestDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__836___SendSwitchHandUpdateCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__317___SendGetCrossInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__280___SendGetAetherDivideInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__107___SendChenLingRefreshPolicyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__926___SendUseItemGiftPackCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__963___SendUpgradeAreaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__262___SendFinishFirstTalkByPerformanceNpcCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__910___SendTakeMultipleExpeditionRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__278___SendGetActivityScheduleConfigCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__344___SendGetFriendAssistListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__964___DispatchCd()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__116___SendChessRogueConfirmRollCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__42___ResendReliableRequest()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__965___SendUseFiveDimFluteCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32C98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__448___SendGridFightHandleTraitPinacony()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__553___SendMarkItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__731___SendRogueWorkbenchHexEquipmentReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__46___ResendReliableRequest()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__675___SendRogueMagicUnitDropReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__626___SendPlanetFesStartMiniGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__324___SendGetFarmStageGachaInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__301___SendGetBagCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__718___SendRogueTournStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__609___SendPlanetFesCollectIncomeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__841___SendSwordTrainingLearnSkillCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__674___SendRelicSmartWearUpdatePlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__468___SendGridFightUpdateEliteBranchSelect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__399___SendGetRogueAdventureRoomInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__67___SendBuyGoodsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__279___SendFiveDimGameTransferCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EF98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__864___SendTakeKilledPunkLordMonsterScoreCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__756___SendRogueTournQueryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__697___SendRogueTournGetAllArchiveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__7___CloseClient()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__584___SendPlanetfesSendMsgCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__768___SendRogueTournUseSuperRewardKeyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__589___SendPlanetFesTakeRegionPhaseRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__208___SendElfRestaurantUpgradeFacilityLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32CF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__885___SendTakeRollShopRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__181___SendDestroyItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__855___SendTakeAssistRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__11___DeleteGameFormation()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__215___SendEnterMazeByEntranceIDCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__951___SendUnlockAvatarPathCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__471___SendGridFightUpdateGameRef()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__732___SendRoguePersonaCastRoomCardReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__934___ShowReconnectLoadingWheel()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__566___SendMonopolyClickCellCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__786___SendSetStuffToAreaCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__799___SendSendMsgCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__493___SendJoinBenefitActivityCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__701___SendRogueMagicAutoDressInUnitCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__522___SendMatchThreeV2BattleItemLevelUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__984___UnApplyGameFormation()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1EFF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__900___SendTravelBrochureGetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__267___SendFinishCosumeItemMissionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F000);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__687___SendRogueNpcDisappearCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__8___ConnectServer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F008);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__220___SendEnterSectionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__12___Disconnect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F010);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__228___SendEvolveBuildReRandomStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__544___SendLobbyJoinCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F018);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__121___SendChessRogueReRollDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__707___SendRogueMagicLeaveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F020);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__587___SendPlanetFesStartMiniGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__75___SendCakeRaceFinishPveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F028);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__631___SendRemoveRotatorCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__73___SendBuyNpcStuffCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F030);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__396___SendGetRogueInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__727___SendRogueMiracleSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F038);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__226___SendEvolveBuildGiveupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__829___SendSetStuffToAreaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F040);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__647___SendRogueBuffSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__223___SendEnterMazeByEntranceIDCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F048);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__537___SendMonopolyGetRegionProgressCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__684___SendRestartChallengePhaseCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F050);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__446___SendGridFightHandleSelectEnhance()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__876___SendSwitchHandResetGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32D98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F058);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__484___SendHeliobusSnsPostCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__354___SendGetLevelRewardReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F060);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__574___SendPlanetFesEnterNextBusinessDayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__671___SendRelicSmartWearGetPinRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F068);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__936___StartNetworkDiagnostic()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__913___SendTakeOfferingRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F070);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__482___SendHeliobusSnsCommentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__535___SendLeaveChallengeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F078);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__808___SendStartChallengeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__108___SendChenLingRefreshShopReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F080);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__57___SendAiPamResponseFeedbackCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__473___SendGridFightStartGamePlayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F088);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__891___SendTarotBookGetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__434___SendGridFightDestroyWeeklyRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F090);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__322___SendGetExpeditionDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__498___SendHeliobusUpgradeLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F098);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__622___SendRelicReforgeConfirmCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__95___SendChenLingBuyShopItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__48___SendAcceptMultipleExpeditionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__79___SendCakeRaceGetHandbookCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__112___SendChessRogueEnterCellCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__320___SendGetCurBattleInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__791___SendShareCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__993___RecommendServer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32DF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__24___InitSessionTimer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__725___SendRogueMiracleReforgeSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__520___SendMatchThreeLevelEndCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__45___RequestGlobalDispatch()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__72___SendCakeRaceGetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__478___SendGridFightUpdateEquipTrackCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__16___GetRndOptionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__386___SendGetPreAvatarGrowthInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__694___SendRogueTournEnterLayerCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__508___SendIdleLiveFinishQuestionTimeoutCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__339___SendGetFriendListInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__986___UpdateGameFormation()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__753___SendSelectRogueBonusReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__475___SendGridFightTakeWeeklyRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__716___SendRogueTournReviveAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__593___SendNewSupplementVisitorCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F0F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__814___SendStartRogueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__427___SendGetUnreleasedBlockInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F100);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__510___SendLogisticsDetonateStarSkiffCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__898___SendTakeBenefitActivityRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F108);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__720___SendRogueTournTakeExpRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__656___SendRebattleByClientCsNotify()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F110);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__680___SendRogueMiracleDropReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__203___SendElfRestaurantHarvestCropCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F118);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__591___SendPlanetFesUpgradeSkillLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__385___SendGetPreAvataActivityListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F120);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__351___SendGetMailCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__211___SendEnterActivityFantasticStoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F128);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__399___SendGetRogueTalentInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__423___SendGetTrialActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F130);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__216___SendEnterMazeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__958___SendUpdateMainMissionCustomValueCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F138);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__416___SendGetTreasureDungeonActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__265___SendFinishChenLingGameBoyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F140);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__97___SendChenLingGameBoyGetFriendRankingInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__573___SendMonopolyGetDailyInitItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F148);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__621___SendRelicCocoonInfoReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__781___SendRotateMapCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F150);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__371___SendGetPhoneDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__744___SendRogueTournGetCurRogueCocoonInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32E98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F158);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__750___SendSelectPamSkinCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__252___SendFateQueryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F160);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__752___SendSelectPhoneThemeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__82___SendCakeRaceStartPveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F168);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__31___OnClientConnected()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__729___SendRogueModifierSelectCellCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F170);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__125___SendChessRogueStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__187___SendDiscardRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F178);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__144___SendClockParkHandleWaitInCheckPointOperationCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__128___SendChessRogueSelectCellCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F180);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__461___SendGridFightSelectRecommendEquipCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__862___SendStrangerAssistHideStateChangeReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F188);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__217___SendEnterRogueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__596___SendPacket()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32ED0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F190);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__137___SendChooseBoxingClubResonanceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__709___SendRogueMagicReviveAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32ED8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F198);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__425___SendGridFightBackToPrepareReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__483___SendGridFightUpdateTraitPinacony()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__231___SendEvolveBuildShopAbilityUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__242___SendEvolveBuildStartStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__541___SendMonopolyLikeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__269___SendFinishEmotionDialoguePerformanceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__81___SendCancelAutoConversionCacheCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__146___SendClockParkGetOngoingScriptInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32EF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__838___SendSwordTrainingDailyPhaseConfirmCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__658___SendReEnterLastElementStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__345___SendGetLevelRewardGetListReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__168___SendCounterRecoverCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__391___SendGetRogueAdventureRoomInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__176___SendDeleteRelicFilterPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__25___InitSyncTimeTimer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__486___SendGridFightUseHackOption()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__868___SendTakeMultipleExpeditionRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__895___SendTakeAllRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__509___SendLockRelicCSReqByList()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__485___SendGridFightUseForgeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__444___SendGridFightHandleReturnPreparation()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__305___SendGetBigDataRecommendCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__499___SendLeaveRaidCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__731___SendRogueNpcDisappearCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F1F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__64___SendBatchRankUpEquipmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__336___SendGetFirstTalkByPerformanceNpcCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F200);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__163___SendCounterRecoverCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__348___SendGetFriendRecommendListInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F208);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__921___SendUpgradeAreaCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__780___SendRogueWorkbenchReforgeMiracleReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F210);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__212___SendEnterFightActivityStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__943___SendTravelBrochurePageResetCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F218);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__349___SendGetLoginActivityCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__139___SendChimeraQuitEndlessCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F220);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__330___SendGetFiveDimFluteDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__120___SendChessRogueGiveUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F228);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__182___SendDisplayCollectionReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__988___UpdateWolfBroShootingDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F230);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__39___RefreshServerDispatchInfo()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__298___SendGetAssistHistoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F238);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__190___SendDressRelicAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__318___SendGetCrossInfoCsReqIgnoreBlock()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F240);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__583___SendPlanetFesLargeBonusInteractCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__822___SendSetMultipleAvatarPathsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F248);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__214___SendEnterMapRotationRegionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__302___SendGetBasicInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F250);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__822___SendSubmitOfferingItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__568___SendMonopolyConfirmRandomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32F98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F258);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__673___SendRogueMagicUnitComposeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__258___SendFateShopRefreshGoodsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F260);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__65___SendBigDataAllRecommendCSReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__42___RefreshLocalIP()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F268);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__857___SendTakeBpRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__948___SendTravelBrochureUpdatePasterPosCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F270);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__736___SendRogueWorkbenchReforgeMiracleReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__226___SendEnterRogueEndlessActivityStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F278);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__335___SendGetFriendApplyListInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__502___SendIdleLiveDressSpecialEquipCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F280);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__8___DailyFirstMeetPamCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__846___SendStartAetherDivideSceneBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F288);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__539___SendMonopolyGuessBuyInformationCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__234___SendEvolveBuildGiveupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F290);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__263___SendFinishFirstTalkNpcCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__273___SendFinishFiveDimMiniGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F298);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__35___OnLoginAuthorized()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__550___SendLogisticsGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__3___CheckConnectFromBack()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__471___SendGridFightSelectUpgradeEquipCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__320___SendGetEnteredSceneCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__880___SendSwitchLineupIndexCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__116___SendChessRogueLeaveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__941___SendTravelBrochureApplyPasterListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x32FF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__299___SendGetBigDataRecommendForLightConeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1013___PerformanceReplayWhiteListCmd()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33000);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__221___SendEnterStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__665___SendRelicPresetUpdatePlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33008);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__689___SendRogueTournConfirmSettleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__855___SendStartQuickFarmElementReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33010);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__483___SendHeliobusSnsLikeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__561___SendMatchThreeV2BattleItemLevelUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33018);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__410___SendGetSwitchMascotDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1002___PacketMonitor()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33020);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__933___ShouldWaitForPing()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__448___SendGridFightHandleInitialSupplySelect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33028);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__793___SendSpaceZooBornCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__882___SendSwordTrainingDialogueSelectOptionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33030);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__616___SendRebattleByClientCsNotify()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__764___SendRogueTournTakeExpRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33038);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F2F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__358___SendGetMbtiReportCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__990___GlobalDispathErrorCode()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33040);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F300);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__952___KeepSilenceReconnect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__86___SendCancelAutoConversionCacheCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33048);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F308);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__272___SendForceSyncGameStateFinishCSReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__534___SendLeaveAetherDivideSceneCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33050);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F310);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__181___SendDisplayBirthdayReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__85___SendCakeRaceWinCoinPveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33058);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F318);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__400___SendGetRollShopInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__78___SendCakeRaceGetFriendRankingInfoListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33060);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F320);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__494___SendJoinLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__616___SendPlanetFesGetExtraCardPieceInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33068);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F328);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__899___SendTravelBrochureApplyPasterListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__631___SendPlanetFesUseItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33070);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F330);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__479___SendHeartDialTraceScriptCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__299___SendGetAssistListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33078);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F338);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__568___SendPlanetFesClientStatusCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__946___SendTravelBrochureSetCustomValueCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33080);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F340);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__902___SendTravelBrochureRemovePasterCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__696___SendRogueFormulaDropReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33088);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F348);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__651___SendRogueDoGambleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__936___SendTarotBookUnlockInteractionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33090);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F350);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__881___SendTakeRogueEndlessActivityAllBonusRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__257___SendFateShopLockGoodsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33098);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F358);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__156___SendCmdLockEquipmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__576___SendMonopolyGetRegionProgressCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F360);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__79___SendCakeRaceUseBattleItemPveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__2___ApplyGameFormation()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F368);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__630___SendRelicSmartWearUpdatePlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__592___SendMuseumRandomEventSelectCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F370);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__53___SendAddRelicFilterPlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1008___DispatchCd()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F378);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__805___SendStartAlleyEventCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__789___SendSceneStageBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F380);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__770___SendSetGachaDecideItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__868___SendSummonPunkLordMonsterCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F388);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__304___SendGetChatEmojiListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__70___SendBigDataAllRecommendCSReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F390);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__71___SendCakeRaceGetDailyLikeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__519___SendIdleLiveStartNodeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F398);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__4___CheckServerStatus()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__900___SendTakeChallengeCumulativeRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__255___SendFightGiveUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__817___SendSetGroupCustomSaveDataScReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__11___EnableKeepAlive()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__388___SendGetPunkLordBattleRecordCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__203___SendEnterActivityFantasticStoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__458___SendGridFightQuitLeaveGamePlayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x330F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__166___SendDeleteBlacklistCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__98___SendChenLingFinishBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33100);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__306___SendGetChenLingGameBoyDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__464___SendGridFightResetPermanentTalent()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33108);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__113___SendChessRogueEnterCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__280___SendForceSyncGameStateFinishCSReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33110);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__195___SendElfRestaurantHarvestCropCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__861___SendStopRogueAdventureRoomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33118);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__235___SendExchangeGachaCeilingCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__668___SendRelicSmartWearAddPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33120);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__819___SendStrangerAssistHideStateChangeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__228___SendEnterSectionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33128);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__829___SendSwitchHandCoinUpdateCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__858___SendStartStarFightLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33130);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__935___StartLogin()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__439___SendGridFightEquipDressCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33138);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F3F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__409___SendGetSummonActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__761___SendRogueTournSettleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33140);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F400);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__428___SendGridFightDestroyWeeklyRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__704___SendRogueMagicEnterLayerCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33148);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F408);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__650___SendRogueDestoryedMiracleSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__879___SendSwitchHandUpdateCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33150);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F410);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__684___SendRogueMiracleSelectRollReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__459___SendGridFightQuitSettleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33158);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F418);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__966___InBackSyncTime()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__50___SendAcceptedPamMissionExpireCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33160);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F420);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__818___SendStopRogueAdventureRoomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__735___SendRogueTournDeleteBuildRefCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33168);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F428);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__751___SendSelectPhoneCaseCSReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__351___SendGetHeartDialInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33170);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F430);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__372___SendGetPlanetFesDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__981___TextJoinQueryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33178);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F438);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__91___SendChenLingClientStartBattleCsNotify()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__225___SendEnterRogueCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33180);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F440);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__557___SendPacket()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__224___SendEnterMazeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33188);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F448);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__99___SendChenLingMoveEntityCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__540___SendLeaveTrialActivityCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33190);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F450);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__542___SendMonopolyMoveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__352___SendGetKilledPunkLordMonsterDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33198);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F458);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__945___Client()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__140___SendChimeraRoundWorkStartCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F460);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__783___SendSetRogueCollectionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__39___OnLoginAuthorized()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F468);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__454___SendGridFightRefreshShopCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__992___SelectedServer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F470);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__606___SendPromoteEquipmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__55___SendActivityRaidPlacingResult()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F478);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__833___SendSwitchHandResetGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__863___SendSubmitEmotionItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F480);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__175___SendDiceCombatFinishPveStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__396___SendGetRecycleTimeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F488);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__224___SendEnterTreasureDungeonCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__769___SendRogueWorkbenchBuyMagicScepterReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F490);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__660___SendRogueMagicEnterLayerCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__529___SendInteractTreasureDungeonGridCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F498);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__769___SendSetFriendRemarkNameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__539___SendLeaveRogueCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__754___SendSelectRogueCommonDialogueOptionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__132___SendChimeraDuelGetFriendListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__423___SendGetVideoVersionKeyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1012___ShouldBlockByPerformanceReplayFlag()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__931___SetIgnoreBlockCMD()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__137___SendChimeraFinishRoundCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x331F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__430___SendGridFightEnableSeasonTalent()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__940___SendTrainVisitorBehaviorFinishCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33200);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__259___SendFinishCosumeItemMissionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__278___SendFinishTutorialGuideCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33208);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__492___SendIsFarmStageAutoAddStaminaChangeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__549___SendLogisticsDetonateStarSkiffCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33210);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__183___SendDisplayDiaryReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__148___SendClockParkHandleWaitHanuShootingOperationCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33218);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__117___SendChessRogueNousEditDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__37___OnConnectionBreak()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33220);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__871___SendTakeOfferingRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__456___SendGridFightHandleTraitPinacony()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33228);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__811___SendStartPunkLordRaidCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__738___SendRogueTournEnterLayerCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33230);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__56___SendAiPamResponseFeedbackCommentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__270___SendFinishFirstTalkByPerformanceNpcCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33238);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F4F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__955___ServerDispatchData()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__816___SendSetGenderRsp()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33240);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F500);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__873___SendTakePictureScRsp()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__47___ResetForbidSendDuringLogin()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33248);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F508);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__892___SendTarotBookMultiOpenPackAndUnlockStoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__766___SendRogueTournTitanBlessSelectRollReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33250);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F510);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__464___SendGridFightStartGamePlayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__730___SendRogueNousStartCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33258);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F518);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__150___SendClockParkUnlockTalentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__74___SendCakeRaceBetCoinPveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33260);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F520);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__18___GetStringUrlByUrl()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__870___SendSwitchAetherDivideLineUpSlotCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33268);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F528);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__593___SendPlayerGetFightGateCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__841___SendSpaceZooOpCatteryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33270);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F530);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__393___SendGetRogueCommonDialogueDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__883___SendSwordTrainingGiveUpGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33278);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F538);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__582___SendPlanetFesHandleCardPieceApplyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__926___SendTakeRogueMiracleHandbookReward()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33280);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F540);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__615___SendRankUpEquipmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__402___SendGetRogueEndlessActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33288);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F548);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__267___SendFinishRogueCommonDialogueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__387___SendGetPrivateChatHistoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33290);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F550);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__417___SendGetTrialActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__629___SendPlanetFesUpgradeFesLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33298);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F558);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__645___SendRogueBuffDropReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1014___PerformanceStandaloneWhiteListCmd()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F560);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__691___SendRogueTournDeleteBuildRefCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__409___SendGetSecretKeyInfo()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F568);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__177___SendDiceCombatModifyAvatarDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__728___SendRogueMiracleSelectRollReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F570);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__331___SendGetFiveDimGameDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__740___SendRogueTournEnterRoomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F578);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__118___SendChessRogueNousGetRogueTalentInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__377___SendGetPamSkinDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F580);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__422___SendGetUpdatedArchiveDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__856___SendStartRaidCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F588);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__273___SendGameStateServiceConfigCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__185___SendDiceCombatModifyAvatarDiceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F590);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__956___AlreadyLogin()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__741___SendRogueTournGetAllArchiveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F598);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__256___SendFinishAeonDialogueGroupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__517___SendIdleLiveStartDungeonCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__316___SendGetCurSceneInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__996___KeepSilenceReconnect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__788___SendSettleTrackPhotoStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__662___SendRelicPresetAddPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__604___SendPrestigeLevelUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__260___SendFateStartCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x332F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__639___SendResetRogueDiceSurfaceToSuggestCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__985___UnexceptedDisconnectCallback()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33300);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__418___SendGetTutorialCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__446___SendGridFightHandleElationTemplate()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33308);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__447___SendGridFightHandleSelectSupplyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__526___SendIdleLiveUpgradeSlotCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33310);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__759___SendSetAssistCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__497___SendHeliobusStartRaidCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33318);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__928___SendWorldUnlockCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__752___SendRogueTournPersonaRoomSelectRerollReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33320);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__154___SendCloseRelicAffixHightLightReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__818___SendSetHeadIconCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33328);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__886___SendTakeSingleRogueScoreReward()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__231___SendEnterTelevisionActivityStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33330);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__518___SendMatchBoxingClubOpponentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__980___TextJoinBatchSaveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33338);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F5F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__789___SendSetTrainWorldIdCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__688___SendRogueArcadeStartCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33340);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F600);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__23___InitRefreshRttTimer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__966___SendUseItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33348);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F608);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__854___SendTakeApRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__854___SendStartPunkLordRaidCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33350);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F610);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__361___SendGetMonopolyDailyReportCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__123___SendChessRogueNousGetRogueTalentInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33358);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F618);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__536___SendMonopolyGetRaffleTicketCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__748___SendRogueTournGetSettleInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33360);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F620);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__771___SendSetGameplayBirthdayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__447___SendGridFightHandleEliteBranchSelect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33368);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F628);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__636___SendResetEraFlipperDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1006___ServerDispatchRetryCount()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33370);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F630);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__436___SendGridFightGetArchiveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__840___SendSpaceZooMutateCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33378);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F638);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__870___SendTakeOffEquipmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__873___SendSwitchHandDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33380);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F640);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__174___SendDiceCombatBuyShopGoodReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__194___SendDoGachaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33388);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F648);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__435___SendGridFightFinishTutorialCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__454___SendGridFightHandleSelectEnhance()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33390);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F650);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__849___SendSyncTaskCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__834___SendShareCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33398);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F658);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__619___SendRefreshTriggerEntityListReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__972___SetEncryptKey()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F660);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__282___SendGetAiPamChatInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__236___SendEvolveBuildReRandomStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F668);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__426___SendGridFightBuyExpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__552___SendMarkChatEmojiCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F670);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__419___SendGetTutorialGuideCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__693___SendRogueBuffWorkbenchReforgeSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F678);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__862___SendTakeEventRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__207___SendElfRestaurantUpgradeEmployeeLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F680);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__612___SendQuitTreasureDungeonCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__64___SendAllowRecordTeamReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F688);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__637___SendResetMapRotationRegionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__860___SendStartTrialActivityCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F690);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__560___SendPlanetFesApplyCardPieceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__493___SendHeliobusSnsCommentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F698);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__896___SendTeamAssociationStateChangeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__849___SendStartBattleCollegeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__311___SendGetCurAssistCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__169___SendCycleScoreRewardDestroyExceedRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__441___SendGridFightHandleInitialSupplySelect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__683___SendResetRogueDiceSurfaceToSuggestCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__733___SendRogueWorkbenchReforgeBuffReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__63___SendAllowOpenOnlineCakeBoxReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x333F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__354___SendGetMarkChestCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__431___SendGridFightBackToPrepareReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33400);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__80___SendCakeRaceWinCoinPveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__184___SendDiceCombatMainPageRollDiceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33408);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__78___SendCakeRaceUpdatePveMeetCatCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__284___SendGetActivityHotDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33410);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__712___SendRogueTournQueryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__322___SendGetCurLineupDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33418);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__626___SendRelicSmartWearDeletePlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__437___SendGridFightEnterBattleStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33420);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__74___SendCakeRaceGetHandbookCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__36___OnClientDisconnected()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33428);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__388___SendGetRecycleTimeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__788___SendSceneReviveAfterRebattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33430);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__387___SendGetRechargeGiftInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__786___SendSceneEntityMoveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33438);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F6F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__47___SendAcceptMainMissionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__233___SendEquipAetherDividePassiveSkillCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33440);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F700);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__27___IsEnableReconnect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__914___SendTakeOffRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33448);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F708);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__659___SendRogueMagicEnterCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__333___SendGetFeverTimeActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33450);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F710);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__382___SendGetPunkLordMonsterDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__935___SendTarotBookOpenPackCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33458);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F718);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__784___SendSetRogueExhibitionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__532___SendJoinBenefitActivityCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33460);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F720);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__581___SendPlanetFesGiveCardPieceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__567___SendMonopolyClickMbtiReportCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33468);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F728);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__269___SendFinishTutorialCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__545___SendLobbyKickOutCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33470);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F730);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__778___SendSetLineupNameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__366___SendGetMbtiReportCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33478);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F738);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__481___SendHeliobusEnterBattleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__56___SendAddBlacklistCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33480);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F740);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__260___SendFinishCurTurnCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__433___SendGridFightBuyGoodsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33488);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F748);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__143___SendClockParkHandleWaitHanuShootingOperationCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__162___SendCmdLockRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33490);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F750);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__749___SendSelectChessRogueSubStoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__715___SendRogueMagicSettleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33498);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F758);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__652___SendRogueFormulaDropReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__163___SendCmdSellItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F760);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__948___SelectedServer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__126___SendChessRogueReRollDiceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F768);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__903___SendTravelBrochureSelectMessageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__283___SendGetActivityElationDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F770);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__548___SendMonopolyTakePhaseRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__520___SendIdleLiveTakeAssistRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F778);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__128___SendChimeraDuelSaveFriendPvpLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__291___SendGetAllActivityRewardCountDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F780);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__734___SendRogueWorkbenchReforgeFormulaReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__353___SendGetLevelRewardGetListReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F788);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__115___SendChessRogueGiveUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__68___SendBatchMarkChatEmojiCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F790);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__668___SendRogueMagicScepterSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__367___SendGetMissionDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F798);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__69___SendCakeRaceBetCoinPveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__441___SendGridFightFinishTutorialCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__669___SendRogueMagicScepterTakeOffUnitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__739___SendRogueTournEnterRogueCocoonSceneCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__757___SendSetAllowOtherApplyFriendCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__720___SendRogueMagicUnitSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__603___SendPrepareRogueAdventureRoomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__59___SendAetherDivideTakeChallengeRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x334F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__218___SendEnterRogueEndlessActivityStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__580___SendMonopolyLikeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33500);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__794___SendSpaceZooDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__313___SendGetChenLingGameBoyDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33508);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__252___SendFateStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__521___SendIdleLiveTakeContentRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33510);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__73___SendCakeRaceGetFriendRankingInfoListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__461___SendGridFightRefreshEliteBranchSelect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33518);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__427___SendGridFightBuyGoodsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__952___SendUnlockSkillTreeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33520);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__319___SendGetDiceCombatSystemDataReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__174___SendDeleteBlacklistCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33528);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__141___SendClockParkGetOngoingScriptInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__125___SendChessRogueQuitCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33530);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__466___SendGridFightTakeWeeklyRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__232___SendEnterTreasureDungeonCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33538);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F7F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__373___SendGetPlatformPlayerInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__848___SendStartAlleyEventCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33540);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F800);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__421___SendGetUnreleasedBlockInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__949___SendTriggerAiPamSpeakCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33548);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F808);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__677___SendRogueMagicUnitUpgradeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__268___SendFinishCurTurnCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33550);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F810);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__894___SendTarotBookUnlockInteractionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__757___SendRogueTournReEnterRogueCocoonStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33558);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F818);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__810___SendStartMatchCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__263___SendFightGiveUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33560);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F820);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__88___SendChangeTimeRewindInfoReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__250___SendFateChangeLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33568);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F828);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__947___GlobalDispatch()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__810___SendSetDisplayAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33570);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F830);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__559___SendPartialChallengeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__832___SendSetTrainWorldIdCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33578);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F838);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__674___SendRogueMagicUnitCopyReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__392___SendGetQuestRecordCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33580);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F840);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__595___SendPlayerLoginCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__968___SendUseItemGiftPackCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33588);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F848);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__633___SendReportPlayerCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__303___SendGetBattleCollegeDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33590);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F850);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__138___SendChooseBoxingClubStageOptionalBuffCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__897___SendTakeAssistRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33598);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F858);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__960___GlobalDispatchRetryCount()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__884___SendSwordTrainingLearnSkillCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F860);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__352___SendGetMainMissionCustomValueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__805___SendSetAvatarPathCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F868);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__800___SendSpecialComposeItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__133___SendChimeraDuelSaveFriendPvpLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F870);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__392___SendGetRogueAeonInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__906___SendTakeKilledPunkLordMonsterScoreCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F878);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__229___SendEvolveBuildShopAbilityDownCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__65___SendAllowStrangerVisitReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F880);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__525___SendMonopolyBuyGoodsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__710___SendRogueMagicScepterDressInUnitCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F888);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__911___SendUnlockTutorialCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__823___SendSetNickNameRsp()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F890);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__869___SendTakeOffAvatarSkinCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__617___SendPlanetFesGetFriendCardPieceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F898);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__511___SendLogisticsGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__690___SendRogueBuffEnhanceSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__872___SendTakeOffRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__770___SendRogueWorkbenchBuyMagicUnitReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__266___SendFinishPlotCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__220___SendEnterFightActivityStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__449___SendGridFightLockShopCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__983___TryRecoverPingOnReApplyGlobalDispatch()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x335F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__588___SendPlanetFesTakeQuestRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__159___SendCloseRelicAffixHightLightReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33600);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__119___SendChessRogueQueryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1000___AlreadyLogin()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33608);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__346___SendGetLevelRewardReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__376___SendGetOrigamiPropInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33610);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__762___SendSetBoxingClubResonanceLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__891___SendSyncClientResVersionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33618);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__452___SendGridFightRecycleRoleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__736___SendRogueTournEnableSeasonTalentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33620);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__703___SendRogueTournGetSeasonTalentInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__480___SendGridFightUpdateGameRef()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33628);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__772___SendSetGenderRsp()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__294___SendGetAllRedDotDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33630);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__561___SendPlanetFesAvatarLevelUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__141___SendChimeraStartEndlessCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33638);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F8F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__816___SendStartTrackPhotoStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__585___SendMonopolyScrachRaffleTicketCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33640);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F900);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__199___SendElfRestaurantUpgradeEmployeeLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__210___SendEndDrinkMakerSequenceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33648);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F908);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__336___SendGetFriendAssistListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__874___SendSwitchHandFinishCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33650);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F910);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__102___SendChenLingRefreshPolicyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__142___SendChooseBoxingClubResonanceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33658);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F918);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__443___SendGridFightHandleRerollSupplyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__77___SendCakeRaceGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33660);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F920);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__395___SendGetRogueHandbookDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__717___SendRogueMagicUnitComposeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33668);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F928);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__747___SendSearchPlayerCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__161___SendCmdLockEquipmentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33670);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F930);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__562___SendPlanetFesBingoGameFlipCardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__490___SendHeartDialTraceScriptCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33678);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F938);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__790___SendSetTurnFoodSwitchCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__368___SendGetMissionStatusCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33680);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F940);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__632___SendRemoveStuffFromAreaCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__928___SendTakeRollShopRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33688);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F948);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__823___SendSubmitOrigamiItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__785___SendSceneCheckpointRefreshMonsterReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33690);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F950);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__685___SendRogueModifierSelectCellCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__625___SendPlanetFesSetCustomKeyValueCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33698);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F958);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__953___DisableLogoutDialog()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__102___SendChenLingGameBoyGetFriendRankingInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F960);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__314___SendGetCurLineupDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__382___SendGetPlayerBoardDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F968);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__598___SendPlayerReturnInfoQueryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__282___SendGetActivityActiveDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F970);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__755___SendSendMsgCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__821___SendSetLineupNameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F978);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__424___SendGiveUpBoxingClubChallengeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__579___SendMonopolyGuessChooseCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F980);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__247___SendFateShopBuyGoodsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__175___SendDeleteFriendCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F988);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__384___SendGetQuestRecordCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__783___SendSceneCastSkillCostMpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F990);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__258___SendFinishChessRogueSubStoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__971___SetEnableReconnect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F998);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__534___SendMonopolyGetDailyInitItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__712___SendRogueMagicScepterSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__863___SendTakeFightActivityRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__264___SendFinishAeonDialogueGroupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__798___SendSpaceZooOpCatteryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__406___SendGetRollShopInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__761___SendSetAvatarPathCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__121___SendChessRogueLeaveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x336F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__488___SendInteractChargerCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__145___SendClientObjUploadCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33700);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__153___SendCloseAvatarLookAtReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__200___SendElfRestaurantBuyShopItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33708);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__682___SendRogueMiracleRepairReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__603___SendPlanetFesBusinessDayRefreshEventCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33710);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__831___SendSwitchHandFinishCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__91___SendChangeLineupLeaderCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33718);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__580___SendPlanetFesGetOfferedCardPieceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__797___SendSelectRogueBonusReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33720);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__610___SendQuitRogueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__373___SendGetMultipleDropInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33728);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__305___SendGetChatFriendHistoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__699___SendRogueFormulaSelectRollReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33730);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__107___SendChenLingStartStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__682___SendResetRogueDiceSurfaceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33738);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1F9F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__54___SendAetherDivideSpiritExpUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__345___SendGetFriendBattleRecordDetailCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33740);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__880___SendTakeRogueAeonLevelRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__867___SendSummonPetCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33748);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__717___SendRogueTournSettleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__444___SendGridFightGetOrb()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33750);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__122___SendChessRogueRollDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__209___SendElfRestaurantUpgradeRecipeLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33758);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__543___SendMonopolyReRollRandomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__932___SendTarotBookFinishStoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33760);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__44___RestartSyncTime()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__411___SendGetShopListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33768);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__719___SendRogueTournStartCsReqWeekChallenge()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__925___SendTakeRogueEndlessActivityPointRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33770);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__348___SendGetLocalLegendDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__641___SendPlayerReturnTakeRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33778);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__679___SendRogueMiracleDestoryReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__251___SendFateHouguSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33780);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__207___SendEnterChessRogueAeonRoomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__776___SendRogueWorkBenchLevelUpMagicScepterReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33788);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__812___SendStartQuickFarmElementReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__67___SendAvatarExpUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33790);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__730___SendRogueWorkbenchGetInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__449___SendGridFightHandleMonsterSetHp()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33798);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__142___SendClockParkHandleWaitFinishStoryOperationCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__57___SendAddRelicFilterPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__75___SendCakeRaceLikeFriendRankingInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__853___SendStartMatchCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__244___SendFateQueryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__359___SendGetMailCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__526___SendMonopolyCheatDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__791___SendSearchPlayerCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__159___SendCocoonSweepCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__663___SendRelicPresetDeletePlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__820___SendSubmitEmotionItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1003___DispatchKey()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__705___SendRogueTournLeaveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__405___SendGetRogueTalentInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__649___SendRogueBuffWorkbenchReforgeSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__560___SendMatchThreeSetBirdPosCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FA98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__326___SendGetFightActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__10___DailyFirstMeetPamCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__635___SendReserveStaminaExchangeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__491___SendHeliobusActivityDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__704___SendRogueTournGetSettleInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__705___SendRogueMagicEnterRoomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__643___SendRogueArcadeRestartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__118___SendChessRogueEnterCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x337F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__40___RequestGetAuthKey()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__956___SendUpdateFiveDimGameDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33800);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__178___SendDiceCombatUpgradeAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__134___SendChimeraDuelSetFriendDefendLineupCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33808);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__284___SendGetAllActivityRewardCountDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__316___SendGetChessRogueStoryInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33810);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__62___SendAvatarExpUpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__101___SendChenLingGameBoyChangeSettingsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33818);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__328___SendGetFirstTalkByPerformanceNpcCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__800___SendSetAetherDivideLineUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33820);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__795___SendSpaceZooDeleteCatCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__655___SendRankUpEquipmentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33828);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__895___SendTarotBookUnlockStoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__912___SendTakeOffEquipmentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33830);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__796___SendSpaceZooExchangeItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__600___SendPlanetFesAvatarLevelUpCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33838);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FAF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__890___SendTarotBookFinishStoryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__191___SendDisplayDiaryReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33840);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__52___SendAddBlacklistCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__813___SendSetFriendRemarkNameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33848);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__835___SendSwitchHandStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__807___SendSetChenLingGameBoyCheatCodeInputStatusCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33850);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__884___SendTakeRogueRandomEventHandbookReward()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__924___SendTakeRogueEndlessActivityAllBonusRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33858);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__514___SendMarkItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__20___GetRndOptionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33860);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__678___SendRogueMiracleComposeSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__601___SendPlanetFesBingoGameFlipCardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33868);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__866___SendTakeMailAttachmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__429___SendGetVideoVersionKeyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33870);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__725___SendRogueWorkbenchBuyMagicScepterReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__614___SendPlanetFesGetAvatarStatCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33878);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__550___SendMonopolyUpgradeAssetCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__504___SendIdleLiveFinishFinalActCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33880);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__254___SendFightGameStateCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__111___SendChenLingSellHandCardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33888);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__462___SendGridFightSelectRoleInForgeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__927___SendTakeRogueRandomEventHandbookReward()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33890);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__364___SendGetMonopolyMbtiReportRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__881___SendSwordTrainingDailyPhaseConfirmCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33898);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__828___SendSwitchHandCatchItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__479___SendGridFightUpdateEquipTrackPriorityCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__477___SendHandleFriendCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__645___SendPromoteAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__140___SendClientObjUploadCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__27___InitRefreshRttTimer()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__506___SendLobbyKickOutCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__453___SendGridFightHandleRoundBegin()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__303___SendGetChallengeGroupStatisticsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__25___Init()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__710___SendRogueTournPersonaStyleGiftSelectRollReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__171___SendCycleScoreRewardTakeRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__106___SendChenLingSellHandCardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__114___SendChenLingUseHandCardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__859___SendTakeChallengeRaidRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__470___SendGridFightSelectRoleInForgeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FB98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__402___SendGetSaveRaid()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__994___IsRecommandServerSet()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__904___SendTravelBrochureSetCustomValueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__324___SendGetCurSceneInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__21___Init()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__513___SendIdleLiveHandlePendingEquipReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__206___SendEnterChallengeNextPhaseCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__678___SendRerollPortalBuffSelect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x338F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__193___SendElfRestaurantClientStatusCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__713___SendRogueMagicScepterTakeOffUnitCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33900);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__135___SendChimeraRoundWorkStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__358___SendGetLoginChatInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33908);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__740___SendSceneCastSkillCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__319___SendGetCurAssistCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33910);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__634___SendRerollPortalBuffSelect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__871___SendSwitchHandCatchItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33918);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__758___SendSetAssistAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__901___SendTakeChallengeRaidRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33920);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__340___SendGetFriendRecommendListInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__495___SendHeliobusSnsPostCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33928);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__586___SendPlanetFesSetCustomKeyValueCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__711___SendRogueMagicScepterReplaceReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33930);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__774___SendSetGrowthTargetAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__923___SendTakeRogueAeonLevelRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33938);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FBF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__701___SendRogueTournGetMiscRealTimeDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__915___SendTakePictureScRsp()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33940);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__343___SendGetHeartDialInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__329___SendGetEraFlipperDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33948);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__440___SendGridFightHandleEliteBranchSelect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__164___SendCocoonSweepCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33950);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__629___SendRelicSmartWearUpdatePinRelicCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__630___SendPlanetFesUpgradeSkillLevelCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33958);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__538___SendMonopolyGiveUpCurContentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__602___SendPlanetFesBonusEventInteractCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33960);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__714___SendRogueTournRenameArchiveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__581___SendMonopolyMoveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33968);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__969___PerformanceReplayWhiteListCmd()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__583___SendMonopolyRollDiceCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33970);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__192___SendElfRestaurantBuyShopItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__212___SendEnterActivityStrongChallengeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33978);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC38);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__644___SendRogueArcadeStartCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__694___SendRogueDestoryedMiracleSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33980);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC40);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__512___SendMarkAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__3___ChangeReconnectStrategy()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33988);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC48);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__451___SendGridFightQuitSettleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__606___SendPlanetFesChooseAvatarEventOptionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33990);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC50);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__363___SendGetMonopolyInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__72___SendBuyGoodsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33998);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC58);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__913___SendUpdateAiPamSettingsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__4___CheckConnectFromBack()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339A0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC60);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__287___SendGetAllRedDotDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__389___SendGetPunkLordDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339A8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC68);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__826___SendSwapLineupCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__830___SendSettleElfRestaurantPlayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339B0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC70);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__544___SendMonopolyRollDiceCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__369___SendGetMonopolyDailyReportCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339B8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC78);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__200___SendElfRestaurantUpgradeFacilityLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__213___SendEnterAetherDivideSceneCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339C0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC80);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__624___SendRelicSmartWearAddPlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__714___SendRogueMagicSetAutoDressInMagicUnitCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339C8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC88);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__739___SendSceneCastSkillCostMpCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__35___OnClientConnected()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339D0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC90);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__196___SendElfRestaurantPlantSeedCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__61___SendAlleyPlacingGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339D8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FC98);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__315___SendGetCurLineupDataCsReqIgnoreBlock()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__612___SendPlanetFesDoGachaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339E0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCA0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__910___SendUnlockSkillTreeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__653___SendRaidCollectionDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339E8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCA8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__777___SendSetLanguageReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__201___SendElfRestaurantClientStatusCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339F0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCB0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__485___SendHeliobusSnsReadCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__296___SendGetAllServerPrefsDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x339F8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCB8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__86___SendChangeLineupLeaderCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__692___SendRogueBuffSelectRollReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCC0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__746___SendSceneUpdatePositionVersionNotify()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__16___FetchServerDispatchInfo()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCC8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__737___SendRotateMapCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__559___SendMatchThreeLevelEndCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCD0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__670___SendRogueMagicSetAutoDressInMagicUnitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__842___SendSpaceZooTakeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCD8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__453___SendGridFightRefreshEliteBranchSelect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__803___SendSetAssistCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCE0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__465___SendGridFightSummonProjectionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__477___SendGridFightUpdateEliteBranchSelect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCE8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__804___SendStartAetherDivideStageBattleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__30___IsConnected()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCF0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__338___SendGetFriendDevelopmentInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__790___SendSceneUpdatePositionVersionNotify()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FCF8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__658___SendRogueMagicEnableTalentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__216___SendEnterElationActivityStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD00);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__59___SendAlleyPlacingGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__574___SendMonopolyGetRafflePoolInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD08);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__245___SendFateReijuSelectConfirmReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__589___SendMonopolyUpgradeAssetCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD10);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__967___Instance()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__138___SendChimeraGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD18);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__486___SendHeliobusStartRaidCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__398___SendGetReplayTokenCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD20);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__189___SendDressAvatarSkinCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__957___SendUpdateGroupPropertyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD28);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__552___SendMuseumRandomEventQueryCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__177___SendDeleteSocialEventServerCacheCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD30);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__524___SendMonopolyAcceptQuizCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__669___SendRelicSmartWearDeletePinRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD38);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__109___SendChenLingSelectCardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD40);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__474___SendGridFightSummonProjectionCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD48);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__777___SendRogueWorkbenchReforgeBuffReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD50);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__361___SendGetMapRotationDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD58);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__916___SendTakePrestigeRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD60);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__48___RestartSyncTime()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD68);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__300___SendGetAvatarDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD70);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__104___SendChenLingMoveEntityCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD78);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__307___SendGetBigDataRecommendForRelicSuitCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD80);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__554___SendMarkModifyRelicFilterPlanCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD88);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__531___SendIsFarmStageAutoAddStaminaChangeReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD90);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__135___SendChimeraDuelUnlockMasterCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FD98);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__23___GetUIntLocalIPAddress()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDA0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__254___SendFateReijuSelectRerollReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDA8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__541___SendLightConeRarity4AutoLockReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDB0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__311___SendGetChatEmojiListCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDB8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__974___SetUploadData()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDC0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__243___SendExchangeGachaCeilingCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDC8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__218___SendEnterEraFlipperDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDD0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__772___SendRogueWorkbenchComposeMiracleReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDD8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__633___SendPlayerGetTokenCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDE0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__588___SendMonopolyTakeRaffleTicketRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDE8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__680___SendResetEraFlipperDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDF0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__814___SendSetGachaDecideItemCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FDF8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__26___InitNetConfig()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE00);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__646___SendPromoteEquipmentCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE08);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__864___SendSubmitMaterialSubmitActivityMaterialCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE10);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__938___SendTeamAssociationStateChangeReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE18);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__563___SendMonopolyAcceptQuizCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE20);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__33___LocalIPAddress()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE28);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__404___SendGetRogueInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE30);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__41___PlayerReturnTakeCustomRelicCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE38);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__476___SendGridFightTrackTrait()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE40);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__331___SendGetFantasticStoryActivityDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE48);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__80___SendCakeRaceLikeFriendRankingInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE50);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__975___ShouldWaitForPing()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE58);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__321___SendGetCurChallengeCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE60);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__960___SendUpdateRogueAdventureRoomScoreCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE68);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__896___SendTakeApRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE70);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__362___SendGetMarkChestCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE78);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__465___SendGridFightResetSeasonTalent()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE80);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__773___SendRogueWorkbenchEnhanceBuffReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE88);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__432___SendGridFightBuyExpCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE90);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__750___SendRogueTournLeaveRogueCocoonSceneCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FE98);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__155___SendClockParkUnlockTalentCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEA0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__734___SendRogueTournDeleteArchiveCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEA8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__372___SendGetMonopolyMbtiReportRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEB0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__586___SendMonopolySelectOptionCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEB8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__525___SendIdleLiveUpdateLiveRoomTitleCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEC0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__172___SendDailyFirstEnterMonopolyActivityCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEC8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__819___SendSetIsDisplayAvatarInfoReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FED0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__815___SendSetGameplayBirthdayCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FED8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__90___SendChangeEraFlipperDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEE0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__428___SendGetUpdatedArchiveDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEE8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__17___GetConnectState()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEF0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__460___SendGridFightRecycleRoleCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FEF8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__737___SendRogueTournEnterCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF00);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__837___SendSpaceZooDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF08);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__241___SendEvolveBuildStartLevelCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF10);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__908___SendTakeMailAttachmentCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF18);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__180___SendDeployRotatorCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF20);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__652___SendQuitTreasureDungeonCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF28);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__18___GetGameFormations()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF30);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__904___SendTakeEventRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF38);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__281___SendGameStateServiceConfigCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF40);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__675___SendRemoveRotatorCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF48);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__357___SendGetLoginActivityCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF50);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__578___SendMonopolyGuessBuyInformationCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF58);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__843___SendSpecialComposeItemCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF60);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__100___SendChenLingFinishShopCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF68);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__507___SendIdleLiveFinishNodeEventCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF70);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__452___SendGridFightHandleReturnPreparation()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF78);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__637___SendPlayerReturnInfoQueryCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF80);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__383___SendGetPlayerDetailInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF88);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__998___ServerDispatchErrorCode()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF90);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__375___SendGetOfferingInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FF98);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__150___SendClockParkHandleWaitMovieGameOperationCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFA0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__248___SendExpUpRelicCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFA8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__395___SendGetRechargeGiftInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFB0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__266___SendFinishChessRogueSubStoryCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFB8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__569___SendMonopolyEventSelectFriendCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFC0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__60___SendAiPamResponseFeedbackCommentCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFC8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__959___SendUpdatePlayWithPsnOnlySettingCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFD0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__755___SendRogueTournPersonaStyleSelectReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFD8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__514___SendIdleLiveManualFinishQuestionCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFE0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__857___SendStartRogueCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFE8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__771___SendRogueWorkbenchComposeMagicUnitReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFF0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__249___SendFarmElementSweepCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x1FFF8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__178___SendDeleteSummonUnitCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20000);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__289___SendGetAiPamChatHistoryCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20008);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__706___SendRogueMagicGetMiscRealTimeDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20010);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__363___SendGetMarkItemListCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20018);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__167___SendCounterDownCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20020);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__153___SendClockParkQuitScriptCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20028);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__599___SendPlanetFesApplyCardPieceCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20030);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__381___SendGetPlatformPlayerInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20038);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__127___SendChessRogueRollDiceCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20040);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__292___SendGetAlleyInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20048);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__595___SendOpenTreasureDungeonGridCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20050);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__350___SendGetGachaInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20058);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__661___SendRelicCocoonInfoReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20060);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__99___SendChenLingFinishPrepareCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20068);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__113___SendChenLingUnlockGridCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20070);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__885___SendSwordTrainingMarkEndingViewedCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20078);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__151___SendClockParkHandleWaitPlaceDiceOperationCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20080);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__58___SendAetherDivideSpiritExpUpCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20088);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__991___GlobalDispatch()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20090);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__677___SendReportPlayerCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20098);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__670___SendRelicSmartWearDeletePlanCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200A0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__639___SendPlayerReturnTakePointRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200A8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__365___SendGetMazeInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200B0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__607___SendPlanetFesClientStatusCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200B8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__206___SendElfRestaurantTakeVillagerRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200C0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__804___SendSetAvatarEnhancedIdCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200C8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__745___SendRogueTournGetMiscRealTimeDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200D0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__587___SendMonopolyTakePhaseRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200D8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__518___SendIdleLiveStartNodeBattleCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200E0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__836___SendSpaceZooBornCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200E8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__198___SendDressRelicAvatarCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200F0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__451___SendGridFightHandleRerollSupplyCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x200F8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__708___SendRogueMagicQueryCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20100);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__930___SendTakeTrialActivityRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20108);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__919___SendTakeQuestOptionalRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20110);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__49___SaveLogisticsCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20118);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__235___SendEvolveBuildQueryInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20120);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__246___SendExchangeStaminaCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20128);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__627___SendPlanetFesTakeQuestRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20130);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__987___UpdateMovieRacingDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20138);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__424___SendGetTutorialCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20140);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__523___SendIdleLiveTakeTaskRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20148);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__681___SendResetMapRotationRegionCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20150);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__275___SendFinishRogueCommonDialogueCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20158);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__288___SendGetAetherDivideInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20160);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__640___SendPlayerReturnTakeRelicCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20168);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__547___SendLobbyQuitCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20170);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__911___SendTakeOffAvatarSkinCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20178);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__337___SendGetFirstTalkNpcCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20180);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__370___SendGetMonopolyFriendRankingListCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20188);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__71___SendBuyBpLevelCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20190);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__894___SendTakeAllApRewardCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20198);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__792___SendSelectChatBubbleCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201A0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__312___SendGetChatFriendHistoryCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201A8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__859___SendStartTrackPhotoStageCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201B0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__558___SendMatchThreeGetDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201B8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__716___SendRogueMagicStartCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201C0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__214___SendEnterChallengeNextPhaseCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201C8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__937___SendTarotBookUnlockStoryCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201D0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__9___ContainsDispatchUrl()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201D8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__687___SendRogueArcadeRestartCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201E0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__527___SendInteractChargerCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201E8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__685___SendRogueArcadeGetInfoCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201F0);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__582___SendMonopolyReRollRandomCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x201F8);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__847___SendStartAetherDivideStageBattleCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20200);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__643___SendPrepareRogueAdventureRoomCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20208);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__619___SendPlanetFesGetOfferedCardPieceCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20210);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__122___SendChessRogueNousEditDiceCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20218);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__96___SendChenLingClientStartBattleCsNotify()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20220);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__103___SendChenLingHandlePendingActionsCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20228);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__801___SendSetAllowOtherApplyFriendCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20230);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__962___SendUpdateTrackMainMissionCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20238);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__391___SendGetQuestDataCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20240);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__119___SendChessRogueEnterNextLayerCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20248);
+	}
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__851___SendStartChallengeCsReq()
+	{
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20250);
 	}
 	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__0____RefreshRtt()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20258);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__957___ServerLoginRandomNum()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1005___GlobalDispatchTimeout()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20260);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__706___SendRogueTournLeaveRogueCocoonSceneCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__166___SendComposeSelectedRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20268);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__579___SendPlanetFesGetFriendRankingInfoListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__888___SendSwordTrainingSelectEndingCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33A98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20270);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__34___OnFirstLoadingFinish()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__347___SendGetFriendListInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20278);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__246___SendFateReijuSelectRerollReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__528___SendInteractPropCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20280);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__233___SendEvolveBuildStartLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__183___SendDiceCombatFinishPveStageCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20288);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__602___SendPlayerReturnTakeRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__917___SendTakePromotionRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20290);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__411___SendGetSwordTrainingDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__997___DisableLogoutDialog()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20298);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__437___SendGridFightGetDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__973___SetIgnoreBlockCMD()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__173___SendDestroyItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__515___SendIdleLiveOpenChestReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__832___SendSwitchHandLiftCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__673___SendRelicSmartWearUpdatePinRelicCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__508___SendLobbyQuitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__667___SendRelicReforgeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__123___SendChessRogueSelectCellCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__425___SendGetTutorialGuideCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__19___GetUIntLocalIPAddress()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__87___SendCancelMatchCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__12___EnableUserRetryReconnect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__702___SendRogueMagicEnableTalentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33AF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__476___SendGroupStateChangeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__512___SendIdleLiveGetStatisticCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__14___GetConnectState()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__144___SendClearAetherDividePassiveSkillCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__497___SendLeaveFiveDimGameCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__343___SendGetFriendApplyListInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__905___SendTravelBrochureSetPageDescStatusCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__83___SendCakeRaceUpdatePveMeetCatCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__671___SendRogueMagicSettleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__309___SendGetChallengeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x202F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__369___SendGetPamSkinDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__749___SendRogueTournLeaveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20300);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__234___SendEvolveBuildStartStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__394___SendGetReceivedTalkEventsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20308);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__257___SendFinishChenLingGameBoyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__202___SendElfRestaurantFinishTradeOrderCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20310);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__741___SendSceneCheckpointRefreshMonsterReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__689___SendRogueBuffDropReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20318);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__197___SendElfRestaurantRecycleSeedCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__536___SendLeaveFiveDimGameCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20320);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__66___SendBuyBpLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__287___SendGetAetherDivideChallengeInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20328);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__170___SendDeleteSummonUnitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__503___SendIdleLiveEndDungeonCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20330);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__545___SendMonopolyRollRandomCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__403___SendGetRogueHandbookDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20338);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__797___SendSpaceZooMutateCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__746___SendRogueTournGetPermanentTalentInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20340);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__728___SendRogueWorkbenchComposeMiracleReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__22___GetStringUrlByUrl()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20348);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__523___SendMazeKillDirectCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__621___SendPlanetFesHandleCardPieceApplyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20350);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__83___SendCancelRechargeItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__197___SendDressAvatarSkinCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20358);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__513___SendMarkChatEmojiCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__189___SendDisplayBirthdayReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20360);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__745___SendSceneStageBattleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__430___SendGiveUpBoxingClubChallengeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20368);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__702___SendRogueTournGetPermanentTalentInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__195___SendDoGachaInRollShopCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33B98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20370);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__530___SendMonopolyEventSelectFriendCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__575___SendMonopolyGetRaffleTicketCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20378);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__131___SendChimeraFinishEndlessRoundCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__787___SendSceneMonsterAddRep()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20380);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__722___SendRogueTournTitanBlessSelectRollReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__323___SendGetCurLineupDataCsReqIgnoreBlock()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20388);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__366___SendGetMuseumInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__782___SendRougeTournRenameBuildRefCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20390);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__415___SendGetTrainVisitorRegisterCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__310___SendGetChallengeGroupStatisticsCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20398);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__238___SendExchangeStaminaCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__999___ServerDispatchData()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__360___SendGetMissionStatusCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__407___SendGetSaveLogisticsMapCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__927___SendUseTreasureDungeonItemCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__820___SendSetLanguageReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__160___SendComposeItem()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__410___SendGetShareDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__356___SendGetMaterialSubmitActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__743___SendRogueTournGetArchiveRepositoryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__618___SendReEnterLastElementStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__244___SendExchangeHcoinCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__431___SendGridFightEnterBattleStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__538___SendLeaveRaidCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33BF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__760___SendSetAvatarEnhancedIdCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1009___ForbidBlockFlags()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__698___SendRogueTournGetAllBuildRefCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__84___SendCakeRaceUseBattleItemPveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__334___SendGetFiveDimMoneyDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__660___SendReliableRequest()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__799___SendSpaceZooTakeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__379___SendGetPhoneDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__109___SendChenLingUseHandCardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__648___SendQuitBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x203F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__695___SendRogueTournEnterRogueCocoonSceneCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__463___SendGridFightRerollAugment()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20400);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__504___SendLobbyInviteCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__676___SendRemoveStuffFromAreaCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20408);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__839___SendSwordTrainingDialogueSelectOptionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__408___SendGetSaveRaid()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20410);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__413___SendGetTelevisionActivityDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__909___SendTakeMaterialSubmitActivityRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20418);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__168___SendDeleteRelicFilterPlanCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__850___SendStartBoxingClubBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20420);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__662___SendRogueMagicGetMiscRealTimeDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__482___SendGridFightUpdateTraitElation()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20428);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__848___SendSyncClientResVersionCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__274___SendFinishPlotCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20430);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__676___SendRogueMagicUnitSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__647___SendPVEBattleResultCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20438);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__690___SendRogueTournDeleteArchiveCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__97___SendChenLingClientStatusChangeCsNotify()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20440);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__450___SendGridFightQuitLeaveGamePlayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__115___SendChessRogueCheatRollCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20448);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__607___SendPVEBattleResultCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__977___StartLogin()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20450);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__104___SendChenLingSelectCardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__878___SendSwitchHandStartCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20458);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__834___SendSwitchHandResetTransformCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__51___SendAcceptMainMissionCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20460);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__433___SendGridFightEquipDressCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__401___SendGetRogueCommonDialogueDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20468);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__744___SendSceneReviveAfterRebattleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__691___SendRogueBuffSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33C98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20470);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__292___SendGetAssistListCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__143___SendChooseBoxingClubStageOptionalBuffCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20478);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__68___SendBuyNpcStuffCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__703___SendRogueMagicEnterCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20480);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__438___SendGridFightGetOrb()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__598___SendPartialChallengeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20488);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__33___OnConnectionBreak()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__522___SendIdleLiveTakeQuestEquipCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20490);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__654___SendRogueFormulaSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__1004___GlobalDispatchRetryCount()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20498);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__165___SendDeactivateFarmElementCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__828___SendSetSignatureCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__527___SendMonopolyClickCellCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__759___SendRogueTournResetPermanentTalentCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__665___SendRogueMagicReviveAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__509___SendIdleLiveGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__827___SendSwitchAetherDivideLineUpSlotCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__659___SendRefreshTriggerEntityListReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__188___SendDressAvatarCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__327___SendGetDiceCombatSystemDataReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__312___SendGetCurBattleInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__227___SendEnterRogueMapRoomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__850___SendTakeActiveActivityRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__217___SendEnterElfRestaurantNextDayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33CF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__167___SendDeleteFriendCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__845___SendStartAetherDivideChallengeBattleCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__803___SendStartAetherDivideSceneBattleCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__796___SendSelectPhoneThemeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__327___SendGetFightFestDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__158___SendCloseAvatarLookAtReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__809___SendStartLocalLegendLevelCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__188___SendDiscardRelicCSReqByList()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__779___SendSetMultipleAvatarPathsCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__494___SendHeliobusSnsLikeCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x204F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__251___SendFateShopSellBuffCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__758___SendRogueTournRenameArchiveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20500);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__949___RecommendServer()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__315___SendGetChessRogueStoryAeonTalkInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20508);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__94___SendChenLingFinishPrepareCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__53___SendActiveEidolonCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20510);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__313___SendGetCurChallengeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__341___SendGetFiveDimMoneyCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20518);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__743___SendSceneMonsterAddRep()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__875___SendSwitchHandLiftCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20520);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__10___Dispose()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__342___SendGetFiveDimMoneyDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20528);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__321___SendGetEraFlipperDataCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__21___GetServerLatency()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20530);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__965___ForbidBlockFlags()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__466___SendGridFightResumeGamePlayCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20538);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__883___SendTakeRogueMiracleHandbookReward()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__760___SendRogueTournReviveAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20540);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__918___SendUpdateRogueAdventureRoomScoreCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__584___SendMonopolyRollRandomCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20548);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__108___SendChenLingUnlockGridCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__380___SendGetPlanetFesDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D78);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20550);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__49___SendActiveEidolonCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__190___SendDisplayCollectionReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D80);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20558);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__239___SendExpUpEquipmentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__355___SendGetLineupAvatarDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D88);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20560);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__329___SendGetFirstTalkNpcCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__186___SendDiceCombatUpgradeAvatarCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D90);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20568);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__707___SendRogueTournPersonaRoomSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__443___SendGridFightGetDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33D98);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20570);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__455___SendGridFightRerollAugment()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__686___SendRogueArcadeLeaveCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DA0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20578);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__961___GlobalDispatchTimeout()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__414___SendGetStoryLineInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DA8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20580);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__110___SendChessRogueCheatRollCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__765___SendRogueTournTitanBlessSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DB0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20588);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__692___SendRogueTournEnableSeasonTalentCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__666___SendRelicReforgeConfirmCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DB8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20590);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__103___SendChenLingRefreshShopReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__31___IsEnableReconnect()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DC0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20598);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__711___SendRogueTournPersonaStyleSelectReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__618___SendPlanetFesGetFriendRankingInfoListCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DC8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205A0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__727___SendRogueWorkbenchComposeMagicUnitReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__775___SendRogueWorkbenchHexEquipmentReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DD0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205A8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__55___SendAetherDivideTakeChallengeRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__774___SendRogueWorkbenchGetInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DD8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205B0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__333___SendGetFiveDimMoneyCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__349___SendGetGachaCeilingCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DE0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205B8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__787___SendSettleElfRestaurantPlayCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__506___SendIdleLiveFinishNodeBattleQuitCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DE8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205C0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__611___SendQuitTrackPhotoStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__106___SendChenLingRefreshCardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DF0);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205C8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__120___SendChessRogueQuitCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__824___SendSetPersonalCardCSReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33DF8);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205D0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__858___SendTakeChallengeCumulativeRewardCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__546___SendLobbyModifyPlayerInfoCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E00);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205D8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__403___SendGetSecretKeyInfo()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__524___SendIdleLiveUpdateLiveRoomIconCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E08);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205E0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__478___SendHeadFrameDisplayStateChangeReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__272___SendFinishFiveDimFluteCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E10);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205E8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__620___SendReliableRequest()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__970___SendWorldUnlockCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E18);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205F0);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__929___SetEnableReconnect()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__160___SendCmdFinishQuestCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E20);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x205F8);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__535___SendMonopolyGetRafflePoolInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__753___SendRogueTournPersonaStyleGiftSelectReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E28);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20600);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__222___SendEnterSummonActivityStageCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__390___SendGetPunkLordMonsterDataCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E30);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20608);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__204___SendEnterActivityStrongChallengeCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__920___SendTakeQuestRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E38);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20610);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__738___SendRougeTournRenameBuildRefCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__591___SendMuseumRandomEventQueryCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E40);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20618);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__554___SendNewSupplementVisitorCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__154___SendClockParkStartScriptCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E48);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20620);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__406___SendGetSocialEventServerCacheCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__5___CheckServerStatus()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E50);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20628);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__5___CloseClient()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__866___SendSubmitOrigamiItemCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E58);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20630);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__898___SendTrainVisitorBehaviorFinishCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__562___SendMazeKillDirectCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E60);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20638);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__792___SendSharePunkLordMonsterCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__812___SendSetFriendMarkCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E68);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20640);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__301___SendGetBoxingClubInfoCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__672___SendRelicSmartWearGetPlanCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E70);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20648);
 	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__225___SendEquipAetherDividePassiveSkillCsReq()
+	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__261___SendFateTakeExpRewardCsReq()
 	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E78);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__817___SendStartTrialActivityCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E80);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__663___SendRogueMagicLeaveCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E88);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__721___SendRogueTournTitanBlessSelectReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E90);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__531___SendMonopolyGameBingoFlipCardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33E98);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__22___InitNetConfig()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EA0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__219___SendEnterRogueMapRoomCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EA8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__151___SendClockParkUseBuffCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EB0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__825___SendSummonPunkLordMonsterCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EB8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__648___SendRogueBuffSelectRollReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EC0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__925___SendUseItemFoodCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EC8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__414___SendGetTrackPhotoActivityDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33ED0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__640___SendRestartChallengePhaseCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33ED8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__379___SendGetPrivateChatHistoryCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EE0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__540___SendMonopolyGuessChooseCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EE8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__26___IsConnected()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EF0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__342___SendGetGachaInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33EF8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__566___SendPlanetFesChangeCardPieceApplyPermissionCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F00);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__874___SendTakePrestigeRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F08);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__879___SendTakeRechargeGiftRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F10);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__700___SendRogueTournGetCurRogueCocoonInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F18);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__878___SendTakeQuestRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F20);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__813___SendStartRaidCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F28);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__467___SendGridFightTrackTrait()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F30);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__98___SendChenLingHandlePendingActionsCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F38);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__28___IsProcessPacketsFrameBudgetWork()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F40);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__302___SendGetChallengeCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F48);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__347___SendGetLineupAvatarDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F50);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__185___SendDisplayRecordReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F58);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__408___SendGetStoryLineInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F60);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__941___TryRecoverPingOnReApplyGlobalDispatch()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F68);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__146___SendClockParkHandleWaitPlaceDiceOperationCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F70);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__625___SendRelicSmartWearDeletePinRelicCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F78);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__2___ChangeReconnectStrategy()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F80);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__37___PlayerReturnTakeCustomRelicCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F88);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__93___SendChenLingFinishBattleCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F90);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__365___SendGetMultipleDropInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33F98);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__383___SendGetQuestDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FA0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__124___SendChessRogueSkipTeachingLevelCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FA8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__377___SendGetPreAvataActivityListCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FB0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__547___SendMonopolySelectOptionCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FB8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__367___SendGetOfferingInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FC0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__58___SendAiPamTeamExplainCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FC8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__7___ContainsDispatchUrl()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FD0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__111___SendChessRogueConfirmRollCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FD8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__394___SendGetRogueEndlessActivityDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FE0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__773___SendSetGroupCustomSaveDataScReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FE8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__139___SendClearAetherDividePassiveSkillCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FF0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__385___SendGetRaidInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x33FF8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__84___SendCancelSyncExpiredItemCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34000);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__264___SendFinishFiveDimFluteCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34008);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__856___SendTakeBenefitActivityRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34010);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__807___SendStartBoxingClubBattleCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34018);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__325___SendGetFeverTimeActivityDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34020);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__708___SendRogueTournPersonaRoomSelectRerollReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34028);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__844___SendSwordTrainingResumeGameCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34030);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__887___SendTakeTrainVisitorBehaviorRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34038);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__495___SendLeaveAetherDivideSceneCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34040);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__243___SendFateHouguSelectReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34048);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__169___SendDeleteSocialEventServerCacheCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34050);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__608___SendQuitBattleCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34058);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__152___SendClockParkWaitSelectStartChapterID()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34060);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__641___SendRogueArcadeGetInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34068);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__776___SendSetIsDisplayAvatarInfoReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34070);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__549___SendMonopolyTakeRaffleTicketRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34078);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__642___SendRogueArcadeLeaveCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34080);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__248___SendFateShopLeaveCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34088);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__922___SendUpgradeAreaStatCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34090);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__114___SendChessRogueEnterNextLayerCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34098);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__924___SendUseItemCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340A0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__293___SendGetAvatarDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340A8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__201___SendElfRestaurantUpgradeRecipeLevelCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340B0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__359___SendGetMissionDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340B8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__82___SendCancelMatchCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340C0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__186___SendDoGachaCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340C8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__959___DispatchKey()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340D0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__860___SendTakeCityShopRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340D8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__723___SendRogueTournTriggerRoomSelectCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340E0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__298___SendGetBigDataRecommendCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340E8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__867___SendTakeMaterialSubmitActivityRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340F0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__43___ResetForbidSendDuringLogin()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x340F8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__274___SendGetActivityActiveDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34100);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__232___SendEvolveBuildSkipTeachLevelCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34108);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__646___SendRogueBuffEnhanceSelectReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34110);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__184___SendDisplayOnlineStatusReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34118);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__768___SendSetFriendMarkCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34120);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__842___SendSwordTrainingMarkEndingViewedCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34128);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__164___SendDailyFirstEnterMonopolyActivityCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34130);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__851___SendTakeAllApRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34138);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__420___SendGetUnlockTeleportCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34140);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__279___SendGetAetherDivideChallengeInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34148);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__187___SendDoGachaInRollShopCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34150);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__180___SendDiscardRelicCSReqByList()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34158);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__432___SendGridFightEquipCraftCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34160);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__101___SendChenLingRefreshCardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34168);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__715___SendRogueTournResetPermanentTalentCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34170);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__600___SendPlayerReturnTakePointRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34178);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__211___SendEnterFeverTimeActivityStageCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34180);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__474___SendGridFightUseConsumableCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34188);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__638___SendResetRogueDiceSurfaceCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34190);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__439___SendGridFightHandleBattleBonus()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34198);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__237___SendExchangeRogueRewardKeyCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341A0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__145___SendClockParkHandleWaitMovieGameOperationCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341A8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__127___SendChimeraDuelGetFriendListCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341B0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__500___SendLeaveRogueCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341B8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__908___SendTriggerVoiceCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341C0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__950___IsRecommandServerSet()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341C8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__496___SendLeaveChallengeCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341D0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__942___UnexceptedDisconnectCallback()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341D8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__756___SendSetAetherDivideLineUpCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341E0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__555___SendOpenRogueChestCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341E8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__36___OnPacket()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341F0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__575___SendPlanetFesGetAvatarStatCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x341F8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__713___SendRogueTournReEnterRogueCocoonStageCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34200);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__30___MannualReconnectIfNeed()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34208);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__389___SendGetRelicFilterPlanCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34210);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__490___SendInteractTreasureDungeonGridCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34218);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__498___SendLeaveMapRotationRegionCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34220);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__362___SendGetMonopolyFriendRankingListCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34228);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__276___SendGetActivityHotDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34230);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__95___SendChenLingFinishShopCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34238);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__162___SendCounterDownCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34240);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__901___SendTravelBrochurePageResetCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34248);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__353___SendGetMapRotationDataCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34250);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__729___SendRogueWorkbenchEnhanceBuffReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34258);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__661___SendRogueMagicEnterRoomCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34260);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__236___SendExchangeHcoinCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34268);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__503___SendLobbyGetInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34270);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__158___SendCmdSellItemCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34278);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__473___SendGridFightUpdateTraitPinacony()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34280);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__294___SendGetBagCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34288);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__594___SendPlayerGetTokenCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34290);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__801___SendStarPerformanceRelayCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34298);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__380___SendGetPunkLordBattleRecordCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342A0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__930___SetEncryptKey()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342A8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__917___SendUpdatePlayWithPsnOnlySettingCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342B0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__627___SendRelicSmartWearGetPinRelicCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342B8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__253___SendFateTakeExpRewardCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342C0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__968___ShouldBlockByPerformanceReplayFlag()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342C8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__693___SendRogueTournEnterCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342D0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__628___SendRelicSmartWearGetPlanCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342D8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__939___TextJoinQueryCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342E0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__614___SendRaidCollectionEnterNextRaidCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342E8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__134___SendChimeraQuitEndlessCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342F0);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__732___SendRogueWorkBenchLevelUpMagicScepterReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x342F8);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__623___SendRelicReforgeCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34300);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__505___SendLobbyJoinCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34308);
-	}
-	static ::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3** StaticGet__310___SendGetCrossInfoCsReq()
-	{
-		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x34310);
+		return (::Class_1_6ACC9E01FF12C90D_Class_3_50D343C44D28BEFB_3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6ACC9E01FF12C90D___O_TypeDefinitionIndex)->GetStaticField(0x20650);
 	}
 };

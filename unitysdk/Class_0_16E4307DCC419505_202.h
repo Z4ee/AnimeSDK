@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple_2.h"
 
-namespace Google::Protobuf { class IMessage; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_202_TypeDefinitionIndex = 32883;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_202_TypeDefinitionIndex = 38695;
 
 class Class_0_16E4307DCC419505_202
 {

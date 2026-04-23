@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_LOWERCASEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x2104060)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_LOWERCASEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x22D6C20)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexCharClass_LowerCaseMapping_TypeDefinitionIndex = 2495;
+	inline static constexpr unsigned int RegexCharClass_LowerCaseMapping_TypeDefinitionIndex = 2496;
 
 	struct alignas(4) RegexCharClass_LowerCaseMapping
 	{

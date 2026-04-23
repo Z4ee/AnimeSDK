@@ -13,89 +13,89 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188457B0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188457F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__FINDHOLES_B__26_0_OFFSET UNITYSDK_OFFSET(0x188459A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__FINDHOLES_B__27_0_OFFSET UNITYSDK_OFFSET(0x188459C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPINTERNALITERATIVE_B__15_0_OFFSET UNITYSDK_OFFSET(0x18845960)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPINTERNALITERATIVE_B__15_1_OFFSET UNITYSDK_OFFSET(0x18845980)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPINTERNAL_B__14_0_OFFSET UNITYSDK_OFFSET(0x18845940)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPITERATIVE_B__13_0_OFFSET UNITYSDK_OFFSET(0x18845930)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOP_B__12_0_OFFSET UNITYSDK_OFFSET(0x18845920)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGERINGITERATIVE_B__11_0_OFFSET UNITYSDK_OFFSET(0x18845910)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGERING_B__10_0_OFFSET UNITYSDK_OFFSET(0x18845900)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETEREDGES_B__5_0_OFFSET UNITYSDK_OFFSET(0x18845800)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETEREDGES_B__5_1_OFFSET UNITYSDK_OFFSET(0x18845830)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETEREDGES_B__5_2_OFFSET UNITYSDK_OFFSET(0x18845850)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETERFACES_B__7_0_OFFSET UNITYSDK_OFFSET(0x18845880)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETERFACES_B__7_1_OFFSET UNITYSDK_OFFSET(0x188458A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A27F9F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A27FA30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__FINDHOLES_B__26_0_OFFSET UNITYSDK_OFFSET(0x1A27FBE0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__FINDHOLES_B__27_0_OFFSET UNITYSDK_OFFSET(0x1A27FC00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPINTERNALITERATIVE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1A27FBA0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPINTERNALITERATIVE_B__15_1_OFFSET UNITYSDK_OFFSET(0x1A27FBC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPINTERNAL_B__14_0_OFFSET UNITYSDK_OFFSET(0x1A27FB80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOPITERATIVE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1A27FB70)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGELOOP_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A27FB60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGERINGITERATIVE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1A27FB50)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETEDGERING_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A27FB40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETEREDGES_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A27FA40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETEREDGES_B__5_1_OFFSET UNITYSDK_OFFSET(0x1A27FA70)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETEREDGES_B__5_2_OFFSET UNITYSDK_OFFSET(0x1A27FA90)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETERFACES_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A27FAC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__GETPERIMETERFACES_B__7_1_OFFSET UNITYSDK_OFFSET(0x1A27FAE0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ElementSelection___c_TypeDefinitionIndex = 34230;
+	inline static constexpr unsigned int ElementSelection___c_TypeDefinitionIndex = 40049;
 
 	class ElementSelection___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28840);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28848);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28850);
-		}
-		static ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28858);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28860);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28868);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28870);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__5_2()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28878);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__7_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28880);
+			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27260);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28888);
+			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27268);
 		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__15_0()
+		static ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c** StaticGet___9()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28890);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__15_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x28898);
+			return (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27270);
 		}
 		static ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Int32, ::System::Int32>>** StaticGet___9__27_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x288A0);
+			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27278);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x288A8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27280);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27288);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27290);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x27298);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__7_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272A0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x288B0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272A8);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272B0);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__15_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272B8);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__15_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272C0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__5_2()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272C8);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(ElementSelection___c_TypeDefinitionIndex)->GetStaticField(0x272D0);
 		}
 
 		static ::System::Void _cctor()

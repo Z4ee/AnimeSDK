@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x173C3B50)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x173C39D0)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x173C36A0)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x173C3970)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x173C3CD0)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x173C3720)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x173C3D10)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x173C3EF0)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x173C4240)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x173C4550)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x173C3E50)
-#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x173C3DB0)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18AD1F10)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18AD1D90)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18AD1A60)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18AD1D30)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18AD2090)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18AD1AE0)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18AD20D0)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD22B0)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18AD2600)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AD2910)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18AD2210)
+#define RPG_GAMECORE_MAZEPLANEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18AD2170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePlaneExcelTable_TypeDefinitionIndex = 12835;
+	inline static constexpr unsigned int MazePlaneExcelTable_TypeDefinitionIndex = 13299;
 
 	class MazePlaneExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePlaneRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePlaneRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0x291D0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0x291D8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0x33130);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePlaneRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePlaneRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0x33138);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0x291E0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0xD870);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0x33140);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0xD871);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0xC700);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazePlaneExcelTable_TypeDefinitionIndex)->GetStaticField(0xC701);
 		}
 
 		static ::System::Void _cctor()

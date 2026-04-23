@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatSkillTarget_TypeDefinitionIndex = 28496;
+	inline static constexpr unsigned int DiceCombatSkillTarget_TypeDefinitionIndex = 34179;
 
 	enum class DiceCombatSkillTarget : ::System::Int32
 	{

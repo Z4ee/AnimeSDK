@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/Client/MonoExUICamera_E_ExUICameraOut.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO_ININNER_OFFSET UNITYSDK_OFFSET(0x9CFD640)
-#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO_OUTOUTER_OFFSET UNITYSDK_OFFSET(0x9CFD6A0)
-#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO_RESET_OFFSET UNITYSDK_OFFSET(0x9CFD700)
-#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9CFD750)
+#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO_ININNER_OFFSET UNITYSDK_OFFSET(0xA9BE690)
+#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO_OUTOUTER_OFFSET UNITYSDK_OFFSET(0xA9BED60)
+#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO_RESET_OFFSET UNITYSDK_OFFSET(0xA9BD330)
+#define RPG_CLIENT_MONOEXUICAMERA_CAMERAOUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA9BB540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICamera_CameraOutInfo_TypeDefinitionIndex = 59825;
+	inline static constexpr unsigned int MonoExUICamera_CameraOutInfo_TypeDefinitionIndex = 67221;
 
 	class MonoExUICamera_CameraOutInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonoExUICamera_E_ExUICameraOut _second; // 0x10
-		::RPG::Client::MonoExUICamera_E_ExUICameraOut _first; // 0x14
-		::System::Single _ratio2; // 0x18
-		::System::Single _ratio1; // 0x1C
+		::System::Single _ratio1; // 0x10
+		::System::Single _ratio2; // 0x14
+		::RPG::Client::MonoExUICamera_E_ExUICameraOut _second; // 0x18
+		::RPG::Client::MonoExUICamera_E_ExUICameraOut _first; // 0x1C
 
 		::System::Void _ctor()
 		{

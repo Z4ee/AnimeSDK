@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define CLASS_2_421EEC7165E139E4__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9C43220)
-#define CLASS_2_421EEC7165E139E4__CTOR_OFFSET UNITYSDK_OFFSET(0x9C431C0)
+#define CLASS_2_421EEC7165E139E4__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD375680)
+#define CLASS_2_421EEC7165E139E4__CTOR_OFFSET UNITYSDK_OFFSET(0xD375620)
 
-inline static constexpr unsigned int Class_2_421EEC7165E139E4_TypeDefinitionIndex = 55018;
+inline static constexpr unsigned int Class_2_421EEC7165E139E4_TypeDefinitionIndex = 62206;
 
 class Class_2_421EEC7165E139E4 : public ::System::Exception
 {

@@ -6,23 +6,23 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define INCONTROL_LOGGER_ADD_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x15B6C790)
-#define INCONTROL_LOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x15B7BC60)
-#define INCONTROL_LOGGER_LOGINFO_OFFSET UNITYSDK_OFFSET(0x15B6C820)
-#define INCONTROL_LOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x15B783E0)
-#define INCONTROL_LOGGER_REMOVE_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x15B6C700)
-#define INCONTROL_LOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B80050)
+#define INCONTROL_LOGGER_ADD_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1716A8E0)
+#define INCONTROL_LOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x17179680)
+#define INCONTROL_LOGGER_LOGINFO_OFFSET UNITYSDK_OFFSET(0x1716A970)
+#define INCONTROL_LOGGER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x17175EC0)
+#define INCONTROL_LOGGER_REMOVE_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1716A850)
+#define INCONTROL_LOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1717DA30)
 
 namespace InControl
 {
-	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 31418;
+	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 37138;
 
 	class Logger : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::InControl::LogMessage>** StaticGet_OnLogMessage()
 		{
-			return (::System::Action_1<::InControl::LogMessage>**)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x36480);
+			return (::System::Action_1<::InControl::LogMessage>**)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0xC600);
 		}
 
 		::System::Void _ctor()

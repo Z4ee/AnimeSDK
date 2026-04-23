@@ -8,23 +8,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_CLEAR_OFFSET UNITYSDK_OFFSET(0xA98EA40)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA98EB10)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA98EAC0)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_INIT_OFFSET UNITYSDK_OFFSET(0xA98E950)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT__CTOR_OFFSET UNITYSDK_OFFSET(0xA98EB60)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xA98EBA0)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6DCC60)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DCD30)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DCCE0)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_INIT_OFFSET UNITYSDK_OFFSET(0xB6DCB70)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DCD80)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6DCDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInsertAbilityAbort_TypeDefinitionIndex = 45730;
+	inline static constexpr unsigned int LevelInsertAbilityAbort_TypeDefinitionIndex = 52382;
 
 	class LevelInsertAbilityAbort : public ::Class_1_9988289E7F8AA214
 	{
 	public:
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x18
-		::System::String* InsertAbilityName; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x20
+		::System::String* InsertAbilityName; // 0x28
 		::System::Boolean ShowInActionBar; // 0x30
 
 		::System::Void _ctor()

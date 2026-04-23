@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingTriggerType_TypeDefinitionIndex = 33730;
+	inline static constexpr unsigned int ChenLingTriggerType_TypeDefinitionIndex = 39531;
 
 	enum class ChenLingTriggerType : ::System::Int32
 	{

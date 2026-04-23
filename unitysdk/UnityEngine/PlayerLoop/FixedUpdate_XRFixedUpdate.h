@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_XRFixedUpdate_TypeDefinitionIndex = 4395;
+	inline static constexpr unsigned int FixedUpdate_XRFixedUpdate_TypeDefinitionIndex = 4397;
 
 	struct alignas(1) FixedUpdate_XRFixedUpdate
 	{

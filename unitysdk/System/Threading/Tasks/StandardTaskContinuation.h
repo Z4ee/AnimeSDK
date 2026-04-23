@@ -6,12 +6,12 @@
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 
-#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1623DEC0)
-#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1623DC60)
+#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1786A5D0)
+#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1786A370)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int StandardTaskContinuation_TypeDefinitionIndex = 914;
+	inline static constexpr unsigned int StandardTaskContinuation_TypeDefinitionIndex = 916;
 
 	class StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation
 	{

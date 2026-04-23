@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureEnterBattleState_TypeDefinitionIndex = 48716;
+	inline static constexpr unsigned int AdventureEnterBattleState_TypeDefinitionIndex = 55465;
 
 	enum class AdventureEnterBattleState : ::System::Int32
 	{

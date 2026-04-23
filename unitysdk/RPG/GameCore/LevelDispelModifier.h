@@ -3,33 +3,35 @@
 #include "unitysdk/Class_1_9988289E7F8AA214.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
+namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_LEVELDISPELMODIFIER_CLEAR_OFFSET UNITYSDK_OFFSET(0xA9874E0)
-#define RPG_GAMECORE_LEVELDISPELMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA987580)
-#define RPG_GAMECORE_LEVELDISPELMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA987530)
-#define RPG_GAMECORE_LEVELDISPELMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xA987480)
-#define RPG_GAMECORE_LEVELDISPELMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xA9875D0)
-#define RPG_GAMECORE_LEVELDISPELMODIFIER___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xA9875E0)
+#define RPG_GAMECORE_LEVELDISPELMODIFIER_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D5460)
+#define RPG_GAMECORE_LEVELDISPELMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D5500)
+#define RPG_GAMECORE_LEVELDISPELMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D54B0)
+#define RPG_GAMECORE_LEVELDISPELMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xB6D53F0)
+#define RPG_GAMECORE_LEVELDISPELMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D5550)
+#define RPG_GAMECORE_LEVELDISPELMODIFIER___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D5560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDispelModifier_TypeDefinitionIndex = 45672;
+	inline static constexpr unsigned int LevelDispelModifier_TypeDefinitionIndex = 52324;
 
 	class LevelDispelModifier : public ::Class_1_9988289E7F8AA214
 	{
 	public:
 		::RPG::GameCore::TurnBasedModifierInstance* ModifierInstance; // 0x18
-		::System::Boolean MuteVisualEffect; // 0x20
+		::RPG::GameCore::GameEntity* Instigator; // 0x20
+		::System::Boolean MuteVisualEffect; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISPELMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelDispelModifier* Init(::RPG::GameCore::TurnBasedModifierInstance* mdf, ::System::Boolean muteEfx)
+		::RPG::GameCore::LevelDispelModifier* Init(::RPG::GameCore::TurnBasedModifierInstance* mdf, ::System::Boolean muteEfx, ::RPG::GameCore::GameEntity* instigator)
 		{
-			return ((::RPG::GameCore::LevelDispelModifier*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISPELMODIFIER_INIT_OFFSET))(this, mdf, muteEfx);
+			return ((::RPG::GameCore::LevelDispelModifier*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISPELMODIFIER_INIT_OFFSET))(this, mdf, muteEfx, instigator);
 		}
 
 		::System::Void Clear()

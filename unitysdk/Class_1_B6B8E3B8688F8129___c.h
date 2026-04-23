@@ -7,37 +7,37 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System { template <typename T1, typename T2> class Func_2; }
 template <typename T1, typename T2, typename T3> class __f__AnonymousType0_3;
 
-#define CLASS_1_B6B8E3B8688F8129___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10523340)
-#define CLASS_1_B6B8E3B8688F8129___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10523380)
-#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0x10523390)
-#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_1_OFFSET UNITYSDK_OFFSET(0x10523400)
-#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_3_OFFSET UNITYSDK_OFFSET(0x10523480)
-#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_4_OFFSET UNITYSDK_OFFSET(0x105234A0)
+#define CLASS_1_B6B8E3B8688F8129___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12A8C5C0)
+#define CLASS_1_B6B8E3B8688F8129___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12A8C600)
+#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0x12A8C610)
+#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_1_OFFSET UNITYSDK_OFFSET(0x12A8C680)
+#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_3_OFFSET UNITYSDK_OFFSET(0x12A8C700)
+#define CLASS_1_B6B8E3B8688F8129___C__SORTWEAPONLIST_B__1_4_OFFSET UNITYSDK_OFFSET(0x12A8C720)
 
-inline static constexpr unsigned int Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex = 43363;
+inline static constexpr unsigned int Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex = 49362;
 
 class Class_1_B6B8E3B8688F8129___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::RPG::GameCore::EvolveBuildGearEquipInfo*>** StaticGet___9__1_4()
 	{
-		return (::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::RPG::GameCore::EvolveBuildGearEquipInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x254C0);
-	}
-	static ::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Int32>** StaticGet___9__1_3()
-	{
-		return (::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x254C8);
-	}
-	static ::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Boolean>** StaticGet___9__1_1()
-	{
-		return (::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x254D0);
-	}
-	static ::Class_1_B6B8E3B8688F8129___c** StaticGet___9()
-	{
-		return (::Class_1_B6B8E3B8688F8129___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x254D8);
+		return (::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::RPG::GameCore::EvolveBuildGearEquipInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x41370);
 	}
 	static ::System::Func_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*>** StaticGet___9__1_0()
 	{
-		return (::System::Func_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x254E0);
+		return (::System::Func_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x41378);
+	}
+	static ::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Int32>** StaticGet___9__1_3()
+	{
+		return (::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x41380);
+	}
+	static ::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Boolean>** StaticGet___9__1_1()
+	{
+		return (::System::Func_2<::__f__AnonymousType0_3<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::Int32, ::System::UInt32>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x41388);
+	}
+	static ::Class_1_B6B8E3B8688F8129___c** StaticGet___9()
+	{
+		return (::Class_1_B6B8E3B8688F8129___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B6B8E3B8688F8129___c_TypeDefinitionIndex)->GetStaticField(0x41390);
 	}
 
 	static ::System::Void _cctor()

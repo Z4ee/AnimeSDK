@@ -13,29 +13,29 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_625068BFCA65C354_METHOD_2_24A73FD2F3BEC0BF_OFFSET UNITYSDK_OFFSET(0x108F5300)
-#define CLASS_2_625068BFCA65C354_METHOD_2_E2371C9CBED439B6_OFFSET UNITYSDK_OFFSET(0x108F4F30)
-#define CLASS_2_625068BFCA65C354_METHOD_2_F68148C2CCDD3B16_OFFSET UNITYSDK_OFFSET(0x108F5050)
-#define CLASS_2_625068BFCA65C354__CTOR_OFFSET UNITYSDK_OFFSET(0x108F5470)
-#define CLASS_2_625068BFCA65C354__ONBIND_OFFSET UNITYSDK_OFFSET(0x108F4C20)
-#define CLASS_2_625068BFCA65C354___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x108F5550)
-#define CLASS_2_625068BFCA65C354___ONBUTTONCLICK_B__9_0_OFFSET UNITYSDK_OFFSET(0x108F5510)
+#define CLASS_2_625068BFCA65C354_METHOD_2_24A73FD2F3BEC0BF_OFFSET UNITYSDK_OFFSET(0xCD1BFE0)
+#define CLASS_2_625068BFCA65C354_METHOD_2_E2371C9CBED439B6_OFFSET UNITYSDK_OFFSET(0xCD1BC10)
+#define CLASS_2_625068BFCA65C354_METHOD_2_F68148C2CCDD3B16_OFFSET UNITYSDK_OFFSET(0xCD1BD30)
+#define CLASS_2_625068BFCA65C354__CTOR_OFFSET UNITYSDK_OFFSET(0xCD1C150)
+#define CLASS_2_625068BFCA65C354__ONBIND_OFFSET UNITYSDK_OFFSET(0xCD1BA70)
+#define CLASS_2_625068BFCA65C354___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xCD1C230)
+#define CLASS_2_625068BFCA65C354___ONBUTTONCLICK_B__9_0_OFFSET UNITYSDK_OFFSET(0xCD1C1F0)
 
-inline static constexpr unsigned int Class_2_625068BFCA65C354_TypeDefinitionIndex = 59194;
+inline static constexpr unsigned int Class_2_625068BFCA65C354_TypeDefinitionIndex = 66586;
 
 class Class_2_625068BFCA65C354 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
 	// static const ::System::String* Field_2_8; // 0x0
-	::UnityEngine::UI::Text* Field_2_4; // 0x60
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_7; // 0x68
-	::RPG::Client::AnimatorButton* Field_2_1; // 0x70
-	::UnityEngine::UI::Text* Field_2_5; // 0x78
-	::Class_2_59443FB8B183FBD5* Field_2_3; // 0x80
-	::UnityEngine::UI::Button* Field_2_2; // 0x88
-	::System::Text::StringBuilder* Field_2_9; // 0x90
-	::RPG::GameCore::BattleGridFightTeamTraitData* Field_2_6; // 0x98
+	::Class_2_59443FB8B183FBD5* Field_2_3; // 0x60
+	::UnityEngine::UI::Button* Field_2_2; // 0x68
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_7; // 0x70
+	::RPG::Client::AnimatorButton* Field_2_1; // 0x78
+	::UnityEngine::UI::Text* Field_2_5; // 0x80
+	::RPG::GameCore::BattleGridFightTeamTraitData* Field_2_6; // 0x88
+	::UnityEngine::UI::Text* Field_2_4; // 0x90
+	::System::Text::StringBuilder* Field_2_9; // 0x98
 
 	::System::Void _ctor()
 	{

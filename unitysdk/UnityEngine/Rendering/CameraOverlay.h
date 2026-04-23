@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraOverlay_TypeDefinitionIndex = 4603;
+	inline static constexpr unsigned int CameraOverlay_TypeDefinitionIndex = 4611;
 
 	enum class CameraOverlay : ::System::Int32
 	{

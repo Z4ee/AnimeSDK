@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonReader_State_TypeDefinitionIndex = 8219;
+	inline static constexpr unsigned int JsonReader_State_TypeDefinitionIndex = 8365;
 
 	enum class JsonReader_State : ::System::Int32
 	{

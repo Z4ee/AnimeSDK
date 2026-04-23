@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LuaEvent_1_TypeDefinitionIndex = 48066;
+	inline static constexpr unsigned int LuaEvent_1_TypeDefinitionIndex = 54811;
 
 	template <typename T>
 	class LuaEvent_1 : public ::System::Object

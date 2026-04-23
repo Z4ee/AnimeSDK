@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_JSONENUMCONFIG_METHOD_2_9976CA213120D4FE_OFFSET UNITYSDK_OFFSET(0x17329E40)
-#define RPG_GAMECORE_JSONENUMCONFIG_METHOD_2_B6EBCDA4CA6601FB_OFFSET UNITYSDK_OFFSET(0x17329D60)
-#define RPG_GAMECORE_JSONENUMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17329E30)
+#define RPG_GAMECORE_JSONENUMCONFIG_METHOD_2_9976CA213120D4FE_OFFSET UNITYSDK_OFFSET(0x18A375F0)
+#define RPG_GAMECORE_JSONENUMCONFIG_METHOD_2_B6EBCDA4CA6601FB_OFFSET UNITYSDK_OFFSET(0x18A37510)
+#define RPG_GAMECORE_JSONENUMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A375E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnumConfig_TypeDefinitionIndex = 15688;
+	inline static constexpr unsigned int JsonEnumConfig_TypeDefinitionIndex = 16214;
 
 	class JsonEnumConfig : public ::RPG::GameCore::JsonConfig
 	{

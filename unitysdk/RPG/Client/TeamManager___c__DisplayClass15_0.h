@@ -5,11 +5,11 @@
 namespace RPG::Client { class TeamManager; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA56C3C0)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2AAA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___c__DisplayClass15_0_TypeDefinitionIndex = 49246;
+	inline static constexpr unsigned int TeamManager___c__DisplayClass15_0_TypeDefinitionIndex = 56043;
 
 	class TeamManager___c__DisplayClass15_0 : public ::System::Object
 	{

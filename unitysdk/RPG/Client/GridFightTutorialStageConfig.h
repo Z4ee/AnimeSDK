@@ -3,57 +3,57 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3745C69C00F04B7D_4;
+class Class_1_3745C69C00F04B7D_5;
 namespace RPG::GameCore { class GridFightTutorialStageConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_CANAUTOOPENSHOP_OFFSET UNITYSDK_OFFSET(0x98DFE70)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x98DF700)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_DIVISIONID_OFFSET UNITYSDK_OFFSET(0x98E0020)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_DIVISIONNAME_OFFSET UNITYSDK_OFFSET(0x98E0040)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENAUTOOPENSHOPNODELIST_OFFSET UNITYSDK_OFFSET(0x98E00E0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENBATTLEFAILCHAPTERID_OFFSET UNITYSDK_OFFSET(0x98E00C0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENSELLROLEDICT_OFFSET UNITYSDK_OFFSET(0x98E00D0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASBOSSTOASTSHOW_OFFSET UNITYSDK_OFFSET(0x98E00A0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASEQUIPRECOMMENDSHOW_OFFSET UNITYSDK_OFFSET(0x98E0090)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASINITIALSUPPLY_OFFSET UNITYSDK_OFFSET(0x98E0070)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASMONSTERREVEAL_OFFSET UNITYSDK_OFFSET(0x98E0050)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASPORTAL_OFFSET UNITYSDK_OFFSET(0x98E0060)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASROUTESHOW_OFFSET UNITYSDK_OFFSET(0x98E0080)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_REWARDQUEST_OFFSET UNITYSDK_OFFSET(0x98E0030)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_USETRIALAVATAR_OFFSET UNITYSDK_OFFSET(0x98E00B0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_TRYTAKEREWARD_OFFSET UNITYSDK_OFFSET(0x98DFC70)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98DF9E0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x98DF760)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_CANAUTOOPENSHOP_OFFSET UNITYSDK_OFFSET(0xA5C96E0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xA5C8F70)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_DIVISIONID_OFFSET UNITYSDK_OFFSET(0xA5C9890)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_DIVISIONNAME_OFFSET UNITYSDK_OFFSET(0xA5C98B0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENAUTOOPENSHOPNODELIST_OFFSET UNITYSDK_OFFSET(0xA5C9950)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENBATTLEFAILCHAPTERID_OFFSET UNITYSDK_OFFSET(0xA5C9930)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENSELLROLEDICT_OFFSET UNITYSDK_OFFSET(0xA5C9940)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASBOSSTOASTSHOW_OFFSET UNITYSDK_OFFSET(0xA5C9910)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASEQUIPRECOMMENDSHOW_OFFSET UNITYSDK_OFFSET(0xA5C9900)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASINITIALSUPPLY_OFFSET UNITYSDK_OFFSET(0xA5C98E0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASMONSTERREVEAL_OFFSET UNITYSDK_OFFSET(0xA5C98C0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASPORTAL_OFFSET UNITYSDK_OFFSET(0xA5C98D0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_HASROUTESHOW_OFFSET UNITYSDK_OFFSET(0xA5C98F0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_REWARDQUEST_OFFSET UNITYSDK_OFFSET(0xA5C98A0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_USETRIALAVATAR_OFFSET UNITYSDK_OFFSET(0xA5C9920)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_TRYTAKEREWARD_OFFSET UNITYSDK_OFFSET(0xA5C94E0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA5C9250)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C8FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTutorialStageConfig_TypeDefinitionIndex = 53189;
+	inline static constexpr unsigned int GridFightTutorialStageConfig_TypeDefinitionIndex = 60312;
 
 	class GridFightTutorialStageConfig : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightTutorialStageConfig*>** StaticGet_GetConfigImpl()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightTutorialStageConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTutorialStageConfig_TypeDefinitionIndex)->GetStaticField(0x16940);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightTutorialStageConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTutorialStageConfig_TypeDefinitionIndex)->GetStaticField(0x15610);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _ForbiddenSellRoleDict_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_3745C69C00F04B7D_4*>* _ForbiddenAutoOpenShopNodeList_k__BackingField; // 0x18
-		::RPG::Client::TextID _DivisionName_k__BackingField; // 0x20
-		::System::UInt32 _ForbiddenBattleFailChapterID_k__BackingField; // 0x30
-		::System::Boolean _HasPortal_k__BackingField; // 0x34
-		::System::Boolean _HasInitialSupply_k__BackingField; // 0x35
-		::System::Boolean _UseTrialAvatar_k__BackingField; // 0x36
-		::System::UInt32 ForbiddenSellRoleBeforeChapterId; // 0x38
-		::System::UInt32 _RewardQuest_k__BackingField; // 0x3C
-		::System::UInt32 ForbiddenSellRoleBeforeSectionId; // 0x40
-		::System::UInt32 _DivisionID_k__BackingField; // 0x44
-		::System::Boolean _HasBossToastShow_k__BackingField; // 0x48
-		::System::Boolean _HasEquipRecommendShow_k__BackingField; // 0x49
-		::System::Boolean _HasRouteShow_k__BackingField; // 0x4A
-		::System::Boolean _HasMonsterReveal_k__BackingField; // 0x4B
+		::System::Collections::Generic::List_1<::Class_1_3745C69C00F04B7D_5*>* _ForbiddenAutoOpenShopNodeList_k__BackingField; // 0x18
+		::System::UInt32 _DivisionID_k__BackingField; // 0x20
+		::System::UInt32 _RewardQuest_k__BackingField; // 0x24
+		::System::UInt32 _ForbiddenBattleFailChapterID_k__BackingField; // 0x28
+		::System::Boolean _HasBossToastShow_k__BackingField; // 0x2C
+		::System::Boolean _HasPortal_k__BackingField; // 0x2D
+		::System::Boolean _HasMonsterReveal_k__BackingField; // 0x2E
+		::System::UInt32 ForbiddenSellRoleBeforeSectionId; // 0x30
+		::System::UInt32 ForbiddenSellRoleBeforeChapterId; // 0x34
+		::System::Boolean _HasRouteShow_k__BackingField; // 0x38
+		::System::Boolean _UseTrialAvatar_k__BackingField; // 0x39
+		::System::Boolean _HasEquipRecommendShow_k__BackingField; // 0x3A
+		::System::Boolean _HasInitialSupply_k__BackingField; // 0x3B
+		::RPG::Client::TextID _DivisionName_k__BackingField; // 0x40
 
 		::System::Void _ctor(::System::UInt32 divisionID)
 		{
@@ -140,9 +140,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENSELLROLEDICT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_3745C69C00F04B7D_4*>* get_ForbiddenAutoOpenShopNodeList()
+		::System::Collections::Generic::List_1<::Class_1_3745C69C00F04B7D_5*>* get_ForbiddenAutoOpenShopNodeList()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_3745C69C00F04B7D_4*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENAUTOOPENSHOPNODELIST_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::Class_1_3745C69C00F04B7D_5*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG_GET_FORBIDDENAUTOOPENSHOPNODELIST_OFFSET))(this);
 		}
 	};
 }

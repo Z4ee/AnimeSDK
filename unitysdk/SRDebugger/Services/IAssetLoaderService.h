@@ -7,7 +7,7 @@ namespace UnityEngine { class Object; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IAssetLoaderService_TypeDefinitionIndex = 29695;
+	inline static constexpr unsigned int IAssetLoaderService_TypeDefinitionIndex = 35415;
 
 	class IAssetLoaderService
 	{

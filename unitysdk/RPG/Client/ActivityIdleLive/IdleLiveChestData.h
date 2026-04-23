@@ -1,0 +1,190 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_CANRANKUP_OFFSET UNITYSDK_OFFSET(0x9B3E470)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GETBATCHOPENSIZE_OFFSET UNITYSDK_OFFSET(0x9B3E140)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GETEXPRATIO_OFFSET UNITYSDK_OFFSET(0x9B3E3D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GETRANKUPLEVELRATIO_OFFSET UNITYSDK_OFFSET(0x9B3E420)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_AUTODECOMPOSERARITY_OFFSET UNITYSDK_OFFSET(0x9B3DC60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EQUIPPROBABILITIES_OFFSET UNITYSDK_OFFSET(0x9B3DCE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EXPLIMIT_OFFSET UNITYSDK_OFFSET(0x9B3DCD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EXP_OFFSET UNITYSDK_OFFSET(0x9B3DC20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_ISAUTOOPEN_OFFSET UNITYSDK_OFFSET(0x9B3DC40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_LEVELTORANKUP_OFFSET UNITYSDK_OFFSET(0x9B3DC80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x9B3DC00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_MAXAUTODISCARDABLEEQUIPRARITY_OFFSET UNITYSDK_OFFSET(0x9B3DCB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_MAXRANK_OFFSET UNITYSDK_OFFSET(0x9B3DC90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0x9B3DBE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_INIT_OFFSET UNITYSDK_OFFSET(0x9B3DCF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_ISAUTOCHESTOPENUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9B3DEB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_AUTODECOMPOSERARITY_OFFSET UNITYSDK_OFFSET(0x9B3DC70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_EXP_OFFSET UNITYSDK_OFFSET(0x9B3DC30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_ISAUTOOPEN_OFFSET UNITYSDK_OFFSET(0x9B3DC50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x9B3DC10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_MAXAUTODISCARDABLEEQUIPRARITY_OFFSET UNITYSDK_OFFSET(0x9B3DCC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_MAXRANK_OFFSET UNITYSDK_OFFSET(0x9B3DCA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_RANK_OFFSET UNITYSDK_OFFSET(0x9B3DBF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_UPDATEAUTOSETTING_OFFSET UNITYSDK_OFFSET(0x9B3DE50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_UPDATEMAXPOSSIBLERARITY_OFFSET UNITYSDK_OFFSET(0x9B3E4C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B3E590)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA__UPDATEEXPLIMIT_OFFSET UNITYSDK_OFFSET(0x9B3E510)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int IdleLiveChestData_TypeDefinitionIndex = 69226;
+
+	class IdleLiveChestData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* _EquipProbabilities; // 0x10
+		::System::UInt32 _Exp_k__BackingField; // 0x18
+		::System::UInt32 _LevelToRankup; // 0x1C
+		::System::UInt32 _Rank_k__BackingField; // 0x20
+		::System::UInt32 _ExpLimit; // 0x24
+		::System::Boolean _IsInited; // 0x28
+		::System::Boolean _IsAutoOpen_k__BackingField; // 0x29
+		::System::UInt32 _AutoDecomposeRarity_k__BackingField; // 0x2C
+		::System::UInt32 _MaxRank_k__BackingField; // 0x30
+		::System::UInt32 _Level_k__BackingField; // 0x34
+		::System::UInt32 _MaxAutoDiscardableEquipRarity_k__BackingField; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Rank()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_RANK_OFFSET))(this);
+		}
+
+		::System::Void set_Rank(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_RANK_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_LEVEL_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Exp()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EXP_OFFSET))(this);
+		}
+
+		::System::Void set_Exp(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_EXP_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsAutoOpen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_ISAUTOOPEN_OFFSET))(this);
+		}
+
+		::System::Void set_IsAutoOpen(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_ISAUTOOPEN_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AutoDecomposeRarity()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_AUTODECOMPOSERARITY_OFFSET))(this);
+		}
+
+		::System::Void set_AutoDecomposeRarity(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_AUTODECOMPOSERARITY_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_LevelToRankup()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_LEVELTORANKUP_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MaxRank()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_MAXRANK_OFFSET))(this);
+		}
+
+		::System::Void set_MaxRank(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_MAXRANK_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MaxAutoDiscardableEquipRarity()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_MAXAUTODISCARDABLEEQUIPRARITY_OFFSET))(this);
+		}
+
+		::System::Void set_MaxAutoDiscardableEquipRarity(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_SET_MAXAUTODISCARDABLEEQUIPRARITY_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_ExpLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EXPLIMIT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* get_EquipProbabilities()
+		{
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EQUIPPROBABILITIES_OFFSET))(this);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_INIT_OFFSET))(this);
+		}
+
+		::System::Void UpdateAutoSetting(::System::Boolean isAutoOpen, ::System::UInt32 autoDecomposeRarity)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_UPDATEAUTOSETTING_OFFSET))(this, isAutoOpen, autoDecomposeRarity);
+		}
+
+		::System::Boolean IsAutoChestOpenUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_ISAUTOCHESTOPENUNLOCKED_OFFSET))(this);
+		}
+
+		::System::UInt32 GetBatchOpenSize()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GETBATCHOPENSIZE_OFFSET))(this);
+		}
+
+		::System::Single GetExpRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GETEXPRATIO_OFFSET))(this);
+		}
+
+		::System::Single GetRankupLevelRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GETRANKUPLEVELRATIO_OFFSET))(this);
+		}
+
+		::System::Boolean CanRankup()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_CANRANKUP_OFFSET))(this);
+		}
+
+		::System::Void UpdateMaxPossibleRarity(::System::UInt32 rarity)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_UPDATEMAXPOSSIBLERARITY_OFFSET))(this, rarity);
+		}
+
+		::System::Void _UpdateExpLimit(::System::UInt32 level)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA__UPDATEEXPLIMIT_OFFSET))(this, level);
+		}
+	};
+}

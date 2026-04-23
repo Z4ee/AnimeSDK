@@ -5,24 +5,24 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA49A180)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA49A1C0)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xA49A1D0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB189850)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB189890)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xB1898A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex = 54835;
+	inline static constexpr unsigned int SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex = 62023;
 
 	class SimulatedRogueSendPacketCmd___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::SimulatedRogueSendPacketCmd___c** StaticGet___9()
-		{
-			return (::RPG::Client::SimulatedRogueSendPacketCmd___c**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x24850);
-		}
 		static ::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x24858);
+			return (::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x222D0);
+		}
+		static ::RPG::Client::SimulatedRogueSendPacketCmd___c** StaticGet___9()
+		{
+			return (::RPG::Client::SimulatedRogueSendPacketCmd___c**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x222D8);
 		}
 
 		static ::System::Void _cctor()

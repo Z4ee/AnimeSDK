@@ -8,11 +8,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_3_139C0414462E94B8_METHOD_3_3762323332F6C880_OFFSET UNITYSDK_OFFSET(0xA6CA2F0)
-#define CLASS_3_139C0414462E94B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6CA8D0)
-#define CLASS_3_139C0414462E94B8__CTOR_OFFSET UNITYSDK_OFFSET(0xA6CA2C0)
+#define CLASS_3_139C0414462E94B8_METHOD_3_3762323332F6C880_OFFSET UNITYSDK_OFFSET(0x9708BA0)
+#define CLASS_3_139C0414462E94B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9709190)
+#define CLASS_3_139C0414462E94B8__CTOR_OFFSET UNITYSDK_OFFSET(0x9708B70)
 
-inline static constexpr unsigned int Class_3_139C0414462E94B8_TypeDefinitionIndex = 42482;
+inline static constexpr unsigned int Class_3_139C0414462E94B8_TypeDefinitionIndex = 48443;
 
 class Class_3_139C0414462E94B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPlayerForceUseDefaultOutfit*>
 {

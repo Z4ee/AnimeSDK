@@ -5,20 +5,20 @@
 namespace RPG::Client { class ItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROLLSHOPREWARDGROUP_GET_ID_OFFSET UNITYSDK_OFFSET(0xA3F8300)
-#define RPG_CLIENT_ROLLSHOPREWARDGROUP_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xA3F8320)
-#define RPG_CLIENT_ROLLSHOPREWARDGROUP_GET_REWARDIDS_OFFSET UNITYSDK_OFFSET(0xA3F8310)
-#define RPG_CLIENT_ROLLSHOPREWARDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F7620)
+#define RPG_CLIENT_ROLLSHOPREWARDGROUP_GET_ID_OFFSET UNITYSDK_OFFSET(0xB130120)
+#define RPG_CLIENT_ROLLSHOPREWARDGROUP_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB130140)
+#define RPG_CLIENT_ROLLSHOPREWARDGROUP_GET_REWARDIDS_OFFSET UNITYSDK_OFFSET(0xB130130)
+#define RPG_CLIENT_ROLLSHOPREWARDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB12F440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RollShopRewardGroup_TypeDefinitionIndex = 55391;
+	inline static constexpr unsigned int RollShopRewardGroup_TypeDefinitionIndex = 62582;
 
 	class RollShopRewardGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* _Items_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _RewardIDs_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _RewardIDs_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* _Items_k__BackingField; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::UInt32 GroupID)

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/GamePhaseType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6B41D5D37BA0605F__CTOR_OFFSET UNITYSDK_OFFSET(0xB28DC70)
+#define CLASS_1_6B41D5D37BA0605F__CTOR_OFFSET UNITYSDK_OFFSET(0x98F6EA0)
 
-inline static constexpr unsigned int Class_1_6B41D5D37BA0605F_TypeDefinitionIndex = 49550;
+inline static constexpr unsigned int Class_1_6B41D5D37BA0605F_TypeDefinitionIndex = 56372;
 
 class Class_1_6B41D5D37BA0605F : public ::System::Object
 {

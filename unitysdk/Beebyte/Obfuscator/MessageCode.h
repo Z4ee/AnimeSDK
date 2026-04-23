@@ -3,7 +3,7 @@
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int MessageCode_TypeDefinitionIndex = 37969;
+	inline static constexpr unsigned int MessageCode_TypeDefinitionIndex = 43846;
 
 	enum class MessageCode : ::System::Int32
 	{

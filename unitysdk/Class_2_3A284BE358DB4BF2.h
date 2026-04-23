@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class RogueKeywordInfo; }
 
-#define CLASS_2_3A284BE358DB4BF2__CTOR_OFFSET UNITYSDK_OFFSET(0x8AC2420)
+#define CLASS_2_3A284BE358DB4BF2__CTOR_OFFSET UNITYSDK_OFFSET(0x11D51E70)
 
-inline static constexpr unsigned int Class_2_3A284BE358DB4BF2_TypeDefinitionIndex = 54605;
+inline static constexpr unsigned int Class_2_3A284BE358DB4BF2_TypeDefinitionIndex = 61793;
 
 class Class_2_3A284BE358DB4BF2 : public ::Class_1_8F7D3BAFD8C03B69
 {

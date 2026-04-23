@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportStage_TypeDefinitionIndex = 6611;
+	inline static constexpr unsigned int ReportStage_TypeDefinitionIndex = 6645;
 
 	enum class ReportStage : ::System::Int32
 	{
@@ -159,6 +159,8 @@ namespace MiHoYo::SDK
 		PaySucc = 9,
 		PayFail = 10,
 		PayWebTimeout = 11,
+		PayVerifyReceipt = 13,
+		PayVerifyReceiptSuccess = 14,
 		PayCreateOrderResult = 15,
 		AgeGatePayValidationSuccess = 15,
 		AgeGatePayValidationException = 16,
@@ -285,6 +287,8 @@ namespace MiHoYo::SDK
 		AgeGateVerificationPassed = 11,
 		AgeGateParentRequired = 12,
 		AgeGateOtherError = 13,
+		AgeGateLoginFailedDialogShow = 14,
+		AgeGateRequestAgeAppeal = 15,
 		AgeGateBanDialogShow = 1,
 		AgeGateBanDialogConfirm = 2,
 		AgeGatePayLimitPopupWindowDisplay = 1,
@@ -300,5 +304,24 @@ namespace MiHoYo::SDK
 		PS4BindEmailClickRefreshBtn = 8,
 		PS4BindResultShow = 9,
 		PS4BindResultConfirm = 10,
+		GooglePCNativeSDKInitSuccess = 1,
+		GooglePCNativeSDKInitFail = 2,
+		BindingWelcomeDialogShow = 1,
+		BindingProcessCancel = 2,
+		BindingWelcomeDialogCreateNewAndBind = 3,
+		BindingWelcomeDialogConfirmCreateNew = 4,
+		BindingAccountDialogShow = 5,
+		BindingAccountDialogCancel = 6,
+		BindingAccountDialogSelectAccountInput = 7,
+		BindingAccountDialogSelectCodeInput = 8,
+		BindingAccountDialogGetCodeClicked = 9,
+		BindingAccountDialogAgreementToggleChecked = 10,
+		BindingAccountDialogRefreshQRCodeClicked = 11,
+		BindingAccountDialogBindButtonClicked = 12,
+		BindingReactivateDialogShow = 13,
+		BindingReactivateDialogCancel = 14,
+		BindingReactivateDialogConfirm = 15,
+		BindingSuccessDialogShow = 16,
+		BindingSuccessDialogConfirm = 17,
 	};
 }

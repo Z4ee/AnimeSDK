@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TimelineEntityStateChangeCallback; }
 
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_30D3145A18E263D7_OFFSET UNITYSDK_OFFSET(0x16F224E0)
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_BF2975C9A753D78B_OFFSET UNITYSDK_OFFSET(0x16F22460)
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x16F224B0)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_13CA3526F700C1C2_OFFSET UNITYSDK_OFFSET(0x18644630)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_30D3145A18E263D7_OFFSET UNITYSDK_OFFSET(0x186446B0)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18644680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 18947;
+	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 19605;
 
 	class AddTimelineEntityEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF2975C9A753D78B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener*& a2)
+		static ::System::Void Method_3_13CA3526F700C1C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_BF2975C9A753D78B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_13CA3526F700C1C2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_30D3145A18E263D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener* a2)

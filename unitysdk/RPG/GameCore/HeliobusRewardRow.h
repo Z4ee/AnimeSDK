@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A4E60)
-#define RPG_GAMECORE_HELIOBUSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5430)
+#define RPG_GAMECORE_HELIOBUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189F9AE0)
+#define RPG_GAMECORE_HELIOBUSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189FA0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusRewardRow_TypeDefinitionIndex = 12587;
+	inline static constexpr unsigned int HeliobusRewardRow_TypeDefinitionIndex = 13024;
 
 	class HeliobusRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 IncomeTarget; // 0x10
-		::System::UInt32 Level; // 0x14
-		::System::UInt32 RewardQuestID; // 0x18
+		::System::UInt32 RewardQuestID; // 0x10
+		::System::UInt32 IncomeTarget; // 0x14
+		::System::UInt32 Level; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_CORE_XIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B654D0)
+#define IFIX_CORE_XIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17163580)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int XIDAttribute_TypeDefinitionIndex = 9779;
+	inline static constexpr unsigned int XIDAttribute_TypeDefinitionIndex = 9914;
 
 	class XIDAttribute : public ::System::Attribute
 	{

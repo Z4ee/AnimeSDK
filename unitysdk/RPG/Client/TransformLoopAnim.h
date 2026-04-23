@@ -13,14 +13,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine::Rendering { template <typename T1, typename T2> class SerializedDictionary_2; }
 
-#define RPG_CLIENT_TRANSFORMLOOPANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xA618D50)
-#define RPG_CLIENT_TRANSFORMLOOPANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xA6193B0)
-#define RPG_CLIENT_TRANSFORMLOOPANIM_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xA618D00)
-#define RPG_CLIENT_TRANSFORMLOOPANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xA619460)
+#define RPG_CLIENT_TRANSFORMLOOPANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xB36FFF0)
+#define RPG_CLIENT_TRANSFORMLOOPANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xB370650)
+#define RPG_CLIENT_TRANSFORMLOOPANIM_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xB36FFA0)
+#define RPG_CLIENT_TRANSFORMLOOPANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xB370700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformLoopAnim_TypeDefinitionIndex = 57569;
+	inline static constexpr unsigned int TransformLoopAnim_TypeDefinitionIndex = 64832;
 
 	class TransformLoopAnim : public ::RPG::Client::TAMonoPlugin_1<::Class_3_38055A527A761D34*>
 	{

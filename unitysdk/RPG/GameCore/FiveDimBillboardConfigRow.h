@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171EAE70)
-#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171EAF70)
+#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188F8940)
+#define RPG_GAMECORE_FIVEDIMBILLBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188F8A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBillboardConfigRow_TypeDefinitionIndex = 11445;
+	inline static constexpr unsigned int FiveDimBillboardConfigRow_TypeDefinitionIndex = 11847;
 
 	class FiveDimBillboardConfigRow : public ::System::Object
 	{

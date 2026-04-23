@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IOptionCollectionService_TypeDefinitionIndex = 29709;
+	inline static constexpr unsigned int IOptionCollectionService_TypeDefinitionIndex = 35429;
 
 	class IOptionCollectionService
 	{

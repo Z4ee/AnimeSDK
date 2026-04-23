@@ -6,17 +6,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_CF936FB7CE3B8D17_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1156C480)
-#define CLASS_2_CF936FB7CE3B8D17_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1156C4C0)
-#define CLASS_2_CF936FB7CE3B8D17__CTOR_OFFSET UNITYSDK_OFFSET(0x1156C470)
+#define CLASS_2_CF936FB7CE3B8D17_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12AD7160)
+#define CLASS_2_CF936FB7CE3B8D17_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x12AD71A0)
+#define CLASS_2_CF936FB7CE3B8D17__CTOR_OFFSET UNITYSDK_OFFSET(0x12AD7150)
 
-inline static constexpr unsigned int Class_2_CF936FB7CE3B8D17_TypeDefinitionIndex = 42284;
+inline static constexpr unsigned int Class_2_CF936FB7CE3B8D17_TypeDefinitionIndex = 48244;
 
 class Class_2_CF936FB7CE3B8D17 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x20
 	::RPG::GameCore::AIActionType Field_2_1; // 0x28
 	::System::Boolean Field_2_3; // 0x2C
 

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ARTNODECONFIG_GETASSETPATHWITHLOD_OFFSET UNITYSDK_OFFSET(0x90D8150)
-#define RPG_CLIENT_ARTNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x90D8200)
+#define RPG_CLIENT_ARTNODECONFIG_GETASSETPATHWITHLOD_OFFSET UNITYSDK_OFFSET(0x9D39DC0)
+#define RPG_CLIENT_ARTNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9D39E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNodeConfig_TypeDefinitionIndex = 55765;
+	inline static constexpr unsigned int ArtNodeConfig_TypeDefinitionIndex = 62988;
 
 	class ArtNodeConfig : public ::UnityEngine::MonoBehaviour
 	{

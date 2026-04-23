@@ -1,15 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
-#include "unitysdk/RPG/GameCore/AvatarSkillTreePointTriggerKey.h"
+#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/StringHash.h"
+#include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
 
-namespace RPG::GameCore { class AvatarRankConfigRow; }
-namespace RPG::GameCore { class AvatarSkillTreeRow; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+class Class_0_16E4307DCC419505_444;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class RtCharacterConfig; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_434_TypeDefinitionIndex = 45806;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_434_TypeDefinitionIndex = 49846;
 
 class Class_0_16E4307DCC419505_434
 {

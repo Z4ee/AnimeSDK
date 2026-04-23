@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
-#include "unitysdk/RPG/GameCore/FiveDimMiniGameCoinType.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
+class Class_1_43BD383C98B4C0C5_24;
 class Class_2_9DD8A46984F1AFFD;
-namespace RPG::GameCore { class HoyoTagContainer; }
-namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
-namespace System { class String; }
+namespace RPG::GameCore { class FiveDimWindowControllerComponentConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_231_TypeDefinitionIndex = 33624;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_231_TypeDefinitionIndex = 39434;
 
 class Class_0_16E4307DCC419505_231
 {

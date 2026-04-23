@@ -7,20 +7,20 @@ namespace RPG::GameCore { class AdvNPCIdle; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_148F464C98A2A225_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEEA250)
-#define CLASS_2_148F464C98A2A225_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEEA290)
-#define CLASS_2_148F464C98A2A225_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEEA330)
-#define CLASS_2_148F464C98A2A225_TICK_OFFSET UNITYSDK_OFFSET(0xBEEA380)
-#define CLASS_2_148F464C98A2A225__CTOR_OFFSET UNITYSDK_OFFSET(0xBEEA1C0)
+#define CLASS_2_148F464C98A2A225_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB226410)
+#define CLASS_2_148F464C98A2A225_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB226450)
+#define CLASS_2_148F464C98A2A225_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB226500)
+#define CLASS_2_148F464C98A2A225_TICK_OFFSET UNITYSDK_OFFSET(0xB226550)
+#define CLASS_2_148F464C98A2A225__CTOR_OFFSET UNITYSDK_OFFSET(0xB226380)
 
-inline static constexpr unsigned int Class_2_148F464C98A2A225_TypeDefinitionIndex = 42441;
+inline static constexpr unsigned int Class_2_148F464C98A2A225_TypeDefinitionIndex = 48402;
 
 class Class_2_148F464C98A2A225 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_2_A0580152EB393340* Field_2_1; // 0x18
-	::RPG::GameCore::AdventureCharacterController* Field_2_2; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
+	::RPG::GameCore::AdventureCharacterController* Field_2_2; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
+	::Class_2_A0580152EB393340* Field_2_1; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvNPCIdle* a2)
 	{

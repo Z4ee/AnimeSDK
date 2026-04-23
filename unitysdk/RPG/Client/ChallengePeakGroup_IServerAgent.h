@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_828B93627FACA5C2;
+class Class_1_07701BC2FDC5E4E0_1;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakGroup_IServerAgent_TypeDefinitionIndex = 51268;
+	inline static constexpr unsigned int ChallengePeakGroup_IServerAgent_TypeDefinitionIndex = 58192;
 
 	class ChallengePeakGroup_IServerAgent
 	{

@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeConfigRow___O_TypeDefinitionIndex = 10785;
+	inline static constexpr unsigned int ActivityFeverTimeConfigRow___O_TypeDefinitionIndex = 11034;
 
 	class ActivityFeverTimeConfigRow___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeConfigRow___O_TypeDefinitionIndex)->GetStaticField(0x1F020);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeConfigRow___O_TypeDefinitionIndex)->GetStaticField(0x79C0);
 		}
 	};
 }

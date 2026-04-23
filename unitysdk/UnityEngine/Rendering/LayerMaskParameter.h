@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_LAYERMASKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188E7BC0)
+#define UNITYENGINE_RENDERING_LAYERMASKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321950)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 27911;
+	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 33535;
 
 	class LayerMaskParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::LayerMask>
 	{

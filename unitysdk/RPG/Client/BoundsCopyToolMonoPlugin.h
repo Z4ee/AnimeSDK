@@ -5,11 +5,11 @@
 
 class Class_3_8FE15D155B05EF4E_1;
 
-#define RPG_CLIENT_BOUNDSCOPYTOOLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x91FC2C0)
+#define RPG_CLIENT_BOUNDSCOPYTOOLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA54A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 58179;
+	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 65466;
 
 	class BoundsCopyToolMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8FE15D155B05EF4E_1*>
 	{

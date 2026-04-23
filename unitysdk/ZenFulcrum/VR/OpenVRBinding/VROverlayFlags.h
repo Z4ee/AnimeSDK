@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VROverlayFlags_TypeDefinitionIndex = 30293;
+	inline static constexpr unsigned int VROverlayFlags_TypeDefinitionIndex = 36013;
 
 	enum class VROverlayFlags : ::System::Int32
 	{

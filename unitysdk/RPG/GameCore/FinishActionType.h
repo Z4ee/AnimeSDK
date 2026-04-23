@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionType_TypeDefinitionIndex = 10039;
+	inline static constexpr unsigned int FinishActionType_TypeDefinitionIndex = 10230;
 
 	enum class FinishActionType : ::System::Int32
 	{

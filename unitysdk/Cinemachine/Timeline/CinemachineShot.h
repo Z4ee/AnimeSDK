@@ -11,13 +11,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define CINEMACHINE_TIMELINE_CINEMACHINESHOT_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x119DBFD0)
-#define CINEMACHINE_TIMELINE_CINEMACHINESHOT_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x119DC150)
-#define CINEMACHINE_TIMELINE_CINEMACHINESHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x119DC910)
+#define CINEMACHINE_TIMELINE_CINEMACHINESHOT_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12BAA310)
+#define CINEMACHINE_TIMELINE_CINEMACHINESHOT_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x12BAA490)
+#define CINEMACHINE_TIMELINE_CINEMACHINESHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BAAC50)
 
 namespace Cinemachine::Timeline
 {
-	inline static constexpr unsigned int CinemachineShot_TypeDefinitionIndex = 30923;
+	inline static constexpr unsigned int CinemachineShot_TypeDefinitionIndex = 36643;
 
 	class CinemachineShot : public ::UnityEngine::Playables::PlayableAsset
 	{

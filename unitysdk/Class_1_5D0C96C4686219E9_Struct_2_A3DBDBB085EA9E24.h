@@ -5,7 +5,7 @@
 namespace System { class Delegate; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_5D0C96C4686219E9_Struct_2_A3DBDBB085EA9E24_TypeDefinitionIndex = 39983;
+inline static constexpr unsigned int Class_1_5D0C96C4686219E9_Struct_2_A3DBDBB085EA9E24_TypeDefinitionIndex = 45892;
 
 struct alignas(8) Class_1_5D0C96C4686219E9_Struct_2_A3DBDBB085EA9E24
 {

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176700D0)
-#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17670200)
+#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D7D910)
+#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7DA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournUseBuffTypeRow_TypeDefinitionIndex = 13756;
+	inline static constexpr unsigned int RogueTournUseBuffTypeRow_TypeDefinitionIndex = 14227;
 
 	class RogueTournUseBuffTypeRow : public ::System::Object
 	{

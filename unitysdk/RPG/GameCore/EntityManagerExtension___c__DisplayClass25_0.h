@@ -1,29 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/NPCSubType.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class StoryCharacterRow; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYPROPENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xA90E5B0)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA90E5A0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xB657AC0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xB657D00)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYNPCENTITY_B__2_OFFSET UNITYSDK_OFFSET(0xB657D50)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB63C4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass25_0_TypeDefinitionIndex = 46583;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass25_0_TypeDefinitionIndex = 53273;
 
 	class EntityManagerExtension___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Int32 artPrefabIndex; // 0x10
+		::Il2CppArray<::System::String*>* overrideReplaceMaterialKeyList; // 0x10
+		::RPG::GameCore::StoryCharacterRow* storyCharacterRow; // 0x18
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x20
+		::RPG::GameCore::EntityManager* pManager; // 0x28
+		::System::String* appearancePreset; // 0x30
+		::RPG::GameCore::NPCSubType subType; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ClientCreateStoryPropEntity_b__0(::RPG::GameCore::GameEntity* gameEntity)
+		::System::Void _ClientCreateStoryNPCEntity_b__0(::RPG::GameCore::GameEntity* gameEntity)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYPROPENTITY_B__0_OFFSET))(this, gameEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYNPCENTITY_B__0_OFFSET))(this, gameEntity);
+		}
+
+		::System::Void _ClientCreateStoryNPCEntity_b__1(::RPG::GameCore::GameEntity* gameEntity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYNPCENTITY_B__1_OFFSET))(this, gameEntity);
+		}
+
+		::System::Void _ClientCreateStoryNPCEntity_b__2(::RPG::GameCore::GameEntity* gameEntity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS25_0__CLIENTCREATESTORYNPCENTITY_B__2_OFFSET))(this, gameEntity);
 		}
 	};
 }

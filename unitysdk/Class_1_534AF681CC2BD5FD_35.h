@@ -2,7 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_35_TypeDefinitionIndex = 48069;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_35_TypeDefinitionIndex = 45560;
 
 class Class_1_534AF681CC2BD5FD_35 : public ::System::Object
 {

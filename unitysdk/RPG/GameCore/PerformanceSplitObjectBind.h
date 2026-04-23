@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceSplitObjectAnimMap; }
 
-#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND_METHOD_2_B3205576D09D2D8C_OFFSET UNITYSDK_OFFSET(0x174A1F50)
-#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x174A20A0)
+#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND_METHOD_2_B3205576D09D2D8C_OFFSET UNITYSDK_OFFSET(0x18BEC4C0)
+#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEC610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSplitObjectBind_TypeDefinitionIndex = 16142;
+	inline static constexpr unsigned int PerformanceSplitObjectBind_TypeDefinitionIndex = 16673;
 
 	class PerformanceSplitObjectBind : public ::RPG::GameCore::JsonConfig
 	{

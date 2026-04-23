@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_42AC6A388F4F4B54;
-class Class_1_D3CC73B16B410533;
-namespace RPG { template <typename T> class PoolList_1; }
+class Class_0_16E4307DCC419505_121;
+class Class_1_47EE63CB5C4DC8FC_9;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_172_TypeDefinitionIndex = 32456;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_172_TypeDefinitionIndex = 38181;
 
 class Class_0_16E4307DCC419505_172
 {

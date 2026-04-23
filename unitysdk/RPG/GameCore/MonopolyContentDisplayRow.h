@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174377F0)
-#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17437960)
+#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B443D0)
+#define RPG_GAMECORE_MONOPOLYCONTENTDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B44540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyContentDisplayRow_TypeDefinitionIndex = 11069;
+	inline static constexpr unsigned int MonopolyContentDisplayRow_TypeDefinitionIndex = 11472;
 
 	class MonopolyContentDisplayRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 CellContentID; // 0x10
-		::System::UInt32 DisplayID; // 0x14
-		::RPG::GameCore::MonopolyCellType CellType; // 0x18
+		::RPG::GameCore::MonopolyCellType CellType; // 0x10
+		::System::UInt32 CellContentID; // 0x14
+		::System::UInt32 DisplayID; // 0x18
 
 		::System::Void _ctor()
 		{

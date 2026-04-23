@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ETravelShipState_TypeDefinitionIndex = 56190;
+	inline static constexpr unsigned int ETravelShipState_TypeDefinitionIndex = 63433;
 
 	enum class ETravelShipState : ::System::Int32
 	{

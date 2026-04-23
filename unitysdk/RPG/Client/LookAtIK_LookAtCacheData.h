@@ -9,31 +9,31 @@ namespace RPG::Client { class LookAtTargetConstraint; }
 namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x9A68080)
-#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9A68360)
-#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A5EED0)
+#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xA7154B0)
+#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA715790)
+#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA70C2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtIK_LookAtCacheData_TypeDefinitionIndex = 55900;
+	inline static constexpr unsigned int LookAtIK_LookAtCacheData_TypeDefinitionIndex = 63134;
 
 	class LookAtIK_LookAtCacheData : public ::System::Object
 	{
 	public:
-		::RPG::Client::LookAtTargetConstraint* LookAtConstraint; // 0x10
+		::UnityEngine::Transform* LookAtTarget; // 0x10
 		::RPG::Client::LookAtTargetData LookAtData; // 0x18
-		::UnityEngine::Transform* LookAtTarget; // 0xA0
-		::System::Single FadeInTime; // 0xA8
-		::UnityEngine::Vector3 PrevTracePos; // 0xAC
-		::System::Single OverrideLookAtFadeOutTime; // 0xB8
-		::System::Single StopSpeed; // 0xBC
-		::System::Single UpDownFilterIntensity; // 0xC0
-		::System::Single LeftRightFilterIntensity; // 0xC4
-		::System::Single LookAtToTargetSpeed; // 0xC8
-		::System::Single OverrideLookAtSpeed; // 0xCC
-		::System::Single Speed; // 0xD0
-		::System::Single OverrideLookAtFadeInTime; // 0xD4
-		::System::Single FadeOutTime; // 0xD8
+		::RPG::Client::LookAtTargetConstraint* LookAtConstraint; // 0xA0
+		::System::Single OverrideLookAtSpeed; // 0xA8
+		::System::Single LeftRightFilterIntensity; // 0xAC
+		::System::Single StopSpeed; // 0xB0
+		::System::Single OverrideLookAtFadeInTime; // 0xB4
+		::System::Single LookAtToTargetSpeed; // 0xB8
+		::System::Single Speed; // 0xBC
+		::System::Single FadeOutTime; // 0xC0
+		::System::Single UpDownFilterIntensity; // 0xC4
+		::System::Single OverrideLookAtFadeOutTime; // 0xC8
+		::System::Single FadeInTime; // 0xCC
+		::UnityEngine::Vector3 PrevTracePos; // 0xD0
 
 		::System::Void _ctor(::RPG::Client::LookAtIK* ik)
 		{

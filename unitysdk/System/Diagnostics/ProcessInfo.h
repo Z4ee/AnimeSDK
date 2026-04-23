@@ -4,7 +4,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ProcessInfo_TypeDefinitionIndex = 2538;
+	inline static constexpr unsigned int ProcessInfo_TypeDefinitionIndex = 2539;
 
 	class ProcessInfo : public ::System::Object
 	{

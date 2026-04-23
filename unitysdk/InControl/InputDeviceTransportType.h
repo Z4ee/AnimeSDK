@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceTransportType_TypeDefinitionIndex = 31432;
+	inline static constexpr unsigned int InputDeviceTransportType_TypeDefinitionIndex = 37152;
 
 	enum class InputDeviceTransportType : ::System::UInt16
 	{

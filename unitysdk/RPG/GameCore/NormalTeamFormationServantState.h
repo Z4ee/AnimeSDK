@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NormalTeamFormationServantState_TypeDefinitionIndex = 21109;
+	inline static constexpr unsigned int NormalTeamFormationServantState_TypeDefinitionIndex = 21826;
 
 	enum class NormalTeamFormationServantState : ::System::Int32
 	{

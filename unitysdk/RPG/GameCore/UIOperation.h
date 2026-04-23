@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIOPERATION_METHOD_2_99E37070C2F40B32_OFFSET UNITYSDK_OFFSET(0x178E0B90)
-#define RPG_GAMECORE_UIOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x178E0E60)
+#define RPG_GAMECORE_UIOPERATION_METHOD_2_99E37070C2F40B32_OFFSET UNITYSDK_OFFSET(0x190DF3B0)
+#define RPG_GAMECORE_UIOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x190DF680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIOperation_TypeDefinitionIndex = 22481;
+	inline static constexpr unsigned int UIOperation_TypeDefinitionIndex = 23453;
 
 	class UIOperation : public ::RPG::GameCore::JsonConfig
 	{

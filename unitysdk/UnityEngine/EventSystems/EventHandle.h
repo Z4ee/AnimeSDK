@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int EventHandle_TypeDefinitionIndex = 5776;
+	inline static constexpr unsigned int EventHandle_TypeDefinitionIndex = 5788;
 
 	enum class EventHandle : ::System::Int32
 	{

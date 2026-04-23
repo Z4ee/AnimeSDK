@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Struct_2_4127FF4C06B070D3.h"
+#include "unitysdk/Struct_2_A7B9824716EA1FCD.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_E602A1752C4DCAA4;
@@ -21,7 +22,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseEventActionSystem_1_TypeDefinitionIndex = 62772;
+	inline static constexpr unsigned int BaseEventActionSystem_1_TypeDefinitionIndex = 70794;
 
 	template <typename T>
 	class BaseEventActionSystem_1 : public ::System::Object

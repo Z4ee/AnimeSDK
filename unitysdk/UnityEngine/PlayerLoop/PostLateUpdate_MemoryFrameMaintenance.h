@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_MemoryFrameMaintenance_TypeDefinitionIndex = 4469;
+	inline static constexpr unsigned int PostLateUpdate_MemoryFrameMaintenance_TypeDefinitionIndex = 4471;
 
 	struct alignas(1) PostLateUpdate_MemoryFrameMaintenance
 	{

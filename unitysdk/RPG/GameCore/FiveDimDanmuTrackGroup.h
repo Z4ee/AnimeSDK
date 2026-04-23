@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP_METHOD_2_60E625605F012980_OFFSET UNITYSDK_OFFSET(0x171EEA90)
-#define RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x171EEBB0)
+#define RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP_METHOD_2_566617BADDF04B47_OFFSET UNITYSDK_OFFSET(0x188FC800)
+#define RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x188FC950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDanmuTrackGroup_TypeDefinitionIndex = 17276;
+	inline static constexpr unsigned int FiveDimDanmuTrackGroup_TypeDefinitionIndex = 17884;
 
 	class FiveDimDanmuTrackGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_60E625605F012980(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDanmuTrackGroup*& a2)
+		static ::System::Void Method_2_566617BADDF04B47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDanmuTrackGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDanmuTrackGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP_METHOD_2_60E625605F012980_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDanmuTrackGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDANMUTRACKGROUP_METHOD_2_566617BADDF04B47_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA61D1D0)
-#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xA619FA0)
+#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB374470)
+#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xB371240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformPatrolAnimBehavior_PatrolPoint_TypeDefinitionIndex = 57578;
+	inline static constexpr unsigned int TransformPatrolAnimBehavior_PatrolPoint_TypeDefinitionIndex = 64841;
 
 	class TransformPatrolAnimBehavior_PatrolPoint : public ::System::Object
 	{

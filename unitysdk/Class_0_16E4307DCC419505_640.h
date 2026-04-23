@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/GridFightPreset.h"
 
-namespace System { class String; }
+class Class_0_16E4307DCC419505_648;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_640_TypeDefinitionIndex = 52854;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_640_TypeDefinitionIndex = 57502;
 
 class Class_0_16E4307DCC419505_640
 {

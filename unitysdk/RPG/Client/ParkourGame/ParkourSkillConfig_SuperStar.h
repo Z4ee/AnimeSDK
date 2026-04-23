@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/ParkourSkillConfig.h"
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_SUPERSTAR__CTOR_OFFSET UNITYSDK_OFFSET(0x9F07710)
+#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_SUPERSTAR__CTOR_OFFSET UNITYSDK_OFFSET(0xAC2C530)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourSkillConfig_SuperStar_TypeDefinitionIndex = 60784;
+	inline static constexpr unsigned int ParkourSkillConfig_SuperStar_TypeDefinitionIndex = 68233;
 
 	class ParkourSkillConfig_SuperStar : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{

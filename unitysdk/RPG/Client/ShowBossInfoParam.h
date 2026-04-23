@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_SHOWBOSSINFOPARAM_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xA47C8F0)
-#define RPG_CLIENT_SHOWBOSSINFOPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA47C900)
+#define RPG_CLIENT_SHOWBOSSINFOPARAM_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xB16B9B0)
+#define RPG_CLIENT_SHOWBOSSINFOPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB16B9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShowBossInfoParam_TypeDefinitionIndex = 59050;
+	inline static constexpr unsigned int ShowBossInfoParam_TypeDefinitionIndex = 66427;
 
 	class ShowBossInfoParam : public ::System::Object
 	{

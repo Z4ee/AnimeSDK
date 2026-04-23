@@ -4,11 +4,11 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_XML_SCHEMA_POSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD80)
+#define SYSTEM_XML_SCHEMA_POSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x31380)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Position_TypeDefinitionIndex = 2054;
+	inline static constexpr unsigned int Position_TypeDefinitionIndex = 2055;
 
 	struct alignas(8) Position
 	{

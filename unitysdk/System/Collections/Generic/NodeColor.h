@@ -3,7 +3,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int NodeColor_TypeDefinitionIndex = 3037;
+	inline static constexpr unsigned int NodeColor_TypeDefinitionIndex = 3038;
 
 	enum class NodeColor : ::System::Byte
 	{

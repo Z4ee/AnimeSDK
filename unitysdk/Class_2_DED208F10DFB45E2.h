@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+
+class Class_2_62368A41E97C646F;
+namespace System { class Object; }
+namespace System { class Type; }
+
+#define CLASS_2_DED208F10DFB45E2_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xEC9C910)
+#define CLASS_2_DED208F10DFB45E2_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xEC9C9F0)
+#define CLASS_2_DED208F10DFB45E2_METHOD_2_546D123B31C1EA8A_OFFSET UNITYSDK_OFFSET(0xEC9BE70)
+#define CLASS_2_DED208F10DFB45E2_METHOD_2_6C66A58C40B688EE_OFFSET UNITYSDK_OFFSET(0xEC9C5B0)
+#define CLASS_2_DED208F10DFB45E2_METHOD_2_A27D06F9481FAFDB_1_OFFSET UNITYSDK_OFFSET(0xEC9C820)
+#define CLASS_2_DED208F10DFB45E2_METHOD_2_A27D06F9481FAFDB_OFFSET UNITYSDK_OFFSET(0xEC9C730)
+#define CLASS_2_DED208F10DFB45E2_METHOD_2_E8212F272F23EA36_OFFSET UNITYSDK_OFFSET(0xEC9BF90)
+#define CLASS_2_DED208F10DFB45E2__CTOR_OFFSET UNITYSDK_OFFSET(0xEC9CAA0)
+#define CLASS_2_DED208F10DFB45E2___IFIXBASEPROXY_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xEC9CAD0)
+#define CLASS_2_DED208F10DFB45E2___IFIXBASEPROXY_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xEC9CB30)
+
+inline static constexpr unsigned int Class_2_DED208F10DFB45E2_TypeDefinitionIndex = 66425;
+
+class Class_2_DED208F10DFB45E2 : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_546D123B31C1EA8A(::System::Type* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_METHOD_2_546D123B31C1EA8A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_6C66A58C40B688EE(::System::Type* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_METHOD_2_6C66A58C40B688EE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_E8212F272F23EA36(::System::Type* a1, ::Class_2_62368A41E97C646F* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Type*, ::Class_2_62368A41E97C646F*))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_METHOD_2_E8212F272F23EA36_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_METHOD_2_A27D06F9481FAFDB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_1(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_METHOD_2_A27D06F9481FAFDB_1_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2___IFIXBASEPROXY_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DED208F10DFB45E2___IFIXBASEPROXY_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

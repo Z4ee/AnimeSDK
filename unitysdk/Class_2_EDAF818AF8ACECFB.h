@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetMapCharacterChangeTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EDAF818AF8ACECFB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x11378410)
-#define CLASS_2_EDAF818AF8ACECFB__CTOR_OFFSET UNITYSDK_OFFSET(0x113783F0)
+#define CLASS_2_EDAF818AF8ACECFB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x11DED000)
+#define CLASS_2_EDAF818AF8ACECFB__CTOR_OFFSET UNITYSDK_OFFSET(0x11DECFE0)
 
-inline static constexpr unsigned int Class_2_EDAF818AF8ACECFB_TypeDefinitionIndex = 47842;
+inline static constexpr unsigned int Class_2_EDAF818AF8ACECFB_TypeDefinitionIndex = 54583;
 
 class Class_2_EDAF818AF8ACECFB : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapCharacterChangeTarget*>
 {

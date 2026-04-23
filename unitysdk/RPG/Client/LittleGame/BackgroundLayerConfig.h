@@ -5,11 +5,11 @@
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_BACKGROUNDLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16841350)
+#define RPG_CLIENT_LITTLEGAME_BACKGROUNDLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE8D80)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BackgroundLayerConfig_TypeDefinitionIndex = 32787;
+	inline static constexpr unsigned int BackgroundLayerConfig_TypeDefinitionIndex = 38577;
 
 	class BackgroundLayerConfig : public ::System::Object
 	{

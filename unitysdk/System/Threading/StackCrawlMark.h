@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int StackCrawlMark_TypeDefinitionIndex = 846;
+	inline static constexpr unsigned int StackCrawlMark_TypeDefinitionIndex = 848;
 
 	enum class StackCrawlMark : ::System::Int32
 	{

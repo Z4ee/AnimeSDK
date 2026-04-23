@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenLookAtType_TypeDefinitionIndex = 19595;
+	inline static constexpr unsigned int HipplenLookAtType_TypeDefinitionIndex = 20275;
 
 	enum class HipplenLookAtType : ::System::Int32
 	{

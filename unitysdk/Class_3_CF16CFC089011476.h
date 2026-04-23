@@ -7,11 +7,11 @@ namespace RPG::GameCore { class MazePuzzleOrigamiRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_CF16CFC089011476_METHOD_3_ED7542A53884A418_OFFSET UNITYSDK_OFFSET(0x117A2E20)
-#define CLASS_3_CF16CFC089011476_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117A2A20)
-#define CLASS_3_CF16CFC089011476__CTOR_OFFSET UNITYSDK_OFFSET(0x117A29F0)
+#define CLASS_3_CF16CFC089011476_METHOD_3_ED7542A53884A418_OFFSET UNITYSDK_OFFSET(0xD35E830)
+#define CLASS_3_CF16CFC089011476_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD35E430)
+#define CLASS_3_CF16CFC089011476__CTOR_OFFSET UNITYSDK_OFFSET(0xD35E400)
 
-inline static constexpr unsigned int Class_3_CF16CFC089011476_TypeDefinitionIndex = 42833;
+inline static constexpr unsigned int Class_3_CF16CFC089011476_TypeDefinitionIndex = 48817;
 
 class Class_3_CF16CFC089011476 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitColonyOrigamiEntity*>
 {

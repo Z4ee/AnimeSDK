@@ -8,21 +8,21 @@ namespace RPG::Client { class CakeRaceLobby; }
 namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9220540)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0___HANDLEEXITGAME_B__0_OFFSET UNITYSDK_OFFSET(0x9221BB0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0___HANDLEEXITGAME_B__1_OFFSET UNITYSDK_OFFSET(0x9221BE0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0___HANDLEEXITGAME_B__2_OFFSET UNITYSDK_OFFSET(0x9221C60)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE35E0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0___HANDLEEXITGAME_B__0_OFFSET UNITYSDK_OFFSET(0x9EE4F50)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0___HANDLEEXITGAME_B__1_OFFSET UNITYSDK_OFFSET(0x9EE4F80)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS72_0___HANDLEEXITGAME_B__2_OFFSET UNITYSDK_OFFSET(0x9EE5000)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass72_0_TypeDefinitionIndex = 62213;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass72_0_TypeDefinitionIndex = 70212;
 
 	class CakeRaceGameFlow___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x10
-		::RPG::Client::CakeRaceFieldData* fieldData; // 0x18
-		::RPG::Client::CakeRaceLobby* lobby; // 0x20
+		::RPG::Client::CakeRaceLobby* lobby; // 0x10
+		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x18
+		::RPG::Client::CakeRaceFieldData* fieldData; // 0x20
 		::RPG::Client::CakeRace::CakeRaceUIType targetUIType; // 0x28
 
 		::System::Void _ctor()

@@ -4,13 +4,13 @@
 
 namespace System::Xml::Schema { class BitSet; }
 
-#define SYSTEM_XML_SCHEMA_STARNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x18595140)
-#define SYSTEM_XML_SCHEMA_STARNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x18595340)
-#define SYSTEM_XML_SCHEMA_STARNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18595350)
+#define SYSTEM_XML_SCHEMA_STARNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x19FCFE50)
+#define SYSTEM_XML_SCHEMA_STARNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x19FD0050)
+#define SYSTEM_XML_SCHEMA_STARNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD0060)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int StarNode_TypeDefinitionIndex = 2065;
+	inline static constexpr unsigned int StarNode_TypeDefinitionIndex = 2066;
 
 	class StarNode : public ::System::Xml::Schema::InteriorNode
 	{

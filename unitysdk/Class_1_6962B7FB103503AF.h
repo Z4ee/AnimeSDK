@@ -7,9 +7,9 @@ class Class_1_72CC10A34CA99622;
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class TwoKeyDictionary_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_6962B7FB103503AF__CTOR_OFFSET UNITYSDK_OFFSET(0x10B33520)
+#define CLASS_1_6962B7FB103503AF__CTOR_OFFSET UNITYSDK_OFFSET(0x11A32830)
 
-inline static constexpr unsigned int Class_1_6962B7FB103503AF_TypeDefinitionIndex = 50428;
+inline static constexpr unsigned int Class_1_6962B7FB103503AF_TypeDefinitionIndex = 57287;
 
 class Class_1_6962B7FB103503AF : public ::System::Object
 {

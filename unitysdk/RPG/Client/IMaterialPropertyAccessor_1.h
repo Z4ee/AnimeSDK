@@ -6,7 +6,7 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMaterialPropertyAccessor_1_TypeDefinitionIndex = 57101;
+	inline static constexpr unsigned int IMaterialPropertyAccessor_1_TypeDefinitionIndex = 64352;
 
 	template <typename T>
 	class IMaterialPropertyAccessor_1

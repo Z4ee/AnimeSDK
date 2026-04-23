@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchActionDelayExceed; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_CF6434AE04F24E30_EVALUATE_OFFSET UNITYSDK_OFFSET(0x116DC5B0)
-#define CLASS_3_CF6434AE04F24E30__CTOR_OFFSET UNITYSDK_OFFSET(0x116DC530)
+#define CLASS_3_CF6434AE04F24E30_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11999EC0)
+#define CLASS_3_CF6434AE04F24E30__CTOR_OFFSET UNITYSDK_OFFSET(0x11999E40)
 
-inline static constexpr unsigned int Class_3_CF6434AE04F24E30_TypeDefinitionIndex = 47806;
+inline static constexpr unsigned int Class_3_CF6434AE04F24E30_TypeDefinitionIndex = 54545;
 
 class Class_3_CF6434AE04F24E30 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchActionDelayExceed*>
 {

@@ -10,12 +10,12 @@ class CarFlowIntersectionRule;
 class CarFlowRoad;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LANE_METHOD_1_245DAC87743A0F36_OFFSET UNITYSDK_OFFSET(0x118E52A0)
-#define LANE_METHOD_1_92DEBBA487CC3465_OFFSET UNITYSDK_OFFSET(0x118E5500)
-#define LANE_METHOD_1_DB4566C5411DFC07_OFFSET UNITYSDK_OFFSET(0x118E5840)
-#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0x118E5B30)
+#define LANE_METHOD_1_245DAC87743A0F36_OFFSET UNITYSDK_OFFSET(0x90B7720)
+#define LANE_METHOD_1_92DEBBA487CC3465_OFFSET UNITYSDK_OFFSET(0x90B7980)
+#define LANE_METHOD_1_DB4566C5411DFC07_OFFSET UNITYSDK_OFFSET(0x90B7CC0)
+#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0x90B7FB0)
 
-inline static constexpr unsigned int Lane_TypeDefinitionIndex = 38008;
+inline static constexpr unsigned int Lane_TypeDefinitionIndex = 43886;
 
 class Lane : public ::System::Object
 {

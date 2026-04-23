@@ -5,22 +5,22 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_293;
+class Class_0_16E4307DCC419505_299;
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace RPG::Client { class EnvironmentSystem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVLOCALVOLUME_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0xFB840E0)
-#define ENVLOCALVOLUME_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0xFB840A0)
-#define ENVLOCALVOLUME_GETINSIDE_OFFSET UNITYSDK_OFFSET(0xFB84470)
-#define ENVLOCALVOLUME_METHOD_6_193E00E83BC3E6E8_OFFSET UNITYSDK_OFFSET(0xFB84220)
-#define ENVLOCALVOLUME_METHOD_6_3FEC31896EE03459_OFFSET UNITYSDK_OFFSET(0xFB842A0)
-#define ENVLOCALVOLUME_METHOD_6_7131FDE42F1B27F4_OFFSET UNITYSDK_OFFSET(0xFB843E0)
-#define ENVLOCALVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xFB841D0)
-#define ENVLOCALVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xFB84180)
-#define ENVLOCALVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xFB84830)
+#define ENVLOCALVOLUME_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0xF2F7FB0)
+#define ENVLOCALVOLUME_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0xF2F7F70)
+#define ENVLOCALVOLUME_GETINSIDE_OFFSET UNITYSDK_OFFSET(0xF2F8340)
+#define ENVLOCALVOLUME_METHOD_6_193E00E83BC3E6E8_OFFSET UNITYSDK_OFFSET(0xF2F80F0)
+#define ENVLOCALVOLUME_METHOD_6_3FEC31896EE03459_OFFSET UNITYSDK_OFFSET(0xF2F8170)
+#define ENVLOCALVOLUME_METHOD_6_7131FDE42F1B27F4_OFFSET UNITYSDK_OFFSET(0xF2F82B0)
+#define ENVLOCALVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xF2F80A0)
+#define ENVLOCALVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xF2F8050)
+#define ENVLOCALVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xF2F8700)
 
-inline static constexpr unsigned int EnvLocalVolume_TypeDefinitionIndex = 38203;
+inline static constexpr unsigned int EnvLocalVolume_TypeDefinitionIndex = 44087;
 
 class EnvLocalVolume : public ::GeometryEdit::Prism
 {
@@ -28,7 +28,7 @@ public:
 	::System::Boolean UseProfileList; // 0x40
 	::EnviromentSystem::EnviromentProfile* TargetProfile; // 0x48
 	::System::Collections::Generic::List_1<::EnviromentSystem::EnviromentProfile*>* TargetProfileList; // 0x50
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_293*>* Field_6_3; // 0x58
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>* Field_6_3; // 0x58
 	::System::Int32 Priority; // 0x60
 	::System::Single Duration; // 0x64
 	::RPG::Client::EnvironmentSystem* Field_6_6; // 0x68
@@ -40,14 +40,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUME__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_293* GetEnviromentProfile()
+	::Class_0_16E4307DCC419505_299* GetEnviromentProfile()
 	{
-		return ((::Class_0_16E4307DCC419505_293*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUME_GETENVIROMENTPROFILE_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_299*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUME_GETENVIROMENTPROFILE_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_293*>* GetEnviromentProfilesList()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>* GetEnviromentProfilesList()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_293*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUME_GETENVIROMENTPROFILESLIST_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUME_GETENVIROMENTPROFILESLIST_OFFSET))(this);
 	}
 
 	::System::Void OnEnable()

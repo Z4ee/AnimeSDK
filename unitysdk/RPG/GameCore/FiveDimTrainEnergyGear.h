@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR_METHOD_2_35B00151930399CE_OFFSET UNITYSDK_OFFSET(0x17210350)
-#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x172104B0)
+#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR_METHOD_2_E6126DFFB01380BA_OFFSET UNITYSDK_OFFSET(0x18922420)
+#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x189225A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTrainEnergyGear_TypeDefinitionIndex = 19677;
+	inline static constexpr unsigned int FiveDimTrainEnergyGear_TypeDefinitionIndex = 20358;
 
 	class FiveDimTrainEnergyGear : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_35B00151930399CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTrainEnergyGear*& a2)
+		static ::System::Void Method_2_E6126DFFB01380BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTrainEnergyGear*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTrainEnergyGear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR_METHOD_2_35B00151930399CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTrainEnergyGear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR_METHOD_2_E6126DFFB01380BA_OFFSET))(a1, a2);
 		}
 	};
 }

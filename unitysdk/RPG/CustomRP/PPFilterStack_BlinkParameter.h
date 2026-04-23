@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x86AF0)
-#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x86AA0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE07E0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xE0790)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_BlinkParameter_TypeDefinitionIndex = 41890;
+	inline static constexpr unsigned int PPFilterStack_BlinkParameter_TypeDefinitionIndex = 47865;
 
 	struct alignas(4) PPFilterStack_BlinkParameter
 	{

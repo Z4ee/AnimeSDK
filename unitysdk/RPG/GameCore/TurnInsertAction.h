@@ -9,18 +9,19 @@ class Class_2_68C34B5C1C40C2FF;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_CE08C9E45E05BD78_OFFSET UNITYSDK_OFFSET(0x178D4FC0)
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_DF10E169EE4E4A5C_OFFSET UNITYSDK_OFFSET(0x178D50C0)
-#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x178D5000)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_CE08C9E45E05BD78_OFFSET UNITYSDK_OFFSET(0x190D3720)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_DF10E169EE4E4A5C_OFFSET UNITYSDK_OFFSET(0x190D3820)
+#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x190D3760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 20839;
+	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 21548;
 
 	class TurnInsertAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -55,7 +56,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::TurnInsertActionUIConfig* UIConfig; // 0xC0
 		::System::Boolean IgnoreUltraButtonEffect; // 0xC8
 		::Class_2_68C34B5C1C40C2FF* PreCheck; // 0xD0
-		::System::String* PendingInsertAbilityPriority; // 0xD8
+		::RPG::GameCore::PredicateConfig* ActivePredicate; // 0xD8
+		::System::String* PendingInsertAbilityPriority; // 0xE0
 
 		::System::Void _ctor()
 		{

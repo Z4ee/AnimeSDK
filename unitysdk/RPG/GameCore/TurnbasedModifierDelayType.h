@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnbasedModifierDelayType_TypeDefinitionIndex = 46562;
+	inline static constexpr unsigned int TurnbasedModifierDelayType_TypeDefinitionIndex = 53252;
 
 	enum class TurnbasedModifierDelayType : ::System::Int32
 	{

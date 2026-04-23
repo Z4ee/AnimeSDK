@@ -8,18 +8,18 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHexRow___O_TypeDefinitionIndex = 13763;
+	inline static constexpr unsigned int RogueTournHexRow___O_TypeDefinitionIndex = 14234;
 
 	class RogueTournHexRow___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>** StaticGet__1___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexRow___O_TypeDefinitionIndex)->GetStaticField(0x6120);
-		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexRow___O_TypeDefinitionIndex)->GetStaticField(0x6128);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexRow___O_TypeDefinitionIndex)->GetStaticField(0x48C10);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>** StaticGet__1___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexRow___O_TypeDefinitionIndex)->GetStaticField(0x48C18);
 		}
 	};
 }

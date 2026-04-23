@@ -6,11 +6,11 @@ namespace RPG::GameCore { class FeverTimeInfoChangeParam; }
 namespace RPG::GameCore { class NotifyFeverTimeInfoChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0BFA3D777B355420_METHOD_3_AE78DFA9FDF19592_OFFSET UNITYSDK_OFFSET(0x11906250)
-#define CLASS_3_0BFA3D777B355420_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11905FF0)
-#define CLASS_3_0BFA3D777B355420__CTOR_OFFSET UNITYSDK_OFFSET(0x11905FC0)
+#define CLASS_3_0BFA3D777B355420_METHOD_3_AE78DFA9FDF19592_OFFSET UNITYSDK_OFFSET(0x9906660)
+#define CLASS_3_0BFA3D777B355420_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9906400)
+#define CLASS_3_0BFA3D777B355420__CTOR_OFFSET UNITYSDK_OFFSET(0x99063D0)
 
-inline static constexpr unsigned int Class_3_0BFA3D777B355420_TypeDefinitionIndex = 44215;
+inline static constexpr unsigned int Class_3_0BFA3D777B355420_TypeDefinitionIndex = 50924;
 
 class Class_3_0BFA3D777B355420 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NotifyFeverTimeInfoChange*>
 {

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Ecom { class TransactionGetEntitlementsCountOpti
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_ECOM_TRANSACTIONGETENTITLEMENTSCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTIONGETENTITLEMENTSCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3EA40)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTIONGETENTITLEMENTSCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3F440)
 #define EPIC_ONLINESERVICES_ECOM_TRANSACTIONGETENTITLEMENTSCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int TransactionGetEntitlementsCountOptionsInternal_TypeDefinitionIndex = 36405;
+	inline static constexpr unsigned int TransactionGetEntitlementsCountOptionsInternal_TypeDefinitionIndex = 42231;
 
 	struct alignas(4) TransactionGetEntitlementsCountOptionsInternal
 	{

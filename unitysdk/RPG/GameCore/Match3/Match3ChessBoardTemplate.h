@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Match3 { class Match3ChessBoardGridInfo; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDTEMPLATE_METHOD_2_630AE32847656A2D_OFFSET UNITYSDK_OFFSET(0x173A74B0)
-#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x173A7700)
+#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDTEMPLATE_METHOD_2_630AE32847656A2D_OFFSET UNITYSDK_OFFSET(0x18AB5880)
+#define RPG_GAMECORE_MATCH3_MATCH3CHESSBOARDTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB5AD0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3ChessBoardTemplate_TypeDefinitionIndex = 22757;
+	inline static constexpr unsigned int Match3ChessBoardTemplate_TypeDefinitionIndex = 23730;
 
 	class Match3ChessBoardTemplate : public ::RPG::GameCore::JsonConfig
 	{

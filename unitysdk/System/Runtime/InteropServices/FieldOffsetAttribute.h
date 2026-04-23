@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_FIELDOFFSETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16393780)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_FIELDOFFSETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179C0330)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int FieldOffsetAttribute_TypeDefinitionIndex = 1411;
+	inline static constexpr unsigned int FieldOffsetAttribute_TypeDefinitionIndex = 1413;
 
 	class FieldOffsetAttribute : public ::System::Attribute
 	{

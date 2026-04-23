@@ -5,23 +5,23 @@
 namespace CriWare { class CriAudioReadStream_Delegate; }
 namespace CriWare { class CriAudioReadStream_InternalDelegate; }
 
-#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x11A30FB0)
-#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x11A30FD0)
-#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x11A30FC0)
-#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x11A30FE0)
-#define CRIWARE_CRIAUDIOREADSTREAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11A31000)
-#define CRIWARE_CRIAUDIOREADSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11A30FF0)
+#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x12BFF7C0)
+#define CRIWARE_CRIAUDIOREADSTREAM_GET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x12BFF7E0)
+#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x12BFF7D0)
+#define CRIWARE_CRIAUDIOREADSTREAM_SET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x12BFF7F0)
+#define CRIWARE_CRIAUDIOREADSTREAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12BFF810)
+#define CRIWARE_CRIAUDIOREADSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12BFF800)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAudioReadStream_TypeDefinitionIndex = 31111;
+	inline static constexpr unsigned int CriAudioReadStream_TypeDefinitionIndex = 36831;
 
 	class CriAudioReadStream : public ::System::Object
 	{
 	public:
 		::CriWare::CriAudioReadStream_InternalDelegate* internalDelegate; // 0x10
-		::System::IntPtr _callbackFunction_k__BackingField; // 0x18
-		::System::IntPtr _callbackPointer_k__BackingField; // 0x20
+		::System::IntPtr _callbackPointer_k__BackingField; // 0x18
+		::System::IntPtr _callbackFunction_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::IntPtr callbackFunction, ::System::IntPtr callbackPointer)
 		{

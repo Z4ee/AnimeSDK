@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvHideRushBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E62DDE9F7095019B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99D9C10)
-#define CLASS_3_E62DDE9F7095019B__CTOR_OFFSET UNITYSDK_OFFSET(0x99D9BE0)
+#define CLASS_3_E62DDE9F7095019B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1297A7F0)
+#define CLASS_3_E62DDE9F7095019B__CTOR_OFFSET UNITYSDK_OFFSET(0x1297A7C0)
 
-inline static constexpr unsigned int Class_3_E62DDE9F7095019B_TypeDefinitionIndex = 46661;
+inline static constexpr unsigned int Class_3_E62DDE9F7095019B_TypeDefinitionIndex = 53369;
 
 class Class_3_E62DDE9F7095019B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvHideRushBtn*>
 {

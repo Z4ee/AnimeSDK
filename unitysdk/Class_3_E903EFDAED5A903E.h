@@ -8,10 +8,10 @@ namespace RPG::GameCore { class AdvByCompareDynamicValue; }
 namespace RPG::GameCore { class ByCompareDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E903EFDAED5A903E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x89B53D0)
-#define CLASS_3_E903EFDAED5A903E__CTOR_OFFSET UNITYSDK_OFFSET(0x89B5220)
+#define CLASS_3_E903EFDAED5A903E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12485500)
+#define CLASS_3_E903EFDAED5A903E__CTOR_OFFSET UNITYSDK_OFFSET(0x12485350)
 
-inline static constexpr unsigned int Class_3_E903EFDAED5A903E_TypeDefinitionIndex = 43532;
+inline static constexpr unsigned int Class_3_E903EFDAED5A903E_TypeDefinitionIndex = 50229;
 
 class Class_3_E903EFDAED5A903E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCompareDynamicValue*>
 {

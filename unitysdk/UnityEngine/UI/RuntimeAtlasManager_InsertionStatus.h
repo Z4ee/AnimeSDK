@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_InsertionStatus_TypeDefinitionIndex = 5680;
+	inline static constexpr unsigned int RuntimeAtlasManager_InsertionStatus_TypeDefinitionIndex = 5692;
 
 	enum class RuntimeAtlasManager_InsertionStatus : ::System::Int32
 	{

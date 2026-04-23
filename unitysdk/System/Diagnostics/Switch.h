@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_SWITCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x186A6FD0)
-#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186A6940)
-#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x186A0430)
-#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x186A6AC0)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0E17A0)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0E1110)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DAB40)
+#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x1A0E1290)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 2522;
+	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 2523;
 
 	class Switch : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_switches()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x114D0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x12870);
 		}
 		static ::System::Int32* StaticGet_s_LastCollectionCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x5420);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x58E0);
 		}
 		::System::String* switchValueString; // 0x10
-		::System::String* displayName; // 0x18
-		::System::String* description; // 0x20
+		::System::String* description; // 0x18
+		::System::String* displayName; // 0x20
 		::System::String* defaultValue; // 0x28
 
 		::System::Void _ctor(::System::String* displayName, ::System::String* description)

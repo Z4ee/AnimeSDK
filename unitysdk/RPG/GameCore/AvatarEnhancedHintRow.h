@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARENHANCEDHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F9C0D0)
-#define RPG_GAMECORE_AVATARENHANCEDHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F9C4B0)
+#define RPG_GAMECORE_AVATARENHANCEDHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186BF250)
+#define RPG_GAMECORE_AVATARENHANCEDHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186BF610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEnhancedHintRow_TypeDefinitionIndex = 11673;
+	inline static constexpr unsigned int AvatarEnhancedHintRow_TypeDefinitionIndex = 12082;
 
 	class AvatarEnhancedHintRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID EnhancedDesc1; // 0x10
-		::System::UInt32 AvatarID; // 0x20
-		::System::UInt32 EnhancedID; // 0x24
-		::RPG::Client::TextID EnhancedDesc3; // 0x28
-		::RPG::Client::TextID EnhancedDesc2; // 0x38
-		::System::UInt32 PreviewModuleID; // 0x48
-		::System::UInt32 EnhancedDescNum; // 0x4C
-		::System::UInt32 SeasonID; // 0x50
-		::System::UInt32 TrialStageID; // 0x54
+		::System::UInt32 TrialStageID; // 0x10
+		::System::UInt32 PreviewModuleID; // 0x14
+		::RPG::Client::TextID EnhancedDesc3; // 0x18
+		::RPG::Client::TextID EnhancedDesc2; // 0x28
+		::System::UInt32 AvatarID; // 0x38
+		::System::UInt32 SeasonID; // 0x3C
+		::RPG::Client::TextID EnhancedDesc1; // 0x40
+		::System::UInt32 EnhancedDescNum; // 0x50
+		::System::UInt32 EnhancedID; // 0x54
 
 		::System::Void _ctor()
 		{

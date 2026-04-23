@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CullingAllocationInfo_TypeDefinitionIndex = 4555;
+	inline static constexpr unsigned int CullingAllocationInfo_TypeDefinitionIndex = 4557;
 
 	struct alignas(8) CullingAllocationInfo
 	{

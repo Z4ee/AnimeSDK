@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorUtil_TypeDefinitionIndex = 6316;
+	inline static constexpr unsigned int DescriptorUtil_TypeDefinitionIndex = 6326;
 
 	class DescriptorUtil : public ::System::Object
 	{

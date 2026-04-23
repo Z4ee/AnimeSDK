@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17397970)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x173977C0)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17397490)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17397760)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17397B40)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17397510)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17397B80)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17397D60)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17397EE0)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17398240)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17397CC0)
-#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17397C20)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18AA59D0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18AA5820)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18AA54F0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18AA57C0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18AA5BA0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18AA5570)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18AA5BE0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AA5DC0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18AA5F40)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AA62A0)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18AA5D20)
+#define RPG_GAMECORE_MARBLESEALBUFFEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18AA5C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealBuffExcelTable_TypeDefinitionIndex = 10887;
+	inline static constexpr unsigned int MarbleSealBuffExcelTable_TypeDefinitionIndex = 11291;
 
 	class MarbleSealBuffExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0x279F0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0x33CC0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleSealBuffRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleSealBuffRow*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0x279F8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleSealBuffRow*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0x33CC8);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0x27A00);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0x33CD0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0xCF70);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0xC9D0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0xCF71);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarbleSealBuffExcelTable_TypeDefinitionIndex)->GetStaticField(0xC9D1);
 		}
 
 		static ::System::Void _cctor()

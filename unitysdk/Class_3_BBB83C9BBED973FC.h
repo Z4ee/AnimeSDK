@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvNPCSetFrozen; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BBB83C9BBED973FC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99F8B30)
-#define CLASS_3_BBB83C9BBED973FC__CTOR_OFFSET UNITYSDK_OFFSET(0x99F8B00)
+#define CLASS_3_BBB83C9BBED973FC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xECD0C10)
+#define CLASS_3_BBB83C9BBED973FC__CTOR_OFFSET UNITYSDK_OFFSET(0xECD0BE0)
 
-inline static constexpr unsigned int Class_3_BBB83C9BBED973FC_TypeDefinitionIndex = 42455;
+inline static constexpr unsigned int Class_3_BBB83C9BBED973FC_TypeDefinitionIndex = 48416;
 
 class Class_3_BBB83C9BBED973FC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNPCSetFrozen*>
 {

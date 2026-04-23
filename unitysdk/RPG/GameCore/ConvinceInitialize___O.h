@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceInitialize___O_TypeDefinitionIndex = 20000;
+	inline static constexpr unsigned int ConvinceInitialize___O_TypeDefinitionIndex = 20681;
 
 	class ConvinceInitialize___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ConvinceTrickSkillType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ConvinceTrickSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ConvinceInitialize___O_TypeDefinitionIndex)->GetStaticField(0x291C0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ConvinceTrickSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ConvinceInitialize___O_TypeDefinitionIndex)->GetStaticField(0x30C10);
 		}
 	};
 }

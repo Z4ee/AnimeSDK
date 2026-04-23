@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MoveAnchor_TypeDefinitionIndex = 56170;
+	inline static constexpr unsigned int MoveAnchor_TypeDefinitionIndex = 63413;
 
 	struct alignas(8) MoveAnchor
 	{

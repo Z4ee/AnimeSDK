@@ -4,79 +4,79 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9423D60)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9423DA0)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWANTIADDICTIONHINT_B__22_0_OFFSET UNITYSDK_OFFSET(0x9424030)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWANTIADDICTIONHINT_B__22_1_OFFSET UNITYSDK_OFFSET(0x9424080)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWANTIADDICTIONHINT_B__22_2_OFFSET UNITYSDK_OFFSET(0x9424110)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFBYMTP_B__18_0_OFFSET UNITYSDK_OFFSET(0x9423F20)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYCHANGEDPWD_B__20_0_OFFSET UNITYSDK_OFFSET(0x9423FB0)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYEXPIRED_B__19_0_OFFSET UNITYSDK_OFFSET(0x9423F70)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYMUIP_B__21_0_OFFSET UNITYSDK_OFFSET(0x9423FF0)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYSQUEEZED_B__17_0_OFFSET UNITYSDK_OFFSET(0x9423E80)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTNOTINWHITELIST_B__15_0_OFFSET UNITYSDK_OFFSET(0x9423E30)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWRELOGINHINT_B__13_0_OFFSET UNITYSDK_OFFSET(0x9423DF0)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWRESTARTHINT_B__6_0_OFFSET UNITYSDK_OFFSET(0x9423DB0)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWVIDEONOTEXITCONFIRMDIALOG_B__26_0_OFFSET UNITYSDK_OFFSET(0x9424160)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0D1A50)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D1A90)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWANTIADDICTIONHINT_B__22_0_OFFSET UNITYSDK_OFFSET(0xA0D1D20)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWANTIADDICTIONHINT_B__22_1_OFFSET UNITYSDK_OFFSET(0xA0D1D70)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWANTIADDICTIONHINT_B__22_2_OFFSET UNITYSDK_OFFSET(0xA0D1E00)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFBYMTP_B__18_0_OFFSET UNITYSDK_OFFSET(0xA0D1C10)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYCHANGEDPWD_B__20_0_OFFSET UNITYSDK_OFFSET(0xA0D1CA0)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYEXPIRED_B__19_0_OFFSET UNITYSDK_OFFSET(0xA0D1C60)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYMUIP_B__21_0_OFFSET UNITYSDK_OFFSET(0xA0D1CE0)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTBYSQUEEZED_B__17_0_OFFSET UNITYSDK_OFFSET(0xA0D1B70)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWKICKOFFHINTNOTINWHITELIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xA0D1B20)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWRELOGINHINT_B__13_0_OFFSET UNITYSDK_OFFSET(0xA0D1AE0)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWRESTARTHINT_B__6_0_OFFSET UNITYSDK_OFFSET(0xA0D1AA0)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__SHOWVIDEONOTEXITCONFIRMDIALOG_B__26_0_OFFSET UNITYSDK_OFFSET(0xA0D1E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogUtil___c_TypeDefinitionIndex = 59590;
+	inline static constexpr unsigned int ConfirmDialogUtil___c_TypeDefinitionIndex = 66986;
 
 	class ConfirmDialogUtil___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__22_1()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x417D0);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x417D8);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__21_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x417E0);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__20_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x417E8);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x417F0);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__26_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x417F8);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41800);
-		}
 		static ::RPG::Client::ConfirmDialogUtil___c** StaticGet___9()
 		{
-			return (::RPG::Client::ConfirmDialogUtil___c**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41808);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__22_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41810);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__22_2()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41818);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__18_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41820);
+			return (::RPG::Client::ConfirmDialogUtil___c**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9B0);
 		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41828);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9B8);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9C0);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9C8);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__17_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9D0);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__22_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9D8);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__22_1()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9E0);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__18_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9E8);
 		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x41830);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9F0);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__26_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5F9F8);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__22_2()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5FA00);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__21_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5FA08);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__20_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___c_TypeDefinitionIndex)->GetStaticField(0x5FA10);
 		}
 
 		static ::System::Void _cctor()

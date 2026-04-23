@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueCommonDisplayType_TypeDefinitionIndex = 59736;
+	inline static constexpr unsigned int RogueCommonDisplayType_TypeDefinitionIndex = 67132;
 
 	enum class RogueCommonDisplayType : ::System::Int32
 	{

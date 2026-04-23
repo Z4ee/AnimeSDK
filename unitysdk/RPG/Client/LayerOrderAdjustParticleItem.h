@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define RPG_CLIENT_LAYERORDERADJUSTPARTICLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x99745B0)
+#define RPG_CLIENT_LAYERORDERADJUSTPARTICLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA664A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LayerOrderAdjustParticleItem_TypeDefinitionIndex = 59886;
+	inline static constexpr unsigned int LayerOrderAdjustParticleItem_TypeDefinitionIndex = 67284;
 
 	class LayerOrderAdjustParticleItem : public ::System::Object
 	{

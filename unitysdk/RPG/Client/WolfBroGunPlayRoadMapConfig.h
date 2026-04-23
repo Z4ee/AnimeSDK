@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/WolfBroGunPlayRoadMapConfig_PlayPoint.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_WOLFBROGUNPLAYROADMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA78F970)
+#define RPG_CLIENT_WOLFBROGUNPLAYROADMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB4D2880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_TypeDefinitionIndex = 56152;
+	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_TypeDefinitionIndex = 63395;
 
 	class WolfBroGunPlayRoadMapConfig : public ::UnityEngine::ScriptableObject
 	{

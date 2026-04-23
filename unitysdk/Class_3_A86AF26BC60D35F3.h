@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsSwordTrainingSkillCanLearn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A86AF26BC60D35F3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1148ABC0)
-#define CLASS_3_A86AF26BC60D35F3__CTOR_OFFSET UNITYSDK_OFFSET(0x1148AB80)
+#define CLASS_3_A86AF26BC60D35F3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9A06040)
+#define CLASS_3_A86AF26BC60D35F3__CTOR_OFFSET UNITYSDK_OFFSET(0x9A06000)
 
-inline static constexpr unsigned int Class_3_A86AF26BC60D35F3_TypeDefinitionIndex = 43759;
+inline static constexpr unsigned int Class_3_A86AF26BC60D35F3_TypeDefinitionIndex = 50458;
 
 class Class_3_A86AF26BC60D35F3 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsSwordTrainingSkillCanLearn*>
 {

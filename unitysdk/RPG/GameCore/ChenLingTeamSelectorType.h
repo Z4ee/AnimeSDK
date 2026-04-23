@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingTeamSelectorType_TypeDefinitionIndex = 14391;
+	inline static constexpr unsigned int ChenLingTeamSelectorType_TypeDefinitionIndex = 14861;
 
 	enum class ChenLingTeamSelectorType : ::System::Int32
 	{

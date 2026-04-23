@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB2BB60)
+#define RPGTOOLS_TIMELINE_CRPCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB89FB00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraBlendConfig_TypeDefinitionIndex = 38742;
+	inline static constexpr unsigned int CRPCameraBlendConfig_TypeDefinitionIndex = 44641;
 
 	class CRPCameraBlendConfig : public ::System::Object
 	{

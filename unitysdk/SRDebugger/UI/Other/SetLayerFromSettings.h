@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
 
-#define SRDEBUGGER_UI_OTHER_SETLAYERFROMSETTINGS_START_OFFSET UNITYSDK_OFFSET(0x1845C8E0)
-#define SRDEBUGGER_UI_OTHER_SETLAYERFROMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1845C980)
+#define SRDEBUGGER_UI_OTHER_SETLAYERFROMSETTINGS_START_OFFSET UNITYSDK_OFFSET(0x19E976D0)
+#define SRDEBUGGER_UI_OTHER_SETLAYERFROMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19E97770)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SetLayerFromSettings_TypeDefinitionIndex = 29663;
+	inline static constexpr unsigned int SetLayerFromSettings_TypeDefinitionIndex = 35383;
 
 	class SetLayerFromSettings : public ::SRF::SRMonoBehaviour
 	{

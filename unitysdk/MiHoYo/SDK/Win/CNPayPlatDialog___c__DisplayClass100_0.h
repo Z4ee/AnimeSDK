@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class CNPayPlatDialog; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16064D80)
-#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1606CA00)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176C8F80)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x176D0BB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatDialog___c__DisplayClass100_0_TypeDefinitionIndex = 8155;
+	inline static constexpr unsigned int CNPayPlatDialog___c__DisplayClass100_0_TypeDefinitionIndex = 8301;
 
 	class CNPayPlatDialog___c__DisplayClass100_0 : public ::System::Object
 	{

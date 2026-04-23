@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class FloorCustomBoolConfig; }
 
-#define CLASS_3_88F460F45794E3B7_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x10A2A900)
-#define CLASS_3_88F460F45794E3B7__CTOR_OFFSET UNITYSDK_OFFSET(0x10A2A8D0)
+#define CLASS_3_88F460F45794E3B7_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x128A8960)
+#define CLASS_3_88F460F45794E3B7__CTOR_OFFSET UNITYSDK_OFFSET(0x128A8930)
 
-inline static constexpr unsigned int Class_3_88F460F45794E3B7_TypeDefinitionIndex = 50420;
+inline static constexpr unsigned int Class_3_88F460F45794E3B7_TypeDefinitionIndex = 57279;
 
 class Class_3_88F460F45794E3B7 : public ::RPG::Client::FloorCustomValue_1<::System::Boolean>
 {

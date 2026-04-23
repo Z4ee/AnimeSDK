@@ -6,13 +6,13 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_RANDOMPLAYANIMATION_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0xA286BB0)
-#define RPG_CLIENT_RANDOMPLAYANIMATION_START_OFFSET UNITYSDK_OFFSET(0xA286A30)
-#define RPG_CLIENT_RANDOMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xA286C40)
+#define RPG_CLIENT_RANDOMPLAYANIMATION_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0xAF75510)
+#define RPG_CLIENT_RANDOMPLAYANIMATION_START_OFFSET UNITYSDK_OFFSET(0xAF75390)
+#define RPG_CLIENT_RANDOMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xAF755A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomPlayAnimation_TypeDefinitionIndex = 56209;
+	inline static constexpr unsigned int RandomPlayAnimation_TypeDefinitionIndex = 63452;
 
 	class RandomPlayAnimation : public ::UnityEngine::MonoBehaviour
 	{

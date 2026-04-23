@@ -3,7 +3,7 @@
 
 namespace System::IO::MemoryMappedFiles
 {
-	inline static constexpr unsigned int MemoryMappedFileAccess_TypeDefinitionIndex = 3107;
+	inline static constexpr unsigned int MemoryMappedFileAccess_TypeDefinitionIndex = 3108;
 
 	enum class MemoryMappedFileAccess : ::System::Int32
 	{

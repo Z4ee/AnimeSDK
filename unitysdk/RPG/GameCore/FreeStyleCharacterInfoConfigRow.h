@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1721FD50)
-#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1721FE90)
+#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189324E0)
+#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18932620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 12143;
+	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 12576;
 
 	class FreeStyleCharacterInfoConfigRow : public ::System::Object
 	{

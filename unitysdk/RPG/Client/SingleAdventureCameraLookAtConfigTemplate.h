@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class BaseAdventureCameraLookAt; }
 
-#define RPG_CLIENT_SINGLEADVENTURECAMERALOOKATCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA49A240)
+#define RPG_CLIENT_SINGLEADVENTURECAMERALOOKATCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB189910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SingleAdventureCameraLookAtConfigTemplate_TypeDefinitionIndex = 56826;
+	inline static constexpr unsigned int SingleAdventureCameraLookAtConfigTemplate_TypeDefinitionIndex = 64072;
 
 	class SingleAdventureCameraLookAtConfigTemplate : public ::System::Object
 	{

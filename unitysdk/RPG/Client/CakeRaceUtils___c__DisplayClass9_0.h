@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x92501C0)
-#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x9250470)
+#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F13520)
+#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x9F137D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceUtils___c__DisplayClass9_0_TypeDefinitionIndex = 48851;
+	inline static constexpr unsigned int CakeRaceUtils___c__DisplayClass9_0_TypeDefinitionIndex = 55615;
 
 	class CakeRaceUtils___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action* preTeleportCallback; // 0x10
-		::System::Action* afterTeleportCallback; // 0x18
+		::System::Action* afterTeleportCallback; // 0x10
+		::System::Action* preTeleportCallback; // 0x18
 
 		::System::Void _ctor()
 		{

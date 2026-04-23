@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_4C8453486C91E3A1_1.h"
 
-class Class_1_362DDBE3F3495DA5;
-namespace RPG::GameCore { class FiveDimTrampolineConfig; }
+class Class_1_068CB340B20E1A9A;
+class Class_1_0A57601A2887BDDF_7;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_169_TypeDefinitionIndex = 32453;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_169_TypeDefinitionIndex = 38178;
 
 class Class_0_16E4307DCC419505_169
 {

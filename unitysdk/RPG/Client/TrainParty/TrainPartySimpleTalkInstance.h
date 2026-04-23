@@ -6,11 +6,11 @@ namespace RPG::Client::TrainParty { class TrainPartySimpleTalkInfo; }
 namespace RPG::GameCore { class PlayTrainPartySimpleTalk; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xA60F150)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xB362780)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartySimpleTalkInstance_TypeDefinitionIndex = 61104;
+	inline static constexpr unsigned int TrainPartySimpleTalkInstance_TypeDefinitionIndex = 68591;
 
 	class TrainPartySimpleTalkInstance : public ::System::Object
 	{

@@ -10,7 +10,6 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::CustomRP { class IPlaneReflection; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
@@ -20,55 +19,56 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_LOCALREFLECTION_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0x16A9F9E0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_GETRT_OFFSET UNITYSDK_OFFSET(0x16A9FA60)
-#define RPG_CUSTOMRP_LOCALREFLECTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x16A9E5A0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_GET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0x16A9E650)
-#define RPG_CUSTOMRP_LOCALREFLECTION_GET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0x16A9E5B0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x16A9E6F0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16AA09A0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16AA08F0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_ORDERBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x16A9FE80)
-#define RPG_CUSTOMRP_LOCALREFLECTION_RPG_CUSTOMRP_IPLANEREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0x16AA0DC0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_SET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0x16A9E6A0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_SET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0x16A9E600)
-#define RPG_CUSTOMRP_LOCALREFLECTION_SET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x16A9E700)
-#define RPG_CUSTOMRP_LOCALREFLECTION_START_OFFSET UNITYSDK_OFFSET(0x16AA0110)
-#define RPG_CUSTOMRP_LOCALREFLECTION_UPDATECAMERA_OFFSET UNITYSDK_OFFSET(0x16A9EFF0)
-#define RPG_CUSTOMRP_LOCALREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0x16A9E730)
-#define RPG_CUSTOMRP_LOCALREFLECTION__ADDANDUPDATECAMERA_OFFSET UNITYSDK_OFFSET(0x16AA07E0)
-#define RPG_CUSTOMRP_LOCALREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AA0D80)
-#define RPG_CUSTOMRP_LOCALREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA0CC0)
-#define RPG_CUSTOMRP_LOCALREFLECTION__GETRT_OFFSET UNITYSDK_OFFSET(0x16A9F720)
-#define RPG_CUSTOMRP_LOCALREFLECTION__INITREFLECTIONCAMERA_OFFSET UNITYSDK_OFFSET(0x16AA0A40)
-#define RPG_CUSTOMRP_LOCALREFLECTION__INIT_OFFSET UNITYSDK_OFFSET(0x16AA0150)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0x181433E0)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GETRT_OFFSET UNITYSDK_OFFSET(0x18143460)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GET_NAMEKEY_OFFSET UNITYSDK_OFFSET(0x18142050)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x18141F00)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0x18141FB0)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0x18141F10)
+#define RPG_CUSTOMRP_LOCALREFLECTION_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x181420F0)
+#define RPG_CUSTOMRP_LOCALREFLECTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18144000)
+#define RPG_CUSTOMRP_LOCALREFLECTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18143FB0)
+#define RPG_CUSTOMRP_LOCALREFLECTION_RPG_CUSTOMRP_IPLANEREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0x18144420)
+#define RPG_CUSTOMRP_LOCALREFLECTION_SET_NAMEKEY_OFFSET UNITYSDK_OFFSET(0x181420A0)
+#define RPG_CUSTOMRP_LOCALREFLECTION_SET_RENDERLIST_OFFSET UNITYSDK_OFFSET(0x18142000)
+#define RPG_CUSTOMRP_LOCALREFLECTION_SET_USERENDERLIST_OFFSET UNITYSDK_OFFSET(0x18141F60)
+#define RPG_CUSTOMRP_LOCALREFLECTION_SET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0x18142100)
+#define RPG_CUSTOMRP_LOCALREFLECTION_START_OFFSET UNITYSDK_OFFSET(0x18143880)
+#define RPG_CUSTOMRP_LOCALREFLECTION_UPDATECAMERA_OFFSET UNITYSDK_OFFSET(0x181429F0)
+#define RPG_CUSTOMRP_LOCALREFLECTION_UPDATEREFLECTION_OFFSET UNITYSDK_OFFSET(0x18142130)
+#define RPG_CUSTOMRP_LOCALREFLECTION__ADDANDUPDATECAMERA_OFFSET UNITYSDK_OFFSET(0x18143F60)
+#define RPG_CUSTOMRP_LOCALREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x181443E0)
+#define RPG_CUSTOMRP_LOCALREFLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18144320)
+#define RPG_CUSTOMRP_LOCALREFLECTION__GETRT_OFFSET UNITYSDK_OFFSET(0x18143120)
+#define RPG_CUSTOMRP_LOCALREFLECTION__INITREFLECTIONCAMERA_OFFSET UNITYSDK_OFFSET(0x181440A0)
+#define RPG_CUSTOMRP_LOCALREFLECTION__INIT_OFFSET UNITYSDK_OFFSET(0x181438D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LocalReflection_TypeDefinitionIndex = 29258;
+	inline static constexpr unsigned int LocalReflection_TypeDefinitionIndex = 35025;
 
 	class LocalReflection : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::UnityEngine::Material** StaticGet__DecalMat()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x310F0);
-		}
-		static ::System::Single* StaticGet__CullDist()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10080);
-		}
-		static ::System::Int32* StaticGet__ReflectionIndex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10084);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x66F10);
 		}
 		static ::System::Int32* StaticGet__ReflectionMatrixID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10088);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10FD0);
+		}
+		static ::System::Single* StaticGet__CullDist()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10FD4);
+		}
+		static ::System::Int32* StaticGet__ReflectionIndex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10FD8);
 		}
 		static ::System::Int32* StaticGet__RefTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x1008C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalReflection_TypeDefinitionIndex)->GetStaticField(0x10FDC);
 		}
 		::UnityEngine::Vector3 ReflectionOffset; // 0x18
 		::UnityEngine::Quaternion RelfectionDir; // 0x24
@@ -132,6 +132,16 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALREFLECTION_SET_RENDERLIST_OFFSET))(this, value);
 		}
 
+		::System::String* get_NameKey()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALREFLECTION_GET_NAMEKEY_OFFSET))(this);
+		}
+
+		::System::Void set_NameKey(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALREFLECTION_SET_NAMEKEY_OFFSET))(this, value);
+		}
+
 		::System::Boolean get_validForRendering()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALREFLECTION_GET_VALIDFORRENDERING_OFFSET))(this);
@@ -160,11 +170,6 @@ namespace RPG::CustomRP
 		static ::System::Void GetRT(::UnityEngine::RenderTexture*& rt, ::System::Int32 w, ::System::Int32 h, ::System::Int32 colorRT)
 		{
 			return ((::System::Void(*)(::UnityEngine::RenderTexture*&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALREFLECTION_GETRT_OFFSET))(rt, w, h, colorRT);
-		}
-
-		static ::System::Void OrderByPriority(::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>* planeReflections)
-		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALREFLECTION_ORDERBYPRIORITY_OFFSET))(planeReflections);
 		}
 
 		::System::Void Start()

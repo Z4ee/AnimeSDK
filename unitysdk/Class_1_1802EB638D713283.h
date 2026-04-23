@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class CakeRaceRegionCellConfig; }
 
-#define CLASS_1_1802EB638D713283__CTOR_OFFSET UNITYSDK_OFFSET(0x16620850)
+#define CLASS_1_1802EB638D713283__CTOR_OFFSET UNITYSDK_OFFSET(0x17D46720)
 
-inline static constexpr unsigned int Class_1_1802EB638D713283_TypeDefinitionIndex = 28606;
+inline static constexpr unsigned int Class_1_1802EB638D713283_TypeDefinitionIndex = 34335;
 
 class Class_1_1802EB638D713283 : public ::System::Object
 {

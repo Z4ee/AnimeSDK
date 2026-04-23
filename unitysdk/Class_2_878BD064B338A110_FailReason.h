@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_878BD064B338A110_FailReason_TypeDefinitionIndex = 47612;
+inline static constexpr unsigned int Class_2_878BD064B338A110_FailReason_TypeDefinitionIndex = 54350;
 
 enum class Class_2_878BD064B338A110_FailReason : ::System::Int32
 {

@@ -4,12 +4,12 @@
 
 namespace IniParserEx { class IniFile; }
 
-#define INIPARSEREX_INIFILEPARSER_FILESCOPE_GET_FILE_OFFSET UNITYSDK_OFFSET(0x189E9A80)
-#define INIPARSEREX_INIFILEPARSER_FILESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x189E70B0)
+#define INIPARSEREX_INIFILEPARSER_FILESCOPE_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1A423330)
+#define INIPARSEREX_INIFILEPARSER_FILESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A420960)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFileParser_FileScope_TypeDefinitionIndex = 3753;
+	inline static constexpr unsigned int IniFileParser_FileScope_TypeDefinitionIndex = 3755;
 
 	class IniFileParser_FileScope : public ::System::Object
 	{

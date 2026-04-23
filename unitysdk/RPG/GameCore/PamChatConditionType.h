@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatConditionType_TypeDefinitionIndex = 13112;
+	inline static constexpr unsigned int PamChatConditionType_TypeDefinitionIndex = 13572;
 
 	enum class PamChatConditionType : ::System::Int32
 	{
@@ -13,5 +13,7 @@ namespace RPG::GameCore
 		InActivityModuleID = 3,
 		PowerGreaterOrEqual = 4,
 		NoOtherGreetingTriggered = 5,
+		OnlineFinishMainMission = 6,
+		HasQuestReward = 7,
 	};
 }

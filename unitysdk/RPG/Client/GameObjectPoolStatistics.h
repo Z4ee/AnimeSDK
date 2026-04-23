@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_BEGINPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0x975E500)
-#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_ENDPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0x975E5A0)
+#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_BEGINPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0xA41F2F0)
+#define RPG_CLIENT_GAMEOBJECTPOOLSTATISTICS_ENDPRELOADPOOLRECORD_OFFSET UNITYSDK_OFFSET(0xA41F390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameObjectPoolStatistics_TypeDefinitionIndex = 48019;
+	inline static constexpr unsigned int GameObjectPoolStatistics_TypeDefinitionIndex = 54764;
 
 	class GameObjectPoolStatistics : public ::System::Object
 	{

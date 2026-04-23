@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemSubType_TypeDefinitionIndex = 12655;
+	inline static constexpr unsigned int ItemSubType_TypeDefinitionIndex = 13123;
 
 	enum class ItemSubType : ::System::Int32
 	{
@@ -47,6 +47,7 @@ namespace RPG::GameCore
 		HipplenOutfit = 612,
 		DiceCombatAvatar = 613,
 		DiceCombatDice = 614,
+		IdleLiveItem = 616,
 		AvatarExp = 651,
 		AvatarRank = 652,
 		TracePath = 653,

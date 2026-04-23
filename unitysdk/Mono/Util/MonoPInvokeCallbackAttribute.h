@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define MONO_UTIL_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18676BA0)
+#define MONO_UTIL_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B10B0)
 
 namespace Mono::Util
 {
-	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 2334;
+	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 2335;
 
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{

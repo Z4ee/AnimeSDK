@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERATALKCONDITION_METHOD_2_A27D255D892C69D6_OFFSET UNITYSDK_OFFSET(0x170AAD80)
-#define RPG_GAMECORE_CHIMERATALKCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x170AAEE0)
+#define RPG_GAMECORE_CHIMERATALKCONDITION_METHOD_2_A27D255D892C69D6_OFFSET UNITYSDK_OFFSET(0x1880A330)
+#define RPG_GAMECORE_CHIMERATALKCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1880A490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTalkCondition_TypeDefinitionIndex = 14545;
+	inline static constexpr unsigned int ChimeraTalkCondition_TypeDefinitionIndex = 15015;
 
 	class ChimeraTalkCondition : public ::RPG::GameCore::JsonConfig
 	{

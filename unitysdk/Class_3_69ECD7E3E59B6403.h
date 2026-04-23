@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvRemoveAIHangUpInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_69ECD7E3E59B6403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x88222F0)
-#define CLASS_3_69ECD7E3E59B6403__CTOR_OFFSET UNITYSDK_OFFSET(0x88222C0)
+#define CLASS_3_69ECD7E3E59B6403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11D7EC50)
+#define CLASS_3_69ECD7E3E59B6403__CTOR_OFFSET UNITYSDK_OFFSET(0x11D7EC20)
 
-inline static constexpr unsigned int Class_3_69ECD7E3E59B6403_TypeDefinitionIndex = 42493;
+inline static constexpr unsigned int Class_3_69ECD7E3E59B6403_TypeDefinitionIndex = 48454;
 
 class Class_3_69ECD7E3E59B6403 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvRemoveAIHangUpInfo*>
 {

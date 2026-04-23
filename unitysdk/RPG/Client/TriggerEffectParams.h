@@ -19,153 +19,155 @@ namespace RPG::Client { class MockAnimator; }
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class EffectModifyData; }
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class OverrideMonoEffectConfig; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0xA63A630)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_COPY_OFFSET UNITYSDK_OFFSET(0xA63A090)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ALIVESTATE_OFFSET UNITYSDK_OFFSET(0xA63AD70)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ATTACHPOINTNAME_OFFSET UNITYSDK_OFFSET(0xA63AF30)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA63AFD0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_CREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0xA63AEB0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_EFFECTASYNCLOADEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xA63AEF0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISATTACHTOTARGETENTITY_OFFSET UNITYSDK_OFFSET(0xA63AFB0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISCULLEDHIDE_OFFSET UNITYSDK_OFFSET(0xA63AE30)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xA63AE10)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xA63AD90)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISMANUALLOD_OFFSET UNITYSDK_OFFSET(0xA63ADB0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xA63AE70)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_MUTEXENTITY_OFFSET UNITYSDK_OFFSET(0xA63AF50)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_REALPATH_OFFSET UNITYSDK_OFFSET(0xA63ADF0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_RECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xA63ADD0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_RELEASECALLBACK_OFFSET UNITYSDK_OFFSET(0xA63AF10)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_TARGETENTITYANIMNORMALZIEDTIME_OFFSET UNITYSDK_OFFSET(0xA63AED0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_UNIQUEEFFECTID_OFFSET UNITYSDK_OFFSET(0xA63AE90)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_UNIQUEPARAMID_OFFSET UNITYSDK_OFFSET(0xA63AE50)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_HASFLAG_OFFSET UNITYSDK_OFFSET(0xA63A830)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETALIVESTATE_OFFSET UNITYSDK_OFFSET(0xA63A8C0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETATTACHPOINTNAME_OFFSET UNITYSDK_OFFSET(0xA63ACD0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETCREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0xA63AB70)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETDELAYFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xA63A570)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETEFFECTASYNCLOADEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xA63AC30)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISCULLEDHIDE_OFFSET UNITYSDK_OFFSET(0xA63AA80)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISCULLED_OFFSET UNITYSDK_OFFSET(0xA63AA30)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xA63A910)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISMANUALLOD_OFFSET UNITYSDK_OFFSET(0xA63A9E0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISRELEASED_OFFSET UNITYSDK_OFFSET(0xA63AAD0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETREALPATH_OFFSET UNITYSDK_OFFSET(0xA63AD20)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETRECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xA63A970)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETRELEASECALLBACK_OFFSET UNITYSDK_OFFSET(0xA63AC80)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETTARGETENTITYANIMNORMALZIEDTIME_OFFSET UNITYSDK_OFFSET(0xA63ABD0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETUNIQUEEFFECTID_OFFSET UNITYSDK_OFFSET(0xA63AB20)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ALIVESTATE_OFFSET UNITYSDK_OFFSET(0xA63AD80)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ATTACHPOINTNAME_OFFSET UNITYSDK_OFFSET(0xA63AF40)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA63AFC0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_CREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0xA63AEC0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_EFFECTASYNCLOADEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xA63AF00)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISATTACHTOTARGETENTITY_OFFSET UNITYSDK_OFFSET(0xA63A5C0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISCULLEDHIDE_OFFSET UNITYSDK_OFFSET(0xA63AE40)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xA63AE20)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xA63ADA0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISMANUALLOD_OFFSET UNITYSDK_OFFSET(0xA63ADC0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xA63AE80)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_REALPATH_OFFSET UNITYSDK_OFFSET(0xA63AE00)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_RECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xA63ADE0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_RELEASECALLBACK_OFFSET UNITYSDK_OFFSET(0xA63AF20)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_TARGETENTITYANIMNORMALZIEDTIME_OFFSET UNITYSDK_OFFSET(0xA63AEE0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_UNIQUEEFFECTID_OFFSET UNITYSDK_OFFSET(0xA63AEA0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_UNIQUEPARAMID_OFFSET UNITYSDK_OFFSET(0xA63AE60)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0xA63AFE0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS__COPYRECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xA63A4E0)
-#define RPG_CLIENT_TRIGGEREFFECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xA63A020)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0xB3919E0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_COPY_OFFSET UNITYSDK_OFFSET(0xB391450)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ALIVESTATE_OFFSET UNITYSDK_OFFSET(0xB392140)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ATTACHPOINTNAME_OFFSET UNITYSDK_OFFSET(0xB392300)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB3923A0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_CREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB392280)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_EFFECTASYNCLOADEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB3922C0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISATTACHTOTARGETENTITY_OFFSET UNITYSDK_OFFSET(0xB392380)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISCULLEDHIDE_OFFSET UNITYSDK_OFFSET(0xB392200)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xB3921E0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xB392160)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISMANUALLOD_OFFSET UNITYSDK_OFFSET(0xB392180)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xB392240)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_MUTEXENTITY_OFFSET UNITYSDK_OFFSET(0xB392320)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_REALPATH_OFFSET UNITYSDK_OFFSET(0xB3921C0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_RECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xB3921A0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_RELEASECALLBACK_OFFSET UNITYSDK_OFFSET(0xB3922E0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_TARGETENTITYANIMNORMALZIEDTIME_OFFSET UNITYSDK_OFFSET(0xB3922A0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_UNIQUEEFFECTID_OFFSET UNITYSDK_OFFSET(0xB392260)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_UNIQUEPARAMID_OFFSET UNITYSDK_OFFSET(0xB392220)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_HASFLAG_OFFSET UNITYSDK_OFFSET(0xB391C00)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETALIVESTATE_OFFSET UNITYSDK_OFFSET(0xB391C90)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETATTACHPOINTNAME_OFFSET UNITYSDK_OFFSET(0xB3920A0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETCREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB391F40)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETDELAYFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xB391920)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETEFFECTASYNCLOADEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB392000)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISCULLEDHIDE_OFFSET UNITYSDK_OFFSET(0xB391E50)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISCULLED_OFFSET UNITYSDK_OFFSET(0xB391E00)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xB391CE0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISMANUALLOD_OFFSET UNITYSDK_OFFSET(0xB391DB0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETISRELEASED_OFFSET UNITYSDK_OFFSET(0xB391EA0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETREALPATH_OFFSET UNITYSDK_OFFSET(0xB3920F0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETRECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xB391D40)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETRELEASECALLBACK_OFFSET UNITYSDK_OFFSET(0xB392050)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETTARGETENTITYANIMNORMALZIEDTIME_OFFSET UNITYSDK_OFFSET(0xB391FA0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETUNIQUEEFFECTID_OFFSET UNITYSDK_OFFSET(0xB391EF0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ALIVESTATE_OFFSET UNITYSDK_OFFSET(0xB392150)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ATTACHPOINTNAME_OFFSET UNITYSDK_OFFSET(0xB392310)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB392390)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_CREATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB392290)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_EFFECTASYNCLOADEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB3922D0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISATTACHTOTARGETENTITY_OFFSET UNITYSDK_OFFSET(0xB391970)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISCULLEDHIDE_OFFSET UNITYSDK_OFFSET(0xB392210)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xB3921F0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISFIRSTLOAD_OFFSET UNITYSDK_OFFSET(0xB392170)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISMANUALLOD_OFFSET UNITYSDK_OFFSET(0xB392190)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xB392250)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_REALPATH_OFFSET UNITYSDK_OFFSET(0xB3921D0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_RECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xB3921B0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_RELEASECALLBACK_OFFSET UNITYSDK_OFFSET(0xB3922F0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_TARGETENTITYANIMNORMALZIEDTIME_OFFSET UNITYSDK_OFFSET(0xB3922B0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_UNIQUEEFFECTID_OFFSET UNITYSDK_OFFSET(0xB392270)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_UNIQUEPARAMID_OFFSET UNITYSDK_OFFSET(0xB392230)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3923B0)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS__COPYRECORDANIMATOR_OFFSET UNITYSDK_OFFSET(0xB391890)
+#define RPG_CLIENT_TRIGGEREFFECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xB3913E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TriggerEffectParams_TypeDefinitionIndex = 57196;
+	inline static constexpr unsigned int TriggerEffectParams_TypeDefinitionIndex = 64449;
 
 	class TriggerEffectParams : public ::System::Object
 	{
 	public:
+		static ::System::UInt32* StaticGet_UniqueParamIDGen()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TriggerEffectParams_TypeDefinitionIndex)->GetStaticField(0x2AC0);
+		}
 		static ::RPG::MVector3* StaticGet_InvalidScale()
 		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(TriggerEffectParams_TypeDefinitionIndex)->GetStaticField(0x9E00);
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(TriggerEffectParams_TypeDefinitionIndex)->GetStaticField(0x2AC4);
 		}
 		static ::RPG::MVector3* StaticGet_InvalidVector3()
 		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(TriggerEffectParams_TypeDefinitionIndex)->GetStaticField(0x9E0C);
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(TriggerEffectParams_TypeDefinitionIndex)->GetStaticField(0x2AD0);
 		}
-		static ::System::UInt32* StaticGet_UniqueParamIDGen()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TriggerEffectParams_TypeDefinitionIndex)->GetStaticField(0x9E18);
-		}
-		::System::String* TowardAttachPoint; // 0x10
-		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flags; // 0x18
-		::System::String* _RealPath_k__BackingField; // 0x20
-		::System::String* _AttachPointName_k__BackingField; // 0x28
-		::Il2CppArray<::RPG::GameCore::EffectModifyData*>* SubObjectModifyDataList; // 0x30
-		::System::String* InitEffectState; // 0x38
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* LodUnloadCallback; // 0x40
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x48
-		::RPG::GameCore::GameEntity* ParamEntity; // 0x50
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* BeforeResetCompleteCallback; // 0x58
-		::System::String* EffectName; // 0x60
-		::System::String* AudioSwitchName; // 0x68
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* LodLoadedCallback; // 0x70
-		::System::String* UniqueEffectName; // 0x78
-		::System::String* AudioSwitchGroup; // 0x80
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* _ReleaseCallback_k__BackingField; // 0x88
-		::System::String* DynamicAttach; // 0x90
-		::RPG::Client::MockAnimator* _RecordAnimator_k__BackingField; // 0x98
-		::Class_1_A53F3A238B732F34* AdvEffectExtraParams; // 0xA0
-		::System::Action_1<::RPG::Client::MonoEffect*>* _EffectAsyncLoadedCallback_k__BackingField; // 0xA8
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* CompleteCallback; // 0xB0
-		::System::String* AdvConfigName; // 0xB8
-		::UnityEngine::Transform* _AttachTransform_k__BackingField; // 0xC0
-		::RPG::GameCore::GameEntity* TargetEntity; // 0xC8
-		::Class_0_16E4307DCC419505_109* LittleGameEntity; // 0xD0
-		::Struct_2_04B793AC4236949F LittleGameExtraParams; // 0xD8
-		::System::Single _TargetEntityAnimNormalziedTime_k__BackingField; // 0xF8
-		::RPG::GameCore::EffectScaleAdaptType ScaleAdaptType; // 0xFC
-		::System::Boolean IsEnableReplay; // 0x100
-		::System::Boolean IsUIEffect; // 0x101
-		::System::Boolean IsForbidResetRenderCache; // 0x102
-		::System::Boolean IsNeedFadeIn; // 0x103
-		::System::Single _CreateTimeStamp_k__BackingField; // 0x104
-		::System::Nullable_1<::UnityEngine::Vector3> InitPosition; // 0x108
-		::RPG::Client::MonoEffectAliveState _AliveState_k__BackingField; // 0x118
-		::System::UInt32 _UniqueEffectID_k__BackingField; // 0x11C
-		::System::Nullable_1<::UnityEngine::Vector3> AnchorPosition; // 0x120
-		::System::Nullable_1<::UnityEngine::Quaternion> InitRotation; // 0x130
-		::System::UInt32 AttachToTimelineVersion; // 0x144
-		::UnityEngine::Vector3 TowardTargetPosition; // 0x148
-		::System::Boolean FollowFirstFrameOnLateTick; // 0x154
-		::System::Boolean _IsCulled_k__BackingField; // 0x155
-		::System::Boolean TowardRotatePitchOnly; // 0x156
-		::System::Boolean _IsManualLOD_k__BackingField; // 0x157
-		::System::Boolean IsModifierAttached; // 0x158
-		::System::Boolean FollowCasterTimeSlow; // 0x159
-		::System::Boolean IgnorePrefabAttachPoint; // 0x15A
-		::System::Boolean SyncPropState; // 0x15B
-		::System::Boolean IsForbidLod; // 0x15C
-		::System::Boolean _IsRealAttachToTargetEntity; // 0x15D
-		::System::UInt32 _UniqueParamID_k__BackingField; // 0x160
-		::System::Boolean EnableSimulateTimeAlign; // 0x164
-		::System::Boolean _IsCulledHide_k__BackingField; // 0x165
-		::System::Boolean _IsReleased_k__BackingField; // 0x166
-		::System::Boolean ForceSimulateImmediately; // 0x167
-		::System::Boolean AttachToTimeline; // 0x168
-		::System::Boolean _IsFirstLoad_k__BackingField; // 0x169
-		::System::Boolean IsForbidInitRenderCache; // 0x16A
-		::System::Boolean _DelayFirstLoad; // 0x16B
-		::System::Nullable_1<::UnityEngine::Vector3> RotationOffset; // 0x16C
-		::RPG::GameCore::EffectParamEntityUsage ParamEntityUsage; // 0x17C
-		::System::Nullable_1<::RPG::GameCore::FixPoint> TaskTimeScale; // 0x180
-		::System::Nullable_1<::UnityEngine::Vector3> PositionOffset; // 0x190
+		::System::Action_1<::RPG::Client::MonoEffect*>* _EffectAsyncLoadedCallback_k__BackingField; // 0x10
+		::RPG::GameCore::OverrideMonoEffectConfig* OverrideConfig; // 0x18
+		::System::String* AdvConfigName; // 0x20
+		::System::String* EffectName; // 0x28
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x30
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* LodUnloadCallback; // 0x38
+		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flags; // 0x40
+		::System::String* _AttachPointName_k__BackingField; // 0x48
+		::System::String* DynamicAttach; // 0x50
+		::UnityEngine::Transform* _AttachTransform_k__BackingField; // 0x58
+		::System::String* InitEffectState; // 0x60
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* CompleteCallback; // 0x68
+		::Class_1_A53F3A238B732F34* AdvEffectExtraParams; // 0x70
+		::RPG::GameCore::GameEntity* ParamEntity; // 0x78
+		::System::String* UniqueEffectName; // 0x80
+		::RPG::Client::MockAnimator* _RecordAnimator_k__BackingField; // 0x88
+		::System::String* TowardAttachPoint; // 0x90
+		::Il2CppArray<::RPG::GameCore::EffectModifyData*>* SubObjectModifyDataList; // 0x98
+		::Struct_2_04B793AC4236949F LittleGameExtraParams; // 0xA0
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* LodLoadedCallback; // 0xC0
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* BeforeResetCompleteCallback; // 0xC8
+		::RPG::GameCore::GameEntity* CasterEntity; // 0xD0
+		::Class_0_16E4307DCC419505_109* LittleGameEntity; // 0xD8
+		::System::String* AudioSwitchName; // 0xE0
+		::System::String* AudioSwitchGroup; // 0xE8
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* _ReleaseCallback_k__BackingField; // 0xF0
+		::System::String* _RealPath_k__BackingField; // 0xF8
+		::System::Single _CreateTimeStamp_k__BackingField; // 0x100
+		::System::UInt32 _UniqueParamID_k__BackingField; // 0x104
+		::System::UInt32 AttachToTimelineVersion; // 0x108
+		::System::Nullable_1<::RPG::GameCore::FixPoint> TaskTimeScale; // 0x110
+		::System::Nullable_1<::UnityEngine::Vector3> PositionOffset; // 0x120
+		::System::Boolean IsEnableReplay; // 0x130
+		::System::Boolean FollowCasterTimeSlow; // 0x131
+		::System::Boolean AttachToTimeline; // 0x132
+		::System::Boolean _IsFirstLoad_k__BackingField; // 0x133
+		::UnityEngine::Vector3 TowardTargetPosition; // 0x134
+		::System::Boolean _IsCulledHide_k__BackingField; // 0x140
+		::System::Boolean _IsCulled_k__BackingField; // 0x141
+		::System::Boolean IsModifierAttached; // 0x142
+		::System::Boolean IgnorePrefabAttachPoint; // 0x143
+		::System::Boolean TowardRotatePitchOnly; // 0x144
+		::System::Boolean _DelayFirstLoad; // 0x145
+		::System::Boolean IsForbidLod; // 0x146
+		::System::Boolean _IsManualLOD_k__BackingField; // 0x147
+		::RPG::Client::MonoEffectAliveState _AliveState_k__BackingField; // 0x148
+		::System::Single _TargetEntityAnimNormalziedTime_k__BackingField; // 0x14C
+		::System::Nullable_1<::UnityEngine::Vector3> InitPosition; // 0x150
+		::System::Boolean IsNeedFadeIn; // 0x160
+		::System::Boolean FollowFirstFrameOnLateTick; // 0x161
+		::System::Boolean IsForbidInitRenderCache; // 0x162
+		::System::Boolean _IsReleased_k__BackingField; // 0x163
+		::RPG::GameCore::EffectParamEntityUsage ParamEntityUsage; // 0x164
+		::System::Nullable_1<::UnityEngine::Quaternion> InitRotation; // 0x168
+		::System::Nullable_1<::UnityEngine::Vector3> CustomScale; // 0x17C
+		::System::Nullable_1<::UnityEngine::Vector3> AnchorPosition; // 0x18C
+		::System::Single TowardMaxPitchAngle; // 0x19C
 		::System::Single Delay; // 0x1A0
-		::System::Nullable_1<::UnityEngine::Vector3> CustomScale; // 0x1A4
-		::System::Single TowardMaxPitchAngle; // 0x1B4
+		::System::UInt32 _UniqueEffectID_k__BackingField; // 0x1A4
+		::System::Boolean ForceSimulateImmediately; // 0x1A8
+		::System::Boolean IsUIEffect; // 0x1A9
+		::System::Boolean EnableSimulateTimeAlign; // 0x1AA
+		::System::Boolean IsForbidResetRenderCache; // 0x1AB
+		::System::Boolean _IsRealAttachToTargetEntity; // 0x1AC
+		::System::Boolean SyncPropState; // 0x1AD
+		::System::Nullable_1<::UnityEngine::Vector3> RotationOffset; // 0x1B0
+		::RPG::GameCore::EffectScaleAdaptType ScaleAdaptType; // 0x1C0
 
 		::System::Void _ctor()
 		{

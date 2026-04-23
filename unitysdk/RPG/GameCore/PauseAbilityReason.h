@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PauseAbilityReason_TypeDefinitionIndex = 45743;
+	inline static constexpr unsigned int PauseAbilityReason_TypeDefinitionIndex = 52398;
 
 	enum class PauseAbilityReason : ::System::Int32
 	{

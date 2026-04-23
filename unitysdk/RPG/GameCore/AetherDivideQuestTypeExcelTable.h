@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16F65630)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16F65480)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16F65150)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16F65420)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16F657B0)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F651D0)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16F657F0)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F659D0)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16F65B40)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F65E50)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16F65930)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F65890)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x186879D0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18687820)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x186874F0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x186877C0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18687B50)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18687570)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18687B90)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18687D70)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18687EE0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x186881F0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18687CD0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18687C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideQuestTypeExcelTable_TypeDefinitionIndex = 10263;
+	inline static constexpr unsigned int AetherDivideQuestTypeExcelTable_TypeDefinitionIndex = 10488;
 
 	class AetherDivideQuestTypeExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x24D30);
+		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideQuestTypeRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideQuestTypeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x1ECD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideQuestTypeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x24D38);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x1ECD8);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x1ECE0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x7EC0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x24D40);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x7EC1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x9A50);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideQuestTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x9A51);
 		}
 
 		static ::System::Void _cctor()

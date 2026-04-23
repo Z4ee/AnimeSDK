@@ -9,14 +9,14 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x176C1730)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_523CA02F6DE38196_OFFSET UNITYSDK_OFFSET(0x176BB720)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_A2F35D15CCDAF51A_OFFSET UNITYSDK_OFFSET(0x176C16B0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x176BB6D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x18E214B0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_7509D017554EA6B0_OFFSET UNITYSDK_OFFSET(0x18E21190)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_976EBAE0BE9DBA5B_OFFSET UNITYSDK_OFFSET(0x18E21260)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E21210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByGridFightProperty_TypeDefinitionIndex = 20718;
+	inline static constexpr unsigned int SetDynamicValueByGridFightProperty_TypeDefinitionIndex = 21417;
 
 	class SetDynamicValueByGridFightProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -25,20 +25,21 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
 		::RPG::GameCore::TargetEvaluator* ReadTargetType; // 0x28
 		::RPG::GameCore::GridFightPropertyType PropertyType; // 0x30
+		::System::Boolean BoolParam; // 0x34
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A2F35D15CCDAF51A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByGridFightProperty*& a2)
+		static ::System::Void Method_4_7509D017554EA6B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByGridFightProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_A2F35D15CCDAF51A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_7509D017554EA6B0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_523CA02F6DE38196(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByGridFightProperty* a2)
+		static ::System::Void Method_4_976EBAE0BE9DBA5B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByGridFightProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_523CA02F6DE38196_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYGRIDFIGHTPROPERTY_METHOD_4_976EBAE0BE9DBA5B_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()

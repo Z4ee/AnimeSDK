@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerModelShake; }
 
-#define CLASS_3_69F58F3FCAE8A618_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118BEA30)
-#define CLASS_3_69F58F3FCAE8A618__CTOR_OFFSET UNITYSDK_OFFSET(0x118BEA00)
+#define CLASS_3_69F58F3FCAE8A618_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11DDD040)
+#define CLASS_3_69F58F3FCAE8A618__CTOR_OFFSET UNITYSDK_OFFSET(0x11DDD010)
 
-inline static constexpr unsigned int Class_3_69F58F3FCAE8A618_TypeDefinitionIndex = 44652;
+inline static constexpr unsigned int Class_3_69F58F3FCAE8A618_TypeDefinitionIndex = 51394;
 
 class Class_3_69F58F3FCAE8A618 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerModelShake*>
 {

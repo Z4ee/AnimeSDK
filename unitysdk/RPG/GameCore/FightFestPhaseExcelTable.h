@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171D2CD0)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171D2B50)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171D2820)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171D2AF0)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171D2EA0)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x171D28A0)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171D2EE0)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D30C0)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171D3610)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171D3920)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x171D3020)
-#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171D2F80)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x188E04A0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x188E0320)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x188DFFF0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x188E02C0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x188E0670)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x188E0070)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x188E06B0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x188E0890)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x188E0DE0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x188E10F0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x188E07F0)
+#define RPG_GAMECORE_FIGHTFESTPHASEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x188E0750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestPhaseExcelTable_TypeDefinitionIndex = 12111;
+	inline static constexpr unsigned int FightFestPhaseExcelTable_TypeDefinitionIndex = 12544;
 
 	class FightFestPhaseExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x21CA0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x2F1B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestPhaseRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestPhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x21CA8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestPhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x2F1B8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x21CB0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x2F1C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x8DC0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0xBB40);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x8DC1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FightFestPhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0xBB41);
 		}
 
 		static ::System::Void _cctor()

@@ -5,24 +5,24 @@
 namespace RPG::Client { class BattleMonsterTeamDetailSkillData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x91C0FE0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x91C1020)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__GETALLPHASESKILLS_B__3_0_OFFSET UNITYSDK_OFFSET(0x91C1030)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E67C50)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E67C90)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__GETALLPHASESKILLS_B__3_0_OFFSET UNITYSDK_OFFSET(0x9E67CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleMonsterTeamDetailData___c_TypeDefinitionIndex = 58993;
+	inline static constexpr unsigned int BattleMonsterTeamDetailData___c_TypeDefinitionIndex = 66364;
 
 	class BattleMonsterTeamDetailData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::BattleMonsterTeamDetailSkillData*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::BattleMonsterTeamDetailSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailData___c_TypeDefinitionIndex)->GetStaticField(0x40A20);
+			return (::System::Comparison_1<::RPG::Client::BattleMonsterTeamDetailSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailData___c_TypeDefinitionIndex)->GetStaticField(0x3F5F0);
 		}
 		static ::RPG::Client::BattleMonsterTeamDetailData___c** StaticGet___9()
 		{
-			return (::RPG::Client::BattleMonsterTeamDetailData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailData___c_TypeDefinitionIndex)->GetStaticField(0x40A28);
+			return (::RPG::Client::BattleMonsterTeamDetailData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailData___c_TypeDefinitionIndex)->GetStaticField(0x3F5F8);
 		}
 
 		static ::System::Void _cctor()

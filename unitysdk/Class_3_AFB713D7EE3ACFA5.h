@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleScoreCounterShow; }
 
-#define CLASS_3_AFB713D7EE3ACFA5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8E0A920)
-#define CLASS_3_AFB713D7EE3ACFA5__CTOR_OFFSET UNITYSDK_OFFSET(0x8E0A8F0)
+#define CLASS_3_AFB713D7EE3ACFA5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD3980A0)
+#define CLASS_3_AFB713D7EE3ACFA5__CTOR_OFFSET UNITYSDK_OFFSET(0xD398070)
 
-inline static constexpr unsigned int Class_3_AFB713D7EE3ACFA5_TypeDefinitionIndex = 38477;
+inline static constexpr unsigned int Class_3_AFB713D7EE3ACFA5_TypeDefinitionIndex = 44359;
 
 class Class_3_AFB713D7EE3ACFA5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToggleScoreCounterShow*>
 {

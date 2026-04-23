@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
-#define CLASS_2_A92A6B936EC97151__CTOR_OFFSET UNITYSDK_OFFSET(0x8C8EA20)
+#define CLASS_2_A92A6B936EC97151__CTOR_OFFSET UNITYSDK_OFFSET(0x129B3210)
 
-inline static constexpr unsigned int Class_2_A92A6B936EC97151_TypeDefinitionIndex = 54615;
+inline static constexpr unsigned int Class_2_A92A6B936EC97151_TypeDefinitionIndex = 61803;
 
 class Class_2_A92A6B936EC97151 : public ::Class_1_8F7D3BAFD8C03B69
 {

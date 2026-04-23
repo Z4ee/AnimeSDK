@@ -8,13 +8,13 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptorProto; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15DB0B30)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15DBD190)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DB13D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x173AE2E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x173BA960)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x173AEB80)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 28140;
+	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 33764;
 
 	class ServiceDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{

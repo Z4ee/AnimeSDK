@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int MeshType_TypeDefinitionIndex = 39693;
+	inline static constexpr unsigned int MeshType_TypeDefinitionIndex = 45602;
 
 	enum class MeshType : ::System::Int32
 	{

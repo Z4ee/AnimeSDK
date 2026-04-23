@@ -12,7 +12,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGenericViewService_1_TypeDefinitionIndex = 32874;
+	inline static constexpr unsigned int IGenericViewService_1_TypeDefinitionIndex = 38664;
 
 	template <typename TEntity>
 	class IGenericViewService_1

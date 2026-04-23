@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginShape_MonoEffectPluginShapeType_TypeDefinitionIndex = 57372;
+	inline static constexpr unsigned int MonoEffectPluginShape_MonoEffectPluginShapeType_TypeDefinitionIndex = 64633;
 
 	enum class MonoEffectPluginShape_MonoEffectPluginShapeType : ::System::Int32
 	{

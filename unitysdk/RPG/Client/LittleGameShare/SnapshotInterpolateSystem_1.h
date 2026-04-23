@@ -18,7 +18,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotInterpolateSystem_1_TypeDefinitionIndex = 28695;
+	inline static constexpr unsigned int SnapshotInterpolateSystem_1_TypeDefinitionIndex = 34420;
 
 	template <typename TEntity>
 	class SnapshotInterpolateSystem_1 : public ::System::Object

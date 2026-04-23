@@ -7,33 +7,33 @@ namespace Spine { class Slot; }
 namespace Spine { class Triangulator; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_SKELETONCLIPPING_CLIPEND_1_OFFSET UNITYSDK_OFFSET(0x183C17C0)
-#define SPINE_SKELETONCLIPPING_CLIPEND_OFFSET UNITYSDK_OFFSET(0x183C1790)
-#define SPINE_SKELETONCLIPPING_CLIPSTART_OFFSET UNITYSDK_OFFSET(0x183C1100)
-#define SPINE_SKELETONCLIPPING_CLIPTRIANGLES_OFFSET UNITYSDK_OFFSET(0x183C1880)
-#define SPINE_SKELETONCLIPPING_CLIP_OFFSET UNITYSDK_OFFSET(0x183C2B20)
-#define SPINE_SKELETONCLIPPING_GET_CLIPPEDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x183C10D0)
-#define SPINE_SKELETONCLIPPING_GET_CLIPPEDUVS_OFFSET UNITYSDK_OFFSET(0x183C10E0)
-#define SPINE_SKELETONCLIPPING_GET_CLIPPEDVERTICES_OFFSET UNITYSDK_OFFSET(0x183C10C0)
-#define SPINE_SKELETONCLIPPING_GET_ISCLIPPING_OFFSET UNITYSDK_OFFSET(0x183C10F0)
-#define SPINE_SKELETONCLIPPING_MAKECLOCKWISE_OFFSET UNITYSDK_OFFSET(0x183C15A0)
-#define SPINE_SKELETONCLIPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x183C3BA0)
+#define SPINE_SKELETONCLIPPING_CLIPEND_1_OFFSET UNITYSDK_OFFSET(0x19DFC2F0)
+#define SPINE_SKELETONCLIPPING_CLIPEND_OFFSET UNITYSDK_OFFSET(0x19DFC2C0)
+#define SPINE_SKELETONCLIPPING_CLIPSTART_OFFSET UNITYSDK_OFFSET(0x19DFBC30)
+#define SPINE_SKELETONCLIPPING_CLIPTRIANGLES_OFFSET UNITYSDK_OFFSET(0x19DFC3B0)
+#define SPINE_SKELETONCLIPPING_CLIP_OFFSET UNITYSDK_OFFSET(0x19DFD650)
+#define SPINE_SKELETONCLIPPING_GET_CLIPPEDTRIANGLES_OFFSET UNITYSDK_OFFSET(0x19DFBC00)
+#define SPINE_SKELETONCLIPPING_GET_CLIPPEDUVS_OFFSET UNITYSDK_OFFSET(0x19DFBC10)
+#define SPINE_SKELETONCLIPPING_GET_CLIPPEDVERTICES_OFFSET UNITYSDK_OFFSET(0x19DFBBF0)
+#define SPINE_SKELETONCLIPPING_GET_ISCLIPPING_OFFSET UNITYSDK_OFFSET(0x19DFBC20)
+#define SPINE_SKELETONCLIPPING_MAKECLOCKWISE_OFFSET UNITYSDK_OFFSET(0x19DFC0D0)
+#define SPINE_SKELETONCLIPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x19DFE6D0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonClipping_TypeDefinitionIndex = 30733;
+	inline static constexpr unsigned int SkeletonClipping_TypeDefinitionIndex = 36453;
 
 	class SkeletonClipping : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::System::Single>* clippedVertices; // 0x10
-		::Spine::ExposedList_1<::System::Single>* scratch; // 0x18
-		::Spine::ExposedList_1<::System::Int32>* clippedTriangles; // 0x20
-		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* clippingPolygons; // 0x28
-		::Spine::ClippingAttachment* clipAttachment; // 0x30
-		::Spine::Triangulator* triangulator; // 0x38
-		::Spine::ExposedList_1<::System::Single>* clippedUVs; // 0x40
-		::Spine::ExposedList_1<::System::Single>* clipOutput; // 0x48
+		::Spine::ExposedList_1<::System::Single>* clippedUVs; // 0x10
+		::Spine::Triangulator* triangulator; // 0x18
+		::Spine::ExposedList_1<::System::Single>* clipOutput; // 0x20
+		::Spine::ExposedList_1<::System::Single>* clippedVertices; // 0x28
+		::Spine::ExposedList_1<::System::Int32>* clippedTriangles; // 0x30
+		::Spine::ExposedList_1<::System::Single>* scratch; // 0x38
+		::Spine::ClippingAttachment* clipAttachment; // 0x40
+		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* clippingPolygons; // 0x48
 		::Spine::ExposedList_1<::System::Single>* clippingPolygon; // 0x50
 
 		::System::Void _ctor()

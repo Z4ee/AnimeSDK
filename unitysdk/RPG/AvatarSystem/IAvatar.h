@@ -3,7 +3,7 @@
 
 namespace RPG::AvatarSystem
 {
-	inline static constexpr unsigned int IAvatar_TypeDefinitionIndex = 41952;
+	inline static constexpr unsigned int IAvatar_TypeDefinitionIndex = 47925;
 
 	class IAvatar
 	{

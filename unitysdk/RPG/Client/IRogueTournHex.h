@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournHex_TypeDefinitionIndex = 55184;
+	inline static constexpr unsigned int IRogueTournHex_TypeDefinitionIndex = 62372;
 
 	class IRogueTournHex
 	{

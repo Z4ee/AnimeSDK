@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTPLISTENERBASICIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x186E6470)
+#define SYSTEM_NET_HTTPLISTENERBASICIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A120930)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpListenerBasicIdentity_TypeDefinitionIndex = 2838;
+	inline static constexpr unsigned int HttpListenerBasicIdentity_TypeDefinitionIndex = 2839;
 
 	class HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1711C860)
-#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1711CAE0)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1881E040)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x18822A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkUnlockCost_TypeDefinitionIndex = 10440;
+	inline static constexpr unsigned int ClockParkUnlockCost_TypeDefinitionIndex = 10664;
 
 	class ClockParkUnlockCost : public ::System::Object
 	{

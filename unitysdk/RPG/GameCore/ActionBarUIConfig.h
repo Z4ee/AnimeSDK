@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ActionBarCustomUIStyle.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_ACTIONBARUICONFIG_METHOD_2_5A4A19043813488A_OFFSET UNITYSDK_OFFSET(0x185F97D0)
+#define RPG_GAMECORE_ACTIONBARUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x185F98E0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ActionBarUIConfig_TypeDefinitionIndex = 21558;
+
+	class ActionBarUIConfig : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::RPG::GameCore::ActionBarCustomUIStyle CustomUIStyle; // 0x10
+		::System::String* HeadIconPath; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARUICONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_5A4A19043813488A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionBarUIConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionBarUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARUICONFIG_METHOD_2_5A4A19043813488A_OFFSET))(a1, a2);
+		}
+	};
+}

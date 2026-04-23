@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPropEventInBattle; }
 
-#define CLASS_3_199BA3BD527106DD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x115CAD10)
-#define CLASS_3_199BA3BD527106DD__CTOR_OFFSET UNITYSDK_OFFSET(0x115CACE0)
+#define CLASS_3_199BA3BD527106DD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11A32E30)
+#define CLASS_3_199BA3BD527106DD__CTOR_OFFSET UNITYSDK_OFFSET(0x11A32E00)
 
-inline static constexpr unsigned int Class_3_199BA3BD527106DD_TypeDefinitionIndex = 44670;
+inline static constexpr unsigned int Class_3_199BA3BD527106DD_TypeDefinitionIndex = 51412;
 
 class Class_3_199BA3BD527106DD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerPropEventInBattle*>
 {

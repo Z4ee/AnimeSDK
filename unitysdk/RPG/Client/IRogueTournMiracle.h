@@ -6,7 +6,7 @@ namespace RPG::Client { class RogueTournUnderlineParamInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournMiracle_TypeDefinitionIndex = 55195;
+	inline static constexpr unsigned int IRogueTournMiracle_TypeDefinitionIndex = 62383;
 
 	class IRogueTournMiracle
 	{

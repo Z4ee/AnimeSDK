@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_REJECTDRAGANDDROPMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB7F40)
+#define UNITYENGINE_REJECTDRAGANDDROPMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F39C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RejectDragAndDropMaterial_TypeDefinitionIndex = 3693;
+	inline static constexpr unsigned int RejectDragAndDropMaterial_TypeDefinitionIndex = 3695;
 
 	class RejectDragAndDropMaterial : public ::System::Attribute
 	{

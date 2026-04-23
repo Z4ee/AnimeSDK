@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define SYSTEM_THREADING_TIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x16250850)
+#define SYSTEM_THREADING_TIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1787D0F0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int Timeout_TypeDefinitionIndex = 865;
+	inline static constexpr unsigned int Timeout_TypeDefinitionIndex = 867;
 
 	class Timeout : public ::System::Object
 	{
 	public:
 		static ::System::TimeSpan* StaticGet_InfiniteTimeSpan()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(Timeout_TypeDefinitionIndex)->GetStaticField(0x3C20);
+			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(Timeout_TypeDefinitionIndex)->GetStaticField(0x4B80);
 		}
 
 		static ::System::Void _cctor()

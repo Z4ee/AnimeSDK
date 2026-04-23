@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AOCSVersion_TypeDefinitionIndex = 4634;
+	inline static constexpr unsigned int AOCSVersion_TypeDefinitionIndex = 4642;
 
 	enum class AOCSVersion : ::System::Int32
 	{

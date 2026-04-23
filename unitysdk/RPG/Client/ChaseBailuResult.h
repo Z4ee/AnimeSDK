@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChaseBailuResult_TypeDefinitionIndex = 48731;
+	inline static constexpr unsigned int ChaseBailuResult_TypeDefinitionIndex = 55480;
 
 	enum class ChaseBailuResult : ::System::Int32
 	{

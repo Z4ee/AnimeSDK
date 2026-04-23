@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int NullValue_TypeDefinitionIndex = 6217;
+	inline static constexpr unsigned int NullValue_TypeDefinitionIndex = 6227;
 
 	enum class NullValue : ::System::Int32
 	{

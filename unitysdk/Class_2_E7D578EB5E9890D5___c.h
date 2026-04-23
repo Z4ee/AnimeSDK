@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class FollowByPlayerCustomRoutePoint; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_E7D578EB5E9890D5___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1114A8D0)
-#define CLASS_2_E7D578EB5E9890D5___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1114A910)
-#define CLASS_2_E7D578EB5E9890D5___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1114A920)
+#define CLASS_2_E7D578EB5E9890D5___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x129E3390)
+#define CLASS_2_E7D578EB5E9890D5___C__CTOR_OFFSET UNITYSDK_OFFSET(0x129E33D0)
+#define CLASS_2_E7D578EB5E9890D5___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x129E33E0)
 
-inline static constexpr unsigned int Class_2_E7D578EB5E9890D5___c_TypeDefinitionIndex = 42423;
+inline static constexpr unsigned int Class_2_E7D578EB5E9890D5___c_TypeDefinitionIndex = 48383;
 
 class Class_2_E7D578EB5E9890D5___c : public ::System::Object
 {
 public:
-	static ::Class_2_E7D578EB5E9890D5___c** StaticGet___9()
-	{
-		return (::Class_2_E7D578EB5E9890D5___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E7D578EB5E9890D5___c_TypeDefinitionIndex)->GetStaticField(0x46720);
-	}
 	static ::System::Comparison_1<::RPG::GameCore::FollowByPlayerCustomRoutePoint*>** StaticGet___9__0_0()
 	{
-		return (::System::Comparison_1<::RPG::GameCore::FollowByPlayerCustomRoutePoint*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E7D578EB5E9890D5___c_TypeDefinitionIndex)->GetStaticField(0x46728);
+		return (::System::Comparison_1<::RPG::GameCore::FollowByPlayerCustomRoutePoint*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E7D578EB5E9890D5___c_TypeDefinitionIndex)->GetStaticField(0x350B0);
+	}
+	static ::Class_2_E7D578EB5E9890D5___c** StaticGet___9()
+	{
+		return (::Class_2_E7D578EB5E9890D5___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E7D578EB5E9890D5___c_TypeDefinitionIndex)->GetStaticField(0x350B8);
 	}
 
 	static ::System::Void _cctor()

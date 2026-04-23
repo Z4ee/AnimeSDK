@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 
-#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG_METHOD_2_C30442B59D3AAAAC_OFFSET UNITYSDK_OFFSET(0x175A0D00)
-#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175A0EC0)
+#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG_METHOD_2_C30442B59D3AAAAC_OFFSET UNITYSDK_OFFSET(0x18CACCC0)
+#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CACE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResolutionAdaptionConfig_TypeDefinitionIndex = 15706;
+	inline static constexpr unsigned int ResolutionAdaptionConfig_TypeDefinitionIndex = 16232;
 
 	class ResolutionAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

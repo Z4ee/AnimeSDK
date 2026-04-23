@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_OUTLINE_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x18B44270)
-#define UNITYENGINE_UI_OUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B44230)
+#define UNITYENGINE_UI_OUTLINE_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1A57FB00)
+#define UNITYENGINE_UI_OUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A57FAC0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Outline_TypeDefinitionIndex = 5758;
+	inline static constexpr unsigned int Outline_TypeDefinitionIndex = 5770;
 
 	class Outline : public ::UnityEngine::UI::Shadow
 	{

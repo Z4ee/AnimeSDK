@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SelectMode_TypeDefinitionIndex = 2889;
+	inline static constexpr unsigned int SelectMode_TypeDefinitionIndex = 2890;
 
 	enum class SelectMode : ::System::Int32
 	{

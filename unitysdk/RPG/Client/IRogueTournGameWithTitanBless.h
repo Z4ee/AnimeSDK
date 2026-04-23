@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueTournTitanBlessInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameWithTitanBless_TypeDefinitionIndex = 55124;
+	inline static constexpr unsigned int IRogueTournGameWithTitanBless_TypeDefinitionIndex = 62312;
 
 	class IRogueTournGameWithTitanBless
 	{

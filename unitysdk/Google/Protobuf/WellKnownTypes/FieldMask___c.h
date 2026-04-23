@@ -6,25 +6,25 @@ namespace Google::Protobuf::WellKnownTypes { class FieldMask; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B31A90)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B31AD0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__27_0_OFFSET UNITYSDK_OFFSET(0x15B31AE0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x15B31BE0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1712F900)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1712F940)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__27_0_OFFSET UNITYSDK_OFFSET(0x1712F950)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1712FA50)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 6212;
+	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 6222;
 
 	class FieldMask___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::WellKnownTypes::FieldMask___c** StaticGet___9()
-		{
-			return (::Google::Protobuf::WellKnownTypes::FieldMask___c**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0xEA80);
-		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0xEA88);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0x5040);
+		}
+		static ::Google::Protobuf::WellKnownTypes::FieldMask___c** StaticGet___9()
+		{
+			return (::Google::Protobuf::WellKnownTypes::FieldMask___c**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0x5048);
 		}
 
 		static ::System::Void _cctor()

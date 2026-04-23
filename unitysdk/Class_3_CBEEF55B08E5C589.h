@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCurrentAudioLanguage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CBEEF55B08E5C589_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEE7770)
-#define CLASS_3_CBEEF55B08E5C589__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE7740)
+#define CLASS_3_CBEEF55B08E5C589_EVALUATE_OFFSET UNITYSDK_OFFSET(0x117CC940)
+#define CLASS_3_CBEEF55B08E5C589__CTOR_OFFSET UNITYSDK_OFFSET(0x117CC910)
 
-inline static constexpr unsigned int Class_3_CBEEF55B08E5C589_TypeDefinitionIndex = 42600;
+inline static constexpr unsigned int Class_3_CBEEF55B08E5C589_TypeDefinitionIndex = 48565;
 
 class Class_3_CBEEF55B08E5C589 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCurrentAudioLanguage*>
 {

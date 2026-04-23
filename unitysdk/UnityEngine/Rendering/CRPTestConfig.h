@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPTestConfig_TypeDefinitionIndex = 4665;
+	inline static constexpr unsigned int CRPTestConfig_TypeDefinitionIndex = 4673;
 
 	struct alignas(8) CRPTestConfig
 	{

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PSTROPHYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17485DB0)
-#define RPG_GAMECORE_PSTROPHYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17485FC0)
+#define RPG_GAMECORE_PSTROPHYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BCF4F0)
+#define RPG_GAMECORE_PSTROPHYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCF700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PSTrophyRow_TypeDefinitionIndex = 11932;
+	inline static constexpr unsigned int PSTrophyRow_TypeDefinitionIndex = 12363;
 
 	class PSTrophyRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AchievementID; // 0x10
-		::RPG::Client::TextID AchievementTitle; // 0x18
-		::RPG::Client::TextID AchievementDesc; // 0x28
+		::RPG::Client::TextID AchievementDesc; // 0x10
+		::RPG::Client::TextID AchievementTitle; // 0x20
+		::System::UInt32 AchievementID; // 0x30
 
 		::System::Void _ctor()
 		{

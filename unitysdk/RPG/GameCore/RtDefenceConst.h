@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class RtBehaviorFlagStateAction; }
+namespace RPG::GameCore { class RtDamageConstConfig; }
+namespace RPG::GameCore { class RtDefenceStageRow; }
+namespace RPG::GameCore { class RtDefenceUnitRow; }
+namespace RPG::GameCore { class RtDefenceValueIncreasement; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_1A728FF300468132_OFFSET UNITYSDK_OFFSET(0x18DCE3E0)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x18DCE2D0)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_74D707F2BD9CAA6B_OFFSET UNITYSDK_OFFSET(0x18DCDD60)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x18DCE350)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_ABE7CF9FA1B8CCA3_OFFSET UNITYSDK_OFFSET(0x18DCE490)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_B74F0266CBEA732F_1_OFFSET UNITYSDK_OFFSET(0x18DCE790)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_B74F0266CBEA732F_OFFSET UNITYSDK_OFFSET(0x18DCE750)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_CAE8AAD9168F42A0_OFFSET UNITYSDK_OFFSET(0x18DCE7D0)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_D83796106DF8E5C5_OFFSET UNITYSDK_OFFSET(0x18DCE370)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_EC24AC00C231F088_OFFSET UNITYSDK_OFFSET(0x18DCE720)
+#define RPG_GAMECORE_RTDEFENCECONST_METHOD_2_F0254ADFF2A2C22F_OFFSET UNITYSDK_OFFSET(0x18DCE5F0)
+#define RPG_GAMECORE_RTDEFENCECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCE200)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int RtDefenceConst_TypeDefinitionIndex = 17162;
+
+	class RtDefenceConst : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		static ::RPG::GameCore::RtDefenceConst** StaticGet_Config()
+		{
+			return (::RPG::GameCore::RtDefenceConst**)Il2CppClass::FromTypeDefinitionIndex(RtDefenceConst_TypeDefinitionIndex)->GetStaticField(0x4A590);
+		}
+		::System::UInt32 AvatarIDMin; // 0x10
+		::System::UInt32 AvatarIDMax; // 0x14
+		::System::UInt32 MonsterIDMin; // 0x18
+		::System::UInt32 MonsterIDMax; // 0x1C
+		::System::UInt32 BaseID; // 0x20
+		::RPG::GameCore::FixPoint BaseHp; // 0x28
+		::RPG::GameCore::FixPoint StartCoin; // 0x30
+		::System::String* MainLevelGraphPath; // 0x38
+		::Il2CppArray<::RPG::GameCore::RtDefenceStageRow*>* StageList; // 0x40
+		::Il2CppArray<::RPG::GameCore::RtDefenceUnitRow*>* UnitList; // 0x48
+		::Il2CppArray<::RPG::GameCore::RtBehaviorFlagStateAction*>* FlagActions; // 0x50
+		::RPG::GameCore::RtDefenceValueIncreasement* SummonCost; // 0x58
+		::RPG::GameCore::RtDefenceValueIncreasement* UpgradeCost; // 0x60
+		::RPG::GameCore::RtDamageConstConfig* DamageConst; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::RtDefenceUnitRow*>* _UnitRowDict; // 0x70
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_74D707F2BD9CAA6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceConst*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_74D707F2BD9CAA6B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_5790A55946AA509D()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_5790A55946AA509D_OFFSET))();
+		}
+
+		static ::System::Void Method_2_832295EC279E5994()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_832295EC279E5994_OFFSET))();
+		}
+
+		static ::RPG::GameCore::RtDefenceStageRow* Method_2_D83796106DF8E5C5(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::RtDefenceStageRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_D83796106DF8E5C5_OFFSET))(a1);
+		}
+
+		::RPG::GameCore::RtDefenceUnitRow* Method_2_1A728FF300468132(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::RtDefenceUnitRow*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_1A728FF300468132_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::RtDefenceUnitRow* Method_2_F0254ADFF2A2C22F(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::RPG::GameCore::RtDefenceUnitRow*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_F0254ADFF2A2C22F_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_ABE7CF9FA1B8CCA3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_ABE7CF9FA1B8CCA3_OFFSET))(this);
+		}
+
+		static ::System::Boolean Method_2_EC24AC00C231F088(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_EC24AC00C231F088_OFFSET))(a1);
+		}
+
+		static ::System::Boolean Method_2_B74F0266CBEA732F(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_B74F0266CBEA732F_OFFSET))(a1);
+		}
+
+		static ::System::Boolean Method_2_B74F0266CBEA732F_1(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_B74F0266CBEA732F_1_OFFSET))(a1);
+		}
+
+		static ::RPG::GameCore::FixPoint Method_2_CAE8AAD9168F42A0(::RPG::GameCore::RtDefenceValueIncreasement* a1, ::RPG::GameCore::FixPoint a2)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::RPG::GameCore::RtDefenceValueIncreasement*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECONST_METHOD_2_CAE8AAD9168F42A0_OFFSET))(a1, a2);
+		}
+	};
+}

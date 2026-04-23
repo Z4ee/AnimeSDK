@@ -3,7 +3,7 @@
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int IAsyncService_TypeDefinitionIndex = 27697;
+	inline static constexpr unsigned int IAsyncService_TypeDefinitionIndex = 33321;
 
 	class IAsyncService
 	{

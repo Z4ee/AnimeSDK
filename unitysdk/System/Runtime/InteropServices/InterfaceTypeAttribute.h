@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/ComInterfaceType.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16393BD0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179C0780)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int InterfaceTypeAttribute_TypeDefinitionIndex = 1394;
+	inline static constexpr unsigned int InterfaceTypeAttribute_TypeDefinitionIndex = 1396;
 
 	class InterfaceTypeAttribute : public ::System::Attribute
 	{

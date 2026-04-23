@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MarkAwardTargetUsed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3FE467CBFB06972C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C8B190)
-#define CLASS_3_3FE467CBFB06972C__CTOR_OFFSET UNITYSDK_OFFSET(0x10C8B160)
+#define CLASS_3_3FE467CBFB06972C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123CE1F0)
+#define CLASS_3_3FE467CBFB06972C__CTOR_OFFSET UNITYSDK_OFFSET(0x123CE1C0)
 
-inline static constexpr unsigned int Class_3_3FE467CBFB06972C_TypeDefinitionIndex = 46951;
+inline static constexpr unsigned int Class_3_3FE467CBFB06972C_TypeDefinitionIndex = 53683;
 
 class Class_3_3FE467CBFB06972C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MarkAwardTargetUsed*>
 {

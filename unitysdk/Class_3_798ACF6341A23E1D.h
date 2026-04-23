@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableBattleOnAttacked; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_798ACF6341A23E1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1054AF00)
-#define CLASS_3_798ACF6341A23E1D__CTOR_OFFSET UNITYSDK_OFFSET(0x1054AED0)
+#define CLASS_3_798ACF6341A23E1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11C2CEA0)
+#define CLASS_3_798ACF6341A23E1D__CTOR_OFFSET UNITYSDK_OFFSET(0x11C2CE70)
 
-inline static constexpr unsigned int Class_3_798ACF6341A23E1D_TypeDefinitionIndex = 46874;
+inline static constexpr unsigned int Class_3_798ACF6341A23E1D_TypeDefinitionIndex = 53587;
 
 class Class_3_798ACF6341A23E1D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableBattleOnAttacked*>
 {

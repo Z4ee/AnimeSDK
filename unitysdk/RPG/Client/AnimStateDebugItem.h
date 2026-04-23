@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ANIMSTATEDEBUGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x90C29B0)
+#define RPG_CLIENT_ANIMSTATEDEBUGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9D1FE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimStateDebugItem_TypeDefinitionIndex = 59606;
+	inline static constexpr unsigned int AnimStateDebugItem_TypeDefinitionIndex = 67002;
 
 	class AnimStateDebugItem : public ::UnityEngine::MonoBehaviour
 	{

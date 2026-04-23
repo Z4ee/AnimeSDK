@@ -8,12 +8,12 @@ namespace RPG::GameCore { class CharacterReplaceMaterialRenderList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALCONFIG_METHOD_2_EAFD494236C19D4A_OFFSET UNITYSDK_OFFSET(0x17071B40)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17071CA0)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALCONFIG_METHOD_2_EAFD494236C19D4A_OFFSET UNITYSDK_OFFSET(0x187D6C10)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D6D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialConfig_TypeDefinitionIndex = 16023;
+	inline static constexpr unsigned int CharacterReplaceMaterialConfig_TypeDefinitionIndex = 16552;
 
 	class CharacterReplaceMaterialConfig : public ::RPG::GameCore::JsonConfig
 	{

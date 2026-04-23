@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExDebug_ResourcesInfo_TypeDefinitionIndex = 31194;
+	inline static constexpr unsigned int CriAtomExDebug_ResourcesInfo_TypeDefinitionIndex = 36914;
 
 	struct alignas(4) CriAtomExDebug_ResourcesInfo
 	{

@@ -5,11 +5,11 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define PARTICLEVATSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x8EBA340)
-#define PARTICLEVATSIZECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x8EBA410)
-#define PARTICLEVATSIZECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8EBA530)
+#define PARTICLEVATSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9A8BC10)
+#define PARTICLEVATSIZECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x9A8BCE0)
+#define PARTICLEVATSIZECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8BE00)
 
-inline static constexpr unsigned int ParticleVATSizeController_TypeDefinitionIndex = 38222;
+inline static constexpr unsigned int ParticleVATSizeController_TypeDefinitionIndex = 44106;
 
 class ParticleVATSizeController : public ::UnityEngine::MonoBehaviour
 {

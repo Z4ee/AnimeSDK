@@ -9,28 +9,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RAIDTARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1757EE50)
-#define RPG_GAMECORE_RAIDTARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1757F800)
+#define RPG_GAMECORE_RAIDTARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C88BB0)
+#define RPG_GAMECORE_RAIDTARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C89560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidTargetConfigRow_TypeDefinitionIndex = 13325;
+	inline static constexpr unsigned int RaidTargetConfigRow_TypeDefinitionIndex = 13800;
 
 	class RaidTargetConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::String* AbilityName; // 0x18
-		::Il2CppArray<::System::UInt32>* HintStep; // 0x20
-		::System::UInt32 TargetParam2; // 0x28
-		::System::UInt32 IsShowProgress; // 0x2C
-		::RPG::GameCore::RaidTargetType TargetType; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::String* AbilityName; // 0x10
+		::Il2CppArray<::System::UInt32>* HintStep; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
+		::System::UInt32 IsShowProgress; // 0x28
+		::System::UInt32 RewardID; // 0x2C
+		::System::Boolean IsInBattle; // 0x30
+		::RPG::GameCore::RaidTargetType TargetType; // 0x34
 		::RPG::Client::TextID TargetName; // 0x38
-		::System::UInt32 RewardID; // 0x48
-		::RPG::GameCore::ParamType ParamType; // 0x4C
-		::System::Boolean IsInBattle; // 0x50
-		::System::UInt32 TargetParam1; // 0x54
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 TargetParam1; // 0x4C
+		::System::UInt32 TargetParam2; // 0x50
+		::RPG::GameCore::ParamType ParamType; // 0x54
 		::RPG::Client::TextID TargetNameSimple; // 0x58
 
 		::System::Void _ctor()

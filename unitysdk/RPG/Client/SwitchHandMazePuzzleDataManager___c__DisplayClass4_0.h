@@ -4,20 +4,20 @@
 
 namespace RPG::Client { class SwitchHandMazePuzzleRowWrapper; }
 
-#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FDE10)
-#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS4_0__GETMAZEPUZZLEROWWRAPPER_B__0_OFFSET UNITYSDK_OFFSET(0xA4FE8F0)
+#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F02C0)
+#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS4_0__GETMAZEPUZZLEROWWRAPPER_B__0_OFFSET UNITYSDK_OFFSET(0xB1F0DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandMazePuzzleDataManager___c__DisplayClass4_0_TypeDefinitionIndex = 55498;
+	inline static constexpr unsigned int SwitchHandMazePuzzleDataManager___c__DisplayClass4_0_TypeDefinitionIndex = 62692;
 
 	class SwitchHandMazePuzzleDataManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 mappingInfoInstanceID; // 0x10
 		::System::UInt32 mappingInfoGroupID; // 0x14
-		::System::UInt32 mappingInfoPlaneID; // 0x18
-		::System::UInt32 mappingInfoFloorID; // 0x1C
+		::System::UInt32 mappingInfoFloorID; // 0x18
+		::System::UInt32 mappingInfoPlaneID; // 0x1C
 
 		::System::Void _ctor()
 		{

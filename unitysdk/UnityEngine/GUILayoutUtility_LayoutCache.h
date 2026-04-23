@@ -5,11 +5,11 @@
 namespace UnityEngine { class GUILayoutGroup; }
 namespace UnityEngineInternal { class GenericStack; }
 
-#define UNITYENGINE_GUILAYOUTUTILITY_LAYOUTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A79460)
+#define UNITYENGINE_GUILAYOUTUTILITY_LAYOUTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B3250)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayoutUtility_LayoutCache_TypeDefinitionIndex = 5117;
+	inline static constexpr unsigned int GUILayoutUtility_LayoutCache_TypeDefinitionIndex = 5126;
 
 	class GUILayoutUtility_LayoutCache : public ::System::Object
 	{

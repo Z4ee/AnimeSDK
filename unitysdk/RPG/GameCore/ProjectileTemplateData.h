@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ColliderConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROJECTILETEMPLATEDATA_METHOD_2_993287E990B17A01_OFFSET UNITYSDK_OFFSET(0x17515540)
-#define RPG_GAMECORE_PROJECTILETEMPLATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x175156B0)
+#define RPG_GAMECORE_PROJECTILETEMPLATEDATA_METHOD_2_993287E990B17A01_OFFSET UNITYSDK_OFFSET(0x18C648A0)
+#define RPG_GAMECORE_PROJECTILETEMPLATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C64A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileTemplateData_TypeDefinitionIndex = 14348;
+	inline static constexpr unsigned int ProjectileTemplateData_TypeDefinitionIndex = 14818;
 
 	class ProjectileTemplateData : public ::RPG::GameCore::JsonConfig
 	{

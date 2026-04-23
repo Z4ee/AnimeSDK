@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting::Contexts { class Context; }
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int IContextAttribute_TypeDefinitionIndex = 1243;
+	inline static constexpr unsigned int IContextAttribute_TypeDefinitionIndex = 1245;
 
 	class IContextAttribute
 	{

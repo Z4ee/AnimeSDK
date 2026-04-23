@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int SortedListFormatter_2_TypeDefinitionIndex = 9276;
+	inline static constexpr unsigned int SortedListFormatter_2_TypeDefinitionIndex = 9473;
 
 	template <typename TKey, typename TValue>
 	class SortedListFormatter_2 : public ::MessagePack::Formatters::DictionaryFormatterBase_3<TKey, TValue, ::System::Collections::Generic::SortedList_2<TKey, TValue>*>

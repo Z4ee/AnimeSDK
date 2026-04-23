@@ -3,22 +3,25 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimFluteMatchCalculator_FluteSimpleData.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client::LittleGame::FiveDim { class FiveDimFluteNewGuideData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x99FDDC0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR_GETMATCHCODE_OFFSET UNITYSDK_OFFSET(0x99FF5E0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x99FF3B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__INIT_OFFSET UNITYSDK_OFFSET(0x99FF450)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0xA6A81B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR_GETMATCHCODE_OFFSET UNITYSDK_OFFSET(0xA6A9E10)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA6A9B20)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__INIT_OFFSET UNITYSDK_OFFSET(0xA6A9B80)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__ISNEWGUIDEFLUTE_OFFSET UNITYSDK_OFFSET(0xA6A9EF0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteMatchCalculator_TypeDefinitionIndex = 62880;
+	inline static constexpr unsigned int FiveDimFluteMatchCalculator_TypeDefinitionIndex = 70919;
 
 	class FiveDimFluteMatchCalculator : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteMatchCalculator_FluteSimpleData>* _FluteSimpleDataList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteNewGuideData*>* _FluteNewGuideDataList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteMatchCalculator_FluteSimpleData>* _FluteSimpleDataList; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -38,6 +41,11 @@ namespace RPG::Client::LittleGame::FiveDim
 		::System::Void _Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__INIT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsNewGuideFlute(::System::UInt32 fluteID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEMATCHCALCULATOR__ISNEWGUIDEFLUTE_OFFSET))(this, fluteID);
 		}
 	};
 }

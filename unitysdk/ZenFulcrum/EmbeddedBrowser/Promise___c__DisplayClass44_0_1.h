@@ -10,7 +10,7 @@ namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass44_0_1_TypeDefinitionIndex = 30593;
+	inline static constexpr unsigned int Promise___c__DisplayClass44_0_1_TypeDefinitionIndex = 36313;
 
 	template <typename ConvertedT>
 	class Promise___c__DisplayClass44_0_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCSubType_TypeDefinitionIndex = 10081;
+	inline static constexpr unsigned int NPCSubType_TypeDefinitionIndex = 10273;
 
 	enum class NPCSubType : ::System::Int32
 	{

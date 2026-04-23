@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionVerseParam_TypeDefinitionIndex = 17431;
+	inline static constexpr unsigned int MissionVerseParam_TypeDefinitionIndex = 18039;
 
 	enum class MissionVerseParam : ::System::Int32
 	{

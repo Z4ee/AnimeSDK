@@ -4,23 +4,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELCHIMERAPRESETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17098060)
-#define RPG_GAMECORE_CHIMERADUELCHIMERAPRESETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170982F0)
+#define RPG_GAMECORE_CHIMERADUELCHIMERAPRESETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187F7610)
+#define RPG_GAMECORE_CHIMERADUELCHIMERAPRESETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187F78A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraPresetRow_TypeDefinitionIndex = 10417;
+	inline static constexpr unsigned int ChimeraDuelChimeraPresetRow_TypeDefinitionIndex = 10642;
 
 	class ChimeraDuelChimeraPresetRow : public ::System::Object
 	{
 	public:
-		::System::Int32 DeltaAttack; // 0x10
-		::System::UInt32 ExpGained; // 0x14
-		::System::UInt32 SpecialParam; // 0x18
+		::System::UInt32 SpecialParam; // 0x10
+		::System::UInt32 ChimeraPresetID; // 0x14
+		::System::UInt32 ChimeraID; // 0x18
 		::System::UInt32 EquipmentID; // 0x1C
-		::System::UInt32 ChimeraPresetID; // 0x20
-		::System::Int32 DeltaHP; // 0x24
-		::System::UInt32 ChimeraID; // 0x28
+		::System::Int32 DeltaHP; // 0x20
+		::System::UInt32 ExpGained; // 0x24
+		::System::Int32 DeltaAttack; // 0x28
 
 		::System::Void _ctor()
 		{

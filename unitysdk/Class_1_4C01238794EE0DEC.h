@@ -5,25 +5,25 @@
 
 namespace System { class String; }
 
-#define CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10B75460)
-#define CLASS_1_4C01238794EE0DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x10B754D0)
-#define CLASS_1_4C01238794EE0DEC___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10B754E0)
+#define CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x124FEFB0)
+#define CLASS_1_4C01238794EE0DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x124FF020)
+#define CLASS_1_4C01238794EE0DEC___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x124FF030)
 
-inline static constexpr unsigned int Class_1_4C01238794EE0DEC_TypeDefinitionIndex = 64558;
+inline static constexpr unsigned int Class_1_4C01238794EE0DEC_TypeDefinitionIndex = 72605;
 
 class Class_1_4C01238794EE0DEC : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
+	::System::String* Field_1_9; // 0x10
 	::System::String* Field_1_5; // 0x18
-	::System::String* Field_1_1; // 0x20
-	::System::String* Field_1_8; // 0x28
-	::System::String* Field_1_9; // 0x30
-	::System::UInt64 Field_1_4; // 0x38
+	::System::String* Field_1_8; // 0x20
+	::System::String* Field_1_1; // 0x28
+	::System::String* Field_1_2; // 0x30
+	::System::UInt64 Field_1_10; // 0x38
 	::System::UInt64 Field_1_6; // 0x40
 	::System::UInt64 Field_1_11; // 0x48
-	::System::UInt64 Field_1_10; // 0x50
-	::System::UInt64 Field_1_3; // 0x58
+	::System::UInt64 Field_1_3; // 0x50
+	::System::UInt64 Field_1_4; // 0x58
 	::System::UInt64 Field_1_7; // 0x60
 	::RPG::Client::Patch::PatchType Field_1_0; // 0x68
 

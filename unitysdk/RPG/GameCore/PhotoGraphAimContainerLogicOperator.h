@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimContainerLogicOperator_TypeDefinitionIndex = 19782;
+	inline static constexpr unsigned int PhotoGraphAimContainerLogicOperator_TypeDefinitionIndex = 20463;
 
 	enum class PhotoGraphAimContainerLogicOperator : ::System::Int32
 	{

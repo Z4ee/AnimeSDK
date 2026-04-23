@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class CurvePropGroupPuzzleFinishListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_B61DF64A8B0238DB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1133DF10)
-#define CLASS_2_B61DF64A8B0238DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1133DF50)
-#define CLASS_2_B61DF64A8B0238DB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1133E000)
-#define CLASS_2_B61DF64A8B0238DB_TICK_OFFSET UNITYSDK_OFFSET(0x1133E050)
-#define CLASS_2_B61DF64A8B0238DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1133DF00)
+#define CLASS_2_B61DF64A8B0238DB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAFF1120)
+#define CLASS_2_B61DF64A8B0238DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFF1160)
+#define CLASS_2_B61DF64A8B0238DB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAFF1210)
+#define CLASS_2_B61DF64A8B0238DB_TICK_OFFSET UNITYSDK_OFFSET(0xAFF1260)
+#define CLASS_2_B61DF64A8B0238DB__CTOR_OFFSET UNITYSDK_OFFSET(0xAFF1110)
 
-inline static constexpr unsigned int Class_2_B61DF64A8B0238DB_TypeDefinitionIndex = 46836;
+inline static constexpr unsigned int Class_2_B61DF64A8B0238DB_TypeDefinitionIndex = 53547;
 
 class Class_2_B61DF64A8B0238DB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::CurvePropGroupPuzzleFinishListener* Field_2_1; // 0x20
+	::RPG::GameCore::CurvePropGroupPuzzleFinishListener* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CurvePropGroupPuzzleFinishListener* a2)
 	{

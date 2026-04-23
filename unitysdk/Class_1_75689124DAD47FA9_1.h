@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define CLASS_1_75689124DAD47FA9_1_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x10C6ECB0)
+#define CLASS_1_75689124DAD47FA9_1_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x11E57930)
 
-inline static constexpr unsigned int Class_1_75689124DAD47FA9_1_TypeDefinitionIndex = 48281;
+inline static constexpr unsigned int Class_1_75689124DAD47FA9_1_TypeDefinitionIndex = 55026;
 
 class Class_1_75689124DAD47FA9_1 : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_75689124DAD47FA9_1_TypeDefinitionIndex)->GetStaticField(0x12F20);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_75689124DAD47FA9_1_TypeDefinitionIndex)->GetStaticField(0xFF90);
 	}
 	static ::System::Boolean* StaticGet_Field_1_2()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_75689124DAD47FA9_1_TypeDefinitionIndex)->GetStaticField(0x12F21);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_75689124DAD47FA9_1_TypeDefinitionIndex)->GetStaticField(0xFF91);
 	}
 	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_75689124DAD47FA9_1_TypeDefinitionIndex)->GetStaticField(0x12F22);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_75689124DAD47FA9_1_TypeDefinitionIndex)->GetStaticField(0xFF92);
 	}
 	// static const ::System::Int32 Field_1_3 = 0x3E8; // 0x0
 	// static const ::System::Int32 Field_1_4 = 0x7D0; // 0x0

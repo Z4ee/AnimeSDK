@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188D2E00)
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188D2E30)
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x188D2E40)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A30CB40)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30CB70)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A30CB80)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferPool___c_TypeDefinitionIndex = 27758;
+	inline static constexpr unsigned int CommandBufferPool___c_TypeDefinitionIndex = 33382;
 
 	class CommandBufferPool___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::CommandBufferPool___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::CommandBufferPool___c**)Il2CppClass::FromTypeDefinitionIndex(CommandBufferPool___c_TypeDefinitionIndex)->GetStaticField(0x1F340);
+			return (::UnityEngine::Rendering::CommandBufferPool___c**)Il2CppClass::FromTypeDefinitionIndex(CommandBufferPool___c_TypeDefinitionIndex)->GetStaticField(0x67320);
 		}
 
 		static ::System::Void _cctor()

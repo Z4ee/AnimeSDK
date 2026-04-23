@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_3F6460165989C3EF_LeavePhase_TypeDefinitionIndex = 49025;
+inline static constexpr unsigned int Class_1_3F6460165989C3EF_LeavePhase_TypeDefinitionIndex = 55819;
 
 enum class Class_1_3F6460165989C3EF_LeavePhase : ::System::Int32
 {

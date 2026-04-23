@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlEventCache_XmlEventType_TypeDefinitionIndex = 1825;
+	inline static constexpr unsigned int XmlEventCache_XmlEventType_TypeDefinitionIndex = 1826;
 
 	enum class XmlEventCache_XmlEventType : ::System::Int32
 	{

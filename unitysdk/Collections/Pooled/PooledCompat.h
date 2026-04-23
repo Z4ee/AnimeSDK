@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledCompat_TypeDefinitionIndex = 5314;
+	inline static constexpr unsigned int PooledCompat_TypeDefinitionIndex = 5325;
 
 	class PooledCompat : public ::System::Object
 	{

@@ -8,27 +8,27 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_747CFCC889B15E2E_METHOD_1_3A3952C8B109D81F_OFFSET UNITYSDK_OFFSET(0x11650610)
-#define CLASS_1_747CFCC889B15E2E_METHOD_1_ADA0D21D8E7E8EC1_OFFSET UNITYSDK_OFFSET(0x11650780)
-#define CLASS_1_747CFCC889B15E2E__CCTOR_OFFSET UNITYSDK_OFFSET(0x116509C0)
-#define CLASS_1_747CFCC889B15E2E__CTOR_OFFSET UNITYSDK_OFFSET(0x116509B0)
+#define CLASS_1_747CFCC889B15E2E_METHOD_1_3A3952C8B109D81F_OFFSET UNITYSDK_OFFSET(0x12A01870)
+#define CLASS_1_747CFCC889B15E2E_METHOD_1_ADA0D21D8E7E8EC1_OFFSET UNITYSDK_OFFSET(0x12A019E0)
+#define CLASS_1_747CFCC889B15E2E__CCTOR_OFFSET UNITYSDK_OFFSET(0x12A01C20)
+#define CLASS_1_747CFCC889B15E2E__CTOR_OFFSET UNITYSDK_OFFSET(0x12A01C10)
 
-inline static constexpr unsigned int Class_1_747CFCC889B15E2E_TypeDefinitionIndex = 57118;
+inline static constexpr unsigned int Class_1_747CFCC889B15E2E_TypeDefinitionIndex = 64369;
 
 class Class_1_747CFCC889B15E2E : public ::System::Object
 {
 public:
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>** StaticGet_Field_1_2()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_747CFCC889B15E2E_TypeDefinitionIndex)->GetStaticField(0x8840);
+	}
 	static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_747CFCC889B15E2E_TypeDefinitionIndex)->GetStaticField(0x5A40);
+		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_747CFCC889B15E2E_TypeDefinitionIndex)->GetStaticField(0x8848);
 	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_747CFCC889B15E2E_TypeDefinitionIndex)->GetStaticField(0x5A48);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>** StaticGet_Field_1_2()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_747CFCC889B15E2E_TypeDefinitionIndex)->GetStaticField(0x5A50);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_747CFCC889B15E2E_TypeDefinitionIndex)->GetStaticField(0x8850);
 	}
 	// static const ::System::Int32 Field_1_3 = 0x64; // 0x0
 

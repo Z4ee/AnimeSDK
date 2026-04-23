@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingStageWaveType_TypeDefinitionIndex = 10375;
+	inline static constexpr unsigned int ChenLingStageWaveType_TypeDefinitionIndex = 10600;
 
 	enum class ChenLingStageWaveType : ::System::Int32
 	{

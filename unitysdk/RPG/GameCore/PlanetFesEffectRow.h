@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B9B90)
-#define RPG_GAMECORE_PLANETFESEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174B9D80)
+#define RPG_GAMECORE_PLANETFESEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C051A0)
+#define RPG_GAMECORE_PLANETFESEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C05390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesEffectRow_TypeDefinitionIndex = 11125;
+	inline static constexpr unsigned int PlanetFesEffectRow_TypeDefinitionIndex = 11528;
 
 	class PlanetFesEffectRow : public ::System::Object
 	{

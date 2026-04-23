@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define REFGPUPARTICLESYSTEMBURST_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x182FB3A0)
-#define REFGPUPARTICLESYSTEMBURST__CTOR_OFFSET UNITYSDK_OFFSET(0x182FD220)
+#define REFGPUPARTICLESYSTEMBURST_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x19D4F950)
+#define REFGPUPARTICLESYSTEMBURST__CTOR_OFFSET UNITYSDK_OFFSET(0x19D518D0)
 
-inline static constexpr unsigned int RefGPUParticleSystemBurst_TypeDefinitionIndex = 33927;
+inline static constexpr unsigned int RefGPUParticleSystemBurst_TypeDefinitionIndex = 39728;
 
 class RefGPUParticleSystemBurst : public ::System::Object
 {

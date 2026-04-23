@@ -6,36 +6,36 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B1DC0)
-#define RPG_GAMECORE_MATCHTHREELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B29F0)
+#define RPG_GAMECORE_MATCHTHREELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ABFF20)
+#define RPG_GAMECORE_MATCHTHREELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC0B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeLevelRow_TypeDefinitionIndex = 10934;
+	inline static constexpr unsigned int MatchThreeLevelRow_TypeDefinitionIndex = 11338;
 
 	class MatchThreeLevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EnvironmentID; // 0x10
+		::System::String* LevelImage; // 0x10
 		::Il2CppArray<::System::UInt32>* VSTalkList; // 0x18
-		::System::String* LevelImage; // 0x20
-		::System::UInt32 LevelMission; // 0x28
-		::System::UInt32 OpponentID; // 0x2C
-		::RPG::Client::TextID VictoryDesc; // 0x30
-		::System::UInt32 UnlockID; // 0x40
-		::System::UInt32 HPmax; // 0x44
-		::RPG::Client::TextID MissionDescription; // 0x48
-		::System::UInt32 PlayerBirdID; // 0x58
-		::System::UInt32 PlayerID; // 0x5C
-		::System::UInt32 OpponentBirdID; // 0x60
-		::System::UInt32 Mode; // 0x64
+		::Il2CppArray<::System::UInt32>* EnvironmentID; // 0x20
+		::System::UInt32 LevelID; // 0x28
+		::System::UInt32 OpponentBirdID; // 0x2C
+		::System::UInt32 RewardID; // 0x30
+		::System::UInt32 LevelMission; // 0x34
+		::System::UInt32 UnlockID; // 0x38
+		::System::UInt32 OpponentID; // 0x3C
+		::RPG::Client::TextID MissionDescription; // 0x40
+		::System::UInt32 HPmax; // 0x50
+		::System::UInt32 PlayerBirdID; // 0x54
+		::RPG::Client::TextID VictoryDesc; // 0x58
 		::RPG::Client::TextID LevelName; // 0x68
 		::System::UInt32 GoMissionCondition; // 0x78
-		::System::UInt32 LevelID; // 0x7C
-		::RPG::Client::TextID LoseDesc; // 0x80
-		::System::UInt32 RewardID; // 0x90
-		::System::UInt32 TurnStep; // 0x94
-		::RPG::Client::TextID LevelDescription; // 0x98
+		::System::UInt32 PlayerID; // 0x7C
+		::RPG::Client::TextID LevelDescription; // 0x80
+		::RPG::Client::TextID LoseDesc; // 0x90
+		::System::UInt32 TurnStep; // 0xA0
+		::System::UInt32 Mode; // 0xA4
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RTSizeScale_TypeDefinitionIndex = 29494;
+	inline static constexpr unsigned int RTSizeScale_TypeDefinitionIndex = 35261;
 
 	enum class RTSizeScale : ::System::Int32
 	{

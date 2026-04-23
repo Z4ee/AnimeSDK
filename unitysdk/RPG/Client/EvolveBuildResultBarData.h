@@ -4,19 +4,19 @@
 
 namespace RPG::Client { class EvolveBuildCollectionGear; }
 
-#define RPG_CLIENT_EVOLVEBUILDRESULTBARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9643050)
+#define RPG_CLIENT_EVOLVEBUILDRESULTBARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA300D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildResultBarData_TypeDefinitionIndex = 51845;
+	inline static constexpr unsigned int EvolveBuildResultBarData_TypeDefinitionIndex = 58793;
 
 	class EvolveBuildResultBarData : public ::System::Object
 	{
 	public:
 		::RPG::Client::EvolveBuildCollectionGear* Weapon; // 0x10
-		::System::Double MaxDamage; // 0x18
-		::System::Double HpDamage; // 0x20
-		::System::Double Damage; // 0x28
+		::System::Double HpDamage; // 0x18
+		::System::Double Damage; // 0x20
+		::System::Double MaxDamage; // 0x28
 
 		::System::Void _ctor()
 		{

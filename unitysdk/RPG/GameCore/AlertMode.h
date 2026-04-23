@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlertMode_TypeDefinitionIndex = 46180;
+	inline static constexpr unsigned int AlertMode_TypeDefinitionIndex = 52844;
 
 	enum class AlertMode : ::System::Int32
 	{

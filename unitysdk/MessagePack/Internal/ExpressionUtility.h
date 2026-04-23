@@ -10,11 +10,11 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x15D5D840)
+#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x1735B050)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 9146;
+	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 9343;
 
 	class ExpressionUtility : public ::System::Object
 	{

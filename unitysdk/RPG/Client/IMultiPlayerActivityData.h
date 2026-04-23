@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMultiPlayerActivityData_TypeDefinitionIndex = 50156;
+	inline static constexpr unsigned int IMultiPlayerActivityData_TypeDefinitionIndex = 57001;
 
 	class IMultiPlayerActivityData
 	{

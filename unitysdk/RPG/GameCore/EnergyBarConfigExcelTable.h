@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1719BB20)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1719B970)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1719B640)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1719B910)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1719BCF0)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1719B6C0)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1719BD30)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1719BF10)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1719C0E0)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1719C440)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1719BE70)
-#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1719BDD0)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x188A9260)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x188A90B0)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x188A8D80)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x188A9050)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x188A9430)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x188A8E00)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x188A9470)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x188A9650)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x188A9820)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x188A9B80)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x188A95B0)
+#define RPG_GAMECORE_ENERGYBARCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x188A9510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnergyBarConfigExcelTable_TypeDefinitionIndex = 12073;
+	inline static constexpr unsigned int EnergyBarConfigExcelTable_TypeDefinitionIndex = 12506;
 
 	class EnergyBarConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EnergyBarConfigRow*>** StaticGet_dataDict_()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EnergyBarConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2BFC0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E760);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2BFC8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E768);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EnergyBarConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2BFD0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xEA30);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EnergyBarConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E770);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xEA31);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB8A0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnergyBarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB8A1);
 		}
 
 		static ::System::Void _cctor()

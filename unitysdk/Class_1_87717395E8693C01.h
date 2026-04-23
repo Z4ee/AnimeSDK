@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EnumStatusType.h"
+#include "unitysdk/Struct_2_5B421F8FFABD4CA3_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_24193089A4D2255F;
+namespace System { class String; }
+
+#define CLASS_1_87717395E8693C01_METHOD_1_2CA897F8A35F173B_OFFSET UNITYSDK_OFFSET(0x12A7C3E0)
+#define CLASS_1_87717395E8693C01_METHOD_1_3716C7456CF0FFB9_OFFSET UNITYSDK_OFFSET(0x12A7C1C0)
+#define CLASS_1_87717395E8693C01_METHOD_1_60BF0D15FFAC2622_OFFSET UNITYSDK_OFFSET(0x12A7C0B0)
+#define CLASS_1_87717395E8693C01_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x12A7BFC0)
+#define CLASS_1_87717395E8693C01_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12A7C440)
+#define CLASS_1_87717395E8693C01_METHOD_1_F9DFE5ED808CF67F_OFFSET UNITYSDK_OFFSET(0x12A7C010)
+#define CLASS_1_87717395E8693C01__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12A7BFB0)
+#define CLASS_1_87717395E8693C01__CTOR_OFFSET UNITYSDK_OFFSET(0x12A7BFA0)
+
+inline static constexpr unsigned int Class_1_87717395E8693C01_TypeDefinitionIndex = 66102;
+
+class Class_1_87717395E8693C01 : public ::System::Object
+{
+public:
+	// static const ::System::String* Field_1_1; // 0x0
+	::System::String* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _ctor_1(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01__CTOR_1_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01_METHOD_1_88B60F3B95FAA4F1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F9DFE5ED808CF67F(::Class_2_24193089A4D2255F* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_24193089A4D2255F*))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01_METHOD_1_F9DFE5ED808CF67F_OFFSET))(this, a1);
+	}
+
+	::Struct_2_5B421F8FFABD4CA3_1 Method_1_60BF0D15FFAC2622(::Class_2_24193089A4D2255F* a1)
+	{
+		return ((::Struct_2_5B421F8FFABD4CA3_1(*)(::PVOID, ::Class_2_24193089A4D2255F*))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01_METHOD_1_60BF0D15FFAC2622_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_3716C7456CF0FFB9(::Class_2_24193089A4D2255F* a1, ::Class_2_24193089A4D2255F* a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::Class_2_24193089A4D2255F*, ::Class_2_24193089A4D2255F*))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01_METHOD_1_3716C7456CF0FFB9_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_2CA897F8A35F173B(::RPG::GameCore::EnumStatusType a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::EnumStatusType))((::PBYTE)hIl2Cpp + CLASS_1_87717395E8693C01_METHOD_1_2CA897F8A35F173B_OFFSET))(this, a1);
+	}
+};

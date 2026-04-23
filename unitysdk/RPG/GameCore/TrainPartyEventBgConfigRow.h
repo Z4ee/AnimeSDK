@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYEVENTBGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178AB6A0)
-#define RPG_GAMECORE_TRAINPARTYEVENTBGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178AB860)
+#define RPG_GAMECORE_TRAINPARTYEVENTBGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190AA110)
+#define RPG_GAMECORE_TRAINPARTYEVENTBGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190AA2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyEventBgConfigRow_TypeDefinitionIndex = 14063;
+	inline static constexpr unsigned int TrainPartyEventBgConfigRow_TypeDefinitionIndex = 14538;
 
 	class TrainPartyEventBgConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* BgConfigJsonPath; // 0x10
+		::System::String* TriggerAnimationName; // 0x10
 		::System::String* BgImage; // 0x18
-		::System::String* TriggerAnimationName; // 0x20
+		::System::String* BgConfigJsonPath; // 0x20
 		::System::UInt32 BgID; // 0x28
 
 		::System::Void _ctor()

@@ -6,10 +6,10 @@
 
 namespace RPG::Client { class MonoEffect; }
 
-#define CLASS_3_50176A515053E061___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x109C07A0)
-#define CLASS_3_50176A515053E061___C__DISPLAYCLASS0_0__ONACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x109C0830)
+#define CLASS_3_50176A515053E061___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x128473D0)
+#define CLASS_3_50176A515053E061___C__DISPLAYCLASS0_0__ONACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x12847460)
 
-inline static constexpr unsigned int Class_3_50176A515053E061___c__DisplayClass0_0_TypeDefinitionIndex = 56097;
+inline static constexpr unsigned int Class_3_50176A515053E061___c__DisplayClass0_0_TypeDefinitionIndex = 63340;
 
 class Class_3_50176A515053E061___c__DisplayClass0_0 : public ::System::Object
 {

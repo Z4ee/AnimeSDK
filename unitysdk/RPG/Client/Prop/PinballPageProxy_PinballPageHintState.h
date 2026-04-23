@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PinballPageProxy_PinballPageHintState_TypeDefinitionIndex = 64216;
+	inline static constexpr unsigned int PinballPageProxy_PinballPageHintState_TypeDefinitionIndex = 72263;
 
 	enum class PinballPageProxy_PinballPageHintState : ::System::Int32
 	{

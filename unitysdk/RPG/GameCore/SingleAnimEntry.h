@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEANIMENTRY_METHOD_2_D23336DAB9108F16_OFFSET UNITYSDK_OFFSET(0x1770A500)
-#define RPG_GAMECORE_SINGLEANIMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1770A610)
+#define RPG_GAMECORE_SINGLEANIMENTRY_METHOD_2_D23336DAB9108F16_OFFSET UNITYSDK_OFFSET(0x18E6DF70)
+#define RPG_GAMECORE_SINGLEANIMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6E080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleAnimEntry_TypeDefinitionIndex = 14907;
+	inline static constexpr unsigned int SingleAnimEntry_TypeDefinitionIndex = 15414;
 
 	class SingleAnimEntry : public ::RPG::GameCore::JsonConfig
 	{

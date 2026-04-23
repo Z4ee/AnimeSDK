@@ -6,10 +6,10 @@ namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace BansheeGz::BGSpline::Components { class BGCcTrs; }
 namespace BansheeGz::BGSpline::Curve { class BGCc; }
 
-#define CLASS_1_00A49F95BB3836A5_METHOD_1_C1B80A989D466505_OFFSET UNITYSDK_OFFSET(0xDE44D10)
-#define CLASS_1_00A49F95BB3836A5__CTOR_OFFSET UNITYSDK_OFFSET(0xDE44ED0)
+#define CLASS_1_00A49F95BB3836A5_METHOD_1_C1B80A989D466505_OFFSET UNITYSDK_OFFSET(0x12ACFCC0)
+#define CLASS_1_00A49F95BB3836A5__CTOR_OFFSET UNITYSDK_OFFSET(0x12ACFE80)
 
-inline static constexpr unsigned int Class_1_00A49F95BB3836A5_TypeDefinitionIndex = 50602;
+inline static constexpr unsigned int Class_1_00A49F95BB3836A5_TypeDefinitionIndex = 57465;
 
 class Class_1_00A49F95BB3836A5 : public ::System::Object
 {

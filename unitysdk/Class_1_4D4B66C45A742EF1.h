@@ -7,31 +7,31 @@
 class Class_1_9ADD1D872350330F;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4D4B66C45A742EF1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1681EEF0)
-#define CLASS_1_4D4B66C45A742EF1_METHOD_1_8F697642FBF3BDA7_1_OFFSET UNITYSDK_OFFSET(0x167F6F80)
-#define CLASS_1_4D4B66C45A742EF1_METHOD_1_8F697642FBF3BDA7_OFFSET UNITYSDK_OFFSET(0x167F6F00)
-#define CLASS_1_4D4B66C45A742EF1__CTOR_OFFSET UNITYSDK_OFFSET(0x1681EFC0)
+#define CLASS_1_4D4B66C45A742EF1_CLEAR_OFFSET UNITYSDK_OFFSET(0x17FCD2B0)
+#define CLASS_1_4D4B66C45A742EF1_METHOD_1_8F697642FBF3BDA7_1_OFFSET UNITYSDK_OFFSET(0x17FB1440)
+#define CLASS_1_4D4B66C45A742EF1_METHOD_1_8F697642FBF3BDA7_OFFSET UNITYSDK_OFFSET(0x17FB13C0)
+#define CLASS_1_4D4B66C45A742EF1__CTOR_OFFSET UNITYSDK_OFFSET(0x17FCD370)
 
-inline static constexpr unsigned int Class_1_4D4B66C45A742EF1_TypeDefinitionIndex = 33113;
+inline static constexpr unsigned int Class_1_4D4B66C45A742EF1_TypeDefinitionIndex = 38903;
 
 class Class_1_4D4B66C45A742EF1 : public ::System::Object
 {
 public:
-	::Class_1_9ADD1D872350330F* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::System::Single>* Field_1_13; // 0x10
 	::System::Collections::Generic::List_1<::System::Single>* Field_1_14; // 0x18
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_13; // 0x20
-	::System::UInt32 Field_1_12; // 0x28
-	::System::UInt32 Field_1_7; // 0x2C
+	::Class_1_9ADD1D872350330F* Field_1_1; // 0x20
+	::System::Boolean Field_1_4; // 0x28
+	::System::UInt32 Field_1_15; // 0x2C
 	::System::UInt32 Field_1_9; // 0x30
-	::System::UInt32 Field_1_15; // 0x34
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_5; // 0x38
-	::RPG::Client::LittleGame::Match3::SimulateInputType Field_1_0; // 0x40
-	::System::UInt32 Field_1_10; // 0x44
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_2; // 0x48
-	::System::UInt32 Field_1_11; // 0x50
-	::System::UInt32 Field_1_8; // 0x54
-	::System::Boolean Field_1_4; // 0x58
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_6; // 0x5C
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_6; // 0x34
+	::System::UInt32 Field_1_10; // 0x3C
+	::System::UInt32 Field_1_8; // 0x40
+	::RPG::Client::LittleGame::Match3::SimulateInputType Field_1_0; // 0x44
+	::System::UInt32 Field_1_12; // 0x48
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_5; // 0x4C
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_2; // 0x54
+	::System::UInt32 Field_1_7; // 0x5C
+	::System::UInt32 Field_1_11; // 0x60
 	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_3; // 0x64
 
 	::System::Void _ctor()

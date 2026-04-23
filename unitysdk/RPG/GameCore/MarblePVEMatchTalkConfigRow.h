@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17393940)
-#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17393AD0)
+#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AA1770)
+#define RPG_GAMECORE_MARBLEPVEMATCHTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA1900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePVEMatchTalkConfigRow_TypeDefinitionIndex = 10896;
+	inline static constexpr unsigned int MarblePVEMatchTalkConfigRow_TypeDefinitionIndex = 11300;
 
 	class MarblePVEMatchTalkConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TalkIDList; // 0x10
-		::System::UInt32 MatchID; // 0x18
-		::System::UInt32 SealID; // 0x1C
+		::System::UInt32 SealID; // 0x18
+		::System::UInt32 MatchID; // 0x1C
 
 		::System::Void _ctor()
 		{

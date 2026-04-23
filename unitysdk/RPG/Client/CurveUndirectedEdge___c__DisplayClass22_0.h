@@ -7,13 +7,13 @@ namespace RPG::Client { class CurveUndirectedEdge; }
 namespace RPG::Client { class CurveUndirectedEdgeConnection; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x943B580)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__0_OFFSET UNITYSDK_OFFSET(0x943C280)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__1_OFFSET UNITYSDK_OFFSET(0x943C630)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E9290)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__0_OFFSET UNITYSDK_OFFSET(0xA0E9F90)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__1_OFFSET UNITYSDK_OFFSET(0xA0EA340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass22_0_TypeDefinitionIndex = 55990;
+	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass22_0_TypeDefinitionIndex = 63233;
 
 	class CurveUndirectedEdge___c__DisplayClass22_0 : public ::System::Object
 	{

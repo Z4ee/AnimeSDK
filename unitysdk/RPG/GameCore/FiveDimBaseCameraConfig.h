@@ -13,13 +13,13 @@ namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_2D514F79D5F42B7D_OFFSET UNITYSDK_OFFSET(0x171DF140)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_ED9C06CF4EA81F79_OFFSET UNITYSDK_OFFSET(0x171DF520)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171DF4E0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_2D514F79D5F42B7D_OFFSET UNITYSDK_OFFSET(0x188EC9C0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_ED9C06CF4EA81F79_OFFSET UNITYSDK_OFFSET(0x188ECDB0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188ECD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 17092;
+	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 17691;
 
 	class FiveDimBaseCameraConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -36,6 +36,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::FiveDimCameraFollowConfig* BakedFollow; // 0x50
 		::RPG::GameCore::FiveDimCameraFollowClampMask FollowClampMask; // 0x58
 		::System::Boolean UseDefaultObserve; // 0x5C
+		::System::Boolean UseMinimalObserve; // 0x5D
 		::RPG::GameCore::FiveDimCameraObserveConfig* Observe; // 0x60
 		::RPG::GameCore::FiveDimCameraObserveConfig* BakedObserve; // 0x68
 		::System::Boolean UseDefaultBlend; // 0x70

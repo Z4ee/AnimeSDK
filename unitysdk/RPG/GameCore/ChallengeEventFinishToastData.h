@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_CHALLENGEEVENTFINISHTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA894AC0)
+#define RPG_GAMECORE_CHALLENGEEVENTFINISHTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DA580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeEventFinishToastData_TypeDefinitionIndex = 43176;
+	inline static constexpr unsigned int ChallengeEventFinishToastData_TypeDefinitionIndex = 49171;
 
 	class ChallengeEventFinishToastData : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSGETSESSIONATTRIBUTECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x83AB970)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSGETSESSIONATTRIBUTECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BD3980)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionDetailsGetSessionAttributeCountOptions_TypeDefinitionIndex = 35507;
+	inline static constexpr unsigned int SessionDetailsGetSessionAttributeCountOptions_TypeDefinitionIndex = 41333;
 
 	class SessionDetailsGetSessionAttributeCountOptions : public ::System::Object
 	{

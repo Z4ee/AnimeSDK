@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_FLAREANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C448A0)
-#define INCONTROL_UNITYDEVICEPROFILES_FLAREANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C45EB0)
+#define INCONTROL_UNITYDEVICEPROFILES_FLAREANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x17242280)
+#define INCONTROL_UNITYDEVICEPROFILES_FLAREANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17243890)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int FlareAndroidUnityProfile_TypeDefinitionIndex = 31539;
+	inline static constexpr unsigned int FlareAndroidUnityProfile_TypeDefinitionIndex = 37259;
 
 	class FlareAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

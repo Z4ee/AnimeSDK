@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_LOCATIONSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8AA60)
+#define UNITYENGINE_LOCATIONSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C4CE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LocationService_TypeDefinitionIndex = 5152;
+	inline static constexpr unsigned int LocationService_TypeDefinitionIndex = 5163;
 
 	class LocationService : public ::System::Object
 	{

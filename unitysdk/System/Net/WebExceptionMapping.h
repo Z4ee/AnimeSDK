@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x187294F0)
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x187296F0)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1A1639E0)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A163BE0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebExceptionMapping_TypeDefinitionIndex = 2749;
+	inline static constexpr unsigned int WebExceptionMapping_TypeDefinitionIndex = 2750;
 
 	class WebExceptionMapping : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_Mapping()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebExceptionMapping_TypeDefinitionIndex)->GetStaticField(0xC2E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebExceptionMapping_TypeDefinitionIndex)->GetStaticField(0x14F10);
 		}
 
 		static ::System::Void _cctor()

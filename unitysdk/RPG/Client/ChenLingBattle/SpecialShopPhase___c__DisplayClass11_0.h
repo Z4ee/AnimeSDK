@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x934A5F0)
-#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__DISPLAYCLASS11_0__REQUESTFINISHSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x934A670)
+#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FB8150)
+#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__DISPLAYCLASS11_0__REQUESTFINISHSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x9FB81D0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SpecialShopPhase___c__DisplayClass11_0_TypeDefinitionIndex = 62088;
+	inline static constexpr unsigned int SpecialShopPhase___c__DisplayClass11_0_TypeDefinitionIndex = 70087;
 
 	class SpecialShopPhase___c__DisplayClass11_0 : public ::System::Object
 	{

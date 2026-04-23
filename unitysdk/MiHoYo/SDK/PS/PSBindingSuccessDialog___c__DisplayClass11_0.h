@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PS { class PSBindingSuccessDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D5F0)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15F7DEE0)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175E5F10)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x175E6870)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSBindingSuccessDialog___c__DisplayClass11_0_TypeDefinitionIndex = 7557;
+	inline static constexpr unsigned int PSBindingSuccessDialog___c__DisplayClass11_0_TypeDefinitionIndex = 7698;
 
 	class PSBindingSuccessDialog___c__DisplayClass11_0 : public ::System::Object
 	{

@@ -7,11 +7,11 @@ namespace IRIClusterBuilder { class IRIClusterBuildConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define IRICLUSTERBUILDER_VOLUMETEMPLATECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x111DA400)
+#define IRICLUSTERBUILDER_VOLUMETEMPLATECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x124179A0)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int VolumeTemplateContainer_TypeDefinitionIndex = 38631;
+	inline static constexpr unsigned int VolumeTemplateContainer_TypeDefinitionIndex = 44523;
 
 	class VolumeTemplateContainer : public ::UnityEngine::ScriptableObject
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SRF_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18468780)
-#define SRF_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18468940)
+#define SRF_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19EA3690)
+#define SRF_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19EA3850)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 27642;
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 33266;
 
 	class Json : public ::System::Object
 	{

@@ -10,29 +10,29 @@ namespace Spine { template <typename T> class Pool_1; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_EVENTQUEUE_ADD_ANIMATIONSCHANGED_OFFSET UNITYSDK_OFFSET(0x1839DD30)
-#define SPINE_EVENTQUEUE_CLEAR_OFFSET UNITYSDK_OFFSET(0x18394DE0)
-#define SPINE_EVENTQUEUE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x183935C0)
-#define SPINE_EVENTQUEUE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x183946D0)
-#define SPINE_EVENTQUEUE_DRAIN_OFFSET UNITYSDK_OFFSET(0x18390630)
-#define SPINE_EVENTQUEUE_END_OFFSET UNITYSDK_OFFSET(0x183903F0)
-#define SPINE_EVENTQUEUE_EVENT_OFFSET UNITYSDK_OFFSET(0x18393580)
-#define SPINE_EVENTQUEUE_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x18393940)
-#define SPINE_EVENTQUEUE_REMOVE_ANIMATIONSCHANGED_OFFSET UNITYSDK_OFFSET(0x1839DD90)
-#define SPINE_EVENTQUEUE_START_OFFSET UNITYSDK_OFFSET(0x18393980)
-#define SPINE_EVENTQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1838FD00)
+#define SPINE_EVENTQUEUE_ADD_ANIMATIONSCHANGED_OFFSET UNITYSDK_OFFSET(0x19DD8870)
+#define SPINE_EVENTQUEUE_CLEAR_OFFSET UNITYSDK_OFFSET(0x19DCF840)
+#define SPINE_EVENTQUEUE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x19DCDF50)
+#define SPINE_EVENTQUEUE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DCF070)
+#define SPINE_EVENTQUEUE_DRAIN_OFFSET UNITYSDK_OFFSET(0x19DCAFC0)
+#define SPINE_EVENTQUEUE_END_OFFSET UNITYSDK_OFFSET(0x19DCAD80)
+#define SPINE_EVENTQUEUE_EVENT_OFFSET UNITYSDK_OFFSET(0x19DCDF10)
+#define SPINE_EVENTQUEUE_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x19DCE2D0)
+#define SPINE_EVENTQUEUE_REMOVE_ANIMATIONSCHANGED_OFFSET UNITYSDK_OFFSET(0x19DD88D0)
+#define SPINE_EVENTQUEUE_START_OFFSET UNITYSDK_OFFSET(0x19DCE310)
+#define SPINE_EVENTQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DCA690)
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventQueue_TypeDefinitionIndex = 30674;
+	inline static constexpr unsigned int EventQueue_TypeDefinitionIndex = 36394;
 
 	class EventQueue : public ::System::Object
 	{
 	public:
-		::System::Action* AnimationsChanged; // 0x10
+		::Spine::Pool_1<::Spine::TrackEntry*>* trackEntryPool; // 0x10
 		::System::Collections::Generic::List_1<::Spine::EventQueue_EventQueueEntry>* eventQueueEntries; // 0x18
 		::Spine::AnimationState* state; // 0x20
-		::Spine::Pool_1<::Spine::TrackEntry*>* trackEntryPool; // 0x28
+		::System::Action* AnimationsChanged; // 0x28
 		::System::Boolean drainDisabled; // 0x30
 
 		::System::Void _ctor(::Spine::AnimationState* state, ::System::Action* HandleAnimationsChanged, ::Spine::Pool_1<::Spine::TrackEntry*>* trackEntryPool)

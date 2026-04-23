@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 20747;
+	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 21449;
 
 	class ByIsInsertAction___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(ByIsInsertAction___O_TypeDefinitionIndex)->GetStaticField(0x24FC0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(ByIsInsertAction___O_TypeDefinitionIndex)->GetStaticField(0x252A0);
 		}
 	};
 }

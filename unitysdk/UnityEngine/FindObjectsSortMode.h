@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FindObjectsSortMode_TypeDefinitionIndex = 4167;
+	inline static constexpr unsigned int FindObjectsSortMode_TypeDefinitionIndex = 4169;
 
 	enum class FindObjectsSortMode : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_CHIMERARANKTALKPOPSHOWTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x93CA760)
+#define RPG_CLIENT_CHIMERARANKTALKPOPSHOWTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA038300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraRankTalkPopShowTime_TypeDefinitionIndex = 59389;
+	inline static constexpr unsigned int ChimeraRankTalkPopShowTime_TypeDefinitionIndex = 66784;
 
 	class ChimeraRankTalkPopShowTime : public ::UnityEngine::MonoBehaviour
 	{

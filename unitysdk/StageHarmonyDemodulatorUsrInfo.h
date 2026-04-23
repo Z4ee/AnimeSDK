@@ -6,9 +6,9 @@
 class StageHarmonyLightModLinkSlot;
 namespace System { class String; }
 
-#define STAGEHARMONYDEMODULATORUSRINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xABDB720)
+#define STAGEHARMONYDEMODULATORUSRINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB9512B0)
 
-inline static constexpr unsigned int StageHarmonyDemodulatorUsrInfo_TypeDefinitionIndex = 38382;
+inline static constexpr unsigned int StageHarmonyDemodulatorUsrInfo_TypeDefinitionIndex = 44266;
 
 class StageHarmonyDemodulatorUsrInfo : public ::System::Object
 {

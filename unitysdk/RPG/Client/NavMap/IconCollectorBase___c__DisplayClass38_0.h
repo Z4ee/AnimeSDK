@@ -4,12 +4,12 @@
 
 namespace RPG::Client::NavMap { class AreaData; }
 
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E12AE0)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0___INSHOWAREA_B__0_OFFSET UNITYSDK_OFFSET(0x9E12AF0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5C200)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS38_0___INSHOWAREA_B__0_OFFSET UNITYSDK_OFFSET(0xAB5C9F0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass38_0_TypeDefinitionIndex = 61259;
+	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass38_0_TypeDefinitionIndex = 68767;
 
 	class IconCollectorBase___c__DisplayClass38_0 : public ::System::Object
 	{

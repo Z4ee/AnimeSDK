@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GenderType.h"
 
-namespace RPG::Client { class IMapIcon; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace RPG::Client { class Product; }
+namespace System { class Object; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_931_TypeDefinitionIndex = 61249;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_931_TypeDefinitionIndex = 65594;
 
 class Class_0_16E4307DCC419505_931
 {

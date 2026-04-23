@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17469AA0)
-#define RPG_GAMECORE_MUSICRHYTHMTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17469DD0)
+#define RPG_GAMECORE_MUSICRHYTHMTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B767E0)
+#define RPG_GAMECORE_MUSICRHYTHMTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B76B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTalkInfo_TypeDefinitionIndex = 20244;
+	inline static constexpr unsigned int MusicRhythmTalkInfo_TypeDefinitionIndex = 20926;
 
 	class MusicRhythmTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

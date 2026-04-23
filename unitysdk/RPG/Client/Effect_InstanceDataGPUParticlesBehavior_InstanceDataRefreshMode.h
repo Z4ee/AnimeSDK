@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceDataGPUParticlesBehavior_InstanceDataRefreshMode_TypeDefinitionIndex = 57843;
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticlesBehavior_InstanceDataRefreshMode_TypeDefinitionIndex = 65130;
 
 	enum class Effect_InstanceDataGPUParticlesBehavior_InstanceDataRefreshMode : ::System::Int32
 	{

@@ -5,7 +5,7 @@ namespace RPG::Client { class GridFightTraitSubTraitConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGridFightTraitSubTraitEffect_TypeDefinitionIndex = 53142;
+	inline static constexpr unsigned int IGridFightTraitSubTraitEffect_TypeDefinitionIndex = 60264;
 
 	class IGridFightTraitSubTraitEffect
 	{

@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EFD890)
-#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFDAB0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1861EA40)
+#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1861EC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenOutfitTypeRow_TypeDefinitionIndex = 10866;
+	inline static constexpr unsigned int ActivityHipplenOutfitTypeRow_TypeDefinitionIndex = 11111;
 
 	class ActivityHipplenOutfitTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::String* IconCheckPath; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::GameCore::HipplenOutfitType Type; // 0x30
+		::RPG::GameCore::HipplenOutfitType Type; // 0x20
+		::RPG::Client::TextID Name; // 0x28
 
 		::System::Void _ctor()
 		{

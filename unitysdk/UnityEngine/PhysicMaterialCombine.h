@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PhysicMaterialCombine_TypeDefinitionIndex = 5206;
+	inline static constexpr unsigned int PhysicMaterialCombine_TypeDefinitionIndex = 5217;
 
 	enum class PhysicMaterialCombine : ::System::Int32
 	{

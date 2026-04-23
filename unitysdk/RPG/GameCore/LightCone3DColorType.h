@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightCone3DColorType_TypeDefinitionIndex = 16070;
+	inline static constexpr unsigned int LightCone3DColorType_TypeDefinitionIndex = 16601;
 
 	enum class LightCone3DColorType : ::System::Int32
 	{

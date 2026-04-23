@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForbidSelectReason_TypeDefinitionIndex = 45866;
+	inline static constexpr unsigned int ForbidSelectReason_TypeDefinitionIndex = 52524;
 
 	enum class ForbidSelectReason : ::System::Int32
 	{

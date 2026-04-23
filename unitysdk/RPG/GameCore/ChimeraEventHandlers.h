@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraBattleWaitEvent; }
 
-#define RPG_GAMECORE_CHIMERAEVENTHANDLERS_METHOD_2_7BB55F882C8C131F_OFFSET UNITYSDK_OFFSET(0x170A9090)
-#define RPG_GAMECORE_CHIMERAEVENTHANDLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x170A9190)
+#define RPG_GAMECORE_CHIMERAEVENTHANDLERS_METHOD_2_7BB55F882C8C131F_OFFSET UNITYSDK_OFFSET(0x18808640)
+#define RPG_GAMECORE_CHIMERAEVENTHANDLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x18808740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEventHandlers_TypeDefinitionIndex = 14540;
+	inline static constexpr unsigned int ChimeraEventHandlers_TypeDefinitionIndex = 15010;
 
 	class ChimeraEventHandlers : public ::RPG::GameCore::JsonConfig
 	{

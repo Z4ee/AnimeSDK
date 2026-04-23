@@ -6,21 +6,21 @@
 #include "unitysdk/UnityEngine/TouchPhase.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_FINGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11A5FA10)
+#define HEDGEHOGTEAM_EASYTOUCH_FINGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C2E510)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int Finger_TypeDefinitionIndex = 31355;
+	inline static constexpr unsigned int Finger_TypeDefinitionIndex = 37075;
 
 	class Finger : public ::HedgehogTeam::EasyTouch::BaseFinger
 	{
 	public:
-		::HedgehogTeam::EasyTouch::EasyTouch_SwipeDirection oldSwipeType; // 0x78
-		::System::Int32 tapCount; // 0x7C
-		::UnityEngine::Vector2 oldPosition; // 0x80
-		::System::Single startTimeAction; // 0x88
-		::HedgehogTeam::EasyTouch::EasyTouch_GestureType gesture; // 0x8C
-		::UnityEngine::TouchPhase phase; // 0x90
+		::HedgehogTeam::EasyTouch::EasyTouch_GestureType gesture; // 0x78
+		::UnityEngine::Vector2 oldPosition; // 0x7C
+		::System::Int32 tapCount; // 0x84
+		::UnityEngine::TouchPhase phase; // 0x88
+		::HedgehogTeam::EasyTouch::EasyTouch_SwipeDirection oldSwipeType; // 0x8C
+		::System::Single startTimeAction; // 0x90
 
 		::System::Void _ctor()
 		{

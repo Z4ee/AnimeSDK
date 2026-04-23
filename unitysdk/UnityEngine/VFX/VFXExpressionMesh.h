@@ -4,7 +4,7 @@
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXExpressionMesh_TypeDefinitionIndex = 5990;
+	inline static constexpr unsigned int VFXExpressionMesh_TypeDefinitionIndex = 6002;
 
 	class VFXExpressionMesh : public ::System::Object
 	{

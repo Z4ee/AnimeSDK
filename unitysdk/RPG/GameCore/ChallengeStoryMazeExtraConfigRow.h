@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1705F820)
-#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1705F9C0)
+#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187C4620)
+#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187C47C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeStoryMazeExtraConfigRow_TypeDefinitionIndex = 11846;
+	inline static constexpr unsigned int ChallengeStoryMazeExtraConfigRow_TypeDefinitionIndex = 12277;
 
 	class ChallengeStoryMazeExtraConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BattleTargetID; // 0x10
 		::System::UInt32 ID; // 0x18
-		::System::UInt32 TurnLimit; // 0x1C
-		::System::UInt32 ClearScore; // 0x20
+		::System::UInt32 ClearScore; // 0x1C
+		::System::UInt32 TurnLimit; // 0x20
 
 		::System::Void _ctor()
 		{

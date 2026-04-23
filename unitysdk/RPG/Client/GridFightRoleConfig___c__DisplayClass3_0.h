@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class GridFightBackEquipmentConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98911B0)
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS3_0__GETBACKEQUIPMENTCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x9892D50)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA571B70)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS3_0__GETBACKEQUIPMENTCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xA573D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleConfig___c__DisplayClass3_0_TypeDefinitionIndex = 52871;
+	inline static constexpr unsigned int GridFightRoleConfig___c__DisplayClass3_0_TypeDefinitionIndex = 59947;
 
 	class GridFightRoleConfig___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 rank; // 0x10
-		::System::UInt32 equipmentID; // 0x14
+		::System::UInt32 equipmentID; // 0x10
+		::System::UInt32 rank; // 0x14
 
 		::System::Void _ctor()
 		{

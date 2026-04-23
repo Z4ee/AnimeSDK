@@ -3,26 +3,26 @@
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 
-class Class_1_9F4DE0130D72755A;
+class Class_1_9F9C2AEAEFFE3610;
 namespace RPG::Client { class ChatMessagePlanetfesExchangeData; }
 
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B91CF0)
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_PLANETFESDATA_OFFSET UNITYSDK_OFFSET(0x9B91D40)
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B91C60)
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B91C70)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88C1F0)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_PLANETFESDATA_OFFSET UNITYSDK_OFFSET(0xA88C240)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88C160)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88C170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentPlanetFesExchangeBlock_TypeDefinitionIndex = 51334;
+	inline static constexpr unsigned int MessageContentPlanetFesExchangeBlock_TypeDefinitionIndex = 58262;
 
 	class MessageContentPlanetFesExchangeBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::RPG::Client::ChatMessagePlanetfesExchangeData* _PlanetFesData_k__BackingField; // 0x18
 
-		::System::Void _ctor(::Class_1_9F4DE0130D72755A* planetFesChatMsg, ::System::UInt32 timeStamp)
+		::System::Void _ctor(::Class_1_9F9C2AEAEFFE3610* planetFesChatMsg, ::System::UInt32 timeStamp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_9F4DE0130D72755A*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK__CTOR_OFFSET))(this, planetFesChatMsg, timeStamp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_9F9C2AEAEFFE3610*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK__CTOR_OFFSET))(this, planetFesChatMsg, timeStamp);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()

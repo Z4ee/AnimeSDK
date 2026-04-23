@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::P2P { class QueryNATTypeOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_QUERYNATTYPEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_QUERYNATTYPEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x58830)
+#define EPIC_ONLINESERVICES_P2P_QUERYNATTYPEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x59240)
 #define EPIC_ONLINESERVICES_P2P_QUERYNATTYPEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int QueryNATTypeOptionsInternal_TypeDefinitionIndex = 35921;
+	inline static constexpr unsigned int QueryNATTypeOptionsInternal_TypeDefinitionIndex = 41747;
 
 	struct alignas(4) QueryNATTypeOptionsInternal
 	{

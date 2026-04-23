@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimTrainEnergySpeedMapItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMTRAINLEVELCONFIG_METHOD_2_A77DDF28E878E4CB_OFFSET UNITYSDK_OFFSET(0x172105E0)
-#define RPG_GAMECORE_FIVEDIMTRAINLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172107E0)
+#define RPG_GAMECORE_FIVEDIMTRAINLEVELCONFIG_METHOD_2_A77DDF28E878E4CB_OFFSET UNITYSDK_OFFSET(0x18909630)
+#define RPG_GAMECORE_FIVEDIMTRAINLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189226D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTrainLevelConfig_TypeDefinitionIndex = 17004;
+	inline static constexpr unsigned int FiveDimTrainLevelConfig_TypeDefinitionIndex = 17598;
 
 	class FiveDimTrainLevelConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_4F79C408792F4D54.h"
 
-class Class_1_43BD383C98B4C0C5_170;
+class Class_1_43BD383C98B4C0C5_176;
 class Class_1_C4FD36003027AC99;
 class Class_1_FB3E7B71A45FEB7C;
 class Class_2_49CAB3DE74280C58;
@@ -10,11 +10,11 @@ class Class_3_D637C1E17FCBBFB0;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_57F654C3AA6D3B65_METHOD_2_4E22A18EF530BFA8_OFFSET UNITYSDK_OFFSET(0xDE53190)
-#define CLASS_2_57F654C3AA6D3B65_METHOD_2_ABF9606A74A2F02E_OFFSET UNITYSDK_OFFSET(0xDE531F0)
-#define CLASS_2_57F654C3AA6D3B65__CTOR_OFFSET UNITYSDK_OFFSET(0xDE536F0)
+#define CLASS_2_57F654C3AA6D3B65_METHOD_2_4E22A18EF530BFA8_OFFSET UNITYSDK_OFFSET(0x129ED8D0)
+#define CLASS_2_57F654C3AA6D3B65_METHOD_2_ABF9606A74A2F02E_OFFSET UNITYSDK_OFFSET(0x129ED930)
+#define CLASS_2_57F654C3AA6D3B65__CTOR_OFFSET UNITYSDK_OFFSET(0x129EDE30)
 
-inline static constexpr unsigned int Class_2_57F654C3AA6D3B65_TypeDefinitionIndex = 63027;
+inline static constexpr unsigned int Class_2_57F654C3AA6D3B65_TypeDefinitionIndex = 71067;
 
 class Class_2_57F654C3AA6D3B65 : public ::Class_1_4F79C408792F4D54
 {
@@ -31,8 +31,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_3_D637C1E17FCBBFB0*))((::PBYTE)hIl2Cpp + CLASS_2_57F654C3AA6D3B65_METHOD_2_4E22A18EF530BFA8_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_ABF9606A74A2F02E(::Class_1_C4FD36003027AC99* a1, ::System::Collections::Generic::List_1<::Class_2_49CAB3DE74280C58*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3, ::Class_1_43BD383C98B4C0C5_170*& a4)
+	::System::Boolean Method_2_ABF9606A74A2F02E(::Class_1_C4FD36003027AC99* a1, ::System::Collections::Generic::List_1<::Class_2_49CAB3DE74280C58*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3, ::Class_1_43BD383C98B4C0C5_176*& a4)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_C4FD36003027AC99*, ::System::Collections::Generic::List_1<::Class_2_49CAB3DE74280C58*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*, ::Class_1_43BD383C98B4C0C5_170*&))((::PBYTE)hIl2Cpp + CLASS_2_57F654C3AA6D3B65_METHOD_2_ABF9606A74A2F02E_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_C4FD36003027AC99*, ::System::Collections::Generic::List_1<::Class_2_49CAB3DE74280C58*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*, ::Class_1_43BD383C98B4C0C5_176*&))((::PBYTE)hIl2Cpp + CLASS_2_57F654C3AA6D3B65_METHOD_2_ABF9606A74A2F02E_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

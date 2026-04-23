@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameLevelVariable; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMENTITYVAR_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x171F0850)
-#define RPG_GAMECORE_FIVEDIMENTITYVAR_METHOD_2_35BAD89675FB426E_OFFSET UNITYSDK_OFFSET(0x171F0FE0)
-#define RPG_GAMECORE_FIVEDIMENTITYVAR__CTOR_OFFSET UNITYSDK_OFFSET(0x171F12A0)
+#define RPG_GAMECORE_FIVEDIMENTITYVAR_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x188FEEB0)
+#define RPG_GAMECORE_FIVEDIMENTITYVAR_METHOD_2_35BAD89675FB426E_OFFSET UNITYSDK_OFFSET(0x188FF640)
+#define RPG_GAMECORE_FIVEDIMENTITYVAR__CTOR_OFFSET UNITYSDK_OFFSET(0x188FF950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityVar_TypeDefinitionIndex = 17102;
+	inline static constexpr unsigned int FiveDimEntityVar_TypeDefinitionIndex = 17701;
 
 	class FiveDimEntityVar : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,6 +26,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::LittleGameLevelVariable* DefaultLevelVar; // 0x38
 		::System::Boolean AutoCreateAndBindLevelVar; // 0x40
 		::System::Int32 Value; // 0x44
+		::System::Single FloatValue; // 0x48
 
 		::System::Void _ctor()
 		{

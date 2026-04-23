@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_11B5C6B3FA66CD5A;
-class Class_1_2FB3CED2F6656F56;
+class Class_1_8F38FF89E4BFAA77;
 namespace RPG::Client { class ChimeraDuelGameSession; }
 namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 
-#define CLASS_1_75B65B88FAFB3689___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10C91EF0)
-#define CLASS_1_75B65B88FAFB3689___C__DISPLAYCLASS6_0___TRYCREATEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x10C92F90)
+#define CLASS_1_75B65B88FAFB3689___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9CF850)
+#define CLASS_1_75B65B88FAFB3689___C__DISPLAYCLASS6_0___TRYCREATEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD9D08F0)
 
-inline static constexpr unsigned int Class_1_75B65B88FAFB3689___c__DisplayClass6_0_TypeDefinitionIndex = 63797;
+inline static constexpr unsigned int Class_1_75B65B88FAFB3689___c__DisplayClass6_0_TypeDefinitionIndex = 71844;
 
 class Class_1_75B65B88FAFB3689___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::Class_1_2FB3CED2F6656F56* skill; // 0x10
+	::Class_1_8F38FF89E4BFAA77* skill; // 0x10
 	::RPG::Client::ChimeraDuelGameSession* session; // 0x18
 	::Class_1_11B5C6B3FA66CD5A* effectData; // 0x20
 

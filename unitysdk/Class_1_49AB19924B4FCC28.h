@@ -7,15 +7,15 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_49AB19924B4FCC28__CTOR_OFFSET UNITYSDK_OFFSET(0x8A23190)
+#define CLASS_1_49AB19924B4FCC28__CTOR_OFFSET UNITYSDK_OFFSET(0x9929B00)
 
-inline static constexpr unsigned int Class_1_49AB19924B4FCC28_TypeDefinitionIndex = 56585;
+inline static constexpr unsigned int Class_1_49AB19924B4FCC28_TypeDefinitionIndex = 63829;
 
 class Class_1_49AB19924B4FCC28 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_2; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_2; // 0x18
 	::RPG::GameCore::PedestrianNode Field_1_0; // 0x20
 
 	::System::Void _ctor()

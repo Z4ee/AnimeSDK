@@ -7,14 +7,14 @@ namespace UnityEngine { class Font; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int FontUpdateTracker___O_TypeDefinitionIndex = 5583;
+	inline static constexpr unsigned int FontUpdateTracker___O_TypeDefinitionIndex = 5595;
 
 	class FontUpdateTracker___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::Font*>** StaticGet__0___RebuildForFont()
 		{
-			return (::System::Action_1<::UnityEngine::Font*>**)Il2CppClass::FromTypeDefinitionIndex(FontUpdateTracker___O_TypeDefinitionIndex)->GetStaticField(0x4F20);
+			return (::System::Action_1<::UnityEngine::Font*>**)Il2CppClass::FromTypeDefinitionIndex(FontUpdateTracker___O_TypeDefinitionIndex)->GetStaticField(0x18C70);
 		}
 	};
 }

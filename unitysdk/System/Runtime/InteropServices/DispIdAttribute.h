@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DISPIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163932D0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DISPIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179BFE80)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int DispIdAttribute_TypeDefinitionIndex = 1392;
+	inline static constexpr unsigned int DispIdAttribute_TypeDefinitionIndex = 1394;
 
 	class DispIdAttribute : public ::System::Attribute
 	{

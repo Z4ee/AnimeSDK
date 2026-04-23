@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F15770)
-#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F15DA0)
+#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18636AF0)
+#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18637160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 10488;
+	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 10712;
 
 	class ActivityStartHintConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* UIPrefab; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x18
-		::System::UInt32 ActivityStartHintID; // 0x1C
-		::RPG::Client::TextID ToastDesc; // 0x20
+		::RPG::Client::TextID ToastDesc; // 0x18
+		::System::UInt32 ActivityStartHintID; // 0x28
+		::System::UInt32 ActivityModuleID; // 0x2C
 
 		::System::Void _ctor()
 		{

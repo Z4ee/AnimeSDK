@@ -7,25 +7,25 @@
 class Class_1_9AF9867BCD86F583;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_4BFEF016932446F8_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x166B87C0)
-#define CLASS_1_4BFEF016932446F8_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x166B8720)
-#define CLASS_1_4BFEF016932446F8_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x166B8770)
-#define CLASS_1_4BFEF016932446F8__CTOR_OFFSET UNITYSDK_OFFSET(0x166B8820)
+#define CLASS_1_4BFEF016932446F8_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x17C2E1D0)
+#define CLASS_1_4BFEF016932446F8_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x17C40620)
+#define CLASS_1_4BFEF016932446F8_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17C40670)
+#define CLASS_1_4BFEF016932446F8__CTOR_OFFSET UNITYSDK_OFFSET(0x17C406C0)
 
-inline static constexpr unsigned int Class_1_4BFEF016932446F8_TypeDefinitionIndex = 28896;
+inline static constexpr unsigned int Class_1_4BFEF016932446F8_TypeDefinitionIndex = 34630;
 
 class Class_1_4BFEF016932446F8 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* Field_1_5; // 0x10
-	::Class_1_9AF9867BCD86F583* Field_1_3; // 0x18
-	::System::Int32 Field_1_1; // 0x20
-	::System::Boolean Field_1_8; // 0x24
-	::System::Boolean Field_1_6; // 0x25
-	::System::Boolean Field_1_7; // 0x26
-	::System::UInt32 Field_1_0; // 0x28
-	::System::Int32 Field_1_2; // 0x2C
-	::RPG::GameCore::CakeRaceMoveState Field_1_4; // 0x30
+	::Class_1_9AF9867BCD86F583* Field_1_3; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* Field_1_5; // 0x18
+	::System::Int32 Field_1_2; // 0x20
+	::RPG::GameCore::CakeRaceMoveState Field_1_4; // 0x24
+	::System::Boolean Field_1_6; // 0x28
+	::System::Boolean Field_1_7; // 0x29
+	::System::Boolean Field_1_8; // 0x2A
+	::System::UInt32 Field_1_0; // 0x2C
+	::System::Int32 Field_1_1; // 0x30
 
 	::System::Void _ctor()
 	{

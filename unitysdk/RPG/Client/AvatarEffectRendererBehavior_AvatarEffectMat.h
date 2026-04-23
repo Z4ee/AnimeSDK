@@ -6,12 +6,12 @@
 namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0x9119CA0)
-#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x911C480)
+#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0x9D7B870)
+#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x9D7DFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 57503;
+	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 64766;
 
 	class AvatarEffectRendererBehavior_AvatarEffectMat : public ::System::Object
 	{

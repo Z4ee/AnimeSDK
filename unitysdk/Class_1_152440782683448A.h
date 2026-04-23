@@ -5,10 +5,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AvatarProxy; }
 
-#define CLASS_1_152440782683448A_METHOD_1_9F79887AA40EED35_OFFSET UNITYSDK_OFFSET(0xAC5C840)
-#define CLASS_1_152440782683448A__CTOR_OFFSET UNITYSDK_OFFSET(0xAC5C8E0)
+#define CLASS_1_152440782683448A_METHOD_1_9F79887AA40EED35_OFFSET UNITYSDK_OFFSET(0x950A6E0)
+#define CLASS_1_152440782683448A__CTOR_OFFSET UNITYSDK_OFFSET(0x950A780)
 
-inline static constexpr unsigned int Class_1_152440782683448A_TypeDefinitionIndex = 50863;
+inline static constexpr unsigned int Class_1_152440782683448A_TypeDefinitionIndex = 57742;
 
 class Class_1_152440782683448A : public ::System::Object
 {

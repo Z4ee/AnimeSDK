@@ -4,7 +4,7 @@
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXExpressionNoise_TypeDefinitionIndex = 5991;
+	inline static constexpr unsigned int VFXExpressionNoise_TypeDefinitionIndex = 6003;
 
 	class VFXExpressionNoise : public ::System::Object
 	{

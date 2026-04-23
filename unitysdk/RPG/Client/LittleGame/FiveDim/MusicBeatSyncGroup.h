@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MusicBeatSyncGroup_TypeDefinitionIndex = 33428;
+	inline static constexpr unsigned int MusicBeatSyncGroup_TypeDefinitionIndex = 39219;
 
 	enum class MusicBeatSyncGroup : ::System::Int32
 	{

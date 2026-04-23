@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_223C674B0877A400_METHOD_1_F2C20071C935F40C_OFFSET UNITYSDK_OFFSET(0x111E5530)
-#define CLASS_1_223C674B0877A400__CTOR_OFFSET UNITYSDK_OFFSET(0x111E58B0)
+#define CLASS_1_223C674B0877A400_METHOD_1_F2C20071C935F40C_OFFSET UNITYSDK_OFFSET(0x119DA880)
+#define CLASS_1_223C674B0877A400__CTOR_OFFSET UNITYSDK_OFFSET(0x119DAC00)
 
-inline static constexpr unsigned int Class_1_223C674B0877A400_TypeDefinitionIndex = 60778;
+inline static constexpr unsigned int Class_1_223C674B0877A400_TypeDefinitionIndex = 68227;
 
 class Class_1_223C674B0877A400 : public ::System::Object
 {

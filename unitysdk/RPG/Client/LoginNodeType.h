@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginNodeType_TypeDefinitionIndex = 49577;
+	inline static constexpr unsigned int LoginNodeType_TypeDefinitionIndex = 56399;
 
 	enum class LoginNodeType : ::System::Int32
 	{

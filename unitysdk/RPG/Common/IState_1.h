@@ -3,7 +3,7 @@
 
 namespace RPG::Common
 {
-	inline static constexpr unsigned int IState_1_TypeDefinitionIndex = 8729;
+	inline static constexpr unsigned int IState_1_TypeDefinitionIndex = 8925;
 
 	template <typename T>
 	class IState_1

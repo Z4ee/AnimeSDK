@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimationBoneMask_TypeDefinitionIndex = 4596;
+	inline static constexpr unsigned int BatchAnimationBoneMask_TypeDefinitionIndex = 4598;
 
 	class BatchAnimationBoneMask : public ::UnityEngine::Object
 	{

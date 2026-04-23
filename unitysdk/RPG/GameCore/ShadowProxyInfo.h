@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHADOWPROXYINFO_METHOD_2_034CA48B389E4C24_OFFSET UNITYSDK_OFFSET(0x176EC3F0)
-#define RPG_GAMECORE_SHADOWPROXYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x176EC540)
+#define RPG_GAMECORE_SHADOWPROXYINFO_METHOD_2_034CA48B389E4C24_OFFSET UNITYSDK_OFFSET(0x18E4FA40)
+#define RPG_GAMECORE_SHADOWPROXYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E4FB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShadowProxyInfo_TypeDefinitionIndex = 17501;
+	inline static constexpr unsigned int ShadowProxyInfo_TypeDefinitionIndex = 18110;
 
 	class ShadowProxyInfo : public ::RPG::GameCore::JsonConfig
 	{

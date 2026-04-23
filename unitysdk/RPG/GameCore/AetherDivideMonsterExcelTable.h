@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16F63270)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16F630C0)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16F62D90)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16F63060)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16F63440)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F62E10)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16F63480)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F63660)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16F638B0)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F63C10)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16F635C0)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F63520)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x186855D0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18685420)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x186850F0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x186853C0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x186857A0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18685170)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x186857E0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x186859C0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18685C10)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18685F70)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18685920)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18685880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideMonsterExcelTable_TypeDefinitionIndex = 10255;
+	inline static constexpr unsigned int AetherDivideMonsterExcelTable_TypeDefinitionIndex = 10480;
 
 	class AetherDivideMonsterExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideMonsterRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideMonsterRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x1EC00);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x1EC08);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x1ADF0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideMonsterRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideMonsterRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x1ADF8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x1EC10);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x7E90);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AE00);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x7E91);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x6FC0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideMonsterExcelTable_TypeDefinitionIndex)->GetStaticField(0x6FC1);
 		}
 
 		static ::System::Void _cctor()

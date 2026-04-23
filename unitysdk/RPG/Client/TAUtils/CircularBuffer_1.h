@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 60354;
+	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 67772;
 
 	template <typename T>
 	class CircularBuffer_1 : public ::System::Object

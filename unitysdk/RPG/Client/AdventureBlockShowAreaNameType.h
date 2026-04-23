@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureBlockShowAreaNameType_TypeDefinitionIndex = 50352;
+	inline static constexpr unsigned int AdventureBlockShowAreaNameType_TypeDefinitionIndex = 57211;
 
 	enum class AdventureBlockShowAreaNameType : ::System::Int32
 	{

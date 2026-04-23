@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraModuleConfigOverrideType_TypeDefinitionIndex = 20379;
+	inline static constexpr unsigned int CameraModuleConfigOverrideType_TypeDefinitionIndex = 21061;
 
 	enum class CameraModuleConfigOverrideType : ::System::Int32
 	{

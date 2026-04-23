@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class IDescriptor; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORVALIDATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15D9EB40)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORVALIDATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1739C2C0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorValidationException_TypeDefinitionIndex = 28112;
+	inline static constexpr unsigned int DescriptorValidationException_TypeDefinitionIndex = 33736;
 
 	class DescriptorValidationException : public ::System::Exception
 	{

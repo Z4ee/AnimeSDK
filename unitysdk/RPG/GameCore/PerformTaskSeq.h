@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PERFORMTASKSEQ_METHOD_2_7568C92F49350763_OFFSET UNITYSDK_OFFSET(0x17490BD0)
-#define RPG_GAMECORE_PERFORMTASKSEQ__CTOR_OFFSET UNITYSDK_OFFSET(0x17490CA0)
+#define RPG_GAMECORE_PERFORMTASKSEQ_METHOD_2_7568C92F49350763_OFFSET UNITYSDK_OFFSET(0x18BDB120)
+#define RPG_GAMECORE_PERFORMTASKSEQ__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDB1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformTaskSeq_TypeDefinitionIndex = 16228;
+	inline static constexpr unsigned int PerformTaskSeq_TypeDefinitionIndex = 16741;
 
 	class PerformTaskSeq : public ::RPG::GameCore::JsonConfig
 	{

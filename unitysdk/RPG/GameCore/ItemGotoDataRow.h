@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMGOTODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172CC660)
-#define RPG_GAMECORE_ITEMGOTODATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172CCC20)
+#define RPG_GAMECORE_ITEMGOTODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A2F960)
+#define RPG_GAMECORE_ITEMGOTODATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A2FF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemGotoDataRow_TypeDefinitionIndex = 12676;
+	inline static constexpr unsigned int ItemGotoDataRow_TypeDefinitionIndex = 13143;
 
 	class ItemGotoDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 GotoID; // 0x14
+		::System::UInt32 GotoID; // 0x10
+		::System::UInt32 ID; // 0x14
 
 		::System::Void _ctor()
 		{

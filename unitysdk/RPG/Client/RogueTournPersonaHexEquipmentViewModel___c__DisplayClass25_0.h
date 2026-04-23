@@ -5,12 +5,12 @@
 namespace RPG::Client { class IRogueTournHex; }
 namespace RPG::Client { class RogueTournHexData; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3BCB20)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS25_0__ISHEXBUILDREFRECOMMEND_B__0_OFFSET UNITYSDK_OFFSET(0xA3BDD80)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0F3360)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS25_0__ISHEXBUILDREFRECOMMEND_B__0_OFFSET UNITYSDK_OFFSET(0xB0F46A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass25_0_TypeDefinitionIndex = 59753;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass25_0_TypeDefinitionIndex = 67149;
 
 	class RogueTournPersonaHexEquipmentViewModel___c__DisplayClass25_0 : public ::System::Object
 	{

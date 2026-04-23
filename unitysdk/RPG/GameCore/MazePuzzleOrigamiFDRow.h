@@ -5,24 +5,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLEORIGAMIFDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173C9160)
-#define RPG_GAMECORE_MAZEPUZZLEORIGAMIFDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173C93E0)
+#define RPG_GAMECORE_MAZEPUZZLEORIGAMIFDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD75D0)
+#define RPG_GAMECORE_MAZEPUZZLEORIGAMIFDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD7850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleOrigamiFDRow_TypeDefinitionIndex = 12871;
+	inline static constexpr unsigned int MazePuzzleOrigamiFDRow_TypeDefinitionIndex = 13333;
 
 	class MazePuzzleOrigamiFDRow : public ::System::Object
 	{
 	public:
 		::System::String* FDSGP; // 0x10
-		::System::UInt32 FDEntityID; // 0x18
-		::System::UInt32 MainPropID; // 0x1C
-		::System::UInt32 FDContainerID; // 0x20
-		::System::UInt32 ColonyID; // 0x24
+		::System::UInt32 FDContainerID; // 0x18
+		::System::UInt32 FloorID; // 0x1C
+		::System::UInt32 ColonyID; // 0x20
+		::System::UInt32 MainPropID; // 0x24
 		::System::UInt32 GroupID; // 0x28
-		::System::UInt32 FloorID; // 0x2C
-		::System::UInt32 FDSGPValue; // 0x30
+		::System::UInt32 FDSGPValue; // 0x2C
+		::System::UInt32 FDEntityID; // 0x30
 
 		::System::Void _ctor()
 		{

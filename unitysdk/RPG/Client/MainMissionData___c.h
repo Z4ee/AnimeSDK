@@ -7,39 +7,39 @@ namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MAINMISSIONDATA___C__ADDSUBMISSION_B__106_0_OFFSET UNITYSDK_OFFSET(0x9ABEB20)
-#define RPG_CLIENT_MAINMISSIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9ABEAE0)
-#define RPG_CLIENT_MAINMISSIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9ABEB10)
-#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_0_OFFSET UNITYSDK_OFFSET(0x9ABED80)
-#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_1_OFFSET UNITYSDK_OFFSET(0x9ABEF60)
-#define RPG_CLIENT_MAINMISSIONDATA___C__INITMISSIONDATA_B__107_0_OFFSET UNITYSDK_OFFSET(0x9ABEC50)
+#define RPG_CLIENT_MAINMISSIONDATA___C__ADDSUBMISSION_B__106_0_OFFSET UNITYSDK_OFFSET(0xA779840)
+#define RPG_CLIENT_MAINMISSIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA779800)
+#define RPG_CLIENT_MAINMISSIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA779830)
+#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_0_OFFSET UNITYSDK_OFFSET(0xA779AA0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_1_OFFSET UNITYSDK_OFFSET(0xA779C80)
+#define RPG_CLIENT_MAINMISSIONDATA___C__INITMISSIONDATA_B__107_0_OFFSET UNITYSDK_OFFSET(0xA779970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 53752;
+	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 60896;
 
 	class MainMissionData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>** StaticGet___9__108_1()
-		{
-			return (::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x2A0D0);
-		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__106_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x2A0D8);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x1CFA0);
 		}
-		static ::RPG::Client::MainMissionData___c** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>** StaticGet___9__108_1()
 		{
-			return (::RPG::Client::MainMissionData___c**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x2A0E0);
+			return (::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x1CFA8);
 		}
 		static ::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>** StaticGet___9__108_0()
 		{
-			return (::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x2A0E8);
+			return (::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x1CFB0);
 		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__107_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x2A0F0);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x1CFB8);
+		}
+		static ::RPG::Client::MainMissionData___c** StaticGet___9()
+		{
+			return (::RPG::Client::MainMissionData___c**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x1CFC0);
 		}
 
 		static ::System::Void _cctor()

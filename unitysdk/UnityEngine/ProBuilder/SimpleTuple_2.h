@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SimpleTuple_2_TypeDefinitionIndex = 34171;
+	inline static constexpr unsigned int SimpleTuple_2_TypeDefinitionIndex = 39990;
 
 	template <typename T1, typename T2>
 	struct SimpleTuple_2

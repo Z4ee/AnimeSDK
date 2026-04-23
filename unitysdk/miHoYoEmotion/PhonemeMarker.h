@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/miHoYoEmotion/BaseMarker.h"
 
-#define MIHOYOEMOTION_PHONEMEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x861F750)
+#define MIHOYOEMOTION_PHONEMEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x8E52E30)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int PhonemeMarker_TypeDefinitionIndex = 35136;
+	inline static constexpr unsigned int PhonemeMarker_TypeDefinitionIndex = 40964;
 
 	class PhonemeMarker : public ::miHoYoEmotion::BaseMarker
 	{

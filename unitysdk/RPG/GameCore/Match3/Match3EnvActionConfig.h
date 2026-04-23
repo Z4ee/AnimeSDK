@@ -7,12 +7,12 @@ namespace RPG::GameCore::Match3 { class Match3ActionBase; }
 namespace RPG::GameCore::Match3 { class Match3ConditionBase; }
 namespace RPG::GameCore::Match3 { class Match3TriggerBase; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3ENVACTIONCONFIG_METHOD_2_F3AC746DEBE6B7A5_OFFSET UNITYSDK_OFFSET(0x173A9F50)
-#define RPG_GAMECORE_MATCH3_MATCH3ENVACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173AA0A0)
+#define RPG_GAMECORE_MATCH3_MATCH3ENVACTIONCONFIG_METHOD_2_F3AC746DEBE6B7A5_OFFSET UNITYSDK_OFFSET(0x18AB8650)
+#define RPG_GAMECORE_MATCH3_MATCH3ENVACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB87A0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3EnvActionConfig_TypeDefinitionIndex = 22753;
+	inline static constexpr unsigned int Match3EnvActionConfig_TypeDefinitionIndex = 23726;
 
 	class Match3EnvActionConfig : public ::RPG::GameCore::JsonConfig
 	{

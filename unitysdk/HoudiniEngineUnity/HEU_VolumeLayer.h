@@ -8,11 +8,11 @@ namespace HoudiniEngineUnity { class HEU_PartData; }
 namespace System { class String; }
 namespace UnityEngine { class TerrainLayer; }
 
-#define HOUDINIENGINEUNITY_HEU_VOLUMELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x84A5920)
+#define HOUDINIENGINEUNITY_HEU_VOLUMELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x8CCDD40)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_VolumeLayer_TypeDefinitionIndex = 37865;
+	inline static constexpr unsigned int HEU_VolumeLayer_TypeDefinitionIndex = 43742;
 
 	class HEU_VolumeLayer : public ::System::Object
 	{

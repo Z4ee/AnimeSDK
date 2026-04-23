@@ -3,13 +3,18 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamChatQuickFunctionType_TypeDefinitionIndex = 51358;
+	inline static constexpr unsigned int PamChatQuickFunctionType_TypeDefinitionIndex = 58294;
 
 	enum class PamChatQuickFunctionType : ::System::Int32
 	{
-		Material = 1,
-		Team = 2,
-		LightCone = 3,
-		Relic = 4,
+		None = 0,
+		AvatarEnhance = 1,
+		LightConeRecommend = 2,
+		TeamRecommend = 3,
+		RelicRecommend = 4,
+		MaterialFarming = 5,
+		RelicRating = 6,
+		AvatarGuide = 7,
+		CheckReward = 8,
 	};
 }

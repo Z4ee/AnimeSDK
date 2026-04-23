@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCJOYHELPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175FF3A0)
-#define RPG_GAMECORE_ROGUEDLCJOYHELPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175FF520)
+#define RPG_GAMECORE_ROGUEDLCJOYHELPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D0C6C0)
+#define RPG_GAMECORE_ROGUEDLCJOYHELPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0C840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCJoyHelpRow_TypeDefinitionIndex = 13479;
+	inline static constexpr unsigned int RogueDLCJoyHelpRow_TypeDefinitionIndex = 13952;
 
 	class RogueDLCJoyHelpRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrashSummonPeriodState_TypeDefinitionIndex = 21446;
+	inline static constexpr unsigned int TrashSummonPeriodState_TypeDefinitionIndex = 22181;
 
 	enum class TrashSummonPeriodState : ::System::Int32
 	{

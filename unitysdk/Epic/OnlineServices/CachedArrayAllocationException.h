@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Epic/OnlineServices/AllocationException.h"
 
-#define EPIC_ONLINESERVICES_CACHEDARRAYALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8613D80)
+#define EPIC_ONLINESERVICES_CACHEDARRAYALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8E3D7A0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int CachedArrayAllocationException_TypeDefinitionIndex = 35239;
+	inline static constexpr unsigned int CachedArrayAllocationException_TypeDefinitionIndex = 41065;
 
 	class CachedArrayAllocationException : public ::Epic::OnlineServices::AllocationException
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyCameraSettings_SettingData_TypeDefinitionIndex = 48787;
+	inline static constexpr unsigned int TrainPartyCameraSettings_SettingData_TypeDefinitionIndex = 55551;
 
 	struct alignas(4) TrainPartyCameraSettings_SettingData
 	{

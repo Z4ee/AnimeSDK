@@ -5,21 +5,20 @@
 namespace RPG::Client { class MainMissionData; }
 namespace RPG::Client { class MissionModule; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDECD0)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__GETMAINMISSIONDATAWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x9BEB910)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8D7DD0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__GETMAINMISSIONDATAWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xA8E5BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass333_0_TypeDefinitionIndex = 53777;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass333_0_TypeDefinitionIndex = 60920;
 
 	class MissionModule___c__DisplayClass333_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::MissionModule* __4__this; // 0x10
-		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>* promise; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* mainMissionIDs; // 0x20
+		::RPG::Client::Promises::Promise_1<::RPG::Client::MainMissionData*>* promise; // 0x18
+		::System::UInt32 mainMissionID; // 0x20
 
 		::System::Void _ctor()
 		{

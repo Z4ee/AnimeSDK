@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIActionType_TypeDefinitionIndex = 42282;
+	inline static constexpr unsigned int AIActionType_TypeDefinitionIndex = 48242;
 
 	enum class AIActionType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimStateFsmType_TypeDefinitionIndex = 44844;
+	inline static constexpr unsigned int AnimStateFsmType_TypeDefinitionIndex = 51591;
 
 	enum class AnimStateFsmType : ::System::Int32
 	{

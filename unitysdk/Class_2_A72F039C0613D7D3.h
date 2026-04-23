@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class StateTreeStateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_A72F039C0613D7D3__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB8B80)
+#define CLASS_2_A72F039C0613D7D3__CTOR_OFFSET UNITYSDK_OFFSET(0x124FC430)
 
-inline static constexpr unsigned int Class_2_A72F039C0613D7D3_TypeDefinitionIndex = 42224;
+inline static constexpr unsigned int Class_2_A72F039C0613D7D3_TypeDefinitionIndex = 49416;
 
 class Class_2_A72F039C0613D7D3 : public ::Class_1_198C3C5F8B64ECE7
 {

@@ -6,11 +6,11 @@
 
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHMARSHALLINGSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x2127F80)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHMARSHALLINGSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x22F9DA0)
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 5540;
+	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 5552;
 
 	struct alignas(4) GlyphMarshallingStruct
 	{

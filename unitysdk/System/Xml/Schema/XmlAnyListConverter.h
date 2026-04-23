@@ -8,24 +8,24 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlBaseConverter; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1859BEB0)
-#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1859C6C0)
-#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1859BD70)
+#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x19FD6BC0)
+#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FD73D0)
+#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD6A80)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlAnyListConverter_TypeDefinitionIndex = 2219;
+	inline static constexpr unsigned int XmlAnyListConverter_TypeDefinitionIndex = 2220;
 
 	class XmlAnyListConverter : public ::System::Xml::Schema::XmlListConverter
 	{
 	public:
-		static ::System::Xml::Schema::XmlValueConverter** StaticGet_ItemList()
-		{
-			return (::System::Xml::Schema::XmlValueConverter**)Il2CppClass::FromTypeDefinitionIndex(XmlAnyListConverter_TypeDefinitionIndex)->GetStaticField(0x8210);
-		}
 		static ::System::Xml::Schema::XmlValueConverter** StaticGet_AnyAtomicList()
 		{
-			return (::System::Xml::Schema::XmlValueConverter**)Il2CppClass::FromTypeDefinitionIndex(XmlAnyListConverter_TypeDefinitionIndex)->GetStaticField(0x8218);
+			return (::System::Xml::Schema::XmlValueConverter**)Il2CppClass::FromTypeDefinitionIndex(XmlAnyListConverter_TypeDefinitionIndex)->GetStaticField(0xD850);
+		}
+		static ::System::Xml::Schema::XmlValueConverter** StaticGet_ItemList()
+		{
+			return (::System::Xml::Schema::XmlValueConverter**)Il2CppClass::FromTypeDefinitionIndex(XmlAnyListConverter_TypeDefinitionIndex)->GetStaticField(0xD858);
 		}
 
 		::System::Void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter)

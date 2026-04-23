@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CurveTwirlType_TypeDefinitionIndex = 38172;
+inline static constexpr unsigned int CurveTwirlType_TypeDefinitionIndex = 44056;
 
 enum class CurveTwirlType : ::System::Int32
 {

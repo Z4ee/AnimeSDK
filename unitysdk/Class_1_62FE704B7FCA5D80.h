@@ -6,24 +6,24 @@ namespace RPG::GameCore { class ModifierBehaviorVisual; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x8843050)
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_23191EDF2C3906CA_OFFSET UNITYSDK_OFFSET(0x8842AC0)
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_376ED8B0B7D6A86D_OFFSET UNITYSDK_OFFSET(0x8842BE0)
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_D1669592F0E0A83D_OFFSET UNITYSDK_OFFSET(0x8843130)
-#define CLASS_1_62FE704B7FCA5D80__CCTOR_OFFSET UNITYSDK_OFFSET(0x8843290)
-#define CLASS_1_62FE704B7FCA5D80__CTOR_OFFSET UNITYSDK_OFFSET(0x88431F0)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x952E760)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_23191EDF2C3906CA_OFFSET UNITYSDK_OFFSET(0x952E1D0)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_376ED8B0B7D6A86D_OFFSET UNITYSDK_OFFSET(0x952E2F0)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_D1669592F0E0A83D_OFFSET UNITYSDK_OFFSET(0x952E840)
+#define CLASS_1_62FE704B7FCA5D80__CCTOR_OFFSET UNITYSDK_OFFSET(0x952E9A0)
+#define CLASS_1_62FE704B7FCA5D80__CTOR_OFFSET UNITYSDK_OFFSET(0x952E900)
 
-inline static constexpr unsigned int Class_1_62FE704B7FCA5D80_TypeDefinitionIndex = 43510;
+inline static constexpr unsigned int Class_1_62FE704B7FCA5D80_TypeDefinitionIndex = 50207;
 
 class Class_1_62FE704B7FCA5D80 : public ::System::Object
 {
 public:
 	static ::Class_1_62FE704B7FCA5D80** StaticGet_Field_1_0()
 	{
-		return (::Class_1_62FE704B7FCA5D80**)Il2CppClass::FromTypeDefinitionIndex(Class_1_62FE704B7FCA5D80_TypeDefinitionIndex)->GetStaticField(0x306D0);
+		return (::Class_1_62FE704B7FCA5D80**)Il2CppClass::FromTypeDefinitionIndex(Class_1_62FE704B7FCA5D80_TypeDefinitionIndex)->GetStaticField(0x3E670);
 	}
-	::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorVisual*>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorVisual*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightOldRoleConfigRow___O_TypeDefinitionIndex = 12400;
+	inline static constexpr unsigned int GridFightOldRoleConfigRow___O_TypeDefinitionIndex = 12833;
 
 	class GridFightOldRoleConfigRow___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GridFightChargeType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GridFightChargeType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOldRoleConfigRow___O_TypeDefinitionIndex)->GetStaticField(0x22150);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GridFightChargeType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOldRoleConfigRow___O_TypeDefinitionIndex)->GetStaticField(0x3C3C0);
 		}
 	};
 }

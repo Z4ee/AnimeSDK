@@ -6,7 +6,7 @@ namespace System::Threading { template <typename T> class SparselyPopulatedArray
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SparselyPopulatedArrayAddInfo_1_TypeDefinitionIndex = 800;
+	inline static constexpr unsigned int SparselyPopulatedArrayAddInfo_1_TypeDefinitionIndex = 802;
 
 	template <typename T>
 	struct SparselyPopulatedArrayAddInfo_1

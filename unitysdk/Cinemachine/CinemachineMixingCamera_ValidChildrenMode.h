@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineMixingCamera_ValidChildrenMode_TypeDefinitionIndex = 30785;
+	inline static constexpr unsigned int CinemachineMixingCamera_ValidChildrenMode_TypeDefinitionIndex = 36505;
 
 	enum class CinemachineMixingCamera_ValidChildrenMode : ::System::Int32
 	{

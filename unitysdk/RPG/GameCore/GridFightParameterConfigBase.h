@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE_METHOD_5_682669E4B69946FA_OFFSET UNITYSDK_OFFSET(0x172754B0)
-#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE_METHOD_5_6CA6FBB7BBEC63C7_OFFSET UNITYSDK_OFFSET(0x17275670)
-#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17275680)
-#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1726E8B0)
+#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE_METHOD_5_682669E4B69946FA_OFFSET UNITYSDK_OFFSET(0x189C9320)
+#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE_METHOD_5_6CA6FBB7BBEC63C7_OFFSET UNITYSDK_OFFSET(0x189C94E0)
+#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x189C94F0)
+#define RPG_GAMECORE_GRIDFIGHTPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x189C21A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightParameterConfigBase_TypeDefinitionIndex = 17874;
+	inline static constexpr unsigned int GridFightParameterConfigBase_TypeDefinitionIndex = 18517;
 
 	class GridFightParameterConfigBase : public ::RPG::GameCore::PlayerParameterConfigBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParameterConfigBase*>*>** StaticGet__FromBinary_GridFightParameterConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParameterConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightParameterConfigBase_TypeDefinitionIndex)->GetStaticField(0x222B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParameterConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightParameterConfigBase_TypeDefinitionIndex)->GetStaticField(0x3C500);
 		}
 
 		::System::Void _ctor()

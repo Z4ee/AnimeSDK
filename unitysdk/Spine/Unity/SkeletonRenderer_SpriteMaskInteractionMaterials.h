@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_SKELETONRENDERER_SPRITEMASKINTERACTIONMATERIALS_GET_ANYMATERIALCREATED_OFFSET UNITYSDK_OFFSET(0x184226E0)
-#define SPINE_UNITY_SKELETONRENDERER_SPRITEMASKINTERACTIONMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x18422730)
+#define SPINE_UNITY_SKELETONRENDERER_SPRITEMASKINTERACTIONMATERIALS_GET_ANYMATERIALCREATED_OFFSET UNITYSDK_OFFSET(0x19E5D2F0)
+#define SPINE_UNITY_SKELETONRENDERER_SPRITEMASKINTERACTIONMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5D340)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer_SpriteMaskInteractionMaterials_TypeDefinitionIndex = 34782;
+	inline static constexpr unsigned int SkeletonRenderer_SpriteMaskInteractionMaterials_TypeDefinitionIndex = 40601;
 
 	class SkeletonRenderer_SpriteMaskInteractionMaterials : public ::System::Object
 	{

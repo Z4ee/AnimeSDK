@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CharacterRootMotionBakedData.h"
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
 
-#define RPG_CLIENT_NPCROOTMOTIONBAKEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DF1930)
+#define RPG_CLIENT_NPCROOTMOTIONBAKEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB392C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCRootMotionBakedData_TypeDefinitionIndex = 48660;
+	inline static constexpr unsigned int NPCRootMotionBakedData_TypeDefinitionIndex = 55409;
 
 	class NPCRootMotionBakedData : public ::RPG::Client::CharacterRootMotionBakedData
 	{

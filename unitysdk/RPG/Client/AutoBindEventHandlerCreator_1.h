@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_892;
+class Class_0_16E4307DCC419505_1007;
 namespace System::Reflection { class MethodInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoBindEventHandlerCreator_1_TypeDefinitionIndex = 59964;
+	inline static constexpr unsigned int AutoBindEventHandlerCreator_1_TypeDefinitionIndex = 67362;
 
 	template <typename T>
 	class AutoBindEventHandlerCreator_1 : public ::System::Object

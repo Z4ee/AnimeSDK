@@ -5,7 +5,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_CacheEntry_RecordingItem_TypeDefinitionIndex = 30893;
+	inline static constexpr unsigned int TargetPositionCache_CacheEntry_RecordingItem_TypeDefinitionIndex = 36613;
 
 	struct alignas(4) TargetPositionCache_CacheEntry_RecordingItem
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AETHERDIVIDEBADGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F5EF00)
-#define RPG_GAMECORE_AETHERDIVIDEBADGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5F510)
+#define RPG_GAMECORE_AETHERDIVIDEBADGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186811E0)
+#define RPG_GAMECORE_AETHERDIVIDEBADGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186817F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideBadgeRow_TypeDefinitionIndex = 10266;
+	inline static constexpr unsigned int AetherDivideBadgeRow_TypeDefinitionIndex = 10491;
 
 	class AetherDivideBadgeRow : public ::System::Object
 	{

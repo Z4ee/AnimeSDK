@@ -7,14 +7,14 @@ namespace RPG::Client { class PrefabLoadMeta_WeakAssetReferenceList; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PREFABLOADMETA_GET_MULTIPREFABLIST_OFFSET UNITYSDK_OFFSET(0x9FF7F10)
-#define RPG_CLIENT_PREFABLOADMETA_GET_PREFAB_OFFSET UNITYSDK_OFFSET(0x9FF7EA0)
-#define RPG_CLIENT_PREFABLOADMETA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9FF80C0)
-#define RPG_CLIENT_PREFABLOADMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FF8250)
+#define RPG_CLIENT_PREFABLOADMETA_GET_MULTIPREFABLIST_OFFSET UNITYSDK_OFFSET(0xAD74320)
+#define RPG_CLIENT_PREFABLOADMETA_GET_PREFAB_OFFSET UNITYSDK_OFFSET(0xAD742B0)
+#define RPG_CLIENT_PREFABLOADMETA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAD744D0)
+#define RPG_CLIENT_PREFABLOADMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xAD74660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefabLoadMeta_TypeDefinitionIndex = 59718;
+	inline static constexpr unsigned int PrefabLoadMeta_TypeDefinitionIndex = 67114;
 
 	class PrefabLoadMeta : public ::UnityEngine::MonoBehaviour
 	{

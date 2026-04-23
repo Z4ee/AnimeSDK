@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGenericEventService_1_TypeDefinitionIndex = 32873;
+	inline static constexpr unsigned int IGenericEventService_1_TypeDefinitionIndex = 38663;
 
 	template <typename TEntity>
 	class IGenericEventService_1

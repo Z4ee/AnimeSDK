@@ -8,36 +8,36 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREEV2LEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B79A0)
-#define RPG_GAMECORE_MATCHTHREEV2LEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B80F0)
+#define RPG_GAMECORE_MATCHTHREEV2LEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC5B00)
+#define RPG_GAMECORE_MATCHTHREEV2LEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC6250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2LevelRow_TypeDefinitionIndex = 10969;
+	inline static constexpr unsigned int MatchThreeV2LevelRow_TypeDefinitionIndex = 11373;
 
 	class MatchThreeV2LevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* VSTalk; // 0x10
-		::System::String* LevelImage; // 0x18
+		::Il2CppArray<::System::UInt32>* SpecialRuleIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* EnvironmentIDList; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* OpponentBattleItemMap; // 0x20
-		::Il2CppArray<::System::UInt32>* EnvironmentIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* SpecialRuleIDList; // 0x30
-		::Il2CppArray<::System::UInt32>* RecommendBirdList; // 0x38
-		::Il2CppArray<::System::UInt32>* RecommendBattleItemList; // 0x40
-		::System::UInt32 TurnStep; // 0x48
-		::System::UInt32 PlayerBirdID; // 0x4C
-		::RPG::Client::TextID LoseDesc; // 0x50
-		::System::UInt32 PreLevel; // 0x60
-		::System::UInt32 OpponentID; // 0x64
-		::RPG::Client::TextID VictoryDesc; // 0x68
-		::System::UInt32 LevelID; // 0x78
-		::System::UInt32 OpponentBirdID; // 0x7C
-		::System::UInt32 MaxRatioPowerDiff; // 0x80
-		::RPG::GameCore::MatchThreeV2FirstRoleType FirstType; // 0x84
-		::System::UInt32 PlayerID; // 0x88
-		::System::UInt32 PreSubmission; // 0x8C
-		::RPG::Client::TextID LevelName; // 0x90
+		::Il2CppArray<::System::UInt32>* VSTalk; // 0x28
+		::Il2CppArray<::System::UInt32>* RecommendBattleItemList; // 0x30
+		::System::String* LevelImage; // 0x38
+		::Il2CppArray<::System::UInt32>* RecommendBirdList; // 0x40
+		::RPG::Client::TextID LoseDesc; // 0x48
+		::RPG::Client::TextID VictoryDesc; // 0x58
+		::System::UInt32 MaxRatioPowerDiff; // 0x68
+		::System::UInt32 TurnStep; // 0x6C
+		::RPG::Client::TextID LevelName; // 0x70
+		::System::UInt32 PreSubmission; // 0x80
+		::System::UInt32 OpponentBirdID; // 0x84
+		::System::UInt32 PreLevel; // 0x88
+		::System::UInt32 PlayerID; // 0x8C
+		::System::UInt32 OpponentID; // 0x90
+		::RPG::GameCore::MatchThreeV2FirstRoleType FirstType; // 0x94
+		::System::UInt32 PlayerBirdID; // 0x98
+		::System::UInt32 LevelID; // 0x9C
 
 		::System::Void _ctor()
 		{

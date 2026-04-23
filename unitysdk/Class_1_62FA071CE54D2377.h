@@ -7,9 +7,9 @@ namespace RPG::GameCore { class AITakenDamageSelector; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_62FA071CE54D2377_METHOD_1_FF7A2AA1E72C0C20_OFFSET UNITYSDK_OFFSET(0x115303A0)
+#define CLASS_1_62FA071CE54D2377_METHOD_1_FF7A2AA1E72C0C20_OFFSET UNITYSDK_OFFSET(0x9094B00)
 
-inline static constexpr unsigned int Class_1_62FA071CE54D2377_TypeDefinitionIndex = 43425;
+inline static constexpr unsigned int Class_1_62FA071CE54D2377_TypeDefinitionIndex = 50122;
 
 class Class_1_62FA071CE54D2377 : public ::System::Object
 {

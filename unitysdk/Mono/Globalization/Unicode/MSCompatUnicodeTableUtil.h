@@ -4,7 +4,7 @@
 
 namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x16167040)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17792D50)
 
 namespace Mono::Globalization::Unicode
 {
@@ -13,33 +13,33 @@ namespace Mono::Globalization::Unicode
 	class MSCompatUnicodeTableUtil : public ::System::Object
 	{
 	public:
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level3()
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_CjkCHS()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17A0);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1A80);
 		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Category()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17A8);
-		}
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level2()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17B0);
-		}
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_CjkCHS()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17B8);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1A88);
 		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Cjk()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17C0);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1A90);
 		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level1()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17C8);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1A98);
 		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Ignorable()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x17D0);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1AA0);
+		}
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level3()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1AA8);
+		}
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level2()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x1AB0);
 		}
 
 		static ::System::Void _cctor()

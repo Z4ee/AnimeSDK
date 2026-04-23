@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TEXTMESH_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x18AC7400)
+#define UNITYENGINE_TEXTMESH_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A502E80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextMesh_TypeDefinitionIndex = 4941;
+	inline static constexpr unsigned int TextMesh_TypeDefinitionIndex = 4949;
 
 	class TextMesh : public ::UnityEngine::Component
 	{

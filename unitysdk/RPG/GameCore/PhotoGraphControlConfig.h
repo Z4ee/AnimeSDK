@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FindAnchorConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG_METHOD_2_8BF13F99B2EC67C2_OFFSET UNITYSDK_OFFSET(0x174A8E60)
-#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174A9130)
+#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG_METHOD_2_3BD79762A15F28DD_OFFSET UNITYSDK_OFFSET(0x18BF4300)
+#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF45F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphControlConfig_TypeDefinitionIndex = 19794;
+	inline static constexpr unsigned int PhotoGraphControlConfig_TypeDefinitionIndex = 20475;
 
 	class PhotoGraphControlConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8BF13F99B2EC67C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphControlConfig*& a2)
+		static ::System::Void Method_2_3BD79762A15F28DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphControlConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphControlConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG_METHOD_2_8BF13F99B2EC67C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphControlConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG_METHOD_2_3BD79762A15F28DD_OFFSET))(a1, a2);
 		}
 	};
 }

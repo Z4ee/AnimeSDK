@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeLimitType_TypeDefinitionIndex = 12642;
+	inline static constexpr unsigned int ItemComposeLimitType_TypeDefinitionIndex = 13110;
 
 	enum class ItemComposeLimitType : ::System::Int32
 	{

@@ -6,20 +6,20 @@
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROMISES_PREDICATEWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18345260)
+#define RPG_CLIENT_PROMISES_PREDICATEWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x180F28E0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PredicateWait_TypeDefinitionIndex = 9601;
+	inline static constexpr unsigned int PredicateWait_TypeDefinitionIndex = 8649;
 
 	class PredicateWait : public ::System::Object
 	{
 	public:
-		::System::Func_2<::RPG::Client::Promises::TimeData, ::System::Boolean>* predicate; // 0x10
-		::RPG::Client::Promises::IPendingPromise* pendingPromise; // 0x18
-		::RPG::Client::Promises::TimeData timeData; // 0x20
-		::System::Int32 frameStarted; // 0x2C
-		::System::Single timeStarted; // 0x30
+		::RPG::Client::Promises::IPendingPromise* pendingPromise; // 0x10
+		::System::Func_2<::RPG::Client::Promises::TimeData, ::System::Boolean>* predicate; // 0x18
+		::System::Int32 frameStarted; // 0x20
+		::System::Single timeStarted; // 0x24
+		::RPG::Client::Promises::TimeData timeData; // 0x28
 
 		::System::Void _ctor()
 		{

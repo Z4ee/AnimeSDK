@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardType_TypeDefinitionIndex = 10881;
+	inline static constexpr unsigned int ActivityLocalLegendRewardType_TypeDefinitionIndex = 11285;
 
 	enum class ActivityLocalLegendRewardType : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace System::Collections { class IList; }
 
 namespace RPG::Client::Textmap::Parameter
 {
-	inline static constexpr unsigned int IndexedParameterContextGenericArray_1_DebuggerView_TypeDefinitionIndex = 60142;
+	inline static constexpr unsigned int IndexedParameterContextGenericArray_1_DebuggerView_TypeDefinitionIndex = 67575;
 
 	template <typename T>
 	class IndexedParameterContextGenericArray_1_DebuggerView : public ::System::Object

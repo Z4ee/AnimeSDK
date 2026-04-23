@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OrbitAreaState_TypeDefinitionIndex = 21058;
+	inline static constexpr unsigned int OrbitAreaState_TypeDefinitionIndex = 21774;
 
 	enum class OrbitAreaState : ::System::Int32
 	{

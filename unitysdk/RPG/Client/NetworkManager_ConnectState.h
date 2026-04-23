@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager_ConnectState_TypeDefinitionIndex = 56693;
+	inline static constexpr unsigned int NetworkManager_ConnectState_TypeDefinitionIndex = 63937;
 
 	enum class NetworkManager_ConnectState : ::System::Int32
 	{

@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MatchTargetWeightMask_TypeDefinitionIndex = 5031;
+	inline static constexpr unsigned int MatchTargetWeightMask_TypeDefinitionIndex = 5039;
 
 	struct alignas(4) MatchTargetWeightMask
 	{

@@ -5,14 +5,14 @@
 namespace Spine { class Attachment; }
 namespace System { class String; }
 
-#define SPINE_SKIN_SKINENTRY_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x13C40)
+#define SPINE_SKIN_SKINENTRY_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x13C30)
 #define SPINE_SKIN_SKINENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x5AF0)
 #define SPINE_SKIN_SKINENTRY_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define SPINE_SKIN_SKINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x20DED70)
+#define SPINE_SKIN_SKINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x22B0950)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinEntry_TypeDefinitionIndex = 30739;
+	inline static constexpr unsigned int Skin_SkinEntry_TypeDefinitionIndex = 36459;
 
 	struct alignas(8) Skin_SkinEntry
 	{

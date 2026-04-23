@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleAbilityPassiveType_TypeDefinitionIndex = 14532;
+	inline static constexpr unsigned int ChimeraBattleAbilityPassiveType_TypeDefinitionIndex = 15002;
 
 	enum class ChimeraBattleAbilityPassiveType : ::System::Int32
 	{

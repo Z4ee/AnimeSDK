@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EQUALINSTRUCTION_EQUALINT64LIFTEDTONULL_RUN_OFFSET UNITYSDK_OFFSET(0x184C5470)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EQUALINSTRUCTION_EQUALINT64LIFTEDTONULL__CTOR_OFFSET UNITYSDK_OFFSET(0x184C40A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EQUALINSTRUCTION_EQUALINT64LIFTEDTONULL_RUN_OFFSET UNITYSDK_OFFSET(0x19F00340)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EQUALINSTRUCTION_EQUALINT64LIFTEDTONULL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFEF70)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int EqualInstruction_EqualInt64LiftedToNull_TypeDefinitionIndex = 3363;
+	inline static constexpr unsigned int EqualInstruction_EqualInt64LiftedToNull_TypeDefinitionIndex = 3365;
 
 	class EqualInstruction_EqualInt64LiftedToNull : public ::System::Linq::Expressions::Interpreter::EqualInstruction
 	{

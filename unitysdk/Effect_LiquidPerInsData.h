@@ -8,11 +8,11 @@ class Class_2_6E7864BF06C083B9;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_LIQUIDPERINSDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0xFB829C0)
-#define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0xFB82A70)
-#define EFFECT_LIQUIDPERINSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFB82AC0)
+#define EFFECT_LIQUIDPERINSDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0xF2F6860)
+#define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0xF2F6940)
+#define EFFECT_LIQUIDPERINSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF2F6990)
 
-inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 38318;
+inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 44202;
 
 class Effect_LiquidPerInsData : public ::UnityEngine::MonoBehaviour
 {

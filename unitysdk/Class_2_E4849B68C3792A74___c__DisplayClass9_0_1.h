@@ -6,7 +6,7 @@ class Class_2_E4849B68C3792A74;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_2_E4849B68C3792A74___c__DisplayClass9_0_1_TypeDefinitionIndex = 40046;
+inline static constexpr unsigned int Class_2_E4849B68C3792A74___c__DisplayClass9_0_1_TypeDefinitionIndex = 45955;
 
 template <typename T>
 class Class_2_E4849B68C3792A74___c__DisplayClass9_0_1 : public ::System::Object

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_64D890C466F37235_RegionLoadStep_TypeDefinitionIndex = 49067;
+inline static constexpr unsigned int Class_1_64D890C466F37235_RegionLoadStep_TypeDefinitionIndex = 55862;
 
 enum class Class_1_64D890C466F37235_RegionLoadStep : ::System::Int32
 {

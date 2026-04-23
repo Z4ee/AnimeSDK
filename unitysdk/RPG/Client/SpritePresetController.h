@@ -7,21 +7,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
+namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0xA4B5260)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0xA4B5400)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B55A0)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0xB1A6830)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0xB1A69D0)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A6B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 56388;
+	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 63632;
 
 	class SpritePresetController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::UI::Image* MainImage; // 0x18
-		::UnityEngine::UI::RawImage* MainRawImage; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::SpritePresetApplier*>* PresetApplierList; // 0x28
+		::UnityEngine::UI::SmoothMask* ImageSmoothMask; // 0x20
+		::UnityEngine::UI::RawImage* MainRawImage; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::SpritePresetApplier*>* PresetApplierList; // 0x30
 
 		::System::Void _ctor()
 		{

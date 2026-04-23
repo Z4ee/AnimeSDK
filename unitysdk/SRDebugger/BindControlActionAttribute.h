@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_BINDCONTROLACTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18431130)
+#define SRDEBUGGER_BINDCONTROLACTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6BDC0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int BindControlActionAttribute_TypeDefinitionIndex = 29608;
+	inline static constexpr unsigned int BindControlActionAttribute_TypeDefinitionIndex = 35328;
 
 	class BindControlActionAttribute : public ::System::Attribute
 	{

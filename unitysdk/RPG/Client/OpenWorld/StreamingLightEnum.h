@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingLightEnum_TypeDefinitionIndex = 60693;
+	inline static constexpr unsigned int StreamingLightEnum_TypeDefinitionIndex = 68134;
 
 	enum class StreamingLightEnum : ::System::Int32
 	{

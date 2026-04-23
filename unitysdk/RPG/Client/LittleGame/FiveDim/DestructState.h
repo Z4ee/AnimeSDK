@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int DestructState_TypeDefinitionIndex = 33476;
+	inline static constexpr unsigned int DestructState_TypeDefinitionIndex = 39270;
 
 	enum class DestructState : ::System::Int32
 	{

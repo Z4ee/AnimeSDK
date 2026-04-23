@@ -9,14 +9,16 @@ namespace MiHoYo::SDK { class BilibiliConfigModel; }
 namespace MiHoYo::SDK { class ConfigManager_WebViewABTestModel; }
 namespace MiHoYo::SDK { class ConfigUrlModel; }
 namespace MiHoYo::SDK { class EOSParametersModel; }
+namespace MiHoYo::SDK { class GooglePlayAbTestConfig; }
+namespace MiHoYo::SDK { class SteamParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15F295D0)
+#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17572590)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 6904;
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 6949;
 
 	class LocalConfig : public ::System::Object
 	{
@@ -52,6 +54,9 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::AccountPlatConfig* account_platform; // 0xD0
 		::System::Boolean ps4_bind_email_can_skip; // 0xD8
 		::System::Boolean enable_color_text_fix; // 0xD9
+		::System::Boolean enable_googleplaypc_v2; // 0xDA
+		::MiHoYo::SDK::GooglePlayAbTestConfig* googleplay_abtest; // 0xE0
+		::MiHoYo::SDK::SteamParametersModel* steam_parameters; // 0xE8
 
 		::System::Void _ctor()
 		{

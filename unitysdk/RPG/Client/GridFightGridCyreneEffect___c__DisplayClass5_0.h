@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGridData; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CANCASTER_B__1_OFFSET UNITYSDK_OFFSET(0x984A810)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x984A6F0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CANCASTER_B__1_OFFSET UNITYSDK_OFFSET(0xA4E8C60)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E8B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridCyreneEffect___c__DisplayClass5_0_TypeDefinitionIndex = 52639;
+	inline static constexpr unsigned int GridFightGridCyreneEffect___c__DisplayClass5_0_TypeDefinitionIndex = 59689;
 
 	class GridFightGridCyreneEffect___c__DisplayClass5_0 : public ::System::Object
 	{

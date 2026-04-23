@@ -14,11 +14,11 @@ namespace System::Net::Security { class SslStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x161432A0)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1776EF50)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int MonoTlsProvider_TypeDefinitionIndex = 2282;
+	inline static constexpr unsigned int MonoTlsProvider_TypeDefinitionIndex = 2283;
 
 	class MonoTlsProvider : public ::System::Object
 	{

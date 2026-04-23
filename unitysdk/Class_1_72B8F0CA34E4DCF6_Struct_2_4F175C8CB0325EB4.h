@@ -7,9 +7,9 @@
 namespace RPG::Client { class MockAnimator; }
 namespace RPG::GameCore { class FreeStyleComponent; }
 
-#define CLASS_1_72B8F0CA34E4DCF6_STRUCT_2_4F175C8CB0325EB4__CTOR_OFFSET UNITYSDK_OFFSET(0x78AC0)
+#define CLASS_1_72B8F0CA34E4DCF6_STRUCT_2_4F175C8CB0325EB4__CTOR_OFFSET UNITYSDK_OFFSET(0x15AE620)
 
-inline static constexpr unsigned int Class_1_72B8F0CA34E4DCF6_Struct_2_4F175C8CB0325EB4_TypeDefinitionIndex = 56557;
+inline static constexpr unsigned int Class_1_72B8F0CA34E4DCF6_Struct_2_4F175C8CB0325EB4_TypeDefinitionIndex = 63801;
 
 struct alignas(8) Class_1_72B8F0CA34E4DCF6_Struct_2_4F175C8CB0325EB4
 {

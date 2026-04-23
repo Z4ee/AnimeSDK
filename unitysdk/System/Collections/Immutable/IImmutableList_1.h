@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int IImmutableList_1_TypeDefinitionIndex = 8905;
+	inline static constexpr unsigned int IImmutableList_1_TypeDefinitionIndex = 9102;
 
 	template <typename T>
 	class IImmutableList_1

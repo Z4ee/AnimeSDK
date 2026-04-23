@@ -3,7 +3,7 @@
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_UVMode_TypeDefinitionIndex = 42055;
+	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_UVMode_TypeDefinitionIndex = 48028;
 
 	enum class BGCurvePCG_MeshGeneratorBase_UVMode : ::System::Int32
 	{

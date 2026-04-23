@@ -8,20 +8,20 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_UTILS_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x15B4FDD0)
-#define IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET UNITYSDK_OFFSET(0x15B4FFA0)
-#define IFIX_CORE_UTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B50320)
+#define IFIX_CORE_UTILS_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1714DE80)
+#define IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET UNITYSDK_OFFSET(0x1714E050)
+#define IFIX_CORE_UTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1714E3D0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 9813;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 9948;
 
 	class Utils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_delegateAdptCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Utils_TypeDefinitionIndex)->GetStaticField(0x700);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Utils_TypeDefinitionIndex)->GetStaticField(0xB70);
 		}
 
 		static ::System::Void _cctor()

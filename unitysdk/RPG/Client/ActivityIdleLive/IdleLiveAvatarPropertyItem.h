@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/IdleLiveAvatarPropertyType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_3D47BC6DE43C43F3;
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x9B2F840)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_FORMATVALUE_OFFSET UNITYSDK_OFFSET(0x9B2FE00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9B2FE30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_ISDISPLAY_OFFSET UNITYSDK_OFFSET(0x9B2FE10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x9B2FE50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_PROPERTYDESC_OFFSET UNITYSDK_OFFSET(0x9B2FDD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x9B2FDA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x9B2FD50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x9B2FD70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET__CONFIG_OFFSET UNITYSDK_OFFSET(0x9B2FE70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x9B2FD90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_SET__CONFIG_OFFSET UNITYSDK_OFFSET(0x9B2FE80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2FBE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM__GETFORMATVALUE_OFFSET UNITYSDK_OFFSET(0x9B2FBF0)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int IdleLiveAvatarPropertyItem_TypeDefinitionIndex = 69175;
+
+	class IdleLiveAvatarPropertyItem : public ::System::Object
+	{
+	public:
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _Value_k__BackingField; // 0x10
+		::Class_1_3D47BC6DE43C43F3* __Config_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ActivityIdleLive::IdleLiveAvatarPropertyItem* Create(::RPG::GameCore::IdleLiveAvatarPropertyType type, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal value)
+		{
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveAvatarPropertyItem*(*)(::RPG::GameCore::IdleLiveAvatarPropertyType, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_CREATE_OFFSET))(type, value);
+		}
+
+		::System::String* _GetFormatValue()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM__GETFORMATVALUE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::IdleLiveAvatarPropertyType get_PropertyType()
+		{
+			return ((::RPG::GameCore::IdleLiveAvatarPropertyType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_PROPERTYTYPE_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal get_Value()
+		{
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::Void set_Value(::RPG::Client::ActivityIdleLive::IdleLiveDecimal value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_SET_VALUE_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_PropertyName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_PROPERTYNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_PropertyDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_PROPERTYDESC_OFFSET))(this);
+		}
+
+		::System::String* get_FormatValue()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_FORMATVALUE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDisplay()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_ISDISPLAY_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Int32 get_Order()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET_ORDER_OFFSET))(this);
+		}
+
+		::Class_1_3D47BC6DE43C43F3* get__Config()
+		{
+			return ((::Class_1_3D47BC6DE43C43F3*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_GET__CONFIG_OFFSET))(this);
+		}
+
+		::System::Void set__Config(::Class_1_3D47BC6DE43C43F3* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_3D47BC6DE43C43F3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPROPERTYITEM_SET__CONFIG_OFFSET))(this, value);
+		}
+	};
+}

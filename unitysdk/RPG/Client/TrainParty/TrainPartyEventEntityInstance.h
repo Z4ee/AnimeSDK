@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYEVENTENTITYINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F7390)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYEVENTENTITYINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xB34AD60)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyEventEntityInstance_TypeDefinitionIndex = 61105;
+	inline static constexpr unsigned int TrainPartyEventEntityInstance_TypeDefinitionIndex = 68592;
 
 	class TrainPartyEventEntityInstance : public ::System::Object
 	{

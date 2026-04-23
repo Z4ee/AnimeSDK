@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWarePS4_AudioPortType_TypeDefinitionIndex = 30948;
+	inline static constexpr unsigned int CriWarePS4_AudioPortType_TypeDefinitionIndex = 36668;
 
 	enum class CriWarePS4_AudioPortType : ::System::Int32
 	{

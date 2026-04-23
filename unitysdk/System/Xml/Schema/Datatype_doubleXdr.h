@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DOUBLEXDR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x185879E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DOUBLEXDR__CTOR_OFFSET UNITYSDK_OFFSET(0x1857F1C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DOUBLEXDR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x19FC2720)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DOUBLEXDR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB9F00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_doubleXdr_TypeDefinitionIndex = 2134;
+	inline static constexpr unsigned int Datatype_doubleXdr_TypeDefinitionIndex = 2135;
 
 	class Datatype_doubleXdr : public ::System::Xml::Schema::Datatype_double
 	{

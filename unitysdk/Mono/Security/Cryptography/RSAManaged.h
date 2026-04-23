@@ -6,31 +6,31 @@
 namespace Mono::Math { class BigInteger; }
 namespace Mono::Security::Cryptography { class RSAManaged_KeyGeneratedEventHandler; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16141680)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x16140A10)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x161419F0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x161415F0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16141A70)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1776D340)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x1776C6D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x1776D6B0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x1776D2B0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1776D730)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 2299;
+	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 2300;
 
 	class RSAManaged : public ::System::Security::Cryptography::RSA
 	{
 	public:
-		::Mono::Math::BigInteger* dq; // 0x20
-		::Mono::Math::BigInteger* q; // 0x28
-		::Mono::Math::BigInteger* n; // 0x30
+		::Mono::Math::BigInteger* q; // 0x20
+		::Mono::Math::BigInteger* n; // 0x28
+		::Mono::Math::BigInteger* dp; // 0x30
 		::Mono::Math::BigInteger* p; // 0x38
 		::Mono::Math::BigInteger* d; // 0x40
-		::Mono::Math::BigInteger* dp; // 0x48
-		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x50
+		::Mono::Math::BigInteger* qInv; // 0x48
+		::Mono::Math::BigInteger* dq; // 0x50
 		::Mono::Math::BigInteger* e; // 0x58
-		::Mono::Math::BigInteger* qInv; // 0x60
-		::System::Boolean keypairGenerated; // 0x68
-		::System::Boolean m_disposed; // 0x69
-		::System::Boolean isCRTpossible; // 0x6A
+		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x60
+		::System::Boolean m_disposed; // 0x68
+		::System::Boolean isCRTpossible; // 0x69
+		::System::Boolean keypairGenerated; // 0x6A
 
 		::System::Void GenerateKeyPair()
 		{

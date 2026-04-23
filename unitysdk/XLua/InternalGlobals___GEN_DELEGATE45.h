@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/TurnState.h"
+#include "unitysdk/RPG/GameCore/CharacterSomatoType.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_A891C8E0D74F1DB9;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF58F20)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF58F80)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF589C0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45__CTOR_OFFSET UNITYSDK_OFFSET(0xFF49EF0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11222450)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x112224E0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45_INVOKE_OFFSET UNITYSDK_OFFSET(0x112220F0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE45__CTOR_OFFSET UNITYSDK_OFFSET(0x112130E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE45_TypeDefinitionIndex = 40462;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE45_TypeDefinitionIndex = 46371;
 
 	class InternalGlobals___GEN_DELEGATE45 : public ::System::MulticastDelegate
 	{
@@ -26,19 +24,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::System::Collections::Generic::List_1<::Class_1_A891C8E0D74F1DB9*>* pModifierList, ::RPG::GameCore::TurnState eCurState)
+		::System::Int32 Invoke(::RPG::GameCore::CharacterSomatoType a, ::RPG::GameCore::CharacterSomatoType b)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_A891C8E0D74F1DB9*>*, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45_INVOKE_OFFSET))(this, pModifierList, eCurState);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45_INVOKE_OFFSET))(this, a, b);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::List_1<::Class_1_A891C8E0D74F1DB9*>* pModifierList, ::RPG::GameCore::TurnState eCurState, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::CharacterSomatoType a, ::RPG::GameCore::CharacterSomatoType b, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_A891C8E0D74F1DB9*>*, ::RPG::GameCore::TurnState, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45_BEGININVOKE_OFFSET))(this, pModifierList, eCurState, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType, ::RPG::GameCore::CharacterSomatoType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45_BEGININVOKE_OFFSET))(this, a, b, callback, object);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE45_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

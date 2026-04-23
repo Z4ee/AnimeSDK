@@ -5,7 +5,7 @@
 
 namespace RPG::Client::SkinnedGPUParticles
 {
-	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_ParticleAttributes_TypeDefinitionIndex = 60414;
+	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_ParticleAttributes_TypeDefinitionIndex = 67836;
 
 	struct alignas(4) SkinnedGPUParticlesBehavior_ParticleAttributes
 	{

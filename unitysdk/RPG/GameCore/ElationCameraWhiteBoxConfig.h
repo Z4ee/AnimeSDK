@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELATIONCAMERAWHITEBOXCONFIG_METHOD_2_9A95506F21538684_OFFSET UNITYSDK_OFFSET(0x1718A940)
-#define RPG_GAMECORE_ELATIONCAMERAWHITEBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1718AAD0)
+#define RPG_GAMECORE_ELATIONCAMERAWHITEBOXCONFIG_METHOD_2_9A95506F21538684_OFFSET UNITYSDK_OFFSET(0x18897F80)
+#define RPG_GAMECORE_ELATIONCAMERAWHITEBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18898110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationCameraWhiteBoxConfig_TypeDefinitionIndex = 15155;
+	inline static constexpr unsigned int ElationCameraWhiteBoxConfig_TypeDefinitionIndex = 15665;
 
 	class ElationCameraWhiteBoxConfig : public ::RPG::GameCore::JsonConfig
 	{

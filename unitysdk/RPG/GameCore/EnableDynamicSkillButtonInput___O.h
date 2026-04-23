@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableDynamicSkillButtonInput___O_TypeDefinitionIndex = 21042;
+	inline static constexpr unsigned int EnableDynamicSkillButtonInput___O_TypeDefinitionIndex = 21754;
 
 	class EnableDynamicSkillButtonInput___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ControlSkillType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ControlSkillType>**)Il2CppClass::FromTypeDefinitionIndex(EnableDynamicSkillButtonInput___O_TypeDefinitionIndex)->GetStaticField(0x2BDF0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ControlSkillType>**)Il2CppClass::FromTypeDefinitionIndex(EnableDynamicSkillButtonInput___O_TypeDefinitionIndex)->GetStaticField(0x34E20);
 		}
 	};
 }

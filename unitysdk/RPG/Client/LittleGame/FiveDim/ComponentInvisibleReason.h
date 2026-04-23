@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ComponentInvisibleReason_TypeDefinitionIndex = 33330;
+	inline static constexpr unsigned int ComponentInvisibleReason_TypeDefinitionIndex = 39119;
 
 	enum class ComponentInvisibleReason : ::System::UInt32
 	{
@@ -31,6 +31,7 @@ namespace RPG::Client::LittleGame::FiveDim
 		CustomLoadFade = 0x100000,
 		CrystalFreeze = 0x100000,
 		GravityFieldRing = 0x200000,
+		DashOrb = 0x400000,
 		MinionInit = 0x800000,
 		Max = 0x80000000,
 	};

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PerObjectShadowResolution_TypeDefinitionIndex = 29168;
+	inline static constexpr unsigned int PerObjectShadowResolution_TypeDefinitionIndex = 34933;
 
 	enum class PerObjectShadowResolution : ::System::Int32
 	{

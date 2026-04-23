@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvGroupEnterCombat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DE2AB2C658E0CCCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x885CC70)
-#define CLASS_3_DE2AB2C658E0CCCB__CTOR_OFFSET UNITYSDK_OFFSET(0x885CC40)
+#define CLASS_3_DE2AB2C658E0CCCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB218E80)
+#define CLASS_3_DE2AB2C658E0CCCB__CTOR_OFFSET UNITYSDK_OFFSET(0xB218E50)
 
-inline static constexpr unsigned int Class_3_DE2AB2C658E0CCCB_TypeDefinitionIndex = 42400;
+inline static constexpr unsigned int Class_3_DE2AB2C658E0CCCB_TypeDefinitionIndex = 48360;
 
 class Class_3_DE2AB2C658E0CCCB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvGroupEnterCombat*>
 {

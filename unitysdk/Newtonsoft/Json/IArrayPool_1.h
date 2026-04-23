@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int IArrayPool_1_TypeDefinitionIndex = 8187;
+	inline static constexpr unsigned int IArrayPool_1_TypeDefinitionIndex = 8333;
 
 	template <typename T>
 	class IArrayPool_1

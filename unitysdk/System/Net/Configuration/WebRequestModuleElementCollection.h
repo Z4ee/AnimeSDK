@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElementCollection.h"
 
-#define SYSTEM_NET_CONFIGURATION_WEBREQUESTMODULEELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186B8670)
+#define SYSTEM_NET_CONFIGURATION_WEBREQUESTMODULEELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F2E10)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int WebRequestModuleElementCollection_TypeDefinitionIndex = 3076;
+	inline static constexpr unsigned int WebRequestModuleElementCollection_TypeDefinitionIndex = 3077;
 
 	class WebRequestModuleElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{

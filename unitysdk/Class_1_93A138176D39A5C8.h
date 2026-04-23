@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class IronTombNormalModeThresholdConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_93A138176D39A5C8_METHOD_1_29EA1EBCE9EEFD86_OFFSET UNITYSDK_OFFSET(0xBEBF300)
-#define CLASS_1_93A138176D39A5C8_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0xBEBF3D0)
-#define CLASS_1_93A138176D39A5C8__CTOR_OFFSET UNITYSDK_OFFSET(0xBEBF3C0)
+#define CLASS_1_93A138176D39A5C8_METHOD_1_29EA1EBCE9EEFD86_OFFSET UNITYSDK_OFFSET(0x11969440)
+#define CLASS_1_93A138176D39A5C8_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0x11969510)
+#define CLASS_1_93A138176D39A5C8__CTOR_OFFSET UNITYSDK_OFFSET(0x11969500)
 
-inline static constexpr unsigned int Class_1_93A138176D39A5C8_TypeDefinitionIndex = 44466;
+inline static constexpr unsigned int Class_1_93A138176D39A5C8_TypeDefinitionIndex = 51188;
 
 class Class_1_93A138176D39A5C8 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_1; // 0x10
-	::System::Int32 Field_1_0; // 0x14
+	::System::Int32 Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x14
 
 	::System::Void _ctor()
 	{

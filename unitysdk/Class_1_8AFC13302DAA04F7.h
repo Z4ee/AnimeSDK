@@ -9,24 +9,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8AFC13302DAA04F7_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x11861110)
-#define CLASS_1_8AFC13302DAA04F7_METHOD_1_7AEB4305BA171FD4_OFFSET UNITYSDK_OFFSET(0x11861270)
-#define CLASS_1_8AFC13302DAA04F7_METHOD_1_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0x11861130)
-#define CLASS_1_8AFC13302DAA04F7_METHOD_1_AC2B072F6EDFA2FE_OFFSET UNITYSDK_OFFSET(0x118611B0)
-#define CLASS_1_8AFC13302DAA04F7_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x11861120)
-#define CLASS_1_8AFC13302DAA04F7__CTOR_OFFSET UNITYSDK_OFFSET(0x118613E0)
+#define CLASS_1_8AFC13302DAA04F7_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x967A820)
+#define CLASS_1_8AFC13302DAA04F7_METHOD_1_7AEB4305BA171FD4_OFFSET UNITYSDK_OFFSET(0x967A980)
+#define CLASS_1_8AFC13302DAA04F7_METHOD_1_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0x967A840)
+#define CLASS_1_8AFC13302DAA04F7_METHOD_1_AC2B072F6EDFA2FE_OFFSET UNITYSDK_OFFSET(0x967A8C0)
+#define CLASS_1_8AFC13302DAA04F7_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x967A830)
+#define CLASS_1_8AFC13302DAA04F7__CTOR_OFFSET UNITYSDK_OFFSET(0x967AAF0)
 
-inline static constexpr unsigned int Class_1_8AFC13302DAA04F7_TypeDefinitionIndex = 44131;
+inline static constexpr unsigned int Class_1_8AFC13302DAA04F7_TypeDefinitionIndex = 50837;
 
 class Class_1_8AFC13302DAA04F7 : public ::System::Object
 {
 public:
-	::System::String* _LockKey_k__BackingField; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x18
-	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
+	::System::String* _LockKey_k__BackingField; // 0x18
+	::System::Boolean Field_1_3; // 0x20
 	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_4; // 0x22
 	::RPG::GameCore::ActionDelayChangeReasonMask Field_1_1; // 0x24
-	::System::Boolean Field_1_3; // 0x26
+	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_2; // 0x26
 
 	::System::Void _ctor()
 	{

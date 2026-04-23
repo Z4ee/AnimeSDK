@@ -7,7 +7,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int TriggerOnEventMatcherExtension_TypeDefinitionIndex = 9674;
+	inline static constexpr unsigned int TriggerOnEventMatcherExtension_TypeDefinitionIndex = 9807;
 
 	class TriggerOnEventMatcherExtension : public ::System::Object
 	{

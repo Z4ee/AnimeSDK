@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAMINAEXCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1776FB90)
-#define RPG_GAMECORE_STAMINAEXCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17770140)
+#define RPG_GAMECORE_STAMINAEXCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E95730)
+#define RPG_GAMECORE_STAMINAEXCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E95CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StaminaExchangeRow_TypeDefinitionIndex = 13242;
+	inline static constexpr unsigned int StaminaExchangeRow_TypeDefinitionIndex = 13704;
 
 	class StaminaExchangeRow : public ::System::Object
 	{

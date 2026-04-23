@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManaVideoPageContext_VideoPlayStep_TypeDefinitionIndex = 59777;
+	inline static constexpr unsigned int ManaVideoPageContext_VideoPlayStep_TypeDefinitionIndex = 67173;
 
 	enum class ManaVideoPageContext_VideoPlayStep : ::System::Int32
 	{

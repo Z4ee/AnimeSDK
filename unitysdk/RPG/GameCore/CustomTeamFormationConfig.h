@@ -17,12 +17,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_F79F56DA97E113E6_OFFSET UNITYSDK_OFFSET(0x171415E0)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17141E60)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_F79F56DA97E113E6_OFFSET UNITYSDK_OFFSET(0x18848710)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18848F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 15190;
+	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 15704;
 
 	class CustomTeamFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

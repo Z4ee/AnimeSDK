@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLCOMPLIANCEUTIL_CDATANORMALIZE_OFFSET UNITYSDK_OFFSET(0x185FE690)
-#define SYSTEM_XML_XMLCOMPLIANCEUTIL_NONCDATANORMALIZE_OFFSET UNITYSDK_OFFSET(0x185FE300)
+#define SYSTEM_XML_XMLCOMPLIANCEUTIL_CDATANORMALIZE_OFFSET UNITYSDK_OFFSET(0x1A039430)
+#define SYSTEM_XML_XMLCOMPLIANCEUTIL_NONCDATANORMALIZE_OFFSET UNITYSDK_OFFSET(0x1A0390A0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlComplianceUtil_TypeDefinitionIndex = 1928;
+	inline static constexpr unsigned int XmlComplianceUtil_TypeDefinitionIndex = 1929;
 
 	class XmlComplianceUtil : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemBoardBaseAreaStatus_TypeDefinitionIndex = 64319;
+	inline static constexpr unsigned int StableSystemBoardBaseAreaStatus_TypeDefinitionIndex = 72366;
 
 	enum class StableSystemBoardBaseAreaStatus : ::System::Int32
 	{

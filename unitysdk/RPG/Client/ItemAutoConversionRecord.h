@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_674176EEAAE6CBB1;
-class Class_1_6BE2B761968BD3A4;
+class Class_1_70373EC0EA5FDDDA;
+class Class_1_87B6445D24FE4E47;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class ItemAutoConversionMapping; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_1_OFFSET UNITYSDK_OFFSET(0x99569C0)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_OFFSET UNITYSDK_OFFSET(0x99568A0)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_GET_CONVERSIONMAPPINGS_OFFSET UNITYSDK_OFFSET(0x99676C0)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD__CREATECONVERSIONMAPPINGS_OFFSET UNITYSDK_OFFSET(0x9967720)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x99676D0)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_1_OFFSET UNITYSDK_OFFSET(0xA6444B0)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_OFFSET UNITYSDK_OFFSET(0xA6443B0)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_GET_CONVERSIONMAPPINGS_OFFSET UNITYSDK_OFFSET(0xA655200)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD__CREATECONVERSIONMAPPINGS_OFFSET UNITYSDK_OFFSET(0xA655250)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xA655210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemAutoConversionRecord_TypeDefinitionIndex = 53358;
+	inline static constexpr unsigned int ItemAutoConversionRecord_TypeDefinitionIndex = 60493;
 
 	class ItemAutoConversionRecord : public ::System::Object
 	{
@@ -34,19 +34,19 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemAutoConversionMapping*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_GET_CONVERSIONMAPPINGS_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ItemAutoConversionRecord* Create(::Class_1_674176EEAAE6CBB1* conversionRecord)
+		static ::RPG::Client::ItemAutoConversionRecord* Create(::Class_1_70373EC0EA5FDDDA* conversionRecord)
 		{
-			return ((::RPG::Client::ItemAutoConversionRecord*(*)(::Class_1_674176EEAAE6CBB1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_OFFSET))(conversionRecord);
+			return ((::RPG::Client::ItemAutoConversionRecord*(*)(::Class_1_70373EC0EA5FDDDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_OFFSET))(conversionRecord);
 		}
 
-		static ::RPG::Client::ItemAutoConversionRecord* Create_1(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_6BE2B761968BD3A4*>* conversionMappings)
+		static ::RPG::Client::ItemAutoConversionRecord* Create_1(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_87B6445D24FE4E47*>* conversionMappings)
 		{
-			return ((::RPG::Client::ItemAutoConversionRecord*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_6BE2B761968BD3A4*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_1_OFFSET))(conversionMappings);
+			return ((::RPG::Client::ItemAutoConversionRecord*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_87B6445D24FE4E47*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD_CREATE_1_OFFSET))(conversionMappings);
 		}
 
-		::System::Void _CreateConversionMappings(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_6BE2B761968BD3A4*>* conversionMappings)
+		::System::Void _CreateConversionMappings(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_87B6445D24FE4E47*>* conversionMappings)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_6BE2B761968BD3A4*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD__CREATECONVERSIONMAPPINGS_OFFSET))(this, conversionMappings);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_87B6445D24FE4E47*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONRECORD__CREATECONVERSIONMAPPINGS_OFFSET))(this, conversionMappings);
 		}
 	};
 }

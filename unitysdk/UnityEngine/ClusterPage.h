@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClusterPage_TypeDefinitionIndex = 3913;
+	inline static constexpr unsigned int ClusterPage_TypeDefinitionIndex = 3915;
 
 	struct alignas(4) ClusterPage
 	{

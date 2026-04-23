@@ -10,30 +10,30 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIPOLYGON_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xA7232E0)
-#define RPG_CLIENT_UIPOLYGON_GETPOLYGONRECT_OFFSET UNITYSDK_OFFSET(0xA723A60)
-#define RPG_CLIENT_UIPOLYGON_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xA723C70)
-#define RPG_CLIENT_UIPOLYGON_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA7233A0)
-#define RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xA723E00)
-#define RPG_CLIENT_UIPOLYGON__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7241F0)
-#define RPG_CLIENT_UIPOLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0xA723F80)
-#define RPG_CLIENT_UIPOLYGON___IFIXBASEPROXY_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xA724250)
-#define RPG_CLIENT_UIPOLYGON___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA724240)
+#define RPG_CLIENT_UIPOLYGON_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xB4279C0)
+#define RPG_CLIENT_UIPOLYGON_GETPOLYGONRECT_OFFSET UNITYSDK_OFFSET(0xB428140)
+#define RPG_CLIENT_UIPOLYGON_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xB428350)
+#define RPG_CLIENT_UIPOLYGON_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB427A80)
+#define RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xB4284E0)
+#define RPG_CLIENT_UIPOLYGON__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4288B0)
+#define RPG_CLIENT_UIPOLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0xB428660)
+#define RPG_CLIENT_UIPOLYGON___IFIXBASEPROXY_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xB428910)
+#define RPG_CLIENT_UIPOLYGON___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB428900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPolygon_TypeDefinitionIndex = 59581;
+	inline static constexpr unsigned int UIPolygon_TypeDefinitionIndex = 66977;
 
 	class UIPolygon : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::UnityEngine::Vector4* StaticGet_UITangent()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIPolygon_TypeDefinitionIndex)->GetStaticField(0x10E50);
-		}
 		static ::UnityEngine::Vector3* StaticGet_UINormal()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIPolygon_TypeDefinitionIndex)->GetStaticField(0x10E60);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIPolygon_TypeDefinitionIndex)->GetStaticField(0xC520);
+		}
+		static ::UnityEngine::Vector4* StaticGet_UITangent()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIPolygon_TypeDefinitionIndex)->GetStaticField(0xC52C);
 		}
 		::UnityEngine::Sprite* sprite; // 0xF0
 		::System::Single StartValue; // 0xF8

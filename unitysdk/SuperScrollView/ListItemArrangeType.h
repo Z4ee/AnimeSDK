@@ -3,7 +3,7 @@
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ListItemArrangeType_TypeDefinitionIndex = 38492;
+	inline static constexpr unsigned int ListItemArrangeType_TypeDefinitionIndex = 44374;
 
 	enum class ListItemArrangeType : ::System::Int32
 	{

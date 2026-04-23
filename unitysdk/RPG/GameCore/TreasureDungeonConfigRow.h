@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178BA7D0)
-#define RPG_GAMECORE_TREASUREDUNGEONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178BADF0)
+#define RPG_GAMECORE_TREASUREDUNGEONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190B8E40)
+#define RPG_GAMECORE_TREASUREDUNGEONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190B9460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonConfigRow_TypeDefinitionIndex = 11415;
+	inline static constexpr unsigned int TreasureDungeonConfigRow_TypeDefinitionIndex = 11817;
 
 	class TreasureDungeonConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DisplayMonsterIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendNature; // 0x18
-		::System::String* EntranceIconPath; // 0x20
-		::System::String* ImgPath; // 0x28
+		::System::String* EntranceIconPath; // 0x10
+		::System::String* ImgPath; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendNature; // 0x20
+		::Il2CppArray<::System::UInt32>* DisplayMonsterIDList; // 0x28
 		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x30
-		::RPG::Client::TextID Desc; // 0x38
-		::System::UInt32 DungeonID; // 0x48
-		::System::UInt32 UnlockID; // 0x4C
-		::System::UInt32 GridExploreCost; // 0x50
-		::System::UInt32 ExploreSubHpRatio; // 0x54
-		::System::UInt32 InitialExplore; // 0x58
-		::System::UInt32 GroupID; // 0x5C
-		::System::UInt32 GridPrefabType; // 0x60
-		::System::UInt32 PreDungeonID; // 0x64
-		::RPG::Client::TextID Name; // 0x68
-		::System::UInt32 DisplayEventID; // 0x78
-		::System::UInt32 MaxExplore; // 0x7C
+		::System::UInt32 MaxExplore; // 0x38
+		::System::UInt32 UnlockID; // 0x3C
+		::System::UInt32 InitialExplore; // 0x40
+		::System::UInt32 ExploreSubHpRatio; // 0x44
+		::System::UInt32 GridExploreCost; // 0x48
+		::System::UInt32 GroupID; // 0x4C
+		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID Desc; // 0x60
+		::System::UInt32 GridPrefabType; // 0x70
+		::System::UInt32 PreDungeonID; // 0x74
+		::System::UInt32 DungeonID; // 0x78
+		::System::UInt32 DisplayEventID; // 0x7C
 
 		::System::Void _ctor()
 		{

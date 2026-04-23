@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyPackStatistics_TypeDefinitionIndex = 50571;
+	inline static constexpr unsigned int AlleyPackStatistics_TypeDefinitionIndex = 57434;
 
 	struct alignas(8) AlleyPackStatistics
 	{

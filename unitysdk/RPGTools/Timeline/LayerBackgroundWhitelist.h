@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LayerBackgroundWhitelist_TypeDefinitionIndex = 38981;
+	inline static constexpr unsigned int LayerBackgroundWhitelist_TypeDefinitionIndex = 44884;
 
 	struct alignas(8) LayerBackgroundWhitelist
 	{

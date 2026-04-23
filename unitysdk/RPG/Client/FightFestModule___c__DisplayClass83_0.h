@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FightFestPaper; }
 
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0x96B8B80)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS83_0__GETPAPER_B__0_OFFSET UNITYSDK_OFFSET(0x96C0A20)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA378680)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS83_0__GETPAPER_B__0_OFFSET UNITYSDK_OFFSET(0xA380520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestModule___c__DisplayClass83_0_TypeDefinitionIndex = 52106;
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass83_0_TypeDefinitionIndex = 59056;
 
 	class FightFestModule___c__DisplayClass83_0 : public ::System::Object
 	{

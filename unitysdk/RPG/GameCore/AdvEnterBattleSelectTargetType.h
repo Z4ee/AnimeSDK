@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnterBattleSelectTargetType_TypeDefinitionIndex = 18483;
+	inline static constexpr unsigned int AdvEnterBattleSelectTargetType_TypeDefinitionIndex = 19136;
 
 	enum class AdvEnterBattleSelectTargetType : ::System::Int32
 	{

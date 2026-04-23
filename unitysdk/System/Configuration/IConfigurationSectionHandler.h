@@ -3,7 +3,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int IConfigurationSectionHandler_TypeDefinitionIndex = 3059;
+	inline static constexpr unsigned int IConfigurationSectionHandler_TypeDefinitionIndex = 3060;
 
 	class IConfigurationSectionHandler
 	{

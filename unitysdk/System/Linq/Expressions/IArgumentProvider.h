@@ -5,7 +5,7 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int IArgumentProvider_TypeDefinitionIndex = 3207;
+	inline static constexpr unsigned int IArgumentProvider_TypeDefinitionIndex = 3209;
 
 	class IArgumentProvider
 	{

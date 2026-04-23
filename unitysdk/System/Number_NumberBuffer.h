@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NUMBER_NUMBERBUFFER_PACKFORNATIVE_OFFSET UNITYSDK_OFFSET(0x20D9390)
-#define SYSTEM_NUMBER_NUMBERBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1635AD30)
-#define SYSTEM_NUMBER_NUMBERBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x20D9370)
+#define SYSTEM_NUMBER_NUMBERBUFFER_PACKFORNATIVE_OFFSET UNITYSDK_OFFSET(0x22AAFA0)
+#define SYSTEM_NUMBER_NUMBERBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17987C80)
+#define SYSTEM_NUMBER_NUMBERBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x22AAF80)
 
 namespace System
 {
@@ -14,7 +14,7 @@ namespace System
 	{
 		static ::System::Int32* StaticGet_NumberBufferBytes()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Number_NumberBuffer_TypeDefinitionIndex)->GetStaticField(0x2BE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Number_NumberBuffer_TypeDefinitionIndex)->GetStaticField(0x3BA0);
 		}
 		::System::Byte* baseAddress; // 0x10
 		::System::Char* digits; // 0x18

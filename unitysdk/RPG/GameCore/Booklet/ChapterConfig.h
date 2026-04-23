@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Booklet { class SectionSynopsis; }
 
-#define RPG_GAMECORE_BOOKLET_CHAPTERCONFIG_METHOD_2_F8BFC3606F4F8893_OFFSET UNITYSDK_OFFSET(0x16FEB6B0)
-#define RPG_GAMECORE_BOOKLET_CHAPTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FEB890)
+#define RPG_GAMECORE_BOOKLET_CHAPTERCONFIG_METHOD_2_F8BFC3606F4F8893_OFFSET UNITYSDK_OFFSET(0x1870F500)
+#define RPG_GAMECORE_BOOKLET_CHAPTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870F6E0)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int ChapterConfig_TypeDefinitionIndex = 22791;
+	inline static constexpr unsigned int ChapterConfig_TypeDefinitionIndex = 23764;
 
 	class ChapterConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,7 +6,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableQueueBuilder_1_TypeDefinitionIndex = 9221;
+	inline static constexpr unsigned int ImmutableQueueBuilder_1_TypeDefinitionIndex = 9418;
 
 	template <typename T>
 	class ImmutableQueueBuilder_1 : public ::System::Object

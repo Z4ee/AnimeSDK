@@ -7,26 +7,26 @@ namespace InControl { class BindingListenOptions; }
 namespace InControl { class BindingSource; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x15B80A40)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x15B80D30)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x15B809C0)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x15B809B0)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B81050)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B81040)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1717E420)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x1717E710)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x1717E3A0)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1717E390)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1717EA30)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1717EA20)
 
 namespace InControl
 {
-	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 31389;
+	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 37109;
 
 	class MouseBindingSourceListener : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_ScrollWheelThreshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MouseBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x10E10);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MouseBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x4B90);
 		}
-		::InControl::Mouse detectFound; // 0x10
-		::System::Int32 detectPhase; // 0x14
+		::System::Int32 detectPhase; // 0x10
+		::InControl::Mouse detectFound; // 0x14
 
 		::System::Void _ctor()
 		{

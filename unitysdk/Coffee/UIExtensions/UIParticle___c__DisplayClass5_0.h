@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119E4100)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__DISPLAYCLASS5_0__PAUSEONTIME_B__0_OFFSET UNITYSDK_OFFSET(0x119E9440)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB2460)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__DISPLAYCLASS5_0__PAUSEONTIME_B__0_OFFSET UNITYSDK_OFFSET(0x12BB7C90)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticle___c__DisplayClass5_0_TypeDefinitionIndex = 34891;
+	inline static constexpr unsigned int UIParticle___c__DisplayClass5_0_TypeDefinitionIndex = 40710;
 
 	class UIParticle___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::Single time; // 0x10
-		::System::UInt32 randomSeed; // 0x14
+		::System::UInt32 randomSeed; // 0x10
+		::System::Single time; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -13,13 +13,13 @@ namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x17333080)
-#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17333000)
-#define RPG_GAMECORE_LEVELDISTRICTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17333050)
+#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A40370)
+#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A402F0)
+#define RPG_GAMECORE_LEVELDISTRICTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A40340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDistrictInfo_TypeDefinitionIndex = 15859;
+	inline static constexpr unsigned int LevelDistrictInfo_TypeDefinitionIndex = 16385;
 
 	class LevelDistrictInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

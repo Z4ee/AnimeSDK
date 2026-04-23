@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtDebug_LogLevel_TypeDefinitionIndex = 37885;
+	inline static constexpr unsigned int rdtDebug_LogLevel_TypeDefinitionIndex = 43762;
 
 	enum class rdtDebug_LogLevel : ::System::Int32
 	{

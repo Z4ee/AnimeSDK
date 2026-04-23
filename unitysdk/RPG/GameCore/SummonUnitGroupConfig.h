@@ -7,13 +7,14 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventurePositionCheckConfig; }
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
+namespace RPG::GameCore { class SummonUnitInteractionDestroyRule; }
 
-#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG_METHOD_2_BAB8DF66DCC6D652_OFFSET UNITYSDK_OFFSET(0x17790A60)
-#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17790E20)
+#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG_METHOD_2_BAB8DF66DCC6D652_OFFSET UNITYSDK_OFFSET(0x18EB6B10)
+#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB6FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGroupConfig_TypeDefinitionIndex = 16174;
+	inline static constexpr unsigned int SummonUnitGroupConfig_TypeDefinitionIndex = 16707;
 
 	class SummonUnitGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,11 +23,14 @@ namespace RPG::GameCore
 		::RPG::GameCore::AdventurePositionCheckConfig* PositionCheckConfig; // 0x18
 		::System::Boolean EnablePlatformMove; // 0x20
 		::System::Boolean HideWhenGroundInvalid; // 0x21
-		::System::Boolean DestroyWhenGroundInvalid; // 0x22
-		::System::Boolean HideWhenMapRotation; // 0x23
-		::System::Boolean HideWithSummoner; // 0x24
+		::System::Boolean HideWhenMapRotation; // 0x22
+		::System::Boolean DestroyWhenGroundInvalid; // 0x23
+		::System::Boolean DestroyInInteraction; // 0x24
+		::System::Boolean DestroyWhenHide; // 0x25
+		::System::Boolean HideWithSummoner; // 0x26
 		::Il2CppArray<::RPG::GameCore::ELevelPerformanceType>* HideInPerformanceList; // 0x28
-		::RPG::Client::GamePlayLockTarget LockTarget; // 0x30
+		::Il2CppArray<::RPG::GameCore::SummonUnitInteractionDestroyRule*>* InteractionDestroyRuleList; // 0x30
+		::RPG::Client::GamePlayLockTarget LockTarget; // 0x38
 
 		::System::Void _ctor()
 		{

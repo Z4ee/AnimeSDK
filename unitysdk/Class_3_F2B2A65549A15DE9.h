@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchAdvPillarPuzzleInteractingPillar; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_F2B2A65549A15DE9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x115808A0)
-#define CLASS_3_F2B2A65549A15DE9__CTOR_OFFSET UNITYSDK_OFFSET(0x11580800)
+#define CLASS_3_F2B2A65549A15DE9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x959D360)
+#define CLASS_3_F2B2A65549A15DE9__CTOR_OFFSET UNITYSDK_OFFSET(0x959D2C0)
 
-inline static constexpr unsigned int Class_3_F2B2A65549A15DE9_TypeDefinitionIndex = 47766;
+inline static constexpr unsigned int Class_3_F2B2A65549A15DE9_TypeDefinitionIndex = 54505;
 
 class Class_3_F2B2A65549A15DE9 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAdvPillarPuzzleInteractingPillar*>
 {

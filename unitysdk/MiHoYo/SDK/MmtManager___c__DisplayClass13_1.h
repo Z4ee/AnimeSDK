@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class MmtManager_CheckResultModel; }
 namespace MiHoYo::SDK { class MmtManager___c__DisplayClass13_0; }
 
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15F37430)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17580660)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager___c__DisplayClass13_1_TypeDefinitionIndex = 7032;
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_1_TypeDefinitionIndex = 7078;
 
 	class MmtManager___c__DisplayClass13_1 : public ::System::Object
 	{

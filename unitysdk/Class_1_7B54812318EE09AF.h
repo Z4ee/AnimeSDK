@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Rect.h"
+
+#define CLASS_1_7B54812318EE09AF_METHOD_1_464B80C09A37526F_OFFSET UNITYSDK_OFFSET(0x11B89C10)
+#define CLASS_1_7B54812318EE09AF_METHOD_1_B04E6930B9097545_OFFSET UNITYSDK_OFFSET(0x11B898F0)
+#define CLASS_1_7B54812318EE09AF_METHOD_1_D89092BA019E73EF_OFFSET UNITYSDK_OFFSET(0x11B89A40)
+#define CLASS_1_7B54812318EE09AF__CTOR_OFFSET UNITYSDK_OFFSET(0x11B89A30)
+
+inline static constexpr unsigned int Class_1_7B54812318EE09AF_TypeDefinitionIndex = 62912;
+
+class Class_1_7B54812318EE09AF : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7B54812318EE09AF__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_7B54812318EE09AF* Method_1_B04E6930B9097545()
+	{
+		return ((::Class_1_7B54812318EE09AF*(*)())((::PBYTE)hIl2Cpp + CLASS_1_7B54812318EE09AF_METHOD_1_B04E6930B9097545_OFFSET))();
+	}
+
+	static ::Class_1_7B54812318EE09AF* Method_1_D89092BA019E73EF(::UnityEngine::Rect a1)
+	{
+		return ((::Class_1_7B54812318EE09AF*(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CLASS_1_7B54812318EE09AF_METHOD_1_D89092BA019E73EF_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_464B80C09A37526F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7B54812318EE09AF_METHOD_1_464B80C09A37526F_OFFSET))(this);
+	}
+};

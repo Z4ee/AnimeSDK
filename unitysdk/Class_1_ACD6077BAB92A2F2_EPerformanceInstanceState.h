@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_ACD6077BAB92A2F2_EPerformanceInstanceState_TypeDefinitionIndex = 48772;
+inline static constexpr unsigned int Class_1_ACD6077BAB92A2F2_EPerformanceInstanceState_TypeDefinitionIndex = 55536;
 
 enum class Class_1_ACD6077BAB92A2F2_EPerformanceInstanceState : ::System::Int32
 {

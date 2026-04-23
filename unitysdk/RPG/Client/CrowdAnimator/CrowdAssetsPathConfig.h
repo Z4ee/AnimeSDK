@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDASSETSPATHCONFIG_METHOD_3_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0x9427A40)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDASSETSPATHCONFIG_METHOD_3_3543E185ADE7267F_OFFSET UNITYSDK_OFFSET(0x9427CC0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDASSETSPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9427DD0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDASSETSPATHCONFIG_METHOD_3_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0xA0D57E0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDASSETSPATHCONFIG_METHOD_3_3543E185ADE7267F_OFFSET UNITYSDK_OFFSET(0xA0D5A60)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDASSETSPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D5B70)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdAssetsPathConfig_TypeDefinitionIndex = 60428;
+	inline static constexpr unsigned int CrowdAssetsPathConfig_TypeDefinitionIndex = 67850;
 
 	class CrowdAssetsPathConfig : public ::UnityEngine::ScriptableObject
 	{

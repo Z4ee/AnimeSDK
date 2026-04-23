@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::AntiCheatServer { class AddNotifyClientAuthStatu
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTAUTHSTATUSCHANGEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTAUTHSTATUSCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xDAC0)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTAUTHSTATUSCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xDAB0)
 #define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYCLIENTAUTHSTATUSCHANGEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::AntiCheatServer
 {
-	inline static constexpr unsigned int AddNotifyClientAuthStatusChangedOptionsInternal_TypeDefinitionIndex = 36602;
+	inline static constexpr unsigned int AddNotifyClientAuthStatusChangedOptionsInternal_TypeDefinitionIndex = 42428;
 
 	struct alignas(4) AddNotifyClientAuthStatusChangedOptionsInternal
 	{

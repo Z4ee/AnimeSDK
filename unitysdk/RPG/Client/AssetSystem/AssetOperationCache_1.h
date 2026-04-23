@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client::AssetSystem
 {
-	inline static constexpr unsigned int AssetOperationCache_1_TypeDefinitionIndex = 32146;
+	inline static constexpr unsigned int AssetOperationCache_1_TypeDefinitionIndex = 37866;
 
 	template <typename T>
 	class AssetOperationCache_1 : public ::System::Object

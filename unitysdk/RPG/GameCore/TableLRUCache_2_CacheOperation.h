@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TableLRUCache_2_CacheOperation_TypeDefinitionIndex = 22606;
+	inline static constexpr unsigned int TableLRUCache_2_CacheOperation_TypeDefinitionIndex = 23579;
 
 	template <typename TKey, typename TValue>
 	class TableLRUCache_2_CacheOperation : public ::System::MulticastDelegate

@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DefaultCertificatePolicy_TypeDefinitionIndex = 2816;
+	inline static constexpr unsigned int DefaultCertificatePolicy_TypeDefinitionIndex = 2817;
 
 	class DefaultCertificatePolicy : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int NativeObjectSecurity_TypeDefinitionIndex = 963;
+	inline static constexpr unsigned int NativeObjectSecurity_TypeDefinitionIndex = 965;
 
 	class NativeObjectSecurity : public ::System::Security::AccessControl::CommonObjectSecurity
 	{

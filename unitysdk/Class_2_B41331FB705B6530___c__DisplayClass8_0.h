@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_124;
+class Class_1_D17272E82AE804C2_131;
 class Class_2_B41331FB705B6530;
 
-#define CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A380F0)
-#define CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__REQUESTDRAW_B__0_OFFSET UNITYSDK_OFFSET(0x10A388E0)
+#define CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA546490)
+#define CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__REQUESTDRAW_B__0_OFFSET UNITYSDK_OFFSET(0xA546CC0)
 
-inline static constexpr unsigned int Class_2_B41331FB705B6530___c__DisplayClass8_0_TypeDefinitionIndex = 49801;
+inline static constexpr unsigned int Class_2_B41331FB705B6530___c__DisplayClass8_0_TypeDefinitionIndex = 56623;
 
 class Class_2_B41331FB705B6530___c__DisplayClass8_0 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _RequestDraw_b__0(::Class_1_FA4F4A67B1C04320_124* rsp)
+	::System::Void _RequestDraw_b__0(::Class_1_D17272E82AE804C2_131* rsp)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_124*))((::PBYTE)hIl2Cpp + CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__REQUESTDRAW_B__0_OFFSET))(this, rsp);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_131*))((::PBYTE)hIl2Cpp + CLASS_2_B41331FB705B6530___C__DISPLAYCLASS8_0__REQUESTDRAW_B__0_OFFSET))(this, rsp);
 	}
 };

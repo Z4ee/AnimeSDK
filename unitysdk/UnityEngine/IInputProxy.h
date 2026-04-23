@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IInputProxy_TypeDefinitionIndex = 5554;
+	inline static constexpr unsigned int IInputProxy_TypeDefinitionIndex = 5566;
 
 	class IInputProxy
 	{

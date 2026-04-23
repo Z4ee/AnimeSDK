@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int NavigationRequest_1_TypeDefinitionIndex = 32881;
+	inline static constexpr unsigned int NavigationRequest_1_TypeDefinitionIndex = 38671;
 
 	template <typename TEntity>
 	class NavigationRequest_1 : public ::System::Object

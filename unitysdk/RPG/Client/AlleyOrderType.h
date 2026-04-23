@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyOrderType_TypeDefinitionIndex = 50565;
+	inline static constexpr unsigned int AlleyOrderType_TypeDefinitionIndex = 57428;
 
 	enum class AlleyOrderType : ::System::Int32
 	{

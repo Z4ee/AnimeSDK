@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAnimStateTransitionType_TypeDefinitionIndex = 46029;
+	inline static constexpr unsigned int EAnimStateTransitionType_TypeDefinitionIndex = 52690;
 
 	enum class EAnimStateTransitionType : ::System::Int32
 	{

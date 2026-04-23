@@ -9,10 +9,10 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_060EBCAC10126241_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11833B30)
-#define CLASS_3_060EBCAC10126241__CTOR_OFFSET UNITYSDK_OFFSET(0x11833A50)
+#define CLASS_3_060EBCAC10126241_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB21B2A0)
+#define CLASS_3_060EBCAC10126241__CTOR_OFFSET UNITYSDK_OFFSET(0xB21B1C0)
 
-inline static constexpr unsigned int Class_3_060EBCAC10126241_TypeDefinitionIndex = 44368;
+inline static constexpr unsigned int Class_3_060EBCAC10126241_TypeDefinitionIndex = 51084;
 
 class Class_3_060EBCAC10126241 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByMostAvatarBaseTypeMemberCount*>
 {

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_TextureSheetMode_TypeDefinitionIndex = 33922;
+inline static constexpr unsigned int RefGPUParticleSystem_TextureSheetMode_TypeDefinitionIndex = 39723;
 
 enum class RefGPUParticleSystem_TextureSheetMode : ::System::Int32
 {

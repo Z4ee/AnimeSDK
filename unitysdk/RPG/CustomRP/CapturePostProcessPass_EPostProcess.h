@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapturePostProcessPass_EPostProcess_TypeDefinitionIndex = 29374;
+	inline static constexpr unsigned int CapturePostProcessPass_EPostProcess_TypeDefinitionIndex = 35141;
 
 	enum class CapturePostProcessPass_EPostProcess : ::System::Int32
 	{

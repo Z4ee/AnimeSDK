@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175741C0)
-#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175743D0)
+#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C7E880)
+#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7EA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordRewardFinishWayRow_TypeDefinitionIndex = 11225;
+	inline static constexpr unsigned int PunkLordRewardFinishWayRow_TypeDefinitionIndex = 11628;
 
 	class PunkLordRewardFinishWayRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FinishPoint; // 0x10
-		::RPG::Client::TextID FinishName; // 0x18
-		::RPG::GameCore::PunkLordMonsterRare FinishRare; // 0x28
-		::System::UInt32 FinishID; // 0x2C
+		::System::UInt32 FinishID; // 0x10
+		::System::UInt32 FinishPoint; // 0x14
+		::RPG::GameCore::PunkLordMonsterRare FinishRare; // 0x18
+		::RPG::Client::TextID FinishName; // 0x20
 
 		::System::Void _ctor()
 		{

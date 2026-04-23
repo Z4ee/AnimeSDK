@@ -5,16 +5,16 @@
 namespace EnviromentSystemV2Space { class EnvProfileV2; }
 namespace System { class String; }
 
-#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA70B0)
-#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS25_0__LOADPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x8DADAC0)
+#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x90484F0)
+#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS25_0__LOADPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x904EF40)
 
-inline static constexpr unsigned int Class_2_6A75EA4A76790B33___c__DisplayClass25_0_TypeDefinitionIndex = 40117;
+inline static constexpr unsigned int Class_2_6A75EA4A76790B33___c__DisplayClass25_0_TypeDefinitionIndex = 46026;
 
 class Class_2_6A75EA4A76790B33___c__DisplayClass25_0 : public ::System::Object
 {
 public:
-	::EnviromentSystemV2Space::EnvProfileV2* ret; // 0x10
-	::System::String* path; // 0x18
+	::System::String* path; // 0x10
+	::EnviromentSystemV2Space::EnvProfileV2* ret; // 0x18
 
 	::System::Void _ctor()
 	{

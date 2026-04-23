@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardWayPointMutexStatus_TypeDefinitionIndex = 48986;
+	inline static constexpr unsigned int BillboardWayPointMutexStatus_TypeDefinitionIndex = 55780;
 
 	enum class BillboardWayPointMutexStatus : ::System::Int32
 	{

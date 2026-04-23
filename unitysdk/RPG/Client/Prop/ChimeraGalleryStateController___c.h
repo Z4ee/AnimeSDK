@@ -5,24 +5,24 @@
 namespace RPG::Client::Prop { class ChimeraGalleryStateController_ActConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA061400)
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA061440)
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C___INIT_B__10_0_OFFSET UNITYSDK_OFFSET(0xA061450)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xADDFC00)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xADDFC40)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C___INIT_B__10_0_OFFSET UNITYSDK_OFFSET(0xADDFC50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraGalleryStateController___c_TypeDefinitionIndex = 63945;
+	inline static constexpr unsigned int ChimeraGalleryStateController___c_TypeDefinitionIndex = 71992;
 
 	class ChimeraGalleryStateController___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Prop::ChimeraGalleryStateController___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::ChimeraGalleryStateController___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryStateController___c_TypeDefinitionIndex)->GetStaticField(0x47F70);
+			return (::RPG::Client::Prop::ChimeraGalleryStateController___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryStateController___c_TypeDefinitionIndex)->GetStaticField(0x5520);
 		}
 		static ::System::Func_2<::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig*, ::System::UInt32>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryStateController___c_TypeDefinitionIndex)->GetStaticField(0x47F78);
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryStateController___c_TypeDefinitionIndex)->GetStaticField(0x5528);
 		}
 
 		static ::System::Void _cctor()

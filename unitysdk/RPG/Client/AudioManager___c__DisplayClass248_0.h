@@ -5,19 +5,19 @@
 namespace RPG::Client { class AudioManager; }
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS248_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9100320)
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS248_0__STARTDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x9102240)
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS248_0__STARTDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0x9102270)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS248_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9D615B0)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS248_0__STARTDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x9D63560)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS248_0__STARTDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0x9D63E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager___c__DisplayClass248_0_TypeDefinitionIndex = 48362;
+	inline static constexpr unsigned int AudioManager___c__DisplayClass248_0_TypeDefinitionIndex = 55110;
 
 	class AudioManager___c__DisplayClass248_0 : public ::System::Object
 	{
 	public:
-		::System::String* languageKey; // 0x10
-		::RPG::Client::AudioManager* __4__this; // 0x18
+		::RPG::Client::AudioManager* __4__this; // 0x10
+		::System::String* languageKey; // 0x18
 
 		::System::Void _ctor()
 		{

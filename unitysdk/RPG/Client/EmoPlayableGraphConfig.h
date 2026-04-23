@@ -5,11 +5,11 @@
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 
-#define RPG_CLIENT_EMOPLAYABLEGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x95FC0F0)
+#define RPG_CLIENT_EMOPLAYABLEGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA282C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoPlayableGraphConfig_TypeDefinitionIndex = 58271;
+	inline static constexpr unsigned int EmoPlayableGraphConfig_TypeDefinitionIndex = 65558;
 
 	class EmoPlayableGraphConfig : public ::UnityEngine::ScriptableObject
 	{

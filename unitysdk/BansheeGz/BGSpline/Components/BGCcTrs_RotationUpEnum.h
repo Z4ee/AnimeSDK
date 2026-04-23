@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcTrs_RotationUpEnum_TypeDefinitionIndex = 28234;
+	inline static constexpr unsigned int BGCcTrs_RotationUpEnum_TypeDefinitionIndex = 33858;
 
 	enum class BGCcTrs_RotationUpEnum : ::System::Int32
 	{

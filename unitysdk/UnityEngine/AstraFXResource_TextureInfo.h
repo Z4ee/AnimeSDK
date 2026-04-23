@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_TextureInfo_TypeDefinitionIndex = 3900;
+	inline static constexpr unsigned int AstraFXResource_TextureInfo_TypeDefinitionIndex = 3902;
 
 	struct alignas(4) AstraFXResource_TextureInfo
 	{

@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE_METHOD_2_05A496EC4364A881_OFFSET UNITYSDK_OFFSET(0x171C5CC0)
-#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE_METHOD_2_9A09F4503BCBA2AC_OFFSET UNITYSDK_OFFSET(0x171C5E80)
-#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171C5E90)
-#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x171C5690)
+#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE_METHOD_2_05A496EC4364A881_OFFSET UNITYSDK_OFFSET(0x188D3490)
+#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE_METHOD_2_9A09F4503BCBA2AC_OFFSET UNITYSDK_OFFSET(0x188D3650)
+#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x188D3660)
+#define RPG_GAMECORE_FATEMODIFIERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x188D2E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateModifierConfigBase_TypeDefinitionIndex = 17680;
+	inline static constexpr unsigned int FateModifierConfigBase_TypeDefinitionIndex = 18293;
 
 	class FateModifierConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierConfigBase*>*>** StaticGet__FromBinary_FateModifierConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(FateModifierConfigBase_TypeDefinitionIndex)->GetStaticField(0x2D360);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(FateModifierConfigBase_TypeDefinitionIndex)->GetStaticField(0x3CA80);
 		}
 
 		::System::Void _ctor()

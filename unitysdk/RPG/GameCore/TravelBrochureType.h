@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureType_TypeDefinitionIndex = 14104;
+	inline static constexpr unsigned int TravelBrochureType_TypeDefinitionIndex = 14573;
 
 	enum class TravelBrochureType : ::System::Int32
 	{

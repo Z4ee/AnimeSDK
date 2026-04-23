@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElementDamageType_TypeDefinitionIndex = 20759;
+	inline static constexpr unsigned int ElementDamageType_TypeDefinitionIndex = 21461;
 
 	enum class ElementDamageType : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_ONDESERIALIZINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163F1D50)
+#define SYSTEM_RUNTIME_SERIALIZATION_ONDESERIALIZINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1E480)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int OnDeserializingAttribute_TypeDefinitionIndex = 1113;
+	inline static constexpr unsigned int OnDeserializingAttribute_TypeDefinitionIndex = 1115;
 
 	class OnDeserializingAttribute : public ::System::Attribute
 	{

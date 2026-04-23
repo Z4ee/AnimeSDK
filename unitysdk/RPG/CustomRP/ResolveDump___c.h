@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AD7BA0)
-#define RPG_CUSTOMRP_RESOLVEDUMP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16AD7BE0)
-#define RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET UNITYSDK_OFFSET(0x16AD7BF0)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1817AE10)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1817AE50)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1817AE60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 29367;
+	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 35134;
 
 	class ResolveDump___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::CustomRP::ResolveDump_Tex>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::CustomRP::ResolveDump_Tex>**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x31A20);
+			return (::System::Comparison_1<::RPG::CustomRP::ResolveDump_Tex>**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x67F30);
 		}
 		static ::RPG::CustomRP::ResolveDump___c** StaticGet___9()
 		{
-			return (::RPG::CustomRP::ResolveDump___c**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x31A28);
+			return (::RPG::CustomRP::ResolveDump___c**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x67F38);
 		}
 
 		static ::System::Void _cctor()

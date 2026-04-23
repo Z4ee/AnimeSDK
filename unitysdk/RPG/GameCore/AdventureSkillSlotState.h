@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillSlotState_TypeDefinitionIndex = 16083;
+	inline static constexpr unsigned int AdventureSkillSlotState_TypeDefinitionIndex = 16614;
 
 	enum class AdventureSkillSlotState : ::System::Int32
 	{

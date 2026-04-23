@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitAnimStateResult_TypeDefinitionIndex = 46038;
+	inline static constexpr unsigned int WaitAnimStateResult_TypeDefinitionIndex = 52699;
 
 	enum class WaitAnimStateResult : ::System::Int32
 	{

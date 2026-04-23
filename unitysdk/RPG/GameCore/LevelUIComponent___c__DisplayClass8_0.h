@@ -4,12 +4,12 @@
 
 class Class_1_7807B2B04302CD7B_21;
 
-#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA9959A0)
-#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0__GETACTIVITYBUFFLAYERCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xA999D40)
+#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6E41A0)
+#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0__GETACTIVITYBUFFLAYERCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xB6E8670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelUIComponent___c__DisplayClass8_0_TypeDefinitionIndex = 46149;
+	inline static constexpr unsigned int LevelUIComponent___c__DisplayClass8_0_TypeDefinitionIndex = 52813;
 
 	class LevelUIComponent___c__DisplayClass8_0 : public ::System::Object
 	{

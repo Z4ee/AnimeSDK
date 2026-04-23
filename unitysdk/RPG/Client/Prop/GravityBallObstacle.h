@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_D878E1F1D44CD185;
+class Class_1_100ED75C115B764C;
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETANIMWIDTH_OFFSET UNITYSDK_OFFSET(0xA09C190)
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETEFFVISIBLE_OFFSET UNITYSDK_OFFSET(0xA09C1F0)
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETMOVING_OFFSET UNITYSDK_OFFSET(0xA09C140)
-#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA09C130)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETANIMWIDTH_OFFSET UNITYSDK_OFFSET(0xAE1AE60)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETEFFVISIBLE_OFFSET UNITYSDK_OFFSET(0xAE1AEC0)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE_SETMOVING_OFFSET UNITYSDK_OFFSET(0xAE1AE10)
+#define RPG_CLIENT_PROP_GRAVITYBALLOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAE1AE00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallObstacle_TypeDefinitionIndex = 64043;
+	inline static constexpr unsigned int GravityBallObstacle_TypeDefinitionIndex = 72090;
 
 	class GravityBallObstacle : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::GameObject* Wall; // 0x18
 		::UnityEngine::GameObject* Base; // 0x20
-		::Class_1_D878E1F1D44CD185* Field_5_2; // 0x28
+		::Class_1_100ED75C115B764C* Field_5_2; // 0x28
 		::System::Boolean Field_5_3; // 0x30
 		::System::Single Field_5_4; // 0x34
 

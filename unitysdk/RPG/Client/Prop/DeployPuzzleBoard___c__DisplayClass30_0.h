@@ -4,21 +4,21 @@
 
 namespace RPG::Client::Prop { class DeployPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0778A0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS30_0__SWAPSTONE_B__0_OFFSET UNITYSDK_OFFSET(0xA07A770)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS30_0__SWAPSTONE_B__1_OFFSET UNITYSDK_OFFSET(0xA07A850)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADF6250)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS30_0__SWAPSTONE_B__0_OFFSET UNITYSDK_OFFSET(0xADF9120)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS30_0__SWAPSTONE_B__1_OFFSET UNITYSDK_OFFSET(0xADF9200)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBoard___c__DisplayClass30_0_TypeDefinitionIndex = 63982;
+	inline static constexpr unsigned int DeployPuzzleBoard___c__DisplayClass30_0_TypeDefinitionIndex = 72029;
 
 	class DeployPuzzleBoard___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::Prop::DeployPuzzleBoard* __4__this; // 0x10
-		::System::UInt32 currentHoldStonePropID; // 0x18
+		::System::UInt32 stonePropID; // 0x18
 		::System::UInt32 basePointPropID; // 0x1C
-		::System::UInt32 stonePropID; // 0x20
+		::System::UInt32 currentHoldStonePropID; // 0x20
 
 		::System::Void _ctor()
 		{

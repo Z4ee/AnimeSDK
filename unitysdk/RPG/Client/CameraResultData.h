@@ -9,7 +9,7 @@ namespace Cinemachine { class ICinemachineCamera; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraResultData_TypeDefinitionIndex = 56862;
+	inline static constexpr unsigned int CameraResultData_TypeDefinitionIndex = 64109;
 
 	struct alignas(8) CameraResultData
 	{

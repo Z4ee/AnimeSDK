@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaMovieMaterialBase_RenderMode_TypeDefinitionIndex = 31154;
+	inline static constexpr unsigned int CriManaMovieMaterialBase_RenderMode_TypeDefinitionIndex = 36874;
 
 	enum class CriManaMovieMaterialBase_RenderMode : ::System::Int32
 	{

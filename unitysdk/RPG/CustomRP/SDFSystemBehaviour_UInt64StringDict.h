@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_UINT64STRINGDICT__CTOR_OFFSET UNITYSDK_OFFSET(0xA7AF8B0)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_UINT64STRINGDICT__CTOR_OFFSET UNITYSDK_OFFSET(0xB4F2850)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SDFSystemBehaviour_UInt64StringDict_TypeDefinitionIndex = 41902;
+	inline static constexpr unsigned int SDFSystemBehaviour_UInt64StringDict_TypeDefinitionIndex = 47877;
 
 	class SDFSystemBehaviour_UInt64StringDict : public ::RPG::CustomRP::SerializableDictionary_2<::System::UInt64, ::System::String*>
 	{

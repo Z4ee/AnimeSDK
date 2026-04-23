@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_DC9C477547B15CC2_CounterType_TypeDefinitionIndex = 58682;
+inline static constexpr unsigned int Class_2_DC9C477547B15CC2_CounterType_TypeDefinitionIndex = 66006;
 
 enum class Class_2_DC9C477547B15CC2_CounterType : ::System::Int32
 {

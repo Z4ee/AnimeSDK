@@ -31,7 +31,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 62244;
+	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 70243;
 
 	template <typename TEntity>
 	class SimpleEffectService_1 : public ::System::Object

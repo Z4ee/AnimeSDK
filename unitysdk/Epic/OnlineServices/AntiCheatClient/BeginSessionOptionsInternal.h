@@ -15,7 +15,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int BeginSessionOptionsInternal_TypeDefinitionIndex = 36702;
+	inline static constexpr unsigned int BeginSessionOptionsInternal_TypeDefinitionIndex = 42528;
 
 	struct alignas(8) BeginSessionOptionsInternal
 	{

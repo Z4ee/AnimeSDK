@@ -1,10 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_7D0231C413D78CFA.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_121__CTOR_OFFSET UNITYSDK_OFFSET(0x8FCEF70)
+namespace MiHoYoSDKJSON { class JSONNode; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_121_TypeDefinitionIndex = 50275;
+#define CLASS_1_43BD383C98B4C0C5_121__CTOR_OFFSET UNITYSDK_OFFSET(0x124F7440)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_121_TypeDefinitionIndex = 56345;
 
 class Class_1_43BD383C98B4C0C5_121 : public ::System::Object
 {

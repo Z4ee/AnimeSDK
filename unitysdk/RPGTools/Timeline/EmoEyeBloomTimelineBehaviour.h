@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline { class EyeBloomData; }
 
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4D7C0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C1FC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeBloomTimelineBehaviour_TypeDefinitionIndex = 38950;
+	inline static constexpr unsigned int EmoEyeBloomTimelineBehaviour_TypeDefinitionIndex = 44853;
 
 	class EmoEyeBloomTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

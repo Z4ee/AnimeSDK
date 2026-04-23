@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESAVATAREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B54D0)
-#define RPG_GAMECORE_PLANETFESAVATAREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174B57D0)
+#define RPG_GAMECORE_PLANETFESAVATAREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C00AA0)
+#define RPG_GAMECORE_PLANETFESAVATAREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C00DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarEventRow_TypeDefinitionIndex = 11164;
+	inline static constexpr unsigned int PlanetFesAvatarEventRow_TypeDefinitionIndex = 11567;
 
 	class PlanetFesAvatarEventRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
+		::System::String* PicPath; // 0x10
 		::System::String* IconPath; // 0x18
 		::Il2CppArray<::System::UInt32>* EventOptionIDList; // 0x20
-		::System::String* PicPath; // 0x28
-		::System::UInt32 AvatarID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::Client::TextID EventContent; // 0x38
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x28
+		::RPG::Client::TextID EventContent; // 0x30
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 AvatarID; // 0x44
 
 		::System::Void _ctor()
 		{

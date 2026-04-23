@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Overflow_TypeDefinitionIndex = 5859;
+	inline static constexpr unsigned int Overflow_TypeDefinitionIndex = 5871;
 
 	enum class Overflow : ::System::Int32
 	{

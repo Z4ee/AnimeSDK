@@ -6,16 +6,16 @@ class Class_1_FD740778034CC2E9;
 namespace RPG::Client { class EquipmentItemData; }
 namespace System { class String; }
 
-#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x114325C0)
-#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x114325A0)
+#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x92F2150)
+#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x92F2130)
 
-inline static constexpr unsigned int Class_1_FD740778034CC2E9___c__DisplayClass1_0_TypeDefinitionIndex = 53242;
+inline static constexpr unsigned int Class_1_FD740778034CC2E9___c__DisplayClass1_0_TypeDefinitionIndex = 60369;
 
 class Class_1_FD740778034CC2E9___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::Class_1_FD740778034CC2E9* __4__this; // 0x10
-	::RPG::Client::EquipmentItemData* equip; // 0x18
+	::RPG::Client::EquipmentItemData* equip; // 0x10
+	::Class_1_FD740778034CC2E9* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

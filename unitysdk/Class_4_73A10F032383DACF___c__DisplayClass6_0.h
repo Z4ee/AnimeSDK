@@ -6,10 +6,10 @@ class Class_2_49CAB3DE74280C58;
 class Class_4_73A10F032383DACF;
 namespace RPG::GameCore { class ChimeraDuelMasterSelectorConfig; }
 
-#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119135C0)
-#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x119137A0)
+#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x902AF80)
+#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x902B190)
 
-inline static constexpr unsigned int Class_4_73A10F032383DACF___c__DisplayClass6_0_TypeDefinitionIndex = 63179;
+inline static constexpr unsigned int Class_4_73A10F032383DACF___c__DisplayClass6_0_TypeDefinitionIndex = 71219;
 
 class Class_4_73A10F032383DACF___c__DisplayClass6_0 : public ::System::Object
 {

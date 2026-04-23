@@ -5,10 +5,10 @@
 class Class_1_BFC94D6B3CE54520;
 namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 
-#define CLASS_1_CBE705B7AA4359C1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1678B3F0)
-#define CLASS_1_CBE705B7AA4359C1__CTOR_OFFSET UNITYSDK_OFFSET(0x1678B450)
+#define CLASS_1_CBE705B7AA4359C1_CLEAR_OFFSET UNITYSDK_OFFSET(0x17DE6BB0)
+#define CLASS_1_CBE705B7AA4359C1__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE6C10)
 
-inline static constexpr unsigned int Class_1_CBE705B7AA4359C1_TypeDefinitionIndex = 32332;
+inline static constexpr unsigned int Class_1_CBE705B7AA4359C1_TypeDefinitionIndex = 38052;
 
 class Class_1_CBE705B7AA4359C1 : public ::System::Object
 {

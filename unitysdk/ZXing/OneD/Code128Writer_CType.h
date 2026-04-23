@@ -3,7 +3,7 @@
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code128Writer_CType_TypeDefinitionIndex = 6102;
+	inline static constexpr unsigned int Code128Writer_CType_TypeDefinitionIndex = 6114;
 
 	enum class Code128Writer_CType : ::System::Int32
 	{

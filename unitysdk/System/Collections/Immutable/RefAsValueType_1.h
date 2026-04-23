@@ -4,7 +4,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int RefAsValueType_1_TypeDefinitionIndex = 8975;
+	inline static constexpr unsigned int RefAsValueType_1_TypeDefinitionIndex = 9172;
 
 	template <typename T>
 	struct RefAsValueType_1

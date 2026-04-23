@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemScalingMode_TypeDefinitionIndex = 5484;
+	inline static constexpr unsigned int ParticleSystemScalingMode_TypeDefinitionIndex = 5495;
 
 	enum class ParticleSystemScalingMode : ::System::Int32
 	{

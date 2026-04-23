@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPanelSkillType_TypeDefinitionIndex = 12911;
+	inline static constexpr unsigned int FiveDimPanelSkillType_TypeDefinitionIndex = 13375;
 
 	enum class FiveDimPanelSkillType : ::System::Int32
 	{

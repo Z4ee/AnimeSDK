@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateClazzType_TypeDefinitionIndex = 10724;
+	inline static constexpr unsigned int FateClazzType_TypeDefinitionIndex = 10975;
 
 	enum class FateClazzType : ::System::Int32
 	{

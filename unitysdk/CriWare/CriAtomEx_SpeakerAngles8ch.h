@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_SPEAKERANGLES8CH_DEFAULT_OFFSET UNITYSDK_OFFSET(0x119FDA80)
+#define CRIWARE_CRIATOMEX_SPEAKERANGLES8CH_DEFAULT_OFFSET UNITYSDK_OFFSET(0x12BCC280)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_SpeakerAngles8ch_TypeDefinitionIndex = 30990;
+	inline static constexpr unsigned int CriAtomEx_SpeakerAngles8ch_TypeDefinitionIndex = 36710;
 
 	struct alignas(4) CriAtomEx_SpeakerAngles8ch
 	{

@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_388_TypeDefinitionIndex = 43826;
+namespace RPG::Client { class SortedEvolveBuildGearEquipInfoLists; }
+namespace RPG::GameCore { class EvolveBuildGearManager; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_388_TypeDefinitionIndex = 49365;
 
 class Class_0_16E4307DCC419505_388
 {

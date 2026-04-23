@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindObjLitePool_1_TypeDefinitionIndex = 49316;
+	inline static constexpr unsigned int TimeRewindObjLitePool_1_TypeDefinitionIndex = 56113;
 
 	template <typename T>
 	class TimeRewindObjLitePool_1 : public ::System::Object

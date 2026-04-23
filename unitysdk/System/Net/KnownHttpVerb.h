@@ -5,50 +5,50 @@
 namespace System { class String; }
 namespace System::Collections::Specialized { class ListDictionary; }
 
-#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x186D0170)
-#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x186F7220)
-#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x186F7200)
+#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x1A10A830)
+#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A131720)
+#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A131700)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int KnownHttpVerb_TypeDefinitionIndex = 2741;
+	inline static constexpr unsigned int KnownHttpVerb_TypeDefinitionIndex = 2742;
 
 	class KnownHttpVerb : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Specialized::ListDictionary** StaticGet_NamedHeaders()
 		{
-			return (::System::Collections::Specialized::ListDictionary**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12510);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Head()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12518);
+			return (::System::Collections::Specialized::ListDictionary**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13E90);
 		}
 		static ::System::Net::KnownHttpVerb** StaticGet_Get()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12520);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Put()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12528);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12530);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Post()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12538);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13E98);
 		}
 		static ::System::Net::KnownHttpVerb** StaticGet_MkCol()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x12540);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13EA0);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
+		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13EA8);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_Post()
+		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13EB0);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13EB8);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_Put()
+		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13EC0);
 		}
 		::System::String* Name; // 0x10
-		::System::Boolean RequireContentBody; // 0x18
-		::System::Boolean ExpectNoContentResponse; // 0x19
-		::System::Boolean ContentBodyNotAllowed; // 0x1A
-		::System::Boolean ConnectRequest; // 0x1B
+		::System::Boolean ExpectNoContentResponse; // 0x18
+		::System::Boolean RequireContentBody; // 0x19
+		::System::Boolean ConnectRequest; // 0x1A
+		::System::Boolean ContentBodyNotAllowed; // 0x1B
 
 		::System::Void _ctor(::System::String* name, ::System::Boolean requireContentBody, ::System::Boolean contentBodyNotAllowed, ::System::Boolean connectRequest, ::System::Boolean expectNoContentResponse)
 		{

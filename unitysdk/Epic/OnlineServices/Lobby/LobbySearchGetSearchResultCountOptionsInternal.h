@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Lobby { class LobbySearchGetSearchResultCountOpt
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4F210)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4FC10)
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearchGetSearchResultCountOptionsInternal_TypeDefinitionIndex = 36103;
+	inline static constexpr unsigned int LobbySearchGetSearchResultCountOptionsInternal_TypeDefinitionIndex = 41929;
 
 	struct alignas(4) LobbySearchGetSearchResultCountOptionsInternal
 	{

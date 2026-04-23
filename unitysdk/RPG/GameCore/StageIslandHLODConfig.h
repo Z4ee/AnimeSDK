@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEISLANDHLODCONFIG_METHOD_2_AB25782E2113A148_OFFSET UNITYSDK_OFFSET(0x177687F0)
-#define RPG_GAMECORE_STAGEISLANDHLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17768900)
+#define RPG_GAMECORE_STAGEISLANDHLODCONFIG_METHOD_2_AB25782E2113A148_OFFSET UNITYSDK_OFFSET(0x18E8E380)
+#define RPG_GAMECORE_STAGEISLANDHLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8E490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageIslandHLODConfig_TypeDefinitionIndex = 17543;
+	inline static constexpr unsigned int StageIslandHLODConfig_TypeDefinitionIndex = 18152;
 
 	class StageIslandHLODConfig : public ::RPG::GameCore::JsonConfig
 	{

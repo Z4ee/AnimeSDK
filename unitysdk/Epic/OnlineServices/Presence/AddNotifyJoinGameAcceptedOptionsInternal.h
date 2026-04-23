@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Presence { class AddNotifyJoinGameAcceptedOption
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYJOINGAMEACCEPTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYJOINGAMEACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x60670)
+#define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYJOINGAMEACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x610A0)
 #define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYJOINGAMEACCEPTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1980)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int AddNotifyJoinGameAcceptedOptionsInternal_TypeDefinitionIndex = 35751;
+	inline static constexpr unsigned int AddNotifyJoinGameAcceptedOptionsInternal_TypeDefinitionIndex = 41577;
 
 	struct alignas(4) AddNotifyJoinGameAcceptedOptionsInternal
 	{

@@ -4,17 +4,18 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FiveDimPropSpawnerItem; }
 namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_4E6023DAF33388C1_OFFSET UNITYSDK_OFFSET(0x17205810)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_9AA320A21C18C300_OFFSET UNITYSDK_OFFSET(0x17205780)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172057E0)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_4E6023DAF33388C1_OFFSET UNITYSDK_OFFSET(0x18916A90)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_9AA320A21C18C300_OFFSET UNITYSDK_OFFSET(0x18916A00)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18916A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 17057;
+	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 17656;
 
 	class FiveDimPropSpawnerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -29,8 +30,10 @@ namespace RPG::GameCore
 		::System::Single DelayDuration; // 0x24
 		::RPG::MVector3 CreationOffset; // 0x28
 		::RPG::GameCore::FiveDimPropSpawnerParam* SpawnParam; // 0x38
-		::System::Boolean SendEventOnInit; // 0x40
-		::RPG::GameCore::LittleGameEvent* SpawnEvent; // 0x48
+		::System::Boolean UseExtraRandomPreset; // 0x40
+		::Il2CppArray<::RPG::GameCore::FiveDimPropSpawnerItem*>* ExtraPresetList; // 0x48
+		::System::Boolean SendEventOnInit; // 0x50
+		::RPG::GameCore::LittleGameEvent* SpawnEvent; // 0x58
 
 		::System::Void _ctor()
 		{

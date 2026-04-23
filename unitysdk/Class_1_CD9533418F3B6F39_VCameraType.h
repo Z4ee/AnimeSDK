@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_CD9533418F3B6F39_VCameraType_TypeDefinitionIndex = 57035;
+inline static constexpr unsigned int Class_1_CD9533418F3B6F39_VCameraType_TypeDefinitionIndex = 64285;
 
 enum class Class_1_CD9533418F3B6F39_VCameraType : ::System::Int32
 {

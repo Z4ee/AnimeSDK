@@ -4,9 +4,9 @@
 
 namespace RPG::Client::LittleGame { class TimelineControlGameWorld_LevelGroupAction; }
 
-#define CLASS_1_BDA2C084533125A6__CTOR_OFFSET UNITYSDK_OFFSET(0x167ACC60)
+#define CLASS_1_BDA2C084533125A6__CTOR_OFFSET UNITYSDK_OFFSET(0x17EB6230)
 
-inline static constexpr unsigned int Class_1_BDA2C084533125A6_TypeDefinitionIndex = 32990;
+inline static constexpr unsigned int Class_1_BDA2C084533125A6_TypeDefinitionIndex = 38780;
 
 class Class_1_BDA2C084533125A6 : public ::System::Object
 {

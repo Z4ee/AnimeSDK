@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameStateType_TypeDefinitionIndex = 51956;
+	inline static constexpr unsigned int FateGameStateType_TypeDefinitionIndex = 58905;
 
 	enum class FateGameStateType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_ParseFailureKind_TypeDefinitionIndex = 769;
+	inline static constexpr unsigned int TimeSpanParse_ParseFailureKind_TypeDefinitionIndex = 771;
 
 	enum class TimeSpanParse_ParseFailureKind : ::System::Int32
 	{

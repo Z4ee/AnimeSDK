@@ -8,13 +8,13 @@ namespace RPG::Client { class Effect_ParticleVelocityControlBehavior_ParticleCon
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9573130)
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9573180)
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x95731A0)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA1F6510)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F6560)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA1F6580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleVelocityControlMonoPlugin_TypeDefinitionIndex = 57753;
+	inline static constexpr unsigned int Effect_ParticleVelocityControlMonoPlugin_TypeDefinitionIndex = 65017;
 
 	class Effect_ParticleVelocityControlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ParticleVelocityControlBehavior*>
 	{

@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_0C3D32DB2657826D__CTOR_OFFSET UNITYSDK_OFFSET(0x113C2460)
+#define CLASS_1_0C3D32DB2657826D__CTOR_OFFSET UNITYSDK_OFFSET(0x11D680C0)
 
-inline static constexpr unsigned int Class_1_0C3D32DB2657826D_TypeDefinitionIndex = 46367;
+inline static constexpr unsigned int Class_1_0C3D32DB2657826D_TypeDefinitionIndex = 53042;
 
 class Class_1_0C3D32DB2657826D : public ::System::Object
 {

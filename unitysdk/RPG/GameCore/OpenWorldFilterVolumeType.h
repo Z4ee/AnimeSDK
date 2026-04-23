@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenWorldFilterVolumeType_TypeDefinitionIndex = 17559;
+	inline static constexpr unsigned int OpenWorldFilterVolumeType_TypeDefinitionIndex = 18172;
 
 	enum class OpenWorldFilterVolumeType : ::System::Int32
 	{

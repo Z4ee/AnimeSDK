@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EAssemblyNPC_TypeDefinitionIndex = 56559;
+	inline static constexpr unsigned int EAssemblyNPC_TypeDefinitionIndex = 63803;
 
 	enum class EAssemblyNPC : ::System::Int32
 	{

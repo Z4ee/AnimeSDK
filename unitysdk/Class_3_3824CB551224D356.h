@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BySaveModelWhenDead; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3824CB551224D356_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8B539D0)
-#define CLASS_3_3824CB551224D356__CTOR_OFFSET UNITYSDK_OFFSET(0x8B539A0)
+#define CLASS_3_3824CB551224D356_EVALUATE_OFFSET UNITYSDK_OFFSET(0x988D2E0)
+#define CLASS_3_3824CB551224D356__CTOR_OFFSET UNITYSDK_OFFSET(0x988D2B0)
 
-inline static constexpr unsigned int Class_3_3824CB551224D356_TypeDefinitionIndex = 45333;
+inline static constexpr unsigned int Class_3_3824CB551224D356_TypeDefinitionIndex = 51977;
 
 class Class_3_3824CB551224D356 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::BySaveModelWhenDead*>
 {

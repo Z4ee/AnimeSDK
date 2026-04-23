@@ -8,18 +8,18 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatGameFlow___O_TypeDefinitionIndex = 61942;
+	inline static constexpr unsigned int DiceCombatGameFlow___O_TypeDefinitionIndex = 69867;
 
 	class DiceCombatGameFlow___O : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>** StaticGet__0___Create()
-		{
-			return (::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatGameFlow___O_TypeDefinitionIndex)->GetStaticField(0x44820);
-		}
 		static ::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>** StaticGet__1___Create()
 		{
-			return (::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatGameFlow___O_TypeDefinitionIndex)->GetStaticField(0x44828);
+			return (::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatGameFlow___O_TypeDefinitionIndex)->GetStaticField(0x63A90);
+		}
+		static ::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>** StaticGet__0___Create()
+		{
+			return (::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatGameFlow___O_TypeDefinitionIndex)->GetStaticField(0x63A98);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAssetPreloadStrategy_TypeDefinitionIndex = 15079;
+	inline static constexpr unsigned int AvatarAssetPreloadStrategy_TypeDefinitionIndex = 15587;
 
 	enum class AvatarAssetPreloadStrategy : ::System::UInt16
 	{

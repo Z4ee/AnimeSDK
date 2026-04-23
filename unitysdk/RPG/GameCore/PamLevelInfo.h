@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PAMLEVELINFO_METHOD_2_39029B761C499F93_OFFSET UNITYSDK_OFFSET(0x174872F0)
-#define RPG_GAMECORE_PAMLEVELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17487430)
+#define RPG_GAMECORE_PAMLEVELINFO_METHOD_2_39029B761C499F93_OFFSET UNITYSDK_OFFSET(0x18BD0BE0)
+#define RPG_GAMECORE_PAMLEVELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD0D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamLevelInfo_TypeDefinitionIndex = 14317;
+	inline static constexpr unsigned int PamLevelInfo_TypeDefinitionIndex = 14787;
 
 	class PamLevelInfo : public ::RPG::GameCore::JsonConfig
 	{

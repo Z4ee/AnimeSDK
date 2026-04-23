@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvHideMazeBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3342A798E5AFBC84_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11875EB0)
-#define CLASS_3_3342A798E5AFBC84__CTOR_OFFSET UNITYSDK_OFFSET(0x11875E80)
+#define CLASS_3_3342A798E5AFBC84_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12488F10)
+#define CLASS_3_3342A798E5AFBC84__CTOR_OFFSET UNITYSDK_OFFSET(0x12488EE0)
 
-inline static constexpr unsigned int Class_3_3342A798E5AFBC84_TypeDefinitionIndex = 46660;
+inline static constexpr unsigned int Class_3_3342A798E5AFBC84_TypeDefinitionIndex = 53368;
 
 class Class_3_3342A798E5AFBC84 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvHideMazeBtn*>
 {

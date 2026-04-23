@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONEXTENSIONS_SETVALUE_OFFSET UNITYSDK_OFFSET(0x18522780)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONEXTENSIONS_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19F5D610)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 4791;
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 4799;
 
 	class CollectionExtensions : public ::System::Object
 	{

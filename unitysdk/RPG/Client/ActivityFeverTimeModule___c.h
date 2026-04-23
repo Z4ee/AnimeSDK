@@ -5,24 +5,24 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F09310)
-#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F09350)
-#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__GETTRIALAVATARS_B__23_0_OFFSET UNITYSDK_OFFSET(0x8F09360)
+#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9ADA780)
+#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9ADA7C0)
+#define RPG_CLIENT_ACTIVITYFEVERTIMEMODULE___C__GETTRIALAVATARS_B__23_0_OFFSET UNITYSDK_OFFSET(0x9ADA7D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityFeverTimeModule___c_TypeDefinitionIndex = 49910;
+	inline static constexpr unsigned int ActivityFeverTimeModule___c_TypeDefinitionIndex = 56732;
 
 	class ActivityFeverTimeModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeModule___c_TypeDefinitionIndex)->GetStaticField(0x29BB0);
-		}
 		static ::RPG::Client::ActivityFeverTimeModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityFeverTimeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeModule___c_TypeDefinitionIndex)->GetStaticField(0x29BB8);
+			return (::RPG::Client::ActivityFeverTimeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeModule___c_TypeDefinitionIndex)->GetStaticField(0x22C80);
+		}
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeModule___c_TypeDefinitionIndex)->GetStaticField(0x22C88);
 		}
 
 		static ::System::Void _cctor()

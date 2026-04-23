@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PerformDelayExecute; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_39141A8D7C0B4CA4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD163050)
-#define CLASS_3_39141A8D7C0B4CA4__CTOR_OFFSET UNITYSDK_OFFSET(0xD163020)
+#define CLASS_3_39141A8D7C0B4CA4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9E26090)
+#define CLASS_3_39141A8D7C0B4CA4__CTOR_OFFSET UNITYSDK_OFFSET(0x9E26060)
 
-inline static constexpr unsigned int Class_3_39141A8D7C0B4CA4_TypeDefinitionIndex = 44234;
+inline static constexpr unsigned int Class_3_39141A8D7C0B4CA4_TypeDefinitionIndex = 50945;
 
 class Class_3_39141A8D7C0B4CA4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PerformDelayExecute*>
 {

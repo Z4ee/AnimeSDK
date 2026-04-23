@@ -4,9 +4,9 @@
 
 namespace XLua { class LuaTable; }
 
-#define CLASS_1_A0D6C293180538F5__CTOR_OFFSET UNITYSDK_OFFSET(0x874F220)
+#define CLASS_1_A0D6C293180538F5__CTOR_OFFSET UNITYSDK_OFFSET(0x9165F70)
 
-inline static constexpr unsigned int Class_1_A0D6C293180538F5_TypeDefinitionIndex = 48076;
+inline static constexpr unsigned int Class_1_A0D6C293180538F5_TypeDefinitionIndex = 54821;
 
 class Class_1_A0D6C293180538F5 : public ::System::Object
 {

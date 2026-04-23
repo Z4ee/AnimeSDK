@@ -6,7 +6,7 @@ namespace RPG::Client { class IGamePhase; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGamePhaseLuaHack_TypeDefinitionIndex = 48048;
+	inline static constexpr unsigned int IGamePhaseLuaHack_TypeDefinitionIndex = 54793;
 
 	class IGamePhaseLuaHack
 	{

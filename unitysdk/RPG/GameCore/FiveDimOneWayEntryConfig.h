@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameTriggerConfig; }
 
-#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_METHOD_2_44ECCF7724343AB8_OFFSET UNITYSDK_OFFSET(0x17200430)
-#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17200590)
+#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_METHOD_2_44ECCF7724343AB8_OFFSET UNITYSDK_OFFSET(0x18911520)
+#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18911680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 17009;
+	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 17603;
 
 	class FiveDimOneWayEntryConfig : public ::RPG::GameCore::JsonConfig
 	{

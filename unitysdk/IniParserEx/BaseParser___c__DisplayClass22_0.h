@@ -4,7 +4,7 @@
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int BaseParser___c__DisplayClass22_0_TypeDefinitionIndex = 3740;
+	inline static constexpr unsigned int BaseParser___c__DisplayClass22_0_TypeDefinitionIndex = 3742;
 
 	struct alignas(2) BaseParser___c__DisplayClass22_0
 	{

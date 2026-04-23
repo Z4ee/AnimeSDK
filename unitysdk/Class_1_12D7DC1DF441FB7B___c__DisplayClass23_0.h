@@ -5,16 +5,16 @@
 class Class_1_12D7DC1DF441FB7B;
 namespace RPG::Client { class ChallengePeak; }
 
-#define CLASS_1_12D7DC1DF441FB7B___C__DISPLAYCLASS23_0__CHALLENGENORMAL_B__0_OFFSET UNITYSDK_OFFSET(0xD193780)
-#define CLASS_1_12D7DC1DF441FB7B___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD18F990)
+#define CLASS_1_12D7DC1DF441FB7B___C__DISPLAYCLASS23_0__CHALLENGENORMAL_B__0_OFFSET UNITYSDK_OFFSET(0xC0CB8A0)
+#define CLASS_1_12D7DC1DF441FB7B___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C7A30)
 
-inline static constexpr unsigned int Class_1_12D7DC1DF441FB7B___c__DisplayClass23_0_TypeDefinitionIndex = 51254;
+inline static constexpr unsigned int Class_1_12D7DC1DF441FB7B___c__DisplayClass23_0_TypeDefinitionIndex = 58178;
 
 class Class_1_12D7DC1DF441FB7B___c__DisplayClass23_0 : public ::System::Object
 {
 public:
-	::Class_1_12D7DC1DF441FB7B* __4__this; // 0x10
-	::RPG::Client::ChallengePeak* peak; // 0x18
+	::RPG::Client::ChallengePeak* peak; // 0x10
+	::Class_1_12D7DC1DF441FB7B* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

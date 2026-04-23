@@ -5,9 +5,9 @@
 namespace System { class Type; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define SYSTEM_DEFAULTBINDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162AF080)
-#define SYSTEM_DEFAULTBINDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162AF0C0)
-#define SYSTEM_DEFAULTBINDER___C__SELECTPROPERTY_B__3_0_OFFSET UNITYSDK_OFFSET(0x162AF0D0)
+#define SYSTEM_DEFAULTBINDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x178DB990)
+#define SYSTEM_DEFAULTBINDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x178DB9D0)
+#define SYSTEM_DEFAULTBINDER___C__SELECTPROPERTY_B__3_0_OFFSET UNITYSDK_OFFSET(0x178DB9E0)
 
 namespace System
 {
@@ -16,13 +16,13 @@ namespace System
 	class DefaultBinder___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::System::Type*>** StaticGet___9__3_0()
-		{
-			return (::System::Predicate_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DefaultBinder___c_TypeDefinitionIndex)->GetStaticField(0x46B0);
-		}
 		static ::System::DefaultBinder___c** StaticGet___9()
 		{
-			return (::System::DefaultBinder___c**)Il2CppClass::FromTypeDefinitionIndex(DefaultBinder___c_TypeDefinitionIndex)->GetStaticField(0x46B8);
+			return (::System::DefaultBinder___c**)Il2CppClass::FromTypeDefinitionIndex(DefaultBinder___c_TypeDefinitionIndex)->GetStaticField(0x52E0);
+		}
+		static ::System::Predicate_1<::System::Type*>** StaticGet___9__3_0()
+		{
+			return (::System::Predicate_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DefaultBinder___c_TypeDefinitionIndex)->GetStaticField(0x52E8);
 		}
 
 		static ::System::Void _cctor()

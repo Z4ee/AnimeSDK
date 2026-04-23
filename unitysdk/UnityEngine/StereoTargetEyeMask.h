@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int StereoTargetEyeMask_TypeDefinitionIndex = 3959;
+	inline static constexpr unsigned int StereoTargetEyeMask_TypeDefinitionIndex = 3961;
 
 	enum class StereoTargetEyeMask : ::System::Int32
 	{

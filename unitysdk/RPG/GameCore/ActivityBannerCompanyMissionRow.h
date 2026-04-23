@@ -6,27 +6,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA3DA0)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA46C0)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18604660)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18604F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityBannerCompanyMissionRow_TypeDefinitionIndex = 10272;
+	inline static constexpr unsigned int ActivityBannerCompanyMissionRow_TypeDefinitionIndex = 10497;
 
 	class ActivityBannerCompanyMissionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x18
+		::System::String* MainImagePath; // 0x10
+		::System::String* SubImagePath; // 0x18
 		::Il2CppArray<::System::UInt32>* UnlockMissionList; // 0x20
-		::System::String* SubImagePath; // 0x28
-		::System::String* MainImagePath; // 0x30
+		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x30
 		::RPG::Client::TextID Title; // 0x38
 		::System::UInt32 BannerID; // 0x48
-		::System::UInt32 SortID; // 0x4C
-		::RPG::Client::TextID ShortDesc; // 0x50
-		::RPG::Client::TextID SubTitle; // 0x60
+		::RPG::Client::TextID SubTitle; // 0x50
+		::RPG::Client::TextID ShortDesc; // 0x60
 		::System::UInt32 ActivityModuleID; // 0x70
+		::System::UInt32 SortID; // 0x74
 
 		::System::Void _ctor()
 		{

@@ -7,11 +7,11 @@ namespace RPG::Client::CityCarFlow { class MonoCityCarFlowIntersection_Lane; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarFlowIntersection_SignRule; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x93E00C0)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWINTERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA08DBB0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowIntersection_TypeDefinitionIndex = 64546;
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_TypeDefinitionIndex = 72593;
 
 	class MonoCityCarFlowIntersection : public ::UnityEngine::MonoBehaviour
 	{

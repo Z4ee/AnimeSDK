@@ -7,15 +7,16 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 namespace RPG::GameCore { class AdventureAttackDetectSummonUnitTriggerConfig; }
 namespace RPG::GameCore { class AdventureHitConfig; }
+namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_287821EE07D86265_OFFSET UNITYSDK_OFFSET(0x16F5B7E0)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_7C794FCF43CF3E2B_OFFSET UNITYSDK_OFFSET(0x16F5BA80)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5BA10)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_287821EE07D86265_OFFSET UNITYSDK_OFFSET(0x1867DFE0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_7C794FCF43CF3E2B_OFFSET UNITYSDK_OFFSET(0x1867E280)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1867E210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 18490;
+	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 19143;
 
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,11 +32,14 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBattle; // 0x50
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnHit; // 0x58
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnKill; // 0x60
-		::System::Boolean IncludeProps; // 0x68
-		::System::Boolean HitTargetFaceToAttacker; // 0x69
-		::System::Boolean TriggerBattleByAllHitTarget; // 0x6A
-		::System::Boolean AttackDetectCollision; // 0x6B
-		::RPG::GameCore::AdvEnterBattleSelectTargetType EnterBattleSelectTargetType; // 0x6C
+		::RPG::GameCore::PredicateConfig* FilterHitTarget; // 0x68
+		::System::Boolean IncludeProps; // 0x70
+		::System::Boolean HitTargetFaceToAttacker; // 0x71
+		::System::Boolean TriggerBattleByAllHitTarget; // 0x72
+		::System::Boolean AttackDetectCollision; // 0x73
+		::System::Boolean FilterAllHitTargetByCurrentMP; // 0x74
+		::RPG::GameCore::AdvEnterBattleSelectTargetType EnterBattleSelectTargetType; // 0x78
+		::System::UInt32 CostMP; // 0x7C
 
 		::System::Void _ctor()
 		{

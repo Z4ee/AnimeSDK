@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_HIDEININSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18A11BD0)
+#define UNITYENGINE_HIDEININSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A44B6D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HideInInspector_TypeDefinitionIndex = 4115;
+	inline static constexpr unsigned int HideInInspector_TypeDefinitionIndex = 4117;
 
 	class HideInInspector : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FixedBitsetBoolResult_TypeDefinitionIndex = 45282;
+	inline static constexpr unsigned int FixedBitsetBoolResult_TypeDefinitionIndex = 51925;
 
 	enum class FixedBitsetBoolResult : ::System::Int32
 	{

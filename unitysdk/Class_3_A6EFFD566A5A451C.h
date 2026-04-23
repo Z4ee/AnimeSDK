@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopPermanentEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A6EFFD566A5A451C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A2A410)
-#define CLASS_3_A6EFFD566A5A451C__CTOR_OFFSET UNITYSDK_OFFSET(0x8A2A3E0)
+#define CLASS_3_A6EFFD566A5A451C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11D45390)
+#define CLASS_3_A6EFFD566A5A451C__CTOR_OFFSET UNITYSDK_OFFSET(0x11D45360)
 
-inline static constexpr unsigned int Class_3_A6EFFD566A5A451C_TypeDefinitionIndex = 44808;
+inline static constexpr unsigned int Class_3_A6EFFD566A5A451C_TypeDefinitionIndex = 51555;
 
 class Class_3_A6EFFD566A5A451C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopPermanentEmotion*>
 {

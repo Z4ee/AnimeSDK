@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_2_0C58AD91B0F4D809;
+namespace Entitas { class IEntity; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_1_920177C44586025C_METHOD_1_01FEA7B946DDD4E8_OFFSET UNITYSDK_OFFSET(0xB7D7E30)
+#define CLASS_1_920177C44586025C_METHOD_1_1049F33F4ED143B8_OFFSET UNITYSDK_OFFSET(0xB7D7F90)
+#define CLASS_1_920177C44586025C_METHOD_1_287D52618C189F79_OFFSET UNITYSDK_OFFSET(0xB7D7FF0)
+#define CLASS_1_920177C44586025C_METHOD_1_3C788316CA1AE598_OFFSET UNITYSDK_OFFSET(0xB7D8160)
+#define CLASS_1_920177C44586025C_METHOD_1_64537B3993261384_OFFSET UNITYSDK_OFFSET(0xB7C5A30)
+#define CLASS_1_920177C44586025C_METHOD_1_8FF0E9688296B753_OFFSET UNITYSDK_OFFSET(0xB7D7C70)
+#define CLASS_1_920177C44586025C_METHOD_1_9DE95244218C4A67_OFFSET UNITYSDK_OFFSET(0xB7D66D0)
+#define CLASS_1_920177C44586025C_METHOD_1_E52A85E9F69A491B_OFFSET UNITYSDK_OFFSET(0xB7D80E0)
+#define CLASS_1_920177C44586025C_METHOD_1_EB3423317398E92E_OFFSET UNITYSDK_OFFSET(0xB7D7100)
+#define CLASS_1_920177C44586025C_METHOD_1_F65AC6469765C742_OFFSET UNITYSDK_OFFSET(0xB7D7A70)
+
+inline static constexpr unsigned int Class_1_920177C44586025C_TypeDefinitionIndex = 70441;
+
+class Class_1_920177C44586025C : public ::System::Object
+{
+public:
+	static ::System::Void Method_1_9DE95244218C4A67(::Class_2_0C58AD91B0F4D809* a1, ::UnityEngine::Vector3 a2)
+	{
+		return ((::System::Void(*)(::Class_2_0C58AD91B0F4D809*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_9DE95244218C4A67_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_EB3423317398E92E(::Class_2_0C58AD91B0F4D809* a1, ::UnityEngine::Quaternion a2)
+	{
+		return ((::System::Void(*)(::Class_2_0C58AD91B0F4D809*, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_EB3423317398E92E_OFFSET))(a1, a2);
+	}
+
+	static ::UnityEngine::GameObject* Method_1_F65AC6469765C742(::Class_2_0C58AD91B0F4D809* a1)
+	{
+		return ((::UnityEngine::GameObject*(*)(::Class_2_0C58AD91B0F4D809*))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_F65AC6469765C742_OFFSET))(a1);
+	}
+
+	static ::System::Int32 Method_1_64537B3993261384(::Entitas::IEntity* a1)
+	{
+		return ((::System::Int32(*)(::Entitas::IEntity*))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_64537B3993261384_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_1_8FF0E9688296B753(::Class_2_0C58AD91B0F4D809* a1, ::Class_2_0C58AD91B0F4D809* a2)
+	{
+		return ((::System::Void(*)(::Class_2_0C58AD91B0F4D809*, ::Class_2_0C58AD91B0F4D809*))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_8FF0E9688296B753_OFFSET))(a1, a2);
+	}
+
+	static ::System::UInt32 Method_1_01FEA7B946DDD4E8(::Class_2_0C58AD91B0F4D809* a1)
+	{
+		return ((::System::UInt32(*)(::Class_2_0C58AD91B0F4D809*))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_01FEA7B946DDD4E8_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_1_1049F33F4ED143B8(::Class_2_0C58AD91B0F4D809* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::Class_2_0C58AD91B0F4D809*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_1049F33F4ED143B8_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_287D52618C189F79(::Class_2_0C58AD91B0F4D809* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::Class_2_0C58AD91B0F4D809*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_287D52618C189F79_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_1_E52A85E9F69A491B(::Class_2_0C58AD91B0F4D809* a1)
+	{
+		return ((::System::Boolean(*)(::Class_2_0C58AD91B0F4D809*))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_E52A85E9F69A491B_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_1_3C788316CA1AE598(::Class_2_0C58AD91B0F4D809* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Vector3 a4)
+	{
+		return ((::System::Void(*)(::Class_2_0C58AD91B0F4D809*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_920177C44586025C_METHOD_1_3C788316CA1AE598_OFFSET))(a1, a2, a3, a4);
+	}
+};

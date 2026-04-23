@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_EMAILADDRESS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1852C040)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_EMAILADDRESS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19F66ED0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_EmailAddress_TypeDefinitionIndex = 4824;
+	inline static constexpr unsigned int Parser_EmailAddress_TypeDefinitionIndex = 4832;
 
 	class Parser_EmailAddress : public ::System::Object
 	{

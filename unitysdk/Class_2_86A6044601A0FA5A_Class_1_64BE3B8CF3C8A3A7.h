@@ -7,22 +7,22 @@ namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7_METHOD_1_19CCC07C980409E4_OFFSET UNITYSDK_OFFSET(0x8ADBBC0)
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7_METHOD_1_D0A7AC5663C34EC7_OFFSET UNITYSDK_OFFSET(0x8ADB490)
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x8ADC5E0)
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7__CTOR_OFFSET UNITYSDK_OFFSET(0x8ADBF80)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7_METHOD_1_19CCC07C980409E4_OFFSET UNITYSDK_OFFSET(0x9859400)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7_METHOD_1_D0A7AC5663C34EC7_OFFSET UNITYSDK_OFFSET(0x9858CD0)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x9859E20)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_64BE3B8CF3C8A3A7__CTOR_OFFSET UNITYSDK_OFFSET(0x98597C0)
 
-inline static constexpr unsigned int Class_2_86A6044601A0FA5A_Class_1_64BE3B8CF3C8A3A7_TypeDefinitionIndex = 57148;
+inline static constexpr unsigned int Class_2_86A6044601A0FA5A_Class_1_64BE3B8CF3C8A3A7_TypeDefinitionIndex = 64399;
 
 class Class_2_86A6044601A0FA5A_Class_1_64BE3B8CF3C8A3A7 : public ::System::Object
 {
 public:
-	::UnityEngine::LineRenderer* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x10
 	::UnityEngine::Material* Field_1_3; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::UnityEngine::Material* Field_1_4; // 0x28
-	::UnityEngine::Transform* Field_1_1; // 0x30
-	::RPG::Client::CharacterEffect* Field_1_5; // 0x38
+	::UnityEngine::LineRenderer* Field_1_0; // 0x20
+	::RPG::Client::CharacterEffect* Field_1_5; // 0x28
+	::UnityEngine::Material* Field_1_4; // 0x30
+	::UnityEngine::Transform* Field_1_2; // 0x38
 	::System::Single Field_1_6; // 0x40
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::LineRenderer* a3, ::UnityEngine::Transform* a4, ::RPG::Client::CharacterEffect* a5)

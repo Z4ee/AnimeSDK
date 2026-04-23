@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DLSSData_TypeDefinitionIndex = 4611;
+	inline static constexpr unsigned int DLSSData_TypeDefinitionIndex = 4619;
 
 	struct alignas(8) DLSSData
 	{

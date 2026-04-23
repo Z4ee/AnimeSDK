@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEPRELOADCONFIG_METHOD_2_7201E095BFB49FD8_OFFSET UNITYSDK_OFFSET(0x1776B920)
-#define RPG_GAMECORE_STAGEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1776BA00)
+#define RPG_GAMECORE_STAGEPRELOADCONFIG_METHOD_2_7201E095BFB49FD8_OFFSET UNITYSDK_OFFSET(0x18E914B0)
+#define RPG_GAMECORE_STAGEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E91590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePreloadConfig_TypeDefinitionIndex = 14967;
+	inline static constexpr unsigned int StagePreloadConfig_TypeDefinitionIndex = 15474;
 
 	class StagePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

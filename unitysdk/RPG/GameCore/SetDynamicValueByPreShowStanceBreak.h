@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_13AA3CD97544CCF7_OFFSET UNITYSDK_OFFSET(0x176C2B90)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_E14FD3C760AD1211_OFFSET UNITYSDK_OFFSET(0x176C2B10)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x176C2B60)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_5F1E45F755054371_OFFSET UNITYSDK_OFFSET(0x18E25440)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_69CF8856045B7DEE_OFFSET UNITYSDK_OFFSET(0x18E254C0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x18E25490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByPreShowStanceBreak_TypeDefinitionIndex = 21939;
+	inline static constexpr unsigned int SetDynamicValueByPreShowStanceBreak_TypeDefinitionIndex = 22679;
 
 	class SetDynamicValueByPreShowStanceBreak : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E14FD3C760AD1211(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*& a2)
+		static ::System::Void Method_3_5F1E45F755054371(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_E14FD3C760AD1211_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_5F1E45F755054371_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_13AA3CD97544CCF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak* a2)
+		static ::System::Void Method_3_69CF8856045B7DEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_13AA3CD97544CCF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYPRESHOWSTANCEBREAK_METHOD_3_69CF8856045B7DEE_OFFSET))(a1, a2);
 		}
 	};
 }

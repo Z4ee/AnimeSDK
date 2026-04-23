@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntityPosAdaptionResultFlag_TypeDefinitionIndex = 46609;
+	inline static constexpr unsigned int GameEntityPosAdaptionResultFlag_TypeDefinitionIndex = 53300;
 
 	enum class GameEntityPosAdaptionResultFlag : ::System::Int32
 	{

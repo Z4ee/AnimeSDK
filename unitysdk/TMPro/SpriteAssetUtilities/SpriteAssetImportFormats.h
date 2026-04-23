@@ -3,7 +3,7 @@
 
 namespace TMPro::SpriteAssetUtilities
 {
-	inline static constexpr unsigned int SpriteAssetImportFormats_TypeDefinitionIndex = 34433;
+	inline static constexpr unsigned int SpriteAssetImportFormats_TypeDefinitionIndex = 40252;
 
 	enum class SpriteAssetImportFormats : ::System::Int32
 	{

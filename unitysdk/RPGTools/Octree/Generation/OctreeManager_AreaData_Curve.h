@@ -6,12 +6,12 @@ class Class_1_C84A84118567060F;
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPGTools::Octree::Generation { class OctreeAreaData; }
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE_METHOD_2_B3C2DB7D307B56BB_OFFSET UNITYSDK_OFFSET(0xAB17BB0)
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xAB18660)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE_METHOD_2_B3C2DB7D307B56BB_OFFSET UNITYSDK_OFFSET(0xB88B970)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB88C420)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeManager_AreaData_Curve_TypeDefinitionIndex = 39639;
+	inline static constexpr unsigned int OctreeManager_AreaData_Curve_TypeDefinitionIndex = 45548;
 
 	class OctreeManager_AreaData_Curve : public ::RPGTools::Octree::Generation::OctreeManager_AreaData
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EQUIPMENTPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x96206B0)
+#define RPG_CLIENT_EQUIPMENTPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A7480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EquipmentPropertyUIData_TypeDefinitionIndex = 53346;
+	inline static constexpr unsigned int EquipmentPropertyUIData_TypeDefinitionIndex = 60479;
 
 	class EquipmentPropertyUIData : public ::System::Object
 	{

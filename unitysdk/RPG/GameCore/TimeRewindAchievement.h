@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT_METHOD_2_96F758E453AD1796_OFFSET UNITYSDK_OFFSET(0x1789DD60)
-#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1789E170)
+#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT_METHOD_2_96F758E453AD1796_OFFSET UNITYSDK_OFFSET(0x19099D40)
+#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1909A150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindAchievement_TypeDefinitionIndex = 15197;
+	inline static constexpr unsigned int TimeRewindAchievement_TypeDefinitionIndex = 15711;
 
 	class TimeRewindAchievement : public ::RPG::GameCore::JsonConfig
 	{

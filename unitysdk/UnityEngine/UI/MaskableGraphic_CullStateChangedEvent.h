@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_MASKABLEGRAPHIC_CULLSTATECHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B42BB0)
+#define UNITYENGINE_UI_MASKABLEGRAPHIC_CULLSTATECHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A57E440)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int MaskableGraphic_CullStateChangedEvent_TypeDefinitionIndex = 5662;
+	inline static constexpr unsigned int MaskableGraphic_CullStateChangedEvent_TypeDefinitionIndex = 5674;
 
 	class MaskableGraphic_CullStateChangedEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Boolean>
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubmissionOptionalTrackMode_TypeDefinitionIndex = 17430;
+	inline static constexpr unsigned int SubmissionOptionalTrackMode_TypeDefinitionIndex = 18038;
 
 	enum class SubmissionOptionalTrackMode : ::System::Int32
 	{

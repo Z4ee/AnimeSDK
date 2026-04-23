@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SCENENLIGHTMANAGER_ENVIRONMENTOBJECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xABC0EE0)
+#define SCENENLIGHTMANAGER_ENVIRONMENTOBJECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB936920)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EnvironmentObjectConfig_TypeDefinitionIndex = 39740;
+	inline static constexpr unsigned int EnvironmentObjectConfig_TypeDefinitionIndex = 45649;
 
 	class EnvironmentObjectConfig : public ::UnityEngine::MonoBehaviour
 	{

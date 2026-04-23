@@ -1,65 +1,110 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_02D30900317D93FD;
 namespace System { class String; }
 
-#define CLASS_1_813743369E0E31B2_1_GET_DUMMYINVERSEDINDEX_OFFSET UNITYSDK_OFFSET(0x10CE14D0)
-#define CLASS_1_813743369E0E31B2_1_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x10CE14A0)
-#define CLASS_1_813743369E0E31B2_1_GET_NODEID_OFFSET UNITYSDK_OFFSET(0x10CE1480)
-#define CLASS_1_813743369E0E31B2_1_METHOD_1_9366A45A7F8C802A_OFFSET UNITYSDK_OFFSET(0x10CE13D0)
-#define CLASS_1_813743369E0E31B2_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x10CE14C0)
-#define CLASS_1_813743369E0E31B2_1_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x10CE14B0)
-#define CLASS_1_813743369E0E31B2_1_SET_NODEID_OFFSET UNITYSDK_OFFSET(0x10CE1490)
-#define CLASS_1_813743369E0E31B2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE1470)
+#define CLASS_1_813743369E0E31B2_1_GET_CHESTID_OFFSET UNITYSDK_OFFSET(0x1232F010)
+#define CLASS_1_813743369E0E31B2_1_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1232F030)
+#define CLASS_1_813743369E0E31B2_1_GET_GPVALUE_OFFSET UNITYSDK_OFFSET(0x1232F0D0)
+#define CLASS_1_813743369E0E31B2_1_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1232F050)
+#define CLASS_1_813743369E0E31B2_1_GET_GROUPPROPERTY_OFFSET UNITYSDK_OFFSET(0x1232F0B0)
+#define CLASS_1_813743369E0E31B2_1_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1232F070)
+#define CLASS_1_813743369E0E31B2_1_GET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x1232F090)
+#define CLASS_1_813743369E0E31B2_1_SET_CHESTID_OFFSET UNITYSDK_OFFSET(0x1232F020)
+#define CLASS_1_813743369E0E31B2_1_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1232F040)
+#define CLASS_1_813743369E0E31B2_1_SET_GPVALUE_OFFSET UNITYSDK_OFFSET(0x1232F0E0)
+#define CLASS_1_813743369E0E31B2_1_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1232F060)
+#define CLASS_1_813743369E0E31B2_1_SET_GROUPPROPERTY_OFFSET UNITYSDK_OFFSET(0x1232F0C0)
+#define CLASS_1_813743369E0E31B2_1_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1232F080)
+#define CLASS_1_813743369E0E31B2_1_SET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x1232F0A0)
+#define CLASS_1_813743369E0E31B2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1232F0F0)
 
-inline static constexpr unsigned int Class_1_813743369E0E31B2_1_TypeDefinitionIndex = 59097;
+inline static constexpr unsigned int Class_1_813743369E0E31B2_1_TypeDefinitionIndex = 68884;
 
 class Class_1_813743369E0E31B2_1 : public ::System::Object
 {
 public:
-	::System::String* _IconPath_k__BackingField; // 0x10
-	::System::UInt32 _NodeID_k__BackingField; // 0x18
+	::System::String* _GroupProperty_k__BackingField; // 0x10
+	::System::UInt32 _LittleGameEntityID_k__BackingField; // 0x18
+	::System::UInt32 _ChestID_k__BackingField; // 0x1C
+	::System::UInt32 _GPValue_k__BackingField; // 0x20
+	::System::UInt32 _GroupID_k__BackingField; // 0x24
+	::System::UInt32 _InstanceID_k__BackingField; // 0x28
+	::System::UInt32 _FloorID_k__BackingField; // 0x2C
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1__CTOR_OFFSET))(this);
 	}
 
-	static ::Class_1_813743369E0E31B2_1* Method_1_9366A45A7F8C802A(::Class_1_02D30900317D93FD* a1)
+	::System::UInt32 get_ChestID()
 	{
-		return ((::Class_1_813743369E0E31B2_1*(*)(::Class_1_02D30900317D93FD*))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_METHOD_1_9366A45A7F8C802A_OFFSET))(a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_CHESTID_OFFSET))(this);
 	}
 
-	::System::UInt32 get_NodeID()
+	::System::Void set_ChestID(::System::UInt32 value)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_NODEID_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_CHESTID_OFFSET))(this, value);
 	}
 
-	::System::Void set_NodeID(::System::UInt32 value)
+	::System::UInt32 get_FloorID()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_NODEID_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_FLOORID_OFFSET))(this);
 	}
 
-	::System::String* get_IconPath()
+	::System::Void set_FloorID(::System::UInt32 value)
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_ICONPATH_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_FLOORID_OFFSET))(this, value);
 	}
 
-	::System::Void set_IconPath(::System::String* value)
+	::System::UInt32 get_GroupID()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_ICONPATH_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_GROUPID_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_F0088C88851A7DFB()
+	::System::Void set_GroupID(::System::UInt32 value)
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_GROUPID_OFFSET))(this, value);
 	}
 
-	::System::Nullable_1<::System::Int32> get_DummyInversedIndex()
+	::System::UInt32 get_InstanceID()
 	{
-		return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_DUMMYINVERSEDINDEX_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_INSTANCEID_OFFSET))(this);
+	}
+
+	::System::Void set_InstanceID(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_INSTANCEID_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_LittleGameEntityID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_LITTLEGAMEENTITYID_OFFSET))(this);
+	}
+
+	::System::Void set_LittleGameEntityID(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_LITTLEGAMEENTITYID_OFFSET))(this, value);
+	}
+
+	::System::String* get_GroupProperty()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_GROUPPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void set_GroupProperty(::System::String* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_GROUPPROPERTY_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_GPValue()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_GET_GPVALUE_OFFSET))(this);
+	}
+
+	::System::Void set_GPValue(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_813743369E0E31B2_1_SET_GPVALUE_OFFSET))(this, value);
 	}
 };

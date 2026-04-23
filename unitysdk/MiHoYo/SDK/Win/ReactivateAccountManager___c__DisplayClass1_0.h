@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7CD40)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15E7CF20)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__1_OFFSET UNITYSDK_OFFSET(0x15E7CF50)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174B42B0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x174B4490)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__1_OFFSET UNITYSDK_OFFSET(0x174B44C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ReactivateAccountManager___c__DisplayClass1_0_TypeDefinitionIndex = 7892;
+	inline static constexpr unsigned int ReactivateAccountManager___c__DisplayClass1_0_TypeDefinitionIndex = 8038;
 
 	class ReactivateAccountManager___c__DisplayClass1_0 : public ::System::Object
 	{

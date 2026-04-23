@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarUtils_MultiPathAvatarCache_TypeDefinitionIndex = 53926;
+	inline static constexpr unsigned int MultiPathAvatarUtils_MultiPathAvatarCache_TypeDefinitionIndex = 61071;
 
 	struct alignas(4) MultiPathAvatarUtils_MultiPathAvatarCache
 	{

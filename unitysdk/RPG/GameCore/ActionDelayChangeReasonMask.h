@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionDelayChangeReasonMask_TypeDefinitionIndex = 21515;
+	inline static constexpr unsigned int ActionDelayChangeReasonMask_TypeDefinitionIndex = 22251;
 
 	enum class ActionDelayChangeReasonMask : ::System::UInt16
 	{

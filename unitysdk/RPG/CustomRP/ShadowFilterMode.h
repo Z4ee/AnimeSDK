@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowFilterMode_TypeDefinitionIndex = 29190;
+	inline static constexpr unsigned int ShadowFilterMode_TypeDefinitionIndex = 34957;
 
 	enum class ShadowFilterMode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EChaperoneConfigFile_TypeDefinitionIndex = 30288;
+	inline static constexpr unsigned int EChaperoneConfigFile_TypeDefinitionIndex = 36008;
 
 	enum class EChaperoneConfigFile : ::System::Int32
 	{

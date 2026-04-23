@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F171C0)
-#define RPG_GAMECORE_ACTIVITYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F17320)
+#define RPG_GAMECORE_ACTIVITYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18638580)
+#define RPG_GAMECORE_ACTIVITYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186386E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 10494;
+	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 10718;
 
 	class ActivityTagRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TagID; // 0x10
-		::RPG::Client::TextID Desc; // 0x18
+		::RPG::Client::TextID Desc; // 0x10
+		::System::UInt32 TagID; // 0x20
 
 		::System::Void _ctor()
 		{

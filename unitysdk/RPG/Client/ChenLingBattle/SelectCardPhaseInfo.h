@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_735612C94F558EAE_14;
+class Class_1_45BB92167AED63A0_17;
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_GET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0x933FB30)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_GET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0x933FB10)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_SET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0x933FB40)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_SET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0x933FB20)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x93233A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_GET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0x9FAD690)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_GET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0x9FAD670)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_SET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0x9FAD6A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO_SET_SELECTABLECARDS_OFFSET UNITYSDK_OFFSET(0x9FAD680)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9F90A60)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectCardPhaseInfo_TypeDefinitionIndex = 62155;
+	inline static constexpr unsigned int SelectCardPhaseInfo_TypeDefinitionIndex = 70154;
 
 	class SelectCardPhaseInfo : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ChenLingBattle
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* _SelectableCards_k__BackingField; // 0x10
 		::System::UInt32 _RefreshCost_k__BackingField; // 0x18
 
-		::System::Void _ctor(::Class_1_735612C94F558EAE_14* info)
+		::System::Void _ctor(::Class_1_45BB92167AED63A0_17* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_735612C94F558EAE_14*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO__CTOR_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_45BB92167AED63A0_17*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASEINFO__CTOR_OFFSET))(this, info);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* get_SelectableCards()

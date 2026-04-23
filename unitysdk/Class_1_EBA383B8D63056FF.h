@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/TRFMsgType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_EBA383B8D63056FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1678A240)
+#define CLASS_1_EBA383B8D63056FF__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF3D10)
 
-inline static constexpr unsigned int Class_1_EBA383B8D63056FF_TypeDefinitionIndex = 32902;
+inline static constexpr unsigned int Class_1_EBA383B8D63056FF_TypeDefinitionIndex = 38692;
 
 class Class_1_EBA383B8D63056FF : public ::System::Object
 {

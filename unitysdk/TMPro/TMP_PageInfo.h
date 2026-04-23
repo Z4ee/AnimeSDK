@@ -4,7 +4,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_PageInfo_TypeDefinitionIndex = 34418;
+	inline static constexpr unsigned int TMP_PageInfo_TypeDefinitionIndex = 40237;
 
 	struct alignas(4) TMP_PageInfo
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGCamera/BaseCameraState.h"
 
-#define RPGCAMERA_CAMERABLENDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x85BABD0)
+#define RPGCAMERA_CAMERABLENDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF0C00)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraBlendState_TypeDefinitionIndex = 35111;
+	inline static constexpr unsigned int CameraBlendState_TypeDefinitionIndex = 40939;
 
 	class CameraBlendState : public ::RPGCamera::BaseCameraState
 	{

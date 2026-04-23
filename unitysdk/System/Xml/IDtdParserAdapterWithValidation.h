@@ -5,7 +5,7 @@ namespace System::Xml { class IValidationEventHandling; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IDtdParserAdapterWithValidation_TypeDefinitionIndex = 1801;
+	inline static constexpr unsigned int IDtdParserAdapterWithValidation_TypeDefinitionIndex = 1802;
 
 	class IDtdParserAdapterWithValidation
 	{

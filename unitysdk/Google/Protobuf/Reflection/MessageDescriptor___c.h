@@ -5,24 +5,24 @@
 namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B13860)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B138A0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C___CTOR_B__4_4_OFFSET UNITYSDK_OFFSET(0x15B138B0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17110E00)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17110E40)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C___CTOR_B__4_4_OFFSET UNITYSDK_OFFSET(0x17110E50)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor___c_TypeDefinitionIndex = 6339;
+	inline static constexpr unsigned int MessageDescriptor___c_TypeDefinitionIndex = 6349;
 
 	class MessageDescriptor___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::Reflection::MessageDescriptor___c** StaticGet___9()
-		{
-			return (::Google::Protobuf::Reflection::MessageDescriptor___c**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0xD430);
-		}
 		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>** StaticGet___9__4_4()
 		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0xD438);
+			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x5990);
+		}
+		static ::Google::Protobuf::Reflection::MessageDescriptor___c** StaticGet___9()
+		{
+			return (::Google::Protobuf::Reflection::MessageDescriptor___c**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x5998);
 		}
 
 		static ::System::Void _cctor()

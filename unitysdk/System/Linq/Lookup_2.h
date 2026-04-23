@@ -13,7 +13,7 @@ namespace System::Linq { template <typename T1, typename T2> class Lookup_2_Grou
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 3154;
+	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 3156;
 
 	template <typename TKey, typename TElement>
 	class Lookup_2 : public ::System::Object

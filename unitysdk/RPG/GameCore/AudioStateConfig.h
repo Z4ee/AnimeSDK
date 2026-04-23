@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUDIOSTATECONFIG_METHOD_2_A5E8B6BC63C679D8_OFFSET UNITYSDK_OFFSET(0x16F91360)
-#define RPG_GAMECORE_AUDIOSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F91E60)
+#define RPG_GAMECORE_AUDIOSTATECONFIG_METHOD_2_A5E8B6BC63C679D8_OFFSET UNITYSDK_OFFSET(0x186B4710)
+#define RPG_GAMECORE_AUDIOSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186B5070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioStateConfig_TypeDefinitionIndex = 14995;
+	inline static constexpr unsigned int AudioStateConfig_TypeDefinitionIndex = 15502;
 
 	class AudioStateConfig : public ::RPG::GameCore::JsonConfig
 	{

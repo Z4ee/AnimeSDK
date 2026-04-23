@@ -12,45 +12,45 @@ namespace RPGTools::Timeline { class VFXTearClip; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xABB60A0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xABB6AB0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xABB60C0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xABB60B0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xABB6CA0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xABB6C90)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xABB70C0)
-#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xABB70B0)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB92B910)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB92C2F0)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB92B930)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB92B920)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xB92C4E0)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB92C4D0)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB92C8D0)
+#define RPGTOOLS_TIMELINE_VFXTEARBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB92C8C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VFXTearBehaviour_TypeDefinitionIndex = 38926;
+	inline static constexpr unsigned int VFXTearBehaviour_TypeDefinitionIndex = 44829;
 
 	class VFXTearBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_EyeTearState, ::System::Int32>** StaticGet_EyeTearStateToAnimatorState()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_EyeTearState, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x48120);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_FaceTearState, ::System::Int32>** StaticGet_FaceTearStateToAnimatorState()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_FaceTearState, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x48128);
+			return (::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_FaceTearState, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x6A070);
 		}
-		static ::System::Int32* StaticGet_AnimParam_TransSpeed()
+		static ::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_EyeTearState, ::System::Int32>** StaticGet_EyeTearStateToAnimatorState()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x12CA0);
-		}
-		static ::System::Int32* StaticGet_AnimParam_LoopSpeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x12CA4);
+			return (::System::Collections::Generic::Dictionary_2<::RPGTools::Timeline::VFXTearClip_EyeTearState, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x6A078);
 		}
 		static ::System::Int32* StaticGet_AnimParam_EyeTearState()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x12CA8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x118F0);
+		}
+		static ::System::Int32* StaticGet_AnimParam_TransSpeed()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x118F4);
+		}
+		static ::System::Int32* StaticGet_AnimParam_LoopSpeed()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x118F8);
 		}
 		static ::System::Int32* StaticGet_AnimParam_FaceTearState()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x12CAC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VFXTearBehaviour_TypeDefinitionIndex)->GetStaticField(0x118FC);
 		}
 		// static const ::System::String* LeftEyeTearPath; // 0x0
 		// static const ::System::String* RightEyeTearPath; // 0x0

@@ -21,7 +21,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_5_TypeDefinitionIndex = 8695;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_5_TypeDefinitionIndex = 8889;
 
 class Class_1_534AF681CC2BD5FD_5 : public ::System::Object
 {

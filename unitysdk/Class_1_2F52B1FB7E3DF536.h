@@ -6,10 +6,10 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace RPG::Client { class CharacterShaderPropertyTransition; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_2F52B1FB7E3DF536_METHOD_1_513BD042941F2375_OFFSET UNITYSDK_OFFSET(0x8BD8AE0)
-#define CLASS_1_2F52B1FB7E3DF536_METHOD_1_64869FED08177484_OFFSET UNITYSDK_OFFSET(0x8BD8BA0)
+#define CLASS_1_2F52B1FB7E3DF536_METHOD_1_513BD042941F2375_OFFSET UNITYSDK_OFFSET(0x91E3F70)
+#define CLASS_1_2F52B1FB7E3DF536_METHOD_1_64869FED08177484_OFFSET UNITYSDK_OFFSET(0x91E4020)
 
-inline static constexpr unsigned int Class_1_2F52B1FB7E3DF536_TypeDefinitionIndex = 56250;
+inline static constexpr unsigned int Class_1_2F52B1FB7E3DF536_TypeDefinitionIndex = 63493;
 
 class Class_1_2F52B1FB7E3DF536 : public ::System::Object
 {

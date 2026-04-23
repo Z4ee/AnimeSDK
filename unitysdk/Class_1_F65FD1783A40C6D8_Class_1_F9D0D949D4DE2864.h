@@ -5,9 +5,9 @@
 namespace RPG::Client::ChenLingBattle { class IGamePhase; }
 namespace System { class Action; }
 
-#define CLASS_1_F65FD1783A40C6D8_CLASS_1_F9D0D949D4DE2864__CTOR_OFFSET UNITYSDK_OFFSET(0x10B5DF60)
+#define CLASS_1_F65FD1783A40C6D8_CLASS_1_F9D0D949D4DE2864__CTOR_OFFSET UNITYSDK_OFFSET(0x916D7B0)
 
-inline static constexpr unsigned int Class_1_F65FD1783A40C6D8_Class_1_F9D0D949D4DE2864_TypeDefinitionIndex = 62063;
+inline static constexpr unsigned int Class_1_F65FD1783A40C6D8_Class_1_F9D0D949D4DE2864_TypeDefinitionIndex = 70062;
 
 class Class_1_F65FD1783A40C6D8_Class_1_F9D0D949D4DE2864 : public ::System::Object
 {

@@ -8,30 +8,30 @@ namespace Google::Protobuf { class UnknownFieldSet; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED32_OFFSET UNITYSDK_OFFSET(0x15B28380)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED64_OFFSET UNITYSDK_OFFSET(0x15B28400)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDGROUP_OFFSET UNITYSDK_OFFSET(0x15B284D0)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDLENGTHDELIMITED_OFFSET UNITYSDK_OFFSET(0x15B28480)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDVARINT_OFFSET UNITYSDK_OFFSET(0x15B28300)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x15B27360)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15B27440)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETSERIALIZEDSIZE_OFFSET UNITYSDK_OFFSET(0x15B27AC0)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x15B28240)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_WRITETO_OFFSET UNITYSDK_OFFSET(0x15B274E0)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x15B27350)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED32_OFFSET UNITYSDK_OFFSET(0x17125F10)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED64_OFFSET UNITYSDK_OFFSET(0x17125F90)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDGROUP_OFFSET UNITYSDK_OFFSET(0x17126010)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDLENGTHDELIMITED_OFFSET UNITYSDK_OFFSET(0x17125FC0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDVARINT_OFFSET UNITYSDK_OFFSET(0x17125EE0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x17124F40)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17125020)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETSERIALIZEDSIZE_OFFSET UNITYSDK_OFFSET(0x171256A0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x17125E20)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_WRITETO_OFFSET UNITYSDK_OFFSET(0x171250C0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x17124F30)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int UnknownField_TypeDefinitionIndex = 6200;
+	inline static constexpr unsigned int UnknownField_TypeDefinitionIndex = 6210;
 
 	class UnknownField : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Google::Protobuf::UnknownFieldSet*>* groupList; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt64>* fixed64List; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* fixed32List; // 0x20
-		::System::Collections::Generic::List_1<::Google::Protobuf::ByteString*>* lengthDelimitedList; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt64>* varintList; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* fixed32List; // 0x10
+		::System::Collections::Generic::List_1<::Google::Protobuf::UnknownFieldSet*>* groupList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt64>* fixed64List; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt64>* varintList; // 0x28
+		::System::Collections::Generic::List_1<::Google::Protobuf::ByteString*>* lengthDelimitedList; // 0x30
 
 		::System::Void _ctor()
 		{

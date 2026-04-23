@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MUSICRHYTHMNOTIFYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9DD3C00)
+#define RPG_CLIENT_MUSICRHYTHMNOTIFYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAB1B5B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmNotifyInfo_TypeDefinitionIndex = 48752;
+	inline static constexpr unsigned int MusicRhythmNotifyInfo_TypeDefinitionIndex = 55501;
 
 	class MusicRhythmNotifyInfo : public ::System::Object
 	{

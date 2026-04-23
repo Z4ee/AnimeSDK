@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_8754A51BC854E440;
+class Class_1_D17D64AC4446CD8E;
 namespace RPG::GameCore { class FiveDimLightningConfig; }
 
-#define CLASS_1_F939197C243AEA34_CLEAR_OFFSET UNITYSDK_OFFSET(0x167806E0)
-#define CLASS_1_F939197C243AEA34__CTOR_OFFSET UNITYSDK_OFFSET(0x16780760)
+#define CLASS_1_F939197C243AEA34_CLEAR_OFFSET UNITYSDK_OFFSET(0x17EE58F0)
+#define CLASS_1_F939197C243AEA34__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE5970)
 
-inline static constexpr unsigned int Class_1_F939197C243AEA34_TypeDefinitionIndex = 33537;
+inline static constexpr unsigned int Class_1_F939197C243AEA34_TypeDefinitionIndex = 39336;
 
 class Class_1_F939197C243AEA34 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimLightningConfig* Field_1_0; // 0x10
-	::Class_1_8754A51BC854E440* Field_1_1; // 0x18
+	::Class_1_D17D64AC4446CD8E* Field_1_1; // 0x10
+	::RPG::GameCore::FiveDimLightningConfig* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

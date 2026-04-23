@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIAvatarBaseTypeSelector___O_TypeDefinitionIndex = 14297;
+	inline static constexpr unsigned int AIAvatarBaseTypeSelector___O_TypeDefinitionIndex = 14767;
 
 	class AIAvatarBaseTypeSelector___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(AIAvatarBaseTypeSelector___O_TypeDefinitionIndex)->GetStaticField(0x1E6F0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(AIAvatarBaseTypeSelector___O_TypeDefinitionIndex)->GetStaticField(0x4930);
 		}
 	};
 }

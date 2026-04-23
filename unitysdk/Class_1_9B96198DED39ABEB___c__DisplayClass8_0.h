@@ -5,16 +5,16 @@
 class Class_1_21F7296E79A49D3E;
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_9B96198DED39ABEB___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x114EF420)
-#define CLASS_1_9B96198DED39ABEB___C__DISPLAYCLASS8_0__UNREGISTEREVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x114EF690)
+#define CLASS_1_9B96198DED39ABEB___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9868820)
+#define CLASS_1_9B96198DED39ABEB___C__DISPLAYCLASS8_0__UNREGISTEREVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x9868A90)
 
-inline static constexpr unsigned int Class_1_9B96198DED39ABEB___c__DisplayClass8_0_TypeDefinitionIndex = 63497;
+inline static constexpr unsigned int Class_1_9B96198DED39ABEB___c__DisplayClass8_0_TypeDefinitionIndex = 71537;
 
 class Class_1_9B96198DED39ABEB___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::System::Predicate_1<::Class_1_21F7296E79A49D3E*>* __9__0; // 0x10
-	::System::Object* owner; // 0x18
+	::System::Object* owner; // 0x10
+	::System::Predicate_1<::Class_1_21F7296E79A49D3E*>* __9__0; // 0x18
 
 	::System::Void _ctor()
 	{

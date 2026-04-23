@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_ConflictModelSortType_TypeDefinitionIndex = 50400;
+	inline static constexpr unsigned int RuntimeGroupManager_ConflictModelSortType_TypeDefinitionIndex = 57259;
 
 	enum class RuntimeGroupManager_ConflictModelSortType : ::System::Int32
 	{

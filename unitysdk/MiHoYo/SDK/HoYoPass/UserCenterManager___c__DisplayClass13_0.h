@@ -8,13 +8,13 @@ namespace MiHoYo::SDK::HoYoPass { class UserCenterManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F0FB30)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__0_OFFSET UNITYSDK_OFFSET(0x15F117A0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__3_OFFSET UNITYSDK_OFFSET(0x15F11870)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17558A70)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1755A750)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__3_OFFSET UNITYSDK_OFFSET(0x1755A820)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c__DisplayClass13_0_TypeDefinitionIndex = 7264;
+	inline static constexpr unsigned int UserCenterManager___c__DisplayClass13_0_TypeDefinitionIndex = 7312;
 
 	class UserCenterManager___c__DisplayClass13_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GravityBallPuzzleSwitchBoard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_791B141D74D586FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC42BE0)
-#define CLASS_3_791B141D74D586FB__CTOR_OFFSET UNITYSDK_OFFSET(0xAC42BB0)
+#define CLASS_3_791B141D74D586FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB21C1C0)
+#define CLASS_3_791B141D74D586FB__CTOR_OFFSET UNITYSDK_OFFSET(0xB21C190)
 
-inline static constexpr unsigned int Class_3_791B141D74D586FB_TypeDefinitionIndex = 42821;
+inline static constexpr unsigned int Class_3_791B141D74D586FB_TypeDefinitionIndex = 48805;
 
 class Class_3_791B141D74D586FB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GravityBallPuzzleSwitchBoard*>
 {

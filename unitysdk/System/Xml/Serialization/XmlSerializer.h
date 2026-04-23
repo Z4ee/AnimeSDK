@@ -26,61 +26,61 @@ namespace System::Xml::Serialization { class XmlSerializationWriter; }
 namespace System::Xml::Serialization { class XmlSerializerNamespaces; }
 namespace System::Xml::Serialization { class XmlSerializer_SerializerData; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEREADER_1_OFFSET UNITYSDK_OFFSET(0x185EF830)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEREADER_OFFSET UNITYSDK_OFFSET(0x185EF550)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEWRITER_1_OFFSET UNITYSDK_OFFSET(0x185EFFE0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEWRITER_OFFSET UNITYSDK_OFFSET(0x185EF5A0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_DESERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x185EF780)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_DESERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x185EF890)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x185EF5F0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNKNOWNATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x185EF4D0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNKNOWNELEMENT_OFFSET UNITYSDK_OFFSET(0x185EF4F0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNKNOWNNODE_OFFSET UNITYSDK_OFFSET(0x185EF510)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNREFERENCEDOBJECT_OFFSET UNITYSDK_OFFSET(0x185EF530)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x185EFD00)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x185EFD80)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x185EFAC0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x185EF270)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185EF3B0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x185EF390)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEREADER_1_OFFSET UNITYSDK_OFFSET(0x1A02A600)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEREADER_OFFSET UNITYSDK_OFFSET(0x1A02A320)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEWRITER_1_OFFSET UNITYSDK_OFFSET(0x1A02ADB0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_CREATEWRITER_OFFSET UNITYSDK_OFFSET(0x1A02A370)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_DESERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1A02A550)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_DESERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1A02A660)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A02A3C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNKNOWNATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A02A2A0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNKNOWNELEMENT_OFFSET UNITYSDK_OFFSET(0x1A02A2C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNKNOWNNODE_OFFSET UNITYSDK_OFFSET(0x1A02A2E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_ONUNREFERENCEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1A02A300)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1A02AAD0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1A02AB50)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A02A890)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A02A040)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A02A180)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02A160)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializer_TypeDefinitionIndex = 2028;
+	inline static constexpr unsigned int XmlSerializer_TypeDefinitionIndex = 2029;
 
 	class XmlSerializer : public ::System::Object
 	{
 	public:
 		static ::System::Text::Encoding** StaticGet_DefaultEncoding()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0xC290);
+			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0xCB30);
 		}
 		static ::System::Collections::Hashtable** StaticGet_serializerTypes()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0xC298);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0xCB38);
 		}
 		static ::System::Int32* StaticGet_generationThreshold()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4810);
-		}
-		static ::System::Boolean* StaticGet_deleteTempFiles()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4814);
-		}
-		static ::System::Boolean* StaticGet_backgroundGeneration()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4815);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4DC0);
 		}
 		static ::System::Boolean* StaticGet_generatorFallback()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4816);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4DC4);
 		}
-		::System::Xml::Serialization::XmlAttributeEventHandler* onUnknownAttribute; // 0x10
-		::System::Xml::Serialization::XmlElementEventHandler* onUnknownElement; // 0x18
+		static ::System::Boolean* StaticGet_backgroundGeneration()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4DC5);
+		}
+		static ::System::Boolean* StaticGet_deleteTempFiles()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(XmlSerializer_TypeDefinitionIndex)->GetStaticField(0x4DC6);
+		}
+		::System::Xml::Serialization::XmlElementEventHandler* onUnknownElement; // 0x10
+		::System::Xml::Serialization::XmlNodeEventHandler* onUnknownNode; // 0x18
 		::System::Xml::Serialization::XmlMapping* typeMapping; // 0x20
-		::System::Xml::Serialization::XmlNodeEventHandler* onUnknownNode; // 0x28
-		::System::Xml::Serialization::XmlSerializer_SerializerData* serializerData; // 0x30
-		::System::Xml::Serialization::UnreferencedObjectEventHandler* onUnreferencedObject; // 0x38
+		::System::Xml::Serialization::XmlSerializer_SerializerData* serializerData; // 0x28
+		::System::Xml::Serialization::UnreferencedObjectEventHandler* onUnreferencedObject; // 0x30
+		::System::Xml::Serialization::XmlAttributeEventHandler* onUnknownAttribute; // 0x38
 		::System::Boolean customSerializer; // 0x40
 
 		static ::System::Void _cctor()

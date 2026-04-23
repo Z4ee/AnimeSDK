@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_RENDERING_BATCHANIMATIONCLIP_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x18A3B660)
-#define UNITYENGINE_RENDERING_BATCHANIMATIONCLIP_SETANIMCACHE_OFFSET UNITYSDK_OFFSET(0x18A3B670)
+#define UNITYENGINE_RENDERING_BATCHANIMATIONCLIP_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1A475680)
+#define UNITYENGINE_RENDERING_BATCHANIMATIONCLIP_SETANIMCACHE_OFFSET UNITYSDK_OFFSET(0x1A475690)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimationClip_TypeDefinitionIndex = 4595;
+	inline static constexpr unsigned int BatchAnimationClip_TypeDefinitionIndex = 4597;
 
 	class BatchAnimationClip : public ::UnityEngine::Object
 	{

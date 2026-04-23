@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateHouguSelectAction_TypeDefinitionIndex = 52000;
+	inline static constexpr unsigned int IFateHouguSelectAction_TypeDefinitionIndex = 58949;
 
 	class IFateHouguSelectAction
 	{

@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define CLASS_1_D18368877C119AD2__CCTOR_OFFSET UNITYSDK_OFFSET(0x115CE7D0)
-#define CLASS_1_D18368877C119AD2__CTOR_OFFSET UNITYSDK_OFFSET(0x115CE7C0)
+#define CLASS_1_D18368877C119AD2__CCTOR_OFFSET UNITYSDK_OFFSET(0xA54A000)
+#define CLASS_1_D18368877C119AD2__CTOR_OFFSET UNITYSDK_OFFSET(0xA549FF0)
 
-inline static constexpr unsigned int Class_1_D18368877C119AD2_TypeDefinitionIndex = 55075;
+inline static constexpr unsigned int Class_1_D18368877C119AD2_TypeDefinitionIndex = 62263;
 
 class Class_1_D18368877C119AD2 : public ::System::Object
 {
 public:
 	static ::System::Text::RegularExpressions::Regex** StaticGet_Field_1_3()
 	{
-		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D18368877C119AD2_TypeDefinitionIndex)->GetStaticField(0x1AB90);
+		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D18368877C119AD2_TypeDefinitionIndex)->GetStaticField(0x17D10);
 	}
 	// static const ::System::String* Field_1_0; // 0x0
 	// static const ::System::String* Field_1_1; // 0x0

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17439150)
-#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17439370)
+#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B45D70)
+#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B45F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyEventEffectRow_TypeDefinitionIndex = 11023;
+	inline static constexpr unsigned int MonopolyEventEffectRow_TypeDefinitionIndex = 11426;
 
 	class MonopolyEventEffectRow : public ::System::Object
 	{

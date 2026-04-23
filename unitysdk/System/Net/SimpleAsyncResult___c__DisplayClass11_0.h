@@ -6,13 +6,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net { class SimpleAsyncCallback; }
 namespace System::Net { class SimpleAsyncResult; }
 
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18708FD0)
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x187097C0)
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x18709820)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A143470)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x1A143BD0)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x1A143C30)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SimpleAsyncResult___c__DisplayClass11_0_TypeDefinitionIndex = 2867;
+	inline static constexpr unsigned int SimpleAsyncResult___c__DisplayClass11_0_TypeDefinitionIndex = 2868;
 
 	class SimpleAsyncResult___c__DisplayClass11_0 : public ::System::Object
 	{

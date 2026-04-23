@@ -3,28 +3,28 @@
 #include "unitysdk/RPG/Client/NavMap/NavNodeConditionParamType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_951;
+class Class_0_16E4307DCC419505_1068;
 namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::GameCore { class LevelNavNodeConditionInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_07B4A9AD56F3A59A_OFFSET UNITYSDK_OFFSET(0x8CE42D0)
-#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_0C44FB644D25C1C2_OFFSET UNITYSDK_OFFSET(0x8CE40E0)
-#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_19C3133E543AD556_OFFSET UNITYSDK_OFFSET(0x8CE3B20)
-#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_B7512089642D5F1C_OFFSET UNITYSDK_OFFSET(0x8CE3F40)
-#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_D103C5A3AAA08969_OFFSET UNITYSDK_OFFSET(0x8CE3FF0)
-#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_F961013B71AE0486_OFFSET UNITYSDK_OFFSET(0x8CE3C10)
-#define CLASS_1_5ECDDE61AD0A5031__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE3BD0)
+#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_07B4A9AD56F3A59A_OFFSET UNITYSDK_OFFSET(0x11A56660)
+#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_0C44FB644D25C1C2_OFFSET UNITYSDK_OFFSET(0x11A56470)
+#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_19C3133E543AD556_OFFSET UNITYSDK_OFFSET(0x11A55EB0)
+#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_B7512089642D5F1C_OFFSET UNITYSDK_OFFSET(0x11A562D0)
+#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_D103C5A3AAA08969_OFFSET UNITYSDK_OFFSET(0x11A56380)
+#define CLASS_1_5ECDDE61AD0A5031_METHOD_1_F961013B71AE0486_OFFSET UNITYSDK_OFFSET(0x11A55FA0)
+#define CLASS_1_5ECDDE61AD0A5031__CTOR_OFFSET UNITYSDK_OFFSET(0x11A55F60)
 
-inline static constexpr unsigned int Class_1_5ECDDE61AD0A5031_TypeDefinitionIndex = 61328;
+inline static constexpr unsigned int Class_1_5ECDDE61AD0A5031_TypeDefinitionIndex = 68835;
 
 class Class_1_5ECDDE61AD0A5031 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_951*>* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1068*>* Field_1_2; // 0x18
 	::RPG::Client::NavMap::IMapDataSource* Field_1_0; // 0x20
 
 	::System::Void _ctor()
@@ -32,9 +32,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5ECDDE61AD0A5031__CTOR_OFFSET))(this);
 	}
 
-	static ::Class_1_5ECDDE61AD0A5031* Method_1_19C3133E543AD556(::RPG::Client::NavMap::IMapDataSource* a1, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_951*>* a2, ::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* a3)
+	static ::Class_1_5ECDDE61AD0A5031* Method_1_19C3133E543AD556(::RPG::Client::NavMap::IMapDataSource* a1, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1068*>* a2, ::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* a3)
 	{
-		return ((::Class_1_5ECDDE61AD0A5031*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_951*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_1_5ECDDE61AD0A5031_METHOD_1_19C3133E543AD556_OFFSET))(a1, a2, a3);
+		return ((::Class_1_5ECDDE61AD0A5031*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1068*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_1_5ECDDE61AD0A5031_METHOD_1_19C3133E543AD556_OFFSET))(a1, a2, a3);
 	}
 
 	static ::Class_1_5ECDDE61AD0A5031* Method_1_B7512089642D5F1C(::RPG::Client::NavMap::IMapDataSource* a1, ::Il2CppArray<::RPG::GameCore::LevelNavNodeConditionInfo*>* a2, ::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* a3)
@@ -57,8 +57,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::LevelNavNodeConditionInfo*>*))((::PBYTE)hIl2Cpp + CLASS_1_5ECDDE61AD0A5031_METHOD_1_D103C5A3AAA08969_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_F961013B71AE0486(::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_951*>* a1)
+	::System::Void Method_1_F961013B71AE0486(::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1068*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_951*>*))((::PBYTE)hIl2Cpp + CLASS_1_5ECDDE61AD0A5031_METHOD_1_F961013B71AE0486_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1068*>*))((::PBYTE)hIl2Cpp + CLASS_1_5ECDDE61AD0A5031_METHOD_1_F961013B71AE0486_OFFSET))(this, a1);
 	}
 };

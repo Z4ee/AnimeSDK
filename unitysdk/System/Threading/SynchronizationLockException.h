@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_SYNCHRONIZATIONLOCKEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x162372E0)
-#define SYSTEM_THREADING_SYNCHRONIZATIONLOCKEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1623CCA0)
-#define SYSTEM_THREADING_SYNCHRONIZATIONLOCKEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1623CC00)
+#define SYSTEM_THREADING_SYNCHRONIZATIONLOCKEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17863AE0)
+#define SYSTEM_THREADING_SYNCHRONIZATIONLOCKEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17869500)
+#define SYSTEM_THREADING_SYNCHRONIZATIONLOCKEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17869460)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SynchronizationLockException_TypeDefinitionIndex = 843;
+	inline static constexpr unsigned int SynchronizationLockException_TypeDefinitionIndex = 845;
 
 	class SynchronizationLockException : public ::System::SystemException
 	{

@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_627;
-class Class_0_16E4307DCC419505_628;
-class Class_0_16E4307DCC419505_629;
+namespace RPG::Client { class MapDistrictDef; }
+namespace RPG::Client { class MapEntityDef; }
+namespace RPG::Client { class MapNpcDef; }
+namespace RPG::Client { class MapPropDef; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_631_TypeDefinitionIndex = 52425;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_631_TypeDefinitionIndex = 57297;
 
 class Class_0_16E4307DCC419505_631
 {

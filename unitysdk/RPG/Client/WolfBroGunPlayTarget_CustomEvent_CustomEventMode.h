@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_CustomEvent_CustomEventMode_TypeDefinitionIndex = 56123;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_CustomEvent_CustomEventMode_TypeDefinitionIndex = 63366;
 
 	enum class WolfBroGunPlayTarget_CustomEvent_CustomEventMode : ::System::Int32
 	{

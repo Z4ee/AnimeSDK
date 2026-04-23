@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueBuffInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueBuffInfoProvider_TypeDefinitionIndex = 54816;
+	inline static constexpr unsigned int IRogueBuffInfoProvider_TypeDefinitionIndex = 62004;
 
 	class IRogueBuffInfoProvider
 	{

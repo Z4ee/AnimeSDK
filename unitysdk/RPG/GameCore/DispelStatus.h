@@ -7,16 +7,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_40C044C8BA1D2958_OFFSET UNITYSDK_OFFSET(0x171735B0)
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x17173510)
-#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x17173570)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_40C044C8BA1D2958_OFFSET UNITYSDK_OFFSET(0x18880600)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x18880560)
+#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x188805C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 20867;
+	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 21578;
 
 	class DispelStatus : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,8 +30,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* Numbers; // 0x30
 		::RPG::GameCore::DispelOrder Order; // 0x38
 		::System::String* DispelCountKey; // 0x40
-		::System::Boolean IsSilentDispel; // 0x48
-		::System::Boolean MuteAllVisualEffect; // 0x49
+		::RPG::GameCore::PredicateConfig* Condition; // 0x48
+		::System::Boolean IsSilentDispel; // 0x50
+		::System::Boolean MuteAllVisualEffect; // 0x51
 
 		::System::Void _ctor()
 		{

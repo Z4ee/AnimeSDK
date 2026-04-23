@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueAdvRoomCandyCrashGroupTemplate; }
 
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP_METHOD_2_C8266C689C99421E_OFFSET UNITYSDK_OFFSET(0x175DB650)
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x175DB750)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP_METHOD_2_C8266C689C99421E_OFFSET UNITYSDK_OFFSET(0x18CE6600)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE6700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdvRoomCandyCrashGroup_TypeDefinitionIndex = 16428;
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashGroup_TypeDefinitionIndex = 16982;
 
 	class RogueAdvRoomCandyCrashGroup : public ::RPG::GameCore::JsonConfig
 	{

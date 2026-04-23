@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RollingSubtitlesDisplayType_TypeDefinitionIndex = 22456;
+	inline static constexpr unsigned int RollingSubtitlesDisplayType_TypeDefinitionIndex = 23428;
 
 	enum class RollingSubtitlesDisplayType : ::System::Int32
 	{

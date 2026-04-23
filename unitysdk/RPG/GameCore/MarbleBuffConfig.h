@@ -9,12 +9,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBUFFCONFIG_METHOD_2_065CC8A25FF1E45C_OFFSET UNITYSDK_OFFSET(0x17388270)
-#define RPG_GAMECORE_MARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173885E0)
+#define RPG_GAMECORE_MARBLEBUFFCONFIG_METHOD_2_065CC8A25FF1E45C_OFFSET UNITYSDK_OFFSET(0x18A96390)
+#define RPG_GAMECORE_MARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A96700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 15473;
+	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 15993;
 
 	class MarbleBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

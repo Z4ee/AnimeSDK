@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridMoveValidateResultType_TypeDefinitionIndex = 52653;
+	inline static constexpr unsigned int GridFightGridMoveValidateResultType_TypeDefinitionIndex = 59704;
 
 	enum class GridFightGridMoveValidateResultType : ::System::Int32
 	{

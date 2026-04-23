@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAWORKDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170AD030)
-#define RPG_GAMECORE_CHIMERAWORKDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170AD1B0)
+#define RPG_GAMECORE_CHIMERAWORKDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1880C5E0)
+#define RPG_GAMECORE_CHIMERAWORKDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1880C760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkDisplayRow_TypeDefinitionIndex = 11893;
+	inline static constexpr unsigned int ChimeraWorkDisplayRow_TypeDefinitionIndex = 12324;
 
 	class ChimeraWorkDisplayRow : public ::System::Object
 	{

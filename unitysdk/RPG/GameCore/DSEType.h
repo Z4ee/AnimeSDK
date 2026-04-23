@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DSEType_TypeDefinitionIndex = 14269;
+	inline static constexpr unsigned int DSEType_TypeDefinitionIndex = 14739;
 
 	enum class DSEType : ::System::Int32
 	{

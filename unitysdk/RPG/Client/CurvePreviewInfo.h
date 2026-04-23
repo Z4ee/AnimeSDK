@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurvePreviewInfo_TypeDefinitionIndex = 57400;
+	inline static constexpr unsigned int CurvePreviewInfo_TypeDefinitionIndex = 64661;
 
 	struct alignas(8) CurvePreviewInfo
 	{

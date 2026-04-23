@@ -7,9 +7,9 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_240940D1542204D5_METHOD_1_AB241FEFC4DC7E28_OFFSET UNITYSDK_OFFSET(0x10BEB590)
+#define CLASS_1_240940D1542204D5_METHOD_1_AB241FEFC4DC7E28_OFFSET UNITYSDK_OFFSET(0x9E2A6C0)
 
-inline static constexpr unsigned int Class_1_240940D1542204D5_TypeDefinitionIndex = 44020;
+inline static constexpr unsigned int Class_1_240940D1542204D5_TypeDefinitionIndex = 50722;
 
 class Class_1_240940D1542204D5 : public ::System::Object
 {

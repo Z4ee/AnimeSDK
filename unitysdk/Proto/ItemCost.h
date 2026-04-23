@@ -6,43 +6,50 @@
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class PileItem; }
 namespace System { class String; }
 
-#define PROTO_ITEMCOST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x18287900)
-#define PROTO_ITEMCOST_CLEARITEM_OFFSET UNITYSDK_OFFSET(0x18287200)
-#define PROTO_ITEMCOST_CLONE_OFFSET UNITYSDK_OFFSET(0x182871A0)
-#define PROTO_ITEMCOST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18287270)
-#define PROTO_ITEMCOST_EQUALS_OFFSET UNITYSDK_OFFSET(0x18287210)
-#define PROTO_ITEMCOST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x182875B0)
-#define PROTO_ITEMCOST_GET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x18287040)
-#define PROTO_ITEMCOST_GET_ITEMCASE_OFFSET UNITYSDK_OFFSET(0x182871F0)
-#define PROTO_ITEMCOST_GET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x18286F90)
-#define PROTO_ITEMCOST_GET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x182870F0)
-#define PROTO_ITEMCOST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18287E20)
-#define PROTO_ITEMCOST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x18287B60)
-#define PROTO_ITEMCOST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18286DA0)
-#define PROTO_ITEMCOST_SET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x182870C0)
-#define PROTO_ITEMCOST_SET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x18287020)
-#define PROTO_ITEMCOST_SET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x18287170)
-#define PROTO_ITEMCOST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x182876E0)
-#define PROTO_ITEMCOST_WRITETO_OFFSET UNITYSDK_OFFSET(0x18287740)
-#define PROTO_ITEMCOST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18286DC0)
-#define PROTO_ITEMCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x18286DB0)
+#define PROTO_ITEMCOST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x193448E0)
+#define PROTO_ITEMCOST_CLEARITEM_OFFSET UNITYSDK_OFFSET(0x19344210)
+#define PROTO_ITEMCOST_CLONE_OFFSET UNITYSDK_OFFSET(0x193441D0)
+#define PROTO_ITEMCOST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19344250)
+#define PROTO_ITEMCOST_EQUALS_OFFSET UNITYSDK_OFFSET(0x19344220)
+#define PROTO_ITEMCOST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19344590)
+#define PROTO_ITEMCOST_GET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x19344070)
+#define PROTO_ITEMCOST_GET_ITEMCASE_OFFSET UNITYSDK_OFFSET(0x19344200)
+#define PROTO_ITEMCOST_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19343DA0)
+#define PROTO_ITEMCOST_GET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x19343FC0)
+#define PROTO_ITEMCOST_GET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x19344120)
+#define PROTO_ITEMCOST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x19344E00)
+#define PROTO_ITEMCOST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19344B40)
+#define PROTO_ITEMCOST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19343DD0)
+#define PROTO_ITEMCOST_SET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x193440F0)
+#define PROTO_ITEMCOST_SET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x19344050)
+#define PROTO_ITEMCOST_SET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x193441A0)
+#define PROTO_ITEMCOST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x193446C0)
+#define PROTO_ITEMCOST_WRITETO_OFFSET UNITYSDK_OFFSET(0x19344720)
+#define PROTO_ITEMCOST__CCTOR_OFFSET UNITYSDK_OFFSET(0x19344F50)
+#define PROTO_ITEMCOST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19343DF0)
+#define PROTO_ITEMCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x19343DE0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ItemCost_TypeDefinitionIndex = 24069;
+	inline static constexpr unsigned int ItemCost_TypeDefinitionIndex = 26171;
 
 	class ItemCost : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 PileItemFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 EquipmentUniqueIdFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 RelicUniqueIdFieldNumber = 0x2; // 0x0
-		::System::Object* item_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		static ::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>**)Il2CppClass::FromTypeDefinitionIndex(ItemCost_TypeDefinitionIndex)->GetStaticField(0x474F0);
+		}
+		// static const ::System::Int32 PileItemFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 EquipmentUniqueIdFieldNumber = 0x8; // 0x0
+		// static const ::System::Int32 RelicUniqueIdFieldNumber = 0xD; // 0x0
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::System::Object* item_; // 0x18
 		::Proto::ItemCost_ItemOneofCase itemCase_; // 0x20
 
 		::System::Void _ctor()
@@ -53,6 +60,16 @@ namespace Proto
 		::System::Void _ctor_1(::Proto::ItemCost* other)
 		{
 			return ((::System::Void(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST__CTOR_1_OFFSET))(this, other);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ITEMCOST__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>*(*)())((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

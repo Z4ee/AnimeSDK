@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_Transform_OffsetType_TypeDefinitionIndex = 57797;
+	inline static constexpr unsigned int Effect_Transform_OffsetType_TypeDefinitionIndex = 65061;
 
 	enum class Effect_Transform_OffsetType : ::System::Int32
 	{

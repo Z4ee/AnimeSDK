@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityDataType_TypeDefinitionIndex = 14763;
+	inline static constexpr unsigned int EntityDataType_TypeDefinitionIndex = 15239;
 
 	enum class EntityDataType : ::System::Int32
 	{
@@ -19,5 +19,6 @@ namespace RPG::GameCore
 		CurrentSelectedDiceCount = 9,
 		BaseAtkDiceCount = 10,
 		BaseDefDiceCount = 11,
+		CurrentSelectedDiceDiffPointCount = 12,
 	};
 }

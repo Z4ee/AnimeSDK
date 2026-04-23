@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimShakeService_1_TypeDefinitionIndex = 33617;
+	inline static constexpr unsigned int IFiveDimShakeService_1_TypeDefinitionIndex = 39417;
 
 	template <typename T>
 	class IFiveDimShakeService_1

@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/Match3/OpponentRole.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_204;
+namespace Google::Protobuf { class IMessage; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_207_TypeDefinitionIndex = 32767;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_207_TypeDefinitionIndex = 38673;
 
 class Class_0_16E4307DCC419505_207
 {

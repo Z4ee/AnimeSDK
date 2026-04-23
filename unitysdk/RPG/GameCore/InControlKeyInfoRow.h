@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172B7D80)
-#define RPG_GAMECORE_INCONTROLKEYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172B84B0)
+#define RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A1A330)
+#define RPG_GAMECORE_INCONTROLKEYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1AA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 12621;
+	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 13090;
 
 	class InControlKeyInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* key; // 0x10
-		::RPG::Client::TextID keyStringFrance; // 0x18
-		::RPG::Client::TextID keyString; // 0x28
-		::System::Boolean isSettingKey; // 0x38
+		::System::Boolean isSettingKey; // 0x18
+		::RPG::Client::TextID keyStringFrance; // 0x20
+		::RPG::Client::TextID keyString; // 0x30
 		::RPG::Client::TextID keyStringGermany; // 0x40
 
 		::System::Void _ctor()

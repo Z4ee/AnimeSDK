@@ -7,14 +7,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils___O_TypeDefinitionIndex = 48484;
+	inline static constexpr unsigned int CloudUtils___O_TypeDefinitionIndex = 55232;
 
 	class CloudUtils___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet__0___OnGetClipBoardData()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CloudUtils___O_TypeDefinitionIndex)->GetStaticField(0x47BE0);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CloudUtils___O_TypeDefinitionIndex)->GetStaticField(0x5DA00);
 		}
 	};
 }

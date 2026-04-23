@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELNPCBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1733CE00)
-#define RPG_GAMECORE_LEVELNPCBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1733CF20)
+#define RPG_GAMECORE_LEVELNPCBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A4A2F0)
+#define RPG_GAMECORE_LEVELNPCBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4A410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCBakedInfo_TypeDefinitionIndex = 15728;
+	inline static constexpr unsigned int LevelNPCBakedInfo_TypeDefinitionIndex = 16254;
 
 	class LevelNPCBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

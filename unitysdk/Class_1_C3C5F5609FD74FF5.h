@@ -7,27 +7,27 @@ namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_C3C5F5609FD74FF5_GET_FINISH_OFFSET UNITYSDK_OFFSET(0x8A63000)
-#define CLASS_1_C3C5F5609FD74FF5_METHOD_1_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0x8A62CD0)
-#define CLASS_1_C3C5F5609FD74FF5_SET_FINISH_OFFSET UNITYSDK_OFFSET(0x8A63010)
-#define CLASS_1_C3C5F5609FD74FF5__CTOR_OFFSET UNITYSDK_OFFSET(0x8A63020)
+#define CLASS_1_C3C5F5609FD74FF5_GET_FINISH_OFFSET UNITYSDK_OFFSET(0x1197DFB0)
+#define CLASS_1_C3C5F5609FD74FF5_METHOD_1_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0x1197DC80)
+#define CLASS_1_C3C5F5609FD74FF5_SET_FINISH_OFFSET UNITYSDK_OFFSET(0x1197DFC0)
+#define CLASS_1_C3C5F5609FD74FF5__CTOR_OFFSET UNITYSDK_OFFSET(0x1197DFD0)
 
-inline static constexpr unsigned int Class_1_C3C5F5609FD74FF5_TypeDefinitionIndex = 63976;
+inline static constexpr unsigned int Class_1_C3C5F5609FD74FF5_TypeDefinitionIndex = 72023;
 
 class Class_1_C3C5F5609FD74FF5 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::UnityEngine::AnimationCurve* Field_1_4; // 0x18
-	::UnityEngine::AnimationCurve* Field_1_5; // 0x20
-	::System::Action* Field_1_7; // 0x28
-	::RPG::Client::Prop::DeployPuzzleBoard* Field_1_8; // 0x30
-	::System::Boolean _Finish_k__BackingField; // 0x38
-	::System::Boolean Field_1_6; // 0x39
-	::System::Boolean Field_1_2; // 0x3A
-	::System::Single Field_1_9; // 0x3C
-	::System::Single Field_1_3; // 0x40
-	::System::UInt32 Field_1_1; // 0x44
+	::RPG::Client::Prop::DeployPuzzleBoard* Field_1_8; // 0x10
+	::UnityEngine::Transform* Field_1_0; // 0x18
+	::System::Action* Field_1_7; // 0x20
+	::UnityEngine::AnimationCurve* Field_1_4; // 0x28
+	::UnityEngine::AnimationCurve* Field_1_5; // 0x30
+	::System::Boolean Field_1_6; // 0x38
+	::System::Boolean Field_1_2; // 0x39
+	::System::Boolean _Finish_k__BackingField; // 0x3A
+	::System::UInt32 Field_1_1; // 0x3C
+	::System::Single Field_1_9; // 0x40
+	::System::Single Field_1_3; // 0x44
 
 	::System::Void _ctor()
 	{

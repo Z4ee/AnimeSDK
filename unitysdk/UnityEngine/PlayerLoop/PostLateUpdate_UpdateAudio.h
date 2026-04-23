@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdateAudio_TypeDefinitionIndex = 4437;
+	inline static constexpr unsigned int PostLateUpdate_UpdateAudio_TypeDefinitionIndex = 4439;
 
 	struct alignas(1) PostLateUpdate_UpdateAudio
 	{

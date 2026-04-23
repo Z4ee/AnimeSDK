@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchByTauntAndAggro; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_8BB1E499526061F1_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x8BDA920)
-#define CLASS_2_8BB1E499526061F1__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDA900)
+#define CLASS_2_8BB1E499526061F1_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x957CC80)
+#define CLASS_2_8BB1E499526061F1__CTOR_OFFSET UNITYSDK_OFFSET(0x957CC60)
 
-inline static constexpr unsigned int Class_2_8BB1E499526061F1_TypeDefinitionIndex = 47813;
+inline static constexpr unsigned int Class_2_8BB1E499526061F1_TypeDefinitionIndex = 54552;
 
 class Class_2_8BB1E499526061F1 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetFetchByTauntAndAggro*>
 {

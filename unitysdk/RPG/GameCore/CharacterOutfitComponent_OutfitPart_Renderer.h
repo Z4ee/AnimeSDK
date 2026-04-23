@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/GameCore/CharacterOutfitComponent_OutfitPart.h"
 
 namespace Collections::Pooled { template <typename T> class PooledList_1; }
-namespace RPG::GameCore { class CharacterModelComponent; }
+namespace RPG::Client { class CharacterArtModelConfig; }
+namespace RPG::GameCore { class CharacterOutfitComponent_CharacterOutfitInstance; }
 namespace RPG::GameCore { class CharacterOutfitPart; }
 namespace RPG::GameCore { class CharacterOutfitPartBoneRef; }
 namespace RPG::GameCore { class CharacterOutfitPartConfig; }
@@ -14,39 +15,40 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_APPLY_OFFSET UNITYSDK_OFFSET(0xA8BF0C0)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA8BEE40)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONESIMPL_1_OFFSET UNITYSDK_OFFSET(0xA8BFC70)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONESIMPL_OFFSET UNITYSDK_OFFSET(0xA8BFAE0)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONES_1_OFFSET UNITYSDK_OFFSET(0xA8BF440)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONES_OFFSET UNITYSDK_OFFSET(0xA8BF960)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONE_OFFSET UNITYSDK_OFFSET(0xA8BF3A0)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_LOAD_OFFSET UNITYSDK_OFFSET(0xA8BEF80)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_POSTAPPLY_OFFSET UNITYSDK_OFFSET(0xA8BF610)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_REMOVE_OFFSET UNITYSDK_OFFSET(0xA8BF670)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_SETUP_OFFSET UNITYSDK_OFFSET(0xA8BDB50)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xA8BDB40)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA8BFE00)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_APPLY_OFFSET UNITYSDK_OFFSET(0xB608B90)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB608910)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONESIMPL_1_OFFSET UNITYSDK_OFFSET(0xB609850)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONESIMPL_OFFSET UNITYSDK_OFFSET(0xB6096C0)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONES_1_OFFSET UNITYSDK_OFFSET(0xB608F30)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONES_OFFSET UNITYSDK_OFFSET(0xB609540)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_FINDBONE_OFFSET UNITYSDK_OFFSET(0xB608E90)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_LOAD_OFFSET UNITYSDK_OFFSET(0xB608A50)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_POSTAPPLY_OFFSET UNITYSDK_OFFSET(0xB609100)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_REMOVE_OFFSET UNITYSDK_OFFSET(0xB609180)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_SETUP_OFFSET UNITYSDK_OFFSET(0xB606A80)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xB606A70)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6099E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitComponent_OutfitPart_Renderer_TypeDefinitionIndex = 46066;
+	inline static constexpr unsigned int CharacterOutfitComponent_OutfitPart_Renderer_TypeDefinitionIndex = 52731;
 
 	class CharacterOutfitComponent_OutfitPart_Renderer : public ::RPG::GameCore::CharacterOutfitComponent_OutfitPart
 	{
 	public:
-		::System::String* MaterialKey; // 0x28
-		::RPG::GameCore::CharacterOutfitPartConfig* Config; // 0x30
-		::Il2CppArray<::RPG::GameCore::CharacterOutfitComponent_OutfitPartAsset_2<::UnityEngine::Mesh*, ::RPG::GameCore::CharacterOutfitPart*>*>* Assets; // 0x38
+		::RPG::GameCore::CharacterOutfitPartConfig* Config; // 0x28
+		::Il2CppArray<::RPG::GameCore::CharacterOutfitComponent_OutfitPartAsset_2<::UnityEngine::Mesh*, ::RPG::GameCore::CharacterOutfitPart*>*>* Assets; // 0x30
+		::System::String* MaterialKey; // 0x38
+		::System::Boolean IsStatic; // 0x40
 
-		::System::Void _ctor(::System::UInt32 id, ::System::String* configPath, ::RPG::GameCore::CharacterModelComponent* modelComp)
+		::System::Void _ctor(::System::UInt32 id, ::System::String* configPath, ::RPG::GameCore::CharacterOutfitComponent_CharacterOutfitInstance* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*, ::RPG::GameCore::CharacterModelComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER__CTOR_OFFSET))(this, id, configPath, modelComp);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*, ::RPG::GameCore::CharacterOutfitComponent_CharacterOutfitInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER__CTOR_OFFSET))(this, id, configPath, instance);
 		}
 
-		::System::Void Setup(::RPG::GameCore::CharacterOutfitPartConfig* config, ::System::String* materialKey)
+		::System::Void Setup(::RPG::GameCore::CharacterOutfitPartConfig* config, ::System::Boolean isStatic, ::System::String* materialKey)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterOutfitPartConfig*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_SETUP_OFFSET))(this, config, materialKey);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterOutfitPartConfig*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_SETUP_OFFSET))(this, config, isStatic, materialKey);
 		}
 
 		::System::Void Dispose()
@@ -59,9 +61,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_LOAD_OFFSET))(this, sync);
 		}
 
-		::System::Void Apply(::UnityEngine::Transform* model)
+		::System::Void Apply(::UnityEngine::Transform* model, ::RPG::Client::CharacterArtModelConfig* modelConfig)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_APPLY_OFFSET))(this, model);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::CharacterArtModelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_APPLY_OFFSET))(this, model, modelConfig);
 		}
 
 		::System::Void PostApply(::UnityEngine::Transform* model)
@@ -69,9 +71,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_POSTAPPLY_OFFSET))(this, model);
 		}
 
-		::System::Void Remove(::UnityEngine::Transform* model)
+		::System::Void Remove(::UnityEngine::Transform* model, ::RPG::Client::CharacterArtModelConfig* modelConfig)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_REMOVE_OFFSET))(this, model);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::CharacterArtModelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_OUTFITPART_RENDERER_REMOVE_OFFSET))(this, model, modelConfig);
 		}
 
 		static ::UnityEngine::Transform* FindBone(::UnityEngine::Transform* root, ::RPG::GameCore::CharacterOutfitPartBoneRef* boneRef)

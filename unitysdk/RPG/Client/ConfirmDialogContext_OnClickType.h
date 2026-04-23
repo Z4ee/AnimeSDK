@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogContext_OnClickType_TypeDefinitionIndex = 59587;
+	inline static constexpr unsigned int ConfirmDialogContext_OnClickType_TypeDefinitionIndex = 66983;
 
 	enum class ConfirmDialogContext_OnClickType : ::System::Int32
 	{

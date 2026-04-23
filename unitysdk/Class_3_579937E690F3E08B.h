@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeCharacterRowData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_579937E690F3E08B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87831C0)
-#define CLASS_3_579937E690F3E08B__CTOR_OFFSET UNITYSDK_OFFSET(0x8783190)
+#define CLASS_3_579937E690F3E08B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11A2BB10)
+#define CLASS_3_579937E690F3E08B__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2BAE0)
 
-inline static constexpr unsigned int Class_3_579937E690F3E08B_TypeDefinitionIndex = 43952;
+inline static constexpr unsigned int Class_3_579937E690F3E08B_TypeDefinitionIndex = 50653;
 
 class Class_3_579937E690F3E08B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeCharacterRowData*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopSceneMode_TypeDefinitionIndex = 16792;
+	inline static constexpr unsigned int LoopSceneMode_TypeDefinitionIndex = 17386;
 
 	enum class LoopSceneMode : ::System::Int32
 	{

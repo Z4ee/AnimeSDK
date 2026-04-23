@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AmbientVolumeType_TypeDefinitionIndex = 4608;
+	inline static constexpr unsigned int AmbientVolumeType_TypeDefinitionIndex = 4616;
 
 	enum class AmbientVolumeType : ::System::Int32
 	{

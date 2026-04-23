@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERINGREDIENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1717C670)
-#define RPG_GAMECORE_DRINKMAKERINGREDIENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1717CB60)
+#define RPG_GAMECORE_DRINKMAKERINGREDIENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18889730)
+#define RPG_GAMECORE_DRINKMAKERINGREDIENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18889C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerIngredientRow_TypeDefinitionIndex = 12015;
+	inline static constexpr unsigned int DrinkMakerIngredientRow_TypeDefinitionIndex = 12448;
 
 	class DrinkMakerIngredientRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* EffParam; // 0x10
-		::System::String* SmallIconPath; // 0x18
-		::System::String* IconPath; // 0x20
-		::Il2CppArray<::System::UInt32>* UnlockParam; // 0x28
-		::Il2CppArray<::System::UInt32>* Color; // 0x30
-		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x38
-		::Il2CppArray<::System::Single>* PhyParam; // 0x40
-		::RPG::Client::TextID IngredientDesc; // 0x48
-		::RPG::GameCore::DrinkMakerUnlockType UnlockType; // 0x58
-		::System::UInt32 ID; // 0x5C
-		::System::Boolean IsMission; // 0x60
-		::RPG::Client::TextID IngredientName; // 0x68
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* UnlockParam; // 0x18
+		::System::String* SmallIconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x28
+		::Il2CppArray<::System::Single>* PhyParam; // 0x30
+		::Il2CppArray<::System::UInt32>* Color; // 0x38
+		::Il2CppArray<::System::Single>* EffParam; // 0x40
+		::System::UInt32 ID; // 0x48
+		::RPG::GameCore::DrinkMakerUnlockType UnlockType; // 0x4C
+		::RPG::Client::TextID IngredientName; // 0x50
+		::RPG::Client::TextID IngredientDesc; // 0x60
+		::System::Boolean IsMission; // 0x70
 
 		::System::Void _ctor()
 		{

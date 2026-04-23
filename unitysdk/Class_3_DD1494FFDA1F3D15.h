@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroUseBullet; }
 
-#define CLASS_3_DD1494FFDA1F3D15_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89E71C0)
-#define CLASS_3_DD1494FFDA1F3D15__CTOR_OFFSET UNITYSDK_OFFSET(0x89E7190)
+#define CLASS_3_DD1494FFDA1F3D15_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9640430)
+#define CLASS_3_DD1494FFDA1F3D15__CTOR_OFFSET UNITYSDK_OFFSET(0x9640400)
 
-inline static constexpr unsigned int Class_3_DD1494FFDA1F3D15_TypeDefinitionIndex = 47636;
+inline static constexpr unsigned int Class_3_DD1494FFDA1F3D15_TypeDefinitionIndex = 54374;
 
 class Class_3_DD1494FFDA1F3D15 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroUseBullet*>
 {

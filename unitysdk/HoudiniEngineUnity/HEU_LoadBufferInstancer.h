@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERINSTANCER__CTOR_OFFSET UNITYSDK_OFFSET(0x8469BE0)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERINSTANCER__CTOR_OFFSET UNITYSDK_OFFSET(0x8C91D20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LoadBufferInstancer_TypeDefinitionIndex = 37794;
+	inline static constexpr unsigned int HEU_LoadBufferInstancer_TypeDefinitionIndex = 43671;
 
 	class HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_LoadBufferBase
 	{
 	public:
-		::Il2CppArray<::HoudiniEngineUnity::HAPI_Transform>* _instanceTransforms; // 0x28
-		::Il2CppArray<::System::Int32>* _instanceNodeIDs; // 0x30
-		::Il2CppArray<::System::String*>* _assetPaths; // 0x38
-		::Il2CppArray<::System::String*>* _instancePrefixes; // 0x40
+		::Il2CppArray<::System::Int32>* _instanceNodeIDs; // 0x28
+		::Il2CppArray<::HoudiniEngineUnity::HAPI_Transform>* _instanceTransforms; // 0x30
+		::Il2CppArray<::System::String*>* _instancePrefixes; // 0x38
+		::Il2CppArray<::System::String*>* _assetPaths; // 0x40
 		::Il2CppArray<::System::String*>* _collisionAssetPaths; // 0x48
 
 		::System::Void _ctor()

@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONSTERAVATARPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D83AB0)
+#define RPG_CLIENT_MONSTERAVATARPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAAC8C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarPropertyUIData_TypeDefinitionIndex = 50528;
+	inline static constexpr unsigned int MonsterAvatarPropertyUIData_TypeDefinitionIndex = 57391;
 
 	class MonsterAvatarPropertyUIData : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
+		::System::String* Num; // 0x10
 		::System::String* AddNum; // 0x18
-		::System::String* Num; // 0x20
+		::System::String* IconPath; // 0x20
 		::RPG::Client::TextID Title; // 0x28
 
 		::System::Void _ctor()

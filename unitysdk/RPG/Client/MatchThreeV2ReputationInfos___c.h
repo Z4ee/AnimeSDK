@@ -5,24 +5,24 @@
 namespace RPG::Client { class MatchThreeV2ReputationData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B6C3E0)
-#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9B6C420)
-#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__GETCHALLENGINGREPUTATIONDATALIST_B__6_0_OFFSET UNITYSDK_OFFSET(0x9B6C430)
+#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA865760)
+#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA8657A0)
+#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__GETCHALLENGINGREPUTATIONDATALIST_B__6_0_OFFSET UNITYSDK_OFFSET(0xA8657B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2ReputationInfos___c_TypeDefinitionIndex = 53648;
+	inline static constexpr unsigned int MatchThreeV2ReputationInfos___c_TypeDefinitionIndex = 60792;
 
 	class MatchThreeV2ReputationInfos___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x30290);
-		}
 		static ::RPG::Client::MatchThreeV2ReputationInfos___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeV2ReputationInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x30298);
+			return (::RPG::Client::MatchThreeV2ReputationInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x2EB50);
+		}
+		static ::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x2EB58);
 		}
 
 		static ::System::Void _cctor()

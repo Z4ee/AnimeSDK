@@ -5,11 +5,11 @@
 
 namespace RPG::UINavigation { class UINavigation; }
 
-#define RPG_UINAVIGATION_UINAVIGATIONBOUNDARYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB095E0)
+#define RPG_UINAVIGATION_UINAVIGATIONBOUNDARYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB877C30)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationBoundaryConfig_TypeDefinitionIndex = 41827;
+	inline static constexpr unsigned int UINavigationBoundaryConfig_TypeDefinitionIndex = 47797;
 
 	class UINavigationBoundaryConfig : public ::System::Object
 	{

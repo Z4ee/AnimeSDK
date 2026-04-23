@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleScreenEffectType_TypeDefinitionIndex = 21479;
+	inline static constexpr unsigned int BattleScreenEffectType_TypeDefinitionIndex = 22213;
 
 	enum class BattleScreenEffectType : ::System::Int32
 	{
@@ -14,5 +14,6 @@ namespace RPG::GameCore
 		FightFest = 4,
 		FeverTime = 5,
 		Common = 6,
+		SilverWolf999 = 7,
 	};
 }

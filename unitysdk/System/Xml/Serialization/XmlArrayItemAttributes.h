@@ -4,12 +4,12 @@
 
 namespace System::Xml::Serialization { class XmlArrayItemAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x185C6A30)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x185C6AF0)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1A001720)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYITEMATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0017E0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlArrayItemAttributes_TypeDefinitionIndex = 1989;
+	inline static constexpr unsigned int XmlArrayItemAttributes_TypeDefinitionIndex = 1990;
 
 	class XmlArrayItemAttributes : public ::System::Collections::CollectionBase
 	{

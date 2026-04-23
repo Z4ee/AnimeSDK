@@ -9,27 +9,27 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x18724770)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x18724750)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x18720E00)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x18724760)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18721A70)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1871CFF0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1A15EDB0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1A15ED90)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1A15B540)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1A15EDA0)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A15C170)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A157800)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnectionData_TypeDefinitionIndex = 2873;
+	inline static constexpr unsigned int WebConnectionData_TypeDefinitionIndex = 2874;
 
 	class WebConnectionData : public ::System::Object
 	{
 	public:
-		::System::Version* ProxyVersion; // 0x10
+		::System::Version* Version; // 0x10
 		::System::String* StatusDescription; // 0x18
-		::Il2CppArray<::System::String*>* Challenge; // 0x20
-		::System::IO::Stream* stream; // 0x28
-		::System::Version* Version; // 0x30
-		::System::Net::WebHeaderCollection* Headers; // 0x38
-		::System::Net::HttpWebRequest* _request; // 0x40
+		::System::Net::HttpWebRequest* _request; // 0x20
+		::System::Net::WebHeaderCollection* Headers; // 0x28
+		::System::IO::Stream* stream; // 0x30
+		::System::Version* ProxyVersion; // 0x38
+		::Il2CppArray<::System::String*>* Challenge; // 0x40
 		::System::Net::ReadState _readState; // 0x48
 		::System::Int32 StatusCode; // 0x4C
 

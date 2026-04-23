@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_PS4ATRAC9VOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x119F99B0)
+#define CRIWARE_CRIATOMCONFIG_PS4ATRAC9VOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC81B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_Ps4Atrac9VoicePoolConfig_TypeDefinitionIndex = 31181;
+	inline static constexpr unsigned int CriAtomConfig_Ps4Atrac9VoicePoolConfig_TypeDefinitionIndex = 36901;
 
 	class CriAtomConfig_Ps4Atrac9VoicePoolConfig : public ::System::Object
 	{

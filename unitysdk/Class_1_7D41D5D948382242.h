@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define CLASS_1_7D41D5D948382242_METHOD_1_7CF2439931A13FE4_OFFSET UNITYSDK_OFFSET(0x8D93AC0)
-#define CLASS_1_7D41D5D948382242__CTOR_OFFSET UNITYSDK_OFFSET(0x8D93D30)
+#define CLASS_1_7D41D5D948382242_METHOD_1_7CF2439931A13FE4_OFFSET UNITYSDK_OFFSET(0xCD2C310)
+#define CLASS_1_7D41D5D948382242__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2C580)
 
-inline static constexpr unsigned int Class_1_7D41D5D948382242_TypeDefinitionIndex = 54297;
+inline static constexpr unsigned int Class_1_7D41D5D948382242_TypeDefinitionIndex = 61460;
 
 class Class_1_7D41D5D948382242 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::Int32 Field_1_3; // 0x20
-	::System::Int32 Field_1_2; // 0x24
+	::System::String* Field_1_1; // 0x10
+	::System::String* Field_1_0; // 0x18
+	::System::Int32 Field_1_2; // 0x20
+	::System::Int32 Field_1_3; // 0x24
 
 	::System::Void _ctor()
 	{

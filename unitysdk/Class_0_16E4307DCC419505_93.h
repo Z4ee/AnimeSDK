@@ -8,7 +8,7 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_93_TypeDefinitionIndex = 32312;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_93_TypeDefinitionIndex = 38032;
 
 class Class_0_16E4307DCC419505_93
 {

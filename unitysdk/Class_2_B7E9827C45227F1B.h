@@ -6,42 +6,42 @@
 
 class Class_2_469A56953483CA0D;
 class Class_2_A0580152EB393340;
-class Class_2_F67FF7EB526BF85C;
+class Class_2_C14C025AFA60DCA2;
 namespace RPG::GameCore { class AdvNPCGuarding; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class NPCComponent; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_2_B7E9827C45227F1B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4EB240)
-#define CLASS_2_B7E9827C45227F1B_METHOD_2_77577333B4681208_OFFSET UNITYSDK_OFFSET(0xC4EBED0)
-#define CLASS_2_B7E9827C45227F1B_METHOD_2_870AF3CD1D0A67B1_OFFSET UNITYSDK_OFFSET(0xC4EB700)
-#define CLASS_2_B7E9827C45227F1B_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xC4EB620)
-#define CLASS_2_B7E9827C45227F1B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4EB2D0)
-#define CLASS_2_B7E9827C45227F1B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC4EBF90)
-#define CLASS_2_B7E9827C45227F1B_TICK_OFFSET UNITYSDK_OFFSET(0xC4EBB00)
-#define CLASS_2_B7E9827C45227F1B__CTOR_OFFSET UNITYSDK_OFFSET(0xC4EAF50)
+#define CLASS_2_B7E9827C45227F1B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12992D90)
+#define CLASS_2_B7E9827C45227F1B_METHOD_2_77577333B4681208_OFFSET UNITYSDK_OFFSET(0x129939F0)
+#define CLASS_2_B7E9827C45227F1B_METHOD_2_870AF3CD1D0A67B1_OFFSET UNITYSDK_OFFSET(0x12993250)
+#define CLASS_2_B7E9827C45227F1B_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x12993170)
+#define CLASS_2_B7E9827C45227F1B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12992E20)
+#define CLASS_2_B7E9827C45227F1B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12993AB0)
+#define CLASS_2_B7E9827C45227F1B_TICK_OFFSET UNITYSDK_OFFSET(0x12993620)
+#define CLASS_2_B7E9827C45227F1B__CTOR_OFFSET UNITYSDK_OFFSET(0x12992AA0)
 
-inline static constexpr unsigned int Class_2_B7E9827C45227F1B_TypeDefinitionIndex = 42440;
+inline static constexpr unsigned int Class_2_B7E9827C45227F1B_TypeDefinitionIndex = 48401;
 
 class Class_2_B7E9827C45227F1B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_2_F67FF7EB526BF85C* Field_2_7; // 0x18
-	::Class_2_A0580152EB393340* Field_2_10; // 0x20
+	::Class_2_C14C025AFA60DCA2* Field_2_7; // 0x18
+	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x20
 	::RPG::GameCore::AdventureCharacterController* Field_2_9; // 0x28
-	::RPG::GameCore::TransformComponent* Field_2_8; // 0x30
+	::Class_1_5F51D4049EA87B7B* Field_2_14; // 0x30
 	::Class_1_5F51D4049EA87B7B* Field_2_13; // 0x38
-	::RPG::GameCore::AdvNPCGuarding* Field_2_2; // 0x40
-	::Class_1_5F51D4049EA87B7B* Field_2_14; // 0x48
-	::RPG::GameCore::TransformComponent* Field_2_6; // 0x50
-	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x58
-	::RPG::GameCore::NPCComponent* Field_2_11; // 0x60
-	::Class_1_5F51D4049EA87B7B* Field_2_5; // 0x68
-	::Class_2_469A56953483CA0D* Field_2_12; // 0x70
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x78
-	::RPG::GameCore::GuardingState Field_2_0; // 0x80
-	::RPG::MVector3 Field_2_1; // 0x84
+	::RPG::GameCore::NPCComponent* Field_2_11; // 0x40
+	::RPG::GameCore::TransformComponent* Field_2_6; // 0x48
+	::Class_2_469A56953483CA0D* Field_2_12; // 0x50
+	::Class_2_A0580152EB393340* Field_2_10; // 0x58
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x60
+	::RPG::GameCore::AdvNPCGuarding* Field_2_2; // 0x68
+	::RPG::GameCore::TransformComponent* Field_2_8; // 0x70
+	::Class_1_5F51D4049EA87B7B* Field_2_5; // 0x78
+	::RPG::MVector3 Field_2_1; // 0x80
+	::RPG::GameCore::GuardingState Field_2_0; // 0x8C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvNPCGuarding* a2)
 	{

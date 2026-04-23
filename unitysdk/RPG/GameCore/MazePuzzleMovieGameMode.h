@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleMovieGameMode_TypeDefinitionIndex = 12875;
+	inline static constexpr unsigned int MazePuzzleMovieGameMode_TypeDefinitionIndex = 13337;
 
 	enum class MazePuzzleMovieGameMode : ::System::Int32
 	{

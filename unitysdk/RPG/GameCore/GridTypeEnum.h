@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridTypeEnum_TypeDefinitionIndex = 11487;
+	inline static constexpr unsigned int GridTypeEnum_TypeDefinitionIndex = 11889;
 
 	enum class GridTypeEnum : ::System::Int32
 	{

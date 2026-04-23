@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXDRUMKITMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B9AE10)
-#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXDRUMKITMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9AEA0)
+#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXDRUMKITMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x171987F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXDRUMKITMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17198880)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int HarmonixDrumKitMacNativeProfile_TypeDefinitionIndex = 31704;
+	inline static constexpr unsigned int HarmonixDrumKitMacNativeProfile_TypeDefinitionIndex = 37424;
 
 	class HarmonixDrumKitMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class CharacterAtlasFaceEmotion; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB20C00)
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB20BF0)
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB20DD0)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB894980)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB894970)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB894B50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AtlasFaceEmotionClip_TypeDefinitionIndex = 38880;
+	inline static constexpr unsigned int AtlasFaceEmotionClip_TypeDefinitionIndex = 44783;
 
 	class AtlasFaceEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{

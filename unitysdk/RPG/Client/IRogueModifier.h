@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueModifier_TypeDefinitionIndex = 54807;
+	inline static constexpr unsigned int IRogueModifier_TypeDefinitionIndex = 61995;
 
 	class IRogueModifier
 	{

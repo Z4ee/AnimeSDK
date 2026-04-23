@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int AnalyzeTypeIsResult_TypeDefinitionIndex = 3191;
+	inline static constexpr unsigned int AnalyzeTypeIsResult_TypeDefinitionIndex = 3193;
 
 	enum class AnalyzeTypeIsResult : ::System::Int32
 	{

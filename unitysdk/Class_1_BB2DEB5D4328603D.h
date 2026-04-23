@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class ModifyDamageDisplayData; }
 namespace System { class String; }
 
-#define CLASS_1_BB2DEB5D4328603D_METHOD_1_C736B8250CEA3429_OFFSET UNITYSDK_OFFSET(0x8CD7B50)
-#define CLASS_1_BB2DEB5D4328603D__CTOR_OFFSET UNITYSDK_OFFSET(0x8CD7C80)
+#define CLASS_1_BB2DEB5D4328603D_METHOD_1_C736B8250CEA3429_OFFSET UNITYSDK_OFFSET(0x12A98460)
+#define CLASS_1_BB2DEB5D4328603D__CTOR_OFFSET UNITYSDK_OFFSET(0x12A98590)
 
-inline static constexpr unsigned int Class_1_BB2DEB5D4328603D_TypeDefinitionIndex = 43507;
+inline static constexpr unsigned int Class_1_BB2DEB5D4328603D_TypeDefinitionIndex = 50204;
 
 class Class_1_BB2DEB5D4328603D : public ::System::Object
 {

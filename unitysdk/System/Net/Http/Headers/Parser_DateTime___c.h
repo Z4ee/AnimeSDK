@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1852BF10)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1852BF40)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1852BF50)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F66DA0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19F66DD0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x19F66DE0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_DateTime___c_TypeDefinitionIndex = 4823;
+	inline static constexpr unsigned int Parser_DateTime___c_TypeDefinitionIndex = 4831;
 
 	class Parser_DateTime___c : public ::System::Object
 	{
 	public:
 		static ::System::Net::Http::Headers::Parser_DateTime___c** StaticGet___9()
 		{
-			return (::System::Net::Http::Headers::Parser_DateTime___c**)Il2CppClass::FromTypeDefinitionIndex(Parser_DateTime___c_TypeDefinitionIndex)->GetStaticField(0x15280);
+			return (::System::Net::Http::Headers::Parser_DateTime___c**)Il2CppClass::FromTypeDefinitionIndex(Parser_DateTime___c_TypeDefinitionIndex)->GetStaticField(0x163F0);
 		}
 
 		static ::System::Void _cctor()

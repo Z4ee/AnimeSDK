@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HudType_TypeDefinitionIndex = 12605;
+	inline static constexpr unsigned int HudType_TypeDefinitionIndex = 13042;
 
 	enum class HudType : ::System::Int32
 	{
@@ -30,5 +30,6 @@ namespace RPG::GameCore
 		ActionSkillTag = 20,
 		ActionDrone = 101,
 		WolfBro = 102,
+		OnlinePlayRoomManagement = 420,
 	};
 }

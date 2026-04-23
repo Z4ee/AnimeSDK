@@ -6,21 +6,21 @@
 namespace System { class String; }
 namespace UnityEngine::ProBuilder { class XYZColor; }
 
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x187C11A0)
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMXYZ_OFFSET UNITYSDK_OFFSET(0x187C0FB0)
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x187C1260)
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x187C0FA0)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1A1FB170)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMXYZ_OFFSET UNITYSDK_OFFSET(0x1A1FAF80)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A1FB230)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FAF70)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int CIELabColor_TypeDefinitionIndex = 34085;
+	inline static constexpr unsigned int CIELabColor_TypeDefinitionIndex = 39904;
 
 	class CIELabColor : public ::System::Object
 	{
 	public:
-		::System::Single L; // 0x10
-		::System::Single b; // 0x14
-		::System::Single a; // 0x18
+		::System::Single b; // 0x10
+		::System::Single a; // 0x14
+		::System::Single L; // 0x18
 
 		::System::Void _ctor(::System::Single L, ::System::Single a, ::System::Single b)
 		{

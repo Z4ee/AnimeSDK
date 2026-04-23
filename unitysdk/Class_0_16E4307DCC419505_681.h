@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_6.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-namespace System { class String; }
+class Class_1_06CDCC6A0A66BA0A;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_681_TypeDefinitionIndex = 54463;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_681_TypeDefinitionIndex = 57891;
 
 class Class_0_16E4307DCC419505_681
 {

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define VISIBILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAC72A70)
+#define VISIBILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B1CF0)
 
-inline static constexpr unsigned int VisibilityConfig_TypeDefinitionIndex = 38214;
+inline static constexpr unsigned int VisibilityConfig_TypeDefinitionIndex = 44098;
 
 class VisibilityConfig : public ::System::Object
 {

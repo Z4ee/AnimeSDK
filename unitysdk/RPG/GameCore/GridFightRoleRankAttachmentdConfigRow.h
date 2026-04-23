@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLERANKATTACHMENTDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1727F540)
-#define RPG_GAMECORE_GRIDFIGHTROLERANKATTACHMENTDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1727F710)
+#define RPG_GAMECORE_GRIDFIGHTROLERANKATTACHMENTDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189D37A0)
+#define RPG_GAMECORE_GRIDFIGHTROLERANKATTACHMENTDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189D3970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleRankAttachmentdConfigRow_TypeDefinitionIndex = 12395;
+	inline static constexpr unsigned int GridFightRoleRankAttachmentdConfigRow_TypeDefinitionIndex = 12828;
 
 	class GridFightRoleRankAttachmentdConfigRow : public ::System::Object
 	{

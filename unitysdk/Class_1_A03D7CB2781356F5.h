@@ -6,10 +6,10 @@
 namespace RPG::Client { class ActivityPanelData; }
 namespace RPG::GameCore { class ActivityPanelRow; }
 
-#define CLASS_1_A03D7CB2781356F5_METHOD_1_32DF36622DFB2ECE_OFFSET UNITYSDK_OFFSET(0x105C0810)
-#define CLASS_1_A03D7CB2781356F5__CTOR_OFFSET UNITYSDK_OFFSET(0x105C0A60)
+#define CLASS_1_A03D7CB2781356F5_METHOD_1_32DF36622DFB2ECE_OFFSET UNITYSDK_OFFSET(0x1181EDD0)
+#define CLASS_1_A03D7CB2781356F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1181F020)
 
-inline static constexpr unsigned int Class_1_A03D7CB2781356F5_TypeDefinitionIndex = 50059;
+inline static constexpr unsigned int Class_1_A03D7CB2781356F5_TypeDefinitionIndex = 56902;
 
 class Class_1_A03D7CB2781356F5 : public ::System::Object
 {

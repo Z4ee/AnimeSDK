@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_FA4F4A67B1C04320_144;
+class Class_1_D17272E82AE804C2_151;
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakBoss_IServerAgent_TypeDefinitionIndex = 51248;
+	inline static constexpr unsigned int ChallengePeakBoss_IServerAgent_TypeDefinitionIndex = 58172;
 
 	class ChallengePeakBoss_IServerAgent
 	{

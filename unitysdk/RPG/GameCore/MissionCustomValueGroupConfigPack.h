@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValueGroupConfig; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_6AA237136CE533BE_OFFSET UNITYSDK_OFFSET(0x17420720)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x174207F0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_6AA237136CE533BE_OFFSET UNITYSDK_OFFSET(0x18B2CFF0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2D0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueGroupConfigPack_TypeDefinitionIndex = 17407;
+	inline static constexpr unsigned int MissionCustomValueGroupConfigPack_TypeDefinitionIndex = 18015;
 
 	class MissionCustomValueGroupConfigPack : public ::RPG::GameCore::JsonConfig
 	{

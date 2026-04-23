@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUIMode_TypeDefinitionIndex = 49391;
+	inline static constexpr unsigned int PhotoGraphUIMode_TypeDefinitionIndex = 56188;
 
 	enum class PhotoGraphUIMode : ::System::Int32
 	{

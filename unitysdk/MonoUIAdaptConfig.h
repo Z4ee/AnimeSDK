@@ -7,10 +7,10 @@ class Class_1_92608A36037A1D69;
 class MonoUIAdaptConfigItem;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUIADAPTCONFIG_GETUIADAPTIONOPERATIONS_OFFSET UNITYSDK_OFFSET(0x88BED40)
-#define MONOUIADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x88BF230)
+#define MONOUIADAPTCONFIG_GETUIADAPTIONOPERATIONS_OFFSET UNITYSDK_OFFSET(0x933AE50)
+#define MONOUIADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x933B350)
 
-inline static constexpr unsigned int MonoUIAdaptConfig_TypeDefinitionIndex = 38446;
+inline static constexpr unsigned int MonoUIAdaptConfig_TypeDefinitionIndex = 44330;
 
 class MonoUIAdaptConfig : public ::UnityEngine::MonoBehaviour
 {

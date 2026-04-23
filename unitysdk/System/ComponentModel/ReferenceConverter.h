@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1868F3A0)
+#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0C9990)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ReferenceConverter_TypeDefinitionIndex = 2608;
+	inline static constexpr unsigned int ReferenceConverter_TypeDefinitionIndex = 2609;
 
 	class ReferenceConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:
 		static ::System::String** StaticGet_none()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ReferenceConverter_TypeDefinitionIndex)->GetStaticField(0x10E30);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ReferenceConverter_TypeDefinitionIndex)->GetStaticField(0x12540);
 		}
 
 		static ::System::Void _cctor()

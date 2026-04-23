@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FoundationPropStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOUNDATIONANDBALLBIND_METHOD_2_E18CED3AEDB8201E_OFFSET UNITYSDK_OFFSET(0x17219AD0)
-#define RPG_GAMECORE_FOUNDATIONANDBALLBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x17219D70)
+#define RPG_GAMECORE_FOUNDATIONANDBALLBIND_METHOD_2_EC69C44BA5BE44DA_OFFSET UNITYSDK_OFFSET(0x1892C100)
+#define RPG_GAMECORE_FOUNDATIONANDBALLBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1892C380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FoundationAndBallBind_TypeDefinitionIndex = 16141;
+	inline static constexpr unsigned int FoundationAndBallBind_TypeDefinitionIndex = 16672;
 
 	class FoundationAndBallBind : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOUNDATIONANDBALLBIND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E18CED3AEDB8201E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FoundationAndBallBind*& a2)
+		static ::System::Void Method_2_EC69C44BA5BE44DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FoundationAndBallBind*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FoundationAndBallBind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOUNDATIONANDBALLBIND_METHOD_2_E18CED3AEDB8201E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FoundationAndBallBind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOUNDATIONANDBALLBIND_METHOD_2_EC69C44BA5BE44DA_OFFSET))(a1, a2);
 		}
 	};
 }

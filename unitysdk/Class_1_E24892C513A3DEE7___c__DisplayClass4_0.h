@@ -5,10 +5,10 @@
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 
-#define CLASS_1_E24892C513A3DEE7___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8A80EF0)
-#define CLASS_1_E24892C513A3DEE7___C__DISPLAYCLASS4_0___GETRELICSMARTSUITINVENTORYRELICINFOS_B__0_OFFSET UNITYSDK_OFFSET(0x8A80F30)
+#define CLASS_1_E24892C513A3DEE7___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA042830)
+#define CLASS_1_E24892C513A3DEE7___C__DISPLAYCLASS4_0___GETRELICSMARTSUITINVENTORYRELICINFOS_B__0_OFFSET UNITYSDK_OFFSET(0xA042870)
 
-inline static constexpr unsigned int Class_1_E24892C513A3DEE7___c__DisplayClass4_0_TypeDefinitionIndex = 61192;
+inline static constexpr unsigned int Class_1_E24892C513A3DEE7___c__DisplayClass4_0_TypeDefinitionIndex = 68703;
 
 class Class_1_E24892C513A3DEE7___c__DisplayClass4_0 : public ::System::Object
 {

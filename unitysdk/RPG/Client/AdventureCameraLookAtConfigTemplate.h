@@ -5,11 +5,11 @@
 namespace RPG::Client { class SingleAdventureCameraLookAtConfigTemplate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADVENTURECAMERALOOKATCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x902B680)
+#define RPG_CLIENT_ADVENTURECAMERALOOKATCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9C883C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureCameraLookAtConfigTemplate_TypeDefinitionIndex = 56827;
+	inline static constexpr unsigned int AdventureCameraLookAtConfigTemplate_TypeDefinitionIndex = 64073;
 
 	class AdventureCameraLookAtConfigTemplate : public ::UnityEngine::ScriptableObject
 	{

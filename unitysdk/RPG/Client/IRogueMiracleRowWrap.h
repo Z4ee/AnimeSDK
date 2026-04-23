@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueMiracleRowWrap_TypeDefinitionIndex = 54802;
+	inline static constexpr unsigned int IRogueMiracleRowWrap_TypeDefinitionIndex = 61990;
 
 	class IRogueMiracleRowWrap
 	{

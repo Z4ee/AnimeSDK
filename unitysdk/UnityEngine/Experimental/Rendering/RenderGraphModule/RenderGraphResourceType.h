@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphResourceType_TypeDefinitionIndex = 27747;
+	inline static constexpr unsigned int RenderGraphResourceType_TypeDefinitionIndex = 33371;
 
 	enum class RenderGraphResourceType : ::System::Int32
 	{

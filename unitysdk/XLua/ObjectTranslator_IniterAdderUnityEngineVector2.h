@@ -1,60 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCallbackType.h"
-#include "unitysdk/Class_2_28AE27DB9AA4E9DD_LuaDataInvokeType.h"
+#include "unitysdk/Class_2_C19C98BCB55B1F42_LuaDataInvokeType.h"
 #include "unitysdk/Conflict_GroupUnitType.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_1.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_3.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_5.h"
+#include "unitysdk/Enum_3_01618AD0437C8486.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_10.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_11.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_2.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_4.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_6.h"
 #include "unitysdk/Enum_3_01618AD0437C8486_8.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_9.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_10.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_26.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_29.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_25.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_28.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_34.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_37.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_38.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_43.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_44.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_45.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_56.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_64.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_46.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_57.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_65.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_7.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_79.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_8.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_80.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_83.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_81.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_84.h"
 #include "unitysdk/Enum_3_0F1B992870941C13.h"
 #include "unitysdk/Enum_3_0F1B992870941C13_1.h"
 #include "unitysdk/Enum_3_0F1B992870941C13_3.h"
 #include "unitysdk/Enum_3_0F1B992870941C13_4.h"
 #include "unitysdk/Enum_3_0F1B992870941C13_5.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_6.h"
 #include "unitysdk/Enum_3_237A657B7EBA40A4_1.h"
 #include "unitysdk/Enum_3_237A657B7EBA40A4_2.h"
 #include "unitysdk/Enum_3_237A657B7EBA40A4_3.h"
 #include "unitysdk/Enum_3_4135D2C3F2354D90.h"
+#include "unitysdk/Enum_3_413C12C3F23A2626.h"
 #include "unitysdk/Enum_3_414012C3F23E0EDD.h"
 #include "unitysdk/Enum_3_415112C3F24C8228.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_11.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_14.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_16.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_20.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_22.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_10.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_13.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_15.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_19.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_21.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_23.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_24.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_25.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_26.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_27.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_28.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_29.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_30.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_34.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_35.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_36.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_37.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_7.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_8.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_9.h"
 #include "unitysdk/Enum_3_4A453BC3F773E0DF.h"
 #include "unitysdk/Enum_3_4A483BC3F77616F6.h"
+#include "unitysdk/Enum_3_4A4EFBC3F77BC884.h"
 #include "unitysdk/Enum_3_4A5FFBC3F78A3BD7.h"
 #include "unitysdk/Enum_3_519A64C3FB3A5470.h"
 #include "unitysdk/Enum_3_51AB64C3FB48C743.h"
@@ -70,51 +74,46 @@
 #include "unitysdk/Enum_3_63C076C405BE0674_4.h"
 #include "unitysdk/Enum_3_63C076C405BE0674_5.h"
 #include "unitysdk/Enum_3_63C076C405BE0674_6.h"
-#include "unitysdk/Enum_3_63C076C405BE0674_7.h"
 #include "unitysdk/Enum_3_63CAB6C405C6C7B1_1.h"
 #include "unitysdk/Enum_3_63CAB6C405C6C7B1_2.h"
+#include "unitysdk/Enum_3_63CAB6C405C6C7B1_3.h"
 #include "unitysdk/Enum_3_63CDB6C405C8FD68.h"
 #include "unitysdk/Enum_3_63CDB6C405C8FD68_1.h"
 #include "unitysdk/Enum_3_63CDB6C405C8FD68_2.h"
-#include "unitysdk/Enum_3_63D176C405CC7947_1.h"
 #include "unitysdk/Enum_3_63D176C405CC7947_2.h"
 #include "unitysdk/Enum_3_63D176C405CC7947_3.h"
 #include "unitysdk/Enum_3_63D176C405CC7947_4.h"
+#include "unitysdk/Enum_3_63D176C405CC7947_5.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_1.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_2.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_3.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_4.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_5.h"
-#include "unitysdk/Enum_3_63D476C405CEAF7E_6.h"
-#include "unitysdk/Enum_3_63D476C405CEAF7E_7.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_1.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_10.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_11.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_12.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_13.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_14.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_15.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_16.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_17.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_18.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_19.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_3.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_5.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_20.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_4.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_6.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_7.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_8.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_9.h"
 #include "unitysdk/Enum_3_759808C40FFEBD5F.h"
 #include "unitysdk/Enum_3_759808C40FFEBD5F_1.h"
 #include "unitysdk/Enum_3_759B08C41000F376.h"
-#include "unitysdk/Enum_3_759B08C41000F376_1.h"
 #include "unitysdk/Enum_3_759EC8C410046F6D.h"
 #include "unitysdk/Enum_3_75A1C8C41006A504.h"
 #include "unitysdk/Enum_3_75A1C8C41006A504_1.h"
 #include "unitysdk/Enum_3_75A5C8C4100A8E33.h"
 #include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33_2.h"
 #include "unitysdk/Enum_3_75A908C4100D30AA.h"
-#include "unitysdk/Enum_3_75B6C8C41019010E.h"
 #include "unitysdk/Enum_3_7CE9F1C413C28E19.h"
 #include "unitysdk/Enum_3_7CED31C413C530F0.h"
 #include "unitysdk/Enum_3_7CED31C413C530F0_1.h"
@@ -122,88 +121,91 @@
 #include "unitysdk/Enum_3_7CED31C413C530F0_3.h"
 #include "unitysdk/Enum_3_7CF131C413C919AF_1.h"
 #include "unitysdk/Enum_3_7CF3F1C413CAE286.h"
+#include "unitysdk/Enum_3_7CF3F1C413CAE286_1.h"
 #include "unitysdk/Enum_3_7CF7F1C413CECBBD.h"
 #include "unitysdk/Enum_3_7CF7F1C413CECBBD_1.h"
 #include "unitysdk/Enum_3_7CF7F1C413CECBBD_2.h"
 #include "unitysdk/Enum_3_7CF7F1C413CECBBD_3.h"
 #include "unitysdk/Enum_3_7CFB31C413D16E14.h"
+#include "unitysdk/Enum_3_7CFB31C413D16E14_1.h"
 #include "unitysdk/Enum_3_7CFE31C413D3A3C3.h"
 #include "unitysdk/Enum_3_7CFE31C413D3A3C3_2.h"
 #include "unitysdk/Enum_3_7D0231C413D78CFA_1.h"
+#include "unitysdk/Enum_3_7D0231C413D78CFA_2.h"
+#include "unitysdk/Enum_3_7D1331C413E60035.h"
 #include "unitysdk/Enum_3_7D15F1C413E7C92C.h"
 #include "unitysdk/Enum_3_7D15F1C413E7C92C_1.h"
 #include "unitysdk/Enum_3_7D15F1C413E7C92C_2.h"
+#include "unitysdk/Enum_3_84F790F6B4BFF34E_1.h"
 #include "unitysdk/Enum_3_84F790F6B4BFF34E_2.h"
 #include "unitysdk/Enum_3_84F790F6B4BFF34E_3.h"
-#include "unitysdk/Enum_3_84F790F6B4BFF34E_4.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_10.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_11.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_17.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_20.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_21.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_22.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_23.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_26.h"
+#include "unitysdk/Enum_3_96F6662CA3713095_24.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_27.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_29.h"
+#include "unitysdk/Enum_3_96F6662CA3713095_28.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_3.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_30.h"
+#include "unitysdk/Enum_3_96F6662CA3713095_31.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_5.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_6.h"
-#include "unitysdk/Enum_3_A35B38E5F9115A76.h"
-#include "unitysdk/Enum_3_A35B38E5F9115A76_3.h"
+#include "unitysdk/Enum_3_A35B38E5F9115A76_10.h"
+#include "unitysdk/Enum_3_A35B38E5F9115A76_2.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76_4.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76_5.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76_6.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76_7.h"
-#include "unitysdk/Enum_3_A35B38E5F9115A76_9.h"
-#include "unitysdk/Enum_3_A84DFEC42C5C4A94.h"
-#include "unitysdk/Enum_3_A854FEC42C62697A.h"
+#include "unitysdk/Enum_3_A35B38E5F9115A76_8.h"
+#include "unitysdk/Enum_3_A843FEC42C53F62F.h"
+#include "unitysdk/Enum_3_A865FEC42C70DCB5.h"
 #include "unitysdk/Enum_3_B14C27C4318BFDC0.h"
 #include "unitysdk/Enum_3_B152E7C43191AFD6.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_13.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_15.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_18.h"
+#include "unitysdk/Enum_3_B43C9D79E06CBD5E.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_14.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_16.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_19.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_2.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_23.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_25.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_20.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_24.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_26.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_27.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_28.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_29.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_35.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_38.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_40.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_30.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_36.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_37.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_42.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_44.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_45.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_46.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_48.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_49.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_55.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_50.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_53.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_59.h"
 #include "unitysdk/Enum_3_DFCB42601400F441.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_1.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_2.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_3.h"
-#include "unitysdk/Enum_3_DFCB42601400F441_4.h"
+#include "unitysdk/Enum_3_DFCB42601400F441_5.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_6.h"
-#include "unitysdk/Enum_3_DFCB42601400F441_7.h"
-#include "unitysdk/Enum_3_E5895DA3995ACDBD.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_14.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_15.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_25.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_26.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_10.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_13.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_17.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_18.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_28.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_29.h"
 #include "unitysdk/Enum_3_ED790DAC948A65A9_4.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_6.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_9.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_1.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_10.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_11.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_12.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_13.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_14.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_4.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_6.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_7.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_8.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_9.h"
@@ -234,6 +236,14 @@
 #include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenTrialGameState_TrialStep.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/CollectDataType.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/UI3DHipplenViewType.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/EquipBallFadeOutType.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveBaseTechTreeRowType.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveGachaResultItemType.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveGameFlowMessage.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveOpenChestLockReason.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/RewardFlyType.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/RewardPlayMode.h"
+#include "unitysdk/RPG/Client/ActivityLoginData_RewardStatus.h"
 #include "unitysdk/RPG/Client/ActivityMarble/MarblePVPMode.h"
 #include "unitysdk/RPG/Client/ActivityModule_ActivityType.h"
 #include "unitysdk/RPG/Client/ActivityStateEnum.h"
@@ -272,12 +282,14 @@
 #include "unitysdk/RPG/Client/BoxingClubResonanceUIStageEnum.h"
 #include "unitysdk/RPG/Client/CachedAssetLogicType.h"
 #include "unitysdk/RPG/Client/CachedType.h"
+#include "unitysdk/RPG/Client/CakeCatchBubbleType.h"
 #include "unitysdk/RPG/Client/CakeRace/CakeRaceLoadingDisplayState.h"
 #include "unitysdk/RPG/Client/CakeRace/CakeRaceLoanPrepareType.h"
 #include "unitysdk/RPG/Client/CakeRace/CakeRaceUIType.h"
 #include "unitysdk/RPG/Client/CakeRaceChatEventType.h"
 #include "unitysdk/RPG/Client/CakeRaceGameFlowMessage.h"
 #include "unitysdk/RPG/Client/CakeRaceParticipantData_CakeRaceParticipantType.h"
+#include "unitysdk/RPG/Client/CameraDataAndFlags_ClipPlaneOverridePriority.h"
 #include "unitysdk/RPG/Client/CameraDataAndFlags_DisableCameraProtectReason.h"
 #include "unitysdk/RPG/Client/CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason.h"
 #include "unitysdk/RPG/Client/CameraDataAndFlags_KeepOrthographicOnResetReason.h"
@@ -293,6 +305,7 @@
 #include "unitysdk/RPG/Client/ChallengePeakRank.h"
 #include "unitysdk/RPG/Client/ChallengePeakRewardState.h"
 #include "unitysdk/RPG/Client/ChallengeTargetState.h"
+#include "unitysdk/RPG/Client/ChatContactPam_Mode.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/ChenLingBattleMessage.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/ChenLingBattleProgressNodeState.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/SoldierPropertyChangeType.h"
@@ -320,7 +333,6 @@
 #include "unitysdk/RPG/Client/ConflictType.h"
 #include "unitysdk/RPG/Client/ContactRole.h"
 #include "unitysdk/RPG/Client/CumulativeConsumptionTierState.h"
-#include "unitysdk/RPG/Client/DailyLoginRewardActivityData_RewardStatus.h"
 #include "unitysdk/RPG/Client/DateTimePro_LiteralDate_Kind.h"
 #include "unitysdk/RPG/Client/DialogueMode.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatAvatarInfoType.h"
@@ -329,6 +341,13 @@
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatPVPMode.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatPopupSkillDescShowType.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatShopGoodType.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2BattleTalkData_SideType.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2DiceExchangeEventType.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2GameFlowMessage.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2LobbyMode.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2PopupSkillDescShowType.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2SideBarToastMessage_MessageType.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2StageState.h"
 #include "unitysdk/RPG/Client/DisPlaySelectServerStatus.h"
 #include "unitysdk/RPG/Client/DiscreteBar_DisplayMode.h"
 #include "unitysdk/RPG/Client/DrinkMakerBartendProcedure.h"
@@ -360,6 +379,8 @@
 #include "unitysdk/RPG/Client/GridFightEquipTrackCancelReason.h"
 #include "unitysdk/RPG/Client/GridFightFlyType.h"
 #include "unitysdk/RPG/Client/GridFightForgeAwardType.h"
+#include "unitysdk/RPG/Client/GridFightGameFormationEditor_EditorType.h"
+#include "unitysdk/RPG/Client/GridFightGameFormationEditor_Filter_FilterType.h"
 #include "unitysdk/RPG/Client/GridFightGameRefData_RoleExpiredStatus.h"
 #include "unitysdk/RPG/Client/GridFightGridEffectType.h"
 #include "unitysdk/RPG/Client/GridFightGridMemberType.h"
@@ -370,6 +391,7 @@
 #include "unitysdk/RPG/Client/GridFightModifierEffectType.h"
 #include "unitysdk/RPG/Client/GridFightPlacementType.h"
 #include "unitysdk/RPG/Client/GridFightPlayerPropertyType.h"
+#include "unitysdk/RPG/Client/GridFightRoleChangeType.h"
 #include "unitysdk/RPG/Client/GridFightShopGoodType.h"
 #include "unitysdk/RPG/Client/GridFightShopRefreshType.h"
 #include "unitysdk/RPG/Client/GridFightStageMonsterSelectType.h"
@@ -380,6 +402,7 @@
 #include "unitysdk/RPG/Client/HPBar_Mode.h"
 #include "unitysdk/RPG/Client/HandbookMissionChronicleState.h"
 #include "unitysdk/RPG/Client/HeliobusSNSPostPhase.h"
+#include "unitysdk/RPG/Client/IdleLiveUIType.h"
 #include "unitysdk/RPG/Client/ItemCostState.h"
 #include "unitysdk/RPG/Client/ItemData_ItemFlag.h"
 #include "unitysdk/RPG/Client/ItemData_ProductPlatformType.h"
@@ -406,6 +429,7 @@
 #include "unitysdk/RPG/Client/LittleGame/Match3/OpponentRole.h"
 #include "unitysdk/RPG/Client/LittleGame/MatchThreeTimelineBattleField_MatchThreeTimelineType.h"
 #include "unitysdk/RPG/Client/LittleGame/MovieGameMode.h"
+#include "unitysdk/RPG/Client/LiveStreamStageState.h"
 #include "unitysdk/RPG/Client/LoadingManager_LoadingType.h"
 #include "unitysdk/RPG/Client/LoadingManager_VerifyLoadingType.h"
 #include "unitysdk/RPG/Client/LoadingStyle.h"
@@ -533,6 +557,7 @@
 #include "unitysdk/RPG/Client/RuntimeGroupManager_GroupUnitSideType.h"
 #include "unitysdk/RPG/Client/SequentialPanelContainer/AlignmentType.h"
 #include "unitysdk/RPG/Client/SequentialPanelContainer/Direction.h"
+#include "unitysdk/RPG/Client/SettingEntry.h"
 #include "unitysdk/RPG/Client/SettingManager_HoekeySettingType.h"
 #include "unitysdk/RPG/Client/SettingManager_WalkSwitchMode.h"
 #include "unitysdk/RPG/Client/ShareSource.h"
@@ -554,11 +579,20 @@
 #include "unitysdk/RPG/Client/TarotBookVersion.h"
 #include "unitysdk/RPG/Client/TeamDataRefreshMask.h"
 #include "unitysdk/RPG/Client/TeamModule_TeleportState.h"
+#include "unitysdk/RPG/Client/TextOutline_Mode.h"
 #include "unitysdk/RPG/Client/TimeRewindTargetType.h"
 #include "unitysdk/RPG/Client/TimeRewindUIControlMode.h"
 #include "unitysdk/RPG/Client/ToastPauseSource.h"
 #include "unitysdk/RPG/Client/TrackPhotoIdentifyState.h"
 #include "unitysdk/RPG/Client/TrackPhotoShotTargetResult.h"
+#include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_CarPositionType.h"
+#include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_CatGroundType.h"
+#include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_CatTreeType.h"
+#include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_GroundSetType.h"
+#include "unitysdk/RPG/Client/TrainParty/OutlinePost/TrainPartyBuildOutlineState.h"
+#include "unitysdk/RPG/Client/TrainParty/SlotType.h"
+#include "unitysdk/RPG/Client/TrainParty/TrainPartyBuildDIYPhotoItemFilterType.h"
+#include "unitysdk/RPG/Client/TrainParty/TrainPartyBuildSubAreaType.h"
 #include "unitysdk/RPG/Client/TrainParty/TrainPartyPreviewTipsType.h"
 #include "unitysdk/RPG/Client/TrainParty/TrainPartySettleSourceType.h"
 #include "unitysdk/RPG/Client/TreasureChallengeTargetStatus.h"
@@ -616,6 +650,8 @@
 #include "unitysdk/RPG/GameCore/AlleyShipType.h"
 #include "unitysdk/RPG/GameCore/AnimZoneType.h"
 #include "unitysdk/RPG/GameCore/Anniversary2NDPanelEnum.h"
+#include "unitysdk/RPG/GameCore/AnniversaryCollectionGroupType.h"
+#include "unitysdk/RPG/GameCore/AnniversaryCollectionPanelEnum.h"
 #include "unitysdk/RPG/GameCore/AssistantRuleType.h"
 #include "unitysdk/RPG/GameCore/AssistantShowCaseType.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
@@ -770,6 +806,7 @@
 #include "unitysdk/RPG/GameCore/GenderType.h"
 #include "unitysdk/RPG/GameCore/GoodsRefreshType.h"
 #include "unitysdk/RPG/GameCore/GotoType.h"
+#include "unitysdk/RPG/GameCore/GridFightAddItemSourceType.h"
 #include "unitysdk/RPG/GameCore/GridFightAugmentQuality.h"
 #include "unitysdk/RPG/GameCore/GridFightConsumeType.h"
 #include "unitysdk/RPG/GameCore/GridFightEquipCategory.h"
@@ -813,6 +850,14 @@
 #include "unitysdk/RPG/GameCore/HipplenStatType.h"
 #include "unitysdk/RPG/GameCore/HipplenWorkType.h"
 #include "unitysdk/RPG/GameCore/HudType.h"
+#include "unitysdk/RPG/GameCore/ILBattleAvatarTag.h"
+#include "unitysdk/RPG/GameCore/ILBattleCharacterLocation.h"
+#include "unitysdk/RPG/GameCore/IdleLiveAvatarPropertyType.h"
+#include "unitysdk/RPG/GameCore/IdleLiveFuncUnlockType.h"
+#include "unitysdk/RPG/GameCore/IdleLiveGiftEffectType.h"
+#include "unitysdk/RPG/GameCore/IdleLiveNodeType.h"
+#include "unitysdk/RPG/GameCore/IdleLiveTeamSlotLevelUpRewardType.h"
+#include "unitysdk/RPG/GameCore/IdleLiveTechTreeEffectType.h"
 #include "unitysdk/RPG/GameCore/InventorySortType.h"
 #include "unitysdk/RPG/GameCore/InventoryType.h"
 #include "unitysdk/RPG/GameCore/InwardBubbleTalkType.h"
@@ -909,6 +954,7 @@
 #include "unitysdk/RPG/GameCore/MuseumTargetRewardType.h"
 #include "unitysdk/RPG/GameCore/NextMainMissionStatus.h"
 #include "unitysdk/RPG/GameCore/OfferingRewardType.h"
+#include "unitysdk/RPG/GameCore/OfflineMessageSenderType.h"
 #include "unitysdk/RPG/GameCore/OpenURLWebViewType.h"
 #include "unitysdk/RPG/GameCore/PPEffectFilterPriority.h"
 #include "unitysdk/RPG/GameCore/PPEffectFilterPriorityGroup.h"
@@ -916,6 +962,7 @@
 #include "unitysdk/RPG/GameCore/ParkourTalkType.h"
 #include "unitysdk/RPG/GameCore/PerformanceLiveStreamAtmosphereType.h"
 #include "unitysdk/RPG/GameCore/PersonalizeShowType.h"
+#include "unitysdk/RPG/GameCore/PetBodySize.h"
 #include "unitysdk/RPG/GameCore/PhoneMessagePlayMode.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphFovLevel.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphModeType.h"
@@ -1013,6 +1060,7 @@
 #include "unitysdk/RPG/GameCore/ShopGoodTag.h"
 #include "unitysdk/RPG/GameCore/ShortCutWheelGotoType.h"
 #include "unitysdk/RPG/GameCore/ShowType.h"
+#include "unitysdk/RPG/GameCore/SilverWolf999UltraSkillUIState.h"
 #include "unitysdk/RPG/GameCore/SimpleTalkBlackMaskColor.h"
 #include "unitysdk/RPG/GameCore/SimpleTalkStyleType.h"
 #include "unitysdk/RPG/GameCore/SkillEffect.h"
@@ -1071,11 +1119,15 @@
 #include "unitysdk/RPG/GameCore/WeaknessState.h"
 #include "unitysdk/RPG/GameCore/WheelItemType.h"
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/CombatPerformanceEventType.h"
+#include "unitysdk/RPG/LittleGameShare/DiceCombatCore/DiceCombatDiceEffectType.h"
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/DiceCombatSkillPreviewLogicInvokeType.h"
+#include "unitysdk/RPG/LittleGameShare/DiceCombatCore/DiceCombatTopHintIconType.h"
 #include "unitysdk/RPG/LogTag.h"
 #include "unitysdk/RPG/ProfileUtility_LoadReason.h"
+#include "unitysdk/RPG/UINavigation/UINavigationArea_EntryOrigin.h"
 #include "unitysdk/RPG/UINavigation/UINavigationArea_Layout.h"
 #include "unitysdk/RPG/UINavigation/UINavigationArea_StartCorner.h"
+#include "unitysdk/RPG/UINavigation/UINavigationDirection.h"
 #include "unitysdk/RPG/UINavigation/UINavigation_Rule.h"
 #include "unitysdk/RPGTools/Timeline/DontHidePanelType.h"
 #include "unitysdk/RPGTools/Timeline/PerformanceLiveStreamAudienceControlData_AudienceControlMode.h"
@@ -1168,1177 +1220,1229 @@
 namespace XLua { class LuaEnv; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_AKCALLBACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_CONFLICTGROUPUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103510A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHDOUBLETAPDETECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHEVTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHGESTUREPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHGESTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHSWIPEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHTWOFINGERPICKMETHOD_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINCONTROLINPUTMODULEBUTTON_CAST_OFFSET UNITYSDK_OFFSET(0x1034F2C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINCONTROLINPUTMODULENAVIGATIONCONTROLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FBF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINPUTCONTROLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F390)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINPUTDEVICECLASS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F2A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINPUTDEVICESTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLKEY_CAST_OFFSET UNITYSDK_OFFSET(0x1034F3A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INIT_OFFSET UNITYSDK_OFFSET(0x103A7030)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOALLEYEVENTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EEA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBATTLEMODULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F380)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBATTLERECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F680)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPTIERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F640)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FCA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHENLINGSOLDIERATTRTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F270)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEBOARDCELLSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350070)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUECELLSPECIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103500A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350390)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUENOUSDICEPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x10350360)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHIMERAROUNDWORKENDREASON_CAST_OFFSET UNITYSDK_OFFSET(0x103513D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCLOCKPARKPLAYSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350890)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYREWARDSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDADVENTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAETHERDIVIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAIPAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FBA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDALLEYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FBB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDARCHIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FBC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FBD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLECOLLEGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FBF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLEPASSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FBE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITV2ACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBOXINGCLUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCAKERACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHALLENGEPEAKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHENLINGBATTLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHESSROGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FC90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHIMERADUELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FCB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHIMERATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FCA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLIENTCUSTOMOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FCC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLOCKPARKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FCD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCONTENTPACKAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FCE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDAILYACTIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FCF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDICECOMBATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDRINKMAKERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDELATIONACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDELFRESTAURANTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDERAFLIPPERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEVOLVEBUILDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEXPEDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFANTASTICSTORYACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFEVERTIMEACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FDA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FDC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTCAKERACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FDD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTDICECOMBATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FDE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTFESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FDF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTMARBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTMATCH3TYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FDB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIVEDIMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFRIENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGACHATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGRIDFIGHTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHEARTDIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHELIOBUSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHIPPLENTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDINTERACTIVETRIGGERMAZEBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FEA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F9A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDJUKEBOXTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FEC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLIMAONEWSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FED0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLINEUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FEF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLOBBYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLOCALLEGENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAPROTATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARKCHESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTHREEMODULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAZEPUZZLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMESSAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FF90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMISCMODULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FFA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FFB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMONOPOLYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FFC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMULTIPLAYERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FFD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMULTIPLEDROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FFE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMUSEUMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FFF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMUSICRHYTHMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390000)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDOFFERINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390010)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390020)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMSKINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390030)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPARKOURTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390040)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390050)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPHONETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390060)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESEXTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390080)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390070)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERBOARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103900A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERRETURNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103900B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERSYNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103902A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390090)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103900C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPUNKLORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103900D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103900E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRAIDCOLLECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390100)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRAIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103900F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECHARGEGIFTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390110)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390120)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREDDOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390130)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICBOXTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390140)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICSMARTWEARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390150)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390160)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRNDOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390170)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEARCADETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390190)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUECOMMON_CAST_OFFSET UNITYSDK_OFFSET(0x103901A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEENDLESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103901B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMAGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103901C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMODIFIERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103901D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUETOURNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103901E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390180)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROLLSHOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103901F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSCENETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390200)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSERVERPREFSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390210)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSHOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390220)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSPACEZOOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390230)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTARFIGHTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390240)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTORYLINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390250)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTRONGCHALLENGEACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390260)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSUMMONACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390270)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSWITCHHANDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390280)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSWORDTRAININGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390290)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTALKEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103902B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTAROTBOOKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103902C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTELEVISIONACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103902D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTEXTJOINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103902E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRACKPHOTOACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103902F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINPARTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390300)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINVISITORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390310)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAVELBROCHURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390320)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTREASUREDUNGEONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390330)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTUTORIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390340)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWAYPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390350)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWOLFBROTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390360)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWORLDUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390370)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTODEVELOPMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350AE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTODIFFICULTYADJUSTMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOEXTRALINEUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F180)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFATEMASTERSTATUSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FD90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEATURESWITCHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F560)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEVERTIMEBATTLERANK_CAST_OFFSET UNITYSDK_OFFSET(0x103508D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTFESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350DA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350BF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTMARBLEHPCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FE10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFRIENDAPPLYSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FDE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGENDER_CAST_OFFSET UNITYSDK_OFFSET(0x1034F310)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGETSTUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTDROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EBA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPCRAFTSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EFC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPDRESSSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPTRACKSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTGLOBALHPCHANGEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTUPDATEGLOBALHPREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTUPDATESRCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOITEMCOSTITEMONEOFCASE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLIMAONEWSOFFICESURVEYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FEE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYCHARACTERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350B10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYINTERACTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F2E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYMODIFYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350120)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMATCHTHREESTATISTICSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350B30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGEGROUPSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F590)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGESECTIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F540)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMISSIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FDD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMOVIERACINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103503E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMSGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103500B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMULTIPATHAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMUSEUMRANDOMEVENTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FCB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESCARDPIECEAPPLYPERMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351390)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESCUSTOMKEY_CAST_OFFSET UNITYSDK_OFFSET(0x10351490)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESQUESTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10351280)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLAYINGSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350AA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPRODUCTGIFTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F7D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPUNKLORDATTACKERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F6E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPUNKLORDSHARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F6B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOQUESTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F070)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTORELICDISCARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351510)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGETTARGETIMPLONEOFCASE_CAST_OFFSET UNITYSDK_OFFSET(0x10350EF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEAREASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F8D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUECOMMONBUFFSELECTSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350230)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEMODIFIERSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FFA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEROOMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETALENTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350FC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETOURNLEVELSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350A40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSCENEENTITYINFOENTITYONEOFCASE_CAST_OFFSET UNITYSDK_OFFSET(0x10390380)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSWORDTRAININGDAILYPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350B70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSYNCLINEUPREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1034FDF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRACKMAINMISSIONUPDATEREASONID_CAST_OFFSET UNITYSDK_OFFSET(0x10350640)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINPARTYMTSKILLBRIEFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350FE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINVISITORSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350330)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTREASUREDUNGEONRECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTURNFOODSWITCH_CAST_OFFSET UNITYSDK_OFFSET(0x1038FEB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALGUIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F360)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOVIRTUALITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FDC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_REGISTERCAST_OFFSET UNITYSDK_OFFSET(0x10390450)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACCOUNTLOGINMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ECA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACHERONPOWERNODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103507F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIONBARUPDATETIMING_CAST_OFFSET UNITYSDK_OFFSET(0x1038F740)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYAETHERDIVIDEDATASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYALLEYALLEYPACKCONTROLLERALLEYJOYSTICKSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350040)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYBENEFITV2ROUNDLISTVIEWMODELROUNDSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F550)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYGUESSTHESILHOUETTEDATASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENACTIVITYHIPPLENBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENACTIVITYHIPPLENGAMESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351870)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENACTIVITYHIPPLENTRIALGAMESTATETRIALSTEP_CAST_OFFSET UNITYSDK_OFFSET(0x1038E900)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENCOLLECTDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENUI3DHIPPLENVIEWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ECD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYMARBLEMARBLEPVPMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10351260)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYMODULEACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F4A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYSTATEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x10350170)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYSWORDTRAININGAVATARVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTADVENTUREWAYPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F570)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAETHERMONSTERAVATARDISPLAYDATASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYLINEDIRECTIONENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1038F6B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYORDERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FCC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTEDITMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FCE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTROUTESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTVIRTUALCAMERATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTANIMATORBUTTONCHECKMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F750)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTANTIALIASINGMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F220)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTARCHIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F930)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTASSETLOADPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1034EB70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOLISTENERMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FAF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOMANAGERAUDIODOWNLOADSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOSETTINGSSPEAKERMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103503D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAVATARRANKCONTROLSHOWAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F740)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAVATARUI3DDISABLEIDLESHOWREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLEASSETPRELOADRECORDERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLECOLLEGEDATABATTLECOLLEGESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350080)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLERECORDDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLERESULTPROCESSRESTARTOPTION_CAST_OFFSET UNITYSDK_OFFSET(0x10350BB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLETARGETSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350000)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLEVIEWMODEDARKINITDATATABTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F2D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLEVIEWMODELIGHTINITDATATABTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F2B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBILLBOARDSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F6C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBILLBOARDWAYPOINTMUTEXSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F270)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKCONTENTDATABOOKCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKLETMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x10351160)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKLETSECTIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103510F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKSERIESCOLLECTSTATEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1034EFA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOXINGCLUBRESONANCEUISTAGEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x103502B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBPQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F660)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBPREWARDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F630)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCACHEDASSETLOGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F500)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCACHEDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351090)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECAKERACELOADINGDISPLAYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F080)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECAKERACELOANPREPARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F7A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECAKERACEUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EDE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECHATEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EFA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACEGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACEPARTICIPANTDATACAKERACEPARTICIPANTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ECE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSDISABLECAMERAPROTECTREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350E90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSDISABLEFREELOOK3RDCAMERAINPUTAXISREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSKEEPORTHOGRAPHICONRESETREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSLOCKFOVREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350F50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSMAZEBATTLESHOTDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F5F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSPAUSEFREELOOKCINEMACHINEUPDATEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350EE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSPAUSEMAINCAMERAUPDATEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10351040)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSROAMINGSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F5E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSTRACKCAMERATRACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSTRACKROAMINGCAMERAROTATIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350DB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADECALRAYCASTDECALRESULTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F7F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGEPEAKGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGEPEAKRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1038EAA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGEPEAKREWARDSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGETARGETSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F1B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGBATTLECHENLINGBATTLEMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F250)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGBATTLECHENLINGBATTLEPROGRESSNODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F290)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGBATTLESOLDIERPROPERTYCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F790)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGGAMEBOYCHENLINGGAMEBOYCHALLENGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F450)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGGAMEBOYCHENLINGGAMEBOYPLAYERRANKINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F460)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGTABLESCENETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F140)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELBATTLEPAGEVIEWMODELGAMEVIEWMODELEXITMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F230)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EDC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELGAMESESSIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EFB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELSETTLEBATTLERESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1038EDD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERAGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103509D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERAPAGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10351170)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERASETTLECOMMANDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103513E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHRONICLESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x103505A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLIENTPUNKLORDSHARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EAD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOCKPARKATTRIBUTETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350860)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOCKPARKCARDRARITY_CAST_OFFSET UNITYSDK_OFFSET(0x10350AB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOCKPARKGAMESTATEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x10350850)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOUDUTILSGAMECONTROLRECEIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F1F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOUDUTILSGAMECONTROLSENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F1E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCOMPETITIVEGAMEPLAYSYSTEMPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x10350FF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCOMPOSEITEMFAILEDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F3D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONFIRMDIALOGCONTEXTDIALOGBTNMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F280)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONFIRMDIALOGCONTEXTONCLICKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONFLICTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FAB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONTACTROLE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F6C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCUMULATIVECONSUMPTIONTIERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10351470)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDAILYLOGINREWARDACTIVITYDATAREWARDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x103506F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDATETIMEPROLITERALDATEKIND_CAST_OFFSET UNITYSDK_OFFSET(0x1038EAB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDIALOGUEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x103500D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATAVATARINFOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F780)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATCOLLECTIONPAGEPARAMTABTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F4C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATPOPUPSKILLDESCSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F4D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATPVPMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATSHOPGOODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F130)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDISCRETEBARDISPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F210)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDISPLAYSELECTSERVERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F720)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDRINKMAKERBARTENDPROCEDURE_CAST_OFFSET UNITYSDK_OFFSET(0x10350650)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDRINKMAKERCHEERSTAGUISTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E990)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDRINKMAKERREQUESTSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350730)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEFFECT_ABYSSCRYSTALMANAGERSELECTEDSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F750)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTELFFARMCELLDATAELFCELLUPDATEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038F800)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTELFPROFILEQUESTGROUPDATAELFPROFILEQUESTGROUPSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10351820)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTERELICRECOMMENDDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F710)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTETRAVELSHIPSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEVOLVEBUILDGEARRESONANCEEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103514E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEVOLVEBUILDSTAGESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x103508F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEWOLFBROGUNPLAYTARGETSCOREMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFATEGAMEMASTERTALKUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351720)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFATEHOUGUSELECTBGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351850)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFIVEDIMGAMEINSTANCEVISIBLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038F7E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFIVEDIMTRANSITIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1038F3F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFRAMECAPTUREMANAGERCAPTUREUSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F870)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEFLOWSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F6D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEPLAYLOCKTARGET_CAST_OFFSET UNITYSDK_OFFSET(0x10350190)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEREFROLEEXPIREDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F340)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEREFSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTBATTLESHOWDETAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103517E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTCOMMONDETAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEFFECTLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F510)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPRETURNPACKEVENTEQUIPRETURNPACKSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPTRACKCANCELREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTFLYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F070)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTFORGEAWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EAE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGAMEREFDATAROLEEXPIREDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1038F530)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGRIDEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGRIDMEMBERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGRIDMOVEVALIDATERESULTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F030)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKEQUIPITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKITEMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1038EBD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKROLEFILTER_CAST_OFFSET UNITYSDK_OFFSET(0x1038F4B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTMODIFIEREFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EFE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTPLACEMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351790)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTPLAYERPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTSHOPGOODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F040)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTSHOPREFRESHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTSTAGEMONSTERSELECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E9D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTTALENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTTRAITREMARKLINECOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGROWTHMATERIALGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x1038F6E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHANDBOOKMISSIONCHRONICLESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F060)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHELIOBUSSNSPOSTPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x103500F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHPBARCOLORMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10351660)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHPBARMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10351650)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTITEMCOSTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103513B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTITEMDATAITEMFLAG_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTITEMDATAPRODUCTPLATFORMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F4F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLEVELDIRECTORCAPTUREUSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FCF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLIGHTCONERECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ECA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLIGHTCONEREWARDGOTOSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10351810)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLINEUPRECOMMENDATIONREPORTACTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EBE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLINEUPRECOMMENDATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EBF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEBOSSPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x10350940)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECAKERACECAKERACEGAMEPLAYBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F110)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECAKERACECAKERACEHUDDISPLAYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F0F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHENLINGCHENLINGHPCHANGEFORMATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F7B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHENLINGCIRTICALTRACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F390)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHIMERADUELCHIMERADUELACCELERATEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F0A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHIMERADUELCHIMERADUELCOMMANDGUIDEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x103516A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHIMERADUELSETTLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038F0C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEELFRESTAURANTSIMFOODSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103513F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMFIVEDIMENTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F4E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMFIVEDIMMINIGAMEENTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F4A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMMINIGAMENOTIFYSCORETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F0D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMTIMESCALEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3MATCH3GAMESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3MATCHTHREEGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350AC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3OPPONENTROLE_CAST_OFFSET UNITYSDK_OFFSET(0x10351500)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCHTHREETIMELINEBATTLEFIELDMATCHTHREETIMELINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMOVIEGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x103503B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOADINGMANAGERLOADINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOADINGMANAGERVERIFYLOADINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351050)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOADINGSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F020)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOBBYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOCKSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x10350180)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOGICSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F700)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOGINNODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOGINPANELFUNCTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLUADATAMODULELUADATAINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F810)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMAINCAMERADISABLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350ED0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMANAVIDEOPLAYERPAUSEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x103511C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMAPENTITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351100)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMAPPINGINFOSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F9D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMARBLEBATTLESPECIALKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F6F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMATCHTHREEV2PLAYERPVPCAREERGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10351620)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMATERIALSUBMITTERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350EA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGEBOXDIALOGCONTEXTMESSAGEBOXMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ECE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGECONTENTBLOCKBLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F430)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGESHOWINUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F5D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGESITUATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F760)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSINGVIDEOPROCESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F770)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONMODULECLIENTFINISHMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103509A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONREPLAYMODULEDOWNLOADSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ECF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONUTILSSUBMISSIONSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOCURVERATESLIDERCONTENTMOVEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x10350130)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEFFECTMANAGERFIELDEFFECTBUDGETSTRATEGY_CAST_OFFSET UNITYSDK_OFFSET(0x1038F000)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEFFECTMANAGERHIDEFIELDEFFECTREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350600)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUICAMERAOUT_CAST_OFFSET UNITYSDK_OFFSET(0x1034F7B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUICAMERASTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F7A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUIZOOMRANGE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F7C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONONATIVEEDITBOXRETURNKEYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FDB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOPOLYCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350870)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOPOLYEFFECTDISPLAYENUM_CAST_OFFSET UNITYSDK_OFFSET(0x10350710)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOPOLYEFFECTTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350950)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOREMAINTIMERPOSITIONSTYLEFIRSTDISPLAYEDTIMEUNIT_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOREMAINTIMERTIMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EFB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOSCROLLVIEWDIR_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOUI3DTOUCHMOUSEWHEELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F910)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOUIANCHOREDMOVEANIMATIONCURVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350310)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONSTERAVATARSKILLSLOTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMPCHANGESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F460)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMRMUSICCOMPOSITIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F680)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSEUMCOLLECTIONITEMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSEUMSTAFFDATASTAFFSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSICRHYTHMGROUPSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350DE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSICRHYTHMLEVELRESULTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350DF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMVVMVIEWMODELLIMAONEWSWEBSITEVIEWTABENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1038F490)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNETWORKMANAGERCONNECTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ECB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNEWSTICKERMOVEDIRECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103515A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTEINPUTRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x10350BE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTIFYGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x1034EB50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTIFYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EB60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTOTHERSETTINGSFASTRUNSWITCHMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F4C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPACKETCMDID_CAST_OFFSET UNITYSDK_OFFSET(0x1034F8A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPAMCHATQUICKFUNCTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F540)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURCROSSROADTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F6A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x10351590)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURLEVELSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10351540)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURRANKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351700)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPAUSEDIALOGTABENUM_CAST_OFFSET UNITYSDK_OFFSET(0x10350E60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPAYPRODUCTRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1034F3E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPENACONYENDMOSTCHRONICLEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F010)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPENACONYENDMOSTCHRONICLEOPENTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F1A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPERSONALIZECARDUSETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103514C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHAINONPOWERNODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E9F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHCHECKCANIDLESHOWRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x10350520)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHIDENTIFYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F610)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHUIMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHUTILSSTORAGEFORMATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F5D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESAVATAREVENTRESULTRANK_CAST_OFFSET UNITYSDK_OFFSET(0x103515C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESEVENTSPINEITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351560)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESREPORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351520)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESSKILLBUFFSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103512B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTOASTITEMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1038F820)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTRADINGCARDAPPLYHANDLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351400)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTRADINGCARDERROR_CAST_OFFSET UNITYSDK_OFFSET(0x103515F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTRADINGCARDEXCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351380)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLATFORM_CAST_OFFSET UNITYSDK_OFFSET(0x1034F770)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPRECHARACTERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10351370)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROMISESPROMISESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F920)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERADUELJUMPTEXTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERADUELMAINPUZZLESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ECC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERAPREPARATIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103510B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCOMMANDROBOTPUZZLEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x10350210)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPJIGSAWCURORSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350270)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPJIGSAWITEMSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350240)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPINBALLPAGEPROXYPINBALLPAGEFLOATBTNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103505C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPINBALLPAGEPROXYPINBALLPAGEHINTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350630)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPUZZLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F900)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPULLREFRESHCONTROLDRAGLOADSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F050)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQINGQUEENERGYBARICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQTECATCHGHOSTREWINDINSTANCEREWINDPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x10351110)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQTEUIDATASWIPEDIRECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F330)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQTEUIDATATRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F320)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRECHARGEGIFTREWARDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10351440)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRECHARGEGIFTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10351430)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRECOMMENDGOODRELICRECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351420)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRELICSMARTSUITPLANTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103511A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRELICSMARTSUITRANKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351190)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRESIDENTACTIVITYPANELDATASOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F690)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRESIDENTACTIVITYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EEA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUECOMMONDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103501F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUEGABLERARITY_CAST_OFFSET UNITYSDK_OFFSET(0x1038F5A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUEGAMBLEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350EB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUELOGTAG_CAST_OFFSET UNITYSDK_OFFSET(0x10351070)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFREPORTFROMUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351310)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFREPORTMARKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F670)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFSHARECODES11NERRORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351600)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFUNIONINDEXUNIONKIND_CAST_OFFSET UNITYSDK_OFFSET(0x1038F830)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNCOLLECTIONEXHIBITIONINTERACTINGPROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EDF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAHEXEQUIPMENTMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F3E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAHEXEQUIPMENTSLOTITEMINFOSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F580)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONALEGENDMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F2A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONALEGENDROWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F760)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAMAPTABMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F310)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAMAPTABPROGRESSITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F2C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAMAPTABROOMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1038F410)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAROOMCARDPILEMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F240)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAROOMCARDPILE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F2F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNUNDERLINEPARAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F5B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGANIMATIONEVENTINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350220)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGAPPLICATIONUPDATESTEP_CAST_OFFSET UNITYSDK_OFFSET(0x1034FCD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGQUALITYSETTINGSBOOLWRAPPER_CAST_OFFSET UNITYSDK_OFFSET(0x10350CE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERCONFLICTMODELSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103507D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERGROUPLOADSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x103507C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERGROUPREFRESHREASON_CAST_OFFSET UNITYSDK_OFFSET(0x103507A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERGROUPUNITSIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103507B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSEQUENTIALPANELCONTAINERALIGNMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EEF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSEQUENTIALPANELCONTAINERDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1038EEE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSETTINGMANAGERHOEKEYSETTINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F730)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSETTINGMANAGERWALKSWITCHMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F510)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSHARESOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x10350620)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSILVERWOLFSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FAC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSPACEZOOCATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350410)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSPACEZOOEXPCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350550)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSTAGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F1C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSTORYLINESWITCHREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350700)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSUITRECOMMENDDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F720)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAININGSETTLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350BA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAININGSWORDTRAININGGAMERECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350B90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAININGSWORDTRAININGGAMESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350BC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAINPROCESSACTIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350B60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKCONVINCESPLITELINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKCONVINCETALKINGSIDE_CAST_OFFSET UNITYSDK_OFFSET(0x10351220)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKDEBATEBTN_CAST_OFFSET UNITYSDK_OFFSET(0x10350030)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKHISTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350110)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKMODULEOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103504C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTAROTBOOKVERSION_CAST_OFFSET UNITYSDK_OFFSET(0x1038EFD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEAMDATAREFRESHMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1034F550)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEAMMODULETELEPORTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F340)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTIMEREWINDTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351410)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTIMEREWINDUICONTROLMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350AF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTOASTPAUSESOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x103517C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRACKPHOTOIDENTIFYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRACKPHOTOSHOTTARGETRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x10350D50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYPREVIEWTIPSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350FD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYSETTLESOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTREASURECHALLENGETARGETSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F950)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTUTORIALGUIDECONFIGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350290)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIBUTTONSOUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F260)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUICONTROLLERTRANSITIONSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F5A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUILAYER_CAST_OFFSET UNITYSDK_OFFSET(0x1034EBA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIMANAGERCLEARREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1034F8F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIMETAUIBLURMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F3C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUINAVIGATIONDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x10350340)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUINPCWARNINGTIPSCONTAINERWAYPOINTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F830)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPARTIALBLURSHAPETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F700)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPARTIALBLURUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F710)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x10350690)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPROFILERSAMPLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FAE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUISYMBOLFILTERSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F050)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUITRANSITIONANIMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103502C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIVALUECHANGEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUSERPREFSEYEPROTECTIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350050)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTVIEWCACHETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F840)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTVIRTUALCURSORSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x10350660)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTWAYPOINTIDENTIFIERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F730)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCUSTOMRPFRAMECAPTURECAPTUREFEATURE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EDA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCUSTOMRPFRAMECAPTURECAPTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCUSTOMRPQUALITY_CAST_OFFSET UNITYSDK_OFFSET(0x1034F160)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYBEHAVIOR_CAST_OFFSET UNITYSDK_OFFSET(0x1038FAB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYCHARACTERVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FAD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYINSTANCESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F640)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYPROPERTYINERITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F990)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYPROPERTYRATIO_CAST_OFFSET UNITYSDK_OFFSET(0x1038FAC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYPROPERTY_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F980)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYCOUNTREFRESHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FFE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYEXPEDITIONRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1034FEF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYFARMMULTIPLEDROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYLOCALLEGENDDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYPANELFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E970)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYQUESTUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103505E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1034FDA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYSUMMONDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x10350D10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYSUMMONSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTUREANIMSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURECHARACTERVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350260)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLCHARACTERCOMPONENTCUSTOMFORBIDTAG_CAST_OFFSET UNITYSDK_OFFSET(0x10350500)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLCHARACTERCOMPONENTSKILLALLOWUSECHECKRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1034F0B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLSLOTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F0C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERDIVIDECHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FEC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERPASSIVESKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FEE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FED0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERSPIRITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FEB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALIVESTATEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1034F820)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALLEYFLOORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F900)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALLEYPACKGOODSTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALLEYSHIPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANIMZONETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F250)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANNIVERSARY2NDPANELENUM_CAST_OFFSET UNITYSDK_OFFSET(0x103514D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREASSISTANTRULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E8F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREASSISTANTSHOWCASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351830)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREATTACKDAMAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREATTACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAUDIOGAMESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARBASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARDEMOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E9B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARROWWRAPPERDERIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103512C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKILLTREEANCHORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ECB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKILLTREEPOINTTRIGGERKEY_CAST_OFFSET UNITYSDK_OFFSET(0x1038F200)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKILLTREEPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EEB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EED0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSPECIALULTRATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350840)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBACKGROUNDMUSICGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F3C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLEPOSTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F090)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLESCORINGDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F500)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLETARGETCONFIGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103504D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLETARGETICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350770)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBEGINHINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F1E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBOARDSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F410)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBOXINGCLUBACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103502A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBUBBLETALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBUTTONSHOWPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x103511B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGEBOSSDISPLAYPATTERN_CAST_OFFSET UNITYSDK_OFFSET(0x10350C20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGEGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350430)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGEPEAKREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGESTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351010)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F1C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERCAMPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350350)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERMOTIONFLAG_CAST_OFFSET UNITYSDK_OFFSET(0x1034EDC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTEROUTFITCOMPONENTESLOT_CAST_OFFSET UNITYSDK_OFFSET(0x1038F400)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERVISIBLECOMPONENTSHADOWVISIBLESOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x10351570)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERVISIBLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x10350280)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGCARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F220)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F590)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F5C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGSTAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F280)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGSTAGEWAVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F210)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEBOARDANIMATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350510)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUECABINETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEDIFFICULTYCOMPONENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350320)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F950)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEMAINSTORYTOASTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103501D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELBUBBLEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EDB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F0E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F0B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELITEMVENDOR_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELTALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EFF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELTEAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAMEMBERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103510D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAPHASECONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103509E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAPHASETARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351150)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERATALKCONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351120)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERATALKPOPDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x103512D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAWORKROUNDOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103510E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLECONNECTIONPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103505B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLECUSTOMUNLOCKCONDITION_CAST_OFFSET UNITYSDK_OFFSET(0x103505D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLELINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350680)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLENODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350590)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350AD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKCARDTIPSTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x10350970)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKCHAPTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103509C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKCHECKPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103509B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKROUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350990)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOCOONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F470)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMBATPOWERAVATARRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F2D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMBATPOWERLIGHTCONERARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F2E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMBATPOWERRELICRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F2F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMEFROMOPENTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351630)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F4F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECONTROLSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103502F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECONVINCETRICKSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECUMULATIVECONSUMPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351530)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDEBATEUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103504A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FBD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F4B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEUTILDIALOGUETRIGGERREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1034F230)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEUTILTALKSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F240)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATCOMMUNICATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F090)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDICERARE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F120)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDICETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F3D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDIRECTDAMAGESTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F300)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATPREVIEWVALUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F100)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATSKILLPREVIEWINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F190)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATWEATHERRULETAG_CAST_OFFSET UNITYSDK_OFFSET(0x1038F160)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATWEATHERSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F150)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERBANMODENTRANCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350740)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERFORMULAUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103506A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERQUANTIFYTAGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103506D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERREQUESTMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350580)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERTAGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F910)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350670)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDYNAMICVALUEDYNAMICVALUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351480)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEAVATARCOMMONROWWRAP_CAST_OFFSET UNITYSDK_OFFSET(0x10350460)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEAVATARSKILLCOMMONROWWRAP_CAST_OFFSET UNITYSDK_OFFSET(0x103501E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREELEVELPERFORMANCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F5B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREELFBEHAVIORSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103514F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREELFSELECTEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351550)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEMAZELOCKTARGETSELECTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F110)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEMAZELOCKTARGETSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F0F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEMAZELOCKTARGETUISTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F100)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENERGYBARSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENTITYTYPEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1034F810)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENTITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F0E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENUMSTATUSTAG_CAST_OFFSET UNITYSDK_OFFSET(0x10350E70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENUMSTATUSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREERASTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREESWITCHHANDGESTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVENTTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F650)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDCARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103508A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103508E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDREWARDBOXGEARUPGRADEEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x103513A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDSEASON_CAST_OFFSET UNITYSDK_OFFSET(0x10351360)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEGEARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350830)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEPERIODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F8C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEXPEDITIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F520)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREE_PAKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FFD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFARMTYPECONFIG_CAST_OFFSET UNITYSDK_OFFSET(0x1034F4D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEAFFIXRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351730)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEAREATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351710)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEBUFFRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351750)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEBUFFSLOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351740)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATECOININCOMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351760)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEHOUGUTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103517B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEREIJUTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F8D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEROUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351770)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATETRAITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351780)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFEVERTIMEPERIODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103508C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIGHTFESTCOACHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350CF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIGHTFESTPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350CA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFINDCHESTTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351180)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMBTNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F560)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMFLUTEEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F440)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMGAMEPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F320)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMPANELSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F020)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMSURFACECONNECTDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1038F170)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFORCEKILLSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103517D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFORMULATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F670)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFOURROTATEVOXELANIMALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F1D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFOURROTATEVOXELGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F260)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFUNCUNLOCKPROMPTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350570)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGACHAGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351840)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGACHAITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351580)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGACHATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F3F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGAMEFLOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGAMEMODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F370)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F360)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGOODSREFRESHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103504E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGOTOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F450)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTAUGMENTQUALITY_CAST_OFFSET UNITYSDK_OFFSET(0x1038E9E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTCONSUMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103516F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTEQUIPCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x103516C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTFORGEFUNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTFRONTSPECIALSPDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTFUNCTIONNODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTHANDBOOKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EBC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTMANAGERGRIDFIGHTCUSTOMVALUEVALUECLASSIFY_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTNODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103517A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTORBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E9A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTPREPTUTORIALOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTPREPTUTORIALPOPUPPANELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTPRESET_CAST_OFFSET UNITYSDK_OFFSET(0x103516D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTSETTLERANKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTSHOWFULLSCREENCUTINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTSHOWRIGHTCUTINTRAITIMGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAILLAYERQUALITY_CAST_OFFSET UNITYSDK_OFFSET(0x1038E910)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAITEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E980)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAITSOURCEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1038F1B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EAC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTUNLOCKFUNCTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTUNLOCKSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EDA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUIDECHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350420)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUIDEROGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350CB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F960)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUNPLAYMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHEARTDIALEMOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103502D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHEARTDIALSTEPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103502E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHELIOBUSPOSTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103500E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHELIOBUSTEMPLATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350150)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHELIOBUSTENDENCYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F920)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENGAMEGRADETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E930)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENINTERACTLIKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENINTERACTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E8D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENMINIGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E920)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENOUTFITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENPICKINGGOODSDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EAF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENSTATGRADETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E9C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E8E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENWORKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EBB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHPBARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350720)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHUDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREINVENTORYSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ECD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREINVENTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F350)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREINWARDBUBBLETALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMCOMPOSEFUNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351450)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMCOMPOSELIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMFOODSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F000)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMFOODTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F010)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMFOODUSETAG_CAST_OFFSET UNITYSDK_OFFSET(0x1034F9F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMGIFTSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F290)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMMAINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMRARITY_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMRECYCLESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F980)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMSELLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FFB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMUSEMETHOD_CAST_OFFSET UNITYSDK_OFFSET(0x10350250)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELANIMATINGOBJECTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F9E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDATACOMPONENTPERMONSTERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EA90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDATAEXPORTTARGET_CAST_OFFSET UNITYSDK_OFFSET(0x1038F9C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x1034F860)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIMENSIONCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIMENSIONFILTEREXPRLISTCOMPARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIMENSIONFILTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELFEATURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELGRAPHOPERATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F870)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELGRAPHSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F660)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELGRAPHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELHOYOTAGOVERRIDEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELLITTLEGAMELOADTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELLOCKABLEFEATURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FAE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELMINIMAPSECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F1D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNAVMAPAREACONNECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNAVNODECONDITIONLOGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F9B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNAVNODEINNERCONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F9A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCLODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F9D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCLOOKATTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCOVERRIDEBEHAVIORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCUSEANIMATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F9F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELPERFORMANCEHIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FA20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELREGIONCONNECTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FAA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FAF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIGHTCONE3DCOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F890)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F470)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSISSUEHINTPOPUPSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F480)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSOFFICESURVEYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F930)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ECF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELITTLEWHEELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350760)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELOADINGDESCGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x10350880)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAINMISSIONSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103511E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAINMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F130)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x1034FEA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPENTRYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F060)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPPINGINFOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F970)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPPREGRESSSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F780)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPSHORTCUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F9B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPSPACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350490)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPSUBEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMARBLEPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351200)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREERARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350BD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREESCOREFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E950)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREESCORETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350B40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREEV2STARTARGETFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038E940)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATERIALSUBMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350E80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFINBATTLEBINDINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350960)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFPOOLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F940)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F8B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEPUZZLEMOVIEGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350750)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGEITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F6A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGESPECIALCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F5E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F880)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMINIMAPAREATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350560)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMINIMAPICONORIENTATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FFC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONBEGINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F8E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONPROGRESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351060)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONTALKSTYLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103516B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONUIGOTOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103506C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONWAYPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERBEHAVIORFLAG_CAST_OFFSET UNITYSDK_OFFSET(0x1034F4E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIEREFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103500C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERSTATEFILTER_CAST_OFFSET UNITYSDK_OFFSET(0x10350B20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103506B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYMAPCELLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103507E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103506E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONSTERBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F850)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONSTERRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1034F120)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONSTERVIEWPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EB60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMULTIPLAYERGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F880)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMULTIPLEDROPTYPECONFIG_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMRANDOMEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTALKTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTARGETREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FC80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORENEXTMAINMISSIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F7F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREOFFERINGREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREOPENURLWEBVIEWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103509F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPARAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350010)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPARKOURTALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351640)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPERFORMANCELIVESTREAMATMOSPHERETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F380)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPERSONALIZESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350100)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHONEMESSAGEPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHFOVLEVEL_CAST_OFFSET UNITYSDK_OFFSET(0x10350D00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F790)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHSETTINGDISPLAYOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F940)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHSETTINGITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F620)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHSETTINGOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038FB10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESBTNUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351460)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351250)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESGACHATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351240)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351300)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESITEMUSETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351320)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESLANDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351230)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESLEVELUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103513C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESMINIGAMEREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351350)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351290)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESSOURCESYSTEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351270)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESSUMMARYNOMINATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F8E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103512E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F600)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLAYERRETURNJOURNEYITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350610)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLAYERRETURNRECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPPEFFECTFILTERPRIORITYGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x10350780)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPPEFFECTFILTERPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x10350790)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPROPSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F080)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F190)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUNKLORDMONSTERRARE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F6D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUZZLEFUNC_CAST_OFFSET UNITYSDK_OFFSET(0x1034F480)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUZZLEHUDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350440)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUZZLETUTORIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F860)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREQUESTFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103505F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERACCOONSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350980)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDCOLLECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350DD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDCONFIGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F850)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDENTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350910)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDLIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FBC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDTEAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F9C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREREDDOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351670)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERELICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F2B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTEMPLOYEEABILITY_CAST_OFFSET UNITYSDK_OFFSET(0x1038E960)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTEMPLOYEETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103515B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTFACILITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103515E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTFARMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351610)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTNORMALEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103514B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTSELECTEVENTBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTSELECTEVENTSENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103517F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTSELECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351800)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEADVENTUREGAMEPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FFF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEAEONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103501A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEBUFFAEONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEBUFFCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x10350B80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUECLIENTADVENTUREROOMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x103501B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDIALOGUEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350530)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDIALOGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FBE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F890)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDLCBLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350140)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEEXHIBITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEFORMULACATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x10350920)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEGAMBLEGROUPLEVELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F970)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEGAMBLEUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEIMAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103501C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICAREAGROUPID_CAST_OFFSET UNITYSDK_OFFSET(0x10351080)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F8B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICMOUNTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350E10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F8A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICROOMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICSCEPTERFUNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351030)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICSTORYCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x10351000)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICSTYLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351020)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICUNITCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x10350E00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMIRACLECATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x10350930)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350E50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUENOUSDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103504B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUENOUSSURFACETAG_CAST_OFFSET UNITYSDK_OFFSET(0x1038F960)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEROOMATTRIBUTECATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1038F570)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUESUBMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350370)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETALKCOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FBA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETITANCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x10351130)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETITANTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351210)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNAREAGROUPID_CAST_OFFSET UNITYSDK_OFFSET(0x103508B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNCOLLECTIONEXHIBITIONPROPFLOOR_CAST_OFFSET UNITYSDK_OFFSET(0x1038EE10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNCURSECHESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103516E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350CD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNMODE_CAST_OFFSET UNITYSDK_OFFSET(0x103511F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNPERSONAROOMBGCOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F420)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNROOMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103512F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNTITANFLOORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103512A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETURNTABLEREWARDLEVEL_CAST_OFFSET UNITYSDK_OFFSET(0x103504F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROLLINGSUBTITLESDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROLLINGSUBTITLESPAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350A50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCORERACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350EC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCREENTRANSFERMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F140)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCREENTRANSFERREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCREENTRANSFERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F150)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F530)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESERVANTBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x103510C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESHOPGOODTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1038EC30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESHORTCUTWHEELGOTOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F7E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F490)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESIMPLETALKBLACKMASKCOLOR_CAST_OFFSET UNITYSDK_OFFSET(0x10351680)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESIMPLETALKSTYLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351690)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x1038F840)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLSPPROGRESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350300)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F0D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOCHANNELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103503F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOMASKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350400)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350480)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOSPICALEVENTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350450)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPECIALAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F300)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPECIALORDERFINISHTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPECIALVISIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FF00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F0A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTANCEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTARFIGHTDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x10350C00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTARFIGHTSEASON_CAST_OFFSET UNITYSDK_OFFSET(0x1038F8F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTARTMUSICRHYTHMTASKPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F7D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTRONGCHALLENGEBATTLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103503C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTUFFSTATS_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FB70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESUBMISSIONLOGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESUBMISSIONOPTIONALTRACKMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESUBMISSIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F1A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGACTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350B50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350E20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGMOODSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350E40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGSTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350B00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETALKBGCGBLENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103514A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETAROTBOOKCONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103511D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEAMLIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350F70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEAMTYPEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1034F800)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EDB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEXTMOTIONTYPERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EF40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETIMEREWINDENTITYCONTROLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350FB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETIMEREWINDSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10350FA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETOASTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F200)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRACKPHOTOCANTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350CC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYEVENTFADEINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10351140)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYGRIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350D20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350E30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYSTEPRESULTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350DC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAVELBROCHUREPASTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350380)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAVELBROCHURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103503A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONGRIDBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONGRIDEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350090)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONGRIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FD50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350060)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALGUIDESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F440)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALRESTORETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F580)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUIADAPTIVEDEVICETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350900)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUIEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FAD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUSESKILLERRORCODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038ED10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREVIDEOCAPTIONPOSITION_CAST_OFFSET UNITYSDK_OFFSET(0x10350540)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREWEAKNESSSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F430)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREWHEELITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F650)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCORECOMBATPERFORMANCEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038EEC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATSKILLPREVIEWLOGICINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F350)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLOGTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGPROFILEUTILITYLOADREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1034FBB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEDONTHIDEPANELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F400)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMAUDIENCECONTROLDATAAUDIENCECONTROLMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F330)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMBULLETCOMMENTSMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F370)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMTRANSITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F520)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONAREALAYOUT_CAST_OFFSET UNITYSDK_OFFSET(0x1038F3A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONAREASTARTCORNER_CAST_OFFSET UNITYSDK_OFFSET(0x1038F3B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONRULE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F7C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SPINEUNITYSKELETONGRAPHICLAYOUTMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350020)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWGRIDFIXEDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F620)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWGRIDITEMARRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FA60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWGRIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F630)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWITEMCORNERENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1038F600)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWLISTITEMARRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1038F610)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWSNAPSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1038F5F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMDAYOFWEEK_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMENVIRONMENTSPECIALFOLDEROPTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034F040)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMENVIRONMENTSPECIALFOLDER_CAST_OFFSET UNITYSDK_OFFSET(0x1034F030)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMGLOBALIZATIONDATETIMESTYLES_CAST_OFFSET UNITYSDK_OFFSET(0x1034ED20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMGLOBALIZATIONNUMBERSTYLES_CAST_OFFSET UNITYSDK_OFFSET(0x1034ECC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMREFLECTIONBINDINGFLAGS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F170)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMSTRINGCOMPARISON_CAST_OFFSET UNITYSDK_OFFSET(0x1034F5C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_TMPROTEXTALIGNMENTOPTIONS_CAST_OFFSET UNITYSDK_OFFSET(0x10390390)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_TUTORIALNODENODEPLATFORM_CAST_OFFSET UNITYSDK_OFFSET(0x103515D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEANIMATORCULLINGMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F8C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERAFIELDOFVIEWAXIS_CAST_OFFSET UNITYSDK_OFFSET(0x1034EDF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERAGATEFITMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EDE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERAMONOORSTEREOSCOPICEYE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERASTEREOSCOPICEYE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EE00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSEVENTHANDLE_CAST_OFFSET UNITYSDK_OFFSET(0x103903E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSEVENTTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EDD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSMOVEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034F3B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSPOINTEREVENTDATAFRAMEPRESSSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x10351340)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSPOINTEREVENTDATAINPUTBUTTON_CAST_OFFSET UNITYSDK_OFFSET(0x10351330)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEFONTSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FAA0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEQUERYTRIGGERINTERACTION_CAST_OFFSET UNITYSDK_OFFSET(0x10351860)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINERECTTRANSFORMAXIS_CAST_OFFSET UNITYSDK_OFFSET(0x1034EB90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINERECTTRANSFORMEDGE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EB80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINERUNTIMEPLATFORM_CAST_OFFSET UNITYSDK_OFFSET(0x10390440)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETEXTANCHOR_CAST_OFFSET UNITYSDK_OFFSET(0x10350470)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETEXTFORMATTINGTAG_CAST_OFFSET UNITYSDK_OFFSET(0x10350F90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETEXTURE2DEXRFLAGS_CAST_OFFSET UNITYSDK_OFFSET(0x1034F690)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETIMELINETIMELINEASSETDURATIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x103903A0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIASPECTRATIOFITTERASPECTMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F420)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIAUIPROGRESSBARTEXTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F990)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICACULATENODEDATACACULATENODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390400)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICACULATENODEDATAOPERATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390420)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICACULATENODEDATATRANSFOMRREFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10390410)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASSCALERSCALEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350800)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASSCALERSCREENMATCHMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350810)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASSCALERUNIT_CAST_OFFSET UNITYSDK_OFFSET(0x10350820)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASUPDATE_CAST_OFFSET UNITYSDK_OFFSET(0x103903B0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICOLORMODE_CAST_OFFSET UNITYSDK_OFFSET(0x103903C0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICONTENTSIZEFITTERFITMODE_CAST_OFFSET UNITYSDK_OFFSET(0x10350C50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIERRORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x103903D0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRAPHICRAYCASTERBLOCKINGOBJECTS_CAST_OFFSET UNITYSDK_OFFSET(0x1038F180)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRIDLAYOUTGROUPAXIS_CAST_OFFSET UNITYSDK_OFFSET(0x1034EFE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRIDLAYOUTGROUPCONSTRAINT_CAST_OFFSET UNITYSDK_OFFSET(0x1034EFC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRIDLAYOUTGROUPCORNER_CAST_OFFSET UNITYSDK_OFFSET(0x1034EFD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEFILLMETHOD_CAST_OFFSET UNITYSDK_OFFSET(0x1034EBC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGIN180_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGIN360_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGIN90_CAST_OFFSET UNITYSDK_OFFSET(0x1034EBF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGINHORIZONTAL_CAST_OFFSET UNITYSDK_OFFSET(0x1034EBD0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGINVERTICAL_CAST_OFFSET UNITYSDK_OFFSET(0x1034EBE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EBB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDCHARACTERVALIDATION_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC50)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC30)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDINPUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDLINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC60)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUINAVIGATIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F1F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIRECTMASK2DSOFTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x10350200)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLBARDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034EFF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTALIGNDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x10350160)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTLAYOUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034F6F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTMOVEMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF80)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTSCROLLBARVISIBILITY_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF90)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISELECTABLETRANSITION_CAST_OFFSET UNITYSDK_OFFSET(0x1034F9E0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISLIDERDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC20)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINHORIZONTAL_CAST_OFFSET UNITYSDK_OFFSET(0x1034EEE0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINRADIAL90_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF10)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINRADIAL_CAST_OFFSET UNITYSDK_OFFSET(0x1034EF00)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINVERTICAL_CAST_OFFSET UNITYSDK_OFFSET(0x1034EEF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EED0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKMATERIALPARAMSDIRTYFLAGBIT_CAST_OFFSET UNITYSDK_OFFSET(0x10390430)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKSOFTRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EEC0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1034EEB0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUITOGGLETOGGLETRANSITION_CAST_OFFSET UNITYSDK_OFFSET(0x1034EC70)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUITOUCHFILTERFILTERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x103903F0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEWRAPMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1034FE40)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1034EAF0)
-#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x103D2250)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_AKCALLBACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E190)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_CONFLICTGROUPUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F7F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHDOUBLETAPDETECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D5A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHEVTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D5E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHGESTUREPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164D590)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHGESTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D5B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHSWIPEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D5C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_HEDGEHOGTEAMEASYTOUCHEASYTOUCHTWOFINGERPICKMETHOD_CAST_OFFSET UNITYSDK_OFFSET(0x1164D5D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINCONTROLINPUTMODULEBUTTON_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINCONTROLINPUTMODULENAVIGATIONCONTROLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E350)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINPUTCONTROLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINPUTDEVICECLASS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLINPUTDEVICESTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E160)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INCONTROLKEY_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_INIT_OFFSET UNITYSDK_OFFSET(0x1166B6C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOALLEYEVENTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E3F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D610)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBATTLEMODULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DAF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBATTLERECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F1E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DDF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPTIERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DDB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E400)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEBOARDCELLSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E7D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUECELLSPECIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E800)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E6F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EAF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUENOUSDICEPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EAC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHIMERAROUNDWORKENDREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCLOCKPARKPLAYSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164EFE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651590)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYREWARDSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116515B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116515A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDADVENTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116515C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAETHERDIVIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116515D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAIPAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116515E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDALLEYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116515F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDARCHIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651600)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651610)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLECOLLEGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651630)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLEPASSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651640)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651620)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651650)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITV2ACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651660)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBOXINGCLUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651670)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCAKERACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651680)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHALLENGEPEAKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116516A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651690)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116516B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHENLINGBATTLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116516C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHESSROGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116516D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHIMERADUELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116516F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHIMERATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116516E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLIENTCUSTOMOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651700)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLOCKPARKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651710)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCONTENTPACKAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651720)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDAILYACTIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651730)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDICECOMBATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651740)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDRINKMAKERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651750)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDELATIONACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651760)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDELFRESTAURANTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651770)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDERAFLIPPERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651780)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEVOLVEBUILDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651790)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEXPEDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116517A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFANTASTICSTORYACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116517B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116517C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFEVERTIMEACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116517E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651800)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTCAKERACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651810)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTDICECOMBATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651820)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTFESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651830)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTMARBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651840)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTMATCH3TYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651860)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116517F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIVEDIMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651870)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFRIENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651880)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGACHATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651890)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGRIDFIGHTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116518A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHEARTDIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116518B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHELIOBUSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116518C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHIPPLENTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116518D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDIDLELIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116518E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDINTERACTIVETRIGGERMAZEBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116518F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E100)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDJUKEBOXTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651910)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLIMAONEWSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651920)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLINEUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651940)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLOBBYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651950)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLOCALLEGENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651960)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651970)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAPROTATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651980)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651990)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARKCHESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116519A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTHREEMODULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116519C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116519B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAZEPUZZLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116519D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMESSAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116519E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMISCMODULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116519F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMONOPOLYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMULTIPLAYERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMULTIPLEDROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMUSEUMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMUSICRHYTHMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDOFFERINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMSKINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPARKOURTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651A90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651AA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPHONETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651AB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESEXTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651AD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651AC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERBOARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651AF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERRETURNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERSYNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651AE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPUNKLORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRAIDCOLLECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRAIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECHARGEGIFTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREDDOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICBOXTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651B90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICPRESETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651BA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICSMARTWEARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651BB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651BC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRNDOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651BD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEARCADETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651BF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUECOMMON_CAST_OFFSET UNITYSDK_OFFSET(0x11651C00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEENDLESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMAGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMODIFIERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUETOURNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651BE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROLLSHOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSCENETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSERVERPREFSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSHOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSPACEZOOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651C90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTARFIGHTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651CA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTORYLINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651CB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTRONGCHALLENGEACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651CC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSUMMONACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651CD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSWITCHHANDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651CE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSWORDTRAININGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651CF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTALKEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTAROTBOOKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTELEVISIONACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTEXTJOINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRACKPHOTOACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINCAKECATCHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINPARTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINVISITORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAVELBROCHURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651D90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTREASUREDUNGEONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651DA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTUTORIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651DB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWAYPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651DC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWOLFBROTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651DD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWORLDUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651DE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTODEVELOPMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F230)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTODIFFICULTYADJUSTMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F650)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOEXTRALINEUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D8F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFATEMASTERSTATUSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116517D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEATURESWITCHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DCD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEVERTIMEBATTLERANK_CAST_OFFSET UNITYSDK_OFFSET(0x1164F020)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTFESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F4F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F340)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTMARBLEHPCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651850)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFRIENDAPPLYSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E540)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGENDER_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGETSTUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E390)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTDROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116502A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPCRAFTSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x116506B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPDRESSSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x11650470)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPTRACKSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x11650400)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTUPDATEGLOBALHPREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650680)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTUPDATESRCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650510)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOITEMCOSTITEMONEOFCASE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D6A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLIMAONEWSOFFICESURVEYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651930)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYCHARACTERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164F260)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYINTERACTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116509E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYMODIFYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F180)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E880)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMATCHTHREESTATISTICSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F280)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGEGROUPSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGESECTIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DCB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMISSIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E530)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMOVIERACINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMSGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E810)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMULTIPATHAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F4C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMUSEUMRANDOMEVENTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E410)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESCARDPIECEAPPLYPERMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FAE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESCUSTOMKEY_CAST_OFFSET UNITYSDK_OFFSET(0x1164FBE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESQUESTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F9D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLAYINGSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F1F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPRODUCTGIFTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPUNKLORDATTACKERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPUNKLORDSHARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOQUESTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D7E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTORELICDISCARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTORELICPRESETPLANSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650EE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGETTARGETIMPLONEOFCASE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F640)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEAREASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E040)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUECOMMONBUFFSELECTSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E990)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEMODIFIERSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E700)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEROOMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E560)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E260)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETALENTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164F710)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETOURNLEVELSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164F190)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSCENEENTITYINFOENTITYONEOFCASE_CAST_OFFSET UNITYSDK_OFFSET(0x11651DF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E280)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSWORDTRAININGDAILYPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F2C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSYNCLINEUPREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164E550)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRACKMAINMISSIONUPDATEREASONID_CAST_OFFSET UNITYSDK_OFFSET(0x1164EDA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINPARTYMTSKILLBRIEFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F730)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINVISITORSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTREASUREDUNGEONRECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E4D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTURNFOODSWITCH_CAST_OFFSET UNITYSDK_OFFSET(0x11651900)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650130)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALGUIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D4A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOVIRTUALITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E520)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_REGISTERCAST_OFFSET UNITYSDK_OFFSET(0x11651EB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACCOUNTLOGINMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D410)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACHERONPOWERNODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIONBARUPDATETIMING_CAST_OFFSET UNITYSDK_OFFSET(0x11651160)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYAETHERDIVIDEDATASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E4F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYALLEYALLEYPACKCONTROLLERALLEYJOYSTICKSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E7A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYBENEFITV2ROUNDLISTVIEWMODELROUNDSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYGUESSTHESILHOUETTEDATASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E4A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENACTIVITYHIPPLENBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650200)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENACTIVITYHIPPLENGAMESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FFC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENACTIVITYHIPPLENTRIALGAMESTATETRIALSTEP_CAST_OFFSET UNITYSDK_OFFSET(0x11650000)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENCOLLECTDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650180)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYHIPPLENUI3DHIPPLENVIEWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116503D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEEQUIPBALLFADEOUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116511A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEBASETECHTREEROWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEGACHARESULTITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEOPENCHESTLOCKREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650BD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEREWARDFLYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650970)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEREWARDPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650DF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYLOGINDATAREWARDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x11650F60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYMARBLEMARBLEPVPMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F9B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYMODULEACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYSTATEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164E8D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYSWORDTRAININGAVATARVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F4E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTADVENTUREWAYPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DCE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAETHERMONSTERAVATARDISPLAYDATASTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E460)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYLINEDIRECTIONENUM_CAST_OFFSET UNITYSDK_OFFSET(0x116510D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYORDERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E420)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTEDITMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E440)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTROUTESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E6B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTVIRTUALCAMERATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E6E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTANIMATORBUTTONCHECKMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11651170)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTANTIALIASINGMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D990)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTARCHIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E090)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTASSETLOADPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164D2E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOLISTENERMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E250)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOMANAGERAUDIODOWNLOADSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E3B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOSETTINGSSPEAKERMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAVATARRANKCONTROLSHOWAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DEB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAVATARUI3DDISABLEIDLESHOWREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650250)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLEASSETPRELOADRECORDERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650290)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLECOLLEGEDATABATTLECOLLEGESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E7E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLERECORDDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F3B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLERESULTPROCESSRESTARTOPTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164F300)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLETARGETSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E760)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLEVIEWMODEDARKINITDATATABTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116509D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBATTLEVIEWMODELIGHTINITDATATABTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116509B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBILLBOARDSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBILLBOARDWAYPOINTMUTEXSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D9E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKCONTENTDATABOOKCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D6E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKLETMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F8B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKLETSECTIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F840)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOOKSERIESCOLLECTSTATEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164D710)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBOXINGCLUBRESONANCEUISTAGEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBPQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DDD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBPREWARDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DDA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCACHEDASSETLOGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650CB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCACHEDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F7E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKECATCHBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECAKERACELOADINGDISPLAYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650770)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECAKERACELOANPREPARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116511D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECAKERACEUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116504D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACECHATEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650690)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACEGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650370)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKERACEPARTICIPANTDATACAKERACEPARTICIPANTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116503E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSCLIPPLANEOVERRIDEPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x11650F10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSDISABLECAMERAPROTECTREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F5E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSDISABLEFREELOOK3RDCAMERAINPUTAXISREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650170)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSKEEPORTHOGRAPHICONRESETREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650280)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSLOCKFOVREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F6A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSMAZEBATTLESHOTDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSPAUSEFREELOOKCINEMACHINEUPDATEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F630)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSPAUSEMAINCAMERAUPDATEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F790)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSROAMINGSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSTRACKCAMERATRACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650440)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSTRACKROAMINGCAMERAROTATIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F500)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADECALRAYCASTDECALRESULTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651220)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGEPEAKGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650160)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGEPEAKRANK_CAST_OFFSET UNITYSDK_OFFSET(0x116501A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGEPEAKREWARDSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650220)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHALLENGETARGETSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D920)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHATCONTACTPAMMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650FF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGBATTLECHENLINGBATTLEMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650950)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGBATTLECHENLINGBATTLEPROGRESSNODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650990)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGBATTLESOLDIERPROPERTYCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116511C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGGAMEBOYCHENLINGGAMEBOYCHALLENGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGGAMEBOYCHENLINGGAMEBOYPLAYERRANKINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650BA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGTABLESCENETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650830)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELBATTLEPAGEVIEWMODELGAMEVIEWMODELEXITMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650920)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116504B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELGAMESESSIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x116506A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELSETTLEBATTLERESULT_CAST_OFFSET UNITYSDK_OFFSET(0x116504C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERAGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F120)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERAPAGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F8C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERASETTLECOMMANDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHRONICLESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLIENTPUNKLORDSHARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116501D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOCKPARKATTRIBUTETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EFB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOCKPARKCARDRARITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F200)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOCKPARKGAMESTATEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164EFA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOUDUTILSGAMECONTROLRECEIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116508E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCLOUDUTILSGAMECONTROLSENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116508D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCOMPETITIVEGAMEPLAYSYSTEMPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F740)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCOMPOSEITEMFAILEDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONFIRMDIALOGCONTEXTDIALOGBTNMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D9F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONFIRMDIALOGCONTEXTONCLICKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E2A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONFLICTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E210)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCONTACTROLE_CAST_OFFSET UNITYSDK_OFFSET(0x116510E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCUMULATIVECONSUMPTIONTIERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FBC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDATETIMEPROLITERALDATEKIND_CAST_OFFSET UNITYSDK_OFFSET(0x116501B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDIALOGUEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E830)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATAVATARINFOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116511B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATCOLLECTIONPAGEPARAMTABTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650610)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATPOPUPSKILLDESCSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATPVPMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650660)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATSHOPGOODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650820)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2BATTLETALKDATASIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2DICEEXCHANGEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2GAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2LOBBYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2POPUPSKILLDESCSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2SIDEBARTOASTMESSAGEMESSAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650CD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2STAGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDISCRETEBARDISPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D980)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDISPLAYSELECTSERVERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDRINKMAKERBARTENDPROCEDURE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EDB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDRINKMAKERCHEERSTAGUISTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650090)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDRINKMAKERREQUESTSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEFFECT_ABYSSCRYSTALMANAGERSELECTEDSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DEC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTELFFARMCELLDATAELFCELLUPDATEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11651230)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTELFPROFILEQUESTGROUPDATAELFPROFILEQUESTGROUPSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTERELICRECOMMENDDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651130)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTETRAVELSHIPSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650110)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEVOLVEBUILDGEARRESONANCEEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEVOLVEBUILDSTAGESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164F040)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEWOLFBROGUNPLAYTARGETSCOREMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F1D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFATEGAMEMASTERTALKUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFATEHOUGUSELECTBGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FFA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFIVEDIMGAMEINSTANCEVISIBLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11651210)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFIVEDIMTRANSITIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x11650B20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTFRAMECAPTUREMANAGERCAPTUREUSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DFE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEFLOWSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x116510F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D3F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEPLAYLOCKTARGET_CAST_OFFSET UNITYSDK_OFFSET(0x1164E8F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEREFROLEEXPIREDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEREFSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116505F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTBATTLESHOWDETAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTCOMMONDETAILTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650640)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEFFECTLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650540)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650CC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPRETURNPACKEVENTEQUIPRETURNPACKSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x11650120)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPTRACKCANCELREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650450)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTFLYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650760)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTFORGEAWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116501E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGAMEFORMATIONEDITOREDITORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650FA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGAMEFORMATIONEDITORFILTERFILTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650FC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGAMEREFDATAROLEEXPIREDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x11650D00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGRIDEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650620)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGRIDMEMBERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650390)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGRIDMOVEVALIDATERESULTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650720)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKEQUIPITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650300)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKITEMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x116502D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKROLEFILTER_CAST_OFFSET UNITYSDK_OFFSET(0x11650C10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTMODIFIEREFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116506D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTPLACEMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FEE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTPLAYERPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650340)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTROLECHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650F50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTSHOPGOODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650730)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTSHOPREFRESHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650350)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTSTAGEMONSTERSELECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116500D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTTALENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650140)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTTRAITREMARKLINECOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650560)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGROWTHMATERIALGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x11651100)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHANDBOOKMISSIONCHRONICLESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650750)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHELIOBUSSNSPOSTPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E850)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHPBARCOLORMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FDB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTHPBARMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FDA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTIDLELIVEUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650EC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTITEMCOSTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTITEMDATAITEMFLAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164E1B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTITEMDATAPRODUCTPLATFORMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650CA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLEVELDIRECTORCAPTUREUSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E450)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLIGHTCONERECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116503A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLIGHTCONEREWARDGOTOSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLINEUPRECOMMENDATIONREPORTACTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116502E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLINEUPRECOMMENDATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116502F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEBOSSPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F090)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECAKERACECAKERACEGAMEPLAYBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650800)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECAKERACECAKERACEHUDDISPLAYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x116507E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHENLINGCHENLINGHPCHANGEFORMATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116511E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHENLINGCIRTICALTRACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650AC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHIMERADUELCHIMERADUELACCELERATEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650790)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHIMERADUELCHIMERADUELCOMMANDGUIDEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FDF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMECHIMERADUELSETTLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x116507B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEELFRESTAURANTSIMFOODSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMFIVEDIMENTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMFIVEDIMMINIGAMEENTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650BF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMMINIGAMENOTIFYSCORETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116507C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMTIMESCALEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x11650650)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3MATCH3GAMESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F160)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3MATCHTHREEGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F210)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3OPPONENTROLE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCHTHREETIMELINEBATTLEFIELDMATCHTHREETIMELINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F360)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMOVIEGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLIVESTREAMSTAGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650F40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOADINGMANAGERLOADINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E2C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOADINGMANAGERVERIFYLOADINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F7A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOADINGSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D790)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOBBYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F170)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOCKSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E8E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOGICSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651120)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOGINNODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E3A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLOGINPANELFUNCTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164E6C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLUADATAMODULELUADATAINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651240)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMAINCAMERADISABLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F620)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMANAVIDEOPLAYERPAUSEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F910)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMAPENTITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F850)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMAPPINGINFOSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E130)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMARBLEBATTLESPECIALKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651110)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMATCHTHREEV2PLAYERPVPCAREERGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMATERIALSUBMITTERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F5F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGEBOXDIALOGCONTEXTMESSAGEBOXMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D450)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGECONTENTBLOCKBLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGESHOWINUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMESSAGESITUATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DED0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSINGVIDEOPROCESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651190)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONMODULECLIENTFINISHMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F0F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONREPLAYMODULEDOWNLOADSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x116503F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONUTILSSUBMISSIONSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650240)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOCURVERATESLIDERCONTENTMOVEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164E890)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEFFECTMANAGERFIELDEFFECTBUDGETSTRATEGY_CAST_OFFSET UNITYSDK_OFFSET(0x116506F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEFFECTMANAGERHIDEFIELDEFFECTREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUICAMERAOUT_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUICAMERASTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUIZOOMRANGE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONONATIVEEDITBOXRETURNKEYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E510)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOPOLYCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EFC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOPOLYEFFECTDISPLAYENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOPOLYEFFECTTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F0A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOREMAINTIMERPOSITIONSTYLEFIRSTDISPLAYEDTIMEUNIT_CAST_OFFSET UNITYSDK_OFFSET(0x11650100)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOREMAINTIMERTIMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D720)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOSCROLLVIEWDIR_CAST_OFFSET UNITYSDK_OFFSET(0x1164D4D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOUI3DTOUCHMOUSEWHEELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E080)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOUIANCHOREDMOVEANIMATIONCURVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONSTERAVATARSKILLSLOTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E470)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMPCHANGESTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DBD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMRMUSICCOMPOSITIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x116510A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSEUMCOLLECTIONITEMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E2F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSEUMSTAFFDATASTAFFSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E2E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSICRHYTHMGROUPSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F530)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMUSICRHYTHMLEVELRESULTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F540)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMVVMVIEWMODELLIMAONEWSWEBSITEVIEWTABENUM_CAST_OFFSET UNITYSDK_OFFSET(0x11650BE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNETWORKMANAGERCONNECTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D420)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNEWSTICKERMOVEDIRECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FCF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTEINPUTRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1164F330)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTIFYGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x1164D2C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTIFYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D2D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTOTHERSETTINGSFASTRUNSWITCHMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPACKETCMDID_CAST_OFFSET UNITYSDK_OFFSET(0x1164E010)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPAMCHATQUICKFUNCTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURCROSSROADTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116510C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURGAMEFLOWMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FCE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURLEVELSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPARKOURRANKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPAUSEDIALOGTABENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164F5B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPAYPRODUCTRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPENACONYENDMOSTCHRONICLEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650700)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPENACONYENDMOSTCHRONICLEOPENTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650890)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPERSONALIZECARDUSETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHAINONPOWERNODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x116500F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHCHECKCANIDLESHOWRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHIDENTIFYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHUIMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E380)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPHOTOGRAPHUTILSSTORAGEFORMATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESAVATAREVENTRESULTRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESEVENTSPINEITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FCB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESREPORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESSKILLBUFFSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTOASTITEMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x11651250)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTRADINGCARDAPPLYHANDLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTRADINGCARDERROR_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLANETFESTRADINGCARDEXCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FAD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPLATFORM_CAST_OFFSET UNITYSDK_OFFSET(0x1164DEE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPRECHARACTERSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164FAC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROMISESPROMISESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERADUELJUMPTEXTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650460)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERADUELMAINPUZZLESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116503C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERAPREPARATIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F800)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCOMMANDROBOTPUZZLEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164E970)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPJIGSAWCURORSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E9D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPJIGSAWITEMSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E9A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPINBALLPAGEPROXYPINBALLPAGEFLOATBTNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPINBALLPAGEPROXYPINBALLPAGEHINTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPUZZLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E070)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPULLREFRESHCONTROLDRAGLOADSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D7C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQINGQUEENERGYBARICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E3C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQTECATCHGHOSTREWINDINSTANCEREWINDPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F860)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQTEUIDATASWIPEDIRECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DAA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTQTEUIDATATRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRECHARGEGIFTREWARDSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRECHARGEGIFTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRECOMMENDGOODRELICRECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRELICSMARTSUITPLANTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F8F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRELICSMARTSUITRANKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F8E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRESIDENTACTIVITYPANELDATASOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x116510B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRESIDENTACTIVITYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650590)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUECOMMONDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E950)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUEGABLERARITY_CAST_OFFSET UNITYSDK_OFFSET(0x11650DD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUEGAMBLEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F600)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUELOGTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164F7C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFREPORTFROMUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFREPORTMARKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651090)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFSHARECODES11NERRORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFUNIONINDEXUNIONKIND_CAST_OFFSET UNITYSDK_OFFSET(0x11651260)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNCOLLECTIONEXHIBITIONINTERACTINGPROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116504E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAHEXEQUIPMENTMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAHEXEQUIPMENTSLOTITEMINFOSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650DB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONALEGENDMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x116509A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONALEGENDROWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651180)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAMAPTABMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAMAPTABPROGRESSITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116509C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAMAPTABROOMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x11650B40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAROOMCARDPILEMESSAGE_CAST_OFFSET UNITYSDK_OFFSET(0x11650940)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAROOMCARDPILE_CAST_OFFSET UNITYSDK_OFFSET(0x116509F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNUNDERLINEPARAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650DE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGANIMATIONEVENTINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E980)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGAPPLICATIONUPDATESTEP_CAST_OFFSET UNITYSDK_OFFSET(0x1164E430)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGQUALITYSETTINGSBOOLWRAPPER_CAST_OFFSET UNITYSDK_OFFSET(0x1164F430)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERCONFLICTMODELSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERGROUPLOADSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERGROUPREFRESHREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164EEF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRUNTIMEGROUPMANAGERGROUPUNITSIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSEQUENTIALPANELCONTAINERALIGNMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116505E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSEQUENTIALPANELCONTAINERDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x116505D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSETTINGENTRY_CAST_OFFSET UNITYSDK_OFFSET(0x11650F30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSETTINGMANAGERHOEKEYSETTINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DEA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSETTINGMANAGERWALKSWITCHMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSHARESOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSILVERWOLFSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E220)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSPACEZOOCATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSPACEZOOEXPCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ECB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSTAGESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x116508B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSTORYLINESWITCHREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSUITRECOMMENDDATATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651140)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAININGSETTLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164F2F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAININGSWORDTRAININGGAMERECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F2E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAININGSWORDTRAININGGAMESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F310)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAINPROCESSACTIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164F2B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKCONVINCESPLITELINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F4B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKCONVINCETALKINGSIDE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F970)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKDEBATEBTN_CAST_OFFSET UNITYSDK_OFFSET(0x1164E790)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKHISTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E870)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKMODULEOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTAROTBOOKVERSION_CAST_OFFSET UNITYSDK_OFFSET(0x116506C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEAMDATAREFRESHMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1164DCC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEAMMODULETELEPORTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DAB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEXTOUTLINEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTIMEREWINDTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTIMEREWINDUICONTROLMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F240)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTOASTPAUSESOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRACKPHOTOIDENTIFYSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F480)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRACKPHOTOSHOTTARGETRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1164F4A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERCARPOSITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERCATGROUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERCATTREETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERGROUNDSETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYOUTLINEPOSTTRAINPARTYBUILDOUTLINESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650EB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYSLOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650EF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYBUILDDIYPHOTOITEMFILTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYBUILDSUBAREATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650C20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYPREVIEWTIPSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F720)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYSETTLESOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F4D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTREASURECHALLENGETARGETSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E0B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTUTORIALGUIDECONFIGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E9F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIBUTTONSOUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D9D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUICONTROLLERTRANSITIONSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUILAYER_CAST_OFFSET UNITYSDK_OFFSET(0x1164D310)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIMANAGERCLEARREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164E060)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIMETAUIBLURMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUINAVIGATIONDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164EAA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUINPCWARNINGTIPSCONTAINERWAYPOINTSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DFA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPARTIALBLURSHAPETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPARTIALBLURUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164EDF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIPROFILERSAMPLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E240)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUISYMBOLFILTERSOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x11650740)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUITRANSITIONANIMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUIVALUECHANGEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E590)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTUSERPREFSEYEPROTECTIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E7B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTVIEWCACHETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DFB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTVIRTUALCURSORSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164EDC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTWAYPOINTIDENTIFIERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651150)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCUSTOMRPFRAMECAPTURECAPTUREFEATURE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D510)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCUSTOMRPFRAMECAPTURECAPTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D500)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCUSTOMRPQUALITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164D8D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYBEHAVIOR_CAST_OFFSET UNITYSDK_OFFSET(0x116514F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYCHARACTERVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651510)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYINSTANCESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651060)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYPROPERTYINERITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116513D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYPROPERTYRATIO_CAST_OFFSET UNITYSDK_OFFSET(0x11651500)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYPROPERTY_CAST_OFFSET UNITYSDK_OFFSET(0x1164D6B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREABILITYTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116513C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYCOUNTREFRESHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E740)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYEXPEDITIONRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1164E650)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYFARMMULTIPLEDROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E480)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYLOCALLEGENDDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x11650550)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYPANELFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650070)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYQUESTUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1164E500)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYSUMMONDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F460)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREACTIVITYSUMMONSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F490)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTUREANIMSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651560)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURECHARACTERVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E9C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLCHARACTERCOMPONENTCUSTOMFORBIDTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLCHARACTERCOMPONENTSKILLALLOWUSECHECKRESULT_CAST_OFFSET UNITYSDK_OFFSET(0x1164D820)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLSLOTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F3E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREADVENTURESKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D830)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERDIVIDECHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E620)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERPASSIVESKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E640)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E630)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAETHERSPIRITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E610)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALIVESTATEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALLEYFLOORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651350)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALLEYPACKGOODSTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164E5C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREALLEYSHIPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E5D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANIMZONETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D9C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANNIVERSARY2NDPANELENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANNIVERSARYCOLLECTIONGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650F70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANNIVERSARYCOLLECTIONPANELENUM_CAST_OFFSET UNITYSDK_OFFSET(0x11650F00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREASSISTANTRULETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FFF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREASSISTANTSHOWCASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREATTACKDAMAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D4E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREATTACKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D6C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAUDIOGAMESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E1E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARBASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D4C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARDEMOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116500B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D690)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARROWWRAPPERDERIVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKILLTREEANCHORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116503B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKILLTREEPOINTTRIGGERKEY_CAST_OFFSET UNITYSDK_OFFSET(0x116508F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKILLTREEPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116505A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSKINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116505C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREAVATARSPECIALULTRATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBACKGROUNDMUSICGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650AF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLEPOSTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D800)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLESCORINGDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLETARGETCONFIGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBATTLETARGETICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EEC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBEGINHINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D950)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBOARDSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E290)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBOXINGCLUBACTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBUBBLETALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E670)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E6D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREBUTTONSHOWPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F900)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGEBOSSDISPLAYPATTERN_CAST_OFFSET UNITYSDK_OFFSET(0x1164F370)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGEGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGEPEAKREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650230)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGESTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F760)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D930)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERCAMPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EAB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERMOTIONFLAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164D530)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTEROUTFITCOMPONENTESLOT_CAST_OFFSET UNITYSDK_OFFSET(0x11650B30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERVISIBLECOMPONENTSHADOWVISIBLESOURCE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FCC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERVISIBLEREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164E9E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGCARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650910)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650DC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGSTAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650980)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGSTAGEWAVETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650900)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEBOARDANIMATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUECABINETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E6A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEDIFFICULTYCOMPONENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116513A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEMAINSTORYTOASTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E930)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELBUBBLEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116504A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116507D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116507A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELITEMVENDOR_CAST_OFFSET UNITYSDK_OFFSET(0x11650670)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELTALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116506E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELTEAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650570)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAMEMBERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F820)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAPHASECONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F130)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAPHASETARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F8A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERATALKCONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F870)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERATALKPOPDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERAWORKROUNDOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F830)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLECONNECTIONPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLECUSTOMUNLOCKCONDITION_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLELINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EDE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHRONICLENODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ECF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F220)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKCARDTIPSTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164F0C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKCHAPTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F110)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKCHECKPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F100)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECLOCKPARKROUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F0E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOCOONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DBE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMBATPOWERAVATARRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMBATPOWERLIGHTCONERARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMBATPOWERRELICRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECOMEFROMOPENTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECONTROLSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECONVINCETRICKSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F380)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECUMULATIVECONSUMPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDEBATEUITYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E330)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEUTILDIALOGUETRIGGERREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164D9A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDIALOGUEUTILTALKSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D9B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATCOMMUNICATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650780)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDICERARE_CAST_OFFSET UNITYSDK_OFFSET(0x11650810)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDICETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDIRECTDAMAGESTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATPREVIEWVALUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116507F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATSKILLPREVIEWINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650880)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATWEATHERRULETAG_CAST_OFFSET UNITYSDK_OFFSET(0x11650850)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATWEATHERSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650840)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERBANMODENTRANCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERFORMULAUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERQUANTIFYTAGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERREQUESTMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ECE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERTAGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651360)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDRINKMAKERUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EDD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDYNAMICVALUEDYNAMICVALUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FBD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEAVATARCOMMONROWWRAP_CAST_OFFSET UNITYSDK_OFFSET(0x1164EBC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEAVATARSKILLCOMMONROWWRAP_CAST_OFFSET UNITYSDK_OFFSET(0x1164E940)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREELEVELPERFORMANCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREELFBEHAVIORSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREELFSELECTEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FCA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEMAZELOCKTARGETSELECTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D880)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEMAZELOCKTARGETSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D860)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEMAZELOCKTARGETUISTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D870)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENERGYBARSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651580)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENTITYTYPEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENTITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D850)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENUMSTATUSTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164F5C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREENUMSTATUSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E1F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREERASTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F6B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREESWITCHHANDGESTURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F680)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVENTTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164E5B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651070)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDCARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EFF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F030)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDREWARDBOXGEARUPGRADEEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x1164FAF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEBUILDSEASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164FAB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEGEARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEVOLVEPERIODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651310)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREEXPEDITIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREE_PAKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E730)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFARMTYPECONFIG_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEAFFIXRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEAREATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEBUFFRARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FEA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEBUFFSLOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATECOININCOMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FEB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEHOUGUTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEREIJUTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651320)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATEROUNDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FEC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFATETRAITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FED0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFEVERTIMEPERIODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F010)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIGHTFESTCOACHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F440)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIGHTFESTPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F3F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFINDCHESTTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F8D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMBTNTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMFLUTEEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMGAMEPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMPANELSKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650710)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMSURFACECONNECTDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x11650860)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFORCEKILLSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFORMULATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DDE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFOURROTATEVOXELANIMALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116508C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFOURROTATEVOXELGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650960)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFUNCUNLOCKPROMPTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ECD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGACHAGROUPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGACHAITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FCD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGACHATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGAMEFLOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650150)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGAMEMODESTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D4F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGAMEMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DAE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DAD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGOODSREFRESHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGOTOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DBC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTADDITEMSOURCETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTAUGMENTQUALITY_CAST_OFFSET UNITYSDK_OFFSET(0x116500E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTCONSUMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTEQUIPCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTFORGEFUNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650600)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTFRONTSPECIALSPDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650530)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTFUNCTIONNODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650420)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTHANDBOOKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116502C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTMANAGERGRIDFIGHTCUSTOMVALUEVALUECLASSIFY_CAST_OFFSET UNITYSDK_OFFSET(0x11650270)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTNODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FEF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTORBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116500A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTPREPTUTORIALOPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650430)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTPREPTUTORIALPOPUPPANELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650580)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTPRESET_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTSETTLERANKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116504F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTSHOWFULLSCREENCUTINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650320)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTSHOWRIGHTCUTINTRAITIMGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650520)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAILLAYERQUALITY_CAST_OFFSET UNITYSDK_OFFSET(0x11650010)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAITEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650080)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAITSOURCEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x116508A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTTRAITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116501C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTUNLOCKFUNCTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650480)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTUNLOCKSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650490)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164E5E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUIDECHALLENGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUIDEROGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F400)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E0C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGUNPLAYMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F150)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHEARTDIALEMOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHEARTDIALSTEPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHELIOBUSPOSTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E840)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHELIOBUSTEMPLATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E8B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHELIOBUSTENDENCYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651370)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENGAMEGRADETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650030)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENINTERACTLIKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650380)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENINTERACTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FFD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENMINIGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650020)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENOUTFITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650210)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENPICKINGGOODSDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116501F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENSTATGRADETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116500C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FFE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHIPPLENWORKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116502B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHPBARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREHUDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E580)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVEAVATARPROPERTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVEFUNCUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVEGIFTEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650F20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVENODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650D50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVETEAMSLOTLEVELUPREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650FE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVETECHTREEEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650EA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREILBATTLEAVATARTAG_CAST_OFFSET UNITYSDK_OFFSET(0x11650ED0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREILBATTLECHARACTERLOCATION_CAST_OFFSET UNITYSDK_OFFSET(0x11650930)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREINVENTORYSORTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D440)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREINVENTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DAC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREINWARDBUBBLETALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E680)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMCOMPOSEFUNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FBA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMCOMPOSELIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E170)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMFOODSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D770)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMFOODTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D780)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMFOODUSETAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164E150)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMGIFTSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMMAINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E1A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMRARITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164D470)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMRECYCLESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E0E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMSELLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E710)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E1D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREITEMUSEMETHOD_CAST_OFFSET UNITYSDK_OFFSET(0x1164E9B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELANIMATINGOBJECTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651420)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDATACOMPONENTPERMONSTERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650190)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDATAEXPORTTARGET_CAST_OFFSET UNITYSDK_OFFSET(0x11651400)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x1164DFD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIMENSIONCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x11651480)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIMENSIONFILTEREXPRLISTCOMPARETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651490)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELDIMENSIONFILTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651470)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELFEATURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651450)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELGRAPHOPERATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116512B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELGRAPHSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651080)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELGRAPHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651540)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELHOYOTAGOVERRIDEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x116514A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELLITTLEGAMELOADTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116514C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELLOCKABLEFEATURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651520)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELMINIMAPSECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D940)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNAVMAPAREACONNECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116514B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNAVNODECONDITIONLOGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116513F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNAVNODEINNERCONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116513E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCLODTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651410)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCLOOKATTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116514D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCOVERRIDEBEHAVIORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651440)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELNPCUSEANIMATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651430)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELPERFORMANCEHIDETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651460)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELREGIONCONNECTIVITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116514E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELEVELVOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651530)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIGHTCONE3DCOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E000)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650BB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSISSUEHINTPOPUPSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650BC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSOFFICESURVEYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651380)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D460)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELITTLEWHEELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EEB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELOADINGDESCGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x1164EFD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAINMISSIONSUBTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F930)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAINMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D8A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x1164E600)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPENTRYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D7D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPPINGINFOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E0D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPPREGRESSSHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DEF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPSHORTCUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E110)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPSPACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EBF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPSUBEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x1164E5F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMARBLEPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F950)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREERARITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F320)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREESCOREFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650050)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREESCORETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F290)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATCHTHREEV2STARTARGETFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650040)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMATERIALSUBMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F5D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650310)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFINBATTLEBINDINGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F0B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFPOOLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651390)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E020)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAZEPUZZLEMOVIEGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EEA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGEITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGESPECIALCHANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650E80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGESTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DFF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMINIMAPAREATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ECC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMINIMAPICONORIENTATIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E720)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONBEGINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E050)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONPROGRESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F7B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONTALKSTYLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONUIGOTOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMISSIONWAYPOINTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D5F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERBEHAVIORFLAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIEREFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E820)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERSTATEFILTER_CAST_OFFSET UNITYSDK_OFFSET(0x1164F270)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D600)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYMAPCELLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EE40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONSTERBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x11651290)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONSTERRANK_CAST_OFFSET UNITYSDK_OFFSET(0x1164D890)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONSTERVIEWPHASETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650260)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMULTIPLAYERGAMEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x116512C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMULTIPLEDROPTYPECONFIG_CAST_OFFSET UNITYSDK_OFFSET(0x1164E570)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMMISSIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E3D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMRANDOMEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E2B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTALKTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E360)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E370)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTARGETREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E3E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORENEXTMAINMISSIONSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREOFFERINGREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F670)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREOFFLINEMESSAGESENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREOPENURLWEBVIEWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F140)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPARAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E770)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPARKOURTALKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPERFORMANCELIVESTREAMATMOSPHERETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650AB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPERSONALIZESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E860)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPETBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x11650F80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHONEMESSAGEPLAYMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11651570)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHFOVLEVEL_CAST_OFFSET UNITYSDK_OFFSET(0x1164F450)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHMODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHSETTINGDISPLAYOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E0A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHSETTINGITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPHOTOGRAPHSETTINGOPTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651550)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESBTNUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FBB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F9A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESGACHATYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F990)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESGAMETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESITEMUSETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESLANDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F980)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESLEVELUNLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FB10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESMINIGAMEREWARDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FAA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F9E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESSOURCESYSTEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F9C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESSUMMARYNOMINATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651330)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLAYERRETURNJOURNEYITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLAYERRETURNRECOMMENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F390)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPPEFFECTFILTERPRIORITYGROUP_CAST_OFFSET UNITYSDK_OFFSET(0x1164EED0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPPEFFECTFILTERPRIORITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164EEE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPROPSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D7F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPROPTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D900)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUNKLORDMONSTERRARE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUZZLEFUNC_CAST_OFFSET UNITYSDK_OFFSET(0x1164DBF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUZZLEHUDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EBA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPUZZLETUTORIALTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116512A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREQUESTFINISHTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164ED50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERACCOONSTATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F0D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDCOLLECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F520)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDCONFIGTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DFC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDENTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F060)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDLIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E320)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERAIDTEAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E120)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERECORDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E180)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREREDDOTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FDC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERELICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTEMPLOYEEABILITY_CAST_OFFSET UNITYSDK_OFFSET(0x11650060)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTEMPLOYEETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTFACILITYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTFARMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTNORMALEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FC00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTSELECTEVENTBUBBLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650360)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTSELECTEVENTSENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORERESTAURANTSELECTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FF50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEADVENTUREGAMEPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E750)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEAEONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E900)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEBUFFAEONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E4E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEBUFFCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F2D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUECLIENTADVENTUREROOMSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E910)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDIALOGUEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDIALOGUETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E340)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116512D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEDLCBLOCKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E8A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEEXHIBITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F3D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEFORMULACATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F070)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEGAMBLEGROUPLEVELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651300)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEGAMBLEUNITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F1C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEIMAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E920)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICAREAGROUPID_CAST_OFFSET UNITYSDK_OFFSET(0x1164F7D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116512F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICMOUNTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F560)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116512E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICROOMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F690)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICSCEPTERFUNCTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F780)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICSTORYCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F750)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICSTYLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F770)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICUNITCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F550)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMIRACLECATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F080)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F5A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUENOUSDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUENOUSSURFACETAG_CAST_OFFSET UNITYSDK_OFFSET(0x116513B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEROOMATTRIBUTECATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x11650DA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUESUBMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EAD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETALKCOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E300)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETITANCATEGORY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F880)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETITANTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F960)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNAREAGROUPID_CAST_OFFSET UNITYSDK_OFFSET(0x1164F000)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNCOLLECTIONEXHIBITIONPROPFLOOR_CAST_OFFSET UNITYSDK_OFFSET(0x11650500)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNCURSECHESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FE30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNDIFFICULTYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F420)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F940)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNPERSONAROOMBGCOLORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650B50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNROOMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETOURNTITANFLOORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F9F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUETURNTABLEREWARDLEVEL_CAST_OFFSET UNITYSDK_OFFSET(0x1164EC50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROLLINGSUBTITLESDISPLAYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F1B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROLLINGSUBTITLESPAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F1A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCORERACETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F610)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCREENTRANSFERMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D8B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCREENTRANSFERREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164E490)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESCREENTRANSFERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D8C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESENDERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DCA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESERVANTBODYSIZE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F810)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESHOPGOODTAG_CAST_OFFSET UNITYSDK_OFFSET(0x11650330)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESHORTCUTWHEELGOTOTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DC00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESILVERWOLF999ULTRASKILLUISTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650F90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESIMPLETALKBLACKMASKCOLOR_CAST_OFFSET UNITYSDK_OFFSET(0x1164FDD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESIMPLETALKSTYLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FDE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLEFFECT_CAST_OFFSET UNITYSDK_OFFSET(0x11651280)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLSPPROGRESSTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EA60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLTARGETTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D840)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESKILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D6D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOCHANNELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOMASKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOQUESTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EBE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPACEZOOSPICALEVENTSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EBB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPECIALAVATARTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DA70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPECIALORDERFINISHTYPEENUM_CAST_OFFSET UNITYSDK_OFFSET(0x1164E690)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESPECIALVISIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E660)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D810)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTANCEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F6D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTARFIGHTDIFFICULTY_CAST_OFFSET UNITYSDK_OFFSET(0x1164F350)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTARFIGHTSEASON_CAST_OFFSET UNITYSDK_OFFSET(0x11651340)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTARTMUSICRHYTHMTASKPHASE_CAST_OFFSET UNITYSDK_OFFSET(0x11651200)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTRONGCHALLENGEBATTLETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTUFFSTATS_CAST_OFFSET UNITYSDK_OFFSET(0x1164E270)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E2D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESUBMISSIONLOGICTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F3C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESUBMISSIONOPTIONALTRACKMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F660)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESUBMISSIONSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D910)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGACTIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F2A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F570)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGMOODSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F590)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGSTORYTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F250)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETALKBGCGBLENDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FBF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETAROTBOOKCONDITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F920)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEAMLIMITTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F6C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEAMTYPEMASK_CAST_OFFSET UNITYSDK_OFFSET(0x1164DF70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEAMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D520)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETEXTMOTIONTYPERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650630)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETIMEREWINDENTITYCONTROLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F700)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETIMEREWINDSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F6F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETOASTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D970)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRACKPHOTOCANTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F410)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYEVENTFADEINTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F890)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYGRIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F470)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYSTATTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F580)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAINPARTYSTEPRESULTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F510)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAVELBROCHUREPASTERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EAE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAVELBROCHURETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EB00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONGRIDBUFFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E4C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONGRIDEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E7F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONGRIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E4B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E7C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALGUIDESHOWTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DBB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALRESTORETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DCF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D4B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUIADAPTIVEDEVICETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F050)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUIEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E230)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUSESKILLERRORCODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650410)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREVIDEOCAPTIONPOSITION_CAST_OFFSET UNITYSDK_OFFSET(0x1164ECA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREWEAKNESSSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DBA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREWHEELITEMTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DDC0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCORECOMBATPERFORMANCEEVENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x116505B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATDICEEFFECTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651270)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATSKILLPREVIEWLOGICINVOKETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATTOPHINTICONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650CF0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLOGTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164D400)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGPROFILEUTILITYLOADREASON_CAST_OFFSET UNITYSDK_OFFSET(0x1164E310)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEDONTHIDEPANELTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMAUDIENCECONTROLDATAAUDIENCECONTROLMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650A40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMBULLETCOMMENTSMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11650AA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMTRANSITIONTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11650CE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONAREAENTRYORIGIN_CAST_OFFSET UNITYSDK_OFFSET(0x11651000)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONAREALAYOUT_CAST_OFFSET UNITYSDK_OFFSET(0x11650AD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONAREASTARTCORNER_CAST_OFFSET UNITYSDK_OFFSET(0x11650AE0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x11650FB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONRULE_CAST_OFFSET UNITYSDK_OFFSET(0x116511F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SPINEUNITYSKELETONGRAPHICLAYOUTMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E780)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWGRIDFIXEDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651040)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWGRIDITEMARRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E1C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWGRIDTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651050)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWITEMCORNERENUM_CAST_OFFSET UNITYSDK_OFFSET(0x11651020)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWLISTITEMARRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651030)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SUPERSCROLLVIEWSNAPSTATUS_CAST_OFFSET UNITYSDK_OFFSET(0x11651010)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMDAYOFWEEK_CAST_OFFSET UNITYSDK_OFFSET(0x1164D480)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMENVIRONMENTSPECIALFOLDEROPTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D7B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMENVIRONMENTSPECIALFOLDER_CAST_OFFSET UNITYSDK_OFFSET(0x1164D7A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMGLOBALIZATIONDATETIMESTYLES_CAST_OFFSET UNITYSDK_OFFSET(0x1164D490)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMGLOBALIZATIONNUMBERSTYLES_CAST_OFFSET UNITYSDK_OFFSET(0x1164D430)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMREFLECTIONBINDINGFLAGS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D8E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMSTRINGCOMPARISON_CAST_OFFSET UNITYSDK_OFFSET(0x1164DD30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_TMPROTEXTALIGNMENTOPTIONS_CAST_OFFSET UNITYSDK_OFFSET(0x11651E00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_TUTORIALNODENODEPLATFORM_CAST_OFFSET UNITYSDK_OFFSET(0x1164FD20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEANIMATORCULLINGMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E030)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERAFIELDOFVIEWAXIS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D560)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERAGATEFITMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D550)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERAMONOORSTEREOSCOPICEYE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D580)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINECAMERASTEREOSCOPICEYE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D570)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSEVENTHANDLE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSEVENTTRIGGERTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D540)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSMOVEDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSPOINTEREVENTDATAFRAMEPRESSSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSPOINTEREVENTDATAINPUTBUTTON_CAST_OFFSET UNITYSDK_OFFSET(0x1164FA80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEFONTSTYLE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E200)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEQUERYTRIGGERINTERACTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164FFB0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINERECTTRANSFORMAXIS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D300)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINERECTTRANSFORMEDGE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D2F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINERUNTIMEPLATFORM_CAST_OFFSET UNITYSDK_OFFSET(0x11651EA0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETEXTANCHOR_CAST_OFFSET UNITYSDK_OFFSET(0x1164EBD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETEXTFORMATTINGTAG_CAST_OFFSET UNITYSDK_OFFSET(0x1164F6E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETEXTURE2DEXRFLAGS_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE00)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINETIMELINETIMELINEASSETDURATIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E10)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIASPECTRATIOFITTERASPECTMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DB90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIAUIPROGRESSBARTEXTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E0F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICACULATENODEDATACACULATENODETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICACULATENODEDATAOPERATETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E80)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICACULATENODEDATATRANSFOMRREFTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASSCALERSCALEMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF50)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASSCALERSCREENMATCHMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASSCALERUNIT_CAST_OFFSET UNITYSDK_OFFSET(0x1164EF70)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICANVASUPDATE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E20)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICOLORMODE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E30)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUICONTENTSIZEFITTERFITMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164F3A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIERRORTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x11651E40)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRAPHICRAYCASTERBLOCKINGOBJECTS_CAST_OFFSET UNITYSDK_OFFSET(0x11650870)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRIDLAYOUTGROUPAXIS_CAST_OFFSET UNITYSDK_OFFSET(0x1164D750)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRIDLAYOUTGROUPCONSTRAINT_CAST_OFFSET UNITYSDK_OFFSET(0x1164D730)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIGRIDLAYOUTGROUPCORNER_CAST_OFFSET UNITYSDK_OFFSET(0x1164D740)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEFILLMETHOD_CAST_OFFSET UNITYSDK_OFFSET(0x1164D330)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGIN180_CAST_OFFSET UNITYSDK_OFFSET(0x1164D370)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGIN360_CAST_OFFSET UNITYSDK_OFFSET(0x1164D380)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGIN90_CAST_OFFSET UNITYSDK_OFFSET(0x1164D360)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGINHORIZONTAL_CAST_OFFSET UNITYSDK_OFFSET(0x1164D340)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGEORIGINVERTICAL_CAST_OFFSET UNITYSDK_OFFSET(0x1164D350)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIIMAGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D320)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDCHARACTERVALIDATION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D3C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDCONTENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D3A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDINPUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D3B0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIINPUTFIELDLINETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D3D0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUINAVIGATIONMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D960)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUIRECTMASK2DSOFTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E960)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLBARDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D760)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTALIGNDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164E8C0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTLAYOUTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164DE60)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTMOVEMENTTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D6F0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISCROLLRECTSCROLLBARVISIBILITY_CAST_OFFSET UNITYSDK_OFFSET(0x1164D700)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISELECTABLETRANSITION_CAST_OFFSET UNITYSDK_OFFSET(0x1164E140)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISLIDERDIRECTION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D390)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINHORIZONTAL_CAST_OFFSET UNITYSDK_OFFSET(0x1164D650)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINRADIAL90_CAST_OFFSET UNITYSDK_OFFSET(0x1164D680)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINRADIAL_CAST_OFFSET UNITYSDK_OFFSET(0x1164D670)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLORIGINVERTICAL_CAST_OFFSET UNITYSDK_OFFSET(0x1164D660)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKFILLTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D640)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKMATERIALPARAMSDIRTYFLAGBIT_CAST_OFFSET UNITYSDK_OFFSET(0x11651E90)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKSOFTRANGETYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D630)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUISMOOTHMASKTYPE_CAST_OFFSET UNITYSDK_OFFSET(0x1164D620)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUITOGGLETOGGLETRANSITION_CAST_OFFSET UNITYSDK_OFFSET(0x1164D3E0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUITOUCHFILTERFILTERSTATE_CAST_OFFSET UNITYSDK_OFFSET(0x11650FD0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEWRAPMODE_CAST_OFFSET UNITYSDK_OFFSET(0x1164E5A0)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1164D260)
+#define XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x11698990)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_IniterAdderUnityEngineVector2_TypeDefinitionIndex = 40392;
+	inline static constexpr unsigned int ObjectTranslator_IniterAdderUnityEngineVector2_TypeDefinitionIndex = 46301;
 
 	class ObjectTranslator_IniterAdderUnityEngineVector2 : public ::System::Object
 	{
@@ -2503,9 +2607,9 @@ namespace XLua
 			return ((::System::Int32(*)(::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMGLOBALIZATIONDATETIMESTYLES_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTutorialStatus_cast(::Enum_3_0A3761FE34514D6C_79 value)
+		static ::System::Int32 ProtoTutorialStatus_cast(::Enum_3_0A3761FE34514D6C_80 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_79))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_80))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreTutorialTriggerType_cast(::RPG::GameCore::TutorialTriggerType value)
@@ -2618,9 +2722,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::ModifierState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMODIFIERSTATE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoAvatarType_cast(::Enum_3_A35B38E5F9115A76 value)
+		static ::System::Int32 ProtoAvatarType_cast(::Enum_3_01618AD0437C8486 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOAVATARTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOAVATARTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 UnityEngineUISmoothMaskType_cast(::UnityEngine::UI::SmoothMask_Type value)
@@ -2763,9 +2867,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::MapEntryType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMAPENTRYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoQuestStatus_cast(::Enum_3_4608E37A1B3D374A_24 value)
+		static ::System::Int32 ProtoQuestStatus_cast(::Enum_3_4608E37A1B3D374A_23 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_24))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOQUESTSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_23))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOQUESTSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCorePropState_cast(::RPG::GameCore::PropState value)
@@ -2848,9 +2952,9 @@ namespace XLua
 			return ((::System::Int32(*)(::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_SYSTEMREFLECTIONBINDINGFLAGS_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoExtraLineupType_cast(::Enum_3_63C076C405BE0674_3 value)
+		static ::System::Int32 ProtoExtraLineupType_cast(::Enum_3_63C076C405BE0674_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOEXTRALINEUPTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOEXTRALINEUPTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCorePropType_cast(::RPG::GameCore::PropType value)
@@ -3148,9 +3252,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::SenderType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESENDERTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoMessageSectionStatus_cast(::Enum_3_DB663931210BBC27_27 value)
+		static ::System::Int32 ProtoMessageSectionStatus_cast(::Enum_3_DB663931210BBC27_28 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_27))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGESECTIONSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGESECTIONSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientTeamDataRefreshMask_cast(::RPG::Client::TeamDataRefreshMask value)
@@ -3158,9 +3262,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::TeamDataRefreshMask))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEAMDATAREFRESHMASK_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoFeatureSwitchType_cast(::Enum_3_A84DFEC42C5C4A94 value)
+		static ::System::Int32 ProtoFeatureSwitchType_cast(::Enum_3_A843FEC42C53F62F value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A84DFEC42C5C4A94))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEATURESWITCHTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A843FEC42C53F62F))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEATURESWITCHTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientAdventureWaypointType_cast(::RPG::Client::AdventureWaypointType value)
@@ -3173,9 +3277,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::TutorialRestoreType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETUTORIALRESTORETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoMessageGroupStatus_cast(::Enum_3_DB663931210BBC27_28 value)
+		static ::System::Int32 ProtoMessageGroupStatus_cast(::Enum_3_DB663931210BBC27_29 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGEGROUPSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMESSAGEGROUPSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientUIControllerTransitionStyle_cast(::RPG::Client::UIController_TransitionStyle value)
@@ -3228,9 +3332,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::BPRewardStatus))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTBPREWARDSTATUS_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoBpTierType_cast(::Enum_3_DB663931210BBC27_15 value)
+		static ::System::Int32 ProtoBpTierType_cast(::Enum_3_DB663931210BBC27_16 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_15))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPTIERTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_16))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPTIERTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreWheelItemType_cast(::RPG::GameCore::WheelItemType value)
@@ -3248,9 +3352,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::FormulaType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFORMULATYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoBpRewardType_cast(::Enum_3_4608E37A1B3D374A_9 value)
+		static ::System::Int32 ProtoBpRewardType_cast(::Enum_3_4608E37A1B3D374A_8 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPREWARDTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBPREWARDTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 UnityEngineTexture2DEXRFlags_cast(::UnityEngine::Texture2D_EXRFlags value)
@@ -3353,9 +3457,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::MonoExUICamera_E_ExUIZoomRange))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOEXUICAMERAE_EXUIZOOMRANGE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoProductGiftType_cast(::Enum_3_7CED31C413C530F0 value)
+		static ::System::Int32 ProtoProductGiftType_cast(::Enum_3_7CF3F1C413CAE286 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_7CED31C413C530F0))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPRODUCTGIFTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7CF3F1C413CAE286))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPRODUCTGIFTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreShortCutWheelGotoType_cast(::RPG::GameCore::ShortCutWheelGotoType value)
@@ -3418,9 +3522,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::LightCone3DColorType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIGHTCONE3DCOLORTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 RPGClientPacketCmdID_cast(::Enum_3_E5895DA3995ACDBD value)
+		static ::System::Int32 RPGClientPacketCmdID_cast(::Enum_3_B43C9D79E06CBD5E value)
 		{
-			return ((::System::Int32(*)(::Enum_3_E5895DA3995ACDBD))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPACKETCMDID_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_B43C9D79E06CBD5E))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPACKETCMDID_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreMazeBuffType_cast(::RPG::GameCore::MazeBuffType value)
@@ -3433,9 +3537,9 @@ namespace XLua
 			return ((::System::Int32(*)(::UnityEngine::AnimatorCullingMode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEANIMATORCULLINGMODE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRogueAreaStatus_cast(::Enum_3_DB663931210BBC27_49 value)
+		static ::System::Int32 ProtoRogueAreaStatus_cast(::Enum_3_DB663931210BBC27_53 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_49))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEAREASTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_53))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEAREASTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreMissionBeginType_cast(::RPG::GameCore::MissionBeginType value)
@@ -3456,11 +3560,6 @@ namespace XLua
 		static ::System::Int32 RPGClientMonoUI3DTouchMouseWheelType_cast(::RPG::Client::MonoUI3DTouch_MouseWheelType value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::MonoUI3DTouch_MouseWheelType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMONOUI3DTOUCHMOUSEWHEELTYPE_CAST_OFFSET))(value);
-		}
-
-		static ::System::Int32 RPGClientPromisesPromiseState_cast(::RPG::Client::Promises::PromiseState value)
-		{
-			return ((::System::Int32(*)(::RPG::Client::Promises::PromiseState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROMISESPROMISESTATE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientArchiveType_cast(::RPG::Client::ArchiveType value)
@@ -3608,9 +3707,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::AudioListenerMode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOLISTENERMODE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRogueStatus_cast(::Enum_3_4608E37A1B3D374A_28 value)
+		static ::System::Int32 ProtoRogueStatus_cast(::Enum_3_4608E37A1B3D374A_27 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUESTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_27))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUESTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreStuffStats_cast(::RPG::GameCore::StuffStats value)
@@ -3618,9 +3717,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESTUFFSTATS_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoStatType_cast(::Enum_3_DB663931210BBC27_44 value)
+		static ::System::Int32 ProtoStatType_cast(::Enum_3_DB663931210BBC27_48 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_44))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSTATTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_48))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSTATTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreBoardShowType_cast(::RPG::GameCore::BoardShowType value)
@@ -3733,9 +3832,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::MuseumTargetRewardType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMUSEUMTARGETREWARDTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoAlleyEventState_cast(::Enum_3_DB663931210BBC27_13 value)
+		static ::System::Int32 ProtoAlleyEventState_cast(::Enum_3_DB663931210BBC27_14 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_13))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOALLEYEVENTSTATE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOALLEYEVENTSTATE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoChatType_cast(::Enum_3_0A3761FE34514D6C value)
@@ -3743,9 +3842,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHATTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoMuseumRandomEventState_cast(::Enum_3_DB663931210BBC27_42 value)
+		static ::System::Int32 ProtoMuseumRandomEventState_cast(::Enum_3_DB663931210BBC27_46 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_42))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMUSEUMRANDOMEVENTSTATE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_46))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMUSEUMRANDOMEVENTSTATE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientAlleyOrderStatus_cast(::RPG::Client::AlleyOrderStatus value)
@@ -3833,14 +3932,14 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_5AA38DC400740F29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOVIRTUALITEMTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoMissionStatus_cast(::Enum_3_DB663931210BBC27_26 value)
+		static ::System::Int32 ProtoMissionStatus_cast(::Enum_3_DB663931210BBC27_27 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMISSIONSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_27))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMISSIONSTATUS_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoFriendApplySource_cast(::Enum_3_71AA90D596A09AC8_10 value)
+		static ::System::Int32 ProtoFriendApplySource_cast(::Enum_3_0F1B992870941C13_5 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFRIENDAPPLYSOURCE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0F1B992870941C13_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFRIENDAPPLYSOURCE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoSyncLineupReason_cast(::Enum_3_71AA90D596A09AC8_11 value)
@@ -3848,9 +3947,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_11))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSYNCLINEUPREASON_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRogueRoomStatus_cast(::Enum_3_4608E37A1B3D374A_29 value)
+		static ::System::Int32 ProtoRogueRoomStatus_cast(::Enum_3_4608E37A1B3D374A_28 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEROOMSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEROOMSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreMultipleDropTypeConfig_cast(::RPG::GameCore::MultipleDropTypeConfig value)
@@ -3973,9 +4072,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::AlleyTransportVirtualCameraType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTALLEYTRANSPORTVIRTUALCAMERATYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoChessRogueDiceStatus_cast(::Enum_3_DB663931210BBC27_18 value)
+		static ::System::Int32 ProtoChessRogueDiceStatus_cast(::Enum_3_DB663931210BBC27_19 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_18))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICESTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_19))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICESTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoRogueModifierSourceType_cast(::Enum_3_0F1B992870941C13_3 value)
@@ -4043,9 +4142,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::TreasureDungeonItemType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETREASUREDUNGEONITEMTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoChessRogueBoardCellStatus_cast(::Enum_3_DB663931210BBC27_19 value)
+		static ::System::Int32 ProtoChessRogueBoardCellStatus_cast(::Enum_3_DB663931210BBC27_20 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_19))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEBOARDCELLSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_20))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEBOARDCELLSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientBattleCollegeDataBattleCollegeStatus_cast(::RPG::Client::BattleCollegeData_BattleCollegeStatus value)
@@ -4098,9 +4197,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::TalkHistoryType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTALKHISTORYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoMailType_cast(::Enum_3_ED790DAC948A65A9_14 value)
+		static ::System::Int32 ProtoMailType_cast(::Enum_3_ED790DAC948A65A9_17 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMAILTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_17))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMAILTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientMonoCurveRateSliderContentMoveDirection_cast(::RPG::Client::MonoCurveRateSlider_ContentMoveDirection value)
@@ -4183,9 +4282,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::RPGAnimationEvent_InvokeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTRPGANIMATIONEVENTINVOKETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRogueCommonBuffSelectSourceType_cast(::Enum_3_4608E37A1B3D374A_30 value)
+		static ::System::Int32 ProtoRogueCommonBuffSelectSourceType_cast(::Enum_3_4608E37A1B3D374A_29 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_30))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUECOMMONBUFFSELECTSOURCETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUECOMMONBUFFSELECTSOURCETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientPropJigsawItemState_cast(::RPG::Client::Prop::JigsawItemState value)
@@ -4263,9 +4362,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::ChessRogueDifficultyComponentType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHESSROGUEDIFFICULTYCOMPONENTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTrainVisitorStatus_cast(::Enum_3_4608E37A1B3D374A_37 value)
+		static ::System::Int32 ProtoTrainVisitorStatus_cast(::Enum_3_4608E37A1B3D374A_36 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_37))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINVISITORSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_36))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINVISITORSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientUINavigationDirection_cast(::RPG::Client::UINavigationDirection value)
@@ -4278,9 +4377,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::CharacterCampType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHARACTERCAMPTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoChessRogueNousDicePhase_cast(::Enum_3_0A3761FE34514D6C_26 value)
+		static ::System::Int32 ProtoChessRogueNousDicePhase_cast(::Enum_3_0A3761FE34514D6C_25 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUENOUSDICEPHASE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_25))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUENOUSDICEPHASE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreRogueSubMode_cast(::RPG::GameCore::RogueSubMode value)
@@ -4293,9 +4392,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::TravelBrochurePasterType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETRAVELBROCHUREPASTERTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoChessRogueDiceType_cast(::Enum_3_ED790DAC948A65A9_6 value)
+		static ::System::Int32 ProtoChessRogueDiceType_cast(::Enum_3_ED790DAC948A65A9_10 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHESSROGUEDICETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreTravelBrochureType_cast(::RPG::GameCore::TravelBrochureType value)
@@ -4318,9 +4417,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::AudioSettings_SpeakerModeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTAUDIOSETTINGSSPEAKERMODETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoMovieRacingType_cast(::Enum_3_DB663931210BBC27_38 value)
+		static ::System::Int32 ProtoMovieRacingType_cast(::Enum_3_DB663931210BBC27_42 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_38))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMOVIERACINGTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_42))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOMOVIERACINGTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreSpaceZooChannelType_cast(::RPG::GameCore::SpaceZooChannelType value)
@@ -4508,9 +4607,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::Prop::PinballPageProxy_PinballPageHintState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPPINBALLPAGEPROXYPINBALLPAGEHINTSTATE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTrackMainMissionUpdateReasonId_cast(::Enum_3_DB663931210BBC27_40 value)
+		static ::System::Int32 ProtoTrackMainMissionUpdateReasonId_cast(::Enum_3_DB663931210BBC27_44 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_40))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRACKMAINMISSIONUPDATEREASONID_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_44))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRACKMAINMISSIONUPDATEREASONID_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientDrinkMakerBartendProcedure_cast(::RPG::Client::DrinkMakerBartendProcedure value)
@@ -4561,11 +4660,6 @@ namespace XLua
 		static ::System::Int32 RPGGameCoreMonopolyOptionType_cast(::RPG::GameCore::MonopolyOptionType value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::MonopolyOptionType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMONOPOLYOPTIONTYPE_CAST_OFFSET))(value);
-		}
-
-		static ::System::Int32 RPGClientDailyLoginRewardActivityDataRewardStatus_cast(::RPG::Client::DailyLoginRewardActivityData_RewardStatus value)
-		{
-			return ((::System::Int32(*)(::RPG::Client::DailyLoginRewardActivityData_RewardStatus))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDAILYLOGINREWARDACTIVITYDATAREWARDSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientStoryLineSwitchReason_cast(::RPG::Client::StoryLineSwitchReason value)
@@ -4693,9 +4787,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::LoadingDescGroup))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELOADINGDESCGROUP_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoClockParkPlayStatus_cast(::Enum_3_DB663931210BBC27_25 value)
+		static ::System::Int32 ProtoClockParkPlayStatus_cast(::Enum_3_DB663931210BBC27_26 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_25))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCLOCKPARKPLAYSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCLOCKPARKPLAYSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreEvolveBuildCardType_cast(::RPG::GameCore::EvolveBuildCardType value)
@@ -4713,9 +4807,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::FeverTimePeriodType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFEVERTIMEPERIODTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoFeverTimeBattleRank_cast(::Enum_3_4608E37A1B3D374A_14 value)
+		static ::System::Int32 ProtoFeverTimeBattleRank_cast(::Enum_3_4608E37A1B3D374A_13 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEVERTIMEBATTLERANK_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_13))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFEVERTIMEBATTLERANK_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreEvolveBuildPropertyType_cast(::RPG::GameCore::EvolveBuildPropertyType value)
@@ -4828,9 +4922,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYMODIFYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRogueTournLevelStatus_cast(::Enum_3_DB663931210BBC27_55 value)
+		static ::System::Int32 ProtoRogueTournLevelStatus_cast(::Enum_3_DB663931210BBC27_59 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_55))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETOURNLEVELSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_59))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETOURNLEVELSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreRollingSubtitlesPageType_cast(::RPG::GameCore::RollingSubtitlesPageType value)
@@ -4853,9 +4947,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::EWolfBroGunPlayTargetScoreMode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTEWOLFBROGUNPLAYTARGETSCOREMODE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoBattleRecordType_cast(::Enum_3_0A3761FE34514D6C_29 value)
+		static ::System::Int32 ProtoBattleRecordType_cast(::Enum_3_0A3761FE34514D6C_28 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBATTLERECORDTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOBATTLERECORDTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoPlayingState_cast(::Enum_3_0F1B992870941C13_1 value)
@@ -4893,9 +4987,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::SwordTrainingStoryType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESWORDTRAININGSTORYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoLobbyCharacterStatus_cast(::Enum_3_F80BFD5B986D5503_4 value)
+		static ::System::Int32 ProtoLobbyCharacterStatus_cast(::Enum_3_F80BFD5B986D5503_3 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYCHARACTERSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLOBBYCHARACTERSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreModifierStateFilter_cast(::RPG::GameCore::ModifierStateFilter value)
@@ -4923,9 +5017,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::SwordTrainProcessActionStatus))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSWORDTRAINPROCESSACTIONSTATUS_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoSwordTrainingDailyPhaseType_cast(::Enum_3_4608E37A1B3D374A_35 value)
+		static ::System::Int32 ProtoSwordTrainingDailyPhaseType_cast(::Enum_3_4608E37A1B3D374A_34 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_35))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSWORDTRAININGDAILYPHASETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_34))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOSWORDTRAININGDAILYPHASETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreRogueBuffCategory_cast(::RPG::GameCore::RogueBuffCategory value)
@@ -4963,9 +5057,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::NoteInputResult))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTNOTEINPUTRESULT_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoFightGameMode_cast(::Enum_3_F80BFD5B986D5503_3 value)
+		static ::System::Int32 ProtoFightGameMode_cast(::Enum_3_A35B38E5F9115A76_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTGAMEMODE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTGAMEMODE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreStarFightDifficulty_cast(::RPG::GameCore::StarFightDifficulty value)
@@ -5098,9 +5192,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::ActivitySwordTrainingAvatarVOType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYSWORDTRAININGAVATARVOTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoFightFestType_cast(::Enum_3_4608E37A1B3D374A_16 value)
+		static ::System::Int32 ProtoFightFestType_cast(::Enum_3_4608E37A1B3D374A_15 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_16))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTFESTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_15))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFIGHTFESTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientCameraDataAndFlagsTrackRoamingCameraRotationMode_cast(::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode value)
@@ -5208,9 +5302,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Proto::RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGETTARGETIMPLONEOFCASE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoDifficultyAdjustmentType_cast(::Enum_3_ED790DAC948A65A9_15 value)
+		static ::System::Int32 ProtoDifficultyAdjustmentType_cast(::Enum_3_ED790DAC948A65A9_18 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_15))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTODIFFICULTYADJUSTMENTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_18))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTODIFFICULTYADJUSTMENTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreSubmissionOptionalTrackMode_cast(::RPG::GameCore::SubmissionOptionalTrackMode value)
@@ -5268,9 +5362,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::TimeRewindEntityControlType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORETIMEREWINDENTITYCONTROLTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRogueTalentStatus_cast(::Enum_3_0A3761FE34514D6C_64 value)
+		static ::System::Int32 ProtoRogueTalentStatus_cast(::Enum_3_0A3761FE34514D6C_65 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_64))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETALENTSTATUS_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_65))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOROGUETALENTSTATUS_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientTrainPartyTrainPartyPreviewTipsType_cast(::RPG::Client::TrainParty::TrainPartyPreviewTipsType value)
@@ -5278,9 +5372,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::TrainParty::TrainPartyPreviewTipsType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYPREVIEWTIPSTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTrainPartyMtSkillBriefType_cast(::Enum_3_4608E37A1B3D374A_36 value)
+		static ::System::Int32 ProtoTrainPartyMtSkillBriefType_cast(::Enum_3_4608E37A1B3D374A_35 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_36))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINPARTYMTSKILLBRIEFTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_35))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTRAINPARTYMTSKILLBRIEFTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientCompetitiveGamePlaySystemPriority_cast(::RPG::Client::CompetitiveGamePlaySystemPriority value)
@@ -5488,9 +5582,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::PlanetFesSourceSystemType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESSOURCESYSTEMTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoPlanetFesQuestState_cast(::Enum_3_DB663931210BBC27_46 value)
+		static ::System::Int32 ProtoPlanetFesQuestState_cast(::Enum_3_DB663931210BBC27_50 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_46))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESQUESTSTATE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_50))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESQUESTSTATE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCorePlanetFesQuestType_cast(::RPG::GameCore::PlanetFesQuestType value)
@@ -5593,9 +5687,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::PlanetFesLevelUnlockType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPLANETFESLEVELUNLOCKTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoChimeraRoundWorkEndReason_cast(::Enum_3_DB663931210BBC27_23 value)
+		static ::System::Int32 ProtoChimeraRoundWorkEndReason_cast(::Enum_3_DB663931210BBC27_24 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_23))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHIMERAROUNDWORKENDREASON_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_24))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHIMERAROUNDWORKENDREASON_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientChimeraSettleCommandType_cast(::RPG::Client::ChimeraSettleCommandType value)
@@ -5653,9 +5747,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::DynamicValue_DynamicValueType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDYNAMICVALUEDYNAMICVALUETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoPlanetFesCustomKey_cast(::Enum_3_4608E37A1B3D374A_22 value)
+		static ::System::Int32 ProtoPlanetFesCustomKey_cast(::Enum_3_4608E37A1B3D374A_21 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_22))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESCUSTOMKEY_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_21))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOPLANETFESCUSTOMKEY_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreTalkBgCGBlendType_cast(::RPG::GameCore::TalkBgCGBlendType value)
@@ -5693,9 +5787,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::LittleGame::Match3::OpponentRole))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEMATCH3OPPONENTROLE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoRelicDiscardType_cast(::Enum_3_0A3761FE34514D6C_44 value)
+		static ::System::Int32 ProtoRelicDiscardType_cast(::Enum_3_0A3761FE34514D6C_45 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_44))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTORELICDISCARDTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_45))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTORELICDISCARDTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientPlanetFesReportType_cast(::RPG::Client::PlanetFesReportType value)
@@ -6078,9 +6172,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPRETURNPACKEVENTEQUIPRETURNPACKSOURCE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTutorialFinishType_cast(::Enum_3_0A3761FE34514D6C_80 value)
+		static ::System::Int32 ProtoTutorialFinishType_cast(::Enum_3_0A3761FE34514D6C_81 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_80))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALFINISHTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_81))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALFINISHTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientGridFightTalentType_cast(::RPG::Client::GridFightTalentType value)
@@ -6303,19 +6397,14 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::MissionReplayModule_DownloadState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSIONREPLAYMODULEDOWNLOADSTATE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoGridFightEquipTrackSource_cast(::Enum_3_0A3761FE34514D6C_37 value)
+		static ::System::Int32 ProtoGridFightEquipTrackSource_cast(::Enum_3_DB663931210BBC27_36 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_37))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPTRACKSOURCE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_36))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPTRACKSOURCE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreUseSkillErrorCode_cast(::RPG::GameCore::UseSkillErrorCode value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::UseSkillErrorCode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREUSESKILLERRORCODE_CAST_OFFSET))(value);
-		}
-
-		static ::System::Int32 ProtoGridFightGlobalHpChangeReason_cast(::Enum_3_96F6662CA3713095_17 value)
-		{
-			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_17))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTGLOBALHPCHANGEREASON_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreGridFightFunctionNodeType_cast(::RPG::GameCore::GridFightFunctionNodeType value)
@@ -6343,9 +6432,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::Prop::ChimeraDuelJumpTextType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROPCHIMERADUELJUMPTEXTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoGridFightEquipDressSource_cast(::Enum_3_0A3761FE34514D6C_38 value)
+		static ::System::Int32 ProtoGridFightEquipDressSource_cast(::Enum_3_0A3761FE34514D6C_37 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_38))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPDRESSSOURCE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_37))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPDRESSSOURCE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreGridFightUnlockFunctionType_cast(::RPG::GameCore::GridFightUnlockFunctionType value)
@@ -6508,9 +6597,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::ChimeraDuelItemVendor))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHIMERADUELITEMVENDOR_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoGridFightUpdateGlobalHpReason_cast(::Enum_3_A35B38E5F9115A76_4 value)
+		static ::System::Int32 ProtoGridFightUpdateGlobalHpReason_cast(::Enum_3_A35B38E5F9115A76_5 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTUPDATEGLOBALHPREASON_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTUPDATEGLOBALHPREASON_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientCakeRaceChatEventType_cast(::RPG::Client::CakeRaceChatEventType value)
@@ -6523,9 +6612,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::ChimeraDuelGameSessionState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELGAMESESSIONSTATE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoGridFightEquipCraftSource_cast(::Enum_3_DB663931210BBC27_35 value)
+		static ::System::Int32 ProtoGridFightEquipCraftSource_cast(::Enum_3_DB663931210BBC27_37 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_35))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPCRAFTSOURCE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_37))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOGRIDFIGHTEQUIPCRAFTSOURCE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientTarotBookVersion_cast(::RPG::Client::TarotBookVersion value)
@@ -6723,6 +6812,11 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHIMERADUELBATTLEPAGEVIEWMODELGAMEVIEWMODELEXITMODETYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGGameCoreILBattleCharacterLocation_cast(::RPG::GameCore::ILBattleCharacterLocation value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREILBATTLECHARACTERLOCATION_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGClientRogueTournPersonaRoomCardPileMessage_cast(::RPG::Client::RogueTournPersonaRoomCardPileMessage value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::RogueTournPersonaRoomCardPileMessage))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAROOMCARDPILEMESSAGE_CAST_OFFSET))(value);
@@ -6738,9 +6832,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::FourRotateVoxelGameModeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFOURROTATEVOXELGAMEMODETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoChenLingSoldierAttrType_cast(::Enum_3_71AA90D596A09AC8_7 value)
+		static ::System::Int32 RPGClientActivityIdleLiveRewardFlyType_cast(::RPG::Client::ActivityIdleLive::RewardFlyType value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCHENLINGSOLDIERATTRTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::RewardFlyType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEREWARDFLYTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreChenLingStageType_cast(::RPG::GameCore::ChenLingStageType value)
@@ -6783,6 +6877,11 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNPERSONAROOMCARDPILE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientActivityIdleLiveIdleLiveBaseTechTreeRowType_cast(::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEBASETECHTREEROWTYPE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGGameCoreDiceCombatDirectDamageStyle_cast(::RPG::GameCore::DiceCombatDirectDamageStyle value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::DiceCombatDirectDamageStyle))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREDICECOMBATDIRECTDAMAGESTYLE_CAST_OFFSET))(value);
@@ -6808,14 +6907,24 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::GameRefRoleExpiredType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGAMEREFROLEEXPIREDTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGGameCoreIdleLiveAvatarPropertyType_cast(::RPG::GameCore::IdleLiveAvatarPropertyType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::IdleLiveAvatarPropertyType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVEAVATARPROPERTYTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreOfflineMessageSenderType_cast(::RPG::GameCore::OfflineMessageSenderType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::OfflineMessageSenderType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREOFFLINEMESSAGESENDERTYPE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGLittleGameShareDiceCombatCoreDiceCombatSkillPreviewLogicInvokeType_cast(::RPG::LittleGameShare::DiceCombatCore::DiceCombatSkillPreviewLogicInvokeType value)
 		{
 			return ((::System::Int32(*)(::RPG::LittleGameShare::DiceCombatCore::DiceCombatSkillPreviewLogicInvokeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATSKILLPREVIEWLOGICINVOKETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTutorialGuideType_cast(::Enum_3_ED790DAC948A65A9_26 value)
+		static ::System::Int32 ProtoTutorialGuideType_cast(::Enum_3_ED790DAC948A65A9_29 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALGUIDETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTUTORIALGUIDETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGToolsTimelinePerformanceLiveStreamBulletCommentsMode_cast(::RPGTools::Timeline::PerformanceLiveStreamBulletCommentsMode value)
@@ -6888,6 +6997,11 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::FiveDimFluteEffectType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMFLUTEEFFECTTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientActivityIdleLiveIdleLiveGameFlowMessage_cast(::RPG::Client::ActivityIdleLive::IdleLiveGameFlowMessage value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::IdleLiveGameFlowMessage))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEGAMEFLOWMESSAGE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGClientChenLingGameBoyChenLingGameBoyChallengeState_cast(::RPG::Client::ChenLingGameBoy::ChenLingGameBoyChallengeState value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::ChenLingGameBoy::ChenLingGameBoyChallengeState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHENLINGGAMEBOYCHENLINGGAMEBOYCHALLENGESTATE_CAST_OFFSET))(value);
@@ -6908,6 +7022,11 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::GameCore::LimaoNewsIssueHintPopupShowType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORELIMAONEWSISSUEHINTPOPUPSHOWTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientActivityIdleLiveIdleLiveOpenChestLockReason_cast(::RPG::Client::ActivityIdleLive::IdleLiveOpenChestLockReason value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::IdleLiveOpenChestLockReason))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEOPENCHESTLOCKREASON_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGClientMVVMViewModelLimaoNewsWebsiteViewTabEnum_cast(::RPG::Client::MVVM::ViewModel::LimaoNewsWebsiteViewTabEnum value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::MVVM::ViewModel::LimaoNewsWebsiteViewTabEnum))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMVVMVIEWMODELLIMAONEWSWEBSITEVIEWTABENUM_CAST_OFFSET))(value);
@@ -6918,9 +7037,19 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::LittleGame::FiveDim::FiveDimMiniGameEnterType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLITTLEGAMEFIVEDIMFIVEDIMMINIGAMEENTERTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2GameFlowMessage_cast(::RPG::Client::DiceCombat::DiceCombatV2GameFlowMessage value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2GameFlowMessage))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2GAMEFLOWMESSAGE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGClientGridFightHandbookRoleFilter_cast(::RPG::Client::GridFightHandbookRoleFilter value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::GridFightHandbookRoleFilter))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTHANDBOOKROLEFILTER_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainPartyTrainPartyBuildSubAreaType_cast(::RPG::Client::TrainParty::TrainPartyBuildSubAreaType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainParty::TrainPartyBuildSubAreaType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYBUILDSUBAREATYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientDiceCombatDiceCombatCollectionPageParamTabType_cast(::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType value)
@@ -6931,6 +7060,26 @@ namespace XLua
 		static ::System::Int32 RPGClientDiceCombatDiceCombatPopupSkillDescShowType_cast(::RPG::Client::DiceCombat::DiceCombatPopupSkillDescShowType value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatPopupSkillDescShowType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATPOPUPSKILLDESCSHOWTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainPartyTrainPartyBuildDIYPhotoItemFilterType_cast(::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYTRAINPARTYBUILDDIYPHOTOITEMFILTERTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2BattleTalkDataSideType_cast(::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData_SideType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData_SideType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2BATTLETALKDATASIDETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2DiceExchangeEventType_cast(::RPG::Client::DiceCombat::DiceCombatV2DiceExchangeEventType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2DiceExchangeEventType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2DICEEXCHANGEEVENTTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientActivityIdleLiveIdleLiveGachaResultItemType_cast(::RPG::Client::ActivityIdleLive::IdleLiveGachaResultItemType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::IdleLiveGachaResultItemType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEIDLELIVEGACHARESULTITEMTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientLittleGameFiveDimFiveDimEnterType_cast(::RPG::Client::LittleGame::FiveDim::FiveDimEnterType value)
@@ -6953,9 +7102,19 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::GridFightEquipEffectType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTEQUIPEFFECTTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2SideBarToastMessageMessageType_cast(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2SIDEBARTOASTMESSAGEMESSAGETYPE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGToolsTimelinePerformanceLiveStreamTransitionType_cast(::RPGTools::Timeline::PerformanceLiveStreamTransitionType value)
 		{
 			return ((::System::Int32(*)(::RPGTools::Timeline::PerformanceLiveStreamTransitionType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGTOOLSTIMELINEPERFORMANCELIVESTREAMTRANSITIONTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGLittleGameShareDiceCombatCoreDiceCombatTopHintIconType_cast(::RPG::LittleGameShare::DiceCombatCore::DiceCombatTopHintIconType value)
+		{
+			return ((::System::Int32(*)(::RPG::LittleGameShare::DiceCombatCore::DiceCombatTopHintIconType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATTOPHINTICONTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientGridFightGameRefDataRoleExpiredStatus_cast(::RPG::Client::GridFightGameRefData_RoleExpiredStatus value)
@@ -6976,6 +7135,36 @@ namespace XLua
 		static ::System::Int32 RPGGameCoreFiveDimBtnType_cast(::RPG::GameCore::FiveDimBtnType value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::FiveDimBtnType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREFIVEDIMBTNTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2StageState_cast(::RPG::Client::DiceCombat::DiceCombatV2StageState value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2StageState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2STAGESTATE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreIdleLiveNodeType_cast(::RPG::GameCore::IdleLiveNodeType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::IdleLiveNodeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVENODETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreIdleLiveFuncUnlockType_cast(::RPG::GameCore::IdleLiveFuncUnlockType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::IdleLiveFuncUnlockType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVEFUNCUNLOCKTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainCakeCatchExhibitControllerCatGroundType_cast(::RPG::Client::TrainCakeCatchExhibitController_CatGroundType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainCakeCatchExhibitController_CatGroundType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERCATGROUNDTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainCakeCatchExhibitControllerGroundSetType_cast(::RPG::Client::TrainCakeCatchExhibitController_GroundSetType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainCakeCatchExhibitController_GroundSetType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERGROUNDSETTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainCakeCatchExhibitControllerCatTreeType_cast(::RPG::Client::TrainCakeCatchExhibitController_CatTreeType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainCakeCatchExhibitController_CatTreeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERCATTREETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreRogueRoomAttributeCategory_cast(::RPG::GameCore::RogueRoomAttributeCategory value)
@@ -7003,9 +7192,44 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::RogueTournUnderlineParamType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNUNDERLINEPARAMTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientActivityIdleLiveRewardPlayMode_cast(::RPG::Client::ActivityIdleLive::RewardPlayMode value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::RewardPlayMode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEREWARDPLAYMODE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainCakeCatchExhibitControllerCarPositionType_cast(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINCAKECATCHEXHIBITCONTROLLERCARPOSITIONTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2LobbyMode_cast(::RPG::Client::DiceCombat::DiceCombatV2LobbyMode value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2LobbyMode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2LOBBYMODE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientCakeCatchBubbleType_cast(::RPG::Client::CakeCatchBubbleType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::CakeCatchBubbleType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAKECATCHBUBBLETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTextOutlineMode_cast(::RPG::Client::TextOutline_Mode value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TextOutline_Mode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTEXTOUTLINEMODE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientPromisesPromiseState_cast(::RPG::Client::Promises::PromiseState value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::Promises::PromiseState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTPROMISESPROMISESTATE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGGameCoreChenLingIconType_cast(::RPG::GameCore::ChenLingIconType value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::ChenLingIconType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORECHENLINGICONTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientDiceCombatDiceCombatV2PopupSkillDescShowType_cast(::RPG::Client::DiceCombat::DiceCombatV2PopupSkillDescShowType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatV2PopupSkillDescShowType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATV2POPUPSKILLDESCSHOWTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientMessageShowInUIType_cast(::RPG::Client::MessageShowInUIType value)
@@ -7016,6 +7240,126 @@ namespace XLua
 		static ::System::Int32 RPGGameCoreMessageSpecialChangeType_cast(::RPG::GameCore::MessageSpecialChangeType value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::MessageSpecialChangeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREMESSAGESPECIALCHANGETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreGridFightAddItemSourceType_cast(::RPG::GameCore::GridFightAddItemSourceType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::GridFightAddItemSourceType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREGRIDFIGHTADDITEMSOURCETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreIdleLiveTechTreeEffectType_cast(::RPG::GameCore::IdleLiveTechTreeEffectType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::IdleLiveTechTreeEffectType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVETECHTREEEFFECTTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainPartyOutlinePostTrainPartyBuildOutlineState_cast(::RPG::Client::TrainParty::OutlinePost::TrainPartyBuildOutlineState value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainParty::OutlinePost::TrainPartyBuildOutlineState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYOUTLINEPOSTTRAINPARTYBUILDOUTLINESTATE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientIdleLiveUIType_cast(::RPG::Client::IdleLiveUIType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::IdleLiveUIType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTIDLELIVEUITYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreILBattleAvatarTag_cast(::RPG::GameCore::ILBattleAvatarTag value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::ILBattleAvatarTag))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREILBATTLEAVATARTAG_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 ProtoRelicPresetPlanSourceType_cast(::Enum_3_96F6662CA3713095_24 value)
+		{
+			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_24))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTORELICPRESETPLANSOURCETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientTrainPartySlotType_cast(::RPG::Client::TrainParty::SlotType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::TrainParty::SlotType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTTRAINPARTYSLOTTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreAnniversaryCollectionPanelEnum_cast(::RPG::GameCore::AnniversaryCollectionPanelEnum value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::AnniversaryCollectionPanelEnum))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANNIVERSARYCOLLECTIONPANELENUM_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientCameraDataAndFlagsClipPlaneOverridePriority_cast(::RPG::Client::CameraDataAndFlags_ClipPlaneOverridePriority value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::CameraDataAndFlags_ClipPlaneOverridePriority))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCAMERADATAANDFLAGSCLIPPLANEOVERRIDEPRIORITY_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreIdleLiveGiftEffectType_cast(::RPG::GameCore::IdleLiveGiftEffectType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::IdleLiveGiftEffectType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVEGIFTEFFECTTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientSettingEntry_cast(::RPG::Client::SettingEntry value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::SettingEntry))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTSETTINGENTRY_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientLiveStreamStageState_cast(::RPG::Client::LiveStreamStageState value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::LiveStreamStageState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLIVESTREAMSTAGESTATE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientGridFightRoleChangeType_cast(::RPG::Client::GridFightRoleChangeType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::GridFightRoleChangeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTROLECHANGETYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientActivityLoginDataRewardStatus_cast(::RPG::Client::ActivityLoginData_RewardStatus value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityLoginData_RewardStatus))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYLOGINDATAREWARDSTATUS_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreAnniversaryCollectionGroupType_cast(::RPG::GameCore::AnniversaryCollectionGroupType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::AnniversaryCollectionGroupType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREANNIVERSARYCOLLECTIONGROUPTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCorePetBodySize_cast(::RPG::GameCore::PetBodySize value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::PetBodySize))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREPETBODYSIZE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreSilverWolf999UltraSkillUIState_cast(::RPG::GameCore::SilverWolf999UltraSkillUIState value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::SilverWolf999UltraSkillUIState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECORESILVERWOLF999ULTRASKILLUISTATE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientGridFightGameFormationEditorEditorType_cast(::RPG::Client::GridFightGameFormationEditor_EditorType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::GridFightGameFormationEditor_EditorType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGAMEFORMATIONEDITOREDITORTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGUINavigationUINavigationDirection_cast(::RPG::UINavigation::UINavigationDirection value)
+		{
+			return ((::System::Int32(*)(::RPG::UINavigation::UINavigationDirection))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONDIRECTION_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientGridFightGameFormationEditorFilterFilterType_cast(::RPG::Client::GridFightGameFormationEditor_Filter_FilterType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::GridFightGameFormationEditor_Filter_FilterType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTGRIDFIGHTGAMEFORMATIONEDITORFILTERFILTERTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 UnityEngineUITouchFilterFilterState_cast(::UnityEngine::UI::TouchFilter_FilterState value)
+		{
+			return ((::System::Int32(*)(::UnityEngine::UI::TouchFilter_FilterState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUITOUCHFILTERFILTERSTATE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreIdleLiveTeamSlotLevelUpRewardType_cast(::RPG::GameCore::IdleLiveTeamSlotLevelUpRewardType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::IdleLiveTeamSlotLevelUpRewardType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREIDLELIVETEAMSLOTLEVELUPREWARDTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGClientChatContactPamMode_cast(::RPG::Client::ChatContactPam_Mode value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ChatContactPam_Mode))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTCHATCONTACTPAMMODE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGUINavigationUINavigationAreaEntryOrigin_cast(::RPG::UINavigation::UINavigationArea_EntryOrigin value)
+		{
+			return ((::System::Int32(*)(::RPG::UINavigation::UINavigationArea_EntryOrigin))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGUINAVIGATIONUINAVIGATIONAREAENTRYORIGIN_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 SuperScrollViewSnapStatus_cast(::SuperScrollView::SnapStatus value)
@@ -7143,6 +7487,11 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::MissingVideoProcessType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTMISSINGVIDEOPROCESSTYPE_CAST_OFFSET))(value);
 		}
 
+		static ::System::Int32 RPGClientActivityIdleLiveEquipBallFadeOutType_cast(::RPG::Client::ActivityIdleLive::EquipBallFadeOutType value)
+		{
+			return ((::System::Int32(*)(::RPG::Client::ActivityIdleLive::EquipBallFadeOutType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTACTIVITYIDLELIVEEQUIPBALLFADEOUTTYPE_CAST_OFFSET))(value);
+		}
+
 		static ::System::Int32 RPGClientDiceCombatDiceCombatAvatarInfoType_cast(::RPG::Client::DiceCombat::DiceCombatAvatarInfoType value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::DiceCombat::DiceCombatAvatarInfoType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTDICECOMBATDICECOMBATAVATARINFOTYPE_CAST_OFFSET))(value);
@@ -7188,9 +7537,9 @@ namespace XLua
 			return ((::System::Int32(*)(::RPG::Client::ElfFarmCellData_ElfCellUpdateReason))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTELFFARMCELLDATAELFCELLUPDATEREASON_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 RPGClientLuaDataModuleLuaDataInvokeType_cast(::Class_2_28AE27DB9AA4E9DD_LuaDataInvokeType value)
+		static ::System::Int32 RPGClientLuaDataModuleLuaDataInvokeType_cast(::Class_2_C19C98BCB55B1F42_LuaDataInvokeType value)
 		{
-			return ((::System::Int32(*)(::Class_2_28AE27DB9AA4E9DD_LuaDataInvokeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLUADATAMODULELUADATAINVOKETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Class_2_C19C98BCB55B1F42_LuaDataInvokeType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTLUADATAMODULELUADATAINVOKETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGClientPlanetFesToastItemStatus_cast(::RPG::Client::PlanetFesToastItem_Status value)
@@ -7201,6 +7550,11 @@ namespace XLua
 		static ::System::Int32 RPGClientRogueTournBuildRefUnionIndexUnionKind_cast(::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind value)
 		{
 			return ((::System::Int32(*)(::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGCLIENTROGUETOURNBUILDREFUNIONINDEXUNIONKIND_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGLittleGameShareDiceCombatCoreDiceCombatDiceEffectType_cast(::RPG::LittleGameShare::DiceCombatCore::DiceCombatDiceEffectType value)
+		{
+			return ((::System::Int32(*)(::RPG::LittleGameShare::DiceCombatCore::DiceCombatDiceEffectType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGLITTLEGAMESHAREDICECOMBATCOREDICECOMBATDICEEFFECTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreSkillEffect_cast(::RPG::GameCore::SkillEffect value)
@@ -7241,6 +7595,11 @@ namespace XLua
 		static ::System::Int32 RPGGameCoreRogueMagicEffectType_cast(::RPG::GameCore::RogueMagicEffectType value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::RogueMagicEffectType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEMAGICEFFECTTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 RPGGameCoreRogueGambleGroupLevelType_cast(::RPG::GameCore::RogueGambleGroupLevelType value)
+		{
+			return ((::System::Int32(*)(::RPG::GameCore::RogueGambleGroupLevelType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEGAMBLEGROUPLEVELTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreEvolvePeriodType_cast(::RPG::GameCore::EvolvePeriodType value)
@@ -7296,11 +7655,6 @@ namespace XLua
 		static ::System::Int32 RPGGameCoreRogueNousSurfaceTag_cast(::RPG::GameCore::RogueNousSurfaceTag value)
 		{
 			return ((::System::Int32(*)(::RPG::GameCore::RogueNousSurfaceTag))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUENOUSSURFACETAG_CAST_OFFSET))(value);
-		}
-
-		static ::System::Int32 RPGGameCoreRogueGambleGroupLevelType_cast(::RPG::GameCore::RogueGambleGroupLevelType value)
-		{
-			return ((::System::Int32(*)(::RPG::GameCore::RogueGambleGroupLevelType))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_RPGGAMECOREROGUEGAMBLEGROUPLEVELTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 RPGGameCoreAbilityTargetType_cast(::RPG::GameCore::AbilityTargetType value)
@@ -7458,9 +7812,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_759B08C41000F376))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdActivityRewardStatType_cast(::Enum_3_71AA90D596A09AC8_3 value)
+		static ::System::Int32 ProtoCmdActivityRewardStatType_cast(::Enum_3_71AA90D596A09AC8_4 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYREWARDSTATTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDACTIVITYREWARDSTATTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdAdventureType_cast(::Enum_3_DFCB42601400F441_1 value)
@@ -7473,9 +7827,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_75A908C4100D30AA))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAETHERDIVIDETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdAiPamType_cast(::Enum_3_63C076C405BE0674_2 value)
+		static ::System::Int32 ProtoCmdAiPamType_cast(::Enum_3_7CED31C413C530F0 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAIPAMTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7CED31C413C530F0))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDAIPAMTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdAlleyType_cast(::Enum_3_75A1C8C41006A504 value)
@@ -7483,9 +7837,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_75A1C8C41006A504))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDALLEYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdArchiveType_cast(::Enum_3_4608E37A1B3D374A_8 value)
+		static ::System::Int32 ProtoCmdArchiveType_cast(::Enum_3_4608E37A1B3D374A_7 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDARCHIVETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDARCHIVETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdAvatarType_cast(::Enum_3_4A5FFBC3F78A3BD7 value)
@@ -7503,19 +7857,19 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLECOLLEGETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdBattlePassType_cast(::Enum_3_F80BFD5B986D5503_7 value)
+		static ::System::Int32 ProtoCmdBattlePassType_cast(::Enum_3_F80BFD5B986D5503_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLEPASSTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBATTLEPASSTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdBenefitActivityType_cast(::Enum_3_71AA90D596A09AC8_5 value)
+		static ::System::Int32 ProtoCmdBenefitActivityType_cast(::Enum_3_71AA90D596A09AC8_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdBenefitV2ActivityType_cast(::Enum_3_71AA90D596A09AC8_6 value)
+		static ::System::Int32 ProtoCmdBenefitV2ActivityType_cast(::Enum_3_71AA90D596A09AC8_7 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITV2ACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDBENEFITV2ACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdBoxingClubType_cast(::Enum_3_63D476C405CEAF7E value)
@@ -7563,9 +7917,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_759EC8C410046F6D))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCHIMERADUELTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdClientCustomOpType_cast(::Enum_3_ED790DAC948A65A9_9 value)
+		static ::System::Int32 ProtoCmdClientCustomOpType_cast(::Enum_3_ED790DAC948A65A9_13 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLIENTCUSTOMOPTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_13))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLIENTCUSTOMOPTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdClockParkType_cast(::Enum_3_63D476C405CEAF7E_3 value)
@@ -7573,24 +7927,24 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCLOCKPARKTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdContentPackageType_cast(::Enum_3_4608E37A1B3D374A_11 value)
+		static ::System::Int32 ProtoCmdContentPackageType_cast(::Enum_3_4608E37A1B3D374A_10 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_11))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCONTENTPACKAGETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDCONTENTPACKAGETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdDailyActiveType_cast(::Enum_3_F80BFD5B986D5503_8 value)
+		static ::System::Int32 ProtoCmdDailyActiveType_cast(::Enum_3_F80BFD5B986D5503_7 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDAILYACTIVETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDAILYACTIVETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdDiceCombatType_cast(::Enum_3_63D476C405CEAF7E_4 value)
+		static ::System::Int32 ProtoCmdDiceCombatType_cast(::Enum_3_7CFB31C413D16E14 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDICECOMBATTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7CFB31C413D16E14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDICECOMBATTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdDrinkMakerType_cast(::Enum_3_63C076C405BE0674_4 value)
+		static ::System::Int32 ProtoCmdDrinkMakerType_cast(::Enum_3_63C076C405BE0674_3 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDRINKMAKERTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDDRINKMAKERTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdElationActivityType_cast(::Enum_3_96F6662CA3713095_10 value)
@@ -7603,9 +7957,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_75A5C8C4100A8E33))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDELFRESTAURANTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdEraFlipperType_cast(::Enum_3_01618AD0437C8486_1 value)
+		static ::System::Int32 ProtoCmdEraFlipperType_cast(::Enum_3_01618AD0437C8486_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDERAFLIPPERTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDERAFLIPPERTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdEvolveBuildType_cast(::Enum_3_7CFE31C413D3A3C3_2 value)
@@ -7613,14 +7967,14 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_7CFE31C413D3A3C3_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEVOLVEBUILDTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdExpeditionType_cast(::Enum_3_F80BFD5B986D5503_9 value)
+		static ::System::Int32 ProtoCmdExpeditionType_cast(::Enum_3_F80BFD5B986D5503_8 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEXPEDITIONTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDEXPEDITIONTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdFantasticStoryActivityType_cast(::Enum_3_71AA90D596A09AC8_8 value)
+		static ::System::Int32 ProtoCmdFantasticStoryActivityType_cast(::Enum_3_71AA90D596A09AC8_9 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFANTASTICSTORYACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFANTASTICSTORYACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdFateType_cast(::Enum_3_7D15F1C413E7C92C value)
@@ -7628,9 +7982,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_7D15F1C413E7C92C))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFATETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoFateMasterStatusType_cast(::Enum_3_DB663931210BBC27_29 value)
+		static ::System::Int32 ProtoFateMasterStatusType_cast(::Enum_3_DB663931210BBC27_30 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFATEMASTERSTATUSTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_30))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOFATEMASTERSTATUSTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdFeverTimeActivityType_cast(::Enum_3_96F6662CA3713095_11 value)
@@ -7643,29 +7997,29 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_0F1B992870941C13_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdFightActivityType_cast(::Enum_3_F80BFD5B986D5503_10 value)
+		static ::System::Int32 ProtoCmdFightActivityType_cast(::Enum_3_F80BFD5B986D5503_9 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdFightCakeRaceType_cast(::Enum_3_84F790F6B4BFF34E_2 value)
+		static ::System::Int32 ProtoCmdFightCakeRaceType_cast(::Enum_3_84F790F6B4BFF34E_1 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_84F790F6B4BFF34E_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTCAKERACETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_84F790F6B4BFF34E_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTCAKERACETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdFightDiceCombatType_cast(::Enum_3_84F790F6B4BFF34E_3 value)
+		static ::System::Int32 ProtoCmdFightDiceCombatType_cast(::Enum_3_84F790F6B4BFF34E_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_84F790F6B4BFF34E_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTDICECOMBATTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_84F790F6B4BFF34E_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTDICECOMBATTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdFightFestType_cast(::Enum_3_A35B38E5F9115A76_3 value)
+		static ::System::Int32 ProtoCmdFightFestType_cast(::Enum_3_A35B38E5F9115A76_4 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTFESTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTFESTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdFightMarbleType_cast(::Enum_3_84F790F6B4BFF34E_4 value)
+		static ::System::Int32 ProtoCmdFightMarbleType_cast(::Enum_3_84F790F6B4BFF34E_3 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_84F790F6B4BFF34E_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTMARBLETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_84F790F6B4BFF34E_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDFIGHTMARBLETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoFightMarbleHpChangeType_cast(::Enum_3_0A3761FE34514D6C_34 value)
@@ -7693,9 +8047,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_237A657B7EBA40A4_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGACHATYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdGridFightType_cast(::Enum_3_A854FEC42C62697A value)
+		static ::System::Int32 ProtoCmdGridFightType_cast(::Enum_3_A865FEC42C70DCB5 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A854FEC42C62697A))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGRIDFIGHTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A865FEC42C70DCB5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDGRIDFIGHTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdHeartdialType_cast(::Enum_3_237A657B7EBA40A4_2 value)
@@ -7708,39 +8062,44 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_7CED31C413C530F0_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHELIOBUSTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdHipplenType_cast(::Enum_3_63C076C405BE0674_5 value)
+		static ::System::Int32 ProtoCmdHipplenType_cast(::Enum_3_63C076C405BE0674_4 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHIPPLENTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDHIPPLENTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdInteractiveTriggerMazeBuffType_cast(::Enum_3_0A3761FE34514D6C_43 value)
+		static ::System::Int32 ProtoCmdIdleLiveType_cast(::Enum_3_413C12C3F23A2626 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_43))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDINTERACTIVETRIGGERMAZEBUFFTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_413C12C3F23A2626))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDIDLELIVETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoTurnFoodSwitch_cast(::Enum_3_0A3761FE34514D6C_45 value)
+		static ::System::Int32 ProtoCmdInteractiveTriggerMazeBuffType_cast(::Enum_3_0A3761FE34514D6C_44 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_45))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTURNFOODSWITCH_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_44))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDINTERACTIVETRIGGERMAZEBUFFTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdJukeboxType_cast(::Enum_3_A35B38E5F9115A76_5 value)
+		static ::System::Int32 ProtoTurnFoodSwitch_cast(::Enum_3_0A3761FE34514D6C_46 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDJUKEBOXTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_46))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOTURNFOODSWITCH_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdLimaoNewsType_cast(::Enum_3_7CF3F1C413CAE286 value)
+		static ::System::Int32 ProtoCmdJukeboxType_cast(::Enum_3_A35B38E5F9115A76_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_7CF3F1C413CAE286))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLIMAONEWSTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDJUKEBOXTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoLimaoNewsOfficeSurveyState_cast(::Enum_3_4608E37A1B3D374A_20 value)
+		static ::System::Int32 ProtoCmdLimaoNewsType_cast(::Enum_3_7CF3F1C413CAE286_1 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_20))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLIMAONEWSOFFICESURVEYSTATE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7CF3F1C413CAE286_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLIMAONEWSTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdLineupType_cast(::Enum_3_7CF131C413C919AF_1 value)
+		static ::System::Int32 ProtoLimaoNewsOfficeSurveyState_cast(::Enum_3_4608E37A1B3D374A_19 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_7CF131C413C919AF_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLINEUPTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_19))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOLIMAONEWSOFFICESURVEYSTATE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 ProtoCmdLineupType_cast(::Enum_3_7D1331C413E60035 value)
+		{
+			return ((::System::Int32(*)(::Enum_3_7D1331C413E60035))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLINEUPTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdLobbyType_cast(::Enum_3_7CED31C413C530F0_2 value)
@@ -7753,9 +8112,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_20))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDLOCALLEGENDTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdMailType_cast(::Enum_3_01618AD0437C8486_3 value)
+		static ::System::Int32 ProtoCmdMailType_cast(::Enum_3_01618AD0437C8486_4 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAILTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAILTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdMapRotationType_cast(::Enum_3_7CF7F1C413CECBBD_1 value)
@@ -7763,9 +8122,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_7CF7F1C413CECBBD_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMAPROTATIONTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdMarbleType_cast(::Enum_3_0F1B992870941C13_5 value)
+		static ::System::Int32 ProtoCmdMarbleType_cast(::Enum_3_0F1B992870941C13_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0F1B992870941C13_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARBLETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0F1B992870941C13_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARBLETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdMarkChestType_cast(::Enum_3_96F6662CA3713095_21 value)
@@ -7773,14 +8132,14 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_21))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMARKCHESTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdMatchType_cast(::Enum_3_F80BFD5B986D5503_11 value)
+		static ::System::Int32 ProtoCmdMatchType_cast(::Enum_3_F80BFD5B986D5503_10 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_11))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdMatchThreeModuleType_cast(::Enum_3_63C076C405BE0674_6 value)
+		static ::System::Int32 ProtoCmdMatchThreeModuleType_cast(::Enum_3_63C076C405BE0674_5 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTHREEMODULETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMATCHTHREEMODULETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdMazePuzzleType_cast(::Enum_3_7CE9F1C413C28E19 value)
@@ -7793,9 +8152,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMESSAGETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdMiscModuleType_cast(::Enum_3_75B6C8C41019010E value)
+		static ::System::Int32 ProtoCmdMiscModuleType_cast(::Enum_3_4A4EFBC3F77BC884 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_75B6C8C41019010E))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMISCMODULETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4A4EFBC3F77BC884))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMISCMODULETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdMissionType_cast(::Enum_3_759808C40FFEBD5F value)
@@ -7808,9 +8167,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_B152E7C43191AFD6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMONOPOLYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdMultiplayerType_cast(::Enum_3_63D176C405CC7947_1 value)
+		static ::System::Int32 ProtoCmdMultiplayerType_cast(::Enum_3_63D176C405CC7947_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMULTIPLAYERTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMULTIPLAYERTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdMultipleDropType_cast(::Enum_3_71AA90D596A09AC8_12 value)
@@ -7828,14 +8187,14 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDMUSICRHYTHMTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdOfferingType_cast(::Enum_3_F80BFD5B986D5503_12 value)
+		static ::System::Int32 ProtoCmdOfferingType_cast(::Enum_3_F80BFD5B986D5503_11 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_12))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDOFFERINGTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_11))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDOFFERINGTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPamMissionType_cast(::Enum_3_DB663931210BBC27_45 value)
+		static ::System::Int32 ProtoCmdPamMissionType_cast(::Enum_3_DB663931210BBC27_49 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_45))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMMISSIONTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DB663931210BBC27_49))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMMISSIONTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdPamSkinType_cast(::Enum_3_96F6662CA3713095_22 value)
@@ -7843,14 +8202,14 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_22))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPAMSKINTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdParkourType_cast(::Enum_3_A35B38E5F9115A76_6 value)
+		static ::System::Int32 ProtoCmdParkourType_cast(::Enum_3_A35B38E5F9115A76_7 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPARKOURTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPARKOURTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPetType_cast(::Enum_3_F80BFD5B986D5503_13 value)
+		static ::System::Int32 ProtoCmdPetType_cast(::Enum_3_F80BFD5B986D5503_12 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_13))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPETTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_12))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPETTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdPhoneType_cast(::Enum_3_237A657B7EBA40A4_3 value)
@@ -7863,9 +8222,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_4135D2C3F2354D90))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPlanetFesExtType_cast(::Enum_3_63C076C405BE0674_7 value)
+		static ::System::Int32 ProtoCmdPlanetFesExtType_cast(::Enum_3_63C076C405BE0674_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESEXTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63C076C405BE0674_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLANETFESEXTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdPlayerType_cast(::Enum_3_51AB64C3FB48C743 value)
@@ -7873,19 +8232,19 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_51AB64C3FB48C743))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPlayerBoardType_cast(::Enum_3_63D176C405CC7947_2 value)
+		static ::System::Int32 ProtoCmdPlayerBoardType_cast(::Enum_3_63D176C405CC7947_3 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERBOARDTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERBOARDTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPlayerReturnType_cast(::Enum_3_63D476C405CEAF7E_5 value)
+		static ::System::Int32 ProtoCmdPlayerReturnType_cast(::Enum_3_7D0231C413D78CFA_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERRETURNTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7D0231C413D78CFA_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERRETURNTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPlotType_cast(::Enum_3_0A3761FE34514D6C_56 value)
+		static ::System::Int32 ProtoCmdPlotType_cast(::Enum_3_0A3761FE34514D6C_57 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_56))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLOTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_57))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLOTTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdPunkLordType_cast(::Enum_3_7CED31C413C530F0_3 value)
@@ -7908,14 +8267,14 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_23))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRAIDCOLLECTIONTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRechargeGiftType_cast(::Enum_3_01618AD0437C8486_5 value)
+		static ::System::Int32 ProtoCmdRechargeGiftType_cast(::Enum_3_01618AD0437C8486_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECHARGEGIFTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECHARGEGIFTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRecommendType_cast(::Enum_3_4608E37A1B3D374A_25 value)
+		static ::System::Int32 ProtoCmdRecommendType_cast(::Enum_3_4608E37A1B3D374A_24 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_25))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECOMMENDTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_24))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRECOMMENDTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdRedDotType_cast(::Enum_3_71AA90D596A09AC8_14 value)
@@ -7923,24 +8282,29 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREDDOTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRelicBoxType_cast(::Enum_3_DFCB42601400F441_4 value)
+		static ::System::Int32 ProtoCmdRelicBoxType_cast(::Enum_3_63CAB6C405C6C7B1_3 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICBOXTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63CAB6C405C6C7B1_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICBOXTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRelicSmartWearType_cast(::Enum_3_63D176C405CC7947_3 value)
+		static ::System::Int32 ProtoCmdRelicPresetType_cast(::Enum_3_01618AD0437C8486_8 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICSMARTWEARTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICPRESETTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdReplayType_cast(::Enum_3_4608E37A1B3D374A_26 value)
+		static ::System::Int32 ProtoCmdRelicSmartWearType_cast(::Enum_3_63D176C405CC7947_4 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREPLAYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRELICSMARTWEARTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRndOptionType_cast(::Enum_3_4608E37A1B3D374A_27 value)
+		static ::System::Int32 ProtoCmdReplayType_cast(::Enum_3_4608E37A1B3D374A_25 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_27))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRNDOPTIONTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_25))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDREPLAYTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 ProtoCmdRndOptionType_cast(::Enum_3_4608E37A1B3D374A_26 value)
+		{
+			return ((::System::Int32(*)(::Enum_3_4608E37A1B3D374A_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDRNDOPTIONTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdRogueType_cast(::Enum_3_414012C3F23E0EDD value)
@@ -7948,9 +8312,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_414012C3F23E0EDD))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRogueArcadeType_cast(::Enum_3_A35B38E5F9115A76_7 value)
+		static ::System::Int32 ProtoCmdRogueArcadeType_cast(::Enum_3_A35B38E5F9115A76_8 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEARCADETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEARCADETYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdRogueCommon_cast(::Enum_3_5ACC4DC40096A745 value)
@@ -7958,9 +8322,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_5ACC4DC40096A745))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUECOMMON_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRogueEndlessType_cast(::Enum_3_01618AD0437C8486_8 value)
+		static ::System::Int32 ProtoCmdRogueEndlessType_cast(::Enum_3_01618AD0437C8486_10 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_8))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEENDLESSTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEENDLESSTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdRogueMagicType_cast(::Enum_3_4A453BC3F773E0DF value)
@@ -7968,9 +8332,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_4A453BC3F773E0DF))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMAGICTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRogueModifierType_cast(::Enum_3_71AA90D596A09AC8_15 value)
+		static ::System::Int32 ProtoCmdRogueModifierType_cast(::Enum_3_71AA90D596A09AC8_16 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_15))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMODIFIERTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_16))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUEMODIFIERTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdRogueTournType_cast(::Enum_3_519A64C3FB3A5470 value)
@@ -7978,9 +8342,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_519A64C3FB3A5470))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROGUETOURNTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdRollShopType_cast(::Enum_3_71AA90D596A09AC8_16 value)
+		static ::System::Int32 ProtoCmdRollShopType_cast(::Enum_3_71AA90D596A09AC8_17 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_16))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROLLSHOPTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_17))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDROLLSHOPTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdSceneType_cast(::Enum_3_B14C27C4318BFDC0 value)
@@ -7988,39 +8352,39 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_B14C27C4318BFDC0))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSCENETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdServerPrefsType_cast(::Enum_3_71AA90D596A09AC8_17 value)
+		static ::System::Int32 ProtoCmdServerPrefsType_cast(::Enum_3_71AA90D596A09AC8_18 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_17))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSERVERPREFSTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_18))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSERVERPREFSTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdShopType_cast(::Enum_3_F80BFD5B986D5503_14 value)
+		static ::System::Int32 ProtoCmdShopType_cast(::Enum_3_F80BFD5B986D5503_13 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSHOPTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_F80BFD5B986D5503_13))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSHOPTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdSpaceZooType_cast(::Enum_3_63D176C405CC7947_4 value)
+		static ::System::Int32 ProtoCmdSpaceZooType_cast(::Enum_3_63D176C405CC7947_5 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSPACEZOOTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63D176C405CC7947_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSPACEZOOTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdStarFightType_cast(::Enum_3_96F6662CA3713095_26 value)
+		static ::System::Int32 ProtoCmdStarFightType_cast(::Enum_3_96F6662CA3713095_27 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_26))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTARFIGHTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_27))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTARFIGHTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdStoryLineType_cast(::Enum_3_96F6662CA3713095_27 value)
+		static ::System::Int32 ProtoCmdStoryLineType_cast(::Enum_3_96F6662CA3713095_28 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_27))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTORYLINETYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTORYLINETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdStrongChallengeActivityType_cast(::Enum_3_96F6662CA3713095_29 value)
+		static ::System::Int32 ProtoCmdStrongChallengeActivityType_cast(::Enum_3_96F6662CA3713095_30 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_29))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTRONGCHALLENGEACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_30))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSTRONGCHALLENGEACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdSummonActivityType_cast(::Enum_3_96F6662CA3713095_30 value)
+		static ::System::Int32 ProtoCmdSummonActivityType_cast(::Enum_3_96F6662CA3713095_31 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_30))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSUMMONACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_96F6662CA3713095_31))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSUMMONACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdSwitchHandType_cast(::Enum_3_63CDB6C405C8FD68_1 value)
@@ -8033,9 +8397,9 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_75A1C8C41006A504_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDSWORDTRAININGTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdPlayerSyncType_cast(::Enum_3_ED790DAC948A65A9_25 value)
+		static ::System::Int32 ProtoCmdPlayerSyncType_cast(::Enum_3_ED790DAC948A65A9_28 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_25))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERSYNCTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_ED790DAC948A65A9_28))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDPLAYERSYNCTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdTalkEventType_cast(::Enum_3_63CDB6C405C8FD68_2 value)
@@ -8043,34 +8407,39 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_63CDB6C405C8FD68_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTALKEVENTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTarotBookType_cast(::Enum_3_63D476C405CEAF7E_6 value)
+		static ::System::Int32 ProtoCmdTarotBookType_cast(::Enum_3_63D476C405CEAF7E_4 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTAROTBOOKTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_4))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTAROTBOOKTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTelevisionActivityType_cast(::Enum_3_71AA90D596A09AC8_18 value)
+		static ::System::Int32 ProtoCmdTelevisionActivityType_cast(::Enum_3_71AA90D596A09AC8_19 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_18))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTELEVISIONACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_19))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTELEVISIONACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTextJoinType_cast(::Enum_3_71AA90D596A09AC8_19 value)
+		static ::System::Int32 ProtoCmdTextJoinType_cast(::Enum_3_71AA90D596A09AC8_20 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_19))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTEXTJOINTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_71AA90D596A09AC8_20))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTEXTJOINTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTrackPhotoActivityType_cast(::Enum_3_A35B38E5F9115A76_9 value)
+		static ::System::Int32 ProtoCmdTrackPhotoActivityType_cast(::Enum_3_A35B38E5F9115A76_10 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRACKPHOTOACTIVITYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_A35B38E5F9115A76_10))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRACKPHOTOACTIVITYTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTrainPartyType_cast(::Enum_3_759B08C41000F376_1 value)
+		static ::System::Int32 ProtoCmdTrainCakeCatchType_cast(::Enum_3_7CF131C413C919AF_1 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_759B08C41000F376_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINPARTYTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7CF131C413C919AF_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINCAKECATCHTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTrainVisitorType_cast(::Enum_3_DFCB42601400F441_6 value)
+		static ::System::Int32 ProtoCmdTrainPartyType_cast(::Enum_3_75A5C8C4100A8E33_2 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINVISITORTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_75A5C8C4100A8E33_2))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINPARTYTYPE_CAST_OFFSET))(value);
+		}
+
+		static ::System::Int32 ProtoCmdTrainVisitorType_cast(::Enum_3_DFCB42601400F441_5 value)
+		{
+			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAINVISITORTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoCmdTravelBrochureType_cast(::Enum_3_7CF7F1C413CECBBD_3 value)
@@ -8078,29 +8447,29 @@ namespace XLua
 			return ((::System::Int32(*)(::Enum_3_7CF7F1C413CECBBD_3))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTRAVELBROCHURETYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTreasureDungeonType_cast(::Enum_3_63D476C405CEAF7E_7 value)
+		static ::System::Int32 ProtoCmdTreasureDungeonType_cast(::Enum_3_63D476C405CEAF7E_5 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTREASUREDUNGEONTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_63D476C405CEAF7E_5))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTREASUREDUNGEONTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdTutorialType_cast(::Enum_3_DFCB42601400F441_7 value)
+		static ::System::Int32 ProtoCmdTutorialType_cast(::Enum_3_DFCB42601400F441_6 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_7))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTUTORIALTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_DFCB42601400F441_6))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDTUTORIALTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdWaypointType_cast(::Enum_3_01618AD0437C8486_9 value)
+		static ::System::Int32 ProtoCmdWaypointType_cast(::Enum_3_01618AD0437C8486_11 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_9))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWAYPOINTTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_01618AD0437C8486_11))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWAYPOINTTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdWolfBroType_cast(::Enum_3_7CFB31C413D16E14 value)
+		static ::System::Int32 ProtoCmdWolfBroType_cast(::Enum_3_7CFB31C413D16E14_1 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_7CFB31C413D16E14))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWOLFBROTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_7CFB31C413D16E14_1))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWOLFBROTYPE_CAST_OFFSET))(value);
 		}
 
-		static ::System::Int32 ProtoCmdWorldUnlockType_cast(::Enum_3_0A3761FE34514D6C_83 value)
+		static ::System::Int32 ProtoCmdWorldUnlockType_cast(::Enum_3_0A3761FE34514D6C_84 value)
 		{
-			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_83))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWORLDUNLOCKTYPE_CAST_OFFSET))(value);
+			return ((::System::Int32(*)(::Enum_3_0A3761FE34514D6C_84))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_PROTOCMDWORLDUNLOCKTYPE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 ProtoSceneEntityInfoEntityOneofCase_cast(::Proto::SceneEntityInfo_EntityOneofCase value)
@@ -8136,11 +8505,6 @@ namespace XLua
 		static ::System::Int32 UnityEngineEventSystemsEventHandle_cast(::UnityEngine::EventSystems::EventHandle value)
 		{
 			return ((::System::Int32(*)(::UnityEngine::EventSystems::EventHandle))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEEVENTSYSTEMSEVENTHANDLE_CAST_OFFSET))(value);
-		}
-
-		static ::System::Int32 UnityEngineUITouchFilterFilterState_cast(::UnityEngine::UI::TouchFilter_FilterState value)
-		{
-			return ((::System::Int32(*)(::UnityEngine::UI::TouchFilter_FilterState))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_INITERADDERUNITYENGINEVECTOR2_UNITYENGINEUITOUCHFILTERFILTERSTATE_CAST_OFFSET))(value);
 		}
 
 		static ::System::Int32 UnityEngineUICaculateNodeDataCaculateNodeType_cast(::UnityEngine::UI::CaculateNodeData_CaculateNodeType value)

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_TUTORIALRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xA6464E0)
-#define RPG_CLIENT_TUTORIALRAYCASTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA646630)
+#define RPG_CLIENT_TUTORIALRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xB39D1A0)
+#define RPG_CLIENT_TUTORIALRAYCASTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB39D2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialRaycastFilter_TypeDefinitionIndex = 56395;
+	inline static constexpr unsigned int TutorialRaycastFilter_TypeDefinitionIndex = 63639;
 
 	class TutorialRaycastFilter : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0CE138302AEB5621_2;
+class Class_1_F9EFCB63E481ADB7_2;
 namespace RPG::Client { class GridFightDamageStatisticInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_GET_DAMAGESTATISTICS_OFFSET UNITYSDK_OFFSET(0x97DD380)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_SET_DAMAGESTATISTICS_OFFSET UNITYSDK_OFFSET(0x97DD390)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x97DC610)
-#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x97DD3A0)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_GET_DAMAGESTATISTICS_OFFSET UNITYSDK_OFFSET(0xA4566B0)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_SET_DAMAGESTATISTICS_OFFSET UNITYSDK_OFFSET(0xA4566C0)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA455940)
+#define RPG_CLIENT_GRIDFIGHTBATTLESTTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA4566D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleSttInfo_TypeDefinitionIndex = 52312;
+	inline static constexpr unsigned int GridFightBattleSttInfo_TypeDefinitionIndex = 59265;
 
 	class GridFightBattleSttInfo : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLESTTINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_0CE138302AEB5621_2* battleSttInfo)
+		::System::Void Sync(::Class_1_F9EFCB63E481ADB7_2* battleSttInfo)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0CE138302AEB5621_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_SYNC_OFFSET))(this, battleSttInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F9EFCB63E481ADB7_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLESTTINFO_SYNC_OFFSET))(this, battleSttInfo);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightDamageStatisticInfo*>* get_DamageStatistics()

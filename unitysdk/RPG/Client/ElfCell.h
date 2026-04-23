@@ -7,13 +7,13 @@ namespace RPG::Client { class ElfFarmCellData; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ELFCELL_CLEARCELL_OFFSET UNITYSDK_OFFSET(0x959AEE0)
-#define RPG_CLIENT_ELFCELL_FILLCELL_OFFSET UNITYSDK_OFFSET(0x959AD10)
-#define RPG_CLIENT_ELFCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x959AF60)
+#define RPG_CLIENT_ELFCELL_CLEARCELL_OFFSET UNITYSDK_OFFSET(0xA221580)
+#define RPG_CLIENT_ELFCELL_FILLCELL_OFFSET UNITYSDK_OFFSET(0xA2213B0)
+#define RPG_CLIENT_ELFCELL__CTOR_OFFSET UNITYSDK_OFFSET(0xA221600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfCell_TypeDefinitionIndex = 56082;
+	inline static constexpr unsigned int ElfCell_TypeDefinitionIndex = 63325;
 
 	class ElfCell : public ::System::Object
 	{

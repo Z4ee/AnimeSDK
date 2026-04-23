@@ -10,24 +10,24 @@ namespace Google::Protobuf::Reflection { class OneofDescriptorProto; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x15B1A0C0)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15B1A3A0)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x15B1A390)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x15B1A380)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B1A310)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B19F70)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x17117820)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x17117B30)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x17117B20)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x17117B10)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17117AA0)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x171176D0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 6343;
+	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 6353;
 
 	class OneofDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x28
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fields; // 0x28
 		::Google::Protobuf::Reflection::OneofAccessor* accessor; // 0x30
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fields; // 0x38
-		::Google::Protobuf::Reflection::OneofDescriptorProto* proto; // 0x40
+		::Google::Protobuf::Reflection::OneofDescriptorProto* proto; // 0x38
+		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::OneofDescriptorProto* proto, ::Google::Protobuf::Reflection::FileDescriptor* file, ::Google::Protobuf::Reflection::MessageDescriptor* parent, ::System::Int32 index, ::System::String* clrName)
 		{

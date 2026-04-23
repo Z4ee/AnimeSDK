@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierEvent_TypeDefinitionIndex = 16077;
+	inline static constexpr unsigned int AdventureModifierEvent_TypeDefinitionIndex = 16608;
 
 	enum class AdventureModifierEvent : ::System::Int32
 	{
@@ -30,9 +30,11 @@ namespace RPG::GameCore
 		OnAfterLocalPlayerUseSkill = 20,
 		OnCounter = 21,
 		OnHitHolyShield = 22,
-		OnTransferToFakeAvatar = 23,
-		OnTransferFromFakeAvatar = 24,
-		OnAfterBuffFullUpdate = 25,
-		Count = 26,
+		OnMPChange = 23,
+		OnSkillReset = 24,
+		OnTransferToFakeAvatar = 25,
+		OnTransferFromFakeAvatar = 26,
+		OnAfterBuffFullUpdate = 27,
+		Count = 28,
 	};
 }

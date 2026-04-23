@@ -4,18 +4,18 @@
 
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA9FEB80)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB6FE860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTimeRewindSnapPageParam_TypeDefinitionIndex = 43212;
+	inline static constexpr unsigned int OpenTimeRewindSnapPageParam_TypeDefinitionIndex = 49207;
 
 	class OpenTimeRewindSnapPageParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::EntityTimeRewindComponent* TimeRewindComponent; // 0x10
-		::System::Single EndRatio; // 0x18
-		::System::Single StartRatio; // 0x1C
+		::System::Single StartRatio; // 0x18
+		::System::Single EndRatio; // 0x1C
 
 		::System::Void _ctor()
 		{

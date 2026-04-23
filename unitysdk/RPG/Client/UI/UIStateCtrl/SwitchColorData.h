@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA64F400)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB3A7750)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int SwitchColorData_TypeDefinitionIndex = 60723;
+	inline static constexpr unsigned int SwitchColorData_TypeDefinitionIndex = 68165;
 
 	class SwitchColorData : public ::System::Object
 	{

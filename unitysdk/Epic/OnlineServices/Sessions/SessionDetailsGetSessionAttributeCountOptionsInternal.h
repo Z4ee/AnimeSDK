@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Sessions { class SessionDetailsGetSessionAttribu
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSGETSESSIONATTRIBUTECOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSGETSESSIONATTRIBUTECOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x15B30)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSGETSESSIONATTRIBUTECOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x15B20)
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSGETSESSIONATTRIBUTECOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionDetailsGetSessionAttributeCountOptionsInternal_TypeDefinitionIndex = 35508;
+	inline static constexpr unsigned int SessionDetailsGetSessionAttributeCountOptionsInternal_TypeDefinitionIndex = 41334;
 
 	struct alignas(4) SessionDetailsGetSessionAttributeCountOptionsInternal
 	{

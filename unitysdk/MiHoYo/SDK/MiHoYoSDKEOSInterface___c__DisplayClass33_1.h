@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class MiHoYoSDKEOSInterface___c__DisplayClass33_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8511C90)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x8511CA0)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8D45E90)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x8D45EA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass33_1_TypeDefinitionIndex = 37070;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass33_1_TypeDefinitionIndex = 42915;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass33_1 : public ::System::Object
 	{

@@ -2,62 +2,62 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CAPSULEAOPASS_SHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A7A740)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_SHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1811D870)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapsuleAOPass_ShaderIDs_TypeDefinitionIndex = 29174;
+	inline static constexpr unsigned int CapsuleAOPass_ShaderIDs_TypeDefinitionIndex = 34939;
 
 	class CapsuleAOPass_ShaderIDs : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__InvProjectMatrix()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBD0);
-		}
-		static ::System::Int32* StaticGet__TileSizeInHiZMipN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBD4);
-		}
 		static ::System::Int32* StaticGet__CapsuleAOColor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBD8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AC0);
 		}
-		static ::System::Int32* StaticGet__OccluderListPitch()
+		static ::System::Int32* StaticGet__InvProjectMatrix()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBDC);
-		}
-		static ::System::Int32* StaticGet__OccluderListLookupTextureRW()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBE0);
-		}
-		static ::System::Int32* StaticGet__HiZMipLevel()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBE4);
-		}
-		static ::System::Int32* StaticGet__Tile_Size()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBE8);
-		}
-		static ::System::Int32* StaticGet__OccluderListBufferRW()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBEC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AC4);
 		}
 		static ::System::Int32* StaticGet__DynamicOccluderBuffer()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBF0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AC8);
 		}
-		static ::System::Int32* StaticGet__ConeOcclusionTex()
+		static ::System::Int32* StaticGet__OccluderListPitch()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBF4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10ACC);
 		}
 		static ::System::Int32* StaticGet__NumDynamicOccluders()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBF8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AD0);
 		}
 		static ::System::Int32* StaticGet__HizMinTex_TexelSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0xFBFC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AD4);
+		}
+		static ::System::Int32* StaticGet__OccluderListBufferRW()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AD8);
+		}
+		static ::System::Int32* StaticGet__OccluderListLookupTextureRW()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10ADC);
+		}
+		static ::System::Int32* StaticGet__Tile_Size()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AE0);
+		}
+		static ::System::Int32* StaticGet__TileSizeInHiZMipN()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AE4);
+		}
+		static ::System::Int32* StaticGet__HiZMipLevel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AE8);
+		}
+		static ::System::Int32* StaticGet__ConeOcclusionTex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x10AEC);
 		}
 
 		static ::System::Void _cctor()

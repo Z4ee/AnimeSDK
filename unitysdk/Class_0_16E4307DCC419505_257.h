@@ -1,9 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
 
-namespace RPG::Client { class NetPacket; }
+class Class_0_16E4307DCC419505_258;
+class Class_0_16E4307DCC419505_259;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_257_TypeDefinitionIndex = 33846;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_257_TypeDefinitionIndex = 39624;
 
 class Class_0_16E4307DCC419505_257
 {

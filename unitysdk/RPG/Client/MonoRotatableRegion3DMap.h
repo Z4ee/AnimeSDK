@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class RotatableRegionPose3DMapConfig; }
 
-#define RPG_CLIENT_MONOROTATABLEREGION3DMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x9D32A30)
+#define RPG_CLIENT_MONOROTATABLEREGION3DMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F5C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRotatableRegion3DMap_TypeDefinitionIndex = 56408;
+	inline static constexpr unsigned int MonoRotatableRegion3DMap_TypeDefinitionIndex = 63652;
 
 	class MonoRotatableRegion3DMap : public ::UnityEngine::MonoBehaviour
 	{

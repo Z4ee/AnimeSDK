@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/ParkourGame/ParkourSkillConfig.h"
 #include "unitysdk/RPG/Client/ParkourGame/ParkourSkillConfig_Random_RandomData.h"
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x9F076D0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0xAC2C4F0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourSkillConfig_Random_TypeDefinitionIndex = 60786;
+	inline static constexpr unsigned int ParkourSkillConfig_Random_TypeDefinitionIndex = 68235;
 
 	class ParkourSkillConfig_Random : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{

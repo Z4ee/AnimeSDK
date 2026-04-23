@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ITypeDescriptorContext_TypeDefinitionIndex = 2594;
+	inline static constexpr unsigned int ITypeDescriptorContext_TypeDefinitionIndex = 2595;
 
 	class ITypeDescriptorContext
 	{

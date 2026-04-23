@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_061C97442D2AC9D3_OFFSET UNITYSDK_OFFSET(0x17149370)
-#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_CF89335E41FBCFCC_OFFSET UNITYSDK_OFFSET(0x17149470)
-#define RPG_GAMECORE_DAMAGESTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17149400)
+#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_061C97442D2AC9D3_OFFSET UNITYSDK_OFFSET(0x188505F0)
+#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_CF89335E41FBCFCC_OFFSET UNITYSDK_OFFSET(0x188506F0)
+#define RPG_GAMECORE_DAMAGESTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18850680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageStance_TypeDefinitionIndex = 21285;
+	inline static constexpr unsigned int DamageStance_TypeDefinitionIndex = 22002;
 
 	class DamageStance : public ::RPG::GameCore::TaskConfig
 	{

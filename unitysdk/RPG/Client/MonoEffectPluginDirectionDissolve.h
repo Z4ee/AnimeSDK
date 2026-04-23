@@ -8,30 +8,30 @@ namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x9CCC230)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x9CCD240)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x9CCC880)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x9CCD160)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x9CCD2C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x9CCD230)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9CCD200)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_092CD57850778EFC_OFFSET UNITYSDK_OFFSET(0xA98F370)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0xA98E360)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0xA98E9B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0xA98F290)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0xA98F3D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0xA98F360)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xA98F330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDirectionDissolve_TypeDefinitionIndex = 57276;
+	inline static constexpr unsigned int MonoEffectPluginDirectionDissolve_TypeDefinitionIndex = 64530;
 
 	class MonoEffectPluginDirectionDissolve : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:
-		::System::Boolean EnableDissolve; // 0x168
-		::UnityEngine::Transform* DissolveTargetPlane; // 0x170
-		::System::Single DissolveOutlineSize1; // 0x178
-		::System::Single DissolveOutlineSize2; // 0x17C
-		::System::Single DissolveOutlineEmission; // 0x180
-		::UnityEngine::Color DissolveOutlineColor1; // 0x184
-		::UnityEngine::Color DissolveOutlineColor2; // 0x194
-		::UnityEngine::Vector2 DissolveOutlineSmoothStep; // 0x1A4
-		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* Field_8_8; // 0x1B0
+		::System::Boolean EnableDissolve; // 0x170
+		::UnityEngine::Transform* DissolveTargetPlane; // 0x178
+		::System::Single DissolveOutlineSize1; // 0x180
+		::System::Single DissolveOutlineSize2; // 0x184
+		::System::Single DissolveOutlineEmission; // 0x188
+		::UnityEngine::Color DissolveOutlineColor1; // 0x18C
+		::UnityEngine::Color DissolveOutlineColor2; // 0x19C
+		::UnityEngine::Vector2 DissolveOutlineSmoothStep; // 0x1AC
+		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* Field_8_8; // 0x1B8
 
 		::System::Void _ctor()
 		{
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_F5447CD65612575D_OFFSET))(this);
 		}
 
-		::System::Void Method_8_749948B663FCCCEF()
+		::System::Void Method_8_092CD57850778EFC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_749948B663FCCCEF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIRECTIONDISSOLVE_METHOD_8_092CD57850778EFC_OFFSET))(this);
 		}
 
 		::System::Void Method_8_F4ADC37B63F4E9EF()

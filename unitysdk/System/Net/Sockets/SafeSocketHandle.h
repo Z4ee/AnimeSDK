@@ -7,25 +7,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
 namespace System::Threading { class Thread; }
 
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_REGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1870DC00)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1870D380)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1870DFD0)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1870E220)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1870D280)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_REGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1A148010)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1A147790)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1A148460)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1486B0)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A147690)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SafeSocketHandle_TypeDefinitionIndex = 2905;
+	inline static constexpr unsigned int SafeSocketHandle_TypeDefinitionIndex = 2906;
 
 	class SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:
 		static ::System::Boolean* StaticGet_THROW_ON_ABORT_RETRIES()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SafeSocketHandle_TypeDefinitionIndex)->GetStaticField(0x4730);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SafeSocketHandle_TypeDefinitionIndex)->GetStaticField(0x5D70);
 		}
-		::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces; // 0x20
+		::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads; // 0x28
 		::System::Boolean in_cleanup; // 0x30
 
 		::System::Void _ctor(::System::IntPtr preexistingHandle, ::System::Boolean ownsHandle)

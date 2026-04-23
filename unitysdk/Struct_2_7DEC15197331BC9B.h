@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/ByteHash16.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_7DEC15197331BC9B_TypeDefinitionIndex = 32026;
+inline static constexpr unsigned int Struct_2_7DEC15197331BC9B_TypeDefinitionIndex = 37746;
 
 struct alignas(4) Struct_2_7DEC15197331BC9B
 {

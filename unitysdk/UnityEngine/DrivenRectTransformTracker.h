@@ -11,7 +11,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DrivenRectTransformTracker_TypeDefinitionIndex = 4208;
+	inline static constexpr unsigned int DrivenRectTransformTracker_TypeDefinitionIndex = 4210;
 
 	struct alignas(1) DrivenRectTransformTracker
 	{

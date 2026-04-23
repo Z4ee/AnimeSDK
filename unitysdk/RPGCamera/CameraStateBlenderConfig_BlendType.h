@@ -3,7 +3,7 @@
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateBlenderConfig_BlendType_TypeDefinitionIndex = 35109;
+	inline static constexpr unsigned int CameraStateBlenderConfig_BlendType_TypeDefinitionIndex = 40937;
 
 	enum class CameraStateBlenderConfig_BlendType : ::System::Int32
 	{

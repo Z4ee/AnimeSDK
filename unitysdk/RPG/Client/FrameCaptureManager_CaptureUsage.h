@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameCaptureManager_CaptureUsage_TypeDefinitionIndex = 57050;
+	inline static constexpr unsigned int FrameCaptureManager_CaptureUsage_TypeDefinitionIndex = 64301;
 
 	enum class FrameCaptureManager_CaptureUsage : ::System::Int32
 	{

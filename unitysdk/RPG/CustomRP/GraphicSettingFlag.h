@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GraphicSettingFlag_TypeDefinitionIndex = 29276;
+	inline static constexpr unsigned int GraphicSettingFlag_TypeDefinitionIndex = 35043;
 
 	enum class GraphicSettingFlag : ::System::Int32
 	{

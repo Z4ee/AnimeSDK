@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_SafePhoneVerifyEmailElements_TypeDefinitionIndex = 37518;
+	inline static constexpr unsigned int UIConstants_SafePhoneVerifyEmailElements_TypeDefinitionIndex = 43395;
 
 	class UIConstants_SafePhoneVerifyEmailElements : public ::System::Object
 	{

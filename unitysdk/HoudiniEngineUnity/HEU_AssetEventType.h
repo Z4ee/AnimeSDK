@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetEventType_TypeDefinitionIndex = 37589;
+	inline static constexpr unsigned int HEU_AssetEventType_TypeDefinitionIndex = 43466;
 
 	enum class HEU_AssetEventType : ::System::Int32
 	{

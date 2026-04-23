@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class BaseModifierInstance; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA87AB00)
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE___C__DISPLAYCLASS4_0___TRYDESTORYMODIFIEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA87C640)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5BF310)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE___C__DISPLAYCLASS4_0___TRYDESTORYMODIFIEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB5C0E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseModifierInstance___c__DisplayClass4_0_TypeDefinitionIndex = 43514;
+	inline static constexpr unsigned int BaseModifierInstance___c__DisplayClass4_0_TypeDefinitionIndex = 50211;
 
 	class BaseModifierInstance___c__DisplayClass4_0 : public ::System::Object
 	{

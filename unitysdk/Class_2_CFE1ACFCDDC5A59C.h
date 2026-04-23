@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_179.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_185.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
 
 namespace RPG::Client::Prop::PillarPuzzle { class PillarPuzzleBoard; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_CFE1ACFCDDC5A59C_METHOD_2_5CD097F9288D9BC7_OFFSET UNITYSDK_OFFSET(0xDE340C0)
-#define CLASS_2_CFE1ACFCDDC5A59C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE33EB0)
+#define CLASS_2_CFE1ACFCDDC5A59C_METHOD_2_5CD097F9288D9BC7_OFFSET UNITYSDK_OFFSET(0x925A3A0)
+#define CLASS_2_CFE1ACFCDDC5A59C__CTOR_OFFSET UNITYSDK_OFFSET(0x925A190)
 
-inline static constexpr unsigned int Class_2_CFE1ACFCDDC5A59C_TypeDefinitionIndex = 64392;
+inline static constexpr unsigned int Class_2_CFE1ACFCDDC5A59C_TypeDefinitionIndex = 72439;
 
-class Class_2_CFE1ACFCDDC5A59C : public ::Class_1_43BD383C98B4C0C5_179
+class Class_2_CFE1ACFCDDC5A59C : public ::Class_1_43BD383C98B4C0C5_185
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::PropState>* Field_2_0; // 0x10
-	::System::Int32 Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x1C
-	::System::Int32 Field_2_4; // 0x20
-	::System::Int32 Field_2_1; // 0x24
+	::System::Int32 Field_2_3; // 0x18
+	::System::Int32 Field_2_1; // 0x1C
+	::System::Int32 Field_2_2; // 0x20
+	::System::Int32 Field_2_4; // 0x24
 
 	::System::Void _ctor(::RPG::Client::Prop::PillarPuzzle::PillarPuzzleBoard* a1)
 	{

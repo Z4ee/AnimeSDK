@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 4343;
+	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 4345;
 
 	enum class ExceptionResource : ::System::Int32
 	{

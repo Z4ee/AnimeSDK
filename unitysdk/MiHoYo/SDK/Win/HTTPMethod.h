@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int HTTPMethod_TypeDefinitionIndex = 8012;
+	inline static constexpr unsigned int HTTPMethod_TypeDefinitionIndex = 8158;
 
 	enum class HTTPMethod : ::System::Int32
 	{

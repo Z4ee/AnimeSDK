@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IAvatarServantRowWrap_TypeDefinitionIndex = 11688;
+	inline static constexpr unsigned int IAvatarServantRowWrap_TypeDefinitionIndex = 12101;
 
 	class IAvatarServantRowWrap
 	{

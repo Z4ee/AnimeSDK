@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_1_7AB88D713F5121B3_35;
+class Class_1_7AB88D713F5121B3_45;
 namespace RPG::GameCore { class SetBattleRougeGoalProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_17F17D4DE404929D_METHOD_3_1FF0B87A9F818945_OFFSET UNITYSDK_OFFSET(0x8CF1320)
-#define CLASS_3_17F17D4DE404929D_METHOD_3_79E3564873031768_OFFSET UNITYSDK_OFFSET(0x8CF13C0)
-#define CLASS_3_17F17D4DE404929D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8CF1200)
-#define CLASS_3_17F17D4DE404929D__CTOR_OFFSET UNITYSDK_OFFSET(0x8CF11D0)
+#define CLASS_3_17F17D4DE404929D_METHOD_3_1FF0B87A9F818945_OFFSET UNITYSDK_OFFSET(0x97894D0)
+#define CLASS_3_17F17D4DE404929D_METHOD_3_79E3564873031768_OFFSET UNITYSDK_OFFSET(0x9789570)
+#define CLASS_3_17F17D4DE404929D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97893B0)
+#define CLASS_3_17F17D4DE404929D__CTOR_OFFSET UNITYSDK_OFFSET(0x9789380)
 
-inline static constexpr unsigned int Class_3_17F17D4DE404929D_TypeDefinitionIndex = 47216;
+inline static constexpr unsigned int Class_3_17F17D4DE404929D_TypeDefinitionIndex = 53948;
 
 class Class_3_17F17D4DE404929D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleRougeGoalProgress*>
 {
 public:
-	::Class_1_7AB88D713F5121B3_35* Field_3_0; // 0x28
+	::Class_1_7AB88D713F5121B3_45* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetBattleRougeGoalProgress* a2)
 	{

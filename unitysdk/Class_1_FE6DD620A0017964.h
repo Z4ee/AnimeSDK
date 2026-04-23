@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/UIFloatingTextType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_FE6DD620A0017964__CTOR_OFFSET UNITYSDK_OFFSET(0x109479C0)
+#define CLASS_1_FE6DD620A0017964__CTOR_OFFSET UNITYSDK_OFFSET(0x910FF10)
 
-inline static constexpr unsigned int Class_1_FE6DD620A0017964_TypeDefinitionIndex = 60050;
+inline static constexpr unsigned int Class_1_FE6DD620A0017964_TypeDefinitionIndex = 67483;
 
 class Class_1_FE6DD620A0017964 : public ::System::Object
 {

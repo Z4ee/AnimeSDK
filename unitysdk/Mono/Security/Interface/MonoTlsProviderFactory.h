@@ -4,11 +4,11 @@
 
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDERFACTORY_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x161432B0)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDERFACTORY_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1776EF60)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int MonoTlsProviderFactory_TypeDefinitionIndex = 2283;
+	inline static constexpr unsigned int MonoTlsProviderFactory_TypeDefinitionIndex = 2284;
 
 	class MonoTlsProviderFactory : public ::System::Object
 	{

@@ -5,24 +5,24 @@
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser_VisibleChangedDelegate; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8558270)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x85582B0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__146_0_OFFSET UNITYSDK_OFFSET(0x85582C0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8D8D700)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8D8D740)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__147_0_OFFSET UNITYSDK_OFFSET(0x8D8D750)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 37305;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 43182;
 
 	class MiHoYoSDKWebViewManager___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::MiHoYoSDKWebViewManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebViewManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x137B0);
+			return (::MiHoYo::SDK::MiHoYoSDKWebViewManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x4F190);
 		}
-		static ::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate** StaticGet___9__146_0()
+		static ::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate** StaticGet___9__147_0()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x137B8);
+			return (::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x4F198);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Init_b__146_0(::ZenFulcrum::EmbeddedBrowser::Browser* sender, ::System::Boolean visible)
+		::System::Void _Init_b__147_0(::ZenFulcrum::EmbeddedBrowser::Browser* sender, ::System::Boolean visible)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__146_0_OFFSET))(this, sender, visible);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__147_0_OFFSET))(this, sender, visible);
 		}
 	};
 }

@@ -6,25 +6,25 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_ENCODE_OFFSET UNITYSDK_OFFSET(0x162D59A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_INCREMENTSTRUCTFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x162D5930)
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x162D5610)
-#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x162D55D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_ENCODE_OFFSET UNITYSDK_OFFSET(0x17902080)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA_INCREMENTSTRUCTFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x17902010)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17901D30)
+#define SYSTEM_DIAGNOSTICS_TRACING_FIELDMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17901CF0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int FieldMetadata_TypeDefinitionIndex = 1595;
+	inline static constexpr unsigned int FieldMetadata_TypeDefinitionIndex = 1596;
 
 	class FieldMetadata : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* custom; // 0x10
-		::System::String* name; // 0x18
-		::System::Byte inType; // 0x20
-		::System::Byte outType; // 0x21
-		::System::UInt16 fixedCount; // 0x22
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::Byte>* custom; // 0x18
+		::System::Int32 nameSize; // 0x20
 		::System::Diagnostics::Tracing::EventFieldTags tags; // 0x24
-		::System::Int32 nameSize; // 0x28
+		::System::UInt16 fixedCount; // 0x28
+		::System::Byte outType; // 0x2A
+		::System::Byte inType; // 0x2B
 
 		::System::Void _ctor(::System::String* name, ::System::Diagnostics::Tracing::TraceLoggingDataType type, ::System::Diagnostics::Tracing::EventFieldTags tags, ::System::Boolean variableCount)
 		{

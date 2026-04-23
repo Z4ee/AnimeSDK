@@ -9,7 +9,7 @@ namespace UnityEngine { class Object; }
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRDependencyServiceBase_1_TypeDefinitionIndex = 27698;
+	inline static constexpr unsigned int SRDependencyServiceBase_1_TypeDefinitionIndex = 33322;
 
 	template <typename T>
 	class SRDependencyServiceBase_1 : public ::SRF::Service::SRServiceBase_1<T>

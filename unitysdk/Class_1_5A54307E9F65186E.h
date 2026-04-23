@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_5A54307E9F65186E_METHOD_1_75128EB2502FF804_OFFSET UNITYSDK_OFFSET(0x10575240)
-#define CLASS_1_5A54307E9F65186E__CTOR_OFFSET UNITYSDK_OFFSET(0x10575300)
+#define CLASS_1_5A54307E9F65186E_METHOD_1_75128EB2502FF804_OFFSET UNITYSDK_OFFSET(0xB1F6A50)
+#define CLASS_1_5A54307E9F65186E__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F6B10)
 
-inline static constexpr unsigned int Class_1_5A54307E9F65186E_TypeDefinitionIndex = 59407;
+inline static constexpr unsigned int Class_1_5A54307E9F65186E_TypeDefinitionIndex = 66802;
 
 class Class_1_5A54307E9F65186E : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_2; // 0x18
-	::System::String* Field_1_1; // 0x20
+	::System::String* Field_1_1; // 0x10
+	::System::String* Field_1_0; // 0x18
+	::System::String* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

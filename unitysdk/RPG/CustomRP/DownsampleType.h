@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DownsampleType_TypeDefinitionIndex = 29161;
+	inline static constexpr unsigned int DownsampleType_TypeDefinitionIndex = 34926;
 
 	enum class DownsampleType : ::System::Int32
 	{

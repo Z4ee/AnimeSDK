@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayer_Config_TypeDefinitionIndex = 31083;
+	inline static constexpr unsigned int CriAtomExPlayer_Config_TypeDefinitionIndex = 36803;
 
 	struct alignas(4) CriAtomExPlayer_Config
 	{

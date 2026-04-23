@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Struct_2_10841FDE58E9B286.h"
+#include "unitysdk/Struct_2_D0FCEBDAF981FB27.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -9,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldSimpleTriggerBatchBase_1_TypeDefinitionIndex = 60635;
+	inline static constexpr unsigned int OpenWorldSimpleTriggerBatchBase_1_TypeDefinitionIndex = 68076;
 
 	template <typename TTrigger>
 	class OpenWorldSimpleTriggerBatchBase_1 : public ::System::Object

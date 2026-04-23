@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDFB20)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__REQUESTGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15DDFB40)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173DD370)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__REQUESTGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x173DD390)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int APIDataSource___c__DisplayClass6_0_TypeDefinitionIndex = 7452;
+	inline static constexpr unsigned int APIDataSource___c__DisplayClass6_0_TypeDefinitionIndex = 7593;
 
 	class APIDataSource___c__DisplayClass6_0 : public ::System::Object
 	{

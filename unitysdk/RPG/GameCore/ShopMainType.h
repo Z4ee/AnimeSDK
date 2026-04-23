@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopMainType_TypeDefinitionIndex = 13839;
+	inline static constexpr unsigned int ShopMainType_TypeDefinitionIndex = 14311;
 
 	enum class ShopMainType : ::System::Int32
 	{

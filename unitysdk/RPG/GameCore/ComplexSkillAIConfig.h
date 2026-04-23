@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ComplexSkillAIFactorGroupWeight; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAICONFIG_METHOD_2_938E5162BF41701C_OFFSET UNITYSDK_OFFSET(0x171223B0)
-#define RPG_GAMECORE_COMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17122520)
+#define RPG_GAMECORE_COMPLEXSKILLAICONFIG_METHOD_2_938E5162BF41701C_OFFSET UNITYSDK_OFFSET(0x18828A30)
+#define RPG_GAMECORE_COMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18828BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIConfig_TypeDefinitionIndex = 14263;
+	inline static constexpr unsigned int ComplexSkillAIConfig_TypeDefinitionIndex = 14733;
 
 	class ComplexSkillAIConfig : public ::RPG::GameCore::JsonConfig
 	{

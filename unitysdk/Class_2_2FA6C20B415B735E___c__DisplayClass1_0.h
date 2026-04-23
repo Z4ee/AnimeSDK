@@ -5,10 +5,10 @@
 class Class_2_2FA6C20B415B735E;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA196A60)
-#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xA196DE0)
+#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11B0F9B0)
+#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x11B0FD30)
 
-inline static constexpr unsigned int Class_2_2FA6C20B415B735E___c__DisplayClass1_0_TypeDefinitionIndex = 44612;
+inline static constexpr unsigned int Class_2_2FA6C20B415B735E___c__DisplayClass1_0_TypeDefinitionIndex = 51351;
 
 class Class_2_2FA6C20B415B735E___c__DisplayClass1_0 : public ::System::Object
 {

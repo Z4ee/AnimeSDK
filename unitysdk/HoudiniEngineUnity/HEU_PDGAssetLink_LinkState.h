@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGAssetLink_LinkState_TypeDefinitionIndex = 37746;
+	inline static constexpr unsigned int HEU_PDGAssetLink_LinkState_TypeDefinitionIndex = 43623;
 
 	enum class HEU_PDGAssetLink_LinkState : ::System::Int32
 	{

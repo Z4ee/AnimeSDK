@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x971CB50)
-#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x973ACE0)
-#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE__CTOR_OFFSET UNITYSDK_OFFSET(0x973ACC0)
+#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA3DD700)
+#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA3FB640)
+#define RPG_CLIENT_FULLBODY_IKSOLVER_NODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FB620)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 60915;
+	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 68364;
 
 	class IKSolver_Node : public ::RPG::Client::FullBody::IKSolver_Point
 	{

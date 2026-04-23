@@ -9,17 +9,17 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_CB49A9A8DDA83A48__CTOR_OFFSET UNITYSDK_OFFSET(0x1179A210)
+#define CLASS_1_CB49A9A8DDA83A48__CTOR_OFFSET UNITYSDK_OFFSET(0xC72F340)
 
-inline static constexpr unsigned int Class_1_CB49A9A8DDA83A48_TypeDefinitionIndex = 64351;
+inline static constexpr unsigned int Class_1_CB49A9A8DDA83A48_TypeDefinitionIndex = 72398;
 
 class Class_1_CB49A9A8DDA83A48 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_7; // 0x10
-	::BansheeGz::BGSpline::Components::BGCcMath* Field_1_0; // 0x18
-	::UnityEngine::Material* Field_1_6; // 0x20
-	::UnityEngine::Animator* Field_1_3; // 0x28
+	::BansheeGz::BGSpline::Components::BGCcMath* Field_1_0; // 0x10
+	::UnityEngine::GameObject* Field_1_7; // 0x18
+	::UnityEngine::Animator* Field_1_3; // 0x20
+	::UnityEngine::Material* Field_1_6; // 0x28
 	::RPG::Client::OpenWorld::StreamingItemData* Field_1_2; // 0x30
 	::RPG::Client::Prop::GateLinkInfoState Field_1_4; // 0x38
 	::System::Boolean Field_1_1; // 0x3C

@@ -6,20 +6,20 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xA2A4E70)
-#define RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A4D20)
+#define RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xAF95FF0)
+#define RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAF95EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicLevelUpBeforeData_TypeDefinitionIndex = 54401;
+	inline static constexpr unsigned int RelicLevelUpBeforeData_TypeDefinitionIndex = 61589;
 
 	class RelicLevelUpBeforeData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* SubAffixPropertyValueBefore; // 0x10
-		::System::UInt32 ExpBefore; // 0x18
-		::System::UInt32 LevelBefore; // 0x1C
-		::RPG::GameCore::FixPoint MainAffixPropertyValueBefore; // 0x20
+		::RPG::GameCore::FixPoint MainAffixPropertyValueBefore; // 0x18
+		::System::UInt32 ExpBefore; // 0x20
+		::System::UInt32 LevelBefore; // 0x24
 
 		::System::Void _ctor()
 		{

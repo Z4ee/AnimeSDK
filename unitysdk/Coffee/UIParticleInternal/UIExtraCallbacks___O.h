@@ -6,14 +6,14 @@ namespace UnityEngine { class Canvas_WillRenderCanvases; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int UIExtraCallbacks___O_TypeDefinitionIndex = 34881;
+	inline static constexpr unsigned int UIExtraCallbacks___O_TypeDefinitionIndex = 40700;
 
 	class UIExtraCallbacks___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Canvas_WillRenderCanvases** StaticGet__0___OnAfterCanvasRebuild()
 		{
-			return (::UnityEngine::Canvas_WillRenderCanvases**)Il2CppClass::FromTypeDefinitionIndex(UIExtraCallbacks___O_TypeDefinitionIndex)->GetStaticField(0x10B0);
+			return (::UnityEngine::Canvas_WillRenderCanvases**)Il2CppClass::FromTypeDefinitionIndex(UIExtraCallbacks___O_TypeDefinitionIndex)->GetStaticField(0x1560);
 		}
 	};
 }

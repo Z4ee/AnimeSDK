@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174A5520)
-#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174A5750)
+#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BF0910)
+#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF0B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoExhibitionCommentRow_TypeDefinitionIndex = 11102;
+	inline static constexpr unsigned int PhotoExhibitionCommentRow_TypeDefinitionIndex = 11505;
 
 	class PhotoExhibitionCommentRow : public ::System::Object
 	{

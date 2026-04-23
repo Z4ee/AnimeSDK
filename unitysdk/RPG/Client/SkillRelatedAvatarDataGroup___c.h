@@ -5,24 +5,24 @@
 namespace RPG::Client { class SkillRelatedAvatarData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA49D920)
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA49D960)
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP___C___INIT_B__4_0_OFFSET UNITYSDK_OFFSET(0xA49D970)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB18D190)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB18D1D0)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP___C___INIT_B__4_0_OFFSET UNITYSDK_OFFSET(0xB18D1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillRelatedAvatarDataGroup___c_TypeDefinitionIndex = 50770;
+	inline static constexpr unsigned int SkillRelatedAvatarDataGroup___c_TypeDefinitionIndex = 57649;
 
 	class SkillRelatedAvatarDataGroup___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::SkillRelatedAvatarData*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SkillRelatedAvatarData*>**)Il2CppClass::FromTypeDefinitionIndex(SkillRelatedAvatarDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x24A20);
+			return (::System::Comparison_1<::RPG::Client::SkillRelatedAvatarData*>**)Il2CppClass::FromTypeDefinitionIndex(SkillRelatedAvatarDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x22500);
 		}
 		static ::RPG::Client::SkillRelatedAvatarDataGroup___c** StaticGet___9()
 		{
-			return (::RPG::Client::SkillRelatedAvatarDataGroup___c**)Il2CppClass::FromTypeDefinitionIndex(SkillRelatedAvatarDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x24A28);
+			return (::RPG::Client::SkillRelatedAvatarDataGroup___c**)Il2CppClass::FromTypeDefinitionIndex(SkillRelatedAvatarDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x22508);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSimpleProjectileHitActionType_TypeDefinitionIndex = 15305;
+	inline static constexpr unsigned int FiveDimSimpleProjectileHitActionType_TypeDefinitionIndex = 15824;
 
 	enum class FiveDimSimpleProjectileHitActionType : ::System::UInt32
 	{
@@ -12,5 +12,6 @@ namespace RPG::GameCore
 		RecoverCrystal = 0x2,
 		SpawnMinion = 0x4,
 		HitCrystal = 0x8,
+		SpawnMinionWhenHitOther = 0x10,
 	};
 }

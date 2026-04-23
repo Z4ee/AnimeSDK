@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PassageConfig; }
 namespace RPG::GameCore { class StageVolumeConfigV2; }
 namespace RPG::GameCore { class VolumeDistanceMap; }
 
-#define RPG_GAMECORE_VOLUMECONFIGV2_METHOD_2_BB0CEAB722354A86_OFFSET UNITYSDK_OFFSET(0x178F3980)
-#define RPG_GAMECORE_VOLUMECONFIGV2__CTOR_OFFSET UNITYSDK_OFFSET(0x178F3B10)
+#define RPG_GAMECORE_VOLUMECONFIGV2_METHOD_2_BB0CEAB722354A86_OFFSET UNITYSDK_OFFSET(0x190F74C0)
+#define RPG_GAMECORE_VOLUMECONFIGV2__CTOR_OFFSET UNITYSDK_OFFSET(0x190F7650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VolumeConfigV2_TypeDefinitionIndex = 17555;
+	inline static constexpr unsigned int VolumeConfigV2_TypeDefinitionIndex = 18168;
 
 	class VolumeConfigV2 : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/Metadata/SoapAttribute.h"
 
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPPARAMETERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163BA840)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPPARAMETERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179E7160)
 
 namespace System::Runtime::Remoting::Metadata
 {
-	inline static constexpr unsigned int SoapParameterAttribute_TypeDefinitionIndex = 1278;
+	inline static constexpr unsigned int SoapParameterAttribute_TypeDefinitionIndex = 1280;
 
 	class SoapParameterAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute
 	{

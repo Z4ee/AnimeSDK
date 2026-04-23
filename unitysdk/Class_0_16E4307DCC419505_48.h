@@ -3,7 +3,7 @@
 
 namespace Entitas { class IComponent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_48_TypeDefinitionIndex = 28684;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_48_TypeDefinitionIndex = 34409;
 
 class Class_0_16E4307DCC419505_48
 {

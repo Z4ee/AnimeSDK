@@ -5,9 +5,9 @@
 class Class_0_16E4307DCC419505_87;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_7D616F2C18A26116__CTOR_OFFSET UNITYSDK_OFFSET(0x1681FC10)
+#define CLASS_1_7D616F2C18A26116__CTOR_OFFSET UNITYSDK_OFFSET(0x180A4FD0)
 
-inline static constexpr unsigned int Class_1_7D616F2C18A26116_TypeDefinitionIndex = 32241;
+inline static constexpr unsigned int Class_1_7D616F2C18A26116_TypeDefinitionIndex = 37961;
 
 class Class_1_7D616F2C18A26116 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelSettleBattleResult_TypeDefinitionIndex = 51397;
+	inline static constexpr unsigned int ChimeraDuelSettleBattleResult_TypeDefinitionIndex = 58335;
 
 	enum class ChimeraDuelSettleBattleResult : ::System::Int32
 	{

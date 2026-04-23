@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BlockSetVisibility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DB8441984FF2EC30_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD19E910)
-#define CLASS_3_DB8441984FF2EC30__CTOR_OFFSET UNITYSDK_OFFSET(0xD19E8E0)
+#define CLASS_3_DB8441984FF2EC30_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2130C0)
+#define CLASS_3_DB8441984FF2EC30__CTOR_OFFSET UNITYSDK_OFFSET(0xB213090)
 
-inline static constexpr unsigned int Class_3_DB8441984FF2EC30_TypeDefinitionIndex = 44779;
+inline static constexpr unsigned int Class_3_DB8441984FF2EC30_TypeDefinitionIndex = 51526;
 
 class Class_3_DB8441984FF2EC30 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BlockSetVisibility*>
 {

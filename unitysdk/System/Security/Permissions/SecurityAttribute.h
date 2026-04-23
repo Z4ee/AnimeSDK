@@ -5,7 +5,7 @@
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int SecurityAttribute_TypeDefinitionIndex = 958;
+	inline static constexpr unsigned int SecurityAttribute_TypeDefinitionIndex = 960;
 
 	class SecurityAttribute : public ::System::Attribute
 	{

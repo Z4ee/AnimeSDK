@@ -7,14 +7,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ENTITAS_ENTITYEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11A86A70)
-#define ENTITAS_ENTITYEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11A86AA0)
-#define ENTITAS_ENTITYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x11A86040)
-#define ENTITAS_ENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A86A50)
+#define ENTITAS_ENTITYEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12C558E0)
+#define ENTITAS_ENTITYEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12C55910)
+#define ENTITAS_ENTITYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12C54EC0)
+#define ENTITAS_ENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C558C0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityEvent_TypeDefinitionIndex = 9703;
+	inline static constexpr unsigned int EntityEvent_TypeDefinitionIndex = 9836;
 
 	class EntityEvent : public ::System::MulticastDelegate
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloatMaterialBlock_TypeDefinitionIndex = 57203;
+	inline static constexpr unsigned int FloatMaterialBlock_TypeDefinitionIndex = 64457;
 
 	struct alignas(4) FloatMaterialBlock
 	{

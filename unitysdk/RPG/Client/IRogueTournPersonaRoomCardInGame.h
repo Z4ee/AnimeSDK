@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueTournPersonaRoomCardPile.h"
 
-class Class_1_69F06BA11FF28429_2;
+class Class_1_766E1CF11E204F43_7;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaRoomCardInGame_TypeDefinitionIndex = 55233;
+	inline static constexpr unsigned int IRogueTournPersonaRoomCardInGame_TypeDefinitionIndex = 62421;
 
 	class IRogueTournPersonaRoomCardInGame
 	{

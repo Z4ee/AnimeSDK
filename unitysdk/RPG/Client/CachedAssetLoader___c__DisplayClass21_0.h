@@ -6,12 +6,12 @@ namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CACHEDASSETLOADER___C__DISPLAYCLASS21_0__ASYNCLOADASSET_B__0_OFFSET UNITYSDK_OFFSET(0x9218B50)
-#define RPG_CLIENT_CACHEDASSETLOADER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9216780)
+#define RPG_CLIENT_CACHEDASSETLOADER___C__DISPLAYCLASS21_0__ASYNCLOADASSET_B__0_OFFSET UNITYSDK_OFFSET(0x9EC2D50)
+#define RPG_CLIENT_CACHEDASSETLOADER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EC0500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader___c__DisplayClass21_0_TypeDefinitionIndex = 48086;
+	inline static constexpr unsigned int CachedAssetLoader___c__DisplayClass21_0_TypeDefinitionIndex = 54831;
 
 	class CachedAssetLoader___c__DisplayClass21_0 : public ::System::Object
 	{

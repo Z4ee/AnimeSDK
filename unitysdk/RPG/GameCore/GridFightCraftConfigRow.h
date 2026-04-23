@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCRAFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172568D0)
-#define RPG_GAMECORE_GRIDFIGHTCRAFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17256A80)
+#define RPG_GAMECORE_GRIDFIGHTCRAFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A63B0)
+#define RPG_GAMECORE_GRIDFIGHTCRAFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A6560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCraftConfigRow_TypeDefinitionIndex = 12296;
+	inline static constexpr unsigned int GridFightCraftConfigRow_TypeDefinitionIndex = 12727;
 
 	class GridFightCraftConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CostEquipList; // 0x10
 		::System::UInt32 ID; // 0x18
-		::System::UInt32 CraftEquipID; // 0x1C
-		::System::UInt32 CraftID; // 0x20
+		::System::UInt32 CraftID; // 0x1C
+		::System::UInt32 CraftEquipID; // 0x20
 
 		::System::Void _ctor()
 		{

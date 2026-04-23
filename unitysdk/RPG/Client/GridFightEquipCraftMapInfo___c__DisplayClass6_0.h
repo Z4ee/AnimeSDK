@@ -7,13 +7,13 @@ namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipCraftRecipeCollection; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS6_0__CANCRAFT_B__0_OFFSET UNITYSDK_OFFSET(0x97FDB90)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS6_0__CANCRAFT_B__1_OFFSET UNITYSDK_OFFSET(0x97FDD20)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x97FD230)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS6_0__CANCRAFT_B__0_OFFSET UNITYSDK_OFFSET(0xA47EC40)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS6_0__CANCRAFT_B__1_OFFSET UNITYSDK_OFFSET(0xA47EDD0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA47E2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass6_0_TypeDefinitionIndex = 52417;
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass6_0_TypeDefinitionIndex = 59374;
 
 	class GridFightEquipCraftMapInfo___c__DisplayClass6_0 : public ::System::Object
 	{

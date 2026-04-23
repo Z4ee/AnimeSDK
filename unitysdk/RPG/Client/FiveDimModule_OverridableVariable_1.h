@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule_OverridableVariable_1_TypeDefinitionIndex = 52125;
+	inline static constexpr unsigned int FiveDimModule_OverridableVariable_1_TypeDefinitionIndex = 59075;
 
 	template <typename T>
 	struct FiveDimModule_OverridableVariable_1

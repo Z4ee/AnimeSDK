@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1725E730)
-#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1725E8F0)
+#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189AEC50)
+#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189AEE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightGamePlayResConfigRow_TypeDefinitionIndex = 12302;
+	inline static constexpr unsigned int GridFightGamePlayResConfigRow_TypeDefinitionIndex = 12733;
 
 	class GridFightGamePlayResConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* Desc; // 0x10
-		::System::String* IconPath; // 0x18
-		::System::String* Name; // 0x20
+		::System::String* IconPath; // 0x10
+		::System::String* Name; // 0x18
+		::System::String* Desc; // 0x20
 		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()

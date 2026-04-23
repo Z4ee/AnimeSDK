@@ -6,11 +6,11 @@
 
 namespace CriWare { class CriDisposable; }
 
-#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_OBJECTREF__CTOR_OFFSET UNITYSDK_OFFSET(0x14F2530)
+#define CRIWARE_CRIDISPOSABLEOBJECTMANAGER_OBJECTREF__CTOR_OFFSET UNITYSDK_OFFSET(0x16269C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDisposableObjectManager_ObjectRef_TypeDefinitionIndex = 31216;
+	inline static constexpr unsigned int CriDisposableObjectManager_ObjectRef_TypeDefinitionIndex = 36936;
 
 	struct alignas(8) CriDisposableObjectManager_ObjectRef
 	{

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINUITRACK_GRIDFIGHTINGCOINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9CE1BA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINUITRACK_GRIDFIGHTINGCOINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA9A4EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginUITrack_GridFightingCoinParam_TypeDefinitionIndex = 57394;
+	inline static constexpr unsigned int MonoEffectPluginUITrack_GridFightingCoinParam_TypeDefinitionIndex = 64655;
 
 	class MonoEffectPluginUITrack_GridFightingCoinParam : public ::System::Object
 	{

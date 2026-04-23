@@ -12,11 +12,11 @@ namespace RPG::Client { class StreamingFeature; }
 namespace RPG::CustomRP { class ScreenColorCopySettingsData; }
 namespace RPG::CustomRP { class WaterSettingsData; }
 
-#define RPG_CLIENT_CRPENVDETAILSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x9210790)
+#define RPG_CLIENT_CRPENVDETAILSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB9C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPEnvDetailSettings_TypeDefinitionIndex = 55429;
+	inline static constexpr unsigned int CRPEnvDetailSettings_TypeDefinitionIndex = 62620;
 
 	class CRPEnvDetailSettings : public ::System::Object
 	{

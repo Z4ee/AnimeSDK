@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShaderGroupAlloc_TypeDefinitionIndex = 4064;
+	inline static constexpr unsigned int ShaderGroupAlloc_TypeDefinitionIndex = 4066;
 
 	struct alignas(4) ShaderGroupAlloc
 	{

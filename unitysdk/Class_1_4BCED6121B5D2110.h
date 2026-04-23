@@ -5,11 +5,11 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraBattleShowNPCTalkBubble; }
 
-#define CLASS_1_4BCED6121B5D2110_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xB8CDF70)
-#define CLASS_1_4BCED6121B5D2110_METHOD_1_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0xB8CDE20)
-#define CLASS_1_4BCED6121B5D2110__CTOR_OFFSET UNITYSDK_OFFSET(0xB8CDDE0)
+#define CLASS_1_4BCED6121B5D2110_METHOD_1_45AA2F5085C2C40D_OFFSET UNITYSDK_OFFSET(0xECA6AE0)
+#define CLASS_1_4BCED6121B5D2110_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xECA6C30)
+#define CLASS_1_4BCED6121B5D2110__CTOR_OFFSET UNITYSDK_OFFSET(0xECA6AA0)
 
-inline static constexpr unsigned int Class_1_4BCED6121B5D2110_TypeDefinitionIndex = 63858;
+inline static constexpr unsigned int Class_1_4BCED6121B5D2110_TypeDefinitionIndex = 71905;
 
 class Class_1_4BCED6121B5D2110 : public ::System::Object
 {
@@ -22,9 +22,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*))((::PBYTE)hIl2Cpp + CLASS_1_4BCED6121B5D2110__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_B43C848B078B3C34()
+	::System::Void Method_1_45AA2F5085C2C40D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4BCED6121B5D2110_METHOD_1_B43C848B078B3C34_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4BCED6121B5D2110_METHOD_1_45AA2F5085C2C40D_OFFSET))(this);
 	}
 
 	::RPG::Client::Promises::Promise* Method_1_8F9DF3D751E1E0BF()

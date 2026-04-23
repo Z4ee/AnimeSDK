@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA_METHOD_2_FC38769BF3248632_OFFSET UNITYSDK_OFFSET(0x178AFA70)
-#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x178AFB90)
+#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA_METHOD_2_FC38769BF3248632_OFFSET UNITYSDK_OFFSET(0x190AE4E0)
+#define RPG_GAMECORE_TRAINPARTYSIMPLETALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x190AE600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySimpleTalkData_TypeDefinitionIndex = 20557;
+	inline static constexpr unsigned int TrainPartySimpleTalkData_TypeDefinitionIndex = 21240;
 
 	class TrainPartySimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{

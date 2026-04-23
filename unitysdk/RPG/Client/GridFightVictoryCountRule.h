@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98E72F0)
-#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x98E72E0)
+#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA5D1350)
+#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D1340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 52841;
+	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 59916;
 
 	class GridFightVictoryCountRule : public ::System::Object
 	{
 	public:
 		::System::String* Range; // 0x10
-		::System::UInt32 Up; // 0x18
-		::System::UInt32 Low; // 0x1C
-		::System::UInt32 Bonus; // 0x20
+		::System::UInt32 Bonus; // 0x18
+		::System::UInt32 Up; // 0x1C
+		::System::UInt32 Low; // 0x20
 
 		::System::Void _ctor(::System::String* range, ::System::UInt32 bonus)
 		{

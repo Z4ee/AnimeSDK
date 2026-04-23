@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TransportContext_TypeDefinitionIndex = 2745;
+	inline static constexpr unsigned int TransportContext_TypeDefinitionIndex = 2746;
 
 	class TransportContext : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsStageBuffAffectCurrentWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_659E131D6A6BE55E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8CA770)
-#define CLASS_3_659E131D6A6BE55E__CTOR_OFFSET UNITYSDK_OFFSET(0xB8CA740)
+#define CLASS_3_659E131D6A6BE55E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12515110)
+#define CLASS_3_659E131D6A6BE55E__CTOR_OFFSET UNITYSDK_OFFSET(0x125150E0)
 
-inline static constexpr unsigned int Class_3_659E131D6A6BE55E_TypeDefinitionIndex = 43756;
+inline static constexpr unsigned int Class_3_659E131D6A6BE55E_TypeDefinitionIndex = 50455;
 
 class Class_3_659E131D6A6BE55E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsStageBuffAffectCurrentWave*>
 {

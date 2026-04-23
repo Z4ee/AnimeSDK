@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINGHOSTVERTEXOFFSETMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0x9CD2410)
-#define RPG_CLIENT_MONOEFFECTPLUGINGHOSTVERTEXOFFSETMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD26A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINGHOSTVERTEXOFFSETMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xA9949A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINGHOSTVERTEXOFFSETMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA994C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginGhostVertexOffsetMaterialBlock_TypeDefinitionIndex = 57208;
+	inline static constexpr unsigned int MonoEffectPluginGhostVertexOffsetMaterialBlock_TypeDefinitionIndex = 64462;
 
 	class MonoEffectPluginGhostVertexOffsetMaterialBlock : public ::RPG::Client::MonoEffectPluginCompoundMaterialBlock
 	{

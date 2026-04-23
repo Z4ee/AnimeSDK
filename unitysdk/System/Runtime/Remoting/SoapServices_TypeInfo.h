@@ -4,11 +4,11 @@
 
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_RUNTIME_REMOTING_SOAPSERVICES_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x163C7AC0)
+#define SYSTEM_RUNTIME_REMOTING_SOAPSERVICES_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x179F44C0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int SoapServices_TypeInfo_TypeDefinitionIndex = 1216;
+	inline static constexpr unsigned int SoapServices_TypeInfo_TypeDefinitionIndex = 1218;
 
 	class SoapServices_TypeInfo : public ::System::Object
 	{

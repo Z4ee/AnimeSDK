@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::AntiCheatServer { class EndSessionOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_ANTICHEATSERVER_ENDSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ENDSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xE2A0)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ENDSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xE290)
 #define EPIC_ONLINESERVICES_ANTICHEATSERVER_ENDSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::AntiCheatServer
 {
-	inline static constexpr unsigned int EndSessionOptionsInternal_TypeDefinitionIndex = 36609;
+	inline static constexpr unsigned int EndSessionOptionsInternal_TypeDefinitionIndex = 42435;
 
 	struct alignas(4) EndSessionOptionsInternal
 	{

@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_2D3D502BC62D9FF7;
+
+#define CLASS_1_F01FD2FEBF10FE40_3_GET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x12878AB0)
+#define CLASS_1_F01FD2FEBF10FE40_3_METHOD_1_83DA3EC57FF907F4_OFFSET UNITYSDK_OFFSET(0x128788F0)
+#define CLASS_1_F01FD2FEBF10FE40_3_METHOD_1_974EB32A7273C642_OFFSET UNITYSDK_OFFSET(0x128789B0)
+#define CLASS_1_F01FD2FEBF10FE40_3_METHOD_1_C2D0A28EDD88D4E9_OFFSET UNITYSDK_OFFSET(0x12878A40)
+#define CLASS_1_F01FD2FEBF10FE40_3_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x12878AC0)
+#define CLASS_1_F01FD2FEBF10FE40_3__CTOR_OFFSET UNITYSDK_OFFSET(0x128788E0)
+
+inline static constexpr unsigned int Class_1_F01FD2FEBF10FE40_3_TypeDefinitionIndex = 57091;
+
+class Class_1_F01FD2FEBF10FE40_3 : public ::System::Object
+{
+public:
+	::Class_1_2D3D502BC62D9FF7* _PlayerReturnTrialAvatarInfoProvider_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F01FD2FEBF10FE40_3__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_83DA3EC57FF907F4()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F01FD2FEBF10FE40_3_METHOD_1_83DA3EC57FF907F4_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_974EB32A7273C642(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F01FD2FEBF10FE40_3_METHOD_1_974EB32A7273C642_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_C2D0A28EDD88D4E9(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F01FD2FEBF10FE40_3_METHOD_1_C2D0A28EDD88D4E9_OFFSET))(this, a1);
+	}
+
+	::Class_1_2D3D502BC62D9FF7* get_PlayerReturnTrialAvatarInfoProvider()
+	{
+		return ((::Class_1_2D3D502BC62D9FF7*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F01FD2FEBF10FE40_3_GET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET))(this);
+	}
+
+	::System::Void set_PlayerReturnTrialAvatarInfoProvider(::Class_1_2D3D502BC62D9FF7* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2D3D502BC62D9FF7*))((::PBYTE)hIl2Cpp + CLASS_1_F01FD2FEBF10FE40_3_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET))(this, value);
+	}
+};

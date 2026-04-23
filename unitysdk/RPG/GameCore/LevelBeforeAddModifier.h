@@ -9,29 +9,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA97D1A0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA97D150)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xA97CFE0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xA97D1F0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6CB280)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6CB230)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xB6CB0B0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CB2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 45669;
+	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 52321;
 
 	class LevelBeforeAddModifier : public ::Class_1_9988289E7F8AA214
 	{
 	public:
-		::RPG::GameCore::GameEntity* Receiver; // 0x18
-		::System::String* AbilityName; // 0x20
-		::Struct_2_5909FD7779934CCA ChangeParams; // 0x28
+		::Struct_2_5909FD7779934CCA ChangeParams; // 0x18
+		::System::String* AbilityName; // 0x148
+		::RPG::GameCore::GameEntity* Receiver; // 0x150
 		::RPG::GameCore::GameEntity* Caster; // 0x158
 		::System::String* ModifierName; // 0x160
 		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x168
-		::System::Boolean IsSuccess; // 0x170
-		::System::Boolean DisableFloatingMessage; // 0x171
-		::System::Int32 LifeTime; // 0x174
-		::RPG::GameCore::FixPoint Chance; // 0x178
-		::RPG::GameCore::FixPoint BaseChance; // 0x180
+		::System::Int32 LifeTime; // 0x170
+		::System::Boolean IsSuccess; // 0x174
+		::System::Boolean DisableFloatingMessage; // 0x175
+		::RPG::GameCore::FixPoint BaseChance; // 0x178
+		::RPG::GameCore::FixPoint Chance; // 0x180
 
 		::System::Void _ctor()
 		{

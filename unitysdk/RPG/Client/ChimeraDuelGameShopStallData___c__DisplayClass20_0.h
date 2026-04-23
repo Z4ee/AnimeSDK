@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93A6B40)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__DISPLAYCLASS20_0__REMOVEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x93A6ED0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA014B20)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__DISPLAYCLASS20_0__REMOVEITEM_B__0_OFFSET UNITYSDK_OFFSET(0xA014EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameShopStallData___c__DisplayClass20_0_TypeDefinitionIndex = 51403;
+	inline static constexpr unsigned int ChimeraDuelGameShopStallData___c__DisplayClass20_0_TypeDefinitionIndex = 58341;
 
 	class ChimeraDuelGameShopStallData___c__DisplayClass20_0 : public ::System::Object
 	{

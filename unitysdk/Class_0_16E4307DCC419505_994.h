@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BookletFadeInState.h"
 
-class Class_2_49CAB3DE74280C58;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_994_TypeDefinitionIndex = 63127;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_994_TypeDefinitionIndex = 66745;
 
 class Class_0_16E4307DCC419505_994
 {

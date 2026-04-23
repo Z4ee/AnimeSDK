@@ -5,12 +5,12 @@
 namespace RPG::Client { class EntityTimelineControlNode; }
 namespace RPG::Client { class TimeRewindPathRuntime; }
 
-#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO_METHOD_1_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0x9605A40)
-#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9605BB0)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO_METHOD_1_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xA28C860)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA28CA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityTimelineControlTrackInfo_TypeDefinitionIndex = 51817;
+	inline static constexpr unsigned int EntityTimelineControlTrackInfo_TypeDefinitionIndex = 58765;
 
 	class EntityTimelineControlTrackInfo : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_0D372435D9CAE4BC()
+		::System::Void Method_1_6B72D4EE8C6E907F()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO_METHOD_1_0D372435D9CAE4BC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO_METHOD_1_6B72D4EE8C6E907F_OFFSET))(this);
 		}
 	};
 }

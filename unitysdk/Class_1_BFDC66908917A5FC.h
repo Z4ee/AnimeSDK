@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_278;
+class Class_0_16E4307DCC419505_284;
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BFDC66908917A5FC_METHOD_1_18C90B4C50EC21A3_OFFSET UNITYSDK_OFFSET(0x18388D80)
-#define CLASS_1_BFDC66908917A5FC_METHOD_1_41055516364D36FC_OFFSET UNITYSDK_OFFSET(0x18388CA0)
-#define CLASS_1_BFDC66908917A5FC_METHOD_1_B186592E7EC6FB80_OFFSET UNITYSDK_OFFSET(0x18388AE0)
-#define CLASS_1_BFDC66908917A5FC__CTOR_OFFSET UNITYSDK_OFFSET(0x18388C10)
+#define CLASS_1_BFDC66908917A5FC_METHOD_1_18C90B4C50EC21A3_OFFSET UNITYSDK_OFFSET(0x19DB5620)
+#define CLASS_1_BFDC66908917A5FC_METHOD_1_41055516364D36FC_OFFSET UNITYSDK_OFFSET(0x19DB5540)
+#define CLASS_1_BFDC66908917A5FC_METHOD_1_B186592E7EC6FB80_OFFSET UNITYSDK_OFFSET(0x19DB5250)
+#define CLASS_1_BFDC66908917A5FC__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB54B0)
 
-inline static constexpr unsigned int Class_1_BFDC66908917A5FC_TypeDefinitionIndex = 33998;
+inline static constexpr unsigned int Class_1_BFDC66908917A5FC_TypeDefinitionIndex = 39808;
 
 class Class_1_BFDC66908917A5FC : public ::System::Object
 {
 public:
 	static ::Class_1_BFDC66908917A5FC** StaticGet_Field_1_0()
 	{
-		return (::Class_1_BFDC66908917A5FC**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BFDC66908917A5FC_TypeDefinitionIndex)->GetStaticField(0x26A10);
+		return (::Class_1_BFDC66908917A5FC**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BFDC66908917A5FC_TypeDefinitionIndex)->GetStaticField(0x22B10);
 	}
 	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* Field_1_1; // 0x10
 
@@ -27,9 +27,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BFDC66908917A5FC__CTOR_OFFSET))(this);
 	}
 
-	static ::Class_0_16E4307DCC419505_278* Method_1_B186592E7EC6FB80()
+	static ::Class_0_16E4307DCC419505_284* Method_1_B186592E7EC6FB80()
 	{
-		return ((::Class_0_16E4307DCC419505_278*(*)())((::PBYTE)hIl2Cpp + CLASS_1_BFDC66908917A5FC_METHOD_1_B186592E7EC6FB80_OFFSET))();
+		return ((::Class_0_16E4307DCC419505_284*(*)())((::PBYTE)hIl2Cpp + CLASS_1_BFDC66908917A5FC_METHOD_1_B186592E7EC6FB80_OFFSET))();
 	}
 
 	::System::Object* Method_1_41055516364D36FC(::System::Type* a1)

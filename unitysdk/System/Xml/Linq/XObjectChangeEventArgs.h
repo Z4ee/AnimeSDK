@@ -3,12 +3,12 @@
 #include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/Xml/Linq/XObjectChange.h"
 
-#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1855F950)
-#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1855F920)
+#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F9A730)
+#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9A700)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XObjectChangeEventArgs_TypeDefinitionIndex = 4901;
+	inline static constexpr unsigned int XObjectChangeEventArgs_TypeDefinitionIndex = 4909;
 
 	class XObjectChangeEventArgs : public ::System::EventArgs
 	{

@@ -13,7 +13,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int ReceiveMessageFromPeerOptionsInternal_TypeDefinitionIndex = 36722;
+	inline static constexpr unsigned int ReceiveMessageFromPeerOptionsInternal_TypeDefinitionIndex = 42548;
 
 	struct alignas(8) ReceiveMessageFromPeerOptionsInternal
 	{

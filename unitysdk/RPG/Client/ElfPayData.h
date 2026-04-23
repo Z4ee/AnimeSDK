@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_ELFPAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x95BAA90)
+#define RPG_CLIENT_ELFPAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2411A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfPayData_TypeDefinitionIndex = 51795;
+	inline static constexpr unsigned int ElfPayData_TypeDefinitionIndex = 58743;
 
 	class ElfPayData : public ::System::Object
 	{
 	public:
-		::System::Int32 Value; // 0x10
-		::UnityEngine::Vector3 TargetPosition; // 0x14
-		::System::Single LifeTime; // 0x20
+		::UnityEngine::Vector3 TargetPosition; // 0x10
+		::System::Single LifeTime; // 0x1C
+		::System::Int32 Value; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSWelcomeDialog_DisplayStage_TypeDefinitionIndex = 7560;
+	inline static constexpr unsigned int PSWelcomeDialog_DisplayStage_TypeDefinitionIndex = 7701;
 
 	enum class PSWelcomeDialog_DisplayStage : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarSkillSlotStatus_TypeDefinitionIndex = 50537;
+	inline static constexpr unsigned int MonsterAvatarSkillSlotStatus_TypeDefinitionIndex = 57400;
 
 	enum class MonsterAvatarSkillSlotStatus : ::System::Int32
 	{

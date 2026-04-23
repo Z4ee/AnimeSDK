@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK { class ProtocolManager; }
+namespace MiHoYo::SDK { class Web; }
+
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17626980)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS47_0__SHOWPRIVACYPROTOCOL_B__0_OFFSET UNITYSDK_OFFSET(0x1762B8C0)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass47_0_TypeDefinitionIndex = 7091;
+
+	class ProtocolManager___c__DisplayClass47_0 : public ::System::Object
+	{
+	public:
+		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x10
+		::MiHoYo::SDK::Web* webView; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS47_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ShowPrivacyProtocol_b__0(::MiHoYo::SDK::Web* web, ::MiHoYo::SDK::UniWebViewMessage message)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS47_0__SHOWPRIVACYPROTOCOL_B__0_OFFSET))(this, web, message);
+		}
+	};
+}

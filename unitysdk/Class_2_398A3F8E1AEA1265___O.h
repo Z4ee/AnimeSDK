@@ -4,13 +4,13 @@
 
 namespace System { class Action; }
 
-inline static constexpr unsigned int Class_2_398A3F8E1AEA1265___O_TypeDefinitionIndex = 46872;
+inline static constexpr unsigned int Class_2_398A3F8E1AEA1265___O_TypeDefinitionIndex = 53585;
 
 class Class_2_398A3F8E1AEA1265___O : public ::System::Object
 {
 public:
 	static ::System::Action** StaticGet__0____OnUIExit()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_398A3F8E1AEA1265___O_TypeDefinitionIndex)->GetStaticField(0x465F0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_398A3F8E1AEA1265___O_TypeDefinitionIndex)->GetStaticField(0x33890);
 	}
 };

@@ -6,11 +6,11 @@
 
 namespace UnityEngine::Rendering { class BatchRendererGroup_OnPerformCulling; }
 
-#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_INVOKEONPERFORMCULLING_OFFSET UNITYSDK_OFFSET(0x18A3B7D0)
+#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_INVOKEONPERFORMCULLING_OFFSET UNITYSDK_OFFSET(0x1A475800)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchRendererGroup_TypeDefinitionIndex = 4542;
+	inline static constexpr unsigned int BatchRendererGroup_TypeDefinitionIndex = 4544;
 
 	class BatchRendererGroup : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int AxisState_IInputAxisProvider_TypeDefinitionIndex = 30839;
+	inline static constexpr unsigned int AxisState_IInputAxisProvider_TypeDefinitionIndex = 36559;
 
 	class AxisState_IInputAxisProvider
 	{

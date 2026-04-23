@@ -6,7 +6,7 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentBag_1_WorkStealingQueue_TypeDefinitionIndex = 3044;
+	inline static constexpr unsigned int ConcurrentBag_1_WorkStealingQueue_TypeDefinitionIndex = 3045;
 
 	template <typename T>
 	class ConcurrentBag_1_WorkStealingQueue : public ::System::Object

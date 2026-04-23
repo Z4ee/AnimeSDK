@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSPRSettings_TypeDefinitionIndex = 4620;
+	inline static constexpr unsigned int SSPRSettings_TypeDefinitionIndex = 4628;
 
 	struct alignas(4) SSPRSettings
 	{

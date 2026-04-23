@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREHITCONFIG_METHOD_2_3475C19D543B236B_OFFSET UNITYSDK_OFFSET(0x16F416B0)
-#define RPG_GAMECORE_ADVENTUREHITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F54420)
+#define RPG_GAMECORE_ADVENTUREHITCONFIG_METHOD_2_3475C19D543B236B_OFFSET UNITYSDK_OFFSET(0x18663870)
+#define RPG_GAMECORE_ADVENTUREHITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18676B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureHitConfig_TypeDefinitionIndex = 14895;
+	inline static constexpr unsigned int AdventureHitConfig_TypeDefinitionIndex = 15402;
 
 	class AdventureHitConfig : public ::RPG::GameCore::JsonConfig
 	{

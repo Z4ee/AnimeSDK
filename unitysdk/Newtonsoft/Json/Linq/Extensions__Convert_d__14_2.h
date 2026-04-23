@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions__Convert_d__14_2_TypeDefinitionIndex = 8371;
+	inline static constexpr unsigned int Extensions__Convert_d__14_2_TypeDefinitionIndex = 8517;
 
 	template <typename T, typename U>
 	class Extensions__Convert_d__14_2 : public ::System::Object

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEREGIONAFFECT_METHOD_2_D17AC1A3C124D336_OFFSET UNITYSDK_OFFSET(0x1776BA10)
-#define RPG_GAMECORE_STAGEREGIONAFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1776BB20)
+#define RPG_GAMECORE_STAGEREGIONAFFECT_METHOD_2_D17AC1A3C124D336_OFFSET UNITYSDK_OFFSET(0x18E915A0)
+#define RPG_GAMECORE_STAGEREGIONAFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E916B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionAffect_TypeDefinitionIndex = 17602;
+	inline static constexpr unsigned int StageRegionAffect_TypeDefinitionIndex = 18215;
 
 	class StageRegionAffect : public ::RPG::GameCore::JsonConfig
 	{

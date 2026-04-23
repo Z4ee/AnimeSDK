@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/ETimelineControlGameLevelRotation.h"
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroupAction.h"
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_ROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16850FB0)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_ROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF89F0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Rotate_TypeDefinitionIndex = 32988;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Rotate_TypeDefinitionIndex = 38778;
 
 	class TimelineControlGameWorld_LevelGroupAction_Rotate : public ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroupAction
 	{

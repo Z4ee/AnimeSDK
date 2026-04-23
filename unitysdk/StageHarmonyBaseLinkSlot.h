@@ -6,10 +6,10 @@ class StageHarmonyDemodulator;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define STAGEHARMONYBASELINKSLOT_METHOD_1_BD8CC0653430F458_OFFSET UNITYSDK_OFFSET(0xABDB4A0)
-#define STAGEHARMONYBASELINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xABDA4F0)
+#define STAGEHARMONYBASELINKSLOT_METHOD_1_BD8CC0653430F458_OFFSET UNITYSDK_OFFSET(0xB950FF0)
+#define STAGEHARMONYBASELINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xB951040)
 
-inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 38399;
+inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 44283;
 
 class StageHarmonyBaseLinkSlot : public ::System::Object
 {

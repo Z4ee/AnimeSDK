@@ -11,7 +11,7 @@ namespace UnityEngine { class Cluster; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VirtualGeometry_TypeDefinitionIndex = 3916;
+	inline static constexpr unsigned int VirtualGeometry_TypeDefinitionIndex = 3918;
 
 	struct alignas(8) VirtualGeometry
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F381659723E3F143_1;
+class Class_1_CE9B29BCEEDBFC4A;
 namespace RPG::Client { class FriendRankingInfo; }
 
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DAA520)
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__UPDATESELFRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x9DAAB90)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAF0F30)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__UPDATESELFRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0xAAF15A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 53929;
+	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 61074;
 
 	class MultiplayerCareerData___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::Class_1_F381659723E3F143_1* rankingInfo; // 0x10
+		::Class_1_CE9B29BCEEDBFC4A* rankingInfo; // 0x10
 
 		::System::Void _ctor()
 		{

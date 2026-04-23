@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_DictionaryEnumerator_TypeDefinitionIndex = 28146;
+	inline static constexpr unsigned int MapField_2_DictionaryEnumerator_TypeDefinitionIndex = 33770;
 
 	template <typename TKey, typename TValue>
 	class MapField_2_DictionaryEnumerator : public ::System::Object

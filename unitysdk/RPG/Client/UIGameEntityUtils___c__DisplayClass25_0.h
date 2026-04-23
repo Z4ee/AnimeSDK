@@ -7,19 +7,19 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_CLIENT_UIGAMEENTITYUTILS___C__DISPLAYCLASS25_0__CACULATEFORCEKILLRATIO_B__0_OFFSET UNITYSDK_OFFSET(0xA6960D0)
-#define RPG_CLIENT_UIGAMEENTITYUTILS___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA694490)
+#define RPG_CLIENT_UIGAMEENTITYUTILS___C__DISPLAYCLASS25_0__CACULATEFORCEKILLRATIO_B__0_OFFSET UNITYSDK_OFFSET(0xB3F0710)
+#define RPG_CLIENT_UIGAMEENTITYUTILS___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3EEC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIGameEntityUtils___c__DisplayClass25_0_TypeDefinitionIndex = 59980;
+	inline static constexpr unsigned int UIGameEntityUtils___c__DisplayClass25_0_TypeDefinitionIndex = 67378;
 
 	class UIGameEntityUtils___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* entity; // 0x10
-		::System::Nullable_1<::RPG::GameCore::ForceKillShowType> forceKillShowType; // 0x18
-		::System::Single maxRatio; // 0x20
+		::System::Single maxRatio; // 0x18
+		::System::Nullable_1<::RPG::GameCore::ForceKillShowType> forceKillShowType; // 0x1C
 
 		::System::Void _ctor()
 		{

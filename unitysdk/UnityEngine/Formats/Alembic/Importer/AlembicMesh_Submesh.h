@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18797B20)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x18795E80)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1D1A20)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CFD80)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicMesh_Submesh_TypeDefinitionIndex = 35020;
+	inline static constexpr unsigned int AlembicMesh_Submesh_TypeDefinitionIndex = 40848;
 
 	class AlembicMesh_Submesh : public ::System::Object
 	{

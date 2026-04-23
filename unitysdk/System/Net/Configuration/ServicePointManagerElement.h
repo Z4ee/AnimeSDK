@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_SERVICEPOINTMANAGERELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186B8430)
-#define SYSTEM_NET_CONFIGURATION_SERVICEPOINTMANAGERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x186B83F0)
+#define SYSTEM_NET_CONFIGURATION_SERVICEPOINTMANAGERELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A0F2BD0)
+#define SYSTEM_NET_CONFIGURATION_SERVICEPOINTMANAGERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F2B90)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ServicePointManagerElement_TypeDefinitionIndex = 3072;
+	inline static constexpr unsigned int ServicePointManagerElement_TypeDefinitionIndex = 3073;
 
 	class ServicePointManagerElement : public ::System::Configuration::ConfigurationElement
 	{

@@ -5,25 +5,25 @@
 namespace System { class String; }
 namespace System::Xml { class NameTable_Entry; }
 
-#define SYSTEM_XML_NAMETABLE_ADDENTRY_OFFSET UNITYSDK_OFFSET(0x18575880)
-#define SYSTEM_XML_NAMETABLE_ADD_1_OFFSET UNITYSDK_OFFSET(0x18570C80)
-#define SYSTEM_XML_NAMETABLE_ADD_OFFSET UNITYSDK_OFFSET(0x185644F0)
-#define SYSTEM_XML_NAMETABLE_GET_OFFSET UNITYSDK_OFFSET(0x18575A80)
-#define SYSTEM_XML_NAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x18575C20)
-#define SYSTEM_XML_NAMETABLE_TEXTEQUALS_OFFSET UNITYSDK_OFFSET(0x185759C0)
-#define SYSTEM_XML_NAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18575800)
+#define SYSTEM_XML_NAMETABLE_ADDENTRY_OFFSET UNITYSDK_OFFSET(0x19FB05C0)
+#define SYSTEM_XML_NAMETABLE_ADD_1_OFFSET UNITYSDK_OFFSET(0x19FAB9B0)
+#define SYSTEM_XML_NAMETABLE_ADD_OFFSET UNITYSDK_OFFSET(0x19F9F240)
+#define SYSTEM_XML_NAMETABLE_GET_OFFSET UNITYSDK_OFFSET(0x19FB07C0)
+#define SYSTEM_XML_NAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x19FB0960)
+#define SYSTEM_XML_NAMETABLE_TEXTEQUALS_OFFSET UNITYSDK_OFFSET(0x19FB0700)
+#define SYSTEM_XML_NAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB0540)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int NameTable_TypeDefinitionIndex = 1916;
+	inline static constexpr unsigned int NameTable_TypeDefinitionIndex = 1917;
 
 	class NameTable : public ::System::Xml::XmlNameTable
 	{
 	public:
 		::Il2CppArray<::System::Xml::NameTable_Entry*>* entries; // 0x10
-		::System::Int32 mask; // 0x18
-		::System::Int32 count; // 0x1C
-		::System::Int32 hashCodeRandomizer; // 0x20
+		::System::Int32 count; // 0x18
+		::System::Int32 hashCodeRandomizer; // 0x1C
+		::System::Int32 mask; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,35 +5,42 @@
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_SAVEPOINTSINFONOTIFY_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x18297990)
-#define PROTO_SAVEPOINTSINFONOTIFY_CLONE_OFFSET UNITYSDK_OFFSET(0x18297710)
-#define PROTO_SAVEPOINTSINFONOTIFY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18297810)
-#define PROTO_SAVEPOINTSINFONOTIFY_EQUALS_OFFSET UNITYSDK_OFFSET(0x182977A0)
-#define PROTO_SAVEPOINTSINFONOTIFY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18297870)
-#define PROTO_SAVEPOINTSINFONOTIFY_GET_REFRESHTIME_OFFSET UNITYSDK_OFFSET(0x18297760)
-#define PROTO_SAVEPOINTSINFONOTIFY_GET_VALIDTIMES_OFFSET UNITYSDK_OFFSET(0x18297780)
-#define PROTO_SAVEPOINTSINFONOTIFY_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18297B30)
-#define PROTO_SAVEPOINTSINFONOTIFY_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x18297AF0)
-#define PROTO_SAVEPOINTSINFONOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x182976B0)
-#define PROTO_SAVEPOINTSINFONOTIFY_SET_REFRESHTIME_OFFSET UNITYSDK_OFFSET(0x18297770)
-#define PROTO_SAVEPOINTSINFONOTIFY_SET_VALIDTIMES_OFFSET UNITYSDK_OFFSET(0x18297790)
-#define PROTO_SAVEPOINTSINFONOTIFY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x182978B0)
-#define PROTO_SAVEPOINTSINFONOTIFY_WRITETO_OFFSET UNITYSDK_OFFSET(0x18297910)
-#define PROTO_SAVEPOINTSINFONOTIFY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x182976D0)
-#define PROTO_SAVEPOINTSINFONOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x182976C0)
+#define PROTO_SAVEPOINTSINFONOTIFY_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x19357270)
+#define PROTO_SAVEPOINTSINFONOTIFY_CLONE_OFFSET UNITYSDK_OFFSET(0x19356FF0)
+#define PROTO_SAVEPOINTSINFONOTIFY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x193570F0)
+#define PROTO_SAVEPOINTSINFONOTIFY_EQUALS_OFFSET UNITYSDK_OFFSET(0x19357080)
+#define PROTO_SAVEPOINTSINFONOTIFY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19357150)
+#define PROTO_SAVEPOINTSINFONOTIFY_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19356F60)
+#define PROTO_SAVEPOINTSINFONOTIFY_GET_REFRESHTIME_OFFSET UNITYSDK_OFFSET(0x19357060)
+#define PROTO_SAVEPOINTSINFONOTIFY_GET_VALIDTIMES_OFFSET UNITYSDK_OFFSET(0x19357040)
+#define PROTO_SAVEPOINTSINFONOTIFY_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x19357420)
+#define PROTO_SAVEPOINTSINFONOTIFY_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x193573E0)
+#define PROTO_SAVEPOINTSINFONOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19356F90)
+#define PROTO_SAVEPOINTSINFONOTIFY_SET_REFRESHTIME_OFFSET UNITYSDK_OFFSET(0x19357070)
+#define PROTO_SAVEPOINTSINFONOTIFY_SET_VALIDTIMES_OFFSET UNITYSDK_OFFSET(0x19357050)
+#define PROTO_SAVEPOINTSINFONOTIFY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19357190)
+#define PROTO_SAVEPOINTSINFONOTIFY_WRITETO_OFFSET UNITYSDK_OFFSET(0x193571F0)
+#define PROTO_SAVEPOINTSINFONOTIFY__CCTOR_OFFSET UNITYSDK_OFFSET(0x193574A0)
+#define PROTO_SAVEPOINTSINFONOTIFY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19356FB0)
+#define PROTO_SAVEPOINTSINFONOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x19356FA0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SavePointsInfoNotify_TypeDefinitionIndex = 27070;
+	inline static constexpr unsigned int SavePointsInfoNotify_TypeDefinitionIndex = 32125;
 
 	class SavePointsInfoNotify : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 RefreshTimeFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 ValidTimesFieldNumber = 0x2; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::Proto::SavePointsInfoNotify*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::SavePointsInfoNotify*>**)Il2CppClass::FromTypeDefinitionIndex(SavePointsInfoNotify_TypeDefinitionIndex)->GetStaticField(0x65990);
+		}
+		// static const ::System::Int32 ValidTimesFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 RefreshTimeFieldNumber = 0x4; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::System::UInt32 validTimes_; // 0x18
 		::System::Int64 refreshTime_; // 0x20
@@ -48,6 +55,16 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::Proto::SavePointsInfoNotify*))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY__CTOR_1_OFFSET))(this, other);
 		}
 
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::SavePointsInfoNotify*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::SavePointsInfoNotify*>*(*)())((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_GET_PARSER_OFFSET))();
+		}
+
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
 		{
 			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
@@ -58,16 +75,6 @@ namespace Proto
 			return ((::Proto::SavePointsInfoNotify*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_CLONE_OFFSET))(this);
 		}
 
-		::System::Int64 get_RefreshTime()
-		{
-			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_GET_REFRESHTIME_OFFSET))(this);
-		}
-
-		::System::Void set_RefreshTime(::System::Int64 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_SET_REFRESHTIME_OFFSET))(this, value);
-		}
-
 		::System::UInt32 get_ValidTimes()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_GET_VALIDTIMES_OFFSET))(this);
@@ -76,6 +83,16 @@ namespace Proto
 		::System::Void set_ValidTimes(::System::UInt32 value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_SET_VALIDTIMES_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_RefreshTime()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_GET_REFRESHTIME_OFFSET))(this);
+		}
+
+		::System::Void set_RefreshTime(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_SAVEPOINTSINFONOTIFY_SET_REFRESHTIME_OFFSET))(this, value);
 		}
 
 		::System::Boolean Equals(::System::Object* other)

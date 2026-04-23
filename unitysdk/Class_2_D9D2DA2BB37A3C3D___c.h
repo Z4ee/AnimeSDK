@@ -7,32 +7,32 @@ namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_D9D2DA2BB37A3C3D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x116BA940)
-#define CLASS_2_D9D2DA2BB37A3C3D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x116BA980)
-#define CLASS_2_D9D2DA2BB37A3C3D___C___BUILDENTITIES_B__34_0_OFFSET UNITYSDK_OFFSET(0x116BAA00)
-#define CLASS_2_D9D2DA2BB37A3C3D___C___INITENV_B__19_0_OFFSET UNITYSDK_OFFSET(0x116BA9A0)
-#define CLASS_2_D9D2DA2BB37A3C3D___C___ONENTITYASYNCLOADCOMPLETE_B__18_0_OFFSET UNITYSDK_OFFSET(0x116BA990)
+#define CLASS_2_D9D2DA2BB37A3C3D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x935ACB0)
+#define CLASS_2_D9D2DA2BB37A3C3D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x935ACF0)
+#define CLASS_2_D9D2DA2BB37A3C3D___C___BUILDENTITIES_B__34_0_OFFSET UNITYSDK_OFFSET(0x935AD70)
+#define CLASS_2_D9D2DA2BB37A3C3D___C___INITENV_B__19_0_OFFSET UNITYSDK_OFFSET(0x935AD10)
+#define CLASS_2_D9D2DA2BB37A3C3D___C___ONENTITYASYNCLOADCOMPLETE_B__18_0_OFFSET UNITYSDK_OFFSET(0x935AD00)
 
-inline static constexpr unsigned int Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex = 48910;
+inline static constexpr unsigned int Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex = 55702;
 
 class Class_2_D9D2DA2BB37A3C3D___c : public ::System::Object
 {
 public:
+	static ::Class_2_D9D2DA2BB37A3C3D___c** StaticGet___9()
+	{
+		return (::Class_2_D9D2DA2BB37A3C3D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x6ACD0);
+	}
 	static ::System::Action** StaticGet___9__18_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x31B30);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x6ACD8);
 	}
 	static ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate** StaticGet___9__19_0()
 	{
-		return (::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x31B38);
-	}
-	static ::Class_2_D9D2DA2BB37A3C3D___c** StaticGet___9()
-	{
-		return (::Class_2_D9D2DA2BB37A3C3D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x31B40);
+		return (::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x6ACE0);
 	}
 	static ::System::Comparison_1<::RPG::GameCore::LittleGameEntityConfig*>** StaticGet___9__34_0()
 	{
-		return (::System::Comparison_1<::RPG::GameCore::LittleGameEntityConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x31B48);
+		return (::System::Comparison_1<::RPG::GameCore::LittleGameEntityConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D9D2DA2BB37A3C3D___c_TypeDefinitionIndex)->GetStaticField(0x6ACE8);
 	}
 
 	static ::System::Void _cctor()

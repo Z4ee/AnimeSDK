@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int MaskingTypes_TypeDefinitionIndex = 34385;
+	inline static constexpr unsigned int MaskingTypes_TypeDefinitionIndex = 40204;
 
 	enum class MaskingTypes : ::System::Int32
 	{

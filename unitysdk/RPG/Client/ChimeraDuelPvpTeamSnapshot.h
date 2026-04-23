@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_766E1CF11E204F43_3;
 class Class_1_85AE2DC43E9AF910;
-class Class_1_D8EAED2BCF3F4D39_4;
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_EXPORTBATTLESETUP_OFFSET UNITYSDK_OFFSET(0x93B3BB0)
-#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_GET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0x93B3B70)
-#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_GET_MASTERID_OFFSET UNITYSDK_OFFSET(0x93B3B90)
-#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_SET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0x93B3B80)
-#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_SET_MASTERID_OFFSET UNITYSDK_OFFSET(0x93B3BA0)
-#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x93B3020)
+#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_EXPORTBATTLESETUP_OFFSET UNITYSDK_OFFSET(0xA021BD0)
+#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_GET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0xA021B90)
+#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_GET_MASTERID_OFFSET UNITYSDK_OFFSET(0xA021BB0)
+#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_SET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0xA021BA0)
+#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT_SET_MASTERID_OFFSET UNITYSDK_OFFSET(0xA021BC0)
+#define RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0xA021030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelPvpTeamSnapshot_TypeDefinitionIndex = 51369;
+	inline static constexpr unsigned int ChimeraDuelPvpTeamSnapshot_TypeDefinitionIndex = 58307;
 
 	class ChimeraDuelPvpTeamSnapshot : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _Chimeras_k__BackingField; // 0x10
 		::System::UInt32 _MasterID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::Class_1_D8EAED2BCF3F4D39_4* lineup, ::RPG::GameCore::ChimeraDuelTeamType teamType)
+		::System::Void _ctor(::Class_1_766E1CF11E204F43_3* lineup, ::RPG::GameCore::ChimeraDuelTeamType teamType)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D8EAED2BCF3F4D39_4*, ::RPG::GameCore::ChimeraDuelTeamType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT__CTOR_OFFSET))(this, lineup, teamType);
+			return ((::System::Void(*)(::PVOID, ::Class_1_766E1CF11E204F43_3*, ::RPG::GameCore::ChimeraDuelTeamType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELPVPTEAMSNAPSHOT__CTOR_OFFSET))(this, lineup, teamType);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* get_Chimeras()

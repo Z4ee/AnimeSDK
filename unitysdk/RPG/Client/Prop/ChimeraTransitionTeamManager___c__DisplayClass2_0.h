@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERATRANSITIONTEAMMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA069750)
-#define RPG_CLIENT_PROP_CHIMERATRANSITIONTEAMMANAGER___C__DISPLAYCLASS2_0__FILLPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0xA06A5C0)
+#define RPG_CLIENT_PROP_CHIMERATRANSITIONTEAMMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADE7FF0)
+#define RPG_CLIENT_PROP_CHIMERATRANSITIONTEAMMANAGER___C__DISPLAYCLASS2_0__FILLPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0xADE8E60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraTransitionTeamManager___c__DisplayClass2_0_TypeDefinitionIndex = 63883;
+	inline static constexpr unsigned int ChimeraTransitionTeamManager___c__DisplayClass2_0_TypeDefinitionIndex = 71930;
 
 	class ChimeraTransitionTeamManager___c__DisplayClass2_0 : public ::System::Object
 	{

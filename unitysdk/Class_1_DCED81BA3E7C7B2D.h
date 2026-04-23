@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class SpecialNPCDataRow; }
 namespace System { class String; }
 
-#define CLASS_1_DCED81BA3E7C7B2D__CTOR_OFFSET UNITYSDK_OFFSET(0x116A4320)
+#define CLASS_1_DCED81BA3E7C7B2D__CTOR_OFFSET UNITYSDK_OFFSET(0x11AA9260)
 
-inline static constexpr unsigned int Class_1_DCED81BA3E7C7B2D_TypeDefinitionIndex = 55594;
+inline static constexpr unsigned int Class_1_DCED81BA3E7C7B2D_TypeDefinitionIndex = 62789;
 
 class Class_1_DCED81BA3E7C7B2D : public ::System::Object
 {

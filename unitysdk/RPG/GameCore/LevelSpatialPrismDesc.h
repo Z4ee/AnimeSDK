@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELSPATIALPRISMDESC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1734CCA0)
-#define RPG_GAMECORE_LEVELSPATIALPRISMDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x1734CCE0)
+#define RPG_GAMECORE_LEVELSPATIALPRISMDESC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A5A980)
+#define RPG_GAMECORE_LEVELSPATIALPRISMDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5A9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSpatialPrismDesc_TypeDefinitionIndex = 15796;
+	inline static constexpr unsigned int LevelSpatialPrismDesc_TypeDefinitionIndex = 16322;
 
 	class LevelSpatialPrismDesc : public ::RPG::GameCore::JsonConfig
 	{

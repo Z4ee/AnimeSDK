@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x16397C20)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x16397B50)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x16397BB0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x16397AF0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163988B0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x179C46B0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x179C45E0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x179C4640)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x179C4580)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x179C5340)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1204;
+	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1206;
 
 	class ChannelData : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* _serverProviders; // 0x10
-		::System::Collections::ArrayList* _clientProviders; // 0x18
-		::System::String* Id; // 0x20
-		::System::String* Ref; // 0x28
-		::System::Collections::Hashtable* _customProperties; // 0x30
-		::System::String* Type; // 0x38
-		::System::String* DelayLoadAsClientChannel; // 0x40
+		::System::String* Id; // 0x10
+		::System::Collections::Hashtable* _customProperties; // 0x18
+		::System::String* Ref; // 0x20
+		::System::String* DelayLoadAsClientChannel; // 0x28
+		::System::String* Type; // 0x30
+		::System::Collections::ArrayList* _clientProviders; // 0x38
+		::System::Collections::ArrayList* _serverProviders; // 0x40
 
 		::System::Void _ctor()
 		{

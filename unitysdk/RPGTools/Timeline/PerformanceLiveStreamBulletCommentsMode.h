@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamBulletCommentsMode_TypeDefinitionIndex = 39009;
+	inline static constexpr unsigned int PerformanceLiveStreamBulletCommentsMode_TypeDefinitionIndex = 44912;
 
 	enum class PerformanceLiveStreamBulletCommentsMode : ::System::Int32
 	{

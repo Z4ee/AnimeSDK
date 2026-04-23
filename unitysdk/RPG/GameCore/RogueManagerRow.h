@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17618870)
-#define RPG_GAMECORE_ROGUEMANAGERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17618F60)
+#define RPG_GAMECORE_ROGUEMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D26080)
+#define RPG_GAMECORE_ROGUEMANAGERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D26770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueManagerRow_TypeDefinitionIndex = 13441;
+	inline static constexpr unsigned int RogueManagerRow_TypeDefinitionIndex = 13914;
 
 	class RogueManagerRow : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::GameCore
 		::System::String* BeginTime; // 0x10
 		::Il2CppArray<::System::UInt32>* RogueAreaIDList; // 0x18
 		::System::String* EndTime; // 0x20
-		::System::UInt32 ScheduleDataID; // 0x28
-		::System::UInt32 RogueSeason; // 0x2C
-		::System::UInt32 RogueVersion; // 0x30
+		::System::UInt32 RogueSeason; // 0x28
+		::System::UInt32 RogueVersion; // 0x2C
+		::System::UInt32 ScheduleDataID; // 0x30
 
 		::System::Void _ctor()
 		{

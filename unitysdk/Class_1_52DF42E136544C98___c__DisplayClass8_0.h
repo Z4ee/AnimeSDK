@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_52DF42E136544C98___C__DISPLAYCLASS8_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x11386830)
-#define CLASS_1_52DF42E136544C98___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x113866F0)
+#define CLASS_1_52DF42E136544C98___C__DISPLAYCLASS8_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xB209FE0)
+#define CLASS_1_52DF42E136544C98___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB209E90)
 
-inline static constexpr unsigned int Class_1_52DF42E136544C98___c__DisplayClass8_0_TypeDefinitionIndex = 58448;
+inline static constexpr unsigned int Class_1_52DF42E136544C98___c__DisplayClass8_0_TypeDefinitionIndex = 65742;
 
 class Class_1_52DF42E136544C98___c__DisplayClass8_0 : public ::System::Object
 {

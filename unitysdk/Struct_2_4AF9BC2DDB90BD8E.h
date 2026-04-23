@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_4AF9BC2DDB90BD8E_METHOD_2_9DB2C80C0CD4760B_OFFSET UNITYSDK_OFFSET(0x78D50)
+#define STRUCT_2_4AF9BC2DDB90BD8E_METHOD_2_9DB2C80C0CD4760B_OFFSET UNITYSDK_OFFSET(0x15A9CB0)
 
-inline static constexpr unsigned int Struct_2_4AF9BC2DDB90BD8E_TypeDefinitionIndex = 45274;
+inline static constexpr unsigned int Struct_2_4AF9BC2DDB90BD8E_TypeDefinitionIndex = 49460;
 
 struct alignas(8) Struct_2_4AF9BC2DDB90BD8E
 {

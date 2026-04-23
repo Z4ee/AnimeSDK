@@ -5,20 +5,20 @@
 #include "unitysdk/Struct_2_3A335394524C9E44.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_336;
+class Class_0_16E4307DCC419505_343;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define STRUCT_2_5909FD7779934CCA__CCTOR_OFFSET UNITYSDK_OFFSET(0x114A72B0)
+#define STRUCT_2_5909FD7779934CCA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B8AE90)
 
-inline static constexpr unsigned int Struct_2_5909FD7779934CCA_TypeDefinitionIndex = 46548;
+inline static constexpr unsigned int Struct_2_5909FD7779934CCA_TypeDefinitionIndex = 53238;
 
 struct alignas(8) Struct_2_5909FD7779934CCA
 {
 	static ::Struct_2_5909FD7779934CCA* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_5909FD7779934CCA*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5909FD7779934CCA_TypeDefinitionIndex)->GetStaticField(0xEF50);
+		return (::Struct_2_5909FD7779934CCA*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5909FD7779934CCA_TypeDefinitionIndex)->GetStaticField(0x27720);
 	}
 	::System::Boolean Field_2_1; // 0x10
 	::System::Boolean Field_2_2; // 0x11
@@ -40,7 +40,7 @@ struct alignas(8) Struct_2_5909FD7779934CCA
 	::System::Boolean Field_2_18; // 0x2D
 	::System::String* Field_2_19; // 0x30
 	::RPG::GameCore::GameEntity* Field_2_20; // 0x38
-	::Class_0_16E4307DCC419505_336* Field_2_21; // 0x40
+	::Class_0_16E4307DCC419505_343* Field_2_21; // 0x40
 	::RPG::GameCore::GameEntity* Field_2_22; // 0x48
 	::RPG::GameCore::JsonEnum* Field_2_23; // 0x50
 	::System::Boolean Field_2_24; // 0x58

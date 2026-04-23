@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class DebugInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20FB6A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x72D10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22CE2B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x743C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InterpretedFrameInfo_TypeDefinitionIndex = 3468;
+	inline static constexpr unsigned int InterpretedFrameInfo_TypeDefinitionIndex = 3470;
 
 	struct alignas(8) InterpretedFrameInfo
 	{

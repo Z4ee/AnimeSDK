@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaypointType_TypeDefinitionIndex = 10029;
+	inline static constexpr unsigned int WaypointType_TypeDefinitionIndex = 10220;
 
 	enum class WaypointType : ::System::Int32
 	{

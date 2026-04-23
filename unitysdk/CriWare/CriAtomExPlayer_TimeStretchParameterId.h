@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayer_TimeStretchParameterId_TypeDefinitionIndex = 31084;
+	inline static constexpr unsigned int CriAtomExPlayer_TimeStretchParameterId_TypeDefinitionIndex = 36804;
 
 	enum class CriAtomExPlayer_TimeStretchParameterId : ::System::Int32
 	{

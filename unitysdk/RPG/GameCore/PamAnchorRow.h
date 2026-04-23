@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMANCHORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17486A60)
-#define RPG_GAMECORE_PAMANCHORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17486C60)
+#define RPG_GAMECORE_PAMANCHORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD01A0)
+#define RPG_GAMECORE_PAMANCHORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD03A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamAnchorRow_TypeDefinitionIndex = 13104;
+	inline static constexpr unsigned int PamAnchorRow_TypeDefinitionIndex = 13564;
 
 	class PamAnchorRow : public ::System::Object
 	{

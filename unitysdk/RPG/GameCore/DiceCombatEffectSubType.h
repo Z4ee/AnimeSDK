@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatEffectSubType_TypeDefinitionIndex = 14731;
+	inline static constexpr unsigned int DiceCombatEffectSubType_TypeDefinitionIndex = 15201;
 
 	enum class DiceCombatEffectSubType : ::System::Int32
 	{

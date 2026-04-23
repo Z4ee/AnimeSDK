@@ -7,7 +7,7 @@
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 
-inline static constexpr unsigned int Struct_2_8753CC6334E73CD4_TypeDefinitionIndex = 22590;
+inline static constexpr unsigned int Struct_2_8753CC6334E73CD4_TypeDefinitionIndex = 23563;
 
 struct alignas(8) Struct_2_8753CC6334E73CD4
 {

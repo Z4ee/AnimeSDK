@@ -14,32 +14,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_SKIN_ADDSKIN_OFFSET UNITYSDK_OFFSET(0x183E2940)
-#define SPINE_SKIN_ATTACHALL_OFFSET UNITYSDK_OFFSET(0x183B1510)
-#define SPINE_SKIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x183E34B0)
-#define SPINE_SKIN_COPYSKIN_OFFSET UNITYSDK_OFFSET(0x183E2D90)
-#define SPINE_SKIN_GETATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x183E32D0)
-#define SPINE_SKIN_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x183B1830)
-#define SPINE_SKIN_GET_ATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x183B0510)
-#define SPINE_SKIN_GET_BONES_OFFSET UNITYSDK_OFFSET(0x183E2800)
-#define SPINE_SKIN_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x183E2810)
-#define SPINE_SKIN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x183E27F0)
-#define SPINE_SKIN_REMOVEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x183E3270)
-#define SPINE_SKIN_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x183BECE0)
-#define SPINE_SKIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x183E3590)
-#define SPINE_SKIN__CTOR_OFFSET UNITYSDK_OFFSET(0x183BDCC0)
+#define SPINE_SKIN_ADDSKIN_OFFSET UNITYSDK_OFFSET(0x19E1D530)
+#define SPINE_SKIN_ATTACHALL_OFFSET UNITYSDK_OFFSET(0x19DEC1B0)
+#define SPINE_SKIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x19E1E0A0)
+#define SPINE_SKIN_COPYSKIN_OFFSET UNITYSDK_OFFSET(0x19E1D980)
+#define SPINE_SKIN_GETATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x19E1DEC0)
+#define SPINE_SKIN_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x19DEC4D0)
+#define SPINE_SKIN_GET_ATTACHMENTS_OFFSET UNITYSDK_OFFSET(0x19DEB1E0)
+#define SPINE_SKIN_GET_BONES_OFFSET UNITYSDK_OFFSET(0x19E1D3F0)
+#define SPINE_SKIN_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x19E1D400)
+#define SPINE_SKIN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19E1D3E0)
+#define SPINE_SKIN_REMOVEATTACHMENT_OFFSET UNITYSDK_OFFSET(0x19E1DE60)
+#define SPINE_SKIN_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x19DF9890)
+#define SPINE_SKIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19E1E180)
+#define SPINE_SKIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF8870)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_TypeDefinitionIndex = 30738;
+	inline static constexpr unsigned int Skin_TypeDefinitionIndex = 36458;
 
 	class Skin : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::Spine::Skin_SkinKey, ::Spine::Skin_SkinEntry>* attachments; // 0x10
-		::System::String* name; // 0x18
-		::Spine::ExposedList_1<::Spine::ConstraintData*>* constraints; // 0x20
-		::Spine::ExposedList_1<::Spine::BoneData*>* bones; // 0x28
+		::Spine::ExposedList_1<::Spine::BoneData*>* bones; // 0x10
+		::Spine::ExposedList_1<::Spine::ConstraintData*>* constraints; // 0x18
+		::System::Collections::Generic::Dictionary_2<::Spine::Skin_SkinKey, ::Spine::Skin_SkinEntry>* attachments; // 0x20
+		::System::String* name; // 0x28
 
 		::System::Void _ctor(::System::String* name)
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QteCatchGhostRewindInstance_RewindPhase_TypeDefinitionIndex = 48813;
+	inline static constexpr unsigned int QteCatchGhostRewindInstance_RewindPhase_TypeDefinitionIndex = 55577;
 
 	enum class QteCatchGhostRewindInstance_RewindPhase : ::System::Int32
 	{

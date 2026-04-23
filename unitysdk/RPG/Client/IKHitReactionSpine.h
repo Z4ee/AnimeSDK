@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_IKHITREACTIONSPINE__CTOR_OFFSET UNITYSDK_OFFSET(0x9936370)
+#define RPG_CLIENT_IKHITREACTIONSPINE__CTOR_OFFSET UNITYSDK_OFFSET(0xA620FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 55887;
+	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 63121;
 
 	class IKHitReactionSpine : public ::System::Object
 	{

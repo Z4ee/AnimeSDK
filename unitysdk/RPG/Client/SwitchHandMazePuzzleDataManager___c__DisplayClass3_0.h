@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class SwitchHandMazePuzzleRowWrapper; }
 
-#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FDD00)
-#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS3_0__GETMAZEPUZZLEROWWRAPPER_B__0_OFFSET UNITYSDK_OFFSET(0xA4FE8D0)
+#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F01B0)
+#define RPG_CLIENT_SWITCHHANDMAZEPUZZLEDATAMANAGER___C__DISPLAYCLASS3_0__GETMAZEPUZZLEROWWRAPPER_B__0_OFFSET UNITYSDK_OFFSET(0xB1F0D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandMazePuzzleDataManager___c__DisplayClass3_0_TypeDefinitionIndex = 55497;
+	inline static constexpr unsigned int SwitchHandMazePuzzleDataManager___c__DisplayClass3_0_TypeDefinitionIndex = 62691;
 
 	class SwitchHandMazePuzzleDataManager___c__DisplayClass3_0 : public ::System::Object
 	{

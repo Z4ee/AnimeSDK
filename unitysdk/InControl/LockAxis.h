@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int LockAxis_TypeDefinitionIndex = 31460;
+	inline static constexpr unsigned int LockAxis_TypeDefinitionIndex = 37180;
 
 	enum class LockAxis : ::System::Int32
 	{

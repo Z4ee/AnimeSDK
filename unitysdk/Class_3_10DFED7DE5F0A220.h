@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TargetFetchAdvLocalPlayer; }
+namespace RPG::GameCore { class TargetFetchElationTimeSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_10DFED7DE5F0A220_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF37C280)
-#define CLASS_3_10DFED7DE5F0A220__CTOR_OFFSET UNITYSDK_OFFSET(0xF37C200)
+#define CLASS_3_10DFED7DE5F0A220_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9A181A0)
+#define CLASS_3_10DFED7DE5F0A220__CTOR_OFFSET UNITYSDK_OFFSET(0x9A18100)
 
-inline static constexpr unsigned int Class_3_10DFED7DE5F0A220_TypeDefinitionIndex = 47746;
+inline static constexpr unsigned int Class_3_10DFED7DE5F0A220_TypeDefinitionIndex = 54588;
 
-class Class_3_10DFED7DE5F0A220 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAdvLocalPlayer*>
+class Class_3_10DFED7DE5F0A220 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchElationTimeSource*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TargetFetchAdvLocalPlayer* a1)
+	::System::Void _ctor(::RPG::GameCore::TargetFetchElationTimeSource* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + CLASS_3_10DFED7DE5F0A220__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchElationTimeSource*))((::PBYTE)hIl2Cpp + CLASS_3_10DFED7DE5F0A220__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

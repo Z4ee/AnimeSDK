@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ContextType_TypeDefinitionIndex = 5850;
+	inline static constexpr unsigned int ContextType_TypeDefinitionIndex = 5862;
 
 	enum class ContextType : ::System::Int32
 	{

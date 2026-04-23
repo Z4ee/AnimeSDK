@@ -5,7 +5,7 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_117_TypeDefinitionIndex = 33671;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_117_TypeDefinitionIndex = 39472;
 
 class Class_0_16E4307DCC419505_117
 {

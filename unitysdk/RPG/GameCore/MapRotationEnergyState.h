@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationEnergyState_TypeDefinitionIndex = 19252;
+	inline static constexpr unsigned int MapRotationEnergyState_TypeDefinitionIndex = 19911;
 
 	enum class MapRotationEnergyState : ::System::Int32
 	{

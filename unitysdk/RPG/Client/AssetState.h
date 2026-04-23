@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssetState_TypeDefinitionIndex = 31954;
+	inline static constexpr unsigned int AssetState_TypeDefinitionIndex = 37674;
 
 	enum class AssetState : ::System::Int32
 	{

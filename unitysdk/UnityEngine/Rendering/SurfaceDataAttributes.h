@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x188ECB90)
-#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x188ECB20)
+#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A326910)
+#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3268A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SurfaceDataAttributes_TypeDefinitionIndex = 27862;
+	inline static constexpr unsigned int SurfaceDataAttributes_TypeDefinitionIndex = 33486;
 
 	class SurfaceDataAttributes : public ::System::Attribute
 	{

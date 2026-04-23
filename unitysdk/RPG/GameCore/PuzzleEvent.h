@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleEvent_TypeDefinitionIndex = 19743;
+	inline static constexpr unsigned int PuzzleEvent_TypeDefinitionIndex = 20424;
 
 	enum class PuzzleEvent : ::System::Int32
 	{

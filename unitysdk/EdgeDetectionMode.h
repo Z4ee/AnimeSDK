@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EdgeDetectionMode_TypeDefinitionIndex = 38380;
+inline static constexpr unsigned int EdgeDetectionMode_TypeDefinitionIndex = 44264;
 
 enum class EdgeDetectionMode : ::System::Int32
 {

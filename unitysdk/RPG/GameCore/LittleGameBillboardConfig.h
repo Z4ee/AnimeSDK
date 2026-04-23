@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_3E192A0159270300_OFFSET UNITYSDK_OFFSET(0x17354710)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_C80F1CBFD56A2798_OFFSET UNITYSDK_OFFSET(0x173547B0)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x17354B20)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17354790)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_3E192A0159270300_OFFSET UNITYSDK_OFFSET(0x18A62220)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_C80F1CBFD56A2798_OFFSET UNITYSDK_OFFSET(0x18A622C0)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A62630)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A622A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 17284;
+	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 17892;
 
 	class LittleGameBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		static ::RPG::GameCore::LittleGameBillboardConfig** StaticGet_DefaultBillboardConfig()
 		{
-			return (::RPG::GameCore::LittleGameBillboardConfig**)Il2CppClass::FromTypeDefinitionIndex(LittleGameBillboardConfig_TypeDefinitionIndex)->GetStaticField(0x26300);
+			return (::RPG::GameCore::LittleGameBillboardConfig**)Il2CppClass::FromTypeDefinitionIndex(LittleGameBillboardConfig_TypeDefinitionIndex)->GetStaticField(0x41920);
 		}
 		::System::Boolean IsBillboard; // 0x10
 		::System::Boolean ShowName; // 0x11

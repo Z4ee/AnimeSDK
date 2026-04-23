@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER_OBB__CTOR_OFFSET UNITYSDK_OFFSET(0x7F260)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER_OBB__CTOR_OFFSET UNITYSDK_OFFSET(0xD7B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GpuParticleOccluder_OBB_TypeDefinitionIndex = 57088;
+	inline static constexpr unsigned int GpuParticleOccluder_OBB_TypeDefinitionIndex = 64339;
 
 	struct alignas(8) GpuParticleOccluder_OBB
 	{

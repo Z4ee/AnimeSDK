@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x160415E0)
-#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16041610)
-#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16041330)
-#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16041310)
+#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x176A5FB0)
+#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x176A6000)
+#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x176A5C50)
+#define MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x176A5C30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_QueryIsOffScreenRenderingDelegate_TypeDefinitionIndex = 6860;
+	inline static constexpr unsigned int WebDelegate_QueryIsOffScreenRenderingDelegate_TypeDefinitionIndex = 6902;
 
 	class WebDelegate_QueryIsOffScreenRenderingDelegate : public ::System::MulticastDelegate
 	{
@@ -23,14 +23,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Boolean Invoke()
+		::System::Boolean Invoke(::System::Boolean forceOffScreen)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_INVOKE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_INVOKE_OFFSET))(this, forceOffScreen);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Boolean forceOffScreen, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_QUERYISOFFSCREENRENDERINGDELEGATE_BEGININVOKE_OFFSET))(this, forceOffScreen, callback, object);
 		}
 
 		::System::Boolean EndInvoke(::System::IAsyncResult* result)

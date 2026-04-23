@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define CLASS_3_8FE15D155B05EF4E__CTOR_OFFSET UNITYSDK_OFFSET(0x109FE270)
+#define CLASS_3_8FE15D155B05EF4E__CTOR_OFFSET UNITYSDK_OFFSET(0x9846FC0)
 
-inline static constexpr unsigned int Class_3_8FE15D155B05EF4E_TypeDefinitionIndex = 38344;
+inline static constexpr unsigned int Class_3_8FE15D155B05EF4E_TypeDefinitionIndex = 44228;
 
 class Class_3_8FE15D155B05EF4E : public ::RPG::Client::TABehaviorBase
 {

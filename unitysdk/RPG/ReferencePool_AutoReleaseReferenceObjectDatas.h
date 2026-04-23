@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectDatas_TypeDefinitionIndex = 6386;
+	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectDatas_TypeDefinitionIndex = 6419;
 
 	struct alignas(8) ReferencePool_AutoReleaseReferenceObjectDatas
 	{

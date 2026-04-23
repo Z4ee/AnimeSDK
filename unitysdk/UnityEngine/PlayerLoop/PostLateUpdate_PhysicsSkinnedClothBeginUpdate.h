@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_PhysicsSkinnedClothBeginUpdate_TypeDefinitionIndex = 4473;
+	inline static constexpr unsigned int PostLateUpdate_PhysicsSkinnedClothBeginUpdate_TypeDefinitionIndex = 4475;
 
 	struct alignas(1) PostLateUpdate_PhysicsSkinnedClothBeginUpdate
 	{

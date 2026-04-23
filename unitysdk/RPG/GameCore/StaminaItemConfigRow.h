@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAMINAITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17770A70)
-#define RPG_GAMECORE_STAMINAITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17771130)
+#define RPG_GAMECORE_STAMINAITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E96610)
+#define RPG_GAMECORE_STAMINAITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E96CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StaminaItemConfigRow_TypeDefinitionIndex = 13244;
+	inline static constexpr unsigned int StaminaItemConfigRow_TypeDefinitionIndex = 13706;
 
 	class StaminaItemConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SortWeight; // 0x10
-		::System::UInt32 ItemID; // 0x14
-		::System::Boolean IsAlwaysShown; // 0x18
-		::RPG::Client::TextID Desc; // 0x20
+		::System::UInt32 ItemID; // 0x10
+		::RPG::Client::TextID Desc; // 0x18
+		::System::UInt32 SortWeight; // 0x28
+		::System::Boolean IsAlwaysShown; // 0x2C
 
 		::System::Void _ctor()
 		{

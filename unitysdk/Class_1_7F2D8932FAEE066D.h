@@ -4,27 +4,27 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_9C2F1FCEC1A75FFD;
+class Class_2_1A8148841049062A;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_7F2D8932FAEE066D__CTOR_OFFSET UNITYSDK_OFFSET(0x1691E8B0)
+#define CLASS_1_7F2D8932FAEE066D__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1B340)
 
-inline static constexpr unsigned int Class_1_7F2D8932FAEE066D_TypeDefinitionIndex = 33265;
+inline static constexpr unsigned int Class_1_7F2D8932FAEE066D_TypeDefinitionIndex = 39052;
 
 class Class_1_7F2D8932FAEE066D : public ::System::Object
 {
 public:
 	::UnityEngine::Transform* Field_1_9; // 0x10
-	::Class_2_9C2F1FCEC1A75FFD* Field_1_0; // 0x18
-	::UnityEngine::Vector2 Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x28
-	::System::Single Field_1_5; // 0x2C
-	::System::Boolean Field_1_4; // 0x30
-	::System::Boolean Field_1_8; // 0x31
-	::System::Boolean Field_1_1; // 0x32
-	::System::Single Field_1_6; // 0x34
-	::System::Single Field_1_7; // 0x38
-	::UnityEngine::Vector3 Field_1_10; // 0x3C
+	::Class_2_1A8148841049062A* Field_1_0; // 0x18
+	::System::Single Field_1_7; // 0x20
+	::System::Single Field_1_6; // 0x24
+	::UnityEngine::Vector2 Field_1_2; // 0x28
+	::System::Boolean Field_1_8; // 0x30
+	::System::Boolean Field_1_1; // 0x31
+	::System::Boolean Field_1_4; // 0x32
+	::UnityEngine::Vector3 Field_1_10; // 0x34
+	::System::Single Field_1_5; // 0x40
+	::System::Single Field_1_3; // 0x44
 
 	::System::Void _ctor()
 	{

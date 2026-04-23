@@ -8,13 +8,14 @@
 
 class Class_1_5F51D4049EA87B7B;
 namespace RPG { template <typename T> class PoolList_1; }
+namespace RPG::GameCore { class ActionBarUIConfig; }
 namespace RPG::GameCore { class ConditionPriority; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_3_TypeDefinitionIndex = 45071;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_3_TypeDefinitionIndex = 51821;
 
 struct alignas(8) Struct_2_52A902145F5BE513_3
 {
@@ -38,4 +39,5 @@ struct alignas(8) Struct_2_52A902145F5BE513_3
 	::Class_1_5F51D4049EA87B7B* Field_2_17; // 0x60
 	::System::Boolean Field_2_18; // 0x68
 	::Il2CppArray<::RPG::GameCore::JsonEnum*>* Field_2_19; // 0x70
+	::RPG::GameCore::ActionBarUIConfig* Field_2_20; // 0x78
 };

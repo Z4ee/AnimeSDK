@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E9C530)
-#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E9CB20)
+#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x185FCE00)
+#define RPG_GAMECORE_ACTIONPOINTOVERDRAWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x185FD3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionPointOverdrawRow_TypeDefinitionIndex = 13519;
+	inline static constexpr unsigned int ActionPointOverdrawRow_TypeDefinitionIndex = 13992;
 
 	class ActionPointOverdrawRow : public ::System::Object
 	{

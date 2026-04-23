@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MainMissionSortedItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAINMISSIONPERFORMANCECONFIG_METHOD_2_E737FFF2FD24484C_OFFSET UNITYSDK_OFFSET(0x17374F20)
-#define RPG_GAMECORE_MAINMISSIONPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17375030)
+#define RPG_GAMECORE_MAINMISSIONPERFORMANCECONFIG_METHOD_2_E737FFF2FD24484C_OFFSET UNITYSDK_OFFSET(0x18A82CA0)
+#define RPG_GAMECORE_MAINMISSIONPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A82DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionPerformanceConfig_TypeDefinitionIndex = 17444;
+	inline static constexpr unsigned int MainMissionPerformanceConfig_TypeDefinitionIndex = 18053;
 
 	class MainMissionPerformanceConfig : public ::RPG::GameCore::JsonConfig
 	{

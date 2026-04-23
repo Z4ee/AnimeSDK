@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExAcf_AcfDspBusLinkType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPBUSLINKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14EE7B0)
+#define CRIWARE_CRIATOMEXACF_ACFDSPBUSLINKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1622C40)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkInfo_TypeDefinitionIndex = 31053;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkInfo_TypeDefinitionIndex = 36773;
 
 	struct alignas(4) CriAtomExAcf_AcfDspBusLinkInfo
 	{

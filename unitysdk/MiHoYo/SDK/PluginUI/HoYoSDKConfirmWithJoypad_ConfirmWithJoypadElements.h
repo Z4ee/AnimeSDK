@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKConfirmWithJoypad_ConfirmWithJoypadElements_TypeDefinitionIndex = 37429;
+	inline static constexpr unsigned int HoYoSDKConfirmWithJoypad_ConfirmWithJoypadElements_TypeDefinitionIndex = 43306;
 
 	class HoYoSDKConfirmWithJoypad_ConfirmWithJoypadElements : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchMascotSetHudActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F1AEA0AAC0FF551E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8AB9300)
-#define CLASS_3_F1AEA0AAC0FF551E__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB92D0)
+#define CLASS_3_F1AEA0AAC0FF551E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC71A860)
+#define CLASS_3_F1AEA0AAC0FF551E__CTOR_OFFSET UNITYSDK_OFFSET(0xC71A830)
 
-inline static constexpr unsigned int Class_3_F1AEA0AAC0FF551E_TypeDefinitionIndex = 47428;
+inline static constexpr unsigned int Class_3_F1AEA0AAC0FF551E_TypeDefinitionIndex = 54163;
 
 class Class_3_F1AEA0AAC0FF551E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchMascotSetHudActive*>
 {

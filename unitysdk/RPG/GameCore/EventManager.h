@@ -4,23 +4,23 @@
 #include "unitysdk/Struct_2_2F6AC431AAB2D4A6.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_382;
 namespace Collections::Pooled { template <typename T> class PooledList_1; }
 namespace RPG::GameCore { class OnEventCallBack; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_GAMECORE_EVENTMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA920BE0)
-#define RPG_GAMECORE_EVENTMANAGER_FIREEVENT_OFFSET UNITYSDK_OFFSET(0xA920DA0)
-#define RPG_GAMECORE_EVENTMANAGER_GETEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xA921180)
-#define RPG_GAMECORE_EVENTMANAGER_REGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xA915840)
-#define RPG_GAMECORE_EVENTMANAGER_RELEASEEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xA921210)
-#define RPG_GAMECORE_EVENTMANAGER_UNREGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xA9159D0)
-#define RPG_GAMECORE_EVENTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA921290)
+#define RPG_GAMECORE_EVENTMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB66BB20)
+#define RPG_GAMECORE_EVENTMANAGER_FIREEVENT_OFFSET UNITYSDK_OFFSET(0xB66BCE0)
+#define RPG_GAMECORE_EVENTMANAGER_GETEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xB66C0C0)
+#define RPG_GAMECORE_EVENTMANAGER_REGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xB6600D0)
+#define RPG_GAMECORE_EVENTMANAGER_RELEASEEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xB66C150)
+#define RPG_GAMECORE_EVENTMANAGER_UNREGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xB660260)
+#define RPG_GAMECORE_EVENTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB66C1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EventManager_TypeDefinitionIndex = 45589;
+	inline static constexpr unsigned int EventManager_TypeDefinitionIndex = 52239;
 
 	class EventManager : public ::System::Object
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void FireEvent(::Class_0_16E4307DCC419505_375* pEvent)
+		::System::Void FireEvent(::Class_0_16E4307DCC419505_382* pEvent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTMANAGER_FIREEVENT_OFFSET))(this, pEvent);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTMANAGER_FIREEVENT_OFFSET))(this, pEvent);
 		}
 
 		::System::Void RegisterEventListener(::RPG::GameCore::EventType eType, ::System::UInt32 nSourceRuntimeID, ::RPG::GameCore::OnEventCallBack* pCallBack)

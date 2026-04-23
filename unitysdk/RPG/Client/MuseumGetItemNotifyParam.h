@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class MuseumExhibitItemData; }
 
-#define RPG_CLIENT_MUSEUMGETITEMNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB8C90)
+#define RPG_CLIENT_MUSEUMGETITEMNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xAAFFEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumGetItemNotifyParam_TypeDefinitionIndex = 53964;
+	inline static constexpr unsigned int MuseumGetItemNotifyParam_TypeDefinitionIndex = 61109;
 
 	class MuseumGetItemNotifyParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::MuseumExhibitItemData* ItemData; // 0x10
-		::System::UInt32 RewardTargetID; // 0x18
-		::System::Boolean ShowRenewProgress; // 0x1C
+		::System::Boolean ShowRenewProgress; // 0x18
+		::System::UInt32 RewardTargetID; // 0x1C
 
 		::System::Void _ctor()
 		{

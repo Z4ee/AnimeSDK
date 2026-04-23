@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGENCHANTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170851F0)
-#define RPG_GAMECORE_CHENLINGENCHANTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170853A0)
+#define RPG_GAMECORE_CHENLINGENCHANTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187EA300)
+#define RPG_GAMECORE_CHENLINGENCHANTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187EA4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingEnchantLevelRow_TypeDefinitionIndex = 10363;
+	inline static constexpr unsigned int ChenLingEnchantLevelRow_TypeDefinitionIndex = 10588;
 
 	class ChenLingEnchantLevelRow : public ::System::Object
 	{

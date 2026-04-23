@@ -5,12 +5,12 @@
 namespace RPG::Client { class TalkOptionData; }
 namespace RPG::GameCore { class JsonEnum; }
 
-#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA544C10)
-#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS108_0__GETCURRENTSKIPDEFAULTOPTIONINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xA5481E0)
+#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB281C60)
+#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS108_0__GETCURRENTSKIPDEFAULTOPTIONINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xB285230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkModule___c__DisplayClass108_0_TypeDefinitionIndex = 55529;
+	inline static constexpr unsigned int TalkModule___c__DisplayClass108_0_TypeDefinitionIndex = 62723;
 
 	class TalkModule___c__DisplayClass108_0 : public ::System::Object
 	{

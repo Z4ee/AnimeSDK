@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropTagComponent; }
 
-#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION_METHOD_2_3ADCD16ADFB993C6_OFFSET UNITYSDK_OFFSET(0x175717C0)
-#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17571890)
+#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION_METHOD_2_3ADCD16ADFB993C6_OFFSET UNITYSDK_OFFSET(0x18C66BF0)
+#define RPG_GAMECORE_PROPTAGCOMPONENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7BF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTagComponentCollection_TypeDefinitionIndex = 16149;
+	inline static constexpr unsigned int PropTagComponentCollection_TypeDefinitionIndex = 16680;
 
 	class PropTagComponentCollection : public ::RPG::GameCore::JsonConfig
 	{

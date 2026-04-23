@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/ScenenLightManager/LightInstanceID.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_315_TypeDefinitionIndex = 40094;
+class Class_1_585FC61876C1A1D5_Class_3_AE31F159F362893C;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_315_TypeDefinitionIndex = 45776;
 
 class Class_0_16E4307DCC419505_315
 {

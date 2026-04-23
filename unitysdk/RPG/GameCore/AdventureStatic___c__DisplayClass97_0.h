@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA869F30)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__WALLDETECT_B__0_OFFSET UNITYSDK_OFFSET(0xA869F40)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB59F550)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__WALLDETECT_B__0_OFFSET UNITYSDK_OFFSET(0xB5AEC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass97_0_TypeDefinitionIndex = 47687;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass97_0_TypeDefinitionIndex = 54425;
 
 	class AdventureStatic___c__DisplayClass97_0 : public ::System::Object
 	{

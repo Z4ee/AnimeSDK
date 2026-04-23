@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERDISPLAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x162B2550)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERDISPLAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x178DEE60)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggerDisplayAttribute_TypeDefinitionIndex = 1571;
+	inline static constexpr unsigned int DebuggerDisplayAttribute_TypeDefinitionIndex = 1572;
 
 	class DebuggerDisplayAttribute : public ::System::Attribute
 	{

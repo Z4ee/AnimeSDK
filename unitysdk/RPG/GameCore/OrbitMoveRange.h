@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ORBITMOVERANGE_METHOD_2_731DF61DB81F7654_OFFSET UNITYSDK_OFFSET(0x17481910)
-#define RPG_GAMECORE_ORBITMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17481B50)
+#define RPG_GAMECORE_ORBITMOVERANGE_METHOD_2_731DF61DB81F7654_OFFSET UNITYSDK_OFFSET(0x18BCAEB0)
+#define RPG_GAMECORE_ORBITMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCB0F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OrbitMoveRange_TypeDefinitionIndex = 21062;
+	inline static constexpr unsigned int OrbitMoveRange_TypeDefinitionIndex = 21778;
 
 	class OrbitMoveRange : public ::RPG::GameCore::JsonConfig
 	{

@@ -10,10 +10,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TeamFormationComponent; }
 
-#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET UNITYSDK_OFFSET(0xA9EA120)
-#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_A79F1DD3BB8D696D_OFFSET UNITYSDK_OFFSET(0x887B0)
+#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET UNITYSDK_OFFSET(0xA068600)
+#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_A79F1DD3BB8D696D_OFFSET UNITYSDK_OFFSET(0xD58C0)
 
-inline static constexpr unsigned int Struct_2_F4D9BAD63BCFCC50_TypeDefinitionIndex = 46523;
+inline static constexpr unsigned int Struct_2_F4D9BAD63BCFCC50_TypeDefinitionIndex = 53212;
 
 struct alignas(8) Struct_2_F4D9BAD63BCFCC50
 {

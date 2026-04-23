@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelAbility___O_TypeDefinitionIndex = 20875;
+	inline static constexpr unsigned int ParallelAbility___O_TypeDefinitionIndex = 21586;
 
 	class ParallelAbility___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ParallelAbility___O_TypeDefinitionIndex)->GetStaticField(0x2F690);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ParallelAbility___O_TypeDefinitionIndex)->GetStaticField(0x417B0);
 		}
 	};
 }

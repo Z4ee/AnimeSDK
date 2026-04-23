@@ -6,7 +6,7 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define SYSTEM_IO_FILESYSTEMENUMERABLEFACTORY_CREATEFILENAMEITERATOR_OFFSET UNITYSDK_OFFSET(0x16338950)
+#define SYSTEM_IO_FILESYSTEMENUMERABLEFACTORY_CREATEFILENAMEITERATOR_OFFSET UNITYSDK_OFFSET(0x17965C30)
 
 namespace System::IO
 {

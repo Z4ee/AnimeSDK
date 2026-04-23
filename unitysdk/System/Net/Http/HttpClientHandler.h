@@ -15,40 +15,40 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x185342A0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x18533830)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x185337B0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_COOKIECONTAINER_OFFSET UNITYSDK_OFFSET(0x18533760)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_MAXREQUESTCONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x185337A0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET UNITYSDK_OFFSET(0x18534880)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x18534990)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18531E60)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x19F6F0F0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x19F6E680)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F6E620)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_COOKIECONTAINER_OFFSET UNITYSDK_OFFSET(0x19F6E5D0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_MAXREQUESTCONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x19F6E610)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET UNITYSDK_OFFSET(0x19F6F6A0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x19F6F7B0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6CD10)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 4773;
+	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 4781;
 
 	class HttpClientHandler : public ::System::Net::Http::HttpMessageHandler
 	{
 	public:
 		static ::System::Int64* StaticGet_groupCounter()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler_TypeDefinitionIndex)->GetStaticField(0x6440);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler_TypeDefinitionIndex)->GetStaticField(0x6490);
 		}
-		::System::Net::IWebProxy* proxy; // 0x10
+		::System::Net::ICredentials* credentials; // 0x10
 		::System::Net::CookieContainer* cookieContainer; // 0x18
 		::System::String* connectionGroupName; // 0x20
-		::System::Net::ICredentials* credentials; // 0x28
-		::System::Net::DecompressionMethods automaticDecompression; // 0x30
-		::System::Int32 maxAutomaticRedirections; // 0x34
-		::System::Boolean allowAutoRedirect; // 0x38
-		::System::Boolean useDefaultCredentials; // 0x39
-		::System::Boolean disposed; // 0x3A
-		::System::Boolean useCookies; // 0x3B
-		::System::Boolean useProxy; // 0x3C
-		::System::Boolean sentRequest; // 0x3D
-		::System::Boolean preAuthenticate; // 0x3E
-		::System::Int64 maxRequestContentBufferSize; // 0x40
+		::System::Net::IWebProxy* proxy; // 0x28
+		::System::Boolean allowAutoRedirect; // 0x30
+		::System::Boolean useDefaultCredentials; // 0x31
+		::System::Boolean useProxy; // 0x32
+		::System::Boolean preAuthenticate; // 0x33
+		::System::Boolean useCookies; // 0x34
+		::System::Boolean disposed; // 0x35
+		::System::Boolean sentRequest; // 0x36
+		::System::Int64 maxRequestContentBufferSize; // 0x38
+		::System::Int32 maxAutomaticRedirections; // 0x40
+		::System::Net::DecompressionMethods automaticDecompression; // 0x44
 
 		::System::Void _ctor()
 		{

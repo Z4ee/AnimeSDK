@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int StripPlatform_TypeDefinitionIndex = 27892;
+	inline static constexpr unsigned int StripPlatform_TypeDefinitionIndex = 33516;
 
 	enum class StripPlatform : ::System::Int32
 	{

@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameRoundSettleDmgSourceItem_TypeDefinitionIndex = 51984;
+	inline static constexpr unsigned int IFateGameRoundSettleDmgSourceItem_TypeDefinitionIndex = 58933;
 
 	class IFateGameRoundSettleDmgSourceItem
 	{

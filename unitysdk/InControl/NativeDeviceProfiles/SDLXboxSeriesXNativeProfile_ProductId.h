@@ -3,7 +3,7 @@
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLXboxSeriesXNativeProfile_ProductId_TypeDefinitionIndex = 31878;
+	inline static constexpr unsigned int SDLXboxSeriesXNativeProfile_ProductId_TypeDefinitionIndex = 37598;
 
 	enum class SDLXboxSeriesXNativeProfile_ProductId : ::System::UInt16
 	{

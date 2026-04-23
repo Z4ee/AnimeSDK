@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_INFOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x18451BD0)
+#define SRDEBUGGER_UI_CONTROLS_INFOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x19E8CA20)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int InfoBlock_TypeDefinitionIndex = 29671;
+	inline static constexpr unsigned int InfoBlock_TypeDefinitionIndex = 35391;
 
 	class InfoBlock : public ::SRF::SRMonoBehaviourEx
 	{

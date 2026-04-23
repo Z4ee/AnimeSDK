@@ -5,11 +5,11 @@
 namespace RPG::Client { class PoolPropertyRecord; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_POOLPROPERTYSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9FF3F00)
+#define RPG_CLIENT_POOLPROPERTYSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xAD702A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PoolPropertyScriptableObject_TypeDefinitionIndex = 59520;
+	inline static constexpr unsigned int PoolPropertyScriptableObject_TypeDefinitionIndex = 66915;
 
 	class PoolPropertyScriptableObject : public ::UnityEngine::ScriptableObject
 	{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFilterAliveState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EDC301768B99C948_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x106044F0)
-#define CLASS_2_EDC301768B99C948__CTOR_OFFSET UNITYSDK_OFFSET(0x106044D0)
+#define CLASS_2_EDC301768B99C948_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x9025BA0)
+#define CLASS_2_EDC301768B99C948__CTOR_OFFSET UNITYSDK_OFFSET(0x9025B80)
 
-inline static constexpr unsigned int Class_2_EDC301768B99C948_TypeDefinitionIndex = 47914;
+inline static constexpr unsigned int Class_2_EDC301768B99C948_TypeDefinitionIndex = 54655;
 
 class Class_2_EDC301768B99C948 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetFilterAliveState*>
 {

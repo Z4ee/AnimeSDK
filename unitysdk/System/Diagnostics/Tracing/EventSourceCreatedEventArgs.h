@@ -4,12 +4,12 @@
 
 namespace System::Diagnostics::Tracing { class EventSource; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS_SET_EVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x162D5110)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x162BAC50)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS_SET_EVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x17901830)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x178E7560)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSourceCreatedEventArgs_TypeDefinitionIndex = 1680;
+	inline static constexpr unsigned int EventSourceCreatedEventArgs_TypeDefinitionIndex = 1681;
 
 	class EventSourceCreatedEventArgs : public ::System::EventArgs
 	{

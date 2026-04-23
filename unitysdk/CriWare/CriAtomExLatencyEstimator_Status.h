@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExLatencyEstimator_Status_TypeDefinitionIndex = 31032;
+	inline static constexpr unsigned int CriAtomExLatencyEstimator_Status_TypeDefinitionIndex = 36752;
 
 	enum class CriAtomExLatencyEstimator_Status : ::System::Int32
 	{

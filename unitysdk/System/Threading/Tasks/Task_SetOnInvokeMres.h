@@ -4,12 +4,12 @@
 
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x16248CA0)
-#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES__CTOR_OFFSET UNITYSDK_OFFSET(0x16243E50)
+#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x178755F0)
+#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES__CTOR_OFFSET UNITYSDK_OFFSET(0x17870D90)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Task_SetOnInvokeMres_TypeDefinitionIndex = 896;
+	inline static constexpr unsigned int Task_SetOnInvokeMres_TypeDefinitionIndex = 898;
 
 	class Task_SetOnInvokeMres : public ::System::Threading::ManualResetEventSlim
 	{

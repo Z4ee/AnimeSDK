@@ -1,37 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
+#include "unitysdk/RPG/Client/MessageContentFunctionCallBlock.h"
 
 namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::Client { class MessageContentBlock; }
+namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
+namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B924E0)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x9B926F0)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x9B92700)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x9B92710)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_SHOWEXPLAIN_OFFSET UNITYSDK_OFFSET(0x9B92720)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B922D0)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_REQUESTRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0x9B92360)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B922E0)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x9B92580)
-#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__REQUESTRECOMMENDDATA_B__3_0_OFFSET UNITYSDK_OFFSET(0x9B927D0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88CDA0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xA88D160)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0xA88D170)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xA88D180)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_RECOMMENDPLAN_OFFSET UNITYSDK_OFFSET(0xA88D260)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_SHOWEXPLAIN_OFFSET UNITYSDK_OFFSET(0xA88D190)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88CB90)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_REQUESTRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0xA88CC20)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88CBA0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__GETRECOMMENDPLAN_OFFSET UNITYSDK_OFFSET(0xA88CE40)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__HASSMARTSUITSYSTEMPLAN_OFFSET UNITYSDK_OFFSET(0xA88D0B0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__REQUESTRECOMMENDDATA_B__3_0_OFFSET UNITYSDK_OFFSET(0xA88D270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentRelicRecommendBlock_TypeDefinitionIndex = 51342;
+	inline static constexpr unsigned int MessageContentRelicRecommendBlock_TypeDefinitionIndex = 58270;
 
-	class MessageContentRelicRecommendBlock : public ::RPG::Client::MessageContentBlock
+	class MessageContentRelicRecommendBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:
-		::RPG::Client::IAvatarInfoProvider* _Avatar_k__BackingField; // 0x18
-		::System::Action_1<::System::UInt32>* _Callback; // 0x20
-		::System::Boolean _WaitingData; // 0x28
-		::System::UInt32 _AvatarID_k__BackingField; // 0x2C
+		::System::Action_1<::System::UInt32>* _Callback; // 0x28
+		::RPG::Client::IAvatarInfoProvider* _Avatar_k__BackingField; // 0x30
+		::System::Boolean _WaitingData; // 0x38
+		::System::UInt32 _AvatarID_k__BackingField; // 0x3C
 
-		::System::Void _ctor(::System::UInt32 avatarID)
+		::System::Void _ctor(::System::String* functionCallID, ::System::UInt32 avatarID)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__CTOR_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__CTOR_OFFSET))(this, functionCallID, avatarID);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -49,9 +54,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_EQUALS_OFFSET))(this, other);
 		}
 
-		::System::Boolean _IsDataReady()
+		::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* _GetRecommendPlan()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__ISDATAREADY_OFFSET))(this);
+			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__GETRECOMMENDPLAN_OFFSET))(this);
+		}
+
+		::System::Boolean _HasSmartSuitSystemPlan()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK__HASSMARTSUITSYSTEMPLAN_OFFSET))(this);
 		}
 
 		::System::UInt32 get_AvatarID()
@@ -72,6 +82,11 @@ namespace RPG::Client
 		::System::Boolean get_ShowExplain()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_SHOWEXPLAIN_OFFSET))(this);
+		}
+
+		::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* get_RecommendPlan()
+		{
+			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_RECOMMENDPLAN_OFFSET))(this);
 		}
 
 		::System::Void _RequestRecommendData_b__3_0()

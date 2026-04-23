@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_TypeDefinitionIndex = 56211;
+	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_TypeDefinitionIndex = 63454;
 
 	struct alignas(8) MovementStoppedRootMotionBakedData
 	{

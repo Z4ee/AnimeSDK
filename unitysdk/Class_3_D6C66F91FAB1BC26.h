@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InitBattleItemProgressInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D6C66F91FAB1BC26_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104980F0)
-#define CLASS_3_D6C66F91FAB1BC26__CTOR_OFFSET UNITYSDK_OFFSET(0x104980C0)
+#define CLASS_3_D6C66F91FAB1BC26_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x111B1670)
+#define CLASS_3_D6C66F91FAB1BC26__CTOR_OFFSET UNITYSDK_OFFSET(0x111B1640)
 
-inline static constexpr unsigned int Class_3_D6C66F91FAB1BC26_TypeDefinitionIndex = 38463;
+inline static constexpr unsigned int Class_3_D6C66F91FAB1BC26_TypeDefinitionIndex = 44347;
 
 class Class_3_D6C66F91FAB1BC26 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitBattleItemProgressInfo*>
 {

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Runtime/ConstrainedExecution/Cer.h"
 #include "unitysdk/System/Runtime/ConstrainedExecution/Consistency.h"
 
-#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_RELIABILITYCONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16392C50)
+#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_RELIABILITYCONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179BF800)
 
 namespace System::Runtime::ConstrainedExecution
 {
-	inline static constexpr unsigned int ReliabilityContractAttribute_TypeDefinitionIndex = 1334;
+	inline static constexpr unsigned int ReliabilityContractAttribute_TypeDefinitionIndex = 1336;
 
 	class ReliabilityContractAttribute : public ::System::Attribute
 	{

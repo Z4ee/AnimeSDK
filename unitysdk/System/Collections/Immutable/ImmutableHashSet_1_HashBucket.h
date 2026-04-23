@@ -8,7 +8,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_HashBucket_TypeDefinitionIndex = 8915;
+	inline static constexpr unsigned int ImmutableHashSet_1_HashBucket_TypeDefinitionIndex = 9112;
 
 	template <typename T>
 	struct ImmutableHashSet_1_HashBucket

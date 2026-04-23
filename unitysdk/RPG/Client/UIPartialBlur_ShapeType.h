@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPartialBlur_ShapeType_TypeDefinitionIndex = 59898;
+	inline static constexpr unsigned int UIPartialBlur_ShapeType_TypeDefinitionIndex = 67296;
 
 	enum class UIPartialBlur_ShapeType : ::System::Int32
 	{

@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelStatusGetter___O_TypeDefinitionIndex = 14685;
+	inline static constexpr unsigned int ChimeraDuelStatusGetter___O_TypeDefinitionIndex = 15155;
 
 	class ChimeraDuelStatusGetter___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ChimeraDuelStatusType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ChimeraDuelStatusType>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelStatusGetter___O_TypeDefinitionIndex)->GetStaticField(0x271D0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ChimeraDuelStatusType>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelStatusGetter___O_TypeDefinitionIndex)->GetStaticField(0x2EE00);
 		}
 	};
 }

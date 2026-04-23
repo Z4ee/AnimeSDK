@@ -5,18 +5,18 @@
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client { class MonoEffectManager; }
 
-#define RPG_CLIENT_MONOEFFECTMANAGER___C__DISPLAYCLASS99_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C8B4D0)
-#define RPG_CLIENT_MONOEFFECTMANAGER___C__DISPLAYCLASS99_0___ONEFFECTASYNCLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x9C94BC0)
+#define RPG_CLIENT_MONOEFFECTMANAGER___C__DISPLAYCLASS99_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA94D4B0)
+#define RPG_CLIENT_MONOEFFECTMANAGER___C__DISPLAYCLASS99_0___ONEFFECTASYNCLOADED_B__0_OFFSET UNITYSDK_OFFSET(0xA956B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectManager___c__DisplayClass99_0_TypeDefinitionIndex = 57137;
+	inline static constexpr unsigned int MonoEffectManager___c__DisplayClass99_0_TypeDefinitionIndex = 64388;
 
 	class MonoEffectManager___c__DisplayClass99_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonoEffectManager* __4__this; // 0x10
-		::RPG::Client::MonoEffect* pSpecialEffect; // 0x18
+		::RPG::Client::MonoEffect* pSpecialEffect; // 0x10
+		::RPG::Client::MonoEffectManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

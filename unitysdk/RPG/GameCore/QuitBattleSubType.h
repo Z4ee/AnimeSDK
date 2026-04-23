@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuitBattleSubType_TypeDefinitionIndex = 47672;
+	inline static constexpr unsigned int QuitBattleSubType_TypeDefinitionIndex = 54410;
 
 	enum class QuitBattleSubType : ::System::Int32
 	{

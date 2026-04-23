@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIManager_ClearReason_TypeDefinitionIndex = 59890;
+	inline static constexpr unsigned int UIManager_ClearReason_TypeDefinitionIndex = 67288;
 
 	enum class UIManager_ClearReason : ::System::Int32
 	{

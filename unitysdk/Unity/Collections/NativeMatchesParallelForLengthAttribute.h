@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeMatchesParallelForLengthAttribute_TypeDefinitionIndex = 3793;
+	inline static constexpr unsigned int NativeMatchesParallelForLengthAttribute_TypeDefinitionIndex = 3795;
 
 	class NativeMatchesParallelForLengthAttribute : public ::System::Attribute
 	{

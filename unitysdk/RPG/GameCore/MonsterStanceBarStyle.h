@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterStanceBarStyle_TypeDefinitionIndex = 21142;
+	inline static constexpr unsigned int MonsterStanceBarStyle_TypeDefinitionIndex = 21859;
 
 	enum class MonsterStanceBarStyle : ::System::Int32
 	{

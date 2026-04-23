@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstaller_ModuleConfig_TypeDefinitionIndex = 31145;
+	inline static constexpr unsigned int CriFsWebInstaller_ModuleConfig_TypeDefinitionIndex = 36865;
 
 	struct alignas(8) CriFsWebInstaller_ModuleConfig
 	{

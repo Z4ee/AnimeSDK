@@ -8,18 +8,18 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventConfig___O_TypeDefinitionIndex = 15134;
+	inline static constexpr unsigned int BattleEventConfig___O_TypeDefinitionIndex = 15644;
 
 	class BattleEventConfig___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EHitDirectionType>** StaticGet__0___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EHitDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(BattleEventConfig___O_TypeDefinitionIndex)->GetStaticField(0x22880);
-		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EFootIKMode>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EFootIKMode>**)Il2CppClass::FromTypeDefinitionIndex(BattleEventConfig___O_TypeDefinitionIndex)->GetStaticField(0x22888);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EFootIKMode>**)Il2CppClass::FromTypeDefinitionIndex(BattleEventConfig___O_TypeDefinitionIndex)->GetStaticField(0x2E510);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EHitDirectionType>** StaticGet__0___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EHitDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(BattleEventConfig___O_TypeDefinitionIndex)->GetStaticField(0x2E518);
 		}
 	};
 }

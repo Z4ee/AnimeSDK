@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_46D5C4F0EA172C6A_OFFSET UNITYSDK_OFFSET(0x85820)
-#define CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0x857D0)
+#define CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_46D5C4F0EA172C6A_OFFSET UNITYSDK_OFFSET(0xDC450)
+#define CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0xDC400)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ViewportComposition_TypeDefinitionIndex = 40323;
+	inline static constexpr unsigned int ViewportComposition_TypeDefinitionIndex = 46232;
 
 	struct alignas(4) ViewportComposition
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoType_TypeDefinitionIndex = 12145;
+	inline static constexpr unsigned int GotoType_TypeDefinitionIndex = 12578;
 
 	enum class GotoType : ::System::Int32
 	{
@@ -102,5 +102,9 @@ namespace RPG::GameCore
 		RogueTournGodMode = 401,
 		GameFlow = 402,
 		LimaoEntranceView = 403,
+		OnlinePlayRoomManagement = 420,
+		ActivityIdleLiveEntrance = 421,
+		AnniversaryCollection = 422,
+		CakeCatchAtlas = 423,
 	};
 }

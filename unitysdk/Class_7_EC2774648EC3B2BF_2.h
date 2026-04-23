@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_6_EAE92B54E656C139.h"
+#include "unitysdk/Class_6_328B46FC24618C13.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define CLASS_7_EC2774648EC3B2BF_2_METHOD_7_F48B6E9D83D3B226_OFFSET UNITYSDK_OFFSET(0xA42FF40)
-#define CLASS_7_EC2774648EC3B2BF_2__CTOR_OFFSET UNITYSDK_OFFSET(0xA42FF50)
+#define CLASS_7_EC2774648EC3B2BF_2_METHOD_7_F48B6E9D83D3B226_OFFSET UNITYSDK_OFFSET(0x11B3F140)
+#define CLASS_7_EC2774648EC3B2BF_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11B3F150)
 
-inline static constexpr unsigned int Class_7_EC2774648EC3B2BF_2_TypeDefinitionIndex = 62680;
+inline static constexpr unsigned int Class_7_EC2774648EC3B2BF_2_TypeDefinitionIndex = 70695;
 
-class Class_7_EC2774648EC3B2BF_2 : public ::Class_6_EAE92B54E656C139
+class Class_7_EC2774648EC3B2BF_2 : public ::Class_6_328B46FC24618C13
 {
 public:
 	::System::Void _ctor()

@@ -7,7 +7,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveResize_Element_TypeDefinitionIndex = 27675;
+	inline static constexpr unsigned int ResponsiveResize_Element_TypeDefinitionIndex = 33299;
 
 	struct alignas(8) ResponsiveResize_Element
 	{

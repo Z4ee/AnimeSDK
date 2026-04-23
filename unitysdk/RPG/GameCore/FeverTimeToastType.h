@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FeverTimeToastType_TypeDefinitionIndex = 21482;
+	inline static constexpr unsigned int FeverTimeToastType_TypeDefinitionIndex = 22218;
 
 	enum class FeverTimeToastType : ::System::Int32
 	{

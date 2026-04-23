@@ -10,7 +10,7 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IPropertyCollector_TypeDefinitionIndex = 29917;
+	inline static constexpr unsigned int IPropertyCollector_TypeDefinitionIndex = 35637;
 
 	class IPropertyCollector
 	{

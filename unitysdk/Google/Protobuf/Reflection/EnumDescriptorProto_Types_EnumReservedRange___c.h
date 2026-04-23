@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class EnumDescriptorProto_Types_EnumReservedRange; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TYPES_ENUMRESERVEDRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15AF87C0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TYPES_ENUMRESERVEDRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15AF8800)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TYPES_ENUMRESERVEDRANGE___C___CCTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x15AF8810)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TYPES_ENUMRESERVEDRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x170F5050)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TYPES_ENUMRESERVEDRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x170F5090)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TYPES_ENUMRESERVEDRANGE___C___CCTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x170F50A0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptorProto_Types_EnumReservedRange___c_TypeDefinitionIndex = 6267;
+	inline static constexpr unsigned int EnumDescriptorProto_Types_EnumReservedRange___c_TypeDefinitionIndex = 6277;
 
 	class EnumDescriptorProto_Types_EnumReservedRange___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange___c**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_Types_EnumReservedRange___c_TypeDefinitionIndex)->GetStaticField(0xCA40);
+			return (::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange___c**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_Types_EnumReservedRange___c_TypeDefinitionIndex)->GetStaticField(0x4D30);
 		}
 
 		static ::System::Void _cctor()

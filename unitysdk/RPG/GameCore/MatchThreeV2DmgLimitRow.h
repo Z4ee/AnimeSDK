@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCHTHREEV2DMGLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B7820)
-#define RPG_GAMECORE_MATCHTHREEV2DMGLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B7990)
+#define RPG_GAMECORE_MATCHTHREEV2DMGLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC5980)
+#define RPG_GAMECORE_MATCHTHREEV2DMGLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC5AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2DmgLimitRow_TypeDefinitionIndex = 10996;
+	inline static constexpr unsigned int MatchThreeV2DmgLimitRow_TypeDefinitionIndex = 11399;
 
 	class MatchThreeV2DmgLimitRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BasicDamage; // 0x10
+		::System::UInt32 Round; // 0x10
 		::System::UInt32 MaxDamage; // 0x14
-		::System::UInt32 Round; // 0x18
+		::System::UInt32 BasicDamage; // 0x18
 
 		::System::Void _ctor()
 		{

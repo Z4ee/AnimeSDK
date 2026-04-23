@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Security { class SecureString; }
 
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESECURESTRING_OFFSET UNITYSDK_OFFSET(0x1871C6B0)
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x1871C470)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESECURESTRING_OFFSET UNITYSDK_OFFSET(0x1A156EC0)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x1A156C80)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UnsafeNclNativeMethods_SecureStringHelper_TypeDefinitionIndex = 2806;
+	inline static constexpr unsigned int UnsafeNclNativeMethods_SecureStringHelper_TypeDefinitionIndex = 2807;
 
 	class UnsafeNclNativeMethods_SecureStringHelper : public ::System::Object
 	{

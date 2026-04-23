@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CullMode_TypeDefinitionIndex = 4503;
+	inline static constexpr unsigned int CullMode_TypeDefinitionIndex = 4505;
 
 	enum class CullMode : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValueTuple; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET UNITYSDK_OFFSET(0x174204B0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17420610)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET UNITYSDK_OFFSET(0x18B2CD80)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2CEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueGroupConfig_TypeDefinitionIndex = 17406;
+	inline static constexpr unsigned int MissionCustomValueGroupConfig_TypeDefinitionIndex = 18014;
 
 	class MissionCustomValueGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

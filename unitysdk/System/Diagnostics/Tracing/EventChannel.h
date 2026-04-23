@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventChannel_TypeDefinitionIndex = 1705;
+	inline static constexpr unsigned int EventChannel_TypeDefinitionIndex = 1706;
 
 	enum class EventChannel : ::System::Byte
 	{

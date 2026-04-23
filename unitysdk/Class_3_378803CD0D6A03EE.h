@@ -8,11 +8,11 @@ class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceAndPredicateConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_378803CD0D6A03EE_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x165C6280)
-#define CLASS_3_378803CD0D6A03EE_METHOD_3_669FC919EB6A94A1_OFFSET UNITYSDK_OFFSET(0x165BC650)
-#define CLASS_3_378803CD0D6A03EE__CTOR_OFFSET UNITYSDK_OFFSET(0x165C6200)
+#define CLASS_3_378803CD0D6A03EE_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x17C6E480)
+#define CLASS_3_378803CD0D6A03EE_METHOD_3_669FC919EB6A94A1_OFFSET UNITYSDK_OFFSET(0x17C6E160)
+#define CLASS_3_378803CD0D6A03EE__CTOR_OFFSET UNITYSDK_OFFSET(0x17C6E260)
 
-inline static constexpr unsigned int Class_3_378803CD0D6A03EE_TypeDefinitionIndex = 29065;
+inline static constexpr unsigned int Class_3_378803CD0D6A03EE_TypeDefinitionIndex = 34799;
 
 class Class_3_378803CD0D6A03EE : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBasePredicate_1<::RPG::GameCore::CakeRaceAndPredicateConfig*>
 {

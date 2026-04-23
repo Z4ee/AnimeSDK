@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMoveOnNavMeshMoveCalcType_TypeDefinitionIndex = 18470;
+	inline static constexpr unsigned int AdventureMoveOnNavMeshMoveCalcType_TypeDefinitionIndex = 19122;
 
 	enum class AdventureMoveOnNavMeshMoveCalcType : ::System::Int32
 	{

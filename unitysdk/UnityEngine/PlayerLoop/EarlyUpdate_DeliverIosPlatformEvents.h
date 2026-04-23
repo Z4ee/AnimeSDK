@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_DeliverIosPlatformEvents_TypeDefinitionIndex = 4381;
+	inline static constexpr unsigned int EarlyUpdate_DeliverIosPlatformEvents_TypeDefinitionIndex = 4383;
 
 	struct alignas(1) EarlyUpdate_DeliverIosPlatformEvents
 	{

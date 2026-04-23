@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildGearCollectionRow___O_TypeDefinitionIndex = 10657;
+	inline static constexpr unsigned int ActivityEvolveBuildGearCollectionRow___O_TypeDefinitionIndex = 10908;
 
 	class ActivityEvolveBuildGearCollectionRow___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildGearCollectionRow___O_TypeDefinitionIndex)->GetStaticField(0x1EDE0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildGearCollectionRow___O_TypeDefinitionIndex)->GetStaticField(0x7480);
 		}
 	};
 }

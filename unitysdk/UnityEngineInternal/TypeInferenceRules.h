@@ -3,7 +3,7 @@
 
 namespace UnityEngineInternal
 {
-	inline static constexpr unsigned int TypeInferenceRules_TypeDefinitionIndex = 3730;
+	inline static constexpr unsigned int TypeInferenceRules_TypeDefinitionIndex = 3732;
 
 	enum class TypeInferenceRules : ::System::Int32
 	{

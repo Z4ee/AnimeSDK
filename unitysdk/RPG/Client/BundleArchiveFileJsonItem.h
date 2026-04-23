@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_METHOD_1_0B1752331DB70EFD_OFFSET UNITYSDK_OFFSET(0x920FF50)
-#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9210000)
+#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_METHOD_1_0B1752331DB70EFD_OFFSET UNITYSDK_OFFSET(0x9EB9430)
+#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB94E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BundleArchiveFileJsonItem_TypeDefinitionIndex = 49631;
+	inline static constexpr unsigned int BundleArchiveFileJsonItem_TypeDefinitionIndex = 56452;
 
 	class BundleArchiveFileJsonItem : public ::System::Object
 	{

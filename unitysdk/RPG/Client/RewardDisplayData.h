@@ -5,12 +5,12 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_REWARDDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA2E3760)
-#define RPG_CLIENT_REWARDDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E37F0)
+#define RPG_CLIENT_REWARDDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB01A0B0)
+#define RPG_CLIENT_REWARDDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB01A140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RewardDisplayData_TypeDefinitionIndex = 53375;
+	inline static constexpr unsigned int RewardDisplayData_TypeDefinitionIndex = 60510;
 
 	class RewardDisplayData : public ::System::Object
 	{

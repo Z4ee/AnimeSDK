@@ -7,32 +7,32 @@ namespace System::Threading { class TimerCallback; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class Task_ContingentProperties; }
 
-#define SYSTEM_THREADING_TASKS_TASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162482A0)
-#define SYSTEM_THREADING_TASKS_TASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162482D0)
-#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_0_OFFSET UNITYSDK_OFFSET(0x162482E0)
-#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_1_OFFSET UNITYSDK_OFFSET(0x16248540)
-#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_0_OFFSET UNITYSDK_OFFSET(0x162485A0)
-#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_1_OFFSET UNITYSDK_OFFSET(0x162485C0)
-#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_2_OFFSET UNITYSDK_OFFSET(0x162485E0)
+#define SYSTEM_THREADING_TASKS_TASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17874BC0)
+#define SYSTEM_THREADING_TASKS_TASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17874BF0)
+#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_0_OFFSET UNITYSDK_OFFSET(0x17874C00)
+#define SYSTEM_THREADING_TASKS_TASK___C__DELAY_B__276_1_OFFSET UNITYSDK_OFFSET(0x17874E60)
+#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_0_OFFSET UNITYSDK_OFFSET(0x17874EC0)
+#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_1_OFFSET UNITYSDK_OFFSET(0x17874EE0)
+#define SYSTEM_THREADING_TASKS_TASK___C___CCTOR_B__295_2_OFFSET UNITYSDK_OFFSET(0x17874F00)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Task___c_TypeDefinitionIndex = 900;
+	inline static constexpr unsigned int Task___c_TypeDefinitionIndex = 902;
 
 	class Task___c : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Tasks::Task___c** StaticGet___9()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__276_0()
 		{
-			return (::System::Threading::Tasks::Task___c**)Il2CppClass::FromTypeDefinitionIndex(Task___c_TypeDefinitionIndex)->GetStaticField(0x6510);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Task___c_TypeDefinitionIndex)->GetStaticField(0xC550);
 		}
 		static ::System::Threading::TimerCallback** StaticGet___9__276_1()
 		{
-			return (::System::Threading::TimerCallback**)Il2CppClass::FromTypeDefinitionIndex(Task___c_TypeDefinitionIndex)->GetStaticField(0x6518);
+			return (::System::Threading::TimerCallback**)Il2CppClass::FromTypeDefinitionIndex(Task___c_TypeDefinitionIndex)->GetStaticField(0xC558);
 		}
-		static ::System::Action_1<::System::Object*>** StaticGet___9__276_0()
+		static ::System::Threading::Tasks::Task___c** StaticGet___9()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Task___c_TypeDefinitionIndex)->GetStaticField(0x6520);
+			return (::System::Threading::Tasks::Task___c**)Il2CppClass::FromTypeDefinitionIndex(Task___c_TypeDefinitionIndex)->GetStaticField(0xC560);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int StageHarmonyFollowTransformDemodulator_FollowType_TypeDefinitionIndex = 38393;
+inline static constexpr unsigned int StageHarmonyFollowTransformDemodulator_FollowType_TypeDefinitionIndex = 44277;
 
 enum class StageHarmonyFollowTransformDemodulator_FollowType : ::System::Int32
 {

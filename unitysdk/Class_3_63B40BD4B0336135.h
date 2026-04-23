@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindSetSpecularMat; }
 
-#define CLASS_3_63B40BD4B0336135_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1144C4F0)
-#define CLASS_3_63B40BD4B0336135__CTOR_OFFSET UNITYSDK_OFFSET(0x1144C4C0)
+#define CLASS_3_63B40BD4B0336135_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE0203B0)
+#define CLASS_3_63B40BD4B0336135__CTOR_OFFSET UNITYSDK_OFFSET(0xE020380)
 
-inline static constexpr unsigned int Class_3_63B40BD4B0336135_TypeDefinitionIndex = 43239;
+inline static constexpr unsigned int Class_3_63B40BD4B0336135_TypeDefinitionIndex = 49234;
 
 class Class_3_63B40BD4B0336135 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindSetSpecularMat*>
 {

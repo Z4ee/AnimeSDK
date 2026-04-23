@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimManager_IsolatedGameInstanceInfo_TypeDefinitionIndex = 49033;
+	inline static constexpr unsigned int FiveDimManager_IsolatedGameInstanceInfo_TypeDefinitionIndex = 55827;
 
 	struct alignas(4) FiveDimManager_IsolatedGameInstanceInfo
 	{

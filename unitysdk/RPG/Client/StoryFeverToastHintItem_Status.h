@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryFeverToastHintItem_Status_TypeDefinitionIndex = 59060;
+	inline static constexpr unsigned int StoryFeverToastHintItem_Status_TypeDefinitionIndex = 66437;
 
 	enum class StoryFeverToastHintItem_Status : ::System::Int32
 	{

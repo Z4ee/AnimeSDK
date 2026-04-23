@@ -8,33 +8,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYPUNKLORDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F062E0)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F06850)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18627620)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18627B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPunkLordConfigRow_TypeDefinitionIndex = 11217;
+	inline static constexpr unsigned int ActivityPunkLordConfigRow_TypeDefinitionIndex = 11620;
 
 	class ActivityPunkLordConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ManikinConfig; // 0x10
-		::System::String* MonsterPic; // 0x18
-		::System::String* ShowMonster; // 0x20
-		::RPG::GameCore::PunkLordGroupType GroupType; // 0x28
-		::System::UInt32 WorldLevel; // 0x2C
-		::RPG::Client::TextID MonsterBuff; // 0x30
-		::System::UInt32 MonsterHP; // 0x40
+		::System::String* ShowMonster; // 0x18
+		::System::String* MonsterPic; // 0x20
+		::RPG::Client::TextID MonsterBuff; // 0x28
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 TurnLimit; // 0x3C
+		::System::UInt32 PluralHP; // 0x40
 		::System::UInt32 RaidID; // 0x44
-		::System::UInt32 TurnLimit; // 0x48
-		::System::UInt32 KillPoint; // 0x4C
-		::System::UInt32 MonsterLevel; // 0x50
-		::System::UInt32 PluralHP; // 0x54
-		::System::UInt32 ExistTime; // 0x58
-		::System::UInt32 SummonPoint; // 0x5C
-		::System::UInt32 ID; // 0x60
-		::RPG::GameCore::PunkLordMonsterRare MonsterRare; // 0x64
-		::System::UInt32 AssistPoint; // 0x68
+		::System::UInt32 MonsterHP; // 0x48
+		::RPG::GameCore::PunkLordMonsterRare MonsterRare; // 0x4C
+		::System::UInt32 ExistTime; // 0x50
+		::System::UInt32 KillPoint; // 0x54
+		::System::UInt32 AssistPoint; // 0x58
+		::System::UInt32 WorldLevel; // 0x5C
+		::System::UInt32 MonsterLevel; // 0x60
+		::RPG::GameCore::PunkLordGroupType GroupType; // 0x64
+		::System::UInt32 SummonPoint; // 0x68
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AIDecisionUnitConfig; }
 
-#define RPG_GAMECORE_AIDECISIONGROUP_METHOD_2_FC628F7843CF3E62_OFFSET UNITYSDK_OFFSET(0x16E90230)
-#define RPG_GAMECORE_AIDECISIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16E90330)
+#define RPG_GAMECORE_AIDECISIONGROUP_METHOD_2_FC628F7843CF3E62_OFFSET UNITYSDK_OFFSET(0x185F0810)
+#define RPG_GAMECORE_AIDECISIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x185F0910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 14186;
+	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 14655;
 
 	class AIDecisionGroup : public ::RPG::GameCore::JsonConfig
 	{

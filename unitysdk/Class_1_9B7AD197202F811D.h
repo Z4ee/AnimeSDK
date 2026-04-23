@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimSurfaceBakedInfo; }
 
-#define CLASS_1_9B7AD197202F811D__CTOR_OFFSET UNITYSDK_OFFSET(0x169F3320)
+#define CLASS_1_9B7AD197202F811D__CTOR_OFFSET UNITYSDK_OFFSET(0x17E69C70)
 
-inline static constexpr unsigned int Class_1_9B7AD197202F811D_TypeDefinitionIndex = 33402;
+inline static constexpr unsigned int Class_1_9B7AD197202F811D_TypeDefinitionIndex = 39193;
 
 class Class_1_9B7AD197202F811D : public ::System::Object
 {

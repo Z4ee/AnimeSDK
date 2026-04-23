@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace TapTap::Sdk { class AccessToken; }
 namespace TapTap::Sdk { class QRCodeWindow; }
 
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18785540)
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x18787240)
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__1_OFFSET UNITYSDK_OFFSET(0x187879C0)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BF540)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1A1C1220)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS30_0__GETPROFILE_B__1_OFFSET UNITYSDK_OFFSET(0x1A1C19A0)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int QRCodeWindow___c__DisplayClass30_0_TypeDefinitionIndex = 6407;
+	inline static constexpr unsigned int QRCodeWindow___c__DisplayClass30_0_TypeDefinitionIndex = 6440;
 
 	class QRCodeWindow___c__DisplayClass30_0 : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WHEELSELECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1790A520)
-#define RPG_GAMECORE_WHEELSELECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1790AB70)
+#define RPG_GAMECORE_WHEELSELECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1910E3E0)
+#define RPG_GAMECORE_WHEELSELECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1910EA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WheelSelectConfigRow_TypeDefinitionIndex = 12164;
+	inline static constexpr unsigned int WheelSelectConfigRow_TypeDefinitionIndex = 12597;
 
 	class WheelSelectConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Order; // 0x10
-		::System::UInt32 FunctionHudID; // 0x14
-		::System::UInt32 FourSlotOrder; // 0x18
+		::System::UInt32 FunctionHudID; // 0x10
+		::System::UInt32 FourSlotOrder; // 0x14
+		::System::UInt32 Order; // 0x18
 		::System::UInt32 IndexID; // 0x1C
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceParticipantData_CakeRaceParticipantType_TypeDefinitionIndex = 51170;
+	inline static constexpr unsigned int CakeRaceParticipantData_CakeRaceParticipantType_TypeDefinitionIndex = 58091;
 
 	enum class CakeRaceParticipantData_CakeRaceParticipantType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_PositionType_TypeDefinitionIndex = 18332;
+	inline static constexpr unsigned int SO_PositionType_TypeDefinitionIndex = 18979;
 
 	enum class SO_PositionType : ::System::Int32
 	{

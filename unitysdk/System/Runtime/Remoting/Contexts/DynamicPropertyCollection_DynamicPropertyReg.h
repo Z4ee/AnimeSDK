@@ -5,11 +5,11 @@
 namespace System::Runtime::Remoting::Contexts { class IDynamicMessageSink; }
 namespace System::Runtime::Remoting::Contexts { class IDynamicProperty; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_DYNAMICPROPERTYCOLLECTION_DYNAMICPROPERTYREG__CTOR_OFFSET UNITYSDK_OFFSET(0x163A4090)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_DYNAMICPROPERTYCOLLECTION_DYNAMICPROPERTYREG__CTOR_OFFSET UNITYSDK_OFFSET(0x179D0B90)
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int DynamicPropertyCollection_DynamicPropertyReg_TypeDefinitionIndex = 1238;
+	inline static constexpr unsigned int DynamicPropertyCollection_DynamicPropertyReg_TypeDefinitionIndex = 1240;
 
 	class DynamicPropertyCollection_DynamicPropertyReg : public ::System::Object
 	{

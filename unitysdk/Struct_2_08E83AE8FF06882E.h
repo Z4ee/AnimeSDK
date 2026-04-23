@@ -5,7 +5,7 @@
 class Class_0_16E4307DCC419505_88;
 namespace RPG::GameCore { class LittleGameBillboardConfig; }
 
-inline static constexpr unsigned int Struct_2_08E83AE8FF06882E_TypeDefinitionIndex = 32274;
+inline static constexpr unsigned int Struct_2_08E83AE8FF06882E_TypeDefinitionIndex = 37994;
 
 struct alignas(8) Struct_2_08E83AE8FF06882E
 {

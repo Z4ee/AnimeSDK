@@ -9,22 +9,22 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_CREATE_OFFSET UNITYSDK_OFFSET(0x16391B90)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1585820)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_SETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x20DA0E0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_SETRESULT_OFFSET UNITYSDK_OFFSET(0x20DA080)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xC5AF70)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16391C90)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_CREATE_OFFSET UNITYSDK_OFFSET(0x179BE740)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_GET_TASK_OFFSET UNITYSDK_OFFSET(0x16DB0B0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_SETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x22ABCF0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_SETRESULT_OFFSET UNITYSDK_OFFSET(0x22ABC90)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x15AC940)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x179BE840)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncTaskMethodBuilder_TypeDefinitionIndex = 1340;
+	inline static constexpr unsigned int AsyncTaskMethodBuilder_TypeDefinitionIndex = 1342;
 
 	struct alignas(8) AsyncTaskMethodBuilder
 	{
 		static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>** StaticGet_s_cachedCompleted()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskMethodBuilder_TypeDefinitionIndex)->GetStaticField(0x6690);
+			return (::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskMethodBuilder_TypeDefinitionIndex)->GetStaticField(0xB9A0);
 		}
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> m_builder; // 0x10
 

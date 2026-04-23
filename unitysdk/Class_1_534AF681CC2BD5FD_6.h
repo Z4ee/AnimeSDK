@@ -21,7 +21,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_6_TypeDefinitionIndex = 8755;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_6_TypeDefinitionIndex = 8951;
 
 class Class_1_534AF681CC2BD5FD_6 : public ::System::Object
 {

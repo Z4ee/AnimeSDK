@@ -6,12 +6,12 @@ namespace RPG::Client { class NewsTickerItem; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E88CB0)
-#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0__SETSETUPITEMCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x9E89000)
+#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABD6AE0)
+#define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0__SETSETUPITEMCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xABD6E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTicker___c__DisplayClass12_0_TypeDefinitionIndex = 56356;
+	inline static constexpr unsigned int NewsTicker___c__DisplayClass12_0_TypeDefinitionIndex = 63599;
 
 	class NewsTicker___c__DisplayClass12_0 : public ::System::Object
 	{

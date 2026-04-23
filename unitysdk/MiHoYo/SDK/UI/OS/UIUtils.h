@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_OS_UIUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x1601FCB0)
-#define MIHOYO_SDK_UI_OS_UIUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1601FD50)
+#define MIHOYO_SDK_UI_OS_UIUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x1766B4C0)
+#define MIHOYO_SDK_UI_OS_UIUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x176850D0)
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int UIUtils_TypeDefinitionIndex = 7419;
+	inline static constexpr unsigned int UIUtils_TypeDefinitionIndex = 7495;
 
 	class UIUtils : public ::System::Object
 	{

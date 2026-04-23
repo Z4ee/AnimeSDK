@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_CA9A7ECA43FC8636;
-class Class_2_9C2F1FCEC1A75FFD;
+class Class_2_1A8148841049062A;
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_CA9A7ECA43FC8636___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1E4D50)
-#define CLASS_1_CA9A7ECA43FC8636___C__DISPLAYCLASS6_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xA1EF510)
+#define CLASS_1_CA9A7ECA43FC8636___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1296E9F0)
+#define CLASS_1_CA9A7ECA43FC8636___C__DISPLAYCLASS6_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x12978CC0)
 
-inline static constexpr unsigned int Class_1_CA9A7ECA43FC8636___c__DisplayClass6_0_TypeDefinitionIndex = 62520;
+inline static constexpr unsigned int Class_1_CA9A7ECA43FC8636___c__DisplayClass6_0_TypeDefinitionIndex = 70530;
 
 class Class_1_CA9A7ECA43FC8636___c__DisplayClass6_0 : public ::System::Object
 {
 public:
 	::Class_1_CA9A7ECA43FC8636* __4__this; // 0x10
-	::Class_2_9C2F1FCEC1A75FFD* item; // 0x18
+	::Class_2_1A8148841049062A* item; // 0x18
 
 	::System::Void _ctor()
 	{

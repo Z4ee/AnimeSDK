@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_52DD9E5E2B969CDC_EPose_TypeDefinitionIndex = 56496;
+inline static constexpr unsigned int Class_1_52DD9E5E2B969CDC_EPose_TypeDefinitionIndex = 63740;
 
 enum class Class_1_52DD9E5E2B969CDC_EPose : ::System::Int32
 {

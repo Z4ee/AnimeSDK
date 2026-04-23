@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_DISC_METHOD_2_4F4018519B20BBDD_OFFSET UNITYSDK_OFFSET(0x9593300)
-#define RPG_CLIENT_ELECTRICCHAINV2_DISC__CTOR_OFFSET UNITYSDK_OFFSET(0x95934B0)
+#define RPG_CLIENT_ELECTRICCHAINV2_DISC_METHOD_2_4F4018519B20BBDD_OFFSET UNITYSDK_OFFSET(0xA218DE0)
+#define RPG_CLIENT_ELECTRICCHAINV2_DISC__CTOR_OFFSET UNITYSDK_OFFSET(0xA218F90)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 60315;
+	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 67733;
 
 	class Disc : public ::RPG::Client::ElectricChainV2::Shape
 	{

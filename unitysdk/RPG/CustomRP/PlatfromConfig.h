@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PlatfromConfig_TypeDefinitionIndex = 29274;
+	inline static constexpr unsigned int PlatfromConfig_TypeDefinitionIndex = 35041;
 
 	struct alignas(8) PlatfromConfig
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Immutable { template <typename T> class SortedInt
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_MutationResult_TypeDefinitionIndex = 8920;
+	inline static constexpr unsigned int ImmutableHashSet_1_MutationResult_TypeDefinitionIndex = 9117;
 
 	template <typename T>
 	struct ImmutableHashSet_1_MutationResult

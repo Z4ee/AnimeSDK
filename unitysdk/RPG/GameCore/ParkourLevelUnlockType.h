@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourLevelUnlockType_TypeDefinitionIndex = 11075;
+	inline static constexpr unsigned int ParkourLevelUnlockType_TypeDefinitionIndex = 11478;
 
 	enum class ParkourLevelUnlockType : ::System::Int32
 	{

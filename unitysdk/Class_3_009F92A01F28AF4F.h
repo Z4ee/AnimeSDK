@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropResetGachaMachine; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_009F92A01F28AF4F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BB7150)
-#define CLASS_3_009F92A01F28AF4F__CTOR_OFFSET UNITYSDK_OFFSET(0x8BB7120)
+#define CLASS_3_009F92A01F28AF4F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9A502A0)
+#define CLASS_3_009F92A01F28AF4F__CTOR_OFFSET UNITYSDK_OFFSET(0x9A50270)
 
-inline static constexpr unsigned int Class_3_009F92A01F28AF4F_TypeDefinitionIndex = 47079;
+inline static constexpr unsigned int Class_3_009F92A01F28AF4F_TypeDefinitionIndex = 53811;
 
 class Class_3_009F92A01F28AF4F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropResetGachaMachine*>
 {

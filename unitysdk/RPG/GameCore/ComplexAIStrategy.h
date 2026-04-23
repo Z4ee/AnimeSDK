@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexAIStrategy_TypeDefinitionIndex = 43417;
+	inline static constexpr unsigned int ComplexAIStrategy_TypeDefinitionIndex = 50114;
 
 	enum class ComplexAIStrategy : ::System::Byte
 	{

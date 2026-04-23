@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_3DE15EA7F53A0550.h"
+#include "unitysdk/Class_2_E77EE8BE0A609DD9.h"
 
 class Class_1_03D6D30E62EFB374_1;
 class Class_1_ADBE1843AD1E672A;
@@ -8,22 +8,22 @@ class Class_3_9CB0178BAC4923B3;
 namespace RPG::Client::MVVM::Service { class LimaoNewsWindowService; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_5D7F408520274939_GET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0xB25F630)
-#define CLASS_3_5D7F408520274939_GET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0xB25F610)
-#define CLASS_3_5D7F408520274939_SET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0xB25F640)
-#define CLASS_3_5D7F408520274939_SET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0xB25F620)
-#define CLASS_3_5D7F408520274939__CTOR_OFFSET UNITYSDK_OFFSET(0xB25F4B0)
-#define CLASS_3_5D7F408520274939___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB25F650)
+#define CLASS_3_5D7F408520274939_GET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0x11DBDF20)
+#define CLASS_3_5D7F408520274939_GET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0x11DBDF00)
+#define CLASS_3_5D7F408520274939_SET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0x11DBDF30)
+#define CLASS_3_5D7F408520274939_SET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0x11DBDF10)
+#define CLASS_3_5D7F408520274939__CTOR_OFFSET UNITYSDK_OFFSET(0x11DBDDA0)
+#define CLASS_3_5D7F408520274939___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x11DBDF40)
 
-inline static constexpr unsigned int Class_3_5D7F408520274939_TypeDefinitionIndex = 60964;
+inline static constexpr unsigned int Class_3_5D7F408520274939_TypeDefinitionIndex = 68415;
 
-class Class_3_5D7F408520274939 : public ::Class_2_3DE15EA7F53A0550
+class Class_3_5D7F408520274939 : public ::Class_2_E77EE8BE0A609DD9
 {
 public:
-	::System::Collections::Generic::List_1<::Class_3_9CB0178BAC4923B3*>* _ShowSponsors_k__BackingField; // 0x18
-	::Class_1_ADBE1843AD1E672A* _OnBtnContact_k__BackingField; // 0x20
-	::RPG::Client::MVVM::Service::LimaoNewsWindowService* Field_3_3; // 0x28
-	::Class_1_03D6D30E62EFB374_1* Field_3_2; // 0x30
+	::Class_1_03D6D30E62EFB374_1* Field_3_2; // 0x20
+	::System::Collections::Generic::List_1<::Class_3_9CB0178BAC4923B3*>* _ShowSponsors_k__BackingField; // 0x28
+	::RPG::Client::MVVM::Service::LimaoNewsWindowService* Field_3_3; // 0x30
+	::Class_1_ADBE1843AD1E672A* _OnBtnContact_k__BackingField; // 0x38
 
 	::System::Void _ctor()
 	{

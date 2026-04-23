@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaRoomCardPreset_TypeDefinitionIndex = 55234;
+	inline static constexpr unsigned int IRogueTournPersonaRoomCardPreset_TypeDefinitionIndex = 62422;
 
 	class IRogueTournPersonaRoomCardPreset
 	{

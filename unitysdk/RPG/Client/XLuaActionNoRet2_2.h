@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int XLuaActionNoRet2_2_TypeDefinitionIndex = 48060;
+	inline static constexpr unsigned int XLuaActionNoRet2_2_TypeDefinitionIndex = 54805;
 
 	template <typename T0, typename T1>
 	class XLuaActionNoRet2_2 : public ::System::MulticastDelegate

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::KWS { class AddNotifyPermissionsUpdateReceivedOp
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_KWS_ADDNOTIFYPERMISSIONSUPDATERECEIVEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_KWS_ADDNOTIFYPERMISSIONSUPDATERECEIVEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x403F0)
+#define EPIC_ONLINESERVICES_KWS_ADDNOTIFYPERMISSIONSUPDATERECEIVEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x40DF0)
 #define EPIC_ONLINESERVICES_KWS_ADDNOTIFYPERMISSIONSUPDATERECEIVEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int AddNotifyPermissionsUpdateReceivedOptionsInternal_TypeDefinitionIndex = 36225;
+	inline static constexpr unsigned int AddNotifyPermissionsUpdateReceivedOptionsInternal_TypeDefinitionIndex = 42051;
 
 	struct alignas(4) AddNotifyPermissionsUpdateReceivedOptionsInternal
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEBGMSTATECONFIG_METHOD_2_D1CBEA4180F1CD76_OFFSET UNITYSDK_OFFSET(0x16FCC7A0)
-#define RPG_GAMECORE_BATTLEBGMSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FCC8C0)
+#define RPG_GAMECORE_BATTLEBGMSTATECONFIG_METHOD_2_D1CBEA4180F1CD76_OFFSET UNITYSDK_OFFSET(0x186EFFB0)
+#define RPG_GAMECORE_BATTLEBGMSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186F00D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleBGMStateConfig_TypeDefinitionIndex = 16627;
+	inline static constexpr unsigned int BattleBGMStateConfig_TypeDefinitionIndex = 17219;
 
 	class BattleBGMStateConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseFrameSynchor_2_TypeDefinitionIndex = 45263;
+	inline static constexpr unsigned int BaseFrameSynchor_2_TypeDefinitionIndex = 49444;
 
 	template <typename TContext, typename TInitParam>
 	class BaseFrameSynchor_2 : public ::System::Object
@@ -20,6 +20,7 @@ namespace RPG::GameCore
 		::System::Single _FrameDeltaTime; // 0x0
 		::RPG::GameCore::FixPoint _FrameDeltaTimeFix; // 0x0
 		::System::Single _CurrentTime; // 0x0
+		::System::Int32 _StepFrameCount; // 0x0
 		::System::Int32 _CurrentFrame; // 0x0
 		::RPG::GameCore::FrameSyncStepPhase _StepPahse; // 0x0
 		::System::Int32 _CurrentOpIndex; // 0x0

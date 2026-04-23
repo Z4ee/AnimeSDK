@@ -7,18 +7,18 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA52F200)
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0xA52F670)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB26C260)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0xB26C6D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 57970;
+	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 65257;
 
 	class TABehaviorBase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* completeCallback; // 0x10
-		::RPG::Client::TABehaviorBase* __4__this; // 0x18
+		::RPG::Client::TABehaviorBase* __4__this; // 0x10
+		::System::Action* completeCallback; // 0x18
 		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x20
 		::System::Int32 taskCount; // 0x28
 

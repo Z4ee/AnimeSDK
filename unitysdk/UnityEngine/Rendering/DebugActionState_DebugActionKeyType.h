@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugActionState_DebugActionKeyType_TypeDefinitionIndex = 27807;
+	inline static constexpr unsigned int DebugActionState_DebugActionKeyType_TypeDefinitionIndex = 33431;
 
 	enum class DebugActionState_DebugActionKeyType : ::System::Int32
 	{

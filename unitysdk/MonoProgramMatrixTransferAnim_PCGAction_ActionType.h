@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGAction_ActionType_TypeDefinitionIndex = 38373;
+inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGAction_ActionType_TypeDefinitionIndex = 44257;
 
 enum class MonoProgramMatrixTransferAnim_PCGAction_ActionType : ::System::Int32
 {

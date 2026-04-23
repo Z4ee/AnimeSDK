@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByIsPlanetFesLandAvailableForPurchase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6A1EEF84CB96ACF2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8EB2300)
-#define CLASS_3_6A1EEF84CB96ACF2__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB22D0)
+#define CLASS_3_6A1EEF84CB96ACF2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x90BDC80)
+#define CLASS_3_6A1EEF84CB96ACF2__CTOR_OFFSET UNITYSDK_OFFSET(0x90BDC50)
 
-inline static constexpr unsigned int Class_3_6A1EEF84CB96ACF2_TypeDefinitionIndex = 46759;
+inline static constexpr unsigned int Class_3_6A1EEF84CB96ACF2_TypeDefinitionIndex = 53468;
 
 class Class_3_6A1EEF84CB96ACF2 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByIsPlanetFesLandAvailableForPurchase*>
 {

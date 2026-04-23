@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatShopGoodType_TypeDefinitionIndex = 61925;
+	inline static constexpr unsigned int DiceCombatShopGoodType_TypeDefinitionIndex = 69847;
 
 	enum class DiceCombatShopGoodType : ::System::Int32
 	{

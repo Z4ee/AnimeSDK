@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideEndTransferColor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_67751E0A392C76A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x883C620)
-#define CLASS_3_67751E0A392C76A3__CTOR_OFFSET UNITYSDK_OFFSET(0x883C5F0)
+#define CLASS_3_67751E0A392C76A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD9FC950)
+#define CLASS_3_67751E0A392C76A3__CTOR_OFFSET UNITYSDK_OFFSET(0xD9FC920)
 
-inline static constexpr unsigned int Class_3_67751E0A392C76A3_TypeDefinitionIndex = 42936;
+inline static constexpr unsigned int Class_3_67751E0A392C76A3_TypeDefinitionIndex = 48921;
 
 class Class_3_67751E0A392C76A3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideEndTransferColor*>
 {

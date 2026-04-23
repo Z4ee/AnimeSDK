@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_26FB5CF7326A326B_MeasureAction_TypeDefinitionIndex = 50664;
+inline static constexpr unsigned int Class_1_26FB5CF7326A326B_MeasureAction_TypeDefinitionIndex = 57527;
 
 enum class Class_1_26FB5CF7326A326B_MeasureAction : ::System::Int32
 {

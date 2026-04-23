@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GameLevelDiceCombatNPCConfig; }
 
-#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION_METHOD_2_3E4D3FA2267EE669_OFFSET UNITYSDK_OFFSET(0x172388C0)
-#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17240A10)
+#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION_METHOD_2_3E4D3FA2267EE669_OFFSET UNITYSDK_OFFSET(0x1894AEE0)
+#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x189533C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameLevelDiceCombatConfigCollection_TypeDefinitionIndex = 15977;
+	inline static constexpr unsigned int GameLevelDiceCombatConfigCollection_TypeDefinitionIndex = 16503;
 
 	class GameLevelDiceCombatConfigCollection : public ::RPG::GameCore::JsonConfig
 	{

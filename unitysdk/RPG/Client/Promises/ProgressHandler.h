@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int ProgressHandler_TypeDefinitionIndex = 9612;
+	inline static constexpr unsigned int ProgressHandler_TypeDefinitionIndex = 8660;
 
 	struct alignas(8) ProgressHandler
 	{

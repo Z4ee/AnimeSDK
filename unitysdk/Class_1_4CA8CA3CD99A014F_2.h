@@ -8,10 +8,10 @@ class Class_2_F47F7A3F5E97970D;
 class Class_3_1A92845FAFA5EC77;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define CLASS_1_4CA8CA3CD99A014F_2_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11938BA0)
-#define CLASS_1_4CA8CA3CD99A014F_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11938B00)
+#define CLASS_1_4CA8CA3CD99A014F_2_EXECUTE_OFFSET UNITYSDK_OFFSET(0x97359F0)
+#define CLASS_1_4CA8CA3CD99A014F_2__CTOR_OFFSET UNITYSDK_OFFSET(0x9735950)
 
-inline static constexpr unsigned int Class_1_4CA8CA3CD99A014F_2_TypeDefinitionIndex = 62834;
+inline static constexpr unsigned int Class_1_4CA8CA3CD99A014F_2_TypeDefinitionIndex = 70870;
 
 class Class_1_4CA8CA3CD99A014F_2 : public ::System::Object
 {

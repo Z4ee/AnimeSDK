@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FaceDirectionType_TypeDefinitionIndex = 22438;
+	inline static constexpr unsigned int FaceDirectionType_TypeDefinitionIndex = 23410;
 
 	enum class FaceDirectionType : ::System::Int32
 	{

@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-class Class_1_843E9EA2A1BBF274;
-namespace RPG::Client { class RelicItemData; }
+class Class_0_16E4307DCC419505_341;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_930_TypeDefinitionIndex = 61180;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_930_TypeDefinitionIndex = 65550;
 
 class Class_0_16E4307DCC419505_930
 {

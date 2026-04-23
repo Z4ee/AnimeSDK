@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScheduleData_ScheduleDataUniqueKey_TypeDefinitionIndex = 55396;
+	inline static constexpr unsigned int ScheduleData_ScheduleDataUniqueKey_TypeDefinitionIndex = 62587;
 
 	struct alignas(4) ScheduleData_ScheduleDataUniqueKey
 	{

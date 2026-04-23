@@ -5,11 +5,11 @@
 namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class SequenceNode; }
 
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_SEQUENCECONSTRUCTPOSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x20FE4D0)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_SEQUENCECONSTRUCTPOSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x22D10C0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SequenceNode_SequenceConstructPosContext_TypeDefinitionIndex = 2061;
+	inline static constexpr unsigned int SequenceNode_SequenceConstructPosContext_TypeDefinitionIndex = 2062;
 
 	struct alignas(8) SequenceNode_SequenceConstructPosContext
 	{

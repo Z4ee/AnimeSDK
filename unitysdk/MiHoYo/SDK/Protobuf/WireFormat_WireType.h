@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int WireFormat_WireType_TypeDefinitionIndex = 28022;
+	inline static constexpr unsigned int WireFormat_WireType_TypeDefinitionIndex = 33646;
 
 	enum class WireFormat_WireType : ::System::UInt32
 	{

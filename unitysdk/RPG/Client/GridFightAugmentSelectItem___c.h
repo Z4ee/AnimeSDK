@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97D0D80)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97D0DC0)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__31_0_OFFSET UNITYSDK_OFFSET(0x97D0DD0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4496F0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA449730)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__31_0_OFFSET UNITYSDK_OFFSET(0xA449740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentSelectItem___c_TypeDefinitionIndex = 52287;
+	inline static constexpr unsigned int GridFightAugmentSelectItem___c_TypeDefinitionIndex = 59239;
 
 	class GridFightAugmentSelectItem___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__31_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x12460);
-		}
 		static ::RPG::Client::GridFightAugmentSelectItem___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightAugmentSelectItem___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x12468);
+			return (::RPG::Client::GridFightAugmentSelectItem___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x18210);
+		}
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__31_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x18218);
 		}
 
 		static ::System::Void _cctor()

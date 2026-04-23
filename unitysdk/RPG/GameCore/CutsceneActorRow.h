@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUTSCENEACTORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171425B0)
-#define RPG_GAMECORE_CUTSCENEACTORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17142770)
+#define RPG_GAMECORE_CUTSCENEACTORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188496E0)
+#define RPG_GAMECORE_CUTSCENEACTORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188498A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CutsceneActorRow_TypeDefinitionIndex = 11950;
+	inline static constexpr unsigned int CutsceneActorRow_TypeDefinitionIndex = 12381;
 
 	class CutsceneActorRow : public ::System::Object
 	{
 	public:
-		::System::String* ActorModelPath; // 0x10
-		::System::String* ResidentEffectKey; // 0x18
-		::System::String* ActorID; // 0x20
-		::System::String* ResidentPossessionKey; // 0x28
+		::System::String* ActorID; // 0x10
+		::System::String* ResidentPossessionKey; // 0x18
+		::System::String* ResidentEffectKey; // 0x20
+		::System::String* ActorModelPath; // 0x28
 
 		::System::Void _ctor()
 		{

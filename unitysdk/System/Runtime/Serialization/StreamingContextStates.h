@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int StreamingContextStates_TypeDefinitionIndex = 1125;
+	inline static constexpr unsigned int StreamingContextStates_TypeDefinitionIndex = 1127;
 
 	enum class StreamingContextStates : ::System::Int32
 	{

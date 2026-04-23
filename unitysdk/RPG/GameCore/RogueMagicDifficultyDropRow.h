@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17613390)
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17613500)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D20BA0)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D20D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 13583;
+	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 14055;
 
 	class RogueMagicDifficultyDropRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 WorldLevel; // 0x10
-		::System::UInt32 AreaID; // 0x14
+		::System::UInt32 AreaID; // 0x10
+		::System::UInt32 WorldLevel; // 0x14
 		::System::UInt32 MonsterEliteDropDisplayID; // 0x18
 
 		::System::Void _ctor()

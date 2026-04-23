@@ -8,34 +8,34 @@ namespace RPG::Client::ChenLingBattle { class StageWave; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9333940)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9333980)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__GETTOTALBATTLESCORE_B__92_0_OFFSET UNITYSDK_OFFSET(0x9333A20)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C___INITWAVES_B__27_0_OFFSET UNITYSDK_OFFSET(0x93339D0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C___SORTHANDCARD_B__2_0_OFFSET UNITYSDK_OFFSET(0x9333990)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9FA1610)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA1650)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__GETTOTALBATTLESCORE_B__92_0_OFFSET UNITYSDK_OFFSET(0x9FA16F0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C___INITWAVES_B__27_0_OFFSET UNITYSDK_OFFSET(0x9FA16A0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C___SORTHANDCARD_B__2_0_OFFSET UNITYSDK_OFFSET(0x9FA1660)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c_TypeDefinitionIndex = 62091;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c_TypeDefinitionIndex = 70090;
 
 	class ChenLingBattleGameSession___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ChenLingBattle::StageWave*>** StaticGet___9__27_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingBattle::StageWave*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x45F40);
-		}
-		static ::System::Func_2<::RPG::Client::ChenLingBattle::IEntity*, ::System::UInt32>** StaticGet___9__92_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingBattle::IEntity*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x45F48);
+			return (::System::Comparison_1<::RPG::Client::ChenLingBattle::StageWave*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x4E340);
 		}
 		static ::System::Comparison_1<::RPG::Client::ChenLingBattle::HandCard*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingBattle::HandCard*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x45F50);
+			return (::System::Comparison_1<::RPG::Client::ChenLingBattle::HandCard*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x4E348);
 		}
 		static ::RPG::Client::ChenLingBattle::ChenLingBattleGameSession___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattle::ChenLingBattleGameSession___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x45F58);
+			return (::RPG::Client::ChenLingBattle::ChenLingBattleGameSession___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x4E350);
+		}
+		static ::System::Func_2<::RPG::Client::ChenLingBattle::IEntity*, ::System::UInt32>** StaticGet___9__92_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChenLingBattle::IEntity*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleGameSession___c_TypeDefinitionIndex)->GetStaticField(0x4E358);
 		}
 
 		static ::System::Void _cctor()

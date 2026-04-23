@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FieldHideMode_TypeDefinitionIndex = 15030;
+	inline static constexpr unsigned int FieldHideMode_TypeDefinitionIndex = 15538;
 
 	enum class FieldHideMode : ::System::Int32
 	{

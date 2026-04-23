@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceEffectRow___O_TypeDefinitionIndex = 10295;
+	inline static constexpr unsigned int CakeRaceEffectRow___O_TypeDefinitionIndex = 10520;
 
 	class CakeRaceEffectRow___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRaceRegionTag>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRaceRegionTag>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceEffectRow___O_TypeDefinitionIndex)->GetStaticField(0x25510);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRaceRegionTag>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceEffectRow___O_TypeDefinitionIndex)->GetStaticField(0x26540);
 		}
 	};
 }

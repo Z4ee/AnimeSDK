@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageVolumeConfig; }
 namespace RPG::GameCore { class StageVolumeConfigV2WithTAData; }
 
-#define RPG_GAMECORE_VOLUMECONFIG_METHOD_2_A01AC9BE5A788AE2_OFFSET UNITYSDK_OFFSET(0x178F3830)
-#define RPG_GAMECORE_VOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178F3970)
+#define RPG_GAMECORE_VOLUMECONFIG_METHOD_2_A01AC9BE5A788AE2_OFFSET UNITYSDK_OFFSET(0x190F7370)
+#define RPG_GAMECORE_VOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190F74B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 17554;
+	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 18167;
 
 	class VolumeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x189EADB0)
-#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x189EADA0)
+#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A424660)
+#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1A424650)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AddComponentMenu_TypeDefinitionIndex = 4110;
+	inline static constexpr unsigned int AddComponentMenu_TypeDefinitionIndex = 4112;
 
 	class AddComponentMenu : public ::System::Attribute
 	{

@@ -8,18 +8,18 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B0269E82570986BC_METHOD_1_076FB2D495859930_OFFSET UNITYSDK_OFFSET(0x8BB04A0)
-#define CLASS_1_B0269E82570986BC_METHOD_1_38D3664786168628_OFFSET UNITYSDK_OFFSET(0x8BB0E30)
-#define CLASS_1_B0269E82570986BC_METHOD_1_885DF4DA0F709E3E_OFFSET UNITYSDK_OFFSET(0x8BB0C40)
-#define CLASS_1_B0269E82570986BC__CTOR_OFFSET UNITYSDK_OFFSET(0x8BB03F0)
+#define CLASS_1_B0269E82570986BC_METHOD_1_076FB2D495859930_OFFSET UNITYSDK_OFFSET(0x969BC90)
+#define CLASS_1_B0269E82570986BC_METHOD_1_38D3664786168628_OFFSET UNITYSDK_OFFSET(0x969C620)
+#define CLASS_1_B0269E82570986BC_METHOD_1_885DF4DA0F709E3E_OFFSET UNITYSDK_OFFSET(0x969C430)
+#define CLASS_1_B0269E82570986BC__CTOR_OFFSET UNITYSDK_OFFSET(0x969BBE0)
 
-inline static constexpr unsigned int Class_1_B0269E82570986BC_TypeDefinitionIndex = 49185;
+inline static constexpr unsigned int Class_1_B0269E82570986BC_TypeDefinitionIndex = 55982;
 
 class Class_1_B0269E82570986BC : public ::System::Object
 {
 public:
-	::RPG::Client::PerformanceManager* Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x18
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x10
+	::RPG::Client::PerformanceManager* Field_1_0; // 0x18
 
 	::System::Void _ctor(::RPG::Client::PerformanceManager* a1)
 	{

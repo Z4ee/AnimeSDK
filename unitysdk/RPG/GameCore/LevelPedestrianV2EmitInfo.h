@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2EMITINFO_METHOD_2_36BEE6176B87B11F_OFFSET UNITYSDK_OFFSET(0x17345C70)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2EMITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17345E10)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2EMITINFO_METHOD_2_36BEE6176B87B11F_OFFSET UNITYSDK_OFFSET(0x18A53730)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2EMITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A538D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2EmitInfo_TypeDefinitionIndex = 15903;
+	inline static constexpr unsigned int LevelPedestrianV2EmitInfo_TypeDefinitionIndex = 16429;
 
 	class LevelPedestrianV2EmitInfo : public ::RPG::GameCore::JsonConfig
 	{

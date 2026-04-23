@@ -12,25 +12,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E87825DEC8ADB719_DISPOSE_OFFSET UNITYSDK_OFFSET(0x109F9CF0)
-#define CLASS_1_E87825DEC8ADB719_METHOD_1_159CB55E631AFCB9_OFFSET UNITYSDK_OFFSET(0x109F9DF0)
-#define CLASS_1_E87825DEC8ADB719_METHOD_1_67539A3F46DC4236_OFFSET UNITYSDK_OFFSET(0x109FA290)
-#define CLASS_1_E87825DEC8ADB719_METHOD_1_6946C610D47FE5F0_OFFSET UNITYSDK_OFFSET(0x109FA6C0)
-#define CLASS_1_E87825DEC8ADB719_METHOD_1_7AFEA59B9600CEDE_OFFSET UNITYSDK_OFFSET(0x109FA790)
-#define CLASS_1_E87825DEC8ADB719_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x109FA610)
-#define CLASS_1_E87825DEC8ADB719_METHOD_1_C50B7F2ADB9AC2D8_OFFSET UNITYSDK_OFFSET(0x109F9EC0)
-#define CLASS_1_E87825DEC8ADB719__CTOR_OFFSET UNITYSDK_OFFSET(0x109FA8C0)
+#define CLASS_1_E87825DEC8ADB719_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11DED2B0)
+#define CLASS_1_E87825DEC8ADB719_METHOD_1_159CB55E631AFCB9_OFFSET UNITYSDK_OFFSET(0x11DED3C0)
+#define CLASS_1_E87825DEC8ADB719_METHOD_1_67539A3F46DC4236_OFFSET UNITYSDK_OFFSET(0x11DED860)
+#define CLASS_1_E87825DEC8ADB719_METHOD_1_6946C610D47FE5F0_OFFSET UNITYSDK_OFFSET(0x11DEDC90)
+#define CLASS_1_E87825DEC8ADB719_METHOD_1_7AFEA59B9600CEDE_OFFSET UNITYSDK_OFFSET(0x11DEDD60)
+#define CLASS_1_E87825DEC8ADB719_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x11DEDBE0)
+#define CLASS_1_E87825DEC8ADB719_METHOD_1_C50B7F2ADB9AC2D8_OFFSET UNITYSDK_OFFSET(0x11DED490)
+#define CLASS_1_E87825DEC8ADB719__CTOR_OFFSET UNITYSDK_OFFSET(0x11DEDE90)
 
-inline static constexpr unsigned int Class_1_E87825DEC8ADB719_TypeDefinitionIndex = 64251;
+inline static constexpr unsigned int Class_1_E87825DEC8ADB719_TypeDefinitionIndex = 72298;
 
 class Class_1_E87825DEC8ADB719 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* Field_1_2; // 0x18
-	::RPG::GameCore::PropOptionTrigger_ButtonParam* Field_1_3; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_1_0; // 0x10
+	::RPG::GameCore::PropOptionTrigger_ButtonParam* Field_1_3; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* Field_1_1; // 0x20
 	::RPG::GameCore::GameEntity* Field_1_5; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_1_0; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* Field_1_2; // 0x30
 	::System::Boolean Field_1_4; // 0x38
 	::RPG::Client::Prop::PuzzleOptionUIUtilType Field_1_6; // 0x3C
 

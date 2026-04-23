@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ContextMenuOrigin_TypeDefinitionIndex = 30434;
+	inline static constexpr unsigned int BrowserNative_ContextMenuOrigin_TypeDefinitionIndex = 36154;
 
 	enum class BrowserNative_ContextMenuOrigin : ::System::Int32
 	{

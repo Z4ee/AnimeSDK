@@ -5,11 +5,11 @@
 namespace RPG::Client { class CameraNormalConfigData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x925B960)
+#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9F1F5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNormalConfigTemplate_TypeDefinitionIndex = 56983;
+	inline static constexpr unsigned int CameraNormalConfigTemplate_TypeDefinitionIndex = 64233;
 
 	class CameraNormalConfigTemplate : public ::System::Object
 	{

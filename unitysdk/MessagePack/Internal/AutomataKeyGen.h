@@ -5,19 +5,19 @@
 
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET UNITYSDK_OFFSET(0x15D3F850)
-#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D42C30)
+#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET UNITYSDK_OFFSET(0x1733D230)
+#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x173405F0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AutomataKeyGen_TypeDefinitionIndex = 9141;
+	inline static constexpr unsigned int AutomataKeyGen_TypeDefinitionIndex = 9338;
 
 	class AutomataKeyGen : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_GetKeyMethod()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(AutomataKeyGen_TypeDefinitionIndex)->GetStaticField(0x21610);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(AutomataKeyGen_TypeDefinitionIndex)->GetStaticField(0x422B0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUDIOBOOKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F8D660)
-#define RPG_GAMECORE_AUDIOBOOKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8DBB0)
+#define RPG_GAMECORE_AUDIOBOOKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186B0A10)
+#define RPG_GAMECORE_AUDIOBOOKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186B0F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioBookDataRow_TypeDefinitionIndex = 11780;
+	inline static constexpr unsigned int AudioBookDataRow_TypeDefinitionIndex = 12192;
 
 	class AudioBookDataRow : public ::System::Object
 	{

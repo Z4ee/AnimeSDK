@@ -5,7 +5,7 @@
 #include "unitysdk/Struct_2_A7B9824716EA1FCD.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_69FF5DE516C87A66;
+class Class_1_F3391C70DC37088D;
 namespace Entitas { class IEntity; }
 namespace RPG::Client::LittleGame { template <typename T> class Services_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntityVarServices_1; }
@@ -50,6 +50,9 @@ namespace RPG::GameCore { class FiveDimEnterDashPrepareStateAction; }
 namespace RPG::GameCore { class FiveDimEnterHiddenAreaAction; }
 namespace RPG::GameCore { class FiveDimEntityRotateAction; }
 namespace RPG::GameCore { class FiveDimEntityShakeAction; }
+namespace RPG::GameCore { class FiveDimEvilSmileCrazyAction; }
+namespace RPG::GameCore { class FiveDimEvilSmileDieAction; }
+namespace RPG::GameCore { class FiveDimEvilSmileSetTraceTargetAction; }
 namespace RPG::GameCore { class FiveDimFinishChenLingGameBoyAction; }
 namespace RPG::GameCore { class FiveDimFinishDelayedSequenceAction; }
 namespace RPG::GameCore { class FiveDimFireAvatarEffectAction; }
@@ -70,6 +73,7 @@ namespace RPG::GameCore { class FiveDimMissionTalkAction; }
 namespace RPG::GameCore { class FiveDimMoveToMascotFakePlayerAction; }
 namespace RPG::GameCore { class FiveDimMoveToNextSplinePointAction; }
 namespace RPG::GameCore { class FiveDimMutePlayerInputAction; }
+namespace RPG::GameCore { class FiveDimMutePlayerSkillAction; }
 namespace RPG::GameCore { class FiveDimMuteUIInputAction; }
 namespace RPG::GameCore { class FiveDimOverrideSimpleGameLevelTipAction; }
 namespace RPG::GameCore { class FiveDimPauseMusicAction; }
@@ -81,6 +85,7 @@ namespace RPG::GameCore { class FiveDimPlayerSkillCleanerBotCondition; }
 namespace RPG::GameCore { class FiveDimPlayerSkillDashCondition; }
 namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
 namespace RPG::GameCore { class FiveDimRandomBubbleTalkAction; }
+namespace RPG::GameCore { class FiveDimRefillPlayerDashEnergyAction; }
 namespace RPG::GameCore { class FiveDimRefillPlayerJumpEnergyAction; }
 namespace RPG::GameCore { class FiveDimRemoveGlobalTimeScaleAction; }
 namespace RPG::GameCore { class FiveDimResetBillboardAction; }
@@ -109,6 +114,7 @@ namespace RPG::GameCore { class FiveDimSetPlayerSkillUpgradeAction; }
 namespace RPG::GameCore { class FiveDimSetPlayerToMusicFallAction; }
 namespace RPG::GameCore { class FiveDimSetPropSpawnerEnableAction; }
 namespace RPG::GameCore { class FiveDimSetRenderVisibleAction; }
+namespace RPG::GameCore { class FiveDimSetRenderVisibleNeverDitherAction; }
 namespace RPG::GameCore { class FiveDimSetRenderingItemStateAction; }
 namespace RPG::GameCore { class FiveDimSetResetPointAction; }
 namespace RPG::GameCore { class FiveDimSetSplineMoveDirectionAction; }
@@ -135,6 +141,7 @@ namespace RPG::GameCore { class FiveDimStopWindowStageAction; }
 namespace RPG::GameCore { class FiveDimSwitchMaterialAction; }
 namespace RPG::GameCore { class FiveDimSwitchSplineMoveDirectionAction; }
 namespace RPG::GameCore { class FiveDimTeleportAction; }
+namespace RPG::GameCore { class FiveDimTriggerDashOrbAction; }
 namespace RPG::GameCore { class FiveDimTriggerEventNextBeatAction; }
 namespace RPG::GameCore { class FiveDimTriggerGameLoadingViewAction; }
 namespace RPG::GameCore { class FiveDimTriggerSelfEventAction; }
@@ -147,7 +154,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 62575;
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 70588;
 
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object
@@ -159,7 +166,7 @@ namespace RPG::Client::LittleGame::FiveDim
 		::RPG::Client::LittleGame::FiveDim::IFiveDimRotateService_1<T>* _RotateService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimDestructibleService_1<T>* _DestructibleService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IEntityVarServices_1<T>* _EntityVarServices; // 0x0
-		::Class_1_69FF5DE516C87A66* _PlayMissionTalkTaskExecuter; // 0x0
+		::Class_1_F3391C70DC37088D* _PlayMissionTalkTaskExecuter; // 0x0
 		::RPG::GameCore::TaskContext* __TaskContext_k__BackingField; // 0x0
 	};
 }

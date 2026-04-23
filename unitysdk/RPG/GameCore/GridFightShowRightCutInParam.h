@@ -7,22 +7,22 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA9725B0)
+#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C06A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowRightCutInParam_TypeDefinitionIndex = 46917;
+	inline static constexpr unsigned int GridFightShowRightCutInParam_TypeDefinitionIndex = 53630;
 
 	class GridFightShowRightCutInParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightRole* Role; // 0x10
-		::System::String* UIPrefabPath; // 0x18
-		::System::String* ImagePath; // 0x20
+		::System::String* ImagePath; // 0x18
+		::System::String* UIPrefabPath; // 0x20
 		::System::String* TraitSearchKey; // 0x28
-		::RPG::Client::TextID TitleTextID; // 0x30
-		::System::UInt32 TraitLv; // 0x40
-		::RPG::GameCore::GridFightShowRightCutInTraitImgType TraitShowImgType; // 0x44
+		::System::UInt32 TraitLv; // 0x30
+		::RPG::GameCore::GridFightShowRightCutInTraitImgType TraitShowImgType; // 0x34
+		::RPG::Client::TextID TitleTextID; // 0x38
 
 		::System::Void _ctor()
 		{

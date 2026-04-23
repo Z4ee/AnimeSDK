@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfCustomerState_TypeDefinitionIndex = 16981;
+	inline static constexpr unsigned int ElfCustomerState_TypeDefinitionIndex = 17575;
 
 	enum class ElfCustomerState : ::System::Int32
 	{

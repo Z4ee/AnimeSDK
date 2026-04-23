@@ -9,12 +9,12 @@ namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELNODECONTAINER_METHOD_2_BCA567199E852450_OFFSET UNITYSDK_OFFSET(0x170A0DB0)
-#define RPG_GAMECORE_CHIMERADUELNODECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x170A0FF0)
+#define RPG_GAMECORE_CHIMERADUELNODECONTAINER_METHOD_2_BCA567199E852450_OFFSET UNITYSDK_OFFSET(0x188000F0)
+#define RPG_GAMECORE_CHIMERADUELNODECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x18800330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNodeContainer_TypeDefinitionIndex = 14637;
+	inline static constexpr unsigned int ChimeraDuelNodeContainer_TypeDefinitionIndex = 15107;
 
 	class ChimeraDuelNodeContainer : public ::RPG::GameCore::JsonConfig
 	{

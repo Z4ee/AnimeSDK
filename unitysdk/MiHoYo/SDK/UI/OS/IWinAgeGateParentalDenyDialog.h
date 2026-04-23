@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinAgeGateParentalDenyDialog_TypeDefinitionIndex = 7397;
+	inline static constexpr unsigned int IWinAgeGateParentalDenyDialog_TypeDefinitionIndex = 7469;
 
 	class IWinAgeGateParentalDenyDialog
 	{

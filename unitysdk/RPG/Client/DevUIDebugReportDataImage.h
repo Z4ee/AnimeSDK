@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DEVUIDEBUGREPORTDATAIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x944B7E0)
+#define RPG_CLIENT_DEVUIDEBUGREPORTDATAIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F99B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DevUIDebugReportDataImage_TypeDefinitionIndex = 55788;
+	inline static constexpr unsigned int DevUIDebugReportDataImage_TypeDefinitionIndex = 63020;
 
 	class DevUIDebugReportDataImage : public ::System::Object
 	{

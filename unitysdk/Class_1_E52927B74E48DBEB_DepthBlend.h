@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_E52927B74E48DBEB_DepthBlend_TypeDefinitionIndex = 39704;
+inline static constexpr unsigned int Class_1_E52927B74E48DBEB_DepthBlend_TypeDefinitionIndex = 45613;
 
 enum class Class_1_E52927B74E48DBEB_DepthBlend : ::System::Int32
 {

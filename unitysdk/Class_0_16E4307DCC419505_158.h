@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_780EF8857848D3F9.h"
 
-class Class_1_3937603235E18E27;
+class Class_1_9E9E805FDD041FD9;
+namespace RPG::GameCore { class HoyoTagContainer; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_158_TypeDefinitionIndex = 32442;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_158_TypeDefinitionIndex = 38165;
 
 class Class_0_16E4307DCC419505_158
 {

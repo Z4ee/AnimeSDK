@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackController_AlleyPackInputPosParam_TypeDefinitionIndex = 60735;
+	inline static constexpr unsigned int AlleyPackController_AlleyPackInputPosParam_TypeDefinitionIndex = 68184;
 
 	struct alignas(4) AlleyPackController_AlleyPackInputPosParam
 	{

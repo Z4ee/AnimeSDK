@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/FloatParameter.h"
 
-#define UNITYENGINE_RENDERING_MAXFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x188E7C70)
-#define UNITYENGINE_RENDERING_MAXFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x188E7C80)
-#define UNITYENGINE_RENDERING_MAXFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188E7C90)
+#define UNITYENGINE_RENDERING_MAXFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A321A00)
+#define UNITYENGINE_RENDERING_MAXFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A321A10)
+#define UNITYENGINE_RENDERING_MAXFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321A20)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MaxFloatParameter_TypeDefinitionIndex = 27924;
+	inline static constexpr unsigned int MaxFloatParameter_TypeDefinitionIndex = 33548;
 
 	class MaxFloatParameter : public ::UnityEngine::Rendering::FloatParameter
 	{

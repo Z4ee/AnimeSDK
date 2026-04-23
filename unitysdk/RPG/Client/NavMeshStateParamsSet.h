@@ -7,11 +7,11 @@ namespace RPG::Client { class NavMeshObstacleParams; }
 namespace System { class String; }
 namespace UnityEngine::AI { class NavMeshSurface; }
 
-#define RPG_CLIENT_NAVMESHSTATEPARAMSSET__CTOR_OFFSET UNITYSDK_OFFSET(0x9E30DC0)
+#define RPG_CLIENT_NAVMESHSTATEPARAMSSET__CTOR_OFFSET UNITYSDK_OFFSET(0xAB78190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NavMeshStateParamsSet_TypeDefinitionIndex = 56060;
+	inline static constexpr unsigned int NavMeshStateParamsSet_TypeDefinitionIndex = 63303;
 
 	class NavMeshStateParamsSet : public ::System::Object
 	{

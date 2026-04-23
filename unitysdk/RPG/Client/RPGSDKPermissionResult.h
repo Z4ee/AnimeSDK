@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKPermissionResult_TypeDefinitionIndex = 49511;
+	inline static constexpr unsigned int RPGSDKPermissionResult_TypeDefinitionIndex = 56333;
 
 	enum class RPGSDKPermissionResult : ::System::Int32
 	{

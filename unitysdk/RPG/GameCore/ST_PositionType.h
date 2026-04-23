@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_PositionType_TypeDefinitionIndex = 18378;
+	inline static constexpr unsigned int ST_PositionType_TypeDefinitionIndex = 19025;
 
 	enum class ST_PositionType : ::System::Int32
 	{
@@ -12,5 +12,7 @@ namespace RPG::GameCore
 		BornPos = 2,
 		AwardStaticPosition = 3,
 		StimulusPos = 4,
+		DetectedNPCMonsterPos = 5,
+		DetectedMoneyPos = 6,
 	};
 }

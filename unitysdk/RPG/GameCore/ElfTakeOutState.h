@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfTakeOutState_TypeDefinitionIndex = 16982;
+	inline static constexpr unsigned int ElfTakeOutState_TypeDefinitionIndex = 17576;
 
 	enum class ElfTakeOutState : ::System::Int32
 	{

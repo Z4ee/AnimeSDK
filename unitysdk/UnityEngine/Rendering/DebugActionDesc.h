@@ -7,17 +7,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGACTIONDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x188D9EC0)
+#define UNITYENGINE_RENDERING_DEBUGACTIONDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313C00)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugActionDesc_TypeDefinitionIndex = 27805;
+	inline static constexpr unsigned int DebugActionDesc_TypeDefinitionIndex = 33429;
 
 	class DebugActionDesc : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Il2CppArray<::System::String*>*>* buttonTriggerList; // 0x10
-		::System::String* axisTrigger; // 0x18
+		::System::String* axisTrigger; // 0x10
+		::System::Collections::Generic::List_1<::Il2CppArray<::System::String*>*>* buttonTriggerList; // 0x18
 		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::KeyCode>*>* keyTriggerList; // 0x20
 		::UnityEngine::Rendering::DebugActionRepeatMode repeatMode; // 0x28
 		::System::Single repeatDelay; // 0x2C

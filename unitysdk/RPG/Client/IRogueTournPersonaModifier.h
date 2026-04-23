@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_49AFAF7E1EDC93F8;
+class Class_1_54D5F60E7D5A40F8;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaModifier_TypeDefinitionIndex = 55200;
+	inline static constexpr unsigned int IRogueTournPersonaModifier_TypeDefinitionIndex = 62388;
 
 	class IRogueTournPersonaModifier
 	{

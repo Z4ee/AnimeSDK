@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176724E0)
-#define RPG_GAMECORE_ROGUEUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17672B40)
+#define RPG_GAMECORE_ROGUEUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D7FD20)
+#define RPG_GAMECORE_ROGUEUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D80380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueUnlockConfigRow_TypeDefinitionIndex = 13445;
+	inline static constexpr unsigned int RogueUnlockConfigRow_TypeDefinitionIndex = 13918;
 
 	class RogueUnlockConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockFinishWay; // 0x10
-		::System::UInt32 RogueUnlockID; // 0x14
-		::RPG::Client::TextID RogueUnlockDetail; // 0x18
+		::RPG::Client::TextID RogueUnlockDetail; // 0x10
+		::System::UInt32 UnlockFinishWay; // 0x20
+		::System::UInt32 RogueUnlockID; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameTimeBudgetType_TypeDefinitionIndex = 58249;
+	inline static constexpr unsigned int FrameTimeBudgetType_TypeDefinitionIndex = 65536;
 
 	enum class FrameTimeBudgetType : ::System::Int32
 	{

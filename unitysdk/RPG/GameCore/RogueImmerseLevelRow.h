@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEIMMERSELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1760FDC0)
-#define RPG_GAMECORE_ROGUEIMMERSELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17610780)
+#define RPG_GAMECORE_ROGUEIMMERSELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D1CEA0)
+#define RPG_GAMECORE_ROGUEIMMERSELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D1D860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueImmerseLevelRow_TypeDefinitionIndex = 13574;
+	inline static constexpr unsigned int RogueImmerseLevelRow_TypeDefinitionIndex = 14046;
 
 	class RogueImmerseLevelRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID EffectDesc2; // 0x10
-		::RPG::Client::TextID BGDesc; // 0x20
-		::RPG::Client::TextID LevelUpTips2; // 0x30
-		::RPG::Client::TextID EffectDesc1; // 0x40
-		::RPG::Client::TextID LevelUpTips1; // 0x50
-		::RPG::Client::TextID EffectTitle2; // 0x60
-		::System::UInt32 UnlockID; // 0x70
-		::System::UInt32 Level; // 0x74
-		::RPG::Client::TextID EffectTitle1; // 0x78
+		::RPG::Client::TextID BGDesc; // 0x10
+		::RPG::Client::TextID EffectTitle2; // 0x20
+		::System::UInt32 Level; // 0x30
+		::System::UInt32 UnlockID; // 0x34
+		::RPG::Client::TextID LevelUpTips2; // 0x38
+		::RPG::Client::TextID EffectDesc1; // 0x48
+		::RPG::Client::TextID EffectTitle1; // 0x58
+		::RPG::Client::TextID LevelUpTips1; // 0x68
+		::RPG::Client::TextID EffectDesc2; // 0x78
 
 		::System::Void _ctor()
 		{

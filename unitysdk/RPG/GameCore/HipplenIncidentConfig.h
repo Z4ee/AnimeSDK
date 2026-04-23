@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HipplenIncidentStepConfig; }
 
-#define RPG_GAMECORE_HIPPLENINCIDENTCONFIG_METHOD_2_EC461ADA8408094B_OFFSET UNITYSDK_OFFSET(0x172AE3D0)
-#define RPG_GAMECORE_HIPPLENINCIDENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172AE480)
+#define RPG_GAMECORE_HIPPLENINCIDENTCONFIG_METHOD_2_EC461ADA8408094B_OFFSET UNITYSDK_OFFSET(0x18A02FF0)
+#define RPG_GAMECORE_HIPPLENINCIDENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A030A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenIncidentConfig_TypeDefinitionIndex = 15385;
+	inline static constexpr unsigned int HipplenIncidentConfig_TypeDefinitionIndex = 15905;
 
 	class HipplenIncidentConfig : public ::RPG::GameCore::JsonConfig
 	{

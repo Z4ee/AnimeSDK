@@ -8,25 +8,25 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class ListFormatter_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D2C700)
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D2C660)
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D2C850)
-#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D2C840)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1732A0F0)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1732A050)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1732A240)
+#define MESSAGEPACK_FORMATTERS_BYTELISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1732A230)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ByteListFormatter_TypeDefinitionIndex = 9231;
+	inline static constexpr unsigned int ByteListFormatter_TypeDefinitionIndex = 9428;
 
 	class ByteListFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::ByteListFormatter** StaticGet_Instance()
-		{
-			return (::MessagePack::Formatters::ByteListFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteListFormatter_TypeDefinitionIndex)->GetStaticField(0x20D30);
-		}
 		static ::MessagePack::Formatters::ListFormatter_1<::System::Byte>** StaticGet_InnerFormatter()
 		{
-			return (::MessagePack::Formatters::ListFormatter_1<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ByteListFormatter_TypeDefinitionIndex)->GetStaticField(0x20D38);
+			return (::MessagePack::Formatters::ListFormatter_1<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ByteListFormatter_TypeDefinitionIndex)->GetStaticField(0x41790);
+		}
+		static ::MessagePack::Formatters::ByteListFormatter** StaticGet_Instance()
+		{
+			return (::MessagePack::Formatters::ByteListFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteListFormatter_TypeDefinitionIndex)->GetStaticField(0x41798);
 		}
 
 		::System::Void _ctor()

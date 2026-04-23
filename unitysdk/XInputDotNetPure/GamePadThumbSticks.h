@@ -5,11 +5,11 @@
 
 #define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x5580)
 #define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS__CTOR_OFFSET UNITYSDK_OFFSET(0x72D10)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS__CTOR_OFFSET UNITYSDK_OFFSET(0x743C0)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 31367;
+	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 37087;
 
 	struct alignas(4) GamePadThumbSticks
 	{

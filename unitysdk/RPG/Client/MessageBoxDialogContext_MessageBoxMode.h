@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageBoxDialogContext_MessageBoxMode_TypeDefinitionIndex = 59681;
+	inline static constexpr unsigned int MessageBoxDialogContext_MessageBoxMode_TypeDefinitionIndex = 67077;
 
 	enum class MessageBoxDialogContext_MessageBoxMode : ::System::Int32
 	{

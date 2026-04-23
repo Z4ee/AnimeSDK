@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class PlanetFesSkill; }
 
-#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FC82A0)
-#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__ISPREPRECONDITIONSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x9FC85D0)
+#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD3FDA0)
+#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__ISPREPRECONDITIONSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xAD40160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesSkill___c__DisplayClass8_0_TypeDefinitionIndex = 54225;
+	inline static constexpr unsigned int PlanetFesSkill___c__DisplayClass8_0_TypeDefinitionIndex = 61388;
 
 	class PlanetFesSkill___c__DisplayClass8_0 : public ::System::Object
 	{

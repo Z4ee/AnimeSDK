@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONO_FIVEDIMCHILDPRESETITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9C11620)
+#define RPG_CLIENT_MONO_FIVEDIMCHILDPRESETITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA90C770)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimChildPresetItem_TypeDefinitionIndex = 61875;
+	inline static constexpr unsigned int FiveDimChildPresetItem_TypeDefinitionIndex = 69785;
 
 	class FiveDimChildPresetItem : public ::System::Object
 	{

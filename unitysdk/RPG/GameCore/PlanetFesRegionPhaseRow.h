@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESREGIONPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174BF6D0)
-#define RPG_GAMECORE_PLANETFESREGIONPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174BFA50)
+#define RPG_GAMECORE_PLANETFESREGIONPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C0ACE0)
+#define RPG_GAMECORE_PLANETFESREGIONPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0B060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesRegionPhaseRow_TypeDefinitionIndex = 11183;
+	inline static constexpr unsigned int PlanetFesRegionPhaseRow_TypeDefinitionIndex = 11586;
 
 	class PlanetFesRegionPhaseRow : public ::System::Object
 	{
 	public:
 		::System::String* PicPath; // 0x10
-		::RPG::Client::TextID Description; // 0x18
-		::System::UInt32 BuffID; // 0x28
-		::System::UInt32 PhaseID; // 0x2C
-		::System::UInt32 RewardID; // 0x30
-		::System::UInt32 ProgressValue; // 0x34
-		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Description; // 0x28
+		::System::UInt32 ProgressValue; // 0x38
+		::System::UInt32 RewardID; // 0x3C
+		::System::UInt32 PhaseID; // 0x40
+		::System::UInt32 BuffID; // 0x44
 		::RPG::Client::TextID EffectDesc; // 0x48
 
 		::System::Void _ctor()

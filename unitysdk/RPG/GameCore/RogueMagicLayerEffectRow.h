@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17613C60)
-#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17613ED0)
+#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D21470)
+#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D216E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicLayerEffectRow_TypeDefinitionIndex = 13589;
+	inline static constexpr unsigned int RogueMagicLayerEffectRow_TypeDefinitionIndex = 14061;
 
 	class RogueMagicLayerEffectRow : public ::System::Object
 	{

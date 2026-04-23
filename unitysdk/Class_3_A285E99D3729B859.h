@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GlobalOverrideTimeRewindSpecialControlMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A285E99D3729B859_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11508F20)
-#define CLASS_3_A285E99D3729B859__CTOR_OFFSET UNITYSDK_OFFSET(0x11508EF0)
+#define CLASS_3_A285E99D3729B859_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97AAF30)
+#define CLASS_3_A285E99D3729B859__CTOR_OFFSET UNITYSDK_OFFSET(0x97AAF00)
 
-inline static constexpr unsigned int Class_3_A285E99D3729B859_TypeDefinitionIndex = 43207;
+inline static constexpr unsigned int Class_3_A285E99D3729B859_TypeDefinitionIndex = 49202;
 
 class Class_3_A285E99D3729B859 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GlobalOverrideTimeRewindSpecialControlMode*>
 {

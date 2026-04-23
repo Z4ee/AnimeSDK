@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 
-#define CLASS_2_B9D6628E5930AA50__CTOR_OFFSET UNITYSDK_OFFSET(0x8D797D0)
+#define CLASS_2_B9D6628E5930AA50__CTOR_OFFSET UNITYSDK_OFFSET(0x117D83B0)
 
-inline static constexpr unsigned int Class_2_B9D6628E5930AA50_TypeDefinitionIndex = 54616;
+inline static constexpr unsigned int Class_2_B9D6628E5930AA50_TypeDefinitionIndex = 61804;
 
 class Class_2_B9D6628E5930AA50 : public ::Class_1_8F7D3BAFD8C03B69
 {

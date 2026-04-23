@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLNAMESPACEMANAGER_NAMESPACEDECLARATION_SET_OFFSET UNITYSDK_OFFSET(0x20FFE20)
+#define SYSTEM_XML_XMLNAMESPACEMANAGER_NAMESPACEDECLARATION_SET_OFFSET UNITYSDK_OFFSET(0x22D2A00)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNamespaceManager_NamespaceDeclaration_TypeDefinitionIndex = 1953;
+	inline static constexpr unsigned int XmlNamespaceManager_NamespaceDeclaration_TypeDefinitionIndex = 1954;
 
 	struct alignas(8) XmlNamespaceManager_NamespaceDeclaration
 	{

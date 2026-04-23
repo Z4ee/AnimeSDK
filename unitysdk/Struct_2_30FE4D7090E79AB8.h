@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-inline static constexpr unsigned int Struct_2_30FE4D7090E79AB8_TypeDefinitionIndex = 46560;
+inline static constexpr unsigned int Struct_2_30FE4D7090E79AB8_TypeDefinitionIndex = 53250;
 
 struct alignas(8) Struct_2_30FE4D7090E79AB8
 {

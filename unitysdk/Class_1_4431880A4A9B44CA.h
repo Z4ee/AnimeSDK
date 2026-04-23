@@ -5,9 +5,9 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class IGridFightTraitEffect; }
 
-#define CLASS_1_4431880A4A9B44CA_METHOD_1_50234694592CC485_OFFSET UNITYSDK_OFFSET(0x115EA8B0)
+#define CLASS_1_4431880A4A9B44CA_METHOD_1_50234694592CC485_OFFSET UNITYSDK_OFFSET(0x9169100)
 
-inline static constexpr unsigned int Class_1_4431880A4A9B44CA_TypeDefinitionIndex = 53133;
+inline static constexpr unsigned int Class_1_4431880A4A9B44CA_TypeDefinitionIndex = 60255;
 
 class Class_1_4431880A4A9B44CA : public ::System::Object
 {

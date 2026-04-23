@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/UI3DCameraStateBase.h"
 
-#define RPG_GAMECORE_UI3DCAMERASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xAAECC90)
+#define RPG_GAMECORE_UI3DCAMERASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB8578B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DCameraState_TypeDefinitionIndex = 46366;
+	inline static constexpr unsigned int UI3DCameraState_TypeDefinitionIndex = 53041;
 
 	class UI3DCameraState : public ::RPG::GameCore::UI3DCameraStateBase
 	{

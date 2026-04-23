@@ -4,13 +4,13 @@
 
 namespace TapTap::Sdk { class UIAnimator_Action; }
 
-#define TAPTAP_SDK_UIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1878B370)
-#define TAPTAP_SDK_UIMANAGER___C__CREATECONTAINER_B__10_0_OFFSET UNITYSDK_OFFSET(0x1878B3C0)
-#define TAPTAP_SDK_UIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1878B3B0)
+#define TAPTAP_SDK_UIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1C5350)
+#define TAPTAP_SDK_UIMANAGER___C__CREATECONTAINER_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A1C53A0)
+#define TAPTAP_SDK_UIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C5390)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int UIManager___c_TypeDefinitionIndex = 6416;
+	inline static constexpr unsigned int UIManager___c_TypeDefinitionIndex = 6449;
 
 	class UIManager___c : public ::System::Object
 	{

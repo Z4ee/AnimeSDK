@@ -5,19 +5,19 @@
 namespace System::Net::NetworkInformation { class NetworkInterface; }
 namespace System::Net::NetworkInformation { class NetworkInterfaceFactory; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE_GETNETWORKINTERFACES_OFFSET UNITYSDK_OFFSET(0x186FBD70)
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE__CCTOR_OFFSET UNITYSDK_OFFSET(0x186FEFC0)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE_GETNETWORKINTERFACES_OFFSET UNITYSDK_OFFSET(0x1A1363F0)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMNETWORKINTERFACE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A139680)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int SystemNetworkInterface_TypeDefinitionIndex = 2941;
+	inline static constexpr unsigned int SystemNetworkInterface_TypeDefinitionIndex = 2942;
 
 	class SystemNetworkInterface : public ::System::Object
 	{
 	public:
 		static ::System::Net::NetworkInformation::NetworkInterfaceFactory** StaticGet_nif()
 		{
-			return (::System::Net::NetworkInformation::NetworkInterfaceFactory**)Il2CppClass::FromTypeDefinitionIndex(SystemNetworkInterface_TypeDefinitionIndex)->GetStaticField(0x12640);
+			return (::System::Net::NetworkInformation::NetworkInterfaceFactory**)Il2CppClass::FromTypeDefinitionIndex(SystemNetworkInterface_TypeDefinitionIndex)->GetStaticField(0x14190);
 		}
 
 		static ::System::Void _cctor()

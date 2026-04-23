@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BookletStepState.h"
 
-namespace System { class String; }
+namespace RPG::Client { class IBookletView; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_993_TypeDefinitionIndex = 63101;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_993_TypeDefinitionIndex = 66754;
 
 class Class_0_16E4307DCC419505_993
 {

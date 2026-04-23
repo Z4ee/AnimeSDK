@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FiveDimEmotionConfig; }
 namespace RPG::GameCore { class FiveDimRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_D50BB2CE71E8A4C2_OFFSET UNITYSDK_OFFSET(0x171DDD40)
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171DE0F0)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_D50BB2CE71E8A4C2_OFFSET UNITYSDK_OFFSET(0x188EB580)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188EB970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 15312;
+	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 15831;
 
 	class FiveDimAudioConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,11 +23,12 @@ namespace RPG::GameCore
 		::System::String* EventOnEnter; // 0x28
 		::System::String* EventOnExit; // 0x30
 		::System::String* EventOnReborn; // 0x38
-		::System::Single ListenerMaxDistance; // 0x40
-		::Il2CppArray<::RPG::GameCore::FiveDimRTPCConfig*>* RTPCConfigs; // 0x48
-		::Il2CppArray<::RPG::GameCore::FiveDimEmotionConfig*>* ChenLingEmotionConfigs; // 0x50
-		::System::String* WaterReflection_WaterInEvent; // 0x58
-		::System::String* WaterReflection_WaterOutEvent; // 0x60
+		::System::String* EventOnMusicFallFaceDirectionChange; // 0x40
+		::System::Single ListenerMaxDistance; // 0x48
+		::Il2CppArray<::RPG::GameCore::FiveDimRTPCConfig*>* RTPCConfigs; // 0x50
+		::Il2CppArray<::RPG::GameCore::FiveDimEmotionConfig*>* ChenLingEmotionConfigs; // 0x58
+		::System::String* WaterReflection_WaterInEvent; // 0x60
+		::System::String* WaterReflection_WaterOutEvent; // 0x68
 
 		::System::Void _ctor()
 		{

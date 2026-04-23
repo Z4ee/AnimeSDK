@@ -8,26 +8,26 @@ namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x16238890)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x16238940)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x16238950)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x16238770)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x162387B0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x17865090)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x17865140)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x17865150)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x17864F70)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17864FB0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int QueueUserWorkItemCallback_TypeDefinitionIndex = 859;
+	inline static constexpr unsigned int QueueUserWorkItemCallback_TypeDefinitionIndex = 861;
 
 	class QueueUserWorkItemCallback : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_ccb()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(QueueUserWorkItemCallback_TypeDefinitionIndex)->GetStaticField(0x63E0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(QueueUserWorkItemCallback_TypeDefinitionIndex)->GetStaticField(0xBFF0);
 		}
-		::System::Threading::WaitCallback* callback; // 0x10
-		::System::Threading::ExecutionContext* context; // 0x18
-		::System::Object* state; // 0x20
+		::System::Object* state; // 0x10
+		::System::Threading::WaitCallback* callback; // 0x18
+		::System::Threading::ExecutionContext* context; // 0x20
 
 		static ::System::Void _cctor()
 		{

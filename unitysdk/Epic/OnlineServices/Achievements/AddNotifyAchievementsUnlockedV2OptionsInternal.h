@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int AddNotifyAchievementsUnlockedV2OptionsInternal_TypeDefinitionIndex = 36760;
+	inline static constexpr unsigned int AddNotifyAchievementsUnlockedV2OptionsInternal_TypeDefinitionIndex = 42586;
 
 	struct alignas(4) AddNotifyAchievementsUnlockedV2OptionsInternal
 	{

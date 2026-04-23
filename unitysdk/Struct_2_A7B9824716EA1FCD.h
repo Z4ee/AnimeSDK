@@ -8,7 +8,7 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_A7B9824716EA1FCD_TypeDefinitionIndex = 33347;
+inline static constexpr unsigned int Struct_2_A7B9824716EA1FCD_TypeDefinitionIndex = 39138;
 
 struct alignas(8) Struct_2_A7B9824716EA1FCD
 {

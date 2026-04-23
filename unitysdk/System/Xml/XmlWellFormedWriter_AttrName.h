@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x21002D0)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x21002B0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x22D2EB0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x22D2E90)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_AttrName_TypeDefinitionIndex = 1866;
+	inline static constexpr unsigned int XmlWellFormedWriter_AttrName_TypeDefinitionIndex = 1867;
 
 	struct alignas(8) XmlWellFormedWriter_AttrName
 	{

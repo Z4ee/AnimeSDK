@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitV2RoundListViewModel_Round_StateType_TypeDefinitionIndex = 49822;
+	inline static constexpr unsigned int ActivityBenefitV2RoundListViewModel_Round_StateType_TypeDefinitionIndex = 56644;
 
 	enum class ActivityBenefitV2RoundListViewModel_Round_StateType : ::System::Int32
 	{

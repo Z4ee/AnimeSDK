@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetHitOverrideLayerWeight; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9AE1DB270FDC1038_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8DE8F60)
-#define CLASS_3_9AE1DB270FDC1038__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE8F30)
+#define CLASS_3_9AE1DB270FDC1038_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x95A5DA0)
+#define CLASS_3_9AE1DB270FDC1038__CTOR_OFFSET UNITYSDK_OFFSET(0x95A5D70)
 
-inline static constexpr unsigned int Class_3_9AE1DB270FDC1038_TypeDefinitionIndex = 44461;
+inline static constexpr unsigned int Class_3_9AE1DB270FDC1038_TypeDefinitionIndex = 51183;
 
 class Class_3_9AE1DB270FDC1038 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetHitOverrideLayerWeight*>
 {

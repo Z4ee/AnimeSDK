@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LobbyState_TypeDefinitionIndex = 53412;
+	inline static constexpr unsigned int LobbyState_TypeDefinitionIndex = 60556;
 
 	enum class LobbyState : ::System::Int32
 	{

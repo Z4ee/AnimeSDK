@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCar_BlockAudioEventConfig_TypeDefinitionIndex = 64538;
+	inline static constexpr unsigned int MonoCityCar_BlockAudioEventConfig_TypeDefinitionIndex = 72585;
 
 	struct alignas(8) MonoCityCar_BlockAudioEventConfig
 	{

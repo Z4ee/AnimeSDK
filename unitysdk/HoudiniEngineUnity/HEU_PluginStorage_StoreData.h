@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_STOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x848AC70)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_STOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CB2EC0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PluginStorage_StoreData_TypeDefinitionIndex = 37667;
+	inline static constexpr unsigned int HEU_PluginStorage_StoreData_TypeDefinitionIndex = 43544;
 
 	class HEU_PluginStorage_StoreData : public ::System::Object
 	{

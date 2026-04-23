@@ -8,25 +8,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xA98ED10)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA98EDE0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA98ED90)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xA98EC10)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xA98EE30)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xA98EE70)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6DCF30)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DD000)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DCFB0)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xB6DCE30)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DD050)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6DD090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 45729;
+	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 52381;
 
 	class LevelInsertAbilityFinish : public ::Class_1_9988289E7F8AA214
 	{
 	public:
-		::System::String* InsertAbilityName; // 0x18
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x28
-		::System::Boolean Silence; // 0x30
-		::System::Boolean ShowInActionBar; // 0x31
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
+		::System::String* InsertAbilityName; // 0x20
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x28
+		::System::Boolean ShowInActionBar; // 0x30
+		::System::Boolean Silence; // 0x31
 
 		::System::Void _ctor()
 		{

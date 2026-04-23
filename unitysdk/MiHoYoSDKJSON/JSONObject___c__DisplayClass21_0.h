@@ -6,12 +6,12 @@
 namespace MiHoYoSDKJSON { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYOSDKJSON_JSONOBJECT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x85B22B0)
-#define MIHOYOSDKJSON_JSONOBJECT___C__DISPLAYCLASS21_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x85B2760)
+#define MIHOYOSDKJSON_JSONOBJECT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE8250)
+#define MIHOYOSDKJSON_JSONOBJECT___C__DISPLAYCLASS21_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x8DE8700)
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONObject___c__DisplayClass21_0_TypeDefinitionIndex = 36834;
+	inline static constexpr unsigned int JSONObject___c__DisplayClass21_0_TypeDefinitionIndex = 42660;
 
 	class JSONObject___c__DisplayClass21_0 : public ::System::Object
 	{

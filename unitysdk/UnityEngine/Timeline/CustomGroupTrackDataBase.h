@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define UNITYENGINE_TIMELINE_CUSTOMGROUPTRACKDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x189AA620)
+#define UNITYENGINE_TIMELINE_CUSTOMGROUPTRACKDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E4240)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int CustomGroupTrackDataBase_TypeDefinitionIndex = 29881;
+	inline static constexpr unsigned int CustomGroupTrackDataBase_TypeDefinitionIndex = 35601;
 
 	class CustomGroupTrackDataBase : public ::UnityEngine::ScriptableObject
 	{

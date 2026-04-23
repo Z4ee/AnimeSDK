@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerSelectionType_TypeDefinitionIndex = 18691;
+	inline static constexpr unsigned int TriggerSelectionType_TypeDefinitionIndex = 19348;
 
 	enum class TriggerSelectionType : ::System::Int32
 	{

@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define CLASS_1_D574F6215E2F8684_METHOD_1_7DB540F7EC4E5E2C_OFFSET UNITYSDK_OFFSET(0x183167B0)
-#define CLASS_1_D574F6215E2F8684__CCTOR_OFFSET UNITYSDK_OFFSET(0x183169B0)
+#define CLASS_1_D574F6215E2F8684_METHOD_1_7DB540F7EC4E5E2C_OFFSET UNITYSDK_OFFSET(0x19D66B30)
+#define CLASS_1_D574F6215E2F8684__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D66D30)
 
-inline static constexpr unsigned int Class_1_D574F6215E2F8684_TypeDefinitionIndex = 9542;
+inline static constexpr unsigned int Class_1_D574F6215E2F8684_TypeDefinitionIndex = 9740;
 
 class Class_1_D574F6215E2F8684 : public ::System::Object
 {
 public:
 	static ::System::Object** StaticGet_Field_1_0()
 	{
-		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D574F6215E2F8684_TypeDefinitionIndex)->GetStaticField(0x24360);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D574F6215E2F8684_TypeDefinitionIndex)->GetStaticField(0x16C90);
 	}
 
 	static ::System::Void _cctor()

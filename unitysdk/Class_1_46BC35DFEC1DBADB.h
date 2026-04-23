@@ -8,21 +8,21 @@ namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_46BC35DFEC1DBADB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x106889A0)
-#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_3B7145E79424FB75_OFFSET UNITYSDK_OFFSET(0x106885C0)
-#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_66F46BAD02D3714A_OFFSET UNITYSDK_OFFSET(0x106887E0)
-#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x10688920)
-#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_EE9FBEC3350E8E2F_OFFSET UNITYSDK_OFFSET(0x10688790)
-#define CLASS_1_46BC35DFEC1DBADB__CTOR_OFFSET UNITYSDK_OFFSET(0x10688380)
+#define CLASS_1_46BC35DFEC1DBADB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12925A40)
+#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_3B7145E79424FB75_OFFSET UNITYSDK_OFFSET(0x12925660)
+#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_66F46BAD02D3714A_OFFSET UNITYSDK_OFFSET(0x12925880)
+#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x129259C0)
+#define CLASS_1_46BC35DFEC1DBADB_METHOD_1_EE9FBEC3350E8E2F_OFFSET UNITYSDK_OFFSET(0x12925830)
+#define CLASS_1_46BC35DFEC1DBADB__CTOR_OFFSET UNITYSDK_OFFSET(0x12925420)
 
-inline static constexpr unsigned int Class_1_46BC35DFEC1DBADB_TypeDefinitionIndex = 63929;
+inline static constexpr unsigned int Class_1_46BC35DFEC1DBADB_TypeDefinitionIndex = 71976;
 
 class Class_1_46BC35DFEC1DBADB : public ::System::Object
 {
 public:
 	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* Field_1_0; // 0x18
-	::Class_1_9C1673530BBC4E15* Field_1_2; // 0x20
+	::Class_1_9C1673530BBC4E15* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* Field_1_0; // 0x20
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* a1)
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameMode_TypeDefinitionIndex = 32840;
+	inline static constexpr unsigned int MovieGameMode_TypeDefinitionIndex = 38630;
 
 	enum class MovieGameMode : ::System::Int32
 	{

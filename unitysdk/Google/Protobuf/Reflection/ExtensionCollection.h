@@ -9,21 +9,21 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15AFBD30)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION_GET_UNORDEREDEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x15AFBD20)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15AFBC40)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15AFBB60)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x170F8650)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION_GET_UNORDEREDEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x170F8640)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x170F8560)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x170F8480)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionCollection_TypeDefinitionIndex = 6323;
+	inline static constexpr unsigned int ExtensionCollection_TypeDefinitionIndex = 6333;
 
 	class ExtensionCollection : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>* extensionsByTypeInNumberOrder; // 0x10
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* _UnorderedExtensions_k__BackingField; // 0x18
-		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>* extensionsByTypeInDeclarationOrder; // 0x20
+		::System::Collections::Generic::IDictionary_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>* extensionsByTypeInDeclarationOrder; // 0x18
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* _UnorderedExtensions_k__BackingField; // 0x20
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::FileDescriptor* file, ::Il2CppArray<::Google::Protobuf::Extension*>* extensions)
 		{

@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9FFB560)
-#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9FFB590)
-#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0x9FFB5A0)
+#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD778F0)
+#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAD77920)
+#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0xAD77930)
 
 namespace RPG::Client::Progress
 {
-	inline static constexpr unsigned int CakeRaceProgressInfo___c_TypeDefinitionIndex = 61526;
+	inline static constexpr unsigned int CakeRaceProgressInfo___c_TypeDefinitionIndex = 69037;
 
 	class CakeRaceProgressInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
-		{
-			return (::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0x476D0);
-		}
 		static ::RPG::Client::Progress::CakeRaceProgressInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::Progress::CakeRaceProgressInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0x476D8);
+			return (::RPG::Client::Progress::CakeRaceProgressInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0x68500);
+		}
+		static ::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
+		{
+			return (::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0x68508);
 		}
 
 		static ::System::Void _cctor()

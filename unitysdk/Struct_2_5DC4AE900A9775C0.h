@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimExitType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_5DC4AE900A9775C0_TypeDefinitionIndex = 33572;
+inline static constexpr unsigned int Struct_2_5DC4AE900A9775C0_TypeDefinitionIndex = 39372;
 
 struct alignas(4) Struct_2_5DC4AE900A9775C0
 {

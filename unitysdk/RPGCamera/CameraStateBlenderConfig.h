@@ -8,25 +8,25 @@
 namespace RPGCamera { class CameraStateBlenderConfig_BlenderConfigParam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_ADDCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x85BC2A0)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFGBYPARAM_OFFSET UNITYSDK_OFFSET(0x85BC480)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFG_OFFSET UNITYSDK_OFFSET(0x85BC220)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_GETCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x85BBCE0)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x85BC290)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_ADDCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x8DF2300)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFGBYPARAM_OFFSET UNITYSDK_OFFSET(0x8DF24E0)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFG_OFFSET UNITYSDK_OFFSET(0x8DF2280)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_GETCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x8DF1D50)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF22F0)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 35107;
+	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 40935;
 
 	class CameraStateBlenderConfig : public ::System::Object
 	{
 	public:
-		::RPGCamera::CameraStateBlenderConfig_BlendType blendType; // 0x10
-		::System::Single duration; // 0x14
-		::System::Int32 fromId; // 0x18
-		::System::Int32 toId; // 0x1C
-		::RPGCamera::CameraStateBlenderConfig_PoleType poleType; // 0x20
-		::EasingFunction_Ease easeType; // 0x24
+		::RPGCamera::CameraStateBlenderConfig_PoleType poleType; // 0x10
+		::EasingFunction_Ease easeType; // 0x14
+		::System::Single duration; // 0x18
+		::System::Int32 fromId; // 0x1C
+		::System::Int32 toId; // 0x20
+		::RPGCamera::CameraStateBlenderConfig_BlendType blendType; // 0x24
 
 		::System::Void _ctor()
 		{

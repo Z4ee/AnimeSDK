@@ -5,7 +5,7 @@
 namespace RPG::GameCore { class AdventureDyingParam; }
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Struct_2_263B64D8FC8C9763_TypeDefinitionIndex = 46684;
+inline static constexpr unsigned int Struct_2_263B64D8FC8C9763_TypeDefinitionIndex = 53393;
 
 struct alignas(8) Struct_2_263B64D8FC8C9763
 {

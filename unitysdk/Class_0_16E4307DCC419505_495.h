@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_494;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_495_TypeDefinitionIndex = 48540;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_495_TypeDefinitionIndex = 54590;
 
 class Class_0_16E4307DCC419505_495
 {

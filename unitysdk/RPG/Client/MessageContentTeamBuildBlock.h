@@ -1,46 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
+#include "unitysdk/RPG/Client/MessageContentFunctionCallBlock.h"
 
 namespace RPG::Client { class ITeamBuildCalculator; }
+namespace RPG::Client { class MessageContentBlock; }
 namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B92AB0)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_ALLTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0x9B92D20)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x9B92C10)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_ISSELECTEDRECOMMENDTAB_OFFSET UNITYSDK_OFFSET(0x9B92C30)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_MYTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0x9B92D00)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_SHOWEXPLAIN_OFFSET UNITYSDK_OFFSET(0x9B92C50)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B92A50)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_REFRESH_OFFSET UNITYSDK_OFFSET(0x9B92B50)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ALLTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0x9B92D30)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x9B92C20)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ISSELECTEDRECOMMENDTAB_OFFSET UNITYSDK_OFFSET(0x9B92C40)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_MYTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0x9B92D10)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B92A60)
-#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__REFRESH_B__4_0_OFFSET UNITYSDK_OFFSET(0x9B92D40)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88D5C0)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_ALLTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0xA88D870)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xA88D740)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_ISSELECTEDRECOMMENDTAB_OFFSET UNITYSDK_OFFSET(0xA88D760)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_MYTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0xA88D850)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_SHOWEXPLAIN_OFFSET UNITYSDK_OFFSET(0xA88D780)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88D540)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_REFRESH_OFFSET UNITYSDK_OFFSET(0xA88D680)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ALLTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0xA88D880)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xA88D750)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ISSELECTEDRECOMMENDTAB_OFFSET UNITYSDK_OFFSET(0xA88D770)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_MYTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0xA88D860)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88D550)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__FILLWITHCANDIDATEPOOL_OFFSET UNITYSDK_OFFSET(0xA88D890)
+#define RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__REFRESH_B__4_0_OFFSET UNITYSDK_OFFSET(0xA88D990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentTeamBuildBlock_TypeDefinitionIndex = 51346;
+	inline static constexpr unsigned int MessageContentTeamBuildBlock_TypeDefinitionIndex = 58274;
 
-	class MessageContentTeamBuildBlock : public ::RPG::Client::MessageContentBlock
+	class MessageContentTeamBuildBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:
-		::System::Collections::Generic::IList_1<::System::UInt32>* _AvatarIDs; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* _MyTeamBuilds_k__BackingField; // 0x20
+		// static const ::System::Int32 _DesiredTeamBuildCount = 0x4; // 0x0
 		::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* _AllTeamBuilds_k__BackingField; // 0x28
-		::RPG::Client::ITeamBuildCalculator* _TeamBuildCalculator; // 0x30
-		::System::Boolean _IsDataReady_k__BackingField; // 0x38
-		::System::Boolean _IsSelectedRecommendTab_k__BackingField; // 0x39
+		::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* _MyTeamBuilds_k__BackingField; // 0x30
+		::System::Collections::Generic::IList_1<::System::UInt32>* _ExcludedAvatarIDs; // 0x38
+		::RPG::Client::ITeamBuildCalculator* _TeamBuildCalculator; // 0x40
+		::System::Collections::Generic::IList_1<::System::UInt32>* _AvatarIDs; // 0x48
+		::System::Boolean _IsDataReady_k__BackingField; // 0x50
+		::System::Boolean _IsSelectedRecommendTab_k__BackingField; // 0x51
 
-		::System::Void _ctor(::System::Collections::Generic::IList_1<::System::UInt32>* avatarIDs)
+		::System::Void _ctor(::System::String* functionCallID, ::System::Collections::Generic::IList_1<::System::UInt32>* avatarIDs, ::System::Collections::Generic::IList_1<::System::UInt32>* excludedAvatarIDs)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__CTOR_OFFSET))(this, avatarIDs);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__CTOR_OFFSET))(this, functionCallID, avatarIDs, excludedAvatarIDs);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -101,6 +106,11 @@ namespace RPG::Client
 		::System::Void set_AllTeamBuilds(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK_SET_ALLTEAMBUILDS_OFFSET))(this, value);
+		}
+
+		::System::Void _FillWithCandidatePool(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* teams)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTTEAMBUILDBLOCK__FILLWITHCANDIDATEPOOL_OFFSET))(this, teams);
 		}
 
 		::System::Void _Refresh_b__4_0()

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Sessions { class ActiveSessionGetRegisteredPlaye
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONGETREGISTEREDPLAYERCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONGETREGISTEREDPLAYERCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x711F0)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONGETREGISTEREDPLAYERCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x71C20)
 #define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONGETREGISTEREDPLAYERCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int ActiveSessionGetRegisteredPlayerCountOptionsInternal_TypeDefinitionIndex = 35406;
+	inline static constexpr unsigned int ActiveSessionGetRegisteredPlayerCountOptionsInternal_TypeDefinitionIndex = 41232;
 
 	struct alignas(4) ActiveSessionGetRegisteredPlayerCountOptionsInternal
 	{

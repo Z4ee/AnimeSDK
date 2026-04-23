@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BASECHIMERADUELNODE_METHOD_2_1EEB6A366F108747_OFFSET UNITYSDK_OFFSET(0x16FC6DD0)
-#define RPG_GAMECORE_BASECHIMERADUELNODE_METHOD_2_2B31BC69CADAD65D_OFFSET UNITYSDK_OFFSET(0x16FC6C10)
-#define RPG_GAMECORE_BASECHIMERADUELNODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FC6E40)
-#define RPG_GAMECORE_BASECHIMERADUELNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC6E30)
+#define RPG_GAMECORE_BASECHIMERADUELNODE_METHOD_2_1EEB6A366F108747_OFFSET UNITYSDK_OFFSET(0x186EA5E0)
+#define RPG_GAMECORE_BASECHIMERADUELNODE_METHOD_2_2B31BC69CADAD65D_OFFSET UNITYSDK_OFFSET(0x186EA420)
+#define RPG_GAMECORE_BASECHIMERADUELNODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x186EA650)
+#define RPG_GAMECORE_BASECHIMERADUELNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x186EA640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseChimeraDuelNode_TypeDefinitionIndex = 14638;
+	inline static constexpr unsigned int BaseChimeraDuelNode_TypeDefinitionIndex = 15108;
 
 	class BaseChimeraDuelNode : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseChimeraDuelNode*>*>** StaticGet__FromBinary_BaseChimeraDuelNode_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseChimeraDuelNode*>*>**)Il2CppClass::FromTypeDefinitionIndex(BaseChimeraDuelNode_TypeDefinitionIndex)->GetStaticField(0x217B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseChimeraDuelNode*>*>**)Il2CppClass::FromTypeDefinitionIndex(BaseChimeraDuelNode_TypeDefinitionIndex)->GetStaticField(0x29C80);
 		}
 
 		::System::Void _ctor()

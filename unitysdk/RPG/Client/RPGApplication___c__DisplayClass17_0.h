@@ -5,18 +5,18 @@
 namespace RPG::Client { class RPGApplication; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_RPGAPPLICATION___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA24CF80)
-#define RPG_CLIENT_RPGAPPLICATION___C__DISPLAYCLASS17_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0xA250350)
+#define RPG_CLIENT_RPGAPPLICATION___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF3B8C0)
+#define RPG_CLIENT_RPGAPPLICATION___C__DISPLAYCLASS17_0__ONSTART_B__0_OFFSET UNITYSDK_OFFSET(0xAF3EC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGApplication___c__DisplayClass17_0_TypeDefinitionIndex = 56795;
+	inline static constexpr unsigned int RPGApplication___c__DisplayClass17_0_TypeDefinitionIndex = 64040;
 
 	class RPGApplication___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* gameObject; // 0x10
-		::RPG::Client::RPGApplication* __4__this; // 0x18
+		::RPG::Client::RPGApplication* __4__this; // 0x10
+		::UnityEngine::GameObject* gameObject; // 0x18
 
 		::System::Void _ctor()
 		{

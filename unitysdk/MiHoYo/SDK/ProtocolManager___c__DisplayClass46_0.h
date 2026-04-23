@@ -1,30 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
+#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class Action; }
+namespace MiHoYo::SDK { class ProtocolManager; }
+namespace MiHoYo::SDK { class Web; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FCCCA0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__7_OFFSET UNITYSDK_OFFSET(0x15FCD090)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17626380)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__SHOWUSERAGREEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1762B870)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass46_0_TypeDefinitionIndex = 7046;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass46_0_TypeDefinitionIndex = 7090;
 
 	class ProtocolManager___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::System::Action* cancel; // 0x10
+		::MiHoYo::SDK::Web* webView; // 0x10
+		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowOverseaProtocolPluginUI_b__7(::MiHoYo::SDK::Confirm_ConfirmResult result)
+		::System::Void _ShowUserAgreement_b__0(::MiHoYo::SDK::Web* web, ::MiHoYo::SDK::UniWebViewMessage message)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__7_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__SHOWUSERAGREEMENT_B__0_OFFSET))(this, web, message);
 		}
 	};
 }

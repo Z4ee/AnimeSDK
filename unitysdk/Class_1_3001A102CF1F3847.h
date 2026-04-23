@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/ChenLingDamageType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_3001A102CF1F3847__CTOR_OFFSET UNITYSDK_OFFSET(0x1676CBA0)
+#define CLASS_1_3001A102CF1F3847__CTOR_OFFSET UNITYSDK_OFFSET(0x17E87BF0)
 
-inline static constexpr unsigned int Class_1_3001A102CF1F3847_TypeDefinitionIndex = 33734;
+inline static constexpr unsigned int Class_1_3001A102CF1F3847_TypeDefinitionIndex = 39535;
 
 class Class_1_3001A102CF1F3847 : public ::System::Object
 {

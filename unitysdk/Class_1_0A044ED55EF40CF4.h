@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_0A044ED55EF40CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x169DDE00)
+#define CLASS_1_0A044ED55EF40CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x17FBC440)
 
-inline static constexpr unsigned int Class_1_0A044ED55EF40CF4_TypeDefinitionIndex = 32718;
+inline static constexpr unsigned int Class_1_0A044ED55EF40CF4_TypeDefinitionIndex = 38508;
 
 class Class_1_0A044ED55EF40CF4 : public ::System::Object
 {
 public:
-	::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> Field_1_1; // 0x10
-	::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> Field_1_0; // 0x1C
+	::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> Field_1_0; // 0x10
+	::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> Field_1_1; // 0x1C
 
 	::System::Void _ctor()
 	{

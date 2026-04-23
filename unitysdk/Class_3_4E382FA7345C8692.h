@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByIsEliteMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4E382FA7345C8692_EVALUATE_OFFSET UNITYSDK_OFFSET(0x89ED340)
-#define CLASS_3_4E382FA7345C8692__CTOR_OFFSET UNITYSDK_OFFSET(0x89ED310)
+#define CLASS_3_4E382FA7345C8692_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11B73170)
+#define CLASS_3_4E382FA7345C8692__CTOR_OFFSET UNITYSDK_OFFSET(0x11B73140)
 
-inline static constexpr unsigned int Class_3_4E382FA7345C8692_TypeDefinitionIndex = 43534;
+inline static constexpr unsigned int Class_3_4E382FA7345C8692_TypeDefinitionIndex = 50231;
 
 class Class_3_4E382FA7345C8692 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByIsEliteMonster*>
 {

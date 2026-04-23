@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCALBOOKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17368610)
-#define RPG_GAMECORE_LOCALBOOKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17368DB0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A76290)
+#define RPG_GAMECORE_LOCALBOOKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A769F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LocalbookConfigRow_TypeDefinitionIndex = 11778;
+	inline static constexpr unsigned int LocalbookConfigRow_TypeDefinitionIndex = 12190;
 
 	class LocalbookConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* LocalBookImagePath; // 0x10
-		::System::UInt32 BookDisplayType; // 0x18
-		::System::UInt32 BookSeriesID; // 0x1C
-		::System::UInt32 BookID; // 0x20
-		::System::UInt32 BookSeriesInsideID; // 0x24
+		::RPG::Client::TextID BookInsideName; // 0x18
 		::RPG::Client::TextID BookContent; // 0x28
-		::RPG::Client::TextID BookInsideName; // 0x38
+		::System::UInt32 BookSeriesID; // 0x38
+		::System::UInt32 BookSeriesInsideID; // 0x3C
+		::System::UInt32 BookDisplayType; // 0x40
+		::System::UInt32 BookID; // 0x44
 
 		::System::Void _ctor()
 		{

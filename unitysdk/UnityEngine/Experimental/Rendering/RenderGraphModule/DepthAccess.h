@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int DepthAccess_TypeDefinitionIndex = 27733;
+	inline static constexpr unsigned int DepthAccess_TypeDefinitionIndex = 33357;
 
 	enum class DepthAccess : ::System::Int32
 	{

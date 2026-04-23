@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingFuncType_TypeDefinitionIndex = 12769;
+	inline static constexpr unsigned int LoadingFuncType_TypeDefinitionIndex = 13236;
 
 	enum class LoadingFuncType : ::System::Int32
 	{

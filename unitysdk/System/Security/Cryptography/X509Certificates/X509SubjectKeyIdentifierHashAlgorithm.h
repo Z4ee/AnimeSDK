@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509SubjectKeyIdentifierHashAlgorithm_TypeDefinitionIndex = 2674;
+	inline static constexpr unsigned int X509SubjectKeyIdentifierHashAlgorithm_TypeDefinitionIndex = 2675;
 
 	enum class X509SubjectKeyIdentifierHashAlgorithm : ::System::Int32
 	{

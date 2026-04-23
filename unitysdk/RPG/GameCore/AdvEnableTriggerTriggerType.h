@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableTriggerTriggerType_TypeDefinitionIndex = 18842;
+	inline static constexpr unsigned int AdvEnableTriggerTriggerType_TypeDefinitionIndex = 19500;
 
 	enum class AdvEnableTriggerTriggerType : ::System::Int32
 	{

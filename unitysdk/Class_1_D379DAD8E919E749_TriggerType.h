@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_D379DAD8E919E749_TriggerType_TypeDefinitionIndex = 61643;
+inline static constexpr unsigned int Class_1_D379DAD8E919E749_TriggerType_TypeDefinitionIndex = 69553;
 
 enum class Class_1_D379DAD8E919E749_TriggerType : ::System::Int32
 {

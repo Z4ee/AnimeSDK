@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_COLLECTIONBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1847A990)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_COLLECTIONBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB5900)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CollectionBuilderAttribute_TypeDefinitionIndex = 8897;
+	inline static constexpr unsigned int CollectionBuilderAttribute_TypeDefinitionIndex = 9094;
 
 	class CollectionBuilderAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _MethodName_k__BackingField; // 0x10
-		::System::Type* _BuilderType_k__BackingField; // 0x18
+		::System::Type* _BuilderType_k__BackingField; // 0x10
+		::System::String* _MethodName_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Type* builderType, ::System::String* methodName)
 		{

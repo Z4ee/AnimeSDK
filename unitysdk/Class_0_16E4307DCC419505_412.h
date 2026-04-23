@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RtMoveStopReason.h"
 
-namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TaskContext; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_415;
+class Class_0_16E4307DCC419505_436;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_412_TypeDefinitionIndex = 47849;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_412_TypeDefinitionIndex = 49819;
 
 class Class_0_16E4307DCC419505_412
 {

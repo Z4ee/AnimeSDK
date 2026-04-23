@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TRIGGERINFOCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA63B7B0)
+#define RPG_CLIENT_TRIGGERINFOCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB392B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TriggerInfoConfigItem_TypeDefinitionIndex = 56302;
+	inline static constexpr unsigned int TriggerInfoConfigItem_TypeDefinitionIndex = 63545;
 
 	class TriggerInfoConfigItem : public ::System::Object
 	{

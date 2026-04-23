@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantDailyRow___O_TypeDefinitionIndex = 10580;
+	inline static constexpr unsigned int RestaurantDailyRow___O_TypeDefinitionIndex = 10833;
 
 	class RestaurantDailyRow___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::RestaurantNormalEventType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::RestaurantNormalEventType>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantDailyRow___O_TypeDefinitionIndex)->GetStaticField(0x32270);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::RestaurantNormalEventType>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantDailyRow___O_TypeDefinitionIndex)->GetStaticField(0x401C0);
 		}
 	};
 }

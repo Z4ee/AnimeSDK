@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EFC0C0)
-#define RPG_GAMECORE_ACTIVITYHIPPLENDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFC210)
+#define RPG_GAMECORE_ACTIVITYHIPPLENDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1861D270)
+#define RPG_GAMECORE_ACTIVITYHIPPLENDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1861D3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenDialogueRow_TypeDefinitionIndex = 10846;
+	inline static constexpr unsigned int ActivityHipplenDialogueRow_TypeDefinitionIndex = 11091;
 
 	class ActivityHipplenDialogueRow : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_HOST_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1852C180)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_HOST_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19F66FD0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_Host_TypeDefinitionIndex = 4825;
+	inline static constexpr unsigned int Parser_Host_TypeDefinitionIndex = 4833;
 
 	class Parser_Host : public ::System::Object
 	{

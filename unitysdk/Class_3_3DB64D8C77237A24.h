@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnlockMainStreamingSource; }
 
-#define CLASS_3_3DB64D8C77237A24_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118EE810)
-#define CLASS_3_3DB64D8C77237A24__CTOR_OFFSET UNITYSDK_OFFSET(0x118EE7E0)
+#define CLASS_3_3DB64D8C77237A24_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x98DD6C0)
+#define CLASS_3_3DB64D8C77237A24__CTOR_OFFSET UNITYSDK_OFFSET(0x98DD690)
 
-inline static constexpr unsigned int Class_3_3DB64D8C77237A24_TypeDefinitionIndex = 47514;
+inline static constexpr unsigned int Class_3_3DB64D8C77237A24_TypeDefinitionIndex = 54250;
 
 class Class_3_3DB64D8C77237A24 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::UnlockMainStreamingSource*>
 {

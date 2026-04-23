@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 
-#define CLASS_1_16697A2A9D46BB5A__CTOR_OFFSET UNITYSDK_OFFSET(0x16A0F8A0)
+#define CLASS_1_16697A2A9D46BB5A__CTOR_OFFSET UNITYSDK_OFFSET(0x17E87960)
 
-inline static constexpr unsigned int Class_1_16697A2A9D46BB5A_TypeDefinitionIndex = 33345;
+inline static constexpr unsigned int Class_1_16697A2A9D46BB5A_TypeDefinitionIndex = 39135;
 
 class Class_1_16697A2A9D46BB5A : public ::System::Object
 {

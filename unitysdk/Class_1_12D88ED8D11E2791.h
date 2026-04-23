@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/BillboardShowType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_12D88ED8D11E2791_COMPARE_OFFSET UNITYSDK_OFFSET(0x10A2DA80)
-#define CLASS_1_12D88ED8D11E2791_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0x10A2DAE0)
-#define CLASS_1_12D88ED8D11E2791__CTOR_OFFSET UNITYSDK_OFFSET(0x10A2DB50)
+#define CLASS_1_12D88ED8D11E2791_COMPARE_OFFSET UNITYSDK_OFFSET(0xD35CA70)
+#define CLASS_1_12D88ED8D11E2791_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0xD35CAD0)
+#define CLASS_1_12D88ED8D11E2791__CTOR_OFFSET UNITYSDK_OFFSET(0xD35CB40)
 
-inline static constexpr unsigned int Class_1_12D88ED8D11E2791_TypeDefinitionIndex = 61527;
+inline static constexpr unsigned int Class_1_12D88ED8D11E2791_TypeDefinitionIndex = 69038;
 
 class Class_1_12D88ED8D11E2791 : public ::System::Object
 {
 public:
 	static ::Class_1_12D88ED8D11E2791** StaticGet_Field_1_0()
 	{
-		return (::Class_1_12D88ED8D11E2791**)Il2CppClass::FromTypeDefinitionIndex(Class_1_12D88ED8D11E2791_TypeDefinitionIndex)->GetStaticField(0x45040);
+		return (::Class_1_12D88ED8D11E2791**)Il2CppClass::FromTypeDefinitionIndex(Class_1_12D88ED8D11E2791_TypeDefinitionIndex)->GetStaticField(0x656A0);
 	}
 
 	::System::Void _ctor()

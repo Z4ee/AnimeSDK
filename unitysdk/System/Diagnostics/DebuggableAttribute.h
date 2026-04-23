@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Diagnostics/DebuggableAttribute_DebuggingModes.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x162B2430)
+#define SYSTEM_DIAGNOSTICS_DEBUGGABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x178DED40)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggableAttribute_TypeDefinitionIndex = 1566;
+	inline static constexpr unsigned int DebuggableAttribute_TypeDefinitionIndex = 1567;
 
 	class DebuggableAttribute : public ::System::Attribute
 	{

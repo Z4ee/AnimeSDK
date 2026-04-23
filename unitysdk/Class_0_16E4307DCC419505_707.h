@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FateRoundType.h"
 
-class Class_0_16E4307DCC419505_691;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client { class FateRoundInfoItem; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_707_TypeDefinitionIndex = 54655;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_707_TypeDefinitionIndex = 58983;
 
 class Class_0_16E4307DCC419505_707
 {

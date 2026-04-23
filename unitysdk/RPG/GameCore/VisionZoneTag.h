@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VisionZoneTag_TypeDefinitionIndex = 14896;
+	inline static constexpr unsigned int VisionZoneTag_TypeDefinitionIndex = 15403;
 
 	enum class VisionZoneTag : ::System::Int32
 	{

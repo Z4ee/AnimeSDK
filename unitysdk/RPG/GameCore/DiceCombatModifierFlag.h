@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatModifierFlag_TypeDefinitionIndex = 14751;
+	inline static constexpr unsigned int DiceCombatModifierFlag_TypeDefinitionIndex = 15225;
 
 	enum class DiceCombatModifierFlag : ::System::Int32
 	{
@@ -16,6 +16,10 @@ namespace RPG::GameCore
 		AttackIgnoreAtkPoint = 7,
 		KeepAlive = 8,
 		DiceMustSelected = 9,
-		Count = 10,
+		KeepCrossPhase = 10,
+		BossSelectHighDefendPointToAttack = 11,
+		AlwaysRollMax = 12,
+		UnlimitedConfirmDiceCountOnAttack = 13,
+		Count = 14,
 	};
 }

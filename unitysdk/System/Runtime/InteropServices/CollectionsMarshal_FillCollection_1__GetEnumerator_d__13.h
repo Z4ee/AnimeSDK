@@ -6,7 +6,7 @@ namespace System::Runtime::InteropServices { template <typename T> class Collect
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1__GetEnumerator_d__13_TypeDefinitionIndex = 6464;
+	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1__GetEnumerator_d__13_TypeDefinitionIndex = 6497;
 
 	template <typename T>
 	class CollectionsMarshal_FillCollection_1__GetEnumerator_d__13 : public ::System::Object

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x185D3AA0)
-#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x185F0DB0)
+#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1A00E750)
+#define SYSTEM_XML_SERIALIZATION_XMLTEXTATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A02BB80)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTextAttribute_TypeDefinitionIndex = 2031;
+	inline static constexpr unsigned int XmlTextAttribute_TypeDefinitionIndex = 2032;
 
 	class XmlTextAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::String* dataType; // 0x18
+		::System::String* dataType; // 0x10
+		::System::Type* type; // 0x18
 
 		::System::String* get_DataType()
 		{

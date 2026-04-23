@@ -6,9 +6,9 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_1611AD1A09A7A324_CLASS_1_152E032112DD3242_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAC5B600)
+#define CLASS_2_1611AD1A09A7A324_CLASS_1_152E032112DD3242_1__CTOR_OFFSET UNITYSDK_OFFSET(0x92EC890)
 
-inline static constexpr unsigned int Class_2_1611AD1A09A7A324_Class_1_152E032112DD3242_1_TypeDefinitionIndex = 60010;
+inline static constexpr unsigned int Class_2_1611AD1A09A7A324_Class_1_152E032112DD3242_1_TypeDefinitionIndex = 67408;
 
 class Class_2_1611AD1A09A7A324_Class_1_152E032112DD3242_1 : public ::System::Object
 {

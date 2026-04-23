@@ -9,14 +9,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_CODE39WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x18D1AA90)
-#define ZXING_ONED_CODE39WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x18D1A9F0)
-#define ZXING_ONED_CODE39WRITER_TOINTARRAY_OFFSET UNITYSDK_OFFSET(0x18D1B3E0)
-#define ZXING_ONED_CODE39WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18D13250)
+#define ZXING_ONED_CODE39WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1A756040)
+#define ZXING_ONED_CODE39WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A755FA0)
+#define ZXING_ONED_CODE39WRITER_TOINTARRAY_OFFSET UNITYSDK_OFFSET(0x1A756990)
+#define ZXING_ONED_CODE39WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A74E800)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code39Writer_TypeDefinitionIndex = 6097;
+	inline static constexpr unsigned int Code39Writer_TypeDefinitionIndex = 6109;
 
 	class Code39Writer : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{

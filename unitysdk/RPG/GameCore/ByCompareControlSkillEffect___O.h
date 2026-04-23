@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareControlSkillEffect___O_TypeDefinitionIndex = 21231;
+	inline static constexpr unsigned int ByCompareControlSkillEffect___O_TypeDefinitionIndex = 21948;
 
 	class ByCompareControlSkillEffect___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(ByCompareControlSkillEffect___O_TypeDefinitionIndex)->GetStaticField(0x240A0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(ByCompareControlSkillEffect___O_TypeDefinitionIndex)->GetStaticField(0x30150);
 		}
 	};
 }

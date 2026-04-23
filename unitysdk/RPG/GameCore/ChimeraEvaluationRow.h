@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAEVALUATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170A8E10)
-#define RPG_GAMECORE_CHIMERAEVALUATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170A9080)
+#define RPG_GAMECORE_CHIMERAEVALUATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188083C0)
+#define RPG_GAMECORE_CHIMERAEVALUATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18808630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEvaluationRow_TypeDefinitionIndex = 11878;
+	inline static constexpr unsigned int ChimeraEvaluationRow_TypeDefinitionIndex = 12309;
 
 	class ChimeraEvaluationRow : public ::System::Object
 	{
 	public:
 		::System::String* ConditionJson; // 0x10
-		::System::UInt32 GroupID; // 0x18
-		::System::UInt32 EvaluationID; // 0x1C
-		::RPG::Client::TextID EvaluationDesc; // 0x20
-		::RPG::Client::TextID EvaluationName; // 0x30
+		::RPG::Client::TextID EvaluationName; // 0x18
+		::System::UInt32 EvaluationID; // 0x28
+		::System::UInt32 GroupID; // 0x2C
+		::RPG::Client::TextID EvaluationDesc; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SHAKEMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA477700)
-#define RPG_CLIENT_SHAKEMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA477750)
+#define RPG_CLIENT_SHAKEMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xB165AC0)
+#define RPG_CLIENT_SHAKEMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB165B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShakeModuleConfig_TypeDefinitionIndex = 56977;
+	inline static constexpr unsigned int ShakeModuleConfig_TypeDefinitionIndex = 64228;
 
 	class ShakeModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

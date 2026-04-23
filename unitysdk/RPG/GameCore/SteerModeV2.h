@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SteerModeV2_TypeDefinitionIndex = 20231;
+	inline static constexpr unsigned int SteerModeV2_TypeDefinitionIndex = 20913;
 
 	enum class SteerModeV2 : ::System::Int32
 	{

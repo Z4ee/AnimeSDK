@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171AEC70)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171AEE20)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188BC430)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188BC5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardRow_TypeDefinitionIndex = 10683;
+	inline static constexpr unsigned int EvolveBuildRewardRow_TypeDefinitionIndex = 10934;
 
 	class EvolveBuildRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Level; // 0x10
+		::RPG::GameCore::EvolveBuildRewardType Type; // 0x10
 		::System::UInt32 IncomeTarget; // 0x14
 		::System::UInt32 RewardID; // 0x18
-		::RPG::GameCore::EvolveBuildRewardType Type; // 0x1C
+		::System::UInt32 Level; // 0x1C
 
 		::System::Void _ctor()
 		{

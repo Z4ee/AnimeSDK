@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UriPartial_TypeDefinitionIndex = 2456;
+	inline static constexpr unsigned int UriPartial_TypeDefinitionIndex = 2457;
 
 	enum class UriPartial : ::System::Int32
 	{

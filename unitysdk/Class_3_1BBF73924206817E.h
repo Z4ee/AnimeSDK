@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareFSVwithGP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1BBF73924206817E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8DD6960)
-#define CLASS_3_1BBF73924206817E__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD6930)
+#define CLASS_3_1BBF73924206817E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12B2CB90)
+#define CLASS_3_1BBF73924206817E__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2CB60)
 
-inline static constexpr unsigned int Class_3_1BBF73924206817E_TypeDefinitionIndex = 42560;
+inline static constexpr unsigned int Class_3_1BBF73924206817E_TypeDefinitionIndex = 48525;
 
 class Class_3_1BBF73924206817E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareFSVwithGP*>
 {

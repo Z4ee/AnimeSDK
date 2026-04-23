@@ -8,11 +8,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHTRIGGER_EASYTOUCHRECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x11A79F00)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHTRIGGER_EASYTOUCHRECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C48CD0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouchTrigger_EasyTouchReceiver_TypeDefinitionIndex = 31263;
+	inline static constexpr unsigned int EasyTouchTrigger_EasyTouchReceiver_TypeDefinitionIndex = 36983;
 
 	class EasyTouchTrigger_EasyTouchReceiver : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF710CONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BA5A20)
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF710CONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA5AB0)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF710CONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x171A3400)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF710CONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x171A3490)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechF710ControllerMacNativeProfile_TypeDefinitionIndex = 31742;
+	inline static constexpr unsigned int LogitechF710ControllerMacNativeProfile_TypeDefinitionIndex = 37462;
 
 	class LogitechF710ControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

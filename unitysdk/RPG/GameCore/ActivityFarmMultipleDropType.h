@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFarmMultipleDropType_TypeDefinitionIndex = 10716;
+	inline static constexpr unsigned int ActivityFarmMultipleDropType_TypeDefinitionIndex = 10967;
 
 	enum class ActivityFarmMultipleDropType : ::System::Int32
 	{

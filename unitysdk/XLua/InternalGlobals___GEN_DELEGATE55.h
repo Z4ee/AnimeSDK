@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_2_15E317187C4E8254;
+class Class_1_E05E7A6D9DE9138B;
+namespace RPG::GameCore { class RuanMadeCakeFeatureConfig; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace UnityEngine { class Material; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF5D100)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF5D1A0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF5CB60)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55__CTOR_OFFSET UNITYSDK_OFFSET(0xFF4A030)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x112261F0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11226230)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55_INVOKE_OFFSET UNITYSDK_OFFSET(0x11225BB0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE55__CTOR_OFFSET UNITYSDK_OFFSET(0x112131E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE55_TypeDefinitionIndex = 40472;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE55_TypeDefinitionIndex = 46381;
 
 	class InternalGlobals___GEN_DELEGATE55 : public ::System::MulticastDelegate
 	{
@@ -25,19 +26,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Class_2_15E317187C4E8254* entity, ::RPG::GameCore::CakeRaceProperty property, ::System::Int32 value)
+		::System::Void Invoke(::RPG::GameCore::RuanMadeCakeFeatureConfig* pConfig, ::Class_1_E05E7A6D9DE9138B* pAssetLoader, ::UnityEngine::Material*& pMat)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_15E317187C4E8254*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55_INVOKE_OFFSET))(this, entity, property, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RuanMadeCakeFeatureConfig*, ::Class_1_E05E7A6D9DE9138B*, ::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55_INVOKE_OFFSET))(this, pConfig, pAssetLoader, pMat);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_2_15E317187C4E8254* entity, ::RPG::GameCore::CakeRaceProperty property, ::System::Int32 value, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::RuanMadeCakeFeatureConfig* pConfig, ::Class_1_E05E7A6D9DE9138B* pAssetLoader, ::UnityEngine::Material*& pMat, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_2_15E317187C4E8254*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55_BEGININVOKE_OFFSET))(this, entity, property, value, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::RuanMadeCakeFeatureConfig*, ::Class_1_E05E7A6D9DE9138B*, ::UnityEngine::Material*&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55_BEGININVOKE_OFFSET))(this, pConfig, pAssetLoader, pMat, callback, object);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::UnityEngine::Material*& pMat, ::System::IAsyncResult* result)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE55_ENDINVOKE_OFFSET))(this, pMat, result);
 		}
 	};
 }

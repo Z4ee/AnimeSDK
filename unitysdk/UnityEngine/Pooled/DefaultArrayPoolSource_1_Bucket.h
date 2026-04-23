@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int DefaultArrayPoolSource_1_Bucket_TypeDefinitionIndex = 4331;
+	inline static constexpr unsigned int DefaultArrayPoolSource_1_Bucket_TypeDefinitionIndex = 4333;
 
 	template <typename T>
 	class DefaultArrayPoolSource_1_Bucket : public ::System::Object

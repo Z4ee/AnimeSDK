@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IEntityVarServices_1_TypeDefinitionIndex = 33619;
+	inline static constexpr unsigned int IEntityVarServices_1_TypeDefinitionIndex = 39420;
 
 	template <typename TEntity>
 	class IEntityVarServices_1

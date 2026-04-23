@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
 
-class Class_2_9850514C0F89B91A;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_975_TypeDefinitionIndex = 61813;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_975_TypeDefinitionIndex = 66420;
 
 class Class_0_16E4307DCC419505_975
 {

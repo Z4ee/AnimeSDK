@@ -7,13 +7,13 @@ namespace InControl { class BindingListenOptions; }
 namespace InControl { class BindingSource; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_KEYBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x15B7EFE0)
-#define INCONTROL_KEYBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x15B7EF90)
-#define INCONTROL_KEYBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B7F100)
+#define INCONTROL_KEYBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x1717C9C0)
+#define INCONTROL_KEYBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1717C970)
+#define INCONTROL_KEYBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1717CAE0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int KeyBindingSourceListener_TypeDefinitionIndex = 31385;
+	inline static constexpr unsigned int KeyBindingSourceListener_TypeDefinitionIndex = 37105;
 
 	class KeyBindingSourceListener : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace MiHoYo::SDK::Win { class TapTapToken; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS104_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160D5FD0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS104_0__SHOWTAPTAPLOGINVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x160DC470)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS104_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1773AA30)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS104_0__SHOWTAPTAPLOGINVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17740CB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass104_0_TypeDefinitionIndex = 8065;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass104_0_TypeDefinitionIndex = 8211;
 
 	class LoginManager___c__DisplayClass104_0 : public ::System::Object
 	{

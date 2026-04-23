@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleHintToastStyle_TypeDefinitionIndex = 21568;
+	inline static constexpr unsigned int BattleHintToastStyle_TypeDefinitionIndex = 22306;
 
 	enum class BattleHintToastStyle : ::System::Int32
 	{

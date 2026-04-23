@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Code_TypeDefinitionIndex = 36918;
+	inline static constexpr unsigned int MHYSDKC_Code_TypeDefinitionIndex = 42744;
 
 	class MHYSDKC_Code : public ::System::Object
 	{
@@ -40,6 +40,8 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 EOS_DLL_ERROR = 0xFFFFFC17; // 0x0
 		// static const ::System::Int32 EOS_TOKEN_ERROR = 0xFFFFFC16; // 0x0
 		// static const ::System::Int32 GOOGLE_PC_TOKEN_ERROR = 0xFFFFFC15; // 0x0
+		// static const ::System::Int32 GOOGLE_PC_SDK_INIT_FAILED = 0xFFFFFC14; // 0x0
+		// static const ::System::Int32 STEAM_SDK_INIT_FAILED = 0xFFFFFC13; // 0x0
 		// static const ::System::Int32 BILIBILI_REJECT_PROTOCOL_ERROR = 0xFFFFC94F; // 0x0
 	};
 }

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/LocalLightLod.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x16A70710)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x181139E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightLOD_TypeDefinitionIndex = 29281;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightLOD_TypeDefinitionIndex = 35048;
 
 	class CRPGraphicsSettingsData_LocalLightLOD : public ::System::Object
 	{

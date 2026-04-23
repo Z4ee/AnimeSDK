@@ -7,10 +7,10 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define CLASS_1_E602A1752C4DCAA4_CLEAR_OFFSET UNITYSDK_OFFSET(0x1681F180)
-#define CLASS_1_E602A1752C4DCAA4__CTOR_OFFSET UNITYSDK_OFFSET(0x1681F320)
+#define CLASS_1_E602A1752C4DCAA4_CLEAR_OFFSET UNITYSDK_OFFSET(0x18057B90)
+#define CLASS_1_E602A1752C4DCAA4__CTOR_OFFSET UNITYSDK_OFFSET(0x18057D30)
 
-inline static constexpr unsigned int Class_1_E602A1752C4DCAA4_TypeDefinitionIndex = 33346;
+inline static constexpr unsigned int Class_1_E602A1752C4DCAA4_TypeDefinitionIndex = 39137;
 
 class Class_1_E602A1752C4DCAA4 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelNodeImplState_TypeDefinitionIndex = 63700;
+	inline static constexpr unsigned int ChimeraDuelNodeImplState_TypeDefinitionIndex = 71746;
 
 	enum class ChimeraDuelNodeImplState : ::System::Int32
 	{

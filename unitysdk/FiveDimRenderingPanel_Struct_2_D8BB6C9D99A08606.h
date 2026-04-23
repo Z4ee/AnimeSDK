@@ -4,7 +4,7 @@
 
 class Class_1_9CBC71DC5240DC00;
 
-inline static constexpr unsigned int FiveDimRenderingPanel_Struct_2_D8BB6C9D99A08606_TypeDefinitionIndex = 38043;
+inline static constexpr unsigned int FiveDimRenderingPanel_Struct_2_D8BB6C9D99A08606_TypeDefinitionIndex = 43924;
 
 struct alignas(8) FiveDimRenderingPanel_Struct_2_D8BB6C9D99A08606
 {

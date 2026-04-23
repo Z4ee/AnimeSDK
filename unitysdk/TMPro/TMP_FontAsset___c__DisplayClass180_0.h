@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1891ECD0)
-#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__RENDERCHARACTERTOTEXTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1891F520)
+#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A358940)
+#define TMPRO_TMP_FONTASSET___C__DISPLAYCLASS180_0__RENDERCHARACTERTOTEXTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1A359190)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontAsset___c__DisplayClass180_0_TypeDefinitionIndex = 34307;
+	inline static constexpr unsigned int TMP_FontAsset___c__DisplayClass180_0_TypeDefinitionIndex = 40126;
 
 	class TMP_FontAsset___c__DisplayClass180_0 : public ::System::Object
 	{

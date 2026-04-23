@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_8028292537B6D2B7_DashPhaseState_TypeDefinitionIndex = 63363;
+inline static constexpr unsigned int Class_2_8028292537B6D2B7_DashPhaseState_TypeDefinitionIndex = 71403;
 
 enum class Class_2_8028292537B6D2B7_DashPhaseState : ::System::Int32
 {

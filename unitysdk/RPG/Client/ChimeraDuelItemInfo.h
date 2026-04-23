@@ -5,13 +5,13 @@
 namespace RPG::Client { class ChimeraDuelItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERADUELITEMINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x93A8450)
-#define RPG_CLIENT_CHIMERADUELITEMINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x93A9AF0)
-#define RPG_CLIENT_CHIMERADUELITEMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x93A79E0)
+#define RPG_CLIENT_CHIMERADUELITEMINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA016430)
+#define RPG_CLIENT_CHIMERADUELITEMINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0xA017AD0)
+#define RPG_CLIENT_CHIMERADUELITEMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA0159C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelItemInfo_TypeDefinitionIndex = 51437;
+	inline static constexpr unsigned int ChimeraDuelItemInfo_TypeDefinitionIndex = 58375;
 
 	class ChimeraDuelItemInfo : public ::System::Object
 	{

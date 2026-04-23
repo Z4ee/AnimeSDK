@@ -6,13 +6,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x13C40)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x13C30)
 #define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x20DA790)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x22AC3B0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationEntry_TypeDefinitionIndex = 1121;
+	inline static constexpr unsigned int SerializationEntry_TypeDefinitionIndex = 1123;
 
 	struct alignas(8) SerializationEntry
 	{

@@ -11,27 +11,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_302838C57322931A_OFFSET UNITYSDK_OFFSET(0x1769FA00)
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x1769FBD0)
-#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1769FBA0)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_302838C57322931A_OFFSET UNITYSDK_OFFSET(0x18E024A0)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x18E02670)
+#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E02640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15137;
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15647;
 
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:
-		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x200
-		::RPG::GameCore::TeamLocationType LocationType; // 0x204
-		::System::Boolean AddToTeamFormation; // 0x208
-		::RPG::GameCore::AttackDamageType DamageType; // 0x20C
-		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x210
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x218
-		::RPG::MVector3 ViewModeServantFollowOffset; // 0x220
-		::System::Single ViewModeServantFollowYawAngle; // 0x22C
-		::System::Boolean IsPlayerControlled; // 0x230
-		::System::String* AIPath; // 0x238
+		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x208
+		::RPG::GameCore::TeamLocationType LocationType; // 0x20C
+		::System::Boolean AddToTeamFormation; // 0x210
+		::RPG::GameCore::AttackDamageType DamageType; // 0x214
+		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x218
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x220
+		::RPG::MVector3 ViewModeServantFollowOffset; // 0x228
+		::System::Single ViewModeServantFollowYawAngle; // 0x234
+		::System::Boolean IsPlayerControlled; // 0x238
+		::System::String* AIPath; // 0x240
 
 		::System::Void _ctor()
 		{

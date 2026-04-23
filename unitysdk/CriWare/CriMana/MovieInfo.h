@@ -4,13 +4,13 @@
 #include "unitysdk/CriWare/CriMana/CodecType.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_MOVIEINFO_GET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x11A42200)
-#define CRIWARE_CRIMANA_MOVIEINFO_SET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x11A431A0)
-#define CRIWARE_CRIMANA_MOVIEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11A431B0)
+#define CRIWARE_CRIMANA_MOVIEINFO_GET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x12C109F0)
+#define CRIWARE_CRIMANA_MOVIEINFO_SET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x12C118E0)
+#define CRIWARE_CRIMANA_MOVIEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12C118F0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int MovieInfo_TypeDefinitionIndex = 31225;
+	inline static constexpr unsigned int MovieInfo_TypeDefinitionIndex = 36945;
 
 	class MovieInfo : public ::System::Object
 	{

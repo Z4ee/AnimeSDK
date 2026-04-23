@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int Ephemeron_TypeDefinitionIndex = 1386;
+	inline static constexpr unsigned int Ephemeron_TypeDefinitionIndex = 1388;
 
 	struct alignas(8) Ephemeron
 	{

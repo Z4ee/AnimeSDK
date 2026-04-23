@@ -4,12 +4,12 @@
 
 namespace CriWare { class CriErrorNotifier_ErrorCallbackFunc; }
 
-#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_CONVERTIDTOMESSAGE_OFFSET UNITYSDK_OFFSET(0x11A34140)
-#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x11A336F0)
+#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_CONVERTIDTOMESSAGE_OFFSET UNITYSDK_OFFSET(0x12C02950)
+#define CRIWARE_CRIERRORNOTIFIER_NATIVEMETHOD_CRIERR_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x12C01F00)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriErrorNotifier_NativeMethod_TypeDefinitionIndex = 31168;
+	inline static constexpr unsigned int CriErrorNotifier_NativeMethod_TypeDefinitionIndex = 36888;
 
 	class CriErrorNotifier_NativeMethod : public ::System::Object
 	{

@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_0414B7E68ABA5085_OFFSET UNITYSDK_OFFSET(0xFBA6430)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET UNITYSDK_OFFSET(0xFBA58A0)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_6441B51DB3E78348_OFFSET UNITYSDK_OFFSET(0xFBA6390)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_E83461C42980F950_OFFSET UNITYSDK_OFFSET(0xFBA5000)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBA6060)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xFBA4C60)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_26CAE11E3FF3D896_OFFSET UNITYSDK_OFFSET(0xF317F70)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET UNITYSDK_OFFSET(0xF317630)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0xF317FE0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_E83461C42980F950_OFFSET UNITYSDK_OFFSET(0xF316E20)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0xF317C40)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xF316B90)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 40310;
+	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 46219;
 
 	class EnviroLightQualityFallbackGroup : public ::EnviromentSystem::EnviroBoolProperty
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>** StaticGet_PropertyGroupNameDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0xEF40);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x13140);
 		}
 		::EnviromentSystem::EnviromentPropertiesID highProperty; // 0x60
 		::EnviromentSystem::EnviromentPropertiesID middleProperty; // 0x64
@@ -54,14 +54,14 @@ namespace EnviromentSystem
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_6441B51DB3E78348(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* P0)
+		::System::Void Method_3_26CAE11E3FF3D896(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_6441B51DB3E78348_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_26CAE11E3FF3D896_OFFSET))(this, P0);
 		}
 
-		::System::Void Method_3_0414B7E68ABA5085(::System::Single P0)
+		::System::Void Method_3_793FFA9A76FE6840(::System::Single P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_0414B7E68ABA5085_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_793FFA9A76FE6840_OFFSET))(this, P0);
 		}
 	};
 }

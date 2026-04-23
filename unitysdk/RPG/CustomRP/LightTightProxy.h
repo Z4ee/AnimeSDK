@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_LIGHTTIGHTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xA7AAD60)
+#define RPG_CUSTOMRP_LIGHTTIGHTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xB4ED990)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LightTightProxy_TypeDefinitionIndex = 41873;
+	inline static constexpr unsigned int LightTightProxy_TypeDefinitionIndex = 47848;
 
 	class LightTightProxy : public ::UnityEngine::MonoBehaviour
 	{

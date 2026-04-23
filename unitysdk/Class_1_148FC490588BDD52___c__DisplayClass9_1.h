@@ -5,16 +5,16 @@
 class Class_1_148FC490588BDD52___c__DisplayClass9_0;
 namespace RPG::Client { class UIController; }
 
-#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D1A20)
-#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1___SHOWLAST_B__2_OFFSET UNITYSDK_OFFSET(0xB8D2150)
+#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x923EE90)
+#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1___SHOWLAST_B__2_OFFSET UNITYSDK_OFFSET(0x923F5C0)
 
-inline static constexpr unsigned int Class_1_148FC490588BDD52___c__DisplayClass9_1_TypeDefinitionIndex = 59868;
+inline static constexpr unsigned int Class_1_148FC490588BDD52___c__DisplayClass9_1_TypeDefinitionIndex = 67265;
 
 class Class_1_148FC490588BDD52___c__DisplayClass9_1 : public ::System::Object
 {
 public:
-	::RPG::Client::UIController* controller; // 0x10
-	::Class_1_148FC490588BDD52___c__DisplayClass9_0* CS___8__locals1; // 0x18
+	::Class_1_148FC490588BDD52___c__DisplayClass9_0* CS___8__locals1; // 0x10
+	::RPG::Client::UIController* controller; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialTaskUnlock; }
 
-#define CLASS_3_B6659502EA3775CE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD171D80)
-#define CLASS_3_B6659502EA3775CE__CTOR_OFFSET UNITYSDK_OFFSET(0xD171D50)
+#define CLASS_3_B6659502EA3775CE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11BF6840)
+#define CLASS_3_B6659502EA3775CE__CTOR_OFFSET UNITYSDK_OFFSET(0x11BF6810)
 
-inline static constexpr unsigned int Class_3_B6659502EA3775CE_TypeDefinitionIndex = 47503;
+inline static constexpr unsigned int Class_3_B6659502EA3775CE_TypeDefinitionIndex = 54239;
 
 class Class_3_B6659502EA3775CE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TutorialTaskUnlock*>
 {

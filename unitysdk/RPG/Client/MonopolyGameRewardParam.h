@@ -5,11 +5,11 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYGAMEREWARDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9D61950)
+#define RPG_CLIENT_MONOPOLYGAMEREWARDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xAAA7860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyGameRewardParam_TypeDefinitionIndex = 53884;
+	inline static constexpr unsigned int MonopolyGameRewardParam_TypeDefinitionIndex = 61028;
 
 	class MonopolyGameRewardParam : public ::System::Object
 	{

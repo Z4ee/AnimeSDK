@@ -4,14 +4,14 @@
 
 namespace RPG::Client { class MonoUILayoutElementAutoSwitch_LayoutElementProperty; }
 
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0x9D4C460)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_E68E5CBD27DBE1A9_OFFSET UNITYSDK_OFFSET(0x9D4C4E0)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4C660)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x9D4C700)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0xAA0F590)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_8A74847148F77D9E_OFFSET UNITYSDK_OFFSET(0xAA0F610)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xAA0F7C0)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xAA0F860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 59512;
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 66907;
 
 	class MonoUILayoutElementAutoSwitch : public ::UnityEngine::EventSystems::UIBehaviour
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_E68E5CBD27DBE1A9(::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty* a1)
+		::System::Void Method_6_8A74847148F77D9E(::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_E68E5CBD27DBE1A9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_8A74847148F77D9E_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_Awake()

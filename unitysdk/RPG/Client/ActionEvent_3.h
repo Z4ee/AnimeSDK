@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_478;
+class Class_0_16E4307DCC419505_557;
 class Class_1_18B0677ECDC1AEEB;
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class ActionEvent_3; }
 namespace System { class String; }
@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionEvent_3_TypeDefinitionIndex = 48248;
+	inline static constexpr unsigned int ActionEvent_3_TypeDefinitionIndex = 54993;
 
 	template <typename T1, typename T2, typename T3>
 	class ActionEvent_3 : public ::System::Object
@@ -18,7 +18,7 @@ namespace RPG::Client
 	public:
 		::System::Action_3<T1, T2, T3>* _Action; // 0x0
 		::System::String* _Name; // 0x0
-		::Class_0_16E4307DCC419505_478* _Progress; // 0x0
+		::Class_0_16E4307DCC419505_557* _Progress; // 0x0
 		::Class_1_18B0677ECDC1AEEB* _RootProgress; // 0x0
 	};
 }

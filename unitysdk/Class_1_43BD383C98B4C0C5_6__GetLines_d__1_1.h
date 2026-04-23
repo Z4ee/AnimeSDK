@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class FieldInfo; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_6__GetLines_d__1_1_TypeDefinitionIndex = 22632;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_6__GetLines_d__1_1_TypeDefinitionIndex = 23605;
 
 template <typename V>
 class Class_1_43BD383C98B4C0C5_6__GetLines_d__1_1 : public ::System::Object

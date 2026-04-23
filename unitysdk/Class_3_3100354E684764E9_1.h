@@ -8,19 +8,19 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_3_3100354E684764E9_1_DOONENTER_OFFSET UNITYSDK_OFFSET(0x113324A0)
-#define CLASS_3_3100354E684764E9_1_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x11332550)
-#define CLASS_3_3100354E684764E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11332430)
-#define CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x11332610)
-#define CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x11332690)
+#define CLASS_3_3100354E684764E9_1_DOONENTER_OFFSET UNITYSDK_OFFSET(0x11B141D0)
+#define CLASS_3_3100354E684764E9_1_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x11B14280)
+#define CLASS_3_3100354E684764E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11B14160)
+#define CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x11B14340)
+#define CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x11B143C0)
 
-inline static constexpr unsigned int Class_3_3100354E684764E9_1_TypeDefinitionIndex = 64262;
+inline static constexpr unsigned int Class_3_3100354E684764E9_1_TypeDefinitionIndex = 72309;
 
 class Class_3_3100354E684764E9_1 : public ::Class_2_C5E5FE6832D0C155
 {
 public:
-	::System::Action* Field_3_1; // 0xC0
-	::System::Action* Field_3_0; // 0xC8
+	::System::Action* Field_3_0; // 0xC0
+	::System::Action* Field_3_1; // 0xC8
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a3, ::Il2CppArray<::System::Action*>* a4, ::System::Func_1<::System::Boolean>* a5)
 	{

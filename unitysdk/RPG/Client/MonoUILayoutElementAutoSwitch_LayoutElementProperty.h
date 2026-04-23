@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_LAYOUTELEMENTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4C6E0)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_LAYOUTELEMENTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xAA0F840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_LayoutElementProperty_TypeDefinitionIndex = 59513;
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_LayoutElementProperty_TypeDefinitionIndex = 66908;
 
 	class MonoUILayoutElementAutoSwitch_LayoutElementProperty : public ::System::Object
 	{

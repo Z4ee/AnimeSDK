@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleOrigamiRow___O_TypeDefinitionIndex = 12869;
+	inline static constexpr unsigned int MazePuzzleOrigamiRow___O_TypeDefinitionIndex = 13331;
 
 	class MazePuzzleOrigamiRow___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropState>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropState>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleOrigamiRow___O_TypeDefinitionIndex)->GetStaticField(0x29320);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropState>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleOrigamiRow___O_TypeDefinitionIndex)->GetStaticField(0x35240);
 		}
 	};
 }

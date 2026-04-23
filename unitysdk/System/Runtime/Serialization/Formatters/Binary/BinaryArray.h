@@ -8,28 +8,28 @@
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY_READ_OFFSET UNITYSDK_OFFSET(0x163CBD80)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY_SET_OFFSET UNITYSDK_OFFSET(0x163CB590)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY_WRITE_OFFSET UNITYSDK_OFFSET(0x163CB5F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x163CB580)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x163CB570)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY_READ_OFFSET UNITYSDK_OFFSET(0x179F8740)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY_SET_OFFSET UNITYSDK_OFFSET(0x179F7F90)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY_WRITE_OFFSET UNITYSDK_OFFSET(0x179F7FF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179F7F80)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x179F7F70)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryArray_TypeDefinitionIndex = 1148;
+	inline static constexpr unsigned int BinaryArray_TypeDefinitionIndex = 1150;
 
 	class BinaryArray : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* lowerBoundA; // 0x10
-		::System::Object* typeInformation; // 0x18
-		::Il2CppArray<::System::Int32>* lengthA; // 0x20
-		::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum; // 0x28
-		::System::Int32 objectId; // 0x2C
-		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x30
-		::System::Int32 rank; // 0x34
-		::System::Int32 assemId; // 0x38
-		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum; // 0x3C
+		::Il2CppArray<::System::Int32>* lengthA; // 0x10
+		::Il2CppArray<::System::Int32>* lowerBoundA; // 0x18
+		::System::Object* typeInformation; // 0x20
+		::System::Int32 assemId; // 0x28
+		::System::Int32 rank; // 0x2C
+		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum; // 0x30
+		::System::Int32 objectId; // 0x34
+		::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum; // 0x38
+		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -10,42 +10,42 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_ARRAYCOUNTINCREMENT_OFFSET UNITYSDK_OFFSET(0x163D4DC0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_GETNEXT_OFFSET UNITYSDK_OFFSET(0x163D4DD0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_INIT_OFFSET UNITYSDK_OFFSET(0x163D4C90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x163D4EF0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x163D4C30)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_ARRAYCOUNTINCREMENT_OFFSET UNITYSDK_OFFSET(0x17A016D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_GETNEXT_OFFSET UNITYSDK_OFFSET(0x17A016E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_INIT_OFFSET UNITYSDK_OFFSET(0x17A015B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A01800)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x17A01550)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ObjectProgress_TypeDefinitionIndex = 1154;
+	inline static constexpr unsigned int ObjectProgress_TypeDefinitionIndex = 1156;
 
 	class ObjectProgress : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_opRecordIdCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectProgress_TypeDefinitionIndex)->GetStaticField(0x3F30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectProgress_TypeDefinitionIndex)->GetStaticField(0x49C0);
 		}
-		::System::Object* typeInformation; // 0x10
-		::Il2CppArray<::System::Type*>* memberTypes; // 0x18
-		::System::Type* dtType; // 0x20
-		::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr; // 0x28
-		::System::Object* expectedTypeInformation; // 0x30
-		::Il2CppArray<::System::Object*>* typeInformationA; // 0x38
-		::System::String* name; // 0x40
-		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x48
-		::Il2CppArray<::System::String*>* memberNames; // 0x50
-		::System::Int32 numItems; // 0x58
-		::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum; // 0x5C
-		::System::Boolean isInitial; // 0x60
+		::Il2CppArray<::System::Type*>* memberTypes; // 0x10
+		::System::String* name; // 0x18
+		::Il2CppArray<::System::Object*>* typeInformationA; // 0x20
+		::System::Object* typeInformation; // 0x28
+		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x30
+		::System::Object* expectedTypeInformation; // 0x38
+		::System::Type* dtType; // 0x40
+		::Il2CppArray<::System::String*>* memberNames; // 0x48
+		::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr; // 0x50
+		::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum; // 0x58
+		::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum; // 0x5C
+		::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum; // 0x60
 		::System::Int32 count; // 0x64
-		::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum; // 0x68
+		::System::Int32 memberLength; // 0x68
 		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum; // 0x6C
-		::System::Int32 memberLength; // 0x70
-		::System::Int32 nullCount; // 0x74
-		::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum; // 0x78
-		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType; // 0x7C
+		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType; // 0x70
+		::System::Boolean isInitial; // 0x74
+		::System::Int32 numItems; // 0x78
+		::System::Int32 nullCount; // 0x7C
 
 		::System::Void _ctor()
 		{

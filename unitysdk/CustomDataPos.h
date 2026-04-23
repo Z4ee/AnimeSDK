@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CustomDataPos_TypeDefinitionIndex = 38033;
+inline static constexpr unsigned int CustomDataPos_TypeDefinitionIndex = 43914;
 
 enum class CustomDataPos : ::System::Int32
 {

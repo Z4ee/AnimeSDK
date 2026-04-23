@@ -5,12 +5,12 @@
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18844BA0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__DISPLAYCLASS25_0__GETFACELOOP_B__0_OFFSET UNITYSDK_OFFSET(0x188459E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A27EDE0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION___C__DISPLAYCLASS25_0__GETFACELOOP_B__0_OFFSET UNITYSDK_OFFSET(0x1A27FC20)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ElementSelection___c__DisplayClass25_0_TypeDefinitionIndex = 34231;
+	inline static constexpr unsigned int ElementSelection___c__DisplayClass25_0_TypeDefinitionIndex = 40050;
 
 	class ElementSelection___c__DisplayClass25_0 : public ::System::Object
 	{

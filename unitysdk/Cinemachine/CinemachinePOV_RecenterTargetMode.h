@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePOV_RecenterTargetMode_TypeDefinitionIndex = 30829;
+	inline static constexpr unsigned int CinemachinePOV_RecenterTargetMode_TypeDefinitionIndex = 36549;
 
 	enum class CinemachinePOV_RecenterTargetMode : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LayerBackgroundImage_TypeDefinitionIndex = 38980;
+	inline static constexpr unsigned int LayerBackgroundImage_TypeDefinitionIndex = 44883;
 
 	struct alignas(8) LayerBackgroundImage
 	{

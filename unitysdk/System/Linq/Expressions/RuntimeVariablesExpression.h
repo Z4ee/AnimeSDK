@@ -5,11 +5,11 @@
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_RUNTIMEVARIABLESEXPRESSION_GET_VARIABLES_OFFSET UNITYSDK_OFFSET(0x18505070)
+#define SYSTEM_LINQ_EXPRESSIONS_RUNTIMEVARIABLESEXPRESSION_GET_VARIABLES_OFFSET UNITYSDK_OFFSET(0x19F3FF00)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int RuntimeVariablesExpression_TypeDefinitionIndex = 3256;
+	inline static constexpr unsigned int RuntimeVariablesExpression_TypeDefinitionIndex = 3258;
 
 	class RuntimeVariablesExpression : public ::System::Linq::Expressions::Expression
 	{

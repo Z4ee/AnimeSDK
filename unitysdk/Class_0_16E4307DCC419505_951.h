@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_951_TypeDefinitionIndex = 61327;
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_951_TypeDefinitionIndex = 66049;
 
 class Class_0_16E4307DCC419505_951
 {

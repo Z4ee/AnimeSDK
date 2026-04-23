@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_7CF7F1C413CECBBD_1_TypeDefinitionIndex = 25295;
+inline static constexpr unsigned int Enum_3_7CF7F1C413CECBBD_1_TypeDefinitionIndex = 28729;
 
 enum class Enum_3_7CF7F1C413CECBBD_1 : ::System::Int32
 {
 	Value_0 = 0,
-	Value_6819 = 6819,
-	Value_6824 = 6824,
+	Value_6810 = 6810,
+	Value_6839 = 6839,
+	Value_6872 = 6872,
+	Value_6832 = 6832,
+	Value_6833 = 6833,
+	Value_6874 = 6874,
 	Value_6804 = 6804,
-	Value_6888 = 6888,
-	Value_6813 = 6813,
-	Value_6856 = 6856,
-	Value_6884 = 6884,
-	Value_6869 = 6869,
-	Value_6840 = 6840,
-	Value_6881 = 6881,
-	Value_6834 = 6834,
-	Value_6857 = 6857,
-	Value_6883 = 6883,
-	Value_6886 = 6886,
-	Value_6862 = 6862,
-	Value_6823 = 6823,
-	Value_6900 = 6900,
-	Value_6835 = 6835,
-	Value_6848 = 6848,
-	Value_6846 = 6846,
+	Value_6809 = 6809,
+	Value_6837 = 6837,
+	Value_6898 = 6898,
+	Value_6863 = 6863,
+	Value_6818 = 6818,
+	Value_6895 = 6895,
+	Value_6838 = 6838,
+	Value_6891 = 6891,
+	Value_6814 = 6814,
+	Value_6861 = 6861,
+	Value_6894 = 6894,
+	Value_6826 = 6826,
+	Value_6801 = 6801,
 };

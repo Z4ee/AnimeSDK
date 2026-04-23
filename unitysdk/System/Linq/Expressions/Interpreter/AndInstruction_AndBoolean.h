@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ANDINSTRUCTION_ANDBOOLEAN_RUN_OFFSET UNITYSDK_OFFSET(0x184B9EB0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ANDINSTRUCTION_ANDBOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x184B9EA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ANDINSTRUCTION_ANDBOOLEAN_RUN_OFFSET UNITYSDK_OFFSET(0x19EF4D80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ANDINSTRUCTION_ANDBOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF4D70)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int AndInstruction_AndBoolean_TypeDefinitionIndex = 3292;
+	inline static constexpr unsigned int AndInstruction_AndBoolean_TypeDefinitionIndex = 3294;
 
 	class AndInstruction_AndBoolean : public ::System::Linq::Expressions::Interpreter::AndInstruction
 	{

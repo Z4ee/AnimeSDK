@@ -2,65 +2,71 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-namespace RPG { class OutlinePostFXBehavior_Class_1_17F985F52886C1FB; }
-namespace RPG { class OutlinePostFXBehavior_Class_1_9735C23760B0B7EC; }
+namespace RPG { class OutlinePostFXBehavior_Class_1_091DF277A357D723; }
+namespace RPG { class OutlinePostFXBehavior_Class_1_0E92B03EF54C2343; }
 namespace RPG { class OutlinePostFXMonoPlugin; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_OUTLINEPOSTFXBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xAAFD3C0)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0xAAFD010)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xAAFD990)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xAAFD930)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_45AA2F5085C2C40D_OFFSET UNITYSDK_OFFSET(0xAAFD6C0)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xAAFDB80)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xAAFDBE0)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0xAAFDC40)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0xAAFDCA0)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0xAAFDD10)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xAAFDB20)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xAAFD8A0)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_CBDC22058B67F0FE_OFFSET UNITYSDK_OFFSET(0xAAFD430)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xAAFD9F0)
-#define RPG_OUTLINEPOSTFXBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xAAFDA80)
-#define RPG_OUTLINEPOSTFXBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xAAFDA60)
-#define RPG_OUTLINEPOSTFXBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xAAFDD80)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xB868A60)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0xB8686B0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xB8694B0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB869450)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_52C18C0DA8AC23E5_OFFSET UNITYSDK_OFFSET(0xB868F70)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xB8696A0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xB869700)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0xB869760)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0xB8697C0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0xB869830)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xB869640)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_A1AA9EB80A93616B_OFFSET UNITYSDK_OFFSET(0xB868AD0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xB8693C0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xB869510)
+#define RPG_OUTLINEPOSTFXBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8695A0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB869580)
+#define RPG_OUTLINEPOSTFXBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xB8698A0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int OutlinePostFXBehavior_TypeDefinitionIndex = 41814;
+	inline static constexpr unsigned int OutlinePostFXBehavior_TypeDefinitionIndex = 47779;
 
 	class OutlinePostFXBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__DepthRTID()
+		static ::RPG::OutlinePostFXBehavior_Class_1_091DF277A357D723** StaticGet__outlineFinalCmdCb()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x126F0);
+			return (::RPG::OutlinePostFXBehavior_Class_1_091DF277A357D723**)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x66420);
 		}
-		static ::System::Int32* StaticGet__ShowPartID()
+		static ::RPG::OutlinePostFXBehavior_Class_1_0E92B03EF54C2343** StaticGet__outlineCmdCb()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x126F4);
-		}
-		static ::System::Int32* StaticGet__OutlineColorID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x126F8);
-		}
-		static ::System::Int32* StaticGet__ObjectIdID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x126FC);
-		}
-		static ::System::Int32* StaticGet__BlurDirectionID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x12700);
+			return (::RPG::OutlinePostFXBehavior_Class_1_0E92B03EF54C2343**)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x66428);
 		}
 		static ::System::Int32* StaticGet__HideNPCPartsID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x12704);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x10B00);
+		}
+		static ::System::Int32* StaticGet__ShowPartID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x10B04);
+		}
+		static ::System::Int32* StaticGet__OutlineColorID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x10B08);
+		}
+		static ::System::Int32* StaticGet__DepthRTID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x10B0C);
+		}
+		static ::System::Int32* StaticGet__BlurDirectionID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x10B10);
+		}
+		static ::System::Int32* StaticGet__ObjectIdID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OutlinePostFXBehavior_TypeDefinitionIndex)->GetStaticField(0x10B14);
 		}
 		::System::Int32 _RTWidth; // 0x38
 		::System::Int32 _RTHeight; // 0x3C
 		::UnityEngine::RenderTexture* _blurredRT; // 0x40
-		::RPG::OutlinePostFXBehavior_Class_1_9735C23760B0B7EC* _outlineCmdCb; // 0x48
-		::RPG::OutlinePostFXBehavior_Class_1_17F985F52886C1FB* _outlineFinalCmdCb; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -77,14 +83,14 @@ namespace RPG
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_25EC451C0EA68F53_OFFSET))(this);
 		}
 
-		::System::Void Method_3_CBDC22058B67F0FE()
+		::System::Void Method_3_A1AA9EB80A93616B()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_CBDC22058B67F0FE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_A1AA9EB80A93616B_OFFSET))(this);
 		}
 
-		::System::Void Method_3_45AA2F5085C2C40D()
+		::System::Void Method_3_52C18C0DA8AC23E5()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_45AA2F5085C2C40D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_OUTLINEPOSTFXBEHAVIOR_METHOD_3_52C18C0DA8AC23E5_OFFSET))(this);
 		}
 
 		::System::Void Method_3_B1936CE4DA97AA45()

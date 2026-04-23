@@ -6,27 +6,27 @@ namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x184BB850)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x184BBAD0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x184BBB10)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x184BBAE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x184BBB20)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x184BBB00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184BBAF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x19EF6720)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x19EF69A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19EF69E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x19EF69B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x19EF69F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19EF69D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF69C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int BranchInstruction_TypeDefinitionIndex = 3309;
+	inline static constexpr unsigned int BranchInstruction_TypeDefinitionIndex = 3311;
 
 	class BranchInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction
 	{
 	public:
 		static ::Il2CppArray<::Il2CppArray<::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>*>*>** StaticGet_s_caches()
 		{
-			return (::Il2CppArray<::Il2CppArray<::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(BranchInstruction_TypeDefinitionIndex)->GetStaticField(0xF1A0);
+			return (::Il2CppArray<::Il2CppArray<::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(BranchInstruction_TypeDefinitionIndex)->GetStaticField(0x12520);
 		}
-		::System::Boolean _hasResult; // 0x18
-		::System::Boolean _hasValue; // 0x19
+		::System::Boolean _hasValue; // 0x18
+		::System::Boolean _hasResult; // 0x19
 
 		::System::Void _ctor()
 		{

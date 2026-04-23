@@ -4,20 +4,20 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_CHARACTERTELEPORTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x930DF30)
+#define RPG_CLIENT_CHARACTERTELEPORTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x9F790E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterTeleportParams_TypeDefinitionIndex = 48713;
+	inline static constexpr unsigned int CharacterTeleportParams_TypeDefinitionIndex = 55462;
 
 	class CharacterTeleportParams : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::System::Boolean ClearSpecialVision; // 0x18
-		::System::Boolean KeepCameraBlend; // 0x19
-		::System::Boolean ResetCameraImmediately; // 0x1A
-		::System::Boolean ResetCamera; // 0x1B
+		::System::Boolean KeepCameraBlend; // 0x18
+		::System::Boolean ClearSpecialVision; // 0x19
+		::System::Boolean ResetCamera; // 0x1A
+		::System::Boolean ResetCameraImmediately; // 0x1B
 
 		::System::Void _ctor()
 		{

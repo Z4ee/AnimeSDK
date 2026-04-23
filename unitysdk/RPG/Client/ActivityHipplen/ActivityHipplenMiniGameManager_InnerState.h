@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMiniGameManager_InnerState_TypeDefinitionIndex = 61731;
+	inline static constexpr unsigned int ActivityHipplenMiniGameManager_InnerState_TypeDefinitionIndex = 69641;
 
 	enum class ActivityHipplenMiniGameManager_InnerState : ::System::Int32
 	{

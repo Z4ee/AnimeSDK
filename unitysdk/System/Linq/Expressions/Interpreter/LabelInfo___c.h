@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq::Expressions::Interpreter { class LabelScopeInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184D38B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184D38F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__VALIDATEJUMP_B__9_0_OFFSET UNITYSDK_OFFSET(0x184D3900)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F0E780)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0E7C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELINFO___C__VALIDATEJUMP_B__9_0_OFFSET UNITYSDK_OFFSET(0x19F0E7D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LabelInfo___c_TypeDefinitionIndex = 3425;
+	inline static constexpr unsigned int LabelInfo___c_TypeDefinitionIndex = 3427;
 
 	class LabelInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(LabelInfo___c_TypeDefinitionIndex)->GetStaticField(0xFC10);
-		}
 		static ::System::Linq::Expressions::Interpreter::LabelInfo___c** StaticGet___9()
 		{
-			return (::System::Linq::Expressions::Interpreter::LabelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(LabelInfo___c_TypeDefinitionIndex)->GetStaticField(0xFC18);
+			return (::System::Linq::Expressions::Interpreter::LabelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(LabelInfo___c_TypeDefinitionIndex)->GetStaticField(0x12D60);
+		}
+		static ::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(LabelInfo___c_TypeDefinitionIndex)->GetStaticField(0x12D68);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShortCutWheelGotoType_TypeDefinitionIndex = 10119;
+	inline static constexpr unsigned int ShortCutWheelGotoType_TypeDefinitionIndex = 10311;
 
 	enum class ShortCutWheelGotoType : ::System::Int32
 	{
@@ -26,5 +26,7 @@ namespace RPG::GameCore
 		FateSupportPreview = 17,
 		FiveDimSkillDetail = 18,
 		RogueTournGodMode = 19,
+		OnlinePlayRoomManagement = 4200,
+		CakeCatchAtlas = 4201,
 	};
 }

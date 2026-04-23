@@ -7,21 +7,21 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1889CB00)
-#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1889CE80)
-#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1889CBB0)
-#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1889DFD0)
+#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2D68E0)
+#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2D6C60)
+#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A2D6990)
+#define UNITYENGINE_PROBUILDER_SHAPES_CYLINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2D7DB0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Cylinder_TypeDefinitionIndex = 34197;
+	inline static constexpr unsigned int Cylinder_TypeDefinitionIndex = 40016;
 
 	class Cylinder : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Int32 m_AxisDivisions; // 0x10
-		::System::Boolean m_Smooth; // 0x14
-		::System::Int32 m_HeightCuts; // 0x18
+		::System::Int32 m_HeightCuts; // 0x10
+		::System::Int32 m_AxisDivisions; // 0x14
+		::System::Boolean m_Smooth; // 0x18
 
 		::System::Void _ctor()
 		{

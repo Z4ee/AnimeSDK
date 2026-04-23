@@ -3,7 +3,7 @@
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexOptions_TypeDefinitionIndex = 2512;
+	inline static constexpr unsigned int RegexOptions_TypeDefinitionIndex = 2513;
 
 	enum class RegexOptions : ::System::Int32
 	{

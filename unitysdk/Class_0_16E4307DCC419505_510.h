@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/LevelStateType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::Client { class CakeRaceBattleItemSyncData; }
-namespace RPG::Client { class CakeRaceGameVoteData; }
-namespace RPG::Client { class CakeRaceReceiveChatEventData; }
-namespace System { class Action; }
-namespace System { template <typename T> class Action_1; }
+namespace RPG::GameCore { class AdventureCharacterController; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_510_TypeDefinitionIndex = 63567;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_510_TypeDefinitionIndex = 52617;
 
 class Class_0_16E4307DCC419505_510
 {

@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PluginStorage_StoreDataArray_1_TypeDefinitionIndex = 37668;
+	inline static constexpr unsigned int HEU_PluginStorage_StoreDataArray_1_TypeDefinitionIndex = 43545;
 
 	template <typename T>
 	class HEU_PluginStorage_StoreDataArray_1 : public ::System::Object

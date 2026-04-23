@@ -4,28 +4,28 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ADAPT_OFFSET UNITYSDK_OFFSET(0x162EB870)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODEDIGIT_OFFSET UNITYSDK_OFFSET(0x162EB8F0)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET UNITYSDK_OFFSET(0x162EB920)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODEDIGIT_OFFSET UNITYSDK_OFFSET(0x162EB860)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODE_OFFSET UNITYSDK_OFFSET(0x162EB070)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x162EB030)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ADAPT_OFFSET UNITYSDK_OFFSET(0x17917F00)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODEDIGIT_OFFSET UNITYSDK_OFFSET(0x17917F80)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET UNITYSDK_OFFSET(0x17917FB0)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODEDIGIT_OFFSET UNITYSDK_OFFSET(0x17917EF0)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODE_OFFSET UNITYSDK_OFFSET(0x17917700)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x179176C0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int Bootstring_TypeDefinitionIndex = 789;
+	inline static constexpr unsigned int Bootstring_TypeDefinitionIndex = 791;
 
 	class Bootstring : public ::System::Object
 	{
 	public:
-		::System::Int32 skew; // 0x10
-		::System::Int32 tmin; // 0x14
-		::System::Int32 initial_bias; // 0x18
-		::System::Int32 tmax; // 0x1C
-		::System::Int32 initial_n; // 0x20
-		::System::Char delimiter; // 0x24
-		::System::Int32 damp; // 0x28
-		::System::Int32 base_num; // 0x2C
+		::System::Int32 initial_bias; // 0x10
+		::System::Int32 base_num; // 0x14
+		::System::Int32 damp; // 0x18
+		::System::Int32 tmin; // 0x1C
+		::System::Int32 skew; // 0x20
+		::System::Int32 initial_n; // 0x24
+		::System::Char delimiter; // 0x28
+		::System::Int32 tmax; // 0x2C
 
 		::System::Void _ctor(::System::Char delimiter, ::System::Int32 baseNum, ::System::Int32 tmin, ::System::Int32 tmax, ::System::Int32 skew, ::System::Int32 damp, ::System::Int32 initialBias, ::System::Int32 initialN)
 		{

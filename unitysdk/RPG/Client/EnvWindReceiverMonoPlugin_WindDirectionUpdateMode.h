@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_WindDirectionUpdateMode_TypeDefinitionIndex = 58206;
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_WindDirectionUpdateMode_TypeDefinitionIndex = 65493;
 
 	enum class EnvWindReceiverMonoPlugin_WindDirectionUpdateMode : ::System::Int32
 	{

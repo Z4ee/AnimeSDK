@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicMaterialLoader_LoadOption_TypeDefinitionIndex = 55841;
+	inline static constexpr unsigned int DynamicMaterialLoader_LoadOption_TypeDefinitionIndex = 63075;
 
 	enum class DynamicMaterialLoader_LoadOption : ::System::Int32
 	{

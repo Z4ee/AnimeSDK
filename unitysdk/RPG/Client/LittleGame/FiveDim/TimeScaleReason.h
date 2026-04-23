@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int TimeScaleReason_TypeDefinitionIndex = 33355;
+	inline static constexpr unsigned int TimeScaleReason_TypeDefinitionIndex = 39146;
 
 	enum class TimeScaleReason : ::System::Int32
 	{

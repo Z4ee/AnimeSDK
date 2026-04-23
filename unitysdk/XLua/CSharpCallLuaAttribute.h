@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_CSHARPCALLLUAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6F7B0)
+#define XLUA_CSHARPCALLLUAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B84C00)
 
 namespace XLua
 {
-	inline static constexpr unsigned int CSharpCallLuaAttribute_TypeDefinitionIndex = 8619;
+	inline static constexpr unsigned int CSharpCallLuaAttribute_TypeDefinitionIndex = 6397;
 
 	class CSharpCallLuaAttribute : public ::System::Attribute
 	{

@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_GETFAILHINTTEXT_OFFSET UNITYSDK_OFFSET(0x9B28E50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_HASTRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x9B28FA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_ONTRIGGER_OFFSET UNITYSDK_OFFSET(0x9B28FE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_SHOULDTRIGGER_OFFSET UNITYSDK_OFFSET(0x9B28F00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x9B29060)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int FailGuideRewardTreeImpl_TypeDefinitionIndex = 69444;
+
+	class FailGuideRewardTreeImpl : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID GetFailHintText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_GETFAILHINTTEXT_OFFSET))(this);
+		}
+
+		::System::Boolean ShouldTrigger()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_SHOULDTRIGGER_OFFSET))(this);
+		}
+
+		::System::Boolean HasTriggerAction()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_HASTRIGGERACTION_OFFSET))(this);
+		}
+
+		::System::Void OnTrigger()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEREWARDTREEIMPL_ONTRIGGER_OFFSET))(this);
+		}
+	};
+}

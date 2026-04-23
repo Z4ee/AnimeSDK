@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JToken__AfterSelf_d__42_TypeDefinitionIndex = 8385;
+	inline static constexpr unsigned int JToken__AfterSelf_d__42_TypeDefinitionIndex = 8531;
 
 	class JToken__AfterSelf_d__42 : public ::System::Object
 	{

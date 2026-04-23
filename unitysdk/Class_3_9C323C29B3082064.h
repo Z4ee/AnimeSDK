@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PlayerForceRush; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C323C29B3082064_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x111E1A10)
-#define CLASS_3_9C323C29B3082064__CTOR_OFFSET UNITYSDK_OFFSET(0x111E19E0)
+#define CLASS_3_9C323C29B3082064_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x95FD2C0)
+#define CLASS_3_9C323C29B3082064__CTOR_OFFSET UNITYSDK_OFFSET(0x95FD290)
 
-inline static constexpr unsigned int Class_3_9C323C29B3082064_TypeDefinitionIndex = 47026;
+inline static constexpr unsigned int Class_3_9C323C29B3082064_TypeDefinitionIndex = 53758;
 
 class Class_3_9C323C29B3082064 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayerForceRush*>
 {

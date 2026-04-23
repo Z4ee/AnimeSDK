@@ -12,13 +12,13 @@ namespace RPG::GameCore { class TutorialGuideShowConfig; }
 namespace RPG::GameCore { class TutorialGuideUIContextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_23EF75B7FE80CADA_OFFSET UNITYSDK_OFFSET(0x176FCCE0)
-#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_5481CD72A0451618_OFFSET UNITYSDK_OFFSET(0x176FCD80)
-#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x176FCD40)
+#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_23EF75B7FE80CADA_OFFSET UNITYSDK_OFFSET(0x18E60760)
+#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_7E48DDECFB1CB741_OFFSET UNITYSDK_OFFSET(0x18E60800)
+#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E607C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideHintWithText_TypeDefinitionIndex = 22370;
+	inline static constexpr unsigned int ShowGuideHintWithText_TypeDefinitionIndex = 23340;
 
 	class ShowGuideHintWithText : public ::RPG::GameCore::TaskConfig
 	{
@@ -64,9 +64,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideHintWithText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_23EF75B7FE80CADA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5481CD72A0451618(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideHintWithText* a2)
+		static ::System::Void Method_3_7E48DDECFB1CB741(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideHintWithText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideHintWithText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_5481CD72A0451618_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideHintWithText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_METHOD_3_7E48DDECFB1CB741_OFFSET))(a1, a2);
 		}
 	};
 }

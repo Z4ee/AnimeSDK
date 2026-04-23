@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x189F07D0)
-#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x189F0270)
+#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1A42A080)
+#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A429B20)
 
 namespace UnityEngine::Assertions
 {
-	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4749;
+	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4757;
 
 	class AssertionException : public ::System::Exception
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AcheronPowerNodeState_TypeDefinitionIndex = 58849;
+	inline static constexpr unsigned int AcheronPowerNodeState_TypeDefinitionIndex = 66216;
 
 	enum class AcheronPowerNodeState : ::System::Int32
 	{

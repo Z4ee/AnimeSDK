@@ -7,14 +7,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHexInfo___O_TypeDefinitionIndex = 55190;
+	inline static constexpr unsigned int RogueTournHexInfo___O_TypeDefinitionIndex = 62378;
 
 	class RogueTournHexInfo___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournHexData*>** StaticGet__0___GetData()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournHexData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexInfo___O_TypeDefinitionIndex)->GetStaticField(0x1E300);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournHexData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexInfo___O_TypeDefinitionIndex)->GetStaticField(0x1A100);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 class Class_1_E59F92993EBA43C9;
 namespace RPG::GameCore { class FiveDimGravityFieldRingConfig; }
 
-#define CLASS_1_A93D79A7FE818478_CLEAR_OFFSET UNITYSDK_OFFSET(0x1676CC90)
-#define CLASS_1_A93D79A7FE818478__CTOR_OFFSET UNITYSDK_OFFSET(0x1676CD10)
+#define CLASS_1_A93D79A7FE818478_CLEAR_OFFSET UNITYSDK_OFFSET(0x180278A0)
+#define CLASS_1_A93D79A7FE818478__CTOR_OFFSET UNITYSDK_OFFSET(0x18027920)
 
-inline static constexpr unsigned int Class_1_A93D79A7FE818478_TypeDefinitionIndex = 33530;
+inline static constexpr unsigned int Class_1_A93D79A7FE818478_TypeDefinitionIndex = 39329;
 
 class Class_1_A93D79A7FE818478 : public ::System::Object
 {

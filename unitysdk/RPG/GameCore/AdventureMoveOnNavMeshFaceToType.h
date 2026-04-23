@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMoveOnNavMeshFaceToType_TypeDefinitionIndex = 18471;
+	inline static constexpr unsigned int AdventureMoveOnNavMeshFaceToType_TypeDefinitionIndex = 19123;
 
 	enum class AdventureMoveOnNavMeshFaceToType : ::System::Int32
 	{

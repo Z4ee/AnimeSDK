@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EFEB90)
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFEDB0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1861FD40)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1861FF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenTrialRow_TypeDefinitionIndex = 10834;
+	inline static constexpr unsigned int ActivityHipplenTrialRow_TypeDefinitionIndex = 11079;
 
 	class ActivityHipplenTrialRow : public ::System::Object
 	{
 	public:
 		::System::String* GameJson; // 0x10
-		::RPG::Client::TextID TrialTitle; // 0x18
-		::System::UInt32 ID; // 0x28
-		::RPG::GameCore::HipplenMiniGameType Type; // 0x2C
+		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::HipplenMiniGameType Type; // 0x1C
+		::RPG::Client::TextID TrialTitle; // 0x20
 
 		::System::Void _ctor()
 		{

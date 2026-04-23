@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
-#define CLASS_1_0217CFE33F2E2D0F___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18313D90)
-#define CLASS_1_0217CFE33F2E2D0F___C__DISPLAYCLASS1_0__REMOVEINJECT_B__0_OFFSET UNITYSDK_OFFSET(0x18313EC0)
-#define CLASS_1_0217CFE33F2E2D0F___C__DISPLAYCLASS1_0__REMOVEINJECT_B__1_OFFSET UNITYSDK_OFFSET(0x18313F20)
+#define CLASS_1_0217CFE33F2E2D0F___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6E310)
+#define CLASS_1_0217CFE33F2E2D0F___C__DISPLAYCLASS1_0__REMOVEINJECT_B__0_OFFSET UNITYSDK_OFFSET(0x19D6E440)
+#define CLASS_1_0217CFE33F2E2D0F___C__DISPLAYCLASS1_0__REMOVEINJECT_B__1_OFFSET UNITYSDK_OFFSET(0x19D6E4A0)
 
-inline static constexpr unsigned int Class_1_0217CFE33F2E2D0F___c__DisplayClass1_0_TypeDefinitionIndex = 9409;
+inline static constexpr unsigned int Class_1_0217CFE33F2E2D0F___c__DisplayClass1_0_TypeDefinitionIndex = 9607;
 
 class Class_1_0217CFE33F2E2D0F___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelg; // 0x10
-	::System::Type* type; // 0x18
-	::System::String* mainSysName; // 0x20
+	::System::Type* type; // 0x10
+	::System::String* mainSysName; // 0x18
+	::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelg; // 0x20
 
 	::System::Void _ctor()
 	{

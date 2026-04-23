@@ -4,12 +4,12 @@
 
 namespace RPG::CustomRP { class CustomPostProcessData; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATABASE_RELOADRES_OFFSET UNITYSDK_OFFSET(0x16A74CA0)
-#define RPG_CUSTOMRP_CRPRENDERERDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A75270)
+#define RPG_CUSTOMRP_CRPRENDERERDATABASE_RELOADRES_OFFSET UNITYSDK_OFFSET(0x18117E50)
+#define RPG_CUSTOMRP_CRPRENDERERDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18118420)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererDataBase_TypeDefinitionIndex = 29472;
+	inline static constexpr unsigned int CRPRendererDataBase_TypeDefinitionIndex = 35239;
 
 	class CRPRendererDataBase : public ::RPG::CustomRP::CRPScriptableRenderData
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F97670)
-#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F97800)
+#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186BA8C0)
+#define RPG_GAMECORE_AVATARDEFAULTMAZEBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186BAA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDefaultMazeBuffRow_TypeDefinitionIndex = 11659;
+	inline static constexpr unsigned int AvatarDefaultMazeBuffRow_TypeDefinitionIndex = 12068;
 
 	class AvatarDefaultMazeBuffRow : public ::System::Object
 	{

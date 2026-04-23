@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_EDITOR_SCENEEDITOR_LOOKDEVIRIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C3740)
+#define RPG_EDITOR_SCENEEDITOR_LOOKDEVIRIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB506860)
 
 namespace RPG::Editor::SceneEditor
 {
-	inline static constexpr unsigned int LookDevIRIData_TypeDefinitionIndex = 42106;
+	inline static constexpr unsigned int LookDevIRIData_TypeDefinitionIndex = 48079;
 
 	class LookDevIRIData : public ::UnityEngine::MonoBehaviour
 	{

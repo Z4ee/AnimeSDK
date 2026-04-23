@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18348DE0)
-#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18348D80)
+#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x180F64F0)
+#define RPG_CLIENT_PROMISES_PROMISECANCELLEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x180F6490)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseCancelledException_TypeDefinitionIndex = 9600;
+	inline static constexpr unsigned int PromiseCancelledException_TypeDefinitionIndex = 8648;
 
 	class PromiseCancelledException : public ::System::Exception
 	{

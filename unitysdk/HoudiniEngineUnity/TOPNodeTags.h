@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_TOPNODETAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x8495F60)
+#define HOUDINIENGINEUNITY_TOPNODETAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x8CBE2B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int TOPNodeTags_TypeDefinitionIndex = 37748;
+	inline static constexpr unsigned int TOPNodeTags_TypeDefinitionIndex = 43625;
 
 	class TOPNodeTags : public ::System::Object
 	{

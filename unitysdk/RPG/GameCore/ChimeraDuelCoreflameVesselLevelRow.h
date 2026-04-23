@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELCOREFLAMEVESSELLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17098D10)
-#define RPG_GAMECORE_CHIMERADUELCOREFLAMEVESSELLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17098E70)
+#define RPG_GAMECORE_CHIMERADUELCOREFLAMEVESSELLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187F8440)
+#define RPG_GAMECORE_CHIMERADUELCOREFLAMEVESSELLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187F85A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelCoreflameVesselLevelRow_TypeDefinitionIndex = 10395;
+	inline static constexpr unsigned int ChimeraDuelCoreflameVesselLevelRow_TypeDefinitionIndex = 10620;
 
 	class ChimeraDuelCoreflameVesselLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x10
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 ChimeraID; // 0x1C
+		::System::UInt32 ChimeraID; // 0x18
+		::System::UInt32 Level; // 0x1C
 
 		::System::Void _ctor()
 		{

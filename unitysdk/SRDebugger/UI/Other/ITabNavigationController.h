@@ -4,7 +4,7 @@
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int ITabNavigationController_TypeDefinitionIndex = 29656;
+	inline static constexpr unsigned int ITabNavigationController_TypeDefinitionIndex = 35376;
 
 	class ITabNavigationController
 	{

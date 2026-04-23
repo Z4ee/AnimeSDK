@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolPathType_TypeDefinitionIndex = 22528;
+	inline static constexpr unsigned int ConfigDataPoolPathType_TypeDefinitionIndex = 23500;
 
 	enum class ConfigDataPoolPathType : ::System::Int32
 	{

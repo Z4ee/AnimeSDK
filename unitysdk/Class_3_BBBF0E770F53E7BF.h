@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareSelectSkillEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BBBF0E770F53E7BF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x116628D0)
-#define CLASS_3_BBBF0E770F53E7BF__CTOR_OFFSET UNITYSDK_OFFSET(0x116628A0)
+#define CLASS_3_BBBF0E770F53E7BF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAD1D90)
+#define CLASS_3_BBBF0E770F53E7BF__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD1D60)
 
-inline static constexpr unsigned int Class_3_BBBF0E770F53E7BF_TypeDefinitionIndex = 43643;
+inline static constexpr unsigned int Class_3_BBBF0E770F53E7BF_TypeDefinitionIndex = 50340;
 
 class Class_3_BBBF0E770F53E7BF : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSelectSkillEffect*>
 {

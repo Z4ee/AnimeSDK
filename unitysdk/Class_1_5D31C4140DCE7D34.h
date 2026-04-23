@@ -7,16 +7,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_5D31C4140DCE7D34_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x16C719D0)
-#define CLASS_1_5D31C4140DCE7D34__CTOR_OFFSET UNITYSDK_OFFSET(0x16C71C10)
+#define CLASS_1_5D31C4140DCE7D34_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x18B818F0)
+#define CLASS_1_5D31C4140DCE7D34__CTOR_OFFSET UNITYSDK_OFFSET(0x18B81B30)
 
-inline static constexpr unsigned int Class_1_5D31C4140DCE7D34_TypeDefinitionIndex = 11913;
+inline static constexpr unsigned int Class_1_5D31C4140DCE7D34_TypeDefinitionIndex = 12344;
 
 class Class_1_5D31C4140DCE7D34 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FixPoint Field_1_3; // 0x10
-	::RPG::GameCore::FixPoint Field_1_2; // 0x18
+	::RPG::GameCore::FixPoint Field_1_2; // 0x10
+	::RPG::GameCore::FixPoint Field_1_3; // 0x18
 	::RPG::GameCore::SkillDamageRange Field_1_1; // 0x20
 	::RPG::GameCore::AttackDamageType Field_1_0; // 0x24
 

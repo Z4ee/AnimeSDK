@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropType_TypeDefinitionIndex = 10073;
+	inline static constexpr unsigned int PropType_TypeDefinitionIndex = 10265;
 
 	enum class PropType : ::System::Int32
 	{

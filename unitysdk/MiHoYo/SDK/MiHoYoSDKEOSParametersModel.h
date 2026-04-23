@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSPARAMETERSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8512410)
+#define MIHOYO_SDK_MIHOYOSDKEOSPARAMETERSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8D46610)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSParametersModel_TypeDefinitionIndex = 37115;
+	inline static constexpr unsigned int MiHoYoSDKEOSParametersModel_TypeDefinitionIndex = 42960;
 
 	class MiHoYoSDKEOSParametersModel : public ::System::Object
 	{

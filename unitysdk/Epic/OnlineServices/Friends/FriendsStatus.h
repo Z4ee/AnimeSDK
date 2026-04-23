@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Friends
 {
-	inline static constexpr unsigned int FriendsStatus_TypeDefinitionIndex = 36277;
+	inline static constexpr unsigned int FriendsStatus_TypeDefinitionIndex = 42103;
 
 	enum class FriendsStatus : ::System::Int32
 	{

@@ -7,22 +7,22 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_PIPE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1889F440)
-#define UNITYENGINE_PROBUILDER_SHAPES_PIPE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1889F500)
-#define UNITYENGINE_PROBUILDER_SHAPES_PIPE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1889F4C0)
-#define UNITYENGINE_PROBUILDER_SHAPES_PIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x188A0570)
+#define UNITYENGINE_PROBUILDER_SHAPES_PIPE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2D9220)
+#define UNITYENGINE_PROBUILDER_SHAPES_PIPE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2D92E0)
+#define UNITYENGINE_PROBUILDER_SHAPES_PIPE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A2D92A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_PIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2DA350)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Pipe_TypeDefinitionIndex = 34199;
+	inline static constexpr unsigned int Pipe_TypeDefinitionIndex = 40018;
 
 	class Pipe : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Boolean m_Smooth; // 0x10
+		::System::Int32 m_NumberOfSides; // 0x10
 		::System::Int32 m_HeightCuts; // 0x14
-		::System::Single m_Thickness; // 0x18
-		::System::Int32 m_NumberOfSides; // 0x1C
+		::System::Boolean m_Smooth; // 0x18
+		::System::Single m_Thickness; // 0x1C
 
 		::System::Void _ctor()
 		{

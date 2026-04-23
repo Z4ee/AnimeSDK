@@ -25,13 +25,13 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_3E4A3F8653C9EDC8_OFFSET UNITYSDK_OFFSET(0x17343220)
-#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_79E8BD454C31F2CD_OFFSET UNITYSDK_OFFSET(0x1734AB20)
-#define RPG_GAMECORE_LEVELPROPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17343150)
+#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_3E4A3F8653C9EDC8_OFFSET UNITYSDK_OFFSET(0x18A50BB0)
+#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_79E8BD454C31F2CD_OFFSET UNITYSDK_OFFSET(0x18A58660)
+#define RPG_GAMECORE_LEVELPROPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A50AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropInfo_TypeDefinitionIndex = 15855;
+	inline static constexpr unsigned int LevelPropInfo_TypeDefinitionIndex = 16381;
 
 	class LevelPropInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

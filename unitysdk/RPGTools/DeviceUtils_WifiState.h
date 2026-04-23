@@ -3,7 +3,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_WifiState_TypeDefinitionIndex = 35149;
+	inline static constexpr unsigned int DeviceUtils_WifiState_TypeDefinitionIndex = 40977;
 
 	enum class DeviceUtils_WifiState : ::System::Int32
 	{

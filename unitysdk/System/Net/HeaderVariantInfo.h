@@ -6,12 +6,12 @@
 namespace System { class String; }
 
 #define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x5580)
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0xD250)
-#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x852E0)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0xD240)
+#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x77400)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HeaderVariantInfo_TypeDefinitionIndex = 2791;
+	inline static constexpr unsigned int HeaderVariantInfo_TypeDefinitionIndex = 2792;
 
 	struct alignas(8) HeaderVariantInfo
 	{

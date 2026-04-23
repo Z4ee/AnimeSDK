@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ShaderPropertyOverrideMonoSerialization; }
 
-#define RPG_GAMECORE_STAGESCENEITEMSHAREDSERIALIZATIONDATA_METHOD_2_C51C8261D1B733A0_OFFSET UNITYSDK_OFFSET(0x1776D920)
-#define RPG_GAMECORE_STAGESCENEITEMSHAREDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1776D9F0)
+#define RPG_GAMECORE_STAGESCENEITEMSHAREDSERIALIZATIONDATA_METHOD_2_C51C8261D1B733A0_OFFSET UNITYSDK_OFFSET(0x18E934C0)
+#define RPG_GAMECORE_STAGESCENEITEMSHAREDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E93590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageSceneItemSharedSerializationData_TypeDefinitionIndex = 17623;
+	inline static constexpr unsigned int StageSceneItemSharedSerializationData_TypeDefinitionIndex = 18236;
 
 	class StageSceneItemSharedSerializationData : public ::RPG::GameCore::JsonConfig
 	{

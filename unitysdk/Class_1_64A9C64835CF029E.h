@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_64A9C64835CF029E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10A4DE40)
-#define CLASS_1_64A9C64835CF029E_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x10A4E010)
-#define CLASS_1_64A9C64835CF029E_METHOD_1_AA1B2EC42F1C39E5_OFFSET UNITYSDK_OFFSET(0x10A4DFB0)
-#define CLASS_1_64A9C64835CF029E_METHOD_1_B9B71AEDC43C03F6_OFFSET UNITYSDK_OFFSET(0x10A4DE00)
-#define CLASS_1_64A9C64835CF029E__CTOR_OFFSET UNITYSDK_OFFSET(0x10A4DA30)
+#define CLASS_1_64A9C64835CF029E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8F9DC10)
+#define CLASS_1_64A9C64835CF029E_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x8F9DDE0)
+#define CLASS_1_64A9C64835CF029E_METHOD_1_AA1B2EC42F1C39E5_OFFSET UNITYSDK_OFFSET(0x8F9DD80)
+#define CLASS_1_64A9C64835CF029E_METHOD_1_B9B71AEDC43C03F6_OFFSET UNITYSDK_OFFSET(0x8F9DBD0)
+#define CLASS_1_64A9C64835CF029E__CTOR_OFFSET UNITYSDK_OFFSET(0x8F9D810)
 
-inline static constexpr unsigned int Class_1_64A9C64835CF029E_TypeDefinitionIndex = 60847;
+inline static constexpr unsigned int Class_1_64A9C64835CF029E_TypeDefinitionIndex = 68296;
 
 class Class_1_64A9C64835CF029E : public ::System::Object
 {
 public:
 	::Struct_2_0B84ADD7815498A2 Field_1_2; // 0x10
-	::System::Func_1<::System::Boolean>* Field_1_3; // 0x20
-	::RPG::Client::ParkourGame::EffectConfig Field_1_1; // 0x28
-	::System::String* Field_1_0; // 0x50
+	::System::String* Field_1_0; // 0x20
+	::System::Func_1<::System::Boolean>* Field_1_3; // 0x28
+	::RPG::Client::ParkourGame::EffectConfig Field_1_1; // 0x30
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::System::String* a2, ::RPG::Client::ParkourGame::EffectConfig a3)
 	{

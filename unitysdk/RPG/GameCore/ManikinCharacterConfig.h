@@ -9,12 +9,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MANIKINCHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17378370)
-#define RPG_GAMECORE_MANIKINCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17378910)
+#define RPG_GAMECORE_MANIKINCHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A85FA0)
+#define RPG_GAMECORE_MANIKINCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A86520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinCharacterConfig_TypeDefinitionIndex = 16053;
+	inline static constexpr unsigned int ManikinCharacterConfig_TypeDefinitionIndex = 16582;
 
 	class ManikinCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{

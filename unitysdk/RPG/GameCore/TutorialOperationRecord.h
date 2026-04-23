@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RecordOperation; }
 
-#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_METHOD_2_27AC9CB695839E33_OFFSET UNITYSDK_OFFSET(0x178DDE40)
-#define RPG_GAMECORE_TUTORIALOPERATIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x178DDF40)
+#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_METHOD_2_27AC9CB695839E33_OFFSET UNITYSDK_OFFSET(0x190DC6B0)
+#define RPG_GAMECORE_TUTORIALOPERATIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x190DC7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialOperationRecord_TypeDefinitionIndex = 16702;
+	inline static constexpr unsigned int TutorialOperationRecord_TypeDefinitionIndex = 17296;
 
 	class TutorialOperationRecord : public ::RPG::GameCore::JsonConfig
 	{

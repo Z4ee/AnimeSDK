@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PingPong/ProjectileOwnerType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9421324F63207121__CTOR_OFFSET UNITYSDK_OFFSET(0x16780770)
+#define CLASS_1_9421324F63207121__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2D5B0)
 
-inline static constexpr unsigned int Class_1_9421324F63207121_TypeDefinitionIndex = 33062;
+inline static constexpr unsigned int Class_1_9421324F63207121_TypeDefinitionIndex = 38852;
 
 class Class_1_9421324F63207121 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyPuzzleControlBtnOperation_TypeDefinitionIndex = 63658;
+	inline static constexpr unsigned int AlchemyPuzzleControlBtnOperation_TypeDefinitionIndex = 71704;
 
 	enum class AlchemyPuzzleControlBtnOperation : ::System::Int32
 	{

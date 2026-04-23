@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int CombatPerformanceEventType_TypeDefinitionIndex = 28536;
+	inline static constexpr unsigned int CombatPerformanceEventType_TypeDefinitionIndex = 34221;
 
 	enum class CombatPerformanceEventType : ::System::Byte
 	{
@@ -24,14 +24,20 @@ namespace RPG::LittleGameShare::DiceCombatCore
 		TriggerCustomEffect = 0xE,
 		TriggerSkillCutin = 0xF,
 		TriggerSkillHint = 0x10,
-		TriggerSpecialHint = 0x11,
-		IceEffect = 0x12,
-		UpdateWeather = 0x13,
-		DiceUpgrade = 0x14,
-		StartCombat = 0x15,
-		AfterCombat = 0x16,
-		ChallengerRevival = 0x17,
-		BossChangePhase = 0x18,
-		Count = 0x19,
+		TriggerBossSpecialEffect = 0x11,
+		TriggerSpecialHint = 0x12,
+		IceEffect = 0x13,
+		UpdateWeather = 0x14,
+		DiceUpgrade = 0x15,
+		BeforeCombatEffect = 0x16,
+		CardCutin = 0x17,
+		ChangeChallengerTeamActionEntity = 0x18,
+		AfterCombatEffect = 0x19,
+		ChallengerRevival = 0x1A,
+		BossChangePhase = 0x1B,
+		GainTacticsPoint = 0x1C,
+		AlignAttack = 0x1D,
+		AlignDefend = 0x1E,
+		Count = 0x1F,
 	};
 }

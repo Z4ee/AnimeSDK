@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameCharacterVisionConfig.h"
 #include "unitysdk/RPG/Client/TimelineControlGameCharacterConfigAsset.h"
 
-#define RPG_CLIENT_TIMELINECONTROLGAMEMONSTERCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xA5DADD0)
+#define RPG_CLIENT_TIMELINECONTROLGAMEMONSTERCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xB319AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimelineControlGameMonsterConfigAsset_TypeDefinitionIndex = 48929;
+	inline static constexpr unsigned int TimelineControlGameMonsterConfigAsset_TypeDefinitionIndex = 55721;
 
 	class TimelineControlGameMonsterConfigAsset : public ::RPG::Client::TimelineControlGameCharacterConfigAsset
 	{

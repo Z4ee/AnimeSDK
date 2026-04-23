@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByTargetToTeamCenterDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_84A8FDDE263F726D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C53FF0)
-#define CLASS_3_84A8FDDE263F726D__CTOR_OFFSET UNITYSDK_OFFSET(0x8C53F10)
+#define CLASS_3_84A8FDDE263F726D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117CC080)
+#define CLASS_3_84A8FDDE263F726D__CTOR_OFFSET UNITYSDK_OFFSET(0x117CBFA0)
 
-inline static constexpr unsigned int Class_3_84A8FDDE263F726D_TypeDefinitionIndex = 44425;
+inline static constexpr unsigned int Class_3_84A8FDDE263F726D_TypeDefinitionIndex = 51143;
 
 class Class_3_84A8FDDE263F726D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByTargetToTeamCenterDistance*>
 {

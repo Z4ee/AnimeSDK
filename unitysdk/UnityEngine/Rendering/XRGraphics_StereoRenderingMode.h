@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int XRGraphics_StereoRenderingMode_TypeDefinitionIndex = 27800;
+	inline static constexpr unsigned int XRGraphics_StereoRenderingMode_TypeDefinitionIndex = 33424;
 
 	enum class XRGraphics_StereoRenderingMode : ::System::Int32
 	{

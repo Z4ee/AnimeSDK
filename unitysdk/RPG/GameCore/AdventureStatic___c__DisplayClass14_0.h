@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class LevelCurveInfo; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA869DC0)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0__FINDLEVELCURVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xA869DD0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5978D0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS14_0__FINDLEVELCURVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xB5AEA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass14_0_TypeDefinitionIndex = 47684;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass14_0_TypeDefinitionIndex = 54422;
 
 	class AdventureStatic___c__DisplayClass14_0 : public ::System::Object
 	{

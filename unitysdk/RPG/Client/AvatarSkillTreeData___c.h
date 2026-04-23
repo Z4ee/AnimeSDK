@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_AVATARSKILLTREEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x915CEB0)
-#define RPG_CLIENT_AVATARSKILLTREEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x915CEF0)
-#define RPG_CLIENT_AVATARSKILLTREEDATA___C__GETRECOMMENDPOINTS_B__16_0_OFFSET UNITYSDK_OFFSET(0x915CF00)
+#define RPG_CLIENT_AVATARSKILLTREEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DBE590)
+#define RPG_CLIENT_AVATARSKILLTREEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DBE5D0)
+#define RPG_CLIENT_AVATARSKILLTREEDATA___C__GETRECOMMENDPOINTS_B__16_0_OFFSET UNITYSDK_OFFSET(0x9DBE5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarSkillTreeData___c_TypeDefinitionIndex = 50776;
+	inline static constexpr unsigned int AvatarSkillTreeData___c_TypeDefinitionIndex = 57655;
 
 	class AvatarSkillTreeData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::AvatarSkillTreeData___c** StaticGet___9()
 		{
-			return (::RPG::Client::AvatarSkillTreeData___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeData___c_TypeDefinitionIndex)->GetStaticField(0x37410);
+			return (::RPG::Client::AvatarSkillTreeData___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeData___c_TypeDefinitionIndex)->GetStaticField(0x355A0);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeData___c_TypeDefinitionIndex)->GetStaticField(0x37418);
+			return (::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeData___c_TypeDefinitionIndex)->GetStaticField(0x355A8);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class AgeGatePayManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F548B0)
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS25_0__REQUESTPARENTCONSENT_G__CALLBACK_0_OFFSET UNITYSDK_OFFSET(0x15F56440)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1759E4F0)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS25_0__REQUESTPARENTCONSENT_G__CALLBACK_0_OFFSET UNITYSDK_OFFSET(0x175A0080)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass25_0_TypeDefinitionIndex = 7427;
+	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass25_0_TypeDefinitionIndex = 7503;
 
 	class AgeGatePayManager___c__DisplayClass25_0 : public ::System::Object
 	{

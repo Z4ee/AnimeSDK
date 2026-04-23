@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_BILLBOARDVISIBLEPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA892910)
-#define RPG_GAMECORE_BILLBOARDVISIBLEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA892900)
+#define RPG_GAMECORE_BILLBOARDVISIBLEPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB5D84A0)
+#define RPG_GAMECORE_BILLBOARDVISIBLEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D8490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BillboardVisibleParam_TypeDefinitionIndex = 46025;
+	inline static constexpr unsigned int BillboardVisibleParam_TypeDefinitionIndex = 52686;
 
 	class BillboardVisibleParam : public ::System::Object
 	{

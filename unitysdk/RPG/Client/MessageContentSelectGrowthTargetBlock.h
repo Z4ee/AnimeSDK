@@ -2,21 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
+#include "unitysdk/RPG/Client/PamChatQuickFunctionType.h"
 
-#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B92800)
-#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B927F0)
-#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B928A0)
+#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88D2F0)
+#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_GET_FUNCTIONTYPE_OFFSET UNITYSDK_OFFSET(0xA88D390)
+#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88D2D0)
+#define RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88D2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentSelectGrowthTargetBlock_TypeDefinitionIndex = 51337;
+	inline static constexpr unsigned int MessageContentSelectGrowthTargetBlock_TypeDefinitionIndex = 58265;
 
 	class MessageContentSelectGrowthTargetBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
-		::System::Void _ctor()
+		::RPG::Client::PamChatQuickFunctionType _FunctionType_k__BackingField; // 0x18
+
+		::System::Void _ctor(::RPG::Client::PamChatQuickFunctionType functionType)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PamChatQuickFunctionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK__CTOR_OFFSET))(this, functionType);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -27,6 +31,11 @@ namespace RPG::Client
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_EQUALS_OFFSET))(this, other);
+		}
+
+		::RPG::Client::PamChatQuickFunctionType get_FunctionType()
+		{
+			return ((::RPG::Client::PamChatQuickFunctionType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSELECTGROWTHTARGETBLOCK_GET_FUNCTIONTYPE_OFFSET))(this);
 		}
 	};
 }

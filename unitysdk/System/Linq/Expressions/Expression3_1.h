@@ -8,7 +8,7 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression3_1_TypeDefinitionIndex = 3220;
+	inline static constexpr unsigned int Expression3_1_TypeDefinitionIndex = 3222;
 
 	template <typename TDelegate>
 	class Expression3_1 : public ::System::Linq::Expressions::Expression_1<TDelegate>

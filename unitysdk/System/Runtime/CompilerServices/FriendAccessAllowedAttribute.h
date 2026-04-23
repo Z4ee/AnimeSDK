@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_FRIENDACCESSALLOWEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163922F0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_FRIENDACCESSALLOWEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179BEEA0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int FriendAccessAllowedAttribute_TypeDefinitionIndex = 1376;
+	inline static constexpr unsigned int FriendAccessAllowedAttribute_TypeDefinitionIndex = 1378;
 
 	class FriendAccessAllowedAttribute : public ::System::Attribute
 	{

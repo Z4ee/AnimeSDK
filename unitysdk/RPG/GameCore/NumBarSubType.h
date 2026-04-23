@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NumBarSubType_TypeDefinitionIndex = 20927;
+	inline static constexpr unsigned int NumBarSubType_TypeDefinitionIndex = 21638;
 
 	enum class NumBarSubType : ::System::Int32
 	{

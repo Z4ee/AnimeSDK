@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropBuildinBehavior_TypeDefinitionIndex = 16120;
+	inline static constexpr unsigned int PropBuildinBehavior_TypeDefinitionIndex = 16651;
 
 	enum class PropBuildinBehavior : ::System::Int32
 	{

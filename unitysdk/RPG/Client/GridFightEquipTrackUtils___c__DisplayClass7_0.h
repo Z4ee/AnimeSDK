@@ -2,20 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9811700)
+namespace RPG::Client { class GridFightEquipItemData; }
+
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA494150)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__ISROLEEQUIPPEDWITH_B__0_OFFSET UNITYSDK_OFFSET(0xA494F70)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__ISROLEEQUIPPEDWITH_B__1_OFFSET UNITYSDK_OFFSET(0xA494FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackUtils___c__DisplayClass7_0_TypeDefinitionIndex = 53075;
+	inline static constexpr unsigned int GridFightEquipTrackUtils___c__DisplayClass7_0_TypeDefinitionIndex = 60170;
 
 	class GridFightEquipTrackUtils___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Boolean includeVariant; // 0x10
+		::System::UInt32 equipItemID; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _IsRoleEquippedWith_b__0(::RPG::Client::GridFightEquipItemData* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__ISROLEEQUIPPEDWITH_B__0_OFFSET))(this, x);
+		}
+
+		::System::Boolean _IsRoleEquippedWith_b__1(::RPG::Client::GridFightEquipItemData* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS7_0__ISROLEEQUIPPEDWITH_B__1_OFFSET))(this, x);
 		}
 	};
 }

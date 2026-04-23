@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Mods { class ModIdentifier; }
 
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86A3460)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_GET_MOD_OFFSET UNITYSDK_OFFSET(0x86A3480)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86A3470)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_SET_MOD_OFFSET UNITYSDK_OFFSET(0x86A3490)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x86A34A0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8ED6CD0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_GET_MOD_OFFSET UNITYSDK_OFFSET(0x8ED6CF0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8ED6CE0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS_SET_MOD_OFFSET UNITYSDK_OFFSET(0x8ED6D00)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED6D10)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int UninstallModOptions_TypeDefinitionIndex = 35961;
+	inline static constexpr unsigned int UninstallModOptions_TypeDefinitionIndex = 41787;
 
 	class UninstallModOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::Mods::ModIdentifier* _Mod_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::Mods::ModIdentifier* _Mod_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{

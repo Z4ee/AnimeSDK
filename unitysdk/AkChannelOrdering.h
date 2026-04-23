@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkChannelOrdering_TypeDefinitionIndex = 34465;
+inline static constexpr unsigned int AkChannelOrdering_TypeDefinitionIndex = 40284;
 
 enum class AkChannelOrdering : ::System::Int32
 {

@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162BD940)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__GETSESSIONS_B__0_OFFSET UNITYSDK_OFFSET(0x162BFFF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178EA1D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__GETSESSIONS_B__0_OFFSET UNITYSDK_OFFSET(0x178EC880)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventProvider___c__DisplayClass44_0_TypeDefinitionIndex = 1676;
+	inline static constexpr unsigned int EventProvider___c__DisplayClass44_0_TypeDefinitionIndex = 1677;
 
 	class EventProvider___c__DisplayClass44_0 : public ::System::Object
 	{

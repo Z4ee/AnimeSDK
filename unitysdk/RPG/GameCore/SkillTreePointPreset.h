@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLTREEPOINTPRESET_METHOD_2_3411349B4067679D_OFFSET UNITYSDK_OFFSET(0x1770F630)
-#define RPG_GAMECORE_SKILLTREEPOINTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1770F780)
+#define RPG_GAMECORE_SKILLTREEPOINTPRESET_METHOD_2_3411349B4067679D_OFFSET UNITYSDK_OFFSET(0x18E73190)
+#define RPG_GAMECORE_SKILLTREEPOINTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x18E732E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillTreePointPreset_TypeDefinitionIndex = 16645;
+	inline static constexpr unsigned int SkillTreePointPreset_TypeDefinitionIndex = 17237;
 
 	class SkillTreePointPreset : public ::RPG::GameCore::JsonConfig
 	{

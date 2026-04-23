@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SceneGachaListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_7D410B11D876F24C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1142BBC0)
-#define CLASS_2_7D410B11D876F24C_METHOD_2_33E04F40C443C2C0_OFFSET UNITYSDK_OFFSET(0x1142C240)
-#define CLASS_2_7D410B11D876F24C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1142C0C0)
-#define CLASS_2_7D410B11D876F24C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1142BD90)
-#define CLASS_2_7D410B11D876F24C_TICK_OFFSET UNITYSDK_OFFSET(0x1142BF10)
-#define CLASS_2_7D410B11D876F24C__CTOR_OFFSET UNITYSDK_OFFSET(0x1142BAD0)
+#define CLASS_2_7D410B11D876F24C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x958F950)
+#define CLASS_2_7D410B11D876F24C_METHOD_2_33E04F40C443C2C0_OFFSET UNITYSDK_OFFSET(0x958FFD0)
+#define CLASS_2_7D410B11D876F24C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x958FE50)
+#define CLASS_2_7D410B11D876F24C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x958FB20)
+#define CLASS_2_7D410B11D876F24C_TICK_OFFSET UNITYSDK_OFFSET(0x958FCA0)
+#define CLASS_2_7D410B11D876F24C__CTOR_OFFSET UNITYSDK_OFFSET(0x958F860)
 
-inline static constexpr unsigned int Class_2_7D410B11D876F24C_TypeDefinitionIndex = 47200;
+inline static constexpr unsigned int Class_2_7D410B11D876F24C_TypeDefinitionIndex = 53932;
 
 class Class_2_7D410B11D876F24C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::SceneGachaListener* Field_2_0; // 0x20
-	::Class_3_5775A4FEC79026BC* Field_2_4; // 0x28
-	::Class_3_5775A4FEC79026BC* Field_2_3; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x38
+	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
+	::RPG::GameCore::SceneGachaListener* Field_2_0; // 0x30
+	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SceneGachaListener* a2)
 	{

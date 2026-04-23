@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ManualTriggerAnimEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9831C81FA30990C4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105292B0)
-#define CLASS_3_9831C81FA30990C4__CTOR_OFFSET UNITYSDK_OFFSET(0x10529280)
+#define CLASS_3_9831C81FA30990C4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12960F10)
+#define CLASS_3_9831C81FA30990C4__CTOR_OFFSET UNITYSDK_OFFSET(0x12960EE0)
 
-inline static constexpr unsigned int Class_3_9831C81FA30990C4_TypeDefinitionIndex = 44155;
+inline static constexpr unsigned int Class_3_9831C81FA30990C4_TypeDefinitionIndex = 50861;
 
 class Class_3_9831C81FA30990C4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ManualTriggerAnimEvent*>
 {

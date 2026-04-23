@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170836B0)
-#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17083860)
+#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187E87C0)
+#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187E8970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBuildingLevelRow_TypeDefinitionIndex = 10359;
+	inline static constexpr unsigned int ChenLingBuildingLevelRow_TypeDefinitionIndex = 10584;
 
 	class ChenLingBuildingLevelRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 EffectID; // 0x10
-		::System::UInt32 SkillID; // 0x14
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 BuildingID; // 0x1C
+		::System::UInt32 Level; // 0x14
+		::System::UInt32 BuildingID; // 0x18
+		::System::UInt32 SkillID; // 0x1C
 
 		::System::Void _ctor()
 		{

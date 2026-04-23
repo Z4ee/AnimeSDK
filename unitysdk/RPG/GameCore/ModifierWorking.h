@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierWorking_TypeDefinitionIndex = 16721;
+	inline static constexpr unsigned int ModifierWorking_TypeDefinitionIndex = 17315;
 
 	enum class ModifierWorking : ::System::Int32
 	{

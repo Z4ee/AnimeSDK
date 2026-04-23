@@ -2,9 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_98__CTOR_OFFSET UNITYSDK_OFFSET(0x8C68AE0)
+namespace System { template <typename T> class Comparison_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_98_TypeDefinitionIndex = 38652;
+#define CLASS_1_43BD383C98B4C0C5_98__CTOR_OFFSET UNITYSDK_OFFSET(0x960E260)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_98_TypeDefinitionIndex = 44367;
 
 class Class_1_43BD383C98B4C0C5_98 : public ::System::Object
 {

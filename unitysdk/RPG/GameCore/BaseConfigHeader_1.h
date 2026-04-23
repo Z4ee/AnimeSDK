@@ -10,7 +10,7 @@ template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseConfigHeader_1_TypeDefinitionIndex = 22578;
+	inline static constexpr unsigned int BaseConfigHeader_1_TypeDefinitionIndex = 23550;
 
 	template <typename TKey>
 	class BaseConfigHeader_1 : public ::System::Object

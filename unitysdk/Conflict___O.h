@@ -4,13 +4,13 @@
 
 class Class_3_ED629420A95E72D8;
 
-inline static constexpr unsigned int Conflict___O_TypeDefinitionIndex = 38069;
+inline static constexpr unsigned int Conflict___O_TypeDefinitionIndex = 43950;
 
 class Conflict___O : public ::System::Object
 {
 public:
 	static ::Class_3_ED629420A95E72D8** StaticGet__0___GetSubMissionStateInVerse()
 	{
-		return (::Class_3_ED629420A95E72D8**)Il2CppClass::FromTypeDefinitionIndex(Conflict___O_TypeDefinitionIndex)->GetStaticField(0x48AE0);
+		return (::Class_3_ED629420A95E72D8**)Il2CppClass::FromTypeDefinitionIndex(Conflict___O_TypeDefinitionIndex)->GetStaticField(0x62340);
 	}
 };

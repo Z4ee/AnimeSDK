@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class CacheLinked
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CacheLinkedList_1_Class_1_8BE47F377EDA9B57_TypeDefinitionIndex = 8607;
+	inline static constexpr unsigned int CacheLinkedList_1_Class_1_8BE47F377EDA9B57_TypeDefinitionIndex = 8819;
 
 	template <typename T>
 	class CacheLinkedList_1_Class_1_8BE47F377EDA9B57 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonGraphic_LayoutMode_TypeDefinitionIndex = 34764;
+	inline static constexpr unsigned int SkeletonGraphic_LayoutMode_TypeDefinitionIndex = 40583;
 
 	enum class SkeletonGraphic_LayoutMode : ::System::Int32
 	{

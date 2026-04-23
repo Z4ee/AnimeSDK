@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17786710)
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17786D90)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EAC560)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EACBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 13029;
+	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 13490;
 
 	class StuffStatsConfigRow : public ::System::Object
 	{

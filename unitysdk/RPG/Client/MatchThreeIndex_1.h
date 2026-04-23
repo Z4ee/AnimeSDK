@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeIndex_1_TypeDefinitionIndex = 53574;
+	inline static constexpr unsigned int MatchThreeIndex_1_TypeDefinitionIndex = 60718;
 
 	template <typename T>
 	class MatchThreeIndex_1 : public ::System::Object

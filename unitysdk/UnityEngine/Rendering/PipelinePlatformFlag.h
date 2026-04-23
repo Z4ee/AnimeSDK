@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PipelinePlatformFlag_TypeDefinitionIndex = 29142;
+	inline static constexpr unsigned int PipelinePlatformFlag_TypeDefinitionIndex = 34907;
 
 	enum class PipelinePlatformFlag : ::System::Int32
 	{
@@ -28,5 +28,6 @@ namespace UnityEngine::Rendering
 		Android_VK_BlitUseQuadExclusive = 262144,
 		Android_VK_BarrierOpt = 524288,
 		HasBuggyNewComputeSkinning = 1048576,
+		Android_VK_Tangent1BarrierPre = 2097152,
 	};
 }

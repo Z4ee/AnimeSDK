@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATEMATHHELPER_FIXPOINT2PERCENTAGEINT_OFFSET UNITYSDK_OFFSET(0x9693470)
+#define RPG_CLIENT_FATEMATHHELPER_FIXPOINT2PERCENTAGEINT_OFFSET UNITYSDK_OFFSET(0xA352EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateMathHelper_TypeDefinitionIndex = 51942;
+	inline static constexpr unsigned int FateMathHelper_TypeDefinitionIndex = 58891;
 
 	class FateMathHelper : public ::System::Object
 	{

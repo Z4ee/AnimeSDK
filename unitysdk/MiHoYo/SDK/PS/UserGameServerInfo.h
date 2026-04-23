@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PS_USERGAMESERVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8FD50)
+#define MIHOYO_SDK_PS_USERGAMESERVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x175F8EA0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int UserGameServerInfo_TypeDefinitionIndex = 7550;
+	inline static constexpr unsigned int UserGameServerInfo_TypeDefinitionIndex = 7691;
 
 	class UserGameServerInfo : public ::System::Object
 	{

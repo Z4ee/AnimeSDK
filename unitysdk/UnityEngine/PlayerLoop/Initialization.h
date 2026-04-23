@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Initialization_TypeDefinitionIndex = 4348;
+	inline static constexpr unsigned int Initialization_TypeDefinitionIndex = 4350;
 
 	struct alignas(1) Initialization
 	{

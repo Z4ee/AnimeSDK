@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ICommandEvent_TypeDefinitionIndex = 5882;
+	inline static constexpr unsigned int ICommandEvent_TypeDefinitionIndex = 5894;
 
 	class ICommandEvent
 	{

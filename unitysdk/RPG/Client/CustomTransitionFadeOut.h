@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-#define RPG_CLIENT_CUSTOMTRANSITIONFADEOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x9441F10)
+#define RPG_CLIENT_CUSTOMTRANSITIONFADEOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xA0EFC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomTransitionFadeOut_TypeDefinitionIndex = 59694;
+	inline static constexpr unsigned int CustomTransitionFadeOut_TypeDefinitionIndex = 67090;
 
 	class CustomTransitionFadeOut : public ::System::Object
 	{

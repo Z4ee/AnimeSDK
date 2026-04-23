@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTickerItemPool_1_TypeDefinitionIndex = 56366;
+	inline static constexpr unsigned int NewsTickerItemPool_1_TypeDefinitionIndex = 63609;
 
 	template <typename T>
 	class NewsTickerItemPool_1 : public ::System::Object

@@ -5,11 +5,11 @@
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_UI_OTHER_BUGREPORTPOPOVERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x184585C0)
+#define SRDEBUGGER_UI_OTHER_BUGREPORTPOPOVERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E933B0)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int BugReportPopoverRoot_TypeDefinitionIndex = 29642;
+	inline static constexpr unsigned int BugReportPopoverRoot_TypeDefinitionIndex = 35362;
 
 	class BugReportPopoverRoot : public ::SRF::SRMonoBehaviourEx
 	{

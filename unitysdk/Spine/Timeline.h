@@ -9,24 +9,24 @@ namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_TIMELINE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x183E3B10)
-#define SPINE_TIMELINE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x183E3AE0)
-#define SPINE_TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x183E3AD0)
-#define SPINE_TIMELINE_GET_FRAMES_OFFSET UNITYSDK_OFFSET(0x183E3AC0)
-#define SPINE_TIMELINE_GET_PROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x183E3AB0)
-#define SPINE_TIMELINE_SEARCH_1_OFFSET UNITYSDK_OFFSET(0x183E3BB0)
-#define SPINE_TIMELINE_SEARCH_OFFSET UNITYSDK_OFFSET(0x183E3B60)
-#define SPINE_TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x183E3A30)
+#define SPINE_TIMELINE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x19E1E700)
+#define SPINE_TIMELINE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x19E1E6D0)
+#define SPINE_TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x19E1E6C0)
+#define SPINE_TIMELINE_GET_FRAMES_OFFSET UNITYSDK_OFFSET(0x19E1E6B0)
+#define SPINE_TIMELINE_GET_PROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x19E1E6A0)
+#define SPINE_TIMELINE_SEARCH_1_OFFSET UNITYSDK_OFFSET(0x19E1E7A0)
+#define SPINE_TIMELINE_SEARCH_OFFSET UNITYSDK_OFFSET(0x19E1E750)
+#define SPINE_TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1E620)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Timeline_TypeDefinitionIndex = 30639;
+	inline static constexpr unsigned int Timeline_TypeDefinitionIndex = 36359;
 
 	class Timeline : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* propertyIds; // 0x10
-		::Il2CppArray<::System::Single>* frames; // 0x18
+		::Il2CppArray<::System::Single>* frames; // 0x10
+		::Il2CppArray<::System::String*>* propertyIds; // 0x18
 
 		::System::Void _ctor(::System::Int32 frameCount, ::Il2CppArray<::System::String*>* propertyIds)
 		{

@@ -5,11 +5,11 @@
 namespace RPG::Client { class BatchAnimationNPCRandomCombinationCollection_BatchAnimationNPCRandomCombinationConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATCHANIMATIONNPCRANDOMCOMBINATIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x917C310)
+#define RPG_CLIENT_BATCHANIMATIONNPCRANDOMCOMBINATIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE1310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationNPCRandomCombinationCollection_TypeDefinitionIndex = 48628;
+	inline static constexpr unsigned int BatchAnimationNPCRandomCombinationCollection_TypeDefinitionIndex = 55377;
 
 	class BatchAnimationNPCRandomCombinationCollection : public ::UnityEngine::ScriptableObject
 	{

@@ -8,23 +8,23 @@ namespace Spine { class SkeletonData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x18394590)
-#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x183951E0)
-#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x183951D0)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x18395490)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x183952F0)
-#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x183951F0)
-#define SPINE_ANIMATIONSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18395200)
+#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x19DCEF30)
+#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x19DCFC40)
+#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x19DCFC30)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x19DCFEF0)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x19DCFD50)
+#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x19DCFC50)
+#define SPINE_ANIMATIONSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19DCFC60)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 30680;
+	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 36400;
 
 	class AnimationStateData : public ::System::Object
 	{
 	public:
-		::Spine::SkeletonData* skeletonData; // 0x10
-		::System::Collections::Generic::Dictionary_2<::Spine::AnimationStateData_AnimationPair, ::System::Single>* animationToMixTime; // 0x18
+		::System::Collections::Generic::Dictionary_2<::Spine::AnimationStateData_AnimationPair, ::System::Single>* animationToMixTime; // 0x10
+		::Spine::SkeletonData* skeletonData; // 0x18
 		::System::Single defaultMix; // 0x20
 
 		::System::Void _ctor(::Spine::SkeletonData* skeletonData)

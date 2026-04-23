@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYQUIZTASKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17444820)
-#define RPG_GAMECORE_MONOPOLYQUIZTASKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17444E90)
+#define RPG_GAMECORE_MONOPOLYQUIZTASKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B51480)
+#define RPG_GAMECORE_MONOPOLYQUIZTASKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B51AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizTaskConfigRow_TypeDefinitionIndex = 11043;
+	inline static constexpr unsigned int MonopolyQuizTaskConfigRow_TypeDefinitionIndex = 11446;
 
 	class MonopolyQuizTaskConfigRow : public ::System::Object
 	{

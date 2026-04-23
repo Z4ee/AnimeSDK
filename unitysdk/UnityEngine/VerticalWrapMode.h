@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VerticalWrapMode_TypeDefinitionIndex = 4940;
+	inline static constexpr unsigned int VerticalWrapMode_TypeDefinitionIndex = 4948;
 
 	enum class VerticalWrapMode : ::System::Int32
 	{

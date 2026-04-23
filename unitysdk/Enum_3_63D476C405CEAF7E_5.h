@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_63D476C405CEAF7E_5_TypeDefinitionIndex = 26054;
+inline static constexpr unsigned int Enum_3_63D476C405CEAF7E_5_TypeDefinitionIndex = 33072;
 
 enum class Enum_3_63D476C405CEAF7E_5 : ::System::Int32
 {
 	Value_0 = 0,
-	Value_4523 = 4523,
-	Value_4583 = 4583,
-	Value_4546 = 4546,
-	Value_4600 = 4600,
-	Value_4504 = 4504,
-	Value_4540 = 4540,
-	Value_4513 = 4513,
-	Value_4562 = 4562,
-	Value_4556 = 4556,
-	Value_4557 = 4557,
-	Value_4569 = 4569,
-	Value_4519 = 4519,
-	Value_4524 = 4524,
-	Value_4535 = 4535,
-	Value_4581 = 4581,
-	Value_4584 = 4584,
+	Value_4472 = 4472,
+	Value_4438 = 4438,
+	Value_4444 = 4444,
+	Value_4432 = 4432,
+	Value_4500 = 4500,
+	Value_4458 = 4458,
+	Value_4401 = 4401,
+	Value_4461 = 4461,
+	Value_4474 = 4474,
+	Value_4433 = 4433,
+	Value_4410 = 4410,
+	Value_4437 = 4437,
+	Value_4491 = 4491,
+	Value_4407 = 4407,
+	Value_4404 = 4404,
+	Value_4439 = 4439,
 };

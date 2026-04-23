@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCustomLoadConditionType_TypeDefinitionIndex = 17074;
+	inline static constexpr unsigned int FiveDimCustomLoadConditionType_TypeDefinitionIndex = 17673;
 
 	enum class FiveDimCustomLoadConditionType : ::System::Int32
 	{

@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericEnumFormatter_1_EnumDeserialize_TypeDefinitionIndex = 9287;
+	inline static constexpr unsigned int GenericEnumFormatter_1_EnumDeserialize_TypeDefinitionIndex = 9484;
 
 	template <typename T>
 	class GenericEnumFormatter_1_EnumDeserialize : public ::System::MulticastDelegate

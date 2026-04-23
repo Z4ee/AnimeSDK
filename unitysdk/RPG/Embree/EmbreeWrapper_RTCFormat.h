@@ -3,7 +3,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapper_RTCFormat_TypeDefinitionIndex = 37954;
+	inline static constexpr unsigned int EmbreeWrapper_RTCFormat_TypeDefinitionIndex = 43831;
 
 	enum class EmbreeWrapper_RTCFormat : ::System::Int32
 	{

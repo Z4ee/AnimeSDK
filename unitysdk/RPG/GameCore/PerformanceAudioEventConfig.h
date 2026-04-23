@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG_METHOD_2_443B9CEB74630587_OFFSET UNITYSDK_OFFSET(0x17491D70)
-#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17492050)
+#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG_METHOD_2_443B9CEB74630587_OFFSET UNITYSDK_OFFSET(0x18BDC300)
+#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDC5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceAudioEventConfig_TypeDefinitionIndex = 15002;
+	inline static constexpr unsigned int PerformanceAudioEventConfig_TypeDefinitionIndex = 15509;
 
 	class PerformanceAudioEventConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileOptions_Types_TypeDefinitionIndex = 28072;
+	inline static constexpr unsigned int FileOptions_Types_TypeDefinitionIndex = 33696;
 
 	class FileOptions_Types : public ::System::Object
 	{

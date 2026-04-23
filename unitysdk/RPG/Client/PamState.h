@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamState_TypeDefinitionIndex = 54021;
+	inline static constexpr unsigned int PamState_TypeDefinitionIndex = 61184;
 
 	enum class PamState : ::System::Int32
 	{

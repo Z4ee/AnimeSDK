@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HealDataPropertyType_TypeDefinitionIndex = 21832;
+	inline static constexpr unsigned int HealDataPropertyType_TypeDefinitionIndex = 22570;
 
 	enum class HealDataPropertyType : ::System::Int32
 	{

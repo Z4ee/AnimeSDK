@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C3659FDCEE0BE62D__CTOR_OFFSET UNITYSDK_OFFSET(0x167E53A0)
+#define CLASS_1_C3659FDCEE0BE62D__CTOR_OFFSET UNITYSDK_OFFSET(0x17F70A00)
 
-inline static constexpr unsigned int Class_1_C3659FDCEE0BE62D_TypeDefinitionIndex = 32694;
+inline static constexpr unsigned int Class_1_C3659FDCEE0BE62D_TypeDefinitionIndex = 38484;
 
 class Class_1_C3659FDCEE0BE62D : public ::System::Object
 {

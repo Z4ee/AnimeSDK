@@ -3,22 +3,25 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatModifierEvent_TypeDefinitionIndex = 28534;
+	inline static constexpr unsigned int DiceCombatModifierEvent_TypeDefinitionIndex = 34219;
 
 	enum class DiceCombatModifierEvent : ::System::Int32
 	{
 		OnTurnPrepare = 0,
-		OnAttackerConfirmDice = 1,
-		OnDefenderConfirmDice = 2,
-		OnTurnEnd = 3,
-		OnAfterRoll = 4,
-		OnAttackSuccess = 5,
-		OnAttackFailed = 6,
-		OnDefendSuccess = 7,
-		OnDefendFailed = 8,
-		OnBeforeCombat = 9,
-		OnAfterCombat = 10,
-		OnDamage = 11,
-		OnTakeDamage = 12,
+		OnPreAttackerConfirmDice = 1,
+		OnAttackerConfirmDice = 2,
+		OnDefenderRollDice = 3,
+		OnPreDefenderConfirmDice = 4,
+		OnDefenderConfirmDice = 5,
+		OnTurnEnd = 6,
+		OnAfterRoll = 7,
+		OnAttackSuccess = 8,
+		OnAttackFailed = 9,
+		OnDefendSuccess = 10,
+		OnDefendFailed = 11,
+		OnBeforeCombat = 12,
+		OnAfterCombat = 13,
+		OnDamage = 14,
+		OnTakeDamage = 15,
 	};
 }

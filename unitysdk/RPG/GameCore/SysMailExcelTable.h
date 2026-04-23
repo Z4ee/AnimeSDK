@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x177A4990)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x177A47E0)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x177A44B0)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x177A4780)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x177A4B10)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x177A4530)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x177A4B50)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x177A4D30)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x177A5080)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x177A5390)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x177A4C90)
-#define RPG_GAMECORE_SYSMAILEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x177A4BF0)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18ECAF50)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18ECADA0)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18ECAA70)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18ECAD40)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18ECB0D0)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18ECAAF0)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18ECB110)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ECB2F0)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18ECB640)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18ECB950)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18ECB250)
+#define RPG_GAMECORE_SYSMAILEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18ECB1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SysMailExcelTable_TypeDefinitionIndex = 13931;
+	inline static constexpr unsigned int SysMailExcelTable_TypeDefinitionIndex = 14406;
 
 	class SysMailExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x130B0);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x130B8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x56770);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SysMailRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SysMailRow*>**)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x130C0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SysMailRow*>**)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x56778);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A00);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x56780);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A01);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x100D0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SysMailExcelTable_TypeDefinitionIndex)->GetStaticField(0x100D1);
 		}
 
 		static ::System::Void _cctor()

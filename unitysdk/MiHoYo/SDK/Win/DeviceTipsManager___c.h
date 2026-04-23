@@ -8,29 +8,29 @@ namespace MiHoYo::SDK::Win { class NewDeviceInfoModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1609A6E0)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1609A720)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__ONGETDEVICELIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1609A7E0)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__REQUESTACKNEWERDEVICES_B__19_0_OFFSET UNITYSDK_OFFSET(0x1609A730)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x176FE450)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x176FE490)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__ONGETDEVICELIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x176FE550)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__REQUESTACKNEWERDEVICES_B__19_0_OFFSET UNITYSDK_OFFSET(0x176FE4A0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceTipsManager___c_TypeDefinitionIndex = 7943;
+	inline static constexpr unsigned int DeviceTipsManager___c_TypeDefinitionIndex = 8089;
 
 	class DeviceTipsManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::DeviceTipsManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Win::DeviceTipsManager___c**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x13CC0);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x13CC8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x29ED0);
+		}
+		static ::MiHoYo::SDK::Win::DeviceTipsManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Win::DeviceTipsManager___c**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x29ED8);
 		}
 		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x13CD0);
+			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x29EE0);
 		}
 
 		static ::System::Void _cctor()

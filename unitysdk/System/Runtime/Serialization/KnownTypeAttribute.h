@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_KNOWNTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18553D30)
+#define SYSTEM_RUNTIME_SERIALIZATION_KNOWNTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F8EB10)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int KnownTypeAttribute_TypeDefinitionIndex = 3724;
+	inline static constexpr unsigned int KnownTypeAttribute_TypeDefinitionIndex = 3726;
 
 	class KnownTypeAttribute : public ::System::Attribute
 	{

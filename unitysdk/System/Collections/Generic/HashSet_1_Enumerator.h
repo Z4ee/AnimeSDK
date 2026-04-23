@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int HashSet_1_Enumerator_TypeDefinitionIndex = 3683;
+	inline static constexpr unsigned int HashSet_1_Enumerator_TypeDefinitionIndex = 3685;
 
 	template <typename T>
 	struct HashSet_1_Enumerator

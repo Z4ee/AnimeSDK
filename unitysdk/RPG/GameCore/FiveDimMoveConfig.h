@@ -5,17 +5,18 @@
 #include "unitysdk/RPG/MVector2.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FiveDimDashBasicConfig; }
 namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x171FC6F0)
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171FC640)
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171FC6B0)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1890D260)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1890D160)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1890D1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMoveConfig_TypeDefinitionIndex = 15266;
+	inline static constexpr unsigned int FiveDimMoveConfig_TypeDefinitionIndex = 15779;
 
 	class FiveDimMoveConfig : public ::RPG::GameCore::LittleGameEntityMoveConfig
 	{
@@ -41,95 +42,104 @@ namespace RPG::GameCore
 		::System::Single AccDuration; // 0x68
 		::System::Single BrakeDuration; // 0x6C
 		::System::Single MaxBrakeMultiplier; // 0x70
-		::System::Single BrakeEffectMaxBrakeDuration; // 0x74
-		::System::Single BrakeEffectMinMoveDuration; // 0x78
-		::System::Single AirAccDuration; // 0x7C
-		::System::Single AirBrakeDuration; // 0x80
-		::System::Single JumpHeight; // 0x84
-		::System::Single JumpDuration; // 0x88
-		::System::Single JumpCoolDown; // 0x8C
-		::System::Single FallGravityMultiplier; // 0x90
-		::System::Single MaxFallSpeed; // 0x94
-		::System::Single CoyoteLastJumpTime; // 0x98
-		::System::Single CoyoteLastGroundedTime; // 0x9C
-		::System::Single RoofPushExtraThreshold; // 0xA0
-		::System::Single MusicFallBaseSpeed; // 0xA4
-		::System::Single MusicFallMaxAdditionSpeed; // 0xA8
-		::System::Single MusicFallDecayAccDuration; // 0xAC
-		::System::Single MusicFallAirAccDuration; // 0xB0
-		::System::Single MusicFallBrakeAccDuration; // 0xB4
-		::System::Single MusicJumpToleranceDuration; // 0xB8
-		::System::Single MusicJumpHeight; // 0xBC
-		::System::Single MusicAirJumpHeight; // 0xC0
-		::System::Single DoubleJumpHeight; // 0xC4
-		::System::Single DoubleJumpCutExemptHeight; // 0xC8
-		::System::Single DoubleJumpCutDuration; // 0xCC
-		::System::Single JumpCutExemptHeight; // 0xD0
-		::System::Single JumpCutDuration; // 0xD4
-		::System::Single PeakThreshold; // 0xD8
-		::System::Single PeakExtraDuration; // 0xDC
-		::System::Single PeakAccMultiplier; // 0xE0
-		::System::Single PeakMaxSpeedMultiplier; // 0xE4
-		::RPG::GameCore::FiveDimJumpType JumpPeakEnableType; // 0xE8
-		::System::Single DashDistance; // 0xEC
-		::System::Single DashDuration; // 0xF0
-		::System::Single HeavyLandingSpeedThreshold; // 0xF4
-		::System::Single HeavyLandingDuration; // 0xF8
-		::System::Single MediumLandingDuration; // 0xFC
-		::System::Single TurnDampingTime; // 0x100
-		::System::Single WallJumpTurnSpeed; // 0x104
-		::System::Single ZAxisDampingTime; // 0x108
-		::System::Single QueryWallOffset; // 0x10C
-		::System::Single QueryWallMinHeight; // 0x110
-		::System::Single QueryUnstableWallInterval; // 0x114
-		::System::Single WallSlideSpeedMultiplier; // 0x118
-		::System::Single WallSlideAccDuration; // 0x11C
-		::System::Single WallJumpHeight; // 0x120
-		::System::Single WallJumpUpwardHeight; // 0x124
-		::System::Single WallJumpSpeedMultiplier; // 0x128
-		::RPG::GameCore::FloatCurve* WallJumpSpeedLerpCurve; // 0x130
-		::System::Single WallJumpSpeedLerpDuration; // 0x138
-		::System::Single WallJumpCutExemptHeight; // 0x13C
-		::System::Single WallJumpCutDuration; // 0x140
-		::System::Single WallJumpUpwardCutExemptHeight; // 0x144
-		::System::Single WallJumpUpwardCutDuration; // 0x148
-		::System::Single LedgeHeight; // 0x14C
-		::System::Single LedgeFlipHeight; // 0x150
-		::System::Single LedgeFlipDuration; // 0x154
-		::System::Single ConveyorHorizontalSpeed; // 0x158
-		::System::Single ConveyorVerticalSpeed; // 0x15C
-		::System::Single ConveyorFlipHeight; // 0x160
-		::System::Single ConveyorFlipDuration; // 0x164
-		::System::Single ClimbSpeed; // 0x168
-		::System::Single LadderFlipHeight; // 0x16C
-		::System::Single LadderFlipDuration; // 0x170
-		::System::Single LadderJumpHeight; // 0x174
-		::System::Single LadderJumpCutExemptHeight; // 0x178
-		::System::Single LadderJumpCutDuration; // 0x17C
-		::System::Single TrampolineJumpHeight; // 0x180
-		::System::Single TrampolineMusicJumpHeight; // 0x184
-		::System::Single GameLoadingFadeInDuration; // 0x188
-		::System::Single PipePortalInWaitDuration; // 0x18C
-		::System::Single PipePortalOutWaitDuration; // 0x190
-		::System::Single PipePortalSpeedMultiplier; // 0x194
-		::System::Single PortalInWaitDuration; // 0x198
-		::System::Single PortalOutWaitDuration; // 0x19C
-		::System::Single TeleportShowAvatarDelay; // 0x1A0
-		::System::Single BeatBackHeight; // 0x1A4
-		::System::Single BeatBackSpeedMultiplier; // 0x1A8
-		::RPG::GameCore::FloatCurve* BeatBackSpeedLerpCurve; // 0x1B0
-		::System::Single BeatBackSpeedLerpDuration; // 0x1B8
-		::System::Boolean BeatBackClearJumpEnergy; // 0x1BC
-		::System::Single BeatBackInvulnerableDuration; // 0x1C0
-		::System::Single MascotBeatBackMultiplier; // 0x1C4
-		::System::Single StuckInFallStateDuration; // 0x1C8
-		::System::Single StuckInCollisionDuration; // 0x1CC
-		::System::Single ResetWaitDuration; // 0x1D0
-		::System::Single ResetShowAvatarDelay; // 0x1D4
-		::System::Single ResetInvulnerableDuration; // 0x1D8
-		::System::Single ResetMuteControlDuration; // 0x1DC
-		::Il2CppArray<::System::Single>* BakeUnitLengthList; // 0x1E0
-		::Il2CppArray<::RPG::GameCore::FiveDimMoveBakedConfig*>* BakedConfigs; // 0x1E8
+		::System::Single InvincibleMaxSpeedMultiplier; // 0x74
+		::System::Single BrakeEffectMaxBrakeDuration; // 0x78
+		::System::Single BrakeEffectMinMoveDuration; // 0x7C
+		::System::Single AirAccDuration; // 0x80
+		::System::Single AirBrakeDuration; // 0x84
+		::System::Single JumpHeight; // 0x88
+		::System::Single JumpDuration; // 0x8C
+		::System::Single JumpCoolDown; // 0x90
+		::System::Single FallGravityMultiplier; // 0x94
+		::System::Single MaxFallSpeed; // 0x98
+		::System::Single MaxFallSpeedGravityLine; // 0x9C
+		::System::Single MinFallSpeedGravityLine; // 0xA0
+		::System::Single CoyoteLastJumpTime; // 0xA4
+		::System::Single CoyoteLastGroundedTime; // 0xA8
+		::System::Single RoofPushExtraThreshold; // 0xAC
+		::System::Single MusicFallBaseSpeed; // 0xB0
+		::System::Single MusicFallMaxAdditionSpeed; // 0xB4
+		::System::Single MusicFallDecayAccDuration; // 0xB8
+		::System::Single MusicFallAirAccDuration; // 0xBC
+		::System::Single MusicFallBrakeAccDuration; // 0xC0
+		::System::Single MusicJumpToleranceDuration; // 0xC4
+		::System::Single MusicJumpHeight; // 0xC8
+		::System::Single MusicAirJumpHeight; // 0xCC
+		::System::Single DoubleJumpHeight; // 0xD0
+		::System::Single DoubleJumpCutExemptHeight; // 0xD4
+		::System::Single DoubleJumpCutDuration; // 0xD8
+		::System::Single JumpCutExemptHeight; // 0xDC
+		::System::Single JumpCutDuration; // 0xE0
+		::System::Single PeakThreshold; // 0xE4
+		::System::Single PeakExtraDuration; // 0xE8
+		::System::Single PeakAccMultiplier; // 0xEC
+		::System::Single PeakMaxSpeedMultiplier; // 0xF0
+		::RPG::GameCore::FiveDimJumpType JumpPeakEnableType; // 0xF4
+		::System::Single SummonJumpHeight; // 0xF8
+		::RPG::GameCore::FiveDimDashBasicConfig* DashBasicConfig; // 0x100
+		::RPG::GameCore::FloatCurve* DashSpeedLerpCurve; // 0x108
+		::System::Single DashSpeedLerpDuration; // 0x110
+		::System::Single HeavyLandingSpeedThreshold; // 0x114
+		::System::Single HeavyLandingDuration; // 0x118
+		::System::Single MediumLandingDuration; // 0x11C
+		::System::Single TurnDampingTime; // 0x120
+		::System::Single WallJumpTurnSpeed; // 0x124
+		::System::Single ZAxisDampingTime; // 0x128
+		::System::Single QueryWallOffset; // 0x12C
+		::System::Single QueryWallMinHeight; // 0x130
+		::System::Single QueryUnstableWallInterval; // 0x134
+		::System::Single WallSlideSpeedMultiplier; // 0x138
+		::System::Single WallSlideAccDuration; // 0x13C
+		::System::Single WallJumpHeight; // 0x140
+		::System::Single WallJumpUpwardHeight; // 0x144
+		::System::Single WallJumpSpeedMultiplier; // 0x148
+		::RPG::GameCore::FloatCurve* WallJumpSpeedLerpCurve; // 0x150
+		::System::Single WallJumpSpeedLerpDuration; // 0x158
+		::System::Single WallJumpCutExemptHeight; // 0x15C
+		::System::Single WallJumpCutDuration; // 0x160
+		::System::Single WallJumpUpwardCutExemptHeight; // 0x164
+		::System::Single WallJumpUpwardCutDuration; // 0x168
+		::System::Single LedgeHeight; // 0x16C
+		::System::Single LedgeFlipHeight; // 0x170
+		::System::Single LedgeFlipDuration; // 0x174
+		::System::Single ConveyorHorizontalSpeed; // 0x178
+		::System::Single ConveyorVerticalSpeed; // 0x17C
+		::System::Single ConveyorFlipHeight; // 0x180
+		::System::Single ConveyorFlipDuration; // 0x184
+		::System::Single ClimbSpeed; // 0x188
+		::System::Single LadderFlipHeight; // 0x18C
+		::System::Single LadderFlipDuration; // 0x190
+		::System::Single LadderJumpHeight; // 0x194
+		::System::Single LadderJumpCutExemptHeight; // 0x198
+		::System::Single LadderJumpCutDuration; // 0x19C
+		::System::Single TrampolineJumpHeight; // 0x1A0
+		::System::Single TrampolineMusicJumpHeight; // 0x1A4
+		::System::Single GameLoadingFadeInDuration; // 0x1A8
+		::System::Single PipePortalInWaitDuration; // 0x1AC
+		::System::Single PipePortalOutWaitDuration; // 0x1B0
+		::System::Single PipePortalSpeedMultiplier; // 0x1B4
+		::System::Single PortalInWaitDuration; // 0x1B8
+		::System::Single PortalOutWaitDuration; // 0x1BC
+		::System::Single TeleportShowAvatarDelay; // 0x1C0
+		::System::Single BeatBackHeight; // 0x1C4
+		::System::Single BeatBackSpeedMultiplier; // 0x1C8
+		::RPG::GameCore::FloatCurve* BeatBackSpeedLerpCurve; // 0x1D0
+		::System::Single BeatBackSpeedLerpDuration; // 0x1D8
+		::System::Boolean BeatBackClearJumpEnergy; // 0x1DC
+		::System::Single BeatBackInvulnerableDuration; // 0x1E0
+		::System::Single MusicFallBeatBackDuration; // 0x1E4
+		::System::Single MascotBeatBackMultiplier; // 0x1E8
+		::System::Single StuckInFallStateDuration; // 0x1EC
+		::System::Single StuckInCollisionDuration; // 0x1F0
+		::System::Single ResetWaitDuration; // 0x1F4
+		::System::Single ResetShowAvatarDelay; // 0x1F8
+		::System::Single ResetInvulnerableDuration; // 0x1FC
+		::System::Single ResetMuteControlDuration; // 0x200
+		::System::Int32 ResetPointNumber; // 0x204
+		::System::Single ResetPointUpdateInterval; // 0x208
+		::System::Single ResetPointTolerance; // 0x20C
+		::Il2CppArray<::System::Single>* BakeUnitLengthList; // 0x210
+		::Il2CppArray<::RPG::GameCore::FiveDimMoveBakedConfig*>* BakedConfigs; // 0x218
 
 		::System::Void _ctor()
 		{

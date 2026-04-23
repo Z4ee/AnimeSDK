@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x186FBA40)
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x186FB9E0)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x1A136020)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A135FC0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacOsNetworkInterface_TypeDefinitionIndex = 2949;
+	inline static constexpr unsigned int MacOsNetworkInterface_TypeDefinitionIndex = 2950;
 
 	class MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface
 	{

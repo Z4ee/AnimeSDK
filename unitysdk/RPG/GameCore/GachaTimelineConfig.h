@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TrackNameList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GACHATIMELINECONFIG_METHOD_2_22BB9FD81BDE8B98_OFFSET UNITYSDK_OFFSET(0x17226D40)
-#define RPG_GAMECORE_GACHATIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172297E0)
+#define RPG_GAMECORE_GACHATIMELINECONFIG_METHOD_2_22BB9FD81BDE8B98_OFFSET UNITYSDK_OFFSET(0x189394D0)
+#define RPG_GAMECORE_GACHATIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1893BF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaTimelineConfig_TypeDefinitionIndex = 15662;
+	inline static constexpr unsigned int GachaTimelineConfig_TypeDefinitionIndex = 16184;
 
 	class GachaTimelineConfig : public ::RPG::GameCore::JsonConfig
 	{

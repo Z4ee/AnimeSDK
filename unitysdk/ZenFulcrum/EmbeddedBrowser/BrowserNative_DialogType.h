@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_DialogType_TypeDefinitionIndex = 30432;
+	inline static constexpr unsigned int BrowserNative_DialogType_TypeDefinitionIndex = 36152;
 
 	enum class BrowserNative_DialogType : ::System::Int32
 	{

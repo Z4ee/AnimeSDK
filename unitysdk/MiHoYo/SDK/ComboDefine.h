@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMBODEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF77A0)
+#define MIHOYO_SDK_COMBODEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x173F5370)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboDefine_TypeDefinitionIndex = 6588;
+	inline static constexpr unsigned int ComboDefine_TypeDefinitionIndex = 6622;
 
 	class ComboDefine : public ::System::Object
 	{

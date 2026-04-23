@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int FastActionBase_1___c_TypeDefinitionIndex = 34863;
+	inline static constexpr unsigned int FastActionBase_1___c_TypeDefinitionIndex = 40682;
 
 	template <typename T>
 	class FastActionBase_1___c : public ::System::Object

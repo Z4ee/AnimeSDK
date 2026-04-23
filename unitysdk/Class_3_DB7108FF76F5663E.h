@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCustomStringList; }
 
-#define CLASS_3_DB7108FF76F5663E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x88911D0)
-#define CLASS_3_DB7108FF76F5663E__CTOR_OFFSET UNITYSDK_OFFSET(0x88911A0)
+#define CLASS_3_DB7108FF76F5663E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9A37650)
+#define CLASS_3_DB7108FF76F5663E__CTOR_OFFSET UNITYSDK_OFFSET(0x9A37620)
 
-inline static constexpr unsigned int Class_3_DB7108FF76F5663E_TypeDefinitionIndex = 47452;
+inline static constexpr unsigned int Class_3_DB7108FF76F5663E_TypeDefinitionIndex = 54187;
 
 class Class_3_DB7108FF76F5663E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerCustomStringList*>
 {

@@ -7,13 +7,13 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { class Object; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x15B1D740)
-#define GOOGLE_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x15B1D790)
-#define GOOGLE_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1D6C0)
+#define GOOGLE_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1711AF80)
+#define GOOGLE_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1711AFD0)
+#define GOOGLE_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1711AF00)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int RepeatedFieldAccessor_TypeDefinitionIndex = 6358;
+	inline static constexpr unsigned int RepeatedFieldAccessor_TypeDefinitionIndex = 6368;
 
 	class RepeatedFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{

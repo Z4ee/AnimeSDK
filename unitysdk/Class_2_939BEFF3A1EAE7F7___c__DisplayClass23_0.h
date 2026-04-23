@@ -7,10 +7,10 @@ class Class_2_939BEFF3A1EAE7F7;
 class Class_2_FE060A211AF9E9E7;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_939BEFF3A1EAE7F7___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA42EDB0)
-#define CLASS_2_939BEFF3A1EAE7F7___C__DISPLAYCLASS23_0___REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xA42F090)
+#define CLASS_2_939BEFF3A1EAE7F7___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x111BB830)
+#define CLASS_2_939BEFF3A1EAE7F7___C__DISPLAYCLASS23_0___REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x111BBB10)
 
-inline static constexpr unsigned int Class_2_939BEFF3A1EAE7F7___c__DisplayClass23_0_TypeDefinitionIndex = 59239;
+inline static constexpr unsigned int Class_2_939BEFF3A1EAE7F7___c__DisplayClass23_0_TypeDefinitionIndex = 66632;
 
 class Class_2_939BEFF3A1EAE7F7___c__DisplayClass23_0 : public ::System::Object
 {

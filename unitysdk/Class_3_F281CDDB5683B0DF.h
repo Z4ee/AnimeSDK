@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PlayerApplyInMapTeleport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F281CDDB5683B0DF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1103CD20)
-#define CLASS_3_F281CDDB5683B0DF__CTOR_OFFSET UNITYSDK_OFFSET(0x1103CCF0)
+#define CLASS_3_F281CDDB5683B0DF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12127DF0)
+#define CLASS_3_F281CDDB5683B0DF__CTOR_OFFSET UNITYSDK_OFFSET(0x12127DC0)
 
-inline static constexpr unsigned int Class_3_F281CDDB5683B0DF_TypeDefinitionIndex = 47025;
+inline static constexpr unsigned int Class_3_F281CDDB5683B0DF_TypeDefinitionIndex = 53757;
 
 class Class_3_F281CDDB5683B0DF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayerApplyInMapTeleport*>
 {

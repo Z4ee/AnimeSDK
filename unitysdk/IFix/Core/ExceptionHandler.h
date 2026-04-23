@@ -5,22 +5,22 @@
 
 namespace System { class Type; }
 
-#define IFIX_CORE_EXCEPTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B41150)
+#define IFIX_CORE_EXCEPTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1713F1B0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 9791;
+	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 9926;
 
 	class ExceptionHandler : public ::System::Object
 	{
 	public:
 		::System::Type* CatchType; // 0x10
-		::System::Int32 TryEnd; // 0x18
-		::System::Int32 CatchTypeId; // 0x1C
+		::System::Int32 TryStart; // 0x18
+		::System::Int32 HandlerEnd; // 0x1C
 		::IFix::Core::ExceptionHandlerType HandlerType; // 0x20
-		::System::Int32 HandlerStart; // 0x24
-		::System::Int32 TryStart; // 0x28
-		::System::Int32 HandlerEnd; // 0x2C
+		::System::Int32 CatchTypeId; // 0x24
+		::System::Int32 HandlerStart; // 0x28
+		::System::Int32 TryEnd; // 0x2C
 
 		::System::Void _ctor()
 		{

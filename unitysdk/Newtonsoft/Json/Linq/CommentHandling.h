@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int CommentHandling_TypeDefinitionIndex = 8352;
+	inline static constexpr unsigned int CommentHandling_TypeDefinitionIndex = 8498;
 
 	enum class CommentHandling : ::System::Int32
 	{

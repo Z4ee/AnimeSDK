@@ -5,7 +5,7 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraSettleCommand_TypeDefinitionIndex = 51536;
+	inline static constexpr unsigned int IChimeraSettleCommand_TypeDefinitionIndex = 58474;
 
 	class IChimeraSettleCommand
 	{

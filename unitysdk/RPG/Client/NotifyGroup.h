@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyGroup_TypeDefinitionIndex = 47940;
+	inline static constexpr unsigned int NotifyGroup_TypeDefinitionIndex = 54683;
 
 	enum class NotifyGroup : ::System::Int32
 	{

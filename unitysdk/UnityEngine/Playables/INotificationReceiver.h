@@ -7,7 +7,7 @@ namespace UnityEngine::Playables { class INotification; }
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int INotificationReceiver_TypeDefinitionIndex = 4700;
+	inline static constexpr unsigned int INotificationReceiver_TypeDefinitionIndex = 4708;
 
 	class INotificationReceiver
 	{

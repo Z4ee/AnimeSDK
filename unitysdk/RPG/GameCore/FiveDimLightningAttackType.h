@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLightningAttackType_TypeDefinitionIndex = 17067;
+	inline static constexpr unsigned int FiveDimLightningAttackType_TypeDefinitionIndex = 17666;
 
 	enum class FiveDimLightningAttackType : ::System::Int32
 	{

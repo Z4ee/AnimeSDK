@@ -6,17 +6,17 @@ class Class_1_7D0B754E2D8CECAF;
 class Class_1_E2D539C29BA420F0;
 class Class_3_626F93E2306641CC;
 
-#define CLASS_1_E2D539C29BA420F0___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x104CB800)
-#define CLASS_1_E2D539C29BA420F0___C__DISPLAYCLASS1_0__EXECUTEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x104CB810)
+#define CLASS_1_E2D539C29BA420F0___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10B04D40)
+#define CLASS_1_E2D539C29BA420F0___C__DISPLAYCLASS1_0__EXECUTEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x10B04D50)
 
-inline static constexpr unsigned int Class_1_E2D539C29BA420F0___c__DisplayClass1_0_TypeDefinitionIndex = 63556;
+inline static constexpr unsigned int Class_1_E2D539C29BA420F0___c__DisplayClass1_0_TypeDefinitionIndex = 71596;
 
 class Class_1_E2D539C29BA420F0___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::Class_1_7D0B754E2D8CECAF* eventParam; // 0x10
+	::Class_3_626F93E2306641CC* services; // 0x10
 	::Class_1_E2D539C29BA420F0* __4__this; // 0x18
-	::Class_3_626F93E2306641CC* services; // 0x20
+	::Class_1_7D0B754E2D8CECAF* eventParam; // 0x20
 
 	::System::Void _ctor()
 	{

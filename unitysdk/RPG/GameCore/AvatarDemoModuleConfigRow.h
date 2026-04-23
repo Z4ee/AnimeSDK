@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARDEMOMODULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F9AE80)
-#define RPG_GAMECORE_AVATARDEMOMODULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F9B020)
+#define RPG_GAMECORE_AVATARDEMOMODULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186BE0D0)
+#define RPG_GAMECORE_AVATARDEMOMODULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186BE270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDemoModuleConfigRow_TypeDefinitionIndex = 11663;
+	inline static constexpr unsigned int AvatarDemoModuleConfigRow_TypeDefinitionIndex = 12072;
 
 	class AvatarDemoModuleConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Sort; // 0x10
+		::RPG::GameCore::AvatarDemoType AvatarDemoType; // 0x10
 		::System::UInt32 ActivityModuleID; // 0x14
-		::RPG::GameCore::AvatarDemoType AvatarDemoType; // 0x18
-		::System::UInt32 AvatarDemoStageID; // 0x1C
+		::System::UInt32 AvatarDemoStageID; // 0x18
+		::System::UInt32 Sort; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RANDOMSELECTORCASE_METHOD_2_0AED6BEF79BE3524_OFFSET UNITYSDK_OFFSET(0x17581420)
-#define RPG_GAMECORE_RANDOMSELECTORCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x175815B0)
+#define RPG_GAMECORE_RANDOMSELECTORCASE_METHOD_2_0AED6BEF79BE3524_OFFSET UNITYSDK_OFFSET(0x18C8B150)
+#define RPG_GAMECORE_RANDOMSELECTORCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8B2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectorCase_TypeDefinitionIndex = 22049;
+	inline static constexpr unsigned int RandomSelectorCase_TypeDefinitionIndex = 22765;
 
 	class RandomSelectorCase : public ::RPG::GameCore::JsonConfig
 	{

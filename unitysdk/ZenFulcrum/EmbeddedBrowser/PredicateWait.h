@@ -6,19 +6,19 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPendingPromise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PREDICATEWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8DA40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PREDICATEWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C8FB0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PredicateWait_TypeDefinitionIndex = 30576;
+	inline static constexpr unsigned int PredicateWait_TypeDefinitionIndex = 36296;
 
 	class PredicateWait : public ::System::Object
 	{
 	public:
 		::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>* predicate; // 0x10
 		::ZenFulcrum::EmbeddedBrowser::IPendingPromise* pendingPromise; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::TimeData timeData; // 0x20
-		::System::Single timeStarted; // 0x28
+		::System::Single timeStarted; // 0x20
+		::ZenFulcrum::EmbeddedBrowser::TimeData timeData; // 0x24
 
 		::System::Void _ctor()
 		{

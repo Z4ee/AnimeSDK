@@ -7,11 +7,11 @@ namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1858EB50)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC9880)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2070;
+	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2071;
 
 	class NfaContentValidator : public ::System::Xml::Schema::ContentValidator
 	{

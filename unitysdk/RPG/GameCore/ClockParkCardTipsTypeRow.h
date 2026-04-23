@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKCARDTIPSTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170B6D30)
-#define RPG_GAMECORE_CLOCKPARKCARDTIPSTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170B73F0)
+#define RPG_GAMECORE_CLOCKPARKCARDTIPSTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188162B0)
+#define RPG_GAMECORE_CLOCKPARKCARDTIPSTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18816970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCardTipsTypeRow_TypeDefinitionIndex = 10453;
+	inline static constexpr unsigned int ClockParkCardTipsTypeRow_TypeDefinitionIndex = 10677;
 
 	class ClockParkCardTipsTypeRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ClockParkCardTipsTypeEnum CardTipsTypeID; // 0x10
-		::RPG::Client::TextID CardTips; // 0x18
-		::RPG::Client::TextID CardTips_Detail; // 0x28
+		::RPG::Client::TextID CardTips; // 0x10
+		::RPG::Client::TextID CardTips_Detail; // 0x20
+		::RPG::GameCore::ClockParkCardTipsTypeEnum CardTipsTypeID; // 0x30
 
 		::System::Void _ctor()
 		{

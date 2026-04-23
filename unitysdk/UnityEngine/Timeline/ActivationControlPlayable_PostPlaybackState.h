@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ActivationControlPlayable_PostPlaybackState_TypeDefinitionIndex = 29884;
+	inline static constexpr unsigned int ActivationControlPlayable_PostPlaybackState_TypeDefinitionIndex = 35604;
 
 	enum class ActivationControlPlayable_PostPlaybackState : ::System::Int32
 	{

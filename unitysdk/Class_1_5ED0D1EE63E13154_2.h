@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_2_TypeDefinitionIndex = 33596;
+inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_2_TypeDefinitionIndex = 39396;
 
 class Class_1_5ED0D1EE63E13154_2 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GeometryShadowQuality_TypeDefinitionIndex = 29278;
+	inline static constexpr unsigned int GeometryShadowQuality_TypeDefinitionIndex = 35045;
 
 	enum class GeometryShadowQuality : ::System::Int32
 	{

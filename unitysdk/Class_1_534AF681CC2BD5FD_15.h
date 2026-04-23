@@ -2,9 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
+namespace RPG::GameCore { class LittleGameComponentConfig; }
+namespace RPG::GameCore { class LittleGameEntityConfig; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_15_TypeDefinitionIndex = 22675;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_15_TypeDefinitionIndex = 23651;
 
 class Class_1_534AF681CC2BD5FD_15 : public ::System::Object
 {

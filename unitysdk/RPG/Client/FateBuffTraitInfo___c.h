@@ -8,44 +8,44 @@ namespace RPG::Client { class FateBuffSlotData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9677510)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__COUNTUNLOCKEDSLOTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x9677560)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9677550)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__28_0_OFFSET UNITYSDK_OFFSET(0x9677760)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__28_1_OFFSET UNITYSDK_OFFSET(0x9677770)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__20_0_OFFSET UNITYSDK_OFFSET(0x9677580)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__20_1_OFFSET UNITYSDK_OFFSET(0x9677640)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA3369F0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__COUNTUNLOCKEDSLOTS_B__12_0_OFFSET UNITYSDK_OFFSET(0xA336A40)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA336A30)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__28_0_OFFSET UNITYSDK_OFFSET(0xA336C40)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__28_1_OFFSET UNITYSDK_OFFSET(0xA336C50)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__20_0_OFFSET UNITYSDK_OFFSET(0xA336A60)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__20_1_OFFSET UNITYSDK_OFFSET(0xA336B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c_TypeDefinitionIndex = 51917;
+	inline static constexpr unsigned int FateBuffTraitInfo___c_TypeDefinitionIndex = 58866;
 
 	class FateBuffTraitInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__28_0()
+		static ::System::Comparison_1<::RPG::Client::FateBuffSlotData*>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0x47CD0);
-		}
-		static ::RPG::Client::FateBuffTraitInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateBuffTraitInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0x47CD8);
-		}
-		static ::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>** StaticGet___9__12_0()
-		{
-			return (::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0x47CE0);
+			return (::System::Comparison_1<::RPG::Client::FateBuffSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0xB4D0);
 		}
 		static ::System::Comparison_1<::RPG::Client::FateBuffData*>** StaticGet___9__20_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::FateBuffData*>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0x47CE8);
+			return (::System::Comparison_1<::RPG::Client::FateBuffData*>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0xB4D8);
+		}
+		static ::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>** StaticGet___9__12_0()
+		{
+			return (::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0xB4E0);
+		}
+		static ::RPG::Client::FateBuffTraitInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateBuffTraitInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0xB4E8);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__28_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0xB4F0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__28_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0x47CF0);
-		}
-		static ::System::Comparison_1<::RPG::Client::FateBuffSlotData*>** StaticGet___9__20_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::FateBuffSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0x47CF8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateBuffTraitInfo___c_TypeDefinitionIndex)->GetStaticField(0xB4F8);
 		}
 
 		static ::System::Void _cctor()

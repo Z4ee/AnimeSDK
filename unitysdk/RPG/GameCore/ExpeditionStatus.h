@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionStatus_TypeDefinitionIndex = 12093;
+	inline static constexpr unsigned int ExpeditionStatus_TypeDefinitionIndex = 12526;
 
 	enum class ExpeditionStatus : ::System::Int32
 	{

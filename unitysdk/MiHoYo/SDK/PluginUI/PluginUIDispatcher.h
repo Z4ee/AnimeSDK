@@ -8,23 +8,23 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x15FA3E70)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x15FA4000)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x15FA40E0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x15FA47F0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15FA4880)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA3DE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x17601FE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x17602170)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x17602250)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x176026C0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17602750)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x17601F50)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIDispatcher_TypeDefinitionIndex = 7756;
+	inline static constexpr unsigned int PluginUIDispatcher_TypeDefinitionIndex = 7903;
 
 	class PluginUIDispatcher : public ::MiHoYo::SDK::PluginUI::IPluginUIService
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::PluginUIDispatcher** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIDispatcher**)Il2CppClass::FromTypeDefinitionIndex(PluginUIDispatcher_TypeDefinitionIndex)->GetStaticField(0x16920);
+			return (::MiHoYo::SDK::PluginUI::PluginUIDispatcher**)Il2CppClass::FromTypeDefinitionIndex(PluginUIDispatcher_TypeDefinitionIndex)->GetStaticField(0x20710);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PluginUI::IPluginUIService_ShowPluginUITask*>* m_dicPluginUIName2ShowTask; // 0x18
 

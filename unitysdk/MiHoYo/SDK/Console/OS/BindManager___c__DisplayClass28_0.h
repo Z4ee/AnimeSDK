@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Console::OS { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E59DF0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__REQUESTACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x15E5CFC0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17457900)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS28_0__REQUESTACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1745A980)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass28_0_TypeDefinitionIndex = 7678;
+	inline static constexpr unsigned int BindManager___c__DisplayClass28_0_TypeDefinitionIndex = 7825;
 
 	class BindManager___c__DisplayClass28_0 : public ::System::Object
 	{

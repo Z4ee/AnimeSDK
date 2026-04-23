@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178BAE00)
-#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178BAFC0)
+#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190B9470)
+#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190B9630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonEnemyConfigRow_TypeDefinitionIndex = 11428;
+	inline static constexpr unsigned int TreasureDungeonEnemyConfigRow_TypeDefinitionIndex = 11830;
 
 	class TreasureDungeonEnemyConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* StageEventList; // 0x10
-		::System::UInt32 EnemyLevel; // 0x18
-		::System::UInt32 SpecialMonsterID; // 0x1C
+		::System::UInt32 SpecialMonsterID; // 0x18
+		::System::UInt32 EnemyLevel; // 0x1C
 		::System::UInt32 EnemyID; // 0x20
 
 		::System::Void _ctor()

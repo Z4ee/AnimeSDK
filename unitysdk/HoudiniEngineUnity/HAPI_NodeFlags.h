@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_NodeFlags_TypeDefinitionIndex = 37684;
+	inline static constexpr unsigned int HAPI_NodeFlags_TypeDefinitionIndex = 43561;
 
 	enum class HAPI_NodeFlags : ::System::Int32
 	{

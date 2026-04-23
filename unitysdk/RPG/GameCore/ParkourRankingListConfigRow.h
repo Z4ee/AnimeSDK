@@ -7,12 +7,12 @@ class Class_1_3745C69C00F04B7D;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1748B900)
-#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1748BB30)
+#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD5E20)
+#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD6050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourRankingListConfigRow_TypeDefinitionIndex = 11088;
+	inline static constexpr unsigned int ParkourRankingListConfigRow_TypeDefinitionIndex = 11491;
 
 	class ParkourRankingListConfigRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PVSOptSamplerType_TypeDefinitionIndex = 17587;
+	inline static constexpr unsigned int PVSOptSamplerType_TypeDefinitionIndex = 18200;
 
 	enum class PVSOptSamplerType : ::System::Int32
 	{

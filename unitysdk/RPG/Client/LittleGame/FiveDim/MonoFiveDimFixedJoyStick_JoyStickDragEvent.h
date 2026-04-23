@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_JOYSTICKDRAGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9A1B770)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_JOYSTICKDRAGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6C66C0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 62900;
+	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 70940;
 
 	class MonoFiveDimFixedJoyStick_JoyStickDragEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>
 	{

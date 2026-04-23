@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_LONGTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A5D580)
-#define RPG_CLIENT_LONGTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9A5D5B0)
-#define RPG_CLIENT_LONGTEXT___C__ONPOPULATEMESH_B__15_0_OFFSET UNITYSDK_OFFSET(0x9A5D5C0)
+#define RPG_CLIENT_LONGTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA70A9C0)
+#define RPG_CLIENT_LONGTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA70A9F0)
+#define RPG_CLIENT_LONGTEXT___C__ONPOPULATEMESH_B__15_0_OFFSET UNITYSDK_OFFSET(0xA70AA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LongText___c_TypeDefinitionIndex = 59469;
+	inline static constexpr unsigned int LongText___c_TypeDefinitionIndex = 66864;
 
 	class LongText___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::LongText___c** StaticGet___9()
-		{
-			return (::RPG::Client::LongText___c**)Il2CppClass::FromTypeDefinitionIndex(LongText___c_TypeDefinitionIndex)->GetStaticField(0x26C50);
-		}
 		static ::System::Func_2<::UnityEngine::Component*, ::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::UnityEngine::Component*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LongText___c_TypeDefinitionIndex)->GetStaticField(0x26C58);
+			return (::System::Func_2<::UnityEngine::Component*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LongText___c_TypeDefinitionIndex)->GetStaticField(0x333B0);
+		}
+		static ::RPG::Client::LongText___c** StaticGet___9()
+		{
+			return (::RPG::Client::LongText___c**)Il2CppClass::FromTypeDefinitionIndex(LongText___c_TypeDefinitionIndex)->GetStaticField(0x333B8);
 		}
 
 		static ::System::Void _cctor()

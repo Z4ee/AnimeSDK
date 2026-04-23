@@ -4,7 +4,7 @@
 
 namespace Mono::Security
 {
-	inline static constexpr unsigned int PKCS7_TypeDefinitionIndex = 2248;
+	inline static constexpr unsigned int PKCS7_TypeDefinitionIndex = 2249;
 
 	class PKCS7 : public ::System::Object
 	{

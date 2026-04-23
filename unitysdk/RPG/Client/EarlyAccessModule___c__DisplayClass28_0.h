@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class EarlyAccessContent; }
 
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x952C0B0)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0___GETCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0x952CBB0)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1AEC80)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0___GETCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0xA1AF780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass28_0_TypeDefinitionIndex = 51697;
+	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass28_0_TypeDefinitionIndex = 58645;
 
 	class EarlyAccessModule___c__DisplayClass28_0 : public ::System::Object
 	{

@@ -8,36 +8,36 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_ITEMCOMPOSECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172C5160)
-#define RPG_GAMECORE_ITEMCOMPOSECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172C5C80)
+#define RPG_GAMECORE_ITEMCOMPOSECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A27550)
+#define RPG_GAMECORE_ITEMCOMPOSECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A28070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeConfigRow_TypeDefinitionIndex = 12644;
+	inline static constexpr unsigned int ItemComposeConfigRow_TypeDefinitionIndex = 13112;
 
 	class ItemComposeConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* LimitTypeParam; // 0x10
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialCost; // 0x18
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialCost; // 0x10
+		::Il2CppArray<::System::UInt32>* RelicList; // 0x18
 		::Il2CppArray<::System::UInt32>* ItemComposeTag; // 0x20
-		::Il2CppArray<::System::UInt32>* RelicList; // 0x28
-		::Il2CppArray<::System::UInt32>* SpecialMaterialCost; // 0x30
-		::System::UInt32 CoinCost; // 0x38
-		::System::UInt32 ItemID; // 0x3C
-		::System::UInt32 LimitValue; // 0x40
-		::RPG::GameCore::FormulaType FormulaType; // 0x44
-		::System::Boolean IsShowHoldNumber; // 0x48
-		::System::Boolean IsCanAcceleratedCompose; // 0x49
-		::System::UInt32 MaxCount; // 0x4C
-		::System::UInt32 Order; // 0x50
-		::System::UInt32 Type; // 0x54
-		::RPG::GameCore::ItemComposeFuncType FuncType; // 0x58
-		::RPG::GameCore::ItemComposeLimitType LimitType; // 0x5C
-		::System::UInt32 WorldLevelRequire; // 0x60
-		::System::UInt32 FormulaRequire; // 0x64
-		::System::UInt32 ID; // 0x68
-		::System::UInt32 SpecialMaterialCostNumber; // 0x6C
+		::Il2CppArray<::System::UInt32>* SpecialMaterialCost; // 0x28
+		::Il2CppArray<::System::UInt32>* LimitTypeParam; // 0x30
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 Order; // 0x3C
+		::System::UInt32 ItemID; // 0x40
+		::System::UInt32 WorldLevelRequire; // 0x44
+		::System::UInt32 FormulaRequire; // 0x48
+		::System::UInt32 LimitValue; // 0x4C
+		::RPG::GameCore::ItemComposeFuncType FuncType; // 0x50
+		::System::UInt32 SpecialMaterialCostNumber; // 0x54
+		::RPG::GameCore::ItemComposeLimitType LimitType; // 0x58
+		::System::UInt32 CoinCost; // 0x5C
+		::System::UInt32 Type; // 0x60
+		::RPG::GameCore::FormulaType FormulaType; // 0x64
+		::System::Boolean IsCanAcceleratedCompose; // 0x68
+		::System::Boolean IsShowHoldNumber; // 0x69
+		::System::UInt32 MaxCount; // 0x6C
 
 		::System::Void _ctor()
 		{

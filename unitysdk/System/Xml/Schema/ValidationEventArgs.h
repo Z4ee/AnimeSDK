@@ -5,12 +5,12 @@
 
 namespace System::Xml::Schema { class XmlSchemaException; }
 
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x18597310)
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS_GET_SEVERITY_OFFSET UNITYSDK_OFFSET(0x18597300)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x19FD2020)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS_GET_SEVERITY_OFFSET UNITYSDK_OFFSET(0x19FD2010)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ValidationEventArgs_TypeDefinitionIndex = 2166;
+	inline static constexpr unsigned int ValidationEventArgs_TypeDefinitionIndex = 2167;
 
 	class ValidationEventArgs : public ::System::EventArgs
 	{

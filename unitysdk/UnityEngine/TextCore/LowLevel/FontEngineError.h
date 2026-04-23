@@ -3,7 +3,7 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int FontEngineError_TypeDefinitionIndex = 5535;
+	inline static constexpr unsigned int FontEngineError_TypeDefinitionIndex = 5547;
 
 	enum class FontEngineError : ::System::Int32
 	{

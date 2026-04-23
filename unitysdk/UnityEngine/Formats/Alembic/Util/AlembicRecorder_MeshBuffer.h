@@ -13,29 +13,29 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x187AC890)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_2_OFFSET UNITYSDK_OFFSET(0x187AC940)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x187AA970)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CLEAR_OFFSET UNITYSDK_OFFSET(0x187AC150)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187ACC80)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_SETUPSUBMESHES_OFFSET UNITYSDK_OFFSET(0x187AC6F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_WRITESAMPLE_OFFSET UNITYSDK_OFFSET(0x187AC9E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x187ACFF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1A1E6780)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_2_OFFSET UNITYSDK_OFFSET(0x1A1E6830)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1A1E4860)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A1E6040)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1E6B70)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_SETUPSUBMESHES_OFFSET UNITYSDK_OFFSET(0x1A1E65E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_WRITESAMPLE_OFFSET UNITYSDK_OFFSET(0x1A1E68D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E6EE0)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshBuffer_TypeDefinitionIndex = 34927;
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer_TypeDefinitionIndex = 40755;
 
 	class AlembicRecorder_MeshBuffer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Color>* colors; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>* submeshIndices; // 0x18
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* points; // 0x20
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv1; // 0x28
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x30
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Formats::Alembic::Sdk::aeSubmeshData>* submeshData; // 0x10
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>* submeshIndices; // 0x20
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Color>* colors; // 0x28
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv1; // 0x30
 		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv0; // 0x38
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Formats::Alembic::Sdk::aeSubmeshData>* submeshData; // 0x40
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* points; // 0x40
 		::System::Boolean visibility; // 0x48
 
 		::System::Void _ctor()

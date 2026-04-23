@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CaculateNodeData_OperateType_TypeDefinitionIndex = 5622;
+	inline static constexpr unsigned int CaculateNodeData_OperateType_TypeDefinitionIndex = 5634;
 
 	enum class CaculateNodeData_OperateType : ::System::Int32
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class TriggerPerformanceMask; }
 
-#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_86EC3551A049531F_OFFSET UNITYSDK_OFFSET(0x178CC650)
-#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_A026AB60F99F9F50_OFFSET UNITYSDK_OFFSET(0x178CC6D0)
-#define RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x178CC6A0)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_86EC3551A049531F_OFFSET UNITYSDK_OFFSET(0x190CAD30)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_A026AB60F99F9F50_OFFSET UNITYSDK_OFFSET(0x190CADB0)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x190CAD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPerformance_TypeDefinitionIndex = 18584;
+	inline static constexpr unsigned int TriggerPerformance_TypeDefinitionIndex = 19239;
 
 	class TriggerPerformance : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,7 +27,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::TriggerPerformanceMask* MaskConfig; // 0x38
 		::System::Boolean InheritOwnerEntityCustomData; // 0x40
 		::RPG::GameCore::LevelGraphValueSource* ValueSource; // 0x48
-		::System::Boolean CloseMaskAndCrack; // 0x50
+		::System::Boolean CloseScreenCrack; // 0x50
+		::System::Boolean CloseMaskAndCrack; // 0x51
 
 		::System::Void _ctor()
 		{

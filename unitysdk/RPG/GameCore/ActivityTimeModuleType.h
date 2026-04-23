@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTimeModuleType_TypeDefinitionIndex = 10477;
+	inline static constexpr unsigned int ActivityTimeModuleType_TypeDefinitionIndex = 10701;
 
 	enum class ActivityTimeModuleType : ::System::Int32
 	{

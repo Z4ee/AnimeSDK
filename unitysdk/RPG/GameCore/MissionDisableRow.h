@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MISSIONDISABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17420B50)
-#define RPG_GAMECORE_MISSIONDISABLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17420DA0)
+#define RPG_GAMECORE_MISSIONDISABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B2D420)
+#define RPG_GAMECORE_MISSIONDISABLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2D670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 12954;
+	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 13415;
 
 	class MissionDisableRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* CompensateItemList; // 0x10
-		::Il2CppArray<::System::UInt32>* RecycleItemList; // 0x18
-		::Il2CppArray<::System::UInt32>* MainMissionIDListClientDisplay; // 0x20
-		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* MainMissionIDListClientDisplay; // 0x18
+		::Il2CppArray<::System::UInt32>* CompensateItemList; // 0x20
+		::Il2CppArray<::System::UInt32>* RecycleItemList; // 0x28
 		::System::UInt32 SubMissionID; // 0x30
 
 		::System::Void _ctor()

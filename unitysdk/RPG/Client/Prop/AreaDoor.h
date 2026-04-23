@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_AREADOOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA0092C0)
+#define RPG_CLIENT_PROP_AREADOOR__CTOR_OFFSET UNITYSDK_OFFSET(0xAD86C70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AreaDoor_TypeDefinitionIndex = 63669;
+	inline static constexpr unsigned int AreaDoor_TypeDefinitionIndex = 71715;
 
 	class AreaDoor : public ::System::Object
 	{

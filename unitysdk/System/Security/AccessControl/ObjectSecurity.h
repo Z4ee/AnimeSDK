@@ -4,7 +4,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int ObjectSecurity_TypeDefinitionIndex = 964;
+	inline static constexpr unsigned int ObjectSecurity_TypeDefinitionIndex = 966;
 
 	class ObjectSecurity : public ::System::Object
 	{

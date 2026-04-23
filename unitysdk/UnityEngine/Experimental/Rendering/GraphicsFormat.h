@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int GraphicsFormat_TypeDefinitionIndex = 4738;
+	inline static constexpr unsigned int GraphicsFormat_TypeDefinitionIndex = 4746;
 
 	enum class GraphicsFormat : ::System::Int32
 	{

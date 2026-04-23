@@ -7,10 +7,10 @@ namespace RPG::GameCore { class AddBehaviorFlagForModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_8F05B7416FB4D0F6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEC54E0)
-#define CLASS_3_8F05B7416FB4D0F6__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC54B0)
+#define CLASS_3_8F05B7416FB4D0F6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11806350)
+#define CLASS_3_8F05B7416FB4D0F6__CTOR_OFFSET UNITYSDK_OFFSET(0x11806320)
 
-inline static constexpr unsigned int Class_3_8F05B7416FB4D0F6_TypeDefinitionIndex = 44164;
+inline static constexpr unsigned int Class_3_8F05B7416FB4D0F6_TypeDefinitionIndex = 50870;
 
 class Class_3_8F05B7416FB4D0F6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddBehaviorFlagForModifier*>
 {

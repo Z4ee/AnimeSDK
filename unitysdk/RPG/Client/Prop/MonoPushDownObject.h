@@ -11,31 +11,31 @@ namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_INIT_OFFSET UNITYSDK_OFFSET(0xA0D4060)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA0D4170)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_740F2AA106FDA996_OFFSET UNITYSDK_OFFSET(0xA0D5190)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_A467DFE7862A0D44_OFFSET UNITYSDK_OFFSET(0xA0D5120)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_C744E803B5E54FA1_OFFSET UNITYSDK_OFFSET(0xA0D4E10)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_PUSH_OFFSET UNITYSDK_OFFSET(0xA0D4110)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RAYCAST_OFFSET UNITYSDK_OFFSET(0xA0D47B0)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RESET_OFFSET UNITYSDK_OFFSET(0xA0D40B0)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0D5CC0)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D5C80)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_INIT_OFFSET UNITYSDK_OFFSET(0xAE52D90)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xAE52EA0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_71EEEF71468B2F7F_OFFSET UNITYSDK_OFFSET(0xAE53EF0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_A467DFE7862A0D44_OFFSET UNITYSDK_OFFSET(0xAE53E80)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_BAE42965A38A00B6_OFFSET UNITYSDK_OFFSET(0xAE53B40)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_PUSH_OFFSET UNITYSDK_OFFSET(0xAE52E40)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RAYCAST_OFFSET UNITYSDK_OFFSET(0xAE534E0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RESET_OFFSET UNITYSDK_OFFSET(0xAE52DE0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xAE54A60)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xAE54A20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MonoPushDownObject_TypeDefinitionIndex = 64135;
+	inline static constexpr unsigned int MonoPushDownObject_TypeDefinitionIndex = 72182;
 
 	class MonoPushDownObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_Field_5_15()
-		{
-			return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0x484B0);
-		}
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_Field_5_16()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0x484B8);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0xC180);
+		}
+		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_Field_5_15()
+		{
+			return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0xC188);
 		}
 		::UnityEngine::Vector3 forward; // 0x18
 		::UnityEngine::Vector3 right; // 0x24
@@ -88,14 +88,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RAYCAST_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_C744E803B5E54FA1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::RPG::GameCore::GameEntity*& a4)
+		::System::Boolean Method_5_BAE42965A38A00B6(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::RPG::GameCore::GameEntity*& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_C744E803B5E54FA1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_BAE42965A38A00B6_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Method_5_740F2AA106FDA996(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::RPG::GameCore::GameEntity*& a4, ::System::Single a5)
+		::System::Boolean Method_5_71EEEF71468B2F7F(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::RPG::GameCore::GameEntity*& a4, ::System::Single a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_740F2AA106FDA996_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_71EEEF71468B2F7F_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Method_5_A467DFE7862A0D44(::RPG::GameCore::GameEntity* a1)

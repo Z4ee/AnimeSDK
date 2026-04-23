@@ -9,22 +9,22 @@
 namespace Mono::Net::Security { class AsyncProtocolRequest; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2100670)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x81E80)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x22D3240)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x15AC940)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncProtocolRequest__InnerRead_d__25_TypeDefinitionIndex = 2417;
+	inline static constexpr unsigned int AsyncProtocolRequest__InnerRead_d__25_TypeDefinitionIndex = 2418;
 
 	struct alignas(8) AsyncProtocolRequest__InnerRead_d__25
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x10
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Int32>> __t__builder; // 0x20
-		::System::Threading::CancellationToken cancellationToken; // 0x38
-		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x40
-		::System::Int32 _requestedSize_5__1; // 0x48
-		::System::Nullable_1<::System::Int32> _totalRead_5__2; // 0x4C
-		::System::Int32 __1__state; // 0x54
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Int32>> __t__builder; // 0x10
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x28
+		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x38
+		::System::Threading::CancellationToken cancellationToken; // 0x40
+		::System::Int32 __1__state; // 0x48
+		::System::Int32 _requestedSize_5__1; // 0x4C
+		::System::Nullable_1<::System::Int32> _totalRead_5__2; // 0x50
 
 		::System::Void MoveNext()
 		{

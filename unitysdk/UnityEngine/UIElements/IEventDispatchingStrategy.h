@@ -6,7 +6,7 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IEventDispatchingStrategy_TypeDefinitionIndex = 5911;
+	inline static constexpr unsigned int IEventDispatchingStrategy_TypeDefinitionIndex = 5923;
 
 	class IEventDispatchingStrategy
 	{

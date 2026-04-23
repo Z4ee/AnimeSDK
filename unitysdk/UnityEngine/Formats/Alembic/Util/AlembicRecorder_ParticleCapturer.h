@@ -10,21 +10,21 @@ namespace UnityEngine { class Component; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x187ADB30)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187ADEB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x187ADA20)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x187ADF80)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1A1E7A20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1E7DA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1A1E7910)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_PARTICLECAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E7E70)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_ParticleCapturer_TypeDefinitionIndex = 34939;
+	inline static constexpr unsigned int AlembicRecorder_ParticleCapturer_TypeDefinitionIndex = 40767;
 
 	class AlembicRecorder_ParticleCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:
 		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Quaternion>* m_bufRotations; // 0x30
-		::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* m_bufParticles; // 0x38
-		::UnityEngine::ParticleSystem* m_target; // 0x40
+		::UnityEngine::ParticleSystem* m_target; // 0x38
+		::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* m_bufParticles; // 0x40
 		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* m_bufPoints; // 0x48
 		::UnityEngine::Formats::Alembic::Sdk::aePointsData m_data; // 0x50
 

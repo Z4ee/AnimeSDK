@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
 namespace RPG::GameCore { class AIVariable; }
 namespace RPG::GameCore { class TaskContext; }
@@ -8,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 42225;
+	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 49417;
 
 	template <typename TConfig>
 	class ST_Task_1 : public ::Class_1_5F51D4049EA87B7B

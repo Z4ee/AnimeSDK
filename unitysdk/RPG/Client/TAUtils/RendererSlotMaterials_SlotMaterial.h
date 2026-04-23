@@ -6,7 +6,7 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int RendererSlotMaterials_SlotMaterial_TypeDefinitionIndex = 60366;
+	inline static constexpr unsigned int RendererSlotMaterials_SlotMaterial_TypeDefinitionIndex = 67784;
 
 	struct alignas(8) RendererSlotMaterials_SlotMaterial
 	{

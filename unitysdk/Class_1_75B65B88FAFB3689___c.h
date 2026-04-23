@@ -5,27 +5,27 @@
 namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_75B65B88FAFB3689___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10C92F20)
-#define CLASS_1_75B65B88FAFB3689___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10C92F60)
-#define CLASS_1_75B65B88FAFB3689___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x10C92F70)
-#define CLASS_1_75B65B88FAFB3689___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0x10C92F80)
+#define CLASS_1_75B65B88FAFB3689___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD9D0880)
+#define CLASS_1_75B65B88FAFB3689___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD9D08C0)
+#define CLASS_1_75B65B88FAFB3689___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xD9D08D0)
+#define CLASS_1_75B65B88FAFB3689___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xD9D08E0)
 
-inline static constexpr unsigned int Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex = 63796;
+inline static constexpr unsigned int Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex = 71843;
 
 class Class_1_75B65B88FAFB3689___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__2_0()
+	static ::Class_1_75B65B88FAFB3689___c** StaticGet___9()
 	{
-		return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex)->GetStaticField(0x48B90);
+		return (::Class_1_75B65B88FAFB3689___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex)->GetStaticField(0x6B460);
 	}
 	static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>** StaticGet___9__6_1()
 	{
-		return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex)->GetStaticField(0x48B98);
+		return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex)->GetStaticField(0x6B468);
 	}
-	static ::Class_1_75B65B88FAFB3689___c** StaticGet___9()
+	static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__2_0()
 	{
-		return (::Class_1_75B65B88FAFB3689___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex)->GetStaticField(0x48BA0);
+		return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75B65B88FAFB3689___c_TypeDefinitionIndex)->GetStaticField(0x6B470);
 	}
 
 	static ::System::Void _cctor()

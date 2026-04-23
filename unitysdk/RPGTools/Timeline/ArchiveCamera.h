@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ARCHIVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB204B0)
+#define RPGTOOLS_TIMELINE_ARCHIVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xB894230)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveCamera_TypeDefinitionIndex = 39305;
+	inline static constexpr unsigned int ArchiveCamera_TypeDefinitionIndex = 45214;
 
 	class ArchiveCamera : public ::RPGTools::Timeline::ArchiveAsset
 	{

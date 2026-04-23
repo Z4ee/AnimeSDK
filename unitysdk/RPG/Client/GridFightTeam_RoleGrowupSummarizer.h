@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
 #include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
@@ -9,22 +9,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x98C1920)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x98C13E0)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x98C1030)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___IFIXBASEPROXY_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x98C2330)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x98C22C0)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xA5A6A10)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xA5A6490)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xA5A60E0)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___IFIXBASEPROXY_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xA5A7480)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xA5A7410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer_TypeDefinitionIndex = 52908;
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer_TypeDefinitionIndex = 59987;
 
-	class GridFightTeam_RoleGrowupSummarizer : public ::Class_1_41E07A9DDAB7FC78
+	class GridFightTeam_RoleGrowupSummarizer : public ::Class_1_6D4DDF404C3CCC18
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* _BeforeLevelByName; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* _AfterLevelByName; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::GridFightTeam_RoleGrowupSummarizer_GrowupParam*>* _Params; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::GridFightTeam_RoleGrowupSummarizer_GrowupParam*>* _Params; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* _BeforeLevelByName; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* _AfterLevelByName; // 0x20
 
 		::System::Void _ctor()
 		{

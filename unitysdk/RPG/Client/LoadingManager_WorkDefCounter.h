@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_8E541422F89D76B8;
+class Class_1_F59C8DF29FF9694F;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x9A3FD70)
-#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x9A3FDA0)
-#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x9A3F550)
-#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0x9A3FD50)
+#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA6ECF00)
+#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA6ECF30)
+#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_INVOKE_OFFSET UNITYSDK_OFFSET(0xA6EC6E0)
+#define RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA6ECEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingManager_WorkDefCounter_TypeDefinitionIndex = 49061;
+	inline static constexpr unsigned int LoadingManager_WorkDefCounter_TypeDefinitionIndex = 55856;
 
 	class LoadingManager_WorkDefCounter : public ::System::MulticastDelegate
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_8E541422F89D76B8*>* Invoke()
+		::System::Collections::Generic::List_1<::Class_1_F59C8DF29FF9694F*>* Invoke()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_8E541422F89D76B8*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_INVOKE_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::Class_1_F59C8DF29FF9694F*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_INVOKE_OFFSET))(this);
 		}
 
 		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_BEGININVOKE_OFFSET))(this, callback, object);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_8E541422F89D76B8*>* EndInvoke(::System::IAsyncResult* result)
+		::System::Collections::Generic::List_1<::Class_1_F59C8DF29FF9694F*>* EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_8E541422F89D76B8*>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Collections::Generic::List_1<::Class_1_F59C8DF29FF9694F*>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_WORKDEFCOUNTER_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

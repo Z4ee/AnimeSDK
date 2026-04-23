@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_01FD457D69060FE8_UploadMetadata_TypeDefinitionIndex = 38277;
+inline static constexpr unsigned int Class_1_01FD457D69060FE8_UploadMetadata_TypeDefinitionIndex = 44161;
 
 struct alignas(8) Class_1_01FD457D69060FE8_UploadMetadata
 {

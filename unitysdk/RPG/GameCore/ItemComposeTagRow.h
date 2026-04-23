@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCOMPOSETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172C65B0)
-#define RPG_GAMECORE_ITEMCOMPOSETAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172C6BC0)
+#define RPG_GAMECORE_ITEMCOMPOSETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A289A0)
+#define RPG_GAMECORE_ITEMCOMPOSETAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A28FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 12648;
+	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 13116;
 
 	class ItemComposeTagRow : public ::System::Object
 	{
 	public:
 		::System::String* TagTextmapID; // 0x10
-		::System::UInt32 BelongTypeID; // 0x18
-		::System::UInt32 ItemComposeTagID; // 0x1C
+		::System::UInt32 ItemComposeTagID; // 0x18
+		::System::UInt32 BelongTypeID; // 0x1C
 
 		::System::Void _ctor()
 		{

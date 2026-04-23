@@ -6,11 +6,11 @@ namespace HoudiniEngineUnity { class HEU_InputNodeUICache_HEU_InputAssetUICache;
 namespace HoudiniEngineUnity { class HEU_InputNodeUICache_HEU_InputObjectUICache; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTNODEUICACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x8469540)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODEUICACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C91680)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputNodeUICache_TypeDefinitionIndex = 37634;
+	inline static constexpr unsigned int HEU_InputNodeUICache_TypeDefinitionIndex = 43511;
 
 	class HEU_InputNodeUICache : public ::System::Object
 	{

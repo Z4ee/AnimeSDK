@@ -3,7 +3,7 @@
 
 namespace GameCore::Foundation::Collections
 {
-	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 8651;
+	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 8845;
 
 	enum class ExceptionResource : ::System::Int32
 	{

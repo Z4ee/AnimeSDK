@@ -7,7 +7,7 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int Class_1_DF590D5F0955A377_TypedPacketHandler_1_TypeDefinitionIndex = 28732;
+inline static constexpr unsigned int Class_1_DF590D5F0955A377_TypedPacketHandler_1_TypeDefinitionIndex = 34457;
 
 template <typename TRsp>
 class Class_1_DF590D5F0955A377_TypedPacketHandler_1 : public ::System::MulticastDelegate

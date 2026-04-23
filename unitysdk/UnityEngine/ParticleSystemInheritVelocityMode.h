@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemInheritVelocityMode_TypeDefinitionIndex = 5488;
+	inline static constexpr unsigned int ParticleSystemInheritVelocityMode_TypeDefinitionIndex = 5499;
 
 	enum class ParticleSystemInheritVelocityMode : ::System::Int32
 	{

@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x859E590)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__0_OFFSET UNITYSDK_OFFSET(0x85A2C20)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__1_OFFSET UNITYSDK_OFFSET(0x85A2EB0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD4540)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__0_OFFSET UNITYSDK_OFFSET(0x8DD8C10)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__1_OFFSET UNITYSDK_OFFSET(0x8DD8EA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass13_0_TypeDefinitionIndex = 37200;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass13_0_TypeDefinitionIndex = 43045;
 
 	class UGCInterface___c__DisplayClass13_0 : public ::System::Object
 	{

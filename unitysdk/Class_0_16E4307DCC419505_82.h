@@ -4,7 +4,7 @@
 
 namespace System::IO { class BinaryWriter; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_82_TypeDefinitionIndex = 32112;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_82_TypeDefinitionIndex = 37832;
 
 class Class_0_16E4307DCC419505_82
 {

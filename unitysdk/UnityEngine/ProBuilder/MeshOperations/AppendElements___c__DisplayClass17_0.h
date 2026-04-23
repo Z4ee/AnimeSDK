@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/ProBuilder/Edge.h"
 #include "unitysdk/UnityEngine/ProBuilder/EdgeLookup.h"
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__DISPLAYCLASS17_0__APPENDVERTICESTOEDGE_B__0_OFFSET UNITYSDK_OFFSET(0x1882A3D0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18827410)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__DISPLAYCLASS17_0__APPENDVERTICESTOEDGE_B__0_OFFSET UNITYSDK_OFFSET(0x1A2645C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2615E0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int AppendElements___c__DisplayClass17_0_TypeDefinitionIndex = 34212;
+	inline static constexpr unsigned int AppendElements___c__DisplayClass17_0_TypeDefinitionIndex = 40031;
 
 	class AppendElements___c__DisplayClass17_0 : public ::System::Object
 	{

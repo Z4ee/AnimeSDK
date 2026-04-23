@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RuntimeInitializeLoadType.h"
 
-#define SRDEBUGGER_AUTOINITIALIZE_ONLOADBEFORESCENE_OFFSET UNITYSDK_OFFSET(0x184310E0)
-#define SRDEBUGGER_AUTOINITIALIZE_ONLOAD_OFFSET UNITYSDK_OFFSET(0x18431120)
+#define SRDEBUGGER_AUTOINITIALIZE_ONLOADBEFORESCENE_OFFSET UNITYSDK_OFFSET(0x19E6BD70)
+#define SRDEBUGGER_AUTOINITIALIZE_ONLOAD_OFFSET UNITYSDK_OFFSET(0x19E6BDB0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int AutoInitialize_TypeDefinitionIndex = 29594;
+	inline static constexpr unsigned int AutoInitialize_TypeDefinitionIndex = 35314;
 
 	class AutoInitialize : public ::System::Object
 	{

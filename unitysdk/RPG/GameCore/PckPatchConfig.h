@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PckPatchPlatform; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PCKPATCHCONFIG_METHOD_2_F71FDC9F3E12D2A9_OFFSET UNITYSDK_OFFSET(0x1748FA80)
-#define RPG_GAMECORE_PCKPATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1748FB90)
+#define RPG_GAMECORE_PCKPATCHCONFIG_METHOD_2_F71FDC9F3E12D2A9_OFFSET UNITYSDK_OFFSET(0x18BD9FD0)
+#define RPG_GAMECORE_PCKPATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDA0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchConfig_TypeDefinitionIndex = 15007;
+	inline static constexpr unsigned int PckPatchConfig_TypeDefinitionIndex = 15514;
 
 	class PckPatchConfig : public ::RPG::GameCore::JsonConfig
 	{

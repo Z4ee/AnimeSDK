@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17669220)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17669070)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17668D40)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17669010)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x176693F0)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17668DC0)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17669430)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17669610)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17669890)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17669BF0)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17669570)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x176694D0)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18D76A20)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18D76870)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18D76540)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18D76810)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18D76BF0)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18D765C0)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18D76C30)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D76E10)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18D77090)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D773F0)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18D76D70)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18D76CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex = 13769;
+	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex = 14240;
 
 	class RogueTournHexAvatarBaseTypeExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x48B70);
+		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x60F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x48B78);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x60F8);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x6100);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x48B80);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x3AC0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0xF8F0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x3AC1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0xF8F1);
 		}
 
 		static ::System::Void _cctor()

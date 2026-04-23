@@ -8,7 +8,7 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IAuthenticationModule_TypeDefinitionIndex = 2728;
+	inline static constexpr unsigned int IAuthenticationModule_TypeDefinitionIndex = 2729;
 
 	class IAuthenticationModule
 	{

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_METHOD_2_97816108FAF1CBF6_OFFSET UNITYSDK_OFFSET(0x16F4B4B0)
-#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F4B860)
+#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_METHOD_2_97816108FAF1CBF6_OFFSET UNITYSDK_OFFSET(0x1866DA20)
+#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1866DDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBehaviorConfig_TypeDefinitionIndex = 16220;
+	inline static constexpr unsigned int AdventureBehaviorConfig_TypeDefinitionIndex = 16733;
 
 	class AdventureBehaviorConfig : public ::RPG::GameCore::JsonConfig
 	{

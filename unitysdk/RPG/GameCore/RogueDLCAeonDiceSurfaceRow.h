@@ -8,29 +8,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONDICESURFACEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175F31B0)
-#define RPG_GAMECORE_ROGUEDLCAEONDICESURFACEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175F3B30)
+#define RPG_GAMECORE_ROGUEDLCAEONDICESURFACEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D005D0)
+#define RPG_GAMECORE_ROGUEDLCAEONDICESURFACEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D00F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonDiceSurfaceRow_TypeDefinitionIndex = 13471;
+	inline static constexpr unsigned int RogueDLCAeonDiceSurfaceRow_TypeDefinitionIndex = 13944;
 
 	class RogueDLCAeonDiceSurfaceRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DiceEffectParam; // 0x10
+		::System::String* DiceSurfaceIcon; // 0x10
 		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x20
-		::Il2CppArray<::System::UInt32>* Dice3DSurfaceList; // 0x28
-		::System::String* DiceSurfaceIcon; // 0x30
-		::RPG::Client::TextID DiceSurfaceName; // 0x38
-		::RPG::Client::TextID DiceSurfaceDesc; // 0x48
-		::System::UInt32 AeonDiceID; // 0x58
-		::System::UInt32 AeonSurfaceDiceID; // 0x5C
-		::System::UInt32 Sort; // 0x60
-		::System::UInt32 Rarity; // 0x64
-		::RPG::GameCore::ModifierEffectType DiceEffectType; // 0x68
-		::System::UInt32 DiceActiveStage; // 0x6C
+		::Il2CppArray<::System::UInt32>* DiceEffectParam; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x28
+		::Il2CppArray<::System::UInt32>* Dice3DSurfaceList; // 0x30
+		::RPG::Client::TextID DiceSurfaceDesc; // 0x38
+		::System::UInt32 Rarity; // 0x48
+		::System::UInt32 AeonSurfaceDiceID; // 0x4C
+		::RPG::Client::TextID DiceSurfaceName; // 0x50
+		::System::UInt32 DiceActiveStage; // 0x60
+		::System::UInt32 Sort; // 0x64
+		::System::UInt32 AeonDiceID; // 0x68
+		::RPG::GameCore::ModifierEffectType DiceEffectType; // 0x6C
 
 		::System::Void _ctor()
 		{

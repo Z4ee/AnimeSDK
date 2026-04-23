@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_CustomPredicatorType_TypeDefinitionIndex = 50390;
+	inline static constexpr unsigned int RuntimeGroupManager_CustomPredicatorType_TypeDefinitionIndex = 57249;
 
 	enum class RuntimeGroupManager_CustomPredicatorType : ::System::Int32
 	{

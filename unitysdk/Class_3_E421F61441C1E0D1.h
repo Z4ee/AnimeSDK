@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareAllWaveMonsterRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E421F61441C1E0D1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10562920)
-#define CLASS_3_E421F61441C1E0D1__CTOR_OFFSET UNITYSDK_OFFSET(0x105628F0)
+#define CLASS_3_E421F61441C1E0D1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x96CBA90)
+#define CLASS_3_E421F61441C1E0D1__CTOR_OFFSET UNITYSDK_OFFSET(0x96CBA60)
 
-inline static constexpr unsigned int Class_3_E421F61441C1E0D1_TypeDefinitionIndex = 43593;
+inline static constexpr unsigned int Class_3_E421F61441C1E0D1_TypeDefinitionIndex = 50290;
 
 class Class_3_E421F61441C1E0D1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareAllWaveMonsterRank*>
 {

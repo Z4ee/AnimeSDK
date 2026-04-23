@@ -7,7 +7,7 @@ namespace System::Runtime::Serialization { class ISurrogateSelector; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int IFormatter_TypeDefinitionIndex = 1091;
+	inline static constexpr unsigned int IFormatter_TypeDefinitionIndex = 1093;
 
 	class IFormatter
 	{

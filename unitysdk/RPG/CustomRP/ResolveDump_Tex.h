@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP_TEX__CTOR_OFFSET UNITYSDK_OFFSET(0x7F600)
+#define RPG_CUSTOMRP_RESOLVEDUMP_TEX__CTOR_OFFSET UNITYSDK_OFFSET(0xD8360)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump_Tex_TypeDefinitionIndex = 29366;
+	inline static constexpr unsigned int ResolveDump_Tex_TypeDefinitionIndex = 35133;
 
 	struct alignas(8) ResolveDump_Tex
 	{

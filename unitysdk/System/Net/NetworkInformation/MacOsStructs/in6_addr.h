@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
-	inline static constexpr unsigned int in6_addr_TypeDefinitionIndex = 2961;
+	inline static constexpr unsigned int in6_addr_TypeDefinitionIndex = 2962;
 
 	struct alignas(8) in6_addr
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DefineDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_412B9F4A7BA7EDD8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1DC520)
-#define CLASS_3_412B9F4A7BA7EDD8__CTOR_OFFSET UNITYSDK_OFFSET(0xA1DC4F0)
+#define CLASS_3_412B9F4A7BA7EDD8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA7A3EA0)
+#define CLASS_3_412B9F4A7BA7EDD8__CTOR_OFFSET UNITYSDK_OFFSET(0xA7A3E70)
 
-inline static constexpr unsigned int Class_3_412B9F4A7BA7EDD8_TypeDefinitionIndex = 44028;
+inline static constexpr unsigned int Class_3_412B9F4A7BA7EDD8_TypeDefinitionIndex = 50730;
 
 class Class_3_412B9F4A7BA7EDD8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DefineDynamicString*>
 {

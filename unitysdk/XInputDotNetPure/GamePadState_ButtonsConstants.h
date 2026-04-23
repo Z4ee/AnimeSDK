@@ -3,7 +3,7 @@
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadState_ButtonsConstants_TypeDefinitionIndex = 31373;
+	inline static constexpr unsigned int GamePadState_ButtonsConstants_TypeDefinitionIndex = 37093;
 
 	enum class GamePadState_ButtonsConstants : ::System::Int32
 	{

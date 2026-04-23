@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class IslandStateSavedValueCondition; }
 
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_8AED93D86E92DD70_OFFSET UNITYSDK_OFFSET(0x172C18F0)
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x172C1A50)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_8AED93D86E92DD70_OFFSET UNITYSDK_OFFSET(0x18A23CF0)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A23E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 17545;
+	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 18154;
 
 	class IslandStateConditionSet : public ::RPG::GameCore::JsonConfig
 	{

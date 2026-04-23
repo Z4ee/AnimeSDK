@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CLSCOMPLIANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x161BBF50)
+#define SYSTEM_CLSCOMPLIANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x177E7B00)
 
 namespace System
 {

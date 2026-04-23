@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int RendererSlotMaterialPaths_SlotMaterialPath_TypeDefinitionIndex = 60368;
+	inline static constexpr unsigned int RendererSlotMaterialPaths_SlotMaterialPath_TypeDefinitionIndex = 67786;
 
 	struct alignas(8) RendererSlotMaterialPaths_SlotMaterialPath
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceRollingSubtitlesPage; }
 
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1749DE50)
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1749E000)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BE83C0)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE8570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRollingSubtitlesConfig_TypeDefinitionIndex = 22462;
+	inline static constexpr unsigned int PerformanceRollingSubtitlesConfig_TypeDefinitionIndex = 23434;
 
 	class PerformanceRollingSubtitlesConfig : public ::RPG::GameCore::JsonConfig
 	{

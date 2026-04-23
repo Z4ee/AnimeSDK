@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropShaderCtrlStatus_TypeDefinitionIndex = 46258;
+	inline static constexpr unsigned int PropShaderCtrlStatus_TypeDefinitionIndex = 52924;
 
 	enum class PropShaderCtrlStatus : ::System::Int32
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_10B9ACD0BDABD4D7__CTOR_OFFSET UNITYSDK_OFFSET(0x1490060)
+#define STRUCT_2_10B9ACD0BDABD4D7__CTOR_OFFSET UNITYSDK_OFFSET(0xD25D0)
 
-inline static constexpr unsigned int Struct_2_10B9ACD0BDABD4D7_TypeDefinitionIndex = 59287;
+inline static constexpr unsigned int Struct_2_10B9ACD0BDABD4D7_TypeDefinitionIndex = 66682;
 
 struct alignas(8) Struct_2_10B9ACD0BDABD4D7
 {

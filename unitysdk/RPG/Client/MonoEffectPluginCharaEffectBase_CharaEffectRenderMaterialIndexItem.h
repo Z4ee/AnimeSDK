@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharaEffectRenderMaterialIndexItem_TypeDefinitionIndex = 57216;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharaEffectRenderMaterialIndexItem_TypeDefinitionIndex = 64470;
 
 	struct alignas(8) MonoEffectPluginCharaEffectBase_CharaEffectRenderMaterialIndexItem
 	{

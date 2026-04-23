@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C6C8E0)
-#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C6DEF0)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1726A2C0)
+#define INCONTROL_UNITYDEVICEPROFILES_LOGITECHF310MODEDMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1726B8D0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechF310ModeDMacUnityProfile_TypeDefinitionIndex = 31599;
+	inline static constexpr unsigned int LogitechF310ModeDMacUnityProfile_TypeDefinitionIndex = 37319;
 
 	class LogitechF310ModeDMacUnityProfile : public ::InControl::InputDeviceProfile
 	{

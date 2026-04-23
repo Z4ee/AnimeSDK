@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitTaskSeqType_TypeDefinitionIndex = 46286;
+	inline static constexpr unsigned int SummonUnitTaskSeqType_TypeDefinitionIndex = 52961;
 
 	enum class SummonUnitTaskSeqType : ::System::Int32
 	{
@@ -16,6 +16,7 @@ namespace RPG::GameCore
 		OnGroundInvalid = 6,
 		OnResetPos = 7,
 		OnSummonerGroundMove = 8,
-		Count = 9,
+		OnAcceptMoney = 9,
+		Count = 10,
 	};
 }

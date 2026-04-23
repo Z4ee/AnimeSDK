@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Booklet { class StepConfig; }
 
-#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG_METHOD_2_F4472489FE641A3A_OFFSET UNITYSDK_OFFSET(0x16FED530)
-#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FEE5F0)
+#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG_METHOD_2_F4472489FE641A3A_OFFSET UNITYSDK_OFFSET(0x18711380)
+#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18712440)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int SpreadStepConfig_TypeDefinitionIndex = 22806;
+	inline static constexpr unsigned int SpreadStepConfig_TypeDefinitionIndex = 23779;
 
 	class SpreadStepConfig : public ::RPG::GameCore::JsonConfig
 	{

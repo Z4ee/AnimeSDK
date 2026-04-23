@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_ProcessRemoteInput_TypeDefinitionIndex = 4377;
+	inline static constexpr unsigned int EarlyUpdate_ProcessRemoteInput_TypeDefinitionIndex = 4379;
 
 	struct alignas(1) EarlyUpdate_ProcessRemoteInput
 	{

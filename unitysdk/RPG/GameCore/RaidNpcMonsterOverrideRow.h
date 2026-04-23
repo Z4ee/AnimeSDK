@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1757E050)
-#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1757E2D0)
+#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C87DB0)
+#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C88030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidNpcMonsterOverrideRow_TypeDefinitionIndex = 13331;
+	inline static constexpr unsigned int RaidNpcMonsterOverrideRow_TypeDefinitionIndex = 13806;
 
 	class RaidNpcMonsterOverrideRow : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* PlaneEventIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* NpcMonsterIDList; // 0x18
 		::Il2CppArray<::System::UInt32>* ConfigIDList; // 0x20
-		::System::UInt32 RaidID; // 0x28
+		::System::UInt32 GroupID; // 0x28
 		::System::UInt32 HardLevel; // 0x2C
-		::System::UInt32 GroupID; // 0x30
+		::System::UInt32 RaidID; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -6,24 +6,24 @@ namespace System { template <typename T> class Predicate_1; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162BA2D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162BA310)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x162BA320)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x178E6BE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x178E6C20)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x178E6C30)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EtwSession___c_TypeDefinitionIndex = 1692;
+	inline static constexpr unsigned int EtwSession___c_TypeDefinitionIndex = 1693;
 
 	class EtwSession___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x4B90);
+			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x5D70);
 		}
 		static ::System::Diagnostics::Tracing::EtwSession___c** StaticGet___9()
 		{
-			return (::System::Diagnostics::Tracing::EtwSession___c**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x4B98);
+			return (::System::Diagnostics::Tracing::EtwSession___c**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x5D78);
 		}
 
 		static ::System::Void _cctor()

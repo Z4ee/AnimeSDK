@@ -4,12 +4,12 @@
 
 namespace InControl { class PlayerAction; }
 
-#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x993EF00)
-#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0__SWITCHDEFAULTSUBMITANDCANCEL_B__0_OFFSET UNITYSDK_OFFSET(0x9940CD0)
+#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA629BB0)
+#define RPG_CLIENT_INCONTROLACTIONDATA___C__DISPLAYCLASS30_0__SWITCHDEFAULTSUBMITANDCANCEL_B__0_OFFSET UNITYSDK_OFFSET(0xA62B980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InControlActionData___c__DisplayClass30_0_TypeDefinitionIndex = 49702;
+	inline static constexpr unsigned int InControlActionData___c__DisplayClass30_0_TypeDefinitionIndex = 56523;
 
 	class InControlActionData___c__DisplayClass30_0 : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_UNIONFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x18596FE0)
-#define SYSTEM_XML_SCHEMA_UNIONFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x185971C0)
-#define SYSTEM_XML_SCHEMA_UNIONFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18597280)
+#define SYSTEM_XML_SCHEMA_UNIONFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x19FD1CF0)
+#define SYSTEM_XML_SCHEMA_UNIONFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x19FD1ED0)
+#define SYSTEM_XML_SCHEMA_UNIONFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD1F90)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int UnionFacetsChecker_TypeDefinitionIndex = 2153;
+	inline static constexpr unsigned int UnionFacetsChecker_TypeDefinitionIndex = 2154;
 
 	class UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{

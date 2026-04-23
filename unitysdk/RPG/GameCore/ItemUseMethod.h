@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseMethod_TypeDefinitionIndex = 12656;
+	inline static constexpr unsigned int ItemUseMethod_TypeDefinitionIndex = 13124;
 
 	enum class ItemUseMethod : ::System::Int32
 	{
@@ -30,5 +30,6 @@ namespace RPG::GameCore
 		PetSummonRecall = 1001,
 		ClientGoto = 1101,
 		FightFestMemorialPaper = 2501,
+		Anniv3rdLiveItem = 4201,
 	};
 }

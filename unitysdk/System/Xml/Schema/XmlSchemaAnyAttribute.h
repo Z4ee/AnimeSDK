@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Xml::Schema { class NamespaceList; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANYATTRIBUTE_BUILDNAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x185ADE90)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANYATTRIBUTE_SET_PROCESSCONTENTS_OFFSET UNITYSDK_OFFSET(0x185ADE80)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x185ADEF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANYATTRIBUTE_BUILDNAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x19FE8BA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANYATTRIBUTE_SET_PROCESSCONTENTS_OFFSET UNITYSDK_OFFSET(0x19FE8B90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE8C00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAnyAttribute_TypeDefinitionIndex = 2174;
+	inline static constexpr unsigned int XmlSchemaAnyAttribute_TypeDefinitionIndex = 2175;
 
 	class XmlSchemaAnyAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::String* ns; // 0x10
-		::System::Xml::Schema::NamespaceList* namespaceList; // 0x18
+		::System::Xml::Schema::NamespaceList* namespaceList; // 0x10
+		::System::String* ns; // 0x18
 		::System::Xml::Schema::XmlSchemaContentProcessing processContents; // 0x20
 
 		::System::Void _ctor()

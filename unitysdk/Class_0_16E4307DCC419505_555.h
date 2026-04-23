@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_555_TypeDefinitionIndex = 50638;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_555_TypeDefinitionIndex = 54784;
 
 class Class_0_16E4307DCC419505_555
 {

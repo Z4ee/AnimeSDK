@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPECIALMAPPINGINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1775CA50)
-#define RPG_GAMECORE_SPECIALMAPPINGINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1775D0D0)
+#define RPG_GAMECORE_SPECIALMAPPINGINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E81A60)
+#define RPG_GAMECORE_SPECIALMAPPINGINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E820E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialMappingInfoRow_TypeDefinitionIndex = 11452;
+	inline static constexpr unsigned int SpecialMappingInfoRow_TypeDefinitionIndex = 11854;
 
 	class SpecialMappingInfoRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 WorldLevel; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 WorldLevel; // 0x1C
 
 		::System::Void _ctor()
 		{

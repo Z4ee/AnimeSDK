@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BezierTangentMode_TypeDefinitionIndex = 34071;
+	inline static constexpr unsigned int BezierTangentMode_TypeDefinitionIndex = 39890;
 
 	enum class BezierTangentMode : ::System::Int32
 	{

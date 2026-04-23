@@ -7,12 +7,12 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class MDVPositionVariant; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MDVREGIONVARIANT_METHOD_2_F9BF15956122ABDA_OFFSET UNITYSDK_OFFSET(0x173723D0)
-#define RPG_GAMECORE_MDVREGIONVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x17372540)
+#define RPG_GAMECORE_MDVREGIONVARIANT_METHOD_2_F9BF15956122ABDA_OFFSET UNITYSDK_OFFSET(0x18A7FFE0)
+#define RPG_GAMECORE_MDVREGIONVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A80150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MDVRegionVariant_TypeDefinitionIndex = 17509;
+	inline static constexpr unsigned int MDVRegionVariant_TypeDefinitionIndex = 18118;
 
 	class MDVRegionVariant : public ::RPG::GameCore::JsonConfig
 	{

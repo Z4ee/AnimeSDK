@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvCharacterLerpAnimRunPoseParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5FDA2E167BE5E4AD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104A60F0)
-#define CLASS_3_5FDA2E167BE5E4AD__CTOR_OFFSET UNITYSDK_OFFSET(0x104A60C0)
+#define CLASS_3_5FDA2E167BE5E4AD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12B3B370)
+#define CLASS_3_5FDA2E167BE5E4AD__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3B340)
 
-inline static constexpr unsigned int Class_3_5FDA2E167BE5E4AD_TypeDefinitionIndex = 42353;
+inline static constexpr unsigned int Class_3_5FDA2E167BE5E4AD_TypeDefinitionIndex = 48313;
 
 class Class_3_5FDA2E167BE5E4AD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvCharacterLerpAnimRunPoseParam*>
 {

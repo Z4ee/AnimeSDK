@@ -5,7 +5,7 @@ namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 6022;
+	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 6034;
 
 	class Encoder
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUCrowdAnimation_PathAxia_TypeDefinitionIndex = 57715;
+	inline static constexpr unsigned int Effect_GPUCrowdAnimation_PathAxia_TypeDefinitionIndex = 64979;
 
 	enum class Effect_GPUCrowdAnimation_PathAxia : ::System::Int32
 	{

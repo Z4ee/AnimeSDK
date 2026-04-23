@@ -5,23 +5,23 @@
 
 namespace System { class String; }
 
-#define TMPRO_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x210B2E0)
-#define TMPRO_EXTENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18903BB0)
-#define TMPRO_EXTENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x72D10)
+#define TMPRO_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22DDE90)
+#define TMPRO_EXTENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A33D8B0)
+#define TMPRO_EXTENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x743C0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int Extents_TypeDefinitionIndex = 34422;
+	inline static constexpr unsigned int Extents_TypeDefinitionIndex = 40241;
 
 	struct alignas(4) Extents
 	{
-		static ::TMPro::Extents* StaticGet_zero()
-		{
-			return (::TMPro::Extents*)Il2CppClass::FromTypeDefinitionIndex(Extents_TypeDefinitionIndex)->GetStaticField(0xE430);
-		}
 		static ::TMPro::Extents* StaticGet_uninitialized()
 		{
-			return (::TMPro::Extents*)Il2CppClass::FromTypeDefinitionIndex(Extents_TypeDefinitionIndex)->GetStaticField(0xE440);
+			return (::TMPro::Extents*)Il2CppClass::FromTypeDefinitionIndex(Extents_TypeDefinitionIndex)->GetStaticField(0xBAE0);
+		}
+		static ::TMPro::Extents* StaticGet_zero()
+		{
+			return (::TMPro::Extents*)Il2CppClass::FromTypeDefinitionIndex(Extents_TypeDefinitionIndex)->GetStaticField(0xBAF0);
 		}
 		::UnityEngine::Vector2 min; // 0x10
 		::UnityEngine::Vector2 max; // 0x18

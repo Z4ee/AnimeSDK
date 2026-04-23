@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyShipType_TypeDefinitionIndex = 11508;
+	inline static constexpr unsigned int AlleyShipType_TypeDefinitionIndex = 11910;
 
 	enum class AlleyShipType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlag_TypeDefinitionIndex = 10019;
+	inline static constexpr unsigned int ModifierBehaviorFlag_TypeDefinitionIndex = 10210;
 
 	enum class ModifierBehaviorFlag : ::System::Int32
 	{
@@ -92,6 +92,11 @@ namespace RPG::GameCore
 		MuteResetActionDelay = 82,
 		ForceShieldConvert = 83,
 		AllowAddToGridFightBackend = 84,
+		EnduranceEnemyLogicOnly = 85,
+		MuteModifierGlobalListen = 86,
+		IgnoreMuteModifierGlobalListen = 87,
+		ElationEchoPoint = 88,
+		FireFlyRedMode = 89,
 		STAT_DefenceDown = 100,
 		STAT_Fatigue = 101,
 		STAT_SpeedDown = 102,
@@ -136,7 +141,6 @@ namespace RPG::GameCore
 		STAT_ForceActionable = 142,
 		STAT_AITargetKeepActionDelay = 143,
 		STAT_MonsterChangePhase = 144,
-		STAT_ElationEchoPoint = 145,
 		CustomEvent_InfiniteRefresh = 1000,
 		CustomEvent_MonsterChangePhaseTrigger = 1001,
 		CustomEvent_BattleScoreChange = 1002,

@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_CC5F9D5F1C16239D_METHOD_1_BCDCD4E94D23A046_OFFSET UNITYSDK_OFFSET(0x17932E00)
-#define CLASS_1_CC5F9D5F1C16239D__CTOR_OFFSET UNITYSDK_OFFSET(0x179330C0)
+#define CLASS_1_CC5F9D5F1C16239D_METHOD_1_BCDCD4E94D23A046_OFFSET UNITYSDK_OFFSET(0x191279E0)
+#define CLASS_1_CC5F9D5F1C16239D__CTOR_OFFSET UNITYSDK_OFFSET(0x19127CA0)
 
-inline static constexpr unsigned int Class_1_CC5F9D5F1C16239D_TypeDefinitionIndex = 12716;
+inline static constexpr unsigned int Class_1_CC5F9D5F1C16239D_TypeDefinitionIndex = 13183;
 
 class Class_1_CC5F9D5F1C16239D : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_3; // 0x10
 	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_3; // 0x28
+	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x20
+	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x28
 	::System::UInt32 Field_1_4; // 0x30
 	::RPG::GameCore::LimaoNewsIssueHintPopupShowType Field_1_6; // 0x34
 	::System::UInt32 Field_1_0; // 0x38

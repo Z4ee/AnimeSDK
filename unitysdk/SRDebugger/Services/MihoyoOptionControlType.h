@@ -3,7 +3,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int MihoyoOptionControlType_TypeDefinitionIndex = 29704;
+	inline static constexpr unsigned int MihoyoOptionControlType_TypeDefinitionIndex = 35424;
 
 	enum class MihoyoOptionControlType : ::System::Int32
 	{

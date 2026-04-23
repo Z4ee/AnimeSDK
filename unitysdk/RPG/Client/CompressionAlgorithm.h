@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CompressionAlgorithm_TypeDefinitionIndex = 9453;
+	inline static constexpr unsigned int CompressionAlgorithm_TypeDefinitionIndex = 9651;
 
 	enum class CompressionAlgorithm : ::System::Int32
 	{

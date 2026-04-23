@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointConditionOperator_TypeDefinitionIndex = 17399;
+	inline static constexpr unsigned int AssistWayPointConditionOperator_TypeDefinitionIndex = 18007;
 
 	enum class AssistWayPointConditionOperator : ::System::Int32
 	{

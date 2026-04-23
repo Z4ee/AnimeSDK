@@ -6,24 +6,24 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1888CC80)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1888CCC0)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__GENERATEFACEPICKINGOBJECTS_B__24_0_OFFSET UNITYSDK_OFFSET(0x1888CCD0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2C69F0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C6A30)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__GENERATEFACEPICKINGOBJECTS_B__24_0_OFFSET UNITYSDK_OFFSET(0x1A2C6A40)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer___c_TypeDefinitionIndex = 34160;
+	inline static constexpr unsigned int SelectionPickerRenderer___c_TypeDefinitionIndex = 39979;
 
 	class SelectionPickerRenderer___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::SelectionPickerRenderer___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::SelectionPickerRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer___c_TypeDefinitionIndex)->GetStaticField(0x2A2A0);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer___c_TypeDefinitionIndex)->GetStaticField(0x2A2A8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer___c_TypeDefinitionIndex)->GetStaticField(0x2A2B0);
+		}
+		static ::UnityEngine::ProBuilder::SelectionPickerRenderer___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::SelectionPickerRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer___c_TypeDefinitionIndex)->GetStaticField(0x2A2B8);
 		}
 
 		static ::System::Void _cctor()

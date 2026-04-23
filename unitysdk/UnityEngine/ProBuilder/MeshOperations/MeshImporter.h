@@ -9,28 +9,28 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder::MeshOperations { class MeshImportSettings; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET UNITYSDK_OFFSET(0x188560F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET UNITYSDK_OFFSET(0x18855F10)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x188580A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18855E40)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18855F00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18855C90)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET UNITYSDK_OFFSET(0x1A290330)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET UNITYSDK_OFFSET(0x1A290150)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2922E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A290080)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A290140)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A28FED0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 34241;
+	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 40060;
 
 	class MeshImporter : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings** StaticGet_k_DefaultImportSettings()
 		{
-			return (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter_TypeDefinitionIndex)->GetStaticField(0x28DB0);
+			return (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter_TypeDefinitionIndex)->GetStaticField(0x28000);
 		}
-		::Il2CppArray<::UnityEngine::ProBuilder::Vertex*>* m_Vertices; // 0x10
-		::Il2CppArray<::UnityEngine::Material*>* m_SourceMaterials; // 0x18
-		::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination; // 0x20
-		::UnityEngine::Mesh* m_SourceMesh; // 0x28
+		::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination; // 0x10
+		::UnityEngine::Mesh* m_SourceMesh; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* m_SourceMaterials; // 0x20
+		::Il2CppArray<::UnityEngine::ProBuilder::Vertex*>* m_Vertices; // 0x28
 
 		::System::Void _ctor(::UnityEngine::GameObject* gameObject)
 		{

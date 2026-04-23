@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_INTERNALUTILITY___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1880FCA0)
-#define UNITYENGINE_PROBUILDER_INTERNALUTILITY___C__DISPLAYCLASS6_0__TRYPARSECOLOR_B__0_OFFSET UNITYSDK_OFFSET(0x18810030)
+#define UNITYENGINE_PROBUILDER_INTERNALUTILITY___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A249D70)
+#define UNITYENGINE_PROBUILDER_INTERNALUTILITY___C__DISPLAYCLASS6_0__TRYPARSECOLOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A24A100)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int InternalUtility___c__DisplayClass6_0_TypeDefinitionIndex = 34104;
+	inline static constexpr unsigned int InternalUtility___c__DisplayClass6_0_TypeDefinitionIndex = 39923;
 
 	class InternalUtility___c__DisplayClass6_0 : public ::System::Object
 	{

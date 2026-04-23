@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransitionMode_TypeDefinitionIndex = 49320;
+	inline static constexpr unsigned int TransitionMode_TypeDefinitionIndex = 56117;
 
 	enum class TransitionMode : ::System::Int32
 	{

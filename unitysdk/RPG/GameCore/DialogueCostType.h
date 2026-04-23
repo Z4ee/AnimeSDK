@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueCostType_TypeDefinitionIndex = 11989;
+	inline static constexpr unsigned int DialogueCostType_TypeDefinitionIndex = 12422;
 
 	enum class DialogueCostType : ::System::Int32
 	{

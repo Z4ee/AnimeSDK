@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_OutPutPortType_TypeDefinitionIndex = 36987;
+	inline static constexpr unsigned int MHYSDKC_OutPutPortType_TypeDefinitionIndex = 42817;
 
 	class MHYSDKC_OutPutPortType : public ::System::Object
 	{

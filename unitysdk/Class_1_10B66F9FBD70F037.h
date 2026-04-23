@@ -10,20 +10,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_10B66F9FBD70F037_METHOD_1_07DEE4181DE3C33B_OFFSET UNITYSDK_OFFSET(0x8CA9E10)
-#define CLASS_1_10B66F9FBD70F037_METHOD_1_890F8BA4747733BE_OFFSET UNITYSDK_OFFSET(0x8CA9D50)
-#define CLASS_1_10B66F9FBD70F037_METHOD_1_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0x8CA9970)
-#define CLASS_1_10B66F9FBD70F037_METHOD_1_E5EF06B7D2A57CD4_OFFSET UNITYSDK_OFFSET(0x8CA9C90)
-#define CLASS_1_10B66F9FBD70F037__CTOR_OFFSET UNITYSDK_OFFSET(0x8CA9880)
+#define CLASS_1_10B66F9FBD70F037_METHOD_1_07DEE4181DE3C33B_OFFSET UNITYSDK_OFFSET(0x11E7AB00)
+#define CLASS_1_10B66F9FBD70F037_METHOD_1_890F8BA4747733BE_OFFSET UNITYSDK_OFFSET(0x11E7AA40)
+#define CLASS_1_10B66F9FBD70F037_METHOD_1_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0x11E7A660)
+#define CLASS_1_10B66F9FBD70F037_METHOD_1_E5EF06B7D2A57CD4_OFFSET UNITYSDK_OFFSET(0x11E7A980)
+#define CLASS_1_10B66F9FBD70F037__CTOR_OFFSET UNITYSDK_OFFSET(0x11E7A570)
 
-inline static constexpr unsigned int Class_1_10B66F9FBD70F037_TypeDefinitionIndex = 50920;
+inline static constexpr unsigned int Class_1_10B66F9FBD70F037_TypeDefinitionIndex = 57801;
 
 class Class_1_10B66F9FBD70F037 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169_2, ::Class_1_40118813D113D3D1*>* Field_1_1; // 0x10
-	::Class_1_6869ECCA5B46F302_2* Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169_1, ::System::Collections::Generic::List_1<::Class_1_40118813D113D3D1*>*>* Field_1_2; // 0x20
+	::Class_1_6869ECCA5B46F302_2* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169_1, ::System::Collections::Generic::List_1<::Class_1_40118813D113D3D1*>*>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169_2, ::Class_1_40118813D113D3D1*>* Field_1_1; // 0x20
 
 	::System::Void _ctor(::Class_1_6869ECCA5B46F302_2* a1)
 	{

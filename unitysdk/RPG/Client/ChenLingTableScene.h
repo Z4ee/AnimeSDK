@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHENLINGTABLESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x935E440)
+#define RPG_CLIENT_CHENLINGTABLESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x9FCC1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingTableScene_TypeDefinitionIndex = 59377;
+	inline static constexpr unsigned int ChenLingTableScene_TypeDefinitionIndex = 66772;
 
 	class ChenLingTableScene : public ::UnityEngine::MonoBehaviour
 	{

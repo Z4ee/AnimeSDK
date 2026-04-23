@@ -18,13 +18,13 @@ namespace RPG::GameCore { class PhotoGraphUpdateTwoPointFourParam; }
 namespace RPG::GameCore { class TargetFetchAdvPropEx; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_6939BA66C270A04E_OFFSET UNITYSDK_OFFSET(0x16FE68A0)
-#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_8CDD1D2E0208797E_OFFSET UNITYSDK_OFFSET(0x16FE67E0)
-#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE6850)
+#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_4AF01CF27AB539C5_OFFSET UNITYSDK_OFFSET(0x1870A3C0)
+#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_6939BA66C270A04E_OFFSET UNITYSDK_OFFSET(0x1870A480)
+#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1870A430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindSwitchPhotoGraphFuncBtn_TypeDefinitionIndex = 19822;
+	inline static constexpr unsigned int BindSwitchPhotoGraphFuncBtn_TypeDefinitionIndex = 20503;
 
 	class BindSwitchPhotoGraphFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
@@ -62,9 +62,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8CDD1D2E0208797E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*& a2)
+		static ::System::Void Method_3_4AF01CF27AB539C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_8CDD1D2E0208797E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_4AF01CF27AB539C5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6939BA66C270A04E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn* a2)

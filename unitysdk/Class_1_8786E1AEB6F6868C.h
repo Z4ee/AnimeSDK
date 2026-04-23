@@ -5,9 +5,9 @@
 class Class_1_6DE8726ADEF173A7_1;
 namespace RPG::GameCore { class FiveDimSuiyangConfig; }
 
-#define CLASS_1_8786E1AEB6F6868C__CTOR_OFFSET UNITYSDK_OFFSET(0x16A50550)
+#define CLASS_1_8786E1AEB6F6868C__CTOR_OFFSET UNITYSDK_OFFSET(0x180585A0)
 
-inline static constexpr unsigned int Class_1_8786E1AEB6F6868C_TypeDefinitionIndex = 33439;
+inline static constexpr unsigned int Class_1_8786E1AEB6F6868C_TypeDefinitionIndex = 39230;
 
 class Class_1_8786E1AEB6F6868C : public ::System::Object
 {

@@ -6,17 +6,17 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3141DB40779BDC27_CLEAR_OFFSET UNITYSDK_OFFSET(0x167E5D30)
-#define CLASS_1_3141DB40779BDC27_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x167E5C60)
-#define CLASS_1_3141DB40779BDC27__CTOR_OFFSET UNITYSDK_OFFSET(0x167E5E10)
+#define CLASS_1_3141DB40779BDC27_CLEAR_OFFSET UNITYSDK_OFFSET(0x17F5BE90)
+#define CLASS_1_3141DB40779BDC27_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x17F5BDC0)
+#define CLASS_1_3141DB40779BDC27__CTOR_OFFSET UNITYSDK_OFFSET(0x17F5BF70)
 
-inline static constexpr unsigned int Class_1_3141DB40779BDC27_TypeDefinitionIndex = 32365;
+inline static constexpr unsigned int Class_1_3141DB40779BDC27_TypeDefinitionIndex = 38085;
 
 class Class_1_3141DB40779BDC27 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

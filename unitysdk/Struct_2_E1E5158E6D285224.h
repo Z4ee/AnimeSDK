@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_1_70CCABA9DB985F52;
+class Class_3_024B137FE9F1BACE;
+
+inline static constexpr unsigned int Struct_2_E1E5158E6D285224_TypeDefinitionIndex = 49632;
+
+struct alignas(8) Struct_2_E1E5158E6D285224
+{
+	::Class_3_024B137FE9F1BACE* Field_2_0; // 0x10
+	::Class_3_024B137FE9F1BACE* Field_2_1; // 0x18
+	::RPG::GameCore::FixPoint Field_2_2; // 0x20
+	::RPG::GameCore::AttackDamageType Field_2_3; // 0x28
+	::Class_1_70CCABA9DB985F52* Field_2_4; // 0x30
+	::System::Boolean Field_2_5; // 0x38
+	::System::Boolean Field_2_6; // 0x39
+	::System::Boolean Field_2_7; // 0x3A
+	::RPG::GameCore::AttackDamageType Field_2_8; // 0x3C
+	::RPG::GameCore::FixPoint Field_2_9; // 0x40
+	::RPG::GameCore::FixPoint Field_2_10; // 0x48
+};

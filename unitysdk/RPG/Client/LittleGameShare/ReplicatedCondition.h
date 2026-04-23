@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicatedCondition_TypeDefinitionIndex = 28649;
+	inline static constexpr unsigned int ReplicatedCondition_TypeDefinitionIndex = 34378;
 
 	enum class ReplicatedCondition : ::System::Byte
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_EXCLUDEFROMPRESETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A09CB0)
+#define UNITYENGINE_EXCLUDEFROMPRESETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A443720)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ExcludeFromPresetAttribute_TypeDefinitionIndex = 4119;
+	inline static constexpr unsigned int ExcludeFromPresetAttribute_TypeDefinitionIndex = 4121;
 
 	class ExcludeFromPresetAttribute : public ::System::Attribute
 	{

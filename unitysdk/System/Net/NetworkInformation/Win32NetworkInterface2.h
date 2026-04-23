@@ -11,25 +11,25 @@ namespace System::Net::NetworkInformation { class IPInterfaceProperties; }
 namespace System::Net::NetworkInformation { class PhysicalAddress; }
 namespace System::Net::NetworkInformation { class Win32IPv4InterfaceStatistics; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GETIFENTRY_OFFSET UNITYSDK_OFFSET(0x186FF550)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GETPHYSICALADDRESS_OFFSET UNITYSDK_OFFSET(0x186FF6D0)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x186FF730)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GET_NETWORKINTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x186FF740)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x186FF750)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2__CTOR_OFFSET UNITYSDK_OFFSET(0x186FE3E0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GETIFENTRY_OFFSET UNITYSDK_OFFSET(0x1A139C00)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GETPHYSICALADDRESS_OFFSET UNITYSDK_OFFSET(0x1A139D80)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A139DE0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GET_NETWORKINTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1A139DF0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x1A139E00)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A138AB0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32NetworkInterface2_TypeDefinitionIndex = 2950;
+	inline static constexpr unsigned int Win32NetworkInterface2_TypeDefinitionIndex = 2951;
 
 	class Win32NetworkInterface2 : public ::System::Net::NetworkInformation::NetworkInterface
 	{
 	public:
-		::System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* ip4stats; // 0x10
-		::System::Net::NetworkInformation::Win32_MIB_IFROW mib6; // 0x18
-		::System::Net::NetworkInformation::Win32_MIB_IFROW mib4; // 0x88
-		::System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props; // 0xF8
-		::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr; // 0x100
+		::System::Net::NetworkInformation::Win32_MIB_IFROW mib6; // 0x10
+		::System::Net::NetworkInformation::Win32_MIB_IFROW mib4; // 0x80
+		::System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* ip4stats; // 0xF0
+		::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr; // 0xF8
+		::System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props; // 0x200
 
 		::System::Void _ctor(::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr)
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER_SERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1846CF80)
+#define SRF_SERVICE_SRSERVICEMANAGER_SERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA7E90)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager_Service_TypeDefinitionIndex = 27704;
+	inline static constexpr unsigned int SRServiceManager_Service_TypeDefinitionIndex = 33328;
 
 	class SRServiceManager_Service : public ::System::Object
 	{

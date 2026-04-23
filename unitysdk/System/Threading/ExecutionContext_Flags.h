@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ExecutionContext_Flags_TypeDefinitionIndex = 827;
+	inline static constexpr unsigned int ExecutionContext_Flags_TypeDefinitionIndex = 829;
 
 	enum class ExecutionContext_Flags : ::System::Int32
 	{

@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_1BB8CA1042AACD99;
+namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformance; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+#define CLASS_1_659DBBD088F1CA3E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D3E7B0)
+#define CLASS_1_659DBBD088F1CA3E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3E7F0)
+#define CLASS_1_659DBBD088F1CA3E___C__SELECTDIALOGPERFORMANCETOPLAY_B__17_0_OFFSET UNITYSDK_OFFSET(0x17D3E840)
+#define CLASS_1_659DBBD088F1CA3E___C___ISGENDERMATCHED_B__10_0_OFFSET UNITYSDK_OFFSET(0x17D3E800)
+
+inline static constexpr unsigned int Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex = 34263;
+
+class Class_1_659DBBD088F1CA3E___c : public ::System::Object
+{
+public:
+	static ::Class_1_659DBBD088F1CA3E___c** StaticGet___9()
+	{
+		return (::Class_1_659DBBD088F1CA3E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0x5F680);
+	}
+	static ::System::Func_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>** StaticGet___9__17_0()
+	{
+		return (::System::Func_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0x5F688);
+	}
+	static ::System::Func_2<::Class_2_1BB8CA1042AACD99*, ::System::Boolean>** StaticGet___9__10_0()
+	{
+		return (::System::Func_2<::Class_2_1BB8CA1042AACD99*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0x5F690);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_659DBBD088F1CA3E___C__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_659DBBD088F1CA3E___C__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean __IsGenderMatched_b__10_0(::Class_2_1BB8CA1042AACD99* e)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_1BB8CA1042AACD99*))((::PBYTE)hIl2Cpp + CLASS_1_659DBBD088F1CA3E___C___ISGENDERMATCHED_B__10_0_OFFSET))(this, e);
+	}
+
+	::System::Int32 _SelectDialogPerformanceToPlay_b__17_0(::RPG::GameCore::DiceCombatV2SingleDialogPerformance* p)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::DiceCombatV2SingleDialogPerformance*))((::PBYTE)hIl2Cpp + CLASS_1_659DBBD088F1CA3E___C__SELECTDIALOGPERFORMANCETOPLAY_B__17_0_OFFSET))(this, p);
+	}
+};

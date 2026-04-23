@@ -7,39 +7,39 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimGridPropView_Class_1_8
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A0AA60)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9A0AA90)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__POSTLOADASYNC_B__4_0_OFFSET UNITYSDK_OFFSET(0x9A0AAA0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___ONCELLASYNCLOADFINISH_B__17_0_OFFSET UNITYSDK_OFFSET(0x9A0AAC0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTIONV2_B__27_0_OFFSET UNITYSDK_OFFSET(0x9A0AB30)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTION_B__26_0_OFFSET UNITYSDK_OFFSET(0x9A0AAE0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA6B5100)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA6B5130)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__POSTLOADASYNC_B__4_0_OFFSET UNITYSDK_OFFSET(0xA6B5140)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___ONCELLASYNCLOADFINISH_B__17_0_OFFSET UNITYSDK_OFFSET(0xA6B5160)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTIONV2_B__27_0_OFFSET UNITYSDK_OFFSET(0xA6B51D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTION_B__26_0_OFFSET UNITYSDK_OFFSET(0xA6B5180)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView___c_TypeDefinitionIndex = 62852;
+	inline static constexpr unsigned int FiveDimGridPropView___c_TypeDefinitionIndex = 70889;
 
 	class FiveDimGridPropView___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__27_0()
 		{
-			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x24E60);
-		}
-		static ::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x24E68);
+			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x2EC40);
 		}
 		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__26_0()
 		{
-			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x24E70);
+			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x2EC48);
 		}
 		static ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x24E78);
+			return (::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x2EC50);
 		}
 		static ::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x24E80);
+			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x2EC58);
+		}
+		static ::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x2EC60);
 		}
 
 		static ::System::Void _cctor()

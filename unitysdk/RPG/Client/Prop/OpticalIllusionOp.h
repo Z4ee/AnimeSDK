@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionOp_TypeDefinitionIndex = 64164;
+	inline static constexpr unsigned int OpticalIllusionOp_TypeDefinitionIndex = 72211;
 
 	enum class OpticalIllusionOp : ::System::Int32
 	{

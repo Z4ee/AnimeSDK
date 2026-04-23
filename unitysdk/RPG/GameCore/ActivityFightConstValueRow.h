@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EF94E0)
-#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF95F0)
+#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1861A6D0)
+#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1861A7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFightConstValueRow_TypeDefinitionIndex = 10800;
+	inline static constexpr unsigned int ActivityFightConstValueRow_TypeDefinitionIndex = 11049;
 
 	class ActivityFightConstValueRow : public ::System::Object
 	{
 	public:
-		::System::String* ConstValueName; // 0x10
-		::System::String* Value; // 0x18
+		::System::String* Value; // 0x10
+		::System::String* ConstValueName; // 0x18
 
 		::System::Void _ctor()
 		{

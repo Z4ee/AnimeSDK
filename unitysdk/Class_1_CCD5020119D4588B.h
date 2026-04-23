@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class AlleySpecialOrderTarget; }
 
-#define CLASS_1_CCD5020119D4588B_METHOD_1_ADAE5D515AC304C0_OFFSET UNITYSDK_OFFSET(0xB8AE040)
+#define CLASS_1_CCD5020119D4588B_METHOD_1_ADAE5D515AC304C0_OFFSET UNITYSDK_OFFSET(0xAA3B6B0)
 
-inline static constexpr unsigned int Class_1_CCD5020119D4588B_TypeDefinitionIndex = 50576;
+inline static constexpr unsigned int Class_1_CCD5020119D4588B_TypeDefinitionIndex = 57439;
 
 class Class_1_CCD5020119D4588B : public ::System::Object
 {

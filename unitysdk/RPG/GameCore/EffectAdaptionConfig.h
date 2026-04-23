@@ -4,14 +4,15 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class MaterialPropertyAdaptionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTADAPTIONCONFIG_METHOD_2_21F761EAC847EC8B_OFFSET UNITYSDK_OFFSET(0x171887A0)
-#define RPG_GAMECORE_EFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171889D0)
+#define RPG_GAMECORE_EFFECTADAPTIONCONFIG_METHOD_2_624EF185655418D1_OFFSET UNITYSDK_OFFSET(0x18895D80)
+#define RPG_GAMECORE_EFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18896010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectAdaptionConfig_TypeDefinitionIndex = 15118;
+	inline static constexpr unsigned int EffectAdaptionConfig_TypeDefinitionIndex = 15626;
 
 	class EffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,15 +23,16 @@ namespace RPG::GameCore
 		::RPG::MVector3 PositionOffset; // 0x28
 		::RPG::MVector3 RotationOffset; // 0x34
 		::System::Single Scale; // 0x40
+		::Il2CppArray<::RPG::GameCore::MaterialPropertyAdaptionConfig*>* OverrideMaterialProperty; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTADAPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_21F761EAC847EC8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectAdaptionConfig*& a2)
+		static ::System::Void Method_2_624EF185655418D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectAdaptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTADAPTIONCONFIG_METHOD_2_21F761EAC847EC8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTADAPTIONCONFIG_METHOD_2_624EF185655418D1_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -11,22 +11,22 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1624A3F0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1624A440)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1624A320)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x16247D40)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1624A2B0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x16248290)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x17876D70)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x17876DC0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x17876CA0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x17874660)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17876C30)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x17874BB0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 922;
+	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 924;
 
 	class TaskFactory : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x10
-		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x18
+		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x10
+		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x18
 		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x20
 		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x24
 

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17784060)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17784680)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EA9E80)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EAA4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeQuestGroupRow_TypeDefinitionIndex = 11325;
+	inline static constexpr unsigned int StrongChallengeQuestGroupRow_TypeDefinitionIndex = 11727;
 
 	class StrongChallengeQuestGroupRow : public ::System::Object
 	{

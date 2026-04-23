@@ -5,23 +5,37 @@
 
 namespace UnityEngine { class Animator; }
 
-#define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xABE0720)
-#define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xABE0790)
-#define STATEWHEELMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xABE0900)
-#define STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xABE0910)
-#define STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xABE0920)
+#define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB956390)
+#define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB956400)
+#define STATEWHEELMOVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9565D0)
+#define STATEWHEELMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9565C0)
+#define STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB956640)
+#define STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB956650)
 
-inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 38183;
+inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 44067;
 
 class StateWheelMove : public ::UnityEngine::StateMachineBehaviour
 {
 public:
+	static ::System::Int32* StaticGet__IsMove()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StateWheelMove_TypeDefinitionIndex)->GetStaticField(0x2970);
+	}
+	static ::System::Int32* StaticGet__WheelSpeedScale()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StateWheelMove_TypeDefinitionIndex)->GetStaticField(0x2974);
+	}
 	::System::Single fadeTime; // 0x18
 	::System::Single MoveAnimSpeed; // 0x1C
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATEWHEELMOVE__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STATEWHEELMOVE__CCTOR_OFFSET))();
 	}
 
 	::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)

@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int TryParseDelegate_1_TypeDefinitionIndex = 4798;
+	inline static constexpr unsigned int TryParseDelegate_1_TypeDefinitionIndex = 4806;
 
 	template <typename T>
 	class TryParseDelegate_1 : public ::System::MulticastDelegate

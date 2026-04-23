@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Auth { class AddNotifyLoginStatusChangedOptions;
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_AUTH_ADDNOTIFYLOGINSTATUSCHANGEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_AUTH_ADDNOTIFYLOGINSTATUSCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xF520)
+#define EPIC_ONLINESERVICES_AUTH_ADDNOTIFYLOGINSTATUSCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xF510)
 #define EPIC_ONLINESERVICES_AUTH_ADDNOTIFYLOGINSTATUSCHANGEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int AddNotifyLoginStatusChangedOptionsInternal_TypeDefinitionIndex = 36529;
+	inline static constexpr unsigned int AddNotifyLoginStatusChangedOptionsInternal_TypeDefinitionIndex = 42355;
 
 	struct alignas(4) AddNotifyLoginStatusChangedOptionsInternal
 	{

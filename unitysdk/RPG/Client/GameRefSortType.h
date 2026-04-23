@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameRefSortType_TypeDefinitionIndex = 52564;
+	inline static constexpr unsigned int GameRefSortType_TypeDefinitionIndex = 59603;
 
 	enum class GameRefSortType : ::System::Int32
 	{

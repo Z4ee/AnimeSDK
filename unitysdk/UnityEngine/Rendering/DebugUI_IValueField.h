@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_IValueField_TypeDefinitionIndex = 27835;
+	inline static constexpr unsigned int DebugUI_IValueField_TypeDefinitionIndex = 33459;
 
 	class DebugUI_IValueField
 	{

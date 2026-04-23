@@ -7,7 +7,7 @@ namespace Entitas { template <typename T> class Job_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int JobSystem_1_TypeDefinitionIndex = 9740;
+	inline static constexpr unsigned int JobSystem_1_TypeDefinitionIndex = 9873;
 
 	template <typename TEntity>
 	class JobSystem_1 : public ::System::Object

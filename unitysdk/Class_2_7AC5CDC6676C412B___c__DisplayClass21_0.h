@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_842;
+class Class_0_16E4307DCC419505_950;
 
-#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB897170)
-#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS21_0___SETUPBUTTONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0xB898770)
+#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12511300)
+#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS21_0___SETUPBUTTONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x12512760)
 
-inline static constexpr unsigned int Class_2_7AC5CDC6676C412B___c__DisplayClass21_0_TypeDefinitionIndex = 58695;
+inline static constexpr unsigned int Class_2_7AC5CDC6676C412B___c__DisplayClass21_0_TypeDefinitionIndex = 66019;
 
 class Class_2_7AC5CDC6676C412B___c__DisplayClass21_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_842* panel; // 0x10
+	::Class_0_16E4307DCC419505_950* panel; // 0x10
 	::System::Boolean isEnable; // 0x18
 
 	::System::Void _ctor()

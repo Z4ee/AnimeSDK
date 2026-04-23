@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_ValuesMerger_TypeDefinitionIndex = 6173;
+	inline static constexpr unsigned int FieldCodec_1_ValuesMerger_TypeDefinitionIndex = 6183;
 
 	template <typename T>
 	class FieldCodec_1_ValuesMerger : public ::System::MulticastDelegate

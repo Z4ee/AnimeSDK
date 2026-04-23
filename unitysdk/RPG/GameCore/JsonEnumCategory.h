@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10125;
+	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10317;
 
 	enum class JsonEnumCategory : ::System::Int32
 	{
@@ -17,7 +17,16 @@ namespace RPG::GameCore
 		CameraChangeTag = 7,
 		SkillTag = 8,
 		InsertAbilityCustomFlag = 9,
-		ModifierBehaviorFlag = 10,
-		DialogueIconType = 11,
+		RtSkillTag = 10,
+		RtDamageTag = 11,
+		RtBehaviorFlag = 12,
+		RtSkillInsertPriority = 13,
+		RtCustomEvent = 14,
+		RtCharacterTag = 15,
+		RtTriggerTag = 16,
+		GameSubState = 17,
+		CollisionLayer = 18,
+		ModifierBehaviorFlag = 19,
+		DialogueIconType = 20,
 	};
 }

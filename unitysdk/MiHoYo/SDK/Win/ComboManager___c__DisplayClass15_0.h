@@ -9,27 +9,27 @@ namespace MiHoYo::SDK::Win { class ComboManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1607D4A0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x160896F0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x16089F90)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__5_OFFSET UNITYSDK_OFFSET(0x1608B9C0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__6_OFFSET UNITYSDK_OFFSET(0x1608B9F0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__7_OFFSET UNITYSDK_OFFSET(0x1608C770)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176E1230)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x176EC5B0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x176ECE50)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__5_OFFSET UNITYSDK_OFFSET(0x176EE880)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__6_OFFSET UNITYSDK_OFFSET(0x176EE8B0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__7_OFFSET UNITYSDK_OFFSET(0x176EF630)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass15_0_TypeDefinitionIndex = 8017;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass15_0_TypeDefinitionIndex = 8163;
 
 	class ComboManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::String* authTicket; // 0x10
-		::System::String* thirdpartyType; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x20
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__7; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
+		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x20
+		::System::String* authTicket; // 0x28
 		::System::String* traceId; // 0x30
-		::System::Action_1<::System::String*>* callback; // 0x38
-		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x40
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__7; // 0x38
+		::System::String* thirdpartyType; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -19,131 +19,131 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x9169880)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x9169870)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x91646C0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__CSCULLINGKERNELID_OFFSET UNITYSDK_OFFSET(0x916A460)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__INSTANCEDATABUFFER_OFFSET UNITYSDK_OFFSET(0x916A3B0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_0A55B605BCCBA14A_OFFSET UNITYSDK_OFFSET(0x91698E0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_30FFBE713F2F7B5D_OFFSET UNITYSDK_OFFSET(0x916BB30)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x9166650)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x9166A70)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x91644B0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x916C000)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x916C060)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x916C0C0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x916C120)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x916C190)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x916C270)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x916BFA0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_7787CB3AD5CF0BB7_OFFSET UNITYSDK_OFFSET(0x916A510)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0x916A4C0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_8B5E3014AFF7F8EA_OFFSET UNITYSDK_OFFSET(0x9164730)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_9AF91962BC6E178A_OFFSET UNITYSDK_OFFSET(0x9165120)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_9B2E710EB9D49BA6_OFFSET UNITYSDK_OFFSET(0x9166C10)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0x91663C0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_AC7CD4175E0A3EF8_OFFSET UNITYSDK_OFFSET(0x9166740)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_B9A97467188E4B69_OFFSET UNITYSDK_OFFSET(0x9165DA0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x9164520)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x91669D0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x9166A20)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0x9166AB0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0x9166940)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9166990)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x916C200)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_F0E5333B48B6C5FF_OFFSET UNITYSDK_OFFSET(0x9166F90)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x9166AF0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x916BDF0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x916BDA0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR___DRAWMESHES_G___GETMPB_22_0_OFFSET UNITYSDK_OFFSET(0x916BAA0)
-#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x916C2D0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x9DCB100)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x9DCB0F0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x9DC6100)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__CSCULLINGKERNELID_OFFSET UNITYSDK_OFFSET(0x9DCBCE0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_GET__INSTANCEDATABUFFER_OFFSET UNITYSDK_OFFSET(0x9DCBC30)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_0A55B605BCCBA14A_OFFSET UNITYSDK_OFFSET(0x9DCB160)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_30FFBE713F2F7B5D_OFFSET UNITYSDK_OFFSET(0x9DCD3B0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x9DC8020)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x9DC8440)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9DC5EF0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x9DCD880)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x9DCD8E0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x9DCD940)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x9DCD9A0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x9DCDA10)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x9DCDAF0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x9DCD820)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_7787CB3AD5CF0BB7_OFFSET UNITYSDK_OFFSET(0x9DCBD90)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0x9DCBD40)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_8B5E3014AFF7F8EA_OFFSET UNITYSDK_OFFSET(0x9DC6170)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_9AF91962BC6E178A_OFFSET UNITYSDK_OFFSET(0x9DC6AF0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_9B2E710EB9D49BA6_OFFSET UNITYSDK_OFFSET(0x9DC85E0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0x9DC7D90)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_AC7CD4175E0A3EF8_OFFSET UNITYSDK_OFFSET(0x9DC8110)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_B9A97467188E4B69_OFFSET UNITYSDK_OFFSET(0x9DC7770)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x9DC5F60)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x9DC83A0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x9DC83F0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0x9DC8480)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0x9DC8310)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9DC8360)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x9DCDA80)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_METHOD_3_F0E5333B48B6C5FF_OFFSET UNITYSDK_OFFSET(0x9DC8960)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x9DC84C0)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DCD670)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9DCD620)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR___DRAWMESHES_G___GETMPB_22_0_OFFSET UNITYSDK_OFFSET(0x9DCD320)
+#define RPG_CLIENT_BAT_BATRENDERERBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x9DCDB50)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRendererBehavior_TypeDefinitionIndex = 60387;
+	inline static constexpr unsigned int BATRendererBehavior_TypeDefinitionIndex = 67808;
 
 	class BATRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__FrustumPlaneParamsShaderProperty()
+		static ::System::Int32* StaticGet__TotalCountShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x11090);
-		}
-		static ::System::Int32* StaticGet__InstanceDataIndexTextureTexelSizeShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x11094);
-		}
-		static ::System::Int32* StaticGet__ArgsBufferShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x11098);
-		}
-		static ::System::Int32* StaticGet__VertexCountShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x1109C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD410);
 		}
 		static ::System::Int32* StaticGet__AnimationTextureShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD414);
 		}
-		static ::System::Int32* StaticGet__IsLinearDepthShaderProperty()
+		static ::System::Int32* StaticGet__InstanceDataIndexTextureTexelSizeShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110A4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD418);
 		}
 		static ::System::Int32* StaticGet__ArgsCountsBufferShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110A8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD41C);
 		}
-		static ::System::Int32* StaticGet__InstanceDataTextureShaderProperty()
+		static ::System::Int32* StaticGet__IsLinearDepthShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110AC);
-		}
-		static ::System::Int32* StaticGet__NumberOfBonesShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110B0);
-		}
-		static ::System::Int32* StaticGet__FrameIndexShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110B4);
-		}
-		static ::System::Int32* StaticGet__InstanceDataIndexTextureShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110B8);
-		}
-		static ::System::Int32* StaticGet__PrototypeCountShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110BC);
-		}
-		static ::System::Int32* StaticGet__ArgsTotalCountBufferShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110C0);
-		}
-		static ::System::Int32* StaticGet__InstanceDataIndexBufferShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110C4);
-		}
-		static ::System::Int32* StaticGet__BoneIndicesWeightsTextureShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD420);
 		}
 		static ::System::Int32* StaticGet__CullingDataBufferShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110CC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD424);
 		}
-		static ::System::Int32* StaticGet__TotalCountShaderProperty()
+		static ::System::Int32* StaticGet__PrototypeCountShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD428);
 		}
-		static ::System::Int32* StaticGet__InstanceDataTextureTexelSizeShaderProperty()
+		static ::System::Int32* StaticGet__BoneIndicesWeightsTextureShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD42C);
 		}
 		static ::System::Int32* StaticGet__InstanceDataBufferShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD430);
+		}
+		static ::System::Int32* StaticGet__InstanceDataIndexBufferShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD434);
+		}
+		static ::System::Int32* StaticGet__ArgsBufferShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD438);
+		}
+		static ::System::Int32* StaticGet__InstanceDataTextureTexelSizeShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD43C);
+		}
+		static ::System::Int32* StaticGet__NumberOfBonesShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD440);
+		}
+		static ::System::Int32* StaticGet__InstanceDataTextureShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD444);
+		}
+		static ::System::Int32* StaticGet__VertexCountShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD448);
 		}
 		static ::System::Int32* StaticGet__InstanceCountsBufferShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x110DC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD44C);
+		}
+		static ::System::Int32* StaticGet__FrustumPlaneParamsShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD450);
+		}
+		static ::System::Int32* StaticGet__FrameIndexShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD454);
+		}
+		static ::System::Int32* StaticGet__ArgsTotalCountBufferShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD458);
+		}
+		static ::System::Int32* StaticGet__InstanceDataIndexTextureShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BATRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xD45C);
 		}
 		// static const ::System::String* _BATRendererComputeShaderPath; // 0x0
 		// static const ::System::String* _InstanceDataCopyComputeShaderPath; // 0x0

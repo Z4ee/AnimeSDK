@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x18A613B0)
-#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x18A613C0)
+#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1A498C20)
+#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1A498C30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VolumetricCloudSphere_TypeDefinitionIndex = 4081;
+	inline static constexpr unsigned int VolumetricCloudSphere_TypeDefinitionIndex = 4083;
 
 	class VolumetricCloudSphere : public ::UnityEngine::Behaviour
 	{

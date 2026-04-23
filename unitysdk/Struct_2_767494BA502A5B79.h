@@ -4,7 +4,7 @@
 
 class FiveDimPlayerSkillCurveAsset;
 
-inline static constexpr unsigned int Struct_2_767494BA502A5B79_TypeDefinitionIndex = 33383;
+inline static constexpr unsigned int Struct_2_767494BA502A5B79_TypeDefinitionIndex = 39174;
 
 struct alignas(8) Struct_2_767494BA502A5B79
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingSettleReason_TypeDefinitionIndex = 50294;
+	inline static constexpr unsigned int SwordTrainingSettleReason_TypeDefinitionIndex = 57153;
 
 	enum class SwordTrainingSettleReason : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkDebateBtn_TypeDefinitionIndex = 49167;
+	inline static constexpr unsigned int TalkDebateBtn_TypeDefinitionIndex = 55964;
 
 	enum class TalkDebateBtn : ::System::Int32
 	{

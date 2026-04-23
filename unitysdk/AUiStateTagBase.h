@@ -4,9 +4,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AUISTATETAGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10BF7130)
+#define AUISTATETAGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12110A90)
 
-inline static constexpr unsigned int AUiStateTagBase_TypeDefinitionIndex = 38438;
+inline static constexpr unsigned int AUiStateTagBase_TypeDefinitionIndex = 44322;
 
 class AUiStateTagBase : public ::UnityEngine::MonoBehaviour
 {

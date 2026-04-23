@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class SourceCodeInfo_Types_Location; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC0770)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC07B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x15DC07C0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173BDF40)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173BDF80)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x173BDF90)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SourceCodeInfo_Types_Location___c_TypeDefinitionIndex = 28100;
+	inline static constexpr unsigned int SourceCodeInfo_Types_Location___c_TypeDefinitionIndex = 33724;
 
 	class SourceCodeInfo_Types_Location___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::SourceCodeInfo_Types_Location___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::SourceCodeInfo_Types_Location___c**)Il2CppClass::FromTypeDefinitionIndex(SourceCodeInfo_Types_Location___c_TypeDefinitionIndex)->GetStaticField(0x22840);
+			return (::MiHoYo::SDK::Protobuf::Reflection::SourceCodeInfo_Types_Location___c**)Il2CppClass::FromTypeDefinitionIndex(SourceCodeInfo_Types_Location___c_TypeDefinitionIndex)->GetStaticField(0x695C0);
 		}
 
 		static ::System::Void _cctor()

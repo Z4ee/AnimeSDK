@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamTransitionType_TypeDefinitionIndex = 39019;
+	inline static constexpr unsigned int PerformanceLiveStreamTransitionType_TypeDefinitionIndex = 44922;
 
 	enum class PerformanceLiveStreamTransitionType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int RemoteDebugServer_State_TypeDefinitionIndex = 37876;
+	inline static constexpr unsigned int RemoteDebugServer_State_TypeDefinitionIndex = 43753;
 
 	enum class RemoteDebugServer_State : ::System::Int32
 	{

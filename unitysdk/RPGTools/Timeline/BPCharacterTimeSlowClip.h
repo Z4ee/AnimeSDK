@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class BPCharacterTimeSlowBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB24280)
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB24270)
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB24480)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB898060)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB898050)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB898260)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BPCharacterTimeSlowClip_TypeDefinitionIndex = 38675;
+	inline static constexpr unsigned int BPCharacterTimeSlowClip_TypeDefinitionIndex = 44574;
 
 	class BPCharacterTimeSlowClip : public ::UnityEngine::Playables::PlayableAsset
 	{

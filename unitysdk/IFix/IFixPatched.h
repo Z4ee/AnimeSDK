@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_IFIXPATCHED_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x10CE1560)
-#define IFIX_IFIXPATCHED_SETPATCH_OFFSET UNITYSDK_OFFSET(0x10CE1520)
-#define IFIX_IFIXPATCHED__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CE1510)
+#define IFIX_IFIXPATCHED_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x11F1E300)
+#define IFIX_IFIXPATCHED_SETPATCH_OFFSET UNITYSDK_OFFSET(0x11F1E2C0)
+#define IFIX_IFIXPATCHED__CCTOR_OFFSET UNITYSDK_OFFSET(0x11F1E2B0)
 
 namespace IFix
 {
-	inline static constexpr unsigned int IFixPatched_TypeDefinitionIndex = 64645;
+	inline static constexpr unsigned int IFixPatched_TypeDefinitionIndex = 72695;
 
 	class IFixPatched : public ::System::Object
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_EA3716A61EF929AB_1;
-class Class_1_FA54B6DFA559D20B;
+class Class_1_A16A135FC5A0DDB9_4;
+class Class_1_F64CEA2EBA77404D;
 
-#define RPG_CLIENT_MAPDEF_ACTIVEHOYOGROUPEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9AED030)
+#define RPG_CLIENT_MAPDEF_ACTIVEHOYOGROUPEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA7DE050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDef_ActiveHoyoGroupExtraInfo_TypeDefinitionIndex = 50414;
+	inline static constexpr unsigned int MapDef_ActiveHoyoGroupExtraInfo_TypeDefinitionIndex = 57273;
 
 	class MapDef_ActiveHoyoGroupExtraInfo : public ::System::Object
 	{
 	public:
-		::Class_1_EA3716A61EF929AB_1* RefreshServerGroupInfo; // 0x10
-		::Class_1_FA54B6DFA559D20B* InitServerGroupInfo; // 0x18
+		::Class_1_F64CEA2EBA77404D* InitServerGroupInfo; // 0x10
+		::Class_1_A16A135FC5A0DDB9_4* RefreshServerGroupInfo; // 0x18
 		::System::UInt32 ActiveSubMissionID; // 0x20
 		::System::Boolean IsInitActiveHoyoGroup; // 0x24
 

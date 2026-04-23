@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_EnchantTargetDistanceType_TypeDefinitionIndex = 18355;
+	inline static constexpr unsigned int ST_EnchantTargetDistanceType_TypeDefinitionIndex = 19002;
 
 	enum class ST_EnchantTargetDistanceType : ::System::Int32
 	{

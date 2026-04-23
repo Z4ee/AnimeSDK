@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/BlockAutoRebornReason.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PlayerMuteInputReason.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/PlayerMuteSkillReason.h"
 #include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
 #include "unitysdk/RPG/GameCore/FiveDimPlayerResetMode.h"
 #include "unitysdk/RPG/GameCore/FiveDimPlayerResetSweepDirection.h"
@@ -14,7 +15,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 
 class Class_0_16E4307DCC419505_108;
-class Class_0_16E4307DCC419505_220;
+class Class_0_16E4307DCC419505_225;
 class Class_0_16E4307DCC419505_98;
 class Class_1_7E45BC5B315D880F;
 class Class_1_9E013A0367A5C1F7;
@@ -27,7 +28,7 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_1_TypeDefinitionIndex = 33387;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_1_TypeDefinitionIndex = 39178;
 
 struct alignas(8) Struct_2_52A902145F5BE513_1
 {
@@ -49,7 +50,7 @@ struct alignas(8) Struct_2_52A902145F5BE513_1
 	::RPG::GameCore::FiveDimGameplayMode Field_2_15; // 0x6C
 	::Class_1_9E013A0367A5C1F7* Field_2_16; // 0x70
 	::RPG::PoolDictionary_2<::System::UInt32, ::Struct_2_5CBC9F852A3C275F>* Field_2_17; // 0x78
-	::RPG::PoolDictionary_2<::System::Int32, ::Class_0_16E4307DCC419505_220*>* Field_2_18; // 0x80
+	::RPG::PoolDictionary_2<::System::Int32, ::Class_0_16E4307DCC419505_225*>* Field_2_18; // 0x80
 	::System::Boolean Field_2_19; // 0x88
 	::Class_1_7E45BC5B315D880F* Field_2_20; // 0x90
 	::RPG::PoolHashSet_1<::System::UInt32>* Field_2_21; // 0x98
@@ -75,4 +76,5 @@ struct alignas(8) Struct_2_52A902145F5BE513_1
 	::RPG::Client::LittleGame::FiveDim::BlockAutoRebornReason Field_2_41; // 0x168
 	::Struct_2_BF35D09998D831A7 Field_2_42; // 0x170
 	::RPG::Client::LittleGame::FiveDim::PlayerMuteInputReason Field_2_43; // 0x180
+	::RPG::Client::LittleGame::FiveDim::PlayerMuteSkillReason Field_2_44; // 0x184
 };

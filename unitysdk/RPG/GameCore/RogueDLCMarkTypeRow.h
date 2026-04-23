@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176036E0)
-#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17603D80)
+#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D10990)
+#define RPG_GAMECORE_ROGUEDLCMARKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D11030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCMarkTypeRow_TypeDefinitionIndex = 13515;
+	inline static constexpr unsigned int RogueDLCMarkTypeRow_TypeDefinitionIndex = 13988;
 
 	class RogueDLCMarkTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* MarkTypeChessBoardIcon; // 0x10
-		::System::UInt32 MarkTypeID; // 0x18
-		::System::UInt32 BlockIntroID; // 0x1C
-		::RPG::Client::TextID MarkTypeNameID; // 0x20
+		::RPG::Client::TextID MarkTypeNameID; // 0x18
+		::System::UInt32 MarkTypeID; // 0x28
+		::System::UInt32 BlockIntroID; // 0x2C
 
 		::System::Void _ctor()
 		{

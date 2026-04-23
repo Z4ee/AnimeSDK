@@ -4,7 +4,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeInputOptions_TypeDefinitionIndex = 31455;
+	inline static constexpr unsigned int NativeInputOptions_TypeDefinitionIndex = 37175;
 
 	struct alignas(4) NativeInputOptions
 	{

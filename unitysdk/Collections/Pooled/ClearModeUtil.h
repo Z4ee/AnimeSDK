@@ -5,7 +5,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int ClearModeUtil_TypeDefinitionIndex = 5301;
+	inline static constexpr unsigned int ClearModeUtil_TypeDefinitionIndex = 5312;
 
 	class ClearModeUtil : public ::System::Object
 	{

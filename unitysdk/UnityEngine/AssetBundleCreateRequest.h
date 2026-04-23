@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AssetBundle; }
 
-#define UNITYENGINE_ASSETBUNDLECREATEREQUEST_GET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x189DFA20)
-#define UNITYENGINE_ASSETBUNDLECREATEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x189DFA30)
+#define UNITYENGINE_ASSETBUNDLECREATEREQUEST_GET_ASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1A4192D0)
+#define UNITYENGINE_ASSETBUNDLECREATEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4192E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetBundleCreateRequest_TypeDefinitionIndex = 5402;
+	inline static constexpr unsigned int AssetBundleCreateRequest_TypeDefinitionIndex = 5413;
 
 	class AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation
 	{

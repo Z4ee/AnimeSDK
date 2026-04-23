@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelEntityRef; }
 namespace RPG::GameCore { class LittleGameLevelVarBindingExtraInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDING_METHOD_2_2493C1A1E7D3293D_OFFSET UNITYSDK_OFFSET(0x1735E730)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1735E960)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDING_METHOD_2_2493C1A1E7D3293D_OFFSET UNITYSDK_OFFSET(0x18A6C610)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6C840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVarBinding_TypeDefinitionIndex = 17329;
+	inline static constexpr unsigned int LittleGameLevelVarBinding_TypeDefinitionIndex = 17937;
 
 	class LittleGameLevelVarBinding : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAEVALUATIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170A8D10)
-#define RPG_GAMECORE_CHIMERAEVALUATIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170A8E00)
+#define RPG_GAMECORE_CHIMERAEVALUATIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188082C0)
+#define RPG_GAMECORE_CHIMERAEVALUATIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188083B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEvaluationGroupRow_TypeDefinitionIndex = 11880;
+	inline static constexpr unsigned int ChimeraEvaluationGroupRow_TypeDefinitionIndex = 12311;
 
 	class ChimeraEvaluationGroupRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Sort; // 0x10
-		::System::UInt32 EvaluationGroupID; // 0x14
+		::System::UInt32 EvaluationGroupID; // 0x10
+		::System::UInt32 Sort; // 0x14
 
 		::System::Void _ctor()
 		{

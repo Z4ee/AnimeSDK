@@ -1,26 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/Anniversary2NDPanelEnum.h"
+#include "unitysdk/RPG/GameCore/AnniversaryCollectionPanelEnum.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class AnniversaryCollectionContentData; }
-namespace RPG::GameCore { class Anniversary2NDTabConfigRow; }
+namespace RPG::GameCore { class AnniversaryCollectionTabConfigRow; }
+namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_ISEXPIRED_OFFSET UNITYSDK_OFFSET(0x90CC3D0)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_PANELTYPE_OFFSET UNITYSDK_OFFSET(0x90CC520)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_TABICON_OFFSET UNITYSDK_OFFSET(0x90CC690)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_TABNAME_OFFSET UNITYSDK_OFFSET(0x90CC5C0)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x90CC370)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_SYNCSCHEDULE_OFFSET UNITYSDK_OFFSET(0x90CBED0)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x90CB8D0)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA__INITDATA_OFFSET UNITYSDK_OFFSET(0x90CC210)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_FINISHCONDITIONS_OFFSET UNITYSDK_OFFSET(0x9D2E2A0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x9D2DEF0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_ISEXPIRED_OFFSET UNITYSDK_OFFSET(0x9D2DDC0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_PANELTYPE_OFFSET UNITYSDK_OFFSET(0x9D2E080)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_TABICON_OFFSET UNITYSDK_OFFSET(0x9D2E1F0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_TABNAME_OFFSET UNITYSDK_OFFSET(0x9D2E120)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9D2DD60)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_ISFINISHCONDITIONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x9D2DBB0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_SYNCSCHEDULE_OFFSET UNITYSDK_OFFSET(0x9D2AC00)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D2A940)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA__INITDATA_OFFSET UNITYSDK_OFFSET(0x9D2DA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnniversaryCollectionPanelData_TypeDefinitionIndex = 50699;
+	inline static constexpr unsigned int AnniversaryCollectionPanelData_TypeDefinitionIndex = 57575;
 
 	class AnniversaryCollectionPanelData : public ::System::Object
 	{
@@ -38,6 +42,11 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_SYNCSCHEDULE_OFFSET))(this);
 		}
 
+		::System::Boolean IsFinishConditionComplete()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_ISFINISHCONDITIONCOMPLETE_OFFSET))(this);
+		}
+
 		::System::Void _InitData()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA__INITDATA_OFFSET))(this);
@@ -48,9 +57,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_ISEXPIRED_OFFSET))(this);
 		}
 
-		::RPG::GameCore::Anniversary2NDPanelEnum get_PanelType()
+		::System::Boolean get_IsEmpty()
 		{
-			return ((::RPG::GameCore::Anniversary2NDPanelEnum(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_PANELTYPE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_ISEMPTY_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AnniversaryCollectionPanelEnum get_PanelType()
+		{
+			return ((::RPG::GameCore::AnniversaryCollectionPanelEnum(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_PANELTYPE_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_TabName()
@@ -63,9 +77,14 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_TABICON_OFFSET))(this);
 		}
 
-		::RPG::GameCore::Anniversary2NDTabConfigRow* get__Row()
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* get_FinishConditions()
 		{
-			return ((::RPG::GameCore::Anniversary2NDTabConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET__ROW_OFFSET))(this);
+			return ((::Il2CppArray<::RPG::GameCore::ConditionParam*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET_FINISHCONDITIONS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AnniversaryCollectionTabConfigRow* get__Row()
+		{
+			return ((::RPG::GameCore::AnniversaryCollectionTabConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANNIVERSARYCOLLECTIONPANELDATA_GET__ROW_OFFSET))(this);
 		}
 	};
 }

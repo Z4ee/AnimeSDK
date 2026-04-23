@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Process_t_TypeDefinitionIndex = 30329;
+	inline static constexpr unsigned int VREvent_Process_t_TypeDefinitionIndex = 36049;
 
 	struct alignas(4) VREvent_Process_t
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x188E8060)
-#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188E8030)
+#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A321DF0)
+#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321DC0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpColorParameter_TypeDefinitionIndex = 27931;
+	inline static constexpr unsigned int NoInterpColorParameter_TypeDefinitionIndex = 33555;
 
 	class NoInterpColorParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Color>
 	{

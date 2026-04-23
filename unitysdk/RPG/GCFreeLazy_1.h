@@ -11,7 +11,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int GCFreeLazy_1_TypeDefinitionIndex = 8683;
+	inline static constexpr unsigned int GCFreeLazy_1_TypeDefinitionIndex = 8877;
 
 	template <typename T>
 	class GCFreeLazy_1 : public ::System::Object

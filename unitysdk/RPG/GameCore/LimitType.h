@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimitType_TypeDefinitionIndex = 13838;
+	inline static constexpr unsigned int LimitType_TypeDefinitionIndex = 14310;
 
 	enum class LimitType : ::System::Int32
 	{
@@ -20,5 +20,7 @@ namespace RPG::GameCore
 		AvatarNum = 11,
 		FinishQuest = 12,
 		MinCurrencyRemain = 13,
+		GiftLimit = 14,
+		Gender = 15,
 	};
 }

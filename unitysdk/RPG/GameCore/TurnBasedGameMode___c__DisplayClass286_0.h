@@ -5,12 +5,12 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__DISPLAYCLASS286_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAD2930)
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__DISPLAYCLASS286_0___ADVANCELISTENTITYDELAY_B__0_OFFSET UNITYSDK_OFFSET(0xAAD7A60)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__DISPLAYCLASS286_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB83C610)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__DISPLAYCLASS286_0___ADVANCELISTENTITYDELAY_B__0_OFFSET UNITYSDK_OFFSET(0xB841800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedGameMode___c__DisplayClass286_0_TypeDefinitionIndex = 43390;
+	inline static constexpr unsigned int TurnBasedGameMode___c__DisplayClass286_0_TypeDefinitionIndex = 49389;
 
 	class TurnBasedGameMode___c__DisplayClass286_0 : public ::System::Object
 	{

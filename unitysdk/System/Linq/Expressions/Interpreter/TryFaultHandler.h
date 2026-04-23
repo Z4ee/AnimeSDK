@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18501650)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F3C4E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int TryFaultHandler_TypeDefinitionIndex = 3464;
+	inline static constexpr unsigned int TryFaultHandler_TypeDefinitionIndex = 3466;
 
 	class TryFaultHandler : public ::System::Object
 	{
 	public:
-		::System::Int32 TryStartIndex; // 0x10
-		::System::Int32 FinallyStartIndex; // 0x14
+		::System::Int32 FinallyStartIndex; // 0x10
+		::System::Int32 TryStartIndex; // 0x14
 		::System::Int32 FinallyEndIndex; // 0x18
 		::System::Int32 TryEndIndex; // 0x1C
 

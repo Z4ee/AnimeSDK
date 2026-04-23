@@ -5,18 +5,18 @@
 namespace RPG::Client { class IRogueFormulaBuffCountItem; }
 namespace RPG::GameCore { class RogueTournFormulaRow; }
 
-#define CLASS_1_C5680766BB76CB43_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0x111750B0)
-#define CLASS_1_C5680766BB76CB43_GET_MAINITEM_OFFSET UNITYSDK_OFFSET(0x11175090)
-#define CLASS_1_C5680766BB76CB43_GET_SUBITEM_OFFSET UNITYSDK_OFFSET(0x111750A0)
-#define CLASS_1_C5680766BB76CB43__CTOR_OFFSET UNITYSDK_OFFSET(0x11175020)
+#define CLASS_1_C5680766BB76CB43_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0xAFFABB0)
+#define CLASS_1_C5680766BB76CB43_GET_MAINITEM_OFFSET UNITYSDK_OFFSET(0xAFFAB90)
+#define CLASS_1_C5680766BB76CB43_GET_SUBITEM_OFFSET UNITYSDK_OFFSET(0xAFFABA0)
+#define CLASS_1_C5680766BB76CB43__CTOR_OFFSET UNITYSDK_OFFSET(0xAFFAB20)
 
-inline static constexpr unsigned int Class_1_C5680766BB76CB43_TypeDefinitionIndex = 54728;
+inline static constexpr unsigned int Class_1_C5680766BB76CB43_TypeDefinitionIndex = 61916;
 
 class Class_1_C5680766BB76CB43 : public ::System::Object
 {
 public:
-	::RPG::Client::IRogueFormulaBuffCountItem* _SubItem_k__BackingField; // 0x10
-	::RPG::Client::IRogueFormulaBuffCountItem* _MainItem_k__BackingField; // 0x18
+	::RPG::Client::IRogueFormulaBuffCountItem* _MainItem_k__BackingField; // 0x10
+	::RPG::Client::IRogueFormulaBuffCountItem* _SubItem_k__BackingField; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::RogueTournFormulaRow* a1)
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONDITIONPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1712BED0)
-#define RPG_GAMECORE_CONDITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1712BFE0)
+#define RPG_GAMECORE_CONDITIONPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18832DC0)
+#define RPG_GAMECORE_CONDITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18832ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConditionParam_TypeDefinitionIndex = 11925;
+	inline static constexpr unsigned int ConditionParam_TypeDefinitionIndex = 12356;
 
 	class ConditionParam : public ::System::Object
 	{

@@ -3,21 +3,24 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatGameState_TypeDefinitionIndex = 28345;
+	inline static constexpr unsigned int DiceCombatGameState_TypeDefinitionIndex = 33989;
 
 	enum class DiceCombatGameState : ::System::Byte
 	{
 		WaitPlayerEnterAndLoading = 0x1,
 		Coin = 0x2,
 		TurnPrepare = 0x3,
-		AttackerRollDice = 0x4,
-		AttackerSwapDice = 0x5,
-		AttackerConfirmDiceModifier = 0x6,
-		DefenderRollDice = 0x7,
-		DefenderSwapDice = 0x8,
-		DefenderConfirmDiceModifier = 0x9,
-		Combat = 0xA,
-		TurnEnd = 0xB,
-		GameFinish = 0xC,
+		TacticsBuy = 0x4,
+		AttackerRollDice = 0x5,
+		AttackerSwapDice = 0x6,
+		PreAttackerConfirmDiceModifier = 0x7,
+		AttackerConfirmDiceModifier = 0x8,
+		DefenderRollDice = 0x9,
+		DefenderSwapDice = 0xA,
+		PreDefenderConfirmDiceModifier = 0xB,
+		DefenderConfirmDiceModifier = 0xC,
+		Combat = 0xD,
+		TurnEnd = 0xE,
+		GameFinish = 0xF,
 	};
 }

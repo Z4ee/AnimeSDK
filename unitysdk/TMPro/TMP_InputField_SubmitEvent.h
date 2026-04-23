@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TMPRO_TMP_INPUTFIELD_SUBMITEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18921370)
+#define TMPRO_TMP_INPUTFIELD_SUBMITEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35AFC0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_SubmitEvent_TypeDefinitionIndex = 34335;
+	inline static constexpr unsigned int TMP_InputField_SubmitEvent_TypeDefinitionIndex = 40154;
 
 	class TMP_InputField_SubmitEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
 	{

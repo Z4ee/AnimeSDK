@@ -3,31 +3,31 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
-#define SOFA_CORE_OBSERVABLEOBJECT_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1838BED0)
-#define SOFA_CORE_OBSERVABLEOBJECT_GETPROPERTYCHANGEDEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1838C020)
-#define SOFA_CORE_OBSERVABLEOBJECT_ONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1838BF90)
-#define SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1838BF30)
-#define SOFA_CORE_OBSERVABLEOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1838C260)
-#define SOFA_CORE_OBSERVABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18388EE0)
+#define SOFA_CORE_OBSERVABLEOBJECT_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19DC6840)
+#define SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19DC68A0)
+#define SOFA_CORE_OBSERVABLEOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DC6B40)
+#define SOFA_CORE_OBSERVABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC6B30)
+#define SOFA_CORE_OBSERVABLEOBJECT__GETPROPERTYCHANGEDEVENTARGS_OFFSET UNITYSDK_OFFSET(0x19DC6990)
+#define SOFA_CORE_OBSERVABLEOBJECT__ONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19DC6900)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableObject_TypeDefinitionIndex = 34005;
+	inline static constexpr unsigned int ObservableObject_TypeDefinitionIndex = 39814;
 
 	class ObservableObject : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet__PROPERTY_EVENT_ARGS()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x26AC0);
-		}
 		static ::System::ComponentModel::PropertyChangedEventArgs** StaticGet__NULL_EVENT_ARGS()
 		{
-			return (::System::ComponentModel::PropertyChangedEventArgs**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x26AC8);
+			return (::System::ComponentModel::PropertyChangedEventArgs**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x23FE0);
+		}
+		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet__PROPERTY_EVENT_ARGS()
+		{
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x23FE8);
 		}
 		::System::ComponentModel::PropertyChangedEventHandler* PropertyChanged; // 0x10
 
@@ -51,14 +51,14 @@ namespace Sofa::Core
 			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::PropertyChangedEventHandler*))((::PBYTE)hIl2Cpp + SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET))(this, value);
 		}
 
-		::System::Void OnPropertyChanged(::System::String* propertyName)
+		::System::Void _OnPropertyChanged(::System::String* propertyName)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SOFA_CORE_OBSERVABLEOBJECT_ONPROPERTYCHANGED_OFFSET))(this, propertyName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SOFA_CORE_OBSERVABLEOBJECT__ONPROPERTYCHANGED_OFFSET))(this, propertyName);
 		}
 
-		static ::System::ComponentModel::PropertyChangedEventArgs* GetPropertyChangedEventArgs(::System::String* propertyName)
+		static ::System::ComponentModel::PropertyChangedEventArgs* _GetPropertyChangedEventArgs(::System::String* propertyName)
 		{
-			return ((::System::ComponentModel::PropertyChangedEventArgs*(*)(::System::String*))((::PBYTE)hIl2Cpp + SOFA_CORE_OBSERVABLEOBJECT_GETPROPERTYCHANGEDEVENTARGS_OFFSET))(propertyName);
+			return ((::System::ComponentModel::PropertyChangedEventArgs*(*)(::System::String*))((::PBYTE)hIl2Cpp + SOFA_CORE_OBSERVABLEOBJECT__GETPROPERTYCHANGEDEVENTARGS_OFFSET))(propertyName);
 		}
 	};
 }

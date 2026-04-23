@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingBattlePresetArmyConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEPRESETCONFIG_METHOD_2_7A7C2D93AEEFBBF6_OFFSET UNITYSDK_OFFSET(0x17080AE0)
-#define RPG_GAMECORE_CHENLINGBATTLEPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17080C50)
+#define RPG_GAMECORE_CHENLINGBATTLEPRESETCONFIG_METHOD_2_7A7C2D93AEEFBBF6_OFFSET UNITYSDK_OFFSET(0x187E5BA0)
+#define RPG_GAMECORE_CHENLINGBATTLEPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187E5D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattlePresetConfig_TypeDefinitionIndex = 14382;
+	inline static constexpr unsigned int ChenLingBattlePresetConfig_TypeDefinitionIndex = 14852;
 
 	class ChenLingBattlePresetConfig : public ::RPG::GameCore::JsonConfig
 	{

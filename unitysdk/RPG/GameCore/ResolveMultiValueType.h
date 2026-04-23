@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResolveMultiValueType_TypeDefinitionIndex = 16754;
+	inline static constexpr unsigned int ResolveMultiValueType_TypeDefinitionIndex = 17348;
 
 	enum class ResolveMultiValueType : ::System::Int32
 	{

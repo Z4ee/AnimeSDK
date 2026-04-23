@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYREPORTRESULTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17446790)
-#define RPG_GAMECORE_MONOPOLYREPORTRESULTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174470C0)
+#define RPG_GAMECORE_MONOPOLYREPORTRESULTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B533F0)
+#define RPG_GAMECORE_MONOPOLYREPORTRESULTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B53D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyReportResultRow_TypeDefinitionIndex = 11059;
+	inline static constexpr unsigned int MonopolyReportResultRow_TypeDefinitionIndex = 11462;
 
 	class MonopolyReportResultRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::String* FigurePrefabPath; // 0x18
-		::RPG::Client::TextID UnlockTips; // 0x20
-		::RPG::Client::TextID Name; // 0x30
-		::RPG::Client::TextID DescDetail; // 0x40
-		::System::Int32 MBTIValueX; // 0x50
-		::System::Int32 MBTIValueY; // 0x54
-		::System::UInt32 ID; // 0x58
-		::RPG::Client::TextID Desc; // 0x60
+		::RPG::Client::TextID Desc; // 0x20
+		::System::Int32 MBTIValueX; // 0x30
+		::System::UInt32 ID; // 0x34
+		::System::Int32 MBTIValueY; // 0x38
+		::RPG::Client::TextID Name; // 0x40
+		::RPG::Client::TextID UnlockTips; // 0x50
+		::RPG::Client::TextID DescDetail; // 0x60
 
 		::System::Void _ctor()
 		{

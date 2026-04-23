@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int InternalListPool_1___c_TypeDefinitionIndex = 34876;
+	inline static constexpr unsigned int InternalListPool_1___c_TypeDefinitionIndex = 40695;
 
 	template <typename T>
 	class InternalListPool_1___c : public ::System::Object

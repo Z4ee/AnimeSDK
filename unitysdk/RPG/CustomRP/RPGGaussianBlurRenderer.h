@@ -8,23 +8,23 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x16ABE110)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x16ABE1D0)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABE040)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18161480)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18161540)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x181613B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGGaussianBlurRenderer_TypeDefinitionIndex = 29422;
+	inline static constexpr unsigned int RPGGaussianBlurRenderer_TypeDefinitionIndex = 35189;
 
 	class RPGGaussianBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x28
-		::RPG::CustomRP::GaussianFilterKernel* _GaussianFilterKernel; // 0x30
-		::UnityEngine::Material* _Uber; // 0x38
-		::System::Int32 _LightenTex; // 0x40
-		::System::Int32 _GlobalGaussianBlurTex1; // 0x44
-		::System::Int32 _GlobalGaussianBlurTex0; // 0x48
+		::RPG::CustomRP::GaussianFilterKernel* _GaussianFilterKernel; // 0x28
+		::UnityEngine::Material* _Uber; // 0x30
+		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x38
+		::System::Int32 _GlobalGaussianBlurTex0; // 0x40
+		::System::Int32 _LightenTex; // 0x44
+		::System::Int32 _GlobalGaussianBlurTex1; // 0x48
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* matLib, ::UnityEngine::MaterialPropertyBlock* uberSheet)
 		{

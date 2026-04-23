@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171B4AF0)
-#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171B52E0)
+#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188C22F0)
+#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188C2AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveGearTypeConfigRow_TypeDefinitionIndex = 10668;
+	inline static constexpr unsigned int EvolveGearTypeConfigRow_TypeDefinitionIndex = 10919;
 
 	class EvolveGearTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TypeImgColor; // 0x10
-		::System::String* TypeImg; // 0x18
-		::System::String* WeaponToastEffectBg; // 0x20
-		::System::String* Name; // 0x28
-		::System::String* MixDetailPropsInfoBg; // 0x30
-		::System::String* FontColor; // 0x38
+		::System::String* TypeImg; // 0x10
+		::System::String* MixDetailPropsInfoBg; // 0x18
+		::System::String* FontColor; // 0x20
+		::System::String* WeaponToastEffectBg; // 0x28
+		::System::String* Name; // 0x30
+		::System::String* TypeImgColor; // 0x38
 		::RPG::GameCore::EvolveBuildSeason Season; // 0x40
 		::RPG::GameCore::EvolveGearType ID; // 0x44
 

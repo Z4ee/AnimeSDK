@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ServerPrefsData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SERVERPREFSCONFIG_METHOD_2_51BB0A34274766EF_OFFSET UNITYSDK_OFFSET(0x176A3C50)
-#define RPG_GAMECORE_SERVERPREFSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x176A3D90)
+#define RPG_GAMECORE_SERVERPREFSCONFIG_METHOD_2_51BB0A34274766EF_OFFSET UNITYSDK_OFFSET(0x18E06750)
+#define RPG_GAMECORE_SERVERPREFSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E06890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsConfig_TypeDefinitionIndex = 22471;
+	inline static constexpr unsigned int ServerPrefsConfig_TypeDefinitionIndex = 23443;
 
 	class ServerPrefsConfig : public ::RPG::GameCore::JsonConfig
 	{

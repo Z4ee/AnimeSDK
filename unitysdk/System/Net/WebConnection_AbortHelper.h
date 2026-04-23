@@ -5,12 +5,12 @@
 namespace System { class EventArgs; }
 namespace System::Net { class WebConnection; }
 
-#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET UNITYSDK_OFFSET(0x187246C0)
-#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1871D000)
+#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET UNITYSDK_OFFSET(0x1A15ED20)
+#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A157810)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnection_AbortHelper_TypeDefinitionIndex = 2872;
+	inline static constexpr unsigned int WebConnection_AbortHelper_TypeDefinitionIndex = 2873;
 
 	class WebConnection_AbortHelper : public ::System::Object
 	{

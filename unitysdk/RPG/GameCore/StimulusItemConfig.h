@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STIMULUSITEMCONFIG_METHOD_2_B6468824F6353279_OFFSET UNITYSDK_OFFSET(0x1777C460)
-#define RPG_GAMECORE_STIMULUSITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1777C510)
+#define RPG_GAMECORE_STIMULUSITEMCONFIG_METHOD_2_B6468824F6353279_OFFSET UNITYSDK_OFFSET(0x18EA2240)
+#define RPG_GAMECORE_STIMULUSITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA22F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StimulusItemConfig_TypeDefinitionIndex = 14332;
+	inline static constexpr unsigned int StimulusItemConfig_TypeDefinitionIndex = 14802;
 
 	class StimulusItemConfig : public ::RPG::GameCore::JsonConfig
 	{

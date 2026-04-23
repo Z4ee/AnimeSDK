@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xA046FF0)
+#define RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xADC5AC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelEntranceChimeraSlot_TypeDefinitionIndex = 63769;
+	inline static constexpr unsigned int ChimeraDuelEntranceChimeraSlot_TypeDefinitionIndex = 71815;
 
 	class ChimeraDuelEntranceChimeraSlot : public ::UnityEngine::MonoBehaviour
 	{

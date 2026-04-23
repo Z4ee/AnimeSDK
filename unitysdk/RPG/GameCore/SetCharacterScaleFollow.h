@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SETCHARACTERSCALEFOLLOW_METHOD_3_C6A0F12DFFE44EC3_OFFSET UNITYSDK_OFFSET(0x176AE520)
-#define RPG_GAMECORE_SETCHARACTERSCALEFOLLOW_METHOD_3_F385005891770F99_OFFSET UNITYSDK_OFFSET(0x176AE5A0)
-#define RPG_GAMECORE_SETCHARACTERSCALEFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x176AE570)
+#define RPG_GAMECORE_SETCHARACTERSCALEFOLLOW_METHOD_3_C6A0F12DFFE44EC3_OFFSET UNITYSDK_OFFSET(0x18E10E40)
+#define RPG_GAMECORE_SETCHARACTERSCALEFOLLOW_METHOD_3_F385005891770F99_OFFSET UNITYSDK_OFFSET(0x18E10EC0)
+#define RPG_GAMECORE_SETCHARACTERSCALEFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E10E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterScaleFollow_TypeDefinitionIndex = 20830;
+	inline static constexpr unsigned int SetCharacterScaleFollow_TypeDefinitionIndex = 21539;
 
 	class SetCharacterScaleFollow : public ::RPG::GameCore::TaskConfig
 	{

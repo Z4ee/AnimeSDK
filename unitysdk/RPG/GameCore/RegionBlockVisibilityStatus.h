@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RegionBlockVisibilityStatus_TypeDefinitionIndex = 17608;
+	inline static constexpr unsigned int RegionBlockVisibilityStatus_TypeDefinitionIndex = 18221;
 
 	enum class RegionBlockVisibilityStatus : ::System::Int32
 	{

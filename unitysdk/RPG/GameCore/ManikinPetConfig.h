@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/RPG/GameCore/PetBodySize.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_MANIKINPETCONFIG_METHOD_2_A355C17B5CAA7D1D_OFFSET UNITYSDK_OFFSET(0x18A870E0)
+#define RPG_GAMECORE_MANIKINPETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A873B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ManikinPetConfig_TypeDefinitionIndex = 16588;
+
+	class ManikinPetConfig : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::RPG::GameCore::PetBodySize PetBodySize; // 0x10
+		::System::Boolean EnableIdleShow; // 0x14
+		::System::String* FreeStyleCharacterID; // 0x18
+		::System::String* FreeStyleCharacterConfigPath; // 0x20
+		::Il2CppArray<::System::String*>* AnimEventConfigList; // 0x28
+		::System::String* ResidentEffectKey; // 0x30
+		::System::String* ResidentPossessionKey; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINPETCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_A355C17B5CAA7D1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinPetConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinPetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINPETCONFIG_METHOD_2_A355C17B5CAA7D1D_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProxy_State_TypeDefinitionIndex = 27952;
+	inline static constexpr unsigned int VolumeProxy_State_TypeDefinitionIndex = 33576;
 
 	enum class VolumeProxy_State : ::System::Int32
 	{

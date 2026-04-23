@@ -5,12 +5,12 @@
 
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
-#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1865E050)
-#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1865DFF0)
+#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1A098900)
+#define MONO_NET_SECURITY_ASYNCHANDSHAKEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0988A0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncHandshakeRequest_TypeDefinitionIndex = 2418;
+	inline static constexpr unsigned int AsyncHandshakeRequest_TypeDefinitionIndex = 2419;
 
 	class AsyncHandshakeRequest : public ::Mono::Net::Security::AsyncProtocolRequest
 	{

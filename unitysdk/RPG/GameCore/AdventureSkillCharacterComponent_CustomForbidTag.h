@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillCharacterComponent_CustomForbidTag_TypeDefinitionIndex = 45753;
+	inline static constexpr unsigned int AdventureSkillCharacterComponent_CustomForbidTag_TypeDefinitionIndex = 52408;
 
 	enum class AdventureSkillCharacterComponent_CustomForbidTag : ::System::Int32
 	{

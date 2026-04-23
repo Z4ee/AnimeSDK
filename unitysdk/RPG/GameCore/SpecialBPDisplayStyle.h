@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialBPDisplayStyle_TypeDefinitionIndex = 21782;
+	inline static constexpr unsigned int SpecialBPDisplayStyle_TypeDefinitionIndex = 22520;
 
 	enum class SpecialBPDisplayStyle : ::System::Int32
 	{

@@ -3,22 +3,22 @@
 #include "unitysdk/Class_2_3A284BE358DB4BF2.h"
 #include "unitysdk/Enum_3_63BCB6C405BA8A1D_1.h"
 
-class Class_1_FA4F4A67B1C04320_753;
+class Class_1_D17272E82AE804C2_792;
 namespace RPG::Client { class RogueKeywordInfo; }
 
-#define CLASS_3_21A261506CD33F16_METHOD_3_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0x11569790)
-#define CLASS_3_21A261506CD33F16__CTOR_OFFSET UNITYSDK_OFFSET(0x11569780)
+#define CLASS_3_21A261506CD33F16_METHOD_3_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0x117F5A60)
+#define CLASS_3_21A261506CD33F16__CTOR_OFFSET UNITYSDK_OFFSET(0x117F5A50)
 
-inline static constexpr unsigned int Class_3_21A261506CD33F16_TypeDefinitionIndex = 54606;
+inline static constexpr unsigned int Class_3_21A261506CD33F16_TypeDefinitionIndex = 61794;
 
 class Class_3_21A261506CD33F16 : public ::Class_2_3A284BE358DB4BF2
 {
 public:
-	::Class_1_FA4F4A67B1C04320_753* Field_3_0; // 0x28
+	::Class_1_D17272E82AE804C2_792* Field_3_0; // 0x28
 
-	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_1 a1, ::RPG::Client::RogueKeywordInfo* a2, ::Class_1_FA4F4A67B1C04320_753* a3)
+	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_1 a1, ::RPG::Client::RogueKeywordInfo* a2, ::Class_1_D17272E82AE804C2_792* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_1, ::RPG::Client::RogueKeywordInfo*, ::Class_1_FA4F4A67B1C04320_753*))((::PBYTE)hIl2Cpp + CLASS_3_21A261506CD33F16__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_1, ::RPG::Client::RogueKeywordInfo*, ::Class_1_D17272E82AE804C2_792*))((::PBYTE)hIl2Cpp + CLASS_3_21A261506CD33F16__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_3_EBEE0D0A222A8264()

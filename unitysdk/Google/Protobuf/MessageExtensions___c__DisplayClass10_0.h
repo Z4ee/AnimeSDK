@@ -5,12 +5,12 @@
 namespace Google::Protobuf { class IMessage; }
 namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 
-#define GOOGLE_PROTOBUF_MESSAGEEXTENSIONS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15AE8C00)
-#define GOOGLE_PROTOBUF_MESSAGEEXTENSIONS___C__DISPLAYCLASS10_0__ISINITIALIZED_B__0_OFFSET UNITYSDK_OFFSET(0x15AE8C80)
+#define GOOGLE_PROTOBUF_MESSAGEEXTENSIONS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170E5350)
+#define GOOGLE_PROTOBUF_MESSAGEEXTENSIONS___C__DISPLAYCLASS10_0__ISINITIALIZED_B__0_OFFSET UNITYSDK_OFFSET(0x170E53D0)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int MessageExtensions___c__DisplayClass10_0_TypeDefinitionIndex = 6194;
+	inline static constexpr unsigned int MessageExtensions___c__DisplayClass10_0_TypeDefinitionIndex = 6204;
 
 	class MessageExtensions___c__DisplayClass10_0 : public ::System::Object
 	{

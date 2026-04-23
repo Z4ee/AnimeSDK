@@ -9,11 +9,11 @@ namespace RPG::Client::LittleGame { class PlacementConfig; }
 namespace RPG::Client::LittleGame { class PlacementGroupConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16850DD0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF8800)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieBossConfig_TypeDefinitionIndex = 32785;
+	inline static constexpr unsigned int MovieBossConfig_TypeDefinitionIndex = 38575;
 
 	class MovieBossConfig : public ::RPG::Client::LittleGame::MovieEnemyConfig
 	{

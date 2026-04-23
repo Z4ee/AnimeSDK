@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IFrameSyncOperationSource_1_TypeDefinitionIndex = 45257;
+	inline static constexpr unsigned int IFrameSyncOperationSource_1_TypeDefinitionIndex = 49438;
 
 	template <typename TContext>
 	class IFrameSyncOperationSource_1

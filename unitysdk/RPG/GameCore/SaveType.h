@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SaveType_TypeDefinitionIndex = 10076;
+	inline static constexpr unsigned int SaveType_TypeDefinitionIndex = 10268;
 
 	enum class SaveType : ::System::Int32
 	{

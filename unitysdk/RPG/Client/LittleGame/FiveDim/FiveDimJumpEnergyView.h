@@ -4,17 +4,17 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMJUMPENERGYVIEW_SETENERGY_OFFSET UNITYSDK_OFFSET(0x9A0AF60)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMJUMPENERGYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A0B010)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMJUMPENERGYVIEW_SETENERGY_OFFSET UNITYSDK_OFFSET(0xA6B5610)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMJUMPENERGYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA6B56C0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimJumpEnergyView_TypeDefinitionIndex = 62853;
+	inline static constexpr unsigned int FiveDimJumpEnergyView_TypeDefinitionIndex = 70890;
 
 	class FiveDimJumpEnergyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Transform*>* EnergyNodes; // 0x1C0
+		::Il2CppArray<::UnityEngine::Transform*>* EnergyNodes; // 0x1D0
 
 		::System::Void _ctor()
 		{

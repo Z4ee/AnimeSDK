@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineSwitchReason_TypeDefinitionIndex = 55486;
+	inline static constexpr unsigned int StoryLineSwitchReason_TypeDefinitionIndex = 62679;
 
 	enum class StoryLineSwitchReason : ::System::Int32
 	{

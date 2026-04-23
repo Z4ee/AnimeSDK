@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HideTopPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9FC571354593E967_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105443F0)
-#define CLASS_3_9FC571354593E967__CTOR_OFFSET UNITYSDK_OFFSET(0x105443C0)
+#define CLASS_3_9FC571354593E967_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0B7A40)
+#define CLASS_3_9FC571354593E967__CTOR_OFFSET UNITYSDK_OFFSET(0xC0B7A10)
 
-inline static constexpr unsigned int Class_3_9FC571354593E967_TypeDefinitionIndex = 46925;
+inline static constexpr unsigned int Class_3_9FC571354593E967_TypeDefinitionIndex = 53638;
 
 class Class_3_9FC571354593E967 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideTopPage*>
 {

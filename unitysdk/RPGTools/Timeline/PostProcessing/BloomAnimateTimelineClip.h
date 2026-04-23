@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class BloomAnimateTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB872C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FB900)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomAnimateTimelineClip_TypeDefinitionIndex = 39351;
+	inline static constexpr unsigned int BloomAnimateTimelineClip_TypeDefinitionIndex = 45260;
 
 	class BloomAnimateTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::BloomAnimateTimelineBehaviour*>
 	{

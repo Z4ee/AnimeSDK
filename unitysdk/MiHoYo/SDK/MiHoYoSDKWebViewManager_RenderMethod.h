@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager_RenderMethod_TypeDefinitionIndex = 37301;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_RenderMethod_TypeDefinitionIndex = 43178;
 
 	enum class MiHoYoSDKWebViewManager_RenderMethod : ::System::Int32
 	{

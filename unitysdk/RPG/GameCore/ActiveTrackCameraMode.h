@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveTrackCameraMode_TypeDefinitionIndex = 19156;
+	inline static constexpr unsigned int ActiveTrackCameraMode_TypeDefinitionIndex = 19815;
 
 	enum class ActiveTrackCameraMode : ::System::Int32
 	{

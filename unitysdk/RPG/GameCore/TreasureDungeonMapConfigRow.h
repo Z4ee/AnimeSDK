@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178BD1B0)
-#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178BD300)
+#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190BB820)
+#define RPG_GAMECORE_TREASUREDUNGEONMAPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190BB970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonMapConfigRow_TypeDefinitionIndex = 11422;
+	inline static constexpr unsigned int TreasureDungeonMapConfigRow_TypeDefinitionIndex = 11824;
 
 	class TreasureDungeonMapConfigRow : public ::System::Object
 	{

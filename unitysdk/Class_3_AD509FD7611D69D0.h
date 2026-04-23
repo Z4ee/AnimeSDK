@@ -7,18 +7,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSoundMusicRhythmStageBGM; }
 namespace System { class String; }
 
-#define CLASS_3_AD509FD7611D69D0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10A71BE0)
-#define CLASS_3_AD509FD7611D69D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A71C20)
-#define CLASS_3_AD509FD7611D69D0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A71BB0)
-#define CLASS_3_AD509FD7611D69D0___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10A71EE0)
+#define CLASS_3_AD509FD7611D69D0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11A29D00)
+#define CLASS_3_AD509FD7611D69D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11A29D40)
+#define CLASS_3_AD509FD7611D69D0__CTOR_OFFSET UNITYSDK_OFFSET(0x11A29CD0)
+#define CLASS_3_AD509FD7611D69D0___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11A2A000)
 
-inline static constexpr unsigned int Class_3_AD509FD7611D69D0_TypeDefinitionIndex = 45410;
+inline static constexpr unsigned int Class_3_AD509FD7611D69D0_TypeDefinitionIndex = 52055;
 
 class Class_3_AD509FD7611D69D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerSoundMusicRhythmStageBGM*>
 {
 public:
-	::System::String* Field_3_1; // 0x28
-	::RPG::GameCore::GameEntity* Field_3_0; // 0x30
+	::RPG::GameCore::GameEntity* Field_3_0; // 0x28
+	::System::String* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerSoundMusicRhythmStageBGM* a2)
 	{

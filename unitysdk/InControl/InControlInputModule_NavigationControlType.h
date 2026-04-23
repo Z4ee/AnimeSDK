@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlInputModule_NavigationControlType_TypeDefinitionIndex = 31437;
+	inline static constexpr unsigned int InControlInputModule_NavigationControlType_TypeDefinitionIndex = 37157;
 
 	enum class InControlInputModule_NavigationControlType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int IEnableTab_TypeDefinitionIndex = 29653;
+	inline static constexpr unsigned int IEnableTab_TypeDefinitionIndex = 35373;
 
 	class IEnableTab
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideStageItemBehaviour_StageItemInfo_TypeDefinitionIndex = 38978;
+	inline static constexpr unsigned int HideStageItemBehaviour_StageItemInfo_TypeDefinitionIndex = 44881;
 
 	struct alignas(8) HideStageItemBehaviour_StageItemInfo
 	{

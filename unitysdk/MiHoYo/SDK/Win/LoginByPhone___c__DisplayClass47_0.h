@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class LoginByPhone; }
 
-#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160BECA0)
-#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x160BF860)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17724B50)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17725710)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByPhone___c__DisplayClass47_0_TypeDefinitionIndex = 8142;
+	inline static constexpr unsigned int LoginByPhone___c__DisplayClass47_0_TypeDefinitionIndex = 8288;
 
 	class LoginByPhone___c__DisplayClass47_0 : public ::System::Object
 	{

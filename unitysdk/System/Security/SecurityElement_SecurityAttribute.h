@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x161EF1D0)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x161EF1E0)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x161ED630)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1781BB10)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1781BB20)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17819F70)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 943;
+	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 945;
 
 	class SecurityElement_SecurityAttribute : public ::System::Object
 	{
 	public:
-		::System::String* _value; // 0x10
-		::System::String* _name; // 0x18
+		::System::String* _name; // 0x10
+		::System::String* _value; // 0x18
 
 		::System::Void _ctor(::System::String* name, ::System::String* value)
 		{

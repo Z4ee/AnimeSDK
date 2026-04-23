@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class InvokeResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F30FE0)
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__ONGETINVOKERESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x15F336B0)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1757A2C0)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__ONGETINVOKERESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1757C820)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass29_0_TypeDefinitionIndex = 7738;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass29_0_TypeDefinitionIndex = 7885;
 
 	class MiHoYoSDKDll___c__DisplayClass29_0 : public ::System::Object
 	{

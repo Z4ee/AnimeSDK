@@ -3,7 +3,7 @@
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int AnimatableProperty_ShaderPropertyType_TypeDefinitionIndex = 34885;
+	inline static constexpr unsigned int AnimatableProperty_ShaderPropertyType_TypeDefinitionIndex = 40704;
 
 	enum class AnimatableProperty_ShaderPropertyType : ::System::Int32
 	{

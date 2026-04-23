@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetGraphDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BC870092F29EC9BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10909560)
-#define CLASS_3_BC870092F29EC9BE__CTOR_OFFSET UNITYSDK_OFFSET(0x10909530)
+#define CLASS_3_BC870092F29EC9BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA91690)
+#define CLASS_3_BC870092F29EC9BE__CTOR_OFFSET UNITYSDK_OFFSET(0xAA91660)
 
-inline static constexpr unsigned int Class_3_BC870092F29EC9BE_TypeDefinitionIndex = 43102;
+inline static constexpr unsigned int Class_3_BC870092F29EC9BE_TypeDefinitionIndex = 49092;
 
 class Class_3_BC870092F29EC9BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetGraphDynamicString*>
 {

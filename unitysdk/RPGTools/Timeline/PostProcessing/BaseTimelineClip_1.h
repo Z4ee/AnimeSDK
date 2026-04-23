@@ -9,7 +9,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BaseTimelineClip_1_TypeDefinitionIndex = 39338;
+	inline static constexpr unsigned int BaseTimelineClip_1_TypeDefinitionIndex = 45247;
 
 	template <typename T>
 	class BaseTimelineClip_1 : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_VECTOR3PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x188FBF00)
-#define UNITYENGINE_RENDERING_VECTOR3PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188FBEB0)
+#define UNITYENGINE_RENDERING_VECTOR3PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1A335BF0)
+#define UNITYENGINE_RENDERING_VECTOR3PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A335BA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Vector3Parameter_TypeDefinitionIndex = 27934;
+	inline static constexpr unsigned int Vector3Parameter_TypeDefinitionIndex = 33558;
 
 	class Vector3Parameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector3>
 	{

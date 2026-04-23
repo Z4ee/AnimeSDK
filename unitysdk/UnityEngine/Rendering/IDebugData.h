@@ -5,7 +5,7 @@ namespace System { class Action; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IDebugData_TypeDefinitionIndex = 27808;
+	inline static constexpr unsigned int IDebugData_TypeDefinitionIndex = 33432;
 
 	class IDebugData
 	{

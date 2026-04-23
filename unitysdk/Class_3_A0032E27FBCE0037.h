@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchAudioListenerToCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A0032E27FBCE0037_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D1E290)
-#define CLASS_3_A0032E27FBCE0037__CTOR_OFFSET UNITYSDK_OFFSET(0x8D1E260)
+#define CLASS_3_A0032E27FBCE0037_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10ACB250)
+#define CLASS_3_A0032E27FBCE0037__CTOR_OFFSET UNITYSDK_OFFSET(0x10ACB220)
 
-inline static constexpr unsigned int Class_3_A0032E27FBCE0037_TypeDefinitionIndex = 47420;
+inline static constexpr unsigned int Class_3_A0032E27FBCE0037_TypeDefinitionIndex = 54155;
 
 class Class_3_A0032E27FBCE0037 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchAudioListenerToCamera*>
 {

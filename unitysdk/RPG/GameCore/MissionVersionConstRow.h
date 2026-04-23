@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MISSIONVERSIONCONSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17424F60)
-#define RPG_GAMECORE_MISSIONVERSIONCONSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174254F0)
+#define RPG_GAMECORE_MISSIONVERSIONCONSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B31830)
+#define RPG_GAMECORE_MISSIONVERSIONCONSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B31DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionVersionConstRow_TypeDefinitionIndex = 12958;
+	inline static constexpr unsigned int MissionVersionConstRow_TypeDefinitionIndex = 13419;
 
 	class MissionVersionConstRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 VersionFinalMainMissionID; // 0x10
-		::System::UInt32 ID; // 0x14
-		::System::UInt32 VersionFinalGapMainMissionID; // 0x18
+		::System::UInt32 VersionFinalGapMainMissionID; // 0x14
+		::System::UInt32 ID; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,26 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1705F060)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1705F810)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187C3E60)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187C4610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeStoryGroupExtraConfigRow_TypeDefinitionIndex = 11844;
+	inline static constexpr unsigned int ChallengeStoryGroupExtraConfigRow_TypeDefinitionIndex = 12275;
 
 	class ChallengeStoryGroupExtraConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ThemeToastPicPath; // 0x10
-		::System::String* ThemePosterEffectPrefabPath; // 0x18
-		::System::String* ThemeIconPicPath; // 0x20
-		::System::String* ThemePosterTabPicPath; // 0x28
-		::Il2CppArray<::System::UInt32>* SubMazeBuffList; // 0x30
+		::Il2CppArray<::System::UInt32>* SubMazeBuffList; // 0x10
+		::System::String* ThemePosterTabPicPath; // 0x18
+		::System::String* ThemePosterBgPicPath; // 0x20
+		::System::String* ThemeToastPicPath; // 0x28
+		::System::String* ThemePosterEffectPrefabPath; // 0x30
 		::Il2CppArray<::System::UInt32>* BuffList; // 0x38
-		::System::String* ThemePosterBgPicPath; // 0x40
-		::System::UInt32 ThemeID; // 0x48
-		::System::UInt32 GroupID; // 0x4C
-		::RPG::GameCore::ChallengeStoryType StoryType; // 0x50
+		::System::String* ThemeIconPicPath; // 0x40
+		::RPG::GameCore::ChallengeStoryType StoryType; // 0x48
+		::System::UInt32 ThemeID; // 0x4C
+		::System::UInt32 GroupID; // 0x50
 
 		::System::Void _ctor()
 		{

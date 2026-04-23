@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ThreadedLoadingDebug_TypeDefinitionIndex = 4467;
+	inline static constexpr unsigned int PostLateUpdate_ThreadedLoadingDebug_TypeDefinitionIndex = 4469;
 
 	struct alignas(1) PostLateUpdate_ThreadedLoadingDebug
 	{

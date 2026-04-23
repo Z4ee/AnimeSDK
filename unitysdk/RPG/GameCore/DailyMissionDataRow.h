@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAILYMISSIONDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171461D0)
-#define RPG_GAMECORE_DAILYMISSIONDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171468A0)
+#define RPG_GAMECORE_DAILYMISSIONDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1884D450)
+#define RPG_GAMECORE_DAILYMISSIONDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1884DB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyMissionDataRow_TypeDefinitionIndex = 11968;
+	inline static constexpr unsigned int DailyMissionDataRow_TypeDefinitionIndex = 12401;
 
 	class DailyMissionDataRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 QuestID; // 0x18
 		::System::UInt32 DailyMissionType; // 0x1C
-		::System::UInt32 GroupID; // 0x20
-		::System::UInt32 UnlockMainMission; // 0x24
-		::System::UInt32 QuestID; // 0x28
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 GroupID; // 0x24
+		::System::UInt32 UnlockMainMission; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCameraXAxisByPlayerTargetAxis; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_69B6E9A36B76D7F3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105749A0)
-#define CLASS_3_69B6E9A36B76D7F3__CTOR_OFFSET UNITYSDK_OFFSET(0x10574970)
+#define CLASS_3_69B6E9A36B76D7F3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12923390)
+#define CLASS_3_69B6E9A36B76D7F3__CTOR_OFFSET UNITYSDK_OFFSET(0x12923360)
 
-inline static constexpr unsigned int Class_3_69B6E9A36B76D7F3_TypeDefinitionIndex = 47225;
+inline static constexpr unsigned int Class_3_69B6E9A36B76D7F3_TypeDefinitionIndex = 53957;
 
 class Class_3_69B6E9A36B76D7F3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCameraXAxisByPlayerTargetAxis*>
 {

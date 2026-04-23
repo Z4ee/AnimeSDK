@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int ObjectComparer_1_TypeDefinitionIndex = 1537;
+	inline static constexpr unsigned int ObjectComparer_1_TypeDefinitionIndex = 1538;
 
 	template <typename T>
 	class ObjectComparer_1 : public ::System::Collections::Generic::Comparer_1<T>

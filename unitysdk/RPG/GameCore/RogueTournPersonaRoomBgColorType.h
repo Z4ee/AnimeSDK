@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomBgColorType_TypeDefinitionIndex = 10198;
+	inline static constexpr unsigned int RogueTournPersonaRoomBgColorType_TypeDefinitionIndex = 10417;
 
 	enum class RogueTournPersonaRoomBgColorType : ::System::Int32
 	{

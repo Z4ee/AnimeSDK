@@ -8,9 +8,9 @@ class HipplenBuilderActivityAsset_StatModifier;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERACTIVITYASSET_ACTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x10C1AD30)
+#define HIPPLENBUILDERACTIVITYASSET_ACTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x11DFD530)
 
-inline static constexpr unsigned int HipplenBuilderActivityAsset_Activity_TypeDefinitionIndex = 38130;
+inline static constexpr unsigned int HipplenBuilderActivityAsset_Activity_TypeDefinitionIndex = 44014;
 
 class HipplenBuilderActivityAsset_Activity : public ::System::Object
 {

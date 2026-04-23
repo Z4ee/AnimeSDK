@@ -4,9 +4,9 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_4516953B78B9F396__CTOR_OFFSET UNITYSDK_OFFSET(0x16896FD0)
+#define CLASS_1_4516953B78B9F396__CTOR_OFFSET UNITYSDK_OFFSET(0x17F297C0)
 
-inline static constexpr unsigned int Class_1_4516953B78B9F396_TypeDefinitionIndex = 32209;
+inline static constexpr unsigned int Class_1_4516953B78B9F396_TypeDefinitionIndex = 37929;
 
 class Class_1_4516953B78B9F396 : public ::System::Object
 {

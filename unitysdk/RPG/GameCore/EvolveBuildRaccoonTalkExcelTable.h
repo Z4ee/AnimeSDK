@@ -13,45 +13,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171ADE30)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171ADC80)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171AD950)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171ADC20)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171AE040)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x171AD9D0)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171AE080)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171AE260)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171AE490)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171AE840)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x171AE1C0)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171AE120)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x188BB5F0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x188BB440)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x188BB110)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x188BB3E0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x188BB800)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x188BB190)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x188BB840)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x188BBA20)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x188BBC50)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x188BC000)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x188BB980)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x188BB8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex = 10674;
+	inline static constexpr unsigned int EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex = 10925;
 
 	class EvolveBuildRaccoonTalkExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0x3C3F0);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CA40);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0x3C3F8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CA48);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CA50);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0x3C400);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0xED90);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0xD3C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0xED91);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildRaccoonTalkExcelTable_TypeDefinitionIndex)->GetStaticField(0xD3C1);
 		}
 
 		static ::System::Void _cctor()

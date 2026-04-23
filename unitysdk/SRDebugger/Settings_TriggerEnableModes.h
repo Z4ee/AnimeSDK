@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings_TriggerEnableModes_TypeDefinitionIndex = 29622;
+	inline static constexpr unsigned int Settings_TriggerEnableModes_TypeDefinitionIndex = 35342;
 
 	enum class Settings_TriggerEnableModes : ::System::Int32
 	{

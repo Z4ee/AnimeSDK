@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoMouthBakedBlendShapes_LipType_TypeDefinitionIndex = 39547;
+	inline static constexpr unsigned int EmoMouthBakedBlendShapes_LipType_TypeDefinitionIndex = 45456;
 
 	enum class EmoMouthBakedBlendShapes_LipType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 33157;
+	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 38947;
 
 	enum class ShapeType : ::System::Int32
 	{

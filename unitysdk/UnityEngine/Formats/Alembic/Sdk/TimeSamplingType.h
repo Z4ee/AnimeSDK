@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int TimeSamplingType_TypeDefinitionIndex = 34944;
+	inline static constexpr unsigned int TimeSamplingType_TypeDefinitionIndex = 40772;
 
 	enum class TimeSamplingType : ::System::Int32
 	{

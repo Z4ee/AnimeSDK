@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleSpecialSkillMark; }
 
-#define CLASS_3_F466CD5051405E88_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87E6750)
-#define CLASS_3_F466CD5051405E88__CTOR_OFFSET UNITYSDK_OFFSET(0x87E6720)
+#define CLASS_3_F466CD5051405E88_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x119130F0)
+#define CLASS_3_F466CD5051405E88__CTOR_OFFSET UNITYSDK_OFFSET(0x119130C0)
 
-inline static constexpr unsigned int Class_3_F466CD5051405E88_TypeDefinitionIndex = 38481;
+inline static constexpr unsigned int Class_3_F466CD5051405E88_TypeDefinitionIndex = 44363;
 
 class Class_3_F466CD5051405E88 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToggleSpecialSkillMark*>
 {

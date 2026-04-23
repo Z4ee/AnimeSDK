@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RandomSelectMuseumStuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2E2FEDA26790A0FA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1102E300)
-#define CLASS_3_2E2FEDA26790A0FA__CTOR_OFFSET UNITYSDK_OFFSET(0x1102E2D0)
+#define CLASS_3_2E2FEDA26790A0FA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x124B1310)
+#define CLASS_3_2E2FEDA26790A0FA__CTOR_OFFSET UNITYSDK_OFFSET(0x124B12E0)
 
-inline static constexpr unsigned int Class_3_2E2FEDA26790A0FA_TypeDefinitionIndex = 43063;
+inline static constexpr unsigned int Class_3_2E2FEDA26790A0FA_TypeDefinitionIndex = 49049;
 
 class Class_3_2E2FEDA26790A0FA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RandomSelectMuseumStuff*>
 {

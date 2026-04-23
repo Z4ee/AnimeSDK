@@ -5,24 +5,24 @@
 namespace RPG::Client { class QuestData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x907B250)
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x907B290)
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x907B2A0)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CD8330)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD8370)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x9CD8380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AetherDivideTrainerData___c_TypeDefinitionIndex = 50544;
+	inline static constexpr unsigned int AetherDivideTrainerData___c_TypeDefinitionIndex = 57407;
 
 	class AetherDivideTrainerData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x31D30);
-		}
 		static ::RPG::Client::AetherDivideTrainerData___c** StaticGet___9()
 		{
-			return (::RPG::Client::AetherDivideTrainerData___c**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x31D38);
+			return (::RPG::Client::AetherDivideTrainerData___c**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x26EC0);
+		}
+		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x26EC8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageDynamicLightBoxBehavior_SwitchMode_TypeDefinitionIndex = 58116;
+	inline static constexpr unsigned int StageDynamicLightBoxBehavior_SwitchMode_TypeDefinitionIndex = 65403;
 
 	enum class StageDynamicLightBoxBehavior_SwitchMode : ::System::Int32
 	{

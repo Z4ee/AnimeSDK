@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ENpcLookAtMode_TypeDefinitionIndex = 10106;
+	inline static constexpr unsigned int ENpcLookAtMode_TypeDefinitionIndex = 10298;
 
 	enum class ENpcLookAtMode : ::System::Int32
 	{

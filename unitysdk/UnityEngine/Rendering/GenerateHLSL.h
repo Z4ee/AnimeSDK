@@ -3,22 +3,22 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/UnityEngine/Rendering/PackingRules.h"
 
-#define UNITYENGINE_RENDERING_GENERATEHLSL__CTOR_OFFSET UNITYSDK_OFFSET(0x188E5D20)
+#define UNITYENGINE_RENDERING_GENERATEHLSL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A31FAB0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GenerateHLSL_TypeDefinitionIndex = 27861;
+	inline static constexpr unsigned int GenerateHLSL_TypeDefinitionIndex = 33485;
 
 	class GenerateHLSL : public ::System::Attribute
 	{
 	public:
 		::System::Int32 paramDefinesStart; // 0x10
-		::System::Boolean needParamDebug; // 0x14
-		::System::Boolean needAccessors; // 0x15
-		::UnityEngine::Rendering::PackingRules packingRules; // 0x18
-		::System::Boolean needSetters; // 0x1C
-		::System::Boolean containsPackedFields; // 0x1D
-		::System::Boolean omitStructDeclaration; // 0x1E
+		::System::Boolean omitStructDeclaration; // 0x14
+		::System::Boolean containsPackedFields; // 0x15
+		::System::Boolean needSetters; // 0x16
+		::System::Boolean needParamDebug; // 0x17
+		::System::Boolean needAccessors; // 0x18
+		::UnityEngine::Rendering::PackingRules packingRules; // 0x1C
 
 		::System::Void _ctor(::UnityEngine::Rendering::PackingRules rules, ::System::Boolean needAccessors, ::System::Boolean needSetters, ::System::Boolean needParamDebug, ::System::Int32 paramDefinesStart, ::System::Boolean omitStructDeclaration, ::System::Boolean containsPackedFields)
 		{

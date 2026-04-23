@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FB7470)
-#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB7B10)
+#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186DAD30)
+#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186DB360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillPropertyOverrideRow_TypeDefinitionIndex = 11606;
+	inline static constexpr unsigned int AvatarSkillPropertyOverrideRow_TypeDefinitionIndex = 12017;
 
 	class AvatarSkillPropertyOverrideRow : public ::System::Object
 	{
 	public:
 		::System::String* ReplacePointIconPrefab; // 0x10
-		::System::UInt32 SkillID; // 0x18
-		::System::Boolean IsSecretSkillNeed; // 0x1C
-		::System::Boolean DisableIconColorHint; // 0x1D
+		::System::Boolean IsSecretSkillNeed; // 0x18
+		::System::Boolean DisableIconColorHint; // 0x19
+		::System::UInt32 SkillID; // 0x1C
 
 		::System::Void _ctor()
 		{

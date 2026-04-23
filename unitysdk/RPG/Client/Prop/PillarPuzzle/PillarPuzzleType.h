@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
-	inline static constexpr unsigned int PillarPuzzleType_TypeDefinitionIndex = 64413;
+	inline static constexpr unsigned int PillarPuzzleType_TypeDefinitionIndex = 72460;
 
 	enum class PillarPuzzleType : ::System::Int32
 	{

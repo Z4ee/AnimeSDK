@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueMagicScepterFuncType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_741_TypeDefinitionIndex = 54940;
+namespace RPG::Client { class GridFightTraitComponent; }
+namespace System { class Action; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_741_TypeDefinitionIndex = 60229;
 
 class Class_0_16E4307DCC419505_741
 {

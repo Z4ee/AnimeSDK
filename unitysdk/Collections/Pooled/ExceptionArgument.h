@@ -3,7 +3,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int ExceptionArgument_TypeDefinitionIndex = 5348;
+	inline static constexpr unsigned int ExceptionArgument_TypeDefinitionIndex = 5359;
 
 	enum class ExceptionArgument : ::System::Int32
 	{

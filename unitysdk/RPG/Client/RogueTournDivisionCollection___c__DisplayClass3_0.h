@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueTournDivisionData; }
 
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA389CF0)
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__DISPLAYCLASS3_0__GETDIVISIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA38A8D0)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0C1140)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__DISPLAYCLASS3_0__GETDIVISIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB0C1D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDivisionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 55108;
+	inline static constexpr unsigned int RogueTournDivisionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 62296;
 
 	class RogueTournDivisionCollection___c__DisplayClass3_0 : public ::System::Object
 	{

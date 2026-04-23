@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/LocalAccessInstruction.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184CBC60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F06B30)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InitializeLocalInstruction_TypeDefinitionIndex = 3493;
+	inline static constexpr unsigned int InitializeLocalInstruction_TypeDefinitionIndex = 3495;
 
 	class InitializeLocalInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction
 	{

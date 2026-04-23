@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENERGYBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1719BF60)
-#define RPG_GAMECORE_ENERGYBARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1719C580)
+#define RPG_GAMECORE_ENERGYBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188A96A0)
+#define RPG_GAMECORE_ENERGYBARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188A9CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnergyBarConfigRow_TypeDefinitionIndex = 12072;
+	inline static constexpr unsigned int EnergyBarConfigRow_TypeDefinitionIndex = 12505;
 
 	class EnergyBarConfigRow : public ::System::Object
 	{

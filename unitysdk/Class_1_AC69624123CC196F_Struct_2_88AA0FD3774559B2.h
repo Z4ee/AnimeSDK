@@ -4,7 +4,7 @@
 
 namespace EnviromentSystem { class EnviromentProfile; }
 
-inline static constexpr unsigned int Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2_TypeDefinitionIndex = 39447;
+inline static constexpr unsigned int Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2_TypeDefinitionIndex = 45356;
 
 struct alignas(8) Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2
 {

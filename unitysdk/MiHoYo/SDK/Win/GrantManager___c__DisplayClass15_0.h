@@ -7,18 +7,18 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160AA1C0)
-#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__NEWDEVICEGRANTMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x160AD540)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1770F9B0)
+#define MIHOYO_SDK_WIN_GRANTMANAGER___C__DISPLAYCLASS15_0__NEWDEVICEGRANTMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x17713000)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GrantManager___c__DisplayClass15_0_TypeDefinitionIndex = 7972;
+	inline static constexpr unsigned int GrantManager___c__DisplayClass15_0_TypeDefinitionIndex = 8118;
 
 	class GrantManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::String* url; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::String* url; // 0x18
 		::System::String* ticket; // 0x20
 		::MiHoYo::SDK::GrantType type; // 0x28
 

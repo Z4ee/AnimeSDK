@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Win { class MiHoYoSDKHTTPServer; }
 namespace System::Net::Sockets { class TcpClient; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__BEGINACCEPTTCPCLIENT_B__0_OFFSET UNITYSDK_OFFSET(0x160F9950)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160F8F60)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__BEGINACCEPTTCPCLIENT_B__0_OFFSET UNITYSDK_OFFSET(0x17478B70)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17478260)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKHTTPServer___c__DisplayClass19_0_TypeDefinitionIndex = 8011;
+	inline static constexpr unsigned int MiHoYoSDKHTTPServer___c__DisplayClass19_0_TypeDefinitionIndex = 8157;
 
 	class MiHoYoSDKHTTPServer___c__DisplayClass19_0 : public ::System::Object
 	{

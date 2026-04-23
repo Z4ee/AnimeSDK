@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178ABCB0)
-#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178ABE30)
+#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190AA720)
+#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190AA8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyEventConfigRow_TypeDefinitionIndex = 14044;
+	inline static constexpr unsigned int TrainPartyEventConfigRow_TypeDefinitionIndex = 14519;
 
 	class TrainPartyEventConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* EffectJsonPath; // 0x10
-		::System::String* EventActPath; // 0x18
+		::System::String* EventActPath; // 0x10
+		::System::String* EffectJsonPath; // 0x18
 		::System::UInt32 EventID; // 0x20
 
 		::System::Void _ctor()

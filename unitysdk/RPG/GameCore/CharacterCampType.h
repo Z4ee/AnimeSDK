@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterCampType_TypeDefinitionIndex = 11585;
+	inline static constexpr unsigned int CharacterCampType_TypeDefinitionIndex = 11996;
 
 	enum class CharacterCampType : ::System::Int32
 	{

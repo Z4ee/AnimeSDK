@@ -9,30 +9,30 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E827D0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x15E85FA0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x15E866A0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__2_OFFSET UNITYSDK_OFFSET(0x15E86BC0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__3_OFFSET UNITYSDK_OFFSET(0x15E86BE0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__5_OFFSET UNITYSDK_OFFSET(0x15E86C00)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__6_OFFSET UNITYSDK_OFFSET(0x15E86160)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__7_OFFSET UNITYSDK_OFFSET(0x15E86900)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174B9BF0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x174BD3E0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x174BDAE0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__2_OFFSET UNITYSDK_OFFSET(0x174BE000)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__3_OFFSET UNITYSDK_OFFSET(0x174BE020)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__5_OFFSET UNITYSDK_OFFSET(0x174BE040)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__6_OFFSET UNITYSDK_OFFSET(0x174BD5A0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS38_0__SHOWGRANTMAIL_B__7_OFFSET UNITYSDK_OFFSET(0x174BDD40)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass38_0_TypeDefinitionIndex = 7968;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass38_0_TypeDefinitionIndex = 8114;
 
 	class RealNameManager___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__6; // 0x10
-		::MiHoYo::SDK::AccountModel* account; // 0x18
-		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x20
-		::System::Action* getCaptchaAction; // 0x28
+		::MiHoYo::SDK::AccountModel* account; // 0x10
+		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x18
+		::System::Action* getCaptchaAction; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__7; // 0x28
 		::System::Action_1<::System::String*>* verifyAction; // 0x30
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__7; // 0x38
-		::System::Boolean isShowRedirect; // 0x40
-		::System::Boolean isShowOtherVerify; // 0x41
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__6; // 0x38
+		::System::Boolean isShowOtherVerify; // 0x40
+		::System::Boolean isShowRedirect; // 0x41
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FillInputActionPriority_TypeDefinitionIndex = 47690;
+	inline static constexpr unsigned int FillInputActionPriority_TypeDefinitionIndex = 54428;
 
 	enum class FillInputActionPriority : ::System::Int32
 	{

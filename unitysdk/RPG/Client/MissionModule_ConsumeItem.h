@@ -6,7 +6,7 @@ namespace RPG::GameCore { class MissionItemConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_ConsumeItem_TypeDefinitionIndex = 53759;
+	inline static constexpr unsigned int MissionModule_ConsumeItem_TypeDefinitionIndex = 60903;
 
 	struct alignas(8) MissionModule_ConsumeItem
 	{

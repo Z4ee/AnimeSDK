@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define CLASS_2_5FB197AA475BE273_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0x1152ABF0)
-#define CLASS_2_5FB197AA475BE273_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x1152AC00)
-#define CLASS_2_5FB197AA475BE273__CTOR_OFFSET UNITYSDK_OFFSET(0x1152AC10)
+#define CLASS_2_5FB197AA475BE273_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0x12985850)
+#define CLASS_2_5FB197AA475BE273_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x12985860)
+#define CLASS_2_5FB197AA475BE273__CTOR_OFFSET UNITYSDK_OFFSET(0x12985870)
 
-inline static constexpr unsigned int Class_2_5FB197AA475BE273_TypeDefinitionIndex = 39724;
+inline static constexpr unsigned int Class_2_5FB197AA475BE273_TypeDefinitionIndex = 45633;
 
 class Class_2_5FB197AA475BE273 : public ::System::Attribute
 {
 public:
-	::System::String* _Alias_k__BackingField; // 0x10
-	::System::Type* _ComponentType_k__BackingField; // 0x18
+	::System::Type* _ComponentType_k__BackingField; // 0x10
+	::System::String* _Alias_k__BackingField; // 0x18
 
 	::System::Void _ctor(::System::String* a1, ::System::Type* a2)
 	{

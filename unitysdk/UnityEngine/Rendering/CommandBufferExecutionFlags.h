@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferExecutionFlags_TypeDefinitionIndex = 4532;
+	inline static constexpr unsigned int CommandBufferExecutionFlags_TypeDefinitionIndex = 4534;
 
 	enum class CommandBufferExecutionFlags : ::System::Int32
 	{

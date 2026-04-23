@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflcetionModifyType_TypeDefinitionIndex = 57286;
+	inline static constexpr unsigned int ReflcetionModifyType_TypeDefinitionIndex = 64540;
 
 	enum class ReflcetionModifyType : ::System::Int32
 	{

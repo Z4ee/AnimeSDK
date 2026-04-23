@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1761AEE0)
-#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1761B600)
+#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D286F0)
+#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D28E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleDisplayRow_TypeDefinitionIndex = 13424;
+	inline static constexpr unsigned int RogueMiracleDisplayRow_TypeDefinitionIndex = 13897;
 
 	class RogueMiracleDisplayRow : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_2.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_COLORARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x15D20590)
-#define MESSAGEPACK_UNITY_EXTENSION_COLORARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D205A0)
+#define MESSAGEPACK_UNITY_EXTENSION_COLORARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1731DF80)
+#define MESSAGEPACK_UNITY_EXTENSION_COLORARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1731DF90)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int ColorArrayBlitFormatter_TypeDefinitionIndex = 9892;
+	inline static constexpr unsigned int ColorArrayBlitFormatter_TypeDefinitionIndex = 10027;
 
 	class ColorArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_2<::UnityEngine::Color, ::MessagePack::Unity::Extension::ReverseEndianessHelperSimpleRepeat_1<::System::Single>>
 	{

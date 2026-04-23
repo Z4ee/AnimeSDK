@@ -8,21 +8,21 @@ namespace RPG::GameCore { class RogueMagicScepterRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_ACE835D5EBBD5A84_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8755BF0)
-#define CLASS_1_ACE835D5EBBD5A84_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x8755D10)
-#define CLASS_1_ACE835D5EBBD5A84_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0x8755CD0)
-#define CLASS_1_ACE835D5EBBD5A84_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0x8755DE0)
-#define CLASS_1_ACE835D5EBBD5A84_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0x8755D90)
-#define CLASS_1_ACE835D5EBBD5A84__CTOR_1_OFFSET UNITYSDK_OFFSET(0x87557B0)
-#define CLASS_1_ACE835D5EBBD5A84__CTOR_OFFSET UNITYSDK_OFFSET(0x8755610)
+#define CLASS_1_ACE835D5EBBD5A84_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAA17A50)
+#define CLASS_1_ACE835D5EBBD5A84_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xAA17B70)
+#define CLASS_1_ACE835D5EBBD5A84_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0xAA17B30)
+#define CLASS_1_ACE835D5EBBD5A84_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0xAA17C40)
+#define CLASS_1_ACE835D5EBBD5A84_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0xAA17BF0)
+#define CLASS_1_ACE835D5EBBD5A84__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAA17610)
+#define CLASS_1_ACE835D5EBBD5A84__CTOR_OFFSET UNITYSDK_OFFSET(0xAA17470)
 
-inline static constexpr unsigned int Class_1_ACE835D5EBBD5A84_TypeDefinitionIndex = 54932;
+inline static constexpr unsigned int Class_1_ACE835D5EBBD5A84_TypeDefinitionIndex = 62120;
 
 class Class_1_ACE835D5EBBD5A84 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* Field_1_0; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::RogueMagicScepterRow* a1)
 	{

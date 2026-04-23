@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ActionIdType_TypeDefinitionIndex = 6609;
+	inline static constexpr unsigned int ActionIdType_TypeDefinitionIndex = 6643;
 
 	enum class ActionIdType : ::System::Int32
 	{
@@ -38,5 +38,6 @@ namespace MiHoYo::SDK
 		banNotice = 1022,
 		ageGateBan = 1024,
 		paymentRestriction = 1025,
+		googlePCNativeSDK = 1036,
 	};
 }

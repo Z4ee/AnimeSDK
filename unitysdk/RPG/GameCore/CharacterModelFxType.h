@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterModelFxType_TypeDefinitionIndex = 46051;
+	inline static constexpr unsigned int CharacterModelFxType_TypeDefinitionIndex = 52715;
 
 	enum class CharacterModelFxType : ::System::Int32
 	{

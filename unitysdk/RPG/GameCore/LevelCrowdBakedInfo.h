@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelCrowdMemberBakedInfo; }
 
-#define RPG_GAMECORE_LEVELCROWDBAKEDINFO_METHOD_2_169117A642B805FB_OFFSET UNITYSDK_OFFSET(0x17330440)
-#define RPG_GAMECORE_LEVELCROWDBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17330560)
+#define RPG_GAMECORE_LEVELCROWDBAKEDINFO_METHOD_2_169117A642B805FB_OFFSET UNITYSDK_OFFSET(0x18A3DCF0)
+#define RPG_GAMECORE_LEVELCROWDBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3DE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCrowdBakedInfo_TypeDefinitionIndex = 15730;
+	inline static constexpr unsigned int LevelCrowdBakedInfo_TypeDefinitionIndex = 16256;
 
 	class LevelCrowdBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

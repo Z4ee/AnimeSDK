@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RECIPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA28D100)
+#define RPG_CLIENT_RECIPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAF7C4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RecipeConfig_TypeDefinitionIndex = 59618;
+	inline static constexpr unsigned int RecipeConfig_TypeDefinitionIndex = 67014;
 
 	class RecipeConfig : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStateDrivenCamera_Instruction_TypeDefinitionIndex = 30793;
+	inline static constexpr unsigned int CinemachineStateDrivenCamera_Instruction_TypeDefinitionIndex = 36513;
 
 	struct alignas(8) CinemachineStateDrivenCamera_Instruction
 	{

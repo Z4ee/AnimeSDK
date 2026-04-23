@@ -7,12 +7,12 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x84E0A30)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS5_1__REQUESTHOSTADDR_B__3_OFFSET UNITYSDK_OFFSET(0x84E33B0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8D141A0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS5_1__REQUESTHOSTADDR_B__3_OFFSET UNITYSDK_OFFSET(0x8D16BE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService___c__DisplayClass5_1_TypeDefinitionIndex = 36883;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService___c__DisplayClass5_1_TypeDefinitionIndex = 42709;
 
 	class HoYoSDKHttpDnsService___c__DisplayClass5_1 : public ::System::Object
 	{

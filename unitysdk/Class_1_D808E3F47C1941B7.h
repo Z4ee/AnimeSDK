@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/SkillLayoutKey.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_D808E3F47C1941B7_COMPARETO_OFFSET UNITYSDK_OFFSET(0xE46E180)
-#define CLASS_1_D808E3F47C1941B7__CCTOR_OFFSET UNITYSDK_OFFSET(0xE46E200)
-#define CLASS_1_D808E3F47C1941B7__CTOR_OFFSET UNITYSDK_OFFSET(0xE46E1F0)
+#define CLASS_1_D808E3F47C1941B7_COMPARETO_OFFSET UNITYSDK_OFFSET(0x976C5C0)
+#define CLASS_1_D808E3F47C1941B7__CCTOR_OFFSET UNITYSDK_OFFSET(0x976C640)
+#define CLASS_1_D808E3F47C1941B7__CTOR_OFFSET UNITYSDK_OFFSET(0x976C630)
 
-inline static constexpr unsigned int Class_1_D808E3F47C1941B7_TypeDefinitionIndex = 44565;
+inline static constexpr unsigned int Class_1_D808E3F47C1941B7_TypeDefinitionIndex = 51299;
 
 class Class_1_D808E3F47C1941B7 : public ::System::Object
 {
 public:
 	static ::Class_1_D808E3F47C1941B7** StaticGet_Field_1_4()
 	{
-		return (::Class_1_D808E3F47C1941B7**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D808E3F47C1941B7_TypeDefinitionIndex)->GetStaticField(0x377F0);
+		return (::Class_1_D808E3F47C1941B7**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D808E3F47C1941B7_TypeDefinitionIndex)->GetStaticField(0x7890);
 	}
 	::Il2CppArray<::RPG::GameCore::SkillLayoutKey>* Field_1_1; // 0x10
 	::System::Int32 Field_1_0; // 0x18
-	::System::Boolean Field_1_3; // 0x1C
-	::System::Boolean Field_1_2; // 0x1D
+	::System::Boolean Field_1_2; // 0x1C
+	::System::Boolean Field_1_3; // 0x1D
 
 	::System::Void _ctor()
 	{

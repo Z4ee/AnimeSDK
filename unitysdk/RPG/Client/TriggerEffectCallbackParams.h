@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class TriggerEffectParams; }
 
-#define RPG_CLIENT_TRIGGEREFFECTCALLBACKPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD0)
+#define RPG_CLIENT_TRIGGEREFFECTCALLBACKPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TriggerEffectCallbackParams_TypeDefinitionIndex = 57192;
+	inline static constexpr unsigned int TriggerEffectCallbackParams_TypeDefinitionIndex = 64445;
 
 	struct alignas(8) TriggerEffectCallbackParams
 	{

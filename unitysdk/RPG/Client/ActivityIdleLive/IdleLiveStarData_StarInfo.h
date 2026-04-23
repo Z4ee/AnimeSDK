@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_FINISHCHAPTERID_OFFSET UNITYSDK_OFFSET(0x9B75550)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_LIVEROOMEXPNEEDED_OFFSET UNITYSDK_OFFSET(0x9B75570)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9B75590)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_STAR_OFFSET UNITYSDK_OFFSET(0x9B75530)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_FINISHCHAPTERID_OFFSET UNITYSDK_OFFSET(0x9B75560)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_LIVEROOMEXPNEEDED_OFFSET UNITYSDK_OFFSET(0x9B75580)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x9B755A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_STAR_OFFSET UNITYSDK_OFFSET(0x9B75540)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9B75020)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int IdleLiveStarData_StarInfo_TypeDefinitionIndex = 69392;
+
+	class IdleLiveStarData_StarInfo : public ::System::Object
+	{
+	public:
+		::RPG::Client::TextID _Name_k__BackingField; // 0x10
+		::System::UInt32 _FinishChapterId_k__BackingField; // 0x20
+		::System::UInt32 _Star_k__BackingField; // 0x24
+		::System::UInt32 _LiveRoomExpNeeded_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Star()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_STAR_OFFSET))(this);
+		}
+
+		::System::Void set_Star(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_STAR_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_FinishChapterId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_FINISHCHAPTERID_OFFSET))(this);
+		}
+
+		::System::Void set_FinishChapterId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_FINISHCHAPTERID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_LiveRoomExpNeeded()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_LIVEROOMEXPNEEDED_OFFSET))(this);
+		}
+
+		::System::Void set_LiveRoomExpNeeded(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_LIVEROOMEXPNEEDED_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA_STARINFO_SET_NAME_OFFSET))(this, value);
+		}
+	};
+}

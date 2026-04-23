@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerFormulaUnlockType_TypeDefinitionIndex = 12031;
+	inline static constexpr unsigned int DrinkMakerFormulaUnlockType_TypeDefinitionIndex = 12464;
 
 	enum class DrinkMakerFormulaUnlockType : ::System::Int32
 	{

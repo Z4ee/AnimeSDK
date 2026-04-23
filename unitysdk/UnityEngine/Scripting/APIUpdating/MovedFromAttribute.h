@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18A4D5A0)
-#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4D540)
+#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A484EA0)
+#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A484E40)
 
 namespace UnityEngine::Scripting::APIUpdating
 {
-	inline static constexpr unsigned int MovedFromAttribute_TypeDefinitionIndex = 4312;
+	inline static constexpr unsigned int MovedFromAttribute_TypeDefinitionIndex = 4314;
 
 	class MovedFromAttribute : public ::System::Attribute
 	{

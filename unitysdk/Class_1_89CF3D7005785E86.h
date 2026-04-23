@@ -6,21 +6,21 @@
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_89CF3D7005785E86_CLEAR_OFFSET UNITYSDK_OFFSET(0x8743930)
-#define CLASS_1_89CF3D7005785E86_METHOD_1_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x8743020)
-#define CLASS_1_89CF3D7005785E86_METHOD_1_CDFDC252200E6E82_OFFSET UNITYSDK_OFFSET(0x8742E90)
-#define CLASS_1_89CF3D7005785E86_METHOD_1_F036BAE8A0DD8C47_OFFSET UNITYSDK_OFFSET(0x8742D70)
-#define CLASS_1_89CF3D7005785E86__CTOR_OFFSET UNITYSDK_OFFSET(0x87439C0)
+#define CLASS_1_89CF3D7005785E86_CLEAR_OFFSET UNITYSDK_OFFSET(0x1117E8E0)
+#define CLASS_1_89CF3D7005785E86_METHOD_1_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x1117DFD0)
+#define CLASS_1_89CF3D7005785E86_METHOD_1_CDFDC252200E6E82_OFFSET UNITYSDK_OFFSET(0x1117DE40)
+#define CLASS_1_89CF3D7005785E86_METHOD_1_F036BAE8A0DD8C47_OFFSET UNITYSDK_OFFSET(0x1117DD20)
+#define CLASS_1_89CF3D7005785E86__CTOR_OFFSET UNITYSDK_OFFSET(0x1117E980)
 
-inline static constexpr unsigned int Class_1_89CF3D7005785E86_TypeDefinitionIndex = 49299;
+inline static constexpr unsigned int Class_1_89CF3D7005785E86_TypeDefinitionIndex = 56096;
 
 class Class_1_89CF3D7005785E86 : public ::System::Object
 {
 public:
-	::System::Object* Field_1_4; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
+	::RPG::GameCore::EntityTimeRewindComponent* Field_1_0; // 0x10
+	::System::Object* Field_1_4; // 0x18
 	::Il2CppArray<::RPG::GameCore::EntityTimeRewindComponent*>* Field_1_3; // 0x20
-	::RPG::GameCore::EntityTimeRewindComponent* Field_1_0; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x28
 	::RPG::GameCore::BindTimeRewindMultiControlType Field_1_2; // 0x30
 	::System::Int32 Field_1_5; // 0x34
 

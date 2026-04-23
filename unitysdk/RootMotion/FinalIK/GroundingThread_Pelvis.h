@@ -5,11 +5,11 @@
 
 namespace RootMotion::FinalIK { class GroundingThread; }
 
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET UNITYSDK_OFFSET(0x2A830)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET UNITYSDK_OFFSET(0x2B200)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 35191;
+	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 41017;
 
 	struct alignas(8) GroundingThread_Pelvis
 	{

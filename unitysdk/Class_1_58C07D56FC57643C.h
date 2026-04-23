@@ -6,9 +6,9 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define CLASS_1_58C07D56FC57643C__CTOR_OFFSET UNITYSDK_OFFSET(0x10973920)
+#define CLASS_1_58C07D56FC57643C__CTOR_OFFSET UNITYSDK_OFFSET(0x123C3C50)
 
-inline static constexpr unsigned int Class_1_58C07D56FC57643C_TypeDefinitionIndex = 57066;
+inline static constexpr unsigned int Class_1_58C07D56FC57643C_TypeDefinitionIndex = 64317;
 
 class Class_1_58C07D56FC57643C : public ::System::Object
 {

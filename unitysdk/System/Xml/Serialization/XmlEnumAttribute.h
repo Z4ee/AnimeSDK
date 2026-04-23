@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLENUMATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x185CA490)
-#define SYSTEM_XML_SERIALIZATION_XMLENUMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x185CA480)
+#define SYSTEM_XML_SERIALIZATION_XMLENUMATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A005190)
+#define SYSTEM_XML_SERIALIZATION_XMLENUMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A005180)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlEnumAttribute_TypeDefinitionIndex = 1997;
+	inline static constexpr unsigned int XmlEnumAttribute_TypeDefinitionIndex = 1998;
 
 	class XmlEnumAttribute : public ::System::Attribute
 	{

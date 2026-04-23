@@ -5,7 +5,7 @@ namespace RPG::Client { class IRogueTournGameLevelLayerLinear; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameLevelLinear_TypeDefinitionIndex = 55130;
+	inline static constexpr unsigned int IRogueTournGameLevelLinear_TypeDefinitionIndex = 62318;
 
 	class IRogueTournGameLevelLinear
 	{

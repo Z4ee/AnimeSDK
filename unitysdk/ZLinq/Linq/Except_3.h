@@ -8,7 +8,7 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Except_3_TypeDefinitionIndex = 6498;
+	inline static constexpr unsigned int Except_3_TypeDefinitionIndex = 6531;
 
 	template <typename TEnumerator, typename TEnumerator2, typename TSource>
 	struct Except_3

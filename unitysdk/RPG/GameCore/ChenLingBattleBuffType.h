@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBuffType_TypeDefinitionIndex = 14393;
+	inline static constexpr unsigned int ChenLingBattleBuffType_TypeDefinitionIndex = 14863;
 
 	enum class ChenLingBattleBuffType : ::System::Int32
 	{

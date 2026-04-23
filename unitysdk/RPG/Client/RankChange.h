@@ -7,23 +7,23 @@ namespace RPG::GameCore { class AvatarRankConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET UNITYSDK_OFFSET(0xA287570)
-#define RPG_CLIENT_RANKCHANGE_GET_DESCAFTER_OFFSET UNITYSDK_OFFSET(0xA287440)
-#define RPG_CLIENT_RANKCHANGE_GET_DESCBEFORE_OFFSET UNITYSDK_OFFSET(0xA287310)
-#define RPG_CLIENT_RANKCHANGE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA287260)
-#define RPG_CLIENT_RANKCHANGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA287280)
-#define RPG_CLIENT_RANKCHANGE_GET_RANK_OFFSET UNITYSDK_OFFSET(0xA287240)
-#define RPG_CLIENT_RANKCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA287230)
+#define RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET UNITYSDK_OFFSET(0xAF75EE0)
+#define RPG_CLIENT_RANKCHANGE_GET_DESCAFTER_OFFSET UNITYSDK_OFFSET(0xAF75DB0)
+#define RPG_CLIENT_RANKCHANGE_GET_DESCBEFORE_OFFSET UNITYSDK_OFFSET(0xAF75C80)
+#define RPG_CLIENT_RANKCHANGE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xAF75BC0)
+#define RPG_CLIENT_RANKCHANGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xAF75BE0)
+#define RPG_CLIENT_RANKCHANGE_GET_RANK_OFFSET UNITYSDK_OFFSET(0xAF75BA0)
+#define RPG_CLIENT_RANKCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xAF75B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RankChange_TypeDefinitionIndex = 50789;
+	inline static constexpr unsigned int RankChange_TypeDefinitionIndex = 57668;
 
 	class RankChange : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarRankConfigRow* AfterRank; // 0x10
-		::RPG::GameCore::AvatarRankConfigRow* BeforeRank; // 0x18
+		::RPG::GameCore::AvatarRankConfigRow* BeforeRank; // 0x10
+		::RPG::GameCore::AvatarRankConfigRow* AfterRank; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::AvatarRankConfigRow* beforeRank, ::RPG::GameCore::AvatarRankConfigRow* afterRank)
 		{

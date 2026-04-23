@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromHashSet_1_TypeDefinitionIndex = 6493;
+	inline static constexpr unsigned int FromHashSet_1_TypeDefinitionIndex = 6526;
 
 	template <typename T>
 	struct FromHashSet_1

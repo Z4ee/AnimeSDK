@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/IKJob/IKTransformRef.h"
 #include "unitysdk/Struct_2_231BC944D2991258.h"
-#include "unitysdk/Struct_2_6E1B724B14572104.h"
+#include "unitysdk/Struct_2_6E1B724B14572104_2.h"
 #include "unitysdk/Struct_2_BDACDF5A33E990DF.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -10,11 +10,11 @@
 namespace RPG::Client { class LookAtTargetConstraint; }
 namespace UnityChan { class SpringManager; }
 
-#define STRUCT_2_1E36AD6D9A5F486C_METHOD_2_17594FCE34D1C493_OFFSET UNITYSDK_OFFSET(0x1490B00)
-#define STRUCT_2_1E36AD6D9A5F486C_METHOD_2_3497DC80363F75B5_OFFSET UNITYSDK_OFFSET(0x1490B40)
-#define STRUCT_2_1E36AD6D9A5F486C_METHOD_2_9ED920BA288AD875_OFFSET UNITYSDK_OFFSET(0x1490B10)
+#define STRUCT_2_1E36AD6D9A5F486C_METHOD_2_17594FCE34D1C493_OFFSET UNITYSDK_OFFSET(0xD0A00)
+#define STRUCT_2_1E36AD6D9A5F486C_METHOD_2_3497DC80363F75B5_OFFSET UNITYSDK_OFFSET(0xD0A40)
+#define STRUCT_2_1E36AD6D9A5F486C_METHOD_2_9ED920BA288AD875_OFFSET UNITYSDK_OFFSET(0xD0A10)
 
-inline static constexpr unsigned int Struct_2_1E36AD6D9A5F486C_TypeDefinitionIndex = 55919;
+inline static constexpr unsigned int Struct_2_1E36AD6D9A5F486C_TypeDefinitionIndex = 63153;
 
 struct alignas(8) Struct_2_1E36AD6D9A5F486C
 {
@@ -22,7 +22,7 @@ struct alignas(8) Struct_2_1E36AD6D9A5F486C
 	::UnityEngine::Vector3 Field_2_1; // 0x14
 	::UnityEngine::Vector3 Field_2_2; // 0x20
 	::Struct_2_231BC944D2991258 Field_2_3; // 0x30
-	::Struct_2_6E1B724B14572104 Field_2_4; // 0x1E0
+	::Struct_2_6E1B724B14572104_2 Field_2_4; // 0x1E0
 	::Struct_2_BDACDF5A33E990DF Field_2_5; // 0x1F0
 	::RPG::Client::LookAtTargetConstraint* Field_2_6; // 0x210
 	::RootMotion::IKJob::IKTransformRef Field_2_7; // 0x218

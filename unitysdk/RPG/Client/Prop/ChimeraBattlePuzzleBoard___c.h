@@ -4,34 +4,34 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA03C2D0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA03C310)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C___ADDSTREAMINGCALLBACK_B__41_0_OFFSET UNITYSDK_OFFSET(0xA03C3B0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C___REMOVESTREAMINGSOURCE_B__47_0_OFFSET UNITYSDK_OFFSET(0xA03C460)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C___SPAWNWORK_B__6_0_OFFSET UNITYSDK_OFFSET(0xA03C320)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xADBA7C0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xADBA800)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C___ADDSTREAMINGCALLBACK_B__41_0_OFFSET UNITYSDK_OFFSET(0xADBA8A0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C___REMOVESTREAMINGSOURCE_B__47_0_OFFSET UNITYSDK_OFFSET(0xADBA950)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C___SPAWNWORK_B__6_0_OFFSET UNITYSDK_OFFSET(0xADBA810)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex = 63874;
+	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex = 71921;
 
 	class ChimeraBattlePuzzleBoard___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::ChimeraBattlePuzzleBoard___c** StaticGet___9()
-		{
-			return (::RPG::Client::Prop::ChimeraBattlePuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x47C10);
-		}
-		static ::System::Action** StaticGet___9__41_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x47C18);
-		}
 		static ::System::Action** StaticGet___9__47_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x47C20);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x66E0);
+		}
+		static ::RPG::Client::Prop::ChimeraBattlePuzzleBoard___c** StaticGet___9()
+		{
+			return (::RPG::Client::Prop::ChimeraBattlePuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x66E8);
 		}
 		static ::System::Action** StaticGet___9__6_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x47C28);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x66F0);
+		}
+		static ::System::Action** StaticGet___9__41_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x66F8);
 		}
 
 		static ::System::Void _cctor()

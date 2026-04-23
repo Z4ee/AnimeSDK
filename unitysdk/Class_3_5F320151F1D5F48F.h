@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CreateBattleEventQTEUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5F320151F1D5F48F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BFD540)
-#define CLASS_3_5F320151F1D5F48F__CTOR_OFFSET UNITYSDK_OFFSET(0x8BFD510)
+#define CLASS_3_5F320151F1D5F48F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9730750)
+#define CLASS_3_5F320151F1D5F48F__CTOR_OFFSET UNITYSDK_OFFSET(0x9730720)
 
-inline static constexpr unsigned int Class_3_5F320151F1D5F48F_TypeDefinitionIndex = 46817;
+inline static constexpr unsigned int Class_3_5F320151F1D5F48F_TypeDefinitionIndex = 53526;
 
 class Class_3_5F320151F1D5F48F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateBattleEventQTEUI*>
 {

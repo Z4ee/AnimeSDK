@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DepthBits_TypeDefinitionIndex = 27866;
+	inline static constexpr unsigned int DepthBits_TypeDefinitionIndex = 33490;
 
 	enum class DepthBits : ::System::Int32
 	{

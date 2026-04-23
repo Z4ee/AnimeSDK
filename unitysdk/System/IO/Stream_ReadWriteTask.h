@@ -10,10 +10,10 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x16341D20)
-#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x16342680)
-#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x163426F0)
-#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x16340C60)
+#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1796EFB0)
+#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1796F900)
+#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1796F970)
+#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1796DEF0)
 
 namespace System::IO
 {
@@ -24,15 +24,15 @@ namespace System::IO
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeAsyncCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0x5270);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0x8550);
 		}
-		::System::Threading::ExecutionContext* _context; // 0x50
+		::Il2CppArray<::System::Byte>* _buffer; // 0x50
 		::System::IO::Stream* _stream; // 0x58
-		::Il2CppArray<::System::Byte>* _buffer; // 0x60
+		::System::Threading::ExecutionContext* _context; // 0x60
 		::System::AsyncCallback* _callback; // 0x68
-		::System::Int32 _count; // 0x70
-		::System::Int32 _offset; // 0x74
-		::System::Boolean _isRead; // 0x78
+		::System::Int32 _offset; // 0x70
+		::System::Boolean _isRead; // 0x74
+		::System::Int32 _count; // 0x78
 
 		::System::Void _ctor(::System::Boolean isRead, ::System::Func_2<::System::Object*, ::System::Int32>* function, ::System::Object* state, ::System::IO::Stream* stream, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback)
 		{

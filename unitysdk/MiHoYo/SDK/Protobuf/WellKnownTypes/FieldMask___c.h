@@ -6,25 +6,25 @@ namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class FieldMask; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC5A40)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC5A80)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__24_0_OFFSET UNITYSDK_OFFSET(0x15DC5A90)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__27_0_OFFSET UNITYSDK_OFFSET(0x15DC5B90)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173C31F0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173C3230)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__24_0_OFFSET UNITYSDK_OFFSET(0x173C3240)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__27_0_OFFSET UNITYSDK_OFFSET(0x173C3340)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 28031;
+	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 33655;
 
 	class FieldMask___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__24_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0x9B0);
-		}
 		static ::MiHoYo::SDK::Protobuf::WellKnownTypes::FieldMask___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::FieldMask___c**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0x9B8);
+			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::FieldMask___c**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0xE00);
+		}
+		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__24_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0xE08);
 		}
 
 		static ::System::Void _cctor()

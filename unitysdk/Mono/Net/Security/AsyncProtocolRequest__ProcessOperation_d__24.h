@@ -11,22 +11,22 @@
 namespace Mono::Net::Security { class AsyncProtocolRequest; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__PROCESSOPERATION_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2100680)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__PROCESSOPERATION_D__24_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x81E80)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__PROCESSOPERATION_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x22D3250)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__PROCESSOPERATION_D__24_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1794070)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncProtocolRequest__ProcessOperation_d__24_TypeDefinitionIndex = 2416;
+	inline static constexpr unsigned int AsyncProtocolRequest__ProcessOperation_d__24_TypeDefinitionIndex = 2417;
 
 	struct alignas(8) AsyncProtocolRequest__ProcessOperation_d__24
 	{
-		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x18
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x10
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x20
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Nullable_1<::System::Int32>> __u__1; // 0x38
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x48
-		::Mono::Net::Security::AsyncOperationStatus _newStatus_5__2; // 0x58
-		::System::Int32 __1__state; // 0x5C
+		::System::Threading::CancellationToken cancellationToken; // 0x38
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Nullable_1<::System::Int32>> __u__1; // 0x40
+		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x50
+		::System::Int32 __1__state; // 0x58
+		::Mono::Net::Security::AsyncOperationStatus _newStatus_5__2; // 0x5C
 		::Mono::Net::Security::AsyncOperationStatus _status_5__1; // 0x60
 
 		::System::Void MoveNext()

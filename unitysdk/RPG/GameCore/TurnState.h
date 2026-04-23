@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnState_TypeDefinitionIndex = 16720;
+	inline static constexpr unsigned int TurnState_TypeDefinitionIndex = 17314;
 
 	enum class TurnState : ::System::Int32
 	{

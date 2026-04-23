@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int OidGroup_TypeDefinitionIndex = 1076;
+	inline static constexpr unsigned int OidGroup_TypeDefinitionIndex = 1078;
 
 	enum class OidGroup : ::System::Int32
 	{

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimSectionConfig; }
 namespace RPG::GameCore { class FiveDimSingleFogOfWarConfig; }
 
-#define RPG_GAMECORE_FIVEDIMFOGOFWARCONFIG_METHOD_2_4F464EFE6E5226B6_OFFSET UNITYSDK_OFFSET(0x171F30E0)
-#define RPG_GAMECORE_FIVEDIMFOGOFWARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171F3280)
+#define RPG_GAMECORE_FIVEDIMFOGOFWARCONFIG_METHOD_2_4F464EFE6E5226B6_OFFSET UNITYSDK_OFFSET(0x18902AB0)
+#define RPG_GAMECORE_FIVEDIMFOGOFWARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18902C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFogOfWarConfig_TypeDefinitionIndex = 16997;
+	inline static constexpr unsigned int FiveDimFogOfWarConfig_TypeDefinitionIndex = 17591;
 
 	class FiveDimFogOfWarConfig : public ::RPG::GameCore::JsonConfig
 	{

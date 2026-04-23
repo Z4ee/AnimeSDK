@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/RPGSpeedLine_SpeedLineMode.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_RPGSPEEDLINE_SPEEDLINEMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC9A90)
+#define RPG_CUSTOMRP_RPGSPEEDLINE_SPEEDLINEMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1816CDC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSpeedLine_SpeedLineModeParameter_TypeDefinitionIndex = 29451;
+	inline static constexpr unsigned int RPGSpeedLine_SpeedLineModeParameter_TypeDefinitionIndex = 35218;
 
 	class RPGSpeedLine_SpeedLineModeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::RPGSpeedLine_SpeedLineMode>
 	{

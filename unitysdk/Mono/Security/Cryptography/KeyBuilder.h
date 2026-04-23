@@ -4,19 +4,19 @@
 
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1613C720)
-#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_KEY_OFFSET UNITYSDK_OFFSET(0x1613B3F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_GET_RNG_OFFSET UNITYSDK_OFFSET(0x177683E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_KEY_OFFSET UNITYSDK_OFFSET(0x177670B0)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int KeyBuilder_TypeDefinitionIndex = 2289;
+	inline static constexpr unsigned int KeyBuilder_TypeDefinitionIndex = 2290;
 
 	class KeyBuilder : public ::System::Object
 	{
 	public:
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet_rng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(KeyBuilder_TypeDefinitionIndex)->GetStaticField(0xE700);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(KeyBuilder_TypeDefinitionIndex)->GetStaticField(0x11080);
 		}
 
 		static ::System::Security::Cryptography::RandomNumberGenerator* get_Rng()

@@ -15,7 +15,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int CopyPlayerAchievementByIndexOptionsInternal_TypeDefinitionIndex = 36772;
+	inline static constexpr unsigned int CopyPlayerAchievementByIndexOptionsInternal_TypeDefinitionIndex = 42598;
 
 	struct alignas(8) CopyPlayerAchievementByIndexOptionsInternal
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CELESTIALBODYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA6DDEB0)
+#define CELESTIALBODYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xACF9030)
 
-inline static constexpr unsigned int CelestialBodyData_TypeDefinitionIndex = 38213;
+inline static constexpr unsigned int CelestialBodyData_TypeDefinitionIndex = 44097;
 
 class CelestialBodyData : public ::System::Object
 {

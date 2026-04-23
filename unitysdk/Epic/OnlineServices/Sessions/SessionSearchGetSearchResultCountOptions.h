@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHGETSEARCHRESULTCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x83B2BA0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHGETSEARCHRESULTCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDABB0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionSearchGetSearchResultCountOptions_TypeDefinitionIndex = 35541;
+	inline static constexpr unsigned int SessionSearchGetSearchResultCountOptions_TypeDefinitionIndex = 41367;
 
 	class SessionSearchGetSearchResultCountOptions : public ::System::Object
 	{

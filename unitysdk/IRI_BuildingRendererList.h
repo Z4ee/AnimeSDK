@@ -8,11 +8,11 @@
 class IRI_BuildingRendererList_RendererMatrix;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_BUILDINGRENDERERLIST_METHOD_3_69FEAEDB0A47A437_OFFSET UNITYSDK_OFFSET(0x111DACA0)
-#define IRI_BUILDINGRENDERERLIST_METHOD_3_895E6BF2EDCD95D0_OFFSET UNITYSDK_OFFSET(0x111DAD80)
-#define IRI_BUILDINGRENDERERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x111DADE0)
+#define IRI_BUILDINGRENDERERLIST_METHOD_3_69FEAEDB0A47A437_OFFSET UNITYSDK_OFFSET(0x12418350)
+#define IRI_BUILDINGRENDERERLIST_METHOD_3_895E6BF2EDCD95D0_OFFSET UNITYSDK_OFFSET(0x12418430)
+#define IRI_BUILDINGRENDERERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x12418490)
 
-inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 38081;
+inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 43961;
 
 class IRI_BuildingRendererList : public ::UnityEngine::ScriptableObject
 {

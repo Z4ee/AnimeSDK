@@ -5,29 +5,28 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_6C2797E3349B53EE_CLEAR_OFFSET UNITYSDK_OFFSET(0x8CDE440)
-#define CLASS_1_6C2797E3349B53EE_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x8CDE420)
-#define CLASS_1_6C2797E3349B53EE_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x8CDE400)
-#define CLASS_1_6C2797E3349B53EE_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x8CDE430)
-#define CLASS_1_6C2797E3349B53EE_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x8CDE410)
-#define CLASS_1_6C2797E3349B53EE__CTOR_OFFSET UNITYSDK_OFFSET(0x8CDE4A0)
+#define CLASS_1_6C2797E3349B53EE_CLEAR_OFFSET UNITYSDK_OFFSET(0x127EA720)
+#define CLASS_1_6C2797E3349B53EE_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x127EA700)
+#define CLASS_1_6C2797E3349B53EE_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x127EA6E0)
+#define CLASS_1_6C2797E3349B53EE_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x127EA710)
+#define CLASS_1_6C2797E3349B53EE_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x127EA6F0)
+#define CLASS_1_6C2797E3349B53EE__CTOR_OFFSET UNITYSDK_OFFSET(0x127EA790)
 
-inline static constexpr unsigned int Class_1_6C2797E3349B53EE_TypeDefinitionIndex = 44009;
+inline static constexpr unsigned int Class_1_6C2797E3349B53EE_TypeDefinitionIndex = 49638;
 
 class Class_1_6C2797E3349B53EE : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x18
+	::RPG::GameCore::GameEntity* Field_1_2; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_1; // 0x20
-	::RPG::GameCore::FixPoint Field_1_4; // 0x28
-	::System::Boolean Field_1_7; // 0x30
-	::System::Boolean Field_1_6; // 0x31
-	::System::Boolean Field_1_3; // 0x32
-	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x33
-	::System::Boolean _LockDamageZero_k__BackingField; // 0x34
-	::System::Boolean Field_1_8; // 0x35
-	::RPG::GameCore::FixPoint Field_1_5; // 0x38
+	::System::Boolean _LockDamageZero_k__BackingField; // 0x28
+	::System::Boolean Field_1_3; // 0x29
+	::System::Boolean Field_1_7; // 0x2A
+	::System::Boolean Field_1_5; // 0x2B
+	::System::Boolean Field_1_6; // 0x2C
+	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x2D
+	::RPG::GameCore::FixPoint Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

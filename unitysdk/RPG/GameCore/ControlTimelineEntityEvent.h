@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ControlTimelineEntityEvent_TypeDefinitionIndex = 46306;
+	inline static constexpr unsigned int ControlTimelineEntityEvent_TypeDefinitionIndex = 52981;
 
 	enum class ControlTimelineEntityEvent : ::System::Int32
 	{

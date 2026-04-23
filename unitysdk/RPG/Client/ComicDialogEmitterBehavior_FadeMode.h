@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComicDialogEmitterBehavior_FadeMode_TypeDefinitionIndex = 58057;
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_FadeMode_TypeDefinitionIndex = 65344;
 
 	enum class ComicDialogEmitterBehavior_FadeMode : ::System::Int32
 	{

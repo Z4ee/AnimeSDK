@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SYSTEMOPENMODULE___C__DISPLAYCLASS49_0__CONDITIONPREPARED_B__0_OFFSET UNITYSDK_OFFSET(0xA52EC70)
-#define RPG_CLIENT_SYSTEMOPENMODULE___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA52DC00)
+#define RPG_CLIENT_SYSTEMOPENMODULE___C__DISPLAYCLASS49_0__CONDITIONPREPARED_B__0_OFFSET UNITYSDK_OFFSET(0xB26BCD0)
+#define RPG_CLIENT_SYSTEMOPENMODULE___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB26AC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SystemOpenModule___c__DisplayClass49_0_TypeDefinitionIndex = 55515;
+	inline static constexpr unsigned int SystemOpenModule___c__DisplayClass49_0_TypeDefinitionIndex = 62709;
 
 	class SystemOpenModule___c__DisplayClass49_0 : public ::System::Object
 	{

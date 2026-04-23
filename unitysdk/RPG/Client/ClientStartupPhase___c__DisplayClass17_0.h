@@ -5,12 +5,12 @@
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93E56E0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS17_0___GETSERVERPINGS_B__0_OFFSET UNITYSDK_OFFSET(0x93E5C70)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0932F0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS17_0___GETSERVERPINGS_B__0_OFFSET UNITYSDK_OFFSET(0xA0938B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientStartupPhase___c__DisplayClass17_0_TypeDefinitionIndex = 49564;
+	inline static constexpr unsigned int ClientStartupPhase___c__DisplayClass17_0_TypeDefinitionIndex = 56386;
 
 	class ClientStartupPhase___c__DisplayClass17_0 : public ::System::Object
 	{

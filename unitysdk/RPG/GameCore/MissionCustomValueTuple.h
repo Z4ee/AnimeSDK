@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_D7EAEB1F921AAC5B_OFFSET UNITYSDK_OFFSET(0x17420620)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17420B40)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_D7EAEB1F921AAC5B_OFFSET UNITYSDK_OFFSET(0x18B2CEF0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2D410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueTuple_TypeDefinitionIndex = 17405;
+	inline static constexpr unsigned int MissionCustomValueTuple_TypeDefinitionIndex = 18013;
 
 	class MissionCustomValueTuple : public ::RPG::GameCore::JsonConfig
 	{

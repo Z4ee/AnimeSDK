@@ -7,19 +7,19 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x188A0590)
-#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x188A0620)
-#define UNITYENGINE_PROBUILDER_SHAPES_PLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x188A0930)
+#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2DA370)
+#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2DA400)
+#define UNITYENGINE_PROBUILDER_SHAPES_PLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2DA710)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 34200;
+	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 40019;
 
 	class Plane : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Int32 m_HeightSegments; // 0x10
-		::System::Int32 m_WidthSegments; // 0x14
+		::System::Int32 m_WidthSegments; // 0x10
+		::System::Int32 m_HeightSegments; // 0x14
 
 		::System::Void _ctor()
 		{

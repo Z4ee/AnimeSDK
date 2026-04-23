@@ -16,13 +16,13 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x171F8880)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171F8830)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x171F8870)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18908E10)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18908DC0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18908E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 16990;
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 17584;
 
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{

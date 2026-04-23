@@ -7,22 +7,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RAIDLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1757D8C0)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1757E040)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C87620)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C87DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidLimitConditionRow_TypeDefinitionIndex = 13323;
+	inline static constexpr unsigned int RaidLimitConditionRow_TypeDefinitionIndex = 13798;
 
 	class RaidLimitConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamIntList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::RaidLimitType LimitType; // 0x1C
-		::RPG::GameCore::ParamType ParamType; // 0x20
+		::RPG::GameCore::RaidLimitType LimitType; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ParamInt1; // 0x20
 		::System::UInt32 ParamInt2; // 0x24
-		::System::UInt32 ParamInt1; // 0x28
+		::RPG::GameCore::ParamType ParamType; // 0x28
 		::RPG::Client::TextID LimitDesc; // 0x30
 
 		::System::Void _ctor()

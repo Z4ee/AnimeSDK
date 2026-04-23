@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFRESTAURANTMODULE_TAKEOUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x95E7B30)
+#define RPG_CLIENT_ELFRESTAURANTMODULE_TAKEOUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA26DE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantModule_TakeOutInfo_TypeDefinitionIndex = 51705;
+	inline static constexpr unsigned int ElfRestaurantModule_TakeOutInfo_TypeDefinitionIndex = 58653;
 
 	class ElfRestaurantModule_TakeOutInfo : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestCoachType_TypeDefinitionIndex = 12126;
+	inline static constexpr unsigned int FightFestCoachType_TypeDefinitionIndex = 12559;
 
 	enum class FightFestCoachType : ::System::Int32
 	{

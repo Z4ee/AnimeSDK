@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPlayerRogueDLCRecordData_TypeDefinitionIndex = 52197;
+	inline static constexpr unsigned int IPlayerRogueDLCRecordData_TypeDefinitionIndex = 59149;
 
 	class IPlayerRogueDLCRecordData
 	{

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Sessions { class AddNotifySessionInviteAcceptedO
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYSESSIONINVITEACCEPTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYSESSIONINVITEACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x71870)
+#define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYSESSIONINVITEACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x722A0)
 #define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYSESSIONINVITEACCEPTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int AddNotifySessionInviteAcceptedOptionsInternal_TypeDefinitionIndex = 35412;
+	inline static constexpr unsigned int AddNotifySessionInviteAcceptedOptionsInternal_TypeDefinitionIndex = 41238;
 
 	struct alignas(4) AddNotifySessionInviteAcceptedOptionsInternal
 	{

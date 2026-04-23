@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_910822CB5E4FEDEB_IntersectType_TypeDefinitionIndex = 50485;
+inline static constexpr unsigned int Class_1_910822CB5E4FEDEB_IntersectType_TypeDefinitionIndex = 57348;
 
 enum class Class_1_910822CB5E4FEDEB_IntersectType : ::System::Int32
 {

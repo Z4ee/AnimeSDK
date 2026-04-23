@@ -5,24 +5,24 @@
 namespace RPG::Client { class MemberData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_TREASUREDUNGEONTEAMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA639620)
-#define RPG_CLIENT_TREASUREDUNGEONTEAMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA639660)
-#define RPG_CLIENT_TREASUREDUNGEONTEAMDATA___C__GETCACHESORTEDALLMEMBERDATAS_B__9_0_OFFSET UNITYSDK_OFFSET(0xA639670)
+#define RPG_CLIENT_TREASUREDUNGEONTEAMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3909F0)
+#define RPG_CLIENT_TREASUREDUNGEONTEAMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB390A30)
+#define RPG_CLIENT_TREASUREDUNGEONTEAMDATA___C__GETCACHESORTEDALLMEMBERDATAS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB390A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureDungeonTeamData___c_TypeDefinitionIndex = 55677;
+	inline static constexpr unsigned int TreasureDungeonTeamData___c_TypeDefinitionIndex = 62880;
 
 	class TreasureDungeonTeamData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TreasureDungeonTeamData___c** StaticGet___9()
-		{
-			return (::RPG::Client::TreasureDungeonTeamData___c**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonTeamData___c_TypeDefinitionIndex)->GetStaticField(0x320F0);
-		}
 		static ::System::Comparison_1<::RPG::Client::MemberData*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MemberData*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonTeamData___c_TypeDefinitionIndex)->GetStaticField(0x320F8);
+			return (::System::Comparison_1<::RPG::Client::MemberData*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonTeamData___c_TypeDefinitionIndex)->GetStaticField(0x25820);
+		}
+		static ::RPG::Client::TreasureDungeonTeamData___c** StaticGet___9()
+		{
+			return (::RPG::Client::TreasureDungeonTeamData___c**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonTeamData___c_TypeDefinitionIndex)->GetStaticField(0x25828);
 		}
 
 		static ::System::Void _cctor()

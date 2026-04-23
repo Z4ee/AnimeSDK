@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 
-namespace RPG::GameCore { class TaskContext; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_470_TypeDefinitionIndex = 47821;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_470_TypeDefinitionIndex = 52441;
 
 class Class_0_16E4307DCC419505_470
 {

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYMAPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F76520)
-#define RPG_GAMECORE_ALLEYMAPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F766D0)
+#define RPG_GAMECORE_ALLEYMAPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186990A0)
+#define RPG_GAMECORE_ALLEYMAPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18699250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapRewardRow_TypeDefinitionIndex = 11534;
+	inline static constexpr unsigned int AlleyMapRewardRow_TypeDefinitionIndex = 11936;
 
 	class AlleyMapRewardRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AlleyFloorType LayerID; // 0x10
-		::System::UInt32 MapScore; // 0x14
-		::System::UInt32 ScoreID; // 0x18
+		::System::UInt32 MapScore; // 0x10
+		::System::UInt32 ScoreID; // 0x14
+		::RPG::GameCore::AlleyFloorType LayerID; // 0x18
 		::System::UInt32 RewardID; // 0x1C
 
 		::System::Void _ctor()

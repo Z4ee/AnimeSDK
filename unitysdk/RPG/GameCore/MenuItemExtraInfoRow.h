@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MENUITEMEXTRAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173CEC30)
-#define RPG_GAMECORE_MENUITEMEXTRAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173CF2B0)
+#define RPG_GAMECORE_MENUITEMEXTRAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ADD230)
+#define RPG_GAMECORE_MENUITEMEXTRAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADD8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MenuItemExtraInfoRow_TypeDefinitionIndex = 11983;
+	inline static constexpr unsigned int MenuItemExtraInfoRow_TypeDefinitionIndex = 12416;
 
 	class MenuItemExtraInfoRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ExtraInfoType; // 0x10
 		::System::String* ExtraInfoParam; // 0x18
-		::System::UInt32 ID; // 0x20
-		::RPG::GameCore::MenuItemExtraInfoCondition Condition; // 0x24
+		::RPG::GameCore::MenuItemExtraInfoCondition Condition; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

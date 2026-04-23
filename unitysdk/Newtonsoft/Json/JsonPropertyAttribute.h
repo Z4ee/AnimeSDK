@@ -13,34 +13,34 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_GET_ITEMCONVERTERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16440BA0)
-#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_GET_ITEMCONVERTERTYPE_OFFSET UNITYSDK_OFFSET(0x16440B90)
-#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x16440BB0)
-#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x16440BC0)
-#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16440BE0)
-#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16440BD0)
+#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_GET_ITEMCONVERTERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17A6C540)
+#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_GET_ITEMCONVERTERTYPE_OFFSET UNITYSDK_OFFSET(0x17A6C530)
+#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x17A6C550)
+#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x17A6C560)
+#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A6C580)
+#define NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6C570)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonPropertyAttribute_TypeDefinitionIndex = 8211;
+	inline static constexpr unsigned int JsonPropertyAttribute_TypeDefinitionIndex = 8357;
 
 	class JsonPropertyAttribute : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::Object*>* _ItemConverterParameters_k__BackingField; // 0x10
-		::System::Type* _ItemConverterType_k__BackingField; // 0x18
-		::System::String* _PropertyName_k__BackingField; // 0x20
-		::System::Nullable_1<::System::Int32> _order; // 0x28
-		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _itemTypeNameHandling; // 0x30
-		::System::Nullable_1<::System::Boolean> _isReference; // 0x38
-		::System::Nullable_1<::System::Boolean> _itemIsReference; // 0x3A
-		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling; // 0x3C
-		::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling; // 0x44
-		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling; // 0x4C
-		::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling; // 0x54
-		::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling; // 0x5C
+		::System::String* _PropertyName_k__BackingField; // 0x10
+		::Il2CppArray<::System::Object*>* _ItemConverterParameters_k__BackingField; // 0x18
+		::System::Type* _ItemConverterType_k__BackingField; // 0x20
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _itemReferenceLoopHandling; // 0x28
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling; // 0x30
+		::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling; // 0x38
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _itemTypeNameHandling; // 0x40
+		::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling; // 0x48
+		::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling; // 0x50
+		::System::Nullable_1<::System::Boolean> _isReference; // 0x58
+		::System::Nullable_1<::System::Boolean> _itemIsReference; // 0x5A
+		::System::Nullable_1<::System::Int32> _order; // 0x5C
 		::System::Nullable_1<::Newtonsoft::Json::Required> _required; // 0x64
-		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _itemReferenceLoopHandling; // 0x6C
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling; // 0x6C
 
 		::System::Void _ctor()
 		{

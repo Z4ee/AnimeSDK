@@ -7,286 +7,286 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define TMPRO_SHADERUTILITIES_GETFONTEXTENT_OFFSET UNITYSDK_OFFSET(0x18907710)
-#define TMPRO_SHADERUTILITIES_GETPADDING_1_OFFSET UNITYSDK_OFFSET(0x18907F70)
-#define TMPRO_SHADERUTILITIES_GETPADDING_OFFSET UNITYSDK_OFFSET(0x18907870)
-#define TMPRO_SHADERUTILITIES_GETSHADERPROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x18906E30)
-#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILEBITMAP_OFFSET UNITYSDK_OFFSET(0x18906D50)
-#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILESDF_OFFSET UNITYSDK_OFFSET(0x18906D20)
-#define TMPRO_SHADERUTILITIES_ISMASKINGENABLED_OFFSET UNITYSDK_OFFSET(0x18907720)
-#define TMPRO_SHADERUTILITIES_UPDATESHADERRATIOS_OFFSET UNITYSDK_OFFSET(0x18907270)
-#define TMPRO_SHADERUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x18906D80)
+#define TMPRO_SHADERUTILITIES_GETFONTEXTENT_OFFSET UNITYSDK_OFFSET(0x1A341410)
+#define TMPRO_SHADERUTILITIES_GETPADDING_1_OFFSET UNITYSDK_OFFSET(0x1A341C70)
+#define TMPRO_SHADERUTILITIES_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1A341570)
+#define TMPRO_SHADERUTILITIES_GETSHADERPROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x1A340B30)
+#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILEBITMAP_OFFSET UNITYSDK_OFFSET(0x1A340A50)
+#define TMPRO_SHADERUTILITIES_GET_SHADERREF_MOBILESDF_OFFSET UNITYSDK_OFFSET(0x1A340A20)
+#define TMPRO_SHADERUTILITIES_ISMASKINGENABLED_OFFSET UNITYSDK_OFFSET(0x1A341420)
+#define TMPRO_SHADERUTILITIES_UPDATESHADERRATIOS_OFFSET UNITYSDK_OFFSET(0x1A340F70)
+#define TMPRO_SHADERUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A340A80)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ShaderUtilities_TypeDefinitionIndex = 34367;
+	inline static constexpr unsigned int ShaderUtilities_TypeDefinitionIndex = 40186;
 
 	class ShaderUtilities : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_Keyword_Bevel()
+		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileBitmap()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B480);
-		}
-		static ::System::String** StaticGet_Keyword_Outline()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B488);
-		}
-		static ::System::String** StaticGet_Keyword_MASK_TEX()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B490);
-		}
-		static ::System::String** StaticGet_Keyword_Underlay()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B498);
-		}
-		static ::System::String** StaticGet_Keyword_Ratios()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4A0);
-		}
-		static ::System::String** StaticGet_Keyword_Glow()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4A8);
-		}
-		static ::System::String** StaticGet_Keyword_MASK_SOFT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4B0);
-		}
-		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileSDF()
-		{
-			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4B8);
+			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F270);
 		}
 		static ::System::String** StaticGet_ShaderTag_CullMode()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F278);
 		}
-		static ::System::String** StaticGet_ShaderTag_ZTestMode()
+		static ::System::String** StaticGet_Keyword_MASK_SOFT()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4C8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F280);
 		}
-		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileBitmap()
+		static ::System::String** StaticGet_Keyword_Ratios()
 		{
-			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4D0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F288);
 		}
 		static ::System::String** StaticGet_Keyword_MASK_HARD()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2B4D8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F290);
 		}
-		static ::System::Int32* StaticGet_ID_PerspectiveFilter()
+		static ::System::String** StaticGet_Keyword_Bevel()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE4F0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F298);
 		}
-		static ::System::Int32* StaticGet_ID_VertexOffsetY()
+		static ::System::String** StaticGet_ShaderTag_ZTestMode()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE4F4);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F2A0);
 		}
-		static ::System::Int32* StaticGet_ID_StencilReadMask()
+		static ::System::String** StaticGet_Keyword_Outline()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE4F8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F2A8);
 		}
-		static ::System::Int32* StaticGet_ID_UnderlayColor()
+		static ::UnityEngine::Shader** StaticGet_k_ShaderRef_MobileSDF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE4FC);
+			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F2B0);
 		}
-		static ::System::Int32* StaticGet_ID_ScaleY()
+		static ::System::String** StaticGet_Keyword_Underlay()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE500);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F2B8);
 		}
-		static ::System::Int32* StaticGet_ID_EnvMatrixRotation()
+		static ::System::String** StaticGet_Keyword_MASK_TEX()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE504);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F2C0);
 		}
-		static ::System::Single* StaticGet_m_clamp()
+		static ::System::String** StaticGet_Keyword_Glow()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE508);
-		}
-		static ::System::Int32* StaticGet_ID_StencilWriteMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE50C);
-		}
-		static ::System::Int32* StaticGet_ID_MaskSoftnessY()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE510);
-		}
-		static ::System::Int32* StaticGet_ID_OutlineTex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE514);
-		}
-		static ::System::Int32* StaticGet_ID_GlowInner()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE518);
-		}
-		static ::System::Int32* StaticGet_ID_GlowOuter()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE51C);
-		}
-		static ::System::Int32* StaticGet_ID_FaceDilate()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE520);
-		}
-		static ::System::Int32* StaticGet_ID_FaceColor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE524);
-		}
-		static ::System::Int32* StaticGet_ID_TextureHeight()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE528);
-		}
-		static ::System::Int32* StaticGet_ID_ClipRect()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE52C);
-		}
-		static ::System::Int32* StaticGet_ID_FaceTex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE530);
-		}
-		static ::System::Int32* StaticGet_ID_GlowPower()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE534);
-		}
-		static ::System::Int32* StaticGet_ID_EnvMap()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE538);
-		}
-		static ::System::Int32* StaticGet_ID_GlowColor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE53C);
-		}
-		static ::System::Boolean* StaticGet_isInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE540);
-		}
-		static ::System::Int32* StaticGet_ID_Outline2Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE544);
-		}
-		static ::System::Int32* StaticGet_ID_VertexOffsetX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE548);
-		}
-		static ::System::Int32* StaticGet_ID_StencilID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE54C);
-		}
-		static ::System::Int32* StaticGet_ID_ScaleRatio_B()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE550);
-		}
-		static ::System::Int32* StaticGet_ID_Padding()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE554);
-		}
-		static ::System::Int32* StaticGet_ID_MaskCoord()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE558);
-		}
-		static ::System::Int32* StaticGet_ID_ShaderFlags()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE55C);
-		}
-		static ::System::Int32* StaticGet_ID_GlowOffset()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE560);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0x2F2C8);
 		}
 		static ::System::Int32* StaticGet_ID_MainTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE564);
-		}
-		static ::System::Int32* StaticGet_ID_LightAngle()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE568);
-		}
-		static ::System::Int32* StaticGet_ID_UnderlaySoftness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE56C);
-		}
-		static ::System::Int32* StaticGet_ID_UseClipRect()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE570);
-		}
-		static ::System::Int32* StaticGet_ID_StencilComp()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE574);
-		}
-		static ::System::Int32* StaticGet_ID_WeightNormal()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE578);
-		}
-		static ::System::Int32* StaticGet_ID_EnvMatrix()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE57C);
-		}
-		static ::System::Int32* StaticGet_ID_UnderlayOffsetY()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE580);
-		}
-		static ::System::Int32* StaticGet_ID_ScaleRatio_C()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE584);
-		}
-		static ::System::Int32* StaticGet_ID_ScaleX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE588);
-		}
-		static ::System::Int32* StaticGet_ID_Shininess()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE58C);
-		}
-		static ::System::Int32* StaticGet_ID_TextureWidth()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE590);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB70);
 		}
 		static ::System::Int32* StaticGet_ID_Outline2Width()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE594);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB74);
 		}
 		static ::System::Int32* StaticGet_ID_StencilOp()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE598);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB78);
 		}
-		static ::System::Int32* StaticGet_ID_UnderlayOffsetX()
+		static ::System::Int32* StaticGet_ID_FaceColor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE59C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB7C);
 		}
-		static ::System::Int32* StaticGet_ID_ScaleRatio_A()
+		static ::System::Int32* StaticGet_ID_UnderlayColor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB80);
 		}
-		static ::System::Int32* StaticGet_ID_OutlineWidth()
+		static ::System::Int32* StaticGet_ID_TextureWidth()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5A4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB84);
 		}
-		static ::System::Int32* StaticGet_ID_MaskSoftnessX()
+		static ::System::Int32* StaticGet_ID_ScaleY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5A8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB88);
 		}
-		static ::System::Int32* StaticGet_ID_WeightBold()
+		static ::System::Int32* StaticGet_ID_VertexOffsetY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5AC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB8C);
 		}
-		static ::System::Int32* StaticGet_ID_Sharpness()
+		static ::System::Int32* StaticGet_ID_UnderlaySoftness()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5B0);
-		}
-		static ::System::Int32* StaticGet_ID_OutlineSoftness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5B4);
-		}
-		static ::System::Int32* StaticGet_ID_GradientScale()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5B8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB90);
 		}
 		static ::System::Int32* StaticGet_ID_OutlineColor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5BC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB94);
+		}
+		static ::System::Int32* StaticGet_ID_StencilComp()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB98);
+		}
+		static ::System::Int32* StaticGet_ID_StencilID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBB9C);
+		}
+		static ::System::Int32* StaticGet_ID_TextureHeight()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBA0);
+		}
+		static ::System::Int32* StaticGet_ID_VertexOffsetX()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBA4);
+		}
+		static ::System::Int32* StaticGet_ID_StencilReadMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBA8);
+		}
+		static ::System::Int32* StaticGet_ID_ClipRect()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBAC);
+		}
+		static ::System::Int32* StaticGet_ID_Shininess()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBB0);
+		}
+		static ::System::Int32* StaticGet_ID_ScaleRatio_A()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBB4);
+		}
+		static ::System::Int32* StaticGet_ID_GlowOffset()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBB8);
+		}
+		static ::System::Single* StaticGet_m_clamp()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBBC);
+		}
+		static ::System::Int32* StaticGet_ID_LightAngle()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBC0);
+		}
+		static ::System::Int32* StaticGet_ID_ScaleX()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBC4);
+		}
+		static ::System::Int32* StaticGet_ID_PerspectiveFilter()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBC8);
+		}
+		static ::System::Int32* StaticGet_ID_MaskCoord()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBCC);
+		}
+		static ::System::Int32* StaticGet_ID_OutlineTex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBD0);
+		}
+		static ::System::Int32* StaticGet_ID_UseClipRect()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBD4);
+		}
+		static ::System::Int32* StaticGet_ID_GlowInner()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBD8);
+		}
+		static ::System::Int32* StaticGet_ID_MaskSoftnessX()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBDC);
+		}
+		static ::System::Int32* StaticGet_ID_ShaderFlags()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBE0);
+		}
+		static ::System::Int32* StaticGet_ID_OutlineSoftness()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBE4);
+		}
+		static ::System::Boolean* StaticGet_isInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBE8);
+		}
+		static ::System::Int32* StaticGet_ID_GlowPower()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBEC);
+		}
+		static ::System::Int32* StaticGet_ID_StencilWriteMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBF0);
 		}
 		static ::System::Int32* StaticGet_ID_UnderlayDilate()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBF4);
+		}
+		static ::System::Int32* StaticGet_ID_ScaleRatio_B()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBF8);
+		}
+		static ::System::Int32* StaticGet_ID_EnvMatrix()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBBFC);
+		}
+		static ::System::Int32* StaticGet_ID_Sharpness()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC00);
+		}
+		static ::System::Int32* StaticGet_ID_Outline2Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC04);
+		}
+		static ::System::Int32* StaticGet_ID_UnderlayOffsetX()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC08);
+		}
+		static ::System::Int32* StaticGet_ID_OutlineWidth()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC0C);
+		}
+		static ::System::Int32* StaticGet_ID_GlowOuter()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC10);
+		}
+		static ::System::Int32* StaticGet_ID_EnvMap()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC14);
+		}
+		static ::System::Int32* StaticGet_ID_Padding()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC18);
+		}
+		static ::System::Int32* StaticGet_ID_WeightNormal()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC1C);
+		}
+		static ::System::Int32* StaticGet_ID_MaskSoftnessY()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC20);
 		}
 		static ::System::Int32* StaticGet_ID_BevelAmount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xE5C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC24);
+		}
+		static ::System::Int32* StaticGet_ID_GradientScale()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC28);
+		}
+		static ::System::Int32* StaticGet_ID_FaceDilate()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC2C);
+		}
+		static ::System::Int32* StaticGet_ID_GlowColor()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC30);
+		}
+		static ::System::Int32* StaticGet_ID_WeightBold()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC34);
+		}
+		static ::System::Int32* StaticGet_ID_ScaleRatio_C()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC38);
+		}
+		static ::System::Int32* StaticGet_ID_FaceTex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC3C);
+		}
+		static ::System::Int32* StaticGet_ID_EnvMatrixRotation()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC40);
+		}
+		static ::System::Int32* StaticGet_ID_UnderlayOffsetY()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderUtilities_TypeDefinitionIndex)->GetStaticField(0xBC44);
 		}
 
 		static ::System::Void _cctor()

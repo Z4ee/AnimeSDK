@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ClipCaps_TypeDefinitionIndex = 29853;
+	inline static constexpr unsigned int ClipCaps_TypeDefinitionIndex = 35573;
 
 	enum class ClipCaps : ::System::Int32
 	{

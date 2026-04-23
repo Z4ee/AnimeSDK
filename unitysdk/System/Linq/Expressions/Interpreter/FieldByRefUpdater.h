@@ -10,19 +10,19 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x184C77B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x184C7730)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x184C7710)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x19F02680)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19F02600)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F025E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int FieldByRefUpdater_TypeDefinitionIndex = 3475;
+	inline static constexpr unsigned int FieldByRefUpdater_TypeDefinitionIndex = 3477;
 
 	class FieldByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:
-		::System::Reflection::FieldInfo* _field; // 0x18
-		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _object; // 0x20
+		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _object; // 0x18
+		::System::Reflection::FieldInfo* _field; // 0x30
 
 		::System::Void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::FieldInfo* field, ::System::Int32 argumentIndex)
 		{

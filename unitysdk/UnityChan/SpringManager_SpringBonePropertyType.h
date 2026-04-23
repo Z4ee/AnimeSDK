@@ -3,7 +3,7 @@
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringManager_SpringBonePropertyType_TypeDefinitionIndex = 38555;
+	inline static constexpr unsigned int SpringManager_SpringBonePropertyType_TypeDefinitionIndex = 44437;
 
 	enum class SpringManager_SpringBonePropertyType : ::System::Int32
 	{

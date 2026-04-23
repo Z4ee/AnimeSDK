@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardShowType_TypeDefinitionIndex = 48987;
+	inline static constexpr unsigned int BillboardShowType_TypeDefinitionIndex = 55781;
 
 	enum class BillboardShowType : ::System::Int32
 	{
@@ -21,7 +21,10 @@ namespace RPG::Client
 		Emoji = 1024,
 		FiveDimSidePuzzle = 2048,
 		DiceCombat = 4096,
-		AllOpen = 8143,
+		CatGodBubble = 8192,
+		OnlinePlayerName = 16384,
+		CakeBubble = 32768,
+		AllOpen = 65487,
 		PhotoGraph = 2,
 		PhotoGraphShowBubble = 10,
 		Dreamland = 48,

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B97C0)
-#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B9930)
+#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC7C60)
+#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC7DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialSubmitterGroupRow_TypeDefinitionIndex = 11001;
+	inline static constexpr unsigned int MaterialSubmitterGroupRow_TypeDefinitionIndex = 11404;
 
 	class MaterialSubmitterGroupRow : public ::System::Object
 	{

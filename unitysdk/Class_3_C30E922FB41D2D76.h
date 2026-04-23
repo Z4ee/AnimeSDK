@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckBloodLinkDead; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C30E922FB41D2D76_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA9B0040)
-#define CLASS_3_C30E922FB41D2D76__CTOR_OFFSET UNITYSDK_OFFSET(0xA9B0010)
+#define CLASS_3_C30E922FB41D2D76_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12136FD0)
+#define CLASS_3_C30E922FB41D2D76__CTOR_OFFSET UNITYSDK_OFFSET(0x12136FA0)
 
-inline static constexpr unsigned int Class_3_C30E922FB41D2D76_TypeDefinitionIndex = 43574;
+inline static constexpr unsigned int Class_3_C30E922FB41D2D76_TypeDefinitionIndex = 50271;
 
 class Class_3_C30E922FB41D2D76 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckBloodLinkDead*>
 {

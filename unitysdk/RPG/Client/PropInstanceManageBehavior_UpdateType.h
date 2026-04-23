@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceManageBehavior_UpdateType_TypeDefinitionIndex = 57952;
+	inline static constexpr unsigned int PropInstanceManageBehavior_UpdateType_TypeDefinitionIndex = 65239;
 
 	enum class PropInstanceManageBehavior_UpdateType : ::System::Int32
 	{

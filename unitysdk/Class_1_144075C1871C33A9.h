@@ -8,9 +8,9 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_144075C1871C33A9__CTOR_OFFSET UNITYSDK_OFFSET(0x8CF1E40)
+#define CLASS_1_144075C1871C33A9__CTOR_OFFSET UNITYSDK_OFFSET(0xB7D60C0)
 
-inline static constexpr unsigned int Class_1_144075C1871C33A9_TypeDefinitionIndex = 63755;
+inline static constexpr unsigned int Class_1_144075C1871C33A9_TypeDefinitionIndex = 71801;
 
 class Class_1_144075C1871C33A9 : public ::System::Object
 {

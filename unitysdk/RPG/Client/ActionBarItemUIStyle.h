@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionBarItemUIStyle_TypeDefinitionIndex = 58352;
+	inline static constexpr unsigned int ActionBarItemUIStyle_TypeDefinitionIndex = 65641;
 
 	enum class ActionBarItemUIStyle : ::System::Int32
 	{
@@ -47,6 +47,10 @@ namespace RPG::Client
 		Current_Elation_UnExpand = 37,
 		Current_Elation_Action_UnExpand = 38,
 		Current_Elation_Dummy = 39,
-		Count = 40,
+		Current_SilverWolf999_Normal = 40,
+		Current_SilverWolf999_UltraSkill = 41,
+		Current_SilverWolf999_BeingInserted = 42,
+		Append_SilverWolf999_Normal = 43,
+		Count = 44,
 	};
 }

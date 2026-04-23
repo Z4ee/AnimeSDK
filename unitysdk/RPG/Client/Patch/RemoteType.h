@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Patch
 {
-	inline static constexpr unsigned int RemoteType_TypeDefinitionIndex = 64557;
+	inline static constexpr unsigned int RemoteType_TypeDefinitionIndex = 72604;
 
 	enum class RemoteType : ::System::UInt16
 	{

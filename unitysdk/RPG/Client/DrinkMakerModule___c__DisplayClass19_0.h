@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class DrinkMakerTag; }
 
-#define RPG_CLIENT_DRINKMAKERMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9515A90)
-#define RPG_CLIENT_DRINKMAKERMODULE___C__DISPLAYCLASS19_0__GETTAGBYQUANTIFYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x951ADB0)
+#define RPG_CLIENT_DRINKMAKERMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA197F90)
+#define RPG_CLIENT_DRINKMAKERMODULE___C__DISPLAYCLASS19_0__GETTAGBYQUANTIFYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xA19D9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerModule___c__DisplayClass19_0_TypeDefinitionIndex = 51679;
+	inline static constexpr unsigned int DrinkMakerModule___c__DisplayClass19_0_TypeDefinitionIndex = 58627;
 
 	class DrinkMakerModule___c__DisplayClass19_0 : public ::System::Object
 	{

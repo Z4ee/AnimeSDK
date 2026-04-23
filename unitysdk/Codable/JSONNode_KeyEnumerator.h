@@ -15,7 +15,7 @@ namespace System { class String; }
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 36848;
+	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 42674;
 
 	struct alignas(8) JSONNode_KeyEnumerator
 	{

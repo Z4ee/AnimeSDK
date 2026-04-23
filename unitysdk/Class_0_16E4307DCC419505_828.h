@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_2A97E60807F449E7;
-namespace UnityEngine { class GameObject; }
+class Class_1_E39756DED83F5D0A;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_828_TypeDefinitionIndex = 58362;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_828_TypeDefinitionIndex = 62009;
 
 class Class_0_16E4307DCC419505_828
 {

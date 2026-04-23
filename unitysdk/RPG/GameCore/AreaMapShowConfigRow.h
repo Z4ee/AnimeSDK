@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 
-#define RPG_GAMECORE_AREAMAPSHOWCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F86A60)
-#define RPG_GAMECORE_AREAMAPSHOWCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F87050)
+#define RPG_GAMECORE_AREAMAPSHOWCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186A9E10)
+#define RPG_GAMECORE_AREAMAPSHOWCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186AA400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AreaMapShowConfigRow_TypeDefinitionIndex = 12796;
+	inline static constexpr unsigned int AreaMapShowConfigRow_TypeDefinitionIndex = 13262;
 
 	class AreaMapShowConfigRow : public ::System::Object
 	{

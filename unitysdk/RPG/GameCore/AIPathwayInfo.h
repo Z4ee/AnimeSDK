@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AIPATHWAYINFO_METHOD_2_C21C846FDF7E66F0_OFFSET UNITYSDK_OFFSET(0x16E914F0)
-#define RPG_GAMECORE_AIPATHWAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16E916E0)
+#define RPG_GAMECORE_AIPATHWAYINFO_METHOD_2_C21C846FDF7E66F0_OFFSET UNITYSDK_OFFSET(0x185F1AD0)
+#define RPG_GAMECORE_AIPATHWAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185F1CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 15823;
+	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 16349;
 
 	class AIPathwayInfo : public ::RPG::GameCore::JsonConfig
 	{

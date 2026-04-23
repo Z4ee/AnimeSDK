@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1852C2E0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1852C390)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19F67130)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F671E0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_MD5_TypeDefinitionIndex = 4828;
+	inline static constexpr unsigned int Parser_MD5_TypeDefinitionIndex = 4836;
 
 	class Parser_MD5 : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet_ToString()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Parser_MD5_TypeDefinitionIndex)->GetStaticField(0x152A0);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Parser_MD5_TypeDefinitionIndex)->GetStaticField(0x16410);
 		}
 
 		static ::System::Void _cctor()

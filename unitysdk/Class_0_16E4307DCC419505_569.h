@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_569_TypeDefinitionIndex = 50743;
+class Class_1_5D9FADE393C1BEBA_Class_1_880304D4E9A590C8;
+namespace RPG::Client { class CloudUIPosReporterMono; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_569_TypeDefinitionIndex = 55223;
 
 class Class_0_16E4307DCC419505_569
 {

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17362040)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17362670)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A6FCC0)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A702F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 12168;
+	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 12601;
 
 	class LittleWheelFuncConfigRow : public ::System::Object
 	{

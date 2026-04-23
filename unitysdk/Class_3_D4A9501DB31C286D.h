@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ActivityElationHideCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D4A9501DB31C286D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1147F530)
-#define CLASS_3_D4A9501DB31C286D__CTOR_OFFSET UNITYSDK_OFFSET(0x1147F500)
+#define CLASS_3_D4A9501DB31C286D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x124F8F90)
+#define CLASS_3_D4A9501DB31C286D__CTOR_OFFSET UNITYSDK_OFFSET(0x124F8F60)
 
-inline static constexpr unsigned int Class_3_D4A9501DB31C286D_TypeDefinitionIndex = 45286;
+inline static constexpr unsigned int Class_3_D4A9501DB31C286D_TypeDefinitionIndex = 51929;
 
 class Class_3_D4A9501DB31C286D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActivityElationHideCutIn*>
 {

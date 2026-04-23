@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Experimental::TerrainAPI { class TerrainUtility_TerrainMap; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINGROUPS__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABABD0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINGROUPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F6650)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 5247;
+	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 5258;
 
 	class TerrainUtility_TerrainGroups : public ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap*>
 	{

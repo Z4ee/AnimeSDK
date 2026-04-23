@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTrackPhotoStandardSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CF6D86EC789436A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11656B10)
-#define CLASS_3_CF6D86EC789436A5__CTOR_OFFSET UNITYSDK_OFFSET(0x11656AE0)
+#define CLASS_3_CF6D86EC789436A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9721FD0)
+#define CLASS_3_CF6D86EC789436A5__CTOR_OFFSET UNITYSDK_OFFSET(0x9721FA0)
 
-inline static constexpr unsigned int Class_3_CF6D86EC789436A5_TypeDefinitionIndex = 43120;
+inline static constexpr unsigned int Class_3_CF6D86EC789436A5_TypeDefinitionIndex = 49110;
 
 class Class_3_CF6D86EC789436A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTrackPhotoStandardSpeed*>
 {

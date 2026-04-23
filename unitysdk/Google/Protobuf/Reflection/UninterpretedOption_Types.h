@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int UninterpretedOption_Types_TypeDefinitionIndex = 6299;
+	inline static constexpr unsigned int UninterpretedOption_Types_TypeDefinitionIndex = 6309;
 
 	class UninterpretedOption_Types : public ::System::Object
 	{

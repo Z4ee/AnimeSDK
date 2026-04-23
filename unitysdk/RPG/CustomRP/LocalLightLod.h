@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LocalLightLod_TypeDefinitionIndex = 29328;
+	inline static constexpr unsigned int LocalLightLod_TypeDefinitionIndex = 35095;
 
 	enum class LocalLightLod : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_1_FromAsyncTrimPromise_1_TypeDefinitionIndex = 887;
+	inline static constexpr unsigned int TaskFactory_1_FromAsyncTrimPromise_1_TypeDefinitionIndex = 889;
 
 	template <typename TResult, typename TInstance>
 	class TaskFactory_1_FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult>

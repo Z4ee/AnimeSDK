@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SourceCodeInfo_Types_TypeDefinitionIndex = 6304;
+	inline static constexpr unsigned int SourceCodeInfo_Types_TypeDefinitionIndex = 6314;
 
 	class SourceCodeInfo_Types : public ::System::Object
 	{

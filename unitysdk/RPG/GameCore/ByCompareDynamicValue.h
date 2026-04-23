@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BYCOMPAREDYNAMICVALUE_METHOD_4_42814A2C0F34758A_OFFSET UNITYSDK_OFFSET(0x17006F30)
-#define RPG_GAMECORE_BYCOMPAREDYNAMICVALUE_METHOD_4_7B10385DA81789E0_OFFSET UNITYSDK_OFFSET(0x17006E10)
-#define RPG_GAMECORE_BYCOMPAREDYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x17006EB0)
+#define RPG_GAMECORE_BYCOMPAREDYNAMICVALUE_METHOD_4_42814A2C0F34758A_OFFSET UNITYSDK_OFFSET(0x1872B1B0)
+#define RPG_GAMECORE_BYCOMPAREDYNAMICVALUE_METHOD_4_7B10385DA81789E0_OFFSET UNITYSDK_OFFSET(0x1872B090)
+#define RPG_GAMECORE_BYCOMPAREDYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1872B130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareDynamicValue_TypeDefinitionIndex = 22074;
+	inline static constexpr unsigned int ByCompareDynamicValue_TypeDefinitionIndex = 22790;
 
 	class ByCompareDynamicValue : public ::RPG::GameCore::PredicateConfig
 	{
@@ -23,8 +23,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::DynamicString* DynamicKey; // 0x28
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x30
-		::RPG::GameCore::CompareType CompareType; // 0x34
-		::RPG::GameCore::DynamicFloat* CompareValue; // 0x38
+		::RPG::GameCore::DynamicFloat* DynamicValue; // 0x38
+		::RPG::GameCore::CompareType CompareType; // 0x40
+		::RPG::GameCore::DynamicFloat* CompareValue; // 0x48
 
 		::System::Void _ctor()
 		{

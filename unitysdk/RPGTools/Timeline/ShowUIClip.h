@@ -7,12 +7,12 @@
 namespace RPGTools::Timeline { class ShowUIBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWUICLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xABA0630)
-#define RPGTOOLS_TIMELINE_SHOWUICLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xABA0830)
+#define RPGTOOLS_TIMELINE_SHOWUICLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB9152A0)
+#define RPGTOOLS_TIMELINE_SHOWUICLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB9154A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowUIClip_TypeDefinitionIndex = 39223;
+	inline static constexpr unsigned int ShowUIClip_TypeDefinitionIndex = 45132;
 
 	class ShowUIClip : public ::RPGTools::Timeline::CustomEventClip
 	{

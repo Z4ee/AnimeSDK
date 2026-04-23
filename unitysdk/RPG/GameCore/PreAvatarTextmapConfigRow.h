@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174EDDF0)
-#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174EDF70)
+#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C39460)
+#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C395E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreAvatarTextmapConfigRow_TypeDefinitionIndex = 13286;
+	inline static constexpr unsigned int PreAvatarTextmapConfigRow_TypeDefinitionIndex = 13762;
 
 	class PreAvatarTextmapConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PreAvatarID; // 0x10
-		::RPG::Client::TextID PreAvatarName; // 0x18
+		::RPG::Client::TextID PreAvatarName; // 0x10
+		::System::UInt32 PreAvatarID; // 0x20
 
 		::System::Void _ctor()
 		{

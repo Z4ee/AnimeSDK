@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCOverrideBehaviorType_TypeDefinitionIndex = 15778;
+	inline static constexpr unsigned int LevelNPCOverrideBehaviorType_TypeDefinitionIndex = 16304;
 
 	enum class LevelNPCOverrideBehaviorType : ::System::Int32
 	{

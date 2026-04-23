@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_87854DF4F09D42E1.h"
+#include "unitysdk/Class_1_59305B446B42427E.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_66BB3A942E791D7B_DOONENTER_OFFSET UNITYSDK_OFFSET(0x8D7CC60)
-#define CLASS_2_66BB3A942E791D7B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x8D7CCD0)
-#define CLASS_2_66BB3A942E791D7B__CTOR_OFFSET UNITYSDK_OFFSET(0x8D7CC10)
-#define CLASS_2_66BB3A942E791D7B___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x8D7CD40)
-#define CLASS_2_66BB3A942E791D7B___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x8D7CD50)
+#define CLASS_2_66BB3A942E791D7B_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBAD2000)
+#define CLASS_2_66BB3A942E791D7B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBAD2070)
+#define CLASS_2_66BB3A942E791D7B__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD1FB0)
+#define CLASS_2_66BB3A942E791D7B___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBAD20E0)
+#define CLASS_2_66BB3A942E791D7B___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBAD20F0)
 
-inline static constexpr unsigned int Class_2_66BB3A942E791D7B_TypeDefinitionIndex = 46356;
+inline static constexpr unsigned int Class_2_66BB3A942E791D7B_TypeDefinitionIndex = 53031;
 
-class Class_2_66BB3A942E791D7B : public ::Class_1_87854DF4F09D42E1
+class Class_2_66BB3A942E791D7B : public ::Class_1_59305B446B42427E
 {
 public:
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_2_1; // 0x98
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0xA0
+	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x98
+	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_2_1; // 0xA0
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 	{

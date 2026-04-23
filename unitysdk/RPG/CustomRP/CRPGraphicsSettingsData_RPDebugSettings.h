@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_RPDEBUGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A70730)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_RPDEBUGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18113A00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_RPDebugSettings_TypeDefinitionIndex = 29285;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_RPDebugSettings_TypeDefinitionIndex = 35052;
 
 	class CRPGraphicsSettingsData_RPDebugSettings : public ::System::Object
 	{

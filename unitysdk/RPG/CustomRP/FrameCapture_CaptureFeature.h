@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FrameCapture_CaptureFeature_TypeDefinitionIndex = 29234;
+	inline static constexpr unsigned int FrameCapture_CaptureFeature_TypeDefinitionIndex = 35001;
 
 	enum class FrameCapture_CaptureFeature : ::System::Int32
 	{

@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_424;
+class Class_0_16E4307DCC419505_429;
+class Class_1_11F507CAFD9CD2DF;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_D2C41094DAE49591_METHOD_1_1A62B87939C5D58F_OFFSET UNITYSDK_OFFSET(0x12960CA0)
+#define CLASS_1_D2C41094DAE49591_METHOD_1_41B15B488F4BCE4A_OFFSET UNITYSDK_OFFSET(0x12960100)
+#define CLASS_1_D2C41094DAE49591_METHOD_1_CFE1B693D2854912_OFFSET UNITYSDK_OFFSET(0x12960B50)
+#define CLASS_1_D2C41094DAE49591_METHOD_1_E174293A1A5EF41F_OFFSET UNITYSDK_OFFSET(0x12960360)
+
+inline static constexpr unsigned int Class_1_D2C41094DAE49591_TypeDefinitionIndex = 49789;
+
+class Class_1_D2C41094DAE49591 : public ::System::Object
+{
+public:
+	static ::RPG::GameCore::FixPoint Method_1_41B15B488F4BCE4A(::Class_0_16E4307DCC419505_424* a1, ::System::Int32 a2)
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::Class_0_16E4307DCC419505_424*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D2C41094DAE49591_METHOD_1_41B15B488F4BCE4A_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_11F507CAFD9CD2DF* Method_1_CFE1B693D2854912(::Class_0_16E4307DCC419505_424* a1, ::System::Int32 a2)
+	{
+		return ((::Class_1_11F507CAFD9CD2DF*(*)(::Class_0_16E4307DCC419505_424*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D2C41094DAE49591_METHOD_1_CFE1B693D2854912_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_11F507CAFD9CD2DF* Method_1_E174293A1A5EF41F(::Class_0_16E4307DCC419505_424* a1, ::System::Int32 a2)
+	{
+		return ((::Class_1_11F507CAFD9CD2DF*(*)(::Class_0_16E4307DCC419505_424*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D2C41094DAE49591_METHOD_1_E174293A1A5EF41F_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_1A62B87939C5D58F(::Class_0_16E4307DCC419505_424* a1, ::Class_1_11F507CAFD9CD2DF* a2, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_429*>* a3)
+	{
+		return ((::System::Void(*)(::Class_0_16E4307DCC419505_424*, ::Class_1_11F507CAFD9CD2DF*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_429*>*))((::PBYTE)hIl2Cpp + CLASS_1_D2C41094DAE49591_METHOD_1_1A62B87939C5D58F_OFFSET))(a1, a2, a3);
+	}
+};

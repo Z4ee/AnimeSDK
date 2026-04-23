@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTFRONTSPECIALSPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1725E390)
-#define RPG_GAMECORE_GRIDFIGHTFRONTSPECIALSPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1725E580)
+#define RPG_GAMECORE_GRIDFIGHTFRONTSPECIALSPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189AE8B0)
+#define RPG_GAMECORE_GRIDFIGHTFRONTSPECIALSPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189AEAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightFrontSpecialSPConfigRow_TypeDefinitionIndex = 12381;
+	inline static constexpr unsigned int GridFightFrontSpecialSPConfigRow_TypeDefinitionIndex = 12814;
 
 	class GridFightFrontSpecialSPConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Star; // 0x10
-		::System::UInt32 InitialSpecialSP; // 0x14
-		::RPG::GameCore::GridFightFrontSpecialSPDisplayType SpecialSPType; // 0x18
-		::System::UInt32 RoleID; // 0x1C
-		::System::UInt32 MaxSpecialSP; // 0x20
+		::System::UInt32 InitialSpecialSP; // 0x10
+		::RPG::GameCore::GridFightFrontSpecialSPDisplayType SpecialSPType; // 0x14
+		::System::UInt32 Star; // 0x18
+		::System::UInt32 MaxSpecialSP; // 0x1C
+		::System::UInt32 RoleID; // 0x20
 
 		::System::Void _ctor()
 		{

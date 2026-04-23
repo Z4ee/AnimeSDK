@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleWheelType_TypeDefinitionIndex = 12170;
+	inline static constexpr unsigned int LittleWheelType_TypeDefinitionIndex = 12603;
 
 	enum class LittleWheelType : ::System::Int32
 	{

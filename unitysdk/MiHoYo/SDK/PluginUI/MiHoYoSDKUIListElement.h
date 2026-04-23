@@ -8,11 +8,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUILISTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x85707E0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUILISTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA5C80)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIListElement_TypeDefinitionIndex = 37558;
+	inline static constexpr unsigned int MiHoYoSDKUIListElement_TypeDefinitionIndex = 43435;
 
 	class MiHoYoSDKUIListElement : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIElement
 	{

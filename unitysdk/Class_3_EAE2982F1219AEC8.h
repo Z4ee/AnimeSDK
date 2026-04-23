@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByCheckWindowPermCodes; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EAE2982F1219AEC8_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1196BFC0)
-#define CLASS_3_EAE2982F1219AEC8__CTOR_OFFSET UNITYSDK_OFFSET(0x1196BF90)
+#define CLASS_3_EAE2982F1219AEC8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE634730)
+#define CLASS_3_EAE2982F1219AEC8__CTOR_OFFSET UNITYSDK_OFFSET(0xE634700)
 
-inline static constexpr unsigned int Class_3_EAE2982F1219AEC8_TypeDefinitionIndex = 42735;
+inline static constexpr unsigned int Class_3_EAE2982F1219AEC8_TypeDefinitionIndex = 48715;
 
 class Class_3_EAE2982F1219AEC8 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCheckWindowPermCodes*>
 {

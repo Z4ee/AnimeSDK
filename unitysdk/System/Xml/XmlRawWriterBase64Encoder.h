@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlRawWriter; }
 
-#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x18626170)
-#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x18625C60)
+#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x1A060BC0)
+#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0606B0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlRawWriterBase64Encoder_TypeDefinitionIndex = 1776;
+	inline static constexpr unsigned int XmlRawWriterBase64Encoder_TypeDefinitionIndex = 1777;
 
 	class XmlRawWriterBase64Encoder : public ::System::Xml::Base64Encoder
 	{

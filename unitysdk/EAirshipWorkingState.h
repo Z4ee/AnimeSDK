@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EAirshipWorkingState_TypeDefinitionIndex = 38011;
+inline static constexpr unsigned int EAirshipWorkingState_TypeDefinitionIndex = 43889;
 
 enum class EAirshipWorkingState : ::System::Int32
 {

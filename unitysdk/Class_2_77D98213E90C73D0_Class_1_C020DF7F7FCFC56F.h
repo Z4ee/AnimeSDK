@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define CLASS_2_77D98213E90C73D0_CLASS_1_C020DF7F7FCFC56F__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF62C0)
+#define CLASS_2_77D98213E90C73D0_CLASS_1_C020DF7F7FCFC56F__CTOR_OFFSET UNITYSDK_OFFSET(0x9619490)
 
-inline static constexpr unsigned int Class_2_77D98213E90C73D0_Class_1_C020DF7F7FCFC56F_TypeDefinitionIndex = 38635;
+inline static constexpr unsigned int Class_2_77D98213E90C73D0_Class_1_C020DF7F7FCFC56F_TypeDefinitionIndex = 44527;
 
 class Class_2_77D98213E90C73D0_Class_1_C020DF7F7FCFC56F : public ::System::Object
 {

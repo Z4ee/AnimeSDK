@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/GenderType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_297_TypeDefinitionIndex = 38729;
+namespace UnityEngine { class Transform; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_297_TypeDefinitionIndex = 44030;
 
 class Class_0_16E4307DCC419505_297
 {

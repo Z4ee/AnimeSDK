@@ -13,32 +13,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_71435E9C52426DA5_OFFSET UNITYSDK_OFFSET(0x16FD1910)
-#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_DC3ABDC455848E05_OFFSET UNITYSDK_OFFSET(0x16FD1890)
-#define RPG_GAMECORE_BATTLEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD18F0)
+#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_71435E9C52426DA5_OFFSET UNITYSDK_OFFSET(0x186F52A0)
+#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_DC3ABDC455848E05_OFFSET UNITYSDK_OFFSET(0x186F5220)
+#define RPG_GAMECORE_BATTLEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186F5280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventConfig_TypeDefinitionIndex = 15133;
+	inline static constexpr unsigned int BattleEventConfig_TypeDefinitionIndex = 15643;
 
 	class BattleEventConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:
-		::System::String* ActionIconPath; // 0x200
-		::System::Boolean AllowTriggerEffectWithoutModel; // 0x208
-		::System::Boolean HaveActionDelay; // 0x209
-		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x20C
-		::RPG::GameCore::CharacterFormationType FormationType; // 0x210
-		::RPG::GameCore::TeamLocationType LocationType; // 0x214
-		::RPG::GameCore::AttackDamageType DamageType; // 0x218
-		::System::Boolean IsPlayerControlled; // 0x21C
-		::System::String* AIPath; // 0x220
-		::System::Int32 MaxSP; // 0x228
-		::RPG::GameCore::BattleEventButtonType BattleEventButtonID; // 0x22C
-		::RPG::GameCore::BattleEventButtonSlotType ButtonSlotType; // 0x230
-		::System::UInt32 ButtonSlotIndex; // 0x234
-		::RPG::GameCore::CharacterResourceLoadOption ResourceLoadOption; // 0x238
-		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x23C
+		::System::String* ActionIconPath; // 0x208
+		::System::Boolean AllowTriggerEffectWithoutModel; // 0x210
+		::System::Boolean HaveActionDelay; // 0x211
+		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x214
+		::RPG::GameCore::CharacterFormationType FormationType; // 0x218
+		::RPG::GameCore::TeamLocationType LocationType; // 0x21C
+		::RPG::GameCore::AttackDamageType DamageType; // 0x220
+		::System::Boolean IsPlayerControlled; // 0x224
+		::System::String* AIPath; // 0x228
+		::System::Int32 MaxSP; // 0x230
+		::RPG::GameCore::BattleEventButtonType BattleEventButtonID; // 0x234
+		::RPG::GameCore::BattleEventButtonSlotType ButtonSlotType; // 0x238
+		::System::UInt32 ButtonSlotIndex; // 0x23C
+		::RPG::GameCore::CharacterResourceLoadOption ResourceLoadOption; // 0x240
+		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x244
 
 		::System::Void _ctor()
 		{

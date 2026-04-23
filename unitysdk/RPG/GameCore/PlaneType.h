@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlaneType_TypeDefinitionIndex = 12826;
+	inline static constexpr unsigned int PlaneType_TypeDefinitionIndex = 10364;
 
 	enum class PlaneType : ::System::Int32
 	{

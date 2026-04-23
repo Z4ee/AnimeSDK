@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB95770)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB90A270)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowSDFTextData_TypeDefinitionIndex = 39089;
+	inline static constexpr unsigned int ShowSDFTextData_TypeDefinitionIndex = 44992;
 
 	class ShowSDFTextData : public ::System::Object
 	{

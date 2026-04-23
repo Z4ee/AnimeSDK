@@ -1,10 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightGridEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_138__CTOR_OFFSET UNITYSDK_OFFSET(0x118F28B0)
+namespace RPG::Client { class GridFightGameSession; }
+namespace RPG::Client { class GridFightGridData; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_138_TypeDefinitionIndex = 53202;
+#define CLASS_1_43BD383C98B4C0C5_138__CTOR_OFFSET UNITYSDK_OFFSET(0x95730B0)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_138_TypeDefinitionIndex = 59683;
 
 class Class_1_43BD383C98B4C0C5_138 : public ::System::Object
 {

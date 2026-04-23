@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int InternalEncodingDataItem_TypeDefinitionIndex = 782;
+	inline static constexpr unsigned int InternalEncodingDataItem_TypeDefinitionIndex = 784;
 
 	struct alignas(8) InternalEncodingDataItem
 	{

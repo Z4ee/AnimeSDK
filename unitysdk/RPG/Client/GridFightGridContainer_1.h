@@ -11,7 +11,7 @@ template <typename T1, typename T2> class Class_1_38F81D6A5D792EE0;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridContainer_1_TypeDefinitionIndex = 52629;
+	inline static constexpr unsigned int GridFightGridContainer_1_TypeDefinitionIndex = 59679;
 
 	template <typename T>
 	class GridFightGridContainer_1 : public ::System::Object

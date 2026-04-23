@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelGroupSpatialBakedInfo; }
 namespace RPG::GameCore { class LevelNPCBakedInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2BakedInfo; }
 
-#define RPG_GAMECORE_LEVELGROUPBAKEDINFO_METHOD_2_210EACEC9537F0E6_OFFSET UNITYSDK_OFFSET(0x17337D80)
-#define RPG_GAMECORE_LEVELGROUPBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173381E0)
+#define RPG_GAMECORE_LEVELGROUPBAKEDINFO_METHOD_2_210EACEC9537F0E6_OFFSET UNITYSDK_OFFSET(0x18A44450)
+#define RPG_GAMECORE_LEVELGROUPBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A448B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupBakedInfo_TypeDefinitionIndex = 15732;
+	inline static constexpr unsigned int LevelGroupBakedInfo_TypeDefinitionIndex = 16258;
 
 	class LevelGroupBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

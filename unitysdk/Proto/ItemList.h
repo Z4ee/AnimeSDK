@@ -6,40 +6,46 @@ namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class Item; }
 namespace System { class String; }
 
-#define PROTO_ITEMLIST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x18288420)
-#define PROTO_ITEMLIST_CLONE_OFFSET UNITYSDK_OFFSET(0x18288050)
-#define PROTO_ITEMLIST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18288170)
-#define PROTO_ITEMLIST_EQUALS_OFFSET UNITYSDK_OFFSET(0x18288090)
-#define PROTO_ITEMLIST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18288220)
-#define PROTO_ITEMLIST_GET_ITEMLIST__OFFSET UNITYSDK_OFFSET(0x18288080)
-#define PROTO_ITEMLIST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18288560)
-#define PROTO_ITEMLIST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x182884C0)
-#define PROTO_ITEMLIST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18287F70)
-#define PROTO_ITEMLIST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18288310)
-#define PROTO_ITEMLIST_WRITETO_OFFSET UNITYSDK_OFFSET(0x18288370)
-#define PROTO_ITEMLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x18288610)
-#define PROTO_ITEMLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18287FC0)
-#define PROTO_ITEMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18287F80)
+#define PROTO_ITEMLIST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x19345400)
+#define PROTO_ITEMLIST_CLONE_OFFSET UNITYSDK_OFFSET(0x19337930)
+#define PROTO_ITEMLIST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19345240)
+#define PROTO_ITEMLIST_EQUALS_OFFSET UNITYSDK_OFFSET(0x19345160)
+#define PROTO_ITEMLIST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19337D40)
+#define PROTO_ITEMLIST_GET_ITEMLIST__OFFSET UNITYSDK_OFFSET(0x19345150)
+#define PROTO_ITEMLIST_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19345080)
+#define PROTO_ITEMLIST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x193454A0)
+#define PROTO_ITEMLIST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19338220)
+#define PROTO_ITEMLIST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x193450B0)
+#define PROTO_ITEMLIST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x193452F0)
+#define PROTO_ITEMLIST_WRITETO_OFFSET UNITYSDK_OFFSET(0x19345350)
+#define PROTO_ITEMLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x19345550)
+#define PROTO_ITEMLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x193450C0)
+#define PROTO_ITEMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x193381E0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ItemList_TypeDefinitionIndex = 24067;
+	inline static constexpr unsigned int ItemList_TypeDefinitionIndex = 26167;
 
 	class ItemList : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::FieldCodec_1<::Proto::Item*>** StaticGet__repeated_itemList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::Item*>**)Il2CppClass::FromTypeDefinitionIndex(ItemList_TypeDefinitionIndex)->GetStaticField(0x1AB80);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::Item*>**)Il2CppClass::FromTypeDefinitionIndex(ItemList_TypeDefinitionIndex)->GetStaticField(0x18150);
 		}
-		// static const ::System::Int32 ItemList_FieldNumber = 0x9; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Item*>* itemList_; // 0x18
+		static ::Google::Protobuf::MessageParser_1<::Proto::ItemList*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::ItemList*>**)Il2CppClass::FromTypeDefinitionIndex(ItemList_TypeDefinitionIndex)->GetStaticField(0x18158);
+		}
+		// static const ::System::Int32 ItemList_FieldNumber = 0x1; // 0x0
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Item*>* itemList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -54,6 +60,11 @@ namespace Proto
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ITEMLIST__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::ItemList*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::ItemList*>*(*)())((::PBYTE)hIl2Cpp + PROTO_ITEMLIST_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

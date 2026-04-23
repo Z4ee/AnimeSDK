@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::Client::Prop { class MonoPushDownObject; }
 namespace RPG::GameCore { class AdvPlayerPushDownProp; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_327654700DEA38B4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10988A50)
-#define CLASS_2_327654700DEA38B4_METHOD_2_A0C13191B8508BD3_OFFSET UNITYSDK_OFFSET(0x109893C0)
-#define CLASS_2_327654700DEA38B4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10988CA0)
-#define CLASS_2_327654700DEA38B4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10988B50)
-#define CLASS_2_327654700DEA38B4_TICK_OFFSET UNITYSDK_OFFSET(0x10989210)
-#define CLASS_2_327654700DEA38B4__CTOR_OFFSET UNITYSDK_OFFSET(0x10988920)
+#define CLASS_2_327654700DEA38B4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD3701F0)
+#define CLASS_2_327654700DEA38B4_METHOD_2_A0C13191B8508BD3_OFFSET UNITYSDK_OFFSET(0xD370B70)
+#define CLASS_2_327654700DEA38B4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD370450)
+#define CLASS_2_327654700DEA38B4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD370300)
+#define CLASS_2_327654700DEA38B4_TICK_OFFSET UNITYSDK_OFFSET(0xD3709C0)
+#define CLASS_2_327654700DEA38B4__CTOR_OFFSET UNITYSDK_OFFSET(0xD3700C0)
 
-inline static constexpr unsigned int Class_2_327654700DEA38B4_TypeDefinitionIndex = 42484;
+inline static constexpr unsigned int Class_2_327654700DEA38B4_TypeDefinitionIndex = 48445;
 
 class Class_2_327654700DEA38B4 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_2_5; // 0x18
-	::RPG::GameCore::AdvPlayerPushDownProp* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
-	::Class_3_5775A4FEC79026BC* Field_2_4; // 0x38
-	::RPG::Client::Prop::MonoPushDownObject* Field_2_2; // 0x40
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::Client::Prop::MonoPushDownObject* Field_2_2; // 0x20
+	::RPG::GameCore::AdvPlayerPushDownProp* Field_2_1; // 0x28
+	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x38
+	::Class_3_E21F6DE9B7FA4D05* Field_2_5; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvPlayerPushDownProp* a2)
 	{

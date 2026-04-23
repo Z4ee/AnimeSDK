@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int SessionConnectionState_TypeDefinitionIndex = 37767;
+	inline static constexpr unsigned int SessionConnectionState_TypeDefinitionIndex = 43644;
 
 	enum class SessionConnectionState : ::System::Int32
 	{

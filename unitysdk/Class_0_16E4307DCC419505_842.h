@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_CA217ABF4E3B4F3F;
-namespace RPG::GameCore { class GameEntity; }
+namespace RPG::Client { class IRogueTournBuildRefDataItem; }
+namespace System { class Exception; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_842_TypeDefinitionIndex = 58697;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_842_TypeDefinitionIndex = 62216;
 
 class Class_0_16E4307DCC419505_842
 {

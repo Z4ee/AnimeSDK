@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONBAREFFECTTEXTCONFIG_METHOD_2_494FDA7C0A385B6E_OFFSET UNITYSDK_OFFSET(0x16E985E0)
-#define RPG_GAMECORE_ACTIONBAREFFECTTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E98740)
+#define RPG_GAMECORE_ACTIONBAREFFECTTEXTCONFIG_METHOD_2_494FDA7C0A385B6E_OFFSET UNITYSDK_OFFSET(0x185F8BC0)
+#define RPG_GAMECORE_ACTIONBAREFFECTTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x185F8D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarEffectTextConfig_TypeDefinitionIndex = 21150;
+	inline static constexpr unsigned int ActionBarEffectTextConfig_TypeDefinitionIndex = 21867;
 
 	class ActionBarEffectTextConfig : public ::RPG::GameCore::JsonConfig
 	{

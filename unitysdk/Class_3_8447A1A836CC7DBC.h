@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class DynamicValueRoundToInt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8447A1A836CC7DBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114970F0)
-#define CLASS_3_8447A1A836CC7DBC__CTOR_OFFSET UNITYSDK_OFFSET(0x11497010)
+#define CLASS_3_8447A1A836CC7DBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9B97780)
+#define CLASS_3_8447A1A836CC7DBC__CTOR_OFFSET UNITYSDK_OFFSET(0x9B976A0)
 
-inline static constexpr unsigned int Class_3_8447A1A836CC7DBC_TypeDefinitionIndex = 45300;
+inline static constexpr unsigned int Class_3_8447A1A836CC7DBC_TypeDefinitionIndex = 51944;
 
 class Class_3_8447A1A836CC7DBC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DynamicValueRoundToInt*>
 {

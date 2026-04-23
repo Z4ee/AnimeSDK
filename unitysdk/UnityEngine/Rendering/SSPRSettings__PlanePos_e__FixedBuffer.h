@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSPRSettings__PlanePos_e__FixedBuffer_TypeDefinitionIndex = 4622;
+	inline static constexpr unsigned int SSPRSettings__PlanePos_e__FixedBuffer_TypeDefinitionIndex = 4630;
 
 	struct alignas(4) SSPRSettings__PlanePos_e__FixedBuffer
 	{

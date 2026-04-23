@@ -8,29 +8,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Dynamic { class ExpandoObject; }
 
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x1847BBF0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x1847C0E0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1847C340)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1847C530)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x1847C2A0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1847C650)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1847C660)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1847BBE0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1847BBC0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x19EB6B60)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x19EB7050)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x19EB72B0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x19EB74A0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x19EB7210)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x19EB75C0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EB75D0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19EB6B50)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB6B30)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 3659;
+	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 3661;
 
 	class ExpandoClass : public ::System::Object
 	{
 	public:
 		static ::System::Dynamic::ExpandoClass** StaticGet_Empty()
 		{
-			return (::System::Dynamic::ExpandoClass**)Il2CppClass::FromTypeDefinitionIndex(ExpandoClass_TypeDefinitionIndex)->GetStaticField(0xE280);
+			return (::System::Dynamic::ExpandoClass**)Il2CppClass::FromTypeDefinitionIndex(ExpandoClass_TypeDefinitionIndex)->GetStaticField(0x116E0);
 		}
-		::Il2CppArray<::System::String*>* _keys; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x10
+		::Il2CppArray<::System::String*>* _keys; // 0x18
 		::System::Int32 _hashCode; // 0x20
 
 		::System::Void _ctor()

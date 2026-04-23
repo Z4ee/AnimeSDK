@@ -7,7 +7,7 @@ namespace System::Linq { template <typename T> class IdentityFunction_1___c; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int IdentityFunction_1___c_TypeDefinitionIndex = 3150;
+	inline static constexpr unsigned int IdentityFunction_1___c_TypeDefinitionIndex = 3152;
 
 	template <typename TElement>
 	class IdentityFunction_1___c : public ::System::Object

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_4C8453486C91E3A1_6.h"
+#include "unitysdk/Struct_2_4C8453486C91E3A1_7.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_203A76DC77D7F043_METHOD_2_DB68E5F6FCD20795_OFFSET UNITYSDK_OFFSET(0x109887B0)
-#define STRUCT_2_203A76DC77D7F043_METHOD_2_DDFF13D6F0BE6537_OFFSET UNITYSDK_OFFSET(0x148F180)
+#define STRUCT_2_203A76DC77D7F043_METHOD_2_DB68E5F6FCD20795_OFFSET UNITYSDK_OFFSET(0x9BC39B0)
+#define STRUCT_2_203A76DC77D7F043_METHOD_2_DDFF13D6F0BE6537_OFFSET UNITYSDK_OFFSET(0xD2C60)
 
-inline static constexpr unsigned int Struct_2_203A76DC77D7F043_TypeDefinitionIndex = 57123;
+inline static constexpr unsigned int Struct_2_203A76DC77D7F043_TypeDefinitionIndex = 64374;
 
 struct alignas(4) Struct_2_203A76DC77D7F043
 {
-	::Struct_2_4C8453486C91E3A1_6 Field_2_0; // 0x10
-	::Struct_2_4C8453486C91E3A1_6 Field_2_1; // 0x18
+	::Struct_2_4C8453486C91E3A1_7 Field_2_0; // 0x10
+	::Struct_2_4C8453486C91E3A1_7 Field_2_1; // 0x18
 
 	static ::Struct_2_203A76DC77D7F043 Method_2_DB68E5F6FCD20795(::System::Int32 a1, ::System::Int32 a2)
 	{

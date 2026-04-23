@@ -3,7 +3,7 @@
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFProxyType_TypeDefinitionIndex = 2402;
+	inline static constexpr unsigned int CFProxyType_TypeDefinitionIndex = 2403;
 
 	enum class CFProxyType : ::System::Int32
 	{

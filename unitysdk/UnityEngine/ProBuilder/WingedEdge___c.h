@@ -6,29 +6,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188BBBF0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188BBC30)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_1_OFFSET UNITYSDK_OFFSET(0x188BBC40)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_2_OFFSET UNITYSDK_OFFSET(0x188BBC60)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2F5BB0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F5BF0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_1_OFFSET UNITYSDK_OFFSET(0x1A2F5C00)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_2_OFFSET UNITYSDK_OFFSET(0x1A2F5C20)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 34191;
+	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 40010;
 
 	class WingedEdge___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>** StaticGet___9__32_2()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x2ACC0);
-		}
-		static ::UnityEngine::ProBuilder::WingedEdge___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::WingedEdge___c**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x2ACC8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x2EB70);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__32_1()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x2ACD0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x2EB78);
+		}
+		static ::UnityEngine::ProBuilder::WingedEdge___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::WingedEdge___c**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x2EB80);
 		}
 
 		static ::System::Void _cctor()

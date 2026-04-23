@@ -3,37 +3,37 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
-namespace MiHoYo::SDK::HoYoPass { class LoginManager_HoYoPassResult; }
+namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF8C50)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__ONHOYOPASSLOGINRESULT_B__0_OFFSET UNITYSDK_OFFSET(0x15F05B80)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__ONHOYOPASSLOGINRESULT_B__3_OFFSET UNITYSDK_OFFSET(0x15F05BB0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17541300)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__PERFORMEMAILBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1754F4D0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__PERFORMEMAILBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x1754F500)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass44_0_TypeDefinitionIndex = 7305;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass44_0_TypeDefinitionIndex = 7355;
 
 	class LoginManager___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
-		::System::String* args; // 0x18
-		::MiHoYo::SDK::HoYoPass::LoginManager_HoYoPassResult* result; // 0x20
+		::System::Action* callback; // 0x10
+		::System::String* bindEmailTicket; // 0x18
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnHoYoPassLoginResult_b__0()
+		::System::Void _PerformEmailBinding_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__ONHOYOPASSLOGINRESULT_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__PERFORMEMAILBINDING_B__0_OFFSET))(this);
 		}
 
-		::System::Void _OnHoYoPassLoginResult_b__3()
+		::System::Void _PerformEmailBinding_b__1(::System::String* args)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__ONHOYOPASSLOGINRESULT_B__3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS44_0__PERFORMEMAILBINDING_B__1_OFFSET))(this, args);
 		}
 	};
 }

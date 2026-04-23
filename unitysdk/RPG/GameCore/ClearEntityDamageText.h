@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_100AACAB89A99C19_OFFSET UNITYSDK_OFFSET(0x170B1E70)
-#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_93C867813B48A7A6_OFFSET UNITYSDK_OFFSET(0x170B1EF0)
-#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170B1EC0)
+#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_146577BE06A515F2_OFFSET UNITYSDK_OFFSET(0x188114A0)
+#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_1541E3B02F9A9FD0_OFFSET UNITYSDK_OFFSET(0x18811420)
+#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18811470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearEntityDamageText_TypeDefinitionIndex = 21430;
+	inline static constexpr unsigned int ClearEntityDamageText_TypeDefinitionIndex = 22165;
 
 	class ClearEntityDamageText : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_100AACAB89A99C19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityDamageText*& a2)
+		static ::System::Void Method_3_1541E3B02F9A9FD0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityDamageText*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityDamageText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_100AACAB89A99C19_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityDamageText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_1541E3B02F9A9FD0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_93C867813B48A7A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityDamageText* a2)
+		static ::System::Void Method_3_146577BE06A515F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityDamageText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityDamageText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_93C867813B48A7A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityDamageText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_146577BE06A515F2_OFFSET))(a1, a2);
 		}
 	};
 }

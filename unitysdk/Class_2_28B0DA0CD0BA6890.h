@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperationImpl_1.h"
 
-class Class_0_16E4307DCC419505_470;
+class Class_0_16E4307DCC419505_549;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TargetSortSequence; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_28B0DA0CD0BA6890_COMPARE_OFFSET UNITYSDK_OFFSET(0x8ACF0D0)
-#define CLASS_2_28B0DA0CD0BA6890_METHOD_2_194D81FDDD0BED7A_OFFSET UNITYSDK_OFFSET(0x8ACEDC0)
-#define CLASS_2_28B0DA0CD0BA6890_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x8ACEFB0)
-#define CLASS_2_28B0DA0CD0BA6890__CTOR_OFFSET UNITYSDK_OFFSET(0x8ACECA0)
+#define CLASS_2_28B0DA0CD0BA6890_COMPARE_OFFSET UNITYSDK_OFFSET(0x1182DFD0)
+#define CLASS_2_28B0DA0CD0BA6890_METHOD_2_194D81FDDD0BED7A_OFFSET UNITYSDK_OFFSET(0x1182DCC0)
+#define CLASS_2_28B0DA0CD0BA6890_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1182DEB0)
+#define CLASS_2_28B0DA0CD0BA6890__CTOR_OFFSET UNITYSDK_OFFSET(0x1182DBA0)
 
-inline static constexpr unsigned int Class_2_28B0DA0CD0BA6890_TypeDefinitionIndex = 47822;
+inline static constexpr unsigned int Class_2_28B0DA0CD0BA6890_TypeDefinitionIndex = 54561;
 
 class Class_2_28B0DA0CD0BA6890 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortSequence*>
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_470*>* Field_2_0; // 0x18
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_549*>* Field_2_0; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TargetSortSequence* a1)
 	{

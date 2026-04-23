@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AvatarIKGoal_TypeDefinitionIndex = 5017;
+	inline static constexpr unsigned int AvatarIKGoal_TypeDefinitionIndex = 5025;
 
 	enum class AvatarIKGoal : ::System::Int32
 	{

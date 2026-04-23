@@ -19,12 +19,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_31FA45A1C9CAC86B_OFFSET UNITYSDK_OFFSET(0x1778E7C0)
-#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1778F140)
+#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_31FA45A1C9CAC86B_OFFSET UNITYSDK_OFFSET(0x18EB4730)
+#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB5210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 16173;
+	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 16704;
 
 	class SummonUnitConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -37,28 +37,32 @@ namespace RPG::GameCore
 		::System::String* ShoesType; // 0x38
 		::System::Boolean ShowShadow; // 0x40
 		::System::Boolean ColliderIsTrigger; // 0x41
+		::System::Boolean AcceptMoneyTrigger; // 0x42
 		::System::String* AttachPoint; // 0x48
 		::RPG::MVector3 LocalPosition; // 0x50
 		::RPG::MVector3 LocalRotation; // 0x5C
 		::RPG::GameCore::DynamicFloat* Duration; // 0x68
 		::System::Single FadeoutTime; // 0x70
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCreate; // 0x78
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDestroy; // 0x80
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeReplaced; // 0x88
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnHide; // 0x90
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnShow; // 0x98
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnGroundInvalid; // 0xA0
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnResetPos; // 0xA8
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSummonerGroundMove; // 0xB0
-		::RPG::GameCore::SummonUnitCharacterAnimConfig* AnimConfig; // 0xB8
-		::RPG::GameCore::SummonUnitTriggerConfig* TriggerConfig; // 0xC0
-		::RPG::GameCore::SummonUnitMoveConfig* MoveConfig; // 0xC8
-		::RPG::GameCore::SummonUnitAIConfig* AIConfig; // 0xD0
-		::RPG::GameCore::SummonUnitSkillConfig* SkillConfig; // 0xD8
-		::RPG::GameCore::SummonUnitBeAttackConfig* BeAttackConfig; // 0xE0
-		::RPG::GameCore::SummonUnitGatherConfig* GatherConfig; // 0xE8
-		::RPG::GameCore::SummonUnitMiscConfig* MiscConfig; // 0xF0
-		::Class_1_2CAAA2FDF9170110* DynamicValues; // 0xF8
+		::System::String* FadeoutAnim; // 0x78
+		::System::Single ExtraDitherRadius; // 0x80
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCreate; // 0x88
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDestroy; // 0x90
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeReplaced; // 0x98
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnHide; // 0xA0
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnShow; // 0xA8
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnGroundInvalid; // 0xB0
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnResetPos; // 0xB8
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSummonerGroundMove; // 0xC0
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAcceptMoney; // 0xC8
+		::RPG::GameCore::SummonUnitCharacterAnimConfig* AnimConfig; // 0xD0
+		::RPG::GameCore::SummonUnitTriggerConfig* TriggerConfig; // 0xD8
+		::RPG::GameCore::SummonUnitMoveConfig* MoveConfig; // 0xE0
+		::RPG::GameCore::SummonUnitAIConfig* AIConfig; // 0xE8
+		::RPG::GameCore::SummonUnitSkillConfig* SkillConfig; // 0xF0
+		::RPG::GameCore::SummonUnitBeAttackConfig* BeAttackConfig; // 0xF8
+		::RPG::GameCore::SummonUnitGatherConfig* GatherConfig; // 0x100
+		::RPG::GameCore::SummonUnitMiscConfig* MiscConfig; // 0x108
+		::Class_1_2CAAA2FDF9170110* DynamicValues; // 0x110
 
 		::System::Void _ctor()
 		{

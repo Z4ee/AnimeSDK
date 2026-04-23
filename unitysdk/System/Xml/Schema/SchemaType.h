@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SchemaType_TypeDefinitionIndex = 2165;
+	inline static constexpr unsigned int SchemaType_TypeDefinitionIndex = 2166;
 
 	enum class SchemaType : ::System::Int32
 	{

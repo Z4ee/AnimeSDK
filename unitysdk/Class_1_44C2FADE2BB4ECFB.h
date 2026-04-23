@@ -14,310 +14,310 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_006F4D5C221D8114_OFFSET UNITYSDK_OFFSET(0x10C7B630)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_1DA5C35D6019ACFB_OFFSET UNITYSDK_OFFSET(0x10C7B7D0)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_3150507749BCEAEC_OFFSET UNITYSDK_OFFSET(0x10C7BD00)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x10C7B5D0)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_9F235D6E31464286_OFFSET UNITYSDK_OFFSET(0x10C7BD50)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_A3A2B503EA38D264_OFFSET UNITYSDK_OFFSET(0x10C7B950)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_A4AF59FC41A026D9_OFFSET UNITYSDK_OFFSET(0x10C7B8B0)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_A714DCC98F177E25_OFFSET UNITYSDK_OFFSET(0x10C7B6B0)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_EAF2AF5E75AF93B9_OFFSET UNITYSDK_OFFSET(0x10C7B9F0)
-#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_F20A7B1F9DD097DF_OFFSET UNITYSDK_OFFSET(0x10C7BB60)
-#define CLASS_1_44C2FADE2BB4ECFB__CCTOR_OFFSET UNITYSDK_OFFSET(0x10C7C5D0)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_006F4D5C221D8114_OFFSET UNITYSDK_OFFSET(0x98DD7A0)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_1DA5C35D6019ACFB_OFFSET UNITYSDK_OFFSET(0x98DD940)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_3150507749BCEAEC_OFFSET UNITYSDK_OFFSET(0x98DDE70)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x98DD740)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_9F235D6E31464286_OFFSET UNITYSDK_OFFSET(0x98DDEC0)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_A3A2B503EA38D264_OFFSET UNITYSDK_OFFSET(0x98DDAC0)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_A4AF59FC41A026D9_OFFSET UNITYSDK_OFFSET(0x98DDA20)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_A714DCC98F177E25_OFFSET UNITYSDK_OFFSET(0x98DD820)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_EAF2AF5E75AF93B9_OFFSET UNITYSDK_OFFSET(0x98DDB60)
+#define CLASS_1_44C2FADE2BB4ECFB_METHOD_1_F20A7B1F9DD097DF_OFFSET UNITYSDK_OFFSET(0x98DDCD0)
+#define CLASS_1_44C2FADE2BB4ECFB__CCTOR_OFFSET UNITYSDK_OFFSET(0x98DE740)
 
-inline static constexpr unsigned int Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex = 39685;
+inline static constexpr unsigned int Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex = 45594;
 
 class Class_1_44C2FADE2BB4ECFB : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_54()
+	static ::System::String** StaticGet_Field_1_1()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x7580);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB50);
 	}
 	static ::System::String** StaticGet_Field_1_3()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x7588);
-	}
-	static ::System::String** StaticGet_Field_1_53()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x7590);
-	}
-	static ::System::String** StaticGet_Field_1_5()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x7598);
-	}
-	static ::System::String** StaticGet_Field_1_4()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75A0);
-	}
-	static ::System::String** StaticGet_Field_1_62()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75A8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB58);
 	}
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75B0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB60);
 	}
-	static ::System::String** StaticGet_Field_1_65()
+	static ::System::String** StaticGet_Field_1_62()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75B8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB68);
+	}
+	static ::System::String** StaticGet_Field_1_53()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB70);
 	}
 	static ::System::String** StaticGet_Field_1_2()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75C0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB78);
 	}
-	static ::System::String** StaticGet_Field_1_1()
+	static ::System::String** StaticGet_Field_1_65()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75C8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB80);
+	}
+	static ::System::String** StaticGet_Field_1_54()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB88);
 	}
 	static ::System::String** StaticGet_Field_1_52()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x75D0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB90);
 	}
-	static ::System::Int32* StaticGet_Field_1_24()
+	static ::System::String** StaticGet_Field_1_5()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FC0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCB98);
 	}
-	static ::System::Int32* StaticGet_Field_1_17()
+	static ::System::String** StaticGet_Field_1_4()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FC4);
-	}
-	static ::System::Int32* StaticGet_Field_1_22()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FC8);
-	}
-	static ::System::Int32* StaticGet_Field_1_69()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FCC);
-	}
-	static ::System::Int32* StaticGet_Field_1_44()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FD0);
-	}
-	static ::System::Int32* StaticGet_Field_1_6()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FD4);
-	}
-	static ::System::Int32* StaticGet_Field_1_55()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FD8);
-	}
-	static ::System::Int32* StaticGet_Field_1_10()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FDC);
-	}
-	static ::System::Int32* StaticGet_Field_1_37()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FE0);
-	}
-	static ::System::Int32* StaticGet_Field_1_9()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FE4);
-	}
-	static ::System::Int32* StaticGet_Field_1_47()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FE8);
-	}
-	static ::System::Int32* StaticGet_Field_1_18()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FEC);
-	}
-	static ::System::Int32* StaticGet_Field_1_45()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FF0);
-	}
-	static ::System::Int32* StaticGet_Field_1_43()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FF4);
-	}
-	static ::System::Int32* StaticGet_Field_1_23()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FF8);
-	}
-	static ::System::Int32* StaticGet_Field_1_36()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x3FFC);
-	}
-	static ::System::Int32* StaticGet_Field_1_40()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4000);
-	}
-	static ::System::Int32* StaticGet_Field_1_29()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4004);
-	}
-	static ::System::Int32* StaticGet_Field_1_70()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4008);
-	}
-	static ::System::Int32* StaticGet_Field_1_58()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x400C);
-	}
-	static ::System::Int32* StaticGet_Field_1_60()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4010);
-	}
-	static ::System::Int32* StaticGet_Field_1_34()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4014);
-	}
-	static ::System::Int32* StaticGet_Field_1_66()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4018);
-	}
-	static ::System::Int32* StaticGet_Field_1_21()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x401C);
-	}
-	static ::System::Int32* StaticGet_Field_1_68()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4020);
-	}
-	static ::System::Int32* StaticGet_Field_1_50()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4024);
-	}
-	static ::System::Int32* StaticGet_Field_1_19()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4028);
-	}
-	static ::System::Int32* StaticGet_Field_1_49()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x402C);
-	}
-	static ::System::Int32* StaticGet_Field_1_59()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4030);
-	}
-	static ::System::Int32* StaticGet_Field_1_31()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4034);
-	}
-	static ::System::Int32* StaticGet_Field_1_56()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4038);
-	}
-	static ::System::Int32* StaticGet_Field_1_48()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x403C);
-	}
-	static ::System::Int32* StaticGet_Field_1_12()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4040);
-	}
-	static ::System::Int32* StaticGet_Field_1_28()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4044);
-	}
-	static ::System::Int32* StaticGet_Field_1_63()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4048);
-	}
-	static ::System::Int32* StaticGet_Field_1_25()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x404C);
-	}
-	static ::System::Int32* StaticGet_Field_1_11()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4050);
-	}
-	static ::System::Int32* StaticGet_Field_1_14()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4054);
-	}
-	static ::System::Int32* StaticGet_Field_1_42()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4058);
-	}
-	static ::System::Int32* StaticGet_Field_1_16()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x405C);
-	}
-	static ::System::Int32* StaticGet_Field_1_35()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4060);
-	}
-	static ::System::Int32* StaticGet_Field_1_57()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4064);
-	}
-	static ::System::Int32* StaticGet_Field_1_51()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4068);
-	}
-	static ::System::Int32* StaticGet_Field_1_7()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x406C);
-	}
-	static ::System::Int32* StaticGet_Field_1_67()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4070);
-	}
-	static ::System::Int32* StaticGet_Field_1_33()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4074);
-	}
-	static ::System::Int32* StaticGet_Field_1_41()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4078);
-	}
-	static ::System::Int32* StaticGet_Field_1_32()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x407C);
-	}
-	static ::System::Int32* StaticGet_Field_1_61()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4080);
-	}
-	static ::System::Int32* StaticGet_Field_1_13()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4084);
-	}
-	static ::System::Int32* StaticGet_Field_1_8()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4088);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0xCBA0);
 	}
 	static ::System::Int32* StaticGet_Field_1_39()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x408C);
-	}
-	static ::System::Int32* StaticGet_Field_1_46()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4090);
-	}
-	static ::System::Int32* StaticGet_Field_1_15()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4094);
-	}
-	static ::System::Int32* StaticGet_Field_1_20()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4098);
-	}
-	static ::System::Int32* StaticGet_Field_1_38()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x409C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DE0);
 	}
 	static ::System::Int32* StaticGet_Field_1_71()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x40A0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DE4);
 	}
-	static ::System::Int32* StaticGet_Field_1_30()
+	static ::System::Int32* StaticGet_Field_1_9()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x40A4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DE8);
 	}
-	static ::System::Int32* StaticGet_Field_1_26()
+	static ::System::Int32* StaticGet_Field_1_25()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x40A8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DEC);
 	}
-	static ::System::Int32* StaticGet_Field_1_64()
+	static ::System::Int32* StaticGet_Field_1_46()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x40AC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DF0);
+	}
+	static ::System::Int32* StaticGet_Field_1_10()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DF4);
+	}
+	static ::System::Int32* StaticGet_Field_1_68()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DF8);
+	}
+	static ::System::Int32* StaticGet_Field_1_50()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4DFC);
+	}
+	static ::System::Int32* StaticGet_Field_1_29()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E00);
+	}
+	static ::System::Int32* StaticGet_Field_1_15()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E04);
+	}
+	static ::System::Int32* StaticGet_Field_1_17()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E08);
+	}
+	static ::System::Int32* StaticGet_Field_1_70()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E0C);
+	}
+	static ::System::Int32* StaticGet_Field_1_22()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E10);
+	}
+	static ::System::Int32* StaticGet_Field_1_40()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E14);
+	}
+	static ::System::Int32* StaticGet_Field_1_31()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E18);
+	}
+	static ::System::Int32* StaticGet_Field_1_67()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E1C);
+	}
+	static ::System::Int32* StaticGet_Field_1_59()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E20);
+	}
+	static ::System::Int32* StaticGet_Field_1_49()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E24);
+	}
+	static ::System::Int32* StaticGet_Field_1_20()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E28);
+	}
+	static ::System::Int32* StaticGet_Field_1_6()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E2C);
+	}
+	static ::System::Int32* StaticGet_Field_1_8()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E30);
+	}
+	static ::System::Int32* StaticGet_Field_1_35()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E34);
+	}
+	static ::System::Int32* StaticGet_Field_1_38()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E38);
+	}
+	static ::System::Int32* StaticGet_Field_1_41()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E3C);
+	}
+	static ::System::Int32* StaticGet_Field_1_24()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E40);
+	}
+	static ::System::Int32* StaticGet_Field_1_56()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E44);
+	}
+	static ::System::Int32* StaticGet_Field_1_45()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E48);
+	}
+	static ::System::Int32* StaticGet_Field_1_28()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E4C);
+	}
+	static ::System::Int32* StaticGet_Field_1_66()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E50);
+	}
+	static ::System::Int32* StaticGet_Field_1_13()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E54);
+	}
+	static ::System::Int32* StaticGet_Field_1_55()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E58);
+	}
+	static ::System::Int32* StaticGet_Field_1_23()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E5C);
+	}
+	static ::System::Int32* StaticGet_Field_1_37()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E60);
+	}
+	static ::System::Int32* StaticGet_Field_1_18()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E64);
+	}
+	static ::System::Int32* StaticGet_Field_1_61()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E68);
+	}
+	static ::System::Int32* StaticGet_Field_1_44()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E6C);
+	}
+	static ::System::Int32* StaticGet_Field_1_58()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E70);
+	}
+	static ::System::Int32* StaticGet_Field_1_16()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E74);
+	}
+	static ::System::Int32* StaticGet_Field_1_11()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E78);
+	}
+	static ::System::Int32* StaticGet_Field_1_43()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E7C);
+	}
+	static ::System::Int32* StaticGet_Field_1_12()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E80);
+	}
+	static ::System::Int32* StaticGet_Field_1_19()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E84);
+	}
+	static ::System::Int32* StaticGet_Field_1_7()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E88);
+	}
+	static ::System::Int32* StaticGet_Field_1_63()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E8C);
 	}
 	static ::System::Int32* StaticGet_Field_1_27()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x40B0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E90);
+	}
+	static ::System::Int32* StaticGet_Field_1_51()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E94);
+	}
+	static ::System::Int32* StaticGet_Field_1_26()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E98);
+	}
+	static ::System::Int32* StaticGet_Field_1_36()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4E9C);
+	}
+	static ::System::Int32* StaticGet_Field_1_34()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EA0);
+	}
+	static ::System::Int32* StaticGet_Field_1_48()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EA4);
+	}
+	static ::System::Int32* StaticGet_Field_1_64()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EA8);
+	}
+	static ::System::Int32* StaticGet_Field_1_69()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EAC);
+	}
+	static ::System::Int32* StaticGet_Field_1_33()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EB0);
+	}
+	static ::System::Int32* StaticGet_Field_1_47()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EB4);
+	}
+	static ::System::Int32* StaticGet_Field_1_60()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EB8);
+	}
+	static ::System::Int32* StaticGet_Field_1_32()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EBC);
+	}
+	static ::System::Int32* StaticGet_Field_1_21()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EC0);
+	}
+	static ::System::Int32* StaticGet_Field_1_30()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EC4);
+	}
+	static ::System::Int32* StaticGet_Field_1_14()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4EC8);
+	}
+	static ::System::Int32* StaticGet_Field_1_42()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4ECC);
+	}
+	static ::System::Int32* StaticGet_Field_1_57()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44C2FADE2BB4ECFB_TypeDefinitionIndex)->GetStaticField(0x4ED0);
 	}
 
 	static ::System::Void _cctor()

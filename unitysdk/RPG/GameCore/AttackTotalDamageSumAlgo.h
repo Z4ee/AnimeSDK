@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackTotalDamageSumAlgo_TypeDefinitionIndex = 21834;
+	inline static constexpr unsigned int AttackTotalDamageSumAlgo_TypeDefinitionIndex = 22572;
 
 	enum class AttackTotalDamageSumAlgo : ::System::Int32
 	{

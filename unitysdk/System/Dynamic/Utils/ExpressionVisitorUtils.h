@@ -10,13 +10,13 @@ namespace System::Linq::Expressions { class IArgumentProvider; }
 namespace System::Linq::Expressions { class IParameterProvider; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONVISITORUTILS_VISITARGUMENTS_OFFSET UNITYSDK_OFFSET(0x18482EE0)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONVISITORUTILS_VISITBLOCKEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x184826A0)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONVISITORUTILS_VISITPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18482980)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONVISITORUTILS_VISITARGUMENTS_OFFSET UNITYSDK_OFFSET(0x19EBDE50)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONVISITORUTILS_VISITBLOCKEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x19EBD610)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONVISITORUTILS_VISITPARAMETERS_OFFSET UNITYSDK_OFFSET(0x19EBD8F0)
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int ExpressionVisitorUtils_TypeDefinitionIndex = 3673;
+	inline static constexpr unsigned int ExpressionVisitorUtils_TypeDefinitionIndex = 3675;
 
 	class ExpressionVisitorUtils : public ::System::Object
 	{

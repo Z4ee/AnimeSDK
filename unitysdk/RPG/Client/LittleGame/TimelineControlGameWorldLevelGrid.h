@@ -5,11 +5,11 @@
 class Class_2_54AE1C44DE8123D2;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLDLEVELGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x16850F30)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLDLEVELGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF8970)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorldLevelGrid_TypeDefinitionIndex = 32984;
+	inline static constexpr unsigned int TimelineControlGameWorldLevelGrid_TypeDefinitionIndex = 38774;
 
 	class TimelineControlGameWorldLevelGrid : public ::System::Object
 	{

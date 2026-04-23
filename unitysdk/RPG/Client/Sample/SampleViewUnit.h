@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Sample
 {
-	inline static constexpr unsigned int SampleViewUnit_TypeDefinitionIndex = 60706;
+	inline static constexpr unsigned int SampleViewUnit_TypeDefinitionIndex = 68148;
 
 	enum class SampleViewUnit : ::System::Int32
 	{

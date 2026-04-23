@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByFuncUnlockCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FCA1092D7AAED868_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8BBE8C0)
-#define CLASS_3_FCA1092D7AAED868__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBE890)
+#define CLASS_3_FCA1092D7AAED868_EVALUATE_OFFSET UNITYSDK_OFFSET(0x129A51A0)
+#define CLASS_3_FCA1092D7AAED868__CTOR_OFFSET UNITYSDK_OFFSET(0x129A5170)
 
-inline static constexpr unsigned int Class_3_FCA1092D7AAED868_TypeDefinitionIndex = 42113;
+inline static constexpr unsigned int Class_3_FCA1092D7AAED868_TypeDefinitionIndex = 48086;
 
 class Class_3_FCA1092D7AAED868 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByFuncUnlockCheck*>
 {

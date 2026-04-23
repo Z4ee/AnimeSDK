@@ -4,7 +4,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IDebugTriggerService_TypeDefinitionIndex = 29707;
+	inline static constexpr unsigned int IDebugTriggerService_TypeDefinitionIndex = 35427;
 
 	class IDebugTriggerService
 	{

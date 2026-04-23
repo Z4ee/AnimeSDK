@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CREATEBATTLEEVENT_METHOD_3_07E6B7A2A78DA921_OFFSET UNITYSDK_OFFSET(0x17139A00)
-#define RPG_GAMECORE_CREATEBATTLEEVENT_METHOD_3_5CD750986EF32F7E_OFFSET UNITYSDK_OFFSET(0x171397A0)
-#define RPG_GAMECORE_CREATEBATTLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x171399D0)
+#define RPG_GAMECORE_CREATEBATTLEEVENT_METHOD_3_07E6B7A2A78DA921_OFFSET UNITYSDK_OFFSET(0x18840C10)
+#define RPG_GAMECORE_CREATEBATTLEEVENT_METHOD_3_5CD750986EF32F7E_OFFSET UNITYSDK_OFFSET(0x188409B0)
+#define RPG_GAMECORE_CREATEBATTLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18840BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleEvent_TypeDefinitionIndex = 21181;
+	inline static constexpr unsigned int CreateBattleEvent_TypeDefinitionIndex = 21898;
 
 	class CreateBattleEvent : public ::RPG::GameCore::TaskConfig
 	{

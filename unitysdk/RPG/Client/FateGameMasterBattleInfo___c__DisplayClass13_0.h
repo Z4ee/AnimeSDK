@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class IFateGameMasterInfoItem; }
 
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9682500)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS13_0__ISCURROUNDBATTLEMASTER_B__0_OFFSET UNITYSDK_OFFSET(0x9682890)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA341EB0)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS13_0__ISCURROUNDBATTLEMASTER_B__0_OFFSET UNITYSDK_OFFSET(0xA342240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterBattleInfo___c__DisplayClass13_0_TypeDefinitionIndex = 52007;
+	inline static constexpr unsigned int FateGameMasterBattleInfo___c__DisplayClass13_0_TypeDefinitionIndex = 58956;
 
 	class FateGameMasterBattleInfo___c__DisplayClass13_0 : public ::System::Object
 	{

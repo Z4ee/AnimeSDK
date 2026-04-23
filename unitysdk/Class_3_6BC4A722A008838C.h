@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropCurveMoveStop; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6BC4A722A008838C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A85720)
-#define CLASS_3_6BC4A722A008838C__CTOR_OFFSET UNITYSDK_OFFSET(0x8A856F0)
+#define CLASS_3_6BC4A722A008838C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123BBDE0)
+#define CLASS_3_6BC4A722A008838C__CTOR_OFFSET UNITYSDK_OFFSET(0x123BBDB0)
 
-inline static constexpr unsigned int Class_3_6BC4A722A008838C_TypeDefinitionIndex = 47052;
+inline static constexpr unsigned int Class_3_6BC4A722A008838C_TypeDefinitionIndex = 53784;
 
 class Class_3_6BC4A722A008838C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropCurveMoveStop*>
 {

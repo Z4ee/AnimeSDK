@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Protobuf { class ByteString; }
 namespace MiHoYo::SDK::Protobuf { class IMessage; }
 
-#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x15D9DF50)
-#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x15D9DCF0)
+#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1739B6D0)
+#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1739B480)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int MessageExtensions_TypeDefinitionIndex = 28016;
+	inline static constexpr unsigned int MessageExtensions_TypeDefinitionIndex = 33640;
 
 	class MessageExtensions : public ::System::Object
 	{

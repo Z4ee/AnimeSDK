@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFSectorCoord_TypeDefinitionIndex = 4070;
+	inline static constexpr unsigned int SDFSectorCoord_TypeDefinitionIndex = 4072;
 
 	struct alignas(4) SDFSectorCoord
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemCustomData_TypeDefinitionIndex = 5491;
+	inline static constexpr unsigned int ParticleSystemCustomData_TypeDefinitionIndex = 5502;
 
 	enum class ParticleSystemCustomData : ::System::Int32
 	{

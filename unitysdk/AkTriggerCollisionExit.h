@@ -5,10 +5,10 @@
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x18C31300)
-#define AKTRIGGERCOLLISIONEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C31400)
+#define AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1A66C820)
+#define AKTRIGGERCOLLISIONEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66C920)
 
-inline static constexpr unsigned int AkTriggerCollisionExit_TypeDefinitionIndex = 34698;
+inline static constexpr unsigned int AkTriggerCollisionExit_TypeDefinitionIndex = 40517;
 
 class AkTriggerCollisionExit : public ::AkTriggerBase
 {

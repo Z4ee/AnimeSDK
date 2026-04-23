@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_79F61E3248BECD05.h"
+#include "unitysdk/Class_3_97A40722E5999741.h"
 
 namespace RPG::GameCore { class AdventureTriggerAttack; }
 namespace RPG::GameCore { class GameEntity; }
@@ -8,12 +8,12 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_4_C56186E24A731AB4_METHOD_4_75067108A654CD0D_OFFSET UNITYSDK_OFFSET(0xE454880)
-#define CLASS_4_C56186E24A731AB4__CTOR_OFFSET UNITYSDK_OFFSET(0xE454870)
+#define CLASS_4_C56186E24A731AB4_METHOD_4_75067108A654CD0D_OFFSET UNITYSDK_OFFSET(0x127E7A50)
+#define CLASS_4_C56186E24A731AB4__CTOR_OFFSET UNITYSDK_OFFSET(0x127E7A40)
 
-inline static constexpr unsigned int Class_4_C56186E24A731AB4_TypeDefinitionIndex = 46716;
+inline static constexpr unsigned int Class_4_C56186E24A731AB4_TypeDefinitionIndex = 53425;
 
-class Class_4_C56186E24A731AB4 : public ::Class_3_79F61E3248BECD05
+class Class_4_C56186E24A731AB4 : public ::Class_3_97A40722E5999741
 {
 public:
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureTriggerAttack* a2)

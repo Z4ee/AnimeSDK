@@ -9,30 +9,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x17496450)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17496800)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x17497420)
-#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x17497480)
-#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174974A0)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x18BE0A20)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BE0DD0)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x18BE19F0)
+#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x18BE1A50)
+#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE1A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13128;
+	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13590;
 
 	class PerformanceERow : public ::System::Object
 	{
 	public:
 		::System::String* PerformancePath; // 0x10
 		::System::String* PerformanceCharacter; // 0x18
-		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x20
-		::System::Boolean IsIntroDialogue; // 0x24
-		::System::Boolean EndWithCrack; // 0x25
-		::System::UInt32 PlaneID; // 0x28
-		::RPG::GameCore::StoryBlackType EndBlack; // 0x2C
-		::System::UInt32 FloorID; // 0x30
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x34
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x38
-		::System::UInt32 PerformanceID; // 0x3C
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x20
+		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x24
+		::System::UInt32 FloorID; // 0x28
+		::System::UInt32 PerformanceID; // 0x2C
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x30
+		::System::UInt32 PlaneID; // 0x34
+		::RPG::GameCore::StoryBlackType EndBlack; // 0x38
+		::System::Boolean IsIntroDialogue; // 0x3C
+		::System::Boolean EndWithCrack; // 0x3D
 
 		::System::Void _ctor()
 		{

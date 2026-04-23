@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class RogueTournHandbookHexDataItem; }
 
-#define RPG_CLIENT_ROGUETOURNHANDBOOKHEXCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA393EE0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKHEXCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB0CB490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookHexCollection_TypeDefinitionIndex = 55171;
+	inline static constexpr unsigned int RogueTournHandbookHexCollection_TypeDefinitionIndex = 62359;
 
 	class RogueTournHandbookHexCollection : public ::RPG::Client::RogueTournHandbookDataCollection_2<::System::UInt32, ::RPG::Client::RogueTournHandbookHexDataItem*>
 	{

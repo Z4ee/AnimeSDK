@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_BUFFERS_TEXT_PARSERHELPERS_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x18517AA0)
-#define SYSTEM_BUFFERS_TEXT_PARSERHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18517AB0)
+#define SYSTEM_BUFFERS_TEXT_PARSERHELPERS_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x19F52930)
+#define SYSTEM_BUFFERS_TEXT_PARSERHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F52940)
 
 namespace System::Buffers::Text
 {
-	inline static constexpr unsigned int ParserHelpers_TypeDefinitionIndex = 4999;
+	inline static constexpr unsigned int ParserHelpers_TypeDefinitionIndex = 5007;
 
 	class ParserHelpers : public ::System::Object
 	{

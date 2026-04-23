@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePhaseType_TypeDefinitionIndex = 49549;
+	inline static constexpr unsigned int GamePhaseType_TypeDefinitionIndex = 56371;
 
 	enum class GamePhaseType : ::System::Int32
 	{

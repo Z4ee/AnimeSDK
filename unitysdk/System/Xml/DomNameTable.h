@@ -8,23 +8,23 @@ namespace System::Xml { class XmlName; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml::Schema { class IXmlSchemaInfo; }
 
-#define SYSTEM_XML_DOMNAMETABLE_ADDNAME_OFFSET UNITYSDK_OFFSET(0x18563FD0)
-#define SYSTEM_XML_DOMNAMETABLE_GETNAME_OFFSET UNITYSDK_OFFSET(0x18563CB0)
-#define SYSTEM_XML_DOMNAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x185646A0)
-#define SYSTEM_XML_DOMNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18563C30)
+#define SYSTEM_XML_DOMNAMETABLE_ADDNAME_OFFSET UNITYSDK_OFFSET(0x19F9ED20)
+#define SYSTEM_XML_DOMNAMETABLE_GETNAME_OFFSET UNITYSDK_OFFSET(0x19F9EA00)
+#define SYSTEM_XML_DOMNAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x19F9F3F0)
+#define SYSTEM_XML_DOMNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9E980)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DomNameTable_TypeDefinitionIndex = 1878;
+	inline static constexpr unsigned int DomNameTable_TypeDefinitionIndex = 1879;
 
 	class DomNameTable : public ::System::Object
 	{
 	public:
-		::System::Xml::XmlDocument* ownerDocument; // 0x10
-		::Il2CppArray<::System::Xml::XmlName*>* entries; // 0x18
-		::System::Xml::XmlNameTable* nameTable; // 0x20
-		::System::Int32 mask; // 0x28
-		::System::Int32 count; // 0x2C
+		::Il2CppArray<::System::Xml::XmlName*>* entries; // 0x10
+		::System::Xml::XmlNameTable* nameTable; // 0x18
+		::System::Xml::XmlDocument* ownerDocument; // 0x20
+		::System::Int32 count; // 0x28
+		::System::Int32 mask; // 0x2C
 
 		::System::Void _ctor(::System::Xml::XmlDocument* document)
 		{

@@ -7,23 +7,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPRETURNPACKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x98053F0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPRETURNPACKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA486180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipReturnPackEvent_TypeDefinitionIndex = 52711;
+	inline static constexpr unsigned int GridFightEquipReturnPackEvent_TypeDefinitionIndex = 59768;
 
 	class GridFightEquipReturnPackEvent : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* EquipUIDs; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* EquipUIDsToRank; // 0x18
-		::System::UInt32 ForgeSelectIndex; // 0x20
-		::System::UInt32 PlacementIndex; // 0x24
+		::RPG::Client::GridFightPlacementType PlacementType; // 0x20
+		::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource Source; // 0x24
 		::System::UInt32 RoleUID; // 0x28
-		::RPG::Client::GridFightPlacementType PlacementType; // 0x2C
-		::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource Source; // 0x30
-		::System::UInt32 PosIndex; // 0x34
+		::System::UInt32 PosIndex; // 0x2C
+		::System::UInt32 ForgeSelectIndex; // 0x30
+		::System::UInt32 PlacementIndex; // 0x34
 
 		::System::Void _ctor()
 		{

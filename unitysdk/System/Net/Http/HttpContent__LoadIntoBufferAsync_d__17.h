@@ -7,20 +7,20 @@
 namespace System::Net::Http { class HttpContent; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_HTTP_HTTPCONTENT__LOADINTOBUFFERASYNC_D__17_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x20FBF70)
-#define SYSTEM_NET_HTTP_HTTPCONTENT__LOADINTOBUFFERASYNC_D__17_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x81E80)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__LOADINTOBUFFERASYNC_D__17_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x22CEBA0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__LOADINTOBUFFERASYNC_D__17_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x22ABD20)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpContent__LoadIntoBufferAsync_d__17_TypeDefinitionIndex = 4779;
+	inline static constexpr unsigned int HttpContent__LoadIntoBufferAsync_d__17_TypeDefinitionIndex = 4787;
 
 	struct alignas(8) HttpContent__LoadIntoBufferAsync_d__17
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x10
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x20
-		::System::Net::Http::HttpContent* __4__this; // 0x38
-		::System::Int64 maxBufferSize; // 0x40
-		::System::Int32 __1__state; // 0x48
+		::System::Net::Http::HttpContent* __4__this; // 0x10
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x18
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x30
+		::System::Int32 __1__state; // 0x40
+		::System::Int64 maxBufferSize; // 0x48
 
 		::System::Void MoveNext()
 		{

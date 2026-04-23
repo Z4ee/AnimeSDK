@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TASKLISTTEMPLATE_METHOD_2_7BB37B51686FC891_OFFSET UNITYSDK_OFFSET(0x17895360)
-#define RPG_GAMECORE_TASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17895530)
+#define RPG_GAMECORE_TASKLISTTEMPLATE_METHOD_2_7BB37B51686FC891_OFFSET UNITYSDK_OFFSET(0x1908FC00)
+#define RPG_GAMECORE_TASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1908FDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TaskListTemplate_TypeDefinitionIndex = 14338;
+	inline static constexpr unsigned int TaskListTemplate_TypeDefinitionIndex = 14808;
 
 	class TaskListTemplate : public ::RPG::GameCore::JsonConfig
 	{

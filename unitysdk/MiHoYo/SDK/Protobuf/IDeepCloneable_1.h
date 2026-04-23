@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int IDeepCloneable_1_TypeDefinitionIndex = 28008;
+	inline static constexpr unsigned int IDeepCloneable_1_TypeDefinitionIndex = 33632;
 
 	template <typename T>
 	class IDeepCloneable_1

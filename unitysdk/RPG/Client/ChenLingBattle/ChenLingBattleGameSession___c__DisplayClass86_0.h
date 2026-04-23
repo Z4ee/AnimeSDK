@@ -5,12 +5,12 @@
 namespace RPG::Client::ChenLingBattle { class Condition; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9331F00)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS86_0__GETCLOSESTSATISFIEDCONDITIONSOLDIERS_B__0_OFFSET UNITYSDK_OFFSET(0x9333EB0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F9FB20)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS86_0__GETCLOSESTSATISFIEDCONDITIONSOLDIERS_B__0_OFFSET UNITYSDK_OFFSET(0x9FA1B80)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass86_0_TypeDefinitionIndex = 62102;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass86_0_TypeDefinitionIndex = 70101;
 
 	class ChenLingBattleGameSession___c__DisplayClass86_0 : public ::System::Object
 	{

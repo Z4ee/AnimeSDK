@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CrosshairType.h"
+#include "unitysdk/RPG/GameCore/MonsterRank.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_948;
+class Class_1_515A5165E85AA7C4_2;
+class Class_1_515A5165E85AA7C4_3;
+class Class_1_9CAA42EF32347EE5_4;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
+
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_4D36F20C286188BF_OFFSET UNITYSDK_OFFSET(0x118819E0)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_56C46243AEA2C868_OFFSET UNITYSDK_OFFSET(0x11881920)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_57D6489AC60AE928_OFFSET UNITYSDK_OFFSET(0x118817F0)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_7E9AC3FFDA4606D5_OFFSET UNITYSDK_OFFSET(0x11881480)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_CD5C08A2521794A0_1_OFFSET UNITYSDK_OFFSET(0x11881610)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_CD5C08A2521794A0_2_OFFSET UNITYSDK_OFFSET(0x11881700)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0x11881520)
+#define CLASS_1_ABE23A2321F5FDAA_METHOD_1_DD5BF1E285E61A17_OFFSET UNITYSDK_OFFSET(0x11881510)
+#define CLASS_1_ABE23A2321F5FDAA__CTOR_OFFSET UNITYSDK_OFFSET(0x11881500)
+
+inline static constexpr unsigned int Class_1_ABE23A2321F5FDAA_TypeDefinitionIndex = 65975;
+
+class Class_1_ABE23A2321F5FDAA : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_948* Field_1_0; // 0x10
+	::Class_1_515A5165E85AA7C4_2* Field_1_2; // 0x18
+	::Class_1_515A5165E85AA7C4_3* Field_1_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_ABE23A2321F5FDAA* Method_1_7E9AC3FFDA4606D5()
+	{
+		return ((::Class_1_ABE23A2321F5FDAA*(*)())((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_7E9AC3FFDA4606D5_OFFSET))();
+	}
+
+	::RPG::GameCore::CrosshairType Method_1_DD5BF1E285E61A17()
+	{
+		return ((::RPG::GameCore::CrosshairType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_DD5BF1E285E61A17_OFFSET))(this);
+	}
+
+	::System::String* Method_1_CD5C08A2521794A0()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_CD5C08A2521794A0_OFFSET))(this);
+	}
+
+	::System::String* Method_1_CD5C08A2521794A0_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_CD5C08A2521794A0_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_CD5C08A2521794A0_2()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_CD5C08A2521794A0_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_57D6489AC60AE928(::Class_1_9CAA42EF32347EE5_4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9CAA42EF32347EE5_4*))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_57D6489AC60AE928_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_56C46243AEA2C868(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_56C46243AEA2C868_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::MonsterRank Method_1_4D36F20C286188BF(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::RPG::GameCore::MonsterRank(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_ABE23A2321F5FDAA_METHOD_1_4D36F20C286188BF_OFFSET))(this, a1);
+	}
+};

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
-namespace UnityEngine { class Texture2D; }
+namespace RPG::Client { class DialogRenderer; }
+namespace UnityEngine { class Camera; }
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 60506;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 64522;
 
 class Class_0_16E4307DCC419505_915
 {

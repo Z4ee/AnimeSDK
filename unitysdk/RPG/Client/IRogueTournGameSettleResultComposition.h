@@ -5,7 +5,7 @@ namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameSettleResultComposition_TypeDefinitionIndex = 55337;
+	inline static constexpr unsigned int IRogueTournGameSettleResultComposition_TypeDefinitionIndex = 62528;
 
 	class IRogueTournGameSettleResultComposition
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OnHitAnimType_TypeDefinitionIndex = 44837;
+	inline static constexpr unsigned int OnHitAnimType_TypeDefinitionIndex = 51584;
 
 	enum class OnHitAnimType : ::System::Int32
 	{

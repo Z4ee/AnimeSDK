@@ -6,17 +6,17 @@ class Class_2_343302BB94FA1B6A;
 class Class_3_C1B871875244D398;
 namespace RPG::GameCore { class LevelGraphComponent; }
 
-#define CLASS_2_343302BB94FA1B6A___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118E4160)
-#define CLASS_2_343302BB94FA1B6A___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x118E4FA0)
+#define CLASS_2_343302BB94FA1B6A___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x95F9BA0)
+#define CLASS_2_343302BB94FA1B6A___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x95FA9F0)
 
-inline static constexpr unsigned int Class_2_343302BB94FA1B6A___c__DisplayClass2_0_TypeDefinitionIndex = 47354;
+inline static constexpr unsigned int Class_2_343302BB94FA1B6A___c__DisplayClass2_0_TypeDefinitionIndex = 54089;
 
 class Class_2_343302BB94FA1B6A___c__DisplayClass2_0 : public ::System::Object
 {
 public:
 	::Class_2_343302BB94FA1B6A* __4__this; // 0x10
-	::RPG::GameCore::LevelGraphComponent* levelGraphCom; // 0x18
-	::Class_3_C1B871875244D398* dataCom; // 0x20
+	::Class_3_C1B871875244D398* dataCom; // 0x18
+	::RPG::GameCore::LevelGraphComponent* levelGraphCom; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -7,22 +7,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TutorialTriggerParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178D7B60)
-#define RPG_GAMECORE_TUTORIALDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178D8270)
+#define RPG_GAMECORE_TUTORIALDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190D6310)
+#define RPG_GAMECORE_TUTORIALDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190D6A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialDataRow_TypeDefinitionIndex = 14121;
+	inline static constexpr unsigned int TutorialDataRow_TypeDefinitionIndex = 14590;
 
 	class TutorialDataRow : public ::System::Object
 	{
 	public:
 		::System::String* TutorialJsonPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* FinishTriggerParams; // 0x18
-		::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* TriggerParams; // 0x20
+		::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* TriggerParams; // 0x18
+		::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* FinishTriggerParams; // 0x20
 		::System::Boolean CanInterrupt; // 0x28
-		::RPG::GameCore::TutorialRestoreType RestoreType; // 0x2C
-		::System::UInt32 TutorialID; // 0x30
+		::System::UInt32 TutorialID; // 0x2C
+		::RPG::GameCore::TutorialRestoreType RestoreType; // 0x30
 		::System::UInt32 Priority; // 0x34
 
 		::System::Void _ctor()

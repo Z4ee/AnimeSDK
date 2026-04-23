@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class InsertionPuzzleBoard___c__DisplayClass14_0; }
 namespace RPG::Client::Prop { class InsertionPuzzleItem; }
 
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A6DB0)
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS14_1__TRANSFERCURRENTINSERTIONITEM_B__0_OFFSET UNITYSDK_OFFSET(0xA0AA440)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAE25480)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS14_1__TRANSFERCURRENTINSERTIONITEM_B__0_OFFSET UNITYSDK_OFFSET(0xAE28B30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass14_1_TypeDefinitionIndex = 64077;
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass14_1_TypeDefinitionIndex = 72124;
 
 	class InsertionPuzzleBoard___c__DisplayClass14_1 : public ::System::Object
 	{

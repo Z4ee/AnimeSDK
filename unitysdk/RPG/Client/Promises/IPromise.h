@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int IPromise_TypeDefinitionIndex = 9607;
+	inline static constexpr unsigned int IPromise_TypeDefinitionIndex = 8655;
 
 	class IPromise
 	{

@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_SENDMOUSEEVENTS_DOSENDMOUSEEVENTS_OFFSET UNITYSDK_OFFSET(0x18A8AE30)
-#define UNITYENGINE_SENDMOUSEEVENTS_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x18A8BB00)
-#define UNITYENGINE_SENDMOUSEEVENTS_SETMOUSEMOVED_OFFSET UNITYSDK_OFFSET(0x18A8ADF0)
-#define UNITYENGINE_SENDMOUSEEVENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A8C3F0)
+#define UNITYENGINE_SENDMOUSEEVENTS_DOSENDMOUSEEVENTS_OFFSET UNITYSDK_OFFSET(0x1A4C50B0)
+#define UNITYENGINE_SENDMOUSEEVENTS_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1A4C5D80)
+#define UNITYENGINE_SENDMOUSEEVENTS_SETMOUSEMOVED_OFFSET UNITYSDK_OFFSET(0x1A4C5070)
+#define UNITYENGINE_SENDMOUSEEVENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4C6670)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SendMouseEvents_TypeDefinitionIndex = 5156;
+	inline static constexpr unsigned int SendMouseEvents_TypeDefinitionIndex = 5167;
 
 	class SendMouseEvents : public ::System::Object
 	{
@@ -35,7 +35,7 @@ namespace UnityEngine
 		}
 		static ::System::Boolean* StaticGet_s_MouseUsed()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x260);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x2E0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBUFFHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173885F0)
-#define RPG_GAMECORE_MARBLEBUFFHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17388770)
+#define RPG_GAMECORE_MARBLEBUFFHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A96710)
+#define RPG_GAMECORE_MARBLEBUFFHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A96890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffHintRow_TypeDefinitionIndex = 10925;
+	inline static constexpr unsigned int MarbleBuffHintRow_TypeDefinitionIndex = 11329;
 
 	class MarbleBuffHintRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID HintText; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID HintText; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABC2BD0)
+#define SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB938610)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LineGlow_ExportData_TypeDefinitionIndex = 39797;
+	inline static constexpr unsigned int LineGlow_ExportData_TypeDefinitionIndex = 45706;
 
 	class LineGlow_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

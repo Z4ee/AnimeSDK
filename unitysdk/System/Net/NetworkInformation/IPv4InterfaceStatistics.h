@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_IPV4INTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x186FB2F0)
+#define SYSTEM_NET_NETWORKINFORMATION_IPV4INTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A135800)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPv4InterfaceStatistics_TypeDefinitionIndex = 2918;
+	inline static constexpr unsigned int IPv4InterfaceStatistics_TypeDefinitionIndex = 2919;
 
 	class IPv4InterfaceStatistics : public ::System::Object
 	{

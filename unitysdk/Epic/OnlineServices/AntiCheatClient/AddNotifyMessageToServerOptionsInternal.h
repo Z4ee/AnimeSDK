@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int AddNotifyMessageToServerOptionsInternal_TypeDefinitionIndex = 36693;
+	inline static constexpr unsigned int AddNotifyMessageToServerOptionsInternal_TypeDefinitionIndex = 42519;
 
 	struct alignas(4) AddNotifyMessageToServerOptionsInternal
 	{

@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170501C0)
-#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17050360)
+#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187B4950)
+#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187B4AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTriggerConditionRow_TypeDefinitionIndex = 10316;
+	inline static constexpr unsigned int CakeRaceTriggerConditionRow_TypeDefinitionIndex = 10541;
 
 	class CakeRaceTriggerConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* ParamList; // 0x10
-		::RPG::GameCore::CakeRaceTriggerConditionType ConditionType; // 0x18
-		::System::UInt32 ConditionID; // 0x1C
+		::System::UInt32 ConditionID; // 0x18
+		::RPG::GameCore::CakeRaceTriggerConditionType ConditionType; // 0x1C
 
 		::System::Void _ctor()
 		{

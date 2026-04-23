@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187AD110)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187AD150)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPOSE_B__14_0_OFFSET UNITYSDK_OFFSET(0x187AD160)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1E7000)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E7040)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPOSE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1A1E7050)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex = 34928;
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex = 40756;
 
 	class AlembicRecorder_MeshBuffer___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>** StaticGet___9__14_0()
-		{
-			return (::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x358A0);
-		}
 		static ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer___c** StaticGet___9()
 		{
-			return (::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x358A8);
+			return (::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x44C70);
+		}
+		static ::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>** StaticGet___9__14_0()
+		{
+			return (::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x44C78);
 		}
 
 		static ::System::Void _cctor()

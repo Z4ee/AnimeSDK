@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_SessionEnvIntType_TypeDefinitionIndex = 37701;
+	inline static constexpr unsigned int HAPI_SessionEnvIntType_TypeDefinitionIndex = 43578;
 
 	enum class HAPI_SessionEnvIntType : ::System::Int32
 	{

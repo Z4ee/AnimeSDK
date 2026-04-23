@@ -5,7 +5,7 @@ namespace System::Threading { class ThreadAbortException; }
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int IThreadPoolWorkItem_TypeDefinitionIndex = 849;
+	inline static constexpr unsigned int IThreadPoolWorkItem_TypeDefinitionIndex = 851;
 
 	class IThreadPoolWorkItem
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooInheritType_TypeDefinitionIndex = 11282;
+	inline static constexpr unsigned int SpaceZooInheritType_TypeDefinitionIndex = 11685;
 
 	enum class SpaceZooInheritType : ::System::Int32
 	{

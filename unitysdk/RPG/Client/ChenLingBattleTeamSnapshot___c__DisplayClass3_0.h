@@ -5,12 +5,12 @@
 class Class_1_B1C37B065CBC515F;
 namespace RPG::Client::ChenLingBattle { class Policy; }
 
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0__ATTACHPOLICYSKILLS_B__0_OFFSET UNITYSDK_OFFSET(0x93565F0)
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9355020)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0__ATTACHPOLICYSKILLS_B__0_OFFSET UNITYSDK_OFFSET(0x9FC4380)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FC2DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass3_0_TypeDefinitionIndex = 49837;
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass3_0_TypeDefinitionIndex = 56659;
 
 	class ChenLingBattleTeamSnapshot___c__DisplayClass3_0 : public ::System::Object
 	{

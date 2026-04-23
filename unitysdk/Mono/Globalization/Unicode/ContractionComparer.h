@@ -4,9 +4,9 @@
 
 namespace Mono::Globalization::Unicode { class Contraction; }
 
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x161656E0)
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x161657D0)
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x161657C0)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x177913E0)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x177914D0)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x177914C0)
 
 namespace Mono::Globalization::Unicode
 {
@@ -17,7 +17,7 @@ namespace Mono::Globalization::Unicode
 	public:
 		static ::Mono::Globalization::Unicode::ContractionComparer** StaticGet_Instance()
 		{
-			return (::Mono::Globalization::Unicode::ContractionComparer**)Il2CppClass::FromTypeDefinitionIndex(ContractionComparer_TypeDefinitionIndex)->GetStaticField(0x1750);
+			return (::Mono::Globalization::Unicode::ContractionComparer**)Il2CppClass::FromTypeDefinitionIndex(ContractionComparer_TypeDefinitionIndex)->GetStaticField(0x1A40);
 		}
 
 		::System::Void _ctor()

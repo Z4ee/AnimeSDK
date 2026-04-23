@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_SPACEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18A4EB70)
-#define UNITYENGINE_SPACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4EB60)
+#define UNITYENGINE_SPACEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A486430)
+#define UNITYENGINE_SPACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A486420)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpaceAttribute_TypeDefinitionIndex = 4047;
+	inline static constexpr unsigned int SpaceAttribute_TypeDefinitionIndex = 4049;
 
 	class SpaceAttribute : public ::UnityEngine::PropertyAttribute
 	{

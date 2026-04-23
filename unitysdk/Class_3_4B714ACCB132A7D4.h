@@ -5,10 +5,10 @@
 namespace RPG::Client { class ParkourSetCountDownAnimSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4B714ACCB132A7D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99B6340)
-#define CLASS_3_4B714ACCB132A7D4__CTOR_OFFSET UNITYSDK_OFFSET(0x99B6310)
+#define CLASS_3_4B714ACCB132A7D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9676460)
+#define CLASS_3_4B714ACCB132A7D4__CTOR_OFFSET UNITYSDK_OFFSET(0x9676430)
 
-inline static constexpr unsigned int Class_3_4B714ACCB132A7D4_TypeDefinitionIndex = 42943;
+inline static constexpr unsigned int Class_3_4B714ACCB132A7D4_TypeDefinitionIndex = 48929;
 
 class Class_3_4B714ACCB132A7D4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::Client::ParkourSetCountDownAnimSpeed*>
 {

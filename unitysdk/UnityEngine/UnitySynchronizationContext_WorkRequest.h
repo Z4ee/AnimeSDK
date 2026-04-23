@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class SendOrPostCallback; }
 
-#define UNITYENGINE_UNITYSYNCHRONIZATIONCONTEXT_WORKREQUEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x211D130)
-#define UNITYENGINE_UNITYSYNCHRONIZATIONCONTEXT_WORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x29380)
+#define UNITYENGINE_UNITYSYNCHRONIZATIONCONTEXT_WORKREQUEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x22EEDF0)
+#define UNITYENGINE_UNITYSYNCHRONIZATIONCONTEXT_WORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x29C30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UnitySynchronizationContext_WorkRequest_TypeDefinitionIndex = 4171;
+	inline static constexpr unsigned int UnitySynchronizationContext_WorkRequest_TypeDefinitionIndex = 4173;
 
 	struct alignas(8) UnitySynchronizationContext_WorkRequest
 	{

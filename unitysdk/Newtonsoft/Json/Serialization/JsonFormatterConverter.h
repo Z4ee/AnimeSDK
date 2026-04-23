@@ -8,24 +8,24 @@ namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalReader; 
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1647D040)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1647D2F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT32_OFFSET UNITYSDK_OFFSET(0x1647D300)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x1647D310)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x1647D320)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1647D330)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1647CF80)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x17AA8880)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x17AA8B20)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT32_OFFSET UNITYSDK_OFFSET(0x17AA8B30)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x17AA8B40)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x17AA8B50)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17AA8B60)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONFORMATTERCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA87C0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonFormatterConverter_TypeDefinitionIndex = 8298;
+	inline static constexpr unsigned int JsonFormatterConverter_TypeDefinitionIndex = 8444;
 
 	class JsonFormatterConverter : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Serialization::JsonProperty* _member; // 0x10
-		::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _reader; // 0x18
-		::Newtonsoft::Json::Serialization::JsonISerializableContract* _contract; // 0x20
+		::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _reader; // 0x10
+		::Newtonsoft::Json::Serialization::JsonISerializableContract* _contract; // 0x18
+		::Newtonsoft::Json::Serialization::JsonProperty* _member; // 0x20
 
 		::System::Void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member)
 		{

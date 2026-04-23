@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPVECTOR4PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188E8510)
+#define UNITYENGINE_RENDERING_NOINTERPVECTOR4PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3222A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpVector4Parameter_TypeDefinitionIndex = 27937;
+	inline static constexpr unsigned int NoInterpVector4Parameter_TypeDefinitionIndex = 33561;
 
 	class NoInterpVector4Parameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector4>
 	{

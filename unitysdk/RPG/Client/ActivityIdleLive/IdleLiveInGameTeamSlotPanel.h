@@ -1,0 +1,276 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/InGameTeamSlotUiData.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RtSkillState.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_0_16E4307DCC419505_382;
+class Class_1_05E595DC72CB83CA;
+class Class_1_A58651510BF6ACD7;
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class UIStateCtrl; }
+namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
+namespace RPG::GameCore { class EventManager; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class SmoothMask; }
+namespace UnityEngine::UI { class Text; }
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_AWAKE_OFFSET UNITYSDK_OFFSET(0x9B68060)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_GETCANMANUALUSESKILL_OFFSET UNITYSDK_OFFSET(0x9B6A210)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_INSERTSKILL_OFFSET UNITYSDK_OFFSET(0x9B6A550)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9B69880)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_ONCLICK_OFFSET UNITYSDK_OFFSET(0x9B6A300)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9B682F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_REFRESHLEVEL_OFFSET UNITYSDK_OFFSET(0x9B68CE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETINTERACTIVE_OFFSET UNITYSDK_OFFSET(0x9B6A250)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETUPEMPTY_OFFSET UNITYSDK_OFFSET(0x9B6A0B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETUPLOCKED_OFFSET UNITYSDK_OFFSET(0x9B6A1B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETUPOCCUPIEDAVATAR_OFFSET UNITYSDK_OFFSET(0x9B68560)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_TRYGETEVENTMGR_OFFSET UNITYSDK_OFFSET(0x9B68FE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x9B697A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__BINDENTITY_OFFSET UNITYSDK_OFFSET(0x9B691F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__CLEARSKILL_OFFSET UNITYSDK_OFFSET(0x9B68450)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x9B6A700)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ENSURENODEINITIALIZED_OFFSET UNITYSDK_OFFSET(0x9B680B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__FINDAVATARTOINIT_OFFSET UNITYSDK_OFFSET(0x9B68960)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__INITBINDHPCHANGEREFRESHHP_OFFSET UNITYSDK_OFFSET(0x9B69370)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__INITCTRLSKILL_OFFSET UNITYSDK_OFFSET(0x9B69260)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ISAUTO_OFFSET UNITYSDK_OFFSET(0x9B6A3F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ISEMPTY_OFFSET UNITYSDK_OFFSET(0x9B68F90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ONCHARACTERCREATED_OFFSET UNITYSDK_OFFSET(0x9B69100)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__PLAYSKILLCDENDHINTEFFECT_OFFSET UNITYSDK_OFFSET(0x9B69D70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__PLAYSKILLRESET_OFFSET UNITYSDK_OFFSET(0x9B69F60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__PLAYSTATEWITHDEADCHECK_OFFSET UNITYSDK_OFFSET(0x9B684B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHHPVIEW_OFFSET UNITYSDK_OFFSET(0x9B698E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHLEVEL_B__39_0_OFFSET UNITYSDK_OFFSET(0x9B6A710)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHONHPCHANGED_OFFSET UNITYSDK_OFFSET(0x9B69FD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHONMAXHPCHANGED_OFFSET UNITYSDK_OFFSET(0x9B6A040)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REGISTEREVENTHANDLERS_OFFSET UNITYSDK_OFFSET(0x9B68C10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REMOVEEVENTHANDLERS_OFFSET UNITYSDK_OFFSET(0x9B68390)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__UPDATECDVIEW_OFFSET UNITYSDK_OFFSET(0x9B69820)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__UPDATESKILLCD_OFFSET UNITYSDK_OFFSET(0x9B69C30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__UPDATESKILLSTATE_OFFSET UNITYSDK_OFFSET(0x9B69B40)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int IdleLiveInGameTeamSlotPanel_TypeDefinitionIndex = 69242;
+
+	class IdleLiveInGameTeamSlotPanel : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		// static const ::System::String* _SKILL_STATE_CD; // 0x0
+		// static const ::System::String* _ANIM_NAME_SKILL_MAX; // 0x0
+		// static const ::System::String* _ANIM_NAME_SKILL_ACTIVATE; // 0x0
+		// static const ::System::String* _ANIM_NAME_SKILL_RESET; // 0x0
+		::RPG::Client::UIStateCtrl* _UiStateCtrl; // 0x18
+		::UnityEngine::UI::Image* _AvatarIcon; // 0x20
+		::UnityEngine::UI::Text* _AvatarLevel; // 0x28
+		::UnityEngine::UI::SmoothMask* _Hp; // 0x30
+		::UnityEngine::RectTransform* _HpNode; // 0x38
+		::UnityEngine::RectTransform* _QuickUpgradeNode; // 0x40
+		::UnityEngine::UI::Image* _Cd; // 0x48
+		::RPG::Client::AnimatorButton* _ShowTeamEditPageBtn; // 0x50
+		::UnityEngine::Animation* _SkillAnim; // 0x58
+		::UnityEngine::GameObject* _Root; // 0x60
+		::RPG::GameCore::RtSkillState _LastState; // 0x68
+		::System::Boolean _CanManualUseSkill; // 0x6C
+		::System::UInt32 _TeamSlotId; // 0x70
+		::System::UInt32 _AvatarId; // 0x74
+		::System::UInt32 _AvatarRuntimeId; // 0x78
+		::RPG::GameCore::FixPoint _CurHp; // 0x80
+		::RPG::GameCore::FixPoint _MaxHp; // 0x88
+		::System::Boolean _EvtListenerRegistered; // 0x90
+		::System::Boolean _IsOccupied; // 0x91
+		::System::Int32 _Level; // 0x94
+		::Class_1_05E595DC72CB83CA* _CtrlSkill; // 0x98
+		::Class_1_05E595DC72CB83CA* _BackGroundSKill; // 0xA0
+		::Class_1_05E595DC72CB83CA* _DisplaySkill; // 0xA8
+		::System::Boolean _IsAvatarDead; // 0xB0
+		::RPG::GameCore::FixPoint _LastCD; // 0xB8
+		::System::Boolean _IsShowHp; // 0xC0
+		::System::Boolean _IsLastNeedHintSkillCdEnd; // 0xC1
+		::System::Boolean _IsHpDirty; // 0xC2
+		::System::Boolean _IsNodeInitialized; // 0xC3
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void _EnsureNodeInitialized()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ENSURENODEINITIALIZED_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void _ClearSkill()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__CLEARSKILL_OFFSET))(this);
+		}
+
+		::System::Void _PlayStateWithDeadCheck(::System::String* stateName)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__PLAYSTATEWITHDEADCHECK_OFFSET))(this, stateName);
+		}
+
+		::System::Void SetupOccupiedAvatar(::RPG::Client::ActivityIdleLive::InGameTeamSlotUiData inGameSlotUiData, ::System::Boolean isShowHp)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::InGameTeamSlotUiData, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETUPOCCUPIEDAVATAR_OFFSET))(this, inGameSlotUiData, isShowHp);
+		}
+
+		::System::Void RefreshLevel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_REFRESHLEVEL_OFFSET))(this);
+		}
+
+		::System::Void _RegisterEventHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REGISTEREVENTHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _RemoveEventHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REMOVEEVENTHANDLERS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventManager* TryGetEventMgr()
+		{
+			return ((::RPG::GameCore::EventManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_TRYGETEVENTMGR_OFFSET))(this);
+		}
+
+		::System::Void _OnCharacterCreated(::Class_0_16E4307DCC419505_382* evt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ONCHARACTERCREATED_OFFSET))(this, evt);
+		}
+
+		::System::Void _InitCtrlSkill(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__INITCTRLSKILL_OFFSET))(this, entity);
+		}
+
+		::System::Void _FindAvatarToInit(::System::UInt32 avatarId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__FINDAVATARTOINIT_OFFSET))(this, avatarId);
+		}
+
+		::System::Void _BindEntity(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__BINDENTITY_OFFSET))(this, entity);
+		}
+
+		::System::Void _InitBindHpChangeRefreshHp(::RPG::GameCore::GameEntity* character)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__INITBINDHPCHANGEREFRESHHP_OFFSET))(this, character);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void _UpdateCdView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__UPDATECDVIEW_OFFSET))(this);
+		}
+
+		::System::Void _UpdateSkillCd()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__UPDATESKILLCD_OFFSET))(this);
+		}
+
+		::System::Void _PlaySkillCdEndHintEffect(::RPG::GameCore::FixPoint cdLeft, ::RPG::GameCore::FixPoint cdTotal)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__PLAYSKILLCDENDHINTEFFECT_OFFSET))(this, cdLeft, cdTotal);
+		}
+
+		::System::Void _UpdateSkillState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__UPDATESKILLSTATE_OFFSET))(this);
+		}
+
+		::System::Void _RefreshHpView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHHPVIEW_OFFSET))(this);
+		}
+
+		::System::Void _PlaySkillReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__PLAYSKILLRESET_OFFSET))(this);
+		}
+
+		::System::Void _RefreshOnHpChanged(::Class_1_A58651510BF6ACD7* propertyChangeRes)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A58651510BF6ACD7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHONHPCHANGED_OFFSET))(this, propertyChangeRes);
+		}
+
+		::System::Void _RefreshOnMaxHpChanged(::Class_1_A58651510BF6ACD7* propertyChangeRes)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A58651510BF6ACD7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHONMAXHPCHANGED_OFFSET))(this, propertyChangeRes);
+		}
+
+		::System::Void SetupEmpty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETUPEMPTY_OFFSET))(this);
+		}
+
+		::System::Boolean _IsEmpty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ISEMPTY_OFFSET))(this);
+		}
+
+		::System::Void SetupLocked()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETUPLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean GetCanManualUseSkill()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_GETCANMANUALUSESKILL_OFFSET))(this);
+		}
+
+		::System::Void SetInteractive(::System::Boolean isInteractive)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_SETINTERACTIVE_OFFSET))(this, isInteractive);
+		}
+
+		::System::Void OnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_ONCLICK_OFFSET))(this);
+		}
+
+		::System::Void InsertSkill()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL_INSERTSKILL_OFFSET))(this);
+		}
+
+		::System::Boolean _IsAuto()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__ISAUTO_OFFSET))(this);
+		}
+
+		::System::Boolean _RefreshLevel_b__39_0(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEINGAMETEAMSLOTPANEL__REFRESHLEVEL_B__39_0_OFFSET))(this, x);
+		}
+	};
+}

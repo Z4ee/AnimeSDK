@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_382;
 namespace System { template <typename T> class Action_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubModeEventHandler_1_TypeDefinitionIndex = 44880;
+	inline static constexpr unsigned int SubModeEventHandler_1_TypeDefinitionIndex = 51627;
 
 	template <typename T>
 	class SubModeEventHandler_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
-	inline static constexpr unsigned int LogicChimeType_TypeDefinitionIndex = 64430;
+	inline static constexpr unsigned int LogicChimeType_TypeDefinitionIndex = 72477;
 
 	enum class LogicChimeType : ::System::Int32
 	{

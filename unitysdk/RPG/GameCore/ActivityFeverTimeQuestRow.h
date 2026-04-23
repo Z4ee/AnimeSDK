@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EB6550)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB6B50)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186170A0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186176E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeQuestRow_TypeDefinitionIndex = 10787;
+	inline static constexpr unsigned int ActivityFeverTimeQuestRow_TypeDefinitionIndex = 11036;
 
 	class ActivityFeverTimeQuestRow : public ::System::Object
 	{

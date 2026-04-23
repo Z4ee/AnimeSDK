@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingItemVisibleReason_TypeDefinitionIndex = 60607;
+	inline static constexpr unsigned int StreamingItemVisibleReason_TypeDefinitionIndex = 68044;
 
 	enum class StreamingItemVisibleReason : ::System::Int32
 	{
@@ -14,5 +14,6 @@ namespace RPG::Client::OpenWorld
 		Task = 4,
 		Environment = 5,
 		ItemEnable = 6,
+		Override = 7,
 	};
 }

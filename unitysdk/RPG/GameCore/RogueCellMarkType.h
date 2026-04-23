@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCellMarkType_TypeDefinitionIndex = 10160;
+	inline static constexpr unsigned int RogueCellMarkType_TypeDefinitionIndex = 10379;
 
 	enum class RogueCellMarkType : ::System::Int32
 	{

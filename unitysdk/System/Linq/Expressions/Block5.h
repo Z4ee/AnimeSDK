@@ -7,24 +7,24 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1848FAF0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1848FBB0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1848FBA0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1848FBC0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5__CTOR_OFFSET UNITYSDK_OFFSET(0x1848FA70)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x19ECA9A0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x19ECAA60)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x19ECAA50)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET UNITYSDK_OFFSET(0x19ECAA70)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECA920)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Block5_TypeDefinitionIndex = 3181;
+	inline static constexpr unsigned int Block5_TypeDefinitionIndex = 3183;
 
 	class Block5 : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
-		::System::Object* _arg0; // 0x10
-		::System::Linq::Expressions::Expression* _arg1; // 0x18
-		::System::Linq::Expressions::Expression* _arg3; // 0x20
-		::System::Linq::Expressions::Expression* _arg4; // 0x28
-		::System::Linq::Expressions::Expression* _arg2; // 0x30
+		::System::Linq::Expressions::Expression* _arg4; // 0x10
+		::System::Linq::Expressions::Expression* _arg3; // 0x18
+		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Object* _arg0; // 0x28
+		::System::Linq::Expressions::Expression* _arg1; // 0x30
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4)
 		{

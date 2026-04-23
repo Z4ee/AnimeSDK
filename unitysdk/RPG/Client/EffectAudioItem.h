@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECTAUDIOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9532F40)
+#define RPG_CLIENT_EFFECTAUDIOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA1B5B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectAudioItem_TypeDefinitionIndex = 57304;
+	inline static constexpr unsigned int EffectAudioItem_TypeDefinitionIndex = 64558;
 
 	class EffectAudioItem : public ::System::Object
 	{

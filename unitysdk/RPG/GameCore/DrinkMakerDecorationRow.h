@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERDECORATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17179810)
-#define RPG_GAMECORE_DRINKMAKERDECORATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17179AA0)
+#define RPG_GAMECORE_DRINKMAKERDECORATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188868D0)
+#define RPG_GAMECORE_DRINKMAKERDECORATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18886B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerDecorationRow_TypeDefinitionIndex = 12019;
+	inline static constexpr unsigned int DrinkMakerDecorationRow_TypeDefinitionIndex = 12452;
 
 	class DrinkMakerDecorationRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::String* PrefabPath; // 0x18
+		::System::String* CupAnchoPath; // 0x18
 		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x20
-		::System::String* CupAnchoPath; // 0x28
+		::System::String* PrefabPath; // 0x28
 		::System::UInt32 DecorationID; // 0x30
 		::RPG::Client::TextID DecorationName; // 0x38
 

@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB99500)
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB994F0)
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB996F0)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB90E1B0)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB90E1A0)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB90E3A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveStoryAdvEffectClip_TypeDefinitionIndex = 39141;
+	inline static constexpr unsigned int RemoveStoryAdvEffectClip_TypeDefinitionIndex = 45050;
 
 	class RemoveStoryAdvEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{

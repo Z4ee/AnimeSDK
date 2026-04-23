@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsElfRestaurantRecipeCooked; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F188DC4EE1A43B6D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x113DCB80)
-#define CLASS_3_F188DC4EE1A43B6D__CTOR_OFFSET UNITYSDK_OFFSET(0x113DCB40)
+#define CLASS_3_F188DC4EE1A43B6D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1003B880)
+#define CLASS_3_F188DC4EE1A43B6D__CTOR_OFFSET UNITYSDK_OFFSET(0x1003B840)
 
-inline static constexpr unsigned int Class_3_F188DC4EE1A43B6D_TypeDefinitionIndex = 43729;
+inline static constexpr unsigned int Class_3_F188DC4EE1A43B6D_TypeDefinitionIndex = 50428;
 
 class Class_3_F188DC4EE1A43B6D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsElfRestaurantRecipeCooked*>
 {

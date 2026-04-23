@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYSUMMONREWARDTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F16B20)
-#define RPG_GAMECORE_ACTIVITYSUMMONREWARDTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F16D70)
+#define RPG_GAMECORE_ACTIVITYSUMMONREWARDTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18637EE0)
+#define RPG_GAMECORE_ACTIVITYSUMMONREWARDTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18638130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySummonRewardTabRow_TypeDefinitionIndex = 11339;
+	inline static constexpr unsigned int ActivitySummonRewardTabRow_TypeDefinitionIndex = 11741;
 
 	class ActivitySummonRewardTabRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID OriginalQuestName; // 0x10
-		::RPG::Client::TextID QuestName; // 0x20
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 GroupID; // 0x34
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 GroupID; // 0x14
+		::RPG::Client::TextID QuestName; // 0x18
+		::RPG::Client::TextID OriginalQuestName; // 0x28
 
 		::System::Void _ctor()
 		{

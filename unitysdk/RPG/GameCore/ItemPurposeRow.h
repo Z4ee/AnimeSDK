@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMPURPOSEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172CD730)
-#define RPG_GAMECORE_ITEMPURPOSEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172CDD50)
+#define RPG_GAMECORE_ITEMPURPOSEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A30A30)
+#define RPG_GAMECORE_ITEMPURPOSEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A31050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemPurposeRow_TypeDefinitionIndex = 12682;
+	inline static constexpr unsigned int ItemPurposeRow_TypeDefinitionIndex = 13149;
 
 	class ItemPurposeRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID PurposeText; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID PurposeText; // 0x18
 
 		::System::Void _ctor()
 		{

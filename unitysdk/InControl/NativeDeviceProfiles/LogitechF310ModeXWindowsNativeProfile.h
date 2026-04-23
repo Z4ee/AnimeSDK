@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF310MODEXWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BA0320)
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF310MODEXWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA1760)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF310MODEXWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1719DD00)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHF310MODEXWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1719F140)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechF310ModeXWindowsNativeProfile_TypeDefinitionIndex = 31892;
+	inline static constexpr unsigned int LogitechF310ModeXWindowsNativeProfile_TypeDefinitionIndex = 37612;
 
 	class LogitechF310ModeXWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

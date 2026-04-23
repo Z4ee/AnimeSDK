@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOPERFORMANCELAYERBACKGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x9D26B90)
+#define RPG_CLIENT_MONOPERFORMANCELAYERBACKGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E9F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceLayerBackground_TypeDefinitionIndex = 49177;
+	inline static constexpr unsigned int MonoPerformanceLayerBackground_TypeDefinitionIndex = 55974;
 
 	class MonoPerformanceLayerBackground : public ::UnityEngine::MonoBehaviour
 	{

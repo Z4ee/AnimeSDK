@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGSOLDIERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17088B10)
-#define RPG_GAMECORE_CHENLINGSOLDIERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17088D90)
+#define RPG_GAMECORE_CHENLINGSOLDIERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187EDC20)
+#define RPG_GAMECORE_CHENLINGSOLDIERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187EDEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSoldierLevelRow_TypeDefinitionIndex = 10353;
+	inline static constexpr unsigned int ChenLingSoldierLevelRow_TypeDefinitionIndex = 10578;
 
 	class ChenLingSoldierLevelRow : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* UnitIDList; // 0x10
 		::RPG::GameCore::FixPoint BattleScoreFix; // 0x18
 		::System::UInt32 SoldierID; // 0x20
-		::System::UInt32 Level; // 0x24
-		::System::UInt32 EffectID; // 0x28
+		::System::UInt32 EffectID; // 0x24
+		::System::UInt32 Level; // 0x28
 		::System::UInt32 FormationType; // 0x2C
 
 		::System::Void _ctor()

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_JUKEBOXMUSICTIMESCONFIG_METHOD_2_0EFFBEBCB0EDF255_OFFSET UNITYSDK_OFFSET(0x1732C0B0)
-#define RPG_GAMECORE_JUKEBOXMUSICTIMESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1732C180)
+#define RPG_GAMECORE_JUKEBOXMUSICTIMESCONFIG_METHOD_2_0EFFBEBCB0EDF255_OFFSET UNITYSDK_OFFSET(0x18A39960)
+#define RPG_GAMECORE_JUKEBOXMUSICTIMESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A39A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JukeBoxMusicTimesConfig_TypeDefinitionIndex = 15012;
+	inline static constexpr unsigned int JukeBoxMusicTimesConfig_TypeDefinitionIndex = 15519;
 
 	class JukeBoxMusicTimesConfig : public ::RPG::GameCore::JsonConfig
 	{

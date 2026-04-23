@@ -20,7 +20,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleEffectService_1_EntityEffectHandle_TypeDefinitionIndex = 62245;
+	inline static constexpr unsigned int SimpleEffectService_1_EntityEffectHandle_TypeDefinitionIndex = 70244;
 
 	template <typename TEntity>
 	class SimpleEffectService_1_EntityEffectHandle : public ::System::Object

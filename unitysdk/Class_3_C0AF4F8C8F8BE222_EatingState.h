@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_3_C0AF4F8C8F8BE222_EatingState_TypeDefinitionIndex = 42170;
+inline static constexpr unsigned int Class_3_C0AF4F8C8F8BE222_EatingState_TypeDefinitionIndex = 48143;
 
 enum class Class_3_C0AF4F8C8F8BE222_EatingState : ::System::Int32
 {

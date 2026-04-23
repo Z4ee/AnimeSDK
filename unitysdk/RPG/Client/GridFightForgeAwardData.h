@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/Client/GridFightForgeAwardType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_GET_AWARDINDEX_OFFSET UNITYSDK_OFFSET(0x981B830)
-#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_GET_AWARDTYPE_OFFSET UNITYSDK_OFFSET(0x981B850)
-#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_SET_AWARDINDEX_OFFSET UNITYSDK_OFFSET(0x981B840)
-#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_SET_AWARDTYPE_OFFSET UNITYSDK_OFFSET(0x981B860)
-#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x981B820)
+#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_GET_AWARDINDEX_OFFSET UNITYSDK_OFFSET(0xA49EF50)
+#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_GET_AWARDTYPE_OFFSET UNITYSDK_OFFSET(0xA49EF70)
+#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_SET_AWARDINDEX_OFFSET UNITYSDK_OFFSET(0xA49EF60)
+#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA_SET_AWARDTYPE_OFFSET UNITYSDK_OFFSET(0xA49EF80)
+#define RPG_CLIENT_GRIDFIGHTFORGEAWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA49EF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeAwardData_TypeDefinitionIndex = 52772;
+	inline static constexpr unsigned int GridFightForgeAwardData_TypeDefinitionIndex = 59835;
 
 	class GridFightForgeAwardData : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightForgeAwardType _AwardType_k__BackingField; // 0x10
-		::System::UInt32 _AwardIndex_k__BackingField; // 0x14
+		::System::UInt32 _AwardIndex_k__BackingField; // 0x10
+		::RPG::Client::GridFightForgeAwardType _AwardType_k__BackingField; // 0x14
 
 		::System::Void _ctor(::System::UInt32 awardIndex, ::RPG::Client::GridFightForgeAwardType awardType)
 		{

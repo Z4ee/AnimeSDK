@@ -5,7 +5,7 @@ namespace RPG::GameCore { class FiveDimEntityRotateConfig; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimRotateService_1_TypeDefinitionIndex = 33618;
+	inline static constexpr unsigned int IFiveDimRotateService_1_TypeDefinitionIndex = 39418;
 
 	template <typename T>
 	class IFiveDimRotateService_1

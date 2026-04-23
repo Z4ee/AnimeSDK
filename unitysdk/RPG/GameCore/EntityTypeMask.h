@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTypeMask_TypeDefinitionIndex = 10049;
+	inline static constexpr unsigned int EntityTypeMask_TypeDefinitionIndex = 10240;
 
 	enum class EntityTypeMask : ::System::UInt64
 	{
@@ -37,18 +37,20 @@ namespace RPG::GameCore
 		PuzzleGameObjectProp = 0x2000000,
 		PerformanceLevelGraph = 0x4000000,
 		Group = 0x8000000,
-		ChessCharacter = 0x10000000,
-		ChessTerrain = 0x20000000,
-		SummonUnit = 0x40000000,
-		LittleGameInstance = 0x80000000,
-		Servant = 0x100000000,
-		PreviewShow = 0x200000000,
-		LittleGameContainer = 0x400000000,
-		LittleGameViewProxy = 0x800000000,
-		DummyEntity = 0x2000000000,
-		Battle_AllEntity = 0x100001206,
-		Battle_VisibleControlled = 0x100009006,
-		Battle_AllActionEntity = 0x100001006,
-		Mask_TeamCharacters = 0x10000103E,
+		RtCharacter = 0x10000000,
+		RtGrid = 0x20000000,
+		RtTrigger = 0x40000000,
+		SummonUnit = 0x80000000,
+		LittleGameInstance = 0x100000000,
+		Servant = 0x200000000,
+		PreviewShow = 0x400000000,
+		LittleGameContainer = 0x800000000,
+		LittleGameViewProxy = 0x1000000000,
+		DummyEntity = 0x4000000000,
+		Battle_AllEntity = 0x200001206,
+		Battle_VisibleControlled = 0x200009006,
+		Battle_AllActionEntity = 0x200001006,
+		Mask_TeamCharacters = 0x21000103E,
+		Mask_AllVisibleControlled = 0x29000903E,
 	};
 }

@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define SYSTEM_NET_AUTOWEBPROXYSCRIPTENGINE_GETPROXIES_1_OFFSET UNITYSDK_OFFSET(0x186B6000)
-#define SYSTEM_NET_AUTOWEBPROXYSCRIPTENGINE_GETPROXIES_OFFSET UNITYSDK_OFFSET(0x186B5FF0)
+#define SYSTEM_NET_AUTOWEBPROXYSCRIPTENGINE_GETPROXIES_1_OFFSET UNITYSDK_OFFSET(0x1A0F0790)
+#define SYSTEM_NET_AUTOWEBPROXYSCRIPTENGINE_GETPROXIES_OFFSET UNITYSDK_OFFSET(0x1A0F0780)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int AutoWebProxyScriptEngine_TypeDefinitionIndex = 2802;
+	inline static constexpr unsigned int AutoWebProxyScriptEngine_TypeDefinitionIndex = 2803;
 
 	class AutoWebProxyScriptEngine : public ::System::Object
 	{

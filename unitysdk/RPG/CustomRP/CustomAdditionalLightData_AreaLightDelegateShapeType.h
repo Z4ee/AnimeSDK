@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomAdditionalLightData_AreaLightDelegateShapeType_TypeDefinitionIndex = 29332;
+	inline static constexpr unsigned int CustomAdditionalLightData_AreaLightDelegateShapeType_TypeDefinitionIndex = 35099;
 
 	enum class CustomAdditionalLightData_AreaLightDelegateShapeType : ::System::Int32
 	{

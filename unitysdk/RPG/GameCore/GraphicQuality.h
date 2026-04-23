@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GraphicQuality_TypeDefinitionIndex = 17635;
+	inline static constexpr unsigned int GraphicQuality_TypeDefinitionIndex = 18248;
 
 	enum class GraphicQuality : ::System::Int32
 	{

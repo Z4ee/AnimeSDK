@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int EnemyType_TypeDefinitionIndex = 32779;
+	inline static constexpr unsigned int EnemyType_TypeDefinitionIndex = 38569;
 
 	enum class EnemyType : ::System::Int32
 	{

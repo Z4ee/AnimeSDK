@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_TilingOffsetData_TypeDefinitionIndex = 57386;
+	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_TilingOffsetData_TypeDefinitionIndex = 64647;
 
 	struct alignas(4) MonoEffectPluginTilingByTargetID_TilingOffsetData
 	{

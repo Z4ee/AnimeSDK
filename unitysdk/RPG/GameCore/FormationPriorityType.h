@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationPriorityType_TypeDefinitionIndex = 15698;
+	inline static constexpr unsigned int FormationPriorityType_TypeDefinitionIndex = 16224;
 
 	enum class FormationPriorityType : ::System::Int32
 	{

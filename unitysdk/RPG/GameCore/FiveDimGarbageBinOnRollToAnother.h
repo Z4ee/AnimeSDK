@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGarbageBinOnRollToAnother_TypeDefinitionIndex = 15299;
+	inline static constexpr unsigned int FiveDimGarbageBinOnRollToAnother_TypeDefinitionIndex = 15814;
 
 	enum class FiveDimGarbageBinOnRollToAnother : ::System::Int32
 	{

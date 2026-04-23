@@ -9,13 +9,13 @@ namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class TriggerEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG_METHOD_3_DFCDE6EC76E14CEE_OFFSET UNITYSDK_OFFSET(0x17210A40)
-#define RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG_METHOD_3_E5C7901BDF7B3CBF_OFFSET UNITYSDK_OFFSET(0x17210AD0)
-#define RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17210AA0)
+#define RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG_METHOD_3_3E00728587CF6BB3_OFFSET UNITYSDK_OFFSET(0x18922A50)
+#define RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG_METHOD_3_E5C7901BDF7B3CBF_OFFSET UNITYSDK_OFFSET(0x18922BF0)
+#define RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1891DC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTriggerEventEmitterConfig_TypeDefinitionIndex = 17107;
+	inline static constexpr unsigned int FiveDimTriggerEventEmitterConfig_TypeDefinitionIndex = 17706;
 
 	class FiveDimTriggerEventEmitterConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DFCDE6EC76E14CEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig*& a2)
+		static ::System::Void Method_3_3E00728587CF6BB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG_METHOD_3_DFCDE6EC76E14CEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGEREVENTEMITTERCONFIG_METHOD_3_3E00728587CF6BB3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E5C7901BDF7B3CBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig* a2)

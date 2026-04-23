@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UltraDistanceGlobalDynamicOffsetMode_TypeDefinitionIndex = 57010;
+	inline static constexpr unsigned int UltraDistanceGlobalDynamicOffsetMode_TypeDefinitionIndex = 64260;
 
 	enum class UltraDistanceGlobalDynamicOffsetMode : ::System::Int32
 	{

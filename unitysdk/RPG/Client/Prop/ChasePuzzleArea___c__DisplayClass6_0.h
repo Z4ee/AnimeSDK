@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class ChasePuzzleArea; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_PROP_CHASEPUZZLEAREA___C__DISPLAYCLASS6_0__CREATECUSTOMTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xA02D930)
-#define RPG_CLIENT_PROP_CHASEPUZZLEAREA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA02D2A0)
+#define RPG_CLIENT_PROP_CHASEPUZZLEAREA___C__DISPLAYCLASS6_0__CREATECUSTOMTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xADABDC0)
+#define RPG_CLIENT_PROP_CHASEPUZZLEAREA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADAB730)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChasePuzzleArea___c__DisplayClass6_0_TypeDefinitionIndex = 63673;
+	inline static constexpr unsigned int ChasePuzzleArea___c__DisplayClass6_0_TypeDefinitionIndex = 71719;
 
 	class ChasePuzzleArea___c__DisplayClass6_0 : public ::System::Object
 	{

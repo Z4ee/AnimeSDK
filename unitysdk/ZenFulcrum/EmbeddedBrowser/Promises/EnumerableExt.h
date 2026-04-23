@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace ZenFulcrum::EmbeddedBrowser::Promises
 {
-	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 30625;
+	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 36345;
 
 	class EnumerableExt : public ::System::Object
 	{

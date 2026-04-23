@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class LoginByAccountSpecial; }
 
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTSPECIAL___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160BB690)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTSPECIAL___C__DISPLAYCLASS81_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x160BC020)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTSPECIAL___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17721540)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTSPECIAL___C__DISPLAYCLASS81_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17721ED0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByAccountSpecial___c__DisplayClass81_0_TypeDefinitionIndex = 8145;
+	inline static constexpr unsigned int LoginByAccountSpecial___c__DisplayClass81_0_TypeDefinitionIndex = 8291;
 
 	class LoginByAccountSpecial___c__DisplayClass81_0 : public ::System::Object
 	{

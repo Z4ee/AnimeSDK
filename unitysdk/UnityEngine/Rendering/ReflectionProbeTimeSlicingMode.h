@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionProbeTimeSlicingMode_TypeDefinitionIndex = 4525;
+	inline static constexpr unsigned int ReflectionProbeTimeSlicingMode_TypeDefinitionIndex = 4527;
 
 	enum class ReflectionProbeTimeSlicingMode : ::System::Int32
 	{

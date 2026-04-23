@@ -12,7 +12,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRScreenshots__UpdateScreenshot
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRScreenshots_TypeDefinitionIndex = 30217;
+	inline static constexpr unsigned int IVRScreenshots_TypeDefinitionIndex = 35937;
 
 	struct alignas(8) IVRScreenshots
 	{

@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-class Class_1_4DF3292AA5AADAD0_17;
-class Class_1_C8F1FDB5FADB7DB2;
+class Class_1_4F1450C7202739F5;
+class Class_1_7BD81C3D1A781452;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_673_TypeDefinitionIndex = 54209;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_673_TypeDefinitionIndex = 57830;
 
 class Class_0_16E4307DCC419505_673
 {

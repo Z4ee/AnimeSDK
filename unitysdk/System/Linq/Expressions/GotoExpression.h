@@ -8,25 +8,25 @@ namespace System { class Type; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
 namespace System::Linq::Expressions { class LabelTarget; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x184B67D0)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_KIND_OFFSET UNITYSDK_OFFSET(0x184B67C0)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x184B6790)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x184B67B0)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x184B6780)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x184B67A0)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x184B5CF0)
-#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x184A4FF0)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x19EF1690)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_KIND_OFFSET UNITYSDK_OFFSET(0x19EF1680)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x19EF1650)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x19EF1670)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19EF1640)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x19EF1660)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x19EF0BB0)
+#define SYSTEM_LINQ_EXPRESSIONS_GOTOEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EDFEB0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int GotoExpression_TypeDefinitionIndex = 3206;
+	inline static constexpr unsigned int GotoExpression_TypeDefinitionIndex = 3208;
 
 	class GotoExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::LabelTarget* _Target_k__BackingField; // 0x10
+		::System::Type* _Type_k__BackingField; // 0x10
 		::System::Linq::Expressions::Expression* _Value_k__BackingField; // 0x18
-		::System::Type* _Type_k__BackingField; // 0x20
+		::System::Linq::Expressions::LabelTarget* _Target_k__BackingField; // 0x20
 		::System::Linq::Expressions::GotoExpressionKind _Kind_k__BackingField; // 0x28
 
 		::System::Void _ctor(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value, ::System::Type* type)

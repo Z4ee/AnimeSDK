@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideHintWithText___O_TypeDefinitionIndex = 22371;
+	inline static constexpr unsigned int ShowGuideHintWithText___O_TypeDefinitionIndex = 23341;
 
 	class ShowGuideHintWithText___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::BattleOperationType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::BattleOperationType>**)Il2CppClass::FromTypeDefinitionIndex(ShowGuideHintWithText___O_TypeDefinitionIndex)->GetStaticField(0xEDD0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::BattleOperationType>**)Il2CppClass::FromTypeDefinitionIndex(ShowGuideHintWithText___O_TypeDefinitionIndex)->GetStaticField(0x51270);
 		}
 	};
 }

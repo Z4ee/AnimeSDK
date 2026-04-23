@@ -3,11 +3,11 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollisionDataFlag_TypeDefinitionIndex = 45267;
+	inline static constexpr unsigned int CollisionDataFlag_TypeDefinitionIndex = 49451;
 
 	enum class CollisionDataFlag : ::System::Int32
 	{
-		TransformChanged = 1,
+		Dirty = 1,
 		Removed = 2,
 		Trigger = 4,
 		Avoidance = 8,

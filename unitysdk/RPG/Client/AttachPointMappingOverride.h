@@ -5,12 +5,12 @@
 namespace RPG::Client { class AttachPointOverride; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ATTACHPOINTMAPPINGOVERRIDE_LOGICUPDATE_OFFSET UNITYSDK_OFFSET(0x90E6F30)
-#define RPG_CLIENT_ATTACHPOINTMAPPINGOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x90E7220)
+#define RPG_CLIENT_ATTACHPOINTMAPPINGOVERRIDE_LOGICUPDATE_OFFSET UNITYSDK_OFFSET(0x9D48CB0)
+#define RPG_CLIENT_ATTACHPOINTMAPPINGOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D48F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachPointMappingOverride_TypeDefinitionIndex = 55798;
+	inline static constexpr unsigned int AttachPointMappingOverride_TypeDefinitionIndex = 63032;
 
 	class AttachPointMappingOverride : public ::UnityEngine::MonoBehaviour
 	{

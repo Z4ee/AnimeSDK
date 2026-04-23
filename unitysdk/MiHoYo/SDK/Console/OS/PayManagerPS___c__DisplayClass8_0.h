@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class GameRoleModel; }
 namespace MiHoYo::SDK::Console::OS { class PayManagerPS; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS8_0__CHECKCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x15E748B0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E71480)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS8_0__CHECKCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x17472600)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1746F1E0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerPS___c__DisplayClass8_0_TypeDefinitionIndex = 7701;
+	inline static constexpr unsigned int PayManagerPS___c__DisplayClass8_0_TypeDefinitionIndex = 7848;
 
 	class PayManagerPS___c__DisplayClass8_0 : public ::System::Object
 	{

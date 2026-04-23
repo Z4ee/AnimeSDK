@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AttachSkillTypeDisable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BC21222423E5311B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BBB1F0)
-#define CLASS_3_BC21222423E5311B__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBB1C0)
+#define CLASS_3_BC21222423E5311B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x932C720)
+#define CLASS_3_BC21222423E5311B__CTOR_OFFSET UNITYSDK_OFFSET(0x932C6F0)
 
-inline static constexpr unsigned int Class_3_BC21222423E5311B_TypeDefinitionIndex = 43909;
+inline static constexpr unsigned int Class_3_BC21222423E5311B_TypeDefinitionIndex = 50609;
 
 class Class_3_BC21222423E5311B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachSkillTypeDisable*>
 {

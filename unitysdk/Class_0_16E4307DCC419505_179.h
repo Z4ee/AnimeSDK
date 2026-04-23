@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_9850514C0F89B91A;
+class Class_1_C65FB61BCA66847A;
+namespace RPG::GameCore { class LevelTriggerInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_179_TypeDefinitionIndex = 32487;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_179_TypeDefinitionIndex = 38190;
 
 class Class_0_16E4307DCC419505_179
 {

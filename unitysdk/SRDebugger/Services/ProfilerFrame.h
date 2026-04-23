@@ -4,7 +4,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ProfilerFrame_TypeDefinitionIndex = 29715;
+	inline static constexpr unsigned int ProfilerFrame_TypeDefinitionIndex = 35435;
 
 	struct alignas(8) ProfilerFrame
 	{

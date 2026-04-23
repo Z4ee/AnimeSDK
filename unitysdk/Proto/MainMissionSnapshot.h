@@ -6,43 +6,49 @@ namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class SubMissionSnapshot; }
 namespace System { class String; }
 
-#define PROTO_MAINMISSIONSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x182896C0)
-#define PROTO_MAINMISSIONSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x18289250)
-#define PROTO_MAINMISSIONSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x182893F0)
-#define PROTO_MAINMISSIONSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x182892D0)
-#define PROTO_MAINMISSIONSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x182894A0)
-#define PROTO_MAINMISSIONSNAPSHOT_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x182892A0)
-#define PROTO_MAINMISSIONSNAPSHOT_GET_SUBMISSIONLIST_OFFSET UNITYSDK_OFFSET(0x182892C0)
-#define PROTO_MAINMISSIONSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18289870)
-#define PROTO_MAINMISSIONSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x182897D0)
-#define PROTO_MAINMISSIONSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18289130)
-#define PROTO_MAINMISSIONSNAPSHOT_SET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x182892B0)
-#define PROTO_MAINMISSIONSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18289590)
-#define PROTO_MAINMISSIONSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x182895F0)
-#define PROTO_MAINMISSIONSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18289950)
-#define PROTO_MAINMISSIONSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18289190)
-#define PROTO_MAINMISSIONSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x18289140)
+#define PROTO_MAINMISSIONSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x193469D0)
+#define PROTO_MAINMISSIONSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x19346560)
+#define PROTO_MAINMISSIONSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19346700)
+#define PROTO_MAINMISSIONSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x193465E0)
+#define PROTO_MAINMISSIONSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x193467B0)
+#define PROTO_MAINMISSIONSNAPSHOT_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x193465B0)
+#define PROTO_MAINMISSIONSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x193463E0)
+#define PROTO_MAINMISSIONSNAPSHOT_GET_SUBMISSIONLIST_OFFSET UNITYSDK_OFFSET(0x193465D0)
+#define PROTO_MAINMISSIONSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x19346B80)
+#define PROTO_MAINMISSIONSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19346AE0)
+#define PROTO_MAINMISSIONSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19346440)
+#define PROTO_MAINMISSIONSNAPSHOT_SET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x193465C0)
+#define PROTO_MAINMISSIONSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x193468A0)
+#define PROTO_MAINMISSIONSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x19346900)
+#define PROTO_MAINMISSIONSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19346C60)
+#define PROTO_MAINMISSIONSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x193464A0)
+#define PROTO_MAINMISSIONSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x19346450)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MainMissionSnapshot_TypeDefinitionIndex = 23225;
+	inline static constexpr unsigned int MainMissionSnapshot_TypeDefinitionIndex = 24543;
 
 	class MainMissionSnapshot : public ::System::Object
 	{
 	public:
+		static ::Google::Protobuf::MessageParser_1<::Proto::MainMissionSnapshot*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::MainMissionSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionSnapshot_TypeDefinitionIndex)->GetStaticField(0x642A0);
+		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::SubMissionSnapshot*>** StaticGet__repeated_subMissionList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::SubMissionSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D5F0);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::SubMissionSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionSnapshot_TypeDefinitionIndex)->GetStaticField(0x642A8);
 		}
 		// static const ::System::Int32 MainMissionIdFieldNumber = 0x1; // 0x0
 		// static const ::System::Int32 SubMissionListFieldNumber = 0x2; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SubMissionSnapshot*>* subMissionList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SubMissionSnapshot*>* subMissionList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::System::UInt32 mainMissionId_; // 0x20
 
 		::System::Void _ctor()
@@ -58,6 +64,11 @@ namespace Proto
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MAINMISSIONSNAPSHOT__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::MainMissionSnapshot*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::MainMissionSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_MAINMISSIONSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

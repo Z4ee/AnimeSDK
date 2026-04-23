@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class IntersectionPhaseSerialization; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEHARMONYTRAFFICLIGHTMONOSERIALIZATION_METHOD_2_3D0A5585FC21E325_OFFSET UNITYSDK_OFFSET(0x17767EE0)
-#define RPG_GAMECORE_STAGEHARMONYTRAFFICLIGHTMONOSERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x17768000)
+#define RPG_GAMECORE_STAGEHARMONYTRAFFICLIGHTMONOSERIALIZATION_METHOD_2_3D0A5585FC21E325_OFFSET UNITYSDK_OFFSET(0x18E8DA70)
+#define RPG_GAMECORE_STAGEHARMONYTRAFFICLIGHTMONOSERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8DB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageHarmonyTrafficLightMonoSerialization_TypeDefinitionIndex = 17615;
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoSerialization_TypeDefinitionIndex = 18228;
 
 	class StageHarmonyTrafficLightMonoSerialization : public ::RPG::GameCore::JsonConfig
 	{

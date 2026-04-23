@@ -3,34 +3,34 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_351;
+class Class_0_16E4307DCC419505_358;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyContext_1; }
 
-#define CLASS_1_1C477FE7FDC66A7C_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0x10BB6EE0)
-#define CLASS_1_1C477FE7FDC66A7C_GET_BASIC_OFFSET UNITYSDK_OFFSET(0x10BB6EC0)
-#define CLASS_1_1C477FE7FDC66A7C_SET_BASIC_OFFSET UNITYSDK_OFFSET(0x10BB6ED0)
-#define CLASS_1_1C477FE7FDC66A7C__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB6F40)
+#define CLASS_1_1C477FE7FDC66A7C_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0x935E8F0)
+#define CLASS_1_1C477FE7FDC66A7C_GET_BASIC_OFFSET UNITYSDK_OFFSET(0x935E8D0)
+#define CLASS_1_1C477FE7FDC66A7C_SET_BASIC_OFFSET UNITYSDK_OFFSET(0x935E8E0)
+#define CLASS_1_1C477FE7FDC66A7C__CTOR_OFFSET UNITYSDK_OFFSET(0x935E950)
 
-inline static constexpr unsigned int Class_1_1C477FE7FDC66A7C_TypeDefinitionIndex = 50931;
+inline static constexpr unsigned int Class_1_1C477FE7FDC66A7C_TypeDefinitionIndex = 57812;
 
 class Class_1_1C477FE7FDC66A7C : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_351* _Basic_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_358* _Basic_k__BackingField; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1C477FE7FDC66A7C__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_351* get_Basic()
+	::Class_0_16E4307DCC419505_358* get_Basic()
 	{
-		return ((::Class_0_16E4307DCC419505_351*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1C477FE7FDC66A7C_GET_BASIC_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_358*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1C477FE7FDC66A7C_GET_BASIC_OFFSET))(this);
 	}
 
-	::System::Void set_Basic(::Class_0_16E4307DCC419505_351* value)
+	::System::Void set_Basic(::Class_0_16E4307DCC419505_358* value)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_351*))((::PBYTE)hIl2Cpp + CLASS_1_1C477FE7FDC66A7C_SET_BASIC_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_358*))((::PBYTE)hIl2Cpp + CLASS_1_1C477FE7FDC66A7C_SET_BASIC_OFFSET))(this, value);
 	}
 
 	::RPG::GameCore::FixPoint CalculateValue(::RPG::AvatarSystem::Property::IPropertyContext_1<::RPG::GameCore::FixPoint>* a1)

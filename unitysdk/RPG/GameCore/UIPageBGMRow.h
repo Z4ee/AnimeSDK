@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIPAGEBGMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178E17C0)
-#define RPG_GAMECORE_UIPAGEBGMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178E1D90)
+#define RPG_GAMECORE_UIPAGEBGMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190DFFE0)
+#define RPG_GAMECORE_UIPAGEBGMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190E05B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIPageBGMRow_TypeDefinitionIndex = 14141;
+	inline static constexpr unsigned int UIPageBGMRow_TypeDefinitionIndex = 14610;
 
 	class UIPageBGMRow : public ::System::Object
 	{
 	public:
-		::System::String* BGMEvent; // 0x10
-		::System::String* PagePrefab; // 0x18
+		::System::String* PagePrefab; // 0x10
+		::System::String* BGMEvent; // 0x18
 
 		::System::Void _ctor()
 		{

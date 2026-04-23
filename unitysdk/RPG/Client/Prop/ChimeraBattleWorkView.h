@@ -7,27 +7,37 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYBREAK_OFFSET UNITYSDK_OFFSET(0xA03C7F0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYDITHER_OFFSET UNITYSDK_OFFSET(0xA03C710)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYOPENBOX_OFFSET UNITYSDK_OFFSET(0xA03C760)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_SETATTACHPOINTACTIVE_OFFSET UNITYSDK_OFFSET(0xA03C8F0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_START_OFFSET UNITYSDK_OFFSET(0xA03C660)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA03C9E0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYBREAK_OFFSET UNITYSDK_OFFSET(0xADBAD20)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYDITHER_OFFSET UNITYSDK_OFFSET(0xADBAC00)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYOPENBOX_OFFSET UNITYSDK_OFFSET(0xADBAC50)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_SETATTACHPOINTACTIVE_OFFSET UNITYSDK_OFFSET(0xADBAE20)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_START_OFFSET UNITYSDK_OFFSET(0xADBAB50)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xADBAF20)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xADBAF10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattleWorkView_TypeDefinitionIndex = 63894;
+	inline static constexpr unsigned int ChimeraBattleWorkView_TypeDefinitionIndex = 71941;
 
 	class ChimeraBattleWorkView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		static ::System::Int32* StaticGet_Field_5_0()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleWorkView_TypeDefinitionIndex)->GetStaticField(0x3260);
+		}
 		::RPG::Client::BaseShaderPropertyTransition* DitherHandler; // 0x18
 		::UnityEngine::Animator* Animator; // 0x20
-		::RPG::Client::AttachPointMapping* Field_5_2; // 0x28
+		::RPG::Client::AttachPointMapping* Field_5_3; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CCTOR_OFFSET))();
 		}
 
 		::System::Void Start()

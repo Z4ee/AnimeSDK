@@ -1,32 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_171.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
 
-class Class_2_49CAB3DE74280C58;
+class Class_2_9C972AC88E9A3A3E;
+class Class_2_AF90B1085045344F;
 
-#define CLASS_2_328C653BB3C536C0_1_GET_CASTER_OFFSET UNITYSDK_OFFSET(0x8D6E530)
-#define CLASS_2_328C653BB3C536C0_1_SET_CASTER_OFFSET UNITYSDK_OFFSET(0x8D6E540)
-#define CLASS_2_328C653BB3C536C0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8D6E550)
+#define CLASS_2_328C653BB3C536C0_1_GET_CLAWBUTTON_OFFSET UNITYSDK_OFFSET(0x9E384B0)
+#define CLASS_2_328C653BB3C536C0_1_GET_FIREBUTTON_OFFSET UNITYSDK_OFFSET(0x9E38490)
+#define CLASS_2_328C653BB3C536C0_1_SET_CLAWBUTTON_OFFSET UNITYSDK_OFFSET(0x9E384C0)
+#define CLASS_2_328C653BB3C536C0_1_SET_FIREBUTTON_OFFSET UNITYSDK_OFFSET(0x9E384A0)
+#define CLASS_2_328C653BB3C536C0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9E384D0)
+#define CLASS_2_328C653BB3C536C0_1__ONBIND_OFFSET UNITYSDK_OFFSET(0x9E38130)
+#define CLASS_2_328C653BB3C536C0_1___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x9E38500)
 
-inline static constexpr unsigned int Class_2_328C653BB3C536C0_1_TypeDefinitionIndex = 63124;
+inline static constexpr unsigned int Class_2_328C653BB3C536C0_1_TypeDefinitionIndex = 66261;
 
-class Class_2_328C653BB3C536C0_1 : public ::Class_1_43BD383C98B4C0C5_171
+class Class_2_328C653BB3C536C0_1 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::Class_2_49CAB3DE74280C58* _Caster_k__BackingField; // 0x10
+	::Class_2_9C972AC88E9A3A3E* _FireButton_k__BackingField; // 0x60
+	::Class_2_AF90B1085045344F* _ClawButton_k__BackingField; // 0x68
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1__CTOR_OFFSET))(this);
 	}
 
-	::Class_2_49CAB3DE74280C58* get_Caster()
+	::System::Void _OnBind()
 	{
-		return ((::Class_2_49CAB3DE74280C58*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1_GET_CASTER_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1__ONBIND_OFFSET))(this);
 	}
 
-	::System::Void set_Caster(::Class_2_49CAB3DE74280C58* value)
+	::Class_2_9C972AC88E9A3A3E* get_FireButton()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_49CAB3DE74280C58*))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1_SET_CASTER_OFFSET))(this, value);
+		return ((::Class_2_9C972AC88E9A3A3E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1_GET_FIREBUTTON_OFFSET))(this);
+	}
+
+	::System::Void set_FireButton(::Class_2_9C972AC88E9A3A3E* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_9C972AC88E9A3A3E*))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1_SET_FIREBUTTON_OFFSET))(this, value);
+	}
+
+	::Class_2_AF90B1085045344F* get_ClawButton()
+	{
+		return ((::Class_2_AF90B1085045344F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1_GET_CLAWBUTTON_OFFSET))(this);
+	}
+
+	::System::Void set_ClawButton(::Class_2_AF90B1085045344F* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_AF90B1085045344F*))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1_SET_CLAWBUTTON_OFFSET))(this, value);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_1___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

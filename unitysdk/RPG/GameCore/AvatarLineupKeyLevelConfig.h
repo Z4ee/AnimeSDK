@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BattleLineupEquipmentConfig; }
 namespace RPG::GameCore { class BattleLineupSkillTreePoint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_545546A276866E43_OFFSET UNITYSDK_OFFSET(0x16FA1930)
-#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA1D40)
+#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_545546A276866E43_OFFSET UNITYSDK_OFFSET(0x186C4FB0)
+#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186C53C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 16643;
+	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 17235;
 
 	class AvatarLineupKeyLevelConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicWavesManager_IntervalState_TypeDefinitionIndex = 57686;
+	inline static constexpr unsigned int Effect_DynamicWavesManager_IntervalState_TypeDefinitionIndex = 64950;
 
 	enum class Effect_DynamicWavesManager_IntervalState : ::System::Int32
 	{

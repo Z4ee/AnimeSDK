@@ -1,15 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AnimStateLogicType.h"
+#include "unitysdk/RPG/GameCore/RtModifierBehaviorLifeBinding.h"
 
-class Class_0_16E4307DCC419505_408;
-class Class_1_0A45C1E7E3B8E4B0;
-class Class_1_DB457F2E821DD51D;
-class Class_2_1DBE0E1023AFDBC5;
-namespace RPG::GameCore { class GameEntity; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+class Class_2_24193089A4D2255F;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 44825;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 49559;
 
 class Class_0_16E4307DCC419505_409
 {

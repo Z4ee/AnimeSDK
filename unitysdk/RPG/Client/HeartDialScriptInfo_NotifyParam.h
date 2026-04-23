@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/GameCore/HeartDialStepType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_HEARTDIALSCRIPTINFO_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x991CE80)
+#define RPG_CLIENT_HEARTDIALSCRIPTINFO_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA607AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeartDialScriptInfo_NotifyParam_TypeDefinitionIndex = 53327;
+	inline static constexpr unsigned int HeartDialScriptInfo_NotifyParam_TypeDefinitionIndex = 60460;
 
 	class HeartDialScriptInfo_NotifyParam : public ::System::Object
 	{

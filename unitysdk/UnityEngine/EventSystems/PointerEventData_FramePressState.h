@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerEventData_FramePressState_TypeDefinitionIndex = 5775;
+	inline static constexpr unsigned int PointerEventData_FramePressState_TypeDefinitionIndex = 5787;
 
 	enum class PointerEventData_FramePressState : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int EntityTag_TypeDefinitionIndex = 33312;
+	inline static constexpr unsigned int EntityTag_TypeDefinitionIndex = 39101;
 
 	enum class EntityTag : ::System::Int32
 	{
@@ -20,9 +20,10 @@ namespace RPG::Client::LittleGame::FiveDim
 		GarbageBinPhysicsProxy = 10,
 		MusicFloatingSpirit = 11,
 		MissilePhysicsProxy = 12,
-		GrenadierPhysicsProxy = 13,
-		SimpleProjectilePhysicsProxy = 14,
-		CleanerBotPhysicsProxy = 15,
-		DragonDogPhysicsProxy = 16,
+		EvilSmilePhysicsProxy = 13,
+		GrenadierPhysicsProxy = 14,
+		SimpleProjectilePhysicsProxy = 15,
+		CleanerBotPhysicsProxy = 16,
+		DragonDogPhysicsProxy = 17,
 	};
 }

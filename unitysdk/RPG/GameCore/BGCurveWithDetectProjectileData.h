@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_BGCURVEWITHDETECTPROJECTILEDATA_METHOD_3_24A4CEF664331574_OFFSET UNITYSDK_OFFSET(0x16FC0330)
-#define RPG_GAMECORE_BGCURVEWITHDETECTPROJECTILEDATA_METHOD_3_F5BF5DCDCD6AAADF_OFFSET UNITYSDK_OFFSET(0x16FC0210)
-#define RPG_GAMECORE_BGCURVEWITHDETECTPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC02B0)
+#define RPG_GAMECORE_BGCURVEWITHDETECTPROJECTILEDATA_METHOD_3_24A4CEF664331574_OFFSET UNITYSDK_OFFSET(0x186E3AA0)
+#define RPG_GAMECORE_BGCURVEWITHDETECTPROJECTILEDATA_METHOD_3_F5BF5DCDCD6AAADF_OFFSET UNITYSDK_OFFSET(0x186E3980)
+#define RPG_GAMECORE_BGCURVEWITHDETECTPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186E3A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BGCurveWithDetectProjectileData_TypeDefinitionIndex = 14365;
+	inline static constexpr unsigned int BGCurveWithDetectProjectileData_TypeDefinitionIndex = 14835;
 
 	class BGCurveWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* SubCurveIndex; // 0xA8
-		::System::Single CollisionEnableDelay; // 0xB0
-		::System::Single MaxLifeTime; // 0xB4
+		::RPG::GameCore::DynamicFloat* SubCurveIndex; // 0xB0
+		::System::Single CollisionEnableDelay; // 0xB8
+		::System::Single MaxLifeTime; // 0xBC
 
 		::System::Void _ctor()
 		{

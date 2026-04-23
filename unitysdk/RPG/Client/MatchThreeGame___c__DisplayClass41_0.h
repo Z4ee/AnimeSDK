@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_352A8B3482C80E7D_23;
+class Class_1_1CBA230307F9C289_26;
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B395E0)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0___UPDATEROYALEPLAYERREALTIMEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B3FB80)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA836D90)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS41_0___UPDATEROYALEPLAYERREALTIMEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA836DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass41_0_TypeDefinitionIndex = 53560;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass41_0_TypeDefinitionIndex = 60704;
 
 	class MatchThreeGame___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::Class_1_352A8B3482C80E7D_23* playerData; // 0x10
+		::Class_1_1CBA230307F9C289_26* playerData; // 0x10
 
 		::System::Void _ctor()
 		{

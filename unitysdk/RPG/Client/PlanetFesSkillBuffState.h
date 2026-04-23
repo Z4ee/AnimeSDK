@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesSkillBuffState_TypeDefinitionIndex = 54227;
+	inline static constexpr unsigned int PlanetFesSkillBuffState_TypeDefinitionIndex = 61390;
 
 	enum class PlanetFesSkillBuffState : ::System::Int32
 	{

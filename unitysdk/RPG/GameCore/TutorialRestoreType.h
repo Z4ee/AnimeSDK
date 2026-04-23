@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialRestoreType_TypeDefinitionIndex = 14118;
+	inline static constexpr unsigned int TutorialRestoreType_TypeDefinitionIndex = 14587;
 
 	enum class TutorialRestoreType : ::System::Int32
 	{

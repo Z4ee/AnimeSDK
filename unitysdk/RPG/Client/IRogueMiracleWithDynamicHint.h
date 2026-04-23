@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueMiracleWithDynamicHint_TypeDefinitionIndex = 54786;
+	inline static constexpr unsigned int IRogueMiracleWithDynamicHint_TypeDefinitionIndex = 61974;
 
 	class IRogueMiracleWithDynamicHint
 	{

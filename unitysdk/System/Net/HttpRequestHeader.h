@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpRequestHeader_TypeDefinitionIndex = 2725;
+	inline static constexpr unsigned int HttpRequestHeader_TypeDefinitionIndex = 2726;
 
 	enum class HttpRequestHeader : ::System::Int32
 	{

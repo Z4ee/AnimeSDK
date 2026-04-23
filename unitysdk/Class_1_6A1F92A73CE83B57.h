@@ -5,16 +5,16 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_6A1F92A73CE83B57__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E3680)
+#define CLASS_1_6A1F92A73CE83B57__CTOR_OFFSET UNITYSDK_OFFSET(0x91EABE0)
 
-inline static constexpr unsigned int Class_1_6A1F92A73CE83B57_TypeDefinitionIndex = 44752;
+inline static constexpr unsigned int Class_1_6A1F92A73CE83B57_TypeDefinitionIndex = 51498;
 
 class Class_1_6A1F92A73CE83B57 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::AdventureAnimStateType Field_1_2; // 0x18
-	::RPG::GameCore::AdventureAnimStateType Field_1_1; // 0x1C
+	::RPG::GameCore::AdventureAnimStateType Field_1_1; // 0x18
+	::RPG::GameCore::AdventureAnimStateType Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

@@ -4,24 +4,24 @@
 
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18718D00)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__COMPLETE_B__27_0_OFFSET UNITYSDK_OFFSET(0x18718D40)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18718D30)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1534F0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__COMPLETE_B__27_0_OFFSET UNITYSDK_OFFSET(0x1A153530)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A153520)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketAsyncResult___c_TypeDefinitionIndex = 2908;
+	inline static constexpr unsigned int SocketAsyncResult___c_TypeDefinitionIndex = 2909;
 
 	class SocketAsyncResult___c : public ::System::Object
 	{
 	public:
 		static ::System::Net::Sockets::SocketAsyncResult___c** StaticGet___9()
 		{
-			return (::System::Net::Sockets::SocketAsyncResult___c**)Il2CppClass::FromTypeDefinitionIndex(SocketAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xC150);
+			return (::System::Net::Sockets::SocketAsyncResult___c**)Il2CppClass::FromTypeDefinitionIndex(SocketAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0x14B70);
 		}
 		static ::System::Threading::WaitCallback** StaticGet___9__27_0()
 		{
-			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(SocketAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xC158);
+			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(SocketAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0x14B78);
 		}
 
 		static ::System::Void _cctor()

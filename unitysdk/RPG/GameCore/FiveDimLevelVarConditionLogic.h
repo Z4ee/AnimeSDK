@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelVarConditionLogic_TypeDefinitionIndex = 17072;
+	inline static constexpr unsigned int FiveDimLevelVarConditionLogic_TypeDefinitionIndex = 17671;
 
 	enum class FiveDimLevelVarConditionLogic : ::System::Int32
 	{

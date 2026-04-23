@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int EDebugChanelMask_TypeDefinitionIndex = 29479;
+	inline static constexpr unsigned int EDebugChanelMask_TypeDefinitionIndex = 35246;
 
 	enum class EDebugChanelMask : ::System::Int32
 	{

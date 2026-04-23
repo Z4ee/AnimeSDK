@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEINITIALIZE_METHOD_3_67245169F4C63460_OFFSET UNITYSDK_OFFSET(0x17136BF0)
-#define RPG_GAMECORE_CONVINCEINITIALIZE_METHOD_3_AE90465A520DB0CD_OFFSET UNITYSDK_OFFSET(0x17136AF0)
-#define RPG_GAMECORE_CONVINCEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x17136B80)
+#define RPG_GAMECORE_CONVINCEINITIALIZE_METHOD_3_04E492E1A894BE44_OFFSET UNITYSDK_OFFSET(0x1883DB80)
+#define RPG_GAMECORE_CONVINCEINITIALIZE_METHOD_3_67245169F4C63460_OFFSET UNITYSDK_OFFSET(0x1883DC80)
+#define RPG_GAMECORE_CONVINCEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1883DC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceInitialize_TypeDefinitionIndex = 19999;
+	inline static constexpr unsigned int ConvinceInitialize_TypeDefinitionIndex = 20680;
 
 	class ConvinceInitialize : public ::RPG::GameCore::TaskConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEINITIALIZE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AE90465A520DB0CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceInitialize*& a2)
+		static ::System::Void Method_3_04E492E1A894BE44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceInitialize*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEINITIALIZE_METHOD_3_AE90465A520DB0CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEINITIALIZE_METHOD_3_04E492E1A894BE44_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_67245169F4C63460(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceInitialize* a2)

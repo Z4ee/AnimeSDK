@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_RPGDENSITYMAPGRASSBLOCKDATA_GETPREFABPATHSLOD0_OFFSET UNITYSDK_OFFSET(0x18A30D50)
-#define UNITYENGINE_RPGDENSITYMAPGRASSBLOCKDATA_GETPREFABSLOD0IMPL_OFFSET UNITYSDK_OFFSET(0x18A30D60)
+#define UNITYENGINE_RPGDENSITYMAPGRASSBLOCKDATA_GETPREFABPATHSLOD0_OFFSET UNITYSDK_OFFSET(0x1A46AC40)
+#define UNITYENGINE_RPGDENSITYMAPGRASSBLOCKDATA_GETPREFABSLOD0IMPL_OFFSET UNITYSDK_OFFSET(0x1A46AC50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RPGDensityMapGrassBlockData_TypeDefinitionIndex = 4088;
+	inline static constexpr unsigned int RPGDensityMapGrassBlockData_TypeDefinitionIndex = 4090;
 
 	class RPGDensityMapGrassBlockData : public ::UnityEngine::Object
 	{

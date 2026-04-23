@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BYISINSERTACTION_METHOD_4_086D0BE9CFBA6E7B_OFFSET UNITYSDK_OFFSET(0x17030680)
-#define RPG_GAMECORE_BYISINSERTACTION_METHOD_4_7C1746FC6E5C7E37_OFFSET UNITYSDK_OFFSET(0x17030750)
-#define RPG_GAMECORE_BYISINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17030700)
+#define RPG_GAMECORE_BYISINSERTACTION_METHOD_4_1B9E9A6ED6F3EC94_OFFSET UNITYSDK_OFFSET(0x18755270)
+#define RPG_GAMECORE_BYISINSERTACTION_METHOD_4_E67CE8DCAE851584_OFFSET UNITYSDK_OFFSET(0x187551A0)
+#define RPG_GAMECORE_BYISINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18755220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInsertAction_TypeDefinitionIndex = 20746;
+	inline static constexpr unsigned int ByIsInsertAction_TypeDefinitionIndex = 21448;
 
 	class ByIsInsertAction : public ::RPG::GameCore::PredicateConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSERTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_086D0BE9CFBA6E7B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInsertAction*& a2)
+		static ::System::Void Method_4_E67CE8DCAE851584(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInsertAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInsertAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSERTACTION_METHOD_4_086D0BE9CFBA6E7B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInsertAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSERTACTION_METHOD_4_E67CE8DCAE851584_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7C1746FC6E5C7E37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInsertAction* a2)
+		static ::System::Void Method_4_1B9E9A6ED6F3EC94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInsertAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInsertAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSERTACTION_METHOD_4_7C1746FC6E5C7E37_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInsertAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSERTACTION_METHOD_4_1B9E9A6ED6F3EC94_OFFSET))(a1, a2);
 		}
 	};
 }

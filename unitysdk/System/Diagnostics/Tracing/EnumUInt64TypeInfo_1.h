@@ -10,7 +10,7 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EnumUInt64TypeInfo_1_TypeDefinitionIndex = 1639;
+	inline static constexpr unsigned int EnumUInt64TypeInfo_1_TypeDefinitionIndex = 1640;
 
 	template <typename EnumType>
 	class EnumUInt64TypeInfo_1 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<EnumType>

@@ -8,19 +8,19 @@ namespace RPG::GameCore { class TargetSortByWeaknessMatch; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_60BEDD9CDA59EC8E_COMPARE_OFFSET UNITYSDK_OFFSET(0x111CA730)
-#define CLASS_2_60BEDD9CDA59EC8E_METHOD_2_8F361DCD8AD5FC61_OFFSET UNITYSDK_OFFSET(0x111CA350)
-#define CLASS_2_60BEDD9CDA59EC8E_METHOD_2_D0A3AC3D851E8C42_OFFSET UNITYSDK_OFFSET(0x111CA7E0)
-#define CLASS_2_60BEDD9CDA59EC8E_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x111CA240)
-#define CLASS_2_60BEDD9CDA59EC8E__CTOR_OFFSET UNITYSDK_OFFSET(0x111CA220)
+#define CLASS_2_60BEDD9CDA59EC8E_COMPARE_OFFSET UNITYSDK_OFFSET(0x9654400)
+#define CLASS_2_60BEDD9CDA59EC8E_METHOD_2_8F361DCD8AD5FC61_OFFSET UNITYSDK_OFFSET(0x9654020)
+#define CLASS_2_60BEDD9CDA59EC8E_METHOD_2_D0A3AC3D851E8C42_OFFSET UNITYSDK_OFFSET(0x96544B0)
+#define CLASS_2_60BEDD9CDA59EC8E_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x9653F10)
+#define CLASS_2_60BEDD9CDA59EC8E__CTOR_OFFSET UNITYSDK_OFFSET(0x9653EF0)
 
-inline static constexpr unsigned int Class_2_60BEDD9CDA59EC8E_TypeDefinitionIndex = 47838;
+inline static constexpr unsigned int Class_2_60BEDD9CDA59EC8E_TypeDefinitionIndex = 54579;
 
 class Class_2_60BEDD9CDA59EC8E : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByWeaknessMatch*>
 {
 public:
-	::RPG::GameCore::AttackDamageType Field_2_1; // 0x18
-	::RPG::GameCore::AttackDamageType Field_2_0; // 0x1C
+	::RPG::GameCore::AttackDamageType Field_2_0; // 0x18
+	::RPG::GameCore::AttackDamageType Field_2_1; // 0x1C
 
 	::System::Void _ctor(::RPG::GameCore::TargetSortByWeaknessMatch* a1)
 	{

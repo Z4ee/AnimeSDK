@@ -3,11 +3,11 @@
 #include "unitysdk/MiHoYo/SDK/BrowserWin32Helper_RECT.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_BROWSERWIN32HELPER_MONITORINFOEX__CTOR_OFFSET UNITYSDK_OFFSET(0x84C1DE0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_MONITORINFOEX__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE9C90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_MONITORINFOEX_TypeDefinitionIndex = 37293;
+	inline static constexpr unsigned int BrowserWin32Helper_MONITORINFOEX_TypeDefinitionIndex = 43170;
 
 	class BrowserWin32Helper_MONITORINFOEX : public ::System::Object
 	{

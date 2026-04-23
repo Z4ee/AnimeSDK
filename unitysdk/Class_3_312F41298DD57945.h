@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopTimeline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_312F41298DD57945_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11347A10)
-#define CLASS_3_312F41298DD57945__CTOR_OFFSET UNITYSDK_OFFSET(0x113479E0)
+#define CLASS_3_312F41298DD57945_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8F63280)
+#define CLASS_3_312F41298DD57945__CTOR_OFFSET UNITYSDK_OFFSET(0x8F63250)
 
-inline static constexpr unsigned int Class_3_312F41298DD57945_TypeDefinitionIndex = 45321;
+inline static constexpr unsigned int Class_3_312F41298DD57945_TypeDefinitionIndex = 51965;
 
 class Class_3_312F41298DD57945 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopTimeline*>
 {

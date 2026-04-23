@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NEWTONSOFT_JSON_JSONCONSTRUCTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1643EBC0)
+#define NEWTONSOFT_JSON_JSONCONSTRUCTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6A5A0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConstructorAttribute_TypeDefinitionIndex = 8188;
+	inline static constexpr unsigned int JsonConstructorAttribute_TypeDefinitionIndex = 8334;
 
 	class JsonConstructorAttribute : public ::System::Attribute
 	{

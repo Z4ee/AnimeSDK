@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class AddMenuItem; }
 
-#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBED0E80)
-#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBED0F40)
+#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x123A2DC0)
+#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x123A2E80)
 
-inline static constexpr unsigned int Class_2_3D183829726EED5B___c__DisplayClass2_0_TypeDefinitionIndex = 46650;
+inline static constexpr unsigned int Class_2_3D183829726EED5B___c__DisplayClass2_0_TypeDefinitionIndex = 53358;
 
 class Class_2_3D183829726EED5B___c__DisplayClass2_0 : public ::System::Object
 {

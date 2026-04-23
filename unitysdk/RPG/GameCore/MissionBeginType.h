@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionBeginType_TypeDefinitionIndex = 10040;
+	inline static constexpr unsigned int MissionBeginType_TypeDefinitionIndex = 10231;
 
 	enum class MissionBeginType : ::System::Int32
 	{

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Sessions { class SessionDetailsCopyInfoOptions; 
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSCOPYINFOOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSCOPYINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x15700)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSCOPYINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x156F0)
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSCOPYINFOOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionDetailsCopyInfoOptionsInternal_TypeDefinitionIndex = 35502;
+	inline static constexpr unsigned int SessionDetailsCopyInfoOptionsInternal_TypeDefinitionIndex = 41328;
 
 	struct alignas(4) SessionDetailsCopyInfoOptionsInternal
 	{

@@ -5,13 +5,13 @@
 namespace RPG::GameCore::Booklet { class TextElementConfig; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_BOOKLETTEXTELEMENT_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x91FB1F0)
-#define RPG_CLIENT_BOOKLETTEXTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x91FB260)
-#define RPG_CLIENT_BOOKLETTEXTELEMENT___IFIXBASEPROXY_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x91FB2B0)
+#define RPG_CLIENT_BOOKLETTEXTELEMENT_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x9EA43D0)
+#define RPG_CLIENT_BOOKLETTEXTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA4440)
+#define RPG_CLIENT_BOOKLETTEXTELEMENT___IFIXBASEPROXY_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x9EA4490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletTextElement_TypeDefinitionIndex = 59301;
+	inline static constexpr unsigned int BookletTextElement_TypeDefinitionIndex = 66696;
 
 	class BookletTextElement : public ::RPG::Client::BookletElement_1<::RPG::GameCore::Booklet::TextElementConfig*>
 	{

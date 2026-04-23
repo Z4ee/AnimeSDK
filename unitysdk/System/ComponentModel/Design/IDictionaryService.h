@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDictionaryService_TypeDefinitionIndex = 2645;
+	inline static constexpr unsigned int IDictionaryService_TypeDefinitionIndex = 2646;
 
 	class IDictionaryService
 	{

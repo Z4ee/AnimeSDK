@@ -6,19 +6,19 @@
 namespace RPG::GameCore { class ActivityHipplenGameGradeRow; }
 namespace RPG::GameCore { class ActivityHipplenGrowthPhaseRow; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRAILRESULTDATA_GET_GRADETEXT_OFFSET UNITYSDK_OFFSET(0x8F2F9B0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRAILRESULTDATA_GET_PHASETEXT_OFFSET UNITYSDK_OFFSET(0x8F2F980)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRAILRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8F2F880)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRAILRESULTDATA_GET_GRADETEXT_OFFSET UNITYSDK_OFFSET(0x9B01CC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRAILRESULTDATA_GET_PHASETEXT_OFFSET UNITYSDK_OFFSET(0x9B01C90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRAILRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B01B90)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenTrailResultData_TypeDefinitionIndex = 61654;
+	inline static constexpr unsigned int ActivityHipplenTrailResultData_TypeDefinitionIndex = 69564;
 
 	class ActivityHipplenTrailResultData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ActivityHipplenGameGradeRow* _GradeRow; // 0x10
-		::RPG::GameCore::ActivityHipplenGrowthPhaseRow* _GrowthPhaseRow; // 0x18
+		::RPG::GameCore::ActivityHipplenGrowthPhaseRow* _GrowthPhaseRow; // 0x10
+		::RPG::GameCore::ActivityHipplenGameGradeRow* _GradeRow; // 0x18
 
 		::System::Void _ctor(::System::UInt32 phaseID, ::System::UInt32 grade)
 		{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterEyeBloomConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTEREYEBLOOMMAPPINGCONFIG_METHOD_2_560718F248D340AF_OFFSET UNITYSDK_OFFSET(0x1706BB80)
-#define RPG_GAMECORE_CHARACTEREYEBLOOMMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1706BC50)
+#define RPG_GAMECORE_CHARACTEREYEBLOOMMAPPINGCONFIG_METHOD_2_560718F248D340AF_OFFSET UNITYSDK_OFFSET(0x187D0C50)
+#define RPG_GAMECORE_CHARACTEREYEBLOOMMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D0D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeBloomMappingConfig_TypeDefinitionIndex = 16034;
+	inline static constexpr unsigned int CharacterEyeBloomMappingConfig_TypeDefinitionIndex = 16563;
 
 	class CharacterEyeBloomMappingConfig : public ::RPG::GameCore::JsonConfig
 	{

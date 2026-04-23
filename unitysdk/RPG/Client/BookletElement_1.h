@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
 
-class Class_0_16E4307DCC419505_871;
-class Class_0_16E4307DCC419505_872;
+class Class_0_16E4307DCC419505_987;
+class Class_0_16E4307DCC419505_988;
 class Class_1_92608A36037A1D69;
 namespace RPG::Client { class Booklet; }
 namespace RPG::Client { class IBookletView; }
@@ -14,7 +14,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletElement_1_TypeDefinitionIndex = 59295;
+	inline static constexpr unsigned int BookletElement_1_TypeDefinitionIndex = 66690;
 
 	template <typename TElementConfig>
 	class BookletElement_1 : public ::UnityEngine::EventSystems::UIBehaviour
@@ -22,8 +22,8 @@ namespace RPG::Client
 	public:
 		TElementConfig _Config; // 0x0
 		::System::Collections::Generic::List_1<::Class_1_92608A36037A1D69*>* _UIAdaptOperations; // 0x0
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_871*>* _Children; // 0x0
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_987*>* _Children; // 0x0
 		::RPG::Client::IBookletView* _View_k__BackingField; // 0x0
-		::Class_0_16E4307DCC419505_871* _Parent_k__BackingField; // 0x0
+		::Class_0_16E4307DCC419505_987* _Parent_k__BackingField; // 0x0
 	};
 }

@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SWITCHHANDCOINDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA4FD4C0)
-#define RPG_CLIENT_SWITCHHANDCOINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FD880)
+#define RPG_CLIENT_SWITCHHANDCOINDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB1EF940)
+#define RPG_CLIENT_SWITCHHANDCOINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EFD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandCoinData_TypeDefinitionIndex = 55495;
+	inline static constexpr unsigned int SwitchHandCoinData_TypeDefinitionIndex = 62689;
 
 	class SwitchHandCoinData : public ::System::Object
 	{
 	public:
-		::System::UInt32 InstanceID; // 0x10
-		::System::UInt32 GroupID; // 0x14
-		::RPG::GameCore::PropState State; // 0x18
+		::System::UInt32 GroupID; // 0x10
+		::RPG::GameCore::PropState State; // 0x14
+		::System::UInt32 InstanceID; // 0x18
 
 		::System::Void _ctor()
 		{

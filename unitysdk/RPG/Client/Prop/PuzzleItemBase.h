@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_43BD383C98B4C0C5_181;
+class Class_1_43BD383C98B4C0C5_187;
 namespace RPG::GameCore { class GameComponentBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_PUZZLEITEMBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA1304D0)
-#define RPG_CLIENT_PROP_PUZZLEITEMBASE_INITPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xA130490)
-#define RPG_CLIENT_PROP_PUZZLEITEMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA130530)
+#define RPG_CLIENT_PROP_PUZZLEITEMBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAEB0D30)
+#define RPG_CLIENT_PROP_PUZZLEITEMBASE_INITPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xAEB0CF0)
+#define RPG_CLIENT_PROP_PUZZLEITEMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xAEB0D90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleItemBase_TypeDefinitionIndex = 64239;
+	inline static constexpr unsigned int PuzzleItemBase_TypeDefinitionIndex = 72286;
 
 	class PuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_43BD383C98B4C0C5_181* Field_5_0; // 0x18
+		::Class_1_43BD383C98B4C0C5_187* Field_5_0; // 0x18
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameComponentBase*>* Field_5_1; // 0x20
 
 		::System::Void _ctor()

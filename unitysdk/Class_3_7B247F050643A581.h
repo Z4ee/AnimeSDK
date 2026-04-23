@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DisableSelectionProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7B247F050643A581_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87D9870)
-#define CLASS_3_7B247F050643A581__CTOR_OFFSET UNITYSDK_OFFSET(0x87D9840)
+#define CLASS_3_7B247F050643A581_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x121252D0)
+#define CLASS_3_7B247F050643A581__CTOR_OFFSET UNITYSDK_OFFSET(0x121252A0)
 
-inline static constexpr unsigned int Class_3_7B247F050643A581_TypeDefinitionIndex = 46857;
+inline static constexpr unsigned int Class_3_7B247F050643A581_TypeDefinitionIndex = 53570;
 
 class Class_3_7B247F050643A581 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableSelectionProp*>
 {

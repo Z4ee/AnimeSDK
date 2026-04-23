@@ -4,15 +4,15 @@
 #include "unitysdk/RPG/GameCore/VersusBarQuestStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E54220BE5BFB3B20__CTOR_OFFSET UNITYSDK_OFFSET(0x116245D0)
+#define CLASS_1_E54220BE5BFB3B20__CTOR_OFFSET UNITYSDK_OFFSET(0x963ECE0)
 
-inline static constexpr unsigned int Class_1_E54220BE5BFB3B20_TypeDefinitionIndex = 44519;
+inline static constexpr unsigned int Class_1_E54220BE5BFB3B20_TypeDefinitionIndex = 51248;
 
 class Class_1_E54220BE5BFB3B20 : public ::System::Object
 {
 public:
-	::RPG::GameCore::VersusBarQuestStatus Field_1_0; // 0x10
-	::RPG::Client::TextID Field_1_1; // 0x18
+	::RPG::Client::TextID Field_1_1; // 0x10
+	::RPG::GameCore::VersusBarQuestStatus Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

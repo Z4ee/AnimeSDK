@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEffectItem; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_METHOD_2_924B91AF104B9E87_OFFSET UNITYSDK_OFFSET(0x17202610)
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17202BC0)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_METHOD_2_924B91AF104B9E87_OFFSET UNITYSDK_OFFSET(0x18913600)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18913C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 15269;
+	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 15783;
 
 	class FiveDimPlayerEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,6 +29,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* RunSmokeEffects; // 0x68
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* RunBrakeEffects; // 0x70
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MascotEffects; // 0x78
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MusicFallEffects; // 0x80
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MascotMusicFallEffects; // 0x88
 
 		::System::Void _ctor()
 		{

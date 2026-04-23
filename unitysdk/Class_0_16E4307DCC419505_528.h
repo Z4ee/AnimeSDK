@@ -1,9 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class UIController; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_528_TypeDefinitionIndex = 58460;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_528_TypeDefinitionIndex = 53075;
 
 class Class_0_16E4307DCC419505_528
 {

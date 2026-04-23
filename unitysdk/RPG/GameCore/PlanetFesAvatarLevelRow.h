@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PlanetFesBigInt; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLANETFESAVATARLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B57E0)
-#define RPG_GAMECORE_PLANETFESAVATARLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174B5970)
+#define RPG_GAMECORE_PLANETFESAVATARLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C00DB0)
+#define RPG_GAMECORE_PLANETFESAVATARLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C00F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarLevelRow_TypeDefinitionIndex = 11121;
+	inline static constexpr unsigned int PlanetFesAvatarLevelRow_TypeDefinitionIndex = 11524;
 
 	class PlanetFesAvatarLevelRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattlePhaseFinishType_TypeDefinitionIndex = 47952;
+	inline static constexpr unsigned int BattlePhaseFinishType_TypeDefinitionIndex = 54695;
 
 	enum class BattlePhaseFinishType : ::System::Int32
 	{

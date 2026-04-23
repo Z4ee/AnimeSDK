@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MixedLightingMode_TypeDefinitionIndex = 3968;
+	inline static constexpr unsigned int MixedLightingMode_TypeDefinitionIndex = 3970;
 
 	enum class MixedLightingMode : ::System::Int32
 	{

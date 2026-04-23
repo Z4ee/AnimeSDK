@@ -6,13 +6,13 @@
 namespace RPG::Client { class UVMoveLookAtSolver; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UVMOVELOOKAT_RESET_OFFSET UNITYSDK_OFFSET(0xA740B00)
-#define RPG_CLIENT_UVMOVELOOKAT_SOLVE_OFFSET UNITYSDK_OFFSET(0xA740740)
-#define RPG_CLIENT_UVMOVELOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0xA740C90)
+#define RPG_CLIENT_UVMOVELOOKAT_RESET_OFFSET UNITYSDK_OFFSET(0xB445260)
+#define RPG_CLIENT_UVMOVELOOKAT_SOLVE_OFFSET UNITYSDK_OFFSET(0xB444EA0)
+#define RPG_CLIENT_UVMOVELOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0xB4453F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UVMoveLookAt_TypeDefinitionIndex = 57521;
+	inline static constexpr unsigned int UVMoveLookAt_TypeDefinitionIndex = 64784;
 
 	class UVMoveLookAt : public ::UnityEngine::MonoBehaviour
 	{

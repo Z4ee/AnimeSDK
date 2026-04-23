@@ -3,7 +3,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_94_TypeDefinitionIndex = 32306;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_94_TypeDefinitionIndex = 38026;
 
 class Class_0_16E4307DCC419505_94
 {

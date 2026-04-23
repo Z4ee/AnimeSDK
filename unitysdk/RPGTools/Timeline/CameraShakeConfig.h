@@ -7,12 +7,12 @@
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG_METHOD_1_5EEAA1A5ACD5A572_OFFSET UNITYSDK_OFFSET(0xAB31830)
-#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB31BB0)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG_METHOD_1_DEACB80638B17224_OFFSET UNITYSDK_OFFSET(0xB8A5880)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A5BF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CameraShakeConfig_TypeDefinitionIndex = 38681;
+	inline static constexpr unsigned int CameraShakeConfig_TypeDefinitionIndex = 44580;
 
 	class CameraShakeConfig : public ::System::Object
 	{
@@ -48,9 +48,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CAMERASHAKECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::VCameraShakeV2* Method_1_5EEAA1A5ACD5A572()
+		::RPG::GameCore::VCameraShakeV2* Method_1_DEACB80638B17224()
 		{
-			return ((::RPG::GameCore::VCameraShakeV2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CAMERASHAKECONFIG_METHOD_1_5EEAA1A5ACD5A572_OFFSET))(this);
+			return ((::RPG::GameCore::VCameraShakeV2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CAMERASHAKECONFIG_METHOD_1_DEACB80638B17224_OFFSET))(this);
 		}
 	};
 }

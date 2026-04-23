@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define IRI_COMICSTYLERMATERIALOPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x111DADF0)
+#define IRI_COMICSTYLERMATERIALOPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x124184A0)
 
-inline static constexpr unsigned int IRI_ComicStylerMaterialOperator_TypeDefinitionIndex = 38415;
+inline static constexpr unsigned int IRI_ComicStylerMaterialOperator_TypeDefinitionIndex = 44299;
 
 class IRI_ComicStylerMaterialOperator : public ::UnityEngine::MonoBehaviour
 {

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROADMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x9F064F0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROADMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xAC2B430)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoadMap_TypeDefinitionIndex = 60823;
+	inline static constexpr unsigned int MonoParkourRoadMap_TypeDefinitionIndex = 68272;
 
 	class MonoParkourRoadMap : public ::UnityEngine::MonoBehaviour
 	{

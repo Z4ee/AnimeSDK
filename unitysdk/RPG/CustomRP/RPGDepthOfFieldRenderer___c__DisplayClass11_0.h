@@ -5,12 +5,12 @@
 
 namespace RPG::CustomRP { class RPGDepthOfField; }
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB6350)
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__SETUPDOFBOKEHPOLYGON_B__0_OFFSET UNITYSDK_OFFSET(0x16AB65C0)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181596C0)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__SETUPDOFBOKEHPOLYGON_B__0_OFFSET UNITYSDK_OFFSET(0x18159930)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfFieldRenderer___c__DisplayClass11_0_TypeDefinitionIndex = 29414;
+	inline static constexpr unsigned int RPGDepthOfFieldRenderer___c__DisplayClass11_0_TypeDefinitionIndex = 35181;
 
 	class RPGDepthOfFieldRenderer___c__DisplayClass11_0 : public ::System::Object
 	{

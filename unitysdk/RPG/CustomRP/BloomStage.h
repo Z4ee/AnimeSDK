@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_BLOOMSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5BD80)
+#define RPG_CUSTOMRP_BLOOMSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x180FEEC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BloomStage_TypeDefinitionIndex = 29394;
+	inline static constexpr unsigned int BloomStage_TypeDefinitionIndex = 35161;
 
 	class BloomStage : public ::System::Object
 	{

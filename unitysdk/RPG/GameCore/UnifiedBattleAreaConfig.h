@@ -10,12 +10,12 @@ namespace RPG::GameCore { class DistrictAudioRTPCConfig; }
 namespace RPG::GameCore { class DynamicLoadBlockData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_METHOD_2_E95D8DB6DE19A912_OFFSET UNITYSDK_OFFSET(0x178E3A00)
-#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178E3DB0)
+#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_METHOD_2_E95D8DB6DE19A912_OFFSET UNITYSDK_OFFSET(0x190E2220)
+#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190E25D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnifiedBattleAreaConfig_TypeDefinitionIndex = 16003;
+	inline static constexpr unsigned int UnifiedBattleAreaConfig_TypeDefinitionIndex = 16532;
 
 	class UnifiedBattleAreaConfig : public ::RPG::GameCore::JsonConfig
 	{

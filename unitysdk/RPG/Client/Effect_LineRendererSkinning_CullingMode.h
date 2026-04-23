@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererSkinning_CullingMode_TypeDefinitionIndex = 57735;
+	inline static constexpr unsigned int Effect_LineRendererSkinning_CullingMode_TypeDefinitionIndex = 64999;
 
 	enum class Effect_LineRendererSkinning_CullingMode : ::System::Int32
 	{

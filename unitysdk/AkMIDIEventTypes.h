@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkMIDIEventTypes_TypeDefinitionIndex = 34495;
+inline static constexpr unsigned int AkMIDIEventTypes_TypeDefinitionIndex = 40314;
 
 enum class AkMIDIEventTypes : ::System::Int32
 {

@@ -4,9 +4,9 @@
 
 namespace System { class Object; }
 
-#define CLASS_3_A88DFCAE3B12E69C__CTOR_OFFSET UNITYSDK_OFFSET(0x8E01B40)
+#define CLASS_3_A88DFCAE3B12E69C__CTOR_OFFSET UNITYSDK_OFFSET(0x11AC2F50)
 
-inline static constexpr unsigned int Class_3_A88DFCAE3B12E69C_TypeDefinitionIndex = 43418;
+inline static constexpr unsigned int Class_3_A88DFCAE3B12E69C_TypeDefinitionIndex = 50115;
 
 class Class_3_A88DFCAE3B12E69C : public ::RPG::GameCore::AIVariable
 {

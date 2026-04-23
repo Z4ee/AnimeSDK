@@ -6,39 +6,39 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA6C50)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA73D0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18607630)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18607DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAvatarRow_TypeDefinitionIndex = 10514;
+	inline static constexpr unsigned int ActivityDiceCombatAvatarRow_TypeDefinitionIndex = 10738;
 
 	class ActivityDiceCombatAvatarRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DiceCountPerRare; // 0x10
-		::System::String* HighLevelBGImgPathUI3D; // 0x18
-		::System::String* FinalAttackVoice; // 0x20
-		::Il2CppArray<::System::UInt32>* DiceIDPerRare; // 0x28
-		::System::String* ImgPathHeadIcon; // 0x30
-		::System::String* HighLevelBGImgPath; // 0x38
-		::System::String* ImgPath; // 0x40
-		::System::String* AttackAnimation; // 0x48
-		::System::String* AttackJson; // 0x50
-		::System::String* AttackEffectPath; // 0x58
-		::System::String* ImgPathUI3D; // 0x60
-		::System::String* AttackEffectEnemyPath; // 0x68
-		::System::String* ShopIcon; // 0x70
-		::Il2CppArray<::System::UInt32>* RecommendDiceIDList; // 0x78
-		::System::Boolean IsCollection; // 0x80
-		::System::UInt32 DefendDiceNumber; // 0x84
-		::System::UInt32 HP; // 0x88
-		::System::UInt32 AttackDiceNumber; // 0x8C
-		::System::UInt32 ColorfulDiceAvailableCount; // 0x90
-		::System::UInt32 Rare; // 0x94
-		::RPG::Client::TextID Name; // 0x98
-		::System::UInt32 DiceAvatarID; // 0xA8
-		::System::UInt32 SkillID; // 0xAC
+		::Il2CppArray<::System::UInt32>* RecommendDiceIDList; // 0x10
+		::System::String* AttackEffectPath; // 0x18
+		::System::String* ImgPathUI3D; // 0x20
+		::System::String* HighLevelBGImgPathUI3D; // 0x28
+		::System::String* FinalAttackVoice; // 0x30
+		::System::String* AttackJson; // 0x38
+		::System::String* ImgPathHeadIcon; // 0x40
+		::System::String* ImgPath; // 0x48
+		::System::String* HighLevelBGImgPath; // 0x50
+		::Il2CppArray<::System::UInt32>* DiceIDPerRare; // 0x58
+		::System::String* ShopIcon; // 0x60
+		::Il2CppArray<::System::UInt32>* DiceCountPerRare; // 0x68
+		::System::String* AttackAnimation; // 0x70
+		::System::String* AttackEffectEnemyPath; // 0x78
+		::RPG::Client::TextID Name; // 0x80
+		::System::UInt32 DefendDiceNumber; // 0x90
+		::System::UInt32 HP; // 0x94
+		::System::UInt32 SkillID; // 0x98
+		::System::UInt32 DiceAvatarID; // 0x9C
+		::System::UInt32 AttackDiceNumber; // 0xA0
+		::System::UInt32 ColorfulDiceAvailableCount; // 0xA4
+		::System::Boolean IsCollection; // 0xA8
+		::System::UInt32 Rare; // 0xAC
 
 		::System::Void _ctor()
 		{

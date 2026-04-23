@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_TIMERTHREAD_QUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1871B650)
+#define SYSTEM_NET_TIMERTHREAD_QUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A155E60)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_Queue_TypeDefinitionIndex = 2773;
+	inline static constexpr unsigned int TimerThread_Queue_TypeDefinitionIndex = 2774;
 
 	class TimerThread_Queue : public ::System::Object
 	{

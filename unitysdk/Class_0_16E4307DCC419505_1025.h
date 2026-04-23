@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
 
-class Class_0_16E4307DCC419505_499;
-namespace RPG::GameCore { class MiParameterConfigBase; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1025_TypeDefinitionIndex = 64473;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1025_TypeDefinitionIndex = 67677;
 
 class Class_0_16E4307DCC419505_1025
 {

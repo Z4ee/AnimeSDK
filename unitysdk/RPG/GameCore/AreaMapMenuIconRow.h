@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AREAMAPMENUICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F85BE0)
-#define RPG_GAMECORE_AREAMAPMENUICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F86130)
+#define RPG_GAMECORE_AREAMAPMENUICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186A8F90)
+#define RPG_GAMECORE_AREAMAPMENUICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186A94E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AreaMapMenuIconRow_TypeDefinitionIndex = 12794;
+	inline static constexpr unsigned int AreaMapMenuIconRow_TypeDefinitionIndex = 13260;
 
 	class AreaMapMenuIconRow : public ::System::Object
 	{

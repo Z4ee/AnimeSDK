@@ -2,69 +2,45 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_14459A69A765E714;
-class Class_1_14459A69A765E714_1;
-class Class_1_14459A69A765E714_2;
-class Class_1_14459A69A765E714_3;
-class Class_1_985D1692B58B6702;
-class Class_1_985D1692B58B6702_1;
-class Class_1_985D1692B58B6702_2;
-class Class_1_985D1692B58B6702_3;
-namespace RPG::Client { class RogueFormulaData; }
+class Class_1_6FBC3BC94D96CB59;
+class Class_1_6FBC3BC94D96CB59_1;
+class Class_1_799AB7BE4813D50A;
+class Class_1_CA9459FF704380AC;
+namespace RPG::Client { class RogueBuffData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_98274A1A3981A020_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DCE0E0)
-#define CLASS_1_98274A1A3981A020_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8DCE110)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x8DCE120)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x8DCE520)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x8DCE940)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x8DCED40)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x8DCE500)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x8DCE920)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x8DCED20)
-#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x8DCF140)
+#define CLASS_1_98274A1A3981A020_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x90EA9E0)
+#define CLASS_1_98274A1A3981A020_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x90EAA10)
+#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x90EAA20)
+#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x90EAE20)
+#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x90EAE00)
+#define CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x90EB220)
 
-inline static constexpr unsigned int Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex = 54654;
+inline static constexpr unsigned int Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex = 61840;
 
 class Class_1_98274A1A3981A020_1___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*, ::Class_1_14459A69A765E714_3*>** StaticGet___9__1_1()
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_799AB7BE4813D50A*>*, ::Class_1_6FBC3BC94D96CB59*>** StaticGet___9__1_0()
 	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*, ::Class_1_14459A69A765E714_3*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17960);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702_1*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_4()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702_1*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17968);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702_2*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_7()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702_2*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17970);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_6()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17978);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>*, ::Class_1_14459A69A765E714_2*>** StaticGet___9__1_3()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>*, ::Class_1_14459A69A765E714_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17980);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*, ::Class_1_14459A69A765E714_1*>** StaticGet___9__1_0()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*, ::Class_1_14459A69A765E714_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17988);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*, ::Class_1_14459A69A765E714*>** StaticGet___9__1_2()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*, ::Class_1_14459A69A765E714*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17990);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702_3*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_5()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702_3*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x17998);
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_799AB7BE4813D50A*>*, ::Class_1_6FBC3BC94D96CB59*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x61430);
 	}
 	static ::Class_1_98274A1A3981A020_1___c** StaticGet___9()
 	{
-		return (::Class_1_98274A1A3981A020_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x179A0);
+		return (::Class_1_98274A1A3981A020_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x61438);
+	}
+	static ::System::Func_2<::Class_1_799AB7BE4813D50A*, ::RPG::Client::RogueBuffData*>** StaticGet___9__1_2()
+	{
+		return (::System::Func_2<::Class_1_799AB7BE4813D50A*, ::RPG::Client::RogueBuffData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x61440);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_CA9459FF704380AC*>*, ::Class_1_6FBC3BC94D96CB59_1*>** StaticGet___9__1_1()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_CA9459FF704380AC*>*, ::Class_1_6FBC3BC94D96CB59_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x61448);
+	}
+	static ::System::Func_2<::Class_1_CA9459FF704380AC*, ::RPG::Client::RogueBuffData*>** StaticGet___9__1_3()
+	{
+		return (::System::Func_2<::Class_1_CA9459FF704380AC*, ::RPG::Client::RogueBuffData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98274A1A3981A020_1___c_TypeDefinitionIndex)->GetStaticField(0x61450);
 	}
 
 	static ::System::Void _cctor()
@@ -77,43 +53,23 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__CTOR_OFFSET))(this);
 	}
 
-	::Class_1_14459A69A765E714_1* _HandlePostProcess_b__1_0(::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>* actionToMerge)
+	::Class_1_6FBC3BC94D96CB59* _HandlePostProcess_b__1_0(::System::Collections::Generic::IEnumerable_1<::Class_1_799AB7BE4813D50A*>* actionToMerge)
 	{
-		return ((::Class_1_14459A69A765E714_1*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_0_OFFSET))(this, actionToMerge);
+		return ((::Class_1_6FBC3BC94D96CB59*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_799AB7BE4813D50A*>*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_0_OFFSET))(this, actionToMerge);
 	}
 
-	::RPG::Client::RogueFormulaData* _HandlePostProcess_b__1_4(::Class_1_985D1692B58B6702_1* a)
+	::RPG::Client::RogueBuffData* _HandlePostProcess_b__1_2(::Class_1_799AB7BE4813D50A* a)
 	{
-		return ((::RPG::Client::RogueFormulaData*(*)(::PVOID, ::Class_1_985D1692B58B6702_1*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_4_OFFSET))(this, a);
+		return ((::RPG::Client::RogueBuffData*(*)(::PVOID, ::Class_1_799AB7BE4813D50A*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_2_OFFSET))(this, a);
 	}
 
-	::Class_1_14459A69A765E714_3* _HandlePostProcess_b__1_1(::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>* actionToMerge)
+	::Class_1_6FBC3BC94D96CB59_1* _HandlePostProcess_b__1_1(::System::Collections::Generic::IEnumerable_1<::Class_1_CA9459FF704380AC*>* actionToMerge)
 	{
-		return ((::Class_1_14459A69A765E714_3*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_1_OFFSET))(this, actionToMerge);
+		return ((::Class_1_6FBC3BC94D96CB59_1*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_CA9459FF704380AC*>*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_1_OFFSET))(this, actionToMerge);
 	}
 
-	::RPG::Client::RogueFormulaData* _HandlePostProcess_b__1_5(::Class_1_985D1692B58B6702_3* a)
+	::RPG::Client::RogueBuffData* _HandlePostProcess_b__1_3(::Class_1_CA9459FF704380AC* a)
 	{
-		return ((::RPG::Client::RogueFormulaData*(*)(::PVOID, ::Class_1_985D1692B58B6702_3*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_5_OFFSET))(this, a);
-	}
-
-	::Class_1_14459A69A765E714* _HandlePostProcess_b__1_2(::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>* actionToMerge)
-	{
-		return ((::Class_1_14459A69A765E714*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_2_OFFSET))(this, actionToMerge);
-	}
-
-	::RPG::Client::RogueFormulaData* _HandlePostProcess_b__1_6(::Class_1_985D1692B58B6702* a)
-	{
-		return ((::RPG::Client::RogueFormulaData*(*)(::PVOID, ::Class_1_985D1692B58B6702*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_6_OFFSET))(this, a);
-	}
-
-	::Class_1_14459A69A765E714_2* _HandlePostProcess_b__1_3(::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>* actionToMerge)
-	{
-		return ((::Class_1_14459A69A765E714_2*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_3_OFFSET))(this, actionToMerge);
-	}
-
-	::RPG::Client::RogueFormulaData* _HandlePostProcess_b__1_7(::Class_1_985D1692B58B6702_2* a)
-	{
-		return ((::RPG::Client::RogueFormulaData*(*)(::PVOID, ::Class_1_985D1692B58B6702_2*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_7_OFFSET))(this, a);
+		return ((::RPG::Client::RogueBuffData*(*)(::PVOID, ::Class_1_CA9459FF704380AC*))((::PBYTE)hIl2Cpp + CLASS_1_98274A1A3981A020_1___C__HANDLEPOSTPROCESS_B__1_3_OFFSET))(this, a);
 	}
 };

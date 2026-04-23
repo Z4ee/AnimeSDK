@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x16AC9B00)
-#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x16AC9BD0)
-#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC9BF0)
+#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1816CE30)
+#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1816CF00)
+#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING__CTOR_OFFSET UNITYSDK_OFFSET(0x1816CF20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGTemporalAntialiasing_TypeDefinitionIndex = 29452;
+	inline static constexpr unsigned int RPGTemporalAntialiasing_TypeDefinitionIndex = 35219;
 
 	class RPGTemporalAntialiasing : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsTAAEnable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGTemporalAntialiasing_TypeDefinitionIndex)->GetStaticField(0x101E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGTemporalAntialiasing_TypeDefinitionIndex)->GetStaticField(0x113B0);
 		}
 		::UnityEngine::Rendering::FloatParameter* jitterSpread; // 0x38
 		::UnityEngine::Rendering::FloatParameter* sharpness; // 0x40

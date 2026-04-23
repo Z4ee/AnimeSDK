@@ -7,10 +7,10 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_235EAE06A792DE91___C__DISPLAYCLASS28_0__CREATETABLEENTITYANDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1166C6B0)
-#define CLASS_2_235EAE06A792DE91___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11669C50)
+#define CLASS_2_235EAE06A792DE91___C__DISPLAYCLASS28_0__CREATETABLEENTITYANDVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xD9DA160)
+#define CLASS_2_235EAE06A792DE91___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9D76F0)
 
-inline static constexpr unsigned int Class_2_235EAE06A792DE91___c__DisplayClass28_0_TypeDefinitionIndex = 62925;
+inline static constexpr unsigned int Class_2_235EAE06A792DE91___c__DisplayClass28_0_TypeDefinitionIndex = 70965;
 
 class Class_2_235EAE06A792DE91___c__DisplayClass28_0 : public ::System::Object
 {

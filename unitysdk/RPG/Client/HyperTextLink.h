@@ -15,41 +15,41 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_HYPERTEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0x992F540)
-#define RPG_CLIENT_HYPERTEXTLINK_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0x9930C00)
-#define RPG_CLIENT_HYPERTEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x99314D0)
-#define RPG_CLIENT_HYPERTEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x9930230)
-#define RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET UNITYSDK_OFFSET(0x9931880)
-#define RPG_CLIENT_HYPERTEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x992F670)
-#define RPG_CLIENT_HYPERTEXTLINK_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0x992F6F0)
-#define RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x9931AD0)
-#define RPG_CLIENT_HYPERTEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x99319D0)
-#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x9931C30)
-#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x9931C90)
-#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x9931C40)
+#define RPG_CLIENT_HYPERTEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xA61A1C0)
+#define RPG_CLIENT_HYPERTEXTLINK_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xA61B880)
+#define RPG_CLIENT_HYPERTEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xA61C150)
+#define RPG_CLIENT_HYPERTEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA61AEB0)
+#define RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET UNITYSDK_OFFSET(0xA61C500)
+#define RPG_CLIENT_HYPERTEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xA61A2F0)
+#define RPG_CLIENT_HYPERTEXTLINK_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xA61A370)
+#define RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0xA61C750)
+#define RPG_CLIENT_HYPERTEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xA61C650)
+#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xA61C8B0)
+#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA61C910)
+#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xA61C8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 59446;
+	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 66841;
 
 	class HyperTextLink : public ::UnityEngine::UI::Text
 	{
 	public:
-		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
-		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x1F780);
-		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x1F788);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x21C20);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x1F790);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x21C28);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x1F798);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x21C30);
+		}
+		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
+		{
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x21C38);
 		}
 		::System::String* m_OutputText; // 0x190
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_ImagesPool; // 0x198

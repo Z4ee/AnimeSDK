@@ -5,19 +5,19 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_ROOTDESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x18685B60)
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_ROOTDESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18685B50)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_ROOTDESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1A0C0030)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_ROOTDESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C0020)
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int RootDesignerSerializerAttribute_TypeDefinitionIndex = 2650;
+	inline static constexpr unsigned int RootDesignerSerializerAttribute_TypeDefinitionIndex = 2651;
 
 	class RootDesignerSerializerAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* serializerTypeName; // 0x10
-		::System::String* serializerBaseTypeName; // 0x18
-		::System::String* typeId; // 0x20
+		::System::String* serializerBaseTypeName; // 0x10
+		::System::String* typeId; // 0x18
+		::System::String* serializerTypeName; // 0x20
 		::System::Boolean reloadable; // 0x28
 
 		::System::Void _ctor(::System::String* serializerTypeName, ::System::String* baseSerializerTypeName, ::System::Boolean reloadable)

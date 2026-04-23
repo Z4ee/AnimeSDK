@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCore_Stage_TypeDefinitionIndex = 30853;
+	inline static constexpr unsigned int CinemachineCore_Stage_TypeDefinitionIndex = 36573;
 
 	enum class CinemachineCore_Stage : ::System::Int32
 	{

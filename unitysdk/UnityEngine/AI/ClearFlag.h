@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int ClearFlag_TypeDefinitionIndex = 5382;
+	inline static constexpr unsigned int ClearFlag_TypeDefinitionIndex = 5393;
 
 	enum class ClearFlag : ::System::Int32
 	{

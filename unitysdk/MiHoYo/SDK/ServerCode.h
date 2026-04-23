@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF7E60)
+#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17655770)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 6584;
+	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 6618;
 
 	class ServerCode : public ::System::Object
 	{
@@ -64,12 +64,18 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 AGE_GATE_PARENT_EMAIL_RESEND_TOO_MANY = 0xFFFFEF95; // 0x0
 		// static const ::System::Int32 INVALID_AGE_GATE_EMAIL = 0xFFFFEF93; // 0x0
 		// static const ::System::Int32 AGE_GATE_INVALID_PAYLOAD = 0xFFFFEF8F; // 0x0
+		// static const ::System::Int32 AGE_GATE_BR_CHALLENGE = 0xFFFFEF7F; // 0x0
 		// static const ::System::Int32 AGE_GATE_TEEN_WITHOUT_VPC = 0x94; // 0x0
 		// static const ::System::Int32 AGE_GATE_NEED_PERMISSION = 0x95; // 0x0
 		// static const ::System::Int32 AGE_GATE_MINOR_WITHOUT_VPC = 0x96; // 0x0
 		// static const ::System::Int32 AGE_GATE_INVALID_GAME_TOKEN = 0x73; // 0x0
 		// static const ::System::Int32 UGC_TOKEN_INVALID = 0xFFF0BC0F; // 0x0
 		// static const ::System::Int32 UGC_TOKEN_EXPIRED = 0xFFF0BC0E; // 0x0
+		// static const ::System::Int32 ACTION_TICKET_EXPIRED = 0xFFFFF445; // 0x0
+		// static const ::System::Int32 NEED_RISK_CHECK = 0xFFFFF3E3; // 0x0
+		// static const ::System::Int32 CHANNEL_AUTH_TICKET_INVALID = 0xFFFFF31A; // 0x0
+		// static const ::System::Int32 AID_BOUND_TO_OTHER_STEAM_ACCOUNT = 0xFFFFF317; // 0x0
+		// static const ::System::Int32 STEAM_ACCOUNT_BOUND_TO_OTHER_AID = 0xFFFFF316; // 0x0
 
 		::System::Void _ctor()
 		{

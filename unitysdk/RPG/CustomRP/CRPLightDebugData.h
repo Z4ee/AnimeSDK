@@ -11,7 +11,7 @@ namespace RPG::CustomRP { class CustomAdditionalLightData; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLightDebugData_TypeDefinitionIndex = 29188;
+	inline static constexpr unsigned int CRPLightDebugData_TypeDefinitionIndex = 34955;
 
 	struct alignas(8) CRPLightDebugData
 	{

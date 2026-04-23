@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_ItemType_TypeDefinitionIndex = 1869;
+	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_ItemType_TypeDefinitionIndex = 1870;
 
 	enum class XmlWellFormedWriter_AttributeValueCache_ItemType : ::System::Int32
 	{

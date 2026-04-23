@@ -6,7 +6,7 @@ namespace UnityEngine::Buffers { template <typename T> class ArrayPool_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ArrayPoolWrapper_1_TypeDefinitionIndex = 45280;
+	inline static constexpr unsigned int ArrayPoolWrapper_1_TypeDefinitionIndex = 51923;
 
 	template <typename T>
 	struct ArrayPoolWrapper_1

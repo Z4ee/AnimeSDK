@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GunPlayModeType_TypeDefinitionIndex = 10139;
+	inline static constexpr unsigned int GunPlayModeType_TypeDefinitionIndex = 10331;
 
 	enum class GunPlayModeType : ::System::Int32
 	{

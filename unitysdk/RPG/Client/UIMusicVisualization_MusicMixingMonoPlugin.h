@@ -7,12 +7,12 @@ namespace RPG::Client { class UIMusicVisualization_MusicMixingBehavior; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGMONOPLUGIN_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0xA70DE40)
-#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA70DED0)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGMONOPLUGIN_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0xB412520)
+#define RPG_CLIENT_UIMUSICVISUALIZATION_MUSICMIXINGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB4125B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMusicVisualization_MusicMixingMonoPlugin_TypeDefinitionIndex = 58031;
+	inline static constexpr unsigned int UIMusicVisualization_MusicMixingMonoPlugin_TypeDefinitionIndex = 65318;
 
 	class UIMusicVisualization_MusicMixingMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::UIMusicVisualization_MusicMixingBehavior*>
 	{

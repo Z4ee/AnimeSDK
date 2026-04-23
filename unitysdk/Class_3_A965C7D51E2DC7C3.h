@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByLocalPlayerIsFakeAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A965C7D51E2DC7C3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x118A9640)
-#define CLASS_3_A965C7D51E2DC7C3__CTOR_OFFSET UNITYSDK_OFFSET(0x118A9610)
+#define CLASS_3_A965C7D51E2DC7C3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8F72240)
+#define CLASS_3_A965C7D51E2DC7C3__CTOR_OFFSET UNITYSDK_OFFSET(0x8F72210)
 
-inline static constexpr unsigned int Class_3_A965C7D51E2DC7C3_TypeDefinitionIndex = 43021;
+inline static constexpr unsigned int Class_3_A965C7D51E2DC7C3_TypeDefinitionIndex = 49007;
 
 class Class_3_A965C7D51E2DC7C3 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByLocalPlayerIsFakeAvatar*>
 {

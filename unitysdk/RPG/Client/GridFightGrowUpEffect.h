@@ -6,20 +6,20 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x984DA40)
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x984DC20)
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x984DD50)
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT___IFIXBASEPROXY_ONCREATE_OFFSET UNITYSDK_OFFSET(0x984DD70)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xA4EC150)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xA4EC230)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA4EC360)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT___IFIXBASEPROXY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xA4EC370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGrowUpEffect_TypeDefinitionIndex = 52394;
+	inline static constexpr unsigned int GridFightGrowUpEffect_TypeDefinitionIndex = 59350;
 
 	class GridFightGrowUpEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:
-		::UnityEngine::Animation* Field_6_0; // 0x30
-		::System::Single Field_6_1; // 0x38
+		::UnityEngine::Animation* Field_6_0; // 0x38
+		::System::Single Field_6_1; // 0x40
 
 		::System::Void _ctor()
 		{

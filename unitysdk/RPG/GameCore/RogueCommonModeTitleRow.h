@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175EA890)
-#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175EAE90)
+#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18CF5840)
+#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF5E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCommonModeTitleRow_TypeDefinitionIndex = 13407;
+	inline static constexpr unsigned int RogueCommonModeTitleRow_TypeDefinitionIndex = 13880;
 
 	class RogueCommonModeTitleRow : public ::System::Object
 	{

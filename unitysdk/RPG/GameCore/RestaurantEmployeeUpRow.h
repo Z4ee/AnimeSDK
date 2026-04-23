@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175A4A00)
-#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175A4BB0)
+#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18CB0740)
+#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CB08F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantEmployeeUpRow_TypeDefinitionIndex = 10600;
+	inline static constexpr unsigned int RestaurantEmployeeUpRow_TypeDefinitionIndex = 10851;
 
 	class RestaurantEmployeeUpRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AbilityIDList; // 0x10
-		::System::UInt32 UpgradePrice; // 0x18
-		::System::UInt32 Level; // 0x1C
-		::System::UInt32 EmployeeID; // 0x20
+		::System::UInt32 EmployeeID; // 0x18
+		::System::UInt32 UpgradePrice; // 0x1C
+		::System::UInt32 Level; // 0x20
 
 		::System::Void _ctor()
 		{

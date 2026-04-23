@@ -3,29 +3,29 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
 class Class_2_01F4079471966D8C;
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropAnimState; }
 
-#define CLASS_2_0E1C32772EE39E59_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8D35710)
-#define CLASS_2_0E1C32772EE39E59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D357A0)
-#define CLASS_2_0E1C32772EE39E59_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8D35840)
-#define CLASS_2_0E1C32772EE39E59_TICK_OFFSET UNITYSDK_OFFSET(0x8D35910)
-#define CLASS_2_0E1C32772EE39E59__CTOR_OFFSET UNITYSDK_OFFSET(0x8D355D0)
+#define CLASS_2_0E1C32772EE39E59_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11DCAB30)
+#define CLASS_2_0E1C32772EE39E59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11DCABC0)
+#define CLASS_2_0E1C32772EE39E59_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11DCAC60)
+#define CLASS_2_0E1C32772EE39E59_TICK_OFFSET UNITYSDK_OFFSET(0x11DCAD30)
+#define CLASS_2_0E1C32772EE39E59__CTOR_OFFSET UNITYSDK_OFFSET(0x11DCA9F0)
 
-inline static constexpr unsigned int Class_2_0E1C32772EE39E59_TypeDefinitionIndex = 44717;
+inline static constexpr unsigned int Class_2_0E1C32772EE39E59_TypeDefinitionIndex = 51461;
 
 class Class_2_0E1C32772EE39E59 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::WaitPropAnimState* Field_2_0; // 0x18
-	::Class_3_5775A4FEC79026BC* Field_2_3; // 0x20
+	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x18
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x20
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x30
-	::Class_2_01F4079471966D8C* Field_2_5; // 0x38
+	::Class_2_01F4079471966D8C* Field_2_5; // 0x30
+	::RPG::GameCore::WaitPropAnimState* Field_2_0; // 0x38
 	::System::Int32 Field_2_4; // 0x40
-	::System::Single Field_2_7; // 0x44
-	::System::Boolean Field_2_6; // 0x48
+	::System::Boolean Field_2_6; // 0x44
+	::System::Single Field_2_7; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPropAnimState* a2)
 	{

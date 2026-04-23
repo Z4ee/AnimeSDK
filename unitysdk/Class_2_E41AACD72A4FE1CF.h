@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class RogueTournHexInfo; }
 
-#define CLASS_2_E41AACD72A4FE1CF__CTOR_OFFSET UNITYSDK_OFFSET(0x1136CAB0)
+#define CLASS_2_E41AACD72A4FE1CF__CTOR_OFFSET UNITYSDK_OFFSET(0x9676100)
 
-inline static constexpr unsigned int Class_2_E41AACD72A4FE1CF_TypeDefinitionIndex = 54601;
+inline static constexpr unsigned int Class_2_E41AACD72A4FE1CF_TypeDefinitionIndex = 61789;
 
 class Class_2_E41AACD72A4FE1CF : public ::Class_1_8F7D3BAFD8C03B69
 {

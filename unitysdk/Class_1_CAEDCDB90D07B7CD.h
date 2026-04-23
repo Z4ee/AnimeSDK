@@ -7,33 +7,33 @@ namespace RPG::Client { template <typename T> class StringMemoryDictionary_1; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_3C7D5D806F946DCB_OFFSET UNITYSDK_OFFSET(0xAC40C40)
-#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_61254A0A16456962_OFFSET UNITYSDK_OFFSET(0xAC41030)
-#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_C360905A5FBF19F8_OFFSET UNITYSDK_OFFSET(0xAC40E70)
-#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0xAC407E0)
-#define CLASS_1_CAEDCDB90D07B7CD__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC414D0)
-#define CLASS_1_CAEDCDB90D07B7CD__CTOR_OFFSET UNITYSDK_OFFSET(0xAC414C0)
+#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_3C7D5D806F946DCB_OFFSET UNITYSDK_OFFSET(0x12A69940)
+#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_61254A0A16456962_OFFSET UNITYSDK_OFFSET(0x12A69D30)
+#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_C360905A5FBF19F8_OFFSET UNITYSDK_OFFSET(0x12A69B70)
+#define CLASS_1_CAEDCDB90D07B7CD_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x12A694E0)
+#define CLASS_1_CAEDCDB90D07B7CD__CCTOR_OFFSET UNITYSDK_OFFSET(0x12A6A1D0)
+#define CLASS_1_CAEDCDB90D07B7CD__CTOR_OFFSET UNITYSDK_OFFSET(0x12A6A1C0)
 
-inline static constexpr unsigned int Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex = 57408;
+inline static constexpr unsigned int Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex = 64669;
 
 class Class_1_CAEDCDB90D07B7CD : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_2()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x36EA0);
-	}
-	static ::System::String** StaticGet_Field_1_0()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x36EA8);
-	}
-	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_3()
-	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x36EB0);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x40030);
 	}
 	static ::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>** StaticGet_Field_1_1()
 	{
-		return (::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x36EB8);
+		return (::RPG::Client::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::TriggerEffect*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x40038);
+	}
+	static ::System::String** StaticGet_Field_1_0()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x40040);
+	}
+	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_3()
+	{
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CAEDCDB90D07B7CD_TypeDefinitionIndex)->GetStaticField(0x40048);
 	}
 
 	::System::Void _ctor()

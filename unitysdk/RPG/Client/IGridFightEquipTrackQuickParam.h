@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGridFightEquipTrackQuickParam_TypeDefinitionIndex = 53064;
+	inline static constexpr unsigned int IGridFightEquipTrackQuickParam_TypeDefinitionIndex = 60160;
 
 	class IGridFightEquipTrackQuickParam
 	{

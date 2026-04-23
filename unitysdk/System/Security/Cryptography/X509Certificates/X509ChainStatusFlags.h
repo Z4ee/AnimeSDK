@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509ChainStatusFlags_TypeDefinitionIndex = 2670;
+	inline static constexpr unsigned int X509ChainStatusFlags_TypeDefinitionIndex = 2671;
 
 	enum class X509ChainStatusFlags : ::System::Int32
 	{

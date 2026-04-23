@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChronicleStatus_TypeDefinitionIndex = 53703;
+	inline static constexpr unsigned int ChronicleStatus_TypeDefinitionIndex = 60847;
 
 	enum class ChronicleStatus : ::System::Int32
 	{

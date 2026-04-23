@@ -6,31 +6,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17085C90)
-#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17086280)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187EADA0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187EB390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyCaseRow_TypeDefinitionIndex = 12891;
+	inline static constexpr unsigned int ChenLingGameBoyCaseRow_TypeDefinitionIndex = 13353;
 
 	class ChenLingGameBoyCaseRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* GameBoyChallengeIDList; // 0x10
-		::System::String* CheatCodeList; // 0x18
-		::Il2CppArray<::System::UInt32>* RankingsNPCList; // 0x20
-		::System::String* GameBoyThemeID; // 0x28
-		::System::String* CoverImagePath; // 0x30
-		::System::UInt32 FDCheatInstanceID; // 0x38
-		::System::UInt32 FDGroupID; // 0x3C
-		::RPG::Client::TextID SettlementTitleID; // 0x40
-		::System::UInt32 FDHardEntityID; // 0x50
-		::System::UInt32 GameBoyCaseID; // 0x54
-		::RPG::Client::TextID GameBoyNameID; // 0x58
-		::System::UInt32 FDCheatEntityID; // 0x68
-		::System::UInt32 CheatQuestID; // 0x6C
-		::RPG::Client::TextID CheatSettlementTitleID; // 0x70
-		::System::Single ChallengeTimeLimit; // 0x80
+		::System::String* CoverImagePath; // 0x10
+		::Il2CppArray<::System::UInt32>* RankingsNPCList; // 0x18
+		::System::String* CheatCodeList; // 0x20
+		::Il2CppArray<::System::UInt32>* GameBoyChallengeIDList; // 0x28
+		::System::String* GameBoyThemeID; // 0x30
+		::RPG::Client::TextID CheatSettlementTitleID; // 0x38
+		::RPG::Client::TextID SettlementTitleID; // 0x48
+		::System::UInt32 FDCheatInstanceID; // 0x58
+		::System::UInt32 FDCheatEntityID; // 0x5C
+		::System::Single ChallengeTimeLimit; // 0x60
+		::System::UInt32 GameBoyCaseID; // 0x64
+		::RPG::Client::TextID GameBoyNameID; // 0x68
+		::System::UInt32 FDGroupID; // 0x78
+		::System::UInt32 FDHardEntityID; // 0x7C
+		::System::UInt32 CheatQuestID; // 0x80
 		::System::UInt32 FDHardInstanceID; // 0x84
 
 		::System::Void _ctor()

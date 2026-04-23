@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowChallengeSuccessToastUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7D57874A3D2EC049_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x115C4FB0)
-#define CLASS_3_7D57874A3D2EC049__CTOR_OFFSET UNITYSDK_OFFSET(0x115C4F80)
+#define CLASS_3_7D57874A3D2EC049_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9944C20)
+#define CLASS_3_7D57874A3D2EC049__CTOR_OFFSET UNITYSDK_OFFSET(0x9944BF0)
 
-inline static constexpr unsigned int Class_3_7D57874A3D2EC049_TypeDefinitionIndex = 43126;
+inline static constexpr unsigned int Class_3_7D57874A3D2EC049_TypeDefinitionIndex = 49117;
 
 class Class_3_7D57874A3D2EC049 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowChallengeSuccessToastUI*>
 {

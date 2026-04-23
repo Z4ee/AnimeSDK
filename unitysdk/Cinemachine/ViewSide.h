@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ViewSide_TypeDefinitionIndex = 40322;
+	inline static constexpr unsigned int ViewSide_TypeDefinitionIndex = 46231;
 
 	enum class ViewSide : ::System::Int32
 	{

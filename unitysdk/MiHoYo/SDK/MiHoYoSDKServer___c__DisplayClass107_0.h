@@ -7,20 +7,20 @@ namespace MiHoYo::SDK { class MiHoYoSDKServer_NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8525BB0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS107_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x8526E30)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS107_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x8526F70)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D58600)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS107_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x8D59880)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS107_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x8D599C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass107_0_TypeDefinitionIndex = 37085;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass107_0_TypeDefinitionIndex = 42930;
 
 	class MiHoYoSDKServer___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::MiHoYoSDKServer_NetworkResponseModel*>* callback; // 0x10
-		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x18
-		::System::String* requestUrl; // 0x20
+		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x10
+		::System::String* requestUrl; // 0x18
+		::System::Action_1<::MiHoYo::SDK::MiHoYoSDKServer_NetworkResponseModel*>* callback; // 0x20
 
 		::System::Void _ctor()
 		{

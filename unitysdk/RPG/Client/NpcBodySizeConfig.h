@@ -7,13 +7,13 @@ namespace RPG::Client { class NpcBodySizeInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x9E91040)
-#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_A79C59C7B8291CFC_OFFSET UNITYSDK_OFFSET(0x9E912C0)
-#define RPG_CLIENT_NPCBODYSIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9E913C0)
+#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0xABDEE50)
+#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_A79C59C7B8291CFC_OFFSET UNITYSDK_OFFSET(0xABDF0D0)
+#define RPG_CLIENT_NPCBODYSIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xABDF1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodySizeConfig_TypeDefinitionIndex = 48648;
+	inline static constexpr unsigned int NpcBodySizeConfig_TypeDefinitionIndex = 55397;
 
 	class NpcBodySizeConfig : public ::UnityEngine::ScriptableObject
 	{

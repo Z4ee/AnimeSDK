@@ -7,13 +7,13 @@ namespace RPG::GameCore { class GuidePC; }
 namespace RPG::GameCore { class TutorialAnimConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x176FBEA0)
-#define RPG_GAMECORE_SHOWGUIDE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176FBE00)
-#define RPG_GAMECORE_SHOWGUIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x176FBE60)
+#define RPG_GAMECORE_SHOWGUIDE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E5F920)
+#define RPG_GAMECORE_SHOWGUIDE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E5F880)
+#define RPG_GAMECORE_SHOWGUIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E5F8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuide_TypeDefinitionIndex = 22381;
+	inline static constexpr unsigned int ShowGuide_TypeDefinitionIndex = 23351;
 
 	class ShowGuide : public ::RPG::GameCore::TaskConfig
 	{

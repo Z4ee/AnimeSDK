@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightFlowDirector_FlowStateEventBase_1.h"
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_ADVENTURERETURNAUTOSHOWEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9817B70)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_ADVENTURERETURNAUTOSHOWEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA49B050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_AdventureReturnAutoShowEvent_TypeDefinitionIndex = 52478;
+	inline static constexpr unsigned int GridFightFlowDirector_AdventureReturnAutoShowEvent_TypeDefinitionIndex = 59436;
 
 	class GridFightFlowDirector_AdventureReturnAutoShowEvent : public ::RPG::Client::GridFightFlowDirector_FlowStateEventBase_1<::RPG::Client::GridFightFlowDirector_AdventureReturnAutoShowEvent*>
 	{

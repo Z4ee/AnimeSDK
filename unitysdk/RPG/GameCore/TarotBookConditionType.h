@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookConditionType_TypeDefinitionIndex = 13972;
+	inline static constexpr unsigned int TarotBookConditionType_TypeDefinitionIndex = 14447;
 
 	enum class TarotBookConditionType : ::System::Int32
 	{

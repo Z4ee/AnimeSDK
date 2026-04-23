@@ -6,21 +6,21 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x98CCB70)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x98CC660)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x98CC520)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x98CCBC0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xA5B3660)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xA5B3160)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xA5B3020)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA5B36B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitChangeCollector_TypeDefinitionIndex = 52461;
+	inline static constexpr unsigned int GridFightTraitChangeCollector_TypeDefinitionIndex = 59419;
 
 	class GridFightTraitChangeCollector : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedUIDs; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitEffectIDs; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitIDs; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitEffectIDs; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedTraitIDs; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatedUIDs; // 0x20
 
 		::System::Void _ctor()
 		{

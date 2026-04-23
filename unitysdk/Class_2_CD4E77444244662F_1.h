@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetShuffle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_CD4E77444244662F_1_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x8EADC20)
-#define CLASS_2_CD4E77444244662F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8EADC00)
+#define CLASS_2_CD4E77444244662F_1_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x9B8ABD0)
+#define CLASS_2_CD4E77444244662F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9B8ABB0)
 
-inline static constexpr unsigned int Class_2_CD4E77444244662F_1_TypeDefinitionIndex = 47863;
+inline static constexpr unsigned int Class_2_CD4E77444244662F_1_TypeDefinitionIndex = 54604;
 
 class Class_2_CD4E77444244662F_1 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetShuffle*>
 {

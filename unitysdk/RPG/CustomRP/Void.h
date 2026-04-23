@@ -4,7 +4,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Void_TypeDefinitionIndex = 29259;
+	inline static constexpr unsigned int Void_TypeDefinitionIndex = 35026;
 
 	struct alignas(1) Void
 	{

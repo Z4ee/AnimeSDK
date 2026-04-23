@@ -5,14 +5,14 @@
 namespace RPG::Client { class MonopolyShopDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_MONOPOLYSHOPINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9D72800)
-#define RPG_CLIENT_MONOPOLYSHOPINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9D72410)
-#define RPG_CLIENT_MONOPOLYSHOPINFO_UNINIT_OFFSET UNITYSDK_OFFSET(0x9D77BC0)
-#define RPG_CLIENT_MONOPOLYSHOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9D72400)
+#define RPG_CLIENT_MONOPOLYSHOPINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAAB8B80)
+#define RPG_CLIENT_MONOPOLYSHOPINFO_INIT_OFFSET UNITYSDK_OFFSET(0xAAB8700)
+#define RPG_CLIENT_MONOPOLYSHOPINFO_UNINIT_OFFSET UNITYSDK_OFFSET(0xAABDDA0)
+#define RPG_CLIENT_MONOPOLYSHOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAAB86F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyShopInfo_TypeDefinitionIndex = 53906;
+	inline static constexpr unsigned int MonopolyShopInfo_TypeDefinitionIndex = 61050;
 
 	class MonopolyShopInfo : public ::System::Object
 	{

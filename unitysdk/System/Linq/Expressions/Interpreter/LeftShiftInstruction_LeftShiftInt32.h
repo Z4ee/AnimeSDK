@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEFTSHIFTINSTRUCTION_LEFTSHIFTINT32_RUN_OFFSET UNITYSDK_OFFSET(0x184D4100)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEFTSHIFTINSTRUCTION_LEFTSHIFTINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x184D3DC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEFTSHIFTINSTRUCTION_LEFTSHIFTINT32_RUN_OFFSET UNITYSDK_OFFSET(0x19F0EFD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEFTSHIFTINSTRUCTION_LEFTSHIFTINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0EC90)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LeftShiftInstruction_LeftShiftInt32_TypeDefinitionIndex = 3431;
+	inline static constexpr unsigned int LeftShiftInstruction_LeftShiftInt32_TypeDefinitionIndex = 3433;
 
 	class LeftShiftInstruction_LeftShiftInt32 : public ::System::Linq::Expressions::Interpreter::LeftShiftInstruction
 	{

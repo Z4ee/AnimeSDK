@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITalkOptionExtData_TypeDefinitionIndex = 55531;
+	inline static constexpr unsigned int ITalkOptionExtData_TypeDefinitionIndex = 62725;
 
 	class ITalkOptionExtData
 	{

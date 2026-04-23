@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Jobs
 {
-	inline static constexpr unsigned int IJobParallelForTransform_TypeDefinitionIndex = 4231;
+	inline static constexpr unsigned int IJobParallelForTransform_TypeDefinitionIndex = 4233;
 
 	class IJobParallelForTransform
 	{

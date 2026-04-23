@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimScreenTransferType_TypeDefinitionIndex = 49034;
+	inline static constexpr unsigned int FiveDimScreenTransferType_TypeDefinitionIndex = 55828;
 
 	enum class FiveDimScreenTransferType : ::System::Int32
 	{

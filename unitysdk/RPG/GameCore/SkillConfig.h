@@ -25,16 +25,17 @@ namespace RPG::GameCore { class SkillCustomFormationConfig; }
 namespace RPG::GameCore { class SkillCustomReadyConfig; }
 namespace RPG::GameCore { class SkillParamMapping; }
 namespace RPG::GameCore { class SkillTargetConfig; }
+namespace RPG::GameCore { class SkillUIConfig; }
 namespace RPG::GameCore { class UsableConditionConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1770BCD0)
-#define RPG_GAMECORE_SKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1770D860)
+#define RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E6F740)
+#define RPG_GAMECORE_SKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E71310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillConfig_TypeDefinitionIndex = 16691;
+	inline static constexpr unsigned int SkillConfig_TypeDefinitionIndex = 17283;
 
 	class SkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -113,8 +114,9 @@ namespace RPG::GameCore
 		::System::Boolean DisableHeadLookAt; // 0x1A4
 		::System::Boolean EqualSplitDamageAndStancePreshow; // 0x1A5
 		::System::String* PendingInsertAbilityPriority; // 0x1A8
-		::RPG::GameCore::ChildSkillUILayoutType ChildSkillUILayout; // 0x1B0
-		::RPG::GameCore::SkillActualAttackerType SkillActualAttacker; // 0x1B4
+		::RPG::GameCore::SkillUIConfig* UIConfig; // 0x1B0
+		::RPG::GameCore::ChildSkillUILayoutType ChildSkillUILayout; // 0x1B8
+		::RPG::GameCore::SkillActualAttackerType SkillActualAttacker; // 0x1BC
 
 		::System::Void _ctor()
 		{

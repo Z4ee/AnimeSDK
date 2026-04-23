@@ -3,7 +3,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int InterpolationMode_TypeDefinitionIndex = 35164;
+	inline static constexpr unsigned int InterpolationMode_TypeDefinitionIndex = 40990;
 
 	enum class InterpolationMode : ::System::Int32
 	{

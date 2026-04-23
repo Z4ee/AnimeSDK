@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraPhaseConditionType_TypeDefinitionIndex = 14579;
+	inline static constexpr unsigned int ChimeraPhaseConditionType_TypeDefinitionIndex = 15049;
 
 	enum class ChimeraPhaseConditionType : ::System::Int32
 	{

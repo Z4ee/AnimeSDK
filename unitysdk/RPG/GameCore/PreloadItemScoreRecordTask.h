@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItemScoreRecordChildTask; }
 
-#define RPG_GAMECORE_PRELOADITEMSCORERECORDTASK_METHOD_2_B1AD970977527DC3_OFFSET UNITYSDK_OFFSET(0x17511AF0)
-#define RPG_GAMECORE_PRELOADITEMSCORERECORDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17511C60)
+#define RPG_GAMECORE_PRELOADITEMSCORERECORDTASK_METHOD_2_B1AD970977527DC3_OFFSET UNITYSDK_OFFSET(0x18C60EA0)
+#define RPG_GAMECORE_PRELOADITEMSCORERECORDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C61010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItemScoreRecordTask_TypeDefinitionIndex = 14984;
+	inline static constexpr unsigned int PreloadItemScoreRecordTask_TypeDefinitionIndex = 15491;
 
 	class PreloadItemScoreRecordTask : public ::RPG::GameCore::JsonConfig
 	{

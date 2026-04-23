@@ -5,18 +5,18 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_08B5ACC5F83BB932_METHOD_1_F6B48A42970B70C6_OFFSET UNITYSDK_OFFSET(0xD1AE890)
-#define CLASS_1_08B5ACC5F83BB932__CTOR_OFFSET UNITYSDK_OFFSET(0xD1AE950)
+#define CLASS_1_08B5ACC5F83BB932_METHOD_1_F6B48A42970B70C6_OFFSET UNITYSDK_OFFSET(0x8F89F50)
+#define CLASS_1_08B5ACC5F83BB932__CTOR_OFFSET UNITYSDK_OFFSET(0x8F8A010)
 
-inline static constexpr unsigned int Class_1_08B5ACC5F83BB932_TypeDefinitionIndex = 45143;
+inline static constexpr unsigned int Class_1_08B5ACC5F83BB932_TypeDefinitionIndex = 51900;
 
 class Class_1_08B5ACC5F83BB932 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x1C
-	::RPG::GameCore::FixPoint Field_1_3; // 0x20
+	::RPG::GameCore::FixPoint Field_1_3; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::System::UInt32 Field_1_1; // 0x24
 
 	::System::Void _ctor()
 	{

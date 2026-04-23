@@ -7,18 +7,18 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Win { class OverseaPayDialog; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1610D950)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x161119C0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1748E640)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x174926B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayDialog___c__DisplayClass67_0_TypeDefinitionIndex = 8157;
+	inline static constexpr unsigned int OverseaPayDialog___c__DisplayClass67_0_TypeDefinitionIndex = 8303;
 
 	class OverseaPayDialog___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONObject* vendorsObject; // 0x10
-		::MiHoYo::SDK::JSONNode* info; // 0x18
+		::MiHoYo::SDK::JSONNode* info; // 0x10
+		::MiHoYo::SDK::JSONObject* vendorsObject; // 0x18
 		::MiHoYo::SDK::PayVendor vendor; // 0x20
 
 		::System::Void _ctor()

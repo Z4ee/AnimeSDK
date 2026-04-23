@@ -7,66 +7,66 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_3133E5682FCA6A92_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10BD1F70)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_3E95D3AC779A9A6B_OFFSET UNITYSDK_OFFSET(0x10BD21A0)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x10BD2140)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10BD1FD0)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_640514F2FC7A7607_OFFSET UNITYSDK_OFFSET(0x10BD22A0)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_70E6AB1A7EE0B6CE_OFFSET UNITYSDK_OFFSET(0x10BD2040)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_72574A69DA20C168_OFFSET UNITYSDK_OFFSET(0x10BD2BB0)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_7D54B6D10749FBD6_1_OFFSET UNITYSDK_OFFSET(0x10BD25D0)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_7D54B6D10749FBD6_OFFSET UNITYSDK_OFFSET(0x10BD23D0)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x10BD2B10)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x10BD2A70)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_D86DFC07B2B8E792_OFFSET UNITYSDK_OFFSET(0x10BD2A00)
-#define CLASS_1_3133E5682FCA6A92_METHOD_1_E64948774A50151F_OFFSET UNITYSDK_OFFSET(0x10BD27D0)
-#define CLASS_1_3133E5682FCA6A92__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BD2C20)
-#define CLASS_1_3133E5682FCA6A92__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD1A90)
+#define CLASS_1_3133E5682FCA6A92_DISPOSE_OFFSET UNITYSDK_OFFSET(0x990D610)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_3E95D3AC779A9A6B_OFFSET UNITYSDK_OFFSET(0x990D840)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x990D7E0)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x990D670)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_640514F2FC7A7607_OFFSET UNITYSDK_OFFSET(0x990D940)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_70E6AB1A7EE0B6CE_OFFSET UNITYSDK_OFFSET(0x990D6E0)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_72574A69DA20C168_OFFSET UNITYSDK_OFFSET(0x990E250)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_7D54B6D10749FBD6_1_OFFSET UNITYSDK_OFFSET(0x990DC70)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_7D54B6D10749FBD6_OFFSET UNITYSDK_OFFSET(0x990DA70)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x990E1B0)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x990E110)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_D86DFC07B2B8E792_OFFSET UNITYSDK_OFFSET(0x990E0A0)
+#define CLASS_1_3133E5682FCA6A92_METHOD_1_E64948774A50151F_OFFSET UNITYSDK_OFFSET(0x990DE70)
+#define CLASS_1_3133E5682FCA6A92__CCTOR_OFFSET UNITYSDK_OFFSET(0x990E2C0)
+#define CLASS_1_3133E5682FCA6A92__CTOR_OFFSET UNITYSDK_OFFSET(0x990D130)
 
-inline static constexpr unsigned int Class_1_3133E5682FCA6A92_TypeDefinitionIndex = 64434;
+inline static constexpr unsigned int Class_1_3133E5682FCA6A92_TypeDefinitionIndex = 72481;
 
 class Class_1_3133E5682FCA6A92 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_1()
+	static ::System::Int32* StaticGet_Field_1_5()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE100);
-	}
-	static ::System::Int32* StaticGet_Field_1_6()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE104);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x11880);
 	}
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE108);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x11884);
 	}
-	static ::System::Int32* StaticGet_Field_1_3()
+	static ::System::Int32* StaticGet_Field_1_6()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE10C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x11888);
 	}
-	static ::System::Int32* StaticGet_Field_1_4()
+	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE110);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x1188C);
 	}
 	static ::System::Int32* StaticGet_Field_1_7()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE114);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x11890);
+	}
+	static ::System::Int32* StaticGet_Field_1_4()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x11894);
+	}
+	static ::System::Int32* StaticGet_Field_1_3()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x11898);
 	}
 	static ::System::Int32* StaticGet_Field_1_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE118);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0x1189C);
 	}
-	static ::System::Int32* StaticGet_Field_1_5()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3133E5682FCA6A92_TypeDefinitionIndex)->GetStaticField(0xE11C);
-	}
-	::UnityEngine::GameObject* Field_1_8; // 0x10
-	::Il2CppArray<::UnityEngine::Transform*>* Field_1_11; // 0x18
+	::Il2CppArray<::UnityEngine::Animator*>* Field_1_10; // 0x10
+	::UnityEngine::Animator* Field_1_12; // 0x18
 	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_9; // 0x20
-	::UnityEngine::Animator* Field_1_12; // 0x28
-	::Il2CppArray<::UnityEngine::Animator*>* Field_1_10; // 0x30
-	::System::Boolean Field_1_14; // 0x38
-	::System::Int32 Field_1_13; // 0x3C
+	::Il2CppArray<::UnityEngine::Transform*>* Field_1_11; // 0x28
+	::UnityEngine::GameObject* Field_1_8; // 0x30
+	::System::Int32 Field_1_13; // 0x38
+	::System::Boolean Field_1_14; // 0x3C
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Int32 a2)
 	{

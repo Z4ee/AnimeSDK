@@ -8,7 +8,7 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_Struct_2_126A1A9085C0C7D8_TypeDefinitionIndex = 59568;
+	inline static constexpr unsigned int TextIcons_Struct_2_126A1A9085C0C7D8_TypeDefinitionIndex = 66963;
 
 	struct alignas(8) TextIcons_Struct_2_126A1A9085C0C7D8
 	{

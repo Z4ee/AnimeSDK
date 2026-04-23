@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GridLayoutGroup_Corner_TypeDefinitionIndex = 5636;
+	inline static constexpr unsigned int GridLayoutGroup_Corner_TypeDefinitionIndex = 5648;
 
 	enum class GridLayoutGroup_Corner : ::System::Int32
 	{

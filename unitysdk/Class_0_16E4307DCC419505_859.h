@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/UISkillIndex.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_3.h"
 
-class Class_0_16E4307DCC419505_855;
-class Class_1_9CAA42EF32347EE5_5;
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_859_TypeDefinitionIndex = 58945;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_859_TypeDefinitionIndex = 62791;
 
 class Class_0_16E4307DCC419505_859
 {

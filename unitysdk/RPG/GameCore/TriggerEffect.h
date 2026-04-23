@@ -10,16 +10,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class EffectModifyData; }
+namespace RPG::GameCore { class OverrideMonoEffectConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_7349B1777BF91C92_OFFSET UNITYSDK_OFFSET(0x178C2110)
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET UNITYSDK_OFFSET(0x178C2420)
-#define RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x178C23B0)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_7349B1777BF91C92_OFFSET UNITYSDK_OFFSET(0x190C07D0)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET UNITYSDK_OFFSET(0x190C0AE0)
+#define RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x190C0A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 18553;
+	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 19207;
 
 	class TriggerEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -45,33 +46,34 @@ namespace RPG::GameCore
 		::System::Boolean IsNeedFadeIn; // 0x98
 		::System::Boolean IsEnableReplay; // 0x99
 		::System::Boolean ForceSimulateImmediately; // 0x9A
-		::System::Boolean AddColliderHeightOffset; // 0x9B
-		::RPG::GameCore::DynamicFloat* PositionOffsetRatio; // 0xA0
-		::RPG::GameCore::DynamicFloat* PositionOffsetDeltaX; // 0xA8
-		::RPG::GameCore::DynamicFloat* PositionOffsetDeltaY; // 0xB0
-		::RPG::GameCore::DynamicFloat* PositionOffsetDeltaZ; // 0xB8
-		::RPG::GameCore::DynamicFloat* DynamicPitch; // 0xC0
-		::RPG::GameCore::DynamicFloat* DynamicYaw; // 0xC8
-		::RPG::GameCore::DynamicFloat* DynamicRoll; // 0xD0
-		::RPG::GameCore::EffectParamEntityUsage ParamEntityUsage; // 0xD8
-		::RPG::GameCore::TargetEvaluator* TowardTarget; // 0xE0
-		::System::String* TowardAttachPoint; // 0xE8
-		::System::Boolean TowardRotatePitchOnly; // 0xF0
-		::System::Single TowardMaxPitchAngle; // 0xF4
-		::Il2CppArray<::RPG::GameCore::EffectModifyData*>* SubObjectModifyDataList; // 0xF8
-		::System::Boolean IsAttachToCaster; // 0x100
-		::System::Boolean ExecuteOnSkip; // 0x101
-		::System::Single MinMutexTime; // 0x104
-		::RPG::GameCore::EffectMutexType MinMutexType; // 0x108
-		::System::UInt32 MaxMutexCount; // 0x10C
-		::System::Boolean IgnoreFadeOutMutexError; // 0x110
-		::System::Boolean SyncPropState; // 0x111
-		::System::String* InitEffectState; // 0x118
-		::System::Boolean FollowCasterTimeSlow; // 0x120
-		::RPG::GameCore::DynamicFloat* TimeScale; // 0x128
-		::System::String* AudioSwitchGroup; // 0x130
-		::System::String* AudioSwitchName; // 0x138
-		::System::Boolean ForbidLod; // 0x140
+		::RPG::GameCore::OverrideMonoEffectConfig* OverrideMonoEffectConfig; // 0xA0
+		::System::Boolean AddColliderHeightOffset; // 0xA8
+		::RPG::GameCore::DynamicFloat* PositionOffsetRatio; // 0xB0
+		::RPG::GameCore::DynamicFloat* PositionOffsetDeltaX; // 0xB8
+		::RPG::GameCore::DynamicFloat* PositionOffsetDeltaY; // 0xC0
+		::RPG::GameCore::DynamicFloat* PositionOffsetDeltaZ; // 0xC8
+		::RPG::GameCore::DynamicFloat* DynamicPitch; // 0xD0
+		::RPG::GameCore::DynamicFloat* DynamicYaw; // 0xD8
+		::RPG::GameCore::DynamicFloat* DynamicRoll; // 0xE0
+		::RPG::GameCore::EffectParamEntityUsage ParamEntityUsage; // 0xE8
+		::RPG::GameCore::TargetEvaluator* TowardTarget; // 0xF0
+		::System::String* TowardAttachPoint; // 0xF8
+		::System::Boolean TowardRotatePitchOnly; // 0x100
+		::System::Single TowardMaxPitchAngle; // 0x104
+		::Il2CppArray<::RPG::GameCore::EffectModifyData*>* SubObjectModifyDataList; // 0x108
+		::System::Boolean IsAttachToCaster; // 0x110
+		::System::Boolean ExecuteOnSkip; // 0x111
+		::System::Single MinMutexTime; // 0x114
+		::RPG::GameCore::EffectMutexType MinMutexType; // 0x118
+		::System::UInt32 MaxMutexCount; // 0x11C
+		::System::Boolean IgnoreFadeOutMutexError; // 0x120
+		::System::Boolean SyncPropState; // 0x121
+		::System::String* InitEffectState; // 0x128
+		::System::Boolean FollowCasterTimeSlow; // 0x130
+		::RPG::GameCore::DynamicFloat* TimeScale; // 0x138
+		::System::String* AudioSwitchGroup; // 0x140
+		::System::String* AudioSwitchName; // 0x148
+		::System::Boolean ForbidLod; // 0x150
 
 		::System::Void _ctor()
 		{

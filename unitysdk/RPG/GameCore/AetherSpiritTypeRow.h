@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERSPIRITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F6CED0)
-#define RPG_GAMECORE_AETHERSPIRITTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6D640)
+#define RPG_GAMECORE_AETHERSPIRITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1868F990)
+#define RPG_GAMECORE_AETHERSPIRITTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18690100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherSpiritTypeRow_TypeDefinitionIndex = 10256;
+	inline static constexpr unsigned int AetherSpiritTypeRow_TypeDefinitionIndex = 10481;
 
 	class AetherSpiritTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* SmallIconPath; // 0x10
-		::System::String* IconNatureForWeakActive; // 0x18
+		::System::String* Name; // 0x10
+		::System::String* Color; // 0x18
 		::System::String* UnfullColor; // 0x20
-		::System::String* Name; // 0x28
-		::System::String* SPInfoEffFront; // 0x30
-		::System::String* IconPath; // 0x38
-		::System::String* Color; // 0x40
+		::System::String* IconPath; // 0x28
+		::System::String* IconNatureForWeakActive; // 0x30
+		::System::String* SPInfoEffFront; // 0x38
+		::System::String* SmallIconPath; // 0x40
 		::RPG::GameCore::AetherSpiritType SpiritType; // 0x48
 
 		::System::Void _ctor()

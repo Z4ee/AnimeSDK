@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerCurveType_TypeDefinitionIndex = 31010;
+	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerCurveType_TypeDefinitionIndex = 36730;
 
 	enum class CriAtomExCategory_ReactDuckerCurveType : ::System::Int32
 	{

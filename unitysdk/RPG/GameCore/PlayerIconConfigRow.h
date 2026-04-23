@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174DC640)
-#define RPG_GAMECORE_PLAYERICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174DCD40)
+#define RPG_GAMECORE_PLAYERICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C26B10)
+#define RPG_GAMECORE_PLAYERICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C27210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerIconConfigRow_TypeDefinitionIndex = 13234;
+	inline static constexpr unsigned int PlayerIconConfigRow_TypeDefinitionIndex = 13696;
 
 	class PlayerIconConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Boolean IsVisible; // 0x1C
-		::System::UInt32 AvatarID; // 0x20
-		::System::UInt32 SortType; // 0x24
+		::System::UInt32 SortType; // 0x18
+		::System::UInt32 AvatarID; // 0x1C
+		::System::Boolean IsVisible; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

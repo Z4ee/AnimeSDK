@@ -3,7 +3,7 @@
 
 namespace RPG::AvatarSystem
 {
-	inline static constexpr unsigned int IPropertyModifierBuilder_1_TypeDefinitionIndex = 42020;
+	inline static constexpr unsigned int IPropertyModifierBuilder_1_TypeDefinitionIndex = 47993;
 
 	template <typename TValue>
 	class IPropertyModifierBuilder_1

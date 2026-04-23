@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLANETFESGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174BB190)
-#define RPG_GAMECORE_PLANETFESGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174BB380)
+#define RPG_GAMECORE_PLANETFESGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C067A0)
+#define RPG_GAMECORE_PLANETFESGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C06990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameRewardRow_TypeDefinitionIndex = 11178;
+	inline static constexpr unsigned int PlanetFesGameRewardRow_TypeDefinitionIndex = 11581;
 
 	class PlanetFesGameRewardRow : public ::System::Object
 	{

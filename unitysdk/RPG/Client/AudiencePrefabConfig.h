@@ -6,12 +6,12 @@ namespace RPG::Client { class AudiencePrefabSpecialTag; }
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define RPG_CLIENT_AUDIENCEPREFABCONFIG_GET_HASSPECIALNPCTAGS_OFFSET UNITYSDK_OFFSET(0x90EB370)
-#define RPG_CLIENT_AUDIENCEPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x90EFF20)
+#define RPG_CLIENT_AUDIENCEPREFABCONFIG_GET_HASSPECIALNPCTAGS_OFFSET UNITYSDK_OFFSET(0x9D4D0F0)
+#define RPG_CLIENT_AUDIENCEPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9D51C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudiencePrefabConfig_TypeDefinitionIndex = 56484;
+	inline static constexpr unsigned int AudiencePrefabConfig_TypeDefinitionIndex = 63728;
 
 	class AudiencePrefabConfig : public ::System::Object
 	{

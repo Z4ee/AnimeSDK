@@ -7,45 +7,45 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLESEALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173989A0)
-#define RPG_GAMECORE_MARBLESEALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173992F0)
+#define RPG_GAMECORE_MARBLESEALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AA6A00)
+#define RPG_GAMECORE_MARBLESEALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA7350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealRow_TypeDefinitionIndex = 10884;
+	inline static constexpr unsigned int MarbleSealRow_TypeDefinitionIndex = 11288;
 
 	class MarbleSealRow : public ::System::Object
 	{
 	public:
 		::System::String* PrefabPath; // 0x10
 		::System::String* SmallEnemyIconPath; // 0x18
-		::System::String* VoiceType; // 0x20
-		::System::String* EnemyIconPath; // 0x28
-		::Il2CppArray<::System::UInt32>* BuffIDList; // 0x30
-		::System::String* Name; // 0x38
-		::Il2CppArray<::System::UInt32>* CommonTalkIDList; // 0x40
-		::System::String* SmallIconPath; // 0x48
-		::System::String* Desc; // 0x50
-		::System::String* IconPath; // 0x58
-		::System::Int32 Hp; // 0x60
-		::System::Int32 Attack; // 0x64
-		::System::UInt32 ShopTalkID; // 0x68
-		::System::Single Size; // 0x6C
-		::RPG::Client::TextID UnlockHint; // 0x70
-		::System::UInt32 Price; // 0x80
-		::System::UInt32 VideoID; // 0x84
-		::System::UInt32 ID; // 0x88
-		::System::UInt32 ActionPriority; // 0x8C
-		::System::Boolean IsShow; // 0x90
-		::System::UInt32 AiStrategyID; // 0x94
+		::System::String* EnemyIconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* BuffIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* CommonTalkIDList; // 0x30
+		::System::String* Desc; // 0x38
+		::System::String* Name; // 0x40
+		::System::String* IconPath; // 0x48
+		::System::String* VoiceType; // 0x50
+		::System::String* SmallIconPath; // 0x58
+		::System::Single Size; // 0x60
+		::System::UInt32 ShopTalkID; // 0x64
+		::System::Boolean IsShow; // 0x68
+		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x6C
+		::System::Single Mass; // 0x70
+		::System::UInt32 VideoID; // 0x74
+		::System::UInt32 ID; // 0x78
+		::System::UInt32 ActivityID; // 0x7C
+		::System::Int32 Hp; // 0x80
+		::System::UInt32 Price; // 0x84
+		::System::UInt32 LevelUpPriority; // 0x88
+		::System::Single MaxSpeed; // 0x8C
+		::System::UInt32 AiStrategyID; // 0x90
+		::System::UInt32 ActionPriority; // 0x94
 		::System::UInt32 UnlockBuySubMissionID; // 0x98
-		::System::UInt32 UnlockSubMissionID; // 0x9C
-		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0xA0
-		::System::Single MaxSpeed; // 0xA4
-		::System::Single Mass; // 0xA8
-		::System::UInt32 UnlockShowSubMissionID; // 0xAC
-		::System::UInt32 ActivityID; // 0xB0
-		::System::UInt32 LevelUpPriority; // 0xB4
+		::System::Int32 Attack; // 0x9C
+		::System::UInt32 UnlockShowSubMissionID; // 0xA0
+		::System::UInt32 UnlockSubMissionID; // 0xA4
+		::RPG::Client::TextID UnlockHint; // 0xA8
 
 		::System::Void _ctor()
 		{

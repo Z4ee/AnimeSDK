@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_EExecutionOrder_TypeDefinitionIndex = 29208;
+	inline static constexpr unsigned int AvatarEffectInfo_EExecutionOrder_TypeDefinitionIndex = 34975;
 
 	enum class AvatarEffectInfo_EExecutionOrder : ::System::Int32
 	{

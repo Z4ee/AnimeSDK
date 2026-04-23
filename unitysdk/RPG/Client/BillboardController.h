@@ -9,11 +9,11 @@
 class Class_3_3CD00A1D2AD9A3A8;
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_BILLBOARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x91F2540)
+#define RPG_CLIENT_BILLBOARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9B650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 57981;
+	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 65268;
 
 	class BillboardController : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_3_3CD00A1D2AD9A3A8*>
 	{

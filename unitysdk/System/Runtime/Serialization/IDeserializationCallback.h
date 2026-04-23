@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int IDeserializationCallback_TypeDefinitionIndex = 1090;
+	inline static constexpr unsigned int IDeserializationCallback_TypeDefinitionIndex = 1092;
 
 	class IDeserializationCallback
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TOASTMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178A1D70)
-#define RPG_GAMECORE_TOASTMANAGERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178A2370)
+#define RPG_GAMECORE_TOASTMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1909EBA0)
+#define RPG_GAMECORE_TOASTMANAGERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1909F1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastManagerRow_TypeDefinitionIndex = 14029;
+	inline static constexpr unsigned int ToastManagerRow_TypeDefinitionIndex = 14504;
 
 	class ToastManagerRow : public ::System::Object
 	{

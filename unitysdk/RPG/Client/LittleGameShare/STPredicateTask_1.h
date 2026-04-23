@@ -6,7 +6,7 @@ class Class_1_8A3C2FE068793E61;
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int STPredicateTask_1_TypeDefinitionIndex = 28744;
+	inline static constexpr unsigned int STPredicateTask_1_TypeDefinitionIndex = 34469;
 
 	template <typename TConfig>
 	class STPredicateTask_1 : public ::Class_1_0597192E98B9E538

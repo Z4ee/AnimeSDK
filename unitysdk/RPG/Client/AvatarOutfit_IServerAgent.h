@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_6E708EAB438EC183_4;
+class Class_1_075C34D03AFA1215_7;
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfit_IServerAgent_TypeDefinitionIndex = 50793;
+	inline static constexpr unsigned int AvatarOutfit_IServerAgent_TypeDefinitionIndex = 57672;
 
 	class AvatarOutfit_IServerAgent
 	{

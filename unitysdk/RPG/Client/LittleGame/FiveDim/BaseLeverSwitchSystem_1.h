@@ -16,7 +16,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseLeverSwitchSystem_1_TypeDefinitionIndex = 62794;
+	inline static constexpr unsigned int BaseLeverSwitchSystem_1_TypeDefinitionIndex = 70831;
 
 	template <typename T>
 	class BaseLeverSwitchSystem_1 : public ::System::Object

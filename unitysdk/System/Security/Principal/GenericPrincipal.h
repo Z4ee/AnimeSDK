@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Security::Principal { class IIdentity; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICPRINCIPAL__CTOR_OFFSET UNITYSDK_OFFSET(0x161EA1F0)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICPRINCIPAL__CTOR_OFFSET UNITYSDK_OFFSET(0x17816C80)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int GenericPrincipal_TypeDefinitionIndex = 976;
+	inline static constexpr unsigned int GenericPrincipal_TypeDefinitionIndex = 978;
 
 	class GenericPrincipal : public ::System::Security::Claims::ClaimsPrincipal
 	{
 	public:
-		::Il2CppArray<::System::String*>* m_roles; // 0x30
-		::System::Security::Principal::IIdentity* m_identity; // 0x38
+		::System::Security::Principal::IIdentity* m_identity; // 0x30
+		::Il2CppArray<::System::String*>* m_roles; // 0x38
 
 		::System::Void _ctor(::System::Security::Principal::IIdentity* identity, ::Il2CppArray<::System::String*>* roles)
 		{

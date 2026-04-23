@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_43BD383C98B4C0C5_170;
-class Class_1_C4FD36003027AC99;
-class Class_2_49CAB3DE74280C58;
-namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client { class IBookletView; }
+namespace RPG::GameCore::Booklet { class ElementConfig; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_987_TypeDefinitionIndex = 63041;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_987_TypeDefinitionIndex = 66742;
 
 class Class_0_16E4307DCC419505_987
 {

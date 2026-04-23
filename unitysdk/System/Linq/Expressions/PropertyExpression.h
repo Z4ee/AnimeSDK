@@ -7,13 +7,13 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GETMEMBER_OFFSET UNITYSDK_OFFSET(0x18505030)
-#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18505040)
-#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18502700)
+#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GETMEMBER_OFFSET UNITYSDK_OFFSET(0x19F3FEC0)
+#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19F3FED0)
+#define SYSTEM_LINQ_EXPRESSIONS_PROPERTYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F3D590)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int PropertyExpression_TypeDefinitionIndex = 3230;
+	inline static constexpr unsigned int PropertyExpression_TypeDefinitionIndex = 3232;
 
 	class PropertyExpression : public ::System::Linq::Expressions::MemberExpression
 	{

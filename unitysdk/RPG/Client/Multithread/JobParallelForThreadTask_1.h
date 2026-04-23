@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
-class Class_0_16E4307DCC419505_247;
+class Class_0_16E4307DCC419505_252;
 
 namespace RPG::Client::Multithread
 {
-	inline static constexpr unsigned int JobParallelForThreadTask_1_TypeDefinitionIndex = 33791;
+	inline static constexpr unsigned int JobParallelForThreadTask_1_TypeDefinitionIndex = 39592;
 
 	template <typename TaskData>
 	class JobParallelForThreadTask_1 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_247* _OwnerNode_k__BackingField; // 0x0
+		::Class_0_16E4307DCC419505_252* _OwnerNode_k__BackingField; // 0x0
 		::System::Boolean _LockScene; // 0x0
 		::System::Boolean _RunInMainThread; // 0x0
 		::System::Boolean _Enable; // 0x0

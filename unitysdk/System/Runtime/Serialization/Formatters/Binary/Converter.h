@@ -9,218 +9,218 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_CREATEPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x163D18D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x163D2260)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITARRAYTYPEA_OFFSET UNITYSDK_OFFSET(0x163D07F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITCODEA_OFFSET UNITYSDK_OFFSET(0x163D1F90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPEA_OFFSET UNITYSDK_OFFSET(0x163D1060)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPECODEA_OFFSET UNITYSDK_OFFSET(0x163D1C10)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITVALUEA_OFFSET UNITYSDK_OFFSET(0x163D1940)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x163CCBA0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISWRITEASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x163D07B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x163CDB00)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCODE_OFFSET UNITYSDK_OFFSET(0x163CD380)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCOMTYPE_OFFSET UNITYSDK_OFFSET(0x163CD8E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOPRIMITIVETYPEENUM_OFFSET UNITYSDK_OFFSET(0x163D06B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPECODE_OFFSET UNITYSDK_OFFSET(0x163D1E90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPE_OFFSET UNITYSDK_OFFSET(0x163CD9F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TYPELENGTH_OFFSET UNITYSDK_OFFSET(0x163D07D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x163D22E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_CREATEPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x179FE200)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x179FEB90)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITARRAYTYPEA_OFFSET UNITYSDK_OFFSET(0x179FD120)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITCODEA_OFFSET UNITYSDK_OFFSET(0x179FE8C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPEA_OFFSET UNITYSDK_OFFSET(0x179FD990)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITTYPECODEA_OFFSET UNITYSDK_OFFSET(0x179FE540)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_INITVALUEA_OFFSET UNITYSDK_OFFSET(0x179FE270)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x179F94F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_ISWRITEASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x179FD0E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x179FA440)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCODE_OFFSET UNITYSDK_OFFSET(0x179F9CC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOCOMTYPE_OFFSET UNITYSDK_OFFSET(0x179FA220)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOPRIMITIVETYPEENUM_OFFSET UNITYSDK_OFFSET(0x179FCFE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPECODE_OFFSET UNITYSDK_OFFSET(0x179FE7C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TOTYPE_OFFSET UNITYSDK_OFFSET(0x179FA330)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER_TYPELENGTH_OFFSET UNITYSDK_OFFSET(0x179FD100)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_CONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x179FEC10)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int Converter_TypeDefinitionIndex = 1155;
+	inline static constexpr unsigned int Converter_TypeDefinitionIndex = 1157;
 
 	class Converter : public ::System::Object
 	{
 	public:
-		static ::System::Type** StaticGet_typeofDecimalArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6F90);
-		}
-		static ::System::Type** StaticGet_typeofDoubleArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6F98);
-		}
-		static ::System::Type** StaticGet_typeofInt32Array()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FA0);
-		}
-		static ::System::Type** StaticGet_typeofDouble()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FA8);
-		}
-		static ::System::Type** StaticGet_typeofISerializable()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FB0);
-		}
-		static ::Il2CppArray<::System::Type*>** StaticGet_typeA()
-		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FB8);
-		}
-		static ::System::Type** StaticGet_typeofUInt64()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FC0);
-		}
-		static ::Il2CppArray<::System::Type*>** StaticGet_arrayTypeA()
-		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FC8);
-		}
-		static ::System::Type** StaticGet_typeofMarshalByRefObject()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FD0);
-		}
-		static ::System::Type** StaticGet_typeofSingleArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FD8);
-		}
-		static ::System::Type** StaticGet_typeofUInt32Array()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FE0);
-		}
-		static ::System::Type** StaticGet_typeofUInt16()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FE8);
-		}
-		static ::System::Type** StaticGet_typeofDateTime()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FF0);
-		}
-		static ::System::Type** StaticGet_typeofBoolean()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x6FF8);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_valueA()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7000);
-		}
-		static ::System::Type** StaticGet_typeofUInt16Array()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7008);
-		}
-		static ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>** StaticGet_codeA()
-		{
-			return (::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7010);
-		}
-		static ::System::Type** StaticGet_typeofInt16Array()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7018);
-		}
-		static ::System::Type** StaticGet_typeofByteArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7020);
-		}
 		static ::System::Type** StaticGet_typeofChar()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7028);
-		}
-		static ::System::Type** StaticGet_typeofInt16()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7030);
-		}
-		static ::System::Reflection::Assembly** StaticGet_urtAssembly()
-		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7038);
-		}
-		static ::System::Type** StaticGet_typeofBooleanArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7040);
-		}
-		static ::System::Type** StaticGet_typeofString()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7048);
-		}
-		static ::System::Type** StaticGet_typeofByte()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7050);
-		}
-		static ::System::Type** StaticGet_typeofStringArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7058);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8880);
 		}
 		static ::System::Type** StaticGet_typeofUInt32()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7060);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8888);
 		}
-		static ::System::Type** StaticGet_typeofDecimal()
+		static ::System::Type** StaticGet_typeofStringArray()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7068);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8890);
 		}
-		static ::System::Type** StaticGet_typeofInt64()
+		static ::System::Type** StaticGet_typeofUInt32Array()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7070);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8898);
 		}
-		static ::System::Type** StaticGet_typeofSByteArray()
+		static ::System::Type** StaticGet_typeofUInt16Array()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7078);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88A0);
 		}
-		static ::System::Type** StaticGet_typeofTimeSpan()
+		static ::Il2CppArray<::System::Type*>** StaticGet_typeA()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7080);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88A8);
 		}
-		static ::System::Type** StaticGet_typeofTypeArray()
+		static ::System::Type** StaticGet_typeofDoubleArray()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7088);
-		}
-		static ::System::Type** StaticGet_typeofSingle()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7090);
-		}
-		static ::System::Type** StaticGet_typeofSByte()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x7098);
-		}
-		static ::System::Type** StaticGet_typeofTimeSpanArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70A0);
-		}
-		static ::System::Type** StaticGet_typeofInt64Array()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70A8);
-		}
-		static ::System::Type** StaticGet_typeofCharArray()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70B0);
-		}
-		static ::Il2CppArray<::System::TypeCode>** StaticGet_typeCodeA()
-		{
-			return (::Il2CppArray<::System::TypeCode>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70B8);
-		}
-		static ::System::Type** StaticGet_typeofObject()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70C0);
-		}
-		static ::System::Type** StaticGet_typeofConverter()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70C8);
-		}
-		static ::System::Type** StaticGet_typeofSystemVoid()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70D0);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88B0);
 		}
 		static ::System::Type** StaticGet_typeofInt32()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70D8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88B8);
 		}
-		static ::System::Type** StaticGet_typeofDateTimeArray()
+		static ::System::Type** StaticGet_typeofDecimalArray()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70E0);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88C0);
 		}
-		static ::System::Type** StaticGet_typeofObjectArray()
+		static ::System::Type** StaticGet_typeofByteArray()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70E8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88C8);
+		}
+		static ::System::Type** StaticGet_typeofBooleanArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88D0);
+		}
+		static ::System::Type** StaticGet_typeofObject()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88D8);
+		}
+		static ::System::Type** StaticGet_typeofSingle()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88E0);
+		}
+		static ::System::Type** StaticGet_typeofSystemVoid()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88E8);
+		}
+		static ::System::Type** StaticGet_typeofInt64()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88F0);
 		}
 		static ::System::Type** StaticGet_typeofUInt64Array()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70F0);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x88F8);
+		}
+		static ::System::Type** StaticGet_typeofInt16()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8900);
+		}
+		static ::System::Type** StaticGet_typeofObjectArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8908);
+		}
+		static ::System::Type** StaticGet_typeofUInt16()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8910);
+		}
+		static ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>** StaticGet_codeA()
+		{
+			return (::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8918);
+		}
+		static ::Il2CppArray<::System::TypeCode>** StaticGet_typeCodeA()
+		{
+			return (::Il2CppArray<::System::TypeCode>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8920);
+		}
+		static ::System::Type** StaticGet_typeofConverter()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8928);
+		}
+		static ::Il2CppArray<::System::Type*>** StaticGet_arrayTypeA()
+		{
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8930);
+		}
+		static ::System::Type** StaticGet_typeofSingleArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8938);
+		}
+		static ::System::Type** StaticGet_typeofSByteArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8940);
+		}
+		static ::System::Type** StaticGet_typeofByte()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8948);
+		}
+		static ::System::Type** StaticGet_typeofDecimal()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8950);
+		}
+		static ::System::Type** StaticGet_typeofMarshalByRefObject()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8958);
+		}
+		static ::System::Reflection::Assembly** StaticGet_urtAssembly()
+		{
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8960);
+		}
+		static ::System::Type** StaticGet_typeofTimeSpanArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8968);
+		}
+		static ::System::Type** StaticGet_typeofDateTimeArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8970);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_valueA()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8978);
 		}
 		static ::System::String** StaticGet_urtAssemblyString()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x70F8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8980);
+		}
+		static ::System::Type** StaticGet_typeofTimeSpan()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8988);
+		}
+		static ::System::Type** StaticGet_typeofSByte()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8990);
+		}
+		static ::System::Type** StaticGet_typeofDateTime()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x8998);
+		}
+		static ::System::Type** StaticGet_typeofUInt64()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89A0);
+		}
+		static ::System::Type** StaticGet_typeofDouble()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89A8);
+		}
+		static ::System::Type** StaticGet_typeofString()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89B0);
+		}
+		static ::System::Type** StaticGet_typeofInt64Array()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89B8);
+		}
+		static ::System::Type** StaticGet_typeofISerializable()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89C0);
+		}
+		static ::System::Type** StaticGet_typeofInt32Array()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89C8);
+		}
+		static ::System::Type** StaticGet_typeofInt16Array()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89D0);
+		}
+		static ::System::Type** StaticGet_typeofTypeArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89D8);
+		}
+		static ::System::Type** StaticGet_typeofBoolean()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89E0);
+		}
+		static ::System::Type** StaticGet_typeofCharArray()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x89E8);
 		}
 		static ::System::Int32* StaticGet_primitiveTypeEnumLength()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x3EC0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Converter_TypeDefinitionIndex)->GetStaticField(0x3B40);
 		}
 
 		static ::System::Void _cctor()

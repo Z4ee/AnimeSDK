@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EFF610)
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFFA70)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18620820)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18620C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLocalLegendGroupConfigRow_TypeDefinitionIndex = 10879;
+	inline static constexpr unsigned int ActivityLocalLegendGroupConfigRow_TypeDefinitionIndex = 11283;
 
 	class ActivityLocalLegendGroupConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* GroupPicPath; // 0x10
-		::RPG::Client::TextID StageMechanismTitle; // 0x18
-		::RPG::Client::TextID GroupTitle; // 0x28
+		::RPG::Client::TextID ChallengeStrategy; // 0x18
+		::RPG::Client::TextID StageMechanismTitle; // 0x28
 		::RPG::Client::TextID TeamBuildTip; // 0x38
-		::RPG::Client::TextID StageMechanism; // 0x48
-		::System::UInt32 GroupID; // 0x58
-		::RPG::Client::TextID ChallengeStrategy; // 0x60
-		::System::UInt32 TutorialGuideID; // 0x70
-		::System::UInt32 ActivityModuleID; // 0x74
+		::System::UInt32 GroupID; // 0x48
+		::RPG::Client::TextID StageMechanism; // 0x50
+		::System::UInt32 ActivityModuleID; // 0x60
+		::System::UInt32 TutorialGuideID; // 0x64
+		::RPG::Client::TextID GroupTitle; // 0x68
 
 		::System::Void _ctor()
 		{

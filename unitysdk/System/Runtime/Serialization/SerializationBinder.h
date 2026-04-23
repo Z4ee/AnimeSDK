@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET UNITYSDK_OFFSET(0x163F2F60)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x163F2F70)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET UNITYSDK_OFFSET(0x17A1F690)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1F6A0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationBinder_TypeDefinitionIndex = 1115;
+	inline static constexpr unsigned int SerializationBinder_TypeDefinitionIndex = 1117;
 
 	class SerializationBinder : public ::System::Object
 	{

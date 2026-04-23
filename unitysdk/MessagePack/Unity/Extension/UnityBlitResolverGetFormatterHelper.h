@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x15D207B0)
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVERGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D208C0)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1731E1A0)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITRESOLVERGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1731E2B0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int UnityBlitResolverGetFormatterHelper_TypeDefinitionIndex = 9882;
+	inline static constexpr unsigned int UnityBlitResolverGetFormatterHelper_TypeDefinitionIndex = 10017;
 
 	class UnityBlitResolverGetFormatterHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_FormatterMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityBlitResolverGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0x810);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityBlitResolverGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0xC80);
 		}
 
 		static ::System::Void _cctor()

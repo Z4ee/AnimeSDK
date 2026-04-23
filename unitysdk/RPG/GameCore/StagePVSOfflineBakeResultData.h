@@ -8,12 +8,12 @@ namespace RPG::GameCore { class StagePVSOfflineSceneItemInfo; }
 namespace RPG::GameCore { class StagePVSOfflineVolumeResult; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEPVSOFFLINEBAKERESULTDATA_METHOD_2_56A97837D92530BA_OFFSET UNITYSDK_OFFSET(0x17769950)
-#define RPG_GAMECORE_STAGEPVSOFFLINEBAKERESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17769BE0)
+#define RPG_GAMECORE_STAGEPVSOFFLINEBAKERESULTDATA_METHOD_2_56A97837D92530BA_OFFSET UNITYSDK_OFFSET(0x18E8F4E0)
+#define RPG_GAMECORE_STAGEPVSOFFLINEBAKERESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8F770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSOfflineBakeResultData_TypeDefinitionIndex = 17597;
+	inline static constexpr unsigned int StagePVSOfflineBakeResultData_TypeDefinitionIndex = 18210;
 
 	class StagePVSOfflineBakeResultData : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::RTCAudio { class GetAudioInputDevicesCountOption
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_RTCAUDIO_GETAUDIOINPUTDEVICESCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_RTCAUDIO_GETAUDIOINPUTDEVICESCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6CBD0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_GETAUDIOINPUTDEVICESCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6D600)
 #define EPIC_ONLINESERVICES_RTCAUDIO_GETAUDIOINPUTDEVICESCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int GetAudioInputDevicesCountOptionsInternal_TypeDefinitionIndex = 35622;
+	inline static constexpr unsigned int GetAudioInputDevicesCountOptionsInternal_TypeDefinitionIndex = 41448;
 
 	struct alignas(4) GetAudioInputDevicesCountOptionsInternal
 	{

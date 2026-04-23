@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_OUYALINUXUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15CABA50)
-#define INCONTROL_UNITYDEVICEPROFILES_OUYALINUXUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CACF50)
+#define INCONTROL_UNITYDEVICEPROFILES_OUYALINUXUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x172A9430)
+#define INCONTROL_UNITYDEVICEPROFILES_OUYALINUXUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x172AA930)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int OuyaLinuxUnityProfile_TypeDefinitionIndex = 31586;
+	inline static constexpr unsigned int OuyaLinuxUnityProfile_TypeDefinitionIndex = 37306;
 
 	class OuyaLinuxUnityProfile : public ::InControl::InputDeviceProfile
 	{

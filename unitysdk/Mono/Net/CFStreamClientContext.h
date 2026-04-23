@@ -4,7 +4,7 @@
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFStreamClientContext_TypeDefinitionIndex = 2397;
+	inline static constexpr unsigned int CFStreamClientContext_TypeDefinitionIndex = 2398;
 
 	struct alignas(8) CFStreamClientContext
 	{

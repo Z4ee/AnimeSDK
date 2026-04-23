@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillTreePointTriggerKey_TypeDefinitionIndex = 11608;
+	inline static constexpr unsigned int AvatarSkillTreePointTriggerKey_TypeDefinitionIndex = 10206;
 
 	enum class AvatarSkillTreePointTriggerKey : ::System::Int32
 	{

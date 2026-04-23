@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int GetAchievementDefinitionCountOptionsInternal_TypeDefinitionIndex = 36782;
+	inline static constexpr unsigned int GetAchievementDefinitionCountOptionsInternal_TypeDefinitionIndex = 42608;
 
 	struct alignas(4) GetAchievementDefinitionCountOptionsInternal
 	{

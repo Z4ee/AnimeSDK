@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int EventTriggerType_TypeDefinitionIndex = 5800;
+	inline static constexpr unsigned int EventTriggerType_TypeDefinitionIndex = 5812;
 
 	enum class EventTriggerType : ::System::Int32
 	{

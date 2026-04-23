@@ -3,18 +3,18 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_INTERNAL_DATETIMECONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D46F60)
+#define MESSAGEPACK_INTERNAL_DATETIMECONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17344920)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DateTimeConstants_TypeDefinitionIndex = 9143;
+	inline static constexpr unsigned int DateTimeConstants_TypeDefinitionIndex = 9340;
 
 	class DateTimeConstants : public ::System::Object
 	{
 	public:
 		static ::System::DateTime* StaticGet_UnixEpoch()
 		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(DateTimeConstants_TypeDefinitionIndex)->GetStaticField(0x8D10);
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(DateTimeConstants_TypeDefinitionIndex)->GetStaticField(0xEE60);
 		}
 
 		static ::System::Void _cctor()

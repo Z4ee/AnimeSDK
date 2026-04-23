@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int CodegenOptions_TypeDefinitionIndex = 3705;
+	inline static constexpr unsigned int CodegenOptions_TypeDefinitionIndex = 3707;
 
 	enum class CodegenOptions : ::System::Int32
 	{

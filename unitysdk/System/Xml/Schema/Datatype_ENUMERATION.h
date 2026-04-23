@@ -3,12 +3,12 @@
 #include "unitysdk/System/Xml/Schema/Datatype_NMTOKEN.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x18582C80)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1857F600)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x19FBD9C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ENUMERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBA340)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_ENUMERATION_TypeDefinitionIndex = 2137;
+	inline static constexpr unsigned int Datatype_ENUMERATION_TypeDefinitionIndex = 2138;
 
 	class Datatype_ENUMERATION : public ::System::Xml::Schema::Datatype_NMTOKEN
 	{

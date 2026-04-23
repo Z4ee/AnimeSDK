@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_4770AAB4DD7D317C_1_METHOD_1_1FA67F2466ED59EC_OFFSET UNITYSDK_OFFSET(0x16BB4410)
-#define CLASS_1_4770AAB4DD7D317C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16BB4660)
+#define CLASS_1_4770AAB4DD7D317C_1_METHOD_1_1FA67F2466ED59EC_OFFSET UNITYSDK_OFFSET(0x1843D400)
+#define CLASS_1_4770AAB4DD7D317C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1843D650)
 
-inline static constexpr unsigned int Class_1_4770AAB4DD7D317C_1_TypeDefinitionIndex = 10872;
+inline static constexpr unsigned int Class_1_4770AAB4DD7D317C_1_TypeDefinitionIndex = 11117;
 
 class Class_1_4770AAB4DD7D317C_1 : public ::System::Object
 {
 public:
-	::RPG::Client::TextID Field_1_3; // 0x10
-	::System::UInt32 Field_1_0; // 0x20
-	::System::UInt32 Field_1_1; // 0x24
-	::RPG::Client::TextID Field_1_2; // 0x28
+	::RPG::Client::TextID Field_1_2; // 0x10
+	::RPG::Client::TextID Field_1_3; // 0x20
+	::System::UInt32 Field_1_1; // 0x30
+	::System::UInt32 Field_1_0; // 0x34
 
 	::System::Void _ctor()
 	{

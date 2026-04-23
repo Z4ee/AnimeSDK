@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioSettings_SpeakerModeType_TypeDefinitionIndex = 48007;
+	inline static constexpr unsigned int AudioSettings_SpeakerModeType_TypeDefinitionIndex = 54752;
 
 	enum class AudioSettings_SpeakerModeType : ::System::Int32
 	{

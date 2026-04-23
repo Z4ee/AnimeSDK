@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_A30FF5617493A78A_METHOD_3_2166CB70112347ED_OFFSET UNITYSDK_OFFSET(0x16E7BB30)
-#define CLASS_3_A30FF5617493A78A_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x16E7BBC0)
-#define CLASS_3_A30FF5617493A78A__CTOR_OFFSET UNITYSDK_OFFSET(0x16E7BB90)
+#define CLASS_3_A30FF5617493A78A_METHOD_3_2166CB70112347ED_OFFSET UNITYSDK_OFFSET(0x1852EBD0)
+#define CLASS_3_A30FF5617493A78A_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x1852EC60)
+#define CLASS_3_A30FF5617493A78A__CTOR_OFFSET UNITYSDK_OFFSET(0x1852EC30)
 
-inline static constexpr unsigned int Class_3_A30FF5617493A78A_TypeDefinitionIndex = 20790;
+inline static constexpr unsigned int Class_3_A30FF5617493A78A_TypeDefinitionIndex = 21492;
 
 class Class_3_A30FF5617493A78A : public ::RPG::GameCore::TaskConfig
 {
 public:
 	::RPG::GameCore::DynamicFloat* Field_3_2; // 0x18
-	::RPG::GameCore::TeamType Field_3_0; // 0x20
-	::RPG::GameCore::PropertyModifyFunction Field_3_1; // 0x24
+	::RPG::GameCore::PropertyModifyFunction Field_3_1; // 0x20
+	::RPG::GameCore::TeamType Field_3_0; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -19,7 +19,7 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventH
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
-inline static constexpr unsigned int Class_1_38F81D6A5D792EE0_TypeDefinitionIndex = 34003;
+inline static constexpr unsigned int Class_1_38F81D6A5D792EE0_TypeDefinitionIndex = 39812;
 
 template <typename TKey, typename TValue>
 class Class_1_38F81D6A5D792EE0 : public ::System::Object

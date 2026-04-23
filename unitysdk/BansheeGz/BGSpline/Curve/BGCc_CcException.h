@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCC_CCEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x165724E0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCC_CCEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17B9D200)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCc_CcException_TypeDefinitionIndex = 28161;
+	inline static constexpr unsigned int BGCc_CcException_TypeDefinitionIndex = 33785;
 
 	class BGCc_CcException : public ::System::Exception
 	{

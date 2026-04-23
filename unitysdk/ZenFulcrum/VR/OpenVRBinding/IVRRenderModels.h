@@ -23,7 +23,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__RenderModelHasC
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels_TypeDefinitionIndex = 30182;
+	inline static constexpr unsigned int IVRRenderModels_TypeDefinitionIndex = 35902;
 
 	struct alignas(8) IVRRenderModels
 	{

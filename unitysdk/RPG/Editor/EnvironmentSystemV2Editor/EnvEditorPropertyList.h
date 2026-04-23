@@ -5,11 +5,11 @@
 namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorSingleProperty; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORPROPERTYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C3640)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORPROPERTYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xB506760)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorPropertyList_TypeDefinitionIndex = 42102;
+	inline static constexpr unsigned int EnvEditorPropertyList_TypeDefinitionIndex = 48075;
 
 	class EnvEditorPropertyList : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{

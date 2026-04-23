@@ -12,32 +12,32 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_CLOSURESIZE_OFFSET UNITYSDK_OFFSET(0x184BF140)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_CLOSUREVARIABLES_OFFSET UNITYSDK_OFFSET(0x184D2A70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_INSTRUCTIONS_OFFSET UNITYSDK_OFFSET(0x184D2A50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_LOCALCOUNT_OFFSET UNITYSDK_OFFSET(0x184D2A40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x184D2A30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_RUN_OFFSET UNITYSDK_OFFSET(0x184D2A80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER__CCTOR_OFFSET UNITYSDK_OFFSET(0x184D2B10)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER__CTOR_OFFSET UNITYSDK_OFFSET(0x184D29D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_CLOSURESIZE_OFFSET UNITYSDK_OFFSET(0x19EFA010)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_CLOSUREVARIABLES_OFFSET UNITYSDK_OFFSET(0x19F0D940)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_INSTRUCTIONS_OFFSET UNITYSDK_OFFSET(0x19F0D920)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_LOCALCOUNT_OFFSET UNITYSDK_OFFSET(0x19F0D910)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19F0D900)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER_RUN_OFFSET UNITYSDK_OFFSET(0x19F0D950)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F0D9E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0D8A0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int Interpreter_TypeDefinitionIndex = 3423;
+	inline static constexpr unsigned int Interpreter_TypeDefinitionIndex = 3425;
 
 	class Interpreter : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_NoValue()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Interpreter_TypeDefinitionIndex)->GetStaticField(0xF770);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Interpreter_TypeDefinitionIndex)->GetStaticField(0x12A30);
 		}
 		::System::Linq::Expressions::Interpreter::InstructionArray _instructions; // 0x10
-		::Il2CppArray<::System::Object*>* _objects; // 0x38
-		::System::String* _Name_k__BackingField; // 0x40
-		::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>* _labels; // 0x48
+		::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>* _debugInfos; // 0x38
+		::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>* _labels; // 0x40
+		::Il2CppArray<::System::Object*>* _objects; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _ClosureVariables_k__BackingField; // 0x50
-		::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>* _debugInfos; // 0x58
+		::System::String* _Name_k__BackingField; // 0x58
 		::System::Int32 _LocalCount_k__BackingField; // 0x60
 
 		::System::Void _ctor(::System::String* name, ::System::Linq::Expressions::Interpreter::LocalVariables* locals, ::System::Linq::Expressions::Interpreter::InstructionArray instructions, ::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>* debugInfos)

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ENVSOLARDEBUGOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9605BC0)
+#define RPG_CLIENT_ENVSOLARDEBUGOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA28CA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvSolarDebugObject_TypeDefinitionIndex = 57071;
+	inline static constexpr unsigned int EnvSolarDebugObject_TypeDefinitionIndex = 64322;
 
 	class EnvSolarDebugObject : public ::UnityEngine::MonoBehaviour
 	{

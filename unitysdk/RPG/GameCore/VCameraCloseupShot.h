@@ -4,16 +4,17 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class CloseupShotProcedureConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERACLOSEUPSHOT_METHOD_2_4B84341E2BD7FF59_OFFSET UNITYSDK_OFFSET(0x178E9640)
-#define RPG_GAMECORE_VCAMERACLOSEUPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x178E9D90)
+#define RPG_GAMECORE_VCAMERACLOSEUPSHOT_METHOD_2_4B84341E2BD7FF59_OFFSET UNITYSDK_OFFSET(0x190E7E60)
+#define RPG_GAMECORE_VCAMERACLOSEUPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x190E85E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraCloseupShot_TypeDefinitionIndex = 15023;
+	inline static constexpr unsigned int VCameraCloseupShot_TypeDefinitionIndex = 15531;
 
 	class VCameraCloseupShot : public ::RPG::GameCore::JsonConfig
 	{
@@ -37,6 +38,7 @@ namespace RPG::GameCore
 		::System::Single StageRootOffset; // 0x88
 		::System::Boolean KeepLastFrame; // 0x8C
 		::System::Boolean HideMonsterEffect; // 0x8D
+		::RPG::GameCore::CloseupShotProcedureConfig* ProcedureConfig; // 0x90
 
 		::System::Void _ctor()
 		{

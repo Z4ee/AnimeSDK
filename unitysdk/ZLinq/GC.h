@@ -4,7 +4,7 @@
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int GC_TypeDefinitionIndex = 6469;
+	inline static constexpr unsigned int GC_TypeDefinitionIndex = 6502;
 
 	class GC : public ::System::Object
 	{

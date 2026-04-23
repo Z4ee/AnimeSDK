@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class CharacterHeadConstraint; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB38280)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8ACE40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterLookAtData_TypeDefinitionIndex = 38829;
+	inline static constexpr unsigned int CharacterLookAtData_TypeDefinitionIndex = 44732;
 
 	class CharacterLookAtData : public ::System::Object
 	{

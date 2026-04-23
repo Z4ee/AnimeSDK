@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByContainMonsterOnWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B434F7267B766B82_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1103CC30)
-#define CLASS_3_B434F7267B766B82__CTOR_OFFSET UNITYSDK_OFFSET(0x1103CC00)
+#define CLASS_3_B434F7267B766B82_EVALUATE_OFFSET UNITYSDK_OFFSET(0x99AB120)
+#define CLASS_3_B434F7267B766B82__CTOR_OFFSET UNITYSDK_OFFSET(0x99AB0F0)
 
-inline static constexpr unsigned int Class_3_B434F7267B766B82_TypeDefinitionIndex = 43670;
+inline static constexpr unsigned int Class_3_B434F7267B766B82_TypeDefinitionIndex = 50368;
 
 class Class_3_B434F7267B766B82 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByContainMonsterOnWave*>
 {

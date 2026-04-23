@@ -33,7 +33,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogEventParamPairParamValueInternal_TypeDefinitionIndex = 36649;
+	inline static constexpr unsigned int LogEventParamPairParamValueInternal_TypeDefinitionIndex = 42475;
 
 	struct alignas(8) LogEventParamPairParamValueInternal
 	{

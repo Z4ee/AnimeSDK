@@ -14,39 +14,39 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_2676091ED3B32FBB_OFFSET UNITYSDK_OFFSET(0x11654EB0)
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x116547A0)
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_53BE96F98780AE85_OFFSET UNITYSDK_OFFSET(0x11654D90)
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_AE91585BB97FBA03_OFFSET UNITYSDK_OFFSET(0x11654840)
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_B679E9E5B94C6DE8_OFFSET UNITYSDK_OFFSET(0x11654FE0)
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_CC220716308E7D40_OFFSET UNITYSDK_OFFSET(0x11654AF0)
-#define CLASS_1_BCECFCD0C8771868_METHOD_1_EAEE1A6C5BF7DB7F_OFFSET UNITYSDK_OFFSET(0x11654930)
-#define CLASS_1_BCECFCD0C8771868__CTOR_OFFSET UNITYSDK_OFFSET(0x11653CC0)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_2676091ED3B32FBB_OFFSET UNITYSDK_OFFSET(0xBABE7C0)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xBABE0B0)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_53BE96F98780AE85_OFFSET UNITYSDK_OFFSET(0xBABE6A0)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_AE91585BB97FBA03_OFFSET UNITYSDK_OFFSET(0xBABE150)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_B679E9E5B94C6DE8_OFFSET UNITYSDK_OFFSET(0xBABE8F0)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_CC220716308E7D40_OFFSET UNITYSDK_OFFSET(0xBABE400)
+#define CLASS_1_BCECFCD0C8771868_METHOD_1_EAEE1A6C5BF7DB7F_OFFSET UNITYSDK_OFFSET(0xBABE240)
+#define CLASS_1_BCECFCD0C8771868__CTOR_OFFSET UNITYSDK_OFFSET(0xBABD5D0)
 
-inline static constexpr unsigned int Class_1_BCECFCD0C8771868_TypeDefinitionIndex = 60284;
+inline static constexpr unsigned int Class_1_BCECFCD0C8771868_TypeDefinitionIndex = 67702;
 
 class Class_1_BCECFCD0C8771868 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_12()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BCECFCD0C8771868_TypeDefinitionIndex)->GetStaticField(0x12610);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BCECFCD0C8771868_TypeDefinitionIndex)->GetStaticField(0x119D0);
 	}
-	::Class_1_A1F865886D423EEE* Field_1_11; // 0x10
-	::Class_1_A1F865886D423EEE* Field_1_10; // 0x18
+	::Class_1_A1F865886D423EEE* Field_1_5; // 0x10
+	::Class_1_A1F865886D423EEE* Field_1_6; // 0x18
 	::RPG::Client::MonoEmoPlayableGraph* Field_1_13; // 0x20
-	::Class_1_A1F865886D423EEE* Field_1_6; // 0x28
-	::Class_1_A1F865886D423EEE* Field_1_5; // 0x30
-	::UnityEngine::Animations::AnimationLayerMixerPlayable Field_1_1; // 0x38
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_2; // 0x48
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_8; // 0x58
-	::System::Boolean Field_1_15; // 0x68
-	::System::Boolean Field_1_14; // 0x69
-	::RPG::Client::Emotion::EmoPartType Field_1_0; // 0x6C
-	::UnityEngine::Animations::AnimationClipPlayable Field_1_4; // 0x70
+	::Class_1_A1F865886D423EEE* Field_1_10; // 0x28
+	::Class_1_A1F865886D423EEE* Field_1_11; // 0x30
+	::System::Boolean Field_1_15; // 0x38
+	::System::Boolean Field_1_14; // 0x39
+	::RPG::Client::Emotion::EmoPartType Field_1_0; // 0x3C
+	::UnityEngine::Animations::AnimationMixerPlayable Field_1_8; // 0x40
+	::UnityEngine::Animations::AnimationLayerMixerPlayable Field_1_1; // 0x50
+	::UnityEngine::Animations::AnimationClipPlayable Field_1_4; // 0x60
+	::UnityEngine::Animations::AnimationMixerPlayable Field_1_7; // 0x70
 	::UnityEngine::Animations::AnimationClipPlayable Field_1_9; // 0x80
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_3; // 0x90
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_7; // 0xA0
+	::UnityEngine::Animations::AnimationMixerPlayable Field_1_2; // 0x90
+	::UnityEngine::Animations::AnimationMixerPlayable Field_1_3; // 0xA0
 
 	::System::Void _ctor(::UnityEngine::Playables::PlayableGraph& a1, ::RPG::Client::Emotion::EmoPartType a2, ::RPG::Client::MonoEmoPlayableGraph* a3, ::UnityEngine::AvatarMask* a4, ::UnityEngine::AnimationClip* a5)
 	{

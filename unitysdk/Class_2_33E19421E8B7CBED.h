@@ -9,29 +9,29 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_2_33E19421E8B7CBED_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1166E7A0)
-#define CLASS_2_33E19421E8B7CBED_METHOD_2_68412A7C5C00CA62_OFFSET UNITYSDK_OFFSET(0x1166E820)
-#define CLASS_2_33E19421E8B7CBED_METHOD_2_AA357C2E4B6A63F8_OFFSET UNITYSDK_OFFSET(0x1166EDC0)
-#define CLASS_2_33E19421E8B7CBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1166D920)
-#define CLASS_2_33E19421E8B7CBED_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1166DDD0)
-#define CLASS_2_33E19421E8B7CBED_TICK_OFFSET UNITYSDK_OFFSET(0x1166E740)
-#define CLASS_2_33E19421E8B7CBED__CCTOR_OFFSET UNITYSDK_OFFSET(0x1166F190)
-#define CLASS_2_33E19421E8B7CBED__CTOR_OFFSET UNITYSDK_OFFSET(0x1166D890)
+#define CLASS_2_33E19421E8B7CBED_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9597FF0)
+#define CLASS_2_33E19421E8B7CBED_METHOD_2_68412A7C5C00CA62_OFFSET UNITYSDK_OFFSET(0x9598070)
+#define CLASS_2_33E19421E8B7CBED_METHOD_2_AA357C2E4B6A63F8_OFFSET UNITYSDK_OFFSET(0x9598600)
+#define CLASS_2_33E19421E8B7CBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9597170)
+#define CLASS_2_33E19421E8B7CBED_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9597620)
+#define CLASS_2_33E19421E8B7CBED_TICK_OFFSET UNITYSDK_OFFSET(0x9597F90)
+#define CLASS_2_33E19421E8B7CBED__CCTOR_OFFSET UNITYSDK_OFFSET(0x95989D0)
+#define CLASS_2_33E19421E8B7CBED__CTOR_OFFSET UNITYSDK_OFFSET(0x95970E0)
 
-inline static constexpr unsigned int Class_2_33E19421E8B7CBED_TypeDefinitionIndex = 42509;
+inline static constexpr unsigned int Class_2_33E19421E8B7CBED_TypeDefinitionIndex = 48470;
 
 class Class_2_33E19421E8B7CBED : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_Field_2_6()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_33E19421E8B7CBED_TypeDefinitionIndex)->GetStaticField(0x46D60);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_33E19421E8B7CBED_TypeDefinitionIndex)->GetStaticField(0x5E5B0);
 	}
-	::RPG::GameCore::GameEntityList* Field_2_2; // 0x18
+	::RPG::GameCore::GameEntityList* Field_2_3; // 0x18
 	::System::Collections::Generic::List_1<::UnityEngine::Collider*>* Field_2_5; // 0x20
 	::RPG::GameCore::AdvSetIgnoreCollision* Field_2_1; // 0x28
-	::RPG::GameCore::GameEntityList* Field_2_3; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x38
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
+	::RPG::GameCore::GameEntityList* Field_2_2; // 0x38
 	::System::Collections::Generic::List_1<::UnityEngine::Collider*>* Field_2_4; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvSetIgnoreCollision* a2)

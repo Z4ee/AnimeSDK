@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingGameBoy
 {
-	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingType_TypeDefinitionIndex = 61516;
+	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingType_TypeDefinitionIndex = 69023;
 
 	enum class ChenLingGameBoyPlayerRankingType : ::System::Int32
 	{

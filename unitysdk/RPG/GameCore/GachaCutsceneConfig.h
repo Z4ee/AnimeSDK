@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GachaTimelineConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHACUTSCENECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17226B90)
-#define RPG_GAMECORE_GACHACUTSCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17226D30)
+#define RPG_GAMECORE_GACHACUTSCENECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18939320)
+#define RPG_GAMECORE_GACHACUTSCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189394C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaCutsceneConfig_TypeDefinitionIndex = 15661;
+	inline static constexpr unsigned int GachaCutsceneConfig_TypeDefinitionIndex = 16183;
 
 	class GachaCutsceneConfig : public ::RPG::GameCore::JsonConfig
 	{

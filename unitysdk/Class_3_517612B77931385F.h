@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_517612B77931385F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117ACC00)
-#define CLASS_3_517612B77931385F__CTOR_OFFSET UNITYSDK_OFFSET(0x117ACBD0)
+#define CLASS_3_517612B77931385F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11C1A9F0)
+#define CLASS_3_517612B77931385F__CTOR_OFFSET UNITYSDK_OFFSET(0x11C1A9C0)
 
-inline static constexpr unsigned int Class_3_517612B77931385F_TypeDefinitionIndex = 43863;
+inline static constexpr unsigned int Class_3_517612B77931385F_TypeDefinitionIndex = 50563;
 
 class Class_3_517612B77931385F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearActionCountDown*>
 {

@@ -3,7 +3,7 @@
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int UnicodeEncodingConformance_TypeDefinitionIndex = 2966;
+	inline static constexpr unsigned int UnicodeEncodingConformance_TypeDefinitionIndex = 2967;
 
 	enum class UnicodeEncodingConformance : ::System::Int32
 	{

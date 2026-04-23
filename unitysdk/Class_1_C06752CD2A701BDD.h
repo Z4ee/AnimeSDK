@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_C06752CD2A701BDD_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xA1B7350)
-#define CLASS_1_C06752CD2A701BDD_METHOD_1_559829BCC0084476_OFFSET UNITYSDK_OFFSET(0xA1B6ED0)
-#define CLASS_1_C06752CD2A701BDD__CTOR_OFFSET UNITYSDK_OFFSET(0xA1B6E50)
+#define CLASS_1_C06752CD2A701BDD_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x129157F0)
+#define CLASS_1_C06752CD2A701BDD_METHOD_1_559829BCC0084476_OFFSET UNITYSDK_OFFSET(0x12915370)
+#define CLASS_1_C06752CD2A701BDD__CTOR_OFFSET UNITYSDK_OFFSET(0x129152F0)
 
-inline static constexpr unsigned int Class_1_C06752CD2A701BDD_TypeDefinitionIndex = 50425;
+inline static constexpr unsigned int Class_1_C06752CD2A701BDD_TypeDefinitionIndex = 57284;
 
 class Class_1_C06752CD2A701BDD : public ::System::Object
 {

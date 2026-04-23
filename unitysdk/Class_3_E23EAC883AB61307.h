@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleUITop; }
 
-#define CLASS_3_E23EAC883AB61307_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BAAED0)
-#define CLASS_3_E23EAC883AB61307__CTOR_OFFSET UNITYSDK_OFFSET(0x10BAAEA0)
+#define CLASS_3_E23EAC883AB61307_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9302330)
+#define CLASS_3_E23EAC883AB61307__CTOR_OFFSET UNITYSDK_OFFSET(0x9302300)
 
-inline static constexpr unsigned int Class_3_E23EAC883AB61307_TypeDefinitionIndex = 38484;
+inline static constexpr unsigned int Class_3_E23EAC883AB61307_TypeDefinitionIndex = 44366;
 
 class Class_3_E23EAC883AB61307 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToggleUITop*>
 {

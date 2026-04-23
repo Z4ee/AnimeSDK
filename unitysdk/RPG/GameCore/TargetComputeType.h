@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetComputeType_TypeDefinitionIndex = 22172;
+	inline static constexpr unsigned int TargetComputeType_TypeDefinitionIndex = 22886;
 
 	enum class TargetComputeType : ::System::Int32
 	{

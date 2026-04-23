@@ -1,25 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/BoolEx.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_3_06CA57680E115A32_5;
+class Class_3_3006F55F8C27C19F;
+namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27518451A20BB161_99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC5E220)
-#define CLASS_3_27518451A20BB161_99__CTOR_OFFSET UNITYSDK_OFFSET(0xAC5E1F0)
+#define CLASS_3_27518451A20BB161_99_METHOD_3_4AD3C45D81B35B70_OFFSET UNITYSDK_OFFSET(0xA7AC3E0)
+#define CLASS_3_27518451A20BB161_99_METHOD_3_71436269021F921C_OFFSET UNITYSDK_OFFSET(0xA7AC2F0)
+#define CLASS_3_27518451A20BB161_99_METHOD_3_CD0979951400C3FD_OFFSET UNITYSDK_OFFSET(0xA7AC380)
+#define CLASS_3_27518451A20BB161_99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA7AB000)
+#define CLASS_3_27518451A20BB161_99__CTOR_OFFSET UNITYSDK_OFFSET(0xA7AAFD0)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_99_TypeDefinitionIndex = 47314;
+inline static constexpr unsigned int Class_3_27518451A20BB161_99_TypeDefinitionIndex = 49946;
 
-class Class_3_27518451A20BB161_99 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_06CA57680E115A32_5*>
+class Class_3_27518451A20BB161_99 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_3006F55F8C27C19F*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_06CA57680E115A32_5* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_3006F55F8C27C19F* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_06CA57680E115A32_5*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_99__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_3006F55F8C27C19F*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_99__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_99_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Nullable_1<::RPG::GameCore::FixPoint> Method_3_71436269021F921C(::RPG::GameCore::DynamicFloat* a1)
+	{
+		return ((::System::Nullable_1<::RPG::GameCore::FixPoint>(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_99_METHOD_3_71436269021F921C_OFFSET))(this, a1);
+	}
+
+	::System::Nullable_1<::System::Boolean> Method_3_CD0979951400C3FD(::RPG::GameCore::BoolEx a1)
+	{
+		return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_99_METHOD_3_CD0979951400C3FD_OFFSET))(this, a1);
+	}
+
+	::System::Nullable_1<::System::Int32> Method_3_4AD3C45D81B35B70(::System::Int32 a1)
+	{
+		return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_99_METHOD_3_4AD3C45D81B35B70_OFFSET))(this, a1);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PS5ActivityChangeAbilityMode_TypeDefinitionIndex = 7112;
+	inline static constexpr unsigned int PS5ActivityChangeAbilityMode_TypeDefinitionIndex = 7155;
 
 	enum class PS5ActivityChangeAbilityMode : ::System::Int32
 	{

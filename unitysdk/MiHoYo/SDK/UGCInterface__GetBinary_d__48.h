@@ -7,28 +7,28 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x85A4E10)
-#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x85A5050)
-#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x85A50B0)
-#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x85A5060)
-#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x85A4E00)
-#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48__CTOR_OFFSET UNITYSDK_OFFSET(0x85A2370)
+#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8DDAE00)
+#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8DDB040)
+#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8DDB0A0)
+#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x8DDB050)
+#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8DDADF0)
+#define MIHOYO_SDK_UGCINTERFACE__GETBINARY_D__48__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD8360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface__GetBinary_d__48_TypeDefinitionIndex = 37211;
+	inline static constexpr unsigned int UGCInterface__GetBinary_d__48_TypeDefinitionIndex = 43056;
 
 	class UGCInterface__GetBinary_d__48 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::System::String* strUrl; // 0x28
-		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* completeCallback; // 0x30
-		::System::Int32 __1__state; // 0x38
-		::System::Int32 nRetryCount; // 0x3C
-		::System::Single nTimeoutSeconds; // 0x40
+		::System::Action* timeoutCallback; // 0x18
+		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* completeCallback; // 0x20
+		::System::Object* __2__current; // 0x28
+		::System::String* strUrl; // 0x30
+		::System::Int32 nRetryCount; // 0x38
+		::System::Single nTimeoutSeconds; // 0x3C
+		::System::Int32 __1__state; // 0x40
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYCARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178A9670)
-#define RPG_GAMECORE_TRAINPARTYCARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178A9940)
+#define RPG_GAMECORE_TRAINPARTYCARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190A8360)
+#define RPG_GAMECORE_TRAINPARTYCARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190A8630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCardConfigRow_TypeDefinitionIndex = 14049;
+	inline static constexpr unsigned int TrainPartyCardConfigRow_TypeDefinitionIndex = 14524;
 
 	class TrainPartyCardConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* CardEffectJson; // 0x10
+		::System::String* CardActJson; // 0x10
 		::System::String* CardImage; // 0x18
-		::System::String* CardActJson; // 0x20
-		::System::UInt32 PassengerID; // 0x28
-		::System::UInt32 CardID; // 0x2C
-		::System::UInt32 Rarity; // 0x30
-		::RPG::Client::TextID CardName; // 0x38
+		::System::String* CardEffectJson; // 0x20
+		::RPG::Client::TextID CardName; // 0x28
+		::System::UInt32 PassengerID; // 0x38
+		::System::UInt32 Rarity; // 0x3C
+		::System::UInt32 CardID; // 0x40
 
 		::System::Void _ctor()
 		{

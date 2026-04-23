@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckActionDelayChanged; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CFA7F438868E7DF4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11930C90)
-#define CLASS_3_CFA7F438868E7DF4__CTOR_OFFSET UNITYSDK_OFFSET(0x11930C60)
+#define CLASS_3_CFA7F438868E7DF4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x982A130)
+#define CLASS_3_CFA7F438868E7DF4__CTOR_OFFSET UNITYSDK_OFFSET(0x982A100)
 
-inline static constexpr unsigned int Class_3_CFA7F438868E7DF4_TypeDefinitionIndex = 43571;
+inline static constexpr unsigned int Class_3_CFA7F438868E7DF4_TypeDefinitionIndex = 50268;
 
 class Class_3_CFA7F438868E7DF4 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckActionDelayChanged*>
 {

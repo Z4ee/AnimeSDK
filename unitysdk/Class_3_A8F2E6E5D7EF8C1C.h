@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchPartner; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_A8F2E6E5D7EF8C1C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8D466B0)
-#define CLASS_3_A8F2E6E5D7EF8C1C__CTOR_OFFSET UNITYSDK_OFFSET(0x8D46630)
+#define CLASS_3_A8F2E6E5D7EF8C1C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x98E4F20)
+#define CLASS_3_A8F2E6E5D7EF8C1C__CTOR_OFFSET UNITYSDK_OFFSET(0x98E4EA0)
 
-inline static constexpr unsigned int Class_3_A8F2E6E5D7EF8C1C_TypeDefinitionIndex = 47891;
+inline static constexpr unsigned int Class_3_A8F2E6E5D7EF8C1C_TypeDefinitionIndex = 54632;
 
 class Class_3_A8F2E6E5D7EF8C1C : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchPartner*>
 {

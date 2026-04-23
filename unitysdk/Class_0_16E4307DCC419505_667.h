@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-namespace Google::Protobuf { class ByteString; }
+class Class_0_16E4307DCC419505_663;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_667_TypeDefinitionIndex = 53933;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_667_TypeDefinitionIndex = 57712;
 
 class Class_0_16E4307DCC419505_667
 {

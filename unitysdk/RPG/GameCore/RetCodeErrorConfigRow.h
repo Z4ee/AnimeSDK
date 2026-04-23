@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RETCODEERRORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175AC140)
-#define RPG_GAMECORE_RETCODEERRORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175AC7D0)
+#define RPG_GAMECORE_RETCODEERRORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18CB7E70)
+#define RPG_GAMECORE_RETCODEERRORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CB8490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 13382;
+	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 13856;
 
 	class RetCodeErrorConfigRow : public ::System::Object
 	{

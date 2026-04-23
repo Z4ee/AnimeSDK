@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventCreateType_TypeDefinitionIndex = 45770;
+	inline static constexpr unsigned int BattleEventCreateType_TypeDefinitionIndex = 52425;
 
 	enum class BattleEventCreateType : ::System::Int32
 	{

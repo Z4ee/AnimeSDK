@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F6DD30)
-#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6DF30)
+#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186907F0)
+#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186909F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 11528;
+	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 11930;
 
 	class AlleyActivityQuestRow : public ::System::Object
 	{

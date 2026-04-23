@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSpineStoryController_Dialog_TypeDefinitionIndex = 48832;
+	inline static constexpr unsigned int MonoSpineStoryController_Dialog_TypeDefinitionIndex = 55596;
 
 	struct alignas(8) MonoSpineStoryController_Dialog
 	{

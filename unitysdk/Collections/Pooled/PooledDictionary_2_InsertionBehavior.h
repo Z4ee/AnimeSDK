@@ -3,7 +3,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_InsertionBehavior_TypeDefinitionIndex = 5316;
+	inline static constexpr unsigned int PooledDictionary_2_InsertionBehavior_TypeDefinitionIndex = 5327;
 
 	enum class PooledDictionary_2_InsertionBehavior : ::System::Byte
 	{

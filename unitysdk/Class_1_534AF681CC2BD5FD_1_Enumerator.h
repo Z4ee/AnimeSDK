@@ -6,7 +6,7 @@
 namespace System { class Object; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_1_Enumerator_TypeDefinitionIndex = 8644;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_1_Enumerator_TypeDefinitionIndex = 8838;
 
 template <typename TKey, typename TValue>
 struct Class_1_534AF681CC2BD5FD_1_Enumerator

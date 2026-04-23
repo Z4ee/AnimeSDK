@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TextOverflowModes_TypeDefinitionIndex = 34386;
+	inline static constexpr unsigned int TextOverflowModes_TypeDefinitionIndex = 40205;
 
 	enum class TextOverflowModes : ::System::Int32
 	{

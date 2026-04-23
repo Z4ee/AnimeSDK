@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DrinkMakerCheersCancelMakerDrinkAfterPerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6B42CB6369097916_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10CE1370)
-#define CLASS_3_6B42CB6369097916__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE1340)
+#define CLASS_3_6B42CB6369097916_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x906D910)
+#define CLASS_3_6B42CB6369097916__CTOR_OFFSET UNITYSDK_OFFSET(0x906D8E0)
 
-inline static constexpr unsigned int Class_3_6B42CB6369097916_TypeDefinitionIndex = 46860;
+inline static constexpr unsigned int Class_3_6B42CB6369097916_TypeDefinitionIndex = 53573;
 
 class Class_3_6B42CB6369097916 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DrinkMakerCheersCancelMakerDrinkAfterPerformance*>
 {

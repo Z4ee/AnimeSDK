@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CameraState_BlendHintValue_TypeDefinitionIndex = 30842;
+	inline static constexpr unsigned int CameraState_BlendHintValue_TypeDefinitionIndex = 36562;
 
 	enum class CameraState_BlendHintValue : ::System::Int32
 	{

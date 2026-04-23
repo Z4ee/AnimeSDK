@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitTimeSlowIntensity_TypeDefinitionIndex = 16714;
+	inline static constexpr unsigned int HitTimeSlowIntensity_TypeDefinitionIndex = 17308;
 
 	enum class HitTimeSlowIntensity : ::System::Int32
 	{

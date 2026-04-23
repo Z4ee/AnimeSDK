@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F6B030)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6B1A0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1868D410)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1868D580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritTrialRow_TypeDefinitionIndex = 10264;
+	inline static constexpr unsigned int AetherDivideSpiritTrialRow_TypeDefinitionIndex = 10489;
 
 	class AetherDivideSpiritTrialRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SpiritID; // 0x10
+		::System::UInt32 ID; // 0x10
 		::System::UInt32 Promotion; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 SpiritID; // 0x18
 
 		::System::Void _ctor()
 		{

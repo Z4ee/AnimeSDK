@@ -6,7 +6,7 @@ namespace IniParserEx { class Token; }
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int ICodeFile_TypeDefinitionIndex = 3737;
+	inline static constexpr unsigned int ICodeFile_TypeDefinitionIndex = 3739;
 
 	class ICodeFile
 	{

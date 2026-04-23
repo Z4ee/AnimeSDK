@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantEmployeeAbility_TypeDefinitionIndex = 10594;
+	inline static constexpr unsigned int RestaurantEmployeeAbility_TypeDefinitionIndex = 10194;
 
 	enum class RestaurantEmployeeAbility : ::System::Int32
 	{

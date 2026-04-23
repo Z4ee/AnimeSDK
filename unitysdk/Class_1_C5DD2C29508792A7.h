@@ -10,18 +10,18 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C5DD2C29508792A7_METHOD_1_25C249A1AE130968_OFFSET UNITYSDK_OFFSET(0x165BB610)
-#define CLASS_1_C5DD2C29508792A7_METHOD_1_6B9B9F1566117AA0_OFFSET UNITYSDK_OFFSET(0x165BBCC0)
-#define CLASS_1_C5DD2C29508792A7__CCTOR_OFFSET UNITYSDK_OFFSET(0x165BBE60)
+#define CLASS_1_C5DD2C29508792A7_METHOD_1_25C249A1AE130968_OFFSET UNITYSDK_OFFSET(0x17C83A40)
+#define CLASS_1_C5DD2C29508792A7_METHOD_1_6B9B9F1566117AA0_OFFSET UNITYSDK_OFFSET(0x17C6E2E0)
+#define CLASS_1_C5DD2C29508792A7__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C840F0)
 
-inline static constexpr unsigned int Class_1_C5DD2C29508792A7_TypeDefinitionIndex = 29060;
+inline static constexpr unsigned int Class_1_C5DD2C29508792A7_TypeDefinitionIndex = 34794;
 
 class Class_1_C5DD2C29508792A7 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_C5DD2C29508792A7_Class_3_AB3DCCDB3276A220*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_C5DD2C29508792A7_Class_3_AB3DCCDB3276A220*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C5DD2C29508792A7_TypeDefinitionIndex)->GetStaticField(0x24B90);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_C5DD2C29508792A7_Class_3_AB3DCCDB3276A220*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C5DD2C29508792A7_TypeDefinitionIndex)->GetStaticField(0x6AA10);
 	}
 
 	static ::System::Void _cctor()

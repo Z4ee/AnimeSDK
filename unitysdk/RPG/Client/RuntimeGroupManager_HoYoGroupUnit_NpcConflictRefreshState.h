@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState_TypeDefinitionIndex = 50395;
+	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState_TypeDefinitionIndex = 57254;
 
 	enum class RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState : ::System::Int32
 	{

@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYQUIZCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174417A0)
-#define RPG_GAMECORE_MONOPOLYQUIZCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17441EE0)
+#define RPG_GAMECORE_MONOPOLYQUIZCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B4E400)
+#define RPG_GAMECORE_MONOPOLYQUIZCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B4EB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizConfigRow_TypeDefinitionIndex = 11041;
+	inline static constexpr unsigned int MonopolyQuizConfigRow_TypeDefinitionIndex = 11444;
 
 	class MonopolyQuizConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuizTaskIDList; // 0x10
-		::RPG::Client::TextID QuizName; // 0x18
-		::RPG::Client::TextID QuizDesc; // 0x28
-		::System::UInt32 QuizID; // 0x38
-		::System::UInt32 Duration; // 0x3C
+		::System::UInt32 QuizID; // 0x18
+		::System::UInt32 Duration; // 0x1C
+		::RPG::Client::TextID QuizDesc; // 0x20
+		::RPG::Client::TextID QuizName; // 0x30
 
 		::System::Void _ctor()
 		{

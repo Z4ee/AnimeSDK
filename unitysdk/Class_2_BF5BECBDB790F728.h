@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_11F507CAFD9CD2DF.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/PropertyStacking.h"
+#include "unitysdk/Struct_2_310B46602BEB4586.h"
+
+class Class_0_16E4307DCC419505_407;
+class Class_1_83AB3963F9C15714;
+
+#define CLASS_2_BF5BECBDB790F728_CLEAR_OFFSET UNITYSDK_OFFSET(0x90F7A60)
+#define CLASS_2_BF5BECBDB790F728_METHOD_2_4BCD12BD91B791EF_OFFSET UNITYSDK_OFFSET(0x90F7C00)
+#define CLASS_2_BF5BECBDB790F728_METHOD_2_68B18B62794CD38B_OFFSET UNITYSDK_OFFSET(0x90F79B0)
+#define CLASS_2_BF5BECBDB790F728_METHOD_2_7F636C752680DC45_OFFSET UNITYSDK_OFFSET(0x90F7D10)
+#define CLASS_2_BF5BECBDB790F728_METHOD_2_8B8D4F9C3FFAF0BD_OFFSET UNITYSDK_OFFSET(0x90F7AF0)
+#define CLASS_2_BF5BECBDB790F728_METHOD_2_ADA7712604639534_OFFSET UNITYSDK_OFFSET(0x90F7E30)
+#define CLASS_2_BF5BECBDB790F728_METHOD_2_BF366D5D3D18FFDA_OFFSET UNITYSDK_OFFSET(0x90F7900)
+#define CLASS_2_BF5BECBDB790F728__CTOR_OFFSET UNITYSDK_OFFSET(0x90F7ED0)
+#define CLASS_2_BF5BECBDB790F728___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x90F7F40)
+
+inline static constexpr unsigned int Class_2_BF5BECBDB790F728_TypeDefinitionIndex = 49779;
+
+class Class_2_BF5BECBDB790F728 : public ::Class_1_11F507CAFD9CD2DF
+{
+public:
+	::Class_1_83AB3963F9C15714* Field_2_0; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728__CTOR_OFFSET))(this);
+	}
+
+	::Class_2_BF5BECBDB790F728* Method_2_BF366D5D3D18FFDA(::RPG::GameCore::PropertyStacking a1, ::RPG::GameCore::FixPoint a2)
+	{
+		return ((::Class_2_BF5BECBDB790F728*(*)(::PVOID, ::RPG::GameCore::PropertyStacking, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_METHOD_2_BF366D5D3D18FFDA_OFFSET))(this, a1, a2);
+	}
+
+	::Class_0_16E4307DCC419505_407* Method_2_68B18B62794CD38B(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::Class_0_16E4307DCC419505_407*(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_METHOD_2_68B18B62794CD38B_OFFSET))(this, a1);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_CLEAR_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_8B8D4F9C3FFAF0BD(::RPG::GameCore::FixPoint a1, ::Struct_2_310B46602BEB4586 a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::FixPoint, ::Struct_2_310B46602BEB4586))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_METHOD_2_8B8D4F9C3FFAF0BD_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4BCD12BD91B791EF(::System::Int32 a1, ::Struct_2_310B46602BEB4586 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::Struct_2_310B46602BEB4586))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_METHOD_2_4BCD12BD91B791EF_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_7F636C752680DC45(::System::Int32 a1, ::RPG::GameCore::FixPoint a2, ::Struct_2_310B46602BEB4586 a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::FixPoint, ::Struct_2_310B46602BEB4586))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_METHOD_2_7F636C752680DC45_OFFSET))(this, a1, a2, a3);
+	}
+
+	::RPG::GameCore::FixPoint Method_2_ADA7712604639534(::System::Int32 a1)
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728_METHOD_2_ADA7712604639534_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BF5BECBDB790F728___IFIXBASEPROXY_CLEAR_OFFSET))(this);
+	}
+};

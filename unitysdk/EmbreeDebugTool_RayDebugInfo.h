@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define EMBREEDEBUGTOOL_RAYDEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8369040)
-#define EMBREEDEBUGTOOL_RAYDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8368190)
+#define EMBREEDEBUGTOOL_RAYDEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8B91040)
+#define EMBREEDEBUGTOOL_RAYDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8B90190)
 
-inline static constexpr unsigned int EmbreeDebugTool_RayDebugInfo_TypeDefinitionIndex = 35083;
+inline static constexpr unsigned int EmbreeDebugTool_RayDebugInfo_TypeDefinitionIndex = 40911;
 
 class EmbreeDebugTool_RayDebugInfo : public ::System::Object
 {

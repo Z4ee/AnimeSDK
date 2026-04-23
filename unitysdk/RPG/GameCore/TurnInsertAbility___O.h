@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAbility___O_TypeDefinitionIndex = 20847;
+	inline static constexpr unsigned int TurnInsertAbility___O_TypeDefinitionIndex = 21556;
 
 	class TurnInsertAbility___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(TurnInsertAbility___O_TypeDefinitionIndex)->GetStaticField(0x1E4C0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(TurnInsertAbility___O_TypeDefinitionIndex)->GetStaticField(0x108D0);
 		}
 	};
 }

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_MATPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9B7DB20)
+#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_MATPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA877310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialSwitchMonoPlugin_MatPathConfig_TypeDefinitionIndex = 57928;
+	inline static constexpr unsigned int MaterialSwitchMonoPlugin_MatPathConfig_TypeDefinitionIndex = 65215;
 
 	class MaterialSwitchMonoPlugin_MatPathConfig : public ::System::Object
 	{

@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackStatusProbability___O_TypeDefinitionIndex = 20865;
+	inline static constexpr unsigned int StackStatusProbability___O_TypeDefinitionIndex = 21576;
 
 	class StackStatusProbability___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(StackStatusProbability___O_TypeDefinitionIndex)->GetStaticField(0x118F0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(StackStatusProbability___O_TypeDefinitionIndex)->GetStaticField(0x531B0);
 		}
 	};
 }

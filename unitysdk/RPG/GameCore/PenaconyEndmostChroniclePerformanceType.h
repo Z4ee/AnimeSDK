@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PenaconyEndmostChroniclePerformanceType_TypeDefinitionIndex = 19996;
+	inline static constexpr unsigned int PenaconyEndmostChroniclePerformanceType_TypeDefinitionIndex = 20677;
 
 	enum class PenaconyEndmostChroniclePerformanceType : ::System::Int32
 	{

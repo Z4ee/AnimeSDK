@@ -5,25 +5,31 @@
 class Class_1_0DD0086A20E51DD0;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA65B0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA6890)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18606E70)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18607270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 10543;
+	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 10767;
 
 	class ActivityDiceCombatAIGroupRow : public ::System::Object
 	{
 	public:
-		::Class_1_0DD0086A20E51DD0* SelectTimeRange; // 0x10
-		::System::Single SelectWrongRate; // 0x18
-		::System::UInt32 AIGroupID; // 0x1C
-		::System::Single Quantile; // 0x20
-		::System::Single SpecialRuleWeight; // 0x24
-		::System::Single ColorfulDiceWeight; // 0x28
-		::System::UInt32 RerollMaxDefend; // 0x2C
-		::System::Single SkillWeight; // 0x30
-		::System::UInt32 RerollMaxAttack; // 0x34
+		::Class_1_0DD0086A20E51DD0* ExchangeWaitTimeRange; // 0x10
+		::Class_1_0DD0086A20E51DD0* PrepareCancelWaitTimeRange; // 0x18
+		::Class_1_0DD0086A20E51DD0* PrepareFinishWaitTimeRange; // 0x20
+		::Class_1_0DD0086A20E51DD0* SelectTimeRange; // 0x28
+		::Class_1_0DD0086A20E51DD0* BuyTacticsCardWaitTimeRange; // 0x30
+		::Class_1_0DD0086A20E51DD0* UseTacticsCardWaitTimeRange; // 0x38
+		::System::Single SelectWrongRate; // 0x40
+		::System::UInt32 AIGroupID; // 0x44
+		::System::Single ColorfulDiceWeight; // 0x48
+		::System::UInt32 RerollMaxDefend; // 0x4C
+		::System::UInt32 RerollMaxAttack; // 0x50
+		::System::Boolean CanUseTactics; // 0x54
+		::System::Single SpecialRuleWeight; // 0x58
+		::System::Single SkillWeight; // 0x5C
+		::System::Single Quantile; // 0x60
 
 		::System::Void _ctor()
 		{

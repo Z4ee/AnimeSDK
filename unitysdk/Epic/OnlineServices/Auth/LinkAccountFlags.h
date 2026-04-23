@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int LinkAccountFlags_TypeDefinitionIndex = 36547;
+	inline static constexpr unsigned int LinkAccountFlags_TypeDefinitionIndex = 42373;
 
 	enum class LinkAccountFlags : ::System::Int32
 	{

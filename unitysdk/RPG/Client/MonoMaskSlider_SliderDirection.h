@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaskSlider_SliderDirection_TypeDefinitionIndex = 59486;
+	inline static constexpr unsigned int MonoMaskSlider_SliderDirection_TypeDefinitionIndex = 66881;
 
 	enum class MonoMaskSlider_SliderDirection : ::System::Int32
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8EF5390)
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8EF53D0)
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C___CTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0x8EF53E0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9AC6CB0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9AC6CF0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C___CTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0x9AC6D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex = 49817;
+	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex = 56639;
 
 	class ActivityBenefitV2RewardOverviewViewModel___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityBenefitV2RewardOverviewViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityBenefitV2RewardOverviewViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex)->GetStaticField(0x28D80);
+			return (::RPG::Client::ActivityBenefitV2RewardOverviewViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex)->GetStaticField(0x22130);
 		}
 		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex)->GetStaticField(0x28D88);
+			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex)->GetStaticField(0x22138);
 		}
 
 		static ::System::Void _cctor()

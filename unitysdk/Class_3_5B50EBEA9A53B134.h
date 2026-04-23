@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByActivityElation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5B50EBEA9A53B134_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87FC930)
-#define CLASS_3_5B50EBEA9A53B134__CTOR_OFFSET UNITYSDK_OFFSET(0x87FC850)
+#define CLASS_3_5B50EBEA9A53B134_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123EDBB0)
+#define CLASS_3_5B50EBEA9A53B134__CTOR_OFFSET UNITYSDK_OFFSET(0x123EDAD0)
 
-inline static constexpr unsigned int Class_3_5B50EBEA9A53B134_TypeDefinitionIndex = 43867;
+inline static constexpr unsigned int Class_3_5B50EBEA9A53B134_TypeDefinitionIndex = 50567;
 
 class Class_3_5B50EBEA9A53B134 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByActivityElation*>
 {

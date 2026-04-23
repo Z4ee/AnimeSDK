@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AssistWayPointConditionMain; }
 namespace RPG::GameCore { class AssistWayPointDistanceCondition; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINT_METHOD_2_C61DFDD2EB527E25_OFFSET UNITYSDK_OFFSET(0x16F870B0)
-#define RPG_GAMECORE_ASSISTWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F876D0)
+#define RPG_GAMECORE_ASSISTWAYPOINT_METHOD_2_C61DFDD2EB527E25_OFFSET UNITYSDK_OFFSET(0x186AA460)
+#define RPG_GAMECORE_ASSISTWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x186AAA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPoint_TypeDefinitionIndex = 17419;
+	inline static constexpr unsigned int AssistWayPoint_TypeDefinitionIndex = 18027;
 
 	class AssistWayPoint : public ::RPG::GameCore::JsonConfig
 	{

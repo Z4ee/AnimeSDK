@@ -9,20 +9,20 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x104B6280)
-#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0x104B67E0)
-#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0x104B6940)
-#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0x104B68E0)
+#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A5E3F0)
+#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0x9A5E950)
+#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0x9A5EAB0)
+#define CLASS_1_397C0FDFC5C04C2B___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0x9A5EA50)
 
-inline static constexpr unsigned int Class_1_397C0FDFC5C04C2B___c__DisplayClass4_0_TypeDefinitionIndex = 44557;
+inline static constexpr unsigned int Class_1_397C0FDFC5C04C2B___c__DisplayClass4_0_TypeDefinitionIndex = 51291;
 
 class Class_1_397C0FDFC5C04C2B___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x18
-	::RPG::GameCore::GameEntity* _Caster; // 0x20
-	::RPG::GameCore::SortByModifierValue* config; // 0x28
+	::RPG::GameCore::SortByModifierValue* config; // 0x10
+	::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x20
+	::RPG::GameCore::GameEntity* _Caster; // 0x28
 
 	::System::Void _ctor()
 	{

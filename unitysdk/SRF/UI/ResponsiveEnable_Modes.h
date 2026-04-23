@@ -3,7 +3,7 @@
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveEnable_Modes_TypeDefinitionIndex = 27672;
+	inline static constexpr unsigned int ResponsiveEnable_Modes_TypeDefinitionIndex = 33296;
 
 	enum class ResponsiveEnable_Modes : ::System::Int32
 	{

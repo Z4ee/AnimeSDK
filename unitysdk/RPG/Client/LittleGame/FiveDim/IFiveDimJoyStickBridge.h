@@ -7,7 +7,7 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimJoyStickBridge_TypeDefinitionIndex = 62889;
+	inline static constexpr unsigned int IFiveDimJoyStickBridge_TypeDefinitionIndex = 70929;
 
 	class IFiveDimJoyStickBridge
 	{

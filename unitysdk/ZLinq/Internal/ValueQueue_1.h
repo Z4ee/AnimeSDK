@@ -4,7 +4,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int ValueQueue_1_TypeDefinitionIndex = 6536;
+	inline static constexpr unsigned int ValueQueue_1_TypeDefinitionIndex = 6570;
 
 	template <typename T>
 	struct ValueQueue_1

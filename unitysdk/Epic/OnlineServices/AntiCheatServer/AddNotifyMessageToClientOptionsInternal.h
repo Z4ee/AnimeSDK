@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::AntiCheatServer { class AddNotifyMessageToClient
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYMESSAGETOCLIENTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYMESSAGETOCLIENTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xDB30)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYMESSAGETOCLIENTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xDB20)
 #define EPIC_ONLINESERVICES_ANTICHEATSERVER_ADDNOTIFYMESSAGETOCLIENTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::AntiCheatServer
 {
-	inline static constexpr unsigned int AddNotifyMessageToClientOptionsInternal_TypeDefinitionIndex = 36604;
+	inline static constexpr unsigned int AddNotifyMessageToClientOptionsInternal_TypeDefinitionIndex = 42430;
 
 	struct alignas(4) AddNotifyMessageToClientOptionsInternal
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorUROShiftBucket_TypeDefinitionIndex = 5026;
+	inline static constexpr unsigned int AnimatorUROShiftBucket_TypeDefinitionIndex = 5034;
 
 	enum class AnimatorUROShiftBucket : ::System::Int32
 	{

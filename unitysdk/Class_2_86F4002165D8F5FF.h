@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace UnityEngine { class Object; }
 template <typename T> class Class_1_534AF681CC2BD5F4;
 
-inline static constexpr unsigned int Class_2_86F4002165D8F5FF_TypeDefinitionIndex = 40177;
+inline static constexpr unsigned int Class_2_86F4002165D8F5FF_TypeDefinitionIndex = 46086;
 
 template <typename T>
 class Class_2_86F4002165D8F5FF : public ::Class_1_E290C58681D2E9F5<T>

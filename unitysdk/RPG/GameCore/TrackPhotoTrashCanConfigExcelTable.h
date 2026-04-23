@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x178A5530)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x178A5380)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x178A5050)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x178A5320)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x178A5700)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x178A50D0)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x178A5740)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x178A5920)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x178A5BD0)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178A5F30)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x178A5880)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x178A57E0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x190A4050)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x190A3EA0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x190A3B70)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x190A3E40)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x190A4220)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x190A3BF0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x190A4260)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x190A4440)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x190A46F0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x190A4A50)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x190A43A0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x190A4300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex = 11407;
+	inline static constexpr unsigned int TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex = 11809;
 
 	class TrackPhotoTrashCanConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A870);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A878);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8860);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8868);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A880);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8870);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7720);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3B30);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7721);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TrackPhotoTrashCanConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3B31);
 		}
 
 		static ::System::Void _cctor()

@@ -6,19 +6,19 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class Sample; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0xAAFFEF0)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xAAFF5E0)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0xB86C090)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xB86B780)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 41865;
+	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 47840;
 
 	class SampleResult : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_EMPTY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SampleResult_TypeDefinitionIndex)->GetStaticField(0x46E00);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SampleResult_TypeDefinitionIndex)->GetStaticField(0x664A0);
 		}
 		::System::Int32 Name; // 0x10
 		::System::Int32 Source; // 0x14

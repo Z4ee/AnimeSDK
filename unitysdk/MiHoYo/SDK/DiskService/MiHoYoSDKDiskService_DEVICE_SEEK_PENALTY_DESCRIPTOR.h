@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::DiskService
 {
-	inline static constexpr unsigned int MiHoYoSDKDiskService_DEVICE_SEEK_PENALTY_DESCRIPTOR_TypeDefinitionIndex = 37357;
+	inline static constexpr unsigned int MiHoYoSDKDiskService_DEVICE_SEEK_PENALTY_DESCRIPTOR_TypeDefinitionIndex = 43234;
 
 	struct alignas(4) MiHoYoSDKDiskService_DEVICE_SEEK_PENALTY_DESCRIPTOR
 	{

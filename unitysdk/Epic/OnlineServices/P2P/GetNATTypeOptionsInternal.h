@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::P2P { class GetNATTypeOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57370)
+#define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57D70)
 #define EPIC_ONLINESERVICES_P2P_GETNATTYPEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetNATTypeOptionsInternal_TypeDefinitionIndex = 35886;
+	inline static constexpr unsigned int GetNATTypeOptionsInternal_TypeDefinitionIndex = 41712;
 
 	struct alignas(4) GetNATTypeOptionsInternal
 	{

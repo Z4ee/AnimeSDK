@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolListUnmanaged_1_TypeDefinitionIndex = 22559;
+	inline static constexpr unsigned int ConfigDataPoolListUnmanaged_1_TypeDefinitionIndex = 23531;
 
 	template <typename TElement>
 	struct ConfigDataPoolListUnmanaged_1

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class StageHarmonySignalDynamicDialogMonoSerialization
 namespace RPG::GameCore { class StageHarmonySignalDynamicPatternMonoSerialization; }
 namespace RPG::GameCore { class StageHarmonyTrafficLightMonoSerialization; }
 
-#define RPG_GAMECORE_STAGESCENEITEMSERIALIZATIONDATA_METHOD_2_7A0ECD1196EB6BF7_OFFSET UNITYSDK_OFFSET(0x1776D6B0)
-#define RPG_GAMECORE_STAGESCENEITEMSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1776D910)
+#define RPG_GAMECORE_STAGESCENEITEMSERIALIZATIONDATA_METHOD_2_7A0ECD1196EB6BF7_OFFSET UNITYSDK_OFFSET(0x18E93250)
+#define RPG_GAMECORE_STAGESCENEITEMSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E934B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageSceneItemSerializationData_TypeDefinitionIndex = 17622;
+	inline static constexpr unsigned int StageSceneItemSerializationData_TypeDefinitionIndex = 18235;
 
 	class StageSceneItemSerializationData : public ::RPG::GameCore::JsonConfig
 	{

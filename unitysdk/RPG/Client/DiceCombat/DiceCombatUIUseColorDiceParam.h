@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUIUSECOLORDICEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9487AC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUIUSECOLORDICEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA139440)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUIUseColorDiceParam_TypeDefinitionIndex = 61883;
+	inline static constexpr unsigned int DiceCombatUIUseColorDiceParam_TypeDefinitionIndex = 69793;
 
 	class DiceCombatUIUseColorDiceParam : public ::System::Object
 	{

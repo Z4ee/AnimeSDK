@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 22470;
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 23442;
 
 	enum class ServerPrefsType : ::System::Int32
 	{
@@ -133,5 +133,25 @@ namespace RPG::GameCore
 		AssistWayPointOneClickCompleteData = 4011,
 		FiveDimFluteHasSeenNewGuide = 4012,
 		NewWorldReminderSeenWorldIDs = 4013,
+		ItemComposeLimitHintUpdateDay = 4201,
+		ItemComposeLimitHintToCheck = 4202,
+		ItemComposeLimitHintToSee = 4203,
+		IsBadgeAutoFillClosed = 4204,
+		CakeCatchPerformanceUnlockStatusSeen = 4205,
+		CakeCatchCakeAtalsUnlockStatusSeen = 4206,
+		CakeCatchCakeArrangeUnlockStatusSeen = 4207,
+		CakeCatchCakeArrangeShelfUnlockStatusSeen = 4208,
+		CakeCatchCakeAtlasCakeStorySeen = 4209,
+		TrainPartyBuildBadgeRedDotRedIDs = 4213,
+		IsPlayerInfoPageTrainPartyBuildBadgeRedDotSeen = 4216,
+		SeenMultiPlayerActivityIDs = 4220,
+		CycleScoreSeenTimeStamp = 4210,
+		GridFightSeenWeekScoreTimeStamp = 4211,
+		GrowthTargetSettingHasSeen = 4212,
+		DiceCombatV2PVPSavedAvatarIDDic = 4214,
+		MazeAutoUseMPItemEnabled = 4215,
+		Anniversary3RDCollectionDataSeen = 4217,
+		IdleLiveIsDanmuBattle = 4218,
+		IdleLiveIsAutoBattle = 4219,
 	};
 }

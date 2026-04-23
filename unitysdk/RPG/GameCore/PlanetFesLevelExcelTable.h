@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x174BCF60)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x174BCDE0)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x174BCAB0)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x174BCD80)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x174BD0E0)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x174BCB30)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x174BD120)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x174BD300)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x174BD6A0)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174BD9B0)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x174BD260)
-#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x174BD1C0)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18C08570)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18C083F0)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18C080C0)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18C08390)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18C086F0)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18C08140)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18C08730)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C08910)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18C08CB0)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C08FC0)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18C08870)
+#define RPG_GAMECORE_PLANETFESLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18C087D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesLevelExcelTable_TypeDefinitionIndex = 11132;
+	inline static constexpr unsigned int PlanetFesLevelExcelTable_TypeDefinitionIndex = 11535;
 
 	class PlanetFesLevelExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x30150);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x447B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesLevelRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x30158);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x447B8);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x30160);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x447C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xF860);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xF3F0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xF861);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PlanetFesLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xF3F1);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int FileDownloadErrorCode_TypeDefinitionIndex = 37044;
+	inline static constexpr unsigned int FileDownloadErrorCode_TypeDefinitionIndex = 42889;
 
 	enum class FileDownloadErrorCode : ::System::Int32
 	{

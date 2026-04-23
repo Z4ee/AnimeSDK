@@ -15,7 +15,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int UnlockAchievementsOptionsInternal_TypeDefinitionIndex = 36818;
+	inline static constexpr unsigned int UnlockAchievementsOptionsInternal_TypeDefinitionIndex = 42644;
 
 	struct alignas(8) UnlockAchievementsOptionsInternal
 	{

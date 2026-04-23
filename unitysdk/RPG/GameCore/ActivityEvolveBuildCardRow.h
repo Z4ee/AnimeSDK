@@ -9,23 +9,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EABA30)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EAC210)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1860C480)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1860CCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildCardRow_TypeDefinitionIndex = 10687;
+	inline static constexpr unsigned int ActivityEvolveBuildCardRow_TypeDefinitionIndex = 10938;
 
 	class ActivityEvolveBuildCardRow : public ::System::Object
 	{
 	public:
 		::System::String* ItemIcon; // 0x10
-		::Il2CppArray<::System::UInt32>* CardSelectablePeriod; // 0x18
-		::System::String* ItemMiniIcon; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
-		::System::UInt32 LvID; // 0x30
-		::RPG::GameCore::EvolveBuildCardInfluenceScope InfluenceScope; // 0x34
-		::RPG::GameCore::EvolveBuildCardType Type; // 0x38
+		::System::String* ItemMiniIcon; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
+		::Il2CppArray<::System::UInt32>* CardSelectablePeriod; // 0x28
+		::RPG::GameCore::EvolveBuildCardType Type; // 0x30
+		::System::UInt32 LvID; // 0x34
+		::RPG::GameCore::EvolveBuildCardInfluenceScope InfluenceScope; // 0x38
 		::RPG::GameCore::EvolveBuildSeason Season; // 0x3C
 		::System::UInt32 UnlockQuest; // 0x40
 		::System::UInt32 ID; // 0x44

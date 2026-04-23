@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class Camera; }
 
-#define CLASS_1_9E21468E0842DFD0_METHOD_1_50536A68DD1FDC60_OFFSET UNITYSDK_OFFSET(0xA1B7850)
+#define CLASS_1_9E21468E0842DFD0_METHOD_1_50536A68DD1FDC60_OFFSET UNITYSDK_OFFSET(0x11D5E740)
 
-inline static constexpr unsigned int Class_1_9E21468E0842DFD0_TypeDefinitionIndex = 56904;
+inline static constexpr unsigned int Class_1_9E21468E0842DFD0_TypeDefinitionIndex = 64154;
 
 class Class_1_9E21468E0842DFD0 : public ::System::Object
 {

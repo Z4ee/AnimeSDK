@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledSetEqualityComparer_1_TypeDefinitionIndex = 5341;
+	inline static constexpr unsigned int PooledSetEqualityComparer_1_TypeDefinitionIndex = 5352;
 
 	template <typename T>
 	class PooledSetEqualityComparer_1 : public ::System::Object

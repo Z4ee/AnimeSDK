@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4CF8088A158DCE25_47;
+class Class_1_21C7581DFE99F091_55;
 
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xA2A0850)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA2A0690)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0xA2A0D90)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A1110)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xAF915C0)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xAF91400)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0xAF91B30)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAF91EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicFilterPlanIconData_TypeDefinitionIndex = 54408;
+	inline static constexpr unsigned int RelicFilterPlanIconData_TypeDefinitionIndex = 61596;
 
 	class RelicFilterPlanIconData : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicFilterPlanIconData*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET))();
 		}
 
-		static ::RPG::Client::RelicFilterPlanIconData* Create_1(::Class_1_4CF8088A158DCE25_47* serverData)
+		static ::RPG::Client::RelicFilterPlanIconData* Create_1(::Class_1_21C7581DFE99F091_55* serverData)
 		{
-			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::Class_1_4CF8088A158DCE25_47*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET))(serverData);
+			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::Class_1_21C7581DFE99F091_55*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET))(serverData);
 		}
 
-		::System::Void FillToServerData(::Class_1_4CF8088A158DCE25_47* serverData)
+		::System::Void FillToServerData(::Class_1_21C7581DFE99F091_55* serverData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4CF8088A158DCE25_47*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET))(this, serverData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_55*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET))(this, serverData);
 		}
 	};
 }

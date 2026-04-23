@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class ActionBarUIConfig; }
 namespace RPG::GameCore { class ConditionPriority; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
@@ -15,13 +16,13 @@ namespace RPG::GameCore { class TurnInsertAbilityConditionBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNINSERTABILITY_METHOD_3_9965DB24D96E21DD_OFFSET UNITYSDK_OFFSET(0x178D4380)
-#define RPG_GAMECORE_TURNINSERTABILITY_METHOD_3_B368B15BA80B14BC_OFFSET UNITYSDK_OFFSET(0x178D4280)
-#define RPG_GAMECORE_TURNINSERTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x178D4310)
+#define RPG_GAMECORE_TURNINSERTABILITY_METHOD_3_9965DB24D96E21DD_OFFSET UNITYSDK_OFFSET(0x190D2AC0)
+#define RPG_GAMECORE_TURNINSERTABILITY_METHOD_3_B368B15BA80B14BC_OFFSET UNITYSDK_OFFSET(0x190D29C0)
+#define RPG_GAMECORE_TURNINSERTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x190D2A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAbility_TypeDefinitionIndex = 20846;
+	inline static constexpr unsigned int TurnInsertAbility_TypeDefinitionIndex = 21555;
 
 	class TurnInsertAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -45,6 +46,7 @@ namespace RPG::GameCore
 		::System::Boolean Silence; // 0x72
 		::System::Boolean IgnoreMuteAction; // 0x73
 		::Il2CppArray<::RPG::GameCore::JsonEnum*>* CustomFlags; // 0x78
+		::RPG::GameCore::ActionBarUIConfig* ActionBarUIConfig; // 0x80
 
 		::System::Void _ctor()
 		{

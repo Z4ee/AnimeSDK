@@ -5,29 +5,29 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOCURVESCALE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C25070)
-#define RPG_CLIENT_MONOCURVESCALE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9C250B0)
-#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_0_OFFSET UNITYSDK_OFFSET(0x9C250C0)
-#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET UNITYSDK_OFFSET(0x9C25120)
+#define RPG_CLIENT_MONOCURVESCALE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA921230)
+#define RPG_CLIENT_MONOCURVESCALE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA921270)
+#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_0_OFFSET UNITYSDK_OFFSET(0xA921280)
+#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET UNITYSDK_OFFSET(0xA9212E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveScale___c_TypeDefinitionIndex = 58190;
+	inline static constexpr unsigned int MonoCurveScale___c_TypeDefinitionIndex = 65477;
 
 	class MonoCurveScale___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_0()
+		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_1()
 		{
-			return (::System::Comparison_1<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x34CD0);
+			return (::System::Comparison_1<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x3CC90);
 		}
 		static ::RPG::Client::MonoCurveScale___c** StaticGet___9()
 		{
-			return (::RPG::Client::MonoCurveScale___c**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x34CD8);
+			return (::RPG::Client::MonoCurveScale___c**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x3CC98);
 		}
-		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_1()
+		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x34CE0);
+			return (::System::Comparison_1<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x3CCA0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_SWITCHHANDDRAGHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xA4FD890)
-#define RPG_CLIENT_SWITCHHANDDRAGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FD8E0)
+#define RPG_CLIENT_SWITCHHANDDRAGHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xB1EFD20)
+#define RPG_CLIENT_SWITCHHANDDRAGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EFD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandDragHandler_TypeDefinitionIndex = 59784;
+	inline static constexpr unsigned int SwitchHandDragHandler_TypeDefinitionIndex = 67180;
 
 	class SwitchHandDragHandler : public ::UnityEngine::MonoBehaviour
 	{

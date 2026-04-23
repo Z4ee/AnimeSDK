@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_614;
+class Class_0_16E4307DCC419505_705;
 namespace RPG::Client { class FateGameData; }
 namespace RPG::Client { class IFateGameMasterInfoItem; }
 namespace RPG::Client { class IFateGameRoundSettleDmgSourceItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER_BUILDDMGSOURCES_OFFSET UNITYSDK_OFFSET(0x96892E0)
-#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER__CREATEBUILDER_OFFSET UNITYSDK_OFFSET(0x9689400)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER_BUILDDMGSOURCES_OFFSET UNITYSDK_OFFSET(0xA348CB0)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER__CREATEBUILDER_OFFSET UNITYSDK_OFFSET(0xA348DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameRoundSettleDmgSourceHelper_TypeDefinitionIndex = 51978;
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourceHelper_TypeDefinitionIndex = 58927;
 
 	class FateGameRoundSettleDmgSourceHelper : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::IFateGameRoundSettleDmgSourceItem*>*(*)(::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::FateGameData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER_BUILDDMGSOURCES_OFFSET))(master, gameData);
 		}
 
-		static ::Class_0_16E4307DCC419505_614* _CreateBuilder(::RPG::Client::IFateGameMasterInfoItem* master)
+		static ::Class_0_16E4307DCC419505_705* _CreateBuilder(::RPG::Client::IFateGameMasterInfoItem* master)
 		{
-			return ((::Class_0_16E4307DCC419505_614*(*)(::RPG::Client::IFateGameMasterInfoItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER__CREATEBUILDER_OFFSET))(master);
+			return ((::Class_0_16E4307DCC419505_705*(*)(::RPG::Client::IFateGameMasterInfoItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEHELPER__CREATEBUILDER_OFFSET))(master);
 		}
 	};
 }

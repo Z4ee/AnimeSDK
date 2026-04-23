@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONO_FIVEDIMRENDERINGITEMSTATEMAPPINGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x9C11640)
+#define RPG_CLIENT_MONO_FIVEDIMRENDERINGITEMSTATEMAPPINGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xA90C790)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimRenderingItemStateMappingValue_TypeDefinitionIndex = 61877;
+	inline static constexpr unsigned int FiveDimRenderingItemStateMappingValue_TypeDefinitionIndex = 69787;
 
 	class FiveDimRenderingItemStateMappingValue : public ::System::Object
 	{

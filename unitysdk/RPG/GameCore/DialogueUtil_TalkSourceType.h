@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueUtil_TalkSourceType_TypeDefinitionIndex = 45942;
+	inline static constexpr unsigned int DialogueUtil_TalkSourceType_TypeDefinitionIndex = 52603;
 
 	enum class DialogueUtil_TalkSourceType : ::System::Int32
 	{

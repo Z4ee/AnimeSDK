@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1726DA30)
-#define RPG_GAMECORE_GRIDFIGHTNPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1726DDC0)
+#define RPG_GAMECORE_GRIDFIGHTNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189C1320)
+#define RPG_GAMECORE_GRIDFIGHTNPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189C16B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightNpcConfigRow_TypeDefinitionIndex = 12322;
+	inline static constexpr unsigned int GridFightNpcConfigRow_TypeDefinitionIndex = 12757;
 
 	class GridFightNpcConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* Icon; // 0x10
-		::System::String* RoundIcon; // 0x18
-		::RPG::Client::TextID NpcDesc; // 0x20
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 NpcType; // 0x34
-		::RPG::Client::TextID NpcName; // 0x38
-		::System::Boolean IsEquippable; // 0x48
-		::RPG::GameCore::GridFightRegion PositionRegion; // 0x4C
+		::System::String* RoundIcon; // 0x10
+		::System::String* Icon; // 0x18
+		::System::UInt32 NpcType; // 0x20
+		::System::Boolean IsEquippable; // 0x24
+		::RPG::GameCore::GridFightRegion PositionRegion; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::RPG::Client::TextID NpcDesc; // 0x30
+		::RPG::Client::TextID NpcName; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace IFix::Core { class VirtualMachine; }
 
-#define IFIX_CORE_PATCHMANAGER__MERGEWRAPPER_C__ANONSTOREY5__CTOR_OFFSET UNITYSDK_OFFSET(0x15B4E4D0)
-#define IFIX_CORE_PATCHMANAGER__MERGEWRAPPER_C__ANONSTOREY5___M__0_OFFSET UNITYSDK_OFFSET(0x15B4E950)
+#define IFIX_CORE_PATCHMANAGER__MERGEWRAPPER_C__ANONSTOREY5__CTOR_OFFSET UNITYSDK_OFFSET(0x1714C580)
+#define IFIX_CORE_PATCHMANAGER__MERGEWRAPPER_C__ANONSTOREY5___M__0_OFFSET UNITYSDK_OFFSET(0x1714CA00)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__MergeWrapper_c__AnonStorey5_TypeDefinitionIndex = 9786;
+	inline static constexpr unsigned int PatchManager__MergeWrapper_c__AnonStorey5_TypeDefinitionIndex = 9921;
 
 	class PatchManager__MergeWrapper_c__AnonStorey5 : public ::System::Object
 	{

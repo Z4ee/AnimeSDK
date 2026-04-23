@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchAllStanceBreakEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_CE206F9E805F8B70_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11704E70)
-#define CLASS_3_CE206F9E805F8B70__CTOR_OFFSET UNITYSDK_OFFSET(0x11704DF0)
+#define CLASS_3_CE206F9E805F8B70_EVALUATE_OFFSET UNITYSDK_OFFSET(0x121321E0)
+#define CLASS_3_CE206F9E805F8B70__CTOR_OFFSET UNITYSDK_OFFSET(0x12132160)
 
-inline static constexpr unsigned int Class_3_CE206F9E805F8B70_TypeDefinitionIndex = 47779;
+inline static constexpr unsigned int Class_3_CE206F9E805F8B70_TypeDefinitionIndex = 54518;
 
 class Class_3_CE206F9E805F8B70 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAllStanceBreakEntity*>
 {

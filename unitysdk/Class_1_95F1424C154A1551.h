@@ -5,10 +5,10 @@
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class IAvatarInfoProvider; }
 
-#define CLASS_1_95F1424C154A1551_METHOD_1_6C48DDE725FE7AF8_OFFSET UNITYSDK_OFFSET(0x11432B70)
-#define CLASS_1_95F1424C154A1551__CTOR_OFFSET UNITYSDK_OFFSET(0x11432BC0)
+#define CLASS_1_95F1424C154A1551_METHOD_1_6C48DDE725FE7AF8_OFFSET UNITYSDK_OFFSET(0x124497D0)
+#define CLASS_1_95F1424C154A1551__CTOR_OFFSET UNITYSDK_OFFSET(0x12449820)
 
-inline static constexpr unsigned int Class_1_95F1424C154A1551_TypeDefinitionIndex = 52938;
+inline static constexpr unsigned int Class_1_95F1424C154A1551_TypeDefinitionIndex = 60019;
 
 class Class_1_95F1424C154A1551 : public ::System::Object
 {

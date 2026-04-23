@@ -4,7 +4,7 @@
 namespace RPG::GameCore { class AIVariable; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_121_TypeDefinitionIndex = 33666;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_121_TypeDefinitionIndex = 39467;
 
 class Class_0_16E4307DCC419505_121
 {

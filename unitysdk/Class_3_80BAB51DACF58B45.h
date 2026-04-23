@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CloseRubbingUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_80BAB51DACF58B45_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10938380)
-#define CLASS_3_80BAB51DACF58B45__CTOR_OFFSET UNITYSDK_OFFSET(0x10938350)
+#define CLASS_3_80BAB51DACF58B45_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD1BA10)
+#define CLASS_3_80BAB51DACF58B45__CTOR_OFFSET UNITYSDK_OFFSET(0xCD1B9E0)
 
-inline static constexpr unsigned int Class_3_80BAB51DACF58B45_TypeDefinitionIndex = 42650;
+inline static constexpr unsigned int Class_3_80BAB51DACF58B45_TypeDefinitionIndex = 48629;
 
 class Class_3_80BAB51DACF58B45 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CloseRubbingUI*>
 {

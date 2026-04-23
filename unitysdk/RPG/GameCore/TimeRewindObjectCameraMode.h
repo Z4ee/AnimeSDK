@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindObjectCameraMode_TypeDefinitionIndex = 15217;
+	inline static constexpr unsigned int TimeRewindObjectCameraMode_TypeDefinitionIndex = 15731;
 
 	enum class TimeRewindObjectCameraMode : ::System::Int32
 	{

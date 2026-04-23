@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetupMapRotationCharger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8AB7DE406A632BED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C8C3E0)
-#define CLASS_3_8AB7DE406A632BED__CTOR_OFFSET UNITYSDK_OFFSET(0x8C8C3B0)
+#define CLASS_3_8AB7DE406A632BED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1239D8A0)
+#define CLASS_3_8AB7DE406A632BED__CTOR_OFFSET UNITYSDK_OFFSET(0x1239D870)
 
-inline static constexpr unsigned int Class_3_8AB7DE406A632BED_TypeDefinitionIndex = 42892;
+inline static constexpr unsigned int Class_3_8AB7DE406A632BED_TypeDefinitionIndex = 48876;
 
 class Class_3_8AB7DE406A632BED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetupMapRotationCharger*>
 {

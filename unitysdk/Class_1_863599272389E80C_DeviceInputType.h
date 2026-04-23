@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_863599272389E80C_DeviceInputType_TypeDefinitionIndex = 49012;
+inline static constexpr unsigned int Class_1_863599272389E80C_DeviceInputType_TypeDefinitionIndex = 55806;
 
 enum class Class_1_863599272389E80C_DeviceInputType : ::System::Int32
 {

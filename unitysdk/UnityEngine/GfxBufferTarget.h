@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GfxBufferTarget_TypeDefinitionIndex = 4184;
+	inline static constexpr unsigned int GfxBufferTarget_TypeDefinitionIndex = 4186;
 
 	enum class GfxBufferTarget : ::System::Int32
 	{

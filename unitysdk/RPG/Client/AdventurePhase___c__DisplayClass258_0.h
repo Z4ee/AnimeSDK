@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ToastPile; }
 
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS258_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9060950)
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS258_0___ONMAZEREFRESCHARACTERHP_B__0_OFFSET UNITYSDK_OFFSET(0x9060960)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS258_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9CBCBB0)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS258_0___ONMAZEREFRESCHARACTERHP_B__0_OFFSET UNITYSDK_OFFSET(0x9CBDF80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhase___c__DisplayClass258_0_TypeDefinitionIndex = 48703;
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass258_0_TypeDefinitionIndex = 55452;
 
 	class AdventurePhase___c__DisplayClass258_0 : public ::System::Object
 	{

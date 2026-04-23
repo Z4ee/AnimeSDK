@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameMasterInfoRivalItem_TypeDefinitionIndex = 52018;
+	inline static constexpr unsigned int IFateGameMasterInfoRivalItem_TypeDefinitionIndex = 58967;
 
 	class IFateGameMasterInfoRivalItem
 	{

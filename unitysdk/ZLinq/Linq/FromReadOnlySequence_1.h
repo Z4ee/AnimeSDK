@@ -7,7 +7,7 @@
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromReadOnlySequence_1_TypeDefinitionIndex = 6489;
+	inline static constexpr unsigned int FromReadOnlySequence_1_TypeDefinitionIndex = 6522;
 
 	template <typename T>
 	struct FromReadOnlySequence_1

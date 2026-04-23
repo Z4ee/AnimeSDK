@@ -7,21 +7,21 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_CONE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1889B460)
-#define UNITYENGINE_PROBUILDER_SHAPES_CONE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1889B780)
-#define UNITYENGINE_PROBUILDER_SHAPES_CONE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1889B4E0)
-#define UNITYENGINE_PROBUILDER_SHAPES_CONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1889C4C0)
+#define UNITYENGINE_PROBUILDER_SHAPES_CONE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2D5240)
+#define UNITYENGINE_PROBUILDER_SHAPES_CONE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2D5560)
+#define UNITYENGINE_PROBUILDER_SHAPES_CONE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A2D52C0)
+#define UNITYENGINE_PROBUILDER_SHAPES_CONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2D62A0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Cone_TypeDefinitionIndex = 34195;
+	inline static constexpr unsigned int Cone_TypeDefinitionIndex = 40014;
 
 	class Cone : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Single m_Radius; // 0x10
-		::System::Int32 m_NumberOfSides; // 0x14
-		::System::Boolean m_Smooth; // 0x18
+		::System::Boolean m_Smooth; // 0x10
+		::System::Single m_Radius; // 0x14
+		::System::Int32 m_NumberOfSides; // 0x18
 
 		::System::Void _ctor()
 		{

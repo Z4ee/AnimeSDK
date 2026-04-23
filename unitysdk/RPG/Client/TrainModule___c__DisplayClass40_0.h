@@ -4,19 +4,19 @@
 
 class Class_1_7CEC8DBE7729999B;
 
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E9BE0)
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS40_0___ADDTRAINVISITOR_B__0_OFFSET UNITYSDK_OFFSET(0xA5EA800)
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS40_0___ADDTRAINVISITOR_B__1_OFFSET UNITYSDK_OFFSET(0xA5EA830)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB32FB60)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS40_0___ADDTRAINVISITOR_B__0_OFFSET UNITYSDK_OFFSET(0xB330780)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS40_0___ADDTRAINVISITOR_B__1_OFFSET UNITYSDK_OFFSET(0xB3307B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainModule___c__DisplayClass40_0_TypeDefinitionIndex = 55643;
+	inline static constexpr unsigned int TrainModule___c__DisplayClass40_0_TypeDefinitionIndex = 62840;
 
 	class TrainModule___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 behaviorID; // 0x10
-		::System::UInt32 visitorID; // 0x14
+		::System::UInt32 visitorID; // 0x10
+		::System::UInt32 behaviorID; // 0x14
 
 		::System::Void _ctor()
 		{

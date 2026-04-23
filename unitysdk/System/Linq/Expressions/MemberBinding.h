@@ -5,12 +5,12 @@
 
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERBINDING_GET_BINDINGTYPE_OFFSET UNITYSDK_OFFSET(0x185025D0)
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERBINDING_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x185025E0)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERBINDING_GET_BINDINGTYPE_OFFSET UNITYSDK_OFFSET(0x19F3D460)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERBINDING_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x19F3D470)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberBinding_TypeDefinitionIndex = 3227;
+	inline static constexpr unsigned int MemberBinding_TypeDefinitionIndex = 3229;
 
 	class MemberBinding : public ::System::Object
 	{

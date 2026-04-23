@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwipeCameraStateEnum_TypeDefinitionIndex = 56955;
+	inline static constexpr unsigned int SwipeCameraStateEnum_TypeDefinitionIndex = 64206;
 
 	enum class SwipeCameraStateEnum : ::System::Int32
 	{

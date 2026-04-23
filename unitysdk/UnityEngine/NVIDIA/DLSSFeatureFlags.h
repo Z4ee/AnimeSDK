@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int DLSSFeatureFlags_TypeDefinitionIndex = 5161;
+	inline static constexpr unsigned int DLSSFeatureFlags_TypeDefinitionIndex = 5172;
 
 	enum class DLSSFeatureFlags : ::System::Int32
 	{

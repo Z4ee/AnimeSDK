@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SECURITYTUNNEL_FILE_RANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x858DDA0)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILE_RANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x8DC65A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_File_Range_TypeDefinitionIndex = 37143;
+	inline static constexpr unsigned int SecurityTunnel_File_Range_TypeDefinitionIndex = 42988;
 
 	class SecurityTunnel_File_Range : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Xml::Serialization { class XmlSerializationWriter; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZERIMPLEMENTATION_GET_WRITER_OFFSET UNITYSDK_OFFSET(0x185F0480)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZERIMPLEMENTATION_GET_WRITER_OFFSET UNITYSDK_OFFSET(0x1A02B250)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializerImplementation_TypeDefinitionIndex = 2030;
+	inline static constexpr unsigned int XmlSerializerImplementation_TypeDefinitionIndex = 2031;
 
 	class XmlSerializerImplementation : public ::System::Object
 	{

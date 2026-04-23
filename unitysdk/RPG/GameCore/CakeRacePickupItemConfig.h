@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 
-#define RPG_GAMECORE_CAKERACEPICKUPITEMCONFIG_METHOD_2_DB8526C48E6261D5_OFFSET UNITYSDK_OFFSET(0x1704E5B0)
-#define RPG_GAMECORE_CAKERACEPICKUPITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1704E870)
+#define RPG_GAMECORE_CAKERACEPICKUPITEMCONFIG_METHOD_2_DB8526C48E6261D5_OFFSET UNITYSDK_OFFSET(0x18773F20)
+#define RPG_GAMECORE_CAKERACEPICKUPITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187741E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePickupItemConfig_TypeDefinitionIndex = 16921;
+	inline static constexpr unsigned int CakeRacePickupItemConfig_TypeDefinitionIndex = 17515;
 
 	class CakeRacePickupItemConfig : public ::RPG::GameCore::JsonConfig
 	{

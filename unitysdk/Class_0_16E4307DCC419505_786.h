@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Spine { class AnimationState; }
-namespace Spine { class Skeleton; }
-namespace Spine { class TrackEntry; }
-namespace Spine::Unity { class SkeletonDataAsset; }
-namespace System { class String; }
+namespace RPG::Client { class RogueFormulaData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_786_TypeDefinitionIndex = 56381;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_786_TypeDefinitionIndex = 61696;
 
 class Class_0_16E4307DCC419505_786
 {

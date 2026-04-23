@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Effect_TransformToMaterialBehavior_TransformProperty.h"
+#include "unitysdk/RPG/Client/Effect_TransformToMaterialBehavior_TransformPropertyDirection_DirectionMode.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA210BB0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA2110A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyDirection_TypeDefinitionIndex = 65071;
+
+	class Effect_TransformToMaterialBehavior_TransformPropertyDirection : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
+	{
+	public:
+		::RPG::Client::Effect_TransformToMaterialBehavior_TransformPropertyDirection_DirectionMode directionMode; // 0x30
+		::System::Single length; // 0x34
+		::System::Single w; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector4 get_value()
+		{
+			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION_GET_VALUE_OFFSET))(this);
+		}
+	};
+}

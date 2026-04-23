@@ -3,7 +3,7 @@
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int IPrincipal_TypeDefinitionIndex = 978;
+	inline static constexpr unsigned int IPrincipal_TypeDefinitionIndex = 980;
 
 	class IPrincipal
 	{

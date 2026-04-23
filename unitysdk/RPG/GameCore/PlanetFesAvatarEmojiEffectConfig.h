@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PlanetFesAvatarEmojiEffectInfo; }
 
-#define RPG_GAMECORE_PLANETFESAVATAREMOJIEFFECTCONFIG_METHOD_2_CD20768261C895EB_OFFSET UNITYSDK_OFFSET(0x174B4F40)
-#define RPG_GAMECORE_PLANETFESAVATAREMOJIEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174B5040)
+#define RPG_GAMECORE_PLANETFESAVATAREMOJIEFFECTCONFIG_METHOD_2_CD20768261C895EB_OFFSET UNITYSDK_OFFSET(0x18C00510)
+#define RPG_GAMECORE_PLANETFESAVATAREMOJIEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C00610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarEmojiEffectConfig_TypeDefinitionIndex = 14873;
+	inline static constexpr unsigned int PlanetFesAvatarEmojiEffectConfig_TypeDefinitionIndex = 15380;
 
 	class PlanetFesAvatarEmojiEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_58D4E6FABD47E257;
+
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_GET_ENTERTIME_OFFSET UNITYSDK_OFFSET(0xABF0B70)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_GET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0xABF0B90)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0xABF0B50)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_SET_ENTERTIME_OFFSET UNITYSDK_OFFSET(0xABF0B80)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_SET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0xABF0BA0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_SET_UID_OFFSET UNITYSDK_OFFSET(0xABF0B60)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xABEF7B0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int OnlinePlayRoomModule_PendingVisitUIDInfo_TypeDefinitionIndex = 61161;
+
+	class OnlinePlayRoomModule_PendingVisitUIDInfo : public ::System::Object
+	{
+	public:
+		::Class_1_58D4E6FABD47E257* _PlayerInfo_k__BackingField; // 0x10
+		::System::UInt64 _EnterTime_k__BackingField; // 0x18
+		::System::UInt32 _Uid_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Uid()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_GET_UID_OFFSET))(this);
+		}
+
+		::System::Void set_Uid(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_SET_UID_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_EnterTime()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_GET_ENTERTIME_OFFSET))(this);
+		}
+
+		::System::Void set_EnterTime(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_SET_ENTERTIME_OFFSET))(this, value);
+		}
+
+		::Class_1_58D4E6FABD47E257* get_PlayerInfo()
+		{
+			return ((::Class_1_58D4E6FABD47E257*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_GET_PLAYERINFO_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerInfo(::Class_1_58D4E6FABD47E257* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_58D4E6FABD47E257*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_PENDINGVISITUIDINFO_SET_PLAYERINFO_OFFSET))(this, value);
+		}
+	};
+}

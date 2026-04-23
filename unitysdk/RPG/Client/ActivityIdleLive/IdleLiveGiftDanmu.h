@@ -1,0 +1,249 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/IdleLiveGiftEffectType.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_B18A907A8E4C5C9C;
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class MonoAnimationTrigger; }
+namespace RPG::Client { class UIStateCtrl; }
+namespace RPG::Client::ActivityIdleLive { class IdleLiveGiftUiData; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class Text; }
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x9B64E60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_GET_ISEND_OFFSET UNITYSDK_OFFSET(0x9B63200)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_HASLEFTRIGHTEDGE_OFFSET UNITYSDK_OFFSET(0x9B64C50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_INIT_OFFSET UNITYSDK_OFFSET(0x9B63220)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x9B64610)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_2FF85733DB45EE9C_OFFSET UNITYSDK_OFFSET(0x9B64320)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9B64940)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x9B63560)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_619C3A6FDF244E84_OFFSET UNITYSDK_OFFSET(0x9B63DB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_668BDFE1EBB772E4_OFFSET UNITYSDK_OFFSET(0x9B63E10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x9B63450)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_8FF354B64B657510_OFFSET UNITYSDK_OFFSET(0x9B63E90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0x9B64DB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x9B64280)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_A9805CA46D68009E_OFFSET UNITYSDK_OFFSET(0x9B64010)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x9B634A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0x9B64A80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_BE4EBC8FF4054312_OFFSET UNITYSDK_OFFSET(0x9B64A30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9B649C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x9B64160)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_F349AC8B605EDC90_OFFSET UNITYSDK_OFFSET(0x9B63D50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_ONCREATE_OFFSET UNITYSDK_OFFSET(0x9B64F20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9B64EC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_PAUSE_OFFSET UNITYSDK_OFFSET(0x9B63260)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_RESUME_OFFSET UNITYSDK_OFFSET(0x9B63380)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_SET_ISEND_OFFSET UNITYSDK_OFFSET(0x9B63210)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_SPAWNED_OFFSET UNITYSDK_OFFSET(0x9B64D60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_STARTPERFORM_OFFSET UNITYSDK_OFFSET(0x9B63860)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_UPDATE_OFFSET UNITYSDK_OFFSET(0x9B64100)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU__CTOR_OFFSET UNITYSDK_OFFSET(0x9B653B0)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int IdleLiveGiftDanmu_TypeDefinitionIndex = 69237;
+
+	class IdleLiveGiftDanmu : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		// static const ::System::String* Field_5_30; // 0x0
+		// static const ::System::String* Field_5_31; // 0x0
+		::System::Single Field_5_0; // 0x18
+		::System::UInt32 Field_5_1; // 0x1C
+		::System::Boolean Field_5_2; // 0x20
+		::RPG::Client::UIStateCtrl* Field_5_3; // 0x28
+		::RPG::Client::UIStateCtrl* Field_5_4; // 0x30
+		::UnityEngine::UI::Text* Field_5_5; // 0x38
+		::UnityEngine::UI::Text* Field_5_6; // 0x40
+		::UnityEngine::Vector2 Field_5_7; // 0x48
+		::UnityEngine::Vector2 Field_5_8; // 0x50
+		::RPG::Client::AnimatorButton* Field_5_9; // 0x58
+		::UnityEngine::Animation* Field_5_10; // 0x60
+		::RPG::Client::UIStateCtrl* Field_5_11; // 0x68
+		::UnityEngine::Transform* Field_5_12; // 0x70
+		::UnityEngine::UI::Text* Field_5_13; // 0x78
+		::UnityEngine::RectTransform* Field_5_14; // 0x80
+		::UnityEngine::Transform* Field_5_15; // 0x88
+		::RPG::Client::MonoAnimationTrigger* Field_5_16; // 0x90
+		::Il2CppArray<::UnityEngine::Vector3>* Field_5_17; // 0x98
+		::System::Boolean Field_5_18; // 0xA0
+		::System::UInt32 Field_5_19; // 0xA4
+		::System::UInt32 Field_5_20; // 0xA8
+		::System::UInt32 Field_5_21; // 0xAC
+		::System::Single Field_5_22; // 0xB0
+		::System::Boolean Field_5_23; // 0xB4
+		::System::Boolean Field_5_24; // 0xB5
+		::System::String* Field_5_25; // 0xB8
+		::RPG::GameCore::IdleLiveGiftEffectType Field_5_26; // 0xC0
+		::System::Boolean Field_5_27; // 0xC4
+		::System::Single Field_5_28; // 0xC8
+		::Class_1_B18A907A8E4C5C9C* Field_5_29; // 0xD0
+		::System::UInt32 Field_5_32; // 0xD8
+		::System::Boolean _IsEnd_k__BackingField; // 0xDC
+		::UnityEngine::UI::Text* Field_5_34; // 0xE0
+		::UnityEngine::UI::Image* Field_5_35; // 0xE8
+		::UnityEngine::UI::Image* Field_5_36; // 0xF0
+		::UnityEngine::UI::Image* Field_5_37; // 0xF8
+		::UnityEngine::RectTransform* Field_5_38; // 0x100
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEnd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_GET_ISEND_OFFSET))(this);
+		}
+
+		::System::Void set_IsEnd(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_SET_ISEND_OFFSET))(this, value);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_INIT_OFFSET))(this);
+		}
+
+		::System::Void Pause()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_PAUSE_OFFSET))(this);
+		}
+
+		::System::Void Resume()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_RESUME_OFFSET))(this);
+		}
+
+		::System::Void Method_5_7744894CEC41BF06()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_7744894CEC41BF06_OFFSET))(this);
+		}
+
+		::System::Void Method_5_B1936CE4DA97AA45()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_B1936CE4DA97AA45_OFFSET))(this);
+		}
+
+		::System::Void Method_5_508D4DD02D3DB74E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_508D4DD02D3DB74E_OFFSET))(this);
+		}
+
+		::System::Void StartPerform(::RPG::Client::ActivityIdleLive::IdleLiveGiftUiData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveGiftUiData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_STARTPERFORM_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_668BDFE1EBB772E4(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_668BDFE1EBB772E4_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_8FF354B64B657510(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_8FF354B64B657510_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_A9805CA46D68009E(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_A9805CA46D68009E_OFFSET))(this, a1);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void Method_5_9681042564541CD6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_9681042564541CD6_OFFSET))(this);
+		}
+
+		::System::Void Method_5_2FF85733DB45EE9C(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_2FF85733DB45EE9C_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_1290EA767C459179()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_1290EA767C459179_OFFSET))(this);
+		}
+
+		::System::Void Method_5_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_5_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_5_D0BD1377F2594D33()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_D0BD1377F2594D33_OFFSET))(this);
+		}
+
+		::System::Void Method_5_BE4EBC8FF4054312()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_BE4EBC8FF4054312_OFFSET))(this);
+		}
+
+		::System::Void Method_5_B961D33AD47A2113()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_B961D33AD47A2113_OFFSET))(this);
+		}
+
+		::System::Boolean HasLeftRightEdge()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_HASLEFTRIGHTEDGE_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::Text* Method_5_F349AC8B605EDC90()
+		{
+			return ((::UnityEngine::UI::Text*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_F349AC8B605EDC90_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::Image* Method_5_619C3A6FDF244E84()
+		{
+			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_619C3A6FDF244E84_OFFSET))(this);
+		}
+
+		::System::Void Spawned()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_SPAWNED_OFFSET))(this);
+		}
+
+		::System::Void Method_5_9681042564541CD6_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_METHOD_5_9681042564541CD6_1_OFFSET))(this);
+		}
+
+		::System::Void Despawned()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_DESPAWNED_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnCreate(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU_ONCREATE_OFFSET))(this, a1);
+		}
+	};
+}

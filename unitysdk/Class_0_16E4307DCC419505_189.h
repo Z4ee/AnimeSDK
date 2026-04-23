@@ -1,15 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/RPG/Client/LittleGame/Match3/Match3GameState.h"
 
-class Class_0_16E4307DCC419505_85;
-class Class_1_47EE63CB5C4DC8FC_5;
-class Class_2_9850514C0F89B91A;
-namespace System { class String; }
-namespace UnityEngine { class Transform; }
+class Class_2_536CC4186B095618;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_189_TypeDefinitionIndex = 32631;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_189_TypeDefinitionIndex = 38291;
 
 class Class_0_16E4307DCC419505_189
 {

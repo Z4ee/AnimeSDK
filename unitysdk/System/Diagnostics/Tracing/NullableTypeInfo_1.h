@@ -11,7 +11,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggin
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int NullableTypeInfo_1_TypeDefinitionIndex = 1648;
+	inline static constexpr unsigned int NullableTypeInfo_1_TypeDefinitionIndex = 1649;
 
 	template <typename T>
 	class NullableTypeInfo_1 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::Nullable_1<T>>

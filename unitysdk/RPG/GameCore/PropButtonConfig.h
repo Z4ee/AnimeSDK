@@ -9,12 +9,12 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPBUTTONCONFIG_METHOD_2_830FA125FCF6A841_OFFSET UNITYSDK_OFFSET(0x175164E0)
-#define RPG_GAMECORE_PROPBUTTONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17516710)
+#define RPG_GAMECORE_PROPBUTTONCONFIG_METHOD_2_830FA125FCF6A841_OFFSET UNITYSDK_OFFSET(0x18C65840)
+#define RPG_GAMECORE_PROPBUTTONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C65A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropButtonConfig_TypeDefinitionIndex = 16128;
+	inline static constexpr unsigned int PropButtonConfig_TypeDefinitionIndex = 16659;
 
 	class PropButtonConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,14 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class GridFightForgeItemData; }
-namespace RPG::Client { class GridFightGridMember; }
-namespace RPG::Client { class GridFightNPC; }
-namespace RPG::Client { class GridFightProjection; }
-namespace RPG::Client { class GridFightRole; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_1_21C7581DFE99F091_3;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_627_TypeDefinitionIndex = 52426;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_627_TypeDefinitionIndex = 56993;
 
 class Class_0_16E4307DCC419505_627
 {

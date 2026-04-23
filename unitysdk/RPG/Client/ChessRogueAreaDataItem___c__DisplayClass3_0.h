@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChessRogueAreaLayerDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEAREADATAITEM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93621E0)
-#define RPG_CLIENT_CHESSROGUEAREADATAITEM___C__DISPLAYCLASS3_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x93636E0)
+#define RPG_CLIENT_CHESSROGUEAREADATAITEM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FCFF80)
+#define RPG_CLIENT_CHESSROGUEAREADATAITEM___C__DISPLAYCLASS3_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x9FD1490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueAreaDataItem___c__DisplayClass3_0_TypeDefinitionIndex = 54423;
+	inline static constexpr unsigned int ChessRogueAreaDataItem___c__DisplayClass3_0_TypeDefinitionIndex = 61611;
 
 	class ChessRogueAreaDataItem___c__DisplayClass3_0 : public ::System::Object
 	{

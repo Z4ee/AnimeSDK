@@ -6,10 +6,10 @@ namespace RPG::GameCore { class LoadSwordTrainingProperty; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_CBAF8F582595AEF6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8869910)
-#define CLASS_3_CBAF8F582595AEF6__CTOR_OFFSET UNITYSDK_OFFSET(0x88698E0)
+#define CLASS_3_CBAF8F582595AEF6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0B4520)
+#define CLASS_3_CBAF8F582595AEF6__CTOR_OFFSET UNITYSDK_OFFSET(0xC0B44F0)
 
-inline static constexpr unsigned int Class_3_CBAF8F582595AEF6_TypeDefinitionIndex = 44130;
+inline static constexpr unsigned int Class_3_CBAF8F582595AEF6_TypeDefinitionIndex = 50836;
 
 class Class_3_CBAF8F582595AEF6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LoadSwordTrainingProperty*>
 {

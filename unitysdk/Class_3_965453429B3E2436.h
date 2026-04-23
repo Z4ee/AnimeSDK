@@ -7,16 +7,16 @@ class Class_2_3ABA989E5AECB261;
 class Class_2_FBC1E64DC5B2C441;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareHasEffect; }
 
-#define CLASS_3_965453429B3E2436_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167320B0)
-#define CLASS_3_965453429B3E2436__CTOR_OFFSET UNITYSDK_OFFSET(0x16731FE0)
+#define CLASS_3_965453429B3E2436_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17CC1040)
+#define CLASS_3_965453429B3E2436__CTOR_OFFSET UNITYSDK_OFFSET(0x17CC0F70)
 
-inline static constexpr unsigned int Class_3_965453429B3E2436_TypeDefinitionIndex = 28754;
+inline static constexpr unsigned int Class_3_965453429B3E2436_TypeDefinitionIndex = 34479;
 
 class Class_3_965453429B3E2436 : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_CakeRaceByCompareHasEffect*>
 {
 public:
-	::Class_2_FBC1E64DC5B2C441* Field_3_1; // 0x28
-	::Class_2_3ABA989E5AECB261* Field_3_0; // 0x30
+	::Class_2_3ABA989E5AECB261* Field_3_0; // 0x28
+	::Class_2_FBC1E64DC5B2C441* Field_3_1; // 0x30
 
 	::System::Void _ctor(::Class_1_8A3C2FE068793E61* a1, ::RPG::Client::LittleGameShare::ST_CakeRaceByCompareHasEffect* a2)
 	{

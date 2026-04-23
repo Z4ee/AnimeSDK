@@ -4,29 +4,29 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96B33C0)
-#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x96B3400)
-#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__GET_HASREWARDCANTAKE_B__27_0_OFFSET UNITYSDK_OFFSET(0x96B3410)
-#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__GET_ISFINISHALLQUEST_B__29_0_OFFSET UNITYSDK_OFFSET(0x96B3480)
+#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA372EB0)
+#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA372EF0)
+#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__GET_HASREWARDCANTAKE_B__27_0_OFFSET UNITYSDK_OFFSET(0xA372F00)
+#define RPG_CLIENT_FIGHTFESTCHALLENGELEVELDATA___C__GET_ISFINISHALLQUEST_B__29_0_OFFSET UNITYSDK_OFFSET(0xA372F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestChallengeLevelData___c_TypeDefinitionIndex = 52090;
+	inline static constexpr unsigned int FightFestChallengeLevelData___c_TypeDefinitionIndex = 59040;
 
 	class FightFestChallengeLevelData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FightFestChallengeLevelData___c** StaticGet___9()
-		{
-			return (::RPG::Client::FightFestChallengeLevelData___c**)Il2CppClass::FromTypeDefinitionIndex(FightFestChallengeLevelData___c_TypeDefinitionIndex)->GetStaticField(0x4520);
-		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FightFestChallengeLevelData___c_TypeDefinitionIndex)->GetStaticField(0x4528);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FightFestChallengeLevelData___c_TypeDefinitionIndex)->GetStaticField(0xCE60);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FightFestChallengeLevelData___c_TypeDefinitionIndex)->GetStaticField(0x4530);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FightFestChallengeLevelData___c_TypeDefinitionIndex)->GetStaticField(0xCE68);
+		}
+		static ::RPG::Client::FightFestChallengeLevelData___c** StaticGet___9()
+		{
+			return (::RPG::Client::FightFestChallengeLevelData___c**)Il2CppClass::FromTypeDefinitionIndex(FightFestChallengeLevelData___c_TypeDefinitionIndex)->GetStaticField(0xCE70);
 		}
 
 		static ::System::Void _cctor()

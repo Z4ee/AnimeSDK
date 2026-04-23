@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGameShare/ReplicatedCondition.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_26B7C5CF09053420__CTOR_OFFSET UNITYSDK_OFFSET(0x16709130)
+#define CLASS_2_26B7C5CF09053420__CTOR_OFFSET UNITYSDK_OFFSET(0x17C2A800)
 
-inline static constexpr unsigned int Class_2_26B7C5CF09053420_TypeDefinitionIndex = 28654;
+inline static constexpr unsigned int Class_2_26B7C5CF09053420_TypeDefinitionIndex = 34383;
 
 class Class_2_26B7C5CF09053420 : public ::System::Attribute
 {

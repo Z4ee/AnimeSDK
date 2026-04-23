@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionSourceType_TypeDefinitionIndex = 50488;
+	inline static constexpr unsigned int RegionSourceType_TypeDefinitionIndex = 57351;
 
 	enum class RegionSourceType : ::System::Int32
 	{

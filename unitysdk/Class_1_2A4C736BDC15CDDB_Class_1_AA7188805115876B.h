@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_2A4C736BDC15CDDB_CLASS_1_AA7188805115876B__CTOR_OFFSET UNITYSDK_OFFSET(0x104D61B0)
+#define CLASS_1_2A4C736BDC15CDDB_CLASS_1_AA7188805115876B__CTOR_OFFSET UNITYSDK_OFFSET(0x938EFE0)
 
-inline static constexpr unsigned int Class_1_2A4C736BDC15CDDB_Class_1_AA7188805115876B_TypeDefinitionIndex = 56789;
+inline static constexpr unsigned int Class_1_2A4C736BDC15CDDB_Class_1_AA7188805115876B_TypeDefinitionIndex = 64034;
 
 class Class_1_2A4C736BDC15CDDB_Class_1_AA7188805115876B : public ::System::Object
 {

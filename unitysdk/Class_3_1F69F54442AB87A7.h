@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByMagicUnitCounter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1F69F54442AB87A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11684180)
-#define CLASS_3_1F69F54442AB87A7__CTOR_OFFSET UNITYSDK_OFFSET(0x116840A0)
+#define CLASS_3_1F69F54442AB87A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD4C8C0)
+#define CLASS_3_1F69F54442AB87A7__CTOR_OFFSET UNITYSDK_OFFSET(0xCD4C7E0)
 
-inline static constexpr unsigned int Class_3_1F69F54442AB87A7_TypeDefinitionIndex = 44405;
+inline static constexpr unsigned int Class_3_1F69F54442AB87A7_TypeDefinitionIndex = 51123;
 
 class Class_3_1F69F54442AB87A7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByMagicUnitCounter*>
 {

@@ -5,12 +5,12 @@
 
 namespace RPG::Client::LittleGame::CakeRace { class MonoCakeRaceAudioPostEvent; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_MONOCAKERACEAUDIOPOSTEVENT___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x998B050)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_MONOCAKERACEAUDIOPOSTEVENT___C__DISPLAYCLASS6_0___POSTAUDIOEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x998B360)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_MONOCAKERACEAUDIOPOSTEVENT___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA67B840)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_MONOCAKERACEAUDIOPOSTEVENT___C__DISPLAYCLASS6_0___POSTAUDIOEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xA67BB50)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent___c__DisplayClass6_0_TypeDefinitionIndex = 63441;
+	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent___c__DisplayClass6_0_TypeDefinitionIndex = 71481;
 
 	class MonoCakeRaceAudioPostEvent___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace System::Collections { class IEnumerable; }
 namespace System::Collections { class IEnumerator; }
 
-#define CLASS_1_BDC4D244B5328126_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164B5C30)
-#define CLASS_1_BDC4D244B5328126__CTOR_OFFSET UNITYSDK_OFFSET(0x164B5AF0)
+#define CLASS_1_BDC4D244B5328126_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B52580)
+#define CLASS_1_BDC4D244B5328126__CTOR_OFFSET UNITYSDK_OFFSET(0x17B52440)
 
-inline static constexpr unsigned int Class_1_BDC4D244B5328126_TypeDefinitionIndex = 32007;
+inline static constexpr unsigned int Class_1_BDC4D244B5328126_TypeDefinitionIndex = 37727;
 
 class Class_1_BDC4D244B5328126 : public ::System::Object
 {

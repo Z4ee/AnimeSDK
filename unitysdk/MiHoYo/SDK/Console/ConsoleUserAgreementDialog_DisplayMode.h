@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUserAgreementDialog_DisplayMode_TypeDefinitionIndex = 7626;
+	inline static constexpr unsigned int ConsoleUserAgreementDialog_DisplayMode_TypeDefinitionIndex = 7767;
 
 	enum class ConsoleUserAgreementDialog_DisplayMode : ::System::Int32
 	{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetConcat; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_4ACF469823CF5355_EVALUATE_OFFSET UNITYSDK_OFFSET(0x117370B0)
-#define CLASS_3_4ACF469823CF5355__CTOR_OFFSET UNITYSDK_OFFSET(0x11737030)
+#define CLASS_3_4ACF469823CF5355_EVALUATE_OFFSET UNITYSDK_OFFSET(0x97B7B50)
+#define CLASS_3_4ACF469823CF5355__CTOR_OFFSET UNITYSDK_OFFSET(0x97B7AD0)
 
-inline static constexpr unsigned int Class_3_4ACF469823CF5355_TypeDefinitionIndex = 47858;
+inline static constexpr unsigned int Class_3_4ACF469823CF5355_TypeDefinitionIndex = 54599;
 
 class Class_3_4ACF469823CF5355 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetConcat*>
 {

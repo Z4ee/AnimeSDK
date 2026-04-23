@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatSkillPreviewLogicInvokeType_TypeDefinitionIndex = 28581;
+	inline static constexpr unsigned int DiceCombatSkillPreviewLogicInvokeType_TypeDefinitionIndex = 34290;
 
 	enum class DiceCombatSkillPreviewLogicInvokeType : ::System::Int32
 	{
@@ -11,5 +11,6 @@ namespace RPG::LittleGameShare::DiceCombatCore
 		OnRollDiceResult = 2,
 		OnDiceChange = 3,
 		OnPlayerConfirm = 4,
+		OnExchange = 5,
 	};
 }

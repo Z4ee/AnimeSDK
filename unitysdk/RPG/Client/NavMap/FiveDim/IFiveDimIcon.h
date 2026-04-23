@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimIcon_TypeDefinitionIndex = 61375;
+	inline static constexpr unsigned int IFiveDimIcon_TypeDefinitionIndex = 68881;
 
 	class IFiveDimIcon
 	{

@@ -8,15 +8,15 @@ namespace RPG::Client::FullBody { class IKSolverFullBody; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_1C648BC3BB33C550_OFFSET UNITYSDK_OFFSET(0x9731F60)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_73264D810B7A8424_OFFSET UNITYSDK_OFFSET(0x9731FB0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_A980FB7965D4A13F_OFFSET UNITYSDK_OFFSET(0x9731F10)
-#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_CA9AD3D703CC4954_OFFSET UNITYSDK_OFFSET(0x97320B0)
-#define RPG_CLIENT_FULLBODY_IKMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x9732250)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_1C648BC3BB33C550_OFFSET UNITYSDK_OFFSET(0xA3F2AC0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_3BF20E257E21CE1B_OFFSET UNITYSDK_OFFSET(0xA3F2B10)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_A980FB7965D4A13F_OFFSET UNITYSDK_OFFSET(0xA3F2A70)
+#define RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_CA9AD3D703CC4954_OFFSET UNITYSDK_OFFSET(0xA3F2BE0)
+#define RPG_CLIENT_FULLBODY_IKMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F2D80)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKMapping_TypeDefinitionIndex = 60906;
+	inline static constexpr unsigned int IKMapping_TypeDefinitionIndex = 68355;
 
 	class IKMapping : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace RPG::Client::FullBody
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::IKSolverFullBody*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_1C648BC3BB33C550_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_73264D810B7A8424(::UnityEngine::Transform* a1, ::RPG::Client::FullBody::IKSolver* a2, ::System::String*& a3)
+		::System::Boolean Method_1_3BF20E257E21CE1B(::UnityEngine::Transform* a1, ::RPG::Client::FullBody::IKSolver* a2, ::System::String*& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::FullBody::IKSolver*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_73264D810B7A8424_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::FullBody::IKSolver*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_IKMAPPING_METHOD_1_3BF20E257E21CE1B_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 Method_1_CA9AD3D703CC4954(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)

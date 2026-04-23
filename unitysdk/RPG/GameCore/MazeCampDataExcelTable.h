@@ -12,51 +12,51 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATABYCACHE_OFFSET UNITYSDK_OFFSET(0x173BF120)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x173BE860)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x173BE6B0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x173BE380)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x173BE650)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x173BEA30)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x173BE400)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x173BF0E0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x173BEA70)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x173BEC50)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x173BEDD0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x173BF520)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x173BEBB0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x173BEB10)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATABYCACHE_OFFSET UNITYSDK_OFFSET(0x18ACD660)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18ACCDA0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18ACCBF0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18ACC8C0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18ACCB90)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18ACCF70)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18ACC940)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x18ACD620)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18ACCFB0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ACD190)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18ACD310)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18ACDA50)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18ACD0F0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18ACD050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeCampDataExcelTable_TypeDefinitionIndex = 12843;
+	inline static constexpr unsigned int MazeCampDataExcelTable_TypeDefinitionIndex = 13305;
 
 	class MazeCampDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x28F00);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x34B90);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x28F08);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>** StaticGet__cacheDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x28F10);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x34B98);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x28F18);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x34BA0);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>** StaticGet__cacheDict()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xD790);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x34BA8);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xD791);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xCFC0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xCFC1);
 		}
 
 		static ::System::Void _cctor()

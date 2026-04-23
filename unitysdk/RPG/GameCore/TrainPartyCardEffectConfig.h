@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyActionConfigBase; }
 
-#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_METHOD_2_4968D65E0325ED76_OFFSET UNITYSDK_OFFSET(0x178A9950)
-#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178A9A50)
+#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_METHOD_2_4968D65E0325ED76_OFFSET UNITYSDK_OFFSET(0x190A8640)
+#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190A8740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 16593;
+	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 17185;
 
 	class TrainPartyCardEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

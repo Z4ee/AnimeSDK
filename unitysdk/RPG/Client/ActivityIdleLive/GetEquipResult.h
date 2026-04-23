@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/EquipBallFadeOutType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_36E3880E987172D7_6;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_CREATEFROMRSP_OFFSET UNITYSDK_OFFSET(0x9B297F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETALLRARITYLIST_OFFSET UNITYSDK_OFFSET(0x9B2A8D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDNORETRARITYLIST_OFFSET UNITYSDK_OFFSET(0x9B2A780)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDRETRARITYLIST_OFFSET UNITYSDK_OFFSET(0x9B2A730)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETFADEOUTTYPELIST_OFFSET UNITYSDK_OFFSET(0x9B2AA10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETRETAINEDRARITYLIST_OFFSET UNITYSDK_OFFSET(0x9B2A240)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETTOTALEQUIPNUM_OFFSET UNITYSDK_OFFSET(0x9B2A7D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2A230)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__SUBTRACTDICT_OFFSET UNITYSDK_OFFSET(0x9B2A2D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__UNFOLDDICT_OFFSET UNITYSDK_OFFSET(0x9B2A450)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int GetEquipResult_TypeDefinitionIndex = 69359;
+
+	class GetEquipResult : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* AllEquipRarityNumDict; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DecomposedRetRarityNumDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DecomposedNoRetRarityNumDict; // 0x20
+		::System::UInt32 GetEquipNum; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ActivityIdleLive::GetEquipResult* CreateFromRsp(::Class_1_36E3880E987172D7_6* rsp)
+		{
+			return ((::RPG::Client::ActivityIdleLive::GetEquipResult*(*)(::Class_1_36E3880E987172D7_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_CREATEFROMRSP_OFFSET))(rsp);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetRetainedRarityList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETRETAINEDRARITYLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetDecomposedRetRarityList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDRETRARITYLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetDecomposedNoRetRarityList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDNORETRARITYLIST_OFFSET))(this);
+		}
+
+		::System::UInt32 GetTotalEquipNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETTOTALEQUIPNUM_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetAllRarityList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETALLRARITYLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::EquipBallFadeOutType>* GetFadeOutTypeList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::EquipBallFadeOutType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETFADEOUTTYPELIST_OFFSET))(this);
+		}
+
+		static ::System::Void _SubtractDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* source, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* toSubtract)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__SUBTRACTDICT_OFFSET))(source, toSubtract);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::UInt32>* _UnfoldDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* dict)
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__UNFOLDDICT_OFFSET))(dict);
+		}
+	};
+}

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Update_ScriptRunDelayedTasks_TypeDefinitionIndex = 4417;
+	inline static constexpr unsigned int Update_ScriptRunDelayedTasks_TypeDefinitionIndex = 4419;
 
 	struct alignas(1) Update_ScriptRunDelayedTasks
 	{

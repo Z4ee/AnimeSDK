@@ -8,19 +8,19 @@ namespace RPG::Client { class ChimeraDuelPvpTeamSnapshot; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9390590)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x9392250)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FFE4D0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xA0001C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 51471;
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 58409;
 
 	class ChimeraDuelBattlePageViewModel___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* info; // 0x10
-		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* enemyTeam; // 0x18
-		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* allyTeam; // 0x20
+		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* allyTeam; // 0x10
+		::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* info; // 0x18
+		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* enemyTeam; // 0x20
 
 		::System::Void _ctor()
 		{

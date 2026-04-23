@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SOMATOCOMMONCAMERACONFIG_METHOD_2_8EF0423777EA30A5_OFFSET UNITYSDK_OFFSET(0x17710490)
-#define RPG_GAMECORE_SOMATOCOMMONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17710600)
+#define RPG_GAMECORE_SOMATOCOMMONCAMERACONFIG_METHOD_2_8EF0423777EA30A5_OFFSET UNITYSDK_OFFSET(0x18E73FE0)
+#define RPG_GAMECORE_SOMATOCOMMONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E74150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SomatoCommonCameraConfig_TypeDefinitionIndex = 15038;
+	inline static constexpr unsigned int SomatoCommonCameraConfig_TypeDefinitionIndex = 15546;
 
 	class SomatoCommonCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

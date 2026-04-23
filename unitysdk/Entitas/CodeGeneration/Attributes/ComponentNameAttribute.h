@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_COMPONENTNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A81380)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_COMPONENTNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C50120)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int ComponentNameAttribute_TypeDefinitionIndex = 9760;
+	inline static constexpr unsigned int ComponentNameAttribute_TypeDefinitionIndex = 9893;
 
 	class ComponentNameAttribute : public ::System::Attribute
 	{

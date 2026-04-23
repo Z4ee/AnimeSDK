@@ -7,22 +7,22 @@
 class Class_3_1A5B091AD56E7FD6;
 namespace UnityEngine { class ParticleSystem; }
 
-#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xAC378F0)
-#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xAC37910)
-#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xAC37900)
-#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC379A0)
-#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xAC37960)
+#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xB9AE7C0)
+#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xB9AE7E0)
+#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xB9AE7D0)
+#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9AE870)
+#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xB9AE830)
 
 namespace VLB
 {
-	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 39715;
+	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 45624;
 
 	class VolumetricDustParticles : public ::RPG::Client::TAMonoPlugin_1<::Class_3_1A5B091AD56E7FD6*>
 	{
 	public:
 		static ::System::Boolean* StaticGet_isFeatureSupported()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x3880);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x3290);
 		}
 		::VLB::VolumetricDustParticles_ParticleType particleType; // 0x30
 		::UnityEngine::ParticleSystem* particlePrefab; // 0x38

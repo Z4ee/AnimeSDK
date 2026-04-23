@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_Mode_TypeDefinitionIndex = 30889;
+	inline static constexpr unsigned int TargetPositionCache_Mode_TypeDefinitionIndex = 36609;
 
 	enum class TargetPositionCache_Mode : ::System::Int32
 	{

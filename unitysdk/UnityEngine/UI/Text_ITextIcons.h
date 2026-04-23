@@ -6,7 +6,7 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Text_ITextIcons_TypeDefinitionIndex = 5731;
+	inline static constexpr unsigned int Text_ITextIcons_TypeDefinitionIndex = 5743;
 
 	class Text_ITextIcons
 	{

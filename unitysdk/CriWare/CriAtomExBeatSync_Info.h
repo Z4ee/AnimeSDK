@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 31026;
+	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 36746;
 
 	struct alignas(8) CriAtomExBeatSync_Info
 	{

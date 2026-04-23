@@ -10,34 +10,34 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DFD900)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DFD930)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GETCHESTICONS_B__5_0_OFFSET UNITYSDK_OFFSET(0x9DFD940)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GET_ALLFACES_B__20_0_OFFSET UNITYSDK_OFFSET(0x9DFD9D0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C___COLLECTTRACKINGMISSIONICON_B__10_0_OFFSET UNITYSDK_OFFSET(0x9DFD960)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB45CA0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB45CD0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GETCHESTICONS_B__5_0_OFFSET UNITYSDK_OFFSET(0xAB45CE0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GET_ALLFACES_B__20_0_OFFSET UNITYSDK_OFFSET(0xAB45D70)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C___COLLECTTRACKINGMISSIONICON_B__10_0_OFFSET UNITYSDK_OFFSET(0xAB45D00)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int CartographyFiveDim___c_TypeDefinitionIndex = 61372;
+	inline static constexpr unsigned int CartographyFiveDim___c_TypeDefinitionIndex = 68878;
 
 	class CartographyFiveDim___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x45190);
-		}
-		static ::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>** StaticGet___9__20_0()
-		{
-			return (::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x45198);
-		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x451A0);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x4DFF0);
 		}
 		static ::RPG::Client::NavMap::FiveDim::CartographyFiveDim___c** StaticGet___9()
 		{
-			return (::RPG::Client::NavMap::FiveDim::CartographyFiveDim___c**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x451A8);
+			return (::RPG::Client::NavMap::FiveDim::CartographyFiveDim___c**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x4DFF8);
+		}
+		static ::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x4E000);
+		}
+		static ::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>** StaticGet___9__20_0()
+		{
+			return (::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x4E008);
 		}
 
 		static ::System::Void _cctor()

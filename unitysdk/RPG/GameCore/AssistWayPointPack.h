@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AssistWayPoint; }
 namespace RPG::GameCore { class AssistWayPointFastComplete; }
 namespace RPG::GameCore { class AssistWayPointLittleGameCondition; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_3571B5E4844EAD28_OFFSET UNITYSDK_OFFSET(0x16F89250)
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16F89470)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_3571B5E4844EAD28_OFFSET UNITYSDK_OFFSET(0x186AC600)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x186AC820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointPack_TypeDefinitionIndex = 17421;
+	inline static constexpr unsigned int AssistWayPointPack_TypeDefinitionIndex = 18029;
 
 	class AssistWayPointPack : public ::RPG::GameCore::JsonConfig
 	{

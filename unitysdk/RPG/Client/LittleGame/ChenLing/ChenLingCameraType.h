@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingCameraType_TypeDefinitionIndex = 33697;
+	inline static constexpr unsigned int ChenLingCameraType_TypeDefinitionIndex = 39498;
 
 	enum class ChenLingCameraType : ::System::Int32
 	{

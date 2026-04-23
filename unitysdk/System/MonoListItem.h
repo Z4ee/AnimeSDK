@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_MONOLISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x163558A0)
+#define SYSTEM_MONOLISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17981DA0)
 
 namespace System
 {
@@ -11,8 +11,8 @@ namespace System
 	class MonoListItem : public ::System::Object
 	{
 	public:
-		::System::Object* data; // 0x10
-		::System::MonoListItem* next; // 0x18
+		::System::MonoListItem* next; // 0x10
+		::System::Object* data; // 0x18
 
 		::System::Void _ctor()
 		{

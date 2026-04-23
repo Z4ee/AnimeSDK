@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_INVOKERESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15F158E0)
+#define MIHOYO_SDK_INVOKERESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1755E910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int InvokeResponseModel_TypeDefinitionIndex = 7064;
+	inline static constexpr unsigned int InvokeResponseModel_TypeDefinitionIndex = 7107;
 
 	class InvokeResponseModel : public ::System::Object
 	{

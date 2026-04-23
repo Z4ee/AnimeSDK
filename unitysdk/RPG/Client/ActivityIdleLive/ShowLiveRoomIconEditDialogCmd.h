@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_7ACCB923E979A908.h"
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x9BDE670)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDEBD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x9BDEBE0)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int ShowLiveRoomIconEditDialogCmd_TypeDefinitionIndex = 69422;
+
+	class ShowLiveRoomIconEditDialogCmd : public ::Class_1_7ACCB923E979A908
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnExecute()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD_ONEXECUTE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnExecute()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
+		}
+	};
+}

@@ -5,7 +5,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LayerBackgroundBehaviourData_TypeDefinitionIndex = 38984;
+	inline static constexpr unsigned int LayerBackgroundBehaviourData_TypeDefinitionIndex = 44887;
 
 	struct alignas(4) LayerBackgroundBehaviourData
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassDirection_TypeDefinitionIndex = 64378;
+	inline static constexpr unsigned int WormCompassDirection_TypeDefinitionIndex = 72425;
 
 	enum class WormCompassDirection : ::System::Int32
 	{

@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_INTERFACE_ALERT_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x16142090)
-#define MONO_SECURITY_INTERFACE_ALERT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x16142080)
-#define MONO_SECURITY_INTERFACE_ALERT_INFERALERTLEVEL_OFFSET UNITYSDK_OFFSET(0x161420E0)
-#define MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16142120)
-#define MONO_SECURITY_INTERFACE_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x161420A0)
+#define MONO_SECURITY_INTERFACE_ALERT_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1776DD40)
+#define MONO_SECURITY_INTERFACE_ALERT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1776DD30)
+#define MONO_SECURITY_INTERFACE_ALERT_INFERALERTLEVEL_OFFSET UNITYSDK_OFFSET(0x1776DD90)
+#define MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1776DDD0)
+#define MONO_SECURITY_INTERFACE_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1776DD50)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 2271;
+	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 2272;
 
 	class Alert : public ::System::Object
 	{
 	public:
-		::Mono::Security::Interface::AlertDescription description; // 0x10
-		::Mono::Security::Interface::AlertLevel level; // 0x11
+		::Mono::Security::Interface::AlertLevel level; // 0x10
+		::Mono::Security::Interface::AlertDescription description; // 0x11
 
 		::System::Void _ctor(::Mono::Security::Interface::AlertDescription description)
 		{

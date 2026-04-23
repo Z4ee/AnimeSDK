@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelFloorInfo___O_TypeDefinitionIndex = 15931;
+	inline static constexpr unsigned int RtLevelFloorInfo___O_TypeDefinitionIndex = 16457;
 
 	class RtLevelFloorInfo___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::LevelFeatureType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::LevelFeatureType>**)Il2CppClass::FromTypeDefinitionIndex(RtLevelFloorInfo___O_TypeDefinitionIndex)->GetStaticField(0x67D0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::LevelFeatureType>**)Il2CppClass::FromTypeDefinitionIndex(RtLevelFloorInfo___O_TypeDefinitionIndex)->GetStaticField(0x4A850);
 		}
 	};
 }

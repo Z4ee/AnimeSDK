@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_DOWNLOADPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x84D8DD0)
+#define MIHOYO_SDK_DOWNLOADPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x8D00F70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DownloadPoint_TypeDefinitionIndex = 37048;
+	inline static constexpr unsigned int DownloadPoint_TypeDefinitionIndex = 42893;
 
 	class DownloadPoint : public ::System::Object
 	{

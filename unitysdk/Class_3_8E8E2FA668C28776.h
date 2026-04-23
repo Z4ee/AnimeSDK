@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverridePerformanceEndScreenCut; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8E8E2FA668C28776_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109F5260)
-#define CLASS_3_8E8E2FA668C28776__CTOR_OFFSET UNITYSDK_OFFSET(0x109F5230)
+#define CLASS_3_8E8E2FA668C28776_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11759C10)
+#define CLASS_3_8E8E2FA668C28776__CTOR_OFFSET UNITYSDK_OFFSET(0x11759BE0)
 
-inline static constexpr unsigned int Class_3_8E8E2FA668C28776_TypeDefinitionIndex = 42940;
+inline static constexpr unsigned int Class_3_8E8E2FA668C28776_TypeDefinitionIndex = 48926;
 
 class Class_3_8E8E2FA668C28776 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverridePerformanceEndScreenCut*>
 {

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_1.h"
 
-class Class_1_C03F4DDB5A53142C;
+class Class_1_D37BADBAF66E56C6;
 namespace RPG::GameCore { class MarbleAIDegrade; }
 
-#define CLASS_2_68C2A0BE4805018E_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x16A154D0)
-#define CLASS_2_68C2A0BE4805018E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16A15530)
-#define CLASS_2_68C2A0BE4805018E__CTOR_OFFSET UNITYSDK_OFFSET(0x16A154C0)
+#define CLASS_2_68C2A0BE4805018E_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x17F99B30)
+#define CLASS_2_68C2A0BE4805018E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17F99D70)
+#define CLASS_2_68C2A0BE4805018E__CTOR_OFFSET UNITYSDK_OFFSET(0x17F99B20)
 
-inline static constexpr unsigned int Class_2_68C2A0BE4805018E_TypeDefinitionIndex = 33191;
+inline static constexpr unsigned int Class_2_68C2A0BE4805018E_TypeDefinitionIndex = 38981;
 
-class Class_2_68C2A0BE4805018E : public ::Class_1_F9FBCC956DFCF137
+class Class_2_68C2A0BE4805018E : public ::Class_1_F9FBCC956DFCF137_1
 {
 public:
 	::RPG::GameCore::MarbleAIDegrade* Field_2_0; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::MarbleAIDegrade* a1, ::Class_1_C03F4DDB5A53142C* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleAIDegrade* a1, ::Class_1_D37BADBAF66E56C6* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAIDegrade*, ::Class_1_C03F4DDB5A53142C*))((::PBYTE)hIl2Cpp + CLASS_2_68C2A0BE4805018E__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAIDegrade*, ::Class_1_D37BADBAF66E56C6*))((::PBYTE)hIl2Cpp + CLASS_2_68C2A0BE4805018E__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_2_1808E1CF7A125519()

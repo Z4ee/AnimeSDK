@@ -3,13 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/FontStyles.h"
 
-#define TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x210BD50)
-#define TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x210BD40)
-#define TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x210BD60)
+#define TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x22DE900)
+#define TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x22DE8F0)
+#define TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x22DE910)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 34403;
+	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 40222;
 
 	struct alignas(1) TMP_FontStyleStack
 	{

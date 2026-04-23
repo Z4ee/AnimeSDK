@@ -7,39 +7,39 @@ namespace Spine { class Slot; }
 namespace Spine { class TextureRegion; }
 namespace System { class String; }
 
-#define SPINE_SEQUENCE_APPLY_OFFSET UNITYSDK_OFFSET(0x183A1660)
-#define SPINE_SEQUENCE_GETPATH_OFFSET UNITYSDK_OFFSET(0x18398370)
-#define SPINE_SEQUENCE_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x183ABB40)
-#define SPINE_SEQUENCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x183ABB90)
-#define SPINE_SEQUENCE_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x183ABB80)
-#define SPINE_SEQUENCE_GET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x183ABB60)
-#define SPINE_SEQUENCE_GET_START_OFFSET UNITYSDK_OFFSET(0x183ABB20)
-#define SPINE_SEQUENCE_SET_DIGITS_OFFSET UNITYSDK_OFFSET(0x183ABB50)
-#define SPINE_SEQUENCE_SET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x183ABB70)
-#define SPINE_SEQUENCE_SET_START_OFFSET UNITYSDK_OFFSET(0x183ABB30)
-#define SPINE_SEQUENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x183ABCF0)
-#define SPINE_SEQUENCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x183A0F70)
-#define SPINE_SEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x183ABBA0)
+#define SPINE_SEQUENCE_APPLY_OFFSET UNITYSDK_OFFSET(0x19DDC1A0)
+#define SPINE_SEQUENCE_GETPATH_OFFSET UNITYSDK_OFFSET(0x19DD2DF0)
+#define SPINE_SEQUENCE_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x19DE6800)
+#define SPINE_SEQUENCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x19DE6850)
+#define SPINE_SEQUENCE_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x19DE6840)
+#define SPINE_SEQUENCE_GET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x19DE6820)
+#define SPINE_SEQUENCE_GET_START_OFFSET UNITYSDK_OFFSET(0x19DE67E0)
+#define SPINE_SEQUENCE_SET_DIGITS_OFFSET UNITYSDK_OFFSET(0x19DE6810)
+#define SPINE_SEQUENCE_SET_SETUPINDEX_OFFSET UNITYSDK_OFFSET(0x19DE6830)
+#define SPINE_SEQUENCE_SET_START_OFFSET UNITYSDK_OFFSET(0x19DE67F0)
+#define SPINE_SEQUENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DE69B0)
+#define SPINE_SEQUENCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19DDBAA0)
+#define SPINE_SEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE6860)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Sequence_TypeDefinitionIndex = 30702;
+	inline static constexpr unsigned int Sequence_TypeDefinitionIndex = 36422;
 
 	class Sequence : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_nextIdLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Sequence_TypeDefinitionIndex)->GetStaticField(0x30750);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Sequence_TypeDefinitionIndex)->GetStaticField(0x7010);
 		}
 		static ::System::Int32* StaticGet_nextID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Sequence_TypeDefinitionIndex)->GetStaticField(0xFB80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Sequence_TypeDefinitionIndex)->GetStaticField(0x3330);
 		}
 		::Il2CppArray<::Spine::TextureRegion*>* regions; // 0x10
-		::System::Int32 digits; // 0x18
-		::System::Int32 id; // 0x1C
-		::System::Int32 setupIndex; // 0x20
+		::System::Int32 setupIndex; // 0x18
+		::System::Int32 digits; // 0x1C
+		::System::Int32 id; // 0x20
 		::System::Int32 start; // 0x24
 
 		::System::Void _ctor(::System::Int32 count)

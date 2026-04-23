@@ -7,18 +7,18 @@ namespace RPG::Client { class ActivityGuessTheSilhouetteRedDotFilter; }
 namespace RPG::Client { class MainMissionData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F0FEA0)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS5_0__UPDATEISNEWREDDOT_B__0_OFFSET UNITYSDK_OFFSET(0x8F10CE0)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9AE1330)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS5_0__UPDATEISNEWREDDOT_B__0_OFFSET UNITYSDK_OFFSET(0x9AE2170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass5_0_TypeDefinitionIndex = 54368;
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass5_0_TypeDefinitionIndex = 61531;
 
 	class ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityGuessTheSilhouetteRedDotFilter* __4__this; // 0x10
-		::RPG::Client::ActivityGuessTheSilhouetteModule* module; // 0x18
+		::RPG::Client::ActivityGuessTheSilhouetteModule* module; // 0x10
+		::RPG::Client::ActivityGuessTheSilhouetteRedDotFilter* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

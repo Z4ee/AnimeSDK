@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/Client/AlleyEventInfo.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_35B19D34B208E77E_1;
+class Class_1_668FE281FA72D3E8_2;
 
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x90A11E0)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS36_0___FRESHEVENTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x90B8FD0)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS36_0___FRESHEVENTINFO_B__1_OFFSET UNITYSDK_OFFSET(0x90B9000)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9CFF140)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS36_0___FRESHEVENTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x9D163B0)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS36_0___FRESHEVENTINFO_B__1_OFFSET UNITYSDK_OFFSET(0x9D163E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c__DisplayClass36_0_TypeDefinitionIndex = 50559;
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass36_0_TypeDefinitionIndex = 57422;
 
 	class AlleyModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::Class_1_35B19D34B208E77E_1* inEvent; // 0x10
+		::Class_1_668FE281FA72D3E8_2* inEvent; // 0x10
 
 		::System::Void _ctor()
 		{

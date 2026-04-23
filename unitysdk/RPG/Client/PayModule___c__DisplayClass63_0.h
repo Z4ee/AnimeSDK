@@ -6,18 +6,18 @@
 namespace RPG::Client { class PayModule; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F20030)
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS63_0___DOPAYPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0x9F206B0)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC44D80)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS63_0___DOPAYPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0xAC45400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PayModule___c__DisplayClass63_0_TypeDefinitionIndex = 54033;
+	inline static constexpr unsigned int PayModule___c__DisplayClass63_0_TypeDefinitionIndex = 61196;
 
 	class PayModule___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::PayModule* __4__this; // 0x10
-		::System::Action_1<::RPG::Client::PayProductResult>* onGetPayProductResult; // 0x18
+		::System::Action_1<::RPG::Client::PayProductResult>* onGetPayProductResult; // 0x10
+		::RPG::Client::PayModule* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

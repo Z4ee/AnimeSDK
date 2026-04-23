@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_WEBREQUESTMODULESSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186B86F0)
-#define SYSTEM_NET_CONFIGURATION_WEBREQUESTMODULESSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186B86B0)
+#define SYSTEM_NET_CONFIGURATION_WEBREQUESTMODULESSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A0F2E90)
+#define SYSTEM_NET_CONFIGURATION_WEBREQUESTMODULESSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F2E50)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int WebRequestModulesSection_TypeDefinitionIndex = 3075;
+	inline static constexpr unsigned int WebRequestModulesSection_TypeDefinitionIndex = 3076;
 
 	class WebRequestModulesSection : public ::System::Configuration::ConfigurationSection
 	{

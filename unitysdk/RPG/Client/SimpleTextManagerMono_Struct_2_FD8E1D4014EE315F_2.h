@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextManagerMono_Struct_2_FD8E1D4014EE315F_2_TypeDefinitionIndex = 59541;
+	inline static constexpr unsigned int SimpleTextManagerMono_Struct_2_FD8E1D4014EE315F_2_TypeDefinitionIndex = 66936;
 
 	struct alignas(4) SimpleTextManagerMono_Struct_2_FD8E1D4014EE315F_2
 	{

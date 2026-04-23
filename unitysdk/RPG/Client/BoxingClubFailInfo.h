@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BOXINGCLUBFAILINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x91FE030)
+#define RPG_CLIENT_BOXINGCLUBFAILINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA7210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoxingClubFailInfo_TypeDefinitionIndex = 51105;
+	inline static constexpr unsigned int BoxingClubFailInfo_TypeDefinitionIndex = 57990;
 
 	class BoxingClubFailInfo : public ::System::Object
 	{

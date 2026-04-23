@@ -6,32 +6,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F04AB0)
-#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F05000)
+#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18625DF0)
+#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18626340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityParkourAIConfigRow_TypeDefinitionIndex = 11085;
+	inline static constexpr unsigned int ActivityParkourAIConfigRow_TypeDefinitionIndex = 11488;
 
 	class ActivityParkourAIConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ResPath; // 0x10
-		::System::String* PrefabPath; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::Single AIPlayerScore; // 0x24
-		::RPG::Client::TextID Name; // 0x28
-		::System::Single LeavePlayerScore; // 0x38
-		::System::Single SwitchRoadScore; // 0x3C
-		::System::Single ObstacleScore; // 0x40
-		::System::Single LocalPlayerScore; // 0x44
-		::System::Single ActionIntervalTime; // 0x48
-		::System::Single SpeedItemScore; // 0x4C
-		::System::Single NearPlayerScore; // 0x50
-		::System::Single SpeedUpRegionScore; // 0x54
+		::System::String* PrefabPath; // 0x10
+		::System::String* ResPath; // 0x18
+		::System::Single SwitchRoadScore; // 0x20
+		::System::Single SpeedUpRegionScore; // 0x24
+		::System::Single LocalPlayerScore; // 0x28
+		::System::Single LeavePlayerScore; // 0x2C
+		::System::Single NearPlayerScore; // 0x30
+		::System::Single ObstacleScore; // 0x34
+		::System::Single SpeedItemScore; // 0x38
+		::RPG::Client::TextID Name; // 0x40
+		::System::Single SkillItemScore; // 0x50
+		::System::Single ActionIntervalTime; // 0x54
 		::System::Single SlowDownRegionScore; // 0x58
-		::System::Single SkillItemScore; // 0x5C
-		::System::UInt32 CalcStepCnt; // 0x60
+		::System::Single AIPlayerScore; // 0x5C
+		::System::UInt32 ID; // 0x60
+		::System::UInt32 CalcStepCnt; // 0x64
 
 		::System::Void _ctor()
 		{

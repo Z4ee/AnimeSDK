@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17438850)
-#define RPG_GAMECORE_MONOPOLYEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17439140)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B45430)
+#define RPG_GAMECORE_MONOPOLYEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B45D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyEventConfigRow_TypeDefinitionIndex = 11019;
+	inline static constexpr unsigned int MonopolyEventConfigRow_TypeDefinitionIndex = 11422;
 
 	class MonopolyEventConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AutoTriggerEffectIDList; // 0x10
+		::System::String* PicPath; // 0x10
 		::Il2CppArray<::System::UInt32>* EventOptionIDList; // 0x18
-		::System::String* PicPath; // 0x20
+		::Il2CppArray<::System::UInt32>* AutoTriggerEffectIDList; // 0x20
 		::System::UInt32 DiceNum; // 0x28
-		::System::UInt32 EventID; // 0x2C
-		::RPG::Client::TextID EventContent; // 0x30
-		::RPG::Client::TextID EventName; // 0x40
-		::System::Boolean Skippable; // 0x50
-		::System::Boolean IsSpecial; // 0x51
-		::System::Boolean IsDataReport; // 0x52
-		::RPG::GameCore::MonopolyEventType Type; // 0x54
+		::RPG::GameCore::MonopolyEventType Type; // 0x2C
+		::RPG::Client::TextID EventName; // 0x30
+		::System::Boolean IsSpecial; // 0x40
+		::System::Boolean IsDataReport; // 0x41
+		::System::Boolean Skippable; // 0x42
+		::System::UInt32 EventID; // 0x44
+		::RPG::Client::TextID EventContent; // 0x48
 
 		::System::Void _ctor()
 		{

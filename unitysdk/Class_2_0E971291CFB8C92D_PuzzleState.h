@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_0E971291CFB8C92D_PuzzleState_TypeDefinitionIndex = 42817;
+inline static constexpr unsigned int Class_2_0E971291CFB8C92D_PuzzleState_TypeDefinitionIndex = 48801;
 
 enum class Class_2_0E971291CFB8C92D_PuzzleState : ::System::Int32
 {

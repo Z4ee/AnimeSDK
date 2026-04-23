@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int OffScreenUISettings_TypeDefinitionIndex = 4639;
+	inline static constexpr unsigned int OffScreenUISettings_TypeDefinitionIndex = 4647;
 
 	struct alignas(4) OffScreenUISettings
 	{

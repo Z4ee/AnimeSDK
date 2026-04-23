@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x933FA60)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0__SELECTCARD_B__2_OFFSET UNITYSDK_OFFSET(0x933FAF0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FAD5C0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPHASE___C__DISPLAYCLASS5_0__SELECTCARD_B__2_OFFSET UNITYSDK_OFFSET(0x9FAD650)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectCardPhase___c__DisplayClass5_0_TypeDefinitionIndex = 62078;
+	inline static constexpr unsigned int SelectCardPhase___c__DisplayClass5_0_TypeDefinitionIndex = 70077;
 
 	class SelectCardPhase___c__DisplayClass5_0 : public ::System::Object
 	{

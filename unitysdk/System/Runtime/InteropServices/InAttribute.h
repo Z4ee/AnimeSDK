@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_INATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1637DCD0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_INATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179AAA00)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int InAttribute_TypeDefinitionIndex = 1404;
+	inline static constexpr unsigned int InAttribute_TypeDefinitionIndex = 1406;
 
 	class InAttribute : public ::System::Attribute
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUDDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF6CD0)
+#define MIHOYO_SDK_CLOUDDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x173F48A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 6931;
+	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 6977;
 
 	class CloudDefine : public ::System::Object
 	{
@@ -21,6 +21,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* SHARE; // 0x0
 		// static const ::System::String* HAS_FORUM; // 0x0
 		// static const ::System::String* OPEN_FORUM; // 0x0
+		// static const ::System::String* VOX_SET_ENV; // 0x0
+		// static const ::System::String* VOX_SET_USER_ID; // 0x0
+		// static const ::System::String* VOX_SET_REGION; // 0x0
+		// static const ::System::String* VOX_SET_GAMEBIZ; // 0x0
 		// static const ::System::String* SET_ENABLED; // 0x0
 		// static const ::System::String* SET_CONFIG; // 0x0
 		// static const ::System::String* SET_LAUNCH_PARAMETERS; // 0x0

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_RES_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x185770D0)
-#define SYSTEM_XML_RES_GETSTRING_OFFSET UNITYSDK_OFFSET(0x18571440)
+#define SYSTEM_XML_RES_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x19FB1E10)
+#define SYSTEM_XML_RES_GETSTRING_OFFSET UNITYSDK_OFFSET(0x19FAC170)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int Res_TypeDefinitionIndex = 1960;
+	inline static constexpr unsigned int Res_TypeDefinitionIndex = 1961;
 
 	class Res : public ::System::Object
 	{

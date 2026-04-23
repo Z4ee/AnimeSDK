@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisibilityFollowState_TypeDefinitionIndex = 46079;
+	inline static constexpr unsigned int CharacterVisibilityFollowState_TypeDefinitionIndex = 52744;
 
 	enum class CharacterVisibilityFollowState : ::System::Int32
 	{

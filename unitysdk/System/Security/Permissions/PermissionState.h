@@ -3,7 +3,7 @@
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int PermissionState_TypeDefinitionIndex = 956;
+	inline static constexpr unsigned int PermissionState_TypeDefinitionIndex = 958;
 
 	enum class PermissionState : ::System::Int32
 	{

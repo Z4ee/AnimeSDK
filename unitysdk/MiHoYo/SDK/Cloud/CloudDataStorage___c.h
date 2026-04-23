@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DF1550)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1590)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__STARTLOADINGCOROUTINEIFNEED_B__21_0_OFFSET UNITYSDK_OFFSET(0x15DF15A0)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173EF110)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173EF150)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE___C__STARTLOADINGCOROUTINEIFNEED_B__21_0_OFFSET UNITYSDK_OFFSET(0x173EF160)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudDataStorage___c_TypeDefinitionIndex = 7498;
+	inline static constexpr unsigned int CloudDataStorage___c_TypeDefinitionIndex = 7639;
 
 	class CloudDataStorage___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__21_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage___c_TypeDefinitionIndex)->GetStaticField(0x10040);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage___c_TypeDefinitionIndex)->GetStaticField(0x171D0);
 		}
 		static ::MiHoYo::SDK::Cloud::CloudDataStorage___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Cloud::CloudDataStorage___c**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage___c_TypeDefinitionIndex)->GetStaticField(0x10048);
+			return (::MiHoYo::SDK::Cloud::CloudDataStorage___c**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage___c_TypeDefinitionIndex)->GetStaticField(0x171D8);
 		}
 
 		static ::System::Void _cctor()

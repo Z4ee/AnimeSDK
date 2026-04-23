@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174BFC20)
-#define RPG_GAMECORE_PLANETFESSKILLTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174C0010)
+#define RPG_GAMECORE_PLANETFESSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C0B230)
+#define RPG_GAMECORE_PLANETFESSKILLTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0B620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesSkillTreeRow_TypeDefinitionIndex = 11135;
+	inline static constexpr unsigned int PlanetFesSkillTreeRow_TypeDefinitionIndex = 11538;
 
 	class PlanetFesSkillTreeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* LevelCostList; // 0x10
-		::System::String* Icon; // 0x18
+		::System::String* Icon; // 0x10
+		::Il2CppArray<::System::UInt32>* LevelCostList; // 0x18
 		::Il2CppArray<::System::UInt32>* NextSkillIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* LevelSkillList; // 0x30
-		::RPG::Client::TextID Name; // 0x38
-		::System::UInt32 Phase; // 0x48
-		::System::Boolean IsImportant; // 0x4C
+		::Il2CppArray<::System::UInt32>* LevelSkillList; // 0x28
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x30
+		::System::Boolean IsImportant; // 0x38
+		::System::UInt32 Phase; // 0x3C
+		::RPG::Client::TextID Name; // 0x40
 		::System::UInt32 SkillID; // 0x50
 		::System::UInt32 MaxLevel; // 0x54
 

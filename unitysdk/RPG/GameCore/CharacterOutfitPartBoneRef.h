@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF_METHOD_2_8C665782797D5D25_OFFSET UNITYSDK_OFFSET(0x1706F810)
-#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1706F930)
+#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF_METHOD_2_8C665782797D5D25_OFFSET UNITYSDK_OFFSET(0x187D48E0)
+#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x187D4A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitPartBoneRef_TypeDefinitionIndex = 16060;
+	inline static constexpr unsigned int CharacterOutfitPartBoneRef_TypeDefinitionIndex = 16591;
 
 	class CharacterOutfitPartBoneRef : public ::RPG::GameCore::JsonConfig
 	{

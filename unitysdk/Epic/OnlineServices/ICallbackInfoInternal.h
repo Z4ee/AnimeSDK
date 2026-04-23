@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ICallbackInfoInternal_TypeDefinitionIndex = 35248;
+	inline static constexpr unsigned int ICallbackInfoInternal_TypeDefinitionIndex = 41074;
 
 	class ICallbackInfoInternal
 	{

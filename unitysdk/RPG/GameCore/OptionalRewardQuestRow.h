@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OPTIONALREWARDQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17481340)
-#define RPG_GAMECORE_OPTIONALREWARDQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17481900)
+#define RPG_GAMECORE_OPTIONALREWARDQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BCA8E0)
+#define RPG_GAMECORE_OPTIONALREWARDQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCAEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionalRewardQuestRow_TypeDefinitionIndex = 13305;
+	inline static constexpr unsigned int OptionalRewardQuestRow_TypeDefinitionIndex = 13780;
 
 	class OptionalRewardQuestRow : public ::System::Object
 	{

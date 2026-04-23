@@ -10,18 +10,18 @@ class Class_1_2A8A7F9C322BA9B7;
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_EF452C8E9A5D3122__CTOR_OFFSET UNITYSDK_OFFSET(0x99F8D10)
+#define CLASS_1_EF452C8E9A5D3122__CTOR_OFFSET UNITYSDK_OFFSET(0x98D9E30)
 
-inline static constexpr unsigned int Class_1_EF452C8E9A5D3122_TypeDefinitionIndex = 50458;
+inline static constexpr unsigned int Class_1_EF452C8E9A5D3122_TypeDefinitionIndex = 57317;
 
 class Class_1_EF452C8E9A5D3122 : public ::System::Object
 {
 public:
-	::RPG::GameCore::LevelGraphValueSource* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_2A8A7F9C322BA9B7*>* Field_1_4; // 0x18
-	::System::Nullable_1<::RPG::GameCore::PropState> Field_1_0; // 0x20
-	::System::Nullable_1<::UnityEngine::Vector3> Field_1_2; // 0x28
-	::System::Nullable_1<::UnityEngine::Quaternion> Field_1_3; // 0x38
+	::System::Collections::Generic::List_1<::Class_1_2A8A7F9C322BA9B7*>* Field_1_4; // 0x10
+	::RPG::GameCore::LevelGraphValueSource* Field_1_1; // 0x18
+	::System::Nullable_1<::UnityEngine::Quaternion> Field_1_3; // 0x20
+	::System::Nullable_1<::RPG::GameCore::PropState> Field_1_0; // 0x34
+	::System::Nullable_1<::UnityEngine::Vector3> Field_1_2; // 0x3C
 
 	::System::Void _ctor()
 	{

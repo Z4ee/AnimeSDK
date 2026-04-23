@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckCharacterFly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C66E3B455316C367_EVALUATE_OFFSET UNITYSDK_OFFSET(0x116BAE60)
-#define CLASS_3_C66E3B455316C367__CTOR_OFFSET UNITYSDK_OFFSET(0x116BAE30)
+#define CLASS_3_C66E3B455316C367_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9E3EB30)
+#define CLASS_3_C66E3B455316C367__CTOR_OFFSET UNITYSDK_OFFSET(0x9E3EB00)
 
-inline static constexpr unsigned int Class_3_C66E3B455316C367_TypeDefinitionIndex = 43575;
+inline static constexpr unsigned int Class_3_C66E3B455316C367_TypeDefinitionIndex = 50272;
 
 class Class_3_C66E3B455316C367 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckCharacterFly*>
 {

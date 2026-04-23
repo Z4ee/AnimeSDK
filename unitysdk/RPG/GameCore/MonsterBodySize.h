@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterBodySize_TypeDefinitionIndex = 10061;
+	inline static constexpr unsigned int MonsterBodySize_TypeDefinitionIndex = 10252;
 
 	enum class MonsterBodySize : ::System::Int32
 	{

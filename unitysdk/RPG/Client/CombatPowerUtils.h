@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_COMBATPOWERUTILS_GETMONSTERCOMBATPOWERRATIO_OFFSET UNITYSDK_OFFSET(0x9403970)
+#define RPG_CLIENT_COMBATPOWERUTILS_GETMONSTERCOMBATPOWERRATIO_OFFSET UNITYSDK_OFFSET(0xA0B1560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CombatPowerUtils_TypeDefinitionIndex = 50786;
+	inline static constexpr unsigned int CombatPowerUtils_TypeDefinitionIndex = 57665;
 
 	class CombatPowerUtils : public ::System::Object
 	{

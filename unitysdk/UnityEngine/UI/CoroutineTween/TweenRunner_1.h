@@ -7,7 +7,7 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace UnityEngine::UI::CoroutineTween
 {
-	inline static constexpr unsigned int TweenRunner_1_TypeDefinitionIndex = 5768;
+	inline static constexpr unsigned int TweenRunner_1_TypeDefinitionIndex = 5780;
 
 	template <typename T>
 	class TweenRunner_1 : public ::System::Object

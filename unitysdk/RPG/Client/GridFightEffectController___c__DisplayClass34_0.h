@@ -3,37 +3,32 @@
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class GridFightEffectController; }
-namespace RPG::Client { class GridFightRoleTraitEffect; }
-namespace System { class Action; }
+namespace RPG::Client { class GridFightFlyEffect; }
+namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x97F71A0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYROLETRAITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x97F8180)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYROLETRAITEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x97F81C0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4718C0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYEQUIPEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA472F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass34_0_TypeDefinitionIndex = 52388;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass34_0_TypeDefinitionIndex = 59342;
 
 	class GridFightEffectController___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEffectController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
-		::RPG::Client::GridFightRoleTraitEffect* effect; // 0x20
+		::RPG::Client::GridFightFlyEffect* effect; // 0x10
+		::UnityEngine::Transform* itemTrans; // 0x18
+		::RPG::Client::GridFightEffectController* __4__this; // 0x20
+		::UnityEngine::Transform* effectAddTrans; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PlayRoleTraitEffect_b__0()
+		::System::Void _PlayEquipEffect_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYROLETRAITEFFECT_B__0_OFFSET))(this);
-		}
-
-		::System::Void _PlayRoleTraitEffect_b__1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYROLETRAITEFFECT_B__1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYEQUIPEFFECT_B__0_OFFSET))(this);
 		}
 	};
 }

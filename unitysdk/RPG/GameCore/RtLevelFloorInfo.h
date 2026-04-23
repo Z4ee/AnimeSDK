@@ -13,12 +13,12 @@ namespace RPG::GameCore { class RtLevelGroupInstanceInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELFLOORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176756E0)
-#define RPG_GAMECORE_RTLEVELFLOORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17675E30)
+#define RPG_GAMECORE_RTLEVELFLOORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DD1560)
+#define RPG_GAMECORE_RTLEVELFLOORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD1CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelFloorInfo_TypeDefinitionIndex = 15930;
+	inline static constexpr unsigned int RtLevelFloorInfo_TypeDefinitionIndex = 16456;
 
 	class RtLevelFloorInfo : public ::RPG::GameCore::JsonConfig
 	{

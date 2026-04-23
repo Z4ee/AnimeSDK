@@ -6,22 +6,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimPropBakedMoveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_METHOD_2_44799DD6C3ABA574_OFFSET UNITYSDK_OFFSET(0x17204960)
-#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_METHOD_2_87F909D4BFB039B5_OFFSET UNITYSDK_OFFSET(0x172054E0)
-#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171FBAB0)
+#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_METHOD_2_44799DD6C3ABA574_OFFSET UNITYSDK_OFFSET(0x18915AB0)
+#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_METHOD_2_87F909D4BFB039B5_OFFSET UNITYSDK_OFFSET(0x18916760)
+#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1890C5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPropMoveConfig_TypeDefinitionIndex = 15291;
+	inline static constexpr unsigned int FiveDimPropMoveConfig_TypeDefinitionIndex = 15806;
 
 	class FiveDimPropMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 ID; // 0x10
 		::System::String* PhysicsPrefab; // 0x18
-		::System::Single MaxSpeed; // 0x20
-		::System::Single ColliderSizeX; // 0x24
-		::System::Single ColliderSizeY; // 0x28
+		::System::Single ColliderSizeX; // 0x20
+		::System::Single ColliderSizeY; // 0x24
+		::System::Single MaxSpeed; // 0x28
 		::System::Single RotationDamping; // 0x2C
 		::System::Single DestroyDitherDuration; // 0x30
 		::Il2CppArray<::RPG::GameCore::FiveDimPropBakedMoveConfig*>* BakedConfigs; // 0x38

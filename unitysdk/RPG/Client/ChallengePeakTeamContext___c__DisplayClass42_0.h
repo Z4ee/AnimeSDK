@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_99BD961747420BEB_6;
+class Class_1_4BC858D7C27E10ED_9;
 namespace RPG::Client { class ChallengePeakTeamContext; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x92F3740)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0___CHECKHAVEEQUIPMENTCONFLICT_B__1_OFFSET UNITYSDK_OFFSET(0x92F3D50)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F5DEB0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0___CHECKHAVEEQUIPMENTCONFLICT_B__1_OFFSET UNITYSDK_OFFSET(0x9F5DEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTeamContext___c__DisplayClass42_0_TypeDefinitionIndex = 51286;
+	inline static constexpr unsigned int ChallengePeakTeamContext___c__DisplayClass42_0_TypeDefinitionIndex = 58210;
 
 	class ChallengePeakTeamContext___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* lineupAvatarIDs; // 0x10
-		::RPG::Client::ChallengePeakTeamContext* __4__this; // 0x18
+		::RPG::Client::ChallengePeakTeamContext* __4__this; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* lineupAvatarIDs; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __CheckHaveEquipmentConflict_b__1(::Class_1_99BD961747420BEB_6* snapshot)
+		::System::Boolean __CheckHaveEquipmentConflict_b__1(::Class_1_4BC858D7C27E10ED_9* snapshot)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_99BD961747420BEB_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0___CHECKHAVEEQUIPMENTCONFLICT_B__1_OFFSET))(this, snapshot);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_4BC858D7C27E10ED_9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS42_0___CHECKHAVEEQUIPMENTCONFLICT_B__1_OFFSET))(this, snapshot);
 		}
 	};
 }

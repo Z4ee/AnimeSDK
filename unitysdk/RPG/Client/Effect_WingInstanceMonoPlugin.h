@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class Effect_WingInstanceBehavior; }
 
-#define RPG_CLIENT_EFFECT_WINGINSTANCEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9590220)
+#define RPG_CLIENT_EFFECT_WINGINSTANCEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA215700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_WingInstanceMonoPlugin_TypeDefinitionIndex = 57762;
+	inline static constexpr unsigned int Effect_WingInstanceMonoPlugin_TypeDefinitionIndex = 65026;
 
 	class Effect_WingInstanceMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_WingInstanceBehavior*>
 	{

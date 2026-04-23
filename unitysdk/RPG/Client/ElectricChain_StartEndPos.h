@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElectricChain_StartEndPos_TypeDefinitionIndex = 57699;
+	inline static constexpr unsigned int ElectricChain_StartEndPos_TypeDefinitionIndex = 64963;
 
 	enum class ElectricChain_StartEndPos : ::System::Int32
 	{

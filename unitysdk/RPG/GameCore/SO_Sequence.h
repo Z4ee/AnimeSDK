@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SOTaskConfig; }
 
-#define RPG_GAMECORE_SO_SEQUENCE_METHOD_5_2A434ABE0552FD1B_OFFSET UNITYSDK_OFFSET(0x1767AC50)
-#define RPG_GAMECORE_SO_SEQUENCE_METHOD_5_442C43E4EA73F9D6_OFFSET UNITYSDK_OFFSET(0x1767D380)
-#define RPG_GAMECORE_SO_SEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1767AC20)
+#define RPG_GAMECORE_SO_SEQUENCE_METHOD_5_2F7A41C2AB439412_OFFSET UNITYSDK_OFFSET(0x18DDE6F0)
+#define RPG_GAMECORE_SO_SEQUENCE_METHOD_5_A4D3722C3F62A7E2_OFFSET UNITYSDK_OFFSET(0x18DE0D60)
+#define RPG_GAMECORE_SO_SEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18DDE6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_Sequence_TypeDefinitionIndex = 18330;
+	inline static constexpr unsigned int SO_Sequence_TypeDefinitionIndex = 18977;
 
 	class SO_Sequence : public ::RPG::GameCore::SOCompositeConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SEQUENCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_442C43E4EA73F9D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_Sequence*& a2)
+		static ::System::Void Method_5_A4D3722C3F62A7E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_Sequence*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_Sequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SEQUENCE_METHOD_5_442C43E4EA73F9D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_Sequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SEQUENCE_METHOD_5_A4D3722C3F62A7E2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_2A434ABE0552FD1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_Sequence* a2)
+		static ::System::Void Method_5_2F7A41C2AB439412(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_Sequence* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_Sequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SEQUENCE_METHOD_5_2A434ABE0552FD1B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_Sequence*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SEQUENCE_METHOD_5_2F7A41C2AB439412_OFFSET))(a1, a2);
 		}
 	};
 }

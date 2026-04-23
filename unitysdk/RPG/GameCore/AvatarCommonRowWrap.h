@@ -8,13 +8,13 @@ namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0x16F96910)
-#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETAVATARINDEXNAME_OFFSET UNITYSDK_OFFSET(0x16F97210)
-#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0x16F963E0)
+#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0x186B9B60)
+#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETAVATARINDEXNAME_OFFSET UNITYSDK_OFFSET(0x186BA460)
+#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0x186B9630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarCommonRowWrap_TypeDefinitionIndex = 22646;
+	inline static constexpr unsigned int AvatarCommonRowWrap_TypeDefinitionIndex = 23619;
 
 	class AvatarCommonRowWrap : public ::System::Object
 	{

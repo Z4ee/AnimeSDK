@@ -36,13 +36,13 @@ namespace RPG::GameCore { class LevelWaypointInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_05DF1D6F5813E69A_OFFSET UNITYSDK_OFFSET(0x17676DB0)
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_A9BE5029DD01DF42_OFFSET UNITYSDK_OFFSET(0x17676F60)
-#define RPG_GAMECORE_RTLEVELGROUPINFOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17676D90)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_05DF1D6F5813E69A_OFFSET UNITYSDK_OFFSET(0x18DD2C30)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE_METHOD_2_A9BE5029DD01DF42_OFFSET UNITYSDK_OFFSET(0x18DD2DE0)
+#define RPG_GAMECORE_RTLEVELGROUPINFOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD2C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 15924;
+	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 16450;
 
 	class RtLevelGroupInfoBase : public ::RPG::GameCore::JsonConfig
 	{

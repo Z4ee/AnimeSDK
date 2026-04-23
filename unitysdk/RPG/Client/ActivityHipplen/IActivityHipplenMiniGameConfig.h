@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int IActivityHipplenMiniGameConfig_TypeDefinitionIndex = 61682;
+	inline static constexpr unsigned int IActivityHipplenMiniGameConfig_TypeDefinitionIndex = 69592;
 
 	class IActivityHipplenMiniGameConfig
 	{

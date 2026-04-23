@@ -8,20 +8,20 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class OpenTimeRewindSnapPageParam; }
 namespace System { class Action; }
 
-#define CLASS_1_CA0277A463DA838D_METHOD_1_1247FC7BD65C0F7D_OFFSET UNITYSDK_OFFSET(0x1153D010)
-#define CLASS_1_CA0277A463DA838D_METHOD_1_849DB7FB6F2930E6_OFFSET UNITYSDK_OFFSET(0x1153CF40)
-#define CLASS_1_CA0277A463DA838D_METHOD_1_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0x1153D0F0)
-#define CLASS_1_CA0277A463DA838D_METHOD_1_C5A213D5BE4ED737_OFFSET UNITYSDK_OFFSET(0x11539CD0)
-#define CLASS_1_CA0277A463DA838D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1153D1A0)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_1247FC7BD65C0F7D_OFFSET UNITYSDK_OFFSET(0x12116A50)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_849DB7FB6F2930E6_OFFSET UNITYSDK_OFFSET(0x12116980)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0x12116B30)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_C5569225D28C7C2E_OFFSET UNITYSDK_OFFSET(0x12116BE0)
+#define CLASS_1_CA0277A463DA838D__CCTOR_OFFSET UNITYSDK_OFFSET(0x12116EC0)
 
-inline static constexpr unsigned int Class_1_CA0277A463DA838D_TypeDefinitionIndex = 49313;
+inline static constexpr unsigned int Class_1_CA0277A463DA838D_TypeDefinitionIndex = 56110;
 
 class Class_1_CA0277A463DA838D : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA0277A463DA838D_TypeDefinitionIndex)->GetStaticField(0x11500);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA0277A463DA838D_TypeDefinitionIndex)->GetStaticField(0x10200);
 	}
 
 	static ::System::Void _cctor()
@@ -44,8 +44,8 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CA0277A463DA838D_METHOD_1_BBA49FAB086F388D_OFFSET))();
 	}
 
-	static ::System::Void Method_1_C5A213D5BE4ED737(::UnityEngine::Vector3 a1, ::System::Single a2, ::RPG::GameCore::GameEntityList* a3)
+	static ::System::Void Method_1_C5569225D28C7C2E(::UnityEngine::Vector3 a1, ::System::Single a2, ::RPG::GameCore::GameEntityList* a3)
 	{
-		return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + CLASS_1_CA0277A463DA838D_METHOD_1_C5A213D5BE4ED737_OFFSET))(a1, a2, a3);
+		return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + CLASS_1_CA0277A463DA838D_METHOD_1_C5569225D28C7C2E_OFFSET))(a1, a2, a3);
 	}
 };

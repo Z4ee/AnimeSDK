@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AntiLockHPStrength_TypeDefinitionIndex = 21857;
+	inline static constexpr unsigned int AntiLockHPStrength_TypeDefinitionIndex = 22595;
 
 	enum class AntiLockHPStrength : ::System::Int32
 	{

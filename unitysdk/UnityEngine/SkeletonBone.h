@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SkeletonBone_TypeDefinitionIndex = 5043;
+	inline static constexpr unsigned int SkeletonBone_TypeDefinitionIndex = 5051;
 
 	struct alignas(8) SkeletonBone
 	{

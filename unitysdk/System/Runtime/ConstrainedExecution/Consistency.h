@@ -3,7 +3,7 @@
 
 namespace System::Runtime::ConstrainedExecution
 {
-	inline static constexpr unsigned int Consistency_TypeDefinitionIndex = 1332;
+	inline static constexpr unsigned int Consistency_TypeDefinitionIndex = 1334;
 
 	enum class Consistency : ::System::Int32
 	{

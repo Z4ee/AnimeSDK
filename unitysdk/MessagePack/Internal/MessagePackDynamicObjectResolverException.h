@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MESSAGEPACK_INTERNAL_MESSAGEPACKDYNAMICOBJECTRESOLVEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15D5E320)
+#define MESSAGEPACK_INTERNAL_MESSAGEPACKDYNAMICOBJECTRESOLVEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1735BB30)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int MessagePackDynamicObjectResolverException_TypeDefinitionIndex = 9196;
+	inline static constexpr unsigned int MessagePackDynamicObjectResolverException_TypeDefinitionIndex = 9393;
 
 	class MessagePackDynamicObjectResolverException : public ::MessagePack::MessagePackSerializationException
 	{

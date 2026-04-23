@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CorrectionPlayerTeleportPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3F2D6E5339B0B947_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B33100)
-#define CLASS_3_3F2D6E5339B0B947__CTOR_OFFSET UNITYSDK_OFFSET(0x10B330D0)
+#define CLASS_3_3F2D6E5339B0B947_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x96A7460)
+#define CLASS_3_3F2D6E5339B0B947__CTOR_OFFSET UNITYSDK_OFFSET(0x96A7430)
 
-inline static constexpr unsigned int Class_3_3F2D6E5339B0B947_TypeDefinitionIndex = 46812;
+inline static constexpr unsigned int Class_3_3F2D6E5339B0B947_TypeDefinitionIndex = 53521;
 
 class Class_3_3F2D6E5339B0B947 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CorrectionPlayerTeleportPos*>
 {

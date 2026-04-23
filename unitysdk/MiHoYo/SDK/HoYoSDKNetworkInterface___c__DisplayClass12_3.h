@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class HoYoSDKNetworkInterface___c__DisplayClass12_2; }
 namespace MiHoYo::SDK { class HoYoSDKNetworkNative_HttpResponse; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3__CTOR_OFFSET UNITYSDK_OFFSET(0x84E5E20)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__4_OFFSET UNITYSDK_OFFSET(0x84E6850)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3__CTOR_OFFSET UNITYSDK_OFFSET(0x8D195D0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__4_OFFSET UNITYSDK_OFFSET(0x8D1A000)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_3_TypeDefinitionIndex = 36892;
+	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_3_TypeDefinitionIndex = 42718;
 
 	class HoYoSDKNetworkInterface___c__DisplayClass12_3 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoSDKNetworkInterface___c__DisplayClass12_2* CS___8__locals3; // 0x10
-		::MiHoYo::SDK::HoYoSDKNetworkNative_HttpResponse* response; // 0x18
+		::MiHoYo::SDK::HoYoSDKNetworkNative_HttpResponse* response; // 0x10
+		::MiHoYo::SDK::HoYoSDKNetworkInterface___c__DisplayClass12_2* CS___8__locals3; // 0x18
 
 		::System::Void _ctor()
 		{

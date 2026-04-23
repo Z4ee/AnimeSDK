@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNCOLLECTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17661BD0)
-#define RPG_GAMECORE_ROGUETOURNCOLLECTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17661CE0)
+#define RPG_GAMECORE_ROGUETOURNCOLLECTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D6F7B0)
+#define RPG_GAMECORE_ROGUETOURNCOLLECTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D6F8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournCollectionConfigRow_TypeDefinitionIndex = 13730;
+	inline static constexpr unsigned int RogueTournCollectionConfigRow_TypeDefinitionIndex = 14201;
 
 	class RogueTournCollectionConfigRow : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLESTAGECONFIGDATAKEYS_METHOD_2_26927C6186F7AB04_OFFSET UNITYSDK_OFFSET(0x16FE1DB0)
-#define RPG_GAMECORE_BATTLESTAGECONFIGDATAKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE22A0)
+#define RPG_GAMECORE_BATTLESTAGECONFIGDATAKEYS_METHOD_2_26927C6186F7AB04_OFFSET UNITYSDK_OFFSET(0x187057D0)
+#define RPG_GAMECORE_BATTLESTAGECONFIGDATAKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x18705CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleStageConfigDataKeys_TypeDefinitionIndex = 15684;
+	inline static constexpr unsigned int BattleStageConfigDataKeys_TypeDefinitionIndex = 16210;
 
 	class BattleStageConfigDataKeys : public ::RPG::GameCore::JsonConfig
 	{

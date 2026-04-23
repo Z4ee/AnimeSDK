@@ -5,34 +5,34 @@
 namespace RPG::Client { class UIController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA6AACE0)
-#define RPG_CLIENT_UIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA6AAD10)
-#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__168_0_OFFSET UNITYSDK_OFFSET(0xA6AAD20)
-#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__168_1_OFFSET UNITYSDK_OFFSET(0xA6AAD90)
-#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__168_2_OFFSET UNITYSDK_OFFSET(0xA6AAE00)
+#define RPG_CLIENT_UIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4053E0)
+#define RPG_CLIENT_UIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB405410)
+#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__168_0_OFFSET UNITYSDK_OFFSET(0xB405420)
+#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__168_1_OFFSET UNITYSDK_OFFSET(0xB405490)
+#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__168_2_OFFSET UNITYSDK_OFFSET(0xB405500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIManager___c_TypeDefinitionIndex = 59891;
+	inline static constexpr unsigned int UIManager___c_TypeDefinitionIndex = 67289;
 
 	class UIManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>** StaticGet___9__168_0()
 		{
-			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x35B70);
-		}
-		static ::RPG::Client::UIManager___c** StaticGet___9()
-		{
-			return (::RPG::Client::UIManager___c**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x35B78);
+			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x2FF30);
 		}
 		static ::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>** StaticGet___9__168_2()
 		{
-			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x35B80);
+			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x2FF38);
+		}
+		static ::RPG::Client::UIManager___c** StaticGet___9()
+		{
+			return (::RPG::Client::UIManager___c**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x2FF40);
 		}
 		static ::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>** StaticGet___9__168_1()
 		{
-			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x35B88);
+			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIManager___c_TypeDefinitionIndex)->GetStaticField(0x2FF48);
 		}
 
 		static ::System::Void _cctor()

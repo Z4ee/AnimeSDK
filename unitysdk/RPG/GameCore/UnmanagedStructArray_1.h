@@ -8,7 +8,7 @@ namespace System::IO { class UnmanagedMemoryAccessor; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnmanagedStructArray_1_TypeDefinitionIndex = 9420;
+	inline static constexpr unsigned int UnmanagedStructArray_1_TypeDefinitionIndex = 9618;
 
 	template <typename T>
 	class UnmanagedStructArray_1 : public ::System::Object

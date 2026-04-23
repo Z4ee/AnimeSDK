@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINAREACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17377F00)
-#define RPG_GAMECORE_MANIKINAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17378270)
+#define RPG_GAMECORE_MANIKINAREACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A85B60)
+#define RPG_GAMECORE_MANIKINAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A85EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinAreaConfig_TypeDefinitionIndex = 17379;
+	inline static constexpr unsigned int ManikinAreaConfig_TypeDefinitionIndex = 17987;
 
 	class ManikinAreaConfig : public ::RPG::GameCore::JsonConfig
 	{

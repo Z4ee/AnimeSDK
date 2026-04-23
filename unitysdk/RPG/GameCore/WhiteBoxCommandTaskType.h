@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WhiteBoxCommandTaskType_TypeDefinitionIndex = 10136;
+	inline static constexpr unsigned int WhiteBoxCommandTaskType_TypeDefinitionIndex = 10328;
 
 	enum class WhiteBoxCommandTaskType : ::System::Int32
 	{

@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA6040)
-#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA65A0)
+#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18606900)
+#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18606E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityConstantGSRow_TypeDefinitionIndex = 10810;
+	inline static constexpr unsigned int ActivityConstantGSRow_TypeDefinitionIndex = 11059;
 
 	class ActivityConstantGSRow : public ::System::Object
 	{
 	public:
-		::System::String* Value; // 0x10
-		::System::String* ConstValueName; // 0x18
+		::System::String* ConstValueName; // 0x10
+		::System::String* Value; // 0x18
 
 		::System::Void _ctor()
 		{

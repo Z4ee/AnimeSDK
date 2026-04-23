@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager_UIDragState_TypeDefinitionIndex = 56447;
+	inline static constexpr unsigned int UIDraggableManager_UIDragState_TypeDefinitionIndex = 63691;
 
 	enum class UIDraggableManager_UIDragState : ::System::Int32
 	{

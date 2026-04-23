@@ -4,18 +4,18 @@
 #include "unitysdk/JetBrains/Annotations/ImplicitUseTargetFlags.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x189E9B70)
-#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189E9B60)
+#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A423420)
+#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A423410)
 
 namespace JetBrains::Annotations
 {
-	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 3820;
+	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 3822;
 
 	class UsedImplicitlyAttribute : public ::System::Attribute
 	{
 	public:
-		::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField; // 0x10
-		::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField; // 0x14
+		::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField; // 0x10
+		::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField; // 0x14
 
 		::System::Void _ctor()
 		{

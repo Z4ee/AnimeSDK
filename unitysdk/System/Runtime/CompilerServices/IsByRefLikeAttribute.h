@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ISBYREFLIKEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x188BC1E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ISBYREFLIKEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC6C50)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IsByRefLikeAttribute_TypeDefinitionIndex = 27724;
+	inline static constexpr unsigned int IsByRefLikeAttribute_TypeDefinitionIndex = 39761;
 
 	class IsByRefLikeAttribute : public ::System::Attribute
 	{

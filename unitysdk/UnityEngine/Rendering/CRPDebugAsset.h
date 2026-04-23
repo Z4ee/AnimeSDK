@@ -11,7 +11,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPDebugAsset_TypeDefinitionIndex = 4627;
+	inline static constexpr unsigned int CRPDebugAsset_TypeDefinitionIndex = 4635;
 
 	struct alignas(8) CRPDebugAsset
 	{

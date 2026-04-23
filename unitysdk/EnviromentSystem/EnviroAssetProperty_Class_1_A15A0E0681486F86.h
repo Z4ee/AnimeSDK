@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY_CLASS_1_A15A0E0681486F86__CTOR_OFFSET UNITYSDK_OFFSET(0xFB86720)
+#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY_CLASS_1_A15A0E0681486F86__CTOR_OFFSET UNITYSDK_OFFSET(0xF2F9DE0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroAssetProperty_Class_1_A15A0E0681486F86_TypeDefinitionIndex = 40303;
+	inline static constexpr unsigned int EnviroAssetProperty_Class_1_A15A0E0681486F86_TypeDefinitionIndex = 46212;
 
 	class EnviroAssetProperty_Class_1_A15A0E0681486F86 : public ::System::Object
 	{

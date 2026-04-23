@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ParmInput_TypeDefinitionIndex = 37716;
+	inline static constexpr unsigned int HAPI_ParmInput_TypeDefinitionIndex = 43593;
 
 	struct alignas(8) HAPI_ParmInput
 	{

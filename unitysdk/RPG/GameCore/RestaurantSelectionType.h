@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantSelectionType_TypeDefinitionIndex = 10636;
+	inline static constexpr unsigned int RestaurantSelectionType_TypeDefinitionIndex = 10887;
 
 	enum class RestaurantSelectionType : ::System::Int32
 	{

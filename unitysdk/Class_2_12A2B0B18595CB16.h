@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_1.h"
 
-class Class_1_C03F4DDB5A53142C;
+class Class_1_D37BADBAF66E56C6;
 namespace RPG::GameCore { class MarbleLeadHand; }
 
-#define CLASS_2_12A2B0B18595CB16_METHOD_2_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0x16897010)
-#define CLASS_2_12A2B0B18595CB16_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x168970A0)
-#define CLASS_2_12A2B0B18595CB16__CTOR_OFFSET UNITYSDK_OFFSET(0x16897000)
+#define CLASS_2_12A2B0B18595CB16_METHOD_2_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0x17F1C060)
+#define CLASS_2_12A2B0B18595CB16_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17F1C0F0)
+#define CLASS_2_12A2B0B18595CB16__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1C050)
 
-inline static constexpr unsigned int Class_2_12A2B0B18595CB16_TypeDefinitionIndex = 33190;
+inline static constexpr unsigned int Class_2_12A2B0B18595CB16_TypeDefinitionIndex = 38980;
 
-class Class_2_12A2B0B18595CB16 : public ::Class_1_F9FBCC956DFCF137
+class Class_2_12A2B0B18595CB16 : public ::Class_1_F9FBCC956DFCF137_1
 {
 public:
 	::RPG::GameCore::MarbleLeadHand* Field_2_0; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::MarbleLeadHand* a1, ::Class_1_C03F4DDB5A53142C* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleLeadHand* a1, ::Class_1_D37BADBAF66E56C6* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleLeadHand*, ::Class_1_C03F4DDB5A53142C*))((::PBYTE)hIl2Cpp + CLASS_2_12A2B0B18595CB16__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleLeadHand*, ::Class_1_D37BADBAF66E56C6*))((::PBYTE)hIl2Cpp + CLASS_2_12A2B0B18595CB16__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_2_568AE7A1499723FD()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBatchItemType_TypeDefinitionIndex = 22028;
+	inline static constexpr unsigned int WaitBatchItemType_TypeDefinitionIndex = 22744;
 
 	enum class WaitBatchItemType : ::System::Int32
 	{

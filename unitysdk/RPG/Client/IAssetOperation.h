@@ -9,7 +9,7 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAssetOperation_TypeDefinitionIndex = 31947;
+	inline static constexpr unsigned int IAssetOperation_TypeDefinitionIndex = 37667;
 
 	class IAssetOperation
 	{

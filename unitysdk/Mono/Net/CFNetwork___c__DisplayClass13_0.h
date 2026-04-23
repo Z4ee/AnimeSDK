@@ -5,12 +5,12 @@
 namespace Mono::Net { class CFProxy; }
 namespace Mono::Net { class CFRunLoop; }
 
-#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186592A0)
-#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET UNITYSDK_OFFSET(0x1865A050)
+#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A093B50)
+#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET UNITYSDK_OFFSET(0x1A094900)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFNetwork___c__DisplayClass13_0_TypeDefinitionIndex = 2409;
+	inline static constexpr unsigned int CFNetwork___c__DisplayClass13_0_TypeDefinitionIndex = 2410;
 
 	class CFNetwork___c__DisplayClass13_0 : public ::System::Object
 	{

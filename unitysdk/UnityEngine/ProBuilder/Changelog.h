@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace UnityEngine::ProBuilder { class ChangelogEntry; }
 
-#define UNITYENGINE_PROBUILDER_CHANGELOG_CREATEENTRY_OFFSET UNITYSDK_OFFSET(0x187C16E0)
-#define UNITYENGINE_PROBUILDER_CHANGELOG_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x187C1330)
-#define UNITYENGINE_PROBUILDER_CHANGELOG__CTOR_OFFSET UNITYSDK_OFFSET(0x187C1390)
+#define UNITYENGINE_PROBUILDER_CHANGELOG_CREATEENTRY_OFFSET UNITYSDK_OFFSET(0x1A1FB6B0)
+#define UNITYENGINE_PROBUILDER_CHANGELOG_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x1A1FB300)
+#define UNITYENGINE_PROBUILDER_CHANGELOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FB360)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Changelog_TypeDefinitionIndex = 34078;
+	inline static constexpr unsigned int Changelog_TypeDefinitionIndex = 39897;
 
 	class Changelog : public ::System::Object
 	{

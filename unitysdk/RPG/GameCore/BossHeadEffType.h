@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BossHeadEffType_TypeDefinitionIndex = 21433;
+	inline static constexpr unsigned int BossHeadEffType_TypeDefinitionIndex = 22168;
 
 	enum class BossHeadEffType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionVisualStateReason_TypeDefinitionIndex = 50494;
+	inline static constexpr unsigned int RegionVisualStateReason_TypeDefinitionIndex = 57357;
 
 	enum class RegionVisualStateReason : ::System::Int32
 	{

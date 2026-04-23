@@ -1,11 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueBuffAeonType.h"
-#include "unitysdk/RPG/GameCore/RogueBuffCategory.h"
 
-namespace System { class String; }
+namespace RPG::Client { class GridFightForgeItemData; }
+namespace RPG::Client { class GridFightGridMember; }
+namespace RPG::Client { class GridFightNPC; }
+namespace RPG::Client { class GridFightProjection; }
+namespace RPG::Client { class GridFightRole; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 54714;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 59384;
 
 class Class_0_16E4307DCC419505_718
 {

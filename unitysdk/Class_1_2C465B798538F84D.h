@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_2C465B798538F84D_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x10C85660)
-#define CLASS_1_2C465B798538F84D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10C85700)
-#define CLASS_1_2C465B798538F84D__CTOR_OFFSET UNITYSDK_OFFSET(0x10C85600)
-#define CLASS_1_2C465B798538F84D___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10C85A70)
+#define CLASS_1_2C465B798538F84D_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x1187C3C0)
+#define CLASS_1_2C465B798538F84D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1187C460)
+#define CLASS_1_2C465B798538F84D__CTOR_OFFSET UNITYSDK_OFFSET(0x1187C360)
+#define CLASS_1_2C465B798538F84D___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1187C7D0)
 
-inline static constexpr unsigned int Class_1_2C465B798538F84D_TypeDefinitionIndex = 57438;
+inline static constexpr unsigned int Class_1_2C465B798538F84D_TypeDefinitionIndex = 64699;
 
 class Class_1_2C465B798538F84D : public ::System::Object
 {
 public:
 	::UnityEngine::Renderer* Field_1_0; // 0x10
-	::System::Single Field_1_3; // 0x18
-	::System::Int32 Field_1_1; // 0x1C
-	::System::Single Field_1_2; // 0x20
+	::System::Single Field_1_2; // 0x18
+	::System::Single Field_1_3; // 0x1C
+	::System::Int32 Field_1_1; // 0x20
 
 	::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)
 	{

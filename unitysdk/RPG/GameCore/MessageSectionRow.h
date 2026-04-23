@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173D8F70)
-#define RPG_GAMECORE_MESSAGESECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173D9130)
+#define RPG_GAMECORE_MESSAGESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AE7640)
+#define RPG_GAMECORE_MESSAGESECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE7800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageSectionRow_TypeDefinitionIndex = 13197;
+	inline static constexpr unsigned int MessageSectionRow_TypeDefinitionIndex = 13659;
 
 	class MessageSectionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* StartMessageItemIDList; // 0x10
-		::System::Boolean IsPerformMessage; // 0x18
+		::System::UInt32 MainMissionLink; // 0x18
 		::System::UInt32 ID; // 0x1C
-		::System::UInt32 MainMissionLink; // 0x20
+		::System::Boolean IsPerformMessage; // 0x20
 
 		::System::Void _ctor()
 		{

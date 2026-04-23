@@ -4,12 +4,12 @@
 
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x185BA270)
-#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x185BA260)
+#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x19FF4F60)
+#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x19FF4F50)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 2073;
+	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 2074;
 
 	class XsdSimpleValue : public ::System::Object
 	{

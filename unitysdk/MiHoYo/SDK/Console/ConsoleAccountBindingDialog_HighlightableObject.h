@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleAccountBindingDialog_HighlightableObject_TypeDefinitionIndex = 7610;
+	inline static constexpr unsigned int ConsoleAccountBindingDialog_HighlightableObject_TypeDefinitionIndex = 7751;
 
 	enum class ConsoleAccountBindingDialog_HighlightableObject : ::System::Int32
 	{

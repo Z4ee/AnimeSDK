@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager_WorkMode_TypeDefinitionIndex = 7459;
+	inline static constexpr unsigned int GoodsPlatformManager_WorkMode_TypeDefinitionIndex = 7600;
 
 	enum class GoodsPlatformManager_WorkMode : ::System::Int32
 	{

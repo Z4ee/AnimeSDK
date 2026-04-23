@@ -7,7 +7,7 @@ namespace RPG::Client::NavMap { class WorldData; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ITab_TypeDefinitionIndex = 61357;
+	inline static constexpr unsigned int ITab_TypeDefinitionIndex = 68863;
 
 	class ITab
 	{

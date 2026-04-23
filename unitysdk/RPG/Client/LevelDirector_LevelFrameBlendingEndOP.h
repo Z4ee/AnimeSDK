@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class LevelDirector; }
 
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0x99761A0)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP__CTOR_OFFSET UNITYSDK_OFFSET(0x9975920)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0xA6665E0)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMEBLENDINGENDOP__CTOR_OFFSET UNITYSDK_OFFSET(0xA665D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelDirector_LevelFrameBlendingEndOP_TypeDefinitionIndex = 47957;
+	inline static constexpr unsigned int LevelDirector_LevelFrameBlendingEndOP_TypeDefinitionIndex = 54700;
 
 	class LevelDirector_LevelFrameBlendingEndOP : public ::System::Object
 	{

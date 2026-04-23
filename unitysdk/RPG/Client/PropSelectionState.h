@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropSelectionState_TypeDefinitionIndex = 48798;
+	inline static constexpr unsigned int PropSelectionState_TypeDefinitionIndex = 55562;
 
 	enum class PropSelectionState : ::System::Int32
 	{

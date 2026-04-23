@@ -6,11 +6,11 @@
 namespace UnityEngine::UIElements { class IMouseEvent; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSEEVENTSHELPER_SENDMOUSEOVERMOUSEOUT_OFFSET UNITYSDK_OFFSET(0x18ACD410)
+#define UNITYENGINE_UIELEMENTS_MOUSEEVENTSHELPER_SENDMOUSEOVERMOUSEOUT_OFFSET UNITYSDK_OFFSET(0x1A508D70)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseEventsHelper_TypeDefinitionIndex = 5936;
+	inline static constexpr unsigned int MouseEventsHelper_TypeDefinitionIndex = 5948;
 
 	class MouseEventsHelper : public ::System::Object
 	{

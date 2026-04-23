@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class TemplateBehavior; }
 
-#define RPG_CLIENT_TEMPLATEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA585040)
+#define RPG_CLIENT_TEMPLATEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C3C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TemplateMonoPlugin_TypeDefinitionIndex = 57980;
+	inline static constexpr unsigned int TemplateMonoPlugin_TypeDefinitionIndex = 65267;
 
 	class TemplateMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TemplateBehavior*>
 	{

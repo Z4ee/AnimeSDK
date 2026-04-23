@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_2_E5D38AB31F1F266B_METHOD_2_BB96740FC520E8ED_OFFSET UNITYSDK_OFFSET(0x16B920C0)
-#define CLASS_2_E5D38AB31F1F266B__CTOR_OFFSET UNITYSDK_OFFSET(0x16B924B0)
+#define CLASS_2_E5D38AB31F1F266B_METHOD_2_BB96740FC520E8ED_OFFSET UNITYSDK_OFFSET(0x18389000)
+#define CLASS_2_E5D38AB31F1F266B__CTOR_OFFSET UNITYSDK_OFFSET(0x183893F0)
 
-inline static constexpr unsigned int Class_2_E5D38AB31F1F266B_TypeDefinitionIndex = 21061;
+inline static constexpr unsigned int Class_2_E5D38AB31F1F266B_TypeDefinitionIndex = 21777;
 
 class Class_2_E5D38AB31F1F266B : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_2_0; // 0x10
+	::RPG::GameCore::DynamicFloat* Field_2_3; // 0x10
 	::RPG::GameCore::DynamicFloat* Field_2_2; // 0x18
-	::RPG::GameCore::DynamicFloat* Field_2_5; // 0x20
-	::RPG::GameCore::DynamicFloat* Field_2_3; // 0x28
-	::RPG::GameCore::DynamicFloat* Field_2_1; // 0x30
+	::RPG::GameCore::DynamicFloat* Field_2_0; // 0x20
+	::RPG::GameCore::DynamicFloat* Field_2_1; // 0x28
+	::RPG::GameCore::DynamicFloat* Field_2_5; // 0x30
 	::RPG::GameCore::DynamicFloat* Field_2_4; // 0x38
 	::RPG::GameCore::OrbitTargetPosType Field_2_6; // 0x40
 

@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171AC840)
-#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171ACA50)
+#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188BA000)
+#define RPG_GAMECORE_EVOLVEBUILDCARDTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188BA210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildCardTypeRow_TypeDefinitionIndex = 10691;
+	inline static constexpr unsigned int EvolveBuildCardTypeRow_TypeDefinitionIndex = 10942;
 
 	class EvolveBuildCardTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* CardBuffItemBgSmall; // 0x10
-		::System::String* CardBuffItemBgBig; // 0x18
-		::System::String* CardBuffItemBgMid; // 0x20
+		::System::String* CardBuffItemBgMid; // 0x18
+		::System::String* CardBuffItemBgBig; // 0x20
 		::RPG::GameCore::EvolveBuildSeason Season; // 0x28
 		::RPG::GameCore::EvolveBuildCardType Type; // 0x2C
 

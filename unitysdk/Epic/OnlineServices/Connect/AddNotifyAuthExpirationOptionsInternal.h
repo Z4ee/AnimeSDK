@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Connect { class AddNotifyAuthExpirationOptions; 
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2E7B0)
+#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2DBE0)
 #define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int AddNotifyAuthExpirationOptionsInternal_TypeDefinitionIndex = 36430;
+	inline static constexpr unsigned int AddNotifyAuthExpirationOptionsInternal_TypeDefinitionIndex = 42256;
 
 	struct alignas(4) AddNotifyAuthExpirationOptionsInternal
 	{

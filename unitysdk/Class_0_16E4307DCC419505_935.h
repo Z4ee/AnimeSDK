@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class MapMappingInfoData; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_1_2A97E60807F449E7;
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_935_TypeDefinitionIndex = 61253;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_935_TypeDefinitionIndex = 65651;
 
 class Class_0_16E4307DCC419505_935
 {

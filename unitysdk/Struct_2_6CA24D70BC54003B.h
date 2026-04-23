@@ -4,7 +4,7 @@
 
 namespace System::Text::RegularExpressions { class Regex; }
 
-inline static constexpr unsigned int Struct_2_6CA24D70BC54003B_TypeDefinitionIndex = 43910;
+inline static constexpr unsigned int Struct_2_6CA24D70BC54003B_TypeDefinitionIndex = 50610;
 
 struct alignas(8) Struct_2_6CA24D70BC54003B
 {

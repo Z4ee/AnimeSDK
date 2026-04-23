@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_918;
+class Class_0_16E4307DCC419505_1033;
 class Class_1_09021BDF5ED5EA94;
 class Class_1_303D5A33D1401D59;
 class Class_1_3F28033F34305C46;
@@ -23,7 +23,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 60518;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 67954;
 
 	template <typename T>
 	class SceneItemHLODStreamingLayer_1 : public ::Class_1_5B228A4605C15E47

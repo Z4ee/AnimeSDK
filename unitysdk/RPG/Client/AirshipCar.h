@@ -8,6 +8,7 @@ namespace RPG::Client { class AirshipCarCollision; }
 namespace RPG::Client { class AirshipCarDetectAccelTrigger; }
 namespace RPG::Client { class AirshipCarDetectAvoidTrigger; }
 namespace RPG::Client { class Airship_AirshipEffectConfig; }
+namespace RPG::Client { class Stage; }
 namespace RPG::Client { class TiltCommonConfig; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace System { class String; }
@@ -16,30 +17,30 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIRSHIPCAR_AWAKE_OFFSET UNITYSDK_OFFSET(0x9093EF0)
-#define RPG_CLIENT_AIRSHIPCAR_GET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0x9093EB0)
-#define RPG_CLIENT_AIRSHIPCAR_GET_AUDIO_OFFSET UNITYSDK_OFFSET(0x9093E70)
-#define RPG_CLIENT_AIRSHIPCAR_GET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0x9093E90)
-#define RPG_CLIENT_AIRSHIPCAR_GET_COLLISION_OFFSET UNITYSDK_OFFSET(0x9093ED0)
-#define RPG_CLIENT_AIRSHIPCAR_METHOD_5_6C3479A4B494BBB2_OFFSET UNITYSDK_OFFSET(0x9094660)
-#define RPG_CLIENT_AIRSHIPCAR_METHOD_5_DBB33931C8926D5D_OFFSET UNITYSDK_OFFSET(0x90948B0)
-#define RPG_CLIENT_AIRSHIPCAR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9094200)
-#define RPG_CLIENT_AIRSHIPCAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9094160)
-#define RPG_CLIENT_AIRSHIPCAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x90940C0)
-#define RPG_CLIENT_AIRSHIPCAR_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0x90942F0)
-#define RPG_CLIENT_AIRSHIPCAR_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0x90945D0)
-#define RPG_CLIENT_AIRSHIPCAR_SETUP_OFFSET UNITYSDK_OFFSET(0x90943E0)
-#define RPG_CLIENT_AIRSHIPCAR_SET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0x9093EC0)
-#define RPG_CLIENT_AIRSHIPCAR_SET_AUDIO_OFFSET UNITYSDK_OFFSET(0x9093E80)
-#define RPG_CLIENT_AIRSHIPCAR_SET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0x9093EA0)
-#define RPG_CLIENT_AIRSHIPCAR_SET_COLLISION_OFFSET UNITYSDK_OFFSET(0x9093EE0)
-#define RPG_CLIENT_AIRSHIPCAR__CTOR_OFFSET UNITYSDK_OFFSET(0x9094970)
-#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__45_0_OFFSET UNITYSDK_OFFSET(0x90949C0)
-#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__45_1_OFFSET UNITYSDK_OFFSET(0x90949D0)
+#define RPG_CLIENT_AIRSHIPCAR_AWAKE_OFFSET UNITYSDK_OFFSET(0x9CF1010)
+#define RPG_CLIENT_AIRSHIPCAR_GET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0x9CF0FD0)
+#define RPG_CLIENT_AIRSHIPCAR_GET_AUDIO_OFFSET UNITYSDK_OFFSET(0x9CF0F90)
+#define RPG_CLIENT_AIRSHIPCAR_GET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0x9CF0FB0)
+#define RPG_CLIENT_AIRSHIPCAR_GET_COLLISION_OFFSET UNITYSDK_OFFSET(0x9CF0FF0)
+#define RPG_CLIENT_AIRSHIPCAR_METHOD_5_6C3479A4B494BBB2_OFFSET UNITYSDK_OFFSET(0x9CF17A0)
+#define RPG_CLIENT_AIRSHIPCAR_METHOD_5_DBB33931C8926D5D_OFFSET UNITYSDK_OFFSET(0x9CF19F0)
+#define RPG_CLIENT_AIRSHIPCAR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9CF1320)
+#define RPG_CLIENT_AIRSHIPCAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9CF1280)
+#define RPG_CLIENT_AIRSHIPCAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9CF11E0)
+#define RPG_CLIENT_AIRSHIPCAR_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0x9CF1410)
+#define RPG_CLIENT_AIRSHIPCAR_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0x9CF1710)
+#define RPG_CLIENT_AIRSHIPCAR_SETUP_OFFSET UNITYSDK_OFFSET(0x9CF14F0)
+#define RPG_CLIENT_AIRSHIPCAR_SET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0x9CF0FE0)
+#define RPG_CLIENT_AIRSHIPCAR_SET_AUDIO_OFFSET UNITYSDK_OFFSET(0x9CF0FA0)
+#define RPG_CLIENT_AIRSHIPCAR_SET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0x9CF0FC0)
+#define RPG_CLIENT_AIRSHIPCAR_SET_COLLISION_OFFSET UNITYSDK_OFFSET(0x9CF1000)
+#define RPG_CLIENT_AIRSHIPCAR__CTOR_OFFSET UNITYSDK_OFFSET(0x9CF1AB0)
+#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_0_OFFSET UNITYSDK_OFFSET(0x9CF1B00)
+#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_1_OFFSET UNITYSDK_OFFSET(0x9CF1B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipCar_TypeDefinitionIndex = 48426;
+	inline static constexpr unsigned int AirshipCar_TypeDefinitionIndex = 55174;
 
 	class AirshipCar : public ::UnityEngine::MonoBehaviour
 	{
@@ -71,8 +72,9 @@ namespace RPG::Client
 		::RPG::Client::AirshipCarCollision* _Collision_k__BackingField; // 0xA8
 		::UnityEngine::Transform* Transform; // 0xB0
 		::RPG::Client::OpenWorld::StreamingItemData* Field_5_26; // 0xB8
-		::System::Single Field_5_27; // 0xC0
-		::UnityEngine::Animator* Field_5_28; // 0xC8
+		::RPG::Client::Stage* Field_5_27; // 0xC0
+		::System::Single Field_5_28; // 0xC8
+		::UnityEngine::Animator* Field_5_29; // 0xD0
 
 		::System::Void _ctor()
 		{
@@ -164,14 +166,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_METHOD_5_DBB33931C8926D5D_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _Setup_b__45_0(::UnityEngine::GameObject* go, ::RPG::Client::OpenWorld::StreamingItemData* data)
+		::System::Void _Setup_b__46_0(::UnityEngine::GameObject* go, ::RPG::Client::OpenWorld::StreamingItemData* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR__SETUP_B__45_0_OFFSET))(this, go, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_0_OFFSET))(this, go, data);
 		}
 
-		::System::Void _Setup_b__45_1(::UnityEngine::GameObject* last, ::UnityEngine::GameObject* now, ::RPG::Client::OpenWorld::StreamingItemData* data)
+		::System::Void _Setup_b__46_1(::UnityEngine::GameObject* last, ::UnityEngine::GameObject* now, ::RPG::Client::OpenWorld::StreamingItemData* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR__SETUP_B__45_1_OFFSET))(this, last, now, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_1_OFFSET))(this, last, now, data);
 		}
 	};
 }

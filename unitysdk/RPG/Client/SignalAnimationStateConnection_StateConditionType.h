@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalAnimationStateConnection_StateConditionType_TypeDefinitionIndex = 58138;
+	inline static constexpr unsigned int SignalAnimationStateConnection_StateConditionType_TypeDefinitionIndex = 65425;
 
 	enum class SignalAnimationStateConnection_StateConditionType : ::System::Int32
 	{

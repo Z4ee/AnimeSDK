@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class EmoEyeBloomTimelineBehaviour; }
 namespace RPGTools::Timeline { class EyeBloomData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB4D7E0)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB4D7D0)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4D9B0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8C1FE0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB8C1FD0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C21B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeBloomTimelineClip_TypeDefinitionIndex = 38951;
+	inline static constexpr unsigned int EmoEyeBloomTimelineClip_TypeDefinitionIndex = 44854;
 
 	class EmoEyeBloomTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{

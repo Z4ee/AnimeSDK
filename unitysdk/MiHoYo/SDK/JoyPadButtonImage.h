@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x15F1CE00)
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x15F1CD50)
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x15F1CE80)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17565DF0)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x17565D40)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17565E70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 6998;
+	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 7044;
 
 	class JoyPadButtonImage : public ::UnityEngine::MonoBehaviour
 	{

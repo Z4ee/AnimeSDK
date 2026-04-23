@@ -4,7 +4,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int WireframeDraw_ShapeIndex_TypeDefinitionIndex = 29536;
+	inline static constexpr unsigned int WireframeDraw_ShapeIndex_TypeDefinitionIndex = 35303;
 
 	struct alignas(4) WireframeDraw_ShapeIndex
 	{

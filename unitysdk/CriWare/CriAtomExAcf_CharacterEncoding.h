@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_CharacterEncoding_TypeDefinitionIndex = 31059;
+	inline static constexpr unsigned int CriAtomExAcf_CharacterEncoding_TypeDefinitionIndex = 36779;
 
 	enum class CriAtomExAcf_CharacterEncoding : ::System::UInt32
 	{

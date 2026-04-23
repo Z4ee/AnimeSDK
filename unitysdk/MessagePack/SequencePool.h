@@ -7,22 +7,22 @@ namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 namespace System::Buffers { template <typename T> class ArrayPool_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define MESSAGEPACK_SEQUENCEPOOL_RENT_OFFSET UNITYSDK_OFFSET(0x15D89CF0)
-#define MESSAGEPACK_SEQUENCEPOOL_RETURN_OFFSET UNITYSDK_OFFSET(0x15D8A0C0)
-#define MESSAGEPACK_SEQUENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D8A200)
-#define MESSAGEPACK_SEQUENCEPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15D89C80)
-#define MESSAGEPACK_SEQUENCEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x15D89BD0)
+#define MESSAGEPACK_SEQUENCEPOOL_RENT_OFFSET UNITYSDK_OFFSET(0x173873F0)
+#define MESSAGEPACK_SEQUENCEPOOL_RETURN_OFFSET UNITYSDK_OFFSET(0x173877C0)
+#define MESSAGEPACK_SEQUENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17387900)
+#define MESSAGEPACK_SEQUENCEPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17387380)
+#define MESSAGEPACK_SEQUENCEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x173872D0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 9095;
+	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 9292;
 
 	class SequencePool : public ::System::Object
 	{
 	public:
 		static ::MessagePack::SequencePool** StaticGet_Shared()
 		{
-			return (::MessagePack::SequencePool**)Il2CppClass::FromTypeDefinitionIndex(SequencePool_TypeDefinitionIndex)->GetStaticField(0x23390);
+			return (::MessagePack::SequencePool**)Il2CppClass::FromTypeDefinitionIndex(SequencePool_TypeDefinitionIndex)->GetStaticField(0x44E40);
 		}
 		::System::Object* arrayPoolOrMemoryPool; // 0x10
 		::System::Collections::Generic::Stack_1<::Nerdbank::Streams::Sequence_1<::System::Byte>*>* pool; // 0x18

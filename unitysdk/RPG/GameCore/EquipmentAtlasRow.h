@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EQUIPMENTATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171A3D70)
-#define RPG_GAMECORE_EQUIPMENTATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171A3E90)
+#define RPG_GAMECORE_EQUIPMENTATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188B1530)
+#define RPG_GAMECORE_EQUIPMENTATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188B1650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentAtlasRow_TypeDefinitionIndex = 12091;
+	inline static constexpr unsigned int EquipmentAtlasRow_TypeDefinitionIndex = 12524;
 
 	class EquipmentAtlasRow : public ::System::Object
 	{
 	public:
-		::System::Boolean DefaultUnlock; // 0x10
-		::System::UInt32 EquipmentID; // 0x14
+		::System::UInt32 EquipmentID; // 0x10
+		::System::Boolean DefaultUnlock; // 0x14
 
 		::System::Void _ctor()
 		{

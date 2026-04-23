@@ -4,9 +4,9 @@
 
 namespace System { class Version; }
 
-#define CLASS_1_C6A8165A0188658B__CTOR_OFFSET UNITYSDK_OFFSET(0x1164D980)
+#define CLASS_1_C6A8165A0188658B__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BA510)
 
-inline static constexpr unsigned int Class_1_C6A8165A0188658B_TypeDefinitionIndex = 64559;
+inline static constexpr unsigned int Class_1_C6A8165A0188658B_TypeDefinitionIndex = 72606;
 
 class Class_1_C6A8165A0188658B : public ::System::Object
 {

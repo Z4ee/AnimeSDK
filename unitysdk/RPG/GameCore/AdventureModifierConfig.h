@@ -7,14 +7,14 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x16F55AE0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x16F54B60)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F54AC0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F54B20)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x186782B0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18677280)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186771E0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18677240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 16079;
+	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 16610;
 
 	class AdventureModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
@@ -51,10 +51,12 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* ModifierTaskList; // 0x100
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCounterAttack; // 0x108
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnHitHolyShield; // 0x110
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTransferToFakeAvatar; // 0x118
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTransferFromFakeAvatar; // 0x120
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterBuffFullUpdate; // 0x128
-		::RPG::GameCore::MazeBuffType MazeBuffType; // 0x130
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnMPChange; // 0x118
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSkillReset; // 0x120
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTransferToFakeAvatar; // 0x128
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTransferFromFakeAvatar; // 0x130
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterBuffFullUpdate; // 0x138
+		::RPG::GameCore::MazeBuffType MazeBuffType; // 0x140
 
 		::System::Void _ctor()
 		{

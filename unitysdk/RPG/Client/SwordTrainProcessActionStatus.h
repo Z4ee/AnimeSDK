@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainProcessActionStatus_TypeDefinitionIndex = 50303;
+	inline static constexpr unsigned int SwordTrainProcessActionStatus_TypeDefinitionIndex = 57162;
 
 	enum class SwordTrainProcessActionStatus : ::System::Int32
 	{

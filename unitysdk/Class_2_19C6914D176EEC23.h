@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetRemoveUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_19C6914D176EEC23_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x10B67E70)
-#define CLASS_2_19C6914D176EEC23__CTOR_OFFSET UNITYSDK_OFFSET(0x10B67E50)
+#define CLASS_2_19C6914D176EEC23_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xA54F8C0)
+#define CLASS_2_19C6914D176EEC23__CTOR_OFFSET UNITYSDK_OFFSET(0xA54F8A0)
 
-inline static constexpr unsigned int Class_2_19C6914D176EEC23_TypeDefinitionIndex = 47803;
+inline static constexpr unsigned int Class_2_19C6914D176EEC23_TypeDefinitionIndex = 54542;
 
 class Class_2_19C6914D176EEC23 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetRemoveUnselectable*>
 {

@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRCompositorError_TypeDefinitionIndex = 30290;
+	inline static constexpr unsigned int EVRCompositorError_TypeDefinitionIndex = 36010;
 
 	enum class EVRCompositorError : ::System::Int32
 	{

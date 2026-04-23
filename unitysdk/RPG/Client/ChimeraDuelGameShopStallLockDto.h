@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLLOCKDTO__CTOR_OFFSET UNITYSDK_OFFSET(0x93A6EE0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLLOCKDTO__CTOR_OFFSET UNITYSDK_OFFSET(0xA014EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameShopStallLockDto_TypeDefinitionIndex = 51404;
+	inline static constexpr unsigned int ChimeraDuelGameShopStallLockDto_TypeDefinitionIndex = 58342;
 
 	class ChimeraDuelGameShopStallLockDto : public ::System::Object
 	{

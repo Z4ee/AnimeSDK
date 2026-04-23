@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int NullValue_TypeDefinitionIndex = 28033;
+	inline static constexpr unsigned int NullValue_TypeDefinitionIndex = 33657;
 
 	enum class NullValue : ::System::Int32
 	{

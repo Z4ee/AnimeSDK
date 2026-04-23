@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/HideFlags.h"
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_GET_GLOBALHIDEFLAGS_OFFSET UNITYSDK_OFFSET(0x119E9180)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x119EACD0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x119EACC0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_GET_GLOBALHIDEFLAGS_OFFSET UNITYSDK_OFFSET(0x12BB79D0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BB9520)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB9510)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleProjectSettings_TypeDefinitionIndex = 34895;
+	inline static constexpr unsigned int UIParticleProjectSettings_TypeDefinitionIndex = 40714;
 
 	class UIParticleProjectSettings : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_m_HideGeneratedObjects()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIParticleProjectSettings_TypeDefinitionIndex)->GetStaticField(0xCF0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIParticleProjectSettings_TypeDefinitionIndex)->GetStaticField(0x1040);
 		}
 
 		::System::Void _ctor()

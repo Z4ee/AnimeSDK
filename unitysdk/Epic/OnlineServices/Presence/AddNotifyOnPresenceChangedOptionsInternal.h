@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Presence { class AddNotifyOnPresenceChangedOptio
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYONPRESENCECHANGEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYONPRESENCECHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x606E0)
+#define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYONPRESENCECHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x61110)
 #define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYONPRESENCECHANGEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int AddNotifyOnPresenceChangedOptionsInternal_TypeDefinitionIndex = 35753;
+	inline static constexpr unsigned int AddNotifyOnPresenceChangedOptionsInternal_TypeDefinitionIndex = 41579;
 
 	struct alignas(4) AddNotifyOnPresenceChangedOptionsInternal
 	{

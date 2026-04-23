@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_MATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B7DB30)
+#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_MATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA877320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialSwitchMonoPlugin_MaterialBlock_TypeDefinitionIndex = 57927;
+	inline static constexpr unsigned int MaterialSwitchMonoPlugin_MaterialBlock_TypeDefinitionIndex = 65214;
 
 	class MaterialSwitchMonoPlugin_MaterialBlock : public ::System::Object
 	{

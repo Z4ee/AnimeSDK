@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureDyingStyle_TypeDefinitionIndex = 18501;
+	inline static constexpr unsigned int AdventureDyingStyle_TypeDefinitionIndex = 19154;
 
 	enum class AdventureDyingStyle : ::System::Int32
 	{

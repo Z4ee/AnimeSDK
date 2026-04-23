@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define UNITYENGINE_ASSETFILENAMEEXTENSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB78A0)
+#define UNITYENGINE_ASSETFILENAMEEXTENSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3320)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetFileNameExtensionAttribute_TypeDefinitionIndex = 3690;
+	inline static constexpr unsigned int AssetFileNameExtensionAttribute_TypeDefinitionIndex = 3692;
 
 	class AssetFileNameExtensionAttribute : public ::System::Attribute
 	{

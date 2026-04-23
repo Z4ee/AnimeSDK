@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEBOSSMAZEEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170587C0)
-#define RPG_GAMECORE_CHALLENGEBOSSMAZEEXTRACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17058900)
+#define RPG_GAMECORE_CHALLENGEBOSSMAZEEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187BD650)
+#define RPG_GAMECORE_CHALLENGEBOSSMAZEEXTRACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187BD790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBossMazeExtraConfigRow_TypeDefinitionIndex = 11814;
+	inline static constexpr unsigned int ChallengeBossMazeExtraConfigRow_TypeDefinitionIndex = 12245;
 
 	class ChallengeBossMazeExtraConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 MonsterID1; // 0x10
-		::System::UInt32 MonsterID2; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 MonsterID2; // 0x18
 
 		::System::Void _ctor()
 		{

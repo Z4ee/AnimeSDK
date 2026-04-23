@@ -5,12 +5,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class LocalAmbientVolume_ExportData; }
 
-#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xABC2DB0)
-#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABC2DC0)
+#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xB9387F0)
+#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB938800)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LocalAmbientVolume_SceneLightExportData_TypeDefinitionIndex = 39742;
+	inline static constexpr unsigned int LocalAmbientVolume_SceneLightExportData_TypeDefinitionIndex = 45651;
 
 	class LocalAmbientVolume_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

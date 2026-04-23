@@ -5,7 +5,7 @@ namespace System::Security { class SecurityElement; }
 
 namespace System::Security
 {
-	inline static constexpr unsigned int ISecurityEncodable_TypeDefinitionIndex = 936;
+	inline static constexpr unsigned int ISecurityEncodable_TypeDefinitionIndex = 938;
 
 	class ISecurityEncodable
 	{

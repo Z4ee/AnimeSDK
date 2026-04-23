@@ -6,25 +6,25 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x16585BE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1658AEF0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1658AE80)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16585BD0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x17BB08F0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x17BB5C00)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BB5B90)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BB08E0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 28181;
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 33805;
 
 	class BGCurveCalculatorClosestPoint : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_TransitionsForPartitions()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x23E00);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x69BC0);
 		}
-		::Il2CppArray<::System::Single>* minSectionDistances; // 0x10
+		::Il2CppArray<::System::Boolean>* excludedSections; // 0x10
 		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x18
-		::Il2CppArray<::System::Boolean>* excludedSections; // 0x20
+		::Il2CppArray<::System::Single>* minSectionDistances; // 0x20
 
 		static ::System::Void _cctor()
 		{

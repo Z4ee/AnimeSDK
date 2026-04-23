@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerDeadHandler; }
 
-#define CLASS_3_29DFC637723776B5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1150D520)
-#define CLASS_3_29DFC637723776B5__CTOR_OFFSET UNITYSDK_OFFSET(0x1150D4F0)
+#define CLASS_3_29DFC637723776B5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x129CF4B0)
+#define CLASS_3_29DFC637723776B5__CTOR_OFFSET UNITYSDK_OFFSET(0x129CF480)
 
-inline static constexpr unsigned int Class_3_29DFC637723776B5_TypeDefinitionIndex = 45401;
+inline static constexpr unsigned int Class_3_29DFC637723776B5_TypeDefinitionIndex = 52046;
 
 class Class_3_29DFC637723776B5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerDeadHandler*>
 {

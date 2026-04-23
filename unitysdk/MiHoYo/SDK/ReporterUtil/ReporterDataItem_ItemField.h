@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int ReporterDataItem_ItemField_TypeDefinitionIndex = 37327;
+	inline static constexpr unsigned int ReporterDataItem_ItemField_TypeDefinitionIndex = 43204;
 
 	enum class ReporterDataItem_ItemField : ::System::Int32
 	{

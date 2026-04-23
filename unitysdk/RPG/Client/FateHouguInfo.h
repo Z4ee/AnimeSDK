@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6E708EAB438EC183_29;
-class Class_1_FA4F4A67B1C04320_277;
+class Class_1_075C34D03AFA1215_33;
+class Class_1_D17272E82AE804C2_286;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class FateHouguDataItem; }
 namespace RPG::Client { class FateHouguNormalSelectAction; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEHOUGUINFO_ADDHOUGU_OFFSET UNITYSDK_OFFSET(0x9692BC0)
-#define RPG_CLIENT_FATEHOUGUINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9692A40)
-#define RPG_CLIENT_FATEHOUGUINFO_GET_ALLHOUGUS_OFFSET UNITYSDK_OFFSET(0x9692E20)
-#define RPG_CLIENT_FATEHOUGUINFO_GET_SELECTACTION_OFFSET UNITYSDK_OFFSET(0x9692E30)
-#define RPG_CLIENT_FATEHOUGUINFO_REMOVEHOUGU_OFFSET UNITYSDK_OFFSET(0x9692C80)
-#define RPG_CLIENT_FATEHOUGUINFO_SYNCPENDINGHOUGUSELECTACTION_OFFSET UNITYSDK_OFFSET(0x9692AB0)
-#define RPG_CLIENT_FATEHOUGUINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x967D0C0)
-#define RPG_CLIENT_FATEHOUGUINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x967C260)
+#define RPG_CLIENT_FATEHOUGUINFO_ADDHOUGU_OFFSET UNITYSDK_OFFSET(0xA352630)
+#define RPG_CLIENT_FATEHOUGUINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA3524B0)
+#define RPG_CLIENT_FATEHOUGUINFO_GET_ALLHOUGUS_OFFSET UNITYSDK_OFFSET(0xA352890)
+#define RPG_CLIENT_FATEHOUGUINFO_GET_SELECTACTION_OFFSET UNITYSDK_OFFSET(0xA3528A0)
+#define RPG_CLIENT_FATEHOUGUINFO_REMOVEHOUGU_OFFSET UNITYSDK_OFFSET(0xA3526F0)
+#define RPG_CLIENT_FATEHOUGUINFO_SYNCPENDINGHOUGUSELECTACTION_OFFSET UNITYSDK_OFFSET(0xA352520)
+#define RPG_CLIENT_FATEHOUGUINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA33CA60)
+#define RPG_CLIENT_FATEHOUGUINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA33BAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateHouguInfo_TypeDefinitionIndex = 51997;
+	inline static constexpr unsigned int FateHouguInfo_TypeDefinitionIndex = 58946;
 
 	class FateHouguInfo : public ::System::Object
 	{
@@ -38,19 +38,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_277*>* protoHouguList)
+		::System::Void Sync(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_286*>* protoHouguList)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_277*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_SYNC_OFFSET))(this, protoHouguList);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_286*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_SYNC_OFFSET))(this, protoHouguList);
 		}
 
-		::System::Void SyncPendingHouguSelectAction(::System::UInt32 actionID, ::Class_1_6E708EAB438EC183_29* proto)
+		::System::Void SyncPendingHouguSelectAction(::System::UInt32 actionID, ::Class_1_075C34D03AFA1215_33* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_6E708EAB438EC183_29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_SYNCPENDINGHOUGUSELECTACTION_OFFSET))(this, actionID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_075C34D03AFA1215_33*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_SYNCPENDINGHOUGUSELECTACTION_OFFSET))(this, actionID, proto);
 		}
 
-		::System::Void AddHougu(::Class_1_FA4F4A67B1C04320_277* protoHougu)
+		::System::Void AddHougu(::Class_1_D17272E82AE804C2_286* protoHougu)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_277*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_ADDHOUGU_OFFSET))(this, protoHougu);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_286*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHOUGUINFO_ADDHOUGU_OFFSET))(this, protoHougu);
 		}
 
 		::System::Void RemoveHougu(::System::UInt32 uniqueID)

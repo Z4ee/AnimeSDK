@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_WATERSIMOVERRIDEPARAM_WATERSIMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x951CDC0)
+#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_WATERSIMOVERRIDEPARAM_WATERSIMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA19FA70)
 
 namespace RPG::Client::DynamicFloatingObject
 {
-	inline static constexpr unsigned int WaterSimOverrideParam_WaterSimParam_TypeDefinitionIndex = 60297;
+	inline static constexpr unsigned int WaterSimOverrideParam_WaterSimParam_TypeDefinitionIndex = 67715;
 
 	class WaterSimOverrideParam_WaterSimParam : public ::System::Object
 	{

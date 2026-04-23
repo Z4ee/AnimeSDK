@@ -6,7 +6,7 @@
 namespace RPG::Client { class IRogueTournBuildRefDataItem; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_C738AD18AC447D55_Struct_2_10E31A4321F4D79A_TypeDefinitionIndex = 55311;
+inline static constexpr unsigned int Class_1_C738AD18AC447D55_Struct_2_10E31A4321F4D79A_TypeDefinitionIndex = 62502;
 
 struct alignas(8) Class_1_C738AD18AC447D55_Struct_2_10E31A4321F4D79A
 {

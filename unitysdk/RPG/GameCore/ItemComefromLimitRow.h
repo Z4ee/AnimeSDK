@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172C3BB0)
-#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172C48A0)
+#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A25FB0)
+#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A26C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComefromLimitRow_TypeDefinitionIndex = 12674;
+	inline static constexpr unsigned int ItemComefromLimitRow_TypeDefinitionIndex = 13141;
 
 	class ItemComefromLimitRow : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKCARDPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177D4370)
-#define RPG_GAMECORE_TAROTBOOKCARDPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177D44F0)
+#define RPG_GAMECORE_TAROTBOOKCARDPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EFA2B0)
+#define RPG_GAMECORE_TAROTBOOKCARDPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFA430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookCardPackRow_TypeDefinitionIndex = 13950;
+	inline static constexpr unsigned int TarotBookCardPackRow_TypeDefinitionIndex = 14425;
 
 	class TarotBookCardPackRow : public ::System::Object
 	{

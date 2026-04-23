@@ -4,7 +4,7 @@
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFile_SectionItem_Ref_1_TypeDefinitionIndex = 3747;
+	inline static constexpr unsigned int IniFile_SectionItem_Ref_1_TypeDefinitionIndex = 3749;
 
 	template <typename T>
 	class IniFile_SectionItem_Ref_1 : public ::System::Object

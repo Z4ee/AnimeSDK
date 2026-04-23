@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Result_TypeDefinitionIndex = 37672;
+	inline static constexpr unsigned int HAPI_Result_TypeDefinitionIndex = 43549;
 
 	enum class HAPI_Result : ::System::Int32
 	{

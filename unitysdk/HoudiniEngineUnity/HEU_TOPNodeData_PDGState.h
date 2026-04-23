@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TOPNodeData_PDGState_TypeDefinitionIndex = 37751;
+	inline static constexpr unsigned int HEU_TOPNodeData_PDGState_TypeDefinitionIndex = 43628;
 
 	enum class HEU_TOPNodeData_PDGState : ::System::Int32
 	{

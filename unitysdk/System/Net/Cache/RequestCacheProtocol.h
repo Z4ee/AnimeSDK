@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x186B6BE0)
+#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1370)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCacheProtocol_TypeDefinitionIndex = 2973;
+	inline static constexpr unsigned int RequestCacheProtocol_TypeDefinitionIndex = 2974;
 
 	class RequestCacheProtocol : public ::System::Object
 	{

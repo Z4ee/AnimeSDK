@@ -6,20 +6,20 @@
 namespace MiHoYo::SDK { class URLConfig_URL; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_URLCONFIG_GETURL_OFFSET UNITYSDK_OFFSET(0x160231B0)
-#define MIHOYO_SDK_URLCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x160233C0)
-#define MIHOYO_SDK_URLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x160233B0)
+#define MIHOYO_SDK_URLCONFIG_GETURL_OFFSET UNITYSDK_OFFSET(0x17687BB0)
+#define MIHOYO_SDK_URLCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x17687DC0)
+#define MIHOYO_SDK_URLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17687DB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 7073;
+	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 7116;
 
 	class URLConfig : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::URLConfig_URL** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::URLConfig_URL**)Il2CppClass::FromTypeDefinitionIndex(URLConfig_TypeDefinitionIndex)->GetStaticField(0xE0E0);
+			return (::MiHoYo::SDK::URLConfig_URL**)Il2CppClass::FromTypeDefinitionIndex(URLConfig_TypeDefinitionIndex)->GetStaticField(0x5C0);
 		}
 		// static const ::System::String* AccountRSAKey; // 0x0
 		// static const ::System::String* AccountRSAKeyOSTest; // 0x0

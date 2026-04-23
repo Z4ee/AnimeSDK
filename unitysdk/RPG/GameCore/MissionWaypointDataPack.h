@@ -9,12 +9,12 @@ namespace RPG::GameCore { class CheckFloorSavedValueConfig; }
 namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace RPG::GameCore { class MissionCustomValue; }
 
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_5935F32D8C451650_OFFSET UNITYSDK_OFFSET(0x17425500)
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17425880)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_5935F32D8C451650_OFFSET UNITYSDK_OFFSET(0x18B31DD0)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18B32150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 17426;
+	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 18034;
 
 	class MissionWaypointDataPack : public ::RPG::GameCore::JsonConfig
 	{

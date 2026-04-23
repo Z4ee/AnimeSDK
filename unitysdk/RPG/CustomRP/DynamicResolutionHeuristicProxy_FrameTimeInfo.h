@@ -4,7 +4,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_FrameTimeInfo_TypeDefinitionIndex = 29340;
+	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_FrameTimeInfo_TypeDefinitionIndex = 35107;
 
 	struct alignas(4) DynamicResolutionHeuristicProxy_FrameTimeInfo
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueConditionType_TypeDefinitionIndex = 13075;
+	inline static constexpr unsigned int DialogueConditionType_TypeDefinitionIndex = 13536;
 
 	enum class DialogueConditionType : ::System::Int32
 	{

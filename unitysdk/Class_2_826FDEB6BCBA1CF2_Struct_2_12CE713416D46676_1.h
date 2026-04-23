@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore { class BattleInstance; }
 
-inline static constexpr unsigned int Class_2_826FDEB6BCBA1CF2_Struct_2_12CE713416D46676_1_TypeDefinitionIndex = 59150;
+inline static constexpr unsigned int Class_2_826FDEB6BCBA1CF2_Struct_2_12CE713416D46676_1_TypeDefinitionIndex = 66542;
 
 struct alignas(8) Class_2_826FDEB6BCBA1CF2_Struct_2_12CE713416D46676_1
 {

@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int SessionMode_TypeDefinitionIndex = 37768;
+	inline static constexpr unsigned int SessionMode_TypeDefinitionIndex = 43645;
 
 	enum class SessionMode : ::System::Int32
 	{

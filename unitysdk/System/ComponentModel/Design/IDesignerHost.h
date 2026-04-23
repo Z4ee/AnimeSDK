@@ -5,7 +5,7 @@ namespace System::ComponentModel { class IComponent; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDesignerHost_TypeDefinitionIndex = 2644;
+	inline static constexpr unsigned int IDesignerHost_TypeDefinitionIndex = 2645;
 
 	class IDesignerHost
 	{

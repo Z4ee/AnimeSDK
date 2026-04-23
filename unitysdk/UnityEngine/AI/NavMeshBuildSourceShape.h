@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshBuildSourceShape_TypeDefinitionIndex = 5370;
+	inline static constexpr unsigned int NavMeshBuildSourceShape_TypeDefinitionIndex = 5381;
 
 	enum class NavMeshBuildSourceShape : ::System::Int32
 	{

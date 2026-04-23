@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusTendencyType_TypeDefinitionIndex = 12570;
+	inline static constexpr unsigned int HeliobusTendencyType_TypeDefinitionIndex = 13007;
 
 	enum class HeliobusTendencyType : ::System::Int32
 	{

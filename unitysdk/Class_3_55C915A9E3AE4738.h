@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckElfTodayManaged; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_55C915A9E3AE4738_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11429380)
-#define CLASS_3_55C915A9E3AE4738__CTOR_OFFSET UNITYSDK_OFFSET(0x11429350)
+#define CLASS_3_55C915A9E3AE4738_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12A8E290)
+#define CLASS_3_55C915A9E3AE4738__CTOR_OFFSET UNITYSDK_OFFSET(0x12A8E260)
 
-inline static constexpr unsigned int Class_3_55C915A9E3AE4738_TypeDefinitionIndex = 46745;
+inline static constexpr unsigned int Class_3_55C915A9E3AE4738_TypeDefinitionIndex = 53454;
 
 class Class_3_55C915A9E3AE4738 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckElfTodayManaged*>
 {

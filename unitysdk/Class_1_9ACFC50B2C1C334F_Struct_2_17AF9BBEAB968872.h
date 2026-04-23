@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_9ACFC50B2C1C334F_Struct_2_17AF9BBEAB968872_TypeDefinitionIndex = 47703;
+inline static constexpr unsigned int Class_1_9ACFC50B2C1C334F_Struct_2_17AF9BBEAB968872_TypeDefinitionIndex = 54441;
 
 struct alignas(4) Class_1_9ACFC50B2C1C334F_Struct_2_17AF9BBEAB968872
 {

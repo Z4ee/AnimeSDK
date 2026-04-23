@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_UpdateNetworkManager_TypeDefinitionIndex = 4425;
+	inline static constexpr unsigned int PreLateUpdate_UpdateNetworkManager_TypeDefinitionIndex = 4427;
 
 	struct alignas(1) PreLateUpdate_UpdateNetworkManager
 	{

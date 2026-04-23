@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17772B10)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177730D0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E986F0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E98CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StarFightQuestConfigRow_TypeDefinitionIndex = 11319;
+	inline static constexpr unsigned int StarFightQuestConfigRow_TypeDefinitionIndex = 11721;
 
 	class StarFightQuestConfigRow : public ::System::Object
 	{

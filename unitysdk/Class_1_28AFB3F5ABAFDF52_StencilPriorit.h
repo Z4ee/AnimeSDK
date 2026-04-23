@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_28AFB3F5ABAFDF52_StencilPriorit_TypeDefinitionIndex = 57453;
+inline static constexpr unsigned int Class_1_28AFB3F5ABAFDF52_StencilPriorit_TypeDefinitionIndex = 64714;
 
 enum class Class_1_28AFB3F5ABAFDF52_StencilPriorit : ::System::Int32
 {

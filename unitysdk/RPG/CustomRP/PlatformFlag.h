@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PlatformFlag_TypeDefinitionIndex = 29273;
+	inline static constexpr unsigned int PlatformFlag_TypeDefinitionIndex = 35040;
 
 	enum class PlatformFlag : ::System::UInt64
 	{
@@ -40,5 +40,6 @@ namespace RPG::CustomRP
 		DisableSkipDrawWhenLoading = 0x20000000,
 		IndirectDrawVertexIDOffset = 0x40000000,
 		ForceForwardCharEmiss = 0x80000000,
+		AndroidVKTangent1BarrierPre = 0x100000000,
 	};
 }

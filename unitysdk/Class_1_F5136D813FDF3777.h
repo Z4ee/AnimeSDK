@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F5136D813FDF3777__CTOR_OFFSET UNITYSDK_OFFSET(0x167E5E30)
+#define CLASS_1_F5136D813FDF3777__CTOR_OFFSET UNITYSDK_OFFSET(0x17F069D0)
 
-inline static constexpr unsigned int Class_1_F5136D813FDF3777_TypeDefinitionIndex = 33715;
+inline static constexpr unsigned int Class_1_F5136D813FDF3777_TypeDefinitionIndex = 39516;
 
 class Class_1_F5136D813FDF3777 : public ::System::Object
 {

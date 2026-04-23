@@ -4,20 +4,20 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3E3FD0)
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__TRANSFERTOLAUNCHER_B__0_OFFSET UNITYSDK_OFFSET(0xA3E7B80)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB11BF60)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__TRANSFERTOLAUNCHER_B__0_OFFSET UNITYSDK_OFFSET(0xB11FA20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass37_0_TypeDefinitionIndex = 55320;
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass37_0_TypeDefinitionIndex = 62511;
 
 	class RogueTournUtils___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
 		::System::Action* preTeleportCallback; // 0x10
-		::System::UInt32 entranceID; // 0x18
-		::System::UInt32 mappingInfoID; // 0x1C
-		::System::UInt32 contentID; // 0x20
+		::System::UInt32 mappingInfoID; // 0x18
+		::System::UInt32 contentID; // 0x1C
+		::System::UInt32 entranceID; // 0x20
 
 		::System::Void _ctor()
 		{

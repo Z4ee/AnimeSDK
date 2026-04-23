@@ -11,11 +11,11 @@ namespace System
 	public:
 		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x29C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3090);
 		}
 		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x29C1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3091);
 		}
 	};
 }

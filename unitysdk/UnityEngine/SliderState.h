@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SLIDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A82A70)
+#define UNITYENGINE_SLIDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BCCF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SliderState_TypeDefinitionIndex = 5134;
+	inline static constexpr unsigned int SliderState_TypeDefinitionIndex = 5145;
 
 	class SliderState : public ::System::Object
 	{

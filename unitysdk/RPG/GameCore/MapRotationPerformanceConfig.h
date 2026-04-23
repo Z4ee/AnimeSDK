@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MapRotationPerformanceID; }
 
-#define RPG_GAMECORE_MAPROTATIONPERFORMANCECONFIG_METHOD_2_EFC831A80D6B8B44_OFFSET UNITYSDK_OFFSET(0x17380940)
-#define RPG_GAMECORE_MAPROTATIONPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17380C20)
+#define RPG_GAMECORE_MAPROTATIONPERFORMANCECONFIG_METHOD_2_EFC831A80D6B8B44_OFFSET UNITYSDK_OFFSET(0x18A8EA70)
+#define RPG_GAMECORE_MAPROTATIONPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8ED50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationPerformanceConfig_TypeDefinitionIndex = 15604;
+	inline static constexpr unsigned int MapRotationPerformanceConfig_TypeDefinitionIndex = 16124;
 
 	class MapRotationPerformanceConfig : public ::RPG::GameCore::JsonConfig
 	{

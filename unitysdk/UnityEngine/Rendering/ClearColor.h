@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ClearColor_TypeDefinitionIndex = 27760;
+	inline static constexpr unsigned int ClearColor_TypeDefinitionIndex = 33384;
 
 	enum class ClearColor : ::System::Int32
 	{

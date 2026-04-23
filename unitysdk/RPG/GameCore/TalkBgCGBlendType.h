@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkBgCGBlendType_TypeDefinitionIndex = 22435;
+	inline static constexpr unsigned int TalkBgCGBlendType_TypeDefinitionIndex = 23407;
 
 	enum class TalkBgCGBlendType : ::System::Int32
 	{

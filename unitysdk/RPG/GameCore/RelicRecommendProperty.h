@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17592470)
-#define RPG_GAMECORE_RELICRECOMMENDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x17592590)
+#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C9E470)
+#define RPG_GAMECORE_RELICRECOMMENDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x18C9E590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 11649;
+	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 12058;
 
 	class RelicRecommendProperty : public ::System::Object
 	{

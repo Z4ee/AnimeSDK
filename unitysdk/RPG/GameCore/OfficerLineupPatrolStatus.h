@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfficerLineupPatrolStatus_TypeDefinitionIndex = 42444;
+	inline static constexpr unsigned int OfficerLineupPatrolStatus_TypeDefinitionIndex = 48405;
 
 	enum class OfficerLineupPatrolStatus : ::System::Int32
 	{

@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableArray_1_TypeDefinitionIndex = 8927;
+	inline static constexpr unsigned int ImmutableArray_1_TypeDefinitionIndex = 9124;
 
 	template <typename T>
 	struct ImmutableArray_1

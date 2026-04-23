@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BakeLayoutTypeId_TypeDefinitionIndex = 15054;
+	inline static constexpr unsigned int BakeLayoutTypeId_TypeDefinitionIndex = 15562;
 
 	enum class BakeLayoutTypeId : ::System::UInt16
 	{
@@ -14,5 +14,6 @@ namespace RPG::GameCore
 		TypeId_FormationData = 0x4,
 		TypeId_AIFactorGroupConfig = 0x5,
 		TypeId_VCameraConfig = 0x6,
+		TypeId_SubMissionInfoConfig = 0x7,
 	};
 }

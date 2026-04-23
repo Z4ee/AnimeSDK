@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateAffixRarityType_TypeDefinitionIndex = 10778;
+	inline static constexpr unsigned int FateAffixRarityType_TypeDefinitionIndex = 10198;
 
 	enum class FateAffixRarityType : ::System::Int32
 	{

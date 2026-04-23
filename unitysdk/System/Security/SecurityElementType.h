@@ -3,7 +3,7 @@
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityElementType_TypeDefinitionIndex = 941;
+	inline static constexpr unsigned int SecurityElementType_TypeDefinitionIndex = 943;
 
 	enum class SecurityElementType : ::System::Int32
 	{

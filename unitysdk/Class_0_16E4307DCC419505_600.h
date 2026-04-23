@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class ChallengePeakTag; }
+class Class_0_16E4307DCC419505_298;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_600_TypeDefinitionIndex = 51294;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_600_TypeDefinitionIndex = 55995;
 
 class Class_0_16E4307DCC419505_600
 {

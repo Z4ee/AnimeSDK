@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_7134DCF9ECF7587A.h"
+
+class Class_3_97BB4FA12F9980DF_1;
+namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
+
+#define CLASS_3_9EEE4425022DCA60_METHOD_3_510C3C62CAC002C3_OFFSET UNITYSDK_OFFSET(0x933CED0)
+#define CLASS_3_9EEE4425022DCA60_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x933D220)
+#define CLASS_3_9EEE4425022DCA60_METHOD_3_87E0654B98D0D63C_OFFSET UNITYSDK_OFFSET(0x933CD10)
+#define CLASS_3_9EEE4425022DCA60_METHOD_3_8C3DB70FFBBF01C7_OFFSET UNITYSDK_OFFSET(0x933D040)
+#define CLASS_3_9EEE4425022DCA60_METHOD_3_F55212E77440B167_OFFSET UNITYSDK_OFFSET(0x933CDA0)
+#define CLASS_3_9EEE4425022DCA60_METHOD_3_F6B7187F7AB59CCF_OFFSET UNITYSDK_OFFSET(0x933CE80)
+#define CLASS_3_9EEE4425022DCA60_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x933C6A0)
+#define CLASS_3_9EEE4425022DCA60_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x933CF60)
+#define CLASS_3_9EEE4425022DCA60__CTOR_OFFSET UNITYSDK_OFFSET(0x933C620)
+#define CLASS_3_9EEE4425022DCA60___IFIXBASEPROXY_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x933D280)
+#define CLASS_3_9EEE4425022DCA60___ONIDLELIVETEAMUPDATED_B__6_0_OFFSET UNITYSDK_OFFSET(0x933D170)
+
+inline static constexpr unsigned int Class_3_9EEE4425022DCA60_TypeDefinitionIndex = 53660;
+
+class Class_3_9EEE4425022DCA60 : public ::Class_2_7134DCF9ECF7587A
+{
+public:
+	::Class_3_97BB4FA12F9980DF_1* Field_3_2; // 0x28
+	::RPG::GameCore::TaskContext* Field_3_0; // 0x30
+	::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* Field_3_1; // 0x38
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_97BB4FA12F9980DF_1* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_97BB4FA12F9980DF_1*))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void Method_3_F6B7187F7AB59CCF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_METHOD_3_F6B7187F7AB59CCF_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_ONTASKRESET_OFFSET))(this);
+	}
+
+	::System::Void Method_3_87E0654B98D0D63C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_METHOD_3_87E0654B98D0D63C_OFFSET))(this);
+	}
+
+	::System::Void Method_3_510C3C62CAC002C3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_METHOD_3_510C3C62CAC002C3_OFFSET))(this);
+	}
+
+	::System::Void Method_3_8C3DB70FFBBF01C7(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_METHOD_3_8C3DB70FFBBF01C7_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_3_F55212E77440B167()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_METHOD_3_F55212E77440B167_OFFSET))(this);
+	}
+
+	::System::Void __OnIdleLiveTeamUpdated_b__6_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60___ONIDLELIVETEAMUPDATED_B__6_0_OFFSET))(this);
+	}
+
+	::System::Void Method_3_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60_METHOD_3_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9EEE4425022DCA60___IFIXBASEPROXY_ONTASKRESET_OFFSET))(this);
+	}
+};

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetDeathDragonSkillButtonState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_796F16E48051CEA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A2D140)
-#define CLASS_3_796F16E48051CEA8__CTOR_OFFSET UNITYSDK_OFFSET(0x10A2D110)
+#define CLASS_3_796F16E48051CEA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD35F8C0)
+#define CLASS_3_796F16E48051CEA8__CTOR_OFFSET UNITYSDK_OFFSET(0xD35F890)
 
-inline static constexpr unsigned int Class_3_796F16E48051CEA8_TypeDefinitionIndex = 44355;
+inline static constexpr unsigned int Class_3_796F16E48051CEA8_TypeDefinitionIndex = 51071;
 
 class Class_3_796F16E48051CEA8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDeathDragonSkillButtonState*>
 {

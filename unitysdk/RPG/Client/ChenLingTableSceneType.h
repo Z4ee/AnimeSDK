@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingTableSceneType_TypeDefinitionIndex = 59379;
+	inline static constexpr unsigned int ChenLingTableSceneType_TypeDefinitionIndex = 66774;
 
 	enum class ChenLingTableSceneType : ::System::Int32
 	{

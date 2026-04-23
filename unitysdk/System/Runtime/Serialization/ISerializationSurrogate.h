@@ -8,7 +8,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ISerializationSurrogate_TypeDefinitionIndex = 1095;
+	inline static constexpr unsigned int ISerializationSurrogate_TypeDefinitionIndex = 1097;
 
 	class ISerializationSurrogate
 	{

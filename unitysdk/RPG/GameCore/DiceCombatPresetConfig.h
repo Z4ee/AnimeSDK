@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatPresetTurnConfig; }
 
-#define RPG_GAMECORE_DICECOMBATPRESETCONFIG_METHOD_2_9FCA4AE9874C77AF_OFFSET UNITYSDK_OFFSET(0x17167650)
-#define RPG_GAMECORE_DICECOMBATPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17167750)
+#define RPG_GAMECORE_DICECOMBATPRESETCONFIG_METHOD_2_9FCA4AE9874C77AF_OFFSET UNITYSDK_OFFSET(0x188707A0)
+#define RPG_GAMECORE_DICECOMBATPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188708A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPresetConfig_TypeDefinitionIndex = 14813;
+	inline static constexpr unsigned int DiceCombatPresetConfig_TypeDefinitionIndex = 15301;
 
 	class DiceCombatPresetConfig : public ::RPG::GameCore::JsonConfig
 	{

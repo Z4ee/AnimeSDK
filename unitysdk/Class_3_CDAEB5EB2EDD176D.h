@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckFloorCustomBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CDAEB5EB2EDD176D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8ADC880)
-#define CLASS_3_CDAEB5EB2EDD176D__CTOR_OFFSET UNITYSDK_OFFSET(0x8ADC850)
+#define CLASS_3_CDAEB5EB2EDD176D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9995B90)
+#define CLASS_3_CDAEB5EB2EDD176D__CTOR_OFFSET UNITYSDK_OFFSET(0x9995B60)
 
-inline static constexpr unsigned int Class_3_CDAEB5EB2EDD176D_TypeDefinitionIndex = 42555;
+inline static constexpr unsigned int Class_3_CDAEB5EB2EDD176D_TypeDefinitionIndex = 48519;
 
 class Class_3_CDAEB5EB2EDD176D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckFloorCustomBool*>
 {

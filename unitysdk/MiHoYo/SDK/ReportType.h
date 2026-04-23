@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportType_TypeDefinitionIndex = 6610;
+	inline static constexpr unsigned int ReportType_TypeDefinitionIndex = 6644;
 
 	enum class ReportType : ::System::Int32
 	{
@@ -42,9 +42,11 @@ namespace MiHoYo::SDK
 		LoginCXOverSea = 19,
 		LoginByLauncher = 22,
 		LoginAfterRegister = 24,
+		LoginNonExclusiveSteam = 25,
 		BindTapTap = 1,
 		BindPSN = 2,
 		BindCX = 3,
+		BindNonExclusiveSteam = 4,
 		BindMailOverSea = 1,
 		BindOtherDevice = 3,
 		VerifyNewDevice = 1,

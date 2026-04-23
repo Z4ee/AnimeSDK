@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Experimental::U2D
 {
-	inline static constexpr unsigned int SpriteRendererGroup_TypeDefinitionIndex = 4726;
+	inline static constexpr unsigned int SpriteRendererGroup_TypeDefinitionIndex = 4734;
 
 	class SpriteRendererGroup : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class ScheduleData; }
 
-#define RPG_CLIENT_PRERELEASECHARAPARAM_SCHEDULEINFO_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x82BB0)
+#define RPG_CLIENT_PRERELEASECHARAPARAM_SCHEDULEINFO_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0xDCBE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreReleaseCharaParam_ScheduleInfo_TypeDefinitionIndex = 53309;
+	inline static constexpr unsigned int PreReleaseCharaParam_ScheduleInfo_TypeDefinitionIndex = 60442;
 
 	struct alignas(4) PreReleaseCharaParam_ScheduleInfo
 	{

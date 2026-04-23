@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xABB5C10)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYDISSOLVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB92B480)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 39468;
+	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 45377;
 
 	class VFXOverlayDissolveConfig : public ::System::Object
 	{

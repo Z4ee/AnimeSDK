@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGERHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x18C31630)
-#define AKTRIGGERHANDLER_DODESTROY_OFFSET UNITYSDK_OFFSET(0x18C31C10)
-#define AKTRIGGERHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18C31BC0)
-#define AKTRIGGERHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18C320C0)
-#define AKTRIGGERHANDLER_REGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x18C31720)
-#define AKTRIGGERHANDLER_START_OFFSET UNITYSDK_OFFSET(0x18C31B40)
-#define AKTRIGGERHANDLER_UNREGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x18C31D10)
-#define AKTRIGGERHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C32310)
-#define AKTRIGGERHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C322A0)
+#define AKTRIGGERHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A66CB50)
+#define AKTRIGGERHANDLER_DODESTROY_OFFSET UNITYSDK_OFFSET(0x1A66D130)
+#define AKTRIGGERHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A66D0E0)
+#define AKTRIGGERHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A66D5E0)
+#define AKTRIGGERHANDLER_REGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1A66CC40)
+#define AKTRIGGERHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1A66D060)
+#define AKTRIGGERHANDLER_UNREGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1A66D230)
+#define AKTRIGGERHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A66D830)
+#define AKTRIGGERHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66D7C0)
 
-inline static constexpr unsigned int AkTriggerHandler_TypeDefinitionIndex = 34703;
+inline static constexpr unsigned int AkTriggerHandler_TypeDefinitionIndex = 40522;
 
 class AkTriggerHandler : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet_triggerTypes()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AkTriggerHandler_TypeDefinitionIndex)->GetStaticField(0x31E00);
+		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AkTriggerHandler_TypeDefinitionIndex)->GetStaticField(0x3F100);
 	}
 	// static const ::System::Int32 AWAKE_TRIGGER_ID = 0x449D8DAE; // 0x0
 	// static const ::System::Int32 START_TRIGGER_ID = 0x4C66E1F7; // 0x0

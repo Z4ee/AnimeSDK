@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuideSkillType_TypeDefinitionIndex = 12999;
+	inline static constexpr unsigned int MonsterGuideSkillType_TypeDefinitionIndex = 13460;
 
 	enum class MonsterGuideSkillType : ::System::Int32
 	{

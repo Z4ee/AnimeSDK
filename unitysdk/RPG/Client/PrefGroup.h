@@ -13,25 +13,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PREFGROUP_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x18344CD0)
-#define RPG_CLIENT_PREFGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x18344AC0)
-#define RPG_CLIENT_PREFGROUP_FLUSH_1_OFFSET UNITYSDK_OFFSET(0x18344C40)
-#define RPG_CLIENT_PREFGROUP_FLUSH_OFFSET UNITYSDK_OFFSET(0x18344960)
-#define RPG_CLIENT_PREFGROUP_GETPREFKEY_OFFSET UNITYSDK_OFFSET(0x18344F40)
-#define RPG_CLIENT_PREFGROUP_HASPREF_OFFSET UNITYSDK_OFFSET(0x18344EC0)
-#define RPG_CLIENT_PREFGROUP_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x183446B0)
-#define RPG_CLIENT_PREFGROUP_SETSERVERPREFRELOAD_OFFSET UNITYSDK_OFFSET(0x18344DA0)
-#define RPG_CLIENT_PREFGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x183448E0)
+#define RPG_CLIENT_PREFGROUP_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x19D9AA70)
+#define RPG_CLIENT_PREFGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x19D9A860)
+#define RPG_CLIENT_PREFGROUP_FLUSH_1_OFFSET UNITYSDK_OFFSET(0x19D9A9E0)
+#define RPG_CLIENT_PREFGROUP_FLUSH_OFFSET UNITYSDK_OFFSET(0x19D9A700)
+#define RPG_CLIENT_PREFGROUP_GETPREFKEY_OFFSET UNITYSDK_OFFSET(0x19D9ACE0)
+#define RPG_CLIENT_PREFGROUP_HASPREF_OFFSET UNITYSDK_OFFSET(0x19D9AC60)
+#define RPG_CLIENT_PREFGROUP_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x19D9A450)
+#define RPG_CLIENT_PREFGROUP_SETSERVERPREFRELOAD_OFFSET UNITYSDK_OFFSET(0x19D9AB40)
+#define RPG_CLIENT_PREFGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19D9A680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefGroup_TypeDefinitionIndex = 9554;
+	inline static constexpr unsigned int PrefGroup_TypeDefinitionIndex = 9752;
 
 	class PrefGroup : public ::System::Object
 	{
 	public:
-		::System::String* _Name; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Pref*>* _Prefs; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Pref*>* _Prefs; // 0x10
+		::System::String* _Name; // 0x18
 
 		::System::Void _ctor(::System::String* name)
 		{

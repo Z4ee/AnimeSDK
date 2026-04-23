@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_MONSTERDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1744B4C0)
-#define RPG_GAMECORE_MONSTERDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1744BBD0)
+#define RPG_GAMECORE_MONSTERDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B581F0)
+#define RPG_GAMECORE_MONSTERDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B58900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterDropRow_TypeDefinitionIndex = 12989;
+	inline static constexpr unsigned int MonsterDropRow_TypeDefinitionIndex = 13450;
 
 	class MonsterDropRow : public ::System::Object
 	{

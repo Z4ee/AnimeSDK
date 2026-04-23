@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int RestrictionFlags_TypeDefinitionIndex = 2074;
+	inline static constexpr unsigned int RestrictionFlags_TypeDefinitionIndex = 2075;
 
 	enum class RestrictionFlags : ::System::Int32
 	{

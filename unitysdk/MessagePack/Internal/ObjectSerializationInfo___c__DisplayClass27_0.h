@@ -9,21 +9,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_B__3_OFFSET UNITYSDK_OFFSET(0x15D5F970)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__ADDEMITTABLEMEMBERORIGNORE_0_OFFSET UNITYSDK_OFFSET(0x15D5E8D0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__CREATEEMITTABLEMEMBER_1_OFFSET UNITYSDK_OFFSET(0x15D5F5B0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D5E780)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_B__3_OFFSET UNITYSDK_OFFSET(0x1735D180)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__ADDEMITTABLEMEMBERORIGNORE_0_OFFSET UNITYSDK_OFFSET(0x1735C0E0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CREATEORNULL_G__CREATEEMITTABLEMEMBER_1_OFFSET UNITYSDK_OFFSET(0x1735CDC0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1735BF90)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo___c__DisplayClass27_0_TypeDefinitionIndex = 9193;
+	inline static constexpr unsigned int ObjectSerializationInfo___c__DisplayClass27_0_TypeDefinitionIndex = 9390;
 
 	class ObjectSerializationInfo___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>* intMembers; // 0x10
+		::System::Type* type; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>* stringMembers; // 0x18
-		::System::Type* type; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>* intMembers; // 0x20
 		::System::Boolean allowPrivate; // 0x28
 		::System::Boolean isClassRecord; // 0x29
 

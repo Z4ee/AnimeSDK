@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTransform_Struct_2_0A482C4B1193FF12_TypeDefinitionIndex = 57389;
+	inline static constexpr unsigned int MonoEffectPluginTransform_Struct_2_0A482C4B1193FF12_TypeDefinitionIndex = 64650;
 
 	struct alignas(8) MonoEffectPluginTransform_Struct_2_0A482C4B1193FF12
 	{

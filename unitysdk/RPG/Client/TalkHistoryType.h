@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkHistoryType_TypeDefinitionIndex = 55523;
+	inline static constexpr unsigned int TalkHistoryType_TypeDefinitionIndex = 62717;
 
 	enum class TalkHistoryType : ::System::Int32
 	{

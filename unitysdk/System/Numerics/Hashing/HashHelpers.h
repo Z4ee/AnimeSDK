@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_COMBINE_OFFSET UNITYSDK_OFFSET(0x1851C6A0)
-#define SYSTEM_NUMERICS_HASHING_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1851C6B0)
+#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_COMBINE_OFFSET UNITYSDK_OFFSET(0x19F57530)
+#define SYSTEM_NUMERICS_HASHING_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F57540)
 
 namespace System::Numerics::Hashing
 {
-	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 4982;
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 4990;
 
 	class HashHelpers : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_RandomSeed()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x240);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x2C0);
 		}
 
 		static ::System::Void _cctor()

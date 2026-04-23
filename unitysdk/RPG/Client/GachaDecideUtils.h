@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class BaseGachaDecideData; }
 
-#define RPG_CLIENT_GACHADECIDEUTILS_CREATEDECIDEDATA_OFFSET UNITYSDK_OFFSET(0x974F3E0)
-#define RPG_CLIENT_GACHADECIDEUTILS_ISFEATUREOPEN_OFFSET UNITYSDK_OFFSET(0x974F440)
+#define RPG_CLIENT_GACHADECIDEUTILS_CREATEDECIDEDATA_OFFSET UNITYSDK_OFFSET(0xA410280)
+#define RPG_CLIENT_GACHADECIDEUTILS_ISFEATUREOPEN_OFFSET UNITYSDK_OFFSET(0xA4102E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaDecideUtils_TypeDefinitionIndex = 52204;
+	inline static constexpr unsigned int GachaDecideUtils_TypeDefinitionIndex = 59156;
 
 	class GachaDecideUtils : public ::System::Object
 	{

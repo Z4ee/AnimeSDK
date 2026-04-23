@@ -8,10 +8,10 @@ namespace RPG::GameCore { class ShowBattleWhiteboxText; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_54F2E849B866942F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BDE1D0)
-#define CLASS_3_54F2E849B866942F__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDE110)
+#define CLASS_3_54F2E849B866942F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1287BAF0)
+#define CLASS_3_54F2E849B866942F__CTOR_OFFSET UNITYSDK_OFFSET(0x1287BA30)
 
-inline static constexpr unsigned int Class_3_54F2E849B866942F_TypeDefinitionIndex = 47304;
+inline static constexpr unsigned int Class_3_54F2E849B866942F_TypeDefinitionIndex = 54036;
 
 class Class_3_54F2E849B866942F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleWhiteboxText*>
 {

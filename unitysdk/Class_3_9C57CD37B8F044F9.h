@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareFiveDimContainerDynamicFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C57CD37B8F044F9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11660270)
-#define CLASS_3_9C57CD37B8F044F9__CTOR_OFFSET UNITYSDK_OFFSET(0x11660240)
+#define CLASS_3_9C57CD37B8F044F9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11938E00)
+#define CLASS_3_9C57CD37B8F044F9__CTOR_OFFSET UNITYSDK_OFFSET(0x11938DD0)
 
-inline static constexpr unsigned int Class_3_9C57CD37B8F044F9_TypeDefinitionIndex = 42736;
+inline static constexpr unsigned int Class_3_9C57CD37B8F044F9_TypeDefinitionIndex = 48716;
 
 class Class_3_9C57CD37B8F044F9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareFiveDimContainerDynamicFloat*>
 {

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_CRPREMOTEDEBUG_ADDDEBUGSERVER_OFFSET UNITYSDK_OFFSET(0x16A74B60)
-#define RPG_CUSTOMRP_CRPREMOTEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A74C80)
+#define RPG_CUSTOMRP_CRPREMOTEDEBUG_ADDDEBUGSERVER_OFFSET UNITYSDK_OFFSET(0x18117E20)
+#define RPG_CUSTOMRP_CRPREMOTEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x18117E30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRemoteDebug_TypeDefinitionIndex = 29360;
+	inline static constexpr unsigned int CRPRemoteDebug_TypeDefinitionIndex = 35127;
 
 	class CRPRemoteDebug : public ::System::Object
 	{

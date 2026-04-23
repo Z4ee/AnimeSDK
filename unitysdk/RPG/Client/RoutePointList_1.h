@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoutePointList_1_TypeDefinitionIndex = 50622;
+	inline static constexpr unsigned int RoutePointList_1_TypeDefinitionIndex = 57485;
 
 	template <typename T>
 	class RoutePointList_1 : public ::System::Object

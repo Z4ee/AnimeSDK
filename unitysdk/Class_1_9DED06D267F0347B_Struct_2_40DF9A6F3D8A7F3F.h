@@ -6,7 +6,7 @@ namespace RPG::GameCore { class SkillAbilityConfig; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_9DED06D267F0347B_Struct_2_40DF9A6F3D8A7F3F_TypeDefinitionIndex = 22487;
+inline static constexpr unsigned int Class_1_9DED06D267F0347B_Struct_2_40DF9A6F3D8A7F3F_TypeDefinitionIndex = 23459;
 
 struct alignas(8) Class_1_9DED06D267F0347B_Struct_2_40DF9A6F3D8A7F3F
 {

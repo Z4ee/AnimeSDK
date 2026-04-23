@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PayProductResult_TypeDefinitionIndex = 48586;
+	inline static constexpr unsigned int PayProductResult_TypeDefinitionIndex = 55335;
 
 	enum class PayProductResult : ::System::Int32
 	{

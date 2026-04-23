@@ -5,12 +5,12 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9109DB0)
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS1_0__SETLEVELRARITYISLEVELFIRST_B__0_OFFSET UNITYSDK_OFFSET(0x9109F40)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9D6C1F0)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS1_0__SETLEVELRARITYISLEVELFIRST_B__0_OFFSET UNITYSDK_OFFSET(0x9D6C380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparerExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 50980;
+	inline static constexpr unsigned int AvatarComparerExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 57863;
 
 	class AvatarComparerExtensions___c__DisplayClass1_0 : public ::System::Object
 	{

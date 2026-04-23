@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactPam_ChatState_TypeDefinitionIndex = 51305;
+	inline static constexpr unsigned int ChatContactPam_ChatState_TypeDefinitionIndex = 58231;
 
 	enum class ChatContactPam_ChatState : ::System::Int32
 	{

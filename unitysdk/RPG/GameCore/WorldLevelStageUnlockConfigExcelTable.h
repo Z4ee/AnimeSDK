@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1790FFF0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1790FE40)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1790FB10)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1790FDE0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x179101C0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1790FB90)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17910200)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x179103E0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x179105E0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17910940)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17910340)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x179102A0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19113EF0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19113D40)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19113A10)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19113CE0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x191140C0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19113A90)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19114100)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x191142E0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x191144E0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19114840)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19114240)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x191141A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex = 11461;
+	inline static constexpr unsigned int WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex = 11863;
 
 	class WorldLevelStageUnlockConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F4A0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelStageUnlockConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelStageUnlockConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F4A8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelStageUnlockConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13900);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F4B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13908);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x83B0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13910);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x83B1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5BF0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5BF1);
 		}
 
 		static ::System::Void _cctor()

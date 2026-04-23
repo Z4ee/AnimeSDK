@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItem_TagType_TypeDefinitionIndex = 56268;
+	inline static constexpr unsigned int MonoTrainPartyBuildItem_TagType_TypeDefinitionIndex = 63511;
 
 	enum class MonoTrainPartyBuildItem_TagType : ::System::Int32
 	{
@@ -14,5 +14,10 @@ namespace RPG::Client
 		Hang = 8,
 		Put = 16,
 		Salt = 32,
+		Badge = 64,
+		DisplayShelf = 128,
+		DisplayWindow = 256,
+		DisplayPiece = 512,
+		Decoration = 1024,
 	};
 }

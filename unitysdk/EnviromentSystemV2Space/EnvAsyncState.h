@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvAsyncState_TypeDefinitionIndex = 39884;
+	inline static constexpr unsigned int EnvAsyncState_TypeDefinitionIndex = 45793;
 
 	enum class EnvAsyncState : ::System::Int32
 	{

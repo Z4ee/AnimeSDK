@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchMascotEnableCameraLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EE49F25F913EE58E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109B9760)
-#define CLASS_3_EE49F25F913EE58E__CTOR_OFFSET UNITYSDK_OFFSET(0x109B9730)
+#define CLASS_3_EE49F25F913EE58E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10044B50)
+#define CLASS_3_EE49F25F913EE58E__CTOR_OFFSET UNITYSDK_OFFSET(0x10044B20)
 
-inline static constexpr unsigned int Class_3_EE49F25F913EE58E_TypeDefinitionIndex = 47426;
+inline static constexpr unsigned int Class_3_EE49F25F913EE58E_TypeDefinitionIndex = 54161;
 
 class Class_3_EE49F25F913EE58E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchMascotEnableCameraLookAt*>
 {

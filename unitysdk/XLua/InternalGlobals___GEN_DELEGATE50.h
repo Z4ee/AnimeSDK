@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class AttackDamageTypeConfig; }
+namespace RPG::GameCore { class TaskContext; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF5B0E0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF5B140)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF5AB80)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET UNITYSDK_OFFSET(0xFF49F90)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11224340)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11224380)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET UNITYSDK_OFFSET(0x11223D80)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET UNITYSDK_OFFSET(0x11213160)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE50_TypeDefinitionIndex = 40467;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE50_TypeDefinitionIndex = 46376;
 
 	class InternalGlobals___GEN_DELEGATE50 : public ::System::MulticastDelegate
 	{
@@ -25,19 +26,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET))(this, object, method);
 		}
 
-		::RPG::GameCore::GameEntity* Invoke(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* list, ::System::UInt32 runtimeID)
+		::RPG::GameCore::AttackDamageType Invoke(::RPG::GameCore::AttackDamageTypeConfig* cfg, ::RPG::GameCore::TaskContext* ctx)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET))(this, list, runtimeID);
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET))(this, cfg, ctx);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* list, ::System::UInt32 runtimeID, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::AttackDamageTypeConfig* cfg, ::RPG::GameCore::TaskContext* ctx, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET))(this, list, runtimeID, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET))(this, cfg, ctx, callback, object);
 		}
 
-		::RPG::GameCore::GameEntity* EndInvoke(::System::IAsyncResult* result)
+		::RPG::GameCore::AttackDamageType EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET))(this, result);
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

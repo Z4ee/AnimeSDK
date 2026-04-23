@@ -5,10 +5,10 @@
 class Class_2_843468DEB2C89684;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerDiceUpgrade; }
 
-#define CLASS_2_425E3C99236F4015_METHOD_2_A84CEAF7AFA573B3_OFFSET UNITYSDK_OFFSET(0x1670F3B0)
-#define CLASS_2_425E3C99236F4015__CTOR_OFFSET UNITYSDK_OFFSET(0x1670F3A0)
+#define CLASS_2_425E3C99236F4015_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x17C204B0)
+#define CLASS_2_425E3C99236F4015__CTOR_OFFSET UNITYSDK_OFFSET(0x17C204A0)
 
-inline static constexpr unsigned int Class_2_425E3C99236F4015_TypeDefinitionIndex = 28445;
+inline static constexpr unsigned int Class_2_425E3C99236F4015_TypeDefinitionIndex = 34117;
 
 class Class_2_425E3C99236F4015 : public ::Class_1_B55037134F9E6688
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade*, ::Class_2_843468DEB2C89684*))((::PBYTE)hIl2Cpp + CLASS_2_425E3C99236F4015__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_A84CEAF7AFA573B3()
+	::System::Void Method_2_C638E91FC0D3A13A()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_425E3C99236F4015_METHOD_2_A84CEAF7AFA573B3_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_425E3C99236F4015_METHOD_2_C638E91FC0D3A13A_OFFSET))(this);
 	}
 };

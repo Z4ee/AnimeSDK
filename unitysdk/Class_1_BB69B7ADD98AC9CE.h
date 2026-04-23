@@ -6,9 +6,9 @@ class Class_1_482F3423DE650EAD;
 namespace RPG::Client { class WolfBroGunPlayTarget; }
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 
-#define CLASS_1_BB69B7ADD98AC9CE_METHOD_1_8EC635C00CAF8F14_OFFSET UNITYSDK_OFFSET(0x1061B210)
+#define CLASS_1_BB69B7ADD98AC9CE_METHOD_1_8EC635C00CAF8F14_OFFSET UNITYSDK_OFFSET(0x11A5C600)
 
-inline static constexpr unsigned int Class_1_BB69B7ADD98AC9CE_TypeDefinitionIndex = 56086;
+inline static constexpr unsigned int Class_1_BB69B7ADD98AC9CE_TypeDefinitionIndex = 63329;
 
 class Class_1_BB69B7ADD98AC9CE : public ::System::Object
 {

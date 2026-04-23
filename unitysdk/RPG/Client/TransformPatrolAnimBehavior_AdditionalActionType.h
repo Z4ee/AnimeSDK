@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformPatrolAnimBehavior_AdditionalActionType_TypeDefinitionIndex = 57579;
+	inline static constexpr unsigned int TransformPatrolAnimBehavior_AdditionalActionType_TypeDefinitionIndex = 64842;
 
 	enum class TransformPatrolAnimBehavior_AdditionalActionType : ::System::Int32
 	{

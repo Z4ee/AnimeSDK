@@ -4,11 +4,11 @@
 
 namespace RPG::Client::Mono { class FiveDimRenderingItemStateMappingValue; }
 
-#define RPG_CLIENT_MONO_FIVEDIMRENDERINGITEMSTATEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x9C11630)
+#define RPG_CLIENT_MONO_FIVEDIMRENDERINGITEMSTATEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xA90C780)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimRenderingItemStateMapping_TypeDefinitionIndex = 61876;
+	inline static constexpr unsigned int FiveDimRenderingItemStateMapping_TypeDefinitionIndex = 69786;
 
 	class FiveDimRenderingItemStateMapping : public ::UnityEngine::MonoBehaviour
 	{

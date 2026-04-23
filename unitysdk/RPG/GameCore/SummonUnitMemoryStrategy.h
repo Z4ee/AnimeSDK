@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitMemoryStrategy_TypeDefinitionIndex = 16163;
+	inline static constexpr unsigned int SummonUnitMemoryStrategy_TypeDefinitionIndex = 16694;
 
 	enum class SummonUnitMemoryStrategy : ::System::Int32
 	{

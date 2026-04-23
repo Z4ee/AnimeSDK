@@ -7,12 +7,12 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class RogueAeonData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FINISHAEONDIALOGUERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x96C9A60)
-#define RPG_CLIENT_FINISHAEONDIALOGUERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x96C9B10)
+#define RPG_CLIENT_FINISHAEONDIALOGUERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xA389A60)
+#define RPG_CLIENT_FINISHAEONDIALOGUERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xA389B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FinishAeonDialogueResult_TypeDefinitionIndex = 54981;
+	inline static constexpr unsigned int FinishAeonDialogueResult_TypeDefinitionIndex = 62169;
 
 	class FinishAeonDialogueResult : public ::System::Object
 	{

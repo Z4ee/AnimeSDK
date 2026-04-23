@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotItemInfoState_TypeDefinitionIndex = 59744;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotItemInfoState_TypeDefinitionIndex = 67140;
 
 	enum class RogueTournPersonaHexEquipmentSlotItemInfoState : ::System::Int32
 	{

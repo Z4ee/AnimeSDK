@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int IFormatterConverter_TypeDefinitionIndex = 1092;
+	inline static constexpr unsigned int IFormatterConverter_TypeDefinitionIndex = 1094;
 
 	class IFormatterConverter
 	{

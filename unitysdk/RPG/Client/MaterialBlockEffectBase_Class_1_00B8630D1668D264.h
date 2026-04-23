@@ -9,22 +9,22 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x9B71270)
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264__CTOR_OFFSET UNITYSDK_OFFSET(0x9B70170)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xA86AAB0)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264__CTOR_OFFSET UNITYSDK_OFFSET(0xA8699C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectBase_Class_1_00B8630D1668D264_TypeDefinitionIndex = 57852;
+	inline static constexpr unsigned int MaterialBlockEffectBase_Class_1_00B8630D1668D264_TypeDefinitionIndex = 65139;
 
 	class MaterialBlockEffectBase_Class_1_00B8630D1668D264 : public ::System::Object
 	{
 	public:
-		::UnityEngine::MaterialPropertyBlock* Field_1_3; // 0x10
-		::UnityEngine::Renderer* Field_1_0; // 0x18
-		::UnityEngine::Material* Field_1_5; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* Field_1_6; // 0x28
-		::System::String* Field_1_1; // 0x30
-		::RPG::Client::RendererMaterialCache* Field_1_4; // 0x38
+		::UnityEngine::Material* Field_1_5; // 0x10
+		::RPG::Client::RendererMaterialCache* Field_1_4; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* Field_1_6; // 0x20
+		::System::String* Field_1_1; // 0x28
+		::UnityEngine::Renderer* Field_1_0; // 0x30
+		::UnityEngine::MaterialPropertyBlock* Field_1_3; // 0x38
 		::System::Int32 Field_1_2; // 0x40
 
 		::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::Int32 a2)

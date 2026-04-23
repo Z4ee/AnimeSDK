@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass20_0_1_TypeDefinitionIndex = 59907;
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass20_0_1_TypeDefinitionIndex = 67305;
 
 	template <typename T>
 	class UIPrefabLoader___c__DisplayClass20_0_1 : public ::System::Object

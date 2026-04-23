@@ -10,12 +10,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B8460)
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B89D0)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC65C0)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC6B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 10991;
+	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 11394;
 
 	class MatchThreeV2PVPScoreRow : public ::System::Object
 	{
@@ -25,13 +25,13 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* ParamMap; // 0x20
 		::RPG::Client::TextID Desc; // 0x28
 		::RPG::Client::TextID Title2; // 0x38
-		::RPG::Client::TextID Title; // 0x48
-		::System::UInt32 ScoreID; // 0x58
-		::System::Int32 Param; // 0x5C
-		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x60
-		::RPG::GameCore::MatchThreeScoreType Type; // 0x64
-		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x68
-		::System::UInt32 ActivityID; // 0x6C
+		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x48
+		::System::Int32 Param; // 0x4C
+		::RPG::GameCore::MatchThreeScoreType Type; // 0x50
+		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x54
+		::System::UInt32 ActivityID; // 0x58
+		::System::UInt32 ScoreID; // 0x5C
+		::RPG::Client::TextID Title; // 0x60
 
 		::System::Void _ctor()
 		{

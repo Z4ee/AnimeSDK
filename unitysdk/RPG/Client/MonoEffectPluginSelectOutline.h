@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaOverlayMatBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE_METHOD_8_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x9CDC730)
-#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE_METHOD_8_ED29F23CD1CAE89E_OFFSET UNITYSDK_OFFSET(0x9CDC3B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE_SETSTENCIL_OFFSET UNITYSDK_OFFSET(0x9CDC590)
-#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x9CDC670)
+#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE_METHOD_8_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0xA99F540)
+#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE_METHOD_8_ED29F23CD1CAE89E_OFFSET UNITYSDK_OFFSET(0xA99F1C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE_SETSTENCIL_OFFSET UNITYSDK_OFFSET(0xA99F3A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSELECTOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xA99F480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginSelectOutline_TypeDefinitionIndex = 57290;
+	inline static constexpr unsigned int MonoEffectPluginSelectOutline_TypeDefinitionIndex = 64544;
 
 	class MonoEffectPluginSelectOutline : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
 	public:
-		::UnityEngine::Color KeyOutlineInnerColor; // 0x218
-		::UnityEngine::Color KeyOutlineOuterColor; // 0x228
-		::System::Single HighlightPow; // 0x238
-		::System::Single OutlineWidth; // 0x23C
-		::System::Single OutlineWidth2; // 0x240
-		::System::Single OutlineEnhance; // 0x244
-		::System::Int32 Stencil; // 0x248
+		::UnityEngine::Color KeyOutlineInnerColor; // 0x220
+		::UnityEngine::Color KeyOutlineOuterColor; // 0x230
+		::System::Single HighlightPow; // 0x240
+		::System::Single OutlineWidth; // 0x244
+		::System::Single OutlineWidth2; // 0x248
+		::System::Single OutlineEnhance; // 0x24C
+		::System::Int32 Stencil; // 0x250
 
 		::System::Void _ctor()
 		{

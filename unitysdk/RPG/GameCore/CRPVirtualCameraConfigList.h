@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CRPVirtualCameraConfig; }
 
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGLIST_METHOD_2_CF7E617EEA94C683_OFFSET UNITYSDK_OFFSET(0x1703FD60)
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1703FE30)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGLIST_METHOD_2_CF7E617EEA94C683_OFFSET UNITYSDK_OFFSET(0x18764850)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18764920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CRPVirtualCameraConfigList_TypeDefinitionIndex = 15036;
+	inline static constexpr unsigned int CRPVirtualCameraConfigList_TypeDefinitionIndex = 15544;
 
 	class CRPVirtualCameraConfigList : public ::RPG::GameCore::JsonConfig
 	{

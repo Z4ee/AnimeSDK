@@ -10,22 +10,22 @@ namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 
-#define MONO_HTTP_NTLMCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x18656320)
-#define MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x18656A20)
-#define MONO_HTTP_NTLMCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x18656A10)
-#define MONO_HTTP_NTLMCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18656A40)
-#define MONO_HTTP_NTLMCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18656A30)
+#define MONO_HTTP_NTLMCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1A090BD0)
+#define MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1A0912D0)
+#define MONO_HTTP_NTLMCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1A0912C0)
+#define MONO_HTTP_NTLMCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0912F0)
+#define MONO_HTTP_NTLMCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0912E0)
 
 namespace Mono::Http
 {
-	inline static constexpr unsigned int NtlmClient_TypeDefinitionIndex = 2441;
+	inline static constexpr unsigned int NtlmClient_TypeDefinitionIndex = 2442;
 
 	class NtlmClient : public ::System::Object
 	{
 	public:
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>** StaticGet_cache()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>**)Il2CppClass::FromTypeDefinitionIndex(NtlmClient_TypeDefinitionIndex)->GetStaticField(0xEE80);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>**)Il2CppClass::FromTypeDefinitionIndex(NtlmClient_TypeDefinitionIndex)->GetStaticField(0x115E0);
 		}
 
 		::System::Void _ctor()

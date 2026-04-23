@@ -11,13 +11,13 @@ namespace RPG::Client::NavMap { class SubTabData; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9209A25C753C9BBE_METHOD_1_3AD8B88EE41CA3D1_OFFSET UNITYSDK_OFFSET(0x10C03210)
-#define CLASS_1_9209A25C753C9BBE_METHOD_1_435F9714D685BAB3_OFFSET UNITYSDK_OFFSET(0x10C03B00)
-#define CLASS_1_9209A25C753C9BBE_METHOD_1_B839A5400D87FE87_OFFSET UNITYSDK_OFFSET(0x10C03700)
-#define CLASS_1_9209A25C753C9BBE_METHOD_1_D5AF90DF13319E57_OFFSET UNITYSDK_OFFSET(0x10C03A60)
-#define CLASS_1_9209A25C753C9BBE_METHOD_1_EE301FC9442A6629_OFFSET UNITYSDK_OFFSET(0x10C030E0)
+#define CLASS_1_9209A25C753C9BBE_METHOD_1_435F9714D685BAB3_OFFSET UNITYSDK_OFFSET(0x1247FB40)
+#define CLASS_1_9209A25C753C9BBE_METHOD_1_5CE867B5039955AD_OFFSET UNITYSDK_OFFSET(0x1247F200)
+#define CLASS_1_9209A25C753C9BBE_METHOD_1_B839A5400D87FE87_OFFSET UNITYSDK_OFFSET(0x1247F740)
+#define CLASS_1_9209A25C753C9BBE_METHOD_1_D5AF90DF13319E57_OFFSET UNITYSDK_OFFSET(0x1247FAA0)
+#define CLASS_1_9209A25C753C9BBE_METHOD_1_EE301FC9442A6629_OFFSET UNITYSDK_OFFSET(0x1247F0D0)
 
-inline static constexpr unsigned int Class_1_9209A25C753C9BBE_TypeDefinitionIndex = 61311;
+inline static constexpr unsigned int Class_1_9209A25C753C9BBE_TypeDefinitionIndex = 68818;
 
 class Class_1_9209A25C753C9BBE : public ::System::Object
 {
@@ -32,9 +32,9 @@ public:
 		return ((::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*(*)(::RPG::Client::NavMap::ISubNavMap*))((::PBYTE)hIl2Cpp + CLASS_1_9209A25C753C9BBE_METHOD_1_B839A5400D87FE87_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>* Method_1_3AD8B88EE41CA3D1(::RPG::Client::NavMap::SubTabData* a1)
+	static ::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>* Method_1_5CE867B5039955AD(::RPG::Client::NavMap::SubTabData* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*(*)(::RPG::Client::NavMap::SubTabData*))((::PBYTE)hIl2Cpp + CLASS_1_9209A25C753C9BBE_METHOD_1_3AD8B88EE41CA3D1_OFFSET))(a1);
+		return ((::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*(*)(::RPG::Client::NavMap::SubTabData*))((::PBYTE)hIl2Cpp + CLASS_1_9209A25C753C9BBE_METHOD_1_5CE867B5039955AD_OFFSET))(a1);
 	}
 
 	static ::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>* Method_1_D5AF90DF13319E57(::RPG::Client::NavMap::ICartography* a1)

@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHAGROUPDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172277C0)
-#define RPG_GAMECORE_GACHAGROUPDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172284B0)
+#define RPG_GAMECORE_GACHAGROUPDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18939F50)
+#define RPG_GAMECORE_GACHAGROUPDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1893AC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaGroupDataRow_TypeDefinitionIndex = 12204;
+	inline static constexpr unsigned int GachaGroupDataRow_TypeDefinitionIndex = 12637;
 
 	class GachaGroupDataRow : public ::System::Object
 	{
 	public:
-		::System::String* PoolLabelIcon; // 0x10
-		::System::String* PoolLabelIconSelected; // 0x18
+		::System::String* PoolLabelIconSelected; // 0x10
+		::System::String* PoolLabelIcon; // 0x18
 		::Il2CppArray<::System::UInt32>* GachaIDList; // 0x20
 		::System::UInt32 GroupID; // 0x28
 		::RPG::GameCore::GachaGroupType GroupType; // 0x2C

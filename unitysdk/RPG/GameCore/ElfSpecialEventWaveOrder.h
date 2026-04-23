@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfWaveOrder; }
 
-#define RPG_GAMECORE_ELFSPECIALEVENTWAVEORDER_METHOD_2_6D46D5F58F59BF0A_OFFSET UNITYSDK_OFFSET(0x171918B0)
-#define RPG_GAMECORE_ELFSPECIALEVENTWAVEORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x17192080)
+#define RPG_GAMECORE_ELFSPECIALEVENTWAVEORDER_METHOD_2_6D46D5F58F59BF0A_OFFSET UNITYSDK_OFFSET(0x1889EFE0)
+#define RPG_GAMECORE_ELFSPECIALEVENTWAVEORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1889F7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSpecialEventWaveOrder_TypeDefinitionIndex = 16972;
+	inline static constexpr unsigned int ElfSpecialEventWaveOrder_TypeDefinitionIndex = 17566;
 
 	class ElfSpecialEventWaveOrder : public ::RPG::GameCore::JsonConfig
 	{

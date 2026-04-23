@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FUNCUNLOCKHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17224260)
-#define RPG_GAMECORE_FUNCUNLOCKHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17224570)
+#define RPG_GAMECORE_FUNCUNLOCKHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189369F0)
+#define RPG_GAMECORE_FUNCUNLOCKHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18936D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FuncUnlockHintRow_TypeDefinitionIndex = 12162;
+	inline static constexpr unsigned int FuncUnlockHintRow_TypeDefinitionIndex = 12595;
 
 	class FuncUnlockHintRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 UnlockID; // 0x18
-		::RPG::GameCore::FuncUnlockPromptType Type; // 0x1C
-		::RPG::Client::TextID Title; // 0x20
-		::RPG::Client::TextID Desc; // 0x30
-		::RPG::Client::TextID SubTitle; // 0x40
+		::RPG::Client::TextID Title; // 0x18
+		::RPG::Client::TextID Desc; // 0x28
+		::RPG::Client::TextID SubTitle; // 0x38
+		::System::UInt32 UnlockID; // 0x48
+		::RPG::GameCore::FuncUnlockPromptType Type; // 0x4C
 
 		::System::Void _ctor()
 		{

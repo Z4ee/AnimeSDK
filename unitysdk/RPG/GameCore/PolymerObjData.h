@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StagePrefabInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_POLYMEROBJDATA_METHOD_2_47FB19154B7D3799_OFFSET UNITYSDK_OFFSET(0x174ED3F0)
-#define RPG_GAMECORE_POLYMEROBJDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x174ED5D0)
+#define RPG_GAMECORE_POLYMEROBJDATA_METHOD_2_47FB19154B7D3799_OFFSET UNITYSDK_OFFSET(0x18C38A60)
+#define RPG_GAMECORE_POLYMEROBJDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C38C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PolymerObjData_TypeDefinitionIndex = 17513;
+	inline static constexpr unsigned int PolymerObjData_TypeDefinitionIndex = 18122;
 
 	class PolymerObjData : public ::RPG::GameCore::JsonConfig
 	{

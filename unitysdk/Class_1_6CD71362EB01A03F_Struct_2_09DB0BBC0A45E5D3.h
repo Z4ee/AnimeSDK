@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class ShaderPropertySerialization; }
 
-inline static constexpr unsigned int Class_1_6CD71362EB01A03F_Struct_2_09DB0BBC0A45E5D3_TypeDefinitionIndex = 58174;
+inline static constexpr unsigned int Class_1_6CD71362EB01A03F_Struct_2_09DB0BBC0A45E5D3_TypeDefinitionIndex = 65461;
 
 struct alignas(8) Class_1_6CD71362EB01A03F_Struct_2_09DB0BBC0A45E5D3
 {

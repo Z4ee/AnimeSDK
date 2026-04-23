@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLifeCircleEvent_TypeDefinitionIndex = 55849;
+	inline static constexpr unsigned int MonoLifeCircleEvent_TypeDefinitionIndex = 63083;
 
 	enum class MonoLifeCircleEvent : ::System::Int32
 	{

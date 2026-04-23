@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int LDJDebugDump_InstanceInfo_TypeDefinitionIndex = 38452;
+inline static constexpr unsigned int LDJDebugDump_InstanceInfo_TypeDefinitionIndex = 44336;
 
 struct alignas(8) LDJDebugDump_InstanceInfo
 {

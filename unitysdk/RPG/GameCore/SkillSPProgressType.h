@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillSPProgressType_TypeDefinitionIndex = 16674;
+	inline static constexpr unsigned int SkillSPProgressType_TypeDefinitionIndex = 17266;
 
 	enum class SkillSPProgressType : ::System::Int32
 	{
@@ -18,6 +18,7 @@ namespace RPG::GameCore
 		Castorice = 8,
 		Saber = 9,
 		Phainon = 10,
-		Cyrene = 11,
+		SilverWolf999 = 11,
+		Cyrene = 12,
 	};
 }

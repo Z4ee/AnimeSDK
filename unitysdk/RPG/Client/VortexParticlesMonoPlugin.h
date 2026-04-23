@@ -11,11 +11,11 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_VORTEXPARTICLESMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA783980)
+#define RPG_CLIENT_VORTEXPARTICLESMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB4C6860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VortexParticlesMonoPlugin_TypeDefinitionIndex = 57917;
+	inline static constexpr unsigned int VortexParticlesMonoPlugin_TypeDefinitionIndex = 65204;
 
 	class VortexParticlesMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VortexParticlesBehavior*>
 	{

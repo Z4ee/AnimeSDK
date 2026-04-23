@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FindClosestAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_23AC7790DFBA0E42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109B9CD0)
-#define CLASS_3_23AC7790DFBA0E42__CTOR_OFFSET UNITYSDK_OFFSET(0x109B9CA0)
+#define CLASS_3_23AC7790DFBA0E42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12A9C080)
+#define CLASS_3_23AC7790DFBA0E42__CTOR_OFFSET UNITYSDK_OFFSET(0x12A9C050)
 
-inline static constexpr unsigned int Class_3_23AC7790DFBA0E42_TypeDefinitionIndex = 44061;
+inline static constexpr unsigned int Class_3_23AC7790DFBA0E42_TypeDefinitionIndex = 50763;
 
 class Class_3_23AC7790DFBA0E42 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FindClosestAttachPoint*>
 {

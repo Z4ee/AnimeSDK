@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class RogueTournPersonaStyleExpChangeParam; }
 
-#define CLASS_1_7F29F32C0FC14CD4_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x10BBBF30)
-#define CLASS_1_7F29F32C0FC14CD4__CTOR_OFFSET UNITYSDK_OFFSET(0x10BBBF20)
+#define CLASS_1_7F29F32C0FC14CD4_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1004BCE0)
+#define CLASS_1_7F29F32C0FC14CD4__CTOR_OFFSET UNITYSDK_OFFSET(0x1004BCD0)
 
-inline static constexpr unsigned int Class_1_7F29F32C0FC14CD4_TypeDefinitionIndex = 54557;
+inline static constexpr unsigned int Class_1_7F29F32C0FC14CD4_TypeDefinitionIndex = 61745;
 
 class Class_1_7F29F32C0FC14CD4 : public ::System::Object
 {

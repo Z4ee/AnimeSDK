@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ShaderHandleErrors_TypeDefinitionIndex = 4465;
+	inline static constexpr unsigned int PostLateUpdate_ShaderHandleErrors_TypeDefinitionIndex = 4467;
 
 	struct alignas(1) PostLateUpdate_ShaderHandleErrors
 	{

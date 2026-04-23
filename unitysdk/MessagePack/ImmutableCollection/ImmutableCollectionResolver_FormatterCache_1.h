@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableCollectionResolver_FormatterCache_1_TypeDefinitionIndex = 9223;
+	inline static constexpr unsigned int ImmutableCollectionResolver_FormatterCache_1_TypeDefinitionIndex = 9420;
 
 	template <typename T>
 	class ImmutableCollectionResolver_FormatterCache_1 : public ::System::Object

@@ -3,40 +3,40 @@
 #include "unitysdk/RPG/GameCore/RogueWorkbenchFuncType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3D21603F8F88E383;
+class Class_1_7DCEBB69B8853415;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GETCOSTNUM_OFFSET UNITYSDK_OFFSET(0xA3F2850)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GETFUNCID_OFFSET UNITYSDK_OFFSET(0xA3F2A10)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0xA3F29C0)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0xA3F2C10)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0xA3F2BF0)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0xA3F2A50)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_REFRESH_OFFSET UNITYSDK_OFFSET(0xA3F27F0)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_SET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0xA3F2C20)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_SET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0xA3F2C00)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F2460)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GETCOSTNUM_OFFSET UNITYSDK_OFFSET(0xB12A540)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GETFUNCID_OFFSET UNITYSDK_OFFSET(0xB12A700)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0xB12A6B0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0xB12A900)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_GET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0xB12A8E0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0xB12A740)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_REFRESH_OFFSET UNITYSDK_OFFSET(0xB12A4D0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_SET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0xB12A910)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT_SET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0xB12A8F0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0xB12A130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchReforgeMagicUnit_TypeDefinitionIndex = 54864;
+	inline static constexpr unsigned int RogueWorkBenchReforgeMagicUnit_TypeDefinitionIndex = 62052;
 
 	class RogueWorkBenchReforgeMagicUnit : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* _UltraUnitCostData; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*>* _NormalUnitCostData; // 0x18
-		::System::UInt32 _FuncID; // 0x20
-		::System::Int32 _CostCount_k__BackingField; // 0x24
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*>* _NormalUnitCostData; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* _UltraUnitCostData; // 0x18
+		::System::Int32 _CostCount_k__BackingField; // 0x20
+		::System::UInt32 _FuncID; // 0x24
 		::System::UInt32 _FreeCount_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::UInt32 funcID, ::Class_1_3D21603F8F88E383* proto)
+		::System::Void _ctor(::System::UInt32 funcID, ::Class_1_7DCEBB69B8853415* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_3D21603F8F88E383*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT__CTOR_OFFSET))(this, funcID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_7DCEBB69B8853415*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMAGICUNIT__CTOR_OFFSET))(this, funcID, proto);
 		}
 
 		::System::Void Refresh(::RPG::Client::RogueWorkBenchReforgeMagicUnit* detail)

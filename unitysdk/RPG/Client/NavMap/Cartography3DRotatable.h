@@ -6,13 +6,13 @@ namespace RPG::Client::NavMap { class SubNavMapData; }
 namespace RPG::GameCore { class RotatableRegion; }
 namespace System { class String; }
 
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE_GET_MAP3DPREFABPATH_OFFSET UNITYSDK_OFFSET(0x9DF72E0)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x9DF6E60)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__INITROW_OFFSET UNITYSDK_OFFSET(0x9DF6E80)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE_GET_MAP3DPREFABPATH_OFFSET UNITYSDK_OFFSET(0xAB3E2A0)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAB3DD30)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__INITROW_OFFSET UNITYSDK_OFFSET(0xAB3DD50)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int Cartography3DRotatable_TypeDefinitionIndex = 61238;
+	inline static constexpr unsigned int Cartography3DRotatable_TypeDefinitionIndex = 68746;
 
 	class Cartography3DRotatable : public ::RPG::Client::NavMap::Cartography3DBase
 	{

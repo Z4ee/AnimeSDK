@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseMonoGenericView_AttachPointInfo_TypeDefinitionIndex = 62271;
+	inline static constexpr unsigned int BaseMonoGenericView_AttachPointInfo_TypeDefinitionIndex = 70270;
 
 	struct alignas(8) BaseMonoGenericView_AttachPointInfo
 	{

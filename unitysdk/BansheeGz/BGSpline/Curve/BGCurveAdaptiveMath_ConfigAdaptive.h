@@ -3,11 +3,11 @@
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath_Config.h"
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath_Fields.h"
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CONFIGADAPTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16563DF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CONFIGADAPTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B8EB50)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveAdaptiveMath_ConfigAdaptive_TypeDefinitionIndex = 28172;
+	inline static constexpr unsigned int BGCurveAdaptiveMath_ConfigAdaptive_TypeDefinitionIndex = 33796;
 
 	class BGCurveAdaptiveMath_ConfigAdaptive : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config
 	{

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_7250B7BB9413AA62.h"
+#include "unitysdk/Struct_2_23A3535C3AD26D5F.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_301;
+class Class_0_16E4307DCC419505_309;
 class Class_2_E08C4A9CFB467C17;
 
-#define CLASS_2_E08C4A9CFB467C17___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x88A5720)
-#define CLASS_2_E08C4A9CFB467C17___C__DISPLAYCLASS3_0__MAINASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x88A5730)
+#define CLASS_2_E08C4A9CFB467C17___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11773B00)
+#define CLASS_2_E08C4A9CFB467C17___C__DISPLAYCLASS3_0__MAINASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x11773B10)
 
-inline static constexpr unsigned int Class_2_E08C4A9CFB467C17___c__DisplayClass3_0_TypeDefinitionIndex = 39663;
+inline static constexpr unsigned int Class_2_E08C4A9CFB467C17___c__DisplayClass3_0_TypeDefinitionIndex = 45572;
 
 class Class_2_E08C4A9CFB467C17___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::Struct_2_7250B7BB9413AA62 goalNode; // 0x10
-	::Class_0_16E4307DCC419505_301* container; // 0x20
+	::Class_0_16E4307DCC419505_309* container; // 0x10
+	::Struct_2_23A3535C3AD26D5F goalNode; // 0x18
 	::Class_2_E08C4A9CFB467C17* __4__this; // 0x28
-	::Struct_2_7250B7BB9413AA62 startNode; // 0x30
+	::Struct_2_23A3535C3AD26D5F startNode; // 0x30
 	::System::Single H; // 0x40
 	::System::Single G; // 0x44
 

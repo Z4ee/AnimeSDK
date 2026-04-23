@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_305;
+class Class_0_16E4307DCC419505_313;
 class Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8;
 namespace UnityEngine { class Component; }
 
-#define CLASS_1_B48EFD1473830FEF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x890A370)
-#define CLASS_1_B48EFD1473830FEF___C__CTOR_OFFSET UNITYSDK_OFFSET(0x890A3A0)
-#define CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_0_OFFSET UNITYSDK_OFFSET(0x890A3B0)
-#define CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_1_OFFSET UNITYSDK_OFFSET(0x890A420)
-#define CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_2_OFFSET UNITYSDK_OFFSET(0x890A4A0)
+#define CLASS_1_B48EFD1473830FEF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9610C90)
+#define CLASS_1_B48EFD1473830FEF___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9610CC0)
+#define CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_0_OFFSET UNITYSDK_OFFSET(0x9610CD0)
+#define CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_1_OFFSET UNITYSDK_OFFSET(0x9610D40)
+#define CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_2_OFFSET UNITYSDK_OFFSET(0x9610DC0)
 
-inline static constexpr unsigned int Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex = 39774;
+inline static constexpr unsigned int Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex = 45683;
 
 class Class_1_B48EFD1473830FEF___c : public ::System::Object
 {
 public:
-	static ::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8** StaticGet___9__6_2()
-	{
-		return (::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x48FE0);
-	}
-	static ::Class_1_B48EFD1473830FEF___c** StaticGet___9()
-	{
-		return (::Class_1_B48EFD1473830FEF___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x48FE8);
-	}
 	static ::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8** StaticGet___9__6_1()
 	{
-		return (::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x48FF0);
+		return (::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x63C40);
 	}
 	static ::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8** StaticGet___9__6_0()
 	{
-		return (::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x48FF8);
+		return (::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x63C48);
+	}
+	static ::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8** StaticGet___9__6_2()
+	{
+		return (::Class_1_B48EFD1473830FEF_Class_3_B8B36145F8ED68E8**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x63C50);
+	}
+	static ::Class_1_B48EFD1473830FEF___c** StaticGet___9()
+	{
+		return (::Class_1_B48EFD1473830FEF___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48EFD1473830FEF___c_TypeDefinitionIndex)->GetStaticField(0x63C58);
 	}
 
 	static ::System::Void _cctor()
@@ -44,18 +44,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_305* _LoadProcessors_b__6_0(::UnityEngine::Component* c)
+	::Class_0_16E4307DCC419505_313* _LoadProcessors_b__6_0(::UnityEngine::Component* c)
 	{
-		return ((::Class_0_16E4307DCC419505_305*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_0_OFFSET))(this, c);
+		return ((::Class_0_16E4307DCC419505_313*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_0_OFFSET))(this, c);
 	}
 
-	::Class_0_16E4307DCC419505_305* _LoadProcessors_b__6_1(::UnityEngine::Component* c)
+	::Class_0_16E4307DCC419505_313* _LoadProcessors_b__6_1(::UnityEngine::Component* c)
 	{
-		return ((::Class_0_16E4307DCC419505_305*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_1_OFFSET))(this, c);
+		return ((::Class_0_16E4307DCC419505_313*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_1_OFFSET))(this, c);
 	}
 
-	::Class_0_16E4307DCC419505_305* _LoadProcessors_b__6_2(::UnityEngine::Component* c)
+	::Class_0_16E4307DCC419505_313* _LoadProcessors_b__6_2(::UnityEngine::Component* c)
 	{
-		return ((::Class_0_16E4307DCC419505_305*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_2_OFFSET))(this, c);
+		return ((::Class_0_16E4307DCC419505_313*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_B48EFD1473830FEF___C__LOADPROCESSORS_B__6_2_OFFSET))(this, c);
 	}
 };

@@ -5,15 +5,15 @@
 class Class_1_43BD383C98B4C0C5_24;
 namespace RPG::GameCore { class FiveDimWindowControllerComponentConfig; }
 
-#define CLASS_1_AC9C86DEE29C5AC3__CTOR_OFFSET UNITYSDK_OFFSET(0x167ABE30)
+#define CLASS_1_AC9C86DEE29C5AC3__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3E600)
 
-inline static constexpr unsigned int Class_1_AC9C86DEE29C5AC3_TypeDefinitionIndex = 33585;
+inline static constexpr unsigned int Class_1_AC9C86DEE29C5AC3_TypeDefinitionIndex = 39385;
 
 class Class_1_AC9C86DEE29C5AC3 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimWindowControllerComponentConfig* Field_1_0; // 0x10
-	::Class_1_43BD383C98B4C0C5_24* Field_1_1; // 0x18
+	::Class_1_43BD383C98B4C0C5_24* Field_1_1; // 0x10
+	::RPG::GameCore::FiveDimWindowControllerComponentConfig* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

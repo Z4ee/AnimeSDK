@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFollowOffsetMode_TypeDefinitionIndex = 15187;
+	inline static constexpr unsigned int CharacterFollowOffsetMode_TypeDefinitionIndex = 15701;
 
 	enum class CharacterFollowOffsetMode : ::System::Int32
 	{

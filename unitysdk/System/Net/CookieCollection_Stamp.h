@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CookieCollection_Stamp_TypeDefinitionIndex = 2789;
+	inline static constexpr unsigned int CookieCollection_Stamp_TypeDefinitionIndex = 2790;
 
 	enum class CookieCollection_Stamp : ::System::Int32
 	{

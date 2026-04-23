@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemTriggerEventType_TypeDefinitionIndex = 5489;
+	inline static constexpr unsigned int ParticleSystemTriggerEventType_TypeDefinitionIndex = 5500;
 
 	enum class ParticleSystemTriggerEventType : ::System::Int32
 	{

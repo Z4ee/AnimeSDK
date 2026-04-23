@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_RECT_TypeDefinitionIndex = 37292;
+	inline static constexpr unsigned int BrowserWin32Helper_RECT_TypeDefinitionIndex = 43169;
 
 	struct alignas(4) BrowserWin32Helper_RECT
 	{

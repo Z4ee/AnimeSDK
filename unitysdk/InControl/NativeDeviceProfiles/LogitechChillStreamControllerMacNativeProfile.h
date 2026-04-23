@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHCHILLSTREAMCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B9D460)
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHCHILLSTREAMCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9D4F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHCHILLSTREAMCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1719AE40)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHCHILLSTREAMCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1719AED0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechChillStreamControllerMacNativeProfile_TypeDefinitionIndex = 31737;
+	inline static constexpr unsigned int LogitechChillStreamControllerMacNativeProfile_TypeDefinitionIndex = 37457;
 
 	class LogitechChillStreamControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

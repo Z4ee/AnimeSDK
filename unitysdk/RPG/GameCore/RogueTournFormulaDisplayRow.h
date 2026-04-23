@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNFORMULADISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17666B50)
-#define RPG_GAMECORE_ROGUETOURNFORMULADISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17667190)
+#define RPG_GAMECORE_ROGUETOURNFORMULADISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D74310)
+#define RPG_GAMECORE_ROGUETOURNFORMULADISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D74950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournFormulaDisplayRow_TypeDefinitionIndex = 13744;
+	inline static constexpr unsigned int RogueTournFormulaDisplayRow_TypeDefinitionIndex = 14215;
 
 	class RogueTournFormulaDisplayRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x10
-		::RPG::Client::TextID FormulaStory; // 0x18
-		::System::UInt32 HandbookUnlockDisplayID; // 0x28
-		::System::UInt32 FormulaDisplayID; // 0x2C
+		::System::UInt32 HandbookUnlockDisplayID; // 0x18
+		::System::UInt32 FormulaDisplayID; // 0x1C
+		::RPG::Client::TextID FormulaStory; // 0x20
 
 		::System::Void _ctor()
 		{

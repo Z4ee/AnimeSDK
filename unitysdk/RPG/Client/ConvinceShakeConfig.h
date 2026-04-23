@@ -6,12 +6,12 @@ namespace RPG::Client { class ConvinceShakeConfig_ConvinceShakeData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONVINCESHAKECONFIG_METHOD_1_F66F42B004675585_OFFSET UNITYSDK_OFFSET(0x9425630)
-#define RPG_CLIENT_CONVINCESHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9425780)
+#define RPG_CLIENT_CONVINCESHAKECONFIG_METHOD_1_F66F42B004675585_OFFSET UNITYSDK_OFFSET(0xA0D33D0)
+#define RPG_CLIENT_CONVINCESHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D3520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceShakeConfig_TypeDefinitionIndex = 49154;
+	inline static constexpr unsigned int ConvinceShakeConfig_TypeDefinitionIndex = 55951;
 
 	class ConvinceShakeConfig : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_GETLANGUAGEERRORRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x15EE03F0)
+#define MIHOYO_SDK_GETLANGUAGEERRORRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x175264D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GetLanguageErrorResponse_TypeDefinitionIndex = 7067;
+	inline static constexpr unsigned int GetLanguageErrorResponse_TypeDefinitionIndex = 7110;
 
 	class GetLanguageErrorResponse : public ::System::Object
 	{

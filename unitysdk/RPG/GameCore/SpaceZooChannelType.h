@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooChannelType_TypeDefinitionIndex = 11283;
+	inline static constexpr unsigned int SpaceZooChannelType_TypeDefinitionIndex = 10205;
 
 	enum class SpaceZooChannelType : ::System::Int32
 	{

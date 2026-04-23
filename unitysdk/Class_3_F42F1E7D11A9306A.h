@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBattleTargetMultiTargetSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F42F1E7D11A9306A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8E18480)
-#define CLASS_3_F42F1E7D11A9306A__CTOR_OFFSET UNITYSDK_OFFSET(0x8E18450)
+#define CLASS_3_F42F1E7D11A9306A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8FCB3D0)
+#define CLASS_3_F42F1E7D11A9306A__CTOR_OFFSET UNITYSDK_OFFSET(0x8FCB3A0)
 
-inline static constexpr unsigned int Class_3_F42F1E7D11A9306A_TypeDefinitionIndex = 47220;
+inline static constexpr unsigned int Class_3_F42F1E7D11A9306A_TypeDefinitionIndex = 53952;
 
 class Class_3_F42F1E7D11A9306A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleTargetMultiTargetSwitch*>
 {

@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRNotificationType_TypeDefinitionIndex = 30301;
+	inline static constexpr unsigned int EVRNotificationType_TypeDefinitionIndex = 36021;
 
 	enum class EVRNotificationType : ::System::Int32
 	{

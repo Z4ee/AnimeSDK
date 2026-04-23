@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGSession_EventMessageColor_TypeDefinitionIndex = 37755;
+	inline static constexpr unsigned int HEU_PDGSession_EventMessageColor_TypeDefinitionIndex = 43632;
 
 	enum class HEU_PDGSession_EventMessageColor : ::System::Int32
 	{

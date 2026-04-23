@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_ATPLAYCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B86460)
-#define INCONTROL_NATIVEDEVICEPROFILES_ATPLAYCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B86580)
+#define INCONTROL_NATIVEDEVICEPROFILES_ATPLAYCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x17183E40)
+#define INCONTROL_NATIVEDEVICEPROFILES_ATPLAYCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17183F60)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int AtPlayControllerMacNativeProfile_TypeDefinitionIndex = 31691;
+	inline static constexpr unsigned int AtPlayControllerMacNativeProfile_TypeDefinitionIndex = 37411;
 
 	class AtPlayControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

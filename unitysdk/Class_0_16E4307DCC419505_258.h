@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Network/SessionType.h"
+#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
+#include "unitysdk/Struct_2_468F1D800AD1758C.h"
 
-class Class_0_16E4307DCC419505_256;
-class Class_1_2978C3AFB9C9E5D0;
-namespace RPG::Client { class NetPacket; }
-namespace System { class Object; }
 namespace System { class String; }
-namespace System::Net { class EndPoint; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::IO { class Stream; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_258_TypeDefinitionIndex = 33852;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_258_TypeDefinitionIndex = 39622;
 
 class Class_0_16E4307DCC419505_258
 {

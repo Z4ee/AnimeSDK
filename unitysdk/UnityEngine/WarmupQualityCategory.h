@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WarmupQualityCategory_TypeDefinitionIndex = 4188;
+	inline static constexpr unsigned int WarmupQualityCategory_TypeDefinitionIndex = 4190;
 
 	enum class WarmupQualityCategory : ::System::Int32
 	{

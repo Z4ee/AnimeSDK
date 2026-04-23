@@ -4,6 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/FocusType.h"
+#include "unitysdk/UnityEngine/GUI_ToolbarButtonSize.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/ScaleMode.h"
@@ -20,153 +21,158 @@ namespace UnityEngine { class TextEditor; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngineInternal { class GenericStack; }
 
-#define UNITYENGINE_GUI_BEGINGROUP_1_OFFSET UNITYSDK_OFFSET(0x18A6F530)
-#define UNITYENGINE_GUI_BEGINGROUP_OFFSET UNITYSDK_OFFSET(0x18A6F4B0)
-#define UNITYENGINE_GUI_BEGINSCROLLVIEW_1_OFFSET UNITYSDK_OFFSET(0x18A6FBE0)
-#define UNITYENGINE_GUI_BEGINSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x18A6FAA0)
-#define UNITYENGINE_GUI_BOX_1_OFFSET UNITYSDK_OFFSET(0x18A6A0D0)
-#define UNITYENGINE_GUI_BOX_OFFSET UNITYSDK_OFFSET(0x18A69F50)
-#define UNITYENGINE_GUI_BUTTON_1_OFFSET UNITYSDK_OFFSET(0x18A6A660)
-#define UNITYENGINE_GUI_BUTTON_2_OFFSET UNITYSDK_OFFSET(0x18A6A710)
-#define UNITYENGINE_GUI_BUTTON_OFFSET UNITYSDK_OFFSET(0x18A6A470)
-#define UNITYENGINE_GUI_CALCULATESCALEDTEXTURERECTS_OFFSET UNITYSDK_OFFSET(0x18A69950)
-#define UNITYENGINE_GUI_CALLWINDOWDELEGATE_OFFSET UNITYSDK_OFFSET(0x18A713B0)
-#define UNITYENGINE_GUI_DOBUTTON_OFFSET UNITYSDK_OFFSET(0x18A6A7F0)
-#define UNITYENGINE_GUI_DOCONTROL_OFFSET UNITYSDK_OFFSET(0x18A6D870)
-#define UNITYENGINE_GUI_DOLABEL_OFFSET UNITYSDK_OFFSET(0x18A68680)
-#define UNITYENGINE_GUI_DOREPEATBUTTON_OFFSET UNITYSDK_OFFSET(0x18A6AA70)
-#define UNITYENGINE_GUI_DOSETSKIN_OFFSET UNITYSDK_OFFSET(0x18A67F80)
-#define UNITYENGINE_GUI_DOTEXTFIELD_1_OFFSET UNITYSDK_OFFSET(0x18A6B230)
-#define UNITYENGINE_GUI_DOTEXTFIELD_2_OFFSET UNITYSDK_OFFSET(0x18A6B2F0)
-#define UNITYENGINE_GUI_DOTEXTFIELD_OFFSET UNITYSDK_OFFSET(0x18A6B130)
-#define UNITYENGINE_GUI_DOTOGGLE_OFFSET UNITYSDK_OFFSET(0x18A6D760)
-#define UNITYENGINE_GUI_DRAWTEXTUREWITHTEXCOORDS_1_OFFSET UNITYSDK_OFFSET(0x18A69B90)
-#define UNITYENGINE_GUI_DRAWTEXTUREWITHTEXCOORDS_OFFSET UNITYSDK_OFFSET(0x18A69B00)
-#define UNITYENGINE_GUI_DRAWTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x18A68910)
-#define UNITYENGINE_GUI_DRAWTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x18A689E0)
-#define UNITYENGINE_GUI_DRAWTEXTURE_3_OFFSET UNITYSDK_OFFSET(0x18A68A60)
-#define UNITYENGINE_GUI_DRAWTEXTURE_4_OFFSET UNITYSDK_OFFSET(0x18A68C00)
-#define UNITYENGINE_GUI_DRAWTEXTURE_5_OFFSET UNITYSDK_OFFSET(0x18A68D50)
-#define UNITYENGINE_GUI_DRAWTEXTURE_6_OFFSET UNITYSDK_OFFSET(0x18A68F00)
-#define UNITYENGINE_GUI_DRAWTEXTURE_7_OFFSET UNITYSDK_OFFSET(0x18A69050)
-#define UNITYENGINE_GUI_DRAWTEXTURE_8_OFFSET UNITYSDK_OFFSET(0x18A69230)
-#define UNITYENGINE_GUI_DRAWTEXTURE_OFFSET UNITYSDK_OFFSET(0x18A688A0)
-#define UNITYENGINE_GUI_ENDGROUP_OFFSET UNITYSDK_OFFSET(0x18A6F9C0)
-#define UNITYENGINE_GUI_ENDSCROLLVIEW_1_OFFSET UNITYSDK_OFFSET(0x18A70F00)
-#define UNITYENGINE_GUI_ENDSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x18A70EA0)
-#define UNITYENGINE_GUI_GET_BACKGROUNDCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A67520)
-#define UNITYENGINE_GUI_GET_BACKGROUNDCOLOR_OFFSET UNITYSDK_OFFSET(0x18A674C0)
-#define UNITYENGINE_GUI_GET_BLENDMATERIAL_OFFSET UNITYSDK_OFFSET(0x18A676D0)
-#define UNITYENGINE_GUI_GET_BLITMATERIAL_OFFSET UNITYSDK_OFFSET(0x18A676E0)
-#define UNITYENGINE_GUI_GET_CHANGED_OFFSET UNITYSDK_OFFSET(0x18A67680)
-#define UNITYENGINE_GUI_GET_COLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A67440)
-#define UNITYENGINE_GUI_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x18A673E0)
-#define UNITYENGINE_GUI_GET_CONTENTCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A67600)
-#define UNITYENGINE_GUI_GET_CONTENTCOLOR_OFFSET UNITYSDK_OFFSET(0x18A675A0)
-#define UNITYENGINE_GUI_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x18A676A0)
-#define UNITYENGINE_GUI_GET_MATRIX_OFFSET UNITYSDK_OFFSET(0x18A682A0)
-#define UNITYENGINE_GUI_GET_NEXTSCROLLSTEPTIME_OFFSET UNITYSDK_OFFSET(0x18A67DA0)
-#define UNITYENGINE_GUI_GET_ROUNDEDRECTMATERIAL_OFFSET UNITYSDK_OFFSET(0x18A676F0)
-#define UNITYENGINE_GUI_GET_ROUNDEDRECTWITHCOLORPERBORDERMATERIAL_OFFSET UNITYSDK_OFFSET(0x18A67700)
-#define UNITYENGINE_GUI_GET_SCROLLTROUGHSIDE_OFFSET UNITYSDK_OFFSET(0x18A67CE0)
-#define UNITYENGINE_GUI_GET_SCROLLVIEWSTATES_OFFSET UNITYSDK_OFFSET(0x18A6FA40)
-#define UNITYENGINE_GUI_GET_SKIN_OFFSET UNITYSDK_OFFSET(0x18A68110)
-#define UNITYENGINE_GUI_GET_USEPAGESCROLLBARS_OFFSET UNITYSDK_OFFSET(0x18A676C0)
-#define UNITYENGINE_GUI_GRABMOUSECONTROL_OFFSET UNITYSDK_OFFSET(0x18A67710)
-#define UNITYENGINE_GUI_HANDLETEXTFIELDEVENTFORDESKTOPWITHFORCEDKEYBOARD_OFFSET UNITYSDK_OFFSET(0x18A6B920)
-#define UNITYENGINE_GUI_HANDLETEXTFIELDEVENTFORDESKTOP_OFFSET UNITYSDK_OFFSET(0x18A6C170)
-#define UNITYENGINE_GUI_HANDLETEXTFIELDEVENTFORTOUCHSCREEN_OFFSET UNITYSDK_OFFSET(0x18A6BC60)
-#define UNITYENGINE_GUI_HASMOUSECONTROL_OFFSET UNITYSDK_OFFSET(0x18A67720)
-#define UNITYENGINE_GUI_HORIZONTALSCROLLBAR_OFFSET UNITYSDK_OFFSET(0x18A6E2C0)
-#define UNITYENGINE_GUI_HORIZONTALSLIDER_OFFSET UNITYSDK_OFFSET(0x18A6DEE0)
-#define UNITYENGINE_GUI_INTERNALREPAINTEDITORWINDOW_OFFSET UNITYSDK_OFFSET(0x18A67740)
-#define UNITYENGINE_GUI_LABEL_1_OFFSET UNITYSDK_OFFSET(0x18A685A0)
-#define UNITYENGINE_GUI_LABEL_OFFSET UNITYSDK_OFFSET(0x18A683B0)
-#define UNITYENGINE_GUI_PASSWORDFIELDGETSTRTOSHOW_OFFSET UNITYSDK_OFFSET(0x18A6B0A0)
-#define UNITYENGINE_GUI_RELEASEMOUSECONTROL_OFFSET UNITYSDK_OFFSET(0x18A67730)
-#define UNITYENGINE_GUI_REPEATBUTTON_1_OFFSET UNITYSDK_OFFSET(0x18A6AE60)
-#define UNITYENGINE_GUI_REPEATBUTTON_OFFSET UNITYSDK_OFFSET(0x18A6A8F0)
-#define UNITYENGINE_GUI_SCROLLERREPEATBUTTON_OFFSET UNITYSDK_OFFSET(0x18A6EE30)
-#define UNITYENGINE_GUI_SCROLLER_OFFSET UNITYSDK_OFFSET(0x18A6E8B0)
-#define UNITYENGINE_GUI_SET_BACKGROUNDCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A67590)
-#define UNITYENGINE_GUI_SET_BACKGROUNDCOLOR_OFFSET UNITYSDK_OFFSET(0x18A67530)
-#define UNITYENGINE_GUI_SET_CHANGED_OFFSET UNITYSDK_OFFSET(0x18A67690)
-#define UNITYENGINE_GUI_SET_COLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A674B0)
-#define UNITYENGINE_GUI_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x18A67450)
-#define UNITYENGINE_GUI_SET_CONTENTCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A67670)
-#define UNITYENGINE_GUI_SET_CONTENTCOLOR_OFFSET UNITYSDK_OFFSET(0x18A67610)
-#define UNITYENGINE_GUI_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x18A676B0)
-#define UNITYENGINE_GUI_SET_MATRIX_OFFSET UNITYSDK_OFFSET(0x18A68360)
-#define UNITYENGINE_GUI_SET_NEXTSCROLLSTEPTIME_OFFSET UNITYSDK_OFFSET(0x18A67E00)
-#define UNITYENGINE_GUI_SET_SCROLLTROUGHSIDE_OFFSET UNITYSDK_OFFSET(0x18A67D40)
-#define UNITYENGINE_GUI_SET_SKIN_OFFSET UNITYSDK_OFFSET(0x18A67E60)
-#define UNITYENGINE_GUI_SLIDER_OFFSET UNITYSDK_OFFSET(0x18A6DFD0)
-#define UNITYENGINE_GUI_TOGGLE_OFFSET UNITYSDK_OFFSET(0x18A6D640)
-#define UNITYENGINE_GUI_VERTICALSCROLLBAR_OFFSET UNITYSDK_OFFSET(0x18A6F2A0)
-#define UNITYENGINE_GUI__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A67750)
+#define UNITYENGINE_GUI_BEGINGROUP_1_OFFSET UNITYSDK_OFFSET(0x1A4A88D0)
+#define UNITYENGINE_GUI_BEGINGROUP_2_OFFSET UNITYSDK_OFFSET(0x1A4A8950)
+#define UNITYENGINE_GUI_BEGINGROUP_OFFSET UNITYSDK_OFFSET(0x1A4A8650)
+#define UNITYENGINE_GUI_BEGINSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x1A4A8E00)
+#define UNITYENGINE_GUI_BOX_1_OFFSET UNITYSDK_OFFSET(0x1A4A1AD0)
+#define UNITYENGINE_GUI_BOX_OFFSET UNITYSDK_OFFSET(0x1A4A1950)
+#define UNITYENGINE_GUI_BUTTON_1_OFFSET UNITYSDK_OFFSET(0x1A4A2060)
+#define UNITYENGINE_GUI_BUTTON_2_OFFSET UNITYSDK_OFFSET(0x1A4A2110)
+#define UNITYENGINE_GUI_BUTTON_OFFSET UNITYSDK_OFFSET(0x1A4A1E70)
+#define UNITYENGINE_GUI_CALCMOUSERECTS_OFFSET UNITYSDK_OFFSET(0x1A4A6AE0)
+#define UNITYENGINE_GUI_CALCTOTALHORIZSPACING_OFFSET UNITYSDK_OFFSET(0x1A4A6180)
+#define UNITYENGINE_GUI_CALCULATESCALEDTEXTURERECTS_OFFSET UNITYSDK_OFFSET(0x1A4A1350)
+#define UNITYENGINE_GUI_CALLWINDOWDELEGATE_OFFSET UNITYSDK_OFFSET(0x1A4AA530)
+#define UNITYENGINE_GUI_DOBUTTONGRID_OFFSET UNITYSDK_OFFSET(0x1A4A5390)
+#define UNITYENGINE_GUI_DOBUTTON_OFFSET UNITYSDK_OFFSET(0x1A4A21F0)
+#define UNITYENGINE_GUI_DOCONTROL_OFFSET UNITYSDK_OFFSET(0x1A4A6450)
+#define UNITYENGINE_GUI_DOLABEL_OFFSET UNITYSDK_OFFSET(0x1A4A0080)
+#define UNITYENGINE_GUI_DOREPEATBUTTON_OFFSET UNITYSDK_OFFSET(0x1A4A2470)
+#define UNITYENGINE_GUI_DOSETSKIN_OFFSET UNITYSDK_OFFSET(0x1A49F800)
+#define UNITYENGINE_GUI_DOTEXTFIELD_1_OFFSET UNITYSDK_OFFSET(0x1A4A2C30)
+#define UNITYENGINE_GUI_DOTEXTFIELD_2_OFFSET UNITYSDK_OFFSET(0x1A4A2CF0)
+#define UNITYENGINE_GUI_DOTEXTFIELD_OFFSET UNITYSDK_OFFSET(0x1A4A2B30)
+#define UNITYENGINE_GUI_DOTOGGLE_OFFSET UNITYSDK_OFFSET(0x1A4A5160)
+#define UNITYENGINE_GUI_DRAWTEXTUREWITHTEXCOORDS_1_OFFSET UNITYSDK_OFFSET(0x1A4A1590)
+#define UNITYENGINE_GUI_DRAWTEXTUREWITHTEXCOORDS_OFFSET UNITYSDK_OFFSET(0x1A4A1500)
+#define UNITYENGINE_GUI_DRAWTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1A4A0310)
+#define UNITYENGINE_GUI_DRAWTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x1A4A03E0)
+#define UNITYENGINE_GUI_DRAWTEXTURE_3_OFFSET UNITYSDK_OFFSET(0x1A4A0460)
+#define UNITYENGINE_GUI_DRAWTEXTURE_4_OFFSET UNITYSDK_OFFSET(0x1A4A0600)
+#define UNITYENGINE_GUI_DRAWTEXTURE_5_OFFSET UNITYSDK_OFFSET(0x1A4A0750)
+#define UNITYENGINE_GUI_DRAWTEXTURE_6_OFFSET UNITYSDK_OFFSET(0x1A4A0900)
+#define UNITYENGINE_GUI_DRAWTEXTURE_7_OFFSET UNITYSDK_OFFSET(0x1A4A0A50)
+#define UNITYENGINE_GUI_DRAWTEXTURE_8_OFFSET UNITYSDK_OFFSET(0x1A4A0C30)
+#define UNITYENGINE_GUI_DRAWTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4A02A0)
+#define UNITYENGINE_GUI_ENDGROUP_OFFSET UNITYSDK_OFFSET(0x1A4A8D20)
+#define UNITYENGINE_GUI_ENDSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x1A4AA080)
+#define UNITYENGINE_GUI_GET_BACKGROUNDCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A49ED90)
+#define UNITYENGINE_GUI_GET_BACKGROUNDCOLOR_OFFSET UNITYSDK_OFFSET(0x1A49ED30)
+#define UNITYENGINE_GUI_GET_BLENDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A49EF40)
+#define UNITYENGINE_GUI_GET_BLITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A49EF50)
+#define UNITYENGINE_GUI_GET_CHANGED_OFFSET UNITYSDK_OFFSET(0x1A49EEF0)
+#define UNITYENGINE_GUI_GET_COLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A49ECB0)
+#define UNITYENGINE_GUI_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x1A49EC50)
+#define UNITYENGINE_GUI_GET_CONTENTCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A49EE70)
+#define UNITYENGINE_GUI_GET_CONTENTCOLOR_OFFSET UNITYSDK_OFFSET(0x1A49EE10)
+#define UNITYENGINE_GUI_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1A49EF10)
+#define UNITYENGINE_GUI_GET_MATRIX_OFFSET UNITYSDK_OFFSET(0x1A49FB20)
+#define UNITYENGINE_GUI_GET_NEXTSCROLLSTEPTIME_OFFSET UNITYSDK_OFFSET(0x1A49F620)
+#define UNITYENGINE_GUI_GET_ROUNDEDRECTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A49EF60)
+#define UNITYENGINE_GUI_GET_ROUNDEDRECTWITHCOLORPERBORDERMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A49EF70)
+#define UNITYENGINE_GUI_GET_SCROLLTROUGHSIDE_OFFSET UNITYSDK_OFFSET(0x1A49F560)
+#define UNITYENGINE_GUI_GET_SCROLLVIEWSTATES_OFFSET UNITYSDK_OFFSET(0x1A4A8DA0)
+#define UNITYENGINE_GUI_GET_SKIN_OFFSET UNITYSDK_OFFSET(0x1A49F990)
+#define UNITYENGINE_GUI_GET_USEPAGESCROLLBARS_OFFSET UNITYSDK_OFFSET(0x1A49EF30)
+#define UNITYENGINE_GUI_GRABMOUSECONTROL_OFFSET UNITYSDK_OFFSET(0x1A49EF80)
+#define UNITYENGINE_GUI_HANDLETEXTFIELDEVENTFORDESKTOPWITHFORCEDKEYBOARD_OFFSET UNITYSDK_OFFSET(0x1A4A3320)
+#define UNITYENGINE_GUI_HANDLETEXTFIELDEVENTFORDESKTOP_OFFSET UNITYSDK_OFFSET(0x1A4A3B70)
+#define UNITYENGINE_GUI_HANDLETEXTFIELDEVENTFORTOUCHSCREEN_OFFSET UNITYSDK_OFFSET(0x1A4A3660)
+#define UNITYENGINE_GUI_HASMOUSECONTROL_OFFSET UNITYSDK_OFFSET(0x1A49EF90)
+#define UNITYENGINE_GUI_HORIZONTALSCROLLBAR_OFFSET UNITYSDK_OFFSET(0x1A4A7480)
+#define UNITYENGINE_GUI_HORIZONTALSLIDER_OFFSET UNITYSDK_OFFSET(0x1A4A70A0)
+#define UNITYENGINE_GUI_INTERNALREPAINTEDITORWINDOW_OFFSET UNITYSDK_OFFSET(0x1A49EFC0)
+#define UNITYENGINE_GUI_LABEL_1_OFFSET UNITYSDK_OFFSET(0x1A49FF30)
+#define UNITYENGINE_GUI_LABEL_2_OFFSET UNITYSDK_OFFSET(0x1A49FE50)
+#define UNITYENGINE_GUI_LABEL_OFFSET UNITYSDK_OFFSET(0x1A49FC30)
+#define UNITYENGINE_GUI_PASSWORDFIELDGETSTRTOSHOW_OFFSET UNITYSDK_OFFSET(0x1A4A2AA0)
+#define UNITYENGINE_GUI_RELEASEMOUSECONTROL_OFFSET UNITYSDK_OFFSET(0x1A49EFA0)
+#define UNITYENGINE_GUI_REPEATBUTTON_1_OFFSET UNITYSDK_OFFSET(0x1A4A2860)
+#define UNITYENGINE_GUI_REPEATBUTTON_OFFSET UNITYSDK_OFFSET(0x1A4A22F0)
+#define UNITYENGINE_GUI_SCROLLERREPEATBUTTON_OFFSET UNITYSDK_OFFSET(0x1A4A7FF0)
+#define UNITYENGINE_GUI_SCROLLER_OFFSET UNITYSDK_OFFSET(0x1A4A7A70)
+#define UNITYENGINE_GUI_SELECTIONGRID_OFFSET UNITYSDK_OFFSET(0x1A4A5270)
+#define UNITYENGINE_GUI_SETNEXTCONTROLNAME_OFFSET UNITYSDK_OFFSET(0x1A49EFB0)
+#define UNITYENGINE_GUI_SET_BACKGROUNDCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A49EE00)
+#define UNITYENGINE_GUI_SET_BACKGROUNDCOLOR_OFFSET UNITYSDK_OFFSET(0x1A49EDA0)
+#define UNITYENGINE_GUI_SET_CHANGED_OFFSET UNITYSDK_OFFSET(0x1A49EF00)
+#define UNITYENGINE_GUI_SET_COLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A49ED20)
+#define UNITYENGINE_GUI_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x1A49ECC0)
+#define UNITYENGINE_GUI_SET_CONTENTCOLOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A49EEE0)
+#define UNITYENGINE_GUI_SET_CONTENTCOLOR_OFFSET UNITYSDK_OFFSET(0x1A49EE80)
+#define UNITYENGINE_GUI_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1A49EF20)
+#define UNITYENGINE_GUI_SET_MATRIX_OFFSET UNITYSDK_OFFSET(0x1A49FBE0)
+#define UNITYENGINE_GUI_SET_NEXTSCROLLSTEPTIME_OFFSET UNITYSDK_OFFSET(0x1A49F680)
+#define UNITYENGINE_GUI_SET_SCROLLTROUGHSIDE_OFFSET UNITYSDK_OFFSET(0x1A49F5C0)
+#define UNITYENGINE_GUI_SET_SKIN_OFFSET UNITYSDK_OFFSET(0x1A49F6E0)
+#define UNITYENGINE_GUI_SLIDER_OFFSET UNITYSDK_OFFSET(0x1A4A7190)
+#define UNITYENGINE_GUI_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1A4A5040)
+#define UNITYENGINE_GUI_VERTICALSCROLLBAR_OFFSET UNITYSDK_OFFSET(0x1A4A8460)
+#define UNITYENGINE_GUI__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A49EFD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUI_TypeDefinitionIndex = 5106;
+	inline static constexpr unsigned int GUI_TypeDefinitionIndex = 5114;
 
 	class GUI : public ::System::Object
 	{
 	public:
 		static ::UnityEngineInternal::GenericStack** StaticGet__scrollViewStates_k__BackingField()
 		{
-			return (::UnityEngineInternal::GenericStack**)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x15CE0);
+			return (::UnityEngineInternal::GenericStack**)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x15F90);
 		}
 		static ::UnityEngine::GUISkin** StaticGet_s_Skin()
 		{
-			return (::UnityEngine::GUISkin**)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x15CE8);
-		}
-		static ::System::Int32* StaticGet_s_ButtonGridHash()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6590);
-		}
-		static ::System::Int32* StaticGet_s_ScrollviewHash()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6594);
-		}
-		static ::System::Int32* StaticGet_s_ScrollControlId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6598);
+			return (::UnityEngine::GUISkin**)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x15F98);
 		}
 		static ::System::Int32* StaticGet_s_BoxHash()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x659C);
-		}
-		static ::System::DateTime* StaticGet__nextScrollStepTime_k__BackingField()
-		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65A0);
-		}
-		static ::System::Int32* StaticGet__scrollTroughSide_k__BackingField()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65A8);
-		}
-		static ::System::Int32* StaticGet_s_ToggleHash()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65AC);
-		}
-		static ::System::Int32* StaticGet_s_ButonHash()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6300);
 		}
 		static ::System::Int32* StaticGet_s_SliderHash()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65B4);
-		}
-		static ::System::Int32* StaticGet_s_HotTextField()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65B8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6304);
 		}
 		static ::System::Int32* StaticGet_s_BeginGroupHash()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65BC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6308);
+		}
+		static ::System::Int32* StaticGet__scrollTroughSide_k__BackingField()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x630C);
+		}
+		static ::System::Int32* StaticGet_s_ToggleHash()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6310);
+		}
+		static ::System::Int32* StaticGet_s_ScrollControlId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6314);
+		}
+		static ::System::Int32* StaticGet_s_HotTextField()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6318);
+		}
+		static ::System::Int32* StaticGet_s_ButtonGridHash()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x631C);
+		}
+		static ::System::Int32* StaticGet_s_ScrollviewHash()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6320);
 		}
 		static ::System::Int32* StaticGet_s_RepeatButtonHash()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x65C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6324);
+		}
+		static ::System::Int32* StaticGet_s_ButonHash()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6328);
+		}
+		static ::System::DateTime* StaticGet__nextScrollStepTime_k__BackingField()
+		{
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(GUI_TypeDefinitionIndex)->GetStaticField(0x6330);
 		}
 
 		static ::System::Void _cctor()
@@ -264,6 +270,11 @@ namespace UnityEngine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_RELEASEMOUSECONTROL_OFFSET))();
 		}
 
+		static ::System::Void SetNextControlName(::System::String* name)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_SETNEXTCONTROLNAME_OFFSET))(name);
+		}
+
 		static ::System::Void InternalRepaintEditorWindow()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_INTERNALREPAINTEDITORWINDOW_OFFSET))();
@@ -314,14 +325,19 @@ namespace UnityEngine
 			return ((::System::Void(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_SET_MATRIX_OFFSET))(value);
 		}
 
-		static ::System::Void Label(::UnityEngine::Rect position, ::System::String* text, ::UnityEngine::GUIStyle* style)
+		static ::System::Void Label(::UnityEngine::Rect position, ::System::String* text)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::System::String*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_LABEL_OFFSET))(position, text, style);
+			return ((::System::Void(*)(::UnityEngine::Rect, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_LABEL_OFFSET))(position, text);
 		}
 
-		static ::System::Void Label_1(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style)
+		static ::System::Void Label_1(::UnityEngine::Rect position, ::System::String* text, ::UnityEngine::GUIStyle* style)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_LABEL_1_OFFSET))(position, content, style);
+			return ((::System::Void(*)(::UnityEngine::Rect, ::System::String*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_LABEL_1_OFFSET))(position, text, style);
+		}
+
+		static ::System::Void Label_2(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style)
+		{
+			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_LABEL_2_OFFSET))(position, content, style);
 		}
 
 		static ::System::Void DrawTexture(::UnityEngine::Rect position, ::UnityEngine::Texture* image)
@@ -464,6 +480,16 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::UnityEngine::Rect, ::System::Boolean, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_TOGGLE_OFFSET))(position, value, content, style);
 		}
 
+		static ::System::Int32 SelectionGrid(::UnityEngine::Rect position, ::System::Int32 selected, ::Il2CppArray<::UnityEngine::GUIContent*>* contents, ::System::Int32 xCount, ::UnityEngine::GUIStyle* style)
+		{
+			return ((::System::Int32(*)(::UnityEngine::Rect, ::System::Int32, ::Il2CppArray<::UnityEngine::GUIContent*>*, ::System::Int32, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_SELECTIONGRID_OFFSET))(position, selected, contents, xCount, style);
+		}
+
+		static ::System::Int32 CalcTotalHorizSpacing(::System::Int32 xCount, ::UnityEngine::GUIStyle* style, ::UnityEngine::GUIStyle* firstStyle, ::UnityEngine::GUIStyle* midStyle, ::UnityEngine::GUIStyle* lastStyle)
+		{
+			return ((::System::Int32(*)(::System::Int32, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_CALCTOTALHORIZSPACING_OFFSET))(xCount, style, firstStyle, midStyle, lastStyle);
+		}
+
 		static ::System::Boolean DoControl(::UnityEngine::Rect position, ::System::Int32 id, ::System::Boolean on, ::System::Boolean hover, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rect, ::System::Int32, ::System::Boolean, ::System::Boolean, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_DOCONTROL_OFFSET))(position, id, on, hover, content, style);
@@ -482,6 +508,16 @@ namespace UnityEngine
 		static ::System::Boolean DoButton(::UnityEngine::Rect position, ::System::Int32 id, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rect, ::System::Int32, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_DOBUTTON_OFFSET))(position, id, content, style);
+		}
+
+		static ::System::Int32 DoButtonGrid(::UnityEngine::Rect position, ::System::Int32 selected, ::Il2CppArray<::UnityEngine::GUIContent*>* contents, ::Il2CppArray<::System::String*>* controlNames, ::System::Int32 xCount, ::UnityEngine::GUIStyle* style, ::UnityEngine::GUIStyle* firstStyle, ::UnityEngine::GUIStyle* midStyle, ::UnityEngine::GUIStyle* lastStyle, ::UnityEngine::GUI_ToolbarButtonSize buttonSize, ::Il2CppArray<::System::Boolean>* contentsEnabled)
+		{
+			return ((::System::Int32(*)(::UnityEngine::Rect, ::System::Int32, ::Il2CppArray<::UnityEngine::GUIContent*>*, ::Il2CppArray<::System::String*>*, ::System::Int32, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUI_ToolbarButtonSize, ::Il2CppArray<::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_DOBUTTONGRID_OFFSET))(position, selected, contents, controlNames, xCount, style, firstStyle, midStyle, lastStyle, buttonSize, contentsEnabled);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Rect>* CalcMouseRects(::UnityEngine::Rect position, ::Il2CppArray<::UnityEngine::GUIContent*>* contents, ::System::Int32 xCount, ::System::Single elemWidth, ::System::Single elemHeight, ::UnityEngine::GUIStyle* style, ::UnityEngine::GUIStyle* firstStyle, ::UnityEngine::GUIStyle* midStyle, ::UnityEngine::GUIStyle* lastStyle, ::System::Boolean addBorders, ::UnityEngine::GUI_ToolbarButtonSize buttonSize)
+		{
+			return ((::Il2CppArray<::UnityEngine::Rect>*(*)(::UnityEngine::Rect, ::Il2CppArray<::UnityEngine::GUIContent*>*, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::System::Boolean, ::UnityEngine::GUI_ToolbarButtonSize))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_CALCMOUSERECTS_OFFSET))(position, contents, xCount, elemWidth, elemHeight, style, firstStyle, midStyle, lastStyle, addBorders, buttonSize);
 		}
 
 		static ::System::Single HorizontalSlider(::UnityEngine::Rect position, ::System::Single value, ::System::Single leftValue, ::System::Single rightValue, ::UnityEngine::GUIStyle* slider, ::UnityEngine::GUIStyle* thumb)
@@ -514,14 +550,19 @@ namespace UnityEngine
 			return ((::System::Single(*)(::UnityEngine::Rect, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_SCROLLER_OFFSET))(position, value, size, leftValue, rightValue, slider, thumb, leftButton, rightButton, horiz);
 		}
 
-		static ::System::Void BeginGroup(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style)
+		static ::System::Void BeginGroup(::UnityEngine::Rect position)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINGROUP_OFFSET))(position, content, style);
+			return ((::System::Void(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINGROUP_OFFSET))(position);
 		}
 
-		static ::System::Void BeginGroup_1(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::UnityEngine::Vector2 scrollOffset)
+		static ::System::Void BeginGroup_1(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINGROUP_1_OFFSET))(position, content, style, scrollOffset);
+			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINGROUP_1_OFFSET))(position, content, style);
+		}
+
+		static ::System::Void BeginGroup_2(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::UnityEngine::Vector2 scrollOffset)
+		{
+			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::GUIStyle*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINGROUP_2_OFFSET))(position, content, style, scrollOffset);
 		}
 
 		static ::System::Void EndGroup()
@@ -534,24 +575,14 @@ namespace UnityEngine
 			return ((::UnityEngineInternal::GenericStack*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_GET_SCROLLVIEWSTATES_OFFSET))();
 		}
 
-		static ::UnityEngine::Vector2 BeginScrollView(::UnityEngine::Rect position, ::UnityEngine::Vector2 scrollPosition, ::UnityEngine::Rect viewRect)
+		static ::UnityEngine::Vector2 BeginScrollView(::UnityEngine::Rect position, ::UnityEngine::Vector2 scrollPosition, ::UnityEngine::Rect viewRect, ::System::Boolean alwaysShowHorizontal, ::System::Boolean alwaysShowVertical, ::UnityEngine::GUIStyle* horizontalScrollbar, ::UnityEngine::GUIStyle* verticalScrollbar, ::UnityEngine::GUIStyle* background)
 		{
-			return ((::UnityEngine::Vector2(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINSCROLLVIEW_OFFSET))(position, scrollPosition, viewRect);
+			return ((::UnityEngine::Vector2(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Rect, ::System::Boolean, ::System::Boolean, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINSCROLLVIEW_OFFSET))(position, scrollPosition, viewRect, alwaysShowHorizontal, alwaysShowVertical, horizontalScrollbar, verticalScrollbar, background);
 		}
 
-		static ::UnityEngine::Vector2 BeginScrollView_1(::UnityEngine::Rect position, ::UnityEngine::Vector2 scrollPosition, ::UnityEngine::Rect viewRect, ::System::Boolean alwaysShowHorizontal, ::System::Boolean alwaysShowVertical, ::UnityEngine::GUIStyle* horizontalScrollbar, ::UnityEngine::GUIStyle* verticalScrollbar, ::UnityEngine::GUIStyle* background)
+		static ::System::Void EndScrollView(::System::Boolean handleScrollWheel)
 		{
-			return ((::UnityEngine::Vector2(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Rect, ::System::Boolean, ::System::Boolean, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_BEGINSCROLLVIEW_1_OFFSET))(position, scrollPosition, viewRect, alwaysShowHorizontal, alwaysShowVertical, horizontalScrollbar, verticalScrollbar, background);
-		}
-
-		static ::System::Void EndScrollView()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_ENDSCROLLVIEW_OFFSET))();
-		}
-
-		static ::System::Void EndScrollView_1(::System::Boolean handleScrollWheel)
-		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_ENDSCROLLVIEW_1_OFFSET))(handleScrollWheel);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUI_ENDSCROLLVIEW_OFFSET))(handleScrollWheel);
 		}
 
 		static ::System::Void CallWindowDelegate(::UnityEngine::GUI_WindowFunction* func, ::System::Int32 id, ::System::Int32 instanceID, ::UnityEngine::GUISkin* _skin, ::System::Int32 forceRect, ::System::Single width, ::System::Single height, ::UnityEngine::GUIStyle* style)

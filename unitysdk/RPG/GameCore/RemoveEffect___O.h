@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveEffect___O_TypeDefinitionIndex = 21081;
+	inline static constexpr unsigned int RemoveEffect___O_TypeDefinitionIndex = 21797;
 
 	class RemoveEffect___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::MonoEffectFlag>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::MonoEffectFlag>**)Il2CppClass::FromTypeDefinitionIndex(RemoveEffect___O_TypeDefinitionIndex)->GetStaticField(0x31DA0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::MonoEffectFlag>**)Il2CppClass::FromTypeDefinitionIndex(RemoveEffect___O_TypeDefinitionIndex)->GetStaticField(0x3FAB0);
 		}
 	};
 }

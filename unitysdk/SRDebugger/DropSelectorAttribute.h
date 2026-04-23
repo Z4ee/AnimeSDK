@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_DROPSELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18431180)
+#define SRDEBUGGER_DROPSELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6BE10)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int DropSelectorAttribute_TypeDefinitionIndex = 29604;
+	inline static constexpr unsigned int DropSelectorAttribute_TypeDefinitionIndex = 35324;
 
 	class DropSelectorAttribute : public ::System::Attribute
 	{

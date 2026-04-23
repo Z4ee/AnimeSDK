@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VCameraChangeDataState_TypeDefinitionIndex = 56843;
+	inline static constexpr unsigned int VCameraChangeDataState_TypeDefinitionIndex = 64089;
 
 	enum class VCameraChangeDataState : ::System::Int32
 	{

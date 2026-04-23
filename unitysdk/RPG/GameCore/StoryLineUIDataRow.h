@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYLINEUIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17780D60)
-#define RPG_GAMECORE_STORYLINEUIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17781540)
+#define RPG_GAMECORE_STORYLINEUIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EA6B40)
+#define RPG_GAMECORE_STORYLINEUIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA7320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryLineUIDataRow_TypeDefinitionIndex = 13923;
+	inline static constexpr unsigned int StoryLineUIDataRow_TypeDefinitionIndex = 14398;
 
 	class StoryLineUIDataRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
-		::System::String* MediumImgPath; // 0x18
+		::System::String* Color; // 0x18
 		::System::String* ChronicleIconPath; // 0x20
 		::System::String* IconPath; // 0x28
-		::System::String* Color; // 0x30
-		::System::String* LargeImgPath; // 0x38
-		::RPG::GameCore::GenderType Gender; // 0x40
-		::System::UInt32 StoryLineID; // 0x44
+		::System::String* LargeImgPath; // 0x30
+		::System::String* MediumImgPath; // 0x38
+		::System::UInt32 StoryLineID; // 0x40
+		::RPG::GameCore::GenderType Gender; // 0x44
 		::RPG::Client::TextID Name; // 0x48
 
 		::System::Void _ctor()

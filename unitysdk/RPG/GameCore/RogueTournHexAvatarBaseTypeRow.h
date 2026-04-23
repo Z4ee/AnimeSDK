@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17669660)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17669D30)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D76E60)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D77530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 13767;
+	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 14238;
 
 	class RogueTournHexAvatarBaseTypeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* AvatarType; // 0x10
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* AvatarDamageType; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* AvatarDamageType; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* AvatarType; // 0x18
 		::System::UInt32 MiracleID; // 0x20
 
 		::System::Void _ctor()

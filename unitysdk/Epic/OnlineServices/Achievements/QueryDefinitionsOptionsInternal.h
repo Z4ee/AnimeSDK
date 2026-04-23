@@ -17,7 +17,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int QueryDefinitionsOptionsInternal_TypeDefinitionIndex = 36812;
+	inline static constexpr unsigned int QueryDefinitionsOptionsInternal_TypeDefinitionIndex = 42638;
 
 	struct alignas(8) QueryDefinitionsOptionsInternal
 	{

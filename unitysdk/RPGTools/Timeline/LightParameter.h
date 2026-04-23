@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_LIGHTPARAMETER_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x89CB0)
+#define RPGTOOLS_TIMELINE_LIGHTPARAMETER_GET_COLOR_OFFSET UNITYSDK_OFFSET(0xE3C60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LightParameter_TypeDefinitionIndex = 39252;
+	inline static constexpr unsigned int LightParameter_TypeDefinitionIndex = 45161;
 
 	struct alignas(4) LightParameter
 	{

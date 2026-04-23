@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityTelevisionData; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9017D80)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__DISPLAYCLASS25_0__GETTELEVISIONDATABYMAPPINGINFOID_B__0_OFFSET UNITYSDK_OFFSET(0x9019F10)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C75550)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__DISPLAYCLASS25_0__GETTELEVISIONDATABYMAPPINGINFOID_B__0_OFFSET UNITYSDK_OFFSET(0x9C770E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionModule___c__DisplayClass25_0_TypeDefinitionIndex = 50336;
+	inline static constexpr unsigned int ActivityTelevisionModule___c__DisplayClass25_0_TypeDefinitionIndex = 57195;
 
 	class ActivityTelevisionModule___c__DisplayClass25_0 : public ::System::Object
 	{

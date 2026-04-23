@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierBehaviorFlag_TypeDefinitionIndex = 16078;
+	inline static constexpr unsigned int AdventureModifierBehaviorFlag_TypeDefinitionIndex = 16609;
 
 	enum class AdventureModifierBehaviorFlag : ::System::Int32
 	{
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		LoopHit = 18,
 		NpcChase = 19,
 		NoMove = 20,
+		NonAggressive = 21,
 	};
 }

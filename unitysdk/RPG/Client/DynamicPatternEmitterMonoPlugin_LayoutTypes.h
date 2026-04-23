@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicPatternEmitterMonoPlugin_LayoutTypes_TypeDefinitionIndex = 58071;
+	inline static constexpr unsigned int DynamicPatternEmitterMonoPlugin_LayoutTypes_TypeDefinitionIndex = 65358;
 
 	enum class DynamicPatternEmitterMonoPlugin_LayoutTypes : ::System::Int32
 	{

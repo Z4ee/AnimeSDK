@@ -8,11 +8,11 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define HIPPLENBUILDERMINIGAMECONTROLLER_METHOD_5_D16D471AE6EB753A_OFFSET UNITYSDK_OFFSET(0x10C243E0)
-#define HIPPLENBUILDERMINIGAMECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x10C23320)
-#define HIPPLENBUILDERMINIGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x10C24470)
+#define HIPPLENBUILDERMINIGAMECONTROLLER_METHOD_5_D16D471AE6EB753A_OFFSET UNITYSDK_OFFSET(0x11E06BE0)
+#define HIPPLENBUILDERMINIGAMECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x11E05B20)
+#define HIPPLENBUILDERMINIGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x11E06C70)
 
-inline static constexpr unsigned int HipplenBuilderMiniGameController_TypeDefinitionIndex = 38110;
+inline static constexpr unsigned int HipplenBuilderMiniGameController_TypeDefinitionIndex = 43994;
 
 class HipplenBuilderMiniGameController : public ::UnityEngine::MonoBehaviour
 {

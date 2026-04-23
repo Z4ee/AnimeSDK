@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ExpandableObjectConverter_TypeDefinitionIndex = 2584;
+	inline static constexpr unsigned int ExpandableObjectConverter_TypeDefinitionIndex = 2585;
 
 	class ExpandableObjectConverter : public ::System::ComponentModel::TypeConverter
 	{

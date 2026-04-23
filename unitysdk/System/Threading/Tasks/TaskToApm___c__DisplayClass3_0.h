@@ -5,12 +5,12 @@
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 
-#define SYSTEM_THREADING_TASKS_TASKTOAPM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1624B700)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM___C__DISPLAYCLASS3_0__INVOKECALLBACKWHENTASKCOMPLETES_B__0_OFFSET UNITYSDK_OFFSET(0x1624B710)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17878060)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM___C__DISPLAYCLASS3_0__INVOKECALLBACKWHENTASKCOMPLETES_B__0_OFFSET UNITYSDK_OFFSET(0x17878070)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskToApm___c__DisplayClass3_0_TypeDefinitionIndex = 929;
+	inline static constexpr unsigned int TaskToApm___c__DisplayClass3_0_TypeDefinitionIndex = 931;
 
 	class TaskToApm___c__DisplayClass3_0 : public ::System::Object
 	{

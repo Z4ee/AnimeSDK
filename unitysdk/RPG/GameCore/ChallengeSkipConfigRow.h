@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGESKIPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1705E680)
-#define RPG_GAMECORE_CHALLENGESKIPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1705E780)
+#define RPG_GAMECORE_CHALLENGESKIPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187C3480)
+#define RPG_GAMECORE_CHALLENGESKIPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187C3580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeSkipConfigRow_TypeDefinitionIndex = 11800;
+	inline static constexpr unsigned int ChallengeSkipConfigRow_TypeDefinitionIndex = 12227;
 
 	class ChallengeSkipConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MaxSkipLevel; // 0x10
-		::RPG::GameCore::ChallengeGroupType ChallengeGroupType; // 0x14
+		::RPG::GameCore::ChallengeGroupType ChallengeGroupType; // 0x10
+		::System::UInt32 MaxSkipLevel; // 0x14
 
 		::System::Void _ctor()
 		{

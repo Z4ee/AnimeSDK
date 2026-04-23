@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_SendMouseEvents_TypeDefinitionIndex = 4407;
+	inline static constexpr unsigned int PreUpdate_SendMouseEvents_TypeDefinitionIndex = 4409;
 
 	struct alignas(1) PreUpdate_SendMouseEvents
 	{

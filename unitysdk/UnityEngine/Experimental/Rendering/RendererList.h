@@ -8,24 +8,24 @@
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x188C3E70)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x29C50)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x791D0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x188C57A0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1A2FDE20)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2A500)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xD87E0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2FF750)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 27731;
+	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 33355;
 
 	struct alignas(8) RendererList
 	{
 		static ::UnityEngine::Experimental::Rendering::RendererList* StaticGet_nullRendererList()
 		{
-			return (::UnityEngine::Experimental::Rendering::RendererList*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x7FB0);
+			return (::UnityEngine::Experimental::Rendering::RendererList*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x11030);
 		}
 		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
 		{
-			return (::UnityEngine::Rendering::ShaderTagId*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x81E0);
+			return (::UnityEngine::Rendering::ShaderTagId*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x11260);
 		}
 		::System::Boolean _isValid_k__BackingField; // 0x10
 		::UnityEngine::Rendering::CullingResults cullingResult; // 0x18

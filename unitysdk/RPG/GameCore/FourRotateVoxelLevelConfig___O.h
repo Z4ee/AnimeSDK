@@ -9,22 +9,22 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelConfig___O_TypeDefinitionIndex = 15343;
+	inline static constexpr unsigned int FourRotateVoxelLevelConfig___O_TypeDefinitionIndex = 15862;
 
 	class FourRotateVoxelLevelConfig___O : public ::System::Object
 	{
 	public:
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelAnimalType>** StaticGet__2___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelAnimalType>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelLevelConfig___O_TypeDefinitionIndex)->GetStaticField(0x33350);
+		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelGameModeType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelLevelConfig___O_TypeDefinitionIndex)->GetStaticField(0x2FDB0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelLevelConfig___O_TypeDefinitionIndex)->GetStaticField(0x33358);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelEnvType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelEnvType>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelLevelConfig___O_TypeDefinitionIndex)->GetStaticField(0x2FDB8);
-		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelAnimalType>** StaticGet__2___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelAnimalType>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelLevelConfig___O_TypeDefinitionIndex)->GetStaticField(0x2FDC0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::FourRotateVoxelEnvType>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelLevelConfig___O_TypeDefinitionIndex)->GetStaticField(0x33360);
 		}
 	};
 }

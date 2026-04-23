@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimEventActionService_1_TypeDefinitionIndex = 33622;
+	inline static constexpr unsigned int IFiveDimEventActionService_1_TypeDefinitionIndex = 39423;
 
 	template <typename T>
 	class IFiveDimEventActionService_1

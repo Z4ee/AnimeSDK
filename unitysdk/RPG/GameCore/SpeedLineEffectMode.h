@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpeedLineEffectMode_TypeDefinitionIndex = 16711;
+	inline static constexpr unsigned int SpeedLineEffectMode_TypeDefinitionIndex = 17305;
 
 	enum class SpeedLineEffectMode : ::System::Int32
 	{

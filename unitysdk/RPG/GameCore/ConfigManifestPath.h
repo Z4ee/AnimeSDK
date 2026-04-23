@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGMANIFESTPATH_METHOD_2_457422A7D4EC95F3_OFFSET UNITYSDK_OFFSET(0x1712CFF0)
-#define RPG_GAMECORE_CONFIGMANIFESTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1712D5A0)
+#define RPG_GAMECORE_CONFIGMANIFESTPATH_METHOD_2_457422A7D4EC95F3_OFFSET UNITYSDK_OFFSET(0x18833EB0)
+#define RPG_GAMECORE_CONFIGMANIFESTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x18834580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigManifestPath_TypeDefinitionIndex = 15695;
+	inline static constexpr unsigned int ConfigManifestPath_TypeDefinitionIndex = 16221;
 
 	class ConfigManifestPath : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* AdventureAbilityConfig; // 0x10
 		::Il2CppArray<::System::String*>* TurnBasedAbilityConfig; // 0x18
-		::Il2CppArray<::System::String*>* ChessAbilityConfig; // 0x20
+		::Il2CppArray<::System::String*>* RtAbilityConfig; // 0x20
 		::Il2CppArray<::System::String*>* BattleLineupConfig; // 0x28
 		::Il2CppArray<::System::String*>* BattleLineupAvatarConfig; // 0x30
 		::Il2CppArray<::System::String*>* BattleLineupMazeBuffConfig; // 0x38
@@ -25,10 +25,13 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* BattleLineupCEPresetConfig; // 0x48
 		::Il2CppArray<::System::String*>* GlobalModifierConfig; // 0x50
 		::Il2CppArray<::System::String*>* AdventureModifierConfig; // 0x58
-		::Il2CppArray<::System::String*>* ComplexSkillAIGlobalGroupConfig; // 0x60
-		::Il2CppArray<::System::String*>* GlobalTaskTemplate; // 0x68
-		::Il2CppArray<::System::String*>* CommonSkillPoolConfig; // 0x70
-		::Il2CppArray<::System::String*>* GlobalFormationAsset; // 0x78
+		::Il2CppArray<::System::String*>* GlobalRtModifierConfig; // 0x60
+		::Il2CppArray<::System::String*>* ComplexSkillAIGlobalGroupConfig; // 0x68
+		::Il2CppArray<::System::String*>* GlobalTaskTemplate; // 0x70
+		::Il2CppArray<::System::String*>* CommonSkillPoolConfig; // 0x78
+		::Il2CppArray<::System::String*>* GlobalFormationAsset; // 0x80
+		::Il2CppArray<::System::String*>* TargetAliasConfig; // 0x88
+		::Il2CppArray<::System::String*>* TargetOperationConfig; // 0x90
 
 		::System::Void _ctor()
 		{

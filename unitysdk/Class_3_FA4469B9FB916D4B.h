@@ -7,18 +7,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_FA4469B9FB916D4B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11978030)
-#define CLASS_3_FA4469B9FB916D4B__CCTOR_OFFSET UNITYSDK_OFFSET(0x11978EC0)
-#define CLASS_3_FA4469B9FB916D4B__CTOR_OFFSET UNITYSDK_OFFSET(0x11978000)
+#define CLASS_3_FA4469B9FB916D4B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123C68C0)
+#define CLASS_3_FA4469B9FB916D4B__CCTOR_OFFSET UNITYSDK_OFFSET(0x123C7740)
+#define CLASS_3_FA4469B9FB916D4B__CTOR_OFFSET UNITYSDK_OFFSET(0x123C6890)
 
-inline static constexpr unsigned int Class_3_FA4469B9FB916D4B_TypeDefinitionIndex = 44793;
+inline static constexpr unsigned int Class_3_FA4469B9FB916D4B_TypeDefinitionIndex = 51540;
 
 class Class_3_FA4469B9FB916D4B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAttachmentScale*>
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>** StaticGet_Field_3_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_FA4469B9FB916D4B_TypeDefinitionIndex)->GetStaticField(0x48600);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_FA4469B9FB916D4B_TypeDefinitionIndex)->GetStaticField(0x6B2B0);
 	}
 	::System::Boolean Field_3_0; // 0x28
 

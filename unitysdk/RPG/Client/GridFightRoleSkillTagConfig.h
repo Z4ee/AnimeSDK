@@ -6,12 +6,12 @@
 
 namespace RPG::GameCore { class GridFightRoleTagInfoConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x989DF60)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x989DF20)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xA57FB10)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLTAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA57FAD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleSkillTagConfig_TypeDefinitionIndex = 52876;
+	inline static constexpr unsigned int GridFightRoleSkillTagConfig_TypeDefinitionIndex = 59952;
 
 	class GridFightRoleSkillTagConfig : public ::System::Object
 	{

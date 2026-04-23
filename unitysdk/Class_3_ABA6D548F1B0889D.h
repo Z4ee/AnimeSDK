@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsTriggerBattleAttacker; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_ABA6D548F1B0889D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11522E00)
-#define CLASS_3_ABA6D548F1B0889D__CTOR_OFFSET UNITYSDK_OFFSET(0x11522DD0)
+#define CLASS_3_ABA6D548F1B0889D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12987900)
+#define CLASS_3_ABA6D548F1B0889D__CTOR_OFFSET UNITYSDK_OFFSET(0x129878D0)
 
-inline static constexpr unsigned int Class_3_ABA6D548F1B0889D_TypeDefinitionIndex = 43767;
+inline static constexpr unsigned int Class_3_ABA6D548F1B0889D_TypeDefinitionIndex = 50466;
 
 class Class_3_ABA6D548F1B0889D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsTriggerBattleAttacker*>
 {

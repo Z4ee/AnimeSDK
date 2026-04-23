@@ -5,7 +5,7 @@
 class Class_1_AD0E6B89B0CA51A1;
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_AD0E6B89B0CA51A1___c__DisplayClass6_0_1_TypeDefinitionIndex = 39958;
+inline static constexpr unsigned int Class_1_AD0E6B89B0CA51A1___c__DisplayClass6_0_1_TypeDefinitionIndex = 45867;
 
 template <typename T>
 class Class_1_AD0E6B89B0CA51A1___c__DisplayClass6_0_1 : public ::System::Object

@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_A528D96665AC832B;
+class Class_1_16697A2A9D46BB5A;
+namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_178_TypeDefinitionIndex = 32486;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_178_TypeDefinitionIndex = 38189;
 
 class Class_0_16E4307DCC419505_178
 {

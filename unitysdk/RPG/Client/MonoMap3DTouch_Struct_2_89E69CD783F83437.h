@@ -7,11 +7,11 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_MONOMAP3DTOUCH_STRUCT_2_89E69CD783F83437_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x80F40)
+#define RPG_CLIENT_MONOMAP3DTOUCH_STRUCT_2_89E69CD783F83437_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDA070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMap3DTouch_Struct_2_89E69CD783F83437_TypeDefinitionIndex = 56404;
+	inline static constexpr unsigned int MonoMap3DTouch_Struct_2_89E69CD783F83437_TypeDefinitionIndex = 63648;
 
 	struct alignas(8) MonoMap3DTouch_Struct_2_89E69CD783F83437
 	{

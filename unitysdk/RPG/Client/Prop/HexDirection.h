@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HexDirection_TypeDefinitionIndex = 64061;
+	inline static constexpr unsigned int HexDirection_TypeDefinitionIndex = 72108;
 
 	enum class HexDirection : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Immutable { template <typename T1, typename T2> c
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableDictionary_2___c_TypeDefinitionIndex = 8943;
+	inline static constexpr unsigned int ImmutableDictionary_2___c_TypeDefinitionIndex = 9140;
 
 	template <typename TKey, typename TValue>
 	class ImmutableDictionary_2___c : public ::System::Object

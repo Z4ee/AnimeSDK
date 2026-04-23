@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_UI_BASEVERTEXEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFBAA0)
+#define UNITYENGINE_UI_BASEVERTEXEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5370D0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int BaseVertexEffect_TypeDefinitionIndex = 5754;
+	inline static constexpr unsigned int BaseVertexEffect_TypeDefinitionIndex = 5766;
 
 	class BaseVertexEffect : public ::System::Object
 	{

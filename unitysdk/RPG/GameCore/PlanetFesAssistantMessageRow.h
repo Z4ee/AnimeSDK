@@ -6,25 +6,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESASSISTANTMESSAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B4A50)
-#define RPG_GAMECORE_PLANETFESASSISTANTMESSAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174B4DD0)
+#define RPG_GAMECORE_PLANETFESASSISTANTMESSAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C00020)
+#define RPG_GAMECORE_PLANETFESASSISTANTMESSAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C003A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAssistantMessageRow_TypeDefinitionIndex = 11200;
+	inline static constexpr unsigned int PlanetFesAssistantMessageRow_TypeDefinitionIndex = 11603;
 
 	class PlanetFesAssistantMessageRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypePara; // 0x10
-		::System::UInt32 UnlockPlanetFesLevel; // 0x18
+		::RPG::GameCore::PlanetFesAssistantMessageType AssistantMessageType; // 0x18
 		::System::UInt32 Priority; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::RPG::Client::TextID Description; // 0x28
-		::System::Boolean IsUseGLobalCD; // 0x38
-		::RPG::GameCore::PlanetFesAssistantMessageType AssistantMessageType; // 0x3C
+		::System::UInt32 Interval; // 0x20
+		::System::Boolean IsUseGLobalCD; // 0x24
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 UnlockPlanetFesLevel; // 0x2C
+		::RPG::Client::TextID Description; // 0x30
 		::System::UInt32 Delay; // 0x40
-		::System::UInt32 Interval; // 0x44
 
 		::System::Void _ctor()
 		{

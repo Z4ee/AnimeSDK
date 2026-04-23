@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapNpcType_TypeDefinitionIndex = 50466;
+	inline static constexpr unsigned int MapNpcType_TypeDefinitionIndex = 57325;
 
 	enum class MapNpcType : ::System::Int32
 	{

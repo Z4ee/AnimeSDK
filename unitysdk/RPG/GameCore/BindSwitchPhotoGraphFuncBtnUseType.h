@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindSwitchPhotoGraphFuncBtnUseType_TypeDefinitionIndex = 19798;
+	inline static constexpr unsigned int BindSwitchPhotoGraphFuncBtnUseType_TypeDefinitionIndex = 20479;
 
 	enum class BindSwitchPhotoGraphFuncBtnUseType : ::System::Int32
 	{

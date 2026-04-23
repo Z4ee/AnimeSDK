@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_54254A0D4D720717_2.h"
+#include "unitysdk/Class_1_54254A0D4D720717_4.h"
 
 class Class_2_49CAB3DE74280C58;
 namespace RPG::GameCore { class ChimeraDuelEntityComparerBase; }
 
-#define CLASS_2_BCD6FC733B25F13E_COMPARE_OFFSET UNITYSDK_OFFSET(0x114299B0)
-#define CLASS_2_BCD6FC733B25F13E_METHOD_2_21C5EB4E969FD82D_OFFSET UNITYSDK_OFFSET(0x11429A20)
-#define CLASS_2_BCD6FC733B25F13E__CTOR_OFFSET UNITYSDK_OFFSET(0x11429990)
+#define CLASS_2_BCD6FC733B25F13E_COMPARE_OFFSET UNITYSDK_OFFSET(0xE657E00)
+#define CLASS_2_BCD6FC733B25F13E_METHOD_2_21C5EB4E969FD82D_OFFSET UNITYSDK_OFFSET(0xE657E70)
+#define CLASS_2_BCD6FC733B25F13E__CTOR_OFFSET UNITYSDK_OFFSET(0xE657DE0)
 
-inline static constexpr unsigned int Class_2_BCD6FC733B25F13E_TypeDefinitionIndex = 62982;
+inline static constexpr unsigned int Class_2_BCD6FC733B25F13E_TypeDefinitionIndex = 71022;
 
-class Class_2_BCD6FC733B25F13E : public ::Class_1_54254A0D4D720717_2
+class Class_2_BCD6FC733B25F13E : public ::Class_1_54254A0D4D720717_4
 {
 public:
 	::System::Void _ctor(::RPG::GameCore::ChimeraDuelEntityComparerBase* a1)

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CURRENCYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171400C0)
-#define RPG_GAMECORE_CURRENCYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17140650)
+#define RPG_GAMECORE_CURRENCYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188471F0)
+#define RPG_GAMECORE_CURRENCYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18847780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CurrencyDisplayRow_TypeDefinitionIndex = 13374;
+	inline static constexpr unsigned int CurrencyDisplayRow_TypeDefinitionIndex = 13852;
 
 	class CurrencyDisplayRow : public ::System::Object
 	{

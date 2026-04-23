@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExVoicePool_VoicePoolId_TypeDefinitionIndex = 31096;
+	inline static constexpr unsigned int CriAtomExVoicePool_VoicePoolId_TypeDefinitionIndex = 36816;
 
 	enum class CriAtomExVoicePool_VoicePoolId : ::System::Int32
 	{

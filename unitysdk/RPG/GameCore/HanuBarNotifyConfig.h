@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HANUBARNOTIFYCONFIG_METHOD_2_E2C4C08A95F007AE_OFFSET UNITYSDK_OFFSET(0x17294900)
-#define RPG_GAMECORE_HANUBARNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17294A30)
+#define RPG_GAMECORE_HANUBARNOTIFYCONFIG_METHOD_2_E2C4C08A95F007AE_OFFSET UNITYSDK_OFFSET(0x189E9500)
+#define RPG_GAMECORE_HANUBARNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189E9630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HanuBarNotifyConfig_TypeDefinitionIndex = 15537;
+	inline static constexpr unsigned int HanuBarNotifyConfig_TypeDefinitionIndex = 16057;
 
 	class HanuBarNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

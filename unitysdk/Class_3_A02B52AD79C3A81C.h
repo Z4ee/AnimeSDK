@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockEntityTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A02B52AD79C3A81C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9EE85D0)
-#define CLASS_3_A02B52AD79C3A81C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE85A0)
+#define CLASS_3_A02B52AD79C3A81C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9320430)
+#define CLASS_3_A02B52AD79C3A81C__CTOR_OFFSET UNITYSDK_OFFSET(0x9320400)
 
-inline static constexpr unsigned int Class_3_A02B52AD79C3A81C_TypeDefinitionIndex = 46946;
+inline static constexpr unsigned int Class_3_A02B52AD79C3A81C_TypeDefinitionIndex = 53678;
 
 class Class_3_A02B52AD79C3A81C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockEntityTransform*>
 {

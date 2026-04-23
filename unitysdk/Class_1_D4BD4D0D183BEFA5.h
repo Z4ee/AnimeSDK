@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_D4BD4D0D183BEFA5_METHOD_1_BA9374DE24D85E63_1_OFFSET UNITYSDK_OFFSET(0x8900D60)
-#define CLASS_1_D4BD4D0D183BEFA5_METHOD_1_BA9374DE24D85E63_OFFSET UNITYSDK_OFFSET(0x8900C30)
-#define CLASS_1_D4BD4D0D183BEFA5__CCTOR_OFFSET UNITYSDK_OFFSET(0x8900E90)
+#define CLASS_1_D4BD4D0D183BEFA5_METHOD_1_BA9374DE24D85E63_1_OFFSET UNITYSDK_OFFSET(0x962F8A0)
+#define CLASS_1_D4BD4D0D183BEFA5_METHOD_1_BA9374DE24D85E63_OFFSET UNITYSDK_OFFSET(0x962F770)
+#define CLASS_1_D4BD4D0D183BEFA5__CCTOR_OFFSET UNITYSDK_OFFSET(0x962F9D0)
 
-inline static constexpr unsigned int Class_1_D4BD4D0D183BEFA5_TypeDefinitionIndex = 41881;
+inline static constexpr unsigned int Class_1_D4BD4D0D183BEFA5_TypeDefinitionIndex = 47856;
 
 class Class_1_D4BD4D0D183BEFA5 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::Int64>** StaticGet_Field_1_1()
-	{
-		return (::Il2CppArray<::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4BD4D0D183BEFA5_TypeDefinitionIndex)->GetStaticField(0x48FC0);
-	}
 	static ::Il2CppArray<::System::Int64>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4BD4D0D183BEFA5_TypeDefinitionIndex)->GetStaticField(0x48FC8);
+		return (::Il2CppArray<::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4BD4D0D183BEFA5_TypeDefinitionIndex)->GetStaticField(0x648D0);
+	}
+	static ::Il2CppArray<::System::Int64>** StaticGet_Field_1_1()
+	{
+		return (::Il2CppArray<::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4BD4D0D183BEFA5_TypeDefinitionIndex)->GetStaticField(0x648D8);
 	}
 
 	static ::System::Void _cctor()

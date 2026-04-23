@@ -5,23 +5,23 @@
 
 namespace UnityEngine { class Transform; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16566A70)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17B917D0)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGPolylineSplitter_Config_TypeDefinitionIndex = 28240;
+	inline static constexpr unsigned int BGPolylineSplitter_Config_TypeDefinitionIndex = 33864;
 
 	class BGPolylineSplitter_Config : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Transform; // 0x10
-		::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_SplitModeEnum SplitMode; // 0x18
-		::System::Boolean UseLocal; // 0x1C
-		::System::Boolean DoNotOptimizeStraightLines; // 0x1D
+		::System::Boolean DoNotOptimizeStraightLines; // 0x18
+		::System::Boolean UseLocal; // 0x19
+		::System::Single DistanceMin; // 0x1C
 		::System::Int32 PartsTotal; // 0x20
-		::System::Single DistanceMax; // 0x24
-		::System::Int32 PartsPerSection; // 0x28
-		::System::Single DistanceMin; // 0x2C
+		::System::Int32 PartsPerSection; // 0x24
+		::System::Single DistanceMax; // 0x28
+		::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_SplitModeEnum SplitMode; // 0x2C
 
 		::System::Void _ctor()
 		{

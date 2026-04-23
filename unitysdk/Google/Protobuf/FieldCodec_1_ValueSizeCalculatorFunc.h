@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_ValueSizeCalculatorFunc_TypeDefinitionIndex = 6176;
+	inline static constexpr unsigned int FieldCodec_1_ValueSizeCalculatorFunc_TypeDefinitionIndex = 6186;
 
 	template <typename T>
 	class FieldCodec_1_ValueSizeCalculatorFunc : public ::System::MulticastDelegate

@@ -5,11 +5,11 @@
 namespace Entitas { class ContextInfo; }
 namespace Entitas { class IContext; }
 
-#define ENTITAS_CONTEXTINFOEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11A82780)
+#define ENTITAS_CONTEXTINFOEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12C51540)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextInfoException_TypeDefinitionIndex = 9681;
+	inline static constexpr unsigned int ContextInfoException_TypeDefinitionIndex = 9814;
 
 	class ContextInfoException : public ::Entitas::EntitasException
 	{

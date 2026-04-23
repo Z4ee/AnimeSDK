@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeGroupStatisticsData_ChallengeGroupStatisticLineup_TypeDefinitionIndex = 51219;
+	inline static constexpr unsigned int ChallengeGroupStatisticsData_ChallengeGroupStatisticLineup_TypeDefinitionIndex = 58143;
 
 	struct alignas(8) ChallengeGroupStatisticsData_ChallengeGroupStatisticLineup
 	{

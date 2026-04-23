@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17088640)
-#define RPG_GAMECORE_CHENLINGPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17088890)
+#define RPG_GAMECORE_CHENLINGPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187ED750)
+#define RPG_GAMECORE_CHENLINGPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187ED9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingPropertyRow_TypeDefinitionIndex = 10355;
+	inline static constexpr unsigned int ChenLingPropertyRow_TypeDefinitionIndex = 10580;
 
 	class ChenLingPropertyRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::Boolean IsShow; // 0x28
-		::System::Int32 Property; // 0x2C
+		::System::Int32 Property; // 0x18
+		::System::Boolean IsShow; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

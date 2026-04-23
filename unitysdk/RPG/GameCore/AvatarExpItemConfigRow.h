@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F9F750)
-#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F9FC90)
+#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186C29E0)
+#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186C2F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarExpItemConfigRow_TypeDefinitionIndex = 11640;
+	inline static constexpr unsigned int AvatarExpItemConfigRow_TypeDefinitionIndex = 12050;
 
 	class AvatarExpItemConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ItemID; // 0x10
-		::System::UInt32 Exp; // 0x14
+		::System::UInt32 Exp; // 0x10
+		::System::UInt32 ItemID; // 0x14
 
 		::System::Void _ctor()
 		{

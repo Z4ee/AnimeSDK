@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class ItemConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_13_TypeDefinitionIndex = 11620;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_13_TypeDefinitionIndex = 12030;
 
 class Class_0_16E4307DCC419505_13
 {

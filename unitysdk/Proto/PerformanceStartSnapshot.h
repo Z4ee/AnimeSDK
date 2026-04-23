@@ -6,6 +6,7 @@ namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2_Codec; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
@@ -20,90 +21,95 @@ namespace Proto { class PlayerSnapshot; }
 namespace Proto { class SwitchHandSnapshot; }
 namespace System { class String; }
 
-#define PROTO_PERFORMANCESTARTSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x18290A20)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1828F720)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1828FA50)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1828F9F0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1828FE20)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_CLIENTGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1828F900)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_CLIENTLEGACYGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1828F920)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x1828F830)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_DIALOG_OFFSET UNITYSDK_OFFSET(0x1828F990)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x1828F7F0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1828F850)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_ERAFLIPPER_OFFSET UNITYSDK_OFFSET(0x1828F8D0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_FLOORCUSTOMVALUELIST_OFFSET UNITYSDK_OFFSET(0x1828F940)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1828F7D0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_FLOORSAVEDVALUELIST_OFFSET UNITYSDK_OFFSET(0x1828F930)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_MAPROTATION_OFFSET UNITYSDK_OFFSET(0x1828F950)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_MISSION_OFFSET UNITYSDK_OFFSET(0x1828F8B0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_OWNERGROUPID_OFFSET UNITYSDK_OFFSET(0x1828F9B0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1828F770)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0x1828F790)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PLANEID_OFFSET UNITYSDK_OFFSET(0x1828F7B0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1828F890)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_SERVERGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1828F8F0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_SERVERLEGACYGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1828F910)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x1828F810)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_SWITCHHAND_OFFSET UNITYSDK_OFFSET(0x1828F9D0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1828F870)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_WORLDID_OFFSET UNITYSDK_OFFSET(0x1828F970)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x182919A0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x18291260)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1828F130)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x1828F840)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_DIALOG_OFFSET UNITYSDK_OFFSET(0x1828F9A0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x1828F800)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1828F860)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_ERAFLIPPER_OFFSET UNITYSDK_OFFSET(0x1828F8E0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1828F7E0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_MAPROTATION_OFFSET UNITYSDK_OFFSET(0x1828F960)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_MISSION_OFFSET UNITYSDK_OFFSET(0x1828F8C0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_OWNERGROUPID_OFFSET UNITYSDK_OFFSET(0x1828F9C0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1828F780)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0x1828F7A0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0x1828F7C0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1828F8A0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x1828F820)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_SWITCHHAND_OFFSET UNITYSDK_OFFSET(0x1828F9E0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1828F880)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_WORLDID_OFFSET UNITYSDK_OFFSET(0x1828F980)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x182904F0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x18290550)
-#define PROTO_PERFORMANCESTARTSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18291FF0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1828F240)
-#define PROTO_PERFORMANCESTARTSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1828F140)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1934EB70)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1934DA00)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1934DD30)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1934DCD0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1934E100)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_CLIENTGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1934DBE0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_CLIENTLEGACYGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1934DC00)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x1934DB10)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_DIALOG_OFFSET UNITYSDK_OFFSET(0x1934DC70)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x1934DAD0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1934DB30)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_ERAFLIPPER_OFFSET UNITYSDK_OFFSET(0x1934DBB0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_FLOORCUSTOMVALUELIST_OFFSET UNITYSDK_OFFSET(0x1934DC20)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1934DAB0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_FLOORSAVEDVALUELIST_OFFSET UNITYSDK_OFFSET(0x1934DC10)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_MAPROTATION_OFFSET UNITYSDK_OFFSET(0x1934DC30)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_MISSION_OFFSET UNITYSDK_OFFSET(0x1934DB90)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_OWNERGROUPID_OFFSET UNITYSDK_OFFSET(0x1934DC90)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1934D4E0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1934DA50)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0x1934DA70)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PLANEID_OFFSET UNITYSDK_OFFSET(0x1934DA90)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1934DB70)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_SERVERGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1934DBD0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_SERVERLEGACYGROUPLIST_OFFSET UNITYSDK_OFFSET(0x1934DBF0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x1934DAF0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_SWITCHHAND_OFFSET UNITYSDK_OFFSET(0x1934DCB0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1934DB50)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_GET_WORLDID_OFFSET UNITYSDK_OFFSET(0x1934DC50)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1934F980)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1934F3B0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1934D540)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x1934DB20)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_DIALOG_OFFSET UNITYSDK_OFFSET(0x1934DC80)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x1934DAE0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1934DB40)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_ERAFLIPPER_OFFSET UNITYSDK_OFFSET(0x1934DBC0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1934DAC0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_MAPROTATION_OFFSET UNITYSDK_OFFSET(0x1934DC40)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_MISSION_OFFSET UNITYSDK_OFFSET(0x1934DBA0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_OWNERGROUPID_OFFSET UNITYSDK_OFFSET(0x1934DCA0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1934DA60)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0x1934DA80)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0x1934DAA0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1934DB80)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x1934DB00)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_SWITCHHAND_OFFSET UNITYSDK_OFFSET(0x1934DCC0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1934DB60)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_SET_WORLDID_OFFSET UNITYSDK_OFFSET(0x1934DC60)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1934E640)
+#define PROTO_PERFORMANCESTARTSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1934E6A0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1934FFD0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1934D650)
+#define PROTO_PERFORMANCESTARTSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1934D550)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PerformanceStartSnapshot_TypeDefinitionIndex = 23234;
+	inline static constexpr unsigned int PerformanceStartSnapshot_TypeDefinitionIndex = 24561;
 
 	class PerformanceStartSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_clientGroupList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D980);
-		}
-		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::Proto::FloorCustomValueSnapshot*>** StaticGet__map_floorCustomValueList_codec()
-		{
-			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::Proto::FloorCustomValueSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D988);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_clientLegacyGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D990);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x62380);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_serverGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D998);
-		}
-		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>** StaticGet__map_floorSavedValueList_codec()
-		{
-			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D9A0);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x62388);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_serverLegacyGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x1D9A8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x62390);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x62398);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_clientGroupList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x623A0);
+		}
+		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::Proto::FloorCustomValueSnapshot*>** StaticGet__map_floorCustomValueList_codec()
+		{
+			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::Proto::FloorCustomValueSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x623A8);
+		}
+		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>** StaticGet__map_floorSavedValueList_codec()
+		{
+			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot_TypeDefinitionIndex)->GetStaticField(0x623B0);
 		}
 		// static const ::System::Int32 PerformanceIdFieldNumber = 0x1; // 0x0
 		// static const ::System::Int32 PerformanceTypeFieldNumber = 0x2; // 0x0
@@ -128,30 +134,30 @@ namespace Proto
 		// static const ::System::Int32 DialogFieldNumber = 0x15; // 0x0
 		// static const ::System::Int32 OwnerGroupIdFieldNumber = 0x16; // 0x0
 		// static const ::System::Int32 SwitchHandFieldNumber = 0x17; // 0x0
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* clientGroupList_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* floorSavedValueList_; // 0x20
-		::Proto::PlayerSnapshot* player_; // 0x28
-		::Proto::SwitchHandSnapshot* switchHand_; // 0x30
-		::Google::Protobuf::Collections::MapField_2<::System::String*, ::Proto::FloorCustomValueSnapshot*>* floorCustomValueList_; // 0x38
-		::Proto::DialogSnapshot* dialog_; // 0x40
-		::Proto::MapRotationSnapshot* mapRotation_; // 0x48
-		::Proto::MissionSnapshot* mission_; // 0x50
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* clientLegacyGroupList_; // 0x58
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* serverLegacyGroupList_; // 0x60
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* serverGroupList_; // 0x68
-		::Proto::EraFlipperSnapshot* eraFlipper_; // 0x70
-		::System::UInt32 entryId_; // 0x78
-		::System::UInt32 dimensionId_; // 0x7C
-		::System::UInt32 storyLineId_; // 0x80
+		::Proto::MapRotationSnapshot* mapRotation_; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* serverGroupList_; // 0x18
+		::Proto::EraFlipperSnapshot* eraFlipper_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* clientGroupList_; // 0x28
+		::Proto::PlayerSnapshot* player_; // 0x30
+		::Proto::MissionSnapshot* mission_; // 0x38
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x40
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* clientLegacyGroupList_; // 0x48
+		::Google::Protobuf::Collections::MapField_2<::System::String*, ::Proto::FloorCustomValueSnapshot*>* floorCustomValueList_; // 0x50
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* serverLegacyGroupList_; // 0x58
+		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* floorSavedValueList_; // 0x60
+		::Proto::SwitchHandSnapshot* switchHand_; // 0x68
+		::Proto::DialogSnapshot* dialog_; // 0x70
+		::System::UInt32 version_; // 0x78
+		::System::UInt32 entryId_; // 0x7C
+		::System::UInt32 performanceType_; // 0x80
 		::System::UInt32 worldId_; // 0x84
-		::System::UInt32 ownerGroupId_; // 0x88
-		::System::UInt32 performanceType_; // 0x8C
-		::System::UInt32 planeId_; // 0x90
+		::System::UInt32 floorId_; // 0x88
+		::System::UInt32 storyLineId_; // 0x8C
+		::System::UInt32 dimensionId_; // 0x90
 		::System::UInt32 performanceId_; // 0x94
-		::System::UInt32 floorId_; // 0x98
-		::System::UInt32 contentId_; // 0x9C
-		::System::UInt32 version_; // 0xA0
+		::System::UInt32 planeId_; // 0x98
+		::System::UInt32 ownerGroupId_; // 0x9C
+		::System::UInt32 contentId_; // 0xA0
 
 		::System::Void _ctor()
 		{
@@ -166,6 +172,11 @@ namespace Proto
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_PERFORMANCESTARTSNAPSHOT__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_PERFORMANCESTARTSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

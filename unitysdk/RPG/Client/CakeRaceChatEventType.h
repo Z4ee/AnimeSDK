@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceChatEventType_TypeDefinitionIndex = 51145;
+	inline static constexpr unsigned int CakeRaceChatEventType_TypeDefinitionIndex = 58065;
 
 	enum class CakeRaceChatEventType : ::System::Int32
 	{

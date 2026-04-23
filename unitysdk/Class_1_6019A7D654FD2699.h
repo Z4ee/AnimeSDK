@@ -1,0 +1,94 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_434;
+class Class_0_16E4307DCC419505_444;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class RtCharacterConfig; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_6019A7D654FD2699_GET_CHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x9681A80)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_034118A3B6D1C8C7_OFFSET UNITYSDK_OFFSET(0x9681580)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_1798FAFF45053267_1_OFFSET UNITYSDK_OFFSET(0x9681780)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_1798FAFF45053267_2_OFFSET UNITYSDK_OFFSET(0x9681880)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_1798FAFF45053267_OFFSET UNITYSDK_OFFSET(0x9681680)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_379C2C7747DAA3F1_OFFSET UNITYSDK_OFFSET(0x9681B70)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_57D80B372834C5D1_OFFSET UNITYSDK_OFFSET(0x9681BC0)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_9BD82D5B883ABACD_OFFSET UNITYSDK_OFFSET(0x9681480)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_A43EB4BBBCB6FF15_OFFSET UNITYSDK_OFFSET(0x9681C10)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_A76A07E68FFF9CDC_OFFSET UNITYSDK_OFFSET(0x9681380)
+#define CLASS_1_6019A7D654FD2699_METHOD_1_F4FF6B9AC780F2EB_OFFSET UNITYSDK_OFFSET(0x9681980)
+#define CLASS_1_6019A7D654FD2699__CTOR_OFFSET UNITYSDK_OFFSET(0x9681D30)
+
+inline static constexpr unsigned int Class_1_6019A7D654FD2699_TypeDefinitionIndex = 49855;
+
+class Class_1_6019A7D654FD2699 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_434* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699__CTOR_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_A76A07E68FFF9CDC()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_A76A07E68FFF9CDC_OFFSET))(this);
+	}
+
+	::System::Object* Method_1_9BD82D5B883ABACD()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_9BD82D5B883ABACD_OFFSET))(this);
+	}
+
+	::RPG::GameCore::RtCharacterConfig* Method_1_034118A3B6D1C8C7()
+	{
+		return ((::RPG::GameCore::RtCharacterConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_034118A3B6D1C8C7_OFFSET))(this);
+	}
+
+	::System::String* Method_1_1798FAFF45053267()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_1798FAFF45053267_OFFSET))(this);
+	}
+
+	::System::String* Method_1_1798FAFF45053267_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_1798FAFF45053267_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_1798FAFF45053267_2()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_1798FAFF45053267_2_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_444*>* Method_1_F4FF6B9AC780F2EB()
+	{
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_444*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_F4FF6B9AC780F2EB_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID get_CharacterName()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_GET_CHARACTERNAME_OFFSET))(this);
+	}
+
+	::Class_1_6019A7D654FD2699* Method_1_379C2C7747DAA3F1(::Class_0_16E4307DCC419505_434* a1)
+	{
+		return ((::Class_1_6019A7D654FD2699*(*)(::PVOID, ::Class_0_16E4307DCC419505_434*))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_379C2C7747DAA3F1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_57D80B372834C5D1(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_57D80B372834C5D1_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_A43EB4BBBCB6FF15(::RPG::GameCore::RtAbilityProperty a1)
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::RtAbilityProperty))((::PBYTE)hIl2Cpp + CLASS_1_6019A7D654FD2699_METHOD_1_A43EB4BBBCB6FF15_OFFSET))(this, a1);
+	}
+};

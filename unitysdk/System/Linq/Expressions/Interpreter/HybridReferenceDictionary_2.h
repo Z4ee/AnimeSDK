@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int HybridReferenceDictionary_2_TypeDefinitionIndex = 3649;
+	inline static constexpr unsigned int HybridReferenceDictionary_2_TypeDefinitionIndex = 3651;
 
 	template <typename TKey, typename TValue>
 	class HybridReferenceDictionary_2 : public ::System::Object

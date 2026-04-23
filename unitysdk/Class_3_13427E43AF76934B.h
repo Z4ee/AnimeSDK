@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TraceEntityMappingInfo; }
 
-#define CLASS_3_13427E43AF76934B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10AB9620)
-#define CLASS_3_13427E43AF76934B__CTOR_OFFSET UNITYSDK_OFFSET(0x10AB95F0)
+#define CLASS_3_13427E43AF76934B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97F9630)
+#define CLASS_3_13427E43AF76934B__CTOR_OFFSET UNITYSDK_OFFSET(0x97F9600)
 
-inline static constexpr unsigned int Class_3_13427E43AF76934B_TypeDefinitionIndex = 43245;
+inline static constexpr unsigned int Class_3_13427E43AF76934B_TypeDefinitionIndex = 49240;
 
 class Class_3_13427E43AF76934B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TraceEntityMappingInfo*>
 {

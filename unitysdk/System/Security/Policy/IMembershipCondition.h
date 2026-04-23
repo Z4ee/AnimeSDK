@@ -3,7 +3,7 @@
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int IMembershipCondition_TypeDefinitionIndex = 951;
+	inline static constexpr unsigned int IMembershipCondition_TypeDefinitionIndex = 953;
 
 	class IMembershipCondition
 	{

@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HEARTDIALNPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17298E60)
-#define RPG_GAMECORE_HEARTDIALNPCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17299060)
+#define RPG_GAMECORE_HEARTDIALNPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189EDA60)
+#define RPG_GAMECORE_HEARTDIALNPCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189EDC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialNpcRow_TypeDefinitionIndex = 12558;
+	inline static constexpr unsigned int HeartDialNpcRow_TypeDefinitionIndex = 12995;
 
 	class HeartDialNpcRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ScriptIDList; // 0x10
-		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 FloorID; // 0x18
 		::System::UInt32 DefaultScriptID; // 0x1C
-		::System::UInt32 FloorID; // 0x20
-		::System::UInt32 InstanceID; // 0x24
+		::System::UInt32 InstanceID; // 0x20
+		::System::UInt32 GroupID; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_PLATFORMINFOMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x111D5210)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_PLATFORMINFOMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12412760)
 
 namespace IRIClusterBuilder::Test
 {
-	inline static constexpr unsigned int IRICarTestManager_PlatformInfoMessage_TypeDefinitionIndex = 38638;
+	inline static constexpr unsigned int IRICarTestManager_PlatformInfoMessage_TypeDefinitionIndex = 44530;
 
 	class IRICarTestManager_PlatformInfoMessage : public ::System::Object
 	{

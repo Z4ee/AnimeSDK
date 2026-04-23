@@ -7,21 +7,21 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace XLua { class LuaEnv; }
 
-#define XLUA_DELEGATEBRIDGEBASE_ADDDELEGATE_OFFSET UNITYSDK_OFFSET(0xFF45280)
-#define XLUA_DELEGATEBRIDGEBASE_GETDELEGATEBYTYPE_OFFSET UNITYSDK_OFFSET(0xFF45430)
-#define XLUA_DELEGATEBRIDGEBASE_TRYGETDELEGATE_OFFSET UNITYSDK_OFFSET(0xFF451C0)
-#define XLUA_DELEGATEBRIDGEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xFF44E80)
+#define XLUA_DELEGATEBRIDGEBASE_ADDDELEGATE_OFFSET UNITYSDK_OFFSET(0x1120E2F0)
+#define XLUA_DELEGATEBRIDGEBASE_GETDELEGATEBYTYPE_OFFSET UNITYSDK_OFFSET(0x1120E4A0)
+#define XLUA_DELEGATEBRIDGEBASE_TRYGETDELEGATE_OFFSET UNITYSDK_OFFSET(0x1120E230)
+#define XLUA_DELEGATEBRIDGEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1120DA50)
 
 namespace XLua
 {
-	inline static constexpr unsigned int DelegateBridgeBase_TypeDefinitionIndex = 40479;
+	inline static constexpr unsigned int DelegateBridgeBase_TypeDefinitionIndex = 46392;
 
 	class DelegateBridgeBase : public ::XLua::LuaBase
 	{
 	public:
-		::System::Type* firstKey; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Delegate*>* bindTo; // 0x20
 		::System::Delegate* firstValue; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Delegate*>* bindTo; // 0x30
+		::System::Type* firstKey; // 0x30
 		::System::Int32 errorFuncRef; // 0x38
 
 		::System::Void _ctor(::System::Int32 reference, ::XLua::LuaEnv* luaenv)

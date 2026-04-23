@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_TEXTUREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x84CE0)
+#define RPG_CLIENT_TEXTUREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDF2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextureInfo_TypeDefinitionIndex = 57809;
+	inline static constexpr unsigned int TextureInfo_TypeDefinitionIndex = 65086;
 
 	struct alignas(8) TextureInfo
 	{

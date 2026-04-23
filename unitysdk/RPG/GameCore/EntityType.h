@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityType_TypeDefinitionIndex = 10048;
+	inline static constexpr unsigned int EntityType_TypeDefinitionIndex = 10239;
 
 	enum class EntityType : ::System::Int32
 	{
@@ -35,15 +35,16 @@ namespace RPG::GameCore
 		PuzzleGameObjectProp = 25,
 		PerformanceLevelGraph = 26,
 		Group = 27,
-		ChessCharacter = 28,
-		ChessTerrain = 29,
-		SummonUnit = 30,
-		LittleGameInstance = 31,
-		Servant = 32,
-		PreviewShow = 33,
-		LittleGameContainer = 34,
-		LittleGameViewProxy = 35,
-		GridFightBackend = 36,
-		DummyEntity = 37,
+		RtCharacter = 28,
+		RtGrid = 29,
+		RtTrigger = 30,
+		SummonUnit = 31,
+		LittleGameInstance = 32,
+		Servant = 33,
+		PreviewShow = 34,
+		LittleGameContainer = 35,
+		LittleGameViewProxy = 36,
+		GridFightBackend = 37,
+		DummyEntity = 38,
 	};
 }

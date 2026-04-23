@@ -7,20 +7,20 @@ namespace RPG::Client { class AdventureModule; }
 namespace RPG::GameCore { class AdventureCharacterDataComponent; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS93_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9029A60)
-#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS93_0___ONPLAYERLOCKNEWTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x902AFC0)
+#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS93_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C86910)
+#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS93_0___ONPLAYERLOCKNEWTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x9C87E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureAudioManager___c__DisplayClass93_0_TypeDefinitionIndex = 48981;
+	inline static constexpr unsigned int AdventureAudioManager___c__DisplayClass93_0_TypeDefinitionIndex = 55775;
 
 	class AdventureAudioManager___c__DisplayClass93_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AdventureCharacterDataComponent* characterData; // 0x10
-		::RPG::GameCore::GameEntity* lockTarget; // 0x18
+		::RPG::Client::AdventureModule* advModule; // 0x18
 		::RPG::Client::AdventureAudioManager* __4__this; // 0x20
-		::RPG::Client::AdventureModule* advModule; // 0x28
+		::RPG::GameCore::GameEntity* lockTarget; // 0x28
 
 		::System::Void _ctor()
 		{

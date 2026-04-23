@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyChallengeType_TypeDefinitionIndex = 12893;
+	inline static constexpr unsigned int ChenLingGameBoyChallengeType_TypeDefinitionIndex = 13355;
 
 	enum class ChenLingGameBoyChallengeType : ::System::Int32
 	{

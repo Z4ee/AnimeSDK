@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE1D30)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS10_0__REQUESTLISTGOODSAPIWITHCDNFALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15DE1E70)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173DF590)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS10_0__REQUESTLISTGOODSAPIWITHCDNFALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x173DF6D0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass10_0_TypeDefinitionIndex = 7462;
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass10_0_TypeDefinitionIndex = 7603;
 
 	class GoodsPlatformManager___c__DisplayClass10_0 : public ::System::Object
 	{

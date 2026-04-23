@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EnumHelper_1_Transformer_1_TypeDefinitionIndex = 1584;
+	inline static constexpr unsigned int EnumHelper_1_Transformer_1_TypeDefinitionIndex = 1585;
 
 	template <typename UnderlyingType, typename ValueType>
 	class EnumHelper_1_Transformer_1 : public ::System::MulticastDelegate

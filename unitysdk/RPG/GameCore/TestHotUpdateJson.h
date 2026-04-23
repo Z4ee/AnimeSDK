@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TESTHOTUPDATEJSON_METHOD_2_D82E9B3D8EC54E19_OFFSET UNITYSDK_OFFSET(0x17899AC0)
-#define RPG_GAMECORE_TESTHOTUPDATEJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x17899C20)
+#define RPG_GAMECORE_TESTHOTUPDATEJSON_METHOD_2_D82E9B3D8EC54E19_OFFSET UNITYSDK_OFFSET(0x19095160)
+#define RPG_GAMECORE_TESTHOTUPDATEJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x190952C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TestHotUpdateJson_TypeDefinitionIndex = 22449;
+	inline static constexpr unsigned int TestHotUpdateJson_TypeDefinitionIndex = 23421;
 
 	class TestHotUpdateJson : public ::RPG::GameCore::JsonConfig
 	{

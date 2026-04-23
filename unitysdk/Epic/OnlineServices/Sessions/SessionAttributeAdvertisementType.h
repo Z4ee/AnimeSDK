@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionAttributeAdvertisementType_TypeDefinitionIndex = 35497;
+	inline static constexpr unsigned int SessionAttributeAdvertisementType_TypeDefinitionIndex = 41323;
 
 	enum class SessionAttributeAdvertisementType : ::System::Int32
 	{

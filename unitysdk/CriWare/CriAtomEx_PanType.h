@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_PanType_TypeDefinitionIndex = 30983;
+	inline static constexpr unsigned int CriAtomEx_PanType_TypeDefinitionIndex = 36703;
 
 	enum class CriAtomEx_PanType : ::System::Int32
 	{

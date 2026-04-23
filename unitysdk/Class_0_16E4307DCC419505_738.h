@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueMagicMountType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace RPG::Client { class RogueMagicUnitDataItem; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_738_TypeDefinitionIndex = 54930;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_738_TypeDefinitionIndex = 60118;
 
 class Class_0_16E4307DCC419505_738
 {

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_SKILLCONDITIONPRESHOWCONFIG_METHOD_2_6DAB9C0C54804E22_OFFSET UNITYSDK_OFFSET(0x1770BBB0)
-#define RPG_GAMECORE_SKILLCONDITIONPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1770BCC0)
+#define RPG_GAMECORE_SKILLCONDITIONPRESHOWCONFIG_METHOD_2_6DAB9C0C54804E22_OFFSET UNITYSDK_OFFSET(0x18E6F620)
+#define RPG_GAMECORE_SKILLCONDITIONPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6F730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillConditionPreshowConfig_TypeDefinitionIndex = 16679;
+	inline static constexpr unsigned int SkillConditionPreshowConfig_TypeDefinitionIndex = 17271;
 
 	class SkillConditionPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

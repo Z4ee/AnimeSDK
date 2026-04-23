@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnterTrainPartyGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A7AF6C274117FF31_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B3C930)
-#define CLASS_3_A7AF6C274117FF31__CTOR_OFFSET UNITYSDK_OFFSET(0x10B3C900)
+#define CLASS_3_A7AF6C274117FF31_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x124095B0)
+#define CLASS_3_A7AF6C274117FF31__CTOR_OFFSET UNITYSDK_OFFSET(0x12409580)
 
-inline static constexpr unsigned int Class_3_A7AF6C274117FF31_TypeDefinitionIndex = 43248;
+inline static constexpr unsigned int Class_3_A7AF6C274117FF31_TypeDefinitionIndex = 49243;
 
 class Class_3_A7AF6C274117FF31 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnterTrainPartyGame*>
 {

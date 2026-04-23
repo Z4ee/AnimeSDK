@@ -5,22 +5,22 @@
 namespace RPG::Client { class MatchThreeGameProp; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define CLASS_2_72D3999DA461AE66___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11582430)
-#define CLASS_2_72D3999DA461AE66___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11582470)
-#define CLASS_2_72D3999DA461AE66___C__ONEXECUTE_B__2_0_OFFSET UNITYSDK_OFFSET(0x11582480)
+#define CLASS_2_72D3999DA461AE66___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E610C0)
+#define CLASS_2_72D3999DA461AE66___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11E61100)
+#define CLASS_2_72D3999DA461AE66___C__ONEXECUTE_B__2_0_OFFSET UNITYSDK_OFFSET(0x11E61110)
 
-inline static constexpr unsigned int Class_2_72D3999DA461AE66___c_TypeDefinitionIndex = 53500;
+inline static constexpr unsigned int Class_2_72D3999DA461AE66___c_TypeDefinitionIndex = 60644;
 
 class Class_2_72D3999DA461AE66___c : public ::System::Object
 {
 public:
-	static ::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>** StaticGet___9__2_0()
-	{
-		return (::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_72D3999DA461AE66___c_TypeDefinitionIndex)->GetStaticField(0x44120);
-	}
 	static ::Class_2_72D3999DA461AE66___c** StaticGet___9()
 	{
-		return (::Class_2_72D3999DA461AE66___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_72D3999DA461AE66___c_TypeDefinitionIndex)->GetStaticField(0x44128);
+		return (::Class_2_72D3999DA461AE66___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_72D3999DA461AE66___c_TypeDefinitionIndex)->GetStaticField(0x547F0);
+	}
+	static ::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>** StaticGet___9__2_0()
+	{
+		return (::System::Func_3<::RPG::Client::MatchThreeGameProp*, ::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_72D3999DA461AE66___c_TypeDefinitionIndex)->GetStaticField(0x547F8);
 	}
 
 	static ::System::Void _cctor()

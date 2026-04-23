@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationDefine_NoticeRedPointTextRetcode_TypeDefinitionIndex = 6603;
+	inline static constexpr unsigned int NotificationDefine_NoticeRedPointTextRetcode_TypeDefinitionIndex = 6637;
 
 	enum class NotificationDefine_NoticeRedPointTextRetcode : ::System::Int32
 	{

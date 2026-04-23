@@ -8,12 +8,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F6AB20)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__GENERATESCREENCAPTURECOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x9F6AB30)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC90950)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__GENERATESCREENCAPTURECOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0xAC90960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass134_0_TypeDefinitionIndex = 56772;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass134_0_TypeDefinitionIndex = 64017;
 
 	class PhotoGraphUtils___c__DisplayClass134_0 : public ::System::Object
 	{

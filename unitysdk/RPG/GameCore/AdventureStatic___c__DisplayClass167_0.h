@@ -6,12 +6,12 @@
 
 namespace RPG::Client { class MonoEffect; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS167_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8637C0)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS167_0__PROCESSHITANIMANDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA869E20)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS167_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A86F0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS167_0__PROCESSHITANIMANDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB5AEAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass167_0_TypeDefinitionIndex = 47686;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass167_0_TypeDefinitionIndex = 54424;
 
 	class AdventureStatic___c__DisplayClass167_0 : public ::System::Object
 	{

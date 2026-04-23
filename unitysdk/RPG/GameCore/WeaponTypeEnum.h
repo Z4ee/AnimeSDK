@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WeaponTypeEnum_TypeDefinitionIndex = 15109;
+	inline static constexpr unsigned int WeaponTypeEnum_TypeDefinitionIndex = 15617;
 
 	enum class WeaponTypeEnum : ::System::Int32
 	{

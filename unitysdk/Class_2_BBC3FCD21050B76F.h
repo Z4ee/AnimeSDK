@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/RogueBlackboardResultHandleTime.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_BBC3FCD21050B76F_GET_HANDLETIME_OFFSET UNITYSDK_OFFSET(0x10AC0C00)
-#define CLASS_2_BBC3FCD21050B76F__CTOR_OFFSET UNITYSDK_OFFSET(0x10AC0BF0)
+#define CLASS_2_BBC3FCD21050B76F_GET_HANDLETIME_OFFSET UNITYSDK_OFFSET(0xB7A2030)
+#define CLASS_2_BBC3FCD21050B76F__CTOR_OFFSET UNITYSDK_OFFSET(0xB7A2020)
 
-inline static constexpr unsigned int Class_2_BBC3FCD21050B76F_TypeDefinitionIndex = 54642;
+inline static constexpr unsigned int Class_2_BBC3FCD21050B76F_TypeDefinitionIndex = 61830;
 
 class Class_2_BBC3FCD21050B76F : public ::System::Attribute
 {

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICurveService_1_TypeDefinitionIndex = 32870;
+	inline static constexpr unsigned int ICurveService_1_TypeDefinitionIndex = 38660;
 
 	template <typename TEntity>
 	class ICurveService_1

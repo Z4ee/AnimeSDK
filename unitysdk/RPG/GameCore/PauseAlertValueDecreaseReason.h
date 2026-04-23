@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PauseAlertValueDecreaseReason_TypeDefinitionIndex = 45999;
+	inline static constexpr unsigned int PauseAlertValueDecreaseReason_TypeDefinitionIndex = 52660;
 
 	enum class PauseAlertValueDecreaseReason : ::System::Int32
 	{

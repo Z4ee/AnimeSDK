@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define RPGSHADERWARMUTILS_ISENABLESHADERMEMTESTCONFIG_OFFSET UNITYSDK_OFFSET(0x16AE1D60)
-#define RPGSHADERWARMUTILS_SWITCHSHADERMEMTESTFILE_OFFSET UNITYSDK_OFFSET(0x16AE1E50)
-#define RPGSHADERWARMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AE2050)
+#define RPGSHADERWARMUTILS_ISENABLESHADERMEMTESTCONFIG_OFFSET UNITYSDK_OFFSET(0x18186B30)
+#define RPGSHADERWARMUTILS_SWITCHSHADERMEMTESTFILE_OFFSET UNITYSDK_OFFSET(0x18186C20)
+#define RPGSHADERWARMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18186E20)
 
-inline static constexpr unsigned int RPGShaderWarmUtils_TypeDefinitionIndex = 29127;
+inline static constexpr unsigned int RPGShaderWarmUtils_TypeDefinitionIndex = 34868;
 
 class RPGShaderWarmUtils : public ::System::Object
 {
 public:
 	static ::System::String** StaticGet_swCapsFilePath()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGShaderWarmUtils_TypeDefinitionIndex)->GetStaticField(0xAF0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGShaderWarmUtils_TypeDefinitionIndex)->GetStaticField(0xF80);
 	}
 
 	static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrialAvatarType_TypeDefinitionIndex = 11447;
+	inline static constexpr unsigned int TrialAvatarType_TypeDefinitionIndex = 11849;
 
 	enum class TrialAvatarType : ::System::Int32
 	{

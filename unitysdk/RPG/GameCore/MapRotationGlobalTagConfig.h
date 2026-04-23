@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define RPG_GAMECORE_MAPROTATIONGLOBALTAGCONFIG_METHOD_2_326A7763C6714573_OFFSET UNITYSDK_OFFSET(0x173808B0)
-#define RPG_GAMECORE_MAPROTATIONGLOBALTAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17380A10)
+#define RPG_GAMECORE_MAPROTATIONGLOBALTAGCONFIG_METHOD_2_326A7763C6714573_OFFSET UNITYSDK_OFFSET(0x18A8E9E0)
+#define RPG_GAMECORE_MAPROTATIONGLOBALTAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8EB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationGlobalTagConfig_TypeDefinitionIndex = 15606;
+	inline static constexpr unsigned int MapRotationGlobalTagConfig_TypeDefinitionIndex = 16126;
 
 	class MapRotationGlobalTagConfig : public ::RPG::GameCore::JsonConfig
 	{

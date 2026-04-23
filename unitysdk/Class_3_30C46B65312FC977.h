@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchBloodLinkTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_30C46B65312FC977_EVALUATE_OFFSET UNITYSDK_OFFSET(0x117442A0)
-#define CLASS_3_30C46B65312FC977__CTOR_OFFSET UNITYSDK_OFFSET(0x11744220)
+#define CLASS_3_30C46B65312FC977_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9856310)
+#define CLASS_3_30C46B65312FC977__CTOR_OFFSET UNITYSDK_OFFSET(0x9856290)
 
-inline static constexpr unsigned int Class_3_30C46B65312FC977_TypeDefinitionIndex = 47802;
+inline static constexpr unsigned int Class_3_30C46B65312FC977_TypeDefinitionIndex = 54541;
 
 class Class_3_30C46B65312FC977 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchBloodLinkTargets*>
 {

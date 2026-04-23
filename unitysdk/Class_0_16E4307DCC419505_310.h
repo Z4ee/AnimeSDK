@@ -1,16 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EnviromentSystemV2Space/EnvAsyncState.h"
 
-class Class_1_EAF7984A8FAD6BE4;
-class Class_2_F1524D4665C20B71;
-class Class_4_9A47C8A261F37B0B;
-namespace System { class Action; }
+class Class_1_0CE5318321486AA4_2;
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_310_TypeDefinitionIndex = 39883;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_310_TypeDefinitionIndex = 45584;
 
 class Class_0_16E4307DCC419505_310
 {

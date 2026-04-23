@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleWelcomeDialog_DisplayStage_TypeDefinitionIndex = 7630;
+	inline static constexpr unsigned int ConsoleWelcomeDialog_DisplayStage_TypeDefinitionIndex = 7771;
 
 	enum class ConsoleWelcomeDialog_DisplayStage : ::System::Int32
 	{

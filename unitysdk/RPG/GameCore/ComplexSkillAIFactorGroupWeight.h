@@ -6,12 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT_METHOD_2_FEF69E8D470DD6C3_OFFSET UNITYSDK_OFFSET(0x171230B0)
-#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x17123250)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT_METHOD_2_D2B0171BCBF3A4D2_OFFSET UNITYSDK_OFFSET(0x188298E0)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT_METHOD_2_FEF69E8D470DD6C3_OFFSET UNITYSDK_OFFSET(0x18829A20)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x18829A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIFactorGroupWeight_TypeDefinitionIndex = 14262;
+	inline static constexpr unsigned int ComplexSkillAIFactorGroupWeight_TypeDefinitionIndex = 14732;
 
 	class ComplexSkillAIFactorGroupWeight : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FEF69E8D470DD6C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIFactorGroupWeight*& a2)
+		static ::System::Void Method_2_D2B0171BCBF3A4D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIFactorGroupWeight*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIFactorGroupWeight*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT_METHOD_2_FEF69E8D470DD6C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIFactorGroupWeight*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT_METHOD_2_D2B0171BCBF3A4D2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_FEF69E8D470DD6C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIFactorGroupWeight* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIFactorGroupWeight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUPWEIGHT_METHOD_2_FEF69E8D470DD6C3_OFFSET))(a1, a2);
 		}
 	};
 }

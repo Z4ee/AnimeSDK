@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ILayoutController_TypeDefinitionIndex = 5644;
+	inline static constexpr unsigned int ILayoutController_TypeDefinitionIndex = 5656;
 
 	class ILayoutController
 	{

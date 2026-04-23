@@ -6,7 +6,7 @@ namespace Collections::Pooled { template <typename T> class PooledList_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int EmptyPooledList_1_TypeDefinitionIndex = 8680;
+	inline static constexpr unsigned int EmptyPooledList_1_TypeDefinitionIndex = 8874;
 
 	template <typename T>
 	class EmptyPooledList_1 : public ::System::Object

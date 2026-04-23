@@ -5,7 +5,7 @@ namespace RPG::Client { class IRogueMiracleLegacyDisplayRow; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueMiracleLegacyDisplayRowProvider_TypeDefinitionIndex = 54799;
+	inline static constexpr unsigned int IRogueMiracleLegacyDisplayRowProvider_TypeDefinitionIndex = 61987;
 
 	class IRogueMiracleLegacyDisplayRowProvider
 	{

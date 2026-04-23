@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9118D233A02D9925_METHOD_1_247C15FF5EDC5F21_OFFSET UNITYSDK_OFFSET(0x8808940)
-#define CLASS_1_9118D233A02D9925__CTOR_OFFSET UNITYSDK_OFFSET(0x8808B10)
+#define CLASS_1_9118D233A02D9925_METHOD_1_247C15FF5EDC5F21_OFFSET UNITYSDK_OFFSET(0x92B8730)
+#define CLASS_1_9118D233A02D9925__CTOR_OFFSET UNITYSDK_OFFSET(0x92B8900)
 
-inline static constexpr unsigned int Class_1_9118D233A02D9925_TypeDefinitionIndex = 38071;
+inline static constexpr unsigned int Class_1_9118D233A02D9925_TypeDefinitionIndex = 43952;
 
 class Class_1_9118D233A02D9925 : public ::System::Object
 {

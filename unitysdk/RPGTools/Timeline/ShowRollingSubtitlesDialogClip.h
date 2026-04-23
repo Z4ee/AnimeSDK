@@ -9,29 +9,29 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB9F7C0)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB9F7B0)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB9FAA0)
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB9FA30)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB914400)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB9143F0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9146E0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB914670)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 39131;
+	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 45034;
 
 	class ShowRollingSubtitlesDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x47D10);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x69750);
 		}
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x47D18);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x69758);
 		}
 		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
 		{
-			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x12B30);
+			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowRollingSubtitlesDialogClip_TypeDefinitionIndex)->GetStaticField(0x11770);
 		}
 		::System::String* UILuaPath; // 0x18
 		::System::String* ConfigPath; // 0x20

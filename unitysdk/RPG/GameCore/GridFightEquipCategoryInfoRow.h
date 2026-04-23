@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17259770)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17259940)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A99E0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A9BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipCategoryInfoRow_TypeDefinitionIndex = 12298;
+	inline static constexpr unsigned int GridFightEquipCategoryInfoRow_TypeDefinitionIndex = 12729;
 
 	class GridFightEquipCategoryInfoRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID CategoryName; // 0x10
-		::RPG::GameCore::GridFightEquipCategory EquipCategory; // 0x20
-		::System::UInt32 EquipCount; // 0x24
+		::System::UInt32 EquipCount; // 0x20
+		::RPG::GameCore::GridFightEquipCategory EquipCategory; // 0x24
 
 		::System::Void _ctor()
 		{

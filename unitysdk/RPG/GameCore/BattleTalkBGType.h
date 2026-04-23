@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTalkBGType_TypeDefinitionIndex = 21581;
+	inline static constexpr unsigned int BattleTalkBGType_TypeDefinitionIndex = 22319;
 
 	enum class BattleTalkBGType : ::System::Int32
 	{

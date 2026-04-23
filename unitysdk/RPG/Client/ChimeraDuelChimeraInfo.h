@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9394300)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETCOREFLAMEVESSELCAPACITY_OFFSET UNITYSDK_OFFSET(0x9394570)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATAWITHINRARITY_OFFSET UNITYSDK_OFFSET(0x93943A0)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x938E720)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_ISCOREFLAMEVESSEL_OFFSET UNITYSDK_OFFSET(0x9393510)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9393BB0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA002280)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETCOREFLAMEVESSELCAPACITY_OFFSET UNITYSDK_OFFSET(0xA0024F0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATAWITHINRARITY_OFFSET UNITYSDK_OFFSET(0xA002320)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x9FFC620)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_ISCOREFLAMEVESSEL_OFFSET UNITYSDK_OFFSET(0xA001490)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA001B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInfo_TypeDefinitionIndex = 51411;
+	inline static constexpr unsigned int ChimeraDuelChimeraInfo_TypeDefinitionIndex = 58349;
 
 	class ChimeraDuelChimeraInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _CoreflameChimeras; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelChimeraData*>* _DataDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelChimeraData*>* _DataDict; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _CoreflameChimeras; // 0x18
 
 		::System::Void _ctor()
 		{

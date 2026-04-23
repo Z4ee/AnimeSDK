@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_121;
-class Class_1_47EE63CB5C4DC8FC_9;
+class Class_1_D272AF60A040331E;
+namespace UnityEngine::AI { class RVOAgent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_167_TypeDefinitionIndex = 32451;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_167_TypeDefinitionIndex = 38176;
 
 class Class_0_16E4307DCC419505_167
 {

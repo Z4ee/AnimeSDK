@@ -11,7 +11,7 @@ namespace ZLinq::Linq { template <typename T> class ArrayIterator_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int ArrayIterator_1_TypeDefinitionIndex = 6479;
+	inline static constexpr unsigned int ArrayIterator_1_TypeDefinitionIndex = 6512;
 
 	template <typename T>
 	class ArrayIterator_1 : public ::ZLinq::Linq::CollectionIterator_1<T>

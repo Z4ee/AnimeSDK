@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageRegionConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGEREGIONCOLLECTION_METHOD_2_1CF9770C66CC132B_OFFSET UNITYSDK_OFFSET(0x1776BB30)
-#define RPG_GAMECORE_STAGEREGIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1776BD00)
+#define RPG_GAMECORE_STAGEREGIONCOLLECTION_METHOD_2_1CF9770C66CC132B_OFFSET UNITYSDK_OFFSET(0x18E916C0)
+#define RPG_GAMECORE_STAGEREGIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18E91890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionCollection_TypeDefinitionIndex = 17611;
+	inline static constexpr unsigned int StageRegionCollection_TypeDefinitionIndex = 18224;
 
 	class StageRegionCollection : public ::RPG::GameCore::JsonConfig
 	{

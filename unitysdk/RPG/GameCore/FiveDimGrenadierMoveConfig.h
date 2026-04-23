@@ -10,13 +10,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimGrenadierProjectileConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_94A3B3370C6703EF_OFFSET UNITYSDK_OFFSET(0x171F6070)
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_E125FA8DF60A6BA1_OFFSET UNITYSDK_OFFSET(0x171F60E0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171F60C0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_94A3B3370C6703EF_OFFSET UNITYSDK_OFFSET(0x18905980)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_E125FA8DF60A6BA1_OFFSET UNITYSDK_OFFSET(0x189059F0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189059D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierMoveConfig_TypeDefinitionIndex = 15304;
+	inline static constexpr unsigned int FiveDimGrenadierMoveConfig_TypeDefinitionIndex = 15823;
 
 	class FiveDimGrenadierMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
@@ -25,21 +25,21 @@ namespace RPG::GameCore
 		::System::Single BeatBackDistance; // 0x4C
 		::System::Single AttackDistance; // 0x50
 		::System::Single AttackDistancePerpendicular; // 0x54
-		::System::Boolean ManualAttack; // 0x58
-		::System::Single AttackInterval; // 0x5C
-		::RPG::MVector3 CreationOffset; // 0x60
-		::RPG::GameCore::FiveDimGrenadierAttackType AttackType; // 0x6C
-		::RPG::GameCore::FiveDimSimpleProjectileMoveType ProjectileMoveType; // 0x70
-		::System::Single ParabolaHeightOffset; // 0x74
-		::System::Single LaunchSpeed; // 0x78
-		::Il2CppArray<::RPG::GameCore::FiveDimGrenadierProjectileConfig*>* ProjectileConfigList; // 0x80
-		::System::String* LineTraceEffectPath; // 0x88
-		::System::Single StunTime; // 0x90
-		::System::String* OnHitEvent; // 0x98
-		::System::String* OnRecoverEvent; // 0xA0
-		::System::String* OnAttackEvent; // 0xA8
-		::System::Single TraceOffset; // 0xB0
-		::RPG::GameCore::FiveDimGrenadierMoveType MoveType; // 0xB4
+		::System::Single TraceOffset; // 0x58
+		::RPG::GameCore::FiveDimGrenadierMoveType MoveType; // 0x5C
+		::System::Boolean ManualAttack; // 0x60
+		::System::Single AttackInterval; // 0x64
+		::RPG::MVector3 CreationOffset; // 0x68
+		::RPG::GameCore::FiveDimGrenadierAttackType AttackType; // 0x74
+		::RPG::GameCore::FiveDimSimpleProjectileMoveType ProjectileMoveType; // 0x78
+		::System::Single ParabolaHeightOffset; // 0x7C
+		::System::Single LaunchSpeed; // 0x80
+		::Il2CppArray<::RPG::GameCore::FiveDimGrenadierProjectileConfig*>* ProjectileConfigList; // 0x88
+		::System::String* OnAttackEvent; // 0x90
+		::System::String* LineTraceEffectPath; // 0x98
+		::System::Single StunTime; // 0xA0
+		::System::String* OnHitEvent; // 0xA8
+		::System::String* OnRecoverEvent; // 0xB0
 
 		::System::Void _ctor()
 		{

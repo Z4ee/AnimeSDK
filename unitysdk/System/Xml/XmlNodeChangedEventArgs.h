@@ -6,21 +6,21 @@
 namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x18624270)
-#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1860AD00)
+#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1A05ECC0)
+#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A045A60)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNodeChangedEventArgs_TypeDefinitionIndex = 1903;
+	inline static constexpr unsigned int XmlNodeChangedEventArgs_TypeDefinitionIndex = 1904;
 
 	class XmlNodeChangedEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Xml::XmlNode* newParent; // 0x10
-		::System::String* newValue; // 0x18
-		::System::Xml::XmlNode* node; // 0x20
-		::System::String* oldValue; // 0x28
-		::System::Xml::XmlNode* oldParent; // 0x30
+		::System::Xml::XmlNode* node; // 0x10
+		::System::Xml::XmlNode* oldParent; // 0x18
+		::System::String* newValue; // 0x20
+		::System::Xml::XmlNode* newParent; // 0x28
+		::System::String* oldValue; // 0x30
 		::System::Xml::XmlNodeChangedAction action; // 0x38
 
 		::System::Void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::System::String* oldValue, ::System::String* newValue, ::System::Xml::XmlNodeChangedAction action)

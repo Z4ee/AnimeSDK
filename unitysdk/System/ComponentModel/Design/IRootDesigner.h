@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IRootDesigner_TypeDefinitionIndex = 2646;
+	inline static constexpr unsigned int IRootDesigner_TypeDefinitionIndex = 2647;
 
 	class IRootDesigner
 	{

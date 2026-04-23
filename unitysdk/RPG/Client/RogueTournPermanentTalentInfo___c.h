@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTalentDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA3B22B0)
-#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA3B22F0)
-#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__GETALLTALENTDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xA3B2300)
+#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB0E96C0)
+#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB0E9700)
+#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__GETALLTALENTDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xB0E9710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPermanentTalentInfo___c_TypeDefinitionIndex = 55356;
+	inline static constexpr unsigned int RogueTournPermanentTalentInfo___c_TypeDefinitionIndex = 62547;
 
 	class RogueTournPermanentTalentInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RogueTalentDataItem*, ::System::UInt32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTalentDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPermanentTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x1E700);
+			return (::System::Func_2<::RPG::Client::RogueTalentDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPermanentTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x1A8F0);
 		}
 		static ::RPG::Client::RogueTournPermanentTalentInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournPermanentTalentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPermanentTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x1E708);
+			return (::RPG::Client::RogueTournPermanentTalentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPermanentTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x1A8F8);
 		}
 
 		static ::System::Void _cctor()

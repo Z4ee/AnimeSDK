@@ -5,11 +5,11 @@
 
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITTOIMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA64CEB0)
+#define RPG_CLIENT_UI_UISTATECTRL_LOADSPRITTOIMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB3A4930)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int LoadSpritToImageData_TypeDefinitionIndex = 60719;
+	inline static constexpr unsigned int LoadSpritToImageData_TypeDefinitionIndex = 68161;
 
 	class LoadSpritToImageData : public ::System::Object
 	{

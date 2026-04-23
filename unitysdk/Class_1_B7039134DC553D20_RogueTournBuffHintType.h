@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_B7039134DC553D20_RogueTournBuffHintType_TypeDefinitionIndex = 48596;
+inline static constexpr unsigned int Class_1_B7039134DC553D20_RogueTournBuffHintType_TypeDefinitionIndex = 55345;
 
 enum class Class_1_B7039134DC553D20_RogueTournBuffHintType : ::System::Int32
 {

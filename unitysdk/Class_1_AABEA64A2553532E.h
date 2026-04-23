@@ -6,17 +6,17 @@ class Class_0_16E4307DCC419505_118;
 class Class_1_2CF216D11FB56512;
 namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 
-#define CLASS_1_AABEA64A2553532E_CLEAR_OFFSET UNITYSDK_OFFSET(0x1677D380)
-#define CLASS_1_AABEA64A2553532E__CTOR_OFFSET UNITYSDK_OFFSET(0x1677D460)
+#define CLASS_1_AABEA64A2553532E_CLEAR_OFFSET UNITYSDK_OFFSET(0x17E519A0)
+#define CLASS_1_AABEA64A2553532E__CTOR_OFFSET UNITYSDK_OFFSET(0x17E51A90)
 
-inline static constexpr unsigned int Class_1_AABEA64A2553532E_TypeDefinitionIndex = 33411;
+inline static constexpr unsigned int Class_1_AABEA64A2553532E_TypeDefinitionIndex = 39202;
 
 class Class_1_AABEA64A2553532E : public ::System::Object
 {
 public:
-	::RPG::GameCore::MiniGameCollectCoinConfig* Field_1_1; // 0x10
-	::Class_1_2CF216D11FB56512* Field_1_2; // 0x18
-	::Class_0_16E4307DCC419505_118* Field_1_0; // 0x20
+	::Class_1_2CF216D11FB56512* Field_1_2; // 0x10
+	::Class_0_16E4307DCC419505_118* Field_1_0; // 0x18
+	::RPG::GameCore::MiniGameCollectCoinConfig* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

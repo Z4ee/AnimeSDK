@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_ITFWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x18D1E9C0)
-#define ZXING_ONED_ITFWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x18D1E910)
-#define ZXING_ONED_ITFWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D1F530)
-#define ZXING_ONED_ITFWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18D13340)
+#define ZXING_ONED_ITFWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1A759F70)
+#define ZXING_ONED_ITFWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A759EC0)
+#define ZXING_ONED_ITFWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A75AAE0)
+#define ZXING_ONED_ITFWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A74E8F0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int ITFWriter_TypeDefinitionIndex = 6038;
+	inline static constexpr unsigned int ITFWriter_TypeDefinitionIndex = 6050;
 
 	class ITFWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_END_PATTERN()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ITFWriter_TypeDefinitionIndex)->GetStaticField(0x88A0);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_START_PATTERN()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ITFWriter_TypeDefinitionIndex)->GetStaticField(0x88A8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ITFWriter_TypeDefinitionIndex)->GetStaticField(0x4BA0);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_END_PATTERN()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ITFWriter_TypeDefinitionIndex)->GetStaticField(0x4BA8);
 		}
 
 		::System::Void _ctor()

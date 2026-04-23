@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingStrategyPriority_TypeDefinitionIndex = 48955;
+	inline static constexpr unsigned int LoadingStrategyPriority_TypeDefinitionIndex = 55747;
 
 	enum class LoadingStrategyPriority : ::System::Int32
 	{
@@ -11,6 +11,7 @@ namespace RPG::Client
 		Middle = 1,
 		High = 2,
 		VeryHigh = 3,
-		Exclusive = 4,
+		Highest = 4,
+		Exclusive = 5,
 	};
 }

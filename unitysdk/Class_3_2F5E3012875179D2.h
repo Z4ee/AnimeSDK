@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InfiniteWaveAddCurWaveMaxCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F5E3012875179D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99D0B50)
-#define CLASS_3_2F5E3012875179D2__CTOR_OFFSET UNITYSDK_OFFSET(0x99D0B20)
+#define CLASS_3_2F5E3012875179D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1284A870)
+#define CLASS_3_2F5E3012875179D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1284A840)
 
-inline static constexpr unsigned int Class_3_2F5E3012875179D2_TypeDefinitionIndex = 44112;
+inline static constexpr unsigned int Class_3_2F5E3012875179D2_TypeDefinitionIndex = 50817;
 
 class Class_3_2F5E3012875179D2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InfiniteWaveAddCurWaveMaxCount*>
 {

@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class MonoBehaviour; }
+class Class_1_7B4E9156998275BE;
+namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_292_TypeDefinitionIndex = 49199;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_292_TypeDefinitionIndex = 39865;
 
 class Class_0_16E4307DCC419505_292
 {

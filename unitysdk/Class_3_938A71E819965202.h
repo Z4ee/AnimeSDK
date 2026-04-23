@@ -1,0 +1,94 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_48D5573CEBA360F7.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
+
+class Class_1_5785A2BB95C3C8F0;
+
+#define CLASS_3_938A71E819965202_METHOD_3_062BF85B066F4A65_OFFSET UNITYSDK_OFFSET(0x8FD7740)
+#define CLASS_3_938A71E819965202_METHOD_3_17967D01F9938624_OFFSET UNITYSDK_OFFSET(0x8FD7D30)
+#define CLASS_3_938A71E819965202_METHOD_3_19F951B38D2C86E3_OFFSET UNITYSDK_OFFSET(0x8FD7AE0)
+#define CLASS_3_938A71E819965202_METHOD_3_1E01B0A97CB45672_1_OFFSET UNITYSDK_OFFSET(0x8FD8810)
+#define CLASS_3_938A71E819965202_METHOD_3_1E01B0A97CB45672_OFFSET UNITYSDK_OFFSET(0x8FD87A0)
+#define CLASS_3_938A71E819965202_METHOD_3_5EB6B43A59A0A89B_OFFSET UNITYSDK_OFFSET(0x8FD7E50)
+#define CLASS_3_938A71E819965202_METHOD_3_70603E2AE56EBD6B_OFFSET UNITYSDK_OFFSET(0x8FD7630)
+#define CLASS_3_938A71E819965202_METHOD_3_80013B1B67223DC6_OFFSET UNITYSDK_OFFSET(0x8FD8880)
+#define CLASS_3_938A71E819965202_METHOD_3_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x8FD86D0)
+#define CLASS_3_938A71E819965202_METHOD_3_A5399A0D57CB1550_OFFSET UNITYSDK_OFFSET(0x8FD8720)
+#define CLASS_3_938A71E819965202_METHOD_3_E1C781B015372A64_OFFSET UNITYSDK_OFFSET(0x8FD8790)
+#define CLASS_3_938A71E819965202_METHOD_3_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0x8FD8890)
+#define CLASS_3_938A71E819965202__CTOR_OFFSET UNITYSDK_OFFSET(0x8FD8770)
+
+inline static constexpr unsigned int Class_3_938A71E819965202_TypeDefinitionIndex = 70732;
+
+class Class_3_938A71E819965202 : public ::Class_2_48D5573CEBA360F7
+{
+public:
+	::System::Single Field_3_1; // 0x38
+	::System::Single Field_3_0; // 0x3C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_70603E2AE56EBD6B(::Class_1_5785A2BB95C3C8F0* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5785A2BB95C3C8F0*))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_70603E2AE56EBD6B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_062BF85B066F4A65(::RPG::Client::LittleGame::FiveDim::PropMoveState a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_062BF85B066F4A65_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_17967D01F9938624(::RPG::Client::LittleGame::FiveDim::PropMoveState a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_17967D01F9938624_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_5EB6B43A59A0A89B(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_5EB6B43A59A0A89B_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_3_19F951B38D2C86E3()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_19F951B38D2C86E3_OFFSET))(this);
+	}
+
+	::System::Single Method_3_A36150C5DCC8409E()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_A36150C5DCC8409E_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGame::FiveDim::PropMoveState Method_3_A5399A0D57CB1550()
+	{
+		return ((::RPG::Client::LittleGame::FiveDim::PropMoveState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_A5399A0D57CB1550_OFFSET))(this);
+	}
+
+	::System::Void Method_3_E1C781B015372A64(::Class_1_5785A2BB95C3C8F0* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5785A2BB95C3C8F0*))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_E1C781B015372A64_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_1E01B0A97CB45672(::RPG::Client::LittleGame::FiveDim::PropMoveState P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_1E01B0A97CB45672_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_1E01B0A97CB45672_1(::RPG::Client::LittleGame::FiveDim::PropMoveState P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::PropMoveState))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_1E01B0A97CB45672_1_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_3_80013B1B67223DC6(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_80013B1B67223DC6_OFFSET))(this, P0);
+	}
+
+	::System::Single Method_3_FB4BE762B6186C23()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_938A71E819965202_METHOD_3_FB4BE762B6186C23_OFFSET))(this);
+	}
+};

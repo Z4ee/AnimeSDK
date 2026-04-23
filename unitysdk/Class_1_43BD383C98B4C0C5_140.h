@@ -2,11 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_140_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x8A20CF0)
-#define CLASS_1_43BD383C98B4C0C5_140_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8A20CB0)
-#define CLASS_1_43BD383C98B4C0C5_140__CTOR_OFFSET UNITYSDK_OFFSET(0x8A20CA0)
+namespace RPG::Client { class PenaconyEndmostChronicleData; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_140_TypeDefinitionIndex = 53879;
+#define CLASS_1_43BD383C98B4C0C5_140_METHOD_1_9870AE40E3939725_OFFSET UNITYSDK_OFFSET(0x983B190)
+#define CLASS_1_43BD383C98B4C0C5_140__CTOR_OFFSET UNITYSDK_OFFSET(0x983B3E0)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_140_TypeDefinitionIndex = 60867;
 
 class Class_1_43BD383C98B4C0C5_140 : public ::System::Object
 {
@@ -16,13 +17,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_140__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_CA373AA1C7054598()
+	static ::RPG::Client::PenaconyEndmostChronicleData* Method_1_9870AE40E3939725()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_140_METHOD_1_CA373AA1C7054598_OFFSET))(this);
-	}
-
-	::System::Int32 Method_1_A1D8CD775DEC3C21()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_140_METHOD_1_A1D8CD775DEC3C21_OFFSET))(this);
+		return ((::RPG::Client::PenaconyEndmostChronicleData*(*)())((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_140_METHOD_1_9870AE40E3939725_OFFSET))();
 	}
 };

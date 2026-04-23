@@ -21,13 +21,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_E18A5679AF820732_OFFSET UNITYSDK_OFFSET(0x16FE86C0)
-#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_F505FC2092F2F0F5_OFFSET UNITYSDK_OFFSET(0x16FE7BA0)
-#define RPG_GAMECORE_BLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE8430)
+#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_8BD8CF61CE0F5671_OFFSET UNITYSDK_OFFSET(0x1870C630)
+#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_E18A5679AF820732_OFFSET UNITYSDK_OFFSET(0x1870C2D0)
+#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_F505FC2092F2F0F5_OFFSET UNITYSDK_OFFSET(0x1870B7B0)
+#define RPG_GAMECORE_BLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870C040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockConfig_TypeDefinitionIndex = 17522;
+	inline static constexpr unsigned int BlockConfig_TypeDefinitionIndex = 18131;
 
 	class BlockConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -77,6 +78,11 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::StagePrefabInfo*>* Method_2_E18A5679AF820732(::System::Int32 a1)
 		{
 			return ((::Il2CppArray<::RPG::GameCore::StagePrefabInfo*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKCONFIG_METHOD_2_E18A5679AF820732_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::RPG::GameCore::StreamingItemHLODNode*>* Method_2_8BD8CF61CE0F5671(::System::Int32 a1)
+		{
+			return ((::Il2CppArray<::RPG::GameCore::StreamingItemHLODNode*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKCONFIG_METHOD_2_8BD8CF61CE0F5671_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::UI { class GetToggleFriendsKeyOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x20160)
+#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x20150)
 #define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int GetToggleFriendsKeyOptionsInternal_TypeDefinitionIndex = 35306;
+	inline static constexpr unsigned int GetToggleFriendsKeyOptionsInternal_TypeDefinitionIndex = 41132;
 
 	struct alignas(4) GetToggleFriendsKeyOptionsInternal
 	{

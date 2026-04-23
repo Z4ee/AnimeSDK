@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B0310)
-#define RPG_GAMECORE_MATCHTHREEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B04B0)
+#define RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ABE470)
+#define RPG_GAMECORE_MATCHTHREEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABE610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeEmojiRow_TypeDefinitionIndex = 10962;
+	inline static constexpr unsigned int MatchThreeEmojiRow_TypeDefinitionIndex = 11366;
 
 	class MatchThreeEmojiRow : public ::System::Object
 	{

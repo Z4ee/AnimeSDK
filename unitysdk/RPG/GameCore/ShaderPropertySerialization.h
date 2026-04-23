@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHADERPROPERTYSERIALIZATION_METHOD_2_09CB9B5A106B1D66_OFFSET UNITYSDK_OFFSET(0x176EBC10)
-#define RPG_GAMECORE_SHADERPROPERTYSERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x176EBEC0)
+#define RPG_GAMECORE_SHADERPROPERTYSERIALIZATION_METHOD_2_09CB9B5A106B1D66_OFFSET UNITYSDK_OFFSET(0x18E4F260)
+#define RPG_GAMECORE_SHADERPROPERTYSERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18E4F510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderPropertySerialization_TypeDefinitionIndex = 17620;
+	inline static constexpr unsigned int ShaderPropertySerialization_TypeDefinitionIndex = 18233;
 
 	class ShaderPropertySerialization : public ::RPG::GameCore::JsonConfig
 	{

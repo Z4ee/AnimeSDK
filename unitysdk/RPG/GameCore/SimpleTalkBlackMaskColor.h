@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkBlackMaskColor_TypeDefinitionIndex = 19167;
+	inline static constexpr unsigned int SimpleTalkBlackMaskColor_TypeDefinitionIndex = 19826;
 
 	enum class SimpleTalkBlackMaskColor : ::System::Int32
 	{

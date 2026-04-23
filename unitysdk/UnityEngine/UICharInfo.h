@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UICharInfo_TypeDefinitionIndex = 4943;
+	inline static constexpr unsigned int UICharInfo_TypeDefinitionIndex = 4951;
 
 	struct alignas(4) UICharInfo
 	{

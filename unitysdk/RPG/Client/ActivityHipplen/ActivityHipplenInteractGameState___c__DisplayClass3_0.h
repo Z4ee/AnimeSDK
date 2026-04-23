@@ -5,18 +5,18 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenInteractGameState; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTGAMESTATE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F201C0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTGAMESTATE___C__DISPLAYCLASS3_0__ONREALENTER_B__0_OFFSET UNITYSDK_OFFSET(0x8F20870)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTGAMESTATE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9AF0F60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTGAMESTATE___C__DISPLAYCLASS3_0__ONREALENTER_B__0_OFFSET UNITYSDK_OFFSET(0x9AF1890)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenInteractGameState___c__DisplayClass3_0_TypeDefinitionIndex = 61666;
+	inline static constexpr unsigned int ActivityHipplenInteractGameState___c__DisplayClass3_0_TypeDefinitionIndex = 69576;
 
 	class ActivityHipplenInteractGameState___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game; // 0x10
-		::RPG::Client::ActivityHipplen::ActivityHipplenInteractGameState* __4__this; // 0x18
+		::RPG::Client::ActivityHipplen::ActivityHipplenInteractGameState* __4__this; // 0x10
+		::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game; // 0x18
 
 		::System::Void _ctor()
 		{

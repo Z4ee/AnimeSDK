@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/MaterialProppertySetWay.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_4A079651EE691832_METHOD_1_9DCD107E332AF972_OFFSET UNITYSDK_OFFSET(0x89C1570)
+#define CLASS_1_4A079651EE691832_METHOD_1_9DCD107E332AF972_OFFSET UNITYSDK_OFFSET(0x11894EF0)
 
-inline static constexpr unsigned int Class_1_4A079651EE691832_TypeDefinitionIndex = 57095;
+inline static constexpr unsigned int Class_1_4A079651EE691832_TypeDefinitionIndex = 64346;
 
 class Class_1_4A079651EE691832 : public ::System::Object
 {

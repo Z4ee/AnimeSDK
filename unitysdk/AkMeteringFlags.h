@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkMeteringFlags_TypeDefinitionIndex = 34498;
+inline static constexpr unsigned int AkMeteringFlags_TypeDefinitionIndex = 40317;
 
 enum class AkMeteringFlags : ::System::Int32
 {

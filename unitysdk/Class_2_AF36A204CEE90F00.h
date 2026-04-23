@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropCurveMoveArrived; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_AF36A204CEE90F00_DISPOSE_OFFSET UNITYSDK_OFFSET(0x115C2390)
-#define CLASS_2_AF36A204CEE90F00_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x115C2840)
-#define CLASS_2_AF36A204CEE90F00_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x115C2560)
-#define CLASS_2_AF36A204CEE90F00_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x115C2470)
-#define CLASS_2_AF36A204CEE90F00_TICK_OFFSET UNITYSDK_OFFSET(0x115C2760)
-#define CLASS_2_AF36A204CEE90F00__CTOR_OFFSET UNITYSDK_OFFSET(0x115C2310)
+#define CLASS_2_AF36A204CEE90F00_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8F46F20)
+#define CLASS_2_AF36A204CEE90F00_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x8F473D0)
+#define CLASS_2_AF36A204CEE90F00_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8F470F0)
+#define CLASS_2_AF36A204CEE90F00_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8F47000)
+#define CLASS_2_AF36A204CEE90F00_TICK_OFFSET UNITYSDK_OFFSET(0x8F472F0)
+#define CLASS_2_AF36A204CEE90F00__CTOR_OFFSET UNITYSDK_OFFSET(0x8F46EA0)
 
-inline static constexpr unsigned int Class_2_AF36A204CEE90F00_TypeDefinitionIndex = 47582;
+inline static constexpr unsigned int Class_2_AF36A204CEE90F00_TypeDefinitionIndex = 54320;
 
 class Class_2_AF36A204CEE90F00 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::System::String* Field_2_4; // 0x20
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x28
-	::RPG::GameCore::WaitPropCurveMoveArrived* Field_2_1; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x38
-	::System::String* Field_2_7; // 0x40
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x20
+	::System::String* Field_2_4; // 0x28
+	::System::String* Field_2_7; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x38
+	::RPG::GameCore::WaitPropCurveMoveArrived* Field_2_1; // 0x40
 	::System::UInt32 Field_2_5; // 0x48
 	::System::UInt32 Field_2_6; // 0x4C
 

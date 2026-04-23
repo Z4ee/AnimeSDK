@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class CharaEyeLightBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB33360)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB33350)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB33560)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8A7390)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB8A7380)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A7590)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharaEyeLightClip_TypeDefinitionIndex = 38785;
+	inline static constexpr unsigned int CharaEyeLightClip_TypeDefinitionIndex = 44684;
 
 	class CharaEyeLightClip : public ::UnityEngine::Playables::PlayableAsset
 	{

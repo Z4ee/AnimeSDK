@@ -6,7 +6,7 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int RepeatedField_1__GetEnumerator_d__22_TypeDefinitionIndex = 6379;
+	inline static constexpr unsigned int RepeatedField_1__GetEnumerator_d__22_TypeDefinitionIndex = 6389;
 
 	template <typename T>
 	class RepeatedField_1__GetEnumerator_d__22 : public ::System::Object

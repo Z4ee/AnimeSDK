@@ -5,7 +5,7 @@
 
 namespace System::IO::MemoryMappedFiles
 {
-	inline static constexpr unsigned int MemoryMappedFileSecurity_TypeDefinitionIndex = 3110;
+	inline static constexpr unsigned int MemoryMappedFileSecurity_TypeDefinitionIndex = 3111;
 
 	class MemoryMappedFileSecurity : public ::System::Security::AccessControl::ObjectSecurity_1<::System::IO::MemoryMappedFiles::MemoryMappedFileRights>
 	{

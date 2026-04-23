@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefUnionIndex_UnionKind_TypeDefinitionIndex = 55060;
+	inline static constexpr unsigned int RogueTournBuildRefUnionIndex_UnionKind_TypeDefinitionIndex = 62248;
 
 	enum class RogueTournBuildRefUnionIndex_UnionKind : ::System::Byte
 	{

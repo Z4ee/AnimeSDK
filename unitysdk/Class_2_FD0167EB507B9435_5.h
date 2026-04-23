@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_F0A446EC7AE7E87D_1;
+class Class_1_EBD9A77671154634;
 
-#define CLASS_2_FD0167EB507B9435_5__CTOR_OFFSET UNITYSDK_OFFSET(0xA9B08C0)
+#define CLASS_2_FD0167EB507B9435_5__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC6140)
 
-inline static constexpr unsigned int Class_2_FD0167EB507B9435_5_TypeDefinitionIndex = 52796;
+inline static constexpr unsigned int Class_2_FD0167EB507B9435_5_TypeDefinitionIndex = 59859;
 
 class Class_2_FD0167EB507B9435_5 : public ::RPG::Client::GridFightGameModifier
 {
 public:
-	::System::Void _ctor(::Class_1_F0A446EC7AE7E87D_1* a1)
+	::System::Void _ctor(::Class_1_EBD9A77671154634* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435_5__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435_5__CTOR_OFFSET))(this, a1);
 	}
 };

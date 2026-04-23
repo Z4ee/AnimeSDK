@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MVVM::ViewModel
 {
-	inline static constexpr unsigned int LimaoNewsPostAnimation_TypeDefinitionIndex = 60960;
+	inline static constexpr unsigned int LimaoNewsPostAnimation_TypeDefinitionIndex = 68411;
 
 	enum class LimaoNewsPostAnimation : ::System::Int32
 	{

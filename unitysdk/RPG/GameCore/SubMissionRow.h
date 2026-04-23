@@ -5,43 +5,40 @@
 #include "unitysdk/System/ValueTuple_3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class SubMissionInfoConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x17787F10)
-#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177880F0)
-#define RPG_GAMECORE_SUBMISSIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1778A430)
-#define RPG_GAMECORE_SUBMISSIONROW_GETMAINMISSIONIDBYSUBMISSION_OFFSET UNITYSDK_OFFSET(0x1778A780)
-#define RPG_GAMECORE_SUBMISSIONROW_GETSUBMISSIONINFOCONFIGFOREDITOR_OFFSET UNITYSDK_OFFSET(0x1778A9C0)
-#define RPG_GAMECORE_SUBMISSIONROW_GET_INITED_OFFSET UNITYSDK_OFFSET(0x1778A4C0)
-#define RPG_GAMECORE_SUBMISSIONROW_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1778A990)
-#define RPG_GAMECORE_SUBMISSIONROW_LAZYLOADLEGACYIDMAPPING_OFFSET UNITYSDK_OFFSET(0x1778A4E0)
-#define RPG_GAMECORE_SUBMISSIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1778A490)
-#define RPG_GAMECORE_SUBMISSIONROW_SET_INITED_OFFSET UNITYSDK_OFFSET(0x1778A4D0)
-#define RPG_GAMECORE_SUBMISSIONROW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1778AB40)
-#define RPG_GAMECORE_SUBMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1778A4B0)
+#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x18EADBF0)
+#define RPG_GAMECORE_SUBMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EADDD0)
+#define RPG_GAMECORE_SUBMISSIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x18EB0110)
+#define RPG_GAMECORE_SUBMISSIONROW_GETMAINMISSIONIDBYSUBMISSION_OFFSET UNITYSDK_OFFSET(0x18EB0460)
+#define RPG_GAMECORE_SUBMISSIONROW_GET_INITED_OFFSET UNITYSDK_OFFSET(0x18EB01A0)
+#define RPG_GAMECORE_SUBMISSIONROW_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x18EB0670)
+#define RPG_GAMECORE_SUBMISSIONROW_LAZYLOADLEGACYIDMAPPING_OFFSET UNITYSDK_OFFSET(0x18EB01C0)
+#define RPG_GAMECORE_SUBMISSIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x18EB0170)
+#define RPG_GAMECORE_SUBMISSIONROW_SET_INITED_OFFSET UNITYSDK_OFFSET(0x18EB01B0)
+#define RPG_GAMECORE_SUBMISSIONROW__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EB06A0)
+#define RPG_GAMECORE_SUBMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB0190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionRow_TypeDefinitionIndex = 12933;
+	inline static constexpr unsigned int SubMissionRow_TypeDefinitionIndex = 13394;
 
 	class SubMissionRow : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>** StaticGet__LegacyMissionIDPair()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SubMissionRow_TypeDefinitionIndex)->GetStaticField(0x129A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SubMissionRow_TypeDefinitionIndex)->GetStaticField(0x55300);
 		}
 		static ::System::String** StaticGet_MISSION_ID_PAIR_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SubMissionRow_TypeDefinitionIndex)->GetStaticField(0x129A8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SubMissionRow_TypeDefinitionIndex)->GetStaticField(0x55308);
 		}
-		::RPG::GameCore::SubMissionInfoConfig* _SubMissionInfoConfig; // 0x10
-		::RPG::Client::TextID DescrptionText; // 0x18
-		::System::UInt32 SubMissionID; // 0x28
-		::System::Boolean _Inited_k__BackingField; // 0x2C
-		::RPG::Client::TextID TargetText; // 0x30
+		::RPG::Client::TextID DescrptionText; // 0x10
+		::RPG::Client::TextID TargetText; // 0x20
+		::System::Boolean _Inited_k__BackingField; // 0x30
+		::System::UInt32 SubMissionID; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -96,11 +93,6 @@ namespace RPG::GameCore
 		::System::UInt32 get_MainMissionID()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONROW_GET_MAINMISSIONID_OFFSET))(this);
-		}
-
-		::RPG::GameCore::SubMissionInfoConfig* GetSubMissionInfoConfigForEditor()
-		{
-			return ((::RPG::GameCore::SubMissionInfoConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONROW_GETSUBMISSIONINFOCONFIGFOREDITOR_OFFSET))(this);
 		}
 	};
 }

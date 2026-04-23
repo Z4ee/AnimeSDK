@@ -3,19 +3,19 @@
 #include "unitysdk/Class_1_82F5C77DD4957B13.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_1_752172F3794CD86F;
+class Class_1_B10FFA91399295A9;
 
-#define CLASS_2_AB410D28C98F5E0E_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x110BB360)
-#define CLASS_2_AB410D28C98F5E0E__CTOR_OFFSET UNITYSDK_OFFSET(0x110BB370)
+#define CLASS_2_AB410D28C98F5E0E_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x910DE90)
+#define CLASS_2_AB410D28C98F5E0E__CTOR_OFFSET UNITYSDK_OFFSET(0x910DEA0)
 
-inline static constexpr unsigned int Class_2_AB410D28C98F5E0E_TypeDefinitionIndex = 46439;
+inline static constexpr unsigned int Class_2_AB410D28C98F5E0E_TypeDefinitionIndex = 53127;
 
 class Class_2_AB410D28C98F5E0E : public ::Class_1_82F5C77DD4957B13
 {
 public:
-	::Class_1_752172F3794CD86F* Field_2_0; // 0x20
-	::System::UInt32 Field_2_2; // 0x28
-	::System::UInt32 Field_2_3; // 0x2C
+	::Class_1_B10FFA91399295A9* Field_2_0; // 0x20
+	::System::UInt32 Field_2_3; // 0x28
+	::System::UInt32 Field_2_2; // 0x2C
 	::RPG::GameCore::FixPoint Field_2_1; // 0x30
 
 	::System::Void _ctor()

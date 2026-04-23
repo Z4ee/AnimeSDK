@@ -11,53 +11,53 @@ namespace SRDebugger::Services { class IOptionCollectionService; }
 namespace SRDebugger::Services { class IOptionsService; }
 namespace SRDebugger::Services { class IPinnedUIService; }
 
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_CONSOLE_OFFSET UNITYSDK_OFFSET(0x18431E80)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_DEBUGCAMERA_OFFSET UNITYSDK_OFFSET(0x18434E40)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_DOCKCONSOLE_OFFSET UNITYSDK_OFFSET(0x18435250)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_OPTIONCOLLECTION_OFFSET UNITYSDK_OFFSET(0x18435450)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x184353F0)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_PANEL_OFFSET UNITYSDK_OFFSET(0x184352D0)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_PINNEDUI_OFFSET UNITYSDK_OFFSET(0x18435390)
-#define SRDEBUGGER_INTERNAL_SERVICE_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0x18435330)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_CONSOLE_OFFSET UNITYSDK_OFFSET(0x19E6CB10)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_DEBUGCAMERA_OFFSET UNITYSDK_OFFSET(0x19E6FB20)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_DOCKCONSOLE_OFFSET UNITYSDK_OFFSET(0x19E6FF50)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_OPTIONCOLLECTION_OFFSET UNITYSDK_OFFSET(0x19E70150)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x19E700F0)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_PANEL_OFFSET UNITYSDK_OFFSET(0x19E6FFD0)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_PINNEDUI_OFFSET UNITYSDK_OFFSET(0x19E70090)
+#define SRDEBUGGER_INTERNAL_SERVICE_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0x19E70030)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int Service_TypeDefinitionIndex = 29752;
+	inline static constexpr unsigned int Service_TypeDefinitionIndex = 35472;
 
 	class Service : public ::System::Object
 	{
 	public:
-		static ::SRDebugger::Services::IOptionCollectionService** StaticGet__optionCollectionService()
-		{
-			return (::SRDebugger::Services::IOptionCollectionService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32230);
-		}
-		static ::SRDebugger::Services::IOptionsService** StaticGet__optionsService()
-		{
-			return (::SRDebugger::Services::IOptionsService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32238);
-		}
-		static ::SRDebugger::Services::IDebugTriggerService** StaticGet__debugTriggerService()
-		{
-			return (::SRDebugger::Services::IDebugTriggerService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32240);
-		}
-		static ::SRDebugger::Services::IDebugCameraService** StaticGet__debugCameraService()
-		{
-			return (::SRDebugger::Services::IDebugCameraService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32248);
-		}
-		static ::SRDebugger::Services::IConsoleService** StaticGet__consoleService()
-		{
-			return (::SRDebugger::Services::IConsoleService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32250);
-		}
-		static ::SRDebugger::Services::IDebugPanelService** StaticGet__debugPanelService()
-		{
-			return (::SRDebugger::Services::IDebugPanelService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32258);
-		}
 		static ::SRDebugger::Services::IPinnedUIService** StaticGet__pinnedUiService()
 		{
-			return (::SRDebugger::Services::IPinnedUIService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32260);
+			return (::SRDebugger::Services::IPinnedUIService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68530);
+		}
+		static ::SRDebugger::Services::IOptionCollectionService** StaticGet__optionCollectionService()
+		{
+			return (::SRDebugger::Services::IOptionCollectionService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68538);
 		}
 		static ::SRDebugger::Services::IDockConsoleService** StaticGet__dockConsoleService()
 		{
-			return (::SRDebugger::Services::IDockConsoleService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x32268);
+			return (::SRDebugger::Services::IDockConsoleService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68540);
+		}
+		static ::SRDebugger::Services::IDebugTriggerService** StaticGet__debugTriggerService()
+		{
+			return (::SRDebugger::Services::IDebugTriggerService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68548);
+		}
+		static ::SRDebugger::Services::IDebugCameraService** StaticGet__debugCameraService()
+		{
+			return (::SRDebugger::Services::IDebugCameraService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68550);
+		}
+		static ::SRDebugger::Services::IOptionsService** StaticGet__optionsService()
+		{
+			return (::SRDebugger::Services::IOptionsService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68558);
+		}
+		static ::SRDebugger::Services::IDebugPanelService** StaticGet__debugPanelService()
+		{
+			return (::SRDebugger::Services::IDebugPanelService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68560);
+		}
+		static ::SRDebugger::Services::IConsoleService** StaticGet__consoleService()
+		{
+			return (::SRDebugger::Services::IConsoleService**)Il2CppClass::FromTypeDefinitionIndex(Service_TypeDefinitionIndex)->GetStaticField(0x68568);
 		}
 
 		static ::SRDebugger::Services::IConsoleService* get_Console()

@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_TimerNode_TimerState_TypeDefinitionIndex = 2779;
+	inline static constexpr unsigned int TimerThread_TimerNode_TimerState_TypeDefinitionIndex = 2780;
 
 	enum class TimerThread_TimerNode_TimerState : ::System::Int32
 	{

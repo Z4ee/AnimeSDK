@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_SPVC__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C4370)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_SPVC__CTOR_OFFSET UNITYSDK_OFFSET(0xB507470)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int ShaderPassVarientCollection_SPVC_TypeDefinitionIndex = 42034;
+	inline static constexpr unsigned int ShaderPassVarientCollection_SPVC_TypeDefinitionIndex = 48007;
 
 	class ShaderPassVarientCollection_SPVC : public ::System::Object
 	{

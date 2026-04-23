@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WarmupSubpass_TypeDefinitionIndex = 4187;
+	inline static constexpr unsigned int WarmupSubpass_TypeDefinitionIndex = 4189;
 
 	struct alignas(8) WarmupSubpass
 	{

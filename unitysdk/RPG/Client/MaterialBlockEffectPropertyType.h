@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectPropertyType_TypeDefinitionIndex = 57854;
+	inline static constexpr unsigned int MaterialBlockEffectPropertyType_TypeDefinitionIndex = 65141;
 
 	enum class MaterialBlockEffectPropertyType : ::System::Int32
 	{

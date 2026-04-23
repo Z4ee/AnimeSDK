@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_METHOD_2_48EBC367B5D02425_OFFSET UNITYSDK_OFFSET(0x174ABB70)
-#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x174ABD60)
+#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_METHOD_2_48EBC367B5D02425_OFFSET UNITYSDK_OFFSET(0x18BF7120)
+#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF7310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphResultContainer_TypeDefinitionIndex = 19784;
+	inline static constexpr unsigned int PhotoGraphResultContainer_TypeDefinitionIndex = 20465;
 
 	class PhotoGraphResultContainer : public ::RPG::GameCore::JsonConfig
 	{

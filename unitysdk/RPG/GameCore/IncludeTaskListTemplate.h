@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_6A3620DBDAE982A1_OFFSET UNITYSDK_OFFSET(0x172B9890)
-#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_C671ECC815C8E09E_OFFSET UNITYSDK_OFFSET(0x172B9910)
-#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x172B98E0)
+#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_6A3620DBDAE982A1_OFFSET UNITYSDK_OFFSET(0x18A1BE40)
+#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE_METHOD_3_C671ECC815C8E09E_OFFSET UNITYSDK_OFFSET(0x18A1BEC0)
+#define RPG_GAMECORE_INCLUDETASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1BE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IncludeTaskListTemplate_TypeDefinitionIndex = 22104;
+	inline static constexpr unsigned int IncludeTaskListTemplate_TypeDefinitionIndex = 22824;
 
 	class IncludeTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{

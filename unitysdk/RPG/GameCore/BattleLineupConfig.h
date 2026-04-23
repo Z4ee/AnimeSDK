@@ -8,12 +8,12 @@ namespace RPG::GameCore { class BattleLineupAvatarConfig; }
 namespace RPG::GameCore { class LineupGridFightConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLELINEUPCONFIG_METHOD_2_CE3B5EDCD21307FE_OFFSET UNITYSDK_OFFSET(0x16FD9160)
-#define RPG_GAMECORE_BATTLELINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD93A0)
+#define RPG_GAMECORE_BATTLELINEUPCONFIG_METHOD_2_CE3B5EDCD21307FE_OFFSET UNITYSDK_OFFSET(0x186FCB40)
+#define RPG_GAMECORE_BATTLELINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186FCD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupConfig_TypeDefinitionIndex = 16639;
+	inline static constexpr unsigned int BattleLineupConfig_TypeDefinitionIndex = 17231;
 
 	class BattleLineupConfig : public ::RPG::GameCore::JsonConfig
 	{

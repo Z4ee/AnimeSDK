@@ -3,14 +3,12 @@
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
 
-namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1634BC20)
-#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1634D710)
-#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1634D780)
-#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1634D670)
+#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17978970)
+#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1797A330)
+#define SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1797A290)
 
 namespace System
 {
@@ -29,14 +27,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_1_OFFSET))(this, message);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
-		}
-
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_INDEXOUTOFRANGEEXCEPTION__CTOR_2_OFFSET))(this, info, context);
 		}
 	};
 }

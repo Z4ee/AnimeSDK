@@ -6,12 +6,12 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class LayoutElement; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_INIT_OFFSET UNITYSDK_OFFSET(0x9D16AC0)
-#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D16BC0)
+#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_INIT_OFFSET UNITYSDK_OFFSET(0xA9D9E50)
+#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA9D9F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLocalizeTextHeightAdjuster_TypeDefinitionIndex = 59481;
+	inline static constexpr unsigned int MonoLocalizeTextHeightAdjuster_TypeDefinitionIndex = 66876;
 
 	class MonoLocalizeTextHeightAdjuster : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GlobalModifyInsertAbilityPriority; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A21AC2E7E40783E9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10639520)
-#define CLASS_3_A21AC2E7E40783E9__CTOR_OFFSET UNITYSDK_OFFSET(0x106394F0)
+#define CLASS_3_A21AC2E7E40783E9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11B3F680)
+#define CLASS_3_A21AC2E7E40783E9__CTOR_OFFSET UNITYSDK_OFFSET(0x11B3F650)
 
-inline static constexpr unsigned int Class_3_A21AC2E7E40783E9_TypeDefinitionIndex = 44073;
+inline static constexpr unsigned int Class_3_A21AC2E7E40783E9_TypeDefinitionIndex = 50778;
 
 class Class_3_A21AC2E7E40783E9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GlobalModifyInsertAbilityPriority*>
 {

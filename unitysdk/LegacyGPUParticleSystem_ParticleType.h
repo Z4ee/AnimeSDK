@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LegacyGPUParticleSystem_ParticleType_TypeDefinitionIndex = 33907;
+inline static constexpr unsigned int LegacyGPUParticleSystem_ParticleType_TypeDefinitionIndex = 39708;
 
 enum class LegacyGPUParticleSystem_ParticleType : ::System::Int32
 {

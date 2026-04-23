@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GridFightShowBattleEventHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AE1B77F5D94C7B51_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110DED20)
-#define CLASS_3_AE1B77F5D94C7B51__CTOR_OFFSET UNITYSDK_OFFSET(0x110DECF0)
+#define CLASS_3_AE1B77F5D94C7B51_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9715490)
+#define CLASS_3_AE1B77F5D94C7B51__CTOR_OFFSET UNITYSDK_OFFSET(0x9715460)
 
-inline static constexpr unsigned int Class_3_AE1B77F5D94C7B51_TypeDefinitionIndex = 46913;
+inline static constexpr unsigned int Class_3_AE1B77F5D94C7B51_TypeDefinitionIndex = 53626;
 
 class Class_3_AE1B77F5D94C7B51 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GridFightShowBattleEventHint*>
 {

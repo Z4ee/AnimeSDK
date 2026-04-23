@@ -24,44 +24,44 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class VolumeStack; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_CLEANUP_OFFSET UNITYSDK_OFFSET(0x16A669A0)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x16A6F4E0)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x16A6EA70)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x16A67320)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_UPDATE_OFFSET UNITYSDK_OFFSET(0x16A6E900)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2__CTOR_OFFSET UNITYSDK_OFFSET(0x16A62330)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_CLEANUP_OFFSET UNITYSDK_OFFSET(0x18109BF0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x181127B0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18111D50)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x1810A590)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_UPDATE_OFFSET UNITYSDK_OFFSET(0x18111BF0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2__CTOR_OFFSET UNITYSDK_OFFSET(0x18105540)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessPass2_TypeDefinitionIndex = 29385;
+	inline static constexpr unsigned int CustomPostProcessPass2_TypeDefinitionIndex = 35152;
 
 	class CustomPostProcessPass2 : public ::System::Object
 	{
 	public:
 		// static const ::System::String* _Tag; // 0x0
-		::RPG::CustomRP::CustomPostProcessSettings* _Settings; // 0x10
-		::RPG::CustomRP::RPGLensFlareRenderer* _LensFlareRenderer; // 0x18
-		::RPG::CustomRP::RPGPPPatternRenderer* _PPPatternRender; // 0x20
-		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x28
-		::RPG::CustomRP::RPGSkillRadialBlurRenderer* _SkillRadialBlurRenderer; // 0x30
-		::RPG::CustomRP::RPGFinalCompose* _FinalCompose; // 0x38
-		::RPG::CustomRP::RPGDepthOfFieldRenderer* _DOFRenderer; // 0x40
-		::RPG::CustomRP::MaterialLibrary* _MaterialLib; // 0x48
-		::UnityEngine::Rendering::VolumeStack* _StackRef; // 0x50
-		::RPG::CustomRP::MotionBlurRenderer* _MotionBlurRenderer; // 0x58
-		::RPG::CustomRP::RPGLensGlitchRenderer* _PPLensGlitchRenderer; // 0x60
-		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListC; // 0x68
+		::RPG::CustomRP::RPGRadialBlurRenderer* _RadialBlurRenderer; // 0x10
+		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListA; // 0x18
+		::RPG::CustomRP::MotionBlurRenderer* _MotionBlurRenderer; // 0x20
+		::RPG::CustomRP::RPGLensGlitchRenderer* _PPLensGlitchRenderer; // 0x28
+		::RPG::CustomRP::RPGDepthOfFieldRenderer* _DOFRenderer; // 0x30
+		::RPG::CustomRP::RPGGaussianBlurRenderer* _GaussianBlurRenderer; // 0x38
+		::RPG::CustomRP::RPGSkillRadialBlurRenderer* _SkillRadialBlurRenderer; // 0x40
+		::RPG::CustomRP::RPGPPDownsampleRenderer* _DownsampleRenderer; // 0x48
+		::RPG::CustomRP::RPGFinalCompose* _FinalCompose; // 0x50
+		::RPG::CustomRP::MaterialLibrary* _MaterialLib; // 0x58
+		::RPG::CustomRP::RPGBloomRenderer* _BloomRenderer; // 0x60
+		::RPG::CustomRP::RPGPPPatternRenderer* _PPPatternRender; // 0x68
 		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListB; // 0x70
-		::RPG::CustomRP::RPGBloomRenderer* _BloomRenderer; // 0x78
-		::RPG::CustomRP::RPGLensGlitch2Renderer* _PPLensGlitch2Renderer; // 0x80
-		::RPG::CustomRP::RPGRadialBlurRenderer* _RadialBlurRenderer; // 0x88
-		::RPG::CustomRP::RPGPPDownsampleRenderer* _DownsampleRenderer; // 0x90
-		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListA; // 0x98
-		::RPG::CustomRP::RPGGaussianBlurRenderer* _GaussianBlurRenderer; // 0xA0
-		::System::Int32 _OutputRT; // 0xA8
-		::System::Int32 _SrcRT; // 0xAC
-		::System::Int32 _OutputRTTmpB; // 0xB0
-		::System::Int32 _OutputRTTmpA; // 0xB4
+		::UnityEngine::Rendering::VolumeStack* _StackRef; // 0x78
+		::RPG::CustomRP::CustomPostProcessSettings* _Settings; // 0x80
+		::RPG::CustomRP::RPGLensFlareRenderer* _LensFlareRenderer; // 0x88
+		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x90
+		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListC; // 0x98
+		::RPG::CustomRP::RPGLensGlitch2Renderer* _PPLensGlitch2Renderer; // 0xA0
+		::System::Int32 _OutputRTTmpA; // 0xA8
+		::System::Int32 _OutputRTTmpB; // 0xAC
+		::System::Int32 _SrcRT; // 0xB0
+		::System::Int32 _OutputRT; // 0xB4
 
 		::System::Void _ctor(::RPG::CustomRP::CRPRendererData* data, ::System::Boolean useCpp)
 		{

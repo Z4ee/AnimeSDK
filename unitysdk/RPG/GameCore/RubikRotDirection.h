@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RubikRotDirection_TypeDefinitionIndex = 10111;
+	inline static constexpr unsigned int RubikRotDirection_TypeDefinitionIndex = 10303;
 
 	enum class RubikRotDirection : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CableProcedural_CurveModel_TypeDefinitionIndex = 57628;
+	inline static constexpr unsigned int CableProcedural_CurveModel_TypeDefinitionIndex = 64892;
 
 	enum class CableProcedural_CurveModel : ::System::Int32
 	{

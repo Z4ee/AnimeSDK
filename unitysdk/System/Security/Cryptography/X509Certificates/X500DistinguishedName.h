@@ -4,7 +4,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X500DistinguishedName_TypeDefinitionIndex = 2678;
+	inline static constexpr unsigned int X500DistinguishedName_TypeDefinitionIndex = 2679;
 
 	class X500DistinguishedName : public ::System::Security::Cryptography::AsnEncodedData
 	{

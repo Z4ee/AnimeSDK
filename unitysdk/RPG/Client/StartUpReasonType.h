@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StartUpReasonType_TypeDefinitionIndex = 56798;
+	inline static constexpr unsigned int StartUpReasonType_TypeDefinitionIndex = 64043;
 
 	enum class StartUpReasonType : ::System::Int32
 	{

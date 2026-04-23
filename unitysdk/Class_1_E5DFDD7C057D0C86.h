@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define CLASS_1_E5DFDD7C057D0C86_CLEAR_OFFSET UNITYSDK_OFFSET(0x168980A0)
-#define CLASS_1_E5DFDD7C057D0C86__CTOR_OFFSET UNITYSDK_OFFSET(0x16898100)
+#define CLASS_1_E5DFDD7C057D0C86_CLEAR_OFFSET UNITYSDK_OFFSET(0x17E681B0)
+#define CLASS_1_E5DFDD7C057D0C86__CTOR_OFFSET UNITYSDK_OFFSET(0x17E68210)
 
-inline static constexpr unsigned int Class_1_E5DFDD7C057D0C86_TypeDefinitionIndex = 33320;
+inline static constexpr unsigned int Class_1_E5DFDD7C057D0C86_TypeDefinitionIndex = 39109;
 
 class Class_1_E5DFDD7C057D0C86 : public ::System::Object
 {

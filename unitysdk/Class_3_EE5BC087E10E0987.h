@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetAbilityStartTimeStamp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EE5BC087E10E0987_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC42D90)
-#define CLASS_3_EE5BC087E10E0987__CTOR_OFFSET UNITYSDK_OFFSET(0xAC42D60)
+#define CLASS_3_EE5BC087E10E0987_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11B61FC0)
+#define CLASS_3_EE5BC087E10E0987__CTOR_OFFSET UNITYSDK_OFFSET(0x11B61F90)
 
-inline static constexpr unsigned int Class_3_EE5BC087E10E0987_TypeDefinitionIndex = 47519;
+inline static constexpr unsigned int Class_3_EE5BC087E10E0987_TypeDefinitionIndex = 54255;
 
 class Class_3_EE5BC087E10E0987 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetAbilityStartTimeStamp*>
 {

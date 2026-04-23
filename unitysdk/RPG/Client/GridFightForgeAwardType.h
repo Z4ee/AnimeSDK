@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeAwardType_TypeDefinitionIndex = 52771;
+	inline static constexpr unsigned int GridFightForgeAwardType_TypeDefinitionIndex = 59834;
 
 	enum class GridFightForgeAwardType : ::System::Int32
 	{

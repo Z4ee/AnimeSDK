@@ -4,12 +4,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16476890)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS65_0__SETISSPECIFIEDACTIONS_B__0_OFFSET UNITYSDK_OFFSET(0x164775E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA20D0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS65_0__SETISSPECIFIEDACTIONS_B__0_OFFSET UNITYSDK_OFFSET(0x17AA2E20)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass65_0_TypeDefinitionIndex = 8315;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass65_0_TypeDefinitionIndex = 8461;
 
 	class DefaultContractResolver___c__DisplayClass65_0 : public ::System::Object
 	{

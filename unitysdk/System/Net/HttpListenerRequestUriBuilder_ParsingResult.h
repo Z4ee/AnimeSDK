@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpListenerRequestUriBuilder_ParsingResult_TypeDefinitionIndex = 2723;
+	inline static constexpr unsigned int HttpListenerRequestUriBuilder_ParsingResult_TypeDefinitionIndex = 2724;
 
 	enum class HttpListenerRequestUriBuilder_ParsingResult : ::System::Int32
 	{

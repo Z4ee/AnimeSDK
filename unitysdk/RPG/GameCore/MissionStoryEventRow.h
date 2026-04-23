@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONSTORYEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17422ED0)
-#define RPG_GAMECORE_MISSIONSTORYEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174235C0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B2F7A0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2FE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionStoryEventRow_TypeDefinitionIndex = 12939;
+	inline static constexpr unsigned int MissionStoryEventRow_TypeDefinitionIndex = 13400;
 
 	class MissionStoryEventRow : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/YieldInstruction.h"
 
-#define UNITYENGINE_WAITFORFIXEDUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A615E0)
+#define UNITYENGINE_WAITFORFIXEDUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A498E50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WaitForFixedUpdate_TypeDefinitionIndex = 4173;
+	inline static constexpr unsigned int WaitForFixedUpdate_TypeDefinitionIndex = 4175;
 
 	class WaitForFixedUpdate : public ::UnityEngine::YieldInstruction
 	{

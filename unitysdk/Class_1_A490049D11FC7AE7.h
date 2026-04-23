@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_A490049D11FC7AE7_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x16DB6AA0)
-#define CLASS_1_A490049D11FC7AE7__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB6DC0)
+#define CLASS_1_A490049D11FC7AE7_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x183DA8D0)
+#define CLASS_1_A490049D11FC7AE7__CTOR_OFFSET UNITYSDK_OFFSET(0x183DABF0)
 
-inline static constexpr unsigned int Class_1_A490049D11FC7AE7_TypeDefinitionIndex = 10561;
+inline static constexpr unsigned int Class_1_A490049D11FC7AE7_TypeDefinitionIndex = 10785;
 
 class Class_1_A490049D11FC7AE7 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_7; // 0x10
-	::System::String* Field_1_6; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
-	::System::UInt32 Field_1_1; // 0x38
-	::System::UInt32 Field_1_0; // 0x3C
+	::System::String* Field_1_3; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_7; // 0x18
+	::System::String* Field_1_6; // 0x20
+	::System::String* Field_1_4; // 0x28
+	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x30
+	::System::UInt32 Field_1_0; // 0x38
+	::System::UInt32 Field_1_1; // 0x3C
 	::RPG::Client::TextID Field_1_5; // 0x40
 
 	::System::Void _ctor()

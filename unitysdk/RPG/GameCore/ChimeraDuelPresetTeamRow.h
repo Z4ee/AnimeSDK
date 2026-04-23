@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170A2C80)
-#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170A2E10)
+#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18801FC0)
+#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18802150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelPresetTeamRow_TypeDefinitionIndex = 10415;
+	inline static constexpr unsigned int ChimeraDuelPresetTeamRow_TypeDefinitionIndex = 10640;
 
 	class ChimeraDuelPresetTeamRow : public ::System::Object
 	{

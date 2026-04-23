@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class OverseaAccountListConfirm; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16107A70)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16107AB0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__SHOW_B__28_0_OFFSET UNITYSDK_OFFSET(0x16107AC0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x174885E0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17488620)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__SHOW_B__28_0_OFFSET UNITYSDK_OFFSET(0x17488630)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountListConfirm___c_TypeDefinitionIndex = 7911;
+	inline static constexpr unsigned int OverseaAccountListConfirm___c_TypeDefinitionIndex = 8057;
 
 	class OverseaAccountListConfirm___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::OverseaAccountListConfirm___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x15B90);
+			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x30C00);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>** StaticGet___9__28_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x15B98);
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x30C08);
 		}
 
 		static ::System::Void _cctor()

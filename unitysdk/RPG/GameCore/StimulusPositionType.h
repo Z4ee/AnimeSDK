@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StimulusPositionType_TypeDefinitionIndex = 18864;
+	inline static constexpr unsigned int StimulusPositionType_TypeDefinitionIndex = 19522;
 
 	enum class StimulusPositionType : ::System::Int32
 	{

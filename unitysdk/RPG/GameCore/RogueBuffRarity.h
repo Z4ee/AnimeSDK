@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBuffRarity_TypeDefinitionIndex = 10169;
+	inline static constexpr unsigned int RogueBuffRarity_TypeDefinitionIndex = 10388;
 
 	enum class RogueBuffRarity : ::System::Int32
 	{

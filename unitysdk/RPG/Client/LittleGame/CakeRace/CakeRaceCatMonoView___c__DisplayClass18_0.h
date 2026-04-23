@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9987200)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0___GETEFFECTCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x9987610)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6779F0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0___GETEFFECTCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xA677E00)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatMonoView___c__DisplayClass18_0_TypeDefinitionIndex = 63605;
+	inline static constexpr unsigned int CakeRaceCatMonoView___c__DisplayClass18_0_TypeDefinitionIndex = 71645;
 
 	class CakeRaceCatMonoView___c__DisplayClass18_0 : public ::System::Object
 	{

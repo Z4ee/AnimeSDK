@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMANALYTICS_SENDANALYTICS_OFFSET UNITYSDK_OFFSET(0x1879FA30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMANALYTICS_SENDANALYTICS_OFFSET UNITYSDK_OFFSET(0x1A1D9910)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStreamAnalytics_TypeDefinitionIndex = 35014;
+	inline static constexpr unsigned int AlembicStreamAnalytics_TypeDefinitionIndex = 40842;
 
 	class AlembicStreamAnalytics : public ::System::Object
 	{

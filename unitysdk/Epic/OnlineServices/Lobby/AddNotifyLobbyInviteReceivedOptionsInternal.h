@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Lobby { class AddNotifyLobbyInviteReceivedOption
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYLOBBYINVITERECEIVEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYLOBBYINVITERECEIVEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x45FC0)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYLOBBYINVITERECEIVEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x469C0)
 #define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYLOBBYINVITERECEIVEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int AddNotifyLobbyInviteReceivedOptionsInternal_TypeDefinitionIndex = 35990;
+	inline static constexpr unsigned int AddNotifyLobbyInviteReceivedOptionsInternal_TypeDefinitionIndex = 41816;
 
 	struct alignas(4) AddNotifyLobbyInviteReceivedOptionsInternal
 	{

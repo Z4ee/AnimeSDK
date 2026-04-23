@@ -5,9 +5,9 @@
 class LightRatioConfig_LightRatioClip;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LIGHTRATIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x118E6820)
+#define LIGHTRATIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x90B8CA0)
 
-inline static constexpr unsigned int LightRatioConfig_TypeDefinitionIndex = 38422;
+inline static constexpr unsigned int LightRatioConfig_TypeDefinitionIndex = 44306;
 
 class LightRatioConfig : public ::UnityEngine::ScriptableObject
 {

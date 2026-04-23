@@ -5,21 +5,21 @@
 namespace RPG::GameCore { class HideHintEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_F21A882CD5044184_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1050C7E0)
-#define CLASS_2_F21A882CD5044184_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1050C820)
-#define CLASS_2_F21A882CD5044184_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1050CCE0)
-#define CLASS_2_F21A882CD5044184_TICK_OFFSET UNITYSDK_OFFSET(0x1050CD20)
-#define CLASS_2_F21A882CD5044184__CTOR_OFFSET UNITYSDK_OFFSET(0x1050C7D0)
+#define CLASS_2_F21A882CD5044184_DISPOSE_OFFSET UNITYSDK_OFFSET(0x123B3A30)
+#define CLASS_2_F21A882CD5044184_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123B3A70)
+#define CLASS_2_F21A882CD5044184_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x123B3E10)
+#define CLASS_2_F21A882CD5044184_TICK_OFFSET UNITYSDK_OFFSET(0x123B3E50)
+#define CLASS_2_F21A882CD5044184__CTOR_OFFSET UNITYSDK_OFFSET(0x123B3A20)
 
-inline static constexpr unsigned int Class_2_F21A882CD5044184_TypeDefinitionIndex = 42830;
+inline static constexpr unsigned int Class_2_F21A882CD5044184_TypeDefinitionIndex = 48814;
 
 class Class_2_F21A882CD5044184 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::HideHintEffect* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
-	::System::UInt32 Field_2_3; // 0x28
-	::System::UInt32 Field_2_2; // 0x2C
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::HideHintEffect* Field_2_1; // 0x20
+	::System::UInt32 Field_2_2; // 0x28
+	::System::UInt32 Field_2_3; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HideHintEffect* a2)
 	{

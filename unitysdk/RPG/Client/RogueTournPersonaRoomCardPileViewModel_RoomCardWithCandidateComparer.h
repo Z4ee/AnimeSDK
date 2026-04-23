@@ -6,12 +6,12 @@ namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace RPG::Client { class RogueTournPersonaRoomCardPileViewModel; }
 namespace RPG::Client { class RogueTournUtils_RoomCardInGameComparer; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL_ROOMCARDWITHCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xA3C5000)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL_ROOMCARDWITHCANDIDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C4CB0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL_ROOMCARDWITHCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xB0FC860)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL_ROOMCARDWITHCANDIDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FC520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardPileViewModel_RoomCardWithCandidateComparer_TypeDefinitionIndex = 59740;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPileViewModel_RoomCardWithCandidateComparer_TypeDefinitionIndex = 67136;
 
 	class RogueTournPersonaRoomCardPileViewModel_RoomCardWithCandidateComparer : public ::System::Object
 	{

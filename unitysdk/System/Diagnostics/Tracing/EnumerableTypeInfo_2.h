@@ -10,7 +10,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggin
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EnumerableTypeInfo_2_TypeDefinitionIndex = 1586;
+	inline static constexpr unsigned int EnumerableTypeInfo_2_TypeDefinitionIndex = 1587;
 
 	template <typename IterableType, typename ElementType>
 	class EnumerableTypeInfo_2 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<IterableType>

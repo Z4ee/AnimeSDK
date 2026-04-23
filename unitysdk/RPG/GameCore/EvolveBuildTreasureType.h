@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildTreasureType_TypeDefinitionIndex = 20700;
+	inline static constexpr unsigned int EvolveBuildTreasureType_TypeDefinitionIndex = 21397;
 
 	enum class EvolveBuildTreasureType : ::System::Int32
 	{

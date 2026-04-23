@@ -4,12 +4,12 @@
 
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__DISPLAYCLASS167_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18878080)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__DISPLAYCLASS167_0__UNUSEDELEMENTGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x1887CAA0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__DISPLAYCLASS167_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B21F0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__DISPLAYCLASS167_0__UNUSEDELEMENTGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x1A2B6C40)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProBuilderMesh___c__DisplayClass167_0_TypeDefinitionIndex = 34145;
+	inline static constexpr unsigned int ProBuilderMesh___c__DisplayClass167_0_TypeDefinitionIndex = 39964;
 
 	class ProBuilderMesh___c__DisplayClass167_0 : public ::System::Object
 	{

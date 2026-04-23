@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17777050)
-#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177771A0)
+#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E9CDD0)
+#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9CF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateBroadcastPermissionRow_TypeDefinitionIndex = 12214;
+	inline static constexpr unsigned int StateBroadcastPermissionRow_TypeDefinitionIndex = 12647;
 
 	class StateBroadcastPermissionRow : public ::System::Object
 	{

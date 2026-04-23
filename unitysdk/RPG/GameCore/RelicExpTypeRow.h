@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17590840)
-#define RPG_GAMECORE_RELICEXPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17590EA0)
+#define RPG_GAMECORE_RELICEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C9C800)
+#define RPG_GAMECORE_RELICEXPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C9CE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicExpTypeRow_TypeDefinitionIndex = 13363;
+	inline static constexpr unsigned int RelicExpTypeRow_TypeDefinitionIndex = 13841;
 
 	class RelicExpTypeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Exp; // 0x10
+		::System::UInt32 Level; // 0x10
 		::System::UInt32 TypeID; // 0x14
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 Exp; // 0x18
 
 		::System::Void _ctor()
 		{

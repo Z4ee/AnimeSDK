@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int MarbleErrorCode_TypeDefinitionIndex = 33131;
+	inline static constexpr unsigned int MarbleErrorCode_TypeDefinitionIndex = 38921;
 
 	enum class MarbleErrorCode : ::System::Int32
 	{

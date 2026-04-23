@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoad_HorizontalConnectionData_TypeDefinitionIndex = 60821;
+	inline static constexpr unsigned int MonoParkourRoad_HorizontalConnectionData_TypeDefinitionIndex = 68270;
 
 	struct alignas(8) MonoParkourRoad_HorizontalConnectionData
 	{

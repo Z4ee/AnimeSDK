@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Lobby { class AddNotifyJoinLobbyAcceptedOptions;
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYJOINLOBBYACCEPTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYJOINLOBBYACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x45EE0)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYJOINLOBBYACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x468E0)
 #define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYJOINLOBBYACCEPTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int AddNotifyJoinLobbyAcceptedOptionsInternal_TypeDefinitionIndex = 35986;
+	inline static constexpr unsigned int AddNotifyJoinLobbyAcceptedOptionsInternal_TypeDefinitionIndex = 41812;
 
 	struct alignas(4) AddNotifyJoinLobbyAcceptedOptionsInternal
 	{

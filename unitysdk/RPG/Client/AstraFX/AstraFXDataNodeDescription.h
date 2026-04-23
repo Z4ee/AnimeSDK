@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataNodeDescription_TypeDefinitionIndex = 60392;
+	inline static constexpr unsigned int AstraFXDataNodeDescription_TypeDefinitionIndex = 67813;
 
 	struct alignas(8) AstraFXDataNodeDescription
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::MVVM::Model { class LimaoNewsPostData; }
 
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSPOSTSERVICE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8DD40)
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSPOSTSERVICE___C__DISPLAYCLASS27_0___GETPOSTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9A8DD50)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSPOSTSERVICE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA73BB50)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSPOSTSERVICE___C__DISPLAYCLASS27_0___GETPOSTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA73BB60)
 
 namespace RPG::Client::MVVM::Service
 {
-	inline static constexpr unsigned int LimaoNewsPostService___c__DisplayClass27_0_TypeDefinitionIndex = 61042;
+	inline static constexpr unsigned int LimaoNewsPostService___c__DisplayClass27_0_TypeDefinitionIndex = 68500;
 
 	class LimaoNewsPostService___c__DisplayClass27_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShieldValueType_TypeDefinitionIndex = 21316;
+	inline static constexpr unsigned int ShieldValueType_TypeDefinitionIndex = 22033;
 
 	enum class ShieldValueType : ::System::Int32
 	{

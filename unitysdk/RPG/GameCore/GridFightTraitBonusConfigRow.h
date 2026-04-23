@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17287F20)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17288150)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189DC5B0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189DC7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBonusConfigRow_TypeDefinitionIndex = 12517;
+	inline static constexpr unsigned int GridFightTraitBonusConfigRow_TypeDefinitionIndex = 12950;
 
 	class GridFightTraitBonusConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* BonusParamList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* TraitBonusParamList; // 0x18
-		::System::UInt32 BonusThreshold; // 0x20
-		::System::UInt32 ID; // 0x24
+		::Il2CppArray<::RPG::GameCore::FixPoint>* TraitBonusParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* BonusParamList; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 BonusThreshold; // 0x24
 		::RPG::GameCore::GridFightTraitBonusType BonusType; // 0x28
 
 		::System::Void _ctor()

@@ -13,7 +13,7 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroParticleProperty_EnviroParticleSystem_TypeDefinitionIndex = 40296;
+	inline static constexpr unsigned int EnviroParticleProperty_EnviroParticleSystem_TypeDefinitionIndex = 46205;
 
 	struct alignas(8) EnviroParticleProperty_EnviroParticleSystem
 	{

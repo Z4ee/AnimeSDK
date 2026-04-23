@@ -8,22 +8,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_DA5F2967E1AD1373_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x16DF3000)
-#define CLASS_1_DA5F2967E1AD1373__CTOR_OFFSET UNITYSDK_OFFSET(0x16DF33D0)
+#define CLASS_1_DA5F2967E1AD1373_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x18410BD0)
+#define CLASS_1_DA5F2967E1AD1373__CTOR_OFFSET UNITYSDK_OFFSET(0x18410FA0)
 
-inline static constexpr unsigned int Class_1_DA5F2967E1AD1373_TypeDefinitionIndex = 12757;
+inline static constexpr unsigned int Class_1_DA5F2967E1AD1373_TypeDefinitionIndex = 13224;
 
 class Class_1_DA5F2967E1AD1373 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_8; // 0x10
-	::System::String* Field_1_7; // 0x18
-	::System::UInt32 Field_1_1; // 0x20
-	::RPG::GameCore::LimaoNewsMessageItemType Field_1_3; // 0x24
+	::System::String* Field_1_7; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_8; // 0x18
+	::System::UInt32 Field_1_6; // 0x20
+	::System::UInt32 Field_1_0; // 0x24
 	::RPG::GameCore::LimaoNewsMessageSenderType Field_1_2; // 0x28
-	::System::UInt32 Field_1_6; // 0x2C
-	::RPG::Client::TextID Field_1_5; // 0x30
-	::System::UInt32 Field_1_0; // 0x40
+	::System::UInt32 Field_1_1; // 0x2C
+	::RPG::GameCore::LimaoNewsMessageItemType Field_1_3; // 0x30
+	::RPG::Client::TextID Field_1_5; // 0x38
 	::RPG::Client::TextID Field_1_4; // 0x48
 
 	::System::Void _ctor()

@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentProbeSettings_TypeDefinitionIndex = 57060;
+	inline static constexpr unsigned int EnvironmentProbeSettings_TypeDefinitionIndex = 64311;
 
 	struct alignas(8) EnvironmentProbeSettings
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOLUMETRICCLOUDSPHERESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A70780)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOLUMETRICCLOUDSPHERESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18113A50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_VolumetricCloudSphereSettings_TypeDefinitionIndex = 29288;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_VolumetricCloudSphereSettings_TypeDefinitionIndex = 35055;
 
 	class CRPGraphicsSettingsData_VolumetricCloudSphereSettings : public ::System::Object
 	{

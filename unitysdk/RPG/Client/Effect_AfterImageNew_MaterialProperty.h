@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AfterImageNew_MaterialProperty_TypeDefinitionIndex = 57663;
+	inline static constexpr unsigned int Effect_AfterImageNew_MaterialProperty_TypeDefinitionIndex = 64927;
 
 	struct alignas(8) Effect_AfterImageNew_MaterialProperty
 	{

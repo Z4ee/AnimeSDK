@@ -9,28 +9,28 @@ namespace Epic::OnlineServices::PlayerDataStorage { class WriteFileOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x60450)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_GET_FILETRANSFERPROGRESSCALLBACK_OFFSET UNITYSDK_OFFSET(0x86C8670)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_GET_WRITEFILEDATACALLBACK_OFFSET UNITYSDK_OFFSET(0x86C85E0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x603E0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x60E80)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_GET_FILETRANSFERPROGRESSCALLBACK_OFFSET UNITYSDK_OFFSET(0x8EFBEE0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_GET_WRITEFILEDATACALLBACK_OFFSET UNITYSDK_OFFSET(0x8EFBE50)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x60E10)
 #define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_CHUNKLENGTHBYTES_OFFSET UNITYSDK_OFFSET(0xBC50)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x60320)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x60260)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x603D0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x60D50)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x60C90)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x60E00)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int WriteFileOptionsInternal_TypeDefinitionIndex = 35865;
+	inline static constexpr unsigned int WriteFileOptionsInternal_TypeDefinitionIndex = 41691;
 
 	struct alignas(8) WriteFileOptionsInternal
 	{
-		static ::Epic::OnlineServices::PlayerDataStorage::OnWriteFileDataCallbackInternal** StaticGet_s_WriteFileDataCallback()
-		{
-			return (::Epic::OnlineServices::PlayerDataStorage::OnWriteFileDataCallbackInternal**)Il2CppClass::FromTypeDefinitionIndex(WriteFileOptionsInternal_TypeDefinitionIndex)->GetStaticField(0x37800);
-		}
 		static ::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallbackInternal** StaticGet_s_FileTransferProgressCallback()
 		{
-			return (::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallbackInternal**)Il2CppClass::FromTypeDefinitionIndex(WriteFileOptionsInternal_TypeDefinitionIndex)->GetStaticField(0x37808);
+			return (::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallbackInternal**)Il2CppClass::FromTypeDefinitionIndex(WriteFileOptionsInternal_TypeDefinitionIndex)->GetStaticField(0x5500);
+		}
+		static ::Epic::OnlineServices::PlayerDataStorage::OnWriteFileDataCallbackInternal** StaticGet_s_WriteFileDataCallback()
+		{
+			return (::Epic::OnlineServices::PlayerDataStorage::OnWriteFileDataCallbackInternal**)Il2CppClass::FromTypeDefinitionIndex(WriteFileOptionsInternal_TypeDefinitionIndex)->GetStaticField(0x5508);
 		}
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_LocalUserId; // 0x18

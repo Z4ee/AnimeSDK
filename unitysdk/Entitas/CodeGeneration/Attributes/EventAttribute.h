@@ -4,17 +4,17 @@
 #include "unitysdk/Entitas/CodeGeneration/Attributes/EventType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_EVENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A813F0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_EVENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C501A0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int EventAttribute_TypeDefinitionIndex = 9770;
+	inline static constexpr unsigned int EventAttribute_TypeDefinitionIndex = 9904;
 
 	class EventAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Int32 priority; // 0x10
-		::Entitas::CodeGeneration::Attributes::EventTarget eventTarget; // 0x14
+		::Entitas::CodeGeneration::Attributes::EventTarget eventTarget; // 0x10
+		::System::Int32 priority; // 0x14
 		::Entitas::CodeGeneration::Attributes::EventType eventType; // 0x18
 
 		::System::Void _ctor(::Entitas::CodeGeneration::Attributes::EventTarget eventTarget, ::Entitas::CodeGeneration::Attributes::EventType eventType, ::System::Int32 priority)

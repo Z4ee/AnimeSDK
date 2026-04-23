@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class AdvWaitTickValueFinish; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_B09B81ABAB67AFEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEB9620)
-#define CLASS_2_B09B81ABAB67AFEB_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0xBEB9990)
-#define CLASS_2_B09B81ABAB67AFEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEB9790)
-#define CLASS_2_B09B81ABAB67AFEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEB96D0)
-#define CLASS_2_B09B81ABAB67AFEB_TICK_OFFSET UNITYSDK_OFFSET(0xBEB98B0)
-#define CLASS_2_B09B81ABAB67AFEB__CTOR_OFFSET UNITYSDK_OFFSET(0xBEB95A0)
+#define CLASS_2_B09B81ABAB67AFEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x96C3060)
+#define CLASS_2_B09B81ABAB67AFEB_METHOD_2_96BDC4B57CCFE000_OFFSET UNITYSDK_OFFSET(0x96C33D0)
+#define CLASS_2_B09B81ABAB67AFEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x96C31D0)
+#define CLASS_2_B09B81ABAB67AFEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x96C3110)
+#define CLASS_2_B09B81ABAB67AFEB_TICK_OFFSET UNITYSDK_OFFSET(0x96C32F0)
+#define CLASS_2_B09B81ABAB67AFEB__CTOR_OFFSET UNITYSDK_OFFSET(0x96C2FE0)
 
-inline static constexpr unsigned int Class_2_B09B81ABAB67AFEB_TypeDefinitionIndex = 46679;
+inline static constexpr unsigned int Class_2_B09B81ABAB67AFEB_TypeDefinitionIndex = 53388;
 
 class Class_2_B09B81ABAB67AFEB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x18
-	::RPG::GameCore::AdvWaitTickValueFinish* Field_2_1; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x28
-	::System::String* Field_2_4; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x38
+	::RPG::GameCore::AdvWaitTickValueFinish* Field_2_1; // 0x18
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x20
+	::System::String* Field_2_4; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvWaitTickValueFinish* a2)
 	{
@@ -52,8 +52,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_B09B81ABAB67AFEB_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_C450A961450309C9(::System::Object* a1)
+	::System::Void Method_2_96BDC4B57CCFE000(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_B09B81ABAB67AFEB_METHOD_2_C450A961450309C9_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_B09B81ABAB67AFEB_METHOD_2_96BDC4B57CCFE000_OFFSET))(this, a1);
 	}
 };

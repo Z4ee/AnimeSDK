@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventCommand_TypeDefinitionIndex = 1685;
+	inline static constexpr unsigned int EventCommand_TypeDefinitionIndex = 1686;
 
 	enum class EventCommand : ::System::Int32
 	{

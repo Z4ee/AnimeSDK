@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::P2P { class GetPacketQueueInfoOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_GETPACKETQUEUEINFOOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_GETPACKETQUEUEINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57700)
+#define EPIC_ONLINESERVICES_P2P_GETPACKETQUEUEINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x58100)
 #define EPIC_ONLINESERVICES_P2P_GETPACKETQUEUEINFOOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetPacketQueueInfoOptionsInternal_TypeDefinitionIndex = 35890;
+	inline static constexpr unsigned int GetPacketQueueInfoOptionsInternal_TypeDefinitionIndex = 41716;
 
 	struct alignas(4) GetPacketQueueInfoOptionsInternal
 	{

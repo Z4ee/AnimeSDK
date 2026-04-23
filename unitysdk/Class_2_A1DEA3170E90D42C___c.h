@@ -5,22 +5,22 @@
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_A1DEA3170E90D42C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8BCC160)
-#define CLASS_2_A1DEA3170E90D42C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8BCC190)
-#define CLASS_2_A1DEA3170E90D42C___C___TRYCLOSEROGUETOURNENTRANCEPAGEINSTACK_B__11_0_OFFSET UNITYSDK_OFFSET(0x8BCC1A0)
+#define CLASS_2_A1DEA3170E90D42C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAD7250)
+#define CLASS_2_A1DEA3170E90D42C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD7280)
+#define CLASS_2_A1DEA3170E90D42C___C___TRYCLOSEROGUETOURNENTRANCEPAGEINSTACK_B__11_0_OFFSET UNITYSDK_OFFSET(0xBAD7290)
 
-inline static constexpr unsigned int Class_2_A1DEA3170E90D42C___c_TypeDefinitionIndex = 55326;
+inline static constexpr unsigned int Class_2_A1DEA3170E90D42C___c_TypeDefinitionIndex = 62517;
 
 class Class_2_A1DEA3170E90D42C___c : public ::System::Object
 {
 public:
-	static ::Class_2_A1DEA3170E90D42C___c** StaticGet___9()
-	{
-		return (::Class_2_A1DEA3170E90D42C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A1DEA3170E90D42C___c_TypeDefinitionIndex)->GetStaticField(0x480A0);
-	}
 	static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__11_0()
 	{
-		return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A1DEA3170E90D42C___c_TypeDefinitionIndex)->GetStaticField(0x480A8);
+		return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A1DEA3170E90D42C___c_TypeDefinitionIndex)->GetStaticField(0x6A670);
+	}
+	static ::Class_2_A1DEA3170E90D42C___c** StaticGet___9()
+	{
+		return (::Class_2_A1DEA3170E90D42C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A1DEA3170E90D42C___c_TypeDefinitionIndex)->GetStaticField(0x6A678);
 	}
 
 	static ::System::Void _cctor()

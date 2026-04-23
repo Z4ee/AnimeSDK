@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableCharacterVO___O_TypeDefinitionIndex = 21100;
+	inline static constexpr unsigned int DisableCharacterVO___O_TypeDefinitionIndex = 21817;
 
 	class DisableCharacterVO___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(DisableCharacterVO___O_TypeDefinitionIndex)->GetStaticField(0x2A5C0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(DisableCharacterVO___O_TypeDefinitionIndex)->GetStaticField(0x33AF0);
 		}
 	};
 }

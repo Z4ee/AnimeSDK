@@ -5,7 +5,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPMath_TransformBoundsTmp_TypeDefinitionIndex = 29491;
+	inline static constexpr unsigned int RPMath_TransformBoundsTmp_TypeDefinitionIndex = 35258;
 
 	struct alignas(4) RPMath_TransformBoundsTmp
 	{

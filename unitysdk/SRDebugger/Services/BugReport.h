@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_SERVICES_BUGREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x18438A60)
+#define SRDEBUGGER_SERVICES_BUGREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E737F0)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int BugReport_TypeDefinitionIndex = 29696;
+	inline static constexpr unsigned int BugReport_TypeDefinitionIndex = 35416;
 
 	class BugReport : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>* SystemInformation; // 0x10
-		::System::Collections::Generic::List_1<::SRDebugger::Services::ConsoleEntry*>* ConsoleLog; // 0x18
-		::System::String* UserDescription; // 0x20
-		::Il2CppArray<::System::Byte>* ScreenshotData; // 0x28
-		::System::String* Email; // 0x30
+		::System::String* Email; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>* SystemInformation; // 0x18
+		::System::Collections::Generic::List_1<::SRDebugger::Services::ConsoleEntry*>* ConsoleLog; // 0x20
+		::System::String* UserDescription; // 0x28
+		::Il2CppArray<::System::Byte>* ScreenshotData; // 0x30
 
 		::System::Void _ctor()
 		{

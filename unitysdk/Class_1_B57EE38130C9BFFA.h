@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_937;
+class Class_0_16E4307DCC419505_1054;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_B57EE38130C9BFFA_GET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0x89365B0)
-#define CLASS_1_B57EE38130C9BFFA_GET_PREDECESSORS_OFFSET UNITYSDK_OFFSET(0x89365D0)
-#define CLASS_1_B57EE38130C9BFFA_SET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0x89365C0)
-#define CLASS_1_B57EE38130C9BFFA__CTOR_OFFSET UNITYSDK_OFFSET(0x89365E0)
+#define CLASS_1_B57EE38130C9BFFA_GET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0x973DD50)
+#define CLASS_1_B57EE38130C9BFFA_GET_PREDECESSORS_OFFSET UNITYSDK_OFFSET(0x973DD70)
+#define CLASS_1_B57EE38130C9BFFA_SET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0x973DD60)
+#define CLASS_1_B57EE38130C9BFFA__CTOR_OFFSET UNITYSDK_OFFSET(0x973DD80)
 
-inline static constexpr unsigned int Class_1_B57EE38130C9BFFA_TypeDefinitionIndex = 61270;
+inline static constexpr unsigned int Class_1_B57EE38130C9BFFA_TypeDefinitionIndex = 68778;
 
 class Class_1_B57EE38130C9BFFA : public ::System::Object
 {
 public:
-	::System::Func_2<::System::UInt32, ::System::Boolean>* _IsEndVertex_k__BackingField; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::Class_0_16E4307DCC419505_937*>>* _Predecessors_k__BackingField; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::Class_0_16E4307DCC419505_1054*>>* _Predecessors_k__BackingField; // 0x10
+	::System::Func_2<::System::UInt32, ::System::Boolean>* _IsEndVertex_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -35,8 +35,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + CLASS_1_B57EE38130C9BFFA_SET_ISENDVERTEX_OFFSET))(this, value);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::Class_0_16E4307DCC419505_937*>>* get_Predecessors()
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::Class_0_16E4307DCC419505_1054*>>* get_Predecessors()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::Class_0_16E4307DCC419505_937*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B57EE38130C9BFFA_GET_PREDECESSORS_OFFSET))(this);
+		return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::Class_0_16E4307DCC419505_1054*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B57EE38130C9BFFA_GET_PREDECESSORS_OFFSET))(this);
 	}
 };

@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class PetConfigRow; }
+namespace System { class String; }
+
+#define CLASS_1_07B413D61C4898B8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA2D28B0)
+#define CLASS_1_07B413D61C4898B8_GET_PETID_OFFSET UNITYSDK_OFFSET(0xA2D3320)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_068AF1F0B2C84875_OFFSET UNITYSDK_OFFSET(0xA2D2720)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0xA2D27E0)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_2372762F4122DEB8_1_OFFSET UNITYSDK_OFFSET(0xA2D33A0)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0xA2D3190)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_45CCDE687DEEF3B6_OFFSET UNITYSDK_OFFSET(0xA2D3230)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_7F5AC003A6FD26D1_OFFSET UNITYSDK_OFFSET(0xA2D3340)
+#define CLASS_1_07B413D61C4898B8_METHOD_1_FFE6AFE1CAAF2BB6_OFFSET UNITYSDK_OFFSET(0xA2D2B40)
+#define CLASS_1_07B413D61C4898B8_SET_PETID_OFFSET UNITYSDK_OFFSET(0xA2D3330)
+#define CLASS_1_07B413D61C4898B8__CTOR_OFFSET UNITYSDK_OFFSET(0xA2D27D0)
+
+inline static constexpr unsigned int Class_1_07B413D61C4898B8_TypeDefinitionIndex = 61158;
+
+class Class_1_07B413D61C4898B8 : public ::System::Object
+{
+public:
+	::RPG::GameCore::GameEntity* Field_1_2; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_3; // 0x18
+	::System::String* Field_1_4; // 0x20
+	::System::UInt32 _PetID_k__BackingField; // 0x28
+	::System::UInt32 Field_1_1; // 0x2C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_07B413D61C4898B8* Method_1_068AF1F0B2C84875(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::UInt32 a3)
+	{
+		return ((::Class_1_07B413D61C4898B8*(*)(::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_068AF1F0B2C84875_OFFSET))(a1, a2, a3);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0CC4BC19C602BCD0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_0CC4BC19C602BCD0_OFFSET))(this);
+	}
+
+	::System::Void Method_1_FFE6AFE1CAAF2BB6(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_FFE6AFE1CAAF2BB6_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_1_45CCDE687DEEF3B6()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_45CCDE687DEEF3B6_OFFSET))(this);
+	}
+
+	::System::UInt32 get_PetID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_GET_PETID_OFFSET))(this);
+	}
+
+	::System::Void set_PetID(::System::UInt32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_SET_PETID_OFFSET))(this, value);
+	}
+
+	::RPG::GameCore::PetConfigRow* Method_1_7F5AC003A6FD26D1()
+	{
+		return ((::RPG::GameCore::PetConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_7F5AC003A6FD26D1_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_2372762F4122DEB8()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_2372762F4122DEB8_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_2372762F4122DEB8_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_07B413D61C4898B8_METHOD_1_2372762F4122DEB8_1_OFFSET))(this);
+	}
+};

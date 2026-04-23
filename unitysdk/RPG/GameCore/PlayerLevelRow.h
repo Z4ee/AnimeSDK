@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174DD620)
-#define RPG_GAMECORE_PLAYERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174DDC70)
+#define RPG_GAMECORE_PLAYERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C27AF0)
+#define RPG_GAMECORE_PLAYERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C28140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerLevelRow_TypeDefinitionIndex = 13238;
+	inline static constexpr unsigned int PlayerLevelRow_TypeDefinitionIndex = 13700;
 
 	class PlayerLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardStamina; // 0x10
-		::System::UInt32 Level; // 0x14
-		::System::UInt32 LevelRewardID; // 0x18
-		::System::UInt32 PlayerExp; // 0x1C
-		::System::UInt32 StaminaLimit; // 0x20
-		::System::UInt32 RewardID; // 0x24
+		::System::UInt32 PlayerExp; // 0x10
+		::System::UInt32 LevelRewardID; // 0x14
+		::System::UInt32 StaminaLimit; // 0x18
+		::System::UInt32 RewardID; // 0x1C
+		::System::UInt32 RewardStamina; // 0x20
+		::System::UInt32 Level; // 0x24
 
 		::System::Void _ctor()
 		{

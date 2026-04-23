@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_PERFORMANCECOUNTERSELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186B8330)
-#define SYSTEM_NET_CONFIGURATION_PERFORMANCECOUNTERSELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x186B82F0)
+#define SYSTEM_NET_CONFIGURATION_PERFORMANCECOUNTERSELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A0F2AD0)
+#define SYSTEM_NET_CONFIGURATION_PERFORMANCECOUNTERSELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F2A90)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int PerformanceCountersElement_TypeDefinitionIndex = 3071;
+	inline static constexpr unsigned int PerformanceCountersElement_TypeDefinitionIndex = 3072;
 
 	class PerformanceCountersElement : public ::System::Configuration::ConfigurationElement
 	{

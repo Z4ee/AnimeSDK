@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightInfoFade_TypeDefinitionIndex = 4677;
+	inline static constexpr unsigned int CRPLightInfoFade_TypeDefinitionIndex = 4685;
 
 	struct alignas(4) CRPLightInfoFade
 	{

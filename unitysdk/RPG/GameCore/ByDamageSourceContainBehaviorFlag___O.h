@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex = 21545;
+	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex = 22283;
 
 	class ByDamageSourceContainBehaviorFlag___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex)->GetStaticField(0x249F0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex)->GetStaticField(0x31120);
 		}
 	};
 }

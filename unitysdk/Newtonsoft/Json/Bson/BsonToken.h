@@ -3,12 +3,12 @@
 #include "unitysdk/Newtonsoft/Json/Bson/BsonType.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_BSON_BSONTOKEN_SET_PARENT_OFFSET UNITYSDK_OFFSET(0x1642C0C0)
-#define NEWTONSOFT_JSON_BSON_BSONTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x16429380)
+#define NEWTONSOFT_JSON_BSON_BSONTOKEN_SET_PARENT_OFFSET UNITYSDK_OFFSET(0x17A57AE0)
+#define NEWTONSOFT_JSON_BSON_BSONTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x17A54EB0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonToken_TypeDefinitionIndex = 8453;
+	inline static constexpr unsigned int BsonToken_TypeDefinitionIndex = 8599;
 
 	class BsonToken : public ::System::Object
 	{

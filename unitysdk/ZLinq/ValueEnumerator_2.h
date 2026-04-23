@@ -4,7 +4,7 @@
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerator_2_TypeDefinitionIndex = 6475;
+	inline static constexpr unsigned int ValueEnumerator_2_TypeDefinitionIndex = 6508;
 
 	template <typename TEnumerator, typename T>
 	struct ValueEnumerator_2

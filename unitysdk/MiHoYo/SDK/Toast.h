@@ -8,30 +8,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x16001B40)
-#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x16002360)
-#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x16002040)
-#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x160022C0)
-#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16001C70)
-#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x15FE0C00)
-#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x16001C40)
-#define MIHOYO_SDK_TOAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x16002450)
-#define MIHOYO_SDK_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x16002410)
+#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1765F240)
+#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1765FA70)
+#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x1765F750)
+#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1765F9D0)
+#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1765F370)
+#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x1763E910)
+#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x1765F340)
+#define MIHOYO_SDK_TOAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1765FB60)
+#define MIHOYO_SDK_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1765FB20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 7222;
+	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 7265;
 
 	class Toast : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x18B50);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x23AE0);
 		}
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x18B58);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x23AE8);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		::System::String* content; // 0x58

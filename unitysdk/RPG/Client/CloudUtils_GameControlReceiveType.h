@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils_GameControlReceiveType_TypeDefinitionIndex = 48483;
+	inline static constexpr unsigned int CloudUtils_GameControlReceiveType_TypeDefinitionIndex = 55231;
 
 	enum class CloudUtils_GameControlReceiveType : ::System::Int32
 	{

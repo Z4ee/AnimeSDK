@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class ChimeraAbility; }
 
-#define CLASS_1_6B53B381AECDC5C8__CTOR_OFFSET UNITYSDK_OFFSET(0x169575C0)
+#define CLASS_1_6B53B381AECDC5C8__CTOR_OFFSET UNITYSDK_OFFSET(0x17F97D10)
 
-inline static constexpr unsigned int Class_1_6B53B381AECDC5C8_TypeDefinitionIndex = 32259;
+inline static constexpr unsigned int Class_1_6B53B381AECDC5C8_TypeDefinitionIndex = 37979;
 
 class Class_1_6B53B381AECDC5C8 : public ::System::Object
 {

@@ -4,14 +4,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace System { class String; }
-namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x9F01930)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x9F01980)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0xAC26880)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 60811;
+	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 68260;
 
 	class MonoParkourProjectile : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,11 +29,6 @@ namespace RPG::Client::ParkourGame
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET))(this);
-		}
-
-		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE_ONTRIGGERENTER_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,0 +1,135 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskState.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5F51D4049EA87B7B;
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class Action; }
+
+#define CLASS_1_F3391C70DC37088D_GET_ONFAILED_OFFSET UNITYSDK_OFFSET(0x11B61EE0)
+#define CLASS_1_F3391C70DC37088D_GET_ONSUCCESS_OFFSET UNITYSDK_OFFSET(0x11B61EC0)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_0DF420E95D6252BE_OFFSET UNITYSDK_OFFSET(0x11B61D50)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_1808E1CF7A125519_1_OFFSET UNITYSDK_OFFSET(0x11B61E30)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x11B61CC0)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_24EC52D11B17833B_OFFSET UNITYSDK_OFFSET(0x11B60FF0)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_410AFB0271155FD6_OFFSET UNITYSDK_OFFSET(0x11B61250)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x11B611E0)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_47192F8F1CDC4F83_OFFSET UNITYSDK_OFFSET(0x11B619B0)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_5A124CAF1E48B74F_OFFSET UNITYSDK_OFFSET(0x11B61460)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_A9904C52B0346522_OFFSET UNITYSDK_OFFSET(0x11B61900)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_C71A0C5FC0EAEEE0_1_OFFSET UNITYSDK_OFFSET(0x11B61110)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_C71A0C5FC0EAEEE0_OFFSET UNITYSDK_OFFSET(0x11B60F10)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11B61650)
+#define CLASS_1_F3391C70DC37088D_METHOD_1_F3C1B354CF618443_OFFSET UNITYSDK_OFFSET(0x11B61690)
+#define CLASS_1_F3391C70DC37088D_SET_ONFAILED_OFFSET UNITYSDK_OFFSET(0x11B61EF0)
+#define CLASS_1_F3391C70DC37088D_SET_ONSUCCESS_OFFSET UNITYSDK_OFFSET(0x11B61ED0)
+#define CLASS_1_F3391C70DC37088D_TICK_OFFSET UNITYSDK_OFFSET(0x11B61A20)
+#define CLASS_1_F3391C70DC37088D__CTOR_OFFSET UNITYSDK_OFFSET(0x11B60FE0)
+
+inline static constexpr unsigned int Class_1_F3391C70DC37088D_TypeDefinitionIndex = 50553;
+
+class Class_1_F3391C70DC37088D : public ::System::Object
+{
+public:
+	::Class_1_5F51D4049EA87B7B* Field_1_2; // 0x10
+	::System::Action* _OnFailed_k__BackingField; // 0x18
+	::System::Action* _OnSuccess_k__BackingField; // 0x20
+	::System::Boolean Field_1_3; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_F3391C70DC37088D* Method_1_C71A0C5FC0EAEEE0(::RPG::GameCore::TaskContext* a1, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a2)
+	{
+		return ((::Class_1_F3391C70DC37088D*(*)(::RPG::GameCore::TaskContext*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_C71A0C5FC0EAEEE0_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_F3391C70DC37088D* Method_1_24EC52D11B17833B(::RPG::GameCore::TaskContext* a1, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a2)
+	{
+		return ((::Class_1_F3391C70DC37088D*(*)(::RPG::GameCore::TaskContext*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_24EC52D11B17833B_OFFSET))(a1, a2);
+	}
+
+	static ::Class_1_F3391C70DC37088D* Method_1_C71A0C5FC0EAEEE0_1(::RPG::GameCore::TaskContext* a1, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a2)
+	{
+		return ((::Class_1_F3391C70DC37088D*(*)(::RPG::GameCore::TaskContext*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_C71A0C5FC0EAEEE0_1_OFFSET))(a1, a2);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_410AFB0271155FD6(::Class_1_5F51D4049EA87B7B* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5F51D4049EA87B7B*))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_410AFB0271155FD6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_5A124CAF1E48B74F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_5A124CAF1E48B74F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F3C1B354CF618443()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_F3C1B354CF618443_OFFSET))(this);
+	}
+
+	::RPG::GameCore::TaskState Method_1_47192F8F1CDC4F83()
+	{
+		return ((::RPG::GameCore::TaskState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_47192F8F1CDC4F83_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_A9904C52B0346522()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_A9904C52B0346522_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1808E1CF7A125519()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_1808E1CF7A125519_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_0DF420E95D6252BE()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_0DF420E95D6252BE_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1808E1CF7A125519_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_METHOD_1_1808E1CF7A125519_1_OFFSET))(this);
+	}
+
+	::System::Action* get_OnSuccess()
+	{
+		return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_GET_ONSUCCESS_OFFSET))(this);
+	}
+
+	::System::Void set_OnSuccess(::System::Action* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_SET_ONSUCCESS_OFFSET))(this, value);
+	}
+
+	::System::Action* get_OnFailed()
+	{
+		return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_GET_ONFAILED_OFFSET))(this);
+	}
+
+	::System::Void set_OnFailed(::System::Action* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_F3391C70DC37088D_SET_ONFAILED_OFFSET))(this, value);
+	}
+};

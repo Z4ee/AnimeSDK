@@ -6,19 +6,19 @@ namespace RPGTools { class StoryDurationTimeConfig_StoryDurationTime; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_STORYDURATIONTIMECONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAB19D30)
-#define RPGTOOLS_STORYDURATIONTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB19DA0)
+#define RPGTOOLS_STORYDURATIONTIMECONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB88DAC0)
+#define RPGTOOLS_STORYDURATIONTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB88DB30)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int StoryDurationTimeConfig_TypeDefinitionIndex = 38659;
+	inline static constexpr unsigned int StoryDurationTimeConfig_TypeDefinitionIndex = 44551;
 
 	class StoryDurationTimeConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::RPGTools::StoryDurationTimeConfig** StaticGet__Instance()
 		{
-			return (::RPGTools::StoryDurationTimeConfig**)Il2CppClass::FromTypeDefinitionIndex(StoryDurationTimeConfig_TypeDefinitionIndex)->GetStaticField(0x47300);
+			return (::RPGTools::StoryDurationTimeConfig**)Il2CppClass::FromTypeDefinitionIndex(StoryDurationTimeConfig_TypeDefinitionIndex)->GetStaticField(0x674F0);
 		}
 		// static const ::System::String* ConfigPath; // 0x0
 		::System::Collections::Generic::List_1<::RPGTools::StoryDurationTimeConfig_StoryDurationTime*>* Data; // 0x18

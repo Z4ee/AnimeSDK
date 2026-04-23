@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int GroupSingleEntityException_1___c_TypeDefinitionIndex = 9720;
+	inline static constexpr unsigned int GroupSingleEntityException_1___c_TypeDefinitionIndex = 9853;
 
 	template <typename TEntity>
 	class GroupSingleEntityException_1___c : public ::System::Object

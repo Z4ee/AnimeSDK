@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 template <typename T> class Class_2_186335045AEDACF2;
 template <typename T> class Class_5_0A579187F7DB278E;
 
-inline static constexpr unsigned int Class_5_0A579187F7DB278E_TypeDefinitionIndex = 40190;
+inline static constexpr unsigned int Class_5_0A579187F7DB278E_TypeDefinitionIndex = 46099;
 
 template <typename T>
 class Class_5_0A579187F7DB278E : public ::Class_4_D164FAEF81C859CB<T>

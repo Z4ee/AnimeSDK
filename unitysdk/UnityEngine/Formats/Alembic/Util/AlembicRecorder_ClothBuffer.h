@@ -10,21 +10,21 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x187AB470)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187AC2F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET UNITYSDK_OFFSET(0x187AA690)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x187AC430)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1A1E5360)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1E61E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET UNITYSDK_OFFSET(0x1A1E4580)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E6320)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 34931;
+	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 40759;
 
 	class AlembicRecorder_ClothBuffer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x10
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* remap; // 0x18
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* vertices; // 0x20
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* vertices; // 0x10
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x18
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* remap; // 0x20
 		::UnityEngine::Transform* rootBone; // 0x28
 		::System::Int32 numRemappedVertices; // 0x30
 

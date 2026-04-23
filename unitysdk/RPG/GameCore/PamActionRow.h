@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17486590)
-#define RPG_GAMECORE_PAMACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17486A50)
+#define RPG_GAMECORE_PAMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BCFCD0)
+#define RPG_GAMECORE_PAMACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD0190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamActionRow_TypeDefinitionIndex = 13099;
+	inline static constexpr unsigned int PamActionRow_TypeDefinitionIndex = 13559;
 
 	class PamActionRow : public ::System::Object
 	{
 	public:
-		::System::String* AnimGroupName; // 0x10
-		::Il2CppArray<::System::Int32>* Settle; // 0x18
-		::System::Int32 MinStrengthPoint; // 0x20
-		::System::Int32 MaxStrengthPoint; // 0x24
-		::RPG::GameCore::PamActionType PamAction; // 0x28
+		::Il2CppArray<::System::Int32>* Settle; // 0x10
+		::System::String* AnimGroupName; // 0x18
+		::System::Int32 MaxStrengthPoint; // 0x20
+		::RPG::GameCore::PamMoodType PamMood; // 0x24
+		::System::Boolean AnyDirection; // 0x28
+		::System::Boolean WithoutAnchor; // 0x29
 		::System::UInt32 PerformanceID; // 0x2C
-		::System::Boolean AnyDirection; // 0x30
-		::System::Boolean WithoutAnchor; // 0x31
-		::RPG::GameCore::PamMoodType PamMood; // 0x34
+		::System::Single Weight; // 0x30
+		::System::Int32 MinStrengthPoint; // 0x34
 		::System::Int32 MinMoodPoint; // 0x38
 		::System::Int32 MaxMoodPoint; // 0x3C
-		::System::Single Weight; // 0x40
+		::RPG::GameCore::PamActionType PamAction; // 0x40
 
 		::System::Void _ctor()
 		{

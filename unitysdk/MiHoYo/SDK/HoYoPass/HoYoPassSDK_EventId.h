@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_EventId_TypeDefinitionIndex = 7270;
+	inline static constexpr unsigned int HoYoPassSDK_EventId_TypeDefinitionIndex = 7318;
 
 	enum class HoYoPassSDK_EventId : ::System::Int32
 	{
@@ -15,6 +15,7 @@ namespace MiHoYo::SDK::HoYoPass
 		NewDeviceVerification = 1024,
 		AgeGate = 1280,
 		ThirdpartyAccountBinding = 1536,
+		ChannelAccountBinding = 1792,
 		LoginResult = 65536,
 		DataReport = 131072,
 		LogStrategyUpdate = 196608,

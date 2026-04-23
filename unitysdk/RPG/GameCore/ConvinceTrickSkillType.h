@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceTrickSkillType_TypeDefinitionIndex = 20012;
+	inline static constexpr unsigned int ConvinceTrickSkillType_TypeDefinitionIndex = 20693;
 
 	enum class ConvinceTrickSkillType : ::System::Int32
 	{

@@ -6,24 +6,24 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187AA1B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187AA1F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__GETTARGETS_B__35_0_OFFSET UNITYSDK_OFFSET(0x187AA200)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1E40A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E40E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER___C__GETTARGETS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1A1E40F0)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder___c_TypeDefinitionIndex = 34942;
+	inline static constexpr unsigned int AlembicRecorder___c_TypeDefinitionIndex = 40770;
 
 	class AlembicRecorder___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Formats::Alembic::Util::AlembicRecorder___c** StaticGet___9()
 		{
-			return (::UnityEngine::Formats::Alembic::Util::AlembicRecorder___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder___c_TypeDefinitionIndex)->GetStaticField(0x35780);
+			return (::UnityEngine::Formats::Alembic::Util::AlembicRecorder___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder___c_TypeDefinitionIndex)->GetStaticField(0x448A0);
 		}
 		static ::System::Converter_2<::UnityEngine::Object*, ::UnityEngine::Component*>** StaticGet___9__35_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Object*, ::UnityEngine::Component*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder___c_TypeDefinitionIndex)->GetStaticField(0x35788);
+			return (::System::Converter_2<::UnityEngine::Object*, ::UnityEngine::Component*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder___c_TypeDefinitionIndex)->GetStaticField(0x448A8);
 		}
 
 		static ::System::Void _cctor()

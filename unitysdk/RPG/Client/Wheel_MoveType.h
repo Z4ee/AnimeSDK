@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Wheel_MoveType_TypeDefinitionIndex = 57964;
+	inline static constexpr unsigned int Wheel_MoveType_TypeDefinitionIndex = 65251;
 
 	enum class Wheel_MoveType : ::System::Int32
 	{

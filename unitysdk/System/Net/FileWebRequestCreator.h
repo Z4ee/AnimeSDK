@@ -5,12 +5,12 @@
 namespace System { class Uri; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_FILEWEBREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x186D1EB0)
-#define SYSTEM_NET_FILEWEBREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x186D1EA0)
+#define SYSTEM_NET_FILEWEBREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1A10C570)
+#define SYSTEM_NET_FILEWEBREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A10C560)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int FileWebRequestCreator_TypeDefinitionIndex = 2797;
+	inline static constexpr unsigned int FileWebRequestCreator_TypeDefinitionIndex = 2798;
 
 	class FileWebRequestCreator : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_NetworkType_TypeDefinitionIndex = 35148;
+	inline static constexpr unsigned int DeviceUtils_NetworkType_TypeDefinitionIndex = 40976;
 
 	enum class DeviceUtils_NetworkType : ::System::Int32
 	{

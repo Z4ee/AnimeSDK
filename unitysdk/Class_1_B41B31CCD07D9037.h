@@ -5,18 +5,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define CLASS_1_B41B31CCD07D9037__CTOR_OFFSET UNITYSDK_OFFSET(0x167F74C0)
+#define CLASS_1_B41B31CCD07D9037__CTOR_OFFSET UNITYSDK_OFFSET(0x17FA2360)
 
-inline static constexpr unsigned int Class_1_B41B31CCD07D9037_TypeDefinitionIndex = 33745;
+inline static constexpr unsigned int Class_1_B41B31CCD07D9037_TypeDefinitionIndex = 39546;
 
 class Class_1_B41B31CCD07D9037 : public ::System::Object
 {
 public:
 	::System::Object* Field_1_4; // 0x10
 	::UnityEngine::Vector3Int Field_1_1; // 0x18
-	::RPG::GameCore::CakeRaceCellType Field_1_0; // 0x24
-	::System::Int32 Field_1_3; // 0x28
-	::RPG::MVector3 Field_1_2; // 0x2C
+	::RPG::MVector3 Field_1_2; // 0x24
+	::System::Int32 Field_1_3; // 0x30
+	::RPG::GameCore::CakeRaceCellType Field_1_0; // 0x34
 
 	::System::Void _ctor()
 	{

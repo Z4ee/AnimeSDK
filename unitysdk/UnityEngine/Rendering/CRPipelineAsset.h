@@ -26,7 +26,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4661;
+	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4669;
 
 	struct alignas(8) CRPipelineAsset
 	{

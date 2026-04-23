@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98C6E00)
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98C6E40)
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__28_0_OFFSET UNITYSDK_OFFSET(0x98C6E50)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5AC090)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5AC0D0)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__28_0_OFFSET UNITYSDK_OFFSET(0xA5AC0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeamCalculator___c_TypeDefinitionIndex = 52626;
+	inline static constexpr unsigned int GridFightTeamCalculator___c_TypeDefinitionIndex = 59675;
 
 	class GridFightTeamCalculator___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightTeamCalculator___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightTeamCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x1A7E0);
-		}
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x1A7E8);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x1A5B0);
+		}
+		static ::RPG::Client::GridFightTeamCalculator___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightTeamCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x1A5B8);
 		}
 
 		static ::System::Void _cctor()

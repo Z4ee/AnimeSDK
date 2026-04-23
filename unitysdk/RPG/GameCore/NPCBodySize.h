@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCBodySize_TypeDefinitionIndex = 10060;
+	inline static constexpr unsigned int NPCBodySize_TypeDefinitionIndex = 10251;
 
 	enum class NPCBodySize : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeScoreFinishType_TypeDefinitionIndex = 10931;
+	inline static constexpr unsigned int MatchThreeScoreFinishType_TypeDefinitionIndex = 11335;
 
 	enum class MatchThreeScoreFinishType : ::System::Int32
 	{

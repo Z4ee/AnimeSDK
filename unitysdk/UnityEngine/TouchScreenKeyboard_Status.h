@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TouchScreenKeyboard_Status_TypeDefinitionIndex = 4204;
+	inline static constexpr unsigned int TouchScreenKeyboard_Status_TypeDefinitionIndex = 4206;
 
 	enum class TouchScreenKeyboard_Status : ::System::Int32
 	{

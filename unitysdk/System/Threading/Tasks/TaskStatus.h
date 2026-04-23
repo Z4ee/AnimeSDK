@@ -3,7 +3,7 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskStatus_TypeDefinitionIndex = 893;
+	inline static constexpr unsigned int TaskStatus_TypeDefinitionIndex = 895;
 
 	enum class TaskStatus : ::System::Int32
 	{

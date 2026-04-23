@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG_METHOD_2_DF234648A42B5CC9_OFFSET UNITYSDK_OFFSET(0x17709E10)
-#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1770A2B0)
+#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG_METHOD_2_DF234648A42B5CC9_OFFSET UNITYSDK_OFFSET(0x18E6D880)
+#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6DD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimulateAvatarLineupConfig_TypeDefinitionIndex = 16650;
+	inline static constexpr unsigned int SimulateAvatarLineupConfig_TypeDefinitionIndex = 17242;
 
 	class SimulateAvatarLineupConfig : public ::RPG::GameCore::JsonConfig
 	{

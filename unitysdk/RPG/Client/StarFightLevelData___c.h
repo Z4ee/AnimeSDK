@@ -5,24 +5,24 @@
 namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_STARFIGHTLEVELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4D5490)
-#define RPG_CLIENT_STARFIGHTLEVELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D54D0)
-#define RPG_CLIENT_STARFIGHTLEVELDATA___C__GETMONSTERDATA_B__1_0_OFFSET UNITYSDK_OFFSET(0xA4D54E0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1C6190)
+#define RPG_CLIENT_STARFIGHTLEVELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB1C61D0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA___C__GETMONSTERDATA_B__1_0_OFFSET UNITYSDK_OFFSET(0xB1C61E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StarFightLevelData___c_TypeDefinitionIndex = 55478;
+	inline static constexpr unsigned int StarFightLevelData___c_TypeDefinitionIndex = 62671;
 
 	class StarFightLevelData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightLevelData___c_TypeDefinitionIndex)->GetStaticField(0x26570);
-		}
 		static ::RPG::Client::StarFightLevelData___c** StaticGet___9()
 		{
-			return (::RPG::Client::StarFightLevelData___c**)Il2CppClass::FromTypeDefinitionIndex(StarFightLevelData___c_TypeDefinitionIndex)->GetStaticField(0x26578);
+			return (::RPG::Client::StarFightLevelData___c**)Il2CppClass::FromTypeDefinitionIndex(StarFightLevelData___c_TypeDefinitionIndex)->GetStaticField(0x272E0);
+		}
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightLevelData___c_TypeDefinitionIndex)->GetStaticField(0x272E8);
 		}
 
 		static ::System::Void _cctor()

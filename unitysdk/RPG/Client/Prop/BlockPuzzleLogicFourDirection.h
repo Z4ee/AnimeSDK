@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BlockPuzzleLogicFourDirection_TypeDefinitionIndex = 64240;
+	inline static constexpr unsigned int BlockPuzzleLogicFourDirection_TypeDefinitionIndex = 72287;
 
 	enum class BlockPuzzleLogicFourDirection : ::System::Int32
 	{

@@ -5,29 +5,29 @@
 class SceneLightVolume;
 namespace System { template <typename T> class Comparison_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFB8B450)
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFB8B490)
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_0_OFFSET UNITYSDK_OFFSET(0xFB8B4A0)
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_1_OFFSET UNITYSDK_OFFSET(0xFB8B4E0)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2FE6C0)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF2FE700)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_0_OFFSET UNITYSDK_OFFSET(0xF2FE710)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_1_OFFSET UNITYSDK_OFFSET(0xF2FE750)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroBlockDataTransProperty___c_TypeDefinitionIndex = 40281;
+	inline static constexpr unsigned int EnviroBlockDataTransProperty___c_TypeDefinitionIndex = 46190;
 
 	class EnviroBlockDataTransProperty___c : public ::System::Object
 	{
 	public:
 		static ::EnviromentSystem::EnviroBlockDataTransProperty___c** StaticGet___9()
 		{
-			return (::EnviromentSystem::EnviroBlockDataTransProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0xE440);
-		}
-		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__28_1()
-		{
-			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0xE448);
+			return (::EnviromentSystem::EnviroBlockDataTransProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x12680);
 		}
 		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0xE450);
+			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x12688);
+		}
+		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__28_1()
+		{
+			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x12690);
 		}
 
 		static ::System::Void _cctor()

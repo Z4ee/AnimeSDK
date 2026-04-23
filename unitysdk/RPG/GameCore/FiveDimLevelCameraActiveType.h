@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelCameraActiveType_TypeDefinitionIndex = 17081;
+	inline static constexpr unsigned int FiveDimLevelCameraActiveType_TypeDefinitionIndex = 17680;
 
 	enum class FiveDimLevelCameraActiveType : ::System::Int32
 	{

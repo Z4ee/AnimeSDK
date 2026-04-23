@@ -5,12 +5,12 @@
 namespace RPG::Client { class ConditionCheckerHandle; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x941B850)
-#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS9_0__WAITCONDITIONSHASMET_B__0_OFFSET UNITYSDK_OFFSET(0x941BAA0)
+#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C9A60)
+#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS9_0__WAITCONDITIONSHASMET_B__0_OFFSET UNITYSDK_OFFSET(0xA0C9C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionCheckerUtil___c__DisplayClass9_0_TypeDefinitionIndex = 48521;
+	inline static constexpr unsigned int ConditionCheckerUtil___c__DisplayClass9_0_TypeDefinitionIndex = 55270;
 
 	class ConditionCheckerUtil___c__DisplayClass9_0 : public ::System::Object
 	{

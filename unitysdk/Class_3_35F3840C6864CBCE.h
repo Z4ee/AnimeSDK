@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCurrentVCameraConfigCaster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_35F3840C6864CBCE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11565390)
-#define CLASS_3_35F3840C6864CBCE__CTOR_OFFSET UNITYSDK_OFFSET(0x11565360)
+#define CLASS_3_35F3840C6864CBCE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9098A70)
+#define CLASS_3_35F3840C6864CBCE__CTOR_OFFSET UNITYSDK_OFFSET(0x9098A40)
 
-inline static constexpr unsigned int Class_3_35F3840C6864CBCE_TypeDefinitionIndex = 44703;
+inline static constexpr unsigned int Class_3_35F3840C6864CBCE_TypeDefinitionIndex = 51447;
 
 class Class_3_35F3840C6864CBCE : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCurrentVCameraConfigCaster*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillSpecialAvatarType_TypeDefinitionIndex = 58934;
+	inline static constexpr unsigned int BattleSkillSpecialAvatarType_TypeDefinitionIndex = 66305;
 
 	enum class BattleSkillSpecialAvatarType : ::System::Int32
 	{

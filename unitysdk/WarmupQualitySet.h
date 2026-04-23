@@ -4,7 +4,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/WarmupQualityCategory.h"
 
-inline static constexpr unsigned int WarmupQualitySet_TypeDefinitionIndex = 38284;
+inline static constexpr unsigned int WarmupQualitySet_TypeDefinitionIndex = 44168;
 
 struct alignas(4) WarmupQualitySet
 {

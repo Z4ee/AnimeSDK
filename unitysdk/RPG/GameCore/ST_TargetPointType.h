@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_TargetPointType_TypeDefinitionIndex = 18354;
+	inline static constexpr unsigned int ST_TargetPointType_TypeDefinitionIndex = 19001;
 
 	enum class ST_TargetPointType : ::System::Int32
 	{

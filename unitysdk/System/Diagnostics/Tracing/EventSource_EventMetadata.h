@@ -11,7 +11,7 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSource_EventMetadata_TypeDefinitionIndex = 1656;
+	inline static constexpr unsigned int EventSource_EventMetadata_TypeDefinitionIndex = 1657;
 
 	struct alignas(8) EventSource_EventMetadata
 	{

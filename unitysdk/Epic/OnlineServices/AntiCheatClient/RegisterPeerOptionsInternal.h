@@ -19,7 +19,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int RegisterPeerOptionsInternal_TypeDefinitionIndex = 36726;
+	inline static constexpr unsigned int RegisterPeerOptionsInternal_TypeDefinitionIndex = 42552;
 
 	struct alignas(8) RegisterPeerOptionsInternal
 	{

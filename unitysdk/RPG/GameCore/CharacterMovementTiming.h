@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterMovementTiming_TypeDefinitionIndex = 45823;
+	inline static constexpr unsigned int CharacterMovementTiming_TypeDefinitionIndex = 52479;
 
 	enum class CharacterMovementTiming : ::System::Int32
 	{

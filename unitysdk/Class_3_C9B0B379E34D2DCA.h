@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddReShaReactProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C9B0B379E34D2DCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11451C20)
-#define CLASS_3_C9B0B379E34D2DCA__CTOR_OFFSET UNITYSDK_OFFSET(0x11451BF0)
+#define CLASS_3_C9B0B379E34D2DCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB225190)
+#define CLASS_3_C9B0B379E34D2DCA__CTOR_OFFSET UNITYSDK_OFFSET(0xB225160)
 
-inline static constexpr unsigned int Class_3_C9B0B379E34D2DCA_TypeDefinitionIndex = 42342;
+inline static constexpr unsigned int Class_3_C9B0B379E34D2DCA_TypeDefinitionIndex = 48302;
 
 class Class_3_C9B0B379E34D2DCA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddReShaReactProp*>
 {

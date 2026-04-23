@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChimeraWorkRoundOptionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93DD860)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93DD8A0)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x93DD8B0)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA08B330)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA08B370)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xA08B380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 51586;
+	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 58524;
 
 	class ChimeraWorkRoundOptionsData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraWorkRoundOptionsData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraWorkRoundOptionsData___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x479E0);
+			return (::RPG::Client::ChimeraWorkRoundOptionsData___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x5C190);
 		}
 		static ::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x479E8);
+			return (::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x5C198);
 		}
 
 		static ::System::Void _cctor()

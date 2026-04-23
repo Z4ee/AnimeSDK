@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarEventOptionType_TypeDefinitionIndex = 11166;
+	inline static constexpr unsigned int PlanetFesAvatarEventOptionType_TypeDefinitionIndex = 11569;
 
 	enum class PlanetFesAvatarEventOptionType : ::System::Int32
 	{

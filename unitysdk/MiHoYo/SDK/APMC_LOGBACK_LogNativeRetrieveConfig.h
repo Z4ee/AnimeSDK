@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogNativeRetrieveConfig_TypeDefinitionIndex = 37258;
+	inline static constexpr unsigned int APMC_LOGBACK_LogNativeRetrieveConfig_TypeDefinitionIndex = 43113;
 
 	struct alignas(8) APMC_LOGBACK_LogNativeRetrieveConfig
 	{

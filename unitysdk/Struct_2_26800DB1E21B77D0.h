@@ -4,7 +4,7 @@
 
 namespace RPG::Client { class TeamData; }
 
-inline static constexpr unsigned int Struct_2_26800DB1E21B77D0_TypeDefinitionIndex = 51204;
+inline static constexpr unsigned int Struct_2_26800DB1E21B77D0_TypeDefinitionIndex = 58128;
 
 struct alignas(8) Struct_2_26800DB1E21B77D0
 {

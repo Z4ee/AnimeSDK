@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelJumpTextType_TypeDefinitionIndex = 63722;
+	inline static constexpr unsigned int ChimeraDuelJumpTextType_TypeDefinitionIndex = 71768;
 
 	enum class ChimeraDuelJumpTextType : ::System::Int32
 	{

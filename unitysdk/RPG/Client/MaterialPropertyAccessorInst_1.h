@@ -8,7 +8,7 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertyAccessorInst_1_TypeDefinitionIndex = 57102;
+	inline static constexpr unsigned int MaterialPropertyAccessorInst_1_TypeDefinitionIndex = 64353;
 
 	template <typename T>
 	class MaterialPropertyAccessorInst_1 : public ::System::Object

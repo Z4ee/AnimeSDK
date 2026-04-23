@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharacterModelCapture_RendererNodeModify_TypeDefinitionIndex = 57316;
+	inline static constexpr unsigned int MonoEffectPluginCharacterModelCapture_RendererNodeModify_TypeDefinitionIndex = 64570;
 
 	struct alignas(8) MonoEffectPluginCharacterModelCapture_RendererNodeModify
 	{

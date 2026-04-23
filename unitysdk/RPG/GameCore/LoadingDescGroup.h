@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingDescGroup_TypeDefinitionIndex = 12768;
+	inline static constexpr unsigned int LoadingDescGroup_TypeDefinitionIndex = 13235;
 
 	enum class LoadingDescGroup : ::System::Int32
 	{

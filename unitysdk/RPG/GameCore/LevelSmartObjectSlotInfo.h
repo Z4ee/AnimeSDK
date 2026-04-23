@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelSmartObjectPointInfo; }
 
-#define RPG_GAMECORE_LEVELSMARTOBJECTSLOTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1734C930)
-#define RPG_GAMECORE_LEVELSMARTOBJECTSLOTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1734CA90)
+#define RPG_GAMECORE_LEVELSMARTOBJECTSLOTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A5A640)
+#define RPG_GAMECORE_LEVELSMARTOBJECTSLOTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5A770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSmartObjectSlotInfo_TypeDefinitionIndex = 15953;
+	inline static constexpr unsigned int LevelSmartObjectSlotInfo_TypeDefinitionIndex = 16479;
 
 	class LevelSmartObjectSlotInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,0 +1,261 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_63C076C405BE0674_1.h"
+#include "unitysdk/RPG/Client/BaseLobby.h"
+#include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2LobbyMode.h"
+
+class Class_1_E7DB216A3FFF6C29;
+class Class_1_FF03248024BAA97A;
+namespace RPG::Client { class LobbyMemberData; }
+namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_CHANGESELFSTATE_OFFSET UNITYSDK_OFFSET(0xA1510D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_INVITEROBOTID_OFFSET UNITYSDK_OFFSET(0xA152720)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_LOBBYMODE_OFFSET UNITYSDK_OFFSET(0xA152540)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0xA152560)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_PLAYERMATCHRESULTMULTIPLAYERINFO_OFFSET UNITYSDK_OFFSET(0xA1526C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_PLAYERMEMBERDATA_OFFSET UNITYSDK_OFFSET(0xA1525A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0xA152520)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEAVATARINFOS_OFFSET UNITYSDK_OFFSET(0xA152700)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEINFO_OFFSET UNITYSDK_OFFSET(0xA152580)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEMATCHRESULTMULTIPLAYERINFO_OFFSET UNITYSDK_OFFSET(0xA1526E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEMEMBERDATA_OFFSET UNITYSDK_OFFSET(0xA1525C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_INVITEROBOTID_OFFSET UNITYSDK_OFFSET(0xA152730)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_LOBBYMODE_OFFSET UNITYSDK_OFFSET(0xA152550)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0xA152570)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_PLAYERMATCHRESULTMULTIPLAYERINFO_OFFSET UNITYSDK_OFFSET(0xA1526D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_PLAYERMEMBERDATA_OFFSET UNITYSDK_OFFSET(0xA1525B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xA152530)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEAVATARINFOS_OFFSET UNITYSDK_OFFSET(0xA152710)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEINFO_OFFSET UNITYSDK_OFFSET(0xA152590)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEMATCHRESULTMULTIPLAYERINFO_OFFSET UNITYSDK_OFFSET(0xA1526F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEMEMBERDATA_OFFSET UNITYSDK_OFFSET(0xA1525D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_TRYGETTEAMMATEMEMBERDATAFORADDFRIEND_OFFSET UNITYSDK_OFFSET(0xA1525E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__CHECKANDUPDATEINVITEROBOT_OFFSET UNITYSDK_OFFSET(0xA152380)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__CTOR_OFFSET UNITYSDK_OFFSET(0xA152740)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONINIT_OFFSET UNITYSDK_OFFSET(0xA151160)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONMATCHRESULTMEMBERSCHANGE_OFFSET UNITYSDK_OFFSET(0xA151EC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xA151E20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONROOMINIT_OFFSET UNITYSDK_OFFSET(0xA1511D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xA151850)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATEMATCHRESULTPLAYERINFOS_OFFSET UNITYSDK_OFFSET(0xA151C30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATEMEMBERS_OFFSET UNITYSDK_OFFSET(0xA1518C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATETEAMMATEAVATARINFOSFROMMEMBER_OFFSET UNITYSDK_OFFSET(0xA1513C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATETEAMMATEAVATARINFOS_OFFSET UNITYSDK_OFFSET(0xA151F10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0xA152750)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONMATCHRESULTMEMBERSCHANGE_OFFSET UNITYSDK_OFFSET(0xA1528F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xA152890)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONROOMINIT_OFFSET UNITYSDK_OFFSET(0xA1527C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xA152830)
+
+namespace RPG::Client::DiceCombat
+{
+	inline static constexpr unsigned int DiceCombatV2Lobby_TypeDefinitionIndex = 69962;
+
+	class DiceCombatV2Lobby : public ::RPG::Client::BaseLobby
+	{
+	public:
+		::Class_1_FF03248024BAA97A* _TeamMateMatchResultMultiPlayerInfo_k__BackingField; // 0x60
+		::RPG::Client::LobbyMemberData* _PlayerMemberData_k__BackingField; // 0x68
+		::RPG::Client::LobbyMemberData* _TeamMateMemberData_k__BackingField; // 0x70
+		::Class_1_FF03248024BAA97A* _PlayerMatchResultMultiPlayerInfo_k__BackingField; // 0x78
+		::Class_1_FF03248024BAA97A* _TeamMateInfo_k__BackingField; // 0x80
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* _TeamMateAvatarInfos_k__BackingField; // 0x88
+		::Class_1_FF03248024BAA97A* _PlayerInfo_k__BackingField; // 0x90
+		::System::UInt32 _InviteRobotID_k__BackingField; // 0x98
+		::System::UInt32 _StageID_k__BackingField; // 0x9C
+		::RPG::Client::DiceCombat::DiceCombatV2LobbyMode _LobbyMode_k__BackingField; // 0xA0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__CTOR_OFFSET))(this);
+		}
+
+		::System::Void ChangeSelfState(::Enum_3_63C076C405BE0674_1 type)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_CHANGESELFSTATE_OFFSET))(this, type);
+		}
+
+		::System::Void _OnInit(::System::UInt32 createParam)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONINIT_OFFSET))(this, createParam);
+		}
+
+		::System::Void _OnRoomInit(::Class_1_E7DB216A3FFF6C29* roomExtInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E7DB216A3FFF6C29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONROOMINIT_OFFSET))(this, roomExtInfo);
+		}
+
+		::System::Void _OnStateChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONSTATECHANGED_OFFSET))(this);
+		}
+
+		::System::Void _OnMemberChange()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONMEMBERCHANGE_OFFSET))(this);
+		}
+
+		::System::Void _OnMatchResultMembersChange()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__ONMATCHRESULTMEMBERSCHANGE_OFFSET))(this);
+		}
+
+		::System::Void _UpdateMembers(::System::Collections::Generic::IEnumerable_1<::RPG::Client::LobbyMemberData*>* members)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::LobbyMemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATEMEMBERS_OFFSET))(this, members);
+		}
+
+		::System::Void _UpdateMatchResultPlayerInfos()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATEMATCHRESULTPLAYERINFOS_OFFSET))(this);
+		}
+
+		::System::Void _UpdateTeamMateAvatarInfos()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATETEAMMATEAVATARINFOS_OFFSET))(this);
+		}
+
+		::System::Void _UpdateTeamMateAvatarInfosFromMember(::RPG::Client::LobbyMemberData* memberData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LobbyMemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__UPDATETEAMMATEAVATARINFOSFROMMEMBER_OFFSET))(this, memberData);
+		}
+
+		::System::Void _CheckAndUpdateInviteRobot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY__CHECKANDUPDATEINVITEROBOT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_StageID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_STAGEID_OFFSET))(this);
+		}
+
+		::System::Void set_StageID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_STAGEID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::DiceCombat::DiceCombatV2LobbyMode get_LobbyMode()
+		{
+			return ((::RPG::Client::DiceCombat::DiceCombatV2LobbyMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_LOBBYMODE_OFFSET))(this);
+		}
+
+		::System::Void set_LobbyMode(::RPG::Client::DiceCombat::DiceCombatV2LobbyMode value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2LobbyMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_LOBBYMODE_OFFSET))(this, value);
+		}
+
+		::Class_1_FF03248024BAA97A* get_PlayerInfo()
+		{
+			return ((::Class_1_FF03248024BAA97A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_PLAYERINFO_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerInfo(::Class_1_FF03248024BAA97A* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF03248024BAA97A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_PLAYERINFO_OFFSET))(this, value);
+		}
+
+		::Class_1_FF03248024BAA97A* get_TeamMateInfo()
+		{
+			return ((::Class_1_FF03248024BAA97A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEINFO_OFFSET))(this);
+		}
+
+		::System::Void set_TeamMateInfo(::Class_1_FF03248024BAA97A* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF03248024BAA97A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEINFO_OFFSET))(this, value);
+		}
+
+		::RPG::Client::LobbyMemberData* get_PlayerMemberData()
+		{
+			return ((::RPG::Client::LobbyMemberData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_PLAYERMEMBERDATA_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerMemberData(::RPG::Client::LobbyMemberData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LobbyMemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_PLAYERMEMBERDATA_OFFSET))(this, value);
+		}
+
+		::RPG::Client::LobbyMemberData* get_TeamMateMemberData()
+		{
+			return ((::RPG::Client::LobbyMemberData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEMEMBERDATA_OFFSET))(this);
+		}
+
+		::System::Void set_TeamMateMemberData(::RPG::Client::LobbyMemberData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LobbyMemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEMEMBERDATA_OFFSET))(this, value);
+		}
+
+		::RPG::Client::LobbyMemberData* TryGetTeamMateMemberDataForAddFriend()
+		{
+			return ((::RPG::Client::LobbyMemberData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_TRYGETTEAMMATEMEMBERDATAFORADDFRIEND_OFFSET))(this);
+		}
+
+		::Class_1_FF03248024BAA97A* get_PlayerMatchResultMultiPlayerInfo()
+		{
+			return ((::Class_1_FF03248024BAA97A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_PLAYERMATCHRESULTMULTIPLAYERINFO_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerMatchResultMultiPlayerInfo(::Class_1_FF03248024BAA97A* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF03248024BAA97A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_PLAYERMATCHRESULTMULTIPLAYERINFO_OFFSET))(this, value);
+		}
+
+		::Class_1_FF03248024BAA97A* get_TeamMateMatchResultMultiPlayerInfo()
+		{
+			return ((::Class_1_FF03248024BAA97A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEMATCHRESULTMULTIPLAYERINFO_OFFSET))(this);
+		}
+
+		::System::Void set_TeamMateMatchResultMultiPlayerInfo(::Class_1_FF03248024BAA97A* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF03248024BAA97A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEMATCHRESULTMULTIPLAYERINFO_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* get_TeamMateAvatarInfos()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_TEAMMATEAVATARINFOS_OFFSET))(this);
+		}
+
+		::System::Void set_TeamMateAvatarInfos(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_TEAMMATEAVATARINFOS_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_InviteRobotID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_GET_INVITEROBOTID_OFFSET))(this);
+		}
+
+		::System::Void set_InviteRobotID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY_SET_INVITEROBOTID_OFFSET))(this, value);
+		}
+
+		::System::Void __iFixBaseProxy__OnInit(::System::UInt32 P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONINIT_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy__OnRoomInit(::Class_1_E7DB216A3FFF6C29* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E7DB216A3FFF6C29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONROOMINIT_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy__OnStateChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONSTATECHANGED_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnMemberChange()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONMEMBERCHANGE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnMatchResultMembersChange()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2LOBBY___IFIXBASEPROXY__ONMATCHRESULTMEMBERSCHANGE_OFFSET))(this);
+		}
+	};
+}

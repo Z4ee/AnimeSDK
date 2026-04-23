@@ -7,29 +7,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96B1B10)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x96B1B40)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0x96B1B50)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET UNITYSDK_OFFSET(0x96B1C20)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA371600)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA371630)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0xA371640)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET UNITYSDK_OFFSET(0xA371710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 52088;
+	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 59038;
 
 	class FightActivityUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>** StaticGet___9__2_0()
+		static ::RPG::Client::FightActivityUtils___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0x43F0);
+			return (::RPG::Client::FightActivityUtils___c**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0xCDD0);
 		}
 		static ::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0x43F8);
+			return (::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0xCDD8);
 		}
-		static ::RPG::Client::FightActivityUtils___c** StaticGet___9()
+		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>** StaticGet___9__2_0()
 		{
-			return (::RPG::Client::FightActivityUtils___c**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0x4400);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0xCDE0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,28 +6,28 @@ class Class_1_A0302E9AE0B8A2B9;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PREFABCACHE_GETPOOL_OFFSET UNITYSDK_OFFSET(0x9FF78D0)
-#define RPG_CLIENT_PREFABCACHE_GET_MPREFAB_OFFSET UNITYSDK_OFFSET(0x9FF77B0)
-#define RPG_CLIENT_PREFABCACHE_METHOD_5_890C39EA0468D280_OFFSET UNITYSDK_OFFSET(0x9FF77D0)
-#define RPG_CLIENT_PREFABCACHE_PREFABDESPAWNCHECK_OFFSET UNITYSDK_OFFSET(0x9FF7C80)
-#define RPG_CLIENT_PREFABCACHE_SET_MPREFAB_OFFSET UNITYSDK_OFFSET(0x9FF77C0)
-#define RPG_CLIENT_PREFABCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x9FF7E90)
-#define RPG_CLIENT_PREFABCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x9FF7E80)
+#define RPG_CLIENT_PREFABCACHE_GETPOOL_OFFSET UNITYSDK_OFFSET(0xAD73D10)
+#define RPG_CLIENT_PREFABCACHE_GET_MPREFAB_OFFSET UNITYSDK_OFFSET(0xAD73BF0)
+#define RPG_CLIENT_PREFABCACHE_METHOD_5_890C39EA0468D280_OFFSET UNITYSDK_OFFSET(0xAD73C10)
+#define RPG_CLIENT_PREFABCACHE_PREFABDESPAWNCHECK_OFFSET UNITYSDK_OFFSET(0xAD74090)
+#define RPG_CLIENT_PREFABCACHE_SET_MPREFAB_OFFSET UNITYSDK_OFFSET(0xAD73C00)
+#define RPG_CLIENT_PREFABCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD742A0)
+#define RPG_CLIENT_PREFABCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xAD74290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefabCache_TypeDefinitionIndex = 59527;
+	inline static constexpr unsigned int PrefabCache_TypeDefinitionIndex = 66922;
 
 	class PrefabCache : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_PrefabCacheEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrefabCache_TypeDefinitionIndex)->GetStaticField(0x12900);
-		}
 		static ::System::Boolean* StaticGet_PrefabCacheCheckEnable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrefabCache_TypeDefinitionIndex)->GetStaticField(0x12901);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrefabCache_TypeDefinitionIndex)->GetStaticField(0x11540);
+		}
+		static ::System::Boolean* StaticGet_PrefabCacheEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrefabCache_TypeDefinitionIndex)->GetStaticField(0x11541);
 		}
 		// static const ::System::String* Field_5_4; // 0x0
 		::System::String* mPrefabPath; // 0x18

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_COCOONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1711DF80)
-#define RPG_GAMECORE_COCOONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1711DDD0)
-#define RPG_GAMECORE_COCOONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1711DAA0)
-#define RPG_GAMECORE_COCOONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1711DD70)
-#define RPG_GAMECORE_COCOONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1711E150)
-#define RPG_GAMECORE_COCOONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1711DB20)
-#define RPG_GAMECORE_COCOONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1711E190)
-#define RPG_GAMECORE_COCOONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1711E370)
-#define RPG_GAMECORE_COCOONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1711E9B0)
-#define RPG_GAMECORE_COCOONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1711ED10)
-#define RPG_GAMECORE_COCOONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1711E2D0)
-#define RPG_GAMECORE_COCOONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1711E230)
+#define RPG_GAMECORE_COCOONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18824670)
+#define RPG_GAMECORE_COCOONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x188244C0)
+#define RPG_GAMECORE_COCOONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18824190)
+#define RPG_GAMECORE_COCOONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18824460)
+#define RPG_GAMECORE_COCOONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18824840)
+#define RPG_GAMECORE_COCOONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18824210)
+#define RPG_GAMECORE_COCOONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18824880)
+#define RPG_GAMECORE_COCOONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18824A60)
+#define RPG_GAMECORE_COCOONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x188250A0)
+#define RPG_GAMECORE_COCOONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18825400)
+#define RPG_GAMECORE_COCOONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x188249C0)
+#define RPG_GAMECORE_COCOONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18824920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CocoonExcelTable_TypeDefinitionIndex = 11457;
+	inline static constexpr unsigned int CocoonExcelTable_TypeDefinitionIndex = 11859;
 
 	class CocoonExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x28720);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x10BE0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x28728);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x10BE8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CocoonRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CocoonRow*>**)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x28730);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0xD4D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CocoonRow*>**)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x10BF0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0xD4D1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x52C0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CocoonExcelTable_TypeDefinitionIndex)->GetStaticField(0x52C1);
 		}
 
 		static ::System::Void _cctor()

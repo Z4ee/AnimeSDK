@@ -6,7 +6,7 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ICardSellable_TypeDefinitionIndex = 62053;
+	inline static constexpr unsigned int ICardSellable_TypeDefinitionIndex = 70052;
 
 	class ICardSellable
 	{

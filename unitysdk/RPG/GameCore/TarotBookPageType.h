@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookPageType_TypeDefinitionIndex = 20547;
+	inline static constexpr unsigned int TarotBookPageType_TypeDefinitionIndex = 21230;
 
 	enum class TarotBookPageType : ::System::Int32
 	{

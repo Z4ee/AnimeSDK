@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaMapTabProgressItem_TypeDefinitionIndex = 59766;
+	inline static constexpr unsigned int IRogueTournPersonaMapTabProgressItem_TypeDefinitionIndex = 67162;
 
 	class IRogueTournPersonaMapTabProgressItem
 	{

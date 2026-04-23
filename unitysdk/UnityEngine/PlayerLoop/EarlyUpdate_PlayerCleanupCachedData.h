@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_PlayerCleanupCachedData_TypeDefinitionIndex = 4373;
+	inline static constexpr unsigned int EarlyUpdate_PlayerCleanupCachedData_TypeDefinitionIndex = 4375;
 
 	struct alignas(1) EarlyUpdate_PlayerCleanupCachedData
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SERIALIZATION_FORMERLYSERIALIZEDASATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4D780)
+#define UNITYENGINE_SERIALIZATION_FORMERLYSERIALIZEDASATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A485080)
 
 namespace UnityEngine::Serialization
 {
-	inline static constexpr unsigned int FormerlySerializedAsAttribute_TypeDefinitionIndex = 4306;
+	inline static constexpr unsigned int FormerlySerializedAsAttribute_TypeDefinitionIndex = 4308;
 
 	class FormerlySerializedAsAttribute : public ::System::Attribute
 	{

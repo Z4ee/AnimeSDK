@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_291F4DFF708B8F23;
-namespace RPG::GameCore { class LittleGameProxyEntityConfig; }
+class Class_1_BFC94D6B3CE54520;
+class Class_1_CBE705B7AA4359C1;
+namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_160_TypeDefinitionIndex = 32444;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_160_TypeDefinitionIndex = 38167;
 
 class Class_0_16E4307DCC419505_160
 {

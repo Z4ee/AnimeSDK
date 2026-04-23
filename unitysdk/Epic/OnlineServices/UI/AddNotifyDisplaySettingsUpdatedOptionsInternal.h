@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::UI { class AddNotifyDisplaySettingsUpdatedOption
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_UI_ADDNOTIFYDISPLAYSETTINGSUPDATEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_UI_ADDNOTIFYDISPLAYSETTINGSUPDATEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1FD80)
+#define EPIC_ONLINESERVICES_UI_ADDNOTIFYDISPLAYSETTINGSUPDATEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1FD70)
 #define EPIC_ONLINESERVICES_UI_ADDNOTIFYDISPLAYSETTINGSUPDATEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int AddNotifyDisplaySettingsUpdatedOptionsInternal_TypeDefinitionIndex = 35302;
+	inline static constexpr unsigned int AddNotifyDisplaySettingsUpdatedOptionsInternal_TypeDefinitionIndex = 41128;
 
 	struct alignas(4) AddNotifyDisplaySettingsUpdatedOptionsInternal
 	{

@@ -5,13 +5,13 @@
 namespace RPG::GameCore { class AudioBookDataRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BOOKAUDIODATA_GET_AUDIOEVENT_OFFSET UNITYSDK_OFFSET(0x91F4AF0)
-#define RPG_CLIENT_BOOKAUDIODATA_GET_HASAUDIO_OFFSET UNITYSDK_OFFSET(0x91F4AE0)
-#define RPG_CLIENT_BOOKAUDIODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x91F4690)
+#define RPG_CLIENT_BOOKAUDIODATA_GET_AUDIOEVENT_OFFSET UNITYSDK_OFFSET(0x9E9DC00)
+#define RPG_CLIENT_BOOKAUDIODATA_GET_HASAUDIO_OFFSET UNITYSDK_OFFSET(0x9E9DBF0)
+#define RPG_CLIENT_BOOKAUDIODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9D7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookAudioData_TypeDefinitionIndex = 53993;
+	inline static constexpr unsigned int BookAudioData_TypeDefinitionIndex = 61139;
 
 	class BookAudioData : public ::System::Object
 	{

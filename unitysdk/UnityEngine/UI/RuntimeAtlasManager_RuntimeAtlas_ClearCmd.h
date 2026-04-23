@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_ClearCmd_TypeDefinitionIndex = 5685;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_ClearCmd_TypeDefinitionIndex = 5697;
 
 	struct alignas(4) RuntimeAtlasManager_RuntimeAtlas_ClearCmd
 	{

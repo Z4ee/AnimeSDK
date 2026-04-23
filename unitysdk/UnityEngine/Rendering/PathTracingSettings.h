@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PathTracingSettings_TypeDefinitionIndex = 4624;
+	inline static constexpr unsigned int PathTracingSettings_TypeDefinitionIndex = 4632;
 
 	struct alignas(4) PathTracingSettings
 	{

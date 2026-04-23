@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEGRAPHEXTENSIONS_INTERNALCREATEAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x189E0C90)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEGRAPHEXTENSIONS_INTERNALCREATEAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1A41A540)
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioPlayableGraphExtensions_TypeDefinitionIndex = 5094;
+	inline static constexpr unsigned int AudioPlayableGraphExtensions_TypeDefinitionIndex = 5102;
 
 	class AudioPlayableGraphExtensions : public ::System::Object
 	{

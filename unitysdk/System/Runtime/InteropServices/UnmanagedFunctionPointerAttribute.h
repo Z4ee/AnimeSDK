@@ -4,20 +4,20 @@
 #include "unitysdk/System/Runtime/InteropServices/CallingConvention.h"
 #include "unitysdk/System/Runtime/InteropServices/CharSet.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_UNMANAGEDFUNCTIONPOINTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16395620)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_UNMANAGEDFUNCTIONPOINTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179C2090)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int UnmanagedFunctionPointerAttribute_TypeDefinitionIndex = 1391;
+	inline static constexpr unsigned int UnmanagedFunctionPointerAttribute_TypeDefinitionIndex = 1393;
 
 	class UnmanagedFunctionPointerAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Runtime::InteropServices::CallingConvention m_callingConvention; // 0x10
+		::System::Boolean ThrowOnUnmappableChar; // 0x10
+		::System::Boolean BestFitMapping; // 0x11
+		::System::Boolean SetLastError; // 0x12
 		::System::Runtime::InteropServices::CharSet CharSet; // 0x14
-		::System::Boolean ThrowOnUnmappableChar; // 0x18
-		::System::Boolean SetLastError; // 0x19
-		::System::Boolean BestFitMapping; // 0x1A
+		::System::Runtime::InteropServices::CallingConvention m_callingConvention; // 0x18
 
 		::System::Void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention)
 		{

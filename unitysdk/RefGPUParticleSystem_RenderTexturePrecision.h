@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_RenderTexturePrecision_TypeDefinitionIndex = 33923;
+inline static constexpr unsigned int RefGPUParticleSystem_RenderTexturePrecision_TypeDefinitionIndex = 39724;
 
 enum class RefGPUParticleSystem_RenderTexturePrecision : ::System::Int32
 {

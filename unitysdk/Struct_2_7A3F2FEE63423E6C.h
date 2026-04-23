@@ -6,7 +6,7 @@
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_7A3F2FEE63423E6C_TypeDefinitionIndex = 45406;
+inline static constexpr unsigned int Struct_2_7A3F2FEE63423E6C_TypeDefinitionIndex = 52051;
 
 struct alignas(8) Struct_2_7A3F2FEE63423E6C
 {

@@ -7,18 +7,18 @@ namespace RPG::Client { class CakeRaceFieldData; }
 namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x92203D0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS64_0___HANDLESHOWMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x9221770)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE3470)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS64_0___HANDLESHOWMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x9EE4B20)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass64_0_TypeDefinitionIndex = 62210;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass64_0_TypeDefinitionIndex = 70209;
 
 	class CakeRaceGameFlow___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CakeRaceFieldData* fieldData; // 0x10
-		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x18
+		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x10
+		::RPG::Client::CakeRaceFieldData* fieldData; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournMiracleData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA33BC10)
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA33BC40)
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C___REPORTSELECTMIRACLE_B__30_0_OFFSET UNITYSDK_OFFSET(0xA33BC50)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB0732C0)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB0732F0)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C___REPORTSELECTMIRACLE_B__30_0_OFFSET UNITYSDK_OFFSET(0xB073300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleSelectAction___c_TypeDefinitionIndex = 54551;
+	inline static constexpr unsigned int RogueMiracleSelectAction___c_TypeDefinitionIndex = 61739;
 
 	class RogueMiracleSelectAction___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>** StaticGet___9__30_0()
-		{
-			return (::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0x18840);
-		}
 		static ::RPG::Client::RogueMiracleSelectAction___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueMiracleSelectAction___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0x18848);
+			return (::RPG::Client::RogueMiracleSelectAction___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0x13D00);
+		}
+		static ::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>** StaticGet___9__30_0()
+		{
+			return (::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0x13D08);
 		}
 
 		static ::System::Void _cctor()

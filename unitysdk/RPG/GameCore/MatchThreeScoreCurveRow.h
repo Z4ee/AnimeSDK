@@ -4,23 +4,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCHTHREESCORECURVEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173B5E60)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173B65E0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC3FC0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC4740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeScoreCurveRow_TypeDefinitionIndex = 10952;
+	inline static constexpr unsigned int MatchThreeScoreCurveRow_TypeDefinitionIndex = 11356;
 
 	class MatchThreeScoreCurveRow : public ::System::Object
 	{
 	public:
-		::System::Single AddCurveRatio; // 0x10
-		::System::UInt32 HPDecrease; // 0x14
-		::System::UInt32 AddLow; // 0x18
-		::System::UInt32 DelayTime; // 0x1C
-		::System::UInt32 PlayerStep; // 0x20
-		::System::UInt32 CurveID; // 0x24
-		::System::UInt32 AddHigh; // 0x28
+		::System::UInt32 CurveID; // 0x10
+		::System::Single AddCurveRatio; // 0x14
+		::System::UInt32 DelayTime; // 0x18
+		::System::UInt32 AddHigh; // 0x1C
+		::System::UInt32 HPDecrease; // 0x20
+		::System::UInt32 PlayerStep; // 0x24
+		::System::UInt32 AddLow; // 0x28
 
 		::System::Void _ctor()
 		{

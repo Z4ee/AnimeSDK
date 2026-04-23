@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ECurveMovementBlockReason_TypeDefinitionIndex = 55964;
+	inline static constexpr unsigned int ECurveMovementBlockReason_TypeDefinitionIndex = 63207;
 
 	enum class ECurveMovementBlockReason : ::System::Int32
 	{

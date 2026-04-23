@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int TransformType_TypeDefinitionIndex = 34945;
+	inline static constexpr unsigned int TransformType_TypeDefinitionIndex = 40773;
 
 	enum class TransformType : ::System::Int32
 	{

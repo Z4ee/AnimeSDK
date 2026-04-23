@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookVersion_TypeDefinitionIndex = 55557;
+	inline static constexpr unsigned int TarotBookVersion_TypeDefinitionIndex = 62751;
 
 	enum class TarotBookVersion : ::System::Int32
 	{

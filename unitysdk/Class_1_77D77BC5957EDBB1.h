@@ -18,66 +18,66 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_77D77BC5957EDBB1_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x10512370)
-#define CLASS_1_77D77BC5957EDBB1_GET_MARKDISABLE_OFFSET UNITYSDK_OFFSET(0x1050FFC0)
-#define CLASS_1_77D77BC5957EDBB1_INIT_OFFSET UNITYSDK_OFFSET(0x1050FFE0)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_0CC1EA4372265873_OFFSET UNITYSDK_OFFSET(0x10510240)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_1B8A7D152370AD2C_OFFSET UNITYSDK_OFFSET(0x10511D10)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_4287081A8571B187_OFFSET UNITYSDK_OFFSET(0x10513570)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x105123B0)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_5F1978205E005603_OFFSET UNITYSDK_OFFSET(0x10510580)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_5F9F5EB6A660BE4E_OFFSET UNITYSDK_OFFSET(0x10512420)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_66CC9828DB1F478F_OFFSET UNITYSDK_OFFSET(0x10510920)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_862ACF0AE239B7AE_OFFSET UNITYSDK_OFFSET(0x10511290)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_920DE8F4A8DAE754_OFFSET UNITYSDK_OFFSET(0x10511230)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_999B8B439422C7E7_OFFSET UNITYSDK_OFFSET(0x10513710)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_9EFC68A7BE2E1962_OFFSET UNITYSDK_OFFSET(0x10510080)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_CC324EA2E7C18FE7_OFFSET UNITYSDK_OFFSET(0x105106D0)
-#define CLASS_1_77D77BC5957EDBB1_METHOD_1_E1C8EBE68635D7A7_OFFSET UNITYSDK_OFFSET(0x105105D0)
-#define CLASS_1_77D77BC5957EDBB1_REFRESH_OFFSET UNITYSDK_OFFSET(0x105109F0)
-#define CLASS_1_77D77BC5957EDBB1_RESET_OFFSET UNITYSDK_OFFSET(0x10510380)
-#define CLASS_1_77D77BC5957EDBB1_SET_MARKDISABLE_OFFSET UNITYSDK_OFFSET(0x1050FFD0)
-#define CLASS_1_77D77BC5957EDBB1__CTOR_OFFSET UNITYSDK_OFFSET(0x105137A0)
+#define CLASS_1_77D77BC5957EDBB1_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x11D61620)
+#define CLASS_1_77D77BC5957EDBB1_GET_MARKDISABLE_OFFSET UNITYSDK_OFFSET(0x11D5F2B0)
+#define CLASS_1_77D77BC5957EDBB1_INIT_OFFSET UNITYSDK_OFFSET(0x11D5F2D0)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_0CC1EA4372265873_OFFSET UNITYSDK_OFFSET(0x11D5F530)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_1B8A7D152370AD2C_OFFSET UNITYSDK_OFFSET(0x11D60FD0)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_1D897375118954FE_OFFSET UNITYSDK_OFFSET(0x11D62800)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x11D61660)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_5F1978205E005603_OFFSET UNITYSDK_OFFSET(0x11D5F850)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_5F9F5EB6A660BE4E_OFFSET UNITYSDK_OFFSET(0x11D616D0)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_66CC9828DB1F478F_OFFSET UNITYSDK_OFFSET(0x11D5FBF0)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_862ACF0AE239B7AE_OFFSET UNITYSDK_OFFSET(0x11D60560)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_920DE8F4A8DAE754_OFFSET UNITYSDK_OFFSET(0x11D60500)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_999B8B439422C7E7_OFFSET UNITYSDK_OFFSET(0x11D62960)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_9EFC68A7BE2E1962_OFFSET UNITYSDK_OFFSET(0x11D5F370)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_CC324EA2E7C18FE7_OFFSET UNITYSDK_OFFSET(0x11D5F9A0)
+#define CLASS_1_77D77BC5957EDBB1_METHOD_1_E1C8EBE68635D7A7_OFFSET UNITYSDK_OFFSET(0x11D5F8A0)
+#define CLASS_1_77D77BC5957EDBB1_REFRESH_OFFSET UNITYSDK_OFFSET(0x11D5FCC0)
+#define CLASS_1_77D77BC5957EDBB1_RESET_OFFSET UNITYSDK_OFFSET(0x11D5F670)
+#define CLASS_1_77D77BC5957EDBB1_SET_MARKDISABLE_OFFSET UNITYSDK_OFFSET(0x11D5F2C0)
+#define CLASS_1_77D77BC5957EDBB1__CTOR_OFFSET UNITYSDK_OFFSET(0x11D629F0)
 
-inline static constexpr unsigned int Class_1_77D77BC5957EDBB1_TypeDefinitionIndex = 56895;
+inline static constexpr unsigned int Class_1_77D77BC5957EDBB1_TypeDefinitionIndex = 64145;
 
 class Class_1_77D77BC5957EDBB1 : public ::System::Object
 {
 public:
 	static ::RPG::Client::CameraFightStateOrbitCruiseConfig** StaticGet_Field_1_27()
 	{
-		return (::RPG::Client::CameraFightStateOrbitCruiseConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77D77BC5957EDBB1_TypeDefinitionIndex)->GetStaticField(0x490B0);
+		return (::RPG::Client::CameraFightStateOrbitCruiseConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77D77BC5957EDBB1_TypeDefinitionIndex)->GetStaticField(0x6B7C0);
 	}
 	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_77D77BC5957EDBB1_TypeDefinitionIndex)->GetStaticField(0x13210);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_77D77BC5957EDBB1_TypeDefinitionIndex)->GetStaticField(0x13EE0);
 	}
-	::Class_2_5D178EC982C80153* Field_1_3; // 0x10
-	::UnityEngine::AnimationCurve* Field_1_22; // 0x18
-	::RPG::Client::CameraFightStateOrbitCruiseConfigData* Field_1_9; // 0x20
-	::RPG::Client::CameraFightStateOrbitCruiseConfig* Field_1_8; // 0x28
-	::UnityEngine::Transform* Field_1_7; // 0x30
-	::RPG::Client::CameraDataAndFlags* Field_1_4; // 0x38
-	::Class_1_B2388953D46D7EF4* Field_1_17; // 0x40
-	::UnityEngine::Transform* Field_1_5; // 0x48
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* Field_1_26; // 0x50
-	::Class_1_77D77BC5957EDBB1_Class_1_0768C4BEC10E6AAD* Field_1_2; // 0x58
-	::Class_1_B2388953D46D7EF4* Field_1_18; // 0x60
-	::UnityEngine::Transform* Field_1_6; // 0x68
-	::System::String* Field_1_23; // 0x70
-	::System::Boolean Field_1_16; // 0x78
-	::System::Boolean Field_1_25; // 0x79
-	::System::Boolean Field_1_24; // 0x7A
-	::System::Boolean _MarkDisable_k__BackingField; // 0x7B
-	::System::Single Field_1_21; // 0x7C
-	::RPG::MVector3 Field_1_19; // 0x80
-	::UnityEngine::Vector3 Field_1_11; // 0x8C
-	::UnityEngine::Vector3 Field_1_12; // 0x98
-	::System::Int32 Field_1_13; // 0xA4
-	::System::Single Field_1_14; // 0xA8
-	::System::Single Field_1_15; // 0xAC
-	::UnityEngine::Vector3 Field_1_10; // 0xB0
-	::RPG::MVector3 Field_1_20; // 0xBC
+	::Class_1_B2388953D46D7EF4* Field_1_17; // 0x10
+	::RPG::Client::CameraFightStateOrbitCruiseConfig* Field_1_8; // 0x18
+	::System::String* Field_1_23; // 0x20
+	::UnityEngine::Transform* Field_1_5; // 0x28
+	::RPG::Client::CameraFightStateOrbitCruiseConfigData* Field_1_9; // 0x30
+	::Class_1_B2388953D46D7EF4* Field_1_18; // 0x38
+	::UnityEngine::Transform* Field_1_6; // 0x40
+	::UnityEngine::Transform* Field_1_7; // 0x48
+	::Class_1_77D77BC5957EDBB1_Class_1_0768C4BEC10E6AAD* Field_1_2; // 0x50
+	::UnityEngine::AnimationCurve* Field_1_22; // 0x58
+	::Class_2_5D178EC982C80153* Field_1_3; // 0x60
+	::RPG::Client::CameraDataAndFlags* Field_1_4; // 0x68
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* Field_1_26; // 0x70
+	::System::Boolean Field_1_24; // 0x78
+	::System::Boolean _MarkDisable_k__BackingField; // 0x79
+	::System::Boolean Field_1_25; // 0x7A
+	::System::Boolean Field_1_16; // 0x7B
+	::System::Int32 Field_1_13; // 0x7C
+	::UnityEngine::Vector3 Field_1_11; // 0x80
+	::System::Single Field_1_14; // 0x8C
+	::System::Single Field_1_15; // 0x90
+	::UnityEngine::Vector3 Field_1_10; // 0x94
+	::UnityEngine::Vector3 Field_1_12; // 0xA0
+	::RPG::MVector3 Field_1_20; // 0xAC
+	::RPG::MVector3 Field_1_19; // 0xB8
+	::System::Single Field_1_21; // 0xC4
 
 	::System::Void _ctor()
 	{
@@ -169,9 +169,9 @@ public:
 		return ((::RPG::Client::CameraFightStateOrbitCruiseConfigData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_77D77BC5957EDBB1_METHOD_1_920DE8F4A8DAE754_OFFSET))(this);
 	}
 
-	::System::Void Method_1_4287081A8571B187(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::System::Single a3, ::System::String* a4)
+	::System::Void Method_1_1D897375118954FE(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::System::Single a3, ::System::String* a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::MVector3, ::RPG::MVector3, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_77D77BC5957EDBB1_METHOD_1_4287081A8571B187_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector3, ::RPG::MVector3, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_77D77BC5957EDBB1_METHOD_1_1D897375118954FE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void Method_1_999B8B439422C7E7(::System::Single a1, ::System::Single a2)

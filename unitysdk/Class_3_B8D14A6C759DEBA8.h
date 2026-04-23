@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroPickupBullet; }
 
-#define CLASS_3_B8D14A6C759DEBA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x893E7C0)
-#define CLASS_3_B8D14A6C759DEBA8__CTOR_OFFSET UNITYSDK_OFFSET(0x893E790)
+#define CLASS_3_B8D14A6C759DEBA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12A970D0)
+#define CLASS_3_B8D14A6C759DEBA8__CTOR_OFFSET UNITYSDK_OFFSET(0x12A970A0)
 
-inline static constexpr unsigned int Class_3_B8D14A6C759DEBA8_TypeDefinitionIndex = 47628;
+inline static constexpr unsigned int Class_3_B8D14A6C759DEBA8_TypeDefinitionIndex = 54366;
 
 class Class_3_B8D14A6C759DEBA8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroPickupBullet*>
 {

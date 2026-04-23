@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER_MARBLEFORCELAUNCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9B14370)
+#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER_MARBLEFORCELAUNCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA80DB20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleInputHandler_MarbleForceLaunchConfig_TypeDefinitionIndex = 53440;
+	inline static constexpr unsigned int MarbleBattleInputHandler_MarbleForceLaunchConfig_TypeDefinitionIndex = 60584;
 
 	class MarbleBattleInputHandler_MarbleForceLaunchConfig : public ::System::Object
 	{
 	public:
 		::System::Single AngleTolerance; // 0x10
-		::RPG::MVector2 ForceFactorVector; // 0x14
-		::System::UInt32 ForceSealTeamIndex; // 0x1C
+		::System::UInt32 ForceSealTeamIndex; // 0x14
+		::RPG::MVector2 ForceFactorVector; // 0x18
 
 		::System::Void _ctor()
 		{

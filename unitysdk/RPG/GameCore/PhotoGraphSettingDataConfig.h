@@ -9,12 +9,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_METHOD_2_662FDC613DF2E973_OFFSET UNITYSDK_OFFSET(0x174AC840)
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174ACC90)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_METHOD_2_662FDC613DF2E973_OFFSET UNITYSDK_OFFSET(0x18BF7E10)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF8260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSettingDataConfig_TypeDefinitionIndex = 17473;
+	inline static constexpr unsigned int PhotoGraphSettingDataConfig_TypeDefinitionIndex = 18082;
 
 	class PhotoGraphSettingDataConfig : public ::RPG::GameCore::JsonConfig
 	{

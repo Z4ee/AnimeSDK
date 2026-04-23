@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkPluginType_TypeDefinitionIndex = 34513;
+inline static constexpr unsigned int AkPluginType_TypeDefinitionIndex = 40332;
 
 enum class AkPluginType : ::System::Int32
 {

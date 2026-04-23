@@ -6,14 +6,14 @@ namespace UnityEngine { class Animator_OnAnimatorDispatchMovementJobFinishDelega
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMovementManager___O_TypeDefinitionIndex = 45967;
+	inline static constexpr unsigned int AdventureMovementManager___O_TypeDefinitionIndex = 52628;
 
 	class AdventureMovementManager___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Animator_OnAnimatorDispatchMovementJobFinishDelegate** StaticGet__0___DispatchMovementJobScheduler()
 		{
-			return (::UnityEngine::Animator_OnAnimatorDispatchMovementJobFinishDelegate**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager___O_TypeDefinitionIndex)->GetStaticField(0x44250);
+			return (::UnityEngine::Animator_OnAnimatorDispatchMovementJobFinishDelegate**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager___O_TypeDefinitionIndex)->GetStaticField(0x40370);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowRogueLoadingPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_95F026A2D8CFB001_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A6B0A0)
-#define CLASS_3_95F026A2D8CFB001__CTOR_OFFSET UNITYSDK_OFFSET(0x8A6B070)
+#define CLASS_3_95F026A2D8CFB001_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1242D7C0)
+#define CLASS_3_95F026A2D8CFB001__CTOR_OFFSET UNITYSDK_OFFSET(0x1242D790)
 
-inline static constexpr unsigned int Class_3_95F026A2D8CFB001_TypeDefinitionIndex = 47366;
+inline static constexpr unsigned int Class_3_95F026A2D8CFB001_TypeDefinitionIndex = 54101;
 
 class Class_3_95F026A2D8CFB001 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowRogueLoadingPage*>
 {

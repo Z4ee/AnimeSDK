@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StageSceneItemSerializationData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xA4CD030)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xA4CCE30)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA4CD290)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xB1BE0C0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xB1BDEC0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB1BE320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_TypeDefinitionIndex = 58161;
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_TypeDefinitionIndex = 65448;
 
 	class StageHarmonyTrafficLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyTrafficLightBehavior*>
 	{

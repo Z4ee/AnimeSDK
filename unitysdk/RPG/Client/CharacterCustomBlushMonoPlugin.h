@@ -6,11 +6,11 @@ namespace RPG::Client { class CharacterCustomBlushBehavior; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHARACTERCUSTOMBLUSHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x92FE3D0)
+#define RPG_CLIENT_CHARACTERCUSTOMBLUSHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9F68F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 57515;
+	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 64778;
 
 	class CharacterCustomBlushMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharacterCustomBlushBehavior*>
 	{

@@ -7,18 +7,18 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_NPCWARNINGTIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9DF1950)
+#define RPG_CLIENT_NPCWARNINGTIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB392E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCWarningTipConfig_TypeDefinitionIndex = 56462;
+	inline static constexpr unsigned int NPCWarningTipConfig_TypeDefinitionIndex = 63706;
 
 	class NPCWarningTipConfig : public ::System::Object
 	{
 	public:
 		::System::String* AssetPath; // 0x10
-		::UnityEngine::GameObject* Target; // 0x18
-		::RPG::GameCore::GameEntity* TargetEntity; // 0x20
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x18
+		::UnityEngine::GameObject* Target; // 0x20
 		::UnityEngine::Vector3 Offset; // 0x28
 
 		::System::Void _ctor()

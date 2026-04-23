@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREREVIVEPLAYER_METHOD_3_BE874F05D369A215_OFFSET UNITYSDK_OFFSET(0x16F59D30)
-#define RPG_GAMECORE_ADVENTUREREVIVEPLAYER_METHOD_3_D67E2C545640A0A7_OFFSET UNITYSDK_OFFSET(0x16F59DB0)
-#define RPG_GAMECORE_ADVENTUREREVIVEPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x16F59D80)
+#define RPG_GAMECORE_ADVENTUREREVIVEPLAYER_METHOD_3_BE874F05D369A215_OFFSET UNITYSDK_OFFSET(0x1867C530)
+#define RPG_GAMECORE_ADVENTUREREVIVEPLAYER_METHOD_3_D67E2C545640A0A7_OFFSET UNITYSDK_OFFSET(0x1867C5B0)
+#define RPG_GAMECORE_ADVENTUREREVIVEPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1867C580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureRevivePlayer_TypeDefinitionIndex = 19918;
+	inline static constexpr unsigned int AdventureRevivePlayer_TypeDefinitionIndex = 20599;
 
 	class AdventureRevivePlayer : public ::RPG::GameCore::TaskConfig
 	{

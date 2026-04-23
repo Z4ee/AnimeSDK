@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomAdditionalLightData_LTCAreaLightType_TypeDefinitionIndex = 29331;
+	inline static constexpr unsigned int CustomAdditionalLightData_LTCAreaLightType_TypeDefinitionIndex = 35098;
 
 	enum class CustomAdditionalLightData_LTCAreaLightType : ::System::Int32
 	{

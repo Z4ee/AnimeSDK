@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartTarotBookTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_514D18271B0739A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114EF6E0)
-#define CLASS_3_514D18271B0739A5__CTOR_OFFSET UNITYSDK_OFFSET(0x114EF6B0)
+#define CLASS_3_514D18271B0739A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9990710)
+#define CLASS_3_514D18271B0739A5__CTOR_OFFSET UNITYSDK_OFFSET(0x99906E0)
 
-inline static constexpr unsigned int Class_3_514D18271B0739A5_TypeDefinitionIndex = 47411;
+inline static constexpr unsigned int Class_3_514D18271B0739A5_TypeDefinitionIndex = 54146;
 
 class Class_3_514D18271B0739A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartTarotBookTalk*>
 {

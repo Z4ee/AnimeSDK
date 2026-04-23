@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_AXISBASE_VALIDATE_OFFSET UNITYSDK_OFFSET(0x14EBC40)
+#define CINEMACHINE_AXISBASE_VALIDATE_OFFSET UNITYSDK_OFFSET(0x16200E0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int AxisBase_TypeDefinitionIndex = 30859;
+	inline static constexpr unsigned int AxisBase_TypeDefinitionIndex = 36579;
 
 	struct alignas(4) AxisBase
 	{

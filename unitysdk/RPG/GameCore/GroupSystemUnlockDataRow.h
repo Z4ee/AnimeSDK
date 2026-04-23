@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1728D260)
-#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1728D380)
+#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189E1AB0)
+#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189E1BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 12178;
+	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 12611;
 
 	class GroupSystemUnlockDataRow : public ::System::Object
 	{

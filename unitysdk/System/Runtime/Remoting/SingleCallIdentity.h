@@ -9,13 +9,13 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_SINGLECALLIDENTITY_ASYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x163C6680)
-#define SYSTEM_RUNTIME_REMOTING_SINGLECALLIDENTITY_SYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x163C6610)
-#define SYSTEM_RUNTIME_REMOTING_SINGLECALLIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x163C5A30)
+#define SYSTEM_RUNTIME_REMOTING_SINGLECALLIDENTITY_ASYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x179F3080)
+#define SYSTEM_RUNTIME_REMOTING_SINGLECALLIDENTITY_SYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x179F3010)
+#define SYSTEM_RUNTIME_REMOTING_SINGLECALLIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x179F2400)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int SingleCallIdentity_TypeDefinitionIndex = 1213;
+	inline static constexpr unsigned int SingleCallIdentity_TypeDefinitionIndex = 1215;
 
 	class SingleCallIdentity : public ::System::Runtime::Remoting::ServerIdentity
 	{

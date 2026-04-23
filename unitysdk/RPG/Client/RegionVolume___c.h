@@ -6,24 +6,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_REGIONVOLUME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA298800)
-#define RPG_CLIENT_REGIONVOLUME___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA298830)
-#define RPG_CLIENT_REGIONVOLUME___C__LOAD_B__2_0_OFFSET UNITYSDK_OFFSET(0xA298840)
+#define RPG_CLIENT_REGIONVOLUME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF87AD0)
+#define RPG_CLIENT_REGIONVOLUME___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAF87B00)
+#define RPG_CLIENT_REGIONVOLUME___C__LOAD_B__2_0_OFFSET UNITYSDK_OFFSET(0xAF87B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionVolume___c_TypeDefinitionIndex = 50499;
+	inline static constexpr unsigned int RegionVolume___c_TypeDefinitionIndex = 57362;
 
 	class RegionVolume___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RegionVolume___c** StaticGet___9()
-		{
-			return (::RPG::Client::RegionVolume___c**)Il2CppClass::FromTypeDefinitionIndex(RegionVolume___c_TypeDefinitionIndex)->GetStaticField(0x12580);
-		}
 		static ::System::Func_2<::RPG::MVector2, ::UnityEngine::Vector2>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::MVector2, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(RegionVolume___c_TypeDefinitionIndex)->GetStaticField(0x12588);
+			return (::System::Func_2<::RPG::MVector2, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(RegionVolume___c_TypeDefinitionIndex)->GetStaticField(0x13670);
+		}
+		static ::RPG::Client::RegionVolume___c** StaticGet___9()
+		{
+			return (::RPG::Client::RegionVolume___c**)Il2CppClass::FromTypeDefinitionIndex(RegionVolume___c_TypeDefinitionIndex)->GetStaticField(0x13678);
 		}
 
 		static ::System::Void _cctor()

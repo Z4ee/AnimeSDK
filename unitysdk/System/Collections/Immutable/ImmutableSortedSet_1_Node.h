@@ -13,7 +13,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedSet_1_Node_TypeDefinitionIndex = 8968;
+	inline static constexpr unsigned int ImmutableSortedSet_1_Node_TypeDefinitionIndex = 9165;
 
 	template <typename T>
 	class ImmutableSortedSet_1_Node : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumTalkType_TypeDefinitionIndex = 13049;
+	inline static constexpr unsigned int MuseumTalkType_TypeDefinitionIndex = 13510;
 
 	enum class MuseumTalkType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERRETURNQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174EA0C0)
-#define RPG_GAMECORE_PLAYERRETURNQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174EA1E0)
+#define RPG_GAMECORE_PLAYERRETURNQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C34C00)
+#define RPG_GAMECORE_PLAYERRETURNQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C34D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnQuestGroupRow_TypeDefinitionIndex = 13268;
+	inline static constexpr unsigned int PlayerReturnQuestGroupRow_TypeDefinitionIndex = 13730;
 
 	class PlayerReturnQuestGroupRow : public ::System::Object
 	{

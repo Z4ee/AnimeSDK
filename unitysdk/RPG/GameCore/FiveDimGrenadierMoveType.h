@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierMoveType_TypeDefinitionIndex = 15303;
+	inline static constexpr unsigned int FiveDimGrenadierMoveType_TypeDefinitionIndex = 15822;
 
 	enum class FiveDimGrenadierMoveType : ::System::Int32
 	{

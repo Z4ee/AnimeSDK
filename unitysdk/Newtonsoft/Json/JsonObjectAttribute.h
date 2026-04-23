@@ -5,18 +5,18 @@
 #include "unitysdk/Newtonsoft/Json/Required.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE_GET_MEMBERSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x16440270)
-#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16440280)
+#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE_GET_MEMBERSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x17A6BC10)
+#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6BC20)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonObjectAttribute_TypeDefinitionIndex = 8204;
+	inline static constexpr unsigned int JsonObjectAttribute_TypeDefinitionIndex = 8350;
 
 	class JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute
 	{
 	public:
-		::Newtonsoft::Json::MemberSerialization _memberSerialization; // 0x38
-		::System::Nullable_1<::Newtonsoft::Json::Required> _itemRequired; // 0x3C
+		::System::Nullable_1<::Newtonsoft::Json::Required> _itemRequired; // 0x38
+		::Newtonsoft::Json::MemberSerialization _memberSerialization; // 0x40
 
 		::System::Void _ctor()
 		{

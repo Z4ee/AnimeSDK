@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SCRIPTING_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4BC50)
+#define UNITYENGINE_SCRIPTING_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A483550)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 4309;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 4311;
 
 	class PreserveAttribute : public ::System::Attribute
 	{

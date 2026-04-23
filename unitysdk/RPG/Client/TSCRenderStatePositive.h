@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TSCRenderStatePositive_TypeDefinitionIndex = 57468;
+	inline static constexpr unsigned int TSCRenderStatePositive_TypeDefinitionIndex = 64729;
 
 	enum class TSCRenderStatePositive : ::System::Byte
 	{

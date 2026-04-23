@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNodeType_TypeDefinitionIndex = 1954;
+	inline static constexpr unsigned int XmlNodeType_TypeDefinitionIndex = 1955;
 
 	enum class XmlNodeType : ::System::Int32
 	{

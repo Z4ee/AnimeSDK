@@ -7,34 +7,34 @@ namespace RPG::Client { class LuaUIController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B53640)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_4_OFFSET UNITYSDK_OFFSET(0x9B53690)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9B53680)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0x9B53770)
-#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0x9B53760)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA84CF10)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0xA84CF60)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA84CF50)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0xA84D040)
+#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0xA84D030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 53601;
+	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 60745;
 
 	class MatchThreeUtils___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MatchThreeUtils___c** StaticGet___9()
-		{
-			return (::RPG::Client::MatchThreeUtils___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x2FD50);
-		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x2FD58);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x29A70);
+		}
+		static ::RPG::Client::MatchThreeUtils___c** StaticGet___9()
+		{
+			return (::RPG::Client::MatchThreeUtils___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x29A78);
 		}
 		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x2FD60);
+			return (::System::Action_1<::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x29A80);
 		}
-		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_4()
+		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_3()
 		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x2FD68);
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x29A88);
 		}
 
 		static ::System::Void _cctor()
@@ -47,9 +47,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::LuaUIController* _CreateAndOpenLobby_b__2_4(::RPG::Client::BaseLobby* lobby)
+		::RPG::Client::LuaUIController* _CreateAndOpenLobby_b__2_3(::RPG::Client::BaseLobby* lobby)
 		{
-			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_4_OFFSET))(this, lobby);
+			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET))(this, lobby);
 		}
 
 		::System::Void __BeginJoinLobby_b__4_0(::RPG::Client::BaseLobby* newLobby)

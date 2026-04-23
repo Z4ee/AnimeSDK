@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/RuntimeGroupManager_GroupRefreshReason.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER_GROUPREFRESHEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FF640)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER_GROUPREFRESHEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB1375A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_GroupRefreshExtraInfo_TypeDefinitionIndex = 50392;
+	inline static constexpr unsigned int RuntimeGroupManager_GroupRefreshExtraInfo_TypeDefinitionIndex = 57251;
 
 	class RuntimeGroupManager_GroupRefreshExtraInfo : public ::System::Object
 	{

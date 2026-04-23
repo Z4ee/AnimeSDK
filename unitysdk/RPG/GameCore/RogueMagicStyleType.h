@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStyleType_TypeDefinitionIndex = 10190;
+	inline static constexpr unsigned int RogueMagicStyleType_TypeDefinitionIndex = 10409;
 
 	enum class RogueMagicStyleType : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PCKFILELIST_METHOD_2_8FFFB367162E3E69_OFFSET UNITYSDK_OFFSET(0x1748F970)
-#define RPG_GAMECORE_PCKFILELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1748FA70)
+#define RPG_GAMECORE_PCKFILELIST_METHOD_2_8FFFB367162E3E69_OFFSET UNITYSDK_OFFSET(0x18BD9EC0)
+#define RPG_GAMECORE_PCKFILELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD9FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 15006;
+	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 15513;
 
 	class PckFileList : public ::RPG::GameCore::JsonConfig
 	{

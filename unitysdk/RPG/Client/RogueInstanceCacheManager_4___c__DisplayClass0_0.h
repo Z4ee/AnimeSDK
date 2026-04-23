@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueInstanceCacheManager_4___c__DisplayClass0_0_TypeDefinitionIndex = 54898;
+	inline static constexpr unsigned int RogueInstanceCacheManager_4___c__DisplayClass0_0_TypeDefinitionIndex = 62086;
 
 	template <typename TKey1, typename TKey2, typename TKey3, typename TInstance>
 	class RogueInstanceCacheManager_4___c__DisplayClass0_0 : public ::System::Object

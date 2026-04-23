@@ -5,15 +5,15 @@
 class Class_1_867B6CE75953535A;
 class Class_3_F4528A5C0F861AF2;
 
-#define CLASS_3_68E4C4E7E4DEB30E__CTOR_OFFSET UNITYSDK_OFFSET(0xA9D3100)
+#define CLASS_3_68E4C4E7E4DEB30E__CTOR_OFFSET UNITYSDK_OFFSET(0x967FD80)
 
-inline static constexpr unsigned int Class_3_68E4C4E7E4DEB30E_TypeDefinitionIndex = 62299;
+inline static constexpr unsigned int Class_3_68E4C4E7E4DEB30E_TypeDefinitionIndex = 70298;
 
 class Class_3_68E4C4E7E4DEB30E : public ::Class_2_1792A4214A514F27
 {
 public:
-	::Class_3_F4528A5C0F861AF2* Field_3_1; // 0x30
-	::Class_1_867B6CE75953535A* Field_3_0; // 0x38
+	::Class_1_867B6CE75953535A* Field_3_0; // 0x30
+	::Class_3_F4528A5C0F861AF2* Field_3_1; // 0x38
 
 	::System::Void _ctor(::Class_1_867B6CE75953535A* a1, ::Class_3_F4528A5C0F861AF2* a2)
 	{

@@ -6,20 +6,20 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class ShowPuzzleHudWolfBro; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_8BE27CE81F2844A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10BBC640)
-#define CLASS_2_8BE27CE81F2844A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BBC680)
-#define CLASS_2_8BE27CE81F2844A7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10BBC890)
-#define CLASS_2_8BE27CE81F2844A7_TICK_OFFSET UNITYSDK_OFFSET(0x10BBC8E0)
-#define CLASS_2_8BE27CE81F2844A7__CTOR_OFFSET UNITYSDK_OFFSET(0x10BBC630)
+#define CLASS_2_8BE27CE81F2844A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11823ED0)
+#define CLASS_2_8BE27CE81F2844A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11823F10)
+#define CLASS_2_8BE27CE81F2844A7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11824120)
+#define CLASS_2_8BE27CE81F2844A7_TICK_OFFSET UNITYSDK_OFFSET(0x11824170)
+#define CLASS_2_8BE27CE81F2844A7__CTOR_OFFSET UNITYSDK_OFFSET(0x11823EC0)
 
-inline static constexpr unsigned int Class_2_8BE27CE81F2844A7_TypeDefinitionIndex = 47361;
+inline static constexpr unsigned int Class_2_8BE27CE81F2844A7_TypeDefinitionIndex = 54096;
 
 class Class_2_8BE27CE81F2844A7 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::ShowPuzzleHudWolfBro* Field_2_0; // 0x18
+	::RPG::Client::LuaUIController* Field_2_2; // 0x18
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::Client::LuaUIController* Field_2_2; // 0x28
+	::RPG::GameCore::ShowPuzzleHudWolfBro* Field_2_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowPuzzleHudWolfBro* a2)
 	{

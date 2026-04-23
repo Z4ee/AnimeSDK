@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18517330)
-#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x185172E0)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F521C0)
+#define SYSTEM_DATA_ROWNOTINTABLEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F52170)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 4768;
+	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 4776;
 
 	class RowNotInTableException : public ::System::Data::DataException
 	{

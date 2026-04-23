@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AKRESULT_TypeDefinitionIndex = 34445;
+inline static constexpr unsigned int AKRESULT_TypeDefinitionIndex = 40264;
 
 enum class AKRESULT : ::System::Int32
 {

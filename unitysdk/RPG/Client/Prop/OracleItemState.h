@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OracleItemState_TypeDefinitionIndex = 64177;
+	inline static constexpr unsigned int OracleItemState_TypeDefinitionIndex = 72224;
 
 	enum class OracleItemState : ::System::Int32
 	{

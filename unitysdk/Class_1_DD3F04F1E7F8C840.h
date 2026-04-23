@@ -8,26 +8,26 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_1B0D3B386C81DA39_OFFSET UNITYSDK_OFFSET(0x10CD70C0)
-#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x10CD6F10)
-#define CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CD7950)
+#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_1B0D3B386C81DA39_OFFSET UNITYSDK_OFFSET(0x119E7D20)
+#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x119E7CC0)
+#define CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET UNITYSDK_OFFSET(0x119E8420)
 
-inline static constexpr unsigned int Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex = 60440;
+inline static constexpr unsigned int Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex = 67862;
 
 class Class_1_DD3F04F1E7F8C840 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_30()
+	static ::System::Boolean* StaticGet_Field_1_28()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x11820);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xCE80);
 	}
 	static ::System::Boolean* StaticGet_Field_1_29()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x11824);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xCE81);
 	}
-	static ::System::Boolean* StaticGet_Field_1_28()
+	static ::System::Int32* StaticGet_Field_1_30()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x11825);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xCE84);
 	}
 	// static const ::System::String* Field_1_0; // 0x0
 	// static const ::System::String* Field_1_1; // 0x0

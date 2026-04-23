@@ -4,7 +4,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int PoolablePooledSet_1_TypeDefinitionIndex = 6401;
+	inline static constexpr unsigned int PoolablePooledSet_1_TypeDefinitionIndex = 6434;
 
 	template <typename T>
 	class PoolablePooledSet_1 : public ::Collections::Pooled::PooledSet_1<T>

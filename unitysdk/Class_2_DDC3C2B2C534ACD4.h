@@ -7,10 +7,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class CharacterStoryMoveSequenceData; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_DDC3C2B2C534ACD4_METHOD_2_5CEF0A1AFE214F53_OFFSET UNITYSDK_OFFSET(0x104A62F0)
-#define CLASS_2_DDC3C2B2C534ACD4__CTOR_OFFSET UNITYSDK_OFFSET(0x104A62D0)
+#define CLASS_2_DDC3C2B2C534ACD4_METHOD_2_5CEF0A1AFE214F53_OFFSET UNITYSDK_OFFSET(0x90B6780)
+#define CLASS_2_DDC3C2B2C534ACD4__CTOR_OFFSET UNITYSDK_OFFSET(0x90B6760)
 
-inline static constexpr unsigned int Class_2_DDC3C2B2C534ACD4_TypeDefinitionIndex = 43400;
+inline static constexpr unsigned int Class_2_DDC3C2B2C534ACD4_TypeDefinitionIndex = 49399;
 
 class Class_2_DDC3C2B2C534ACD4 : public ::Class_1_526C2C5F58C0A6C2
 {

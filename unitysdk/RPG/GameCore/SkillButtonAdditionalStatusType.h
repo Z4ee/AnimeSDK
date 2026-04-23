@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillButtonAdditionalStatusType_TypeDefinitionIndex = 21904;
+	inline static constexpr unsigned int SkillButtonAdditionalStatusType_TypeDefinitionIndex = 22642;
 
 	enum class SkillButtonAdditionalStatusType : ::System::Int32
 	{

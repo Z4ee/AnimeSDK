@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_0E7CF5ABF813FE71_OFFSET UNITYSDK_OFFSET(0x1747A460)
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1747A620)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_0E7CF5ABF813FE71_OFFSET UNITYSDK_OFFSET(0x18BC3A00)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC3BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingConfig_TypeDefinitionIndex = 17581;
+	inline static constexpr unsigned int OfflineCullingConfig_TypeDefinitionIndex = 18194;
 
 	class OfflineCullingConfig : public ::RPG::GameCore::JsonConfig
 	{

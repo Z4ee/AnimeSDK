@@ -5,13 +5,13 @@
 class Class_2_EF65DA6A20789AD8;
 namespace RPG::Client { class AnimatorClipOverride_AnimClipOverride; }
 
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0x90C71B0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x90C72D0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x90C7330)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0x9D24970)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9D24A90)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D24AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 57593;
+	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 64856;
 
 	class AnimatorClipOverride : public ::UnityEngine::MonoBehaviour
 	{

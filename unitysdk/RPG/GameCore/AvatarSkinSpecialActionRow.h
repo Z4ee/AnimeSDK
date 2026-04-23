@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSKINSPECIALACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FBCB30)
-#define RPG_GAMECORE_AVATARSKINSPECIALACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FBCCF0)
+#define RPG_GAMECORE_AVATARSKINSPECIALACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186E0260)
+#define RPG_GAMECORE_AVATARSKINSPECIALACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186E0420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkinSpecialActionRow_TypeDefinitionIndex = 11601;
+	inline static constexpr unsigned int AvatarSkinSpecialActionRow_TypeDefinitionIndex = 12012;
 
 	class AvatarSkinSpecialActionRow : public ::System::Object
 	{
 	public:
 		::System::String* SkinSpecialActionPrefabPath; // 0x10
 		::System::String* SpecialActionPrefabPath; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 SkinID; // 0x24
+		::System::UInt32 SkinID; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

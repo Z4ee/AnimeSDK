@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int SpeechError_TypeDefinitionIndex = 4249;
+	inline static constexpr unsigned int SpeechError_TypeDefinitionIndex = 4251;
 
 	enum class SpeechError : ::System::Int32
 	{

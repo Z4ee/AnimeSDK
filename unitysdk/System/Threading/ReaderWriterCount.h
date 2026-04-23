@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x18513CD0)
+#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F4EB60)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ReaderWriterCount_TypeDefinitionIndex = 3103;
+	inline static constexpr unsigned int ReaderWriterCount_TypeDefinitionIndex = 3104;
 
 	class ReaderWriterCount : public ::System::Object
 	{

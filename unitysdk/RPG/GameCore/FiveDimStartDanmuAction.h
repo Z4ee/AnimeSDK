@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_48AD378A8A3CC6F8_OFFSET UNITYSDK_OFFSET(0x1720D640)
-#define RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_CD3FFBE12D61326B_OFFSET UNITYSDK_OFFSET(0x1720D5D0)
-#define RPG_GAMECORE_FIVEDIMSTARTDANMUACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1720D620)
+#define RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_2BF505E96F17AA0A_OFFSET UNITYSDK_OFFSET(0x1891F670)
+#define RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_99A740A7120D38DF_OFFSET UNITYSDK_OFFSET(0x1891F600)
+#define RPG_GAMECORE_FIVEDIMSTARTDANMUACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1891F650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimStartDanmuAction_TypeDefinitionIndex = 17167;
+	inline static constexpr unsigned int FiveDimStartDanmuAction_TypeDefinitionIndex = 17769;
 
 	class FiveDimStartDanmuAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTARTDANMUACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CD3FFBE12D61326B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStartDanmuAction*& a2)
+		static ::System::Void Method_3_99A740A7120D38DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStartDanmuAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStartDanmuAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_CD3FFBE12D61326B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStartDanmuAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_99A740A7120D38DF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_48AD378A8A3CC6F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStartDanmuAction* a2)
+		static ::System::Void Method_3_2BF505E96F17AA0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStartDanmuAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStartDanmuAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_48AD378A8A3CC6F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStartDanmuAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTARTDANMUACTION_METHOD_3_2BF505E96F17AA0A_OFFSET))(a1, a2);
 		}
 	};
 }

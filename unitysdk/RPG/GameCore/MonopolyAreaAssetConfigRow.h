@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYAREAASSETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174361D0)
-#define RPG_GAMECORE_MONOPOLYAREAASSETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174363F0)
+#define RPG_GAMECORE_MONOPOLYAREAASSETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B42DB0)
+#define RPG_GAMECORE_MONOPOLYAREAASSETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B42FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyAreaAssetConfigRow_TypeDefinitionIndex = 11027;
+	inline static constexpr unsigned int MonopolyAreaAssetConfigRow_TypeDefinitionIndex = 11430;
 
 	class MonopolyAreaAssetConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AssetList; // 0x10
-		::System::String* FigurePath; // 0x18
+		::System::String* FigurePath; // 0x10
+		::Il2CppArray<::System::UInt32>* AssetList; // 0x18
 		::System::UInt32 ID; // 0x20
 		::RPG::Client::TextID Name; // 0x28
 

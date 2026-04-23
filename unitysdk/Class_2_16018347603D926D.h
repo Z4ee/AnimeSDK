@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class SetFlipperLightDeviceRangeFollowPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_16018347603D926D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10955E10)
-#define CLASS_2_16018347603D926D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10955CC0)
-#define CLASS_2_16018347603D926D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10955E50)
-#define CLASS_2_16018347603D926D_TICK_OFFSET UNITYSDK_OFFSET(0x10955EA0)
-#define CLASS_2_16018347603D926D__CTOR_OFFSET UNITYSDK_OFFSET(0x10955CB0)
+#define CLASS_2_16018347603D926D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9A2C0F0)
+#define CLASS_2_16018347603D926D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9A2BFA0)
+#define CLASS_2_16018347603D926D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9A2C130)
+#define CLASS_2_16018347603D926D_TICK_OFFSET UNITYSDK_OFFSET(0x9A2C180)
+#define CLASS_2_16018347603D926D__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2BF90)
 
-inline static constexpr unsigned int Class_2_16018347603D926D_TypeDefinitionIndex = 42725;
+inline static constexpr unsigned int Class_2_16018347603D926D_TypeDefinitionIndex = 48705;
 
 class Class_2_16018347603D926D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* Field_2_0; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* a2)
 	{

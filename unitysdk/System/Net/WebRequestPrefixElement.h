@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Net { class IWebRequestCreate; }
 
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1872D780)
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1872FAF0)
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1872DAC0)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1A167BD0)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1A169F30)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A167F10)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequestPrefixElement_TypeDefinitionIndex = 2739;
+	inline static constexpr unsigned int WebRequestPrefixElement_TypeDefinitionIndex = 2740;
 
 	class WebRequestPrefixElement : public ::System::Object
 	{

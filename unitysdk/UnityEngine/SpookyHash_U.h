@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_SPOOKYHASH_U__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD0)
+#define UNITYENGINE_SPOOKYHASH_U__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpookyHash_U_TypeDefinitionIndex = 4016;
+	inline static constexpr unsigned int SpookyHash_U_TypeDefinitionIndex = 4018;
 
 	struct alignas(8) SpookyHash_U
 	{

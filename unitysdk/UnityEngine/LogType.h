@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LogType_TypeDefinitionIndex = 3828;
+	inline static constexpr unsigned int LogType_TypeDefinitionIndex = 3830;
 
 	enum class LogType : ::System::Int32
 	{

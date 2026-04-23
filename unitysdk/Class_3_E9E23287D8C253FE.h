@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByEntityOriginalEraConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E9E23287D8C253FE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10649B10)
-#define CLASS_3_E9E23287D8C253FE__CTOR_OFFSET UNITYSDK_OFFSET(0x10649AE0)
+#define CLASS_3_E9E23287D8C253FE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9211AE0)
+#define CLASS_3_E9E23287D8C253FE__CTOR_OFFSET UNITYSDK_OFFSET(0x9211AB0)
 
-inline static constexpr unsigned int Class_3_E9E23287D8C253FE_TypeDefinitionIndex = 42706;
+inline static constexpr unsigned int Class_3_E9E23287D8C253FE_TypeDefinitionIndex = 48686;
 
 class Class_3_E9E23287D8C253FE : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByEntityOriginalEraConfig*>
 {

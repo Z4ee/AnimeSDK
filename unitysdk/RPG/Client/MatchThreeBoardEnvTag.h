@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoardEnvTag_TypeDefinitionIndex = 53507;
+	inline static constexpr unsigned int MatchThreeBoardEnvTag_TypeDefinitionIndex = 60651;
 
 	enum class MatchThreeBoardEnvTag : ::System::Int32
 	{

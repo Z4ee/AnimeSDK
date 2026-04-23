@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class GridFightGridMember; }
+namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98394D0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__GETMEMBERSBYTRAITID_B__0_OFFSET UNITYSDK_OFFSET(0x983B100)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D6950)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__ISROLEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0xA4D8D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass41_0_TypeDefinitionIndex = 52614;
+	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass41_0_TypeDefinitionIndex = 59653;
 
 	class GridFightGameRefTeam___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 traitID; // 0x10
+		::System::UInt32 roleID; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetMembersByTraitID_b__0(::RPG::Client::GridFightGridMember* x)
+		::System::Boolean _IsRoleUnlock_b__0(::RPG::Client::GridFightSeasonRole* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__GETMEMBERSBYTRAITID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS41_0__ISROLEUNLOCK_B__0_OFFSET))(this, x);
 		}
 	};
 }

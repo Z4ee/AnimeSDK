@@ -5,12 +5,12 @@
 namespace RPG::Client { class GlobalDispatchData_ServerData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E85DC0)
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS59_0___ONGLOBALDISPATCHRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x9E85DD0)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABD3650)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS59_0___ONGLOBALDISPATCHRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0xABD3660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass59_0_TypeDefinitionIndex = 56698;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass59_0_TypeDefinitionIndex = 63943;
 
 	class NetworkManager___c__DisplayClass59_0 : public ::System::Object
 	{

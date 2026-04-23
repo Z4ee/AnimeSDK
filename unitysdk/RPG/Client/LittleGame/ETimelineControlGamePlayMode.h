@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ETimelineControlGamePlayMode_TypeDefinitionIndex = 32962;
+	inline static constexpr unsigned int ETimelineControlGamePlayMode_TypeDefinitionIndex = 38752;
 
 	enum class ETimelineControlGamePlayMode : ::System::Int32
 	{

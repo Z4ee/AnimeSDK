@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleTutorialType_TypeDefinitionIndex = 10108;
+	inline static constexpr unsigned int PuzzleTutorialType_TypeDefinitionIndex = 10300;
 
 	enum class PuzzleTutorialType : ::System::Int32
 	{

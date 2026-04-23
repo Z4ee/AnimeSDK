@@ -6,22 +6,22 @@ namespace RPG::GameCore { class GraphicsSettingRequirements; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_DEVICEMATCHREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x97C6440)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0x97C19C0)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETGRAPHICSDEVICENAME_OFFSET UNITYSDK_OFFSET(0x97C6350)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETTARGETPLATFORM_OFFSET UNITYSDK_OFFSET(0x97C1960)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_PARSEIOSDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0x97C1A00)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_DEVICEMATCHREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0xA43E660)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xA439BE0)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETGRAPHICSDEVICENAME_OFFSET UNITYSDK_OFFSET(0xA43E570)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETTARGETPLATFORM_OFFSET UNITYSDK_OFFSET(0xA439B80)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_PARSEIOSDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xA439C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GraphicsSettingData_TypeDefinitionIndex = 57089;
+	inline static constexpr unsigned int GraphicsSettingData_TypeDefinitionIndex = 64340;
 
 	class GraphicsSettingData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__iOSDeviceTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicsSettingData_TypeDefinitionIndex)->GetStaticField(0x11FD0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicsSettingData_TypeDefinitionIndex)->GetStaticField(0x177F0);
 		}
 
 		static ::System::String* GetTargetPlatform()

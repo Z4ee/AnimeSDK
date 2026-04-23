@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class ElfFarmCellData; }
 
-#define RPG_CLIENT_ELFRUNTIMECELL__CTOR_OFFSET UNITYSDK_OFFSET(0x95F3B00)
+#define RPG_CLIENT_ELFRUNTIMECELL__CTOR_OFFSET UNITYSDK_OFFSET(0xA27A570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRuntimeCell_TypeDefinitionIndex = 56084;
+	inline static constexpr unsigned int ElfRuntimeCell_TypeDefinitionIndex = 63327;
 
 	class ElfRuntimeCell : public ::UnityEngine::MonoBehaviour
 	{

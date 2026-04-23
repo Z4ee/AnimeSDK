@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByHasMoveSinceLastTeleport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3C98F43C10B3F83A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11142890)
-#define CLASS_3_3C98F43C10B3F83A__CTOR_OFFSET UNITYSDK_OFFSET(0x11142860)
+#define CLASS_3_3C98F43C10B3F83A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x118710F0)
+#define CLASS_3_3C98F43C10B3F83A__CTOR_OFFSET UNITYSDK_OFFSET(0x118710C0)
 
-inline static constexpr unsigned int Class_3_3C98F43C10B3F83A_TypeDefinitionIndex = 42985;
+inline static constexpr unsigned int Class_3_3C98F43C10B3F83A_TypeDefinitionIndex = 48971;
 
 class Class_3_3C98F43C10B3F83A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByHasMoveSinceLastTeleport*>
 {

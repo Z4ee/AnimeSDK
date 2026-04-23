@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowWaypointByProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_26D7B363682AE539_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D8D740)
-#define CLASS_3_26D7B363682AE539__CTOR_OFFSET UNITYSDK_OFFSET(0x8D8D710)
+#define CLASS_3_26D7B363682AE539_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x127A63A0)
+#define CLASS_3_26D7B363682AE539__CTOR_OFFSET UNITYSDK_OFFSET(0x127A6370)
 
-inline static constexpr unsigned int Class_3_26D7B363682AE539_TypeDefinitionIndex = 47391;
+inline static constexpr unsigned int Class_3_26D7B363682AE539_TypeDefinitionIndex = 54126;
 
 class Class_3_26D7B363682AE539 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowWaypointByProp*>
 {

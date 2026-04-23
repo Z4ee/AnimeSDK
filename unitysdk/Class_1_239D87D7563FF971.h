@@ -11,29 +11,29 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_239D87D7563FF971_CLEAR_OFFSET UNITYSDK_OFFSET(0x8A62000)
-#define CLASS_1_239D87D7563FF971_METHOD_1_316436ACB0C7F148_OFFSET UNITYSDK_OFFSET(0x8A62180)
-#define CLASS_1_239D87D7563FF971_METHOD_1_580A992837DF3548_OFFSET UNITYSDK_OFFSET(0x8A62090)
-#define CLASS_1_239D87D7563FF971_METHOD_1_83A2D2FF4410F4BE_OFFSET UNITYSDK_OFFSET(0x8A622D0)
-#define CLASS_1_239D87D7563FF971_METHOD_1_9CA5A80F6B5B9E01_OFFSET UNITYSDK_OFFSET(0x8A622C0)
-#define CLASS_1_239D87D7563FF971_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x8A62350)
-#define CLASS_1_239D87D7563FF971__CTOR_OFFSET UNITYSDK_OFFSET(0x8A62360)
+#define CLASS_1_239D87D7563FF971_CLEAR_OFFSET UNITYSDK_OFFSET(0x98132B0)
+#define CLASS_1_239D87D7563FF971_METHOD_1_316436ACB0C7F148_OFFSET UNITYSDK_OFFSET(0x9813430)
+#define CLASS_1_239D87D7563FF971_METHOD_1_580A992837DF3548_OFFSET UNITYSDK_OFFSET(0x9813340)
+#define CLASS_1_239D87D7563FF971_METHOD_1_83A2D2FF4410F4BE_OFFSET UNITYSDK_OFFSET(0x9813580)
+#define CLASS_1_239D87D7563FF971_METHOD_1_9CA5A80F6B5B9E01_OFFSET UNITYSDK_OFFSET(0x9813570)
+#define CLASS_1_239D87D7563FF971_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x9813600)
+#define CLASS_1_239D87D7563FF971__CTOR_OFFSET UNITYSDK_OFFSET(0x9813610)
 
-inline static constexpr unsigned int Class_1_239D87D7563FF971_TypeDefinitionIndex = 48369;
+inline static constexpr unsigned int Class_1_239D87D7563FF971_TypeDefinitionIndex = 55117;
 
 class Class_1_239D87D7563FF971 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_8; // 0x10
-	::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* Field_1_3; // 0x18
-	::System::Action_1<::System::UInt32>* Field_1_2; // 0x20
+	::System::Action_1<::System::UInt32>* Field_1_2; // 0x10
+	::AkExternalSourceInfoArray* Field_1_1; // 0x18
+	::UnityEngine::GameObject* Field_1_8; // 0x20
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x28
-	::AkExternalSourceInfoArray* Field_1_1; // 0x30
+	::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* Field_1_3; // 0x30
 	::System::String* Field_1_0; // 0x38
-	::System::Single Field_1_5; // 0x40
-	::AkCallbackType Field_1_6; // 0x44
-	::System::Int32 Field_1_9; // 0x48
-	::System::UInt32 Field_1_7; // 0x4C
+	::System::Int32 Field_1_9; // 0x40
+	::System::UInt32 Field_1_7; // 0x44
+	::AkCallbackType Field_1_6; // 0x48
+	::System::Single Field_1_5; // 0x4C
 
 	::System::Void _ctor()
 	{

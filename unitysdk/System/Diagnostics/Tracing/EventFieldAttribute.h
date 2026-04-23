@@ -6,20 +6,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x162BABA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x162BAB90)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x162BAB80)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x178E74B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x178E74A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTFIELDATTRIBUTE_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x178E7490)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventFieldAttribute_TypeDefinitionIndex = 1589;
+	inline static constexpr unsigned int EventFieldAttribute_TypeDefinitionIndex = 1590;
 
 	class EventFieldAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::System::Diagnostics::Tracing::EventFieldTags _Tags_k__BackingField; // 0x18
-		::System::Diagnostics::Tracing::EventFieldFormat _Format_k__BackingField; // 0x1C
+		::System::Diagnostics::Tracing::EventFieldFormat _Format_k__BackingField; // 0x18
+		::System::Diagnostics::Tracing::EventFieldTags _Tags_k__BackingField; // 0x1C
 
 		::System::Diagnostics::Tracing::EventFieldTags get_Tags()
 		{

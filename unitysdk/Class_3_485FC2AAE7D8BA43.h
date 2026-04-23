@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvAddAIHangUpInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_485FC2AAE7D8BA43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x115718A0)
-#define CLASS_3_485FC2AAE7D8BA43__CTOR_OFFSET UNITYSDK_OFFSET(0x11571870)
+#define CLASS_3_485FC2AAE7D8BA43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9094860)
+#define CLASS_3_485FC2AAE7D8BA43__CTOR_OFFSET UNITYSDK_OFFSET(0x9094830)
 
-inline static constexpr unsigned int Class_3_485FC2AAE7D8BA43_TypeDefinitionIndex = 42347;
+inline static constexpr unsigned int Class_3_485FC2AAE7D8BA43_TypeDefinitionIndex = 48307;
 
 class Class_3_485FC2AAE7D8BA43 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvAddAIHangUpInfo*>
 {

@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMERAJUMPTEXTSHOWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA064860)
+#define RPG_CLIENT_PROP_CHIMERAJUMPTEXTSHOWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xADE3050)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraJumpTextShowParam_TypeDefinitionIndex = 63868;
+	inline static constexpr unsigned int ChimeraJumpTextShowParam_TypeDefinitionIndex = 71915;
 
 	class ChimeraJumpTextShowParam : public ::System::Object
 	{

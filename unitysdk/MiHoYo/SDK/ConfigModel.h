@@ -11,34 +11,35 @@ namespace MiHoYo::SDK { class ComboConfig; }
 namespace MiHoYo::SDK { class LocalConfig; }
 namespace MiHoYo::SDK { class MDKConfig; }
 namespace MiHoYo::SDK { class PSConfig; }
+namespace MiHoYo::SDK { class PassportConfig; }
 namespace MiHoYo::SDK { class SkinColorModel; }
 namespace MiHoYo::SDK { class SystemModel; }
 namespace MiHoYo::SDK { class UICameraConfig; }
 namespace MiHoYo::SDK { class WebViewModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIGMODEL_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x15E09430)
-#define MIHOYO_SDK_CONFIGMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E094E0)
-#define MIHOYO_SDK_CONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15E08F50)
+#define MIHOYO_SDK_CONFIGMODEL_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x17407790)
+#define MIHOYO_SDK_CONFIGMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17407840)
+#define MIHOYO_SDK_CONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x17407270)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigModel_TypeDefinitionIndex = 6888;
+	inline static constexpr unsigned int ConfigModel_TypeDefinitionIndex = 6930;
 
 	class ConfigModel : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::ConfigModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ConfigModel**)Il2CppClass::FromTypeDefinitionIndex(ConfigModel_TypeDefinitionIndex)->GetStaticField(0xDED0);
+			return (::MiHoYo::SDK::ConfigModel**)Il2CppClass::FromTypeDefinitionIndex(ConfigModel_TypeDefinitionIndex)->GetStaticField(0x5A0);
 		}
 		static ::System::String** StaticGet_launcherId()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConfigModel_TypeDefinitionIndex)->GetStaticField(0xDED8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConfigModel_TypeDefinitionIndex)->GetStaticField(0x5A8);
 		}
 		static ::System::String** StaticGet_loginLifecycleId()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConfigModel_TypeDefinitionIndex)->GetStaticField(0xDEE0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConfigModel_TypeDefinitionIndex)->GetStaticField(0x5B0);
 		}
 		::MiHoYo::SDK::ColorModel* color; // 0x10
 		::MiHoYo::SDK::SkinColorModel* skinColor; // 0x18
@@ -53,11 +54,12 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::WebViewModel* webView; // 0x60
 		::MiHoYo::SDK::UICameraConfig* camera; // 0x68
 		::MiHoYo::SDK::ABTestModel* payplatABTest; // 0x70
-		::System::String* language; // 0x78
-		::System::String* fullLanguageKey; // 0x80
-		::System::Boolean localGuest; // 0x88
-		::System::Boolean showLoginCloseButton; // 0x89
-		::System::Boolean heartbeat; // 0x8A
+		::MiHoYo::SDK::PassportConfig* passportConfig; // 0x78
+		::System::String* language; // 0x80
+		::System::String* fullLanguageKey; // 0x88
+		::System::Boolean localGuest; // 0x90
+		::System::Boolean showLoginCloseButton; // 0x91
+		::System::Boolean heartbeat; // 0x92
 
 		::System::Void _ctor()
 		{

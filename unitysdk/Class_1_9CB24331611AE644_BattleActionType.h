@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_9CB24331611AE644_BattleActionType_TypeDefinitionIndex = 45049;
+inline static constexpr unsigned int Class_1_9CB24331611AE644_BattleActionType_TypeDefinitionIndex = 51798;
 
 enum class Class_1_9CB24331611AE644_BattleActionType : ::System::Int32
 {
@@ -30,4 +30,5 @@ enum class Class_1_9CB24331611AE644_BattleActionType : ::System::Int32
 	SetBattleScoreEvent = 22,
 	InsertAttackFinish = 23,
 	ElationPointChange = 24,
+	ElationEchoPointChange = 25,
 };

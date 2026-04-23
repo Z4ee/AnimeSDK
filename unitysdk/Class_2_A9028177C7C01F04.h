@@ -6,19 +6,19 @@
 namespace RPG::GameCore { class SetDynamicValueByGridFightTraitBonusDropCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_A9028177C7C01F04_DISPOSE_OFFSET UNITYSDK_OFFSET(0x114CEC60)
-#define CLASS_2_A9028177C7C01F04_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114CECA0)
-#define CLASS_2_A9028177C7C01F04_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x114CF4A0)
-#define CLASS_2_A9028177C7C01F04_TICK_OFFSET UNITYSDK_OFFSET(0x114CF4F0)
-#define CLASS_2_A9028177C7C01F04__CTOR_OFFSET UNITYSDK_OFFSET(0x114CEB90)
+#define CLASS_2_A9028177C7C01F04_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9535880)
+#define CLASS_2_A9028177C7C01F04_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x95358C0)
+#define CLASS_2_A9028177C7C01F04_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x95360C0)
+#define CLASS_2_A9028177C7C01F04_TICK_OFFSET UNITYSDK_OFFSET(0x9536110)
+#define CLASS_2_A9028177C7C01F04__CTOR_OFFSET UNITYSDK_OFFSET(0x95357B0)
 
-inline static constexpr unsigned int Class_2_A9028177C7C01F04_TypeDefinitionIndex = 44391;
+inline static constexpr unsigned int Class_2_A9028177C7C01F04_TypeDefinitionIndex = 51109;
 
 class Class_2_A9028177C7C01F04 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::SetDynamicValueByGridFightTraitBonusDropCount* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::SetDynamicValueByGridFightTraitBonusDropCount* Field_2_0; // 0x20
 	::RPG::GameCore::StringHash Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByGridFightTraitBonusDropCount* a2)

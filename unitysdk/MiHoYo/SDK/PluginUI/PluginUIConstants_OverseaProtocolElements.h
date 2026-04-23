@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaProtocolElements_TypeDefinitionIndex = 7850;
+	inline static constexpr unsigned int PluginUIConstants_OverseaProtocolElements_TypeDefinitionIndex = 7997;
 
 	class PluginUIConstants_OverseaProtocolElements : public ::System::Object
 	{
@@ -23,10 +23,6 @@ namespace MiHoYo::SDK::PluginUI
 		// static const ::System::String* AGREE_USER_PRIVACY_TIP; // 0x0
 		// static const ::System::String* USER_PRIVACY_HYPER_LINK; // 0x0
 		// static const ::System::String* USER_PRIVACY_OPTIONAL_TIP; // 0x0
-		// static const ::System::String* AGREE_MARKETING_CHECKBOX; // 0x0
-		// static const ::System::String* AGREE_MARKETING_TIP; // 0x0
-		// static const ::System::String* MARKETING_HYPER_LINK; // 0x0
-		// static const ::System::String* MARKETING_OPTIONAL_TIP; // 0x0
 		// static const ::System::String* ACCEPT_BUTTON; // 0x0
 		// static const ::System::String* REFUSE_BUTTON; // 0x0
 	};

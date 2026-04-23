@@ -22,12 +22,12 @@ namespace RPG::GameCore { class UIPanelGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17235D60)
-#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17240970)
+#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18948380)
+#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x18953320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 15709;
+	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 16235;
 
 	class GameCoreUISetting : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeMonsterName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AB93083018A5CE5A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8EA5E50)
-#define CLASS_3_AB93083018A5CE5A__CTOR_OFFSET UNITYSDK_OFFSET(0x8EA5E20)
+#define CLASS_3_AB93083018A5CE5A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1232F5D0)
+#define CLASS_3_AB93083018A5CE5A__CTOR_OFFSET UNITYSDK_OFFSET(0x1232F5A0)
 
-inline static constexpr unsigned int Class_3_AB93083018A5CE5A_TypeDefinitionIndex = 43963;
+inline static constexpr unsigned int Class_3_AB93083018A5CE5A_TypeDefinitionIndex = 50664;
 
 class Class_3_AB93083018A5CE5A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeMonsterName*>
 {

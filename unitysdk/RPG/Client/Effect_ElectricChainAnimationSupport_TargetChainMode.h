@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_TargetChainMode_TypeDefinitionIndex = 57691;
+	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_TargetChainMode_TypeDefinitionIndex = 64955;
 
 	enum class Effect_ElectricChainAnimationSupport_TargetChainMode : ::System::Int32
 	{

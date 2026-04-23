@@ -8,7 +8,7 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int KeyValuePairWrap_GetKey_2_TypeDefinitionIndex = 40502;
+	inline static constexpr unsigned int KeyValuePairWrap_GetKey_2_TypeDefinitionIndex = 46415;
 
 	template <typename TKey, typename TValue>
 	class KeyValuePairWrap_GetKey_2 : public ::XLua::OverloadMethodWrap

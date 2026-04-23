@@ -6,13 +6,13 @@ namespace System::IO { class Stream; }
 namespace System::Net { class TransportContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_SERIALIZETOSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1851FCE0)
-#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_TRYCOMPUTELENGTH_OFFSET UNITYSDK_OFFSET(0x1851FD40)
-#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1851FC80)
+#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_SERIALIZETOSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x19F5AB70)
+#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT_TRYCOMPUTELENGTH_OFFSET UNITYSDK_OFFSET(0x19F5ABD0)
+#define SYSTEM_NET_HTTP_BYTEARRAYCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5AB10)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int ByteArrayContent_TypeDefinitionIndex = 4770;
+	inline static constexpr unsigned int ByteArrayContent_TypeDefinitionIndex = 4778;
 
 	class ByteArrayContent : public ::System::Net::Http::HttpContent
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EFootIKMode_TypeDefinitionIndex = 10083;
+	inline static constexpr unsigned int EFootIKMode_TypeDefinitionIndex = 10275;
 
 	enum class EFootIKMode : ::System::Int32
 	{

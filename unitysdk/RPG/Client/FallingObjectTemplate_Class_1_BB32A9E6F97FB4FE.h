@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_CLASS_1_BB32A9E6F97FB4FE__CTOR_OFFSET UNITYSDK_OFFSET(0x965A540)
+#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_CLASS_1_BB32A9E6F97FB4FE__CTOR_OFFSET UNITYSDK_OFFSET(0xA3196A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FallingObjectTemplate_Class_1_BB32A9E6F97FB4FE_TypeDefinitionIndex = 58101;
+	inline static constexpr unsigned int FallingObjectTemplate_Class_1_BB32A9E6F97FB4FE_TypeDefinitionIndex = 65388;
 
 	class FallingObjectTemplate_Class_1_BB32A9E6F97FB4FE : public ::System::Object
 	{

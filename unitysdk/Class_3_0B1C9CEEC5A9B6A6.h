@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWaveStageCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0B1C9CEEC5A9B6A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C37F30)
-#define CLASS_3_0B1C9CEEC5A9B6A6__CTOR_OFFSET UNITYSDK_OFFSET(0x8C37E50)
+#define CLASS_3_0B1C9CEEC5A9B6A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11D50E00)
+#define CLASS_3_0B1C9CEEC5A9B6A6__CTOR_OFFSET UNITYSDK_OFFSET(0x11D50D20)
 
-inline static constexpr unsigned int Class_3_0B1C9CEEC5A9B6A6_TypeDefinitionIndex = 47234;
+inline static constexpr unsigned int Class_3_0B1C9CEEC5A9B6A6_TypeDefinitionIndex = 53966;
 
 class Class_3_0B1C9CEEC5A9B6A6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByWaveStageCount*>
 {

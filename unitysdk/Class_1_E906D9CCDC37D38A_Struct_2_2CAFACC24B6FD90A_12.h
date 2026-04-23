@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+
+#define CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12_EQUALS_OFFSET UNITYSDK_OFFSET(0x299F0)
+#define CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x59D0)
+#define CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22BA200)
+#define CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12__CTOR_OFFSET UNITYSDK_OFFSET(0x299E0)
+
+inline static constexpr unsigned int Class_1_E906D9CCDC37D38A_Struct_2_2CAFACC24B6FD90A_12_TypeDefinitionIndex = 14341;
+
+struct alignas(4) Class_1_E906D9CCDC37D38A_Struct_2_2CAFACC24B6FD90A_12
+{
+	::System::UInt32 Field_2_0; // 0x10
+
+	::System::Void _ctor(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::Class_1_E906D9CCDC37D38A_Struct_2_2CAFACC24B6FD90A_12 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_E906D9CCDC37D38A_Struct_2_2CAFACC24B6FD90A_12))((::PBYTE)hIl2Cpp + CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E906D9CCDC37D38A_STRUCT_2_2CAFACC24B6FD90A_12_GETHASHCODE_OFFSET))(this);
+	}
+};

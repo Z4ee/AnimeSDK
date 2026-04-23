@@ -7,24 +7,24 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleRunOut; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_8CC634C7DC9099E7_METHOD_1_821BBDC04720A2EB_OFFSET UNITYSDK_OFFSET(0xD19CC00)
-#define CLASS_1_8CC634C7DC9099E7_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xD19D470)
-#define CLASS_1_8CC634C7DC9099E7_METHOD_1_D20FD81754C01453_OFFSET UNITYSDK_OFFSET(0xD19D340)
-#define CLASS_1_8CC634C7DC9099E7__CTOR_OFFSET UNITYSDK_OFFSET(0xD19CB80)
+#define CLASS_1_8CC634C7DC9099E7_METHOD_1_821BBDC04720A2EB_OFFSET UNITYSDK_OFFSET(0x129349E0)
+#define CLASS_1_8CC634C7DC9099E7_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x12935250)
+#define CLASS_1_8CC634C7DC9099E7_METHOD_1_D20FD81754C01453_OFFSET UNITYSDK_OFFSET(0x12935120)
+#define CLASS_1_8CC634C7DC9099E7__CTOR_OFFSET UNITYSDK_OFFSET(0x12934960)
 
-inline static constexpr unsigned int Class_1_8CC634C7DC9099E7_TypeDefinitionIndex = 63852;
+inline static constexpr unsigned int Class_1_8CC634C7DC9099E7_TypeDefinitionIndex = 71899;
 
 class Class_1_8CC634C7DC9099E7 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
+	::RPG::GameCore::ChimeraBattleRunOut* Field_1_1; // 0x10
 	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_2; // 0x18
-	::RPG::GameCore::ChimeraBattleRunOut* Field_1_1; // 0x20
+	::RPG::Client::Promises::Promise* Field_1_0; // 0x20
 	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_7; // 0x28
-	::System::UInt32 Field_1_5; // 0x30
+	::System::UInt32 Field_1_6; // 0x30
 	::System::UInt32 Field_1_3; // 0x34
-	::System::UInt32 Field_1_6; // 0x38
-	::System::UInt32 Field_1_4; // 0x3C
+	::System::UInt32 Field_1_4; // 0x38
+	::System::UInt32 Field_1_5; // 0x3C
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraBattleRunOut* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 	{

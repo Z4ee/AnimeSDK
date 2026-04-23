@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175A38A0)
-#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175A3A40)
+#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18CAF5E0)
+#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CAF780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantContactsConfigRow_TypeDefinitionIndex = 10644;
+	inline static constexpr unsigned int RestaurantContactsConfigRow_TypeDefinitionIndex = 10895;
 
 	class RestaurantContactsConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 ContactsID; // 0x18
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ContactsID; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TRFMsgType_TypeDefinitionIndex = 32901;
+	inline static constexpr unsigned int TRFMsgType_TypeDefinitionIndex = 38691;
 
 	enum class TRFMsgType : ::System::Int32
 	{

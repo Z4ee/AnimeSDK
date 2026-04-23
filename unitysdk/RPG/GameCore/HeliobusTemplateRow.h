@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSTEMPLATEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A7230)
-#define RPG_GAMECORE_HELIOBUSTEMPLATEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172A79D0)
+#define RPG_GAMECORE_HELIOBUSTEMPLATEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189FBEB0)
+#define RPG_GAMECORE_HELIOBUSTEMPLATEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189FC650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusTemplateRow_TypeDefinitionIndex = 12583;
+	inline static constexpr unsigned int HeliobusTemplateRow_TypeDefinitionIndex = 13020;
 
 	class HeliobusTemplateRow : public ::System::Object
 	{
@@ -21,10 +21,10 @@ namespace RPG::GameCore
 		::System::String* PrefabPathNormal; // 0x10
 		::System::String* PrefabPathSmall; // 0x18
 		::RPG::Client::TextID HeliobusTemplateContent; // 0x20
-		::System::UInt32 PostImgID; // 0x30
-		::RPG::GameCore::HeliobusTendencyType TemplateTendency; // 0x34
-		::RPG::GameCore::HeliobusTemplateType TemplateType; // 0x38
-		::System::UInt32 HeliobusTemplateID; // 0x3C
+		::RPG::GameCore::HeliobusTemplateType TemplateType; // 0x30
+		::System::UInt32 HeliobusTemplateID; // 0x34
+		::System::UInt32 PostImgID; // 0x38
+		::RPG::GameCore::HeliobusTendencyType TemplateTendency; // 0x3C
 		::RPG::Client::TextID HeliobusTemplateTitle; // 0x40
 
 		::System::Void _ctor()

@@ -9,11 +9,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define CLASS_3_00B3ED7DF0AF35D0_METHOD_3_DC39F345B7494F0E_OFFSET UNITYSDK_OFFSET(0x8C93980)
-#define CLASS_3_00B3ED7DF0AF35D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C933A0)
-#define CLASS_3_00B3ED7DF0AF35D0__CTOR_OFFSET UNITYSDK_OFFSET(0x8C93330)
+#define CLASS_3_00B3ED7DF0AF35D0_METHOD_3_DC39F345B7494F0E_OFFSET UNITYSDK_OFFSET(0x125022C0)
+#define CLASS_3_00B3ED7DF0AF35D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12501CE0)
+#define CLASS_3_00B3ED7DF0AF35D0__CTOR_OFFSET UNITYSDK_OFFSET(0x12501C70)
 
-inline static constexpr unsigned int Class_3_00B3ED7DF0AF35D0_TypeDefinitionIndex = 44196;
+inline static constexpr unsigned int Class_3_00B3ED7DF0AF35D0_TypeDefinitionIndex = 50903;
 
 class Class_3_00B3ED7DF0AF35D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyShieldValueByNewShieldModifier*>
 {

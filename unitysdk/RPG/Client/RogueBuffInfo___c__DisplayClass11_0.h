@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueBuffData; }
 
-#define RPG_CLIENT_ROGUEBUFFINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F0C00)
-#define RPG_CLIENT_ROGUEBUFFINFO___C__DISPLAYCLASS11_0__GETACHIVEDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xA2F0F10)
+#define RPG_CLIENT_ROGUEBUFFINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0278F0)
+#define RPG_CLIENT_ROGUEBUFFINFO___C__DISPLAYCLASS11_0__GETACHIVEDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xB027C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueBuffInfo___c__DisplayClass11_0_TypeDefinitionIndex = 54713;
+	inline static constexpr unsigned int RogueBuffInfo___c__DisplayClass11_0_TypeDefinitionIndex = 61901;
 
 	class RogueBuffInfo___c__DisplayClass11_0 : public ::System::Object
 	{

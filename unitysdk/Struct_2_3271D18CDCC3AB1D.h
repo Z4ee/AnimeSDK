@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/Struct_2_E03B78B927A9E70C_1.h"
+#include "unitysdk/Struct_2_E03B78B927A9E70C_2.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_3271D18CDCC3AB1D_TypeDefinitionIndex = 46542;
+inline static constexpr unsigned int Struct_2_3271D18CDCC3AB1D_TypeDefinitionIndex = 53232;
 
 struct alignas(8) Struct_2_3271D18CDCC3AB1D
 {
@@ -24,6 +24,6 @@ struct alignas(8) Struct_2_3271D18CDCC3AB1D
 	::RPG::GameCore::FixPoint Field_2_9; // 0x58
 	::RPG::GameCore::FixPoint Field_2_10; // 0x60
 	::RPG::GameCore::FixPoint Field_2_11; // 0x68
-	::System::Collections::Generic::List_1<::Struct_2_E03B78B927A9E70C_1>* Field_2_12; // 0x70
+	::System::Collections::Generic::List_1<::Struct_2_E03B78B927A9E70C_2>* Field_2_12; // 0x70
 	::System::Boolean Field_2_13; // 0x78
 };

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
 #include "unitysdk/UnityEngine/SceneManagement/LocalPhysicsMode.h"
 
-#define UNITYENGINE_SCENEMANAGEMENT_LOADSCENEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x211CD30)
+#define UNITYENGINE_SCENEMANAGEMENT_LOADSCENEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x22EE9F0)
 
 namespace UnityEngine::SceneManagement
 {
-	inline static constexpr unsigned int LoadSceneParameters_TypeDefinitionIndex = 4318;
+	inline static constexpr unsigned int LoadSceneParameters_TypeDefinitionIndex = 4320;
 
 	struct alignas(4) LoadSceneParameters
 	{

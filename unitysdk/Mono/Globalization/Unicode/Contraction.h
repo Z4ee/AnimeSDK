@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x161656C0)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x177913C0)
 
 namespace Mono::Globalization::Unicode
 {
@@ -13,8 +13,8 @@ namespace Mono::Globalization::Unicode
 	class Contraction : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Char>* Source; // 0x10
-		::System::String* Replacement; // 0x18
+		::System::String* Replacement; // 0x10
+		::Il2CppArray<::System::Char>* Source; // 0x18
 		::Il2CppArray<::System::Byte>* SortKey; // 0x20
 		::System::Int32 Index; // 0x28
 

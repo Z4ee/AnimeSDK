@@ -5,9 +5,9 @@
 class Class_1_CC76D1702CC17C09;
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define CLASS_1_D0E664FA3B6613BD__CTOR_OFFSET UNITYSDK_OFFSET(0x16899050)
+#define CLASS_1_D0E664FA3B6613BD__CTOR_OFFSET UNITYSDK_OFFSET(0x180861E0)
 
-inline static constexpr unsigned int Class_1_D0E664FA3B6613BD_TypeDefinitionIndex = 32212;
+inline static constexpr unsigned int Class_1_D0E664FA3B6613BD_TypeDefinitionIndex = 37932;
 
 class Class_1_D0E664FA3B6613BD : public ::System::Object
 {

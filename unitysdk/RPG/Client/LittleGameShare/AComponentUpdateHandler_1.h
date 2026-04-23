@@ -9,7 +9,7 @@ namespace System { class Type; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int AComponentUpdateHandler_1_TypeDefinitionIndex = 28628;
+	inline static constexpr unsigned int AComponentUpdateHandler_1_TypeDefinitionIndex = 34357;
 
 	template <typename T>
 	class AComponentUpdateHandler_1 : public ::System::Object

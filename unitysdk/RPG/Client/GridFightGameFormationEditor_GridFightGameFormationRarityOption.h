@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+namespace RPG::Client { class GridFightGameFormationEditor_Filter; }
+namespace RPG::Client { class GridFightRole; }
+namespace System { class String; }
+
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETICON_OFFSET UNITYSDK_OFFSET(0xA4B6DC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETNAME_OFFSET UNITYSDK_OFFSET(0xA4B6D10)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_SATISFY_OFFSET UNITYSDK_OFFSET(0xA4B6C90)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B6280)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION___IFIXBASEPROXY_GETICON_OFFSET UNITYSDK_OFFSET(0xA4B6FD0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION___IFIXBASEPROXY_GETNAME_OFFSET UNITYSDK_OFFSET(0xA4B6EF0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION___IFIXBASEPROXY_SATISFY_OFFSET UNITYSDK_OFFSET(0xA4B6E50)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRarityOption_TypeDefinitionIndex = 59497;
+
+	class GridFightGameFormationEditor_GridFightGameFormationRarityOption : public ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption
+	{
+	public:
+		::System::UInt32 Rarity; // 0x18
+
+		::System::Void _ctor(::RPG::Client::GridFightGameFormationEditor_Filter* filter)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameFormationEditor_Filter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION__CTOR_OFFSET))(this, filter);
+		}
+
+		::System::Boolean Satisfy(::RPG::Client::GridFightRole* role)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_SATISFY_OFFSET))(this, role);
+		}
+
+		::RPG::Client::TextID GetName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETNAME_OFFSET))(this);
+		}
+
+		::System::String* GetIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION_GETICON_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_Satisfy(::RPG::Client::GridFightRole* P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION___IFIXBASEPROXY_SATISFY_OFFSET))(this, P0);
+		}
+
+		::RPG::Client::TextID __iFixBaseProxy_GetName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION___IFIXBASEPROXY_GETNAME_OFFSET))(this);
+		}
+
+		::System::String* __iFixBaseProxy_GetIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONRARITYOPTION___IFIXBASEPROXY_GETICON_OFFSET))(this);
+		}
+	};
+}

@@ -8,10 +8,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_AACEDD85A6FDFBD8_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x20E14D0)
-#define STRUCT_2_AACEDD85A6FDFBD8_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x20E1480)
+#define STRUCT_2_AACEDD85A6FDFBD8_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x22B30B0)
 
-inline static constexpr unsigned int Struct_2_AACEDD85A6FDFBD8_TypeDefinitionIndex = 33299;
+inline static constexpr unsigned int Struct_2_AACEDD85A6FDFBD8_TypeDefinitionIndex = 39088;
 
 struct alignas(4) Struct_2_AACEDD85A6FDFBD8
 {
@@ -42,20 +41,19 @@ struct alignas(4) Struct_2_AACEDD85A6FDFBD8
 	::UnityEngine::Quaternion Field_2_24; // 0x1A8
 	::UnityEngine::Vector2 Field_2_25; // 0x1B8
 	::UnityEngine::Vector2 Field_2_26; // 0x1C0
-	::System::Boolean Field_2_27; // 0x1C8
-	::System::Boolean Field_2_28; // 0x1C9
-	::System::Boolean Field_2_29; // 0x1CA
-	::System::Single Field_2_30; // 0x1CC
-	::System::Boolean Field_2_31; // 0x1D0
-	::System::Boolean Field_2_32; // 0x1D1
+	::UnityEngine::Vector2 Field_2_27; // 0x1C8
+	::System::Boolean Field_2_28; // 0x1D0
+	::System::Boolean Field_2_29; // 0x1D1
+	::System::Boolean Field_2_30; // 0x1D2
+	::System::Boolean Field_2_31; // 0x1D3
+	::System::Single Field_2_32; // 0x1D4
+	::System::Boolean Field_2_33; // 0x1D8
+	::System::Single Field_2_34; // 0x1DC
+	::System::Boolean Field_2_35; // 0x1E0
+	::System::Boolean Field_2_36; // 0x1E1
 
 	::System::Void Method_2_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AACEDD85A6FDFBD8_METHOD_2_CA373AA1C7054598_OFFSET))(this);
-	}
-
-	::System::Void Method_2_CA373AA1C7054598_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AACEDD85A6FDFBD8_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
 	}
 };

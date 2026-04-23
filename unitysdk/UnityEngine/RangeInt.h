@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RANGEINT_GET_END_OFFSET UNITYSDK_OFFSET(0x2114C20)
-#define UNITYENGINE_RANGEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x72EF0)
+#define UNITYENGINE_RANGEINT_GET_END_OFFSET UNITYSDK_OFFSET(0x22E7770)
+#define UNITYENGINE_RANGEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x73E20)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 4142;
+	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 4144;
 
 	struct alignas(4) RangeInt
 	{

@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define TERRAINASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAC26AF0)
+#define TERRAINASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB99D6F0)
 
-inline static constexpr unsigned int TerrainAssetConfig_TypeDefinitionIndex = 38237;
+inline static constexpr unsigned int TerrainAssetConfig_TypeDefinitionIndex = 44121;
 
 class TerrainAssetConfig : public ::UnityEngine::MonoBehaviour
 {

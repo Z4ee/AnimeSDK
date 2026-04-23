@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA3C2350)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C2300)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB0F9760)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0F9710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardData_TypeDefinitionIndex = 55243;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardData_TypeDefinitionIndex = 62431;
 
 	class RogueTournPersonaRoomCardData : public ::RPG::Client::RogueTournPersonaRoomCardDataBase
 	{

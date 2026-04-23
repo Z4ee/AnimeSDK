@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnumEnterPerformanceResult_TypeDefinitionIndex = 49175;
+	inline static constexpr unsigned int EnumEnterPerformanceResult_TypeDefinitionIndex = 55972;
 
 	enum class EnumEnterPerformanceResult : ::System::Int32
 	{
@@ -17,6 +17,7 @@ namespace RPG::Client
 		ChimeraBattleResult = 7,
 		RogueMagicSettle = 8,
 		ElfLoading = 9,
-		NetworkDisconnected = 10,
+		OnlineCakeCatchBoxOpening = 10,
+		NetworkDisconnected = 11,
 	};
 }

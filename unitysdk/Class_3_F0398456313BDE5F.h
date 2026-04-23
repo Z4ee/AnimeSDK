@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class NotifyDeadPartSelected; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F0398456313BDE5F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10AF3FF0)
-#define CLASS_3_F0398456313BDE5F__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF3FC0)
+#define CLASS_3_F0398456313BDE5F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8F96980)
+#define CLASS_3_F0398456313BDE5F__CTOR_OFFSET UNITYSDK_OFFSET(0x8F96950)
 
-inline static constexpr unsigned int Class_3_F0398456313BDE5F_TypeDefinitionIndex = 45311;
+inline static constexpr unsigned int Class_3_F0398456313BDE5F_TypeDefinitionIndex = 51955;
 
 class Class_3_F0398456313BDE5F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NotifyDeadPartSelected*>
 {

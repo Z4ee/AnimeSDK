@@ -6,37 +6,37 @@ namespace MiHoYo::SDK::Protobuf { class MessageParser; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x15DB6260)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDENUMS_OFFSET UNITYSDK_OFFSET(0x15DB62C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x15DB62B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_ONEOFNAMES_OFFSET UNITYSDK_OFFSET(0x15DB62A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x15DB6280)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PROPERTYNAMES_OFFSET UNITYSDK_OFFSET(0x15DB6290)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_SET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x15DB6270)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DB62D0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15DA8060)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA7850)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x173B3A10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDENUMS_OFFSET UNITYSDK_OFFSET(0x173B3A70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x173B3A60)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_ONEOFNAMES_OFFSET UNITYSDK_OFFSET(0x173B3A50)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x173B3A30)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PROPERTYNAMES_OFFSET UNITYSDK_OFFSET(0x173B3A40)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_SET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x173B3A20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x173B3A80)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x173A57E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173A4FD0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedClrTypeInfo_TypeDefinitionIndex = 28121;
+	inline static constexpr unsigned int GeneratedClrTypeInfo_TypeDefinitionIndex = 33745;
 
 	class GeneratedClrTypeInfo : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*>** StaticGet_EmptyCodeInfo()
 		{
-			return (::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x22100);
+			return (::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x690E0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_EmptyNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x22108);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x690E8);
 		}
-		::Il2CppArray<::System::String*>* _PropertyNames_k__BackingField; // 0x10
-		::Il2CppArray<::System::Type*>* _NestedEnums_k__BackingField; // 0x18
-		::Il2CppArray<::System::String*>* _OneofNames_k__BackingField; // 0x20
+		::Il2CppArray<::System::Type*>* _NestedEnums_k__BackingField; // 0x10
+		::System::Type* _ClrType_k__BackingField; // 0x18
+		::Il2CppArray<::System::String*>* _PropertyNames_k__BackingField; // 0x20
 		::MiHoYo::SDK::Protobuf::MessageParser* _Parser_k__BackingField; // 0x28
-		::System::Type* _ClrType_k__BackingField; // 0x30
+		::Il2CppArray<::System::String*>* _OneofNames_k__BackingField; // 0x30
 		::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*>* _NestedTypes_k__BackingField; // 0x38
 
 		::System::Void _ctor(::System::Type* clrType, ::MiHoYo::SDK::Protobuf::MessageParser* parser, ::Il2CppArray<::System::String*>* propertyNames, ::Il2CppArray<::System::String*>* oneofNames, ::Il2CppArray<::System::Type*>* nestedEnums, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*>* nestedTypes)

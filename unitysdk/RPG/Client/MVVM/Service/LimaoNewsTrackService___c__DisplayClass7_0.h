@@ -5,12 +5,12 @@
 namespace RPG::Client::MVVM::Model { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::MVVM::Service { class LimaoNewsTrackService; }
 
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__BEGINTRACKOFFICE_B__0_OFFSET UNITYSDK_OFFSET(0x9A907B0)
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8E840)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__BEGINTRACKOFFICE_B__0_OFFSET UNITYSDK_OFFSET(0xA73E5E0)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA73C660)
 
 namespace RPG::Client::MVVM::Service
 {
-	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass7_0_TypeDefinitionIndex = 61049;
+	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass7_0_TypeDefinitionIndex = 68507;
 
 	class LimaoNewsTrackService___c__DisplayClass7_0 : public ::System::Object
 	{

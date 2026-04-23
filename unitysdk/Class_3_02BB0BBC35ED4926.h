@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureIsTriggerBattleByNpcMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_02BB0BBC35ED4926_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10A07C90)
-#define CLASS_3_02BB0BBC35ED4926__CTOR_OFFSET UNITYSDK_OFFSET(0x10A07C60)
+#define CLASS_3_02BB0BBC35ED4926_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11E58D00)
+#define CLASS_3_02BB0BBC35ED4926__CTOR_OFFSET UNITYSDK_OFFSET(0x11E58CD0)
 
-inline static constexpr unsigned int Class_3_02BB0BBC35ED4926_TypeDefinitionIndex = 46680;
+inline static constexpr unsigned int Class_3_02BB0BBC35ED4926_TypeDefinitionIndex = 53389;
 
 class Class_3_02BB0BBC35ED4926 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureIsTriggerBattleByNpcMonster*>
 {

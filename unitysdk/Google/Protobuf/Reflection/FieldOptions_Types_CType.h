@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions_Types_CType_TypeDefinitionIndex = 6283;
+	inline static constexpr unsigned int FieldOptions_Types_CType_TypeDefinitionIndex = 6293;
 
 	enum class FieldOptions_Types_CType : ::System::Int32
 	{

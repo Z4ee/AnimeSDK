@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemNoiseQuality_TypeDefinitionIndex = 5493;
+	inline static constexpr unsigned int ParticleSystemNoiseQuality_TypeDefinitionIndex = 5504;
 
 	enum class ParticleSystemNoiseQuality : ::System::Int32
 	{

@@ -9,21 +9,21 @@ namespace ZenFulcrum::EmbeddedBrowser { class Cookie; }
 namespace ZenFulcrum::EmbeddedBrowser { class CookieManager_CookieFetch; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class IPromise_1; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CB_GETCOOKIEFUNC_OFFSET UNITYSDK_OFFSET(0x18C7CE10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x18C7D2C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_GETCOOKIES_OFFSET UNITYSDK_OFFSET(0x18C7D070)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C53990)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CB_GETCOOKIEFUNC_OFFSET UNITYSDK_OFFSET(0x1A6B8300)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1A6B87B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_GETCOOKIES_OFFSET UNITYSDK_OFFSET(0x1A6B8560)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68EE80)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int CookieManager_TypeDefinitionIndex = 30531;
+	inline static constexpr unsigned int CookieManager_TypeDefinitionIndex = 36251;
 
 	class CookieManager : public ::System::Object
 	{
 	public:
 		static ::ZenFulcrum::EmbeddedBrowser::CookieManager_CookieFetch** StaticGet_currentFetch()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::CookieManager_CookieFetch**)Il2CppClass::FromTypeDefinitionIndex(CookieManager_TypeDefinitionIndex)->GetStaticField(0x36290);
+			return (::ZenFulcrum::EmbeddedBrowser::CookieManager_CookieFetch**)Il2CppClass::FromTypeDefinitionIndex(CookieManager_TypeDefinitionIndex)->GetStaticField(0x6A220);
 		}
 		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
 

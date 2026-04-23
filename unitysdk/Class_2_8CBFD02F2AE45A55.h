@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class RogueBuffInfo; }
 
-#define CLASS_2_8CBFD02F2AE45A55__CTOR_OFFSET UNITYSDK_OFFSET(0x11401230)
+#define CLASS_2_8CBFD02F2AE45A55__CTOR_OFFSET UNITYSDK_OFFSET(0x95D3B00)
 
-inline static constexpr unsigned int Class_2_8CBFD02F2AE45A55_TypeDefinitionIndex = 54588;
+inline static constexpr unsigned int Class_2_8CBFD02F2AE45A55_TypeDefinitionIndex = 61776;
 
 class Class_2_8CBFD02F2AE45A55 : public ::Class_1_8F7D3BAFD8C03B69
 {

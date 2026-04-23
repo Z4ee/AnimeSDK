@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags_TypeDefinitionIndex = 34575;
+inline static constexpr unsigned int AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags_TypeDefinitionIndex = 40394;
 
 enum class AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags : ::System::Int32
 {

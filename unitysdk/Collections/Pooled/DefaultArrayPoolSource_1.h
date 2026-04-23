@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int DefaultArrayPoolSource_1_TypeDefinitionIndex = 5302;
+	inline static constexpr unsigned int DefaultArrayPoolSource_1_TypeDefinitionIndex = 5313;
 
 	template <typename T>
 	class DefaultArrayPoolSource_1 : public ::System::Buffers::ArrayPool_1<T>

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimNavTransitType_TypeDefinitionIndex = 52135;
+	inline static constexpr unsigned int FiveDimNavTransitType_TypeDefinitionIndex = 59085;
 
 	enum class FiveDimNavTransitType : ::System::Int32
 	{

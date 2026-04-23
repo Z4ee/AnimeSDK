@@ -6,30 +6,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1705DE60)
-#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1705E310)
+#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187C2C60)
+#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187C3110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakGroupConfigRow_TypeDefinitionIndex = 11829;
+	inline static constexpr unsigned int ChallengePeakGroupConfigRow_TypeDefinitionIndex = 12260;
 
 	class ChallengePeakGroupConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PreLevelIDList; // 0x10
-		::System::String* HandBookPanelBannerPath; // 0x18
-		::System::String* BossUI3DAnimatorPath; // 0x20
-		::System::String* BossUI3DPrefabPath; // 0x28
-		::System::String* ThemeIconPicPath; // 0x30
+		::System::String* BossUI3DAnimatorPath; // 0x10
+		::Il2CppArray<::System::UInt32>* PreLevelIDList; // 0x18
+		::System::String* ThemeIconPicPath; // 0x20
+		::System::String* HandBookPanelBannerPath; // 0x28
+		::Il2CppArray<::System::String*>* RankIconPathList; // 0x30
 		::System::String* ThemePosterTabPicPath; // 0x38
-		::Il2CppArray<::System::String*>* RankIconPathList; // 0x40
-		::System::UInt32 RecommendID; // 0x48
-		::System::UInt32 ActivityModule; // 0x4C
-		::RPG::Client::TextID Title; // 0x50
-		::System::UInt32 ID; // 0x60
-		::System::UInt32 RewardGroupID; // 0x64
-		::System::UInt32 HintGoodsID; // 0x68
-		::System::UInt32 BossLevelID; // 0x6C
+		::System::String* BossUI3DPrefabPath; // 0x40
+		::System::UInt32 HintGoodsID; // 0x48
+		::System::UInt32 RecommendID; // 0x4C
+		::System::UInt32 BossLevelID; // 0x50
+		::System::UInt32 ActivityModule; // 0x54
+		::RPG::Client::TextID Title; // 0x58
+		::System::UInt32 ID; // 0x68
+		::System::UInt32 RewardGroupID; // 0x6C
 
 		::System::Void _ctor()
 		{

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_A9192C8777FB9B6C_OFFSET UNITYSDK_OFFSET(0x170390F0)
-#define RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_D25B0E286E212A0C_OFFSET UNITYSDK_OFFSET(0x170391C0)
-#define RPG_GAMECORE_BYPRESHOWSTANCEBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x17039170)
+#define RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_52F4210AE8E55735_OFFSET UNITYSDK_OFFSET(0x1875DC10)
+#define RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_CE49D4037350A5D5_OFFSET UNITYSDK_OFFSET(0x1875DCE0)
+#define RPG_GAMECORE_BYPRESHOWSTANCEBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x1875DC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByPreShowStanceBreak_TypeDefinitionIndex = 21769;
+	inline static constexpr unsigned int ByPreShowStanceBreak_TypeDefinitionIndex = 22507;
 
 	class ByPreShowStanceBreak : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPRESHOWSTANCEBREAK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A9192C8777FB9B6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPreShowStanceBreak*& a2)
+		static ::System::Void Method_4_52F4210AE8E55735(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPreShowStanceBreak*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPreShowStanceBreak*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_A9192C8777FB9B6C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPreShowStanceBreak*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_52F4210AE8E55735_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D25B0E286E212A0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPreShowStanceBreak* a2)
+		static ::System::Void Method_4_CE49D4037350A5D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPreShowStanceBreak* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPreShowStanceBreak*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_D25B0E286E212A0C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPreShowStanceBreak*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPRESHOWSTANCEBREAK_METHOD_4_CE49D4037350A5D5_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -16,41 +16,41 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_90C3FAB661E5C263_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8DD4200)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_146C3E7311763B1B_OFFSET UNITYSDK_OFFSET(0x8DD2C50)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x8DD3C30)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_8691C17EC356A1A1_1_OFFSET UNITYSDK_OFFSET(0x8DD2A60)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_8691C17EC356A1A1_OFFSET UNITYSDK_OFFSET(0x8DD28A0)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_912CD6A43BF0D575_OFFSET UNITYSDK_OFFSET(0x8DD2BD0)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_9873EE85585D09C9_OFFSET UNITYSDK_OFFSET(0x8DD2E40)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_988EE78A892C77F3_OFFSET UNITYSDK_OFFSET(0x8DD2ED0)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_A546BF9AF16A6444_OFFSET UNITYSDK_OFFSET(0x8DD3540)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_AAB4AB00F32325E7_OFFSET UNITYSDK_OFFSET(0x8DD2F50)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_B3D8C24A1997E8EF_OFFSET UNITYSDK_OFFSET(0x8DD36A0)
-#define CLASS_2_90C3FAB661E5C263_METHOD_2_F4DD08A31BA3F883_OFFSET UNITYSDK_OFFSET(0x8DD38F0)
-#define CLASS_2_90C3FAB661E5C263__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DD4690)
-#define CLASS_2_90C3FAB661E5C263__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD3D40)
+#define CLASS_2_90C3FAB661E5C263_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12842D40)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_146C3E7311763B1B_OFFSET UNITYSDK_OFFSET(0x12841780)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x12842770)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_8691C17EC356A1A1_1_OFFSET UNITYSDK_OFFSET(0x12841590)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_8691C17EC356A1A1_OFFSET UNITYSDK_OFFSET(0x128413D0)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_912CD6A43BF0D575_OFFSET UNITYSDK_OFFSET(0x12841700)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_9873EE85585D09C9_OFFSET UNITYSDK_OFFSET(0x12841970)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_988EE78A892C77F3_OFFSET UNITYSDK_OFFSET(0x12841A00)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_A546BF9AF16A6444_OFFSET UNITYSDK_OFFSET(0x12842070)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_AAB4AB00F32325E7_OFFSET UNITYSDK_OFFSET(0x12841A80)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_B3D8C24A1997E8EF_OFFSET UNITYSDK_OFFSET(0x128421D0)
+#define CLASS_2_90C3FAB661E5C263_METHOD_2_F4DD08A31BA3F883_OFFSET UNITYSDK_OFFSET(0x12842430)
+#define CLASS_2_90C3FAB661E5C263__CCTOR_OFFSET UNITYSDK_OFFSET(0x128431D0)
+#define CLASS_2_90C3FAB661E5C263__CTOR_OFFSET UNITYSDK_OFFSET(0x12842880)
 
-inline static constexpr unsigned int Class_2_90C3FAB661E5C263_TypeDefinitionIndex = 46574;
+inline static constexpr unsigned int Class_2_90C3FAB661E5C263_TypeDefinitionIndex = 53264;
 
 class Class_2_90C3FAB661E5C263 : public ::RPG::GameCore::GameComponentBase
 {
 public:
 	static ::System::String** StaticGet_Field_2_3()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_90C3FAB661E5C263_TypeDefinitionIndex)->GetStaticField(0x17A40);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_90C3FAB661E5C263_TypeDefinitionIndex)->GetStaticField(0x1B160);
 	}
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Boolean>* Field_2_6; // 0x18
-	::Class_1_2CAAA2FDF9170110* Field_2_4; // 0x20
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::StringHash>* Field_2_2; // 0x28
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::Il2CppArray<::System::String*>*>* Field_2_9; // 0x30
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::UInt32>* Field_2_5; // 0x38
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::GameEntityList*>* Field_2_8; // 0x40
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* Field_2_7; // 0x48
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::Il2CppArray<::RPG::GameCore::DynamicJsonConfig*>*>* Field_2_11; // 0x50
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::ValueTuple_3<::RPG::GameCore::StringHash, ::Class_2_90C3FAB661E5C263_ReferenceType, ::Class_2_90C3FAB661E5C263_ReferenceSource>>* Field_2_1; // 0x58
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Action*>* Field_2_0; // 0x60
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicJsonConfig*>* Field_2_10; // 0x68
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Action*>* Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicJsonConfig*>* Field_2_10; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::GameEntityList*>* Field_2_8; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::Il2CppArray<::RPG::GameCore::DynamicJsonConfig*>*>* Field_2_11; // 0x30
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::StringHash>* Field_2_2; // 0x38
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::UInt32>* Field_2_5; // 0x40
+	::Class_1_2CAAA2FDF9170110* Field_2_4; // 0x48
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::Il2CppArray<::System::String*>*>* Field_2_9; // 0x50
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* Field_2_7; // 0x58
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Boolean>* Field_2_6; // 0x60
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::ValueTuple_3<::RPG::GameCore::StringHash, ::Class_2_90C3FAB661E5C263_ReferenceType, ::Class_2_90C3FAB661E5C263_ReferenceSource>>* Field_2_1; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -6,7 +6,7 @@ namespace RPG::Client { class AirshipBird; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipBirdEmitPrefab_TypeDefinitionIndex = 48421;
+	inline static constexpr unsigned int AirshipBirdEmitPrefab_TypeDefinitionIndex = 55169;
 
 	struct alignas(8) AirshipBirdEmitPrefab
 	{

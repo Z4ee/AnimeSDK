@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvNotifyAiSpecialEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6D10001084913907_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8851640)
-#define CLASS_3_6D10001084913907__CTOR_OFFSET UNITYSDK_OFFSET(0x8851610)
+#define CLASS_3_6D10001084913907_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11C282D0)
+#define CLASS_3_6D10001084913907__CTOR_OFFSET UNITYSDK_OFFSET(0x11C282A0)
 
-inline static constexpr unsigned int Class_3_6D10001084913907_TypeDefinitionIndex = 42461;
+inline static constexpr unsigned int Class_3_6D10001084913907_TypeDefinitionIndex = 48422;
 
 class Class_3_6D10001084913907 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNotifyAiSpecialEvent*>
 {

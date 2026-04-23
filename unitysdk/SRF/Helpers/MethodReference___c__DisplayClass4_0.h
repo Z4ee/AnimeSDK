@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18467220)
-#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__OP_IMPLICIT_B__0_OFFSET UNITYSDK_OFFSET(0x18467270)
+#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA2130)
+#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS4_0__OP_IMPLICIT_B__0_OFFSET UNITYSDK_OFFSET(0x19EA2180)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int MethodReference___c__DisplayClass4_0_TypeDefinitionIndex = 27712;
+	inline static constexpr unsigned int MethodReference___c__DisplayClass4_0_TypeDefinitionIndex = 33336;
 
 	class MethodReference___c__DisplayClass4_0 : public ::System::Object
 	{

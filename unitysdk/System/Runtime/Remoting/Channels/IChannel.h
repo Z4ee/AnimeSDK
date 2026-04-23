@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int IChannel_TypeDefinitionIndex = 1259;
+	inline static constexpr unsigned int IChannel_TypeDefinitionIndex = 1261;
 
 	class IChannel
 	{

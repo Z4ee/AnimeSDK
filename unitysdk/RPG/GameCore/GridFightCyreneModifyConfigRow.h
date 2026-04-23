@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17256A90)
-#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17256DA0)
+#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A6570)
+#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A6880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCyreneModifyConfigRow_TypeDefinitionIndex = 12388;
+	inline static constexpr unsigned int GridFightCyreneModifyConfigRow_TypeDefinitionIndex = 12821;
 
 	class GridFightCyreneModifyConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ModifyCalcOpType>* ModifyOps; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ModifyValues; // 0x18
-		::System::String* CyreneMultipleValueKey; // 0x20
-		::Il2CppArray<::System::UInt32>* ModifySkillIndexs; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ModifyValues; // 0x10
+		::System::String* CyreneMultipleValueKey; // 0x18
+		::Il2CppArray<::System::UInt32>* ModifySkillIndexs; // 0x20
+		::Il2CppArray<::RPG::GameCore::ModifyCalcOpType>* ModifyOps; // 0x28
 		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x30
-		::System::UInt32 ModifyRoleID; // 0x34
-		::System::UInt32 ModifySkillID; // 0x38
+		::System::UInt32 ModifySkillID; // 0x34
+		::System::UInt32 ModifyRoleID; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierQueryableOptionType_TypeDefinitionIndex = 16495;
+	inline static constexpr unsigned int RogueModifierQueryableOptionType_TypeDefinitionIndex = 17049;
 
 	enum class RogueModifierQueryableOptionType : ::System::Int32
 	{

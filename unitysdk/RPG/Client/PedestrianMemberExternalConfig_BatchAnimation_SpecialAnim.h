@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim_TypeDefinitionIndex = 56607;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim_TypeDefinitionIndex = 63851;
 
 	struct alignas(8) PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim
 	{

@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188AAB40)
-#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188AAB80)
-#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__SORTEDREMOVEANDSHIFT_B__26_0_OFFSET UNITYSDK_OFFSET(0x188AAB90)
+#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2E4990)
+#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E49D0)
+#define UNITYENGINE_PROBUILDER_SHAREDVERTEX___C__SORTEDREMOVEANDSHIFT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1A2E49E0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SharedVertex___c_TypeDefinitionIndex = 34170;
+	inline static constexpr unsigned int SharedVertex___c_TypeDefinitionIndex = 39989;
 
 	class SharedVertex___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SharedVertex___c_TypeDefinitionIndex)->GetStaticField(0x2A6A0);
-		}
 		static ::UnityEngine::ProBuilder::SharedVertex___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::SharedVertex___c**)Il2CppClass::FromTypeDefinitionIndex(SharedVertex___c_TypeDefinitionIndex)->GetStaticField(0x2A6A8);
+			return (::UnityEngine::ProBuilder::SharedVertex___c**)Il2CppClass::FromTypeDefinitionIndex(SharedVertex___c_TypeDefinitionIndex)->GetStaticField(0x2E3B0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SharedVertex___c_TypeDefinitionIndex)->GetStaticField(0x2E3B8);
 		}
 
 		static ::System::Void _cctor()

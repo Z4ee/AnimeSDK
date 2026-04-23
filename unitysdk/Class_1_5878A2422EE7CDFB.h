@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class LevelNavmapConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_5878A2422EE7CDFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11058710)
-#define CLASS_1_5878A2422EE7CDFB_METHOD_1_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x11058530)
-#define CLASS_1_5878A2422EE7CDFB_METHOD_1_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x110583A0)
-#define CLASS_1_5878A2422EE7CDFB__CTOR_OFFSET UNITYSDK_OFFSET(0x110581C0)
+#define CLASS_1_5878A2422EE7CDFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA55E7D0)
+#define CLASS_1_5878A2422EE7CDFB_METHOD_1_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0xA55E5F0)
+#define CLASS_1_5878A2422EE7CDFB_METHOD_1_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xA55E460)
+#define CLASS_1_5878A2422EE7CDFB__CTOR_OFFSET UNITYSDK_OFFSET(0xA55E280)
 
-inline static constexpr unsigned int Class_1_5878A2422EE7CDFB_TypeDefinitionIndex = 49130;
+inline static constexpr unsigned int Class_1_5878A2422EE7CDFB_TypeDefinitionIndex = 55927;
 
 class Class_1_5878A2422EE7CDFB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_2; // 0x10
-	::RPG::GameCore::LevelNavmapConfig* Field_1_0; // 0x18
+	::RPG::GameCore::LevelNavmapConfig* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_2; // 0x18
 	::System::Int32 Field_1_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2)

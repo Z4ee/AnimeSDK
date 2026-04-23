@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FloatMessageType.h"
-#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/RPG/GameCore/RogueMagicMountType.h"
 
-class Class_1_69D7459C7F6EC835;
-class Class_1_95EEF67A826E14FF;
-namespace RPG::GameCore { class GameEntity; }
+namespace RPG::Client { class RogueMagicUnitDataItem; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_838_TypeDefinitionIndex = 58606;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_838_TypeDefinitionIndex = 62118;
 
 class Class_0_16E4307DCC419505_838
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WheelItemType_TypeDefinitionIndex = 22319;
+	inline static constexpr unsigned int WheelItemType_TypeDefinitionIndex = 23287;
 
 	enum class WheelItemType : ::System::Int32
 	{

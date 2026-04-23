@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSTATUSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA60F400)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSTATUSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB362AC0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyStatusData_TypeDefinitionIndex = 61148;
+	inline static constexpr unsigned int TrainPartyStatusData_TypeDefinitionIndex = 68635;
 
 	class TrainPartyStatusData : public ::System::Object
 	{

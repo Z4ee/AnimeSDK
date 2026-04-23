@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleNodeType_TypeDefinitionIndex = 17382;
+	inline static constexpr unsigned int ChronicleNodeType_TypeDefinitionIndex = 17990;
 
 	enum class ChronicleNodeType : ::System::Int32
 	{

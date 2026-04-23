@@ -7,7 +7,7 @@ namespace System::Runtime::Serialization { class ISerializationSurrogate; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ISurrogateSelector_TypeDefinitionIndex = 1096;
+	inline static constexpr unsigned int ISurrogateSelector_TypeDefinitionIndex = 1098;
 
 	class ISurrogateSelector
 	{

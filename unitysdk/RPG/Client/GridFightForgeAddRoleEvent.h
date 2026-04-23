@@ -5,19 +5,19 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTFORGEADDROLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x981B810)
+#define RPG_CLIENT_GRIDFIGHTFORGEADDROLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA49EF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeAddRoleEvent_TypeDefinitionIndex = 52713;
+	inline static constexpr unsigned int GridFightForgeAddRoleEvent_TypeDefinitionIndex = 59770;
 
 	class GridFightForgeAddRoleEvent : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightRole* AddRole; // 0x10
-		::System::Boolean IsUnlockExpert; // 0x18
+		::RPG::GameCore::GridFightForgeFuncType FuncType; // 0x18
 		::System::UInt32 ForgeSelectIndex; // 0x1C
-		::RPG::GameCore::GridFightForgeFuncType FuncType; // 0x20
+		::System::Boolean IsUnlockExpert; // 0x20
 
 		::System::Void _ctor()
 		{

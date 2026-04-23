@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LESSTHANINSTRUCTION_LESSTHANCHAR_RUN_OFFSET UNITYSDK_OFFSET(0x184D4C40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LESSTHANINSTRUCTION_LESSTHANCHAR__CTOR_OFFSET UNITYSDK_OFFSET(0x184D4A50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LESSTHANINSTRUCTION_LESSTHANCHAR_RUN_OFFSET UNITYSDK_OFFSET(0x19F0FB10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LESSTHANINSTRUCTION_LESSTHANCHAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0F920)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LessThanInstruction_LessThanChar_TypeDefinitionIndex = 3440;
+	inline static constexpr unsigned int LessThanInstruction_LessThanChar_TypeDefinitionIndex = 3442;
 
 	class LessThanInstruction_LessThanChar : public ::System::Linq::Expressions::Interpreter::LessThanInstruction
 	{

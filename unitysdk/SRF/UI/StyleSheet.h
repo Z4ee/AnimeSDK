@@ -6,12 +6,12 @@ namespace SRF::UI { class Style; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRF_UI_STYLESHEET_GETSTYLE_OFFSET UNITYSDK_OFFSET(0x184762A0)
-#define SRF_UI_STYLESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x18476550)
+#define SRF_UI_STYLESHEET_GETSTYLE_OFFSET UNITYSDK_OFFSET(0x19EB1210)
+#define SRF_UI_STYLESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB14C0)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int StyleSheet_TypeDefinitionIndex = 27687;
+	inline static constexpr unsigned int StyleSheet_TypeDefinitionIndex = 33311;
 
 	class StyleSheet : public ::UnityEngine::ScriptableObject
 	{

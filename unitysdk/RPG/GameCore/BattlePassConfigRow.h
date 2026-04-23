@@ -4,31 +4,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEPASSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FDA6B0)
-#define RPG_GAMECORE_BATTLEPASSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDABD0)
+#define RPG_GAMECORE_BATTLEPASSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186FE090)
+#define RPG_GAMECORE_BATTLEPASSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186FE5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassConfigRow_TypeDefinitionIndex = 11750;
+	inline static constexpr unsigned int BattlePassConfigRow_TypeDefinitionIndex = 12162;
 
 	class BattlePassConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BillboardShow; // 0x10
-		::Il2CppArray<::System::UInt32>* VersionQuestList; // 0x18
-		::Il2CppArray<::System::UInt32>* WeekOrder1; // 0x20
-		::Il2CppArray<::System::UInt32>* WeekChainQuestList; // 0x28
-		::Il2CppArray<::System::UInt32>* WeekOrder2; // 0x30
-		::Il2CppArray<::System::UInt32>* EquipmentShow; // 0x38
-		::Il2CppArray<::System::UInt32>* LevelUpShow; // 0x40
-		::Il2CppArray<::System::UInt32>* WeekQuestList; // 0x48
-		::System::UInt32 ID; // 0x50
-		::System::UInt32 Purchase128; // 0x54
-		::System::UInt32 BattlePassWeekID; // 0x58
-		::System::UInt32 ScheduleDataID; // 0x5C
+		::Il2CppArray<::System::UInt32>* WeekQuestList; // 0x18
+		::Il2CppArray<::System::UInt32>* WeekOrder2; // 0x20
+		::Il2CppArray<::System::UInt32>* LevelUpShow; // 0x28
+		::Il2CppArray<::System::UInt32>* EquipmentShow; // 0x30
+		::Il2CppArray<::System::UInt32>* VersionQuestList; // 0x38
+		::Il2CppArray<::System::UInt32>* WeekOrder1; // 0x40
+		::Il2CppArray<::System::UInt32>* WeekChainQuestList; // 0x48
+		::System::UInt32 BattlePassWeekID; // 0x50
+		::System::UInt32 ID; // 0x54
+		::System::UInt32 Purchase68; // 0x58
+		::System::UInt32 RefreshBeginWeek; // 0x5C
 		::System::UInt32 GroupID; // 0x60
 		::System::UInt32 NextID; // 0x64
-		::System::UInt32 Purchase68; // 0x68
+		::System::UInt32 ScheduleDataID; // 0x68
+		::System::UInt32 Purchase128; // 0x6C
 
 		::System::Void _ctor()
 		{

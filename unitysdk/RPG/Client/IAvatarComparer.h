@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAvatarComparer_TypeDefinitionIndex = 50990;
+	inline static constexpr unsigned int IAvatarComparer_TypeDefinitionIndex = 57873;
 
 	class IAvatarComparer
 	{

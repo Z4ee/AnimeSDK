@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTag_TypeDefinitionIndex = 16010;
+	inline static constexpr unsigned int EntityTag_TypeDefinitionIndex = 16539;
 
 	enum class EntityTag : ::System::Int32
 	{

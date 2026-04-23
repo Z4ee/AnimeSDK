@@ -8,12 +8,12 @@ namespace Spine { class Attachment; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Sprite; }
 
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_1_OFFSET UNITYSDK_OFFSET(0x183F7AD0)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_OFFSET UNITYSDK_OFFSET(0x183F77D0)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_1_OFFSET UNITYSDK_OFFSET(0x19E32730)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATTACHMENTCLONEEXTENSIONS_GETREMAPPEDCLONE_OFFSET UNITYSDK_OFFSET(0x19E32430)
 
 namespace Spine::Unity::AttachmentTools
 {
-	inline static constexpr unsigned int AttachmentCloneExtensions_TypeDefinitionIndex = 34850;
+	inline static constexpr unsigned int AttachmentCloneExtensions_TypeDefinitionIndex = 40669;
 
 	class AttachmentCloneExtensions : public ::System::Object
 	{

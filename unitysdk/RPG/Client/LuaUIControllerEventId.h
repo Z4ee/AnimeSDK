@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LuaUIControllerEventId_TypeDefinitionIndex = 48075;
+	inline static constexpr unsigned int LuaUIControllerEventId_TypeDefinitionIndex = 54820;
 
 	enum class LuaUIControllerEventId : ::System::Int32
 	{

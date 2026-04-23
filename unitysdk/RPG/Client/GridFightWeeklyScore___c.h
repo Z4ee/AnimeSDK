@@ -5,39 +5,39 @@
 namespace RPG::GameCore { class GridFightScoreRewardConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98E9700)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98E9740)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__GETALLREWARD_B__2_1_OFFSET UNITYSDK_OFFSET(0x98E9750)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__GETCANTAKEREWARDSCORERANKLIST_B__4_1_OFFSET UNITYSDK_OFFSET(0x98E9770)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__GETREWARDDISPLAYDATABYRANKS_B__16_1_OFFSET UNITYSDK_OFFSET(0x98E97B0)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C___GETMAXSCORE_B__13_0_OFFSET UNITYSDK_OFFSET(0x98E9790)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5D3510)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D3550)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__GETALLREWARD_B__2_1_OFFSET UNITYSDK_OFFSET(0xA5D3560)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__GETCANTAKEREWARDSCORERANKLIST_B__4_1_OFFSET UNITYSDK_OFFSET(0xA5D3580)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__GETREWARDDISPLAYDATABYRANKS_B__16_1_OFFSET UNITYSDK_OFFSET(0xA5D35C0)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C___GETMAXSCORE_B__13_0_OFFSET UNITYSDK_OFFSET(0xA5D35A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightWeeklyScore___c_TypeDefinitionIndex = 53194;
+	inline static constexpr unsigned int GridFightWeeklyScore___c_TypeDefinitionIndex = 60323;
 
 	class GridFightWeeklyScore___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>** StaticGet___9__16_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1E1B0);
-		}
-		static ::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1E1B8);
-		}
-		static ::RPG::Client::GridFightWeeklyScore___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightWeeklyScore___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1E1C0);
+			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1C560);
 		}
 		static ::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1E1C8);
+			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1C568);
+		}
+		static ::RPG::Client::GridFightWeeklyScore___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightWeeklyScore___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1C570);
 		}
 		static ::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1E1D0);
+			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1C578);
+		}
+		static ::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::GridFightScoreRewardConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightWeeklyScore___c_TypeDefinitionIndex)->GetStaticField(0x1C580);
 		}
 
 		static ::System::Void _cctor()

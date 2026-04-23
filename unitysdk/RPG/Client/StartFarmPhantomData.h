@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_STARTFARMPHANTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D7FE0)
+#define RPG_CLIENT_STARTFARMPHANTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB1C8CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StartFarmPhantomData_TypeDefinitionIndex = 49140;
+	inline static constexpr unsigned int StartFarmPhantomData_TypeDefinitionIndex = 55937;
 
 	class StartFarmPhantomData : public ::System::Object
 	{

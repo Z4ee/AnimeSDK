@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetMapAdjoinEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_6D5A5FFB2821C1F1_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1105B5D0)
-#define CLASS_2_6D5A5FFB2821C1F1__CTOR_OFFSET UNITYSDK_OFFSET(0x1105B5B0)
+#define CLASS_2_6D5A5FFB2821C1F1_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x118B4D80)
+#define CLASS_2_6D5A5FFB2821C1F1__CTOR_OFFSET UNITYSDK_OFFSET(0x118B4D60)
 
-inline static constexpr unsigned int Class_2_6D5A5FFB2821C1F1_TypeDefinitionIndex = 47774;
+inline static constexpr unsigned int Class_2_6D5A5FFB2821C1F1_TypeDefinitionIndex = 54513;
 
 class Class_2_6D5A5FFB2821C1F1 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapAdjoinEntity*>
 {

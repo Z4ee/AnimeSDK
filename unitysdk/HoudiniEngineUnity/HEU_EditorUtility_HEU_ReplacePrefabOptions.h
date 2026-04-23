@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_EditorUtility_HEU_ReplacePrefabOptions_TypeDefinitionIndex = 37804;
+	inline static constexpr unsigned int HEU_EditorUtility_HEU_ReplacePrefabOptions_TypeDefinitionIndex = 43681;
 
 	enum class HEU_EditorUtility_HEU_ReplacePrefabOptions : ::System::Int32
 	{

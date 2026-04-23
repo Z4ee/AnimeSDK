@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F5E1A0)
-#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5E3E0)
+#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18680480)
+#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186806C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvertisingBoardConfigRow_TypeDefinitionIndex = 11485;
+	inline static constexpr unsigned int AdvertisingBoardConfigRow_TypeDefinitionIndex = 11887;
 
 	class AdvertisingBoardConfigRow : public ::System::Object
 	{

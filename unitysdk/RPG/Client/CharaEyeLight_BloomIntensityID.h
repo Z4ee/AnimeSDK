@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharaEyeLight_BloomIntensityID_TypeDefinitionIndex = 57505;
+	inline static constexpr unsigned int CharaEyeLight_BloomIntensityID_TypeDefinitionIndex = 64768;
 
 	enum class CharaEyeLight_BloomIntensityID : ::System::Int32
 	{

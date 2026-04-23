@@ -7,13 +7,13 @@ namespace RPG::Client { class AssemNPC; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FEATUREDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x96AA180)
-#define RPG_CLIENT_FEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x96AA1C0)
-#define RPG_CLIENT_FEATUREDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x96AA1D0)
+#define RPG_CLIENT_FEATUREDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA369420)
+#define RPG_CLIENT_FEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA369460)
+#define RPG_CLIENT_FEATUREDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA369470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FeatureData_TypeDefinitionIndex = 48618;
+	inline static constexpr unsigned int FeatureData_TypeDefinitionIndex = 55367;
 
 	class FeatureData : public ::System::Object
 	{

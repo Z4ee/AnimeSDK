@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TOASTPILE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1788A400)
-#define RPG_GAMECORE_TOASTPILE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178A23D0)
-#define RPG_GAMECORE_TOASTPILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1788A3D0)
+#define RPG_GAMECORE_TOASTPILE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1909F5A0)
+#define RPG_GAMECORE_TOASTPILE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1909F520)
+#define RPG_GAMECORE_TOASTPILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1909F570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastPile_TypeDefinitionIndex = 22023;
+	inline static constexpr unsigned int ToastPile_TypeDefinitionIndex = 22739;
 
 	class ToastPile : public ::RPG::GameCore::TaskConfig
 	{

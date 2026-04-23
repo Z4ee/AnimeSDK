@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int OptimizeFlag_TypeDefinitionIndex = 8626;
+	inline static constexpr unsigned int OptimizeFlag_TypeDefinitionIndex = 6404;
 
 	enum class OptimizeFlag : ::System::Int32
 	{

@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_JIGSAWCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9972E90)
+#define RPG_CLIENT_JIGSAWCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA663310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int JigsawCommonConfig_TypeDefinitionIndex = 48644;
+	inline static constexpr unsigned int JigsawCommonConfig_TypeDefinitionIndex = 55393;
 
 	class JigsawCommonConfig : public ::UnityEngine::ScriptableObject
 	{

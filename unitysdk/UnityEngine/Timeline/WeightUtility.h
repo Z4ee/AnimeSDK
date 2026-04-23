@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define UNITYENGINE_TIMELINE_WEIGHTUTILITY_NORMALIZEMIXER_OFFSET UNITYSDK_OFFSET(0x1899CD40)
+#define UNITYENGINE_TIMELINE_WEIGHTUTILITY_NORMALIZEMIXER_OFFSET UNITYSDK_OFFSET(0x1A3D6950)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int WeightUtility_TypeDefinitionIndex = 29926;
+	inline static constexpr unsigned int WeightUtility_TypeDefinitionIndex = 35646;
 
 	class WeightUtility : public ::System::Object
 	{

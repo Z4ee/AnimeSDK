@@ -9,7 +9,7 @@ namespace UnityEngine::UIElements { class EventBase; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDebuggerLogIMGUICall_TypeDefinitionIndex = 5957;
+	inline static constexpr unsigned int EventDebuggerLogIMGUICall_TypeDefinitionIndex = 5969;
 
 	struct alignas(1) EventDebuggerLogIMGUICall
 	{

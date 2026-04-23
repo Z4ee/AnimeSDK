@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
 #include "unitysdk/RPGTools/Timeline/Story/BaseStoryMoveWalkData.h"
 
-#define RPGTOOLS_TIMELINE_STORY_NPCSTORYMOVEWALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABA1F50)
+#define RPGTOOLS_TIMELINE_STORY_NPCSTORYMOVEWALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB9174F0)
 
 namespace RPGTools::Timeline::Story
 {
-	inline static constexpr unsigned int NpcStoryMoveWalkData_TypeDefinitionIndex = 39485;
+	inline static constexpr unsigned int NpcStoryMoveWalkData_TypeDefinitionIndex = 45394;
 
 	class NpcStoryMoveWalkData : public ::RPGTools::Timeline::Story::BaseStoryMoveWalkData
 	{

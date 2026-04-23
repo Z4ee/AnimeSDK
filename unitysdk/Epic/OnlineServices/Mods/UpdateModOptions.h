@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Mods { class ModIdentifier; }
 
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86A4020)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_GET_MOD_OFFSET UNITYSDK_OFFSET(0x86A4040)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x86A4030)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_SET_MOD_OFFSET UNITYSDK_OFFSET(0x86A4050)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x86A4060)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8ED7890)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_GET_MOD_OFFSET UNITYSDK_OFFSET(0x8ED78B0)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8ED78A0)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS_SET_MOD_OFFSET UNITYSDK_OFFSET(0x8ED78C0)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED78D0)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int UpdateModOptions_TypeDefinitionIndex = 35965;
+	inline static constexpr unsigned int UpdateModOptions_TypeDefinitionIndex = 41791;
 
 	class UpdateModOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::Mods::ModIdentifier* _Mod_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::Mods::ModIdentifier* _Mod_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{

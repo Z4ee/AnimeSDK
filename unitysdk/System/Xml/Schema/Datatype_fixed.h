@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_FIXED_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18588090)
-#define SYSTEM_XML_SCHEMA_DATATYPE_FIXED_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18588750)
-#define SYSTEM_XML_SCHEMA_DATATYPE_FIXED__CTOR_OFFSET UNITYSDK_OFFSET(0x1857F6A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_FIXED_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x19FC2DD0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_FIXED_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x19FC3490)
+#define SYSTEM_XML_SCHEMA_DATATYPE_FIXED__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBA3E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_fixed_TypeDefinitionIndex = 2139;
+	inline static constexpr unsigned int Datatype_fixed_TypeDefinitionIndex = 2140;
 
 	class Datatype_fixed : public ::System::Xml::Schema::Datatype_decimal
 	{

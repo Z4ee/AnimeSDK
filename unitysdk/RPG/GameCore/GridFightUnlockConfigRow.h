@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1728A570)
-#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1728A730)
+#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189DEDC0)
+#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189DEF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightUnlockConfigRow_TypeDefinitionIndex = 12424;
+	inline static constexpr unsigned int GridFightUnlockConfigRow_TypeDefinitionIndex = 12857;
 
 	class GridFightUnlockConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 QuestID; // 0x10
-		::System::UInt32 UnlockID; // 0x14
+		::System::UInt32 UnlockID; // 0x10
+		::System::UInt32 QuestID; // 0x14
 		::RPG::Client::TextID UnlockDesc; // 0x18
 
 		::System::Void _ctor()

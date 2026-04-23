@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKRectAlignment_TypeDefinitionIndex = 6999;
+	inline static constexpr unsigned int SDKRectAlignment_TypeDefinitionIndex = 7045;
 
 	enum class SDKRectAlignment : ::System::Int32
 	{

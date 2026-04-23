@@ -12,13 +12,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDMODIFIER_METHOD_3_836CE249969DA2AD_OFFSET UNITYSDK_OFFSET(0x16F1F280)
-#define RPG_GAMECORE_ADDMODIFIER_METHOD_3_AF42F6D026FC8D71_OFFSET UNITYSDK_OFFSET(0x16F1F450)
-#define RPG_GAMECORE_ADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1F380)
+#define RPG_GAMECORE_ADDMODIFIER_METHOD_3_836CE249969DA2AD_OFFSET UNITYSDK_OFFSET(0x18641450)
+#define RPG_GAMECORE_ADDMODIFIER_METHOD_3_AF42F6D026FC8D71_OFFSET UNITYSDK_OFFSET(0x18641620)
+#define RPG_GAMECORE_ADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x18641550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddModifier_TypeDefinitionIndex = 21276;
+	inline static constexpr unsigned int AddModifier_TypeDefinitionIndex = 21993;
 
 	class AddModifier : public ::RPG::GameCore::TaskConfig
 	{

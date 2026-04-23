@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178B15F0)
-#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178B1710)
+#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190AFC60)
+#define RPG_GAMECORE_TRAINPASSENGERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190AFD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPassengerConfigRow_TypeDefinitionIndex = 14096;
+	inline static constexpr unsigned int TrainPassengerConfigRow_TypeDefinitionIndex = 14565;
 
 	class TrainPassengerConfigRow : public ::System::Object
 	{

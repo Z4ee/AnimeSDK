@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Lifetime
 {
-	inline static constexpr unsigned int LeaseState_TypeDefinitionIndex = 1234;
+	inline static constexpr unsigned int LeaseState_TypeDefinitionIndex = 1236;
 
 	enum class LeaseState : ::System::Int32
 	{

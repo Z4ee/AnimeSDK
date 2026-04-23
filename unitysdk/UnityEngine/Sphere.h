@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 3907;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 3909;
 
 	struct alignas(4) Sphere
 	{

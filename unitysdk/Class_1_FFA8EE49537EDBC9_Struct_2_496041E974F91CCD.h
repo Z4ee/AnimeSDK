@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class LevelBattleAreaInfo; }
 
-inline static constexpr unsigned int Class_1_FFA8EE49537EDBC9_Struct_2_496041E974F91CCD_TypeDefinitionIndex = 50517;
+inline static constexpr unsigned int Class_1_FFA8EE49537EDBC9_Struct_2_496041E974F91CCD_TypeDefinitionIndex = 57380;
 
 struct alignas(8) Class_1_FFA8EE49537EDBC9_Struct_2_496041E974F91CCD
 {

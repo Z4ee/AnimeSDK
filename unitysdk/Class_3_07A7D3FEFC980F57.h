@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetActivityTelevisionBuffInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_07A7D3FEFC980F57_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8862230)
-#define CLASS_3_07A7D3FEFC980F57__CTOR_OFFSET UNITYSDK_OFFSET(0x8862200)
+#define CLASS_3_07A7D3FEFC980F57_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12464470)
+#define CLASS_3_07A7D3FEFC980F57__CTOR_OFFSET UNITYSDK_OFFSET(0x12464440)
 
-inline static constexpr unsigned int Class_3_07A7D3FEFC980F57_TypeDefinitionIndex = 44308;
+inline static constexpr unsigned int Class_3_07A7D3FEFC980F57_TypeDefinitionIndex = 51024;
 
 class Class_3_07A7D3FEFC980F57 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetActivityTelevisionBuffInfo*>
 {

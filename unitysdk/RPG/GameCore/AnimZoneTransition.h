@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimZoneTransition_TypeDefinitionIndex = 14904;
+	inline static constexpr unsigned int AnimZoneTransition_TypeDefinitionIndex = 15411;
 
 	enum class AnimZoneTransition : ::System::Int32
 	{

@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170A95B0)
-#define RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170A97F0)
+#define RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18808B60)
+#define RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18808DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 11903;
+	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 12334;
 
 	class ChimeraGalleryTalkRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID NumberedTitle; // 0x10
-		::System::Single Sort; // 0x20
-		::RPG::GameCore::ChimeraTalkConditionType ConditionType; // 0x24
-		::RPG::Client::TextID Title; // 0x28
+		::System::Single Sort; // 0x10
+		::RPG::GameCore::ChimeraTalkConditionType ConditionType; // 0x14
+		::RPG::Client::TextID Title; // 0x18
+		::RPG::Client::TextID NumberedTitle; // 0x28
 
 		::System::Void _ctor()
 		{

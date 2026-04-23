@@ -12,39 +12,39 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_21378A7EB1BCB13B_OFFSET UNITYSDK_OFFSET(0x9D1F680)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_B15E763C95CF0A5B_OFFSET UNITYSDK_OFFSET(0x9D1F530)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_BC7EA5929ED4589D_OFFSET UNITYSDK_OFFSET(0x9D1F790)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x9D1FAF0)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_F15BB39D73E654DD_OFFSET UNITYSDK_OFFSET(0x9D1F800)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9D20230)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9D1E980)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x9D1F4A0)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D20430)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D20420)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_21378A7EB1BCB13B_OFFSET UNITYSDK_OFFSET(0xA9E2A30)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_B15E763C95CF0A5B_OFFSET UNITYSDK_OFFSET(0xA9E28E0)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_BC7EA5929ED4589D_OFFSET UNITYSDK_OFFSET(0xA9E2B40)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_DF2A78D8DB25ED05_OFFSET UNITYSDK_OFFSET(0xA9E2EA0)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_F15BB39D73E654DD_OFFSET UNITYSDK_OFFSET(0xA9E2BB0)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA9E3570)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA9E1D30)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9E2850)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9E3770)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E3760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNPCDirectionDissolve_TypeDefinitionIndex = 57416;
+	inline static constexpr unsigned int MonoNPCDirectionDissolve_TypeDefinitionIndex = 64677;
 
 	class MonoNPCDirectionDissolve : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_5_12()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x113A0);
-		}
-		static ::System::Int32* StaticGet_Field_5_10()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x113A4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE750);
 		}
 		static ::System::Int32* StaticGet_Field_5_11()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x113A8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE754);
+		}
+		static ::System::Int32* StaticGet_Field_5_10()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE758);
 		}
 		static ::System::Int32* StaticGet_Field_5_9()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x113AC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE75C);
 		}
 		::System::Single Field_5_0; // 0x18
 		::System::Boolean EnableDissolve; // 0x1C
@@ -99,9 +99,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_F15BB39D73E654DD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_DE52BD42C4B0B772()
+		::System::Void Method_5_DF2A78D8DB25ED05()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_DE52BD42C4B0B772_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_DF2A78D8DB25ED05_OFFSET))(this);
 		}
 
 		::System::Void Update()

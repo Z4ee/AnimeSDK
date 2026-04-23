@@ -4,19 +4,19 @@
 
 namespace System::Threading { class ThreadAbortException; }
 
-#define SYSTEM_THREADING_SEMAPHORESLIM_TASKNODE_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1623BD30)
-#define SYSTEM_THREADING_SEMAPHORESLIM_TASKNODE_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1623BD40)
-#define SYSTEM_THREADING_SEMAPHORESLIM_TASKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1623AB80)
+#define SYSTEM_THREADING_SEMAPHORESLIM_TASKNODE_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x17868590)
+#define SYSTEM_THREADING_SEMAPHORESLIM_TASKNODE_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x178685A0)
+#define SYSTEM_THREADING_SEMAPHORESLIM_TASKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17867460)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SemaphoreSlim_TaskNode_TypeDefinitionIndex = 806;
+	inline static constexpr unsigned int SemaphoreSlim_TaskNode_TypeDefinitionIndex = 808;
 
 	class SemaphoreSlim_TaskNode : public ::System::Threading::Tasks::Task_1<::System::Boolean>
 	{
 	public:
-		::System::Threading::SemaphoreSlim_TaskNode* Prev; // 0x50
-		::System::Threading::SemaphoreSlim_TaskNode* Next; // 0x58
+		::System::Threading::SemaphoreSlim_TaskNode* Next; // 0x50
+		::System::Threading::SemaphoreSlim_TaskNode* Prev; // 0x58
 
 		::System::Void _ctor()
 		{

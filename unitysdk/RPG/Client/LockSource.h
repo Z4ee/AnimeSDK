@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockSource_TypeDefinitionIndex = 9980;
+	inline static constexpr unsigned int LockSource_TypeDefinitionIndex = 10154;
 
 	enum class LockSource : ::System::Int32
 	{
@@ -42,6 +42,8 @@ namespace RPG::Client
 		MascotCapture = 32,
 		EraFloorLightFollowInteract = 33,
 		LevelPerformance = 34,
-		_MaxCount = 35,
+		IdleLiveWaitLiveBegin = 35,
+		IdleLiveHoldForUIWaitPacket = 36,
+		_MaxCount = 37,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightHandBookEquipItemType_TypeDefinitionIndex = 52688;
+	inline static constexpr unsigned int GridFightHandBookEquipItemType_TypeDefinitionIndex = 59744;
 
 	enum class GridFightHandBookEquipItemType : ::System::Int32
 	{

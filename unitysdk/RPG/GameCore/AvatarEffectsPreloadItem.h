@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM_METHOD_2_0E960A2EE066170F_OFFSET UNITYSDK_OFFSET(0x16F9BF80)
-#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16F9C0C0)
+#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM_METHOD_2_0E960A2EE066170F_OFFSET UNITYSDK_OFFSET(0x186BF100)
+#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x186BF240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEffectsPreloadItem_TypeDefinitionIndex = 14973;
+	inline static constexpr unsigned int AvatarEffectsPreloadItem_TypeDefinitionIndex = 15480;
 
 	class AvatarEffectsPreloadItem : public ::RPG::GameCore::JsonConfig
 	{

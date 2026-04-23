@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhaseStep_TypeDefinitionIndex = 48707;
+	inline static constexpr unsigned int AdventurePhaseStep_TypeDefinitionIndex = 55456;
 
 	enum class AdventurePhaseStep : ::System::Int32
 	{

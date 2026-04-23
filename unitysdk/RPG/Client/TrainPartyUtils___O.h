@@ -7,14 +7,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyUtils___O_TypeDefinitionIndex = 55650;
+	inline static constexpr unsigned int TrainPartyUtils___O_TypeDefinitionIndex = 62852;
 
 	class TrainPartyUtils___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet__0____OnEntityLoadFinish()
 		{
-			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyUtils___O_TypeDefinitionIndex)->GetStaticField(0x31630);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyUtils___O_TypeDefinitionIndex)->GetStaticField(0x23970);
 		}
 	};
 }

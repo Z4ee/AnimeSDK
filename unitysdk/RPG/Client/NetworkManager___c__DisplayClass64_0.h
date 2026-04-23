@@ -5,18 +5,18 @@
 namespace RPG::Client { class NetworkManager; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E85E20)
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS64_0__GETSERVERLATENCY_B__0_OFFSET UNITYSDK_OFFSET(0x9E85E30)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABD36B0)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS64_0__GETSERVERLATENCY_B__0_OFFSET UNITYSDK_OFFSET(0xABD36C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass64_0_TypeDefinitionIndex = 56699;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass64_0_TypeDefinitionIndex = 63944;
 
 	class NetworkManager___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::NetworkManager* __4__this; // 0x10
-		::System::Action* finishCallback; // 0x18
+		::System::Action* finishCallback; // 0x10
+		::RPG::Client::NetworkManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

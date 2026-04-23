@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TrainParty/TrainPartyBuildDIYItem.h"
+#include "unitysdk/RPG/GameCore/ItemRarity.h"
+
+namespace RPG::Client { template <typename T> class PrefHashSet_1; }
+namespace RPG::GameCore { class PlayerRoomDynamicConfigRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0xB33A550)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ACQUIREDTIME_OFFSET UNITYSDK_OFFSET(0xB33AA00)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ISACTIVITY_OFFSET UNITYSDK_OFFSET(0xB33A8E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xB33A950)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ITEMRARITY_OFFSET UNITYSDK_OFFSET(0xB33A970)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xB33A990)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_REDDOTID_OFFSET UNITYSDK_OFFSET(0xB33A8C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_REDDOTKEY_OFFSET UNITYSDK_OFFSET(0xB33A8D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET__REDDOTIDS_OFFSET UNITYSDK_OFFSET(0xB33A840)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0xB33A460)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_INITDATA_OFFSET UNITYSDK_OFFSET(0xB33A210)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SET_ACQUIREDTIME_OFFSET UNITYSDK_OFFSET(0xB33AA10)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0xB33A960)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SET_ITEMRARITY_OFFSET UNITYSDK_OFFSET(0xB33A980)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SYNC_OFFSET UNITYSDK_OFFSET(0xB33A4C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB33AA20)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM__INITTAGFLAGS_OFFSET UNITYSDK_OFFSET(0xB33A5D0)
+
+namespace RPG::Client::TrainParty
+{
+	inline static constexpr unsigned int TrainPartyBuildDIYNormalItem_TypeDefinitionIndex = 68577;
+
+	class TrainPartyBuildDIYNormalItem : public ::RPG::Client::TrainParty::TrainPartyBuildDIYItem
+	{
+	public:
+		::RPG::GameCore::ItemRarity _ItemRarity_k__BackingField; // 0x68
+		::System::UInt32 _ItemID_k__BackingField; // 0x6C
+		::System::Int64 _AcquiredTime_k__BackingField; // 0x70
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM__CTOR_OFFSET))(this);
+		}
+
+		::System::Void InitData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_INITDATA_OFFSET))(this);
+		}
+
+		::System::Void Sync(::System::UInt32 dynamicID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SYNC_OFFSET))(this, dynamicID);
+		}
+
+		::System::Boolean Equals(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_EQUALS_OFFSET))(this, other);
+		}
+
+		::System::Void _InitTagFlags()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM__INITTAGFLAGS_OFFSET))(this);
+		}
+
+		::RPG::Client::PrefHashSet_1<::System::UInt32>* get__ReddotIDs()
+		{
+			return ((::RPG::Client::PrefHashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET__REDDOTIDS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ReddotID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_REDDOTID_OFFSET))(this);
+		}
+
+		::System::String* get_ReddotKey()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_REDDOTKEY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsActivity()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ISACTIVITY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ItemID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ITEMID_OFFSET))(this);
+		}
+
+		::System::Void set_ItemID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SET_ITEMID_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::ItemRarity get_ItemRarity()
+		{
+			return ((::RPG::GameCore::ItemRarity(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ITEMRARITY_OFFSET))(this);
+		}
+
+		::System::Void set_ItemRarity(::RPG::GameCore::ItemRarity value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SET_ITEMRARITY_OFFSET))(this, value);
+		}
+
+		::System::String* get_PrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_PREFABPATH_OFFSET))(this);
+		}
+
+		::System::Int64 get_AcquiredTime()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET_ACQUIREDTIME_OFFSET))(this);
+		}
+
+		::System::Void set_AcquiredTime(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_SET_ACQUIREDTIME_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::PlayerRoomDynamicConfigRow* get__Row()
+		{
+			return ((::RPG::GameCore::PlayerRoomDynamicConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDIYNORMALITEM_GET__ROW_OFFSET))(this);
+		}
+	};
+}

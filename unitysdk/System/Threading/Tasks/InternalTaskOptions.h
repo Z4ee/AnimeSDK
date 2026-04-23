@@ -3,7 +3,7 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int InternalTaskOptions_TypeDefinitionIndex = 903;
+	inline static constexpr unsigned int InternalTaskOptions_TypeDefinitionIndex = 905;
 
 	enum class InternalTaskOptions : ::System::Int32
 	{

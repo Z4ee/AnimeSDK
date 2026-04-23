@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LocationData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FORMATIONDATA_METHOD_2_E359314CE645F3C6_OFFSET UNITYSDK_OFFSET(0x17217DA0)
-#define RPG_GAMECORE_FORMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172180A0)
+#define RPG_GAMECORE_FORMATIONDATA_METHOD_2_E359314CE645F3C6_OFFSET UNITYSDK_OFFSET(0x1892A3D0)
+#define RPG_GAMECORE_FORMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1892A6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 15700;
+	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 16226;
 
 	class FormationData : public ::RPG::GameCore::JsonConfig
 	{

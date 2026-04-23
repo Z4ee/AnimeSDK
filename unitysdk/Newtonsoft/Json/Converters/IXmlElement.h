@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int IXmlElement_TypeDefinitionIndex = 8435;
+	inline static constexpr unsigned int IXmlElement_TypeDefinitionIndex = 8581;
 
 	class IXmlElement
 	{

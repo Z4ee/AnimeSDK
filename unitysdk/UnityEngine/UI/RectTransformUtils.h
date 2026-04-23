@@ -6,22 +6,22 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETANCHOR_OFFSET UNITYSDK_OFFSET(0x18B4FC50)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETPIVOT_OFFSET UNITYSDK_OFFSET(0x18B4FAA0)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B50220)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETANCHOR_G__SETANCHORIMPL_0_0_OFFSET UNITYSDK_OFFSET(0x18B4FCA0)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETPIVOT_G__GETRECTREFERENCECORNER_1_0_OFFSET UNITYSDK_OFFSET(0x18B50080)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETANCHOR_OFFSET UNITYSDK_OFFSET(0x1A58B4E0)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETPIVOT_OFFSET UNITYSDK_OFFSET(0x1A58B330)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A58BAB0)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETANCHOR_G__SETANCHORIMPL_0_0_OFFSET UNITYSDK_OFFSET(0x1A58B530)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETPIVOT_G__GETRECTREFERENCECORNER_1_0_OFFSET UNITYSDK_OFFSET(0x1A58B910)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RectTransformUtils_TypeDefinitionIndex = 5677;
+	inline static constexpr unsigned int RectTransformUtils_TypeDefinitionIndex = 5689;
 
 	class RectTransformUtils : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_Corners()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(RectTransformUtils_TypeDefinitionIndex)->GetStaticField(0x5D90);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(RectTransformUtils_TypeDefinitionIndex)->GetStaticField(0x1A900);
 		}
 
 		static ::System::Void _cctor()

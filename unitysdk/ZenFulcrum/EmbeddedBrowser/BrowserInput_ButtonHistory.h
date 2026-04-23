@@ -6,19 +6,19 @@
 
 namespace ZenFulcrum::EmbeddedBrowser { class IBrowserUI; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_BUTTONHISTORY_BUTTONPRESS_OFFSET UNITYSDK_OFFSET(0x18C6B2C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_BUTTONHISTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6A560)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_BUTTONHISTORY_BUTTONPRESS_OFFSET UNITYSDK_OFFSET(0x1A6A6720)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUT_BUTTONHISTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A59C0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserInput_ButtonHistory_TypeDefinitionIndex = 30412;
+	inline static constexpr unsigned int BrowserInput_ButtonHistory_TypeDefinitionIndex = 36132;
 
 	class BrowserInput_ButtonHistory : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 lastPosition; // 0x10
-		::System::Single lastPressTime; // 0x1C
-		::System::Int32 repeatCount; // 0x20
+		::System::Int32 repeatCount; // 0x10
+		::UnityEngine::Vector3 lastPosition; // 0x14
+		::System::Single lastPressTime; // 0x20
 
 		::System::Void _ctor()
 		{

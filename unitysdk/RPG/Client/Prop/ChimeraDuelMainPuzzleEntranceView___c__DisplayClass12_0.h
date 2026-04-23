@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class ChimeraDuelBattlePrefabConfig_Master; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEENTRANCEVIEW___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA050CD0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEENTRANCEVIEW___C__DISPLAYCLASS12_0___LOADMASTER_B__0_OFFSET UNITYSDK_OFFSET(0xA050ED0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEENTRANCEVIEW___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADD0450)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEENTRANCEVIEW___C__DISPLAYCLASS12_0___LOADMASTER_B__0_OFFSET UNITYSDK_OFFSET(0xADD0670)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleEntranceView___c__DisplayClass12_0_TypeDefinitionIndex = 63827;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleEntranceView___c__DisplayClass12_0_TypeDefinitionIndex = 71874;
 
 	class ChimeraDuelMainPuzzleEntranceView___c__DisplayClass12_0 : public ::System::Object
 	{

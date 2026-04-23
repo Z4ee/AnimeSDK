@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGUnit_StartPosTypeLR_TypeDefinitionIndex = 38375;
+inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGUnit_StartPosTypeLR_TypeDefinitionIndex = 44259;
 
 enum class MonoProgramMatrixTransferAnim_PCGUnit_StartPosTypeLR : ::System::Int32
 {

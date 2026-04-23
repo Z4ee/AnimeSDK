@@ -5,7 +5,7 @@
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_2_BE064A01F07E6ACC_Struct_2_B7D4427E9D58580D_TypeDefinitionIndex = 49081;
+inline static constexpr unsigned int Class_2_BE064A01F07E6ACC_Struct_2_B7D4427E9D58580D_TypeDefinitionIndex = 55876;
 
 struct alignas(8) Class_2_BE064A01F07E6ACC_Struct_2_B7D4427E9D58580D
 {

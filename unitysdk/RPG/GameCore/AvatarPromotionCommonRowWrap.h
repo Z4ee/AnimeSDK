@@ -6,12 +6,12 @@
 namespace RPG::GameCore { class IAvatarPromotionCommonRowWrap; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0x16FA2A50)
-#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0x16FA2810)
+#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0x186C6360)
+#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0x186C6120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPromotionCommonRowWrap_TypeDefinitionIndex = 22652;
+	inline static constexpr unsigned int AvatarPromotionCommonRowWrap_TypeDefinitionIndex = 23625;
 
 	class AvatarPromotionCommonRowWrap : public ::System::Object
 	{

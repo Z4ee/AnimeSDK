@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_MONITORINGDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x186A1DE0)
-#define SYSTEM_DIAGNOSTICS_MONITORINGDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x186A1D80)
+#define SYSTEM_DIAGNOSTICS_MONITORINGDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A0DC4F0)
+#define SYSTEM_DIAGNOSTICS_MONITORINGDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DC490)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int MonitoringDescriptionAttribute_TypeDefinitionIndex = 2544;
+	inline static constexpr unsigned int MonitoringDescriptionAttribute_TypeDefinitionIndex = 2545;
 
 	class MonitoringDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute
 	{

@@ -5,12 +5,12 @@
 namespace RPG::Client::ChenLingBattle { class PrepareEditPhase; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS12_0__ASKWAITINGPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x933C320)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x933C090)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS12_0__ASKWAITINGPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x9FA9E80)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA9BF0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass12_0_TypeDefinitionIndex = 62068;
+	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass12_0_TypeDefinitionIndex = 70067;
 
 	class PrepareEditPhase___c__DisplayClass12_0 : public ::System::Object
 	{

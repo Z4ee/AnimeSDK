@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NearType_TypeDefinitionIndex = 21866;
+	inline static constexpr unsigned int NearType_TypeDefinitionIndex = 22604;
 
 	enum class NearType : ::System::Int32
 	{

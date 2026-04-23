@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlockFlag_TypeDefinitionIndex = 32054;
+	inline static constexpr unsigned int BlockFlag_TypeDefinitionIndex = 37774;
 
 	enum class BlockFlag : ::System::UInt16
 	{

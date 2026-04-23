@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17498040)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17497E90)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17497B60)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17497E30)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x174981D0)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17497BE0)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17498210)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x174983F0)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x174985E0)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174988F0)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17498350)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x174982B0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18BE2600)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18BE2450)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18BE2120)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18BE23F0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18BE2790)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18BE21A0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18BE27D0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BE29B0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18BE2BA0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BE2EB0)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18BE2910)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18BE2870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex = 13118;
+	inline static constexpr unsigned int PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex = 13580;
 
 	class PerformanceLiveStreamEmojiExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0x2FA70);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0x2FA78);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0x42540);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0x2FA80);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0x42548);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0xF620);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PerformanceLiveStreamEmojiRow*>**)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0x42550);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0xF621);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0xEE10);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PerformanceLiveStreamEmojiExcelTable_TypeDefinitionIndex)->GetStaticField(0xEE11);
 		}
 
 		static ::System::Void _cctor()

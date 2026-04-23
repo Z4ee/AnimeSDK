@@ -3,7 +3,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int MemThreshold_TypeDefinitionIndex = 35152;
+	inline static constexpr unsigned int MemThreshold_TypeDefinitionIndex = 40980;
 
 	enum class MemThreshold : ::System::Int32
 	{

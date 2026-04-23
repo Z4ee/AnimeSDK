@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BattlePerformCaptureActor; }
 namespace RPG::GameCore { class BattlePerformCreateActor; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMINIT_METHOD_3_76D3A0B465DFA0C6_OFFSET UNITYSDK_OFFSET(0x16FDDFE0)
-#define RPG_GAMECORE_BATTLEPERFORMINIT_METHOD_3_CCFBB557C76741E7_OFFSET UNITYSDK_OFFSET(0x16FDE060)
-#define RPG_GAMECORE_BATTLEPERFORMINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDE030)
+#define RPG_GAMECORE_BATTLEPERFORMINIT_METHOD_3_76D3A0B465DFA0C6_OFFSET UNITYSDK_OFFSET(0x18701A00)
+#define RPG_GAMECORE_BATTLEPERFORMINIT_METHOD_3_CCFBB557C76741E7_OFFSET UNITYSDK_OFFSET(0x18701A80)
+#define RPG_GAMECORE_BATTLEPERFORMINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18701A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformInit_TypeDefinitionIndex = 21612;
+	inline static constexpr unsigned int BattlePerformInit_TypeDefinitionIndex = 22350;
 
 	class BattlePerformInit : public ::RPG::GameCore::TaskConfig
 	{

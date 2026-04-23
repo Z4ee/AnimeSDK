@@ -17,43 +17,43 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CREATEJSONFIELDMAP_OFFSET UNITYSDK_OFFSET(0x15DB7C20)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15DB0200)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x15DB80B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x15DB8060)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_FIELDS_OFFSET UNITYSDK_OFFSET(0x15DB8080)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWELLKNOWNTYPE_OFFSET UNITYSDK_OFFSET(0x15D97F80)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWRAPPERTYPE_OFFSET UNITYSDK_OFFSET(0x15D9B280)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15DABE70)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x15DB8090)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ONEOFS_OFFSET UNITYSDK_OFFSET(0x15DB80A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x15DB8070)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x15DB8050)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DB8490)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DB0F30)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CREATEJSONFIELDMAP_OFFSET UNITYSDK_OFFSET(0x173B53D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x173AD9B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x173B5860)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x173B5810)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_FIELDS_OFFSET UNITYSDK_OFFSET(0x173B5830)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWELLKNOWNTYPE_OFFSET UNITYSDK_OFFSET(0x17395710)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWRAPPERTYPE_OFFSET UNITYSDK_OFFSET(0x17398A10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x173A95F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x173B5840)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ONEOFS_OFFSET UNITYSDK_OFFSET(0x173B5850)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x173B5820)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x173B5800)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x173B5C40)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x173AE6E0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor_TypeDefinitionIndex = 28125;
+	inline static constexpr unsigned int MessageDescriptor_TypeDefinitionIndex = 33749;
 
 	class MessageDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_WellKnownTypeNames()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor_TypeDefinitionIndex)->GetStaticField(0x22240);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor_TypeDefinitionIndex)->GetStaticField(0x69220);
 		}
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x28
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor*>* _Oneofs_k__BackingField; // 0x30
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsInNumberOrder; // 0x28
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor_FieldCollection* _Fields_k__BackingField; // 0x30
 		::System::Type* _ClrType_k__BackingField; // 0x38
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* _ContainingType_k__BackingField; // 0x40
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsInDeclarationOrder; // 0x48
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsInNumberOrder; // 0x50
-		::MiHoYo::SDK::Protobuf::MessageParser* _Parser_k__BackingField; // 0x58
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* jsonFieldMap; // 0x60
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor_FieldCollection* _Fields_k__BackingField; // 0x68
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*>* _NestedTypes_k__BackingField; // 0x70
-		::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto* _Proto_k__BackingField; // 0x78
+		::MiHoYo::SDK::Protobuf::MessageParser* _Parser_k__BackingField; // 0x40
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* _ContainingType_k__BackingField; // 0x48
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor*>* _Oneofs_k__BackingField; // 0x50
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsInDeclarationOrder; // 0x58
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x60
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* jsonFieldMap; // 0x68
+		::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto* _Proto_k__BackingField; // 0x70
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*>* _NestedTypes_k__BackingField; // 0x78
 
 		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto* proto, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* parent, ::System::Int32 typeIndex, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo)
 		{

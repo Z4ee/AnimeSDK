@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int DefaultFormat_TypeDefinitionIndex = 4737;
+	inline static constexpr unsigned int DefaultFormat_TypeDefinitionIndex = 4745;
 
 	enum class DefaultFormat : ::System::Int32
 	{

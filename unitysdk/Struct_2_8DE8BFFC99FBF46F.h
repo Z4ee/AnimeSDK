@@ -10,7 +10,7 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_8DE8BFFC99FBF46F_TypeDefinitionIndex = 32285;
+inline static constexpr unsigned int Struct_2_8DE8BFFC99FBF46F_TypeDefinitionIndex = 38005;
 
 struct alignas(8) Struct_2_8DE8BFFC99FBF46F
 {

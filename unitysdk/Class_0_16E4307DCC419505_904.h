@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class GameObject; }
-namespace UnityEngine::EventSystems { class PointerEventData; }
+namespace RPG::Client { class CameraDataAndFlags; }
+namespace RPG::Client { class CameraModuleConfigCollection; }
+namespace RPG::Client { class PipelineCameraEngine; }
+namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_904_TypeDefinitionIndex = 60032;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_904_TypeDefinitionIndex = 64117;
 
 class Class_0_16E4307DCC419505_904
 {

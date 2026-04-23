@@ -8,30 +8,30 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINISHWAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D8F70)
-#define RPG_GAMECORE_FINISHWAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171D9FB0)
+#define RPG_GAMECORE_FINISHWAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188E6760)
+#define RPG_GAMECORE_FINISHWAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188E77C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishWayRow_TypeDefinitionIndex = 13303;
+	inline static constexpr unsigned int FinishWayRow_TypeDefinitionIndex = 13778;
 
 	class FinishWayRow : public ::System::Object
 	{
 	public:
-		::System::String* ParamStr1; // 0x10
-		::Il2CppArray<::System::UInt32>* ParamIntList; // 0x18
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ParamItemList; // 0x20
-		::RPG::GameCore::QuestParaType ParamType; // 0x28
-		::System::UInt32 MazeFloorID; // 0x2C
-		::System::UInt32 ParamInt1; // 0x30
-		::System::Boolean IsBackTrack; // 0x34
-		::System::UInt32 MazePlaneID; // 0x38
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ParamItemList; // 0x10
+		::System::String* ParamStr1; // 0x18
+		::Il2CppArray<::System::UInt32>* ParamIntList; // 0x20
+		::System::UInt32 ParamInt2; // 0x28
+		::System::Boolean IsBackTrack; // 0x2C
+		::RPG::GameCore::QuestFinishType FinishType; // 0x30
+		::System::UInt32 ParamInt1; // 0x34
+		::System::UInt32 ID; // 0x38
 		::System::UInt32 Progress; // 0x3C
-		::System::UInt32 ID; // 0x40
-		::RPG::GameCore::QuestFinishType FinishType; // 0x44
-		::System::UInt32 ParamInt2; // 0x48
-		::System::UInt32 MazeDimensionID; // 0x4C
-		::System::UInt32 ParamInt3; // 0x50
+		::System::UInt32 MazePlaneID; // 0x40
+		::System::UInt32 MazeDimensionID; // 0x44
+		::RPG::GameCore::QuestParaType ParamType; // 0x48
+		::System::UInt32 ParamInt3; // 0x4C
+		::System::UInt32 MazeFloorID; // 0x50
 
 		::System::Void _ctor()
 		{

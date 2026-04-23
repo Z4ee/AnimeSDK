@@ -3,7 +3,7 @@
 
 namespace RPG::Client::AssetSystem::Test
 {
-	inline static constexpr unsigned int AsyncStatus_TypeDefinitionIndex = 64619;
+	inline static constexpr unsigned int AsyncStatus_TypeDefinitionIndex = 72666;
 
 	enum class AsyncStatus : ::System::Int32
 	{

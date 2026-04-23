@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define MESSAGEPACK_MONOPROTECTIONDISPOSAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x20C8C30)
-#define MESSAGEPACK_MONOPROTECTIONDISPOSAL__CTOR_OFFSET UNITYSDK_OFFSET(0x20C8BF0)
+#define MESSAGEPACK_MONOPROTECTIONDISPOSAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x229A880)
+#define MESSAGEPACK_MONOPROTECTIONDISPOSAL__CTOR_OFFSET UNITYSDK_OFFSET(0x229A840)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MonoProtectionDisposal_TypeDefinitionIndex = 9088;
+	inline static constexpr unsigned int MonoProtectionDisposal_TypeDefinitionIndex = 9285;
 
 	struct alignas(8) MonoProtectionDisposal
 	{

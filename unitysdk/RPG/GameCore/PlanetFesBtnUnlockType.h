@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBtnUnlockType_TypeDefinitionIndex = 11202;
+	inline static constexpr unsigned int PlanetFesBtnUnlockType_TypeDefinitionIndex = 11605;
 
 	enum class PlanetFesBtnUnlockType : ::System::Int32
 	{

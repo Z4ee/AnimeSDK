@@ -8,7 +8,7 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTrait___c__19_1_TypeDefinitionIndex = 53112;
+	inline static constexpr unsigned int GridFightTrait___c__19_1_TypeDefinitionIndex = 60233;
 
 	template <typename T>
 	class GridFightTrait___c__19_1 : public ::System::Object

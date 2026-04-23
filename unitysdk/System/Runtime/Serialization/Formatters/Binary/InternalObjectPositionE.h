@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int InternalObjectPositionE_TypeDefinitionIndex = 1162;
+	inline static constexpr unsigned int InternalObjectPositionE_TypeDefinitionIndex = 1164;
 
 	enum class InternalObjectPositionE : ::System::Int32
 	{

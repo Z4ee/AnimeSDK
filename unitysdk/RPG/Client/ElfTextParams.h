@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFTEXTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x95E10F0)
+#define RPG_CLIENT_ELFTEXTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xA267400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfTextParams_TypeDefinitionIndex = 51798;
+	inline static constexpr unsigned int ElfTextParams_TypeDefinitionIndex = 58746;
 
 	class ElfTextParams : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CINEMACHINE_CINEMACHINEINPUTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x119BF700)
+#define CINEMACHINE_CINEMACHINEINPUTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B8D920)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineInputProvider_TypeDefinitionIndex = 30898;
+	inline static constexpr unsigned int CinemachineInputProvider_TypeDefinitionIndex = 36618;
 
 	class CinemachineInputProvider : public ::UnityEngine::MonoBehaviour
 	{

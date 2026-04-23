@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_351;
+class Class_0_16E4307DCC419505_358;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
 namespace RPG::AvatarSystem::Property
 {
-	inline static constexpr unsigned int IPropertyModifierProvider_1_TypeDefinitionIndex = 42029;
+	inline static constexpr unsigned int IPropertyModifierProvider_1_TypeDefinitionIndex = 48002;
 
 	template <typename TValue>
 	class IPropertyModifierProvider_1

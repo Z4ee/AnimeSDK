@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_C411A3DD6A930CFA.h"
+#include "unitysdk/RPG/GameCore/IVec2.h"
+#include "unitysdk/RPG/GameCore/RtModifierBehaviorLifeBinding.h"
+
+class Class_0_16E4307DCC419505_405;
+class Class_1_EF79F96DD047B849;
+class Class_2_BB6171553AD4F0C6;
+namespace RPG::GameCore { class GameEntityList; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_8506D84082786140_METHOD_2_06CBBB3CC85FFF5B_OFFSET UNITYSDK_OFFSET(0x8F54550)
+#define CLASS_2_8506D84082786140_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x8F54A70)
+#define CLASS_2_8506D84082786140_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8F54A10)
+#define CLASS_2_8506D84082786140_METHOD_2_58F7B5613AFBA910_OFFSET UNITYSDK_OFFSET(0x8F548A0)
+#define CLASS_2_8506D84082786140_METHOD_2_6641B6F19C4E469B_OFFSET UNITYSDK_OFFSET(0x8F54720)
+#define CLASS_2_8506D84082786140_METHOD_2_9CBE4EB1A479057A_OFFSET UNITYSDK_OFFSET(0x8F54640)
+#define CLASS_2_8506D84082786140_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x8F54560)
+#define CLASS_2_8506D84082786140_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8F545F0)
+#define CLASS_2_8506D84082786140_METHOD_2_E7608912D660D01B_OFFSET UNITYSDK_OFFSET(0x8F54970)
+#define CLASS_2_8506D84082786140__CTOR_OFFSET UNITYSDK_OFFSET(0x8F549C0)
+
+inline static constexpr unsigned int Class_2_8506D84082786140_TypeDefinitionIndex = 49925;
+
+class Class_2_8506D84082786140 : public ::Class_1_C411A3DD6A930CFA
+{
+public:
+	::Class_2_BB6171553AD4F0C6* Field_2_0; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_EF79F96DD047B849*>* Field_2_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::RtModifierBehaviorLifeBinding Method_2_06CBBB3CC85FFF5B()
+	{
+		return ((::RPG::GameCore::RtModifierBehaviorLifeBinding(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_06CBBB3CC85FFF5B_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_6641B6F19C4E469B(::RPG::GameCore::GameEntityList* a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_6641B6F19C4E469B_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_58F7B5613AFBA910(::RPG::GameCore::IVec2 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::IVec2))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_58F7B5613AFBA910_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9CBE4EB1A479057A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_9CBE4EB1A479057A_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_E7608912D660D01B(::Class_0_16E4307DCC419505_405* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_405*))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_E7608912D660D01B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8506D84082786140_METHOD_2_5790A55946AA509D_1_OFFSET))(this);
+	}
+};

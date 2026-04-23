@@ -12,20 +12,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class EventDataAttribute; }
 namespace System::Diagnostics::Tracing { class PropertyAnalysis; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TYPEANALYSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x162DEDA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TYPEANALYSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1790B470)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TypeAnalysis_TypeDefinitionIndex = 1663;
+	inline static constexpr unsigned int TypeAnalysis_TypeDefinitionIndex = 1664;
 
 	class TypeAnalysis : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::Il2CppArray<::System::Diagnostics::Tracing::PropertyAnalysis*>* properties; // 0x18
-		::System::Diagnostics::Tracing::EventLevel level; // 0x20
+		::Il2CppArray<::System::Diagnostics::Tracing::PropertyAnalysis*>* properties; // 0x10
+		::System::String* name; // 0x18
+		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x20
 		::System::Diagnostics::Tracing::EventTags tags; // 0x24
-		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x28
+		::System::Diagnostics::Tracing::EventLevel level; // 0x28
 		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x30
 
 		::System::Void _ctor(::System::Type* dataType, ::System::Diagnostics::Tracing::EventDataAttribute* eventAttrib, ::System::Collections::Generic::List_1<::System::Type*>* recursionCheck)

@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::Uploader { class Uploader; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY_CREATEUPLOADER_OFFSET UNITYSDK_OFFSET(0x85AA630)
-#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x85AA710)
+#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY_CREATEUPLOADER_OFFSET UNITYSDK_OFFSET(0x8DE0620)
+#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE0700)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int UploaderFactory_TypeDefinitionIndex = 37348;
+	inline static constexpr unsigned int UploaderFactory_TypeDefinitionIndex = 43225;
 
 	class UploaderFactory : public ::System::Object
 	{

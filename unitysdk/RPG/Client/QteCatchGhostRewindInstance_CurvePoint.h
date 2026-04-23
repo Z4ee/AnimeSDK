@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QteCatchGhostRewindInstance_CurvePoint_TypeDefinitionIndex = 48815;
+	inline static constexpr unsigned int QteCatchGhostRewindInstance_CurvePoint_TypeDefinitionIndex = 55579;
 
 	struct alignas(4) QteCatchGhostRewindInstance_CurvePoint
 	{

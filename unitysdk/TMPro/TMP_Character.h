@@ -5,14 +5,14 @@
 namespace TMPro { class TMP_FontAsset; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define TMPRO_TMP_CHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18908EE0)
-#define TMPRO_TMP_CHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18908F20)
-#define TMPRO_TMP_CHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18908F60)
-#define TMPRO_TMP_CHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18908ED0)
+#define TMPRO_TMP_CHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A342BE0)
+#define TMPRO_TMP_CHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A342C20)
+#define TMPRO_TMP_CHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A342C60)
+#define TMPRO_TMP_CHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A342BD0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Character_TypeDefinitionIndex = 34277;
+	inline static constexpr unsigned int TMP_Character_TypeDefinitionIndex = 40096;
 
 	class TMP_Character : public ::TMPro::TMP_TextElement
 	{

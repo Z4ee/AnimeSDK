@@ -12,62 +12,62 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_LIGHTCONE3D_ADD_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0x9978C80)
-#define RPG_CLIENT_LIGHTCONE3D_AWAKE_OFFSET UNITYSDK_OFFSET(0x9978D40)
-#define RPG_CLIENT_LIGHTCONE3D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99786D0)
-#define RPG_CLIENT_LIGHTCONE3D_REMOVE_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0x9978CE0)
-#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICSTARTEXTURE_OFFSET UNITYSDK_OFFSET(0x9978260)
-#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICTEXTURE_OFFSET UNITYSDK_OFFSET(0x9977FC0)
-#define RPG_CLIENT_LIGHTCONE3D_SETBACKFACETEXTURE_OFFSET UNITYSDK_OFFSET(0x9978AA0)
-#define RPG_CLIENT_LIGHTCONE3D_SETBACKIMAGE_OFFSET UNITYSDK_OFFSET(0x9978900)
-#define RPG_CLIENT_LIGHTCONE3D_SETCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x99784F0)
-#define RPG_CLIENT_LIGHTCONE3D_SETGYROEVENT_OFFSET UNITYSDK_OFFSET(0x99788B0)
-#define RPG_CLIENT_LIGHTCONE3D_SETLIGHTCONE_OFFSET UNITYSDK_OFFSET(0x9977C00)
-#define RPG_CLIENT_LIGHTCONE3D_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x9977DB0)
-#define RPG_CLIENT_LIGHTCONE3D_SETUSEDIFFERENTBACKFACE_OFFSET UNITYSDK_OFFSET(0x9978960)
-#define RPG_CLIENT_LIGHTCONE3D_START_OFFSET UNITYSDK_OFFSET(0x99790F0)
-#define RPG_CLIENT_LIGHTCONE3D_UPDATE_OFFSET UNITYSDK_OFFSET(0x9979350)
-#define RPG_CLIENT_LIGHTCONE3D__CCTOR_OFFSET UNITYSDK_OFFSET(0x99796C0)
-#define RPG_CLIENT_LIGHTCONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x99796B0)
+#define RPG_CLIENT_LIGHTCONE3D_ADD_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0xA669120)
+#define RPG_CLIENT_LIGHTCONE3D_AWAKE_OFFSET UNITYSDK_OFFSET(0xA6691E0)
+#define RPG_CLIENT_LIGHTCONE3D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA668B10)
+#define RPG_CLIENT_LIGHTCONE3D_REMOVE_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0xA669180)
+#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICSTARTEXTURE_OFFSET UNITYSDK_OFFSET(0xA6686A0)
+#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICTEXTURE_OFFSET UNITYSDK_OFFSET(0xA668400)
+#define RPG_CLIENT_LIGHTCONE3D_SETBACKFACETEXTURE_OFFSET UNITYSDK_OFFSET(0xA668F40)
+#define RPG_CLIENT_LIGHTCONE3D_SETBACKIMAGE_OFFSET UNITYSDK_OFFSET(0xA668DA0)
+#define RPG_CLIENT_LIGHTCONE3D_SETCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xA668930)
+#define RPG_CLIENT_LIGHTCONE3D_SETGYROEVENT_OFFSET UNITYSDK_OFFSET(0xA668D50)
+#define RPG_CLIENT_LIGHTCONE3D_SETLIGHTCONE_OFFSET UNITYSDK_OFFSET(0xA668040)
+#define RPG_CLIENT_LIGHTCONE3D_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xA6681F0)
+#define RPG_CLIENT_LIGHTCONE3D_SETUSEDIFFERENTBACKFACE_OFFSET UNITYSDK_OFFSET(0xA668E00)
+#define RPG_CLIENT_LIGHTCONE3D_START_OFFSET UNITYSDK_OFFSET(0xA669590)
+#define RPG_CLIENT_LIGHTCONE3D_UPDATE_OFFSET UNITYSDK_OFFSET(0xA669800)
+#define RPG_CLIENT_LIGHTCONE3D__CCTOR_OFFSET UNITYSDK_OFFSET(0xA669B70)
+#define RPG_CLIENT_LIGHTCONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0xA669B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightCone3D_TypeDefinitionIndex = 59819;
+	inline static constexpr unsigned int LightCone3D_TypeDefinitionIndex = 67215;
 
 	class LightCone3D : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet__StarTexPropertyID()
+		static ::System::Single* StaticGet_GyroMaxRotX()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F60);
-		}
-		static ::System::UInt32* StaticGet_FrameCounter()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F64);
-		}
-		static ::System::Boolean* StaticGet_IsShowGyroInfo()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F68);
-		}
-		static ::System::Int32* StaticGet__UseDifferentBackfacePropertyID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F6C);
-		}
-		static ::System::Single* StaticGet_SmoothTime()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F70);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2700);
 		}
 		static ::System::Int32* StaticGet__MainTexPropertyID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F74);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2704);
 		}
-		static ::System::Single* StaticGet_GyroMaxRotX()
+		static ::System::Boolean* StaticGet_IsShowGyroInfo()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F78);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2708);
+		}
+		static ::System::Int32* StaticGet__StarTexPropertyID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x270C);
 		}
 		static ::System::Int32* StaticGet__BackfaceTexPropertyID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x8F7C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2710);
+		}
+		static ::System::Int32* StaticGet__UseDifferentBackfacePropertyID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2714);
+		}
+		static ::System::Single* StaticGet_SmoothTime()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2718);
+		}
+		static ::System::UInt32* StaticGet_FrameCounter()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x271C);
 		}
 		::RPG::Client::LightCone3D_UpdateFunc* UpdateGyroEvent; // 0x18
 		::UnityEngine::MeshRenderer* _ContentMeshRenderer; // 0x20

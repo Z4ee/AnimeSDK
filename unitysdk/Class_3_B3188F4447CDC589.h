@@ -7,11 +7,11 @@ namespace RPG::Client { class TriggerEffectParams; }
 namespace RPG::GameCore { class SetAdvEffectTowardAnchor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B3188F4447CDC589_METHOD_3_AA6426DE10262FF0_OFFSET UNITYSDK_OFFSET(0x89EDA20)
-#define CLASS_3_B3188F4447CDC589_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89ED880)
-#define CLASS_3_B3188F4447CDC589__CTOR_OFFSET UNITYSDK_OFFSET(0x89ED850)
+#define CLASS_3_B3188F4447CDC589_METHOD_3_AA6426DE10262FF0_OFFSET UNITYSDK_OFFSET(0x9329E20)
+#define CLASS_3_B3188F4447CDC589_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9329C80)
+#define CLASS_3_B3188F4447CDC589__CTOR_OFFSET UNITYSDK_OFFSET(0x9329C50)
 
-inline static constexpr unsigned int Class_3_B3188F4447CDC589_TypeDefinitionIndex = 43084;
+inline static constexpr unsigned int Class_3_B3188F4447CDC589_TypeDefinitionIndex = 49074;
 
 class Class_3_B3188F4447CDC589 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAdvEffectTowardAnchor*>
 {

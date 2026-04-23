@@ -14,7 +14,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ProxyViewService_1_TypeDefinitionIndex = 62276;
+	inline static constexpr unsigned int ProxyViewService_1_TypeDefinitionIndex = 70275;
 
 	template <typename TEntity>
 	class ProxyViewService_1 : public ::System::Object

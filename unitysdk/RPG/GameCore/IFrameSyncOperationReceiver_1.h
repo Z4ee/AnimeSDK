@@ -5,7 +5,7 @@ namespace RPG::GameCore { template <typename T> class IFrameSyncOperation_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IFrameSyncOperationReceiver_1_TypeDefinitionIndex = 45259;
+	inline static constexpr unsigned int IFrameSyncOperationReceiver_1_TypeDefinitionIndex = 49440;
 
 	template <typename TContext>
 	class IFrameSyncOperationReceiver_1

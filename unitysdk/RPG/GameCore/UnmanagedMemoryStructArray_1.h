@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnmanagedMemoryStructArray_1_TypeDefinitionIndex = 9417;
+	inline static constexpr unsigned int UnmanagedMemoryStructArray_1_TypeDefinitionIndex = 9615;
 
 	template <typename T>
 	class UnmanagedMemoryStructArray_1 : public ::RPG::GameCore::UnmanagedStructArray_1<T>

@@ -7,7 +7,7 @@ namespace RPG::GameCore { class ActivityFightGroupRow; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightActivityGroupInfo_TypeDefinitionIndex = 52086;
+	inline static constexpr unsigned int FightActivityGroupInfo_TypeDefinitionIndex = 59036;
 
 	struct alignas(8) FightActivityGroupInfo
 	{

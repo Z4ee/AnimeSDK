@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class CameraBakingBehavior; }
 
-#define RPG_CLIENT_CAMERABAKINGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9250AE0)
+#define RPG_CLIENT_CAMERABAKINGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9F13E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraBakingMonoPlugin_TypeDefinitionIndex = 58181;
+	inline static constexpr unsigned int CameraBakingMonoPlugin_TypeDefinitionIndex = 65468;
 
 	class CameraBakingMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CameraBakingBehavior*>
 	{

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelPedestrianLineUpSourceInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO_METHOD_2_04110F5A0BAD8AEE_OFFSET UNITYSDK_OFFSET(0x17345380)
-#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17345670)
+#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO_METHOD_2_04110F5A0BAD8AEE_OFFSET UNITYSDK_OFFSET(0x18A52E40)
+#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A53130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianLineUpPointInfo_TypeDefinitionIndex = 15876;
+	inline static constexpr unsigned int LevelPedestrianLineUpPointInfo_TypeDefinitionIndex = 16402;
 
 	class LevelPedestrianLineUpPointInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int IKeyboardProvider_TypeDefinitionIndex = 31441;
+	inline static constexpr unsigned int IKeyboardProvider_TypeDefinitionIndex = 37161;
 
 	class IKeyboardProvider
 	{

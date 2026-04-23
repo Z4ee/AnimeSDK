@@ -6,10 +6,10 @@ class Class_2_3ABA989E5AECB261;
 class Class_2_F3C45F1FC7349B6E;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_3E663F02593BDAF0_METHOD_1_DCEC38F05597CB7D_OFFSET UNITYSDK_OFFSET(0x16617450)
-#define CLASS_1_3E663F02593BDAF0__CTOR_OFFSET UNITYSDK_OFFSET(0x16617520)
+#define CLASS_1_3E663F02593BDAF0_METHOD_1_DCEC38F05597CB7D_OFFSET UNITYSDK_OFFSET(0x17BF16A0)
+#define CLASS_1_3E663F02593BDAF0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BF1770)
 
-inline static constexpr unsigned int Class_1_3E663F02593BDAF0_TypeDefinitionIndex = 29073;
+inline static constexpr unsigned int Class_1_3E663F02593BDAF0_TypeDefinitionIndex = 34807;
 
 class Class_1_3E663F02593BDAF0 : public ::System::Object
 {

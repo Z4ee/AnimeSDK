@@ -8,12 +8,12 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class IExposedPropertyTable; }
 namespace UnityEngine { class Transform; }
 
-#define RPGTOOLS_TIMELINE_TIMELINEEXPOSEDREFERENCE_METHOD_2_2A6F443B470AAF12_OFFSET UNITYSDK_OFFSET(0x8B0D0)
-#define RPGTOOLS_TIMELINE_TIMELINEEXPOSEDREFERENCE_METHOD_2_6038703EDAED5BDB_OFFSET UNITYSDK_OFFSET(0x8B0E0)
+#define RPGTOOLS_TIMELINE_TIMELINEEXPOSEDREFERENCE_METHOD_2_2A6F443B470AAF12_OFFSET UNITYSDK_OFFSET(0xE5080)
+#define RPGTOOLS_TIMELINE_TIMELINEEXPOSEDREFERENCE_METHOD_2_6038703EDAED5BDB_OFFSET UNITYSDK_OFFSET(0xE5090)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimelineExposedReference_TypeDefinitionIndex = 39321;
+	inline static constexpr unsigned int TimelineExposedReference_TypeDefinitionIndex = 45230;
 
 	struct alignas(8) TimelineExposedReference
 	{

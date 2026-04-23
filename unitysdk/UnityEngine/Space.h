@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Space_TypeDefinitionIndex = 3825;
+	inline static constexpr unsigned int Space_TypeDefinitionIndex = 3827;
 
 	enum class Space : ::System::Int32
 	{

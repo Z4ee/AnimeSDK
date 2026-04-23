@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaMapTabRoomStatus_TypeDefinitionIndex = 59767;
+	inline static constexpr unsigned int RogueTournPersonaMapTabRoomStatus_TypeDefinitionIndex = 67163;
 
 	enum class RogueTournPersonaMapTabRoomStatus : ::System::Int32
 	{

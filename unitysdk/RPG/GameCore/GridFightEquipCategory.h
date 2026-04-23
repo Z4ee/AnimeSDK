@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipCategory_TypeDefinitionIndex = 12285;
+	inline static constexpr unsigned int GridFightEquipCategory_TypeDefinitionIndex = 10349;
 
 	enum class GridFightEquipCategory : ::System::Int32
 	{
@@ -20,5 +20,6 @@ namespace RPG::GameCore
 		Material = 10,
 		Trash = 11,
 		GoldTrash = 12,
+		Hack = 13,
 	};
 }

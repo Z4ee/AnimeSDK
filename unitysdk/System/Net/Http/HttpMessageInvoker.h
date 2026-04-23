@@ -8,14 +8,14 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x18532110)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x185386B0)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x18532AC0)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18532010)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19F6CF90)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F73460)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x19F6D930)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6CE90)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpMessageInvoker_TypeDefinitionIndex = 4782;
+	inline static constexpr unsigned int HttpMessageInvoker_TypeDefinitionIndex = 4790;
 
 	class HttpMessageInvoker : public ::System::Object
 	{

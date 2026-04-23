@@ -12,40 +12,40 @@ namespace System::Collections { class Hashtable; }
 namespace System::IO { class CStreamWriter; }
 namespace System::IO { class StreamReader; }
 
-#define SYSTEM_TERMINFODRIVER_ADDSTRINGMAPPING_OFFSET UNITYSDK_OFFSET(0x16205E70)
-#define SYSTEM_TERMINFODRIVER_ADDTOBUFFER_OFFSET UNITYSDK_OFFSET(0x16201B30)
-#define SYSTEM_TERMINFODRIVER_ADJUSTBUFFER_OFFSET UNITYSDK_OFFSET(0x16201D90)
-#define SYSTEM_TERMINFODRIVER_CHECKWINDOWDIMENSIONS_OFFSET UNITYSDK_OFFSET(0x16201BF0)
-#define SYSTEM_TERMINFODRIVER_CREATEKEYINFOFROMINT_OFFSET UNITYSDK_OFFSET(0x162016E0)
-#define SYSTEM_TERMINFODRIVER_CREATEKEYMAP_OFFSET UNITYSDK_OFFSET(0x16203B10)
-#define SYSTEM_TERMINFODRIVER_ECHOFLUSH_OFFSET UNITYSDK_OFFSET(0x16202D10)
-#define SYSTEM_TERMINFODRIVER_ECHO_OFFSET UNITYSDK_OFFSET(0x16202BD0)
-#define SYSTEM_TERMINFODRIVER_GETCURSORPOSITION_OFFSET UNITYSDK_OFFSET(0x16200CC0)
-#define SYSTEM_TERMINFODRIVER_GETKEYFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x16201DB0)
-#define SYSTEM_TERMINFODRIVER_GET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x16200150)
-#define SYSTEM_TERMINFODRIVER_GET_WINDOWHEIGHT_OFFSET UNITYSDK_OFFSET(0x16200EE0)
-#define SYSTEM_TERMINFODRIVER_GET_WINDOWWIDTH_OFFSET UNITYSDK_OFFSET(0x16200EB0)
-#define SYSTEM_TERMINFODRIVER_INCREMENTX_OFFSET UNITYSDK_OFFSET(0x16200E00)
-#define SYSTEM_TERMINFODRIVER_INITKEYS_OFFSET UNITYSDK_OFFSET(0x16202770)
-#define SYSTEM_TERMINFODRIVER_INIT_OFFSET UNITYSDK_OFFSET(0x16200160)
-#define SYSTEM_TERMINFODRIVER_INPUTPENDING_OFFSET UNITYSDK_OFFSET(0x162029F0)
-#define SYSTEM_TERMINFODRIVER_ISSPECIALKEY_1_OFFSET UNITYSDK_OFFSET(0x162019A0)
-#define SYSTEM_TERMINFODRIVER_ISSPECIALKEY_OFFSET UNITYSDK_OFFSET(0x162018B0)
-#define SYSTEM_TERMINFODRIVER_QUEUEECHO_OFFSET UNITYSDK_OFFSET(0x16202A30)
-#define SYSTEM_TERMINFODRIVER_READKEYINTERNAL_OFFSET UNITYSDK_OFFSET(0x162024D0)
-#define SYSTEM_TERMINFODRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x162033E0)
-#define SYSTEM_TERMINFODRIVER_READLINE_OFFSET UNITYSDK_OFFSET(0x16203660)
-#define SYSTEM_TERMINFODRIVER_READTOEND_OFFSET UNITYSDK_OFFSET(0x16203B00)
-#define SYSTEM_TERMINFODRIVER_READUNTILCONDITIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x16203670)
-#define SYSTEM_TERMINFODRIVER_READ_OFFSET UNITYSDK_OFFSET(0x16202DF0)
-#define SYSTEM_TERMINFODRIVER_SEARCHTERMINFO_OFFSET UNITYSDK_OFFSET(0x161FF420)
-#define SYSTEM_TERMINFODRIVER_SETCURSORPOSITION_OFFSET UNITYSDK_OFFSET(0x162012C0)
-#define SYSTEM_TERMINFODRIVER_TRYTERMINFODIR_OFFSET UNITYSDK_OFFSET(0x161FF240)
-#define SYSTEM_TERMINFODRIVER_WRITECONSOLE_OFFSET UNITYSDK_OFFSET(0x161FF770)
-#define SYSTEM_TERMINFODRIVER_WRITESPECIALKEY_1_OFFSET UNITYSDK_OFFSET(0x16201550)
-#define SYSTEM_TERMINFODRIVER_WRITESPECIALKEY_OFFSET UNITYSDK_OFFSET(0x16200F10)
-#define SYSTEM_TERMINFODRIVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16206000)
-#define SYSTEM_TERMINFODRIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x161FF830)
+#define SYSTEM_TERMINFODRIVER_ADDSTRINGMAPPING_OFFSET UNITYSDK_OFFSET(0x178327D0)
+#define SYSTEM_TERMINFODRIVER_ADDTOBUFFER_OFFSET UNITYSDK_OFFSET(0x1782E460)
+#define SYSTEM_TERMINFODRIVER_ADJUSTBUFFER_OFFSET UNITYSDK_OFFSET(0x1782E6B0)
+#define SYSTEM_TERMINFODRIVER_CHECKWINDOWDIMENSIONS_OFFSET UNITYSDK_OFFSET(0x1782E520)
+#define SYSTEM_TERMINFODRIVER_CREATEKEYINFOFROMINT_OFFSET UNITYSDK_OFFSET(0x1782E010)
+#define SYSTEM_TERMINFODRIVER_CREATEKEYMAP_OFFSET UNITYSDK_OFFSET(0x17830470)
+#define SYSTEM_TERMINFODRIVER_ECHOFLUSH_OFFSET UNITYSDK_OFFSET(0x1782F670)
+#define SYSTEM_TERMINFODRIVER_ECHO_OFFSET UNITYSDK_OFFSET(0x1782F530)
+#define SYSTEM_TERMINFODRIVER_GETCURSORPOSITION_OFFSET UNITYSDK_OFFSET(0x1782D600)
+#define SYSTEM_TERMINFODRIVER_GETKEYFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x1782E6E0)
+#define SYSTEM_TERMINFODRIVER_GET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x1782CAC0)
+#define SYSTEM_TERMINFODRIVER_GET_WINDOWHEIGHT_OFFSET UNITYSDK_OFFSET(0x1782D820)
+#define SYSTEM_TERMINFODRIVER_GET_WINDOWWIDTH_OFFSET UNITYSDK_OFFSET(0x1782D7F0)
+#define SYSTEM_TERMINFODRIVER_INCREMENTX_OFFSET UNITYSDK_OFFSET(0x1782D740)
+#define SYSTEM_TERMINFODRIVER_INITKEYS_OFFSET UNITYSDK_OFFSET(0x1782F0C0)
+#define SYSTEM_TERMINFODRIVER_INIT_OFFSET UNITYSDK_OFFSET(0x1782CAD0)
+#define SYSTEM_TERMINFODRIVER_INPUTPENDING_OFFSET UNITYSDK_OFFSET(0x1782F350)
+#define SYSTEM_TERMINFODRIVER_ISSPECIALKEY_1_OFFSET UNITYSDK_OFFSET(0x1782E2D0)
+#define SYSTEM_TERMINFODRIVER_ISSPECIALKEY_OFFSET UNITYSDK_OFFSET(0x1782E1E0)
+#define SYSTEM_TERMINFODRIVER_QUEUEECHO_OFFSET UNITYSDK_OFFSET(0x1782F390)
+#define SYSTEM_TERMINFODRIVER_READKEYINTERNAL_OFFSET UNITYSDK_OFFSET(0x1782EE20)
+#define SYSTEM_TERMINFODRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1782FD40)
+#define SYSTEM_TERMINFODRIVER_READLINE_OFFSET UNITYSDK_OFFSET(0x1782FFC0)
+#define SYSTEM_TERMINFODRIVER_READTOEND_OFFSET UNITYSDK_OFFSET(0x17830460)
+#define SYSTEM_TERMINFODRIVER_READUNTILCONDITIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1782FFD0)
+#define SYSTEM_TERMINFODRIVER_READ_OFFSET UNITYSDK_OFFSET(0x1782F750)
+#define SYSTEM_TERMINFODRIVER_SEARCHTERMINFO_OFFSET UNITYSDK_OFFSET(0x1782BD80)
+#define SYSTEM_TERMINFODRIVER_SETCURSORPOSITION_OFFSET UNITYSDK_OFFSET(0x1782DBF0)
+#define SYSTEM_TERMINFODRIVER_TRYTERMINFODIR_OFFSET UNITYSDK_OFFSET(0x1782BBA0)
+#define SYSTEM_TERMINFODRIVER_WRITECONSOLE_OFFSET UNITYSDK_OFFSET(0x1782C0D0)
+#define SYSTEM_TERMINFODRIVER_WRITESPECIALKEY_1_OFFSET UNITYSDK_OFFSET(0x1782DE80)
+#define SYSTEM_TERMINFODRIVER_WRITESPECIALKEY_OFFSET UNITYSDK_OFFSET(0x1782D850)
+#define SYSTEM_TERMINFODRIVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17832960)
+#define SYSTEM_TERMINFODRIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1782C190)
 
 namespace System
 {
@@ -54,62 +54,62 @@ namespace System
 	class TermInfoDriver : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_locations()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0x5B00);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet__consoleColorToAnsiCode()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0x5B08);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0xB640);
 		}
-		static ::System::Int32** StaticGet_native_terminal_size()
+		static ::Il2CppArray<::System::String*>** StaticGet_locations()
 		{
-			return (::System::Int32**)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0x37F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0xB648);
 		}
 		static ::System::Int32* StaticGet_terminal_size()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0x37F8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0x4450);
+		}
+		static ::System::Int32** StaticGet_native_terminal_size()
+		{
+			return (::System::Int32**)Il2CppClass::FromTypeDefinitionIndex(TermInfoDriver_TypeDefinitionIndex)->GetStaticField(0x4458);
 		}
 		::Il2CppArray<::System::Char>* buffer; // 0x10
-		::System::String* csrVisible; // 0x18
-		::System::String* cursorAddress; // 0x20
-		::System::ByteMatcher* rootmap; // 0x28
-		::System::IO::StreamReader* stdin; // 0x30
-		::System::String* keypadLocal; // 0x38
-		::Il2CppArray<::System::Char>* echobuf; // 0x40
-		::System::String* titleFormat; // 0x48
-		::System::String* setfgcolor; // 0x50
-		::Il2CppArray<::System::Byte>* control_characters; // 0x58
-		::System::String* setbgcolor; // 0x60
-		::System::String* origColors; // 0x68
-		::System::String* term; // 0x70
-		::System::String* title; // 0x78
-		::System::TermInfoReader* reader; // 0x80
-		::System::IO::CStreamWriter* stdout; // 0x88
-		::System::Object* initLock; // 0x90
+		::System::String* setfgcolor; // 0x18
+		::System::String* clear; // 0x20
+		::System::Object* initLock; // 0x28
+		::Il2CppArray<::System::Byte>* control_characters; // 0x30
+		::System::String* csrVisible; // 0x38
+		::System::String* keypadLocal; // 0x40
+		::Il2CppArray<::System::Char>* echobuf; // 0x48
+		::System::String* keypadXmit; // 0x50
+		::System::String* bell; // 0x58
+		::System::TermInfoReader* reader; // 0x60
+		::System::IO::StreamReader* stdin; // 0x68
+		::System::String* cursorAddress; // 0x70
+		::System::Collections::Hashtable* keymap; // 0x78
+		::System::String* term; // 0x80
+		::System::String* title; // 0x88
+		::System::ByteMatcher* rootmap; // 0x90
 		::System::String* origPair; // 0x98
-		::System::String* csrInvisible; // 0xA0
-		::System::Collections::Hashtable* keymap; // 0xA8
-		::System::String* bell; // 0xB0
-		::System::String* clear; // 0xB8
-		::System::String* keypadXmit; // 0xC0
-		::System::Int32 maxColors; // 0xC8
-		::System::Int32 cursorTop; // 0xCC
-		::System::Int32 windowWidth; // 0xD0
-		::System::Boolean cursorVisible; // 0xD4
-		::System::Boolean inited; // 0xD5
-		::System::Boolean initKeys; // 0xD6
-		::System::Boolean noGetPosition; // 0xD7
-		::System::Int32 cursorLeft; // 0xD8
-		::System::Int32 windowHeight; // 0xDC
-		::System::Int32 echon; // 0xE0
-		::System::Int32 writepos; // 0xE4
-		::System::Int32 readpos; // 0xE8
-		::System::Int32 rl_startx; // 0xEC
-		::System::Int32 bufferHeight; // 0xF0
-		::System::Int32 bufferWidth; // 0xF4
+		::System::IO::CStreamWriter* stdout; // 0xA0
+		::System::String* origColors; // 0xA8
+		::System::String* csrInvisible; // 0xB0
+		::System::String* setbgcolor; // 0xB8
+		::System::String* titleFormat; // 0xC0
+		::System::Int32 cursorTop; // 0xC8
+		::System::Int32 bufferWidth; // 0xCC
+		::System::Int32 windowHeight; // 0xD0
+		::System::Int32 readpos; // 0xD4
+		::System::ConsoleColor fgcolor; // 0xD8
+		::System::Boolean initKeys; // 0xDC
+		::System::Boolean cursorVisible; // 0xDD
+		::System::Boolean noGetPosition; // 0xDE
+		::System::Boolean inited; // 0xDF
+		::System::Int32 cursorLeft; // 0xE0
+		::System::Int32 rl_startx; // 0xE4
+		::System::Int32 writepos; // 0xE8
+		::System::Int32 bufferHeight; // 0xEC
+		::System::Int32 windowWidth; // 0xF0
+		::System::Int32 maxColors; // 0xF4
 		::System::Int32 rl_starty; // 0xF8
-		::System::ConsoleColor fgcolor; // 0xFC
+		::System::Int32 echon; // 0xFC
 
 		::System::Void _ctor(::System::String* term)
 		{

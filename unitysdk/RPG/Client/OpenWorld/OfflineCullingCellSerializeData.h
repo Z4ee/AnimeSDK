@@ -6,11 +6,11 @@
 namespace RPG::Client::OpenWorld { class OfflineCullingCellSubData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSERIALIZEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA1CD0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSERIALIZEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABF8420)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OfflineCullingCellSerializeData_TypeDefinitionIndex = 60468;
+	inline static constexpr unsigned int OfflineCullingCellSerializeData_TypeDefinitionIndex = 67890;
 
 	class OfflineCullingCellSerializeData : public ::System::Object
 	{

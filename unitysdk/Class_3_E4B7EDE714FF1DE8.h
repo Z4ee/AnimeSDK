@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureSubmitSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E4B7EDE714FF1DE8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104E9540)
-#define CLASS_3_E4B7EDE714FF1DE8__CTOR_OFFSET UNITYSDK_OFFSET(0x104E9510)
+#define CLASS_3_E4B7EDE714FF1DE8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97F3A00)
+#define CLASS_3_E4B7EDE714FF1DE8__CTOR_OFFSET UNITYSDK_OFFSET(0x97F39D0)
 
-inline static constexpr unsigned int Class_3_E4B7EDE714FF1DE8_TypeDefinitionIndex = 46699;
+inline static constexpr unsigned int Class_3_E4B7EDE714FF1DE8_TypeDefinitionIndex = 53408;
 
 class Class_3_E4B7EDE714FF1DE8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureSubmitSkill*>
 {

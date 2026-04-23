@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class IslandStateConditionSet; }
 
-#define RPG_GAMECORE_ISLANDSTATECONFIG_METHOD_2_CB849C350E5A1BEC_OFFSET UNITYSDK_OFFSET(0x172C1A60)
-#define RPG_GAMECORE_ISLANDSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172C1B90)
+#define RPG_GAMECORE_ISLANDSTATECONFIG_METHOD_2_CB849C350E5A1BEC_OFFSET UNITYSDK_OFFSET(0x18A23E60)
+#define RPG_GAMECORE_ISLANDSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A23F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IslandStateConfig_TypeDefinitionIndex = 17544;
+	inline static constexpr unsigned int IslandStateConfig_TypeDefinitionIndex = 18153;
 
 	class IslandStateConfig : public ::RPG::GameCore::JsonConfig
 	{

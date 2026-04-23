@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int GridLocalPoint_TypeDefinitionIndex = 33087;
+	inline static constexpr unsigned int GridLocalPoint_TypeDefinitionIndex = 38877;
 
 	enum class GridLocalPoint : ::System::Int32
 	{

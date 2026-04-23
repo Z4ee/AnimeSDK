@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA46D0)
-#define RPG_GAMECORE_ACTIVITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA48C0)
+#define RPG_GAMECORE_ACTIVITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18604F90)
+#define RPG_GAMECORE_ACTIVITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18605180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityConfigRow_TypeDefinitionIndex = 10480;
+	inline static constexpr unsigned int ActivityConfigRow_TypeDefinitionIndex = 10704;
 
 	class ActivityConfigRow : public ::System::Object
 	{
@@ -17,8 +17,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* ActivityModuleIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* ResidentModuleList; // 0x18
 		::System::UInt32 EarlyAccessContentID; // 0x20
-		::System::UInt32 ActivityID; // 0x24
-		::System::UInt32 ActivityPanelID; // 0x28
+		::System::UInt32 ActivityPanelID; // 0x24
+		::System::UInt32 ActivityID; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CASTINSTRUCTIONNOT_VALUE_CONVERTNULL_OFFSET UNITYSDK_OFFSET(0x184BE860)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CASTINSTRUCTIONNOT_VALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x184BE600)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CASTINSTRUCTIONNOT_VALUE_CONVERTNULL_OFFSET UNITYSDK_OFFSET(0x19EF9730)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTINSTRUCTION_CASTINSTRUCTIONNOT_VALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF94D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int CastInstruction_CastInstructionNoT_Value_TypeDefinitionIndex = 3640;
+	inline static constexpr unsigned int CastInstruction_CastInstructionNoT_Value_TypeDefinitionIndex = 3642;
 
 	class CastInstruction_CastInstructionNoT_Value : public ::System::Linq::Expressions::Interpreter::CastInstruction_CastInstructionNoT
 	{

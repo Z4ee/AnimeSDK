@@ -7,7 +7,7 @@ namespace System::Threading { template <typename T> class ThreadLocal_1_LinkedSl
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadLocal_1_LinkedSlot_TypeDefinitionIndex = 814;
+	inline static constexpr unsigned int ThreadLocal_1_LinkedSlot_TypeDefinitionIndex = 816;
 
 	template <typename T>
 	class ThreadLocal_1_LinkedSlot : public ::System::Object

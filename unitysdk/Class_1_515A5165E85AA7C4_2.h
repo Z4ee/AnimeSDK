@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CrosshairType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_9CAA42EF32347EE5_4;
+namespace System { class String; }
+
+#define CLASS_1_515A5165E85AA7C4_2_METHOD_1_126AB3935214AA22_1_OFFSET UNITYSDK_OFFSET(0x93144C0)
+#define CLASS_1_515A5165E85AA7C4_2_METHOD_1_126AB3935214AA22_2_OFFSET UNITYSDK_OFFSET(0x93144D0)
+#define CLASS_1_515A5165E85AA7C4_2_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x93144B0)
+#define CLASS_1_515A5165E85AA7C4_2_METHOD_1_DD5BF1E285E61A17_OFFSET UNITYSDK_OFFSET(0x93144A0)
+#define CLASS_1_515A5165E85AA7C4_2_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x93144E0)
+#define CLASS_1_515A5165E85AA7C4_2__CTOR_OFFSET UNITYSDK_OFFSET(0x9314530)
+
+inline static constexpr unsigned int Class_1_515A5165E85AA7C4_2_TypeDefinitionIndex = 65977;
+
+class Class_1_515A5165E85AA7C4_2 : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_515A5165E85AA7C4_2__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::CrosshairType Method_1_DD5BF1E285E61A17()
+	{
+		return ((::RPG::GameCore::CrosshairType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_515A5165E85AA7C4_2_METHOD_1_DD5BF1E285E61A17_OFFSET))(this);
+	}
+
+	::System::String* Method_1_126AB3935214AA22()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_515A5165E85AA7C4_2_METHOD_1_126AB3935214AA22_OFFSET))(this);
+	}
+
+	::System::String* Method_1_126AB3935214AA22_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_515A5165E85AA7C4_2_METHOD_1_126AB3935214AA22_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_126AB3935214AA22_2()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_515A5165E85AA7C4_2_METHOD_1_126AB3935214AA22_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9(::Class_1_9CAA42EF32347EE5_4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9CAA42EF32347EE5_4*))((::PBYTE)hIl2Cpp + CLASS_1_515A5165E85AA7C4_2_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+};

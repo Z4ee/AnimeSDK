@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class SkillData; }
-namespace System { class String; }
-namespace UnityEngine { class RectTransform; }
+namespace RPG::Client { class TalkOptionData; }
+namespace RPG::GameCore { class OptionTalkInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_855_TypeDefinitionIndex = 58865;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_855_TypeDefinitionIndex = 62711;
 
 class Class_0_16E4307DCC419505_855
 {

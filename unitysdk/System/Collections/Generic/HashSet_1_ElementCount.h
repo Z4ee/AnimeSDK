@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 3681;
+	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 3683;
 
 	template <typename T>
 	struct HashSet_1_ElementCount

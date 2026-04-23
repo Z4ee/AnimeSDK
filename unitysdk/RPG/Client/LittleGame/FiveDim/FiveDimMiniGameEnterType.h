@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimMiniGameEnterType_TypeDefinitionIndex = 33577;
+	inline static constexpr unsigned int FiveDimMiniGameEnterType_TypeDefinitionIndex = 39377;
 
 	enum class FiveDimMiniGameEnterType : ::System::Int32
 	{

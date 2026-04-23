@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChronicleCustomUnlockConditionConfig; }
 
-#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_METHOD_2_4FC8881B8AB639AD_OFFSET UNITYSDK_OFFSET(0x1741B530)
-#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1741B650)
+#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG_METHOD_2_4FC8881B8AB639AD_OFFSET UNITYSDK_OFFSET(0x18B27E00)
+#define RPG_GAMECORE_MIDDLESINGLEPACKMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B27F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiddleSinglePackMissionConfig_TypeDefinitionIndex = 17393;
+	inline static constexpr unsigned int MiddleSinglePackMissionConfig_TypeDefinitionIndex = 18001;
 
 	class MiddleSinglePackMissionConfig : public ::RPG::GameCore::JsonConfig
 	{

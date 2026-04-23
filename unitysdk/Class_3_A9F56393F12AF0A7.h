@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PlayVideoSequence; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A9F56393F12AF0A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x106B2030)
-#define CLASS_3_A9F56393F12AF0A7__CTOR_OFFSET UNITYSDK_OFFSET(0x106B2000)
+#define CLASS_3_A9F56393F12AF0A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11834B80)
+#define CLASS_3_A9F56393F12AF0A7__CTOR_OFFSET UNITYSDK_OFFSET(0x11834B50)
 
-inline static constexpr unsigned int Class_3_A9F56393F12AF0A7_TypeDefinitionIndex = 42975;
+inline static constexpr unsigned int Class_3_A9F56393F12AF0A7_TypeDefinitionIndex = 48961;
 
 class Class_3_A9F56393F12AF0A7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayVideoSequence*>
 {

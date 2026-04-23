@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_Parameter_TypeDefinitionIndex = 30985;
+	inline static constexpr unsigned int CriAtomEx_Parameter_TypeDefinitionIndex = 36705;
 
 	enum class CriAtomEx_Parameter : ::System::Int32
 	{

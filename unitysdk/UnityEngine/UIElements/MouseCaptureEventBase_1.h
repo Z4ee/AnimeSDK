@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseCaptureEventBase_1_TypeDefinitionIndex = 5878;
+	inline static constexpr unsigned int MouseCaptureEventBase_1_TypeDefinitionIndex = 5890;
 
 	template <typename T>
 	class MouseCaptureEventBase_1 : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>

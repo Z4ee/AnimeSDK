@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x184C2480)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x184C2470)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x184C24C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x184C25B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184C2460)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19EFD350)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x19EFD340)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x19EFD390)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EFD480)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DUPINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFD330)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DupInstruction_TypeDefinitionIndex = 3607;
+	inline static constexpr unsigned int DupInstruction_TypeDefinitionIndex = 3609;
 
 	class DupInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::DupInstruction** StaticGet_Instance()
 		{
-			return (::System::Linq::Expressions::Interpreter::DupInstruction**)Il2CppClass::FromTypeDefinitionIndex(DupInstruction_TypeDefinitionIndex)->GetStaticField(0xF580);
+			return (::System::Linq::Expressions::Interpreter::DupInstruction**)Il2CppClass::FromTypeDefinitionIndex(DupInstruction_TypeDefinitionIndex)->GetStaticField(0x12820);
 		}
 
 		::System::Void _ctor()

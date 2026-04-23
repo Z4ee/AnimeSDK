@@ -5,23 +5,23 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_5469D397DAE62876;
-class Class_2_7AA0468CE6C1F3D7;
+class Class_2_7AA0468CE6C1F3D7_1;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define CLASS_1_97709FA9621EC553_METHOD_1_3F7D432C99ECDDFB_OFFSET UNITYSDK_OFFSET(0x89B37B0)
-#define CLASS_1_97709FA9621EC553_METHOD_1_C20B8F6D1D691CDB_OFFSET UNITYSDK_OFFSET(0x89B37F0)
-#define CLASS_1_97709FA9621EC553_METHOD_1_D0048EC1AB3D4CEF_OFFSET UNITYSDK_OFFSET(0x89B3840)
-#define CLASS_1_97709FA9621EC553__CCTOR_OFFSET UNITYSDK_OFFSET(0x89B38C0)
+#define CLASS_1_97709FA9621EC553_METHOD_1_3F7D432C99ECDDFB_OFFSET UNITYSDK_OFFSET(0x12A75F80)
+#define CLASS_1_97709FA9621EC553_METHOD_1_C20B8F6D1D691CDB_OFFSET UNITYSDK_OFFSET(0x12A75FC0)
+#define CLASS_1_97709FA9621EC553_METHOD_1_D0048EC1AB3D4CEF_OFFSET UNITYSDK_OFFSET(0x12A76010)
+#define CLASS_1_97709FA9621EC553__CCTOR_OFFSET UNITYSDK_OFFSET(0x12A76090)
 
-inline static constexpr unsigned int Class_1_97709FA9621EC553_TypeDefinitionIndex = 44751;
+inline static constexpr unsigned int Class_1_97709FA9621EC553_TypeDefinitionIndex = 51497;
 
 class Class_1_97709FA9621EC553 : public ::System::Object
 {
 public:
 	static ::System::Func_3<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_5469D397DAE62876*, ::System::Boolean>** StaticGet_Field_1_0()
 	{
-		return (::System::Func_3<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_5469D397DAE62876*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97709FA9621EC553_TypeDefinitionIndex)->GetStaticField(0x44300);
+		return (::System::Func_3<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_5469D397DAE62876*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97709FA9621EC553_TypeDefinitionIndex)->GetStaticField(0x40870);
 	}
 
 	static ::System::Void _cctor()
@@ -29,9 +29,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_97709FA9621EC553__CCTOR_OFFSET))();
 	}
 
-	static ::System::Void Method_1_3F7D432C99ECDDFB(::Class_2_7AA0468CE6C1F3D7* a1)
+	static ::System::Void Method_1_3F7D432C99ECDDFB(::Class_2_7AA0468CE6C1F3D7_1* a1)
 	{
-		return ((::System::Void(*)(::Class_2_7AA0468CE6C1F3D7*))((::PBYTE)hIl2Cpp + CLASS_1_97709FA9621EC553_METHOD_1_3F7D432C99ECDDFB_OFFSET))(a1);
+		return ((::System::Void(*)(::Class_2_7AA0468CE6C1F3D7_1*))((::PBYTE)hIl2Cpp + CLASS_1_97709FA9621EC553_METHOD_1_3F7D432C99ECDDFB_OFFSET))(a1);
 	}
 
 	static ::System::Boolean Method_1_C20B8F6D1D691CDB(::RPG::GameCore::EnumStatusType a1, ::RPG::GameCore::EnumStatusTypeMask a2)

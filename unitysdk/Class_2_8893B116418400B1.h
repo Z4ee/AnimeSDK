@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_8893B116418400B1_METHOD_2_A72EC42B275515D0_OFFSET UNITYSDK_OFFSET(0x1152F460)
-#define CLASS_2_8893B116418400B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1152F6A0)
-#define CLASS_2_8893B116418400B1__ONBIND_OFFSET UNITYSDK_OFFSET(0x1152F3D0)
-#define CLASS_2_8893B116418400B1___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1152F6D0)
+#define CLASS_2_8893B116418400B1_METHOD_2_A72EC42B275515D0_OFFSET UNITYSDK_OFFSET(0x98DAEF0)
+#define CLASS_2_8893B116418400B1__CTOR_OFFSET UNITYSDK_OFFSET(0x98DB130)
+#define CLASS_2_8893B116418400B1__ONBIND_OFFSET UNITYSDK_OFFSET(0x98DAE60)
+#define CLASS_2_8893B116418400B1___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x98DB160)
 
-inline static constexpr unsigned int Class_2_8893B116418400B1_TypeDefinitionIndex = 58728;
+inline static constexpr unsigned int Class_2_8893B116418400B1_TypeDefinitionIndex = 66052;
 
 class Class_2_8893B116418400B1 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
-	::UnityEngine::Transform* Field_2_1; // 0x60
-	::UnityEngine::Transform* Field_2_2; // 0x68
+	::UnityEngine::Transform* Field_2_2; // 0x60
+	::UnityEngine::Transform* Field_2_1; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_MULTIPLYBYCONSTANT_EXECUTE_OFFSET UNITYSDK_OFFSET(0x21040A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_MULTIPLYBYCONSTANT_EXECUTE_OFFSET UNITYSDK_OFFSET(0x22D6C60)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicMesh_MultiplyByConstant_TypeDefinitionIndex = 35023;
+	inline static constexpr unsigned int AlembicMesh_MultiplyByConstant_TypeDefinitionIndex = 40851;
 
 	struct alignas(8) AlembicMesh_MultiplyByConstant
 	{

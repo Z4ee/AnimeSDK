@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockOrthographicReset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EE5B934B7398C796_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8751FA0)
-#define CLASS_3_EE5B934B7398C796__CTOR_OFFSET UNITYSDK_OFFSET(0x8751F70)
+#define CLASS_3_EE5B934B7398C796_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11E16300)
+#define CLASS_3_EE5B934B7398C796__CTOR_OFFSET UNITYSDK_OFFSET(0x11E162D0)
 
-inline static constexpr unsigned int Class_3_EE5B934B7398C796_TypeDefinitionIndex = 46949;
+inline static constexpr unsigned int Class_3_EE5B934B7398C796_TypeDefinitionIndex = 53681;
 
 class Class_3_EE5B934B7398C796 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockOrthographicReset*>
 {

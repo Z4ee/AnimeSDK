@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnisotropicFiltering_TypeDefinitionIndex = 3972;
+	inline static constexpr unsigned int AnisotropicFiltering_TypeDefinitionIndex = 3974;
 
 	enum class AnisotropicFiltering : ::System::Int32
 	{

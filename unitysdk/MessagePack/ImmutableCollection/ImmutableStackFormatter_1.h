@@ -7,7 +7,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableStackFormatter_1_TypeDefinitionIndex = 9215;
+	inline static constexpr unsigned int ImmutableStackFormatter_1_TypeDefinitionIndex = 9412;
 
 	template <typename T>
 	class ImmutableStackFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::Il2CppArray<T>*, ::System::Collections::Immutable::ImmutableStack_1<T>*>

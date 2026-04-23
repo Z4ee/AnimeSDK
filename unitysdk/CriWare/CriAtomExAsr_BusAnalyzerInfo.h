@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXASR_BUSANALYZERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14F1350)
+#define CRIWARE_CRIATOMEXASR_BUSANALYZERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16257E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerInfo_TypeDefinitionIndex = 31030;
+	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerInfo_TypeDefinitionIndex = 36750;
 
 	struct alignas(8) CriAtomExAsr_BusAnalyzerInfo
 	{

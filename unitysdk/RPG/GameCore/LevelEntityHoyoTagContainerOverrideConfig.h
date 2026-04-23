@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17333F30)
-#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17334070)
+#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A40DE0)
+#define RPG_GAMECORE_LEVELENTITYHOYOTAGCONTAINEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A40F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityHoyoTagContainerOverrideConfig_TypeDefinitionIndex = 15798;
+	inline static constexpr unsigned int LevelEntityHoyoTagContainerOverrideConfig_TypeDefinitionIndex = 16324;
 
 	class LevelEntityHoyoTagContainerOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

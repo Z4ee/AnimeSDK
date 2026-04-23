@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERBUFFER_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x13C40)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERBUFFER_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x13C30)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int FormatProvider_Number_NumberBuffer_TypeDefinitionIndex = 4859;
+	inline static constexpr unsigned int FormatProvider_Number_NumberBuffer_TypeDefinitionIndex = 4867;
 
 	struct alignas(8) FormatProvider_Number_NumberBuffer
 	{

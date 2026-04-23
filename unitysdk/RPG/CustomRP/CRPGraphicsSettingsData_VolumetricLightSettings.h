@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOLUMETRICLIGHTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A707C0)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_VOLUMETRICLIGHTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18113A90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_VolumetricLightSettings_TypeDefinitionIndex = 29289;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_VolumetricLightSettings_TypeDefinitionIndex = 35056;
 
 	class CRPGraphicsSettingsData_VolumetricLightSettings : public ::System::Object
 	{

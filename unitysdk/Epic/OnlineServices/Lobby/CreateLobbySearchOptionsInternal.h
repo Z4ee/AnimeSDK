@@ -6,13 +6,13 @@ namespace Epic::OnlineServices::Lobby { class CreateLobbySearchOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x48190)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x48B90)
 #define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONSINTERNAL_SET_MAXRESULTS_OFFSET UNITYSDK_OFFSET(0x1D50)
 #define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1D60)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int CreateLobbySearchOptionsInternal_TypeDefinitionIndex = 36016;
+	inline static constexpr unsigned int CreateLobbySearchOptionsInternal_TypeDefinitionIndex = 41842;
 
 	struct alignas(4) CreateLobbySearchOptionsInternal
 	{

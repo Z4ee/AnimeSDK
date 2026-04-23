@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HandleAxis_TypeDefinitionIndex = 34129;
+	inline static constexpr unsigned int HandleAxis_TypeDefinitionIndex = 39948;
 
 	enum class HandleAxis : ::System::Int32
 	{

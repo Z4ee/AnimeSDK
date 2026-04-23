@@ -12,20 +12,20 @@ namespace System::Xml { class XmlResolver; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_LaterInitParam_TypeDefinitionIndex = 1840;
+	inline static constexpr unsigned int XmlTextReaderImpl_LaterInitParam_TypeDefinitionIndex = 1841;
 
 	class XmlTextReaderImpl_LaterInitParam : public ::System::Object
 	{
 	public:
 		::System::String* inputUriStr; // 0x10
-		::System::IO::TextReader* inputTextReader; // 0x18
-		::System::Xml::XmlParserContext* inputContext; // 0x20
-		::Il2CppArray<::System::Byte>* inputBytes; // 0x28
-		::System::Uri* inputbaseUri; // 0x30
-		::System::Xml::XmlResolver* inputUriResolver; // 0x38
-		::System::IO::Stream* inputStream; // 0x40
-		::System::Boolean useAsync; // 0x48
-		::System::Int32 inputByteCount; // 0x4C
-		::System::Xml::XmlTextReaderImpl_InitInputType initType; // 0x50
+		::System::IO::Stream* inputStream; // 0x18
+		::System::Uri* inputbaseUri; // 0x20
+		::System::Xml::XmlResolver* inputUriResolver; // 0x28
+		::System::IO::TextReader* inputTextReader; // 0x30
+		::Il2CppArray<::System::Byte>* inputBytes; // 0x38
+		::System::Xml::XmlParserContext* inputContext; // 0x40
+		::System::Xml::XmlTextReaderImpl_InitInputType initType; // 0x48
+		::System::Boolean useAsync; // 0x4C
+		::System::Int32 inputByteCount; // 0x50
 	};
 }

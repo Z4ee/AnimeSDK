@@ -6,28 +6,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGEXAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1779D5C0)
-#define RPG_GAMECORE_SWORDTRAININGEXAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1779DA40)
+#define RPG_GAMECORE_SWORDTRAININGEXAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EC3820)
+#define RPG_GAMECORE_SWORDTRAININGEXAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC3CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingExamRow_TypeDefinitionIndex = 11375;
+	inline static constexpr unsigned int SwordTrainingExamRow_TypeDefinitionIndex = 11777;
 
 	class SwordTrainingExamRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NormalCommentList; // 0x10
-		::System::String* EnemyImage; // 0x18
-		::Il2CppArray<::System::UInt32>* ExcellentCommentList; // 0x20
-		::Il2CppArray<::System::UInt32>* SuccessPerformID; // 0x28
-		::System::UInt32 FailPerformID; // 0x30
-		::System::UInt32 EnemyPower; // 0x34
-		::System::UInt32 StageID; // 0x38
-		::System::UInt32 PrePerformID; // 0x3C
-		::System::UInt32 ExamID; // 0x40
-		::System::UInt32 BattleAreaID; // 0x44
+		::Il2CppArray<::System::UInt32>* SuccessPerformID; // 0x10
+		::Il2CppArray<::System::UInt32>* ExcellentCommentList; // 0x18
+		::Il2CppArray<::System::UInt32>* NormalCommentList; // 0x20
+		::System::String* EnemyImage; // 0x28
+		::System::UInt32 ExamID; // 0x30
+		::System::UInt32 PrePerformID; // 0x34
+		::System::UInt32 EnemyPower; // 0x38
+		::System::Boolean IsLastExam; // 0x3C
+		::System::UInt32 BattleAreaID; // 0x40
 		::RPG::Client::TextID EnemyName; // 0x48
-		::System::Boolean IsLastExam; // 0x58
+		::System::UInt32 StageID; // 0x58
+		::System::UInt32 FailPerformID; // 0x5C
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int StaticAccessorType_TypeDefinitionIndex = 3712;
+	inline static constexpr unsigned int StaticAccessorType_TypeDefinitionIndex = 3714;
 
 	enum class StaticAccessorType : ::System::Int32
 	{

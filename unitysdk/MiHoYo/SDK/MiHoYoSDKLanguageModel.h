@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKLANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8518840)
+#define MIHOYO_SDK_MIHOYOSDKLANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8D4B1F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLanguageModel_TypeDefinitionIndex = 37112;
+	inline static constexpr unsigned int MiHoYoSDKLanguageModel_TypeDefinitionIndex = 42957;
 
 	class MiHoYoSDKLanguageModel : public ::System::Object
 	{

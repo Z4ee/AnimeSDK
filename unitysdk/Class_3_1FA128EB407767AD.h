@@ -5,17 +5,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_3_1FA128EB407767AD_METHOD_3_387C40D074FB1980_OFFSET UNITYSDK_OFFSET(0x16B734E0)
-#define CLASS_3_1FA128EB407767AD_METHOD_3_8C07A6A51F854693_OFFSET UNITYSDK_OFFSET(0x16B73570)
-#define CLASS_3_1FA128EB407767AD__CTOR_OFFSET UNITYSDK_OFFSET(0x16B73540)
+#define CLASS_3_1FA128EB407767AD_METHOD_3_387C40D074FB1980_OFFSET UNITYSDK_OFFSET(0x183E0DC0)
+#define CLASS_3_1FA128EB407767AD_METHOD_3_8C07A6A51F854693_OFFSET UNITYSDK_OFFSET(0x183E0E50)
+#define CLASS_3_1FA128EB407767AD__CTOR_OFFSET UNITYSDK_OFFSET(0x183E0E20)
 
-inline static constexpr unsigned int Class_3_1FA128EB407767AD_TypeDefinitionIndex = 20578;
+inline static constexpr unsigned int Class_3_1FA128EB407767AD_TypeDefinitionIndex = 21262;
 
 class Class_3_1FA128EB407767AD : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* Field_3_1; // 0x18
-	::System::String* Field_3_0; // 0x20
+	::System::String* Field_3_0; // 0x18
+	::System::String* Field_3_1; // 0x20
 	::System::Single Field_3_2; // 0x28
 
 	::System::Void _ctor()

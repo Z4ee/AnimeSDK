@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AIPathwayInfo; }
 namespace RPG::GameCore { class AISlaveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AICONFIGINFO_METHOD_2_75B337F25F4579FB_OFFSET UNITYSDK_OFFSET(0x16E8F260)
-#define RPG_GAMECORE_AICONFIGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16E8F4F0)
+#define RPG_GAMECORE_AICONFIGINFO_METHOD_2_75B337F25F4579FB_OFFSET UNITYSDK_OFFSET(0x185EF840)
+#define RPG_GAMECORE_AICONFIGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185EFAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIConfigInfo_TypeDefinitionIndex = 15825;
+	inline static constexpr unsigned int AIConfigInfo_TypeDefinitionIndex = 16351;
 
 	class AIConfigInfo : public ::RPG::GameCore::JsonConfig
 	{

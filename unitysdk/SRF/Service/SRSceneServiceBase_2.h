@@ -8,7 +8,7 @@ namespace UnityEngine { class Object; }
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRSceneServiceBase_2_TypeDefinitionIndex = 27700;
+	inline static constexpr unsigned int SRSceneServiceBase_2_TypeDefinitionIndex = 33324;
 
 	template <typename T, typename TImpl>
 	class SRSceneServiceBase_2 : public ::SRF::Service::SRServiceBase_1<T>

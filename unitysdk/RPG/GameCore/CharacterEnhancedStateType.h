@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEnhancedStateType_TypeDefinitionIndex = 21419;
+	inline static constexpr unsigned int CharacterEnhancedStateType_TypeDefinitionIndex = 22152;
 
 	enum class CharacterEnhancedStateType : ::System::Int32
 	{

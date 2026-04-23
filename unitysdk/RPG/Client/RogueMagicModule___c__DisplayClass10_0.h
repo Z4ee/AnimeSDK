@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueMagicModule; }
 
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3237B0)
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0__SETAUTOSHOWENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xA328110)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB05A110)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS10_0__SETAUTOSHOWENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB05EA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass10_0_TypeDefinitionIndex = 54920;
+	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass10_0_TypeDefinitionIndex = 62108;
 
 	class RogueMagicModule___c__DisplayClass10_0 : public ::System::Object
 	{

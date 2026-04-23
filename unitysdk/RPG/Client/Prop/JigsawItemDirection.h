@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawItemDirection_TypeDefinitionIndex = 64106;
+	inline static constexpr unsigned int JigsawItemDirection_TypeDefinitionIndex = 72153;
 
 	enum class JigsawItemDirection : ::System::Int32
 	{

@@ -5,22 +5,22 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x20E7FB0)
-#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x20E7F70)
+#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22B9A70)
+#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22B9A30)
 #define RPG_CUSTOMRP_RTIDHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define RPG_CUSTOMRP_RTIDHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x20E7ED0)
-#define RPG_CUSTOMRP_RTIDHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AD26C0)
-#define RPG_CUSTOMRP_RTIDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x20E7ED0)
+#define RPG_CUSTOMRP_RTIDHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x22B9990)
+#define RPG_CUSTOMRP_RTIDHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x181758C0)
+#define RPG_CUSTOMRP_RTIDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x22B9990)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RTIDHandle_TypeDefinitionIndex = 29197;
+	inline static constexpr unsigned int RTIDHandle_TypeDefinitionIndex = 34964;
 
 	struct alignas(8) RTIDHandle
 	{
 		static ::RPG::CustomRP::RTIDHandle* StaticGet_CameraTarget()
 		{
-			return (::RPG::CustomRP::RTIDHandle*)Il2CppClass::FromTypeDefinitionIndex(RTIDHandle_TypeDefinitionIndex)->GetStaticField(0x100F0);
+			return (::RPG::CustomRP::RTIDHandle*)Il2CppClass::FromTypeDefinitionIndex(RTIDHandle_TypeDefinitionIndex)->GetStaticField(0x11280);
 		}
 		::System::Int32 id; // 0x10
 		::System::Int32 mip; // 0x14

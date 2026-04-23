@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_UI3DMAP3DCAMERASETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xA65D890)
+#define RPG_CLIENT_UI3DMAP3DCAMERASETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xB3B7830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DMap3DCameraSettings_TypeDefinitionIndex = 59840;
+	inline static constexpr unsigned int UI3DMap3DCameraSettings_TypeDefinitionIndex = 67236;
 
 	class UI3DMap3DCameraSettings : public ::UnityEngine::MonoBehaviour
 	{

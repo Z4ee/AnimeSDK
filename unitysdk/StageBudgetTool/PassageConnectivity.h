@@ -3,7 +3,7 @@
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int PassageConnectivity_TypeDefinitionIndex = 38595;
+	inline static constexpr unsigned int PassageConnectivity_TypeDefinitionIndex = 44487;
 
 	enum class PassageConnectivity : ::System::Int32
 	{

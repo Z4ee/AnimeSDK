@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/EmoBlendShapeParamBase.h"
 
-#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPEMOUTHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x95F7BF0)
+#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPEMOUTHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA27E780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeMouthParam_TypeDefinitionIndex = 48639;
+	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeMouthParam_TypeDefinitionIndex = 55388;
 
 	class EmoBlendShapesConfig_BlendShapeMouthParam : public ::RPG::Client::EmoBlendShapeParamBase
 	{

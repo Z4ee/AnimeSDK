@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17228C10)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17228A90)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17228760)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17228A30)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17228DE0)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x172287E0)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17228E20)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17229000)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17229340)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17229650)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17228F60)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17228EC0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1893B3A0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1893B220)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1893AEF0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1893B1C0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1893B570)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1893AF70)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1893B5B0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1893B790)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1893BAD0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1893BDE0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1893B6F0)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1893B650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaShowToastDataExcelTable_TypeDefinitionIndex = 12211;
+	inline static constexpr unsigned int GachaShowToastDataExcelTable_TypeDefinitionIndex = 12644;
 
 	class GachaShowToastDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F710);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GachaShowToastDataRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GachaShowToastDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F718);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x33810);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F720);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x33818);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GachaShowToastDataRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x8440);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GachaShowToastDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x33820);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x8441);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xC920);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GachaShowToastDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xC921);
 		}
 
 		static ::System::Void _cctor()

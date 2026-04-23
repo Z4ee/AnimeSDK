@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearChallengeBossInfoPanelState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D12BD9801765738E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114E0190)
-#define CLASS_3_D12BD9801765738E__CTOR_OFFSET UNITYSDK_OFFSET(0x114E0160)
+#define CLASS_3_D12BD9801765738E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFEC4B0)
+#define CLASS_3_D12BD9801765738E__CTOR_OFFSET UNITYSDK_OFFSET(0xDFEC480)
 
-inline static constexpr unsigned int Class_3_D12BD9801765738E_TypeDefinitionIndex = 44604;
+inline static constexpr unsigned int Class_3_D12BD9801765738E_TypeDefinitionIndex = 51338;
 
 class Class_3_D12BD9801765738E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearChallengeBossInfoPanelState*>
 {

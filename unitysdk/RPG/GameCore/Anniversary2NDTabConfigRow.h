@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F84610)
-#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F84880)
+#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186A7380)
+#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186A75F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 11551;
+	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 11953;
 
 	class Anniversary2NDTabConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RelatedAnniversaryContentList; // 0x10
-		::System::String* TabIcon; // 0x18
+		::System::String* TabIcon; // 0x10
+		::Il2CppArray<::System::UInt32>* RelatedAnniversaryContentList; // 0x18
 		::RPG::Client::TextID TabName; // 0x20
 		::RPG::GameCore::Anniversary2NDPanelEnum PanelType; // 0x30
 		::System::UInt32 TabID; // 0x34

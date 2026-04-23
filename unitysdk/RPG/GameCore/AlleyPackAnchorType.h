@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyPackAnchorType_TypeDefinitionIndex = 11522;
+	inline static constexpr unsigned int AlleyPackAnchorType_TypeDefinitionIndex = 11924;
 
 	enum class AlleyPackAnchorType : ::System::Int32
 	{

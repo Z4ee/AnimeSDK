@@ -6,22 +6,22 @@
 class Class_1_2D33D4E16DA6E537;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C863D1259822C107_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C5AFF0)
-#define CLASS_1_C863D1259822C107_METHOD_1_0CF628B0CBD5544B_OFFSET UNITYSDK_OFFSET(0x10C5B350)
-#define CLASS_1_C863D1259822C107_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x10C5B290)
-#define CLASS_1_C863D1259822C107_METHOD_1_FF63E816B4D956CD_OFFSET UNITYSDK_OFFSET(0x10C5B1A0)
-#define CLASS_1_C863D1259822C107__CTOR_OFFSET UNITYSDK_OFFSET(0x10C5AF80)
+#define CLASS_1_C863D1259822C107_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11A29690)
+#define CLASS_1_C863D1259822C107_METHOD_1_0CF628B0CBD5544B_OFFSET UNITYSDK_OFFSET(0x11A299F0)
+#define CLASS_1_C863D1259822C107_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x11A29930)
+#define CLASS_1_C863D1259822C107_METHOD_1_FF63E816B4D956CD_OFFSET UNITYSDK_OFFSET(0x11A29840)
+#define CLASS_1_C863D1259822C107__CTOR_OFFSET UNITYSDK_OFFSET(0x11A29620)
 
-inline static constexpr unsigned int Class_1_C863D1259822C107_TypeDefinitionIndex = 64008;
+inline static constexpr unsigned int Class_1_C863D1259822C107_TypeDefinitionIndex = 72055;
 
 class Class_1_C863D1259822C107 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_2D33D4E16DA6E537*>*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_2D33D4E16DA6E537*>* Field_1_4; // 0x18
-	::System::Int32 Field_1_1; // 0x20
-	::System::Int32 Field_1_3; // 0x24
-	::System::Int32 Field_1_2; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_2D33D4E16DA6E537*>* Field_1_4; // 0x10
+	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_2D33D4E16DA6E537*>*>* Field_1_0; // 0x18
+	::System::Int32 Field_1_2; // 0x20
+	::System::Int32 Field_1_1; // 0x24
+	::System::Int32 Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

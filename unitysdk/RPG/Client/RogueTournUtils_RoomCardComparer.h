@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IRogueTournPersonaRoomCard; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xA3E7DF0)
-#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C74B0)
+#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xB11FC90)
+#define RPG_CLIENT_ROGUETOURNUTILS_ROOMCARDCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FED40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils_RoomCardComparer_TypeDefinitionIndex = 55316;
+	inline static constexpr unsigned int RogueTournUtils_RoomCardComparer_TypeDefinitionIndex = 62507;
 
 	class RogueTournUtils_RoomCardComparer : public ::System::Object
 	{

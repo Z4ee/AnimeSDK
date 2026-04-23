@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1779D2C0)
-#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1779D480)
+#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EC3520)
+#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC36E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingExamCommentRow_TypeDefinitionIndex = 11378;
+	inline static constexpr unsigned int SwordTrainingExamCommentRow_TypeDefinitionIndex = 11780;
 
 	class SwordTrainingExamCommentRow : public ::System::Object
 	{
 	public:
 		::System::String* ImgPath; // 0x10
-		::RPG::Client::TextID Desc; // 0x18
-		::System::UInt32 CommentID; // 0x28
+		::System::UInt32 CommentID; // 0x18
+		::RPG::Client::TextID Desc; // 0x20
 
 		::System::Void _ctor()
 		{

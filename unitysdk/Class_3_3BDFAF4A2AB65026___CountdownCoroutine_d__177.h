@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_3_3BDFAF4A2AB65026;
+
+#define CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAA37F50)
+#define CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAA38700)
+#define CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAA38760)
+#define CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xAA38710)
+#define CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAA37F40)
+#define CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177__CTOR_OFFSET UNITYSDK_OFFSET(0xAA32FA0)
+
+inline static constexpr unsigned int Class_3_3BDFAF4A2AB65026___CountdownCoroutine_d__177_TypeDefinitionIndex = 55684;
+
+class Class_3_3BDFAF4A2AB65026___CountdownCoroutine_d__177 : public ::System::Object
+{
+public:
+	::System::Object* __2__current; // 0x10
+	::Class_3_3BDFAF4A2AB65026* __4__this; // 0x18
+	::System::Int32 __1__state; // 0x20
+
+	::System::Void _ctor(::System::Int32 __1__state)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177__CTOR_OFFSET))(this, __1__state);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3BDFAF4A2AB65026___COUNTDOWNCOROUTINE_D__177_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

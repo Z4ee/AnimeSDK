@@ -4,11 +4,11 @@
 
 namespace RPG::CustomRP { class AllBloomStage; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x8A180)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xE4130)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomParameter_TypeDefinitionIndex = 39352;
+	inline static constexpr unsigned int BloomParameter_TypeDefinitionIndex = 45261;
 
 	struct alignas(8) BloomParameter
 	{

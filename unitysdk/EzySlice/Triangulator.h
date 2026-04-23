@@ -7,13 +7,13 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_1_OFFSET UNITYSDK_OFFSET(0x83E1F00)
-#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_OFFSET UNITYSDK_OFFSET(0x83E3D80)
-#define EZYSLICE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x83E3E20)
+#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_1_OFFSET UNITYSDK_OFFSET(0x8C09F40)
+#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_OFFSET UNITYSDK_OFFSET(0x8C0BDC0)
+#define EZYSLICE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8C0BE60)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 37937;
+	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 43814;
 
 	class Triangulator : public ::System::Object
 	{
